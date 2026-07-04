@@ -189,6 +189,10 @@ const UNIVERSE_LARGE = {
   "Materials":   ["LIN","SHW","APD","FCX","NUE","DOW","NEM","CTVA","VMC","MLM","PPG","IP"]
 };
 const SECTORS = Object.keys(UNIVERSE).concat(["Any sector"]);
+const TICKER_SECTOR = {};
+[UNIVERSE, UNIVERSE_LARGE].forEach(u => {
+  for (const [sec, list] of Object.entries(u)) list.forEach(t => { if (!TICKER_SECTOR[t]) TICKER_SECTOR[t] = sec; });
+});
 const CAPS = [
   { label: "Under $2B — small companies", max: 2000 },     // Finnhub caps are in $ millions
   { label: "Under $10B — mid-size", max: 10000 },
@@ -216,7 +220,10 @@ let state = {
   capIdx: 1,
   results: [],
   watchlist: [],
-  scanning: false
+  scanning: false,
+  lookupValue: "",
+  lookupResult: null,
+  lookupError: null
 };
 
 /* ======================= storage ======================= */
@@ -707,9 +714,123 @@ function bindStockCards(root, listGetter) {
   });
 }
 
+async function lookupTicker(rawTicker) {
+  const tk = rawTicker.trim().toUpperCase();
+  if (!tk) return { error: "Type a ticker symbol first, like AAPL or CROX." };
+  try {
+    const [quote, metric] = await Promise.all([
+      fh("/quote", { symbol: tk }),
+      fh("/stock/metric", { symbol: tk, metric: "all" })
+    ]);
+    const price = quote.c;
+    if (!price) return { error: `Couldn't find a price for "${tk}" — check the symbol and try again.` };
+    const m = metric.metric || {};
+    const pe = m.peBasicExclExtraTTM ?? m.peTTM ?? m.peNormalizedAnnual;
+    const cap = m.marketCapitalization;
+    const high = m["52WeekHigh"];
+    const low = m["52WeekLow"];
+    if (!pe || pe <= 0 || !cap || !high) return { error: `"${tk}" is missing key data (P/E, market cap, or 52-week high) — likely unprofitable or too new to fully score. Not every ticker has enough public data for this app's checks.` };
+
+    const discount = (high - price) / high;
+    const sector = TICKER_SECTOR[tk] || "Unknown";
+    const s = Object.assign(
+      { ticker: tk, sector, price, pe, cap, high, low, discount,
+        strongBuy: 0, buy: 0, hold: 0, sell: 0, strongSell: 0, recTotal: 0 },
+      extractQuality(m, pe)
+    );
+
+    // peer comp against the same built-in universe list, if we recognize the sector
+    if (sector !== "Unknown") {
+      const uni = cap >= 50000 ? UNIVERSE_LARGE : UNIVERSE;
+      const peers = uni[sector] || [];
+      const peerPEs = [];
+      for (const peerTk of peers.filter(p => p !== tk).slice(0, 6)) {
+        try {
+          const pm = await fh("/stock/metric", { symbol: peerTk, metric: "all" });
+          const ppe = pm.metric && (pm.metric.peBasicExclExtraTTM ?? pm.metric.peTTM);
+          if (ppe && ppe > 0) peerPEs.push(ppe);
+        } catch (e) { if (e.message === "BADKEY") throw e; }
+        await sleep(650);
+      }
+      if (peerPEs.length >= 2) s.sectorMedianPE = median(peerPEs);
+    }
+
+    try {
+      const [recs, earn] = await Promise.all([
+        fh("/stock/recommendation", { symbol: tk }),
+        fh("/calendar/earnings", { symbol: tk, from: new Date().toISOString().slice(0,10), to: new Date(Date.now() + 45*864e5).toISOString().slice(0,10) })
+      ]);
+      if (recs && recs[0]) {
+        const r = recs[0];
+        Object.assign(s, {
+          strongBuy: r.strongBuy || 0, buy: r.buy || 0, hold: r.hold || 0,
+          sell: r.sell || 0, strongSell: r.strongSell || 0,
+          recTotal: (r.strongBuy||0)+(r.buy||0)+(r.hold||0)+(r.sell||0)+(r.strongSell||0)
+        });
+      }
+      const ev = (earn && earn.earningsCalendar || []).filter(e => e.date).sort((a,b) => a.date.localeCompare(b.date))[0];
+      if (ev) s.earningsDate = ev.date;
+    } catch (e) { if (e.message === "BADKEY") throw e; }
+
+    s.signal = computeSignal(s);
+    s.verdict = computeVerdict(s);
+    Object.assign(s, computeBands(s));
+    s.score = computeScore(s);
+    return { stock: s };
+  } catch (e) {
+    if (e.message === "BADKEY") throw e;
+    return { error: `Couldn't complete the lookup (${e.message}). Try again in a minute.` };
+  }
+}
+
+async function runLookup() {
+  const input = document.getElementById("lookupInput");
+  const btn = document.getElementById("lookupBtn");
+  const val = input.value;
+  state.lookupValue = val;
+  btn.disabled = true; btn.textContent = "Checking…";
+  const out = document.getElementById("lookupResult");
+  out.innerHTML = `<div class="progress-wrap"><div class="progress-line">Pulling live data on ${escapeHtml(val.trim().toUpperCase() || "that ticker")}…</div><div class="progress-track"><div class="progress-fill" style="width:60%"></div></div></div>`;
+  try {
+    const r = await lookupTicker(val);
+    if (r.error) {
+      state.lookupError = r.error; state.lookupResult = null;
+    } else {
+      state.lookupResult = r.stock; state.lookupError = null;
+    }
+  } catch (e) {
+    if (e.message === "BADKEY") {
+      try { localStorage.removeItem("uc:key"); } catch(_){}
+      state.key = null;
+      btn.disabled = false; btn.textContent = "Run the checks";
+      showSetup();
+      const ke = document.getElementById("keyError");
+      ke.classList.remove("hidden");
+      ke.textContent = "Finnhub rejected the API key. Double-check it and re-enter it below.";
+      return;
+    }
+    state.lookupError = "Something went wrong (" + e.message + "). Try again.";
+    state.lookupResult = null;
+  }
+  renderScout();
+}
+
 function renderScout() {
   const root = document.getElementById("tab-scout");
   root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">Look up a specific stock</div>
+      <p class="panel-copy">Already have a ticker in mind? Type it in and the app runs every check — P/E, health, peer comp, signal, desk levels, and score — on just that one.</p>
+      <div style="display:flex;gap:10px">
+        <input type="text" id="lookupInput" placeholder="e.g. AAPL" style="flex:1" autocomplete="off" value="${escapeHtml(state.lookupValue)}">
+        <button class="btn" id="lookupBtn">Run the checks</button>
+      </div>
+      <div id="lookupResult" style="margin-top:16px">${
+        state.lookupError ? `<div class="error">${escapeHtml(state.lookupError)}</div>`
+        : state.lookupResult ? stockCardHtml(state.lookupResult, state.watchlist.some(w => w.ticker === state.lookupResult.ticker))
+        : ""
+      }</div>
+    </div>
     <div class="panel">
       <div class="panel-title">Set your screen</div>
       <div class="field-label">Sector</div>
@@ -734,6 +855,10 @@ function renderScout() {
   const scanBtn = document.getElementById("scanBtn");
   if (scanBtn) scanBtn.addEventListener("click", () => { state.scanError = null; state.scanned = true; runScan(); });
   bindStockCards(root, () => state.results);
+  document.getElementById("lookupBtn").addEventListener("click", runLookup);
+  document.getElementById("lookupInput").addEventListener("keydown", (e) => { if (e.key === "Enter") runLookup(); });
+  document.getElementById("lookupInput").addEventListener("input", (e) => { state.lookupValue = e.target.value; });
+  if (state.lookupResult) bindStockCards(document.getElementById("lookupResult"), () => [state.lookupResult]);
 }
 
 async function refreshWatchPrices() {
