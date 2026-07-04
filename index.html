@@ -244,6 +244,28 @@ function computeSignal(s) {
   return "WATCH";
 }
 
+function computeBands(s) {
+  // The desk's pre-committed price levels, all auditable:
+  // fair value = EPS × target P/E (13–19×, scaling with health checks passed);
+  // buy below = fair value minus a 15% margin of safety;
+  // avoid above = the price where P/E would exceed 25 (exits the healthy band).
+  const eps = s.price / s.pe;
+  const targetPE = 13 + 1.5 * (s.qPass || 0);
+  const fair = eps * targetPE;
+  return {
+    fairValue: fair,
+    buyBelow: fair * 0.85,
+    avoidAbove: eps * 25
+  };
+}
+
+function zoneOf(s) {
+  if (!s.buyBelow) return null;
+  if (s.price <= s.buyBelow) return "BUYZONE";
+  if (s.price >= s.avoidAbove) return "ABOVE";
+  return "BETWEEN";
+}
+
 function computeVerdict(s) {
   // 0 = deep bargain, 100 = pricey. Half from P/E position in the healthy
   // band, half from how close price sits to its 52-week high.
@@ -270,8 +292,27 @@ function riskText(s) {
 }
 
 function sellIfText(s) {
+  if (s.avoidAbove) return `Consider trimming as it approaches $${s.avoidAbove.toFixed(2)} without earnings improving — above that, the P/E leaves healthy territory.`;
   const near = (s.high * 0.97).toFixed(2);
   return `Consider trimming if it climbs near its 52-week high (~$${near}) without earnings improving, or if the P/E drifts well above 25.`;
+}
+
+function bandsHtml(s) {
+  if (!s.buyBelow) return "";
+  const zone = zoneOf(s);
+  const msg = zone === "BUYZONE"
+    ? `<span class="k">In the buy zone.</span> Price is already below the desk's buy-below level.`
+    : zone === "ABOVE"
+      ? `<span class="k-risk">Above the ceiling.</span> Price is past the level where the value math works — the desk would pass.`
+      : `<span class="k-sell">In between.</span> Watch it — patient money waits for $${s.buyBelow.toFixed(2)} or better.`;
+  return `
+    <div class="field-label" style="margin-top:14px">Desk price levels — formula-based, see Learn tab</div>
+    <div class="stats" style="margin-top:8px">
+      <div class="stat"><span style="color:var(--kelp)">Buy below</span><strong>$${s.buyBelow.toFixed(2)}</strong></div>
+      <div class="stat"><span>Fair value est.</span><strong>$${s.fairValue.toFixed(2)}</strong></div>
+      <div class="stat"><span style="color:var(--coral)">Avoid above</span><strong>$${s.avoidAbove.toFixed(2)}</strong></div>
+    </div>
+    <div style="font-size:13.5px;line-height:1.5;margin-top:4px">${msg}</div>`;
 }
 
 function num(v) { return (typeof v === "number" && isFinite(v)) ? v : null; }
@@ -370,6 +411,7 @@ async function runScan() {
     finalists.forEach(s => {
       s.signal = computeSignal(s);
       s.verdict = computeVerdict(s);
+      Object.assign(s, computeBands(s));
     });
     state.results = finalists;
   } catch (e) {
@@ -513,6 +555,7 @@ function stockCardHtml(s, inWatch) {
         <div class="stat"><span>Analysts</span><strong>${s.recTotal ? (s.strongBuy + s.buy) + " buy / " + (s.sell + s.strongSell) + " sell" : "n/a"}</strong></div>
       </div>
       ${healthChips(s)}
+      ${bandsHtml(s)}
       <div class="gauge">
         <div class="gauge-labels"><span>Deep value</span><span>Fairly priced</span><span>Pricey</span></div>
         <div class="gauge-track"><div class="gauge-marker" style="left:${s.verdict}%"></div></div>
@@ -573,14 +616,58 @@ function renderScout() {
   bindStockCards(root, () => state.results);
 }
 
+async function refreshWatchPrices() {
+  const btn = document.getElementById("refreshWatch");
+  const banner = document.getElementById("watchAlerts");
+  btn.disabled = true; btn.textContent = "Checking prices…";
+  const hits = [];
+  try {
+    for (const s of state.watchlist) {
+      try {
+        const q = await fh("/quote", { symbol: s.ticker });
+        if (q && q.c) {
+          const before = zoneOf(s);
+          s.price = q.c;
+          const after = zoneOf(s);
+          if (after === "BUYZONE") hits.push(`${s.ticker} is in its buy zone ($${s.price.toFixed(2)} ≤ $${s.buyBelow.toFixed(2)})`);
+          else if (after === "ABOVE") hits.push(`${s.ticker} is above its ceiling ($${s.price.toFixed(2)} ≥ $${s.avoidAbove.toFixed(2)})`);
+          void before;
+        }
+      } catch (e) { if (e.message === "BADKEY") throw e; }
+      await sleep(1100);
+    }
+    saveWatchlist();
+    renderWatch();
+    const b = document.getElementById("watchAlerts");
+    if (b) {
+      b.classList.remove("hidden");
+      b.innerHTML = hits.length
+        ? `<strong>Price alerts:</strong> ${hits.map(escapeHtml).join(" · ")}`
+        : "Prices refreshed — nothing has crossed its buy or avoid level. Patience is a position too.";
+    }
+    return;
+  } catch (e) {
+    if (banner) { banner.classList.remove("hidden"); banner.textContent = "Couldn't refresh prices (" + e.message + ") — try again in a minute."; }
+  }
+  btn.disabled = false; btn.textContent = "Refresh prices & check alerts";
+}
+
 function renderWatch() {
   const root = document.getElementById("tab-watch");
   if (state.watchlist.length === 0) {
-    root.innerHTML = `<div class="empty"><div class="empty-title">Your watchlist is empty</div><p>Run a scan on the Scout tab and add stocks here. They're saved in this browser, and you can pull fresh news on each any time.</p></div>`;
+    root.innerHTML = `<div class="empty"><div class="empty-title">Your watchlist is empty</div><p>Run a scan on the Scout tab and add stocks here. They're saved in this browser, and you can pull fresh news and price alerts on them any time.</p></div>`;
     return;
   }
-  root.innerHTML = `<div class="hint">Numbers shown are from each stock's last scan — re-scan its sector for fresh prices. "Check news" is always live.</div>`
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">Price alerts</div>
+      <p class="panel-copy">One tap pulls a live quote for every stock below and flags anything that has dropped into its buy zone or risen past its avoid level.</p>
+      <button class="btn btn-big" id="refreshWatch">Refresh prices &amp; check alerts</button>
+      <div id="watchAlerts" class="baked hidden" style="margin-bottom:0"></div>
+    </div>`
     + state.watchlist.map(s => stockCardHtml(s, true)).join("");
+  const rbtn = document.getElementById("refreshWatch");
+  if (rbtn) rbtn.addEventListener("click", refreshWatchPrices);
   bindStockCards(root, () => state.watchlist);
 }
 
@@ -609,6 +696,7 @@ function renderLearn() {
     ["Price-to-Sales (P/S)", "Company price tag divided by yearly revenue. Handy as a sanity check next to P/E — under ~2 for a profitable company usually means expectations are modest."],
     ["Analyst ratings", "Professional analysts publish buy/hold/sell calls. The app counts the latest month's votes. They're often wrong individually, but a strong lean one way is a useful second opinion on top of the numbers."],
     ["IPO", "A private company selling shares to the public for the first time. Exciting but risky — no trading history, and early prices are driven by hype. Many pros wait 6–12 months and a couple of earnings reports."],
+    ["Desk price levels (buy below / avoid above)", "Pre-committed levels so decisions happen before emotions do. <code>Fair value</code> = earnings per share × a target P/E of 13–19× (higher when more health checks pass — better businesses deserve richer multiples). <code>Buy below</code> = fair value minus a 15% margin of safety, the classic cushion for being wrong. <code>Avoid above</code> = the price where P/E would exceed 25 and leave healthy territory. Formula estimates from current earnings, not professional advice — a bad earnings report changes all three overnight."],
     ["Earnings countdown", "The ⚡ chip means the company reports quarterly results within ~45 days. Earnings day is when prices jump the most, up or down. If you're new: buying a beaten-down stock right before earnings is the riskiest possible timing — many investors wait until after the report to see the reaction."],
     ["Diversification", "Don't put everything in one stock or sector. The 'Any sector' scan exists for exactly this reason — spreading bets is the closest thing investing has to a free lunch."],
     ["About the data", "Quotes, fundamentals, ratings, news, and the IPO calendar come live from Finnhub's free tier. The scan paces itself to respect the free rate limit, which is why a full sector takes about a minute."]
