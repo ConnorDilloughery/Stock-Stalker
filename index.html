@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Undercurrent — local value scout</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap');
+
+  :root {
+    --ink: #16232E; --mist: #F2F5F6; --card: #FFFFFF;
+    --kelp: #1E7A5A; --coral: #C94F3D; --amber: #9A6B1B;
+    --tide: #2E5E7E; --line: #DCE3E7; --dim: #5C6B76;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'IBM Plex Sans', system-ui, sans-serif;
+    background: var(--mist); color: var(--ink);
+    margin: 0; padding: 0 0 48px;
+  }
+  .shell { max-width: 780px; margin: 0 auto; padding: 0 16px; }
+  header { padding: 28px 0 6px; }
+  .logo { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: 30px; letter-spacing: -0.5px; }
+  .logo em { font-style: normal; color: var(--tide); }
+  .tagline { color: var(--dim); font-size: 14px; margin-top: 2px; }
+  .disclaimer { font-size: 12px; color: var(--dim); background: #E9EEF1; border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; margin: 14px 0 4px; }
+
+  .tabs { display: flex; gap: 4px; margin: 16px 0 20px; border-bottom: 2px solid var(--line); }
+  .tab { background: none; border: none; font: 600 15px 'IBM Plex Sans', sans-serif; color: var(--dim); padding: 10px 14px; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -2px; }
+  .tab.on { color: var(--ink); border-bottom-color: var(--tide); }
+  .tab:focus-visible, button:focus-visible { outline: 2px solid var(--tide); outline-offset: 2px; }
+
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; margin-bottom: 18px; }
+  .panel-title { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: 20px; margin-bottom: 6px; }
+  .panel-copy { color: var(--dim); font-size: 14px; line-height: 1.5; margin: 4px 0 14px; }
+  .field-label { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--dim); margin: 14px 0 8px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .pick { border: 1px solid var(--line); background: var(--mist); border-radius: 999px; padding: 7px 14px; font: 500 13px 'IBM Plex Sans', sans-serif; color: var(--ink); cursor: pointer; }
+  .pick.on { background: var(--tide); border-color: var(--tide); color: #fff; }
+  .baked { font-size: 13px; color: var(--dim); margin: 16px 0; padding: 10px 12px; background: var(--mist); border-radius: 8px; }
+  .btn { border: none; border-radius: 8px; background: var(--tide); color: #fff; font: 600 14px 'IBM Plex Sans', sans-serif; padding: 10px 16px; cursor: pointer; }
+  .btn:disabled { opacity: 0.6; cursor: default; }
+  .btn-big { width: 100%; padding: 13px; font-size: 15px; }
+  .btn-quiet { background: var(--mist); color: var(--ink); border: 1px solid var(--line); }
+  input[type=text], input[type=password] {
+    width: 100%; padding: 11px 12px; border: 1px solid var(--line); border-radius: 8px;
+    font: 500 14px 'IBM Plex Mono', monospace; background: var(--mist); color: var(--ink);
+  }
+
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+  .card-head { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+  .ticker-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .ticker { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 20px; }
+  .name { color: var(--dim); font-size: 14px; margin-top: 2px; }
+  .chip { font-size: 12px; font-weight: 600; border-radius: 999px; padding: 3px 10px; white-space: nowrap; }
+  .price-block { text-align: right; }
+  .price { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 20px; }
+  .room { color: var(--kelp); font-weight: 600; font-size: 13px; margin-top: 2px; }
+
+  .stats { display: flex; gap: 10px; margin: 14px 0; flex-wrap: wrap; }
+  .stat { flex: 1; min-width: 100px; background: var(--mist); border-radius: 8px; padding: 8px 12px; }
+  .stat span { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--dim); }
+  .stat strong { font-family: 'IBM Plex Mono', monospace; font-size: 15px; }
+
+  .gauge { margin: 14px 0 6px; }
+  .gauge-labels { display: flex; justify-content: space-between; font-size: 11px; color: var(--dim); margin-bottom: 5px; }
+  .gauge-track { position: relative; height: 8px; border-radius: 999px; background: linear-gradient(90deg, #1E7A5A 0%, #D8B45A 55%, #C94F3D 100%); }
+  .gauge-marker { position: absolute; top: -4px; width: 4px; height: 16px; border-radius: 2px; background: var(--ink); transform: translateX(-50%); box-shadow: 0 0 0 2px var(--card); }
+
+  .notes { margin-top: 14px; font-size: 14px; line-height: 1.55; }
+  .notes p { margin: 6px 0; }
+  .k { color: var(--kelp); font-weight: 600; }
+  .k-risk { color: var(--coral); font-weight: 600; }
+  .k-sell { color: var(--amber); font-weight: 600; }
+
+  .card-actions { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
+
+  .news { margin-top: 14px; border-top: 1px dashed var(--line); padding-top: 12px; }
+  .news-item { padding: 10px 0; border-bottom: 1px solid var(--mist); }
+  .news-item:last-child { border-bottom: none; }
+  .news-top { display: flex; gap: 10px; align-items: center; }
+  .news-date { font-size: 12px; color: var(--dim); }
+  .news-headline { font-weight: 600; font-size: 14px; margin-top: 5px; }
+  .news-headline a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
+  .news-src { font-size: 13px; color: var(--dim); margin-top: 3px; }
+  .news-empty { margin-top: 14px; font-size: 13px; color: var(--dim); border-top: 1px dashed var(--line); padding-top: 12px; }
+
+  .progress-wrap { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; }
+  .progress-line { font-weight: 600; font-size: 14px; margin-bottom: 8px; }
+  .progress-sub { font-size: 12px; color: var(--dim); margin-top: 8px; }
+  .progress-track { height: 8px; border-radius: 999px; background: var(--mist); overflow: hidden; }
+  .progress-fill { height: 100%; width: 0%; background: var(--tide); border-radius: 999px; transition: width 0.3s; }
+
+  .error { background: #F7E6E2; color: #7C3225; border: 1px solid #E8C4BC; border-radius: 10px; padding: 12px 16px; font-size: 14px; margin-bottom: 16px; }
+  .empty { text-align: center; padding: 48px 24px; color: var(--dim); }
+  .empty-title { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: 20px; color: var(--ink); margin-bottom: 8px; }
+  .hint { font-size: 13px; color: var(--dim); margin-bottom: 14px; }
+
+  .learn-card { padding: 16px 20px; }
+  .learn-term { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: 17px; margin-bottom: 4px; }
+  .learn-def { font-size: 14px; line-height: 1.6; color: #3A4852; }
+  code { font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; background: var(--mist); padding: 1px 5px; border-radius: 4px; }
+
+  .hidden { display: none; }
+  @media (max-width: 480px) {
+    .logo { font-size: 24px; }
+    .tab { padding: 10px 8px; font-size: 14px; }
+    .card, .panel { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="shell">
+  <header>
+    <div class="logo">Under<em>current</em></div>
+    <div class="tagline">Local value scout — live market data, zero AI tokens.</div>
+    <div class="disclaimer">
+      Educational research tool, not financial advice. Signals are computed from simple public-data rules (see the Learn tab) and can be wrong — verify before trading, and never invest money you can't afford to lose.
+    </div>
+  </header>
+
+  <!-- API key setup -->
+  <div id="setup" class="panel hidden">
+    <div class="panel-title">One-time setup (2 minutes, free)</div>
+    <p class="panel-copy">
+      This app pulls live market data straight from Finnhub's free tier — no AI, no tokens, no cost.
+      Grab a free API key at <a href="https://finnhub.io/register" target="_blank" rel="noopener">finnhub.io/register</a>
+      (email signup, no credit card), paste it below, and you're set. The key is saved only in this browser on this computer.
+    </p>
+    <div class="field-label">Finnhub API key</div>
+    <input type="password" id="keyInput" placeholder="paste your key here" autocomplete="off">
+    <div style="height:12px"></div>
+    <button class="btn btn-big" id="saveKey">Save key and start scouting</button>
+    <div id="keyError" class="error hidden" style="margin-top:12px"></div>
+  </div>
+
+  <div id="app" class="hidden">
+    <nav class="tabs">
+      <button class="tab on" data-tab="scout">Scout</button>
+      <button class="tab" data-tab="watch">Watchlist</button>
+      <button class="tab" data-tab="ipo">IPO radar</button>
+      <button class="tab" data-tab="learn">Learn</button>
+    </nav>
+    <div id="tab-scout"></div>
+    <div id="tab-watch" class="hidden"></div>
+    <div id="tab-ipo" class="hidden"></div>
+    <div id="tab-learn" class="hidden"></div>
+  </div>
+</div>
+<script>
+/* ======================= data & config ======================= */
+
+const API = "https://finnhub.io/api/v1";
+
+// Built-in screening universe: liquid small/mid-cap US names by sector.
+// The live numeric filter does the real work — unprofitable or expensive
+// names in this list simply won't pass the screen on scan day.
+const UNIVERSE = {
+  "Technology":  ["SMTC","DIOD","POWI","CRUS","SLAB","ONTO","PLXS","SANM","KLIC","VECO","ACLS","FORM"],
+  "Healthcare":  ["SUPN","AMPH","PRGO","OGN","HSIC","PINC","CNMD","EXEL","UTHR","HALO","ITGR","MMSI"],
+  "Industrials": ["AGCO","OSK","TEX","ALSN","MLI","ATKR","GBX","HRI","SNDR","WERN","HUBG","AIT"],
+  "Energy":      ["MUR","CIVI","CTRA","APA","OVV","CRC","MTDR","SM","CRGY","PBF","DINO","VAL"],
+  "Consumer":    ["CROX","KTB","GIII","OXM","AEO","URBN","BKE","THO","ASO","DKS","DDS","WGO"],
+  "Financials":  ["JXN","OMF","SYF","LNC","UNM","AXS","ESNT","MTG","RDN","NMIH","RGA","RNR"],
+  "Materials":   ["CMC","STLD","WLK","SON","KALU","RS","WOR","SLVM","GPK","HWKN","MP","ATI"]
+};
+const SECTORS = Object.keys(UNIVERSE).concat(["Any sector"]);
+const CAPS = [
+  { label: "Under $2B — small companies", max: 2000 },     // Finnhub caps are in $ millions
+  { label: "Under $10B — mid-size", max: 10000 },
+  { label: "Under $50B — larger, steadier", max: 50000 }
+];
+
+const SIGNAL_STYLE = {
+  BUY:        { bg: "#E3F1EA", fg: "#1E7A5A", label: "Buy signal" },
+  ACCUMULATE: { bg: "#E3F1EA", fg: "#1E7A5A", label: "Accumulate" },
+  WATCH:      { bg: "#F6EEDD", fg: "#9A6B1B", label: "Watch" }
+};
+const IMPACT_STYLE = {
+  GOOD:    { bg: "#E3F1EA", fg: "#1E7A5A" },
+  BAD:     { bg: "#F7E6E2", fg: "#C94F3D" },
+  NEUTRAL: { bg: "#EAEEF1", fg: "#4A5A66" }
+};
+
+const GOOD_WORDS = ["beat","beats","raises","raised","upgrade","upgraded","record","tops","surge","wins","award","buyback","dividend increase","expands","strong"];
+const BAD_WORDS  = ["miss","misses","cuts","cut","downgrade","downgraded","lawsuit","probe","recall","falls","plunge","warns","warning","layoff","weak","delay","investigation"];
+
+let state = {
+  key: null,
+  sector: "Any sector",
+  capMax: 10000,
+  results: [],
+  watchlist: [],
+  scanning: false
+};
+
+/* ======================= storage ======================= */
+
+function loadState() {
+  try {
+    state.key = localStorage.getItem("uc:key") || null;
+    state.watchlist = JSON.parse(localStorage.getItem("uc:watchlist") || "[]");
+  } catch (e) { /* private browsing: memory only */ }
+}
+function saveWatchlist() {
+  try { localStorage.setItem("uc:watchlist", JSON.stringify(state.watchlist)); } catch (e) {}
+}
+
+/* ======================= API helpers ======================= */
+
+async function fh(path, params) {
+  const q = new URLSearchParams(Object.assign({}, params, { token: state.key }));
+  const res = await fetch(`${API}${path}?${q}`);
+  if (res.status === 429) { // rate limit: wait and retry once
+    await new Promise(r => setTimeout(r, 20000));
+    return fh(path, params);
+  }
+  if (res.status === 401 || res.status === 403) throw new Error("BADKEY");
+  if (!res.ok) throw new Error("HTTP " + res.status);
+  return res.json();
+}
+
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+
+/* ======================= screening logic ======================= */
+
+function pickTickers() {
+  if (state.sector !== "Any sector") return UNIVERSE[state.sector].map(t => [t, state.sector]);
+  // Any sector: sample 3 random tickers from each sector for variety
+  const picks = [];
+  for (const [sec, list] of Object.entries(UNIVERSE)) {
+    const shuffled = [...list].sort(() => Math.random() - 0.5);
+    shuffled.slice(0, 3).forEach(t => picks.push([t, sec]));
+  }
+  return picks;
+}
+
+function computeSignal(s) {
+  // Transparent rules, explained on the Learn tab.
+  const net = s.recTotal > 0 ? (2 * s.strongBuy + s.buy - s.sell - 2 * s.strongSell) / s.recTotal : 0;
+  if (s.discount >= 0.20 && net >= 0.5 && s.pe <= 20) return "BUY";
+  if (s.discount >= 0.12 && net >= 0.25) return "ACCUMULATE";
+  return "WATCH";
+}
+
+function computeVerdict(s) {
+  // 0 = deep bargain, 100 = pricey. Half from P/E position in the healthy
+  // band, half from how close price sits to its 52-week high.
+  const peScore = Math.max(0, Math.min(1, (s.pe - 6) / 19));           // 6→0, 25→1
+  const nearHigh = 1 - Math.max(0, Math.min(1, s.discount / 0.4));     // 40%+ discount→0
+  return Math.round(peScore * 50 + nearHigh * 50);
+}
+
+function whyText(s) {
+  const bits = [];
+  bits.push(`P/E of ${s.pe.toFixed(1)} — you're paying a reasonable price for real profits`);
+  if (s.discount >= 0.15) bits.push(`price is ${(s.discount * 100).toFixed(0)}% below its 52-week high, so there's room to recover`);
+  if (s.recTotal > 0 && (s.strongBuy + s.buy) > (s.sell + s.strongSell)) bits.push(`analysts lean positive (${s.strongBuy + s.buy} buy vs ${s.sell + s.strongSell} sell ratings)`);
+  return bits.join("; ") + ".";
+}
+
+function riskText(s) {
+  if (s.discount >= 0.30) return "It's this cheap for a reason — the market is worried about something. Check recent news before buying.";
+  if (s.recTotal > 0 && s.sell + s.strongSell > 0) return `${s.sell + s.strongSell} analyst(s) rate it a sell — opinions are split.`;
+  return "Small and mid-caps swing harder than big names; expect bumpy months even when the thesis is right.";
+}
+
+function sellIfText(s) {
+  const near = (s.high * 0.97).toFixed(2);
+  return `Consider trimming if it climbs near its 52-week high (~$${near}) without earnings improving, or if the P/E drifts well above 25.`;
+}
+
+async function runScan() {
+  if (state.scanning) return;
+  state.scanning = true;
+  state.results = [];
+  const tickers = pickTickers();
+  renderScout();
+  const prog = document.getElementById("scanProgress");
+  const fill = document.getElementById("scanFill");
+  const passed = [];
+
+  try {
+    for (let i = 0; i < tickers.length; i++) {
+      const [tk, sec] = tickers[i];
+      prog.textContent = `Checking ${tk} — ${i + 1} of ${tickers.length}`;
+      fill.style.width = `${((i + 1) / tickers.length) * 90}%`;
+      try {
+        const [quote, metric] = await Promise.all([
+          fh("/quote", { symbol: tk }),
+          fh("/stock/metric", { symbol: tk, metric: "all" })
+        ]);
+        const m = metric.metric || {};
+        const price = quote.c;
+        const pe = m.peBasicExclExtraTTM ?? m.peTTM ?? m.peNormalizedAnnual;
+        const cap = m.marketCapitalization; // $ millions
+        const high = m["52WeekHigh"];
+        const low = m["52WeekLow"];
+        if (!price || !pe || !cap || !high) { await sleep(650); continue; }
+        // ---- the screen: your criteria ----
+        if (pe < 6 || pe > 25) { await sleep(650); continue; }        // healthy P/E, profitable
+        if (cap > state.capMax) { await sleep(650); continue; }        // not a huge market cap
+        const discount = (high - price) / high;
+        if (discount < 0.08) { await sleep(650); continue; }           // wants some undervaluation
+        passed.push({ ticker: tk, sector: sec, price, pe, cap, high, low, discount,
+                      strongBuy: 0, buy: 0, hold: 0, sell: 0, strongSell: 0, recTotal: 0 });
+      } catch (e) {
+        if (e.message === "BADKEY") throw e;
+        // one bad ticker shouldn't kill the scan
+      }
+      await sleep(650); // stay well under 60 calls/min (2 calls per tick)
+    }
+
+    // rank by discount depth, keep the best 6, then pull analyst sentiment
+    passed.sort((a, b) => b.discount - a.discount);
+    const finalists = passed.slice(0, 6);
+    for (let i = 0; i < finalists.length; i++) {
+      prog.textContent = `Reading analyst ratings for ${finalists[i].ticker}…`;
+      fill.style.width = `${90 + ((i + 1) / finalists.length) * 10}%`;
+      try {
+        const recs = await fh("/stock/recommendation", { symbol: finalists[i].ticker });
+        if (recs && recs[0]) {
+          const r = recs[0];
+          Object.assign(finalists[i], {
+            strongBuy: r.strongBuy || 0, buy: r.buy || 0, hold: r.hold || 0,
+            sell: r.sell || 0, strongSell: r.strongSell || 0,
+            recTotal: (r.strongBuy||0)+(r.buy||0)+(r.hold||0)+(r.sell||0)+(r.strongSell||0)
+          });
+        }
+      } catch (e) { if (e.message === "BADKEY") throw e; }
+      await sleep(1100);
+    }
+    finalists.forEach(s => {
+      s.signal = computeSignal(s);
+      s.verdict = computeVerdict(s);
+    });
+    state.results = finalists;
+  } catch (e) {
+    state.scanError = e.message === "BADKEY"
+      ? "Finnhub rejected the API key. Double-check it (gear icon on finnhub.io dashboard) and re-enter it below."
+      : "The scan hit a network snag (" + e.message + "). Check your connection and try again.";
+    if (e.message === "BADKEY") { try { localStorage.removeItem("uc:key"); } catch(_){} state.key = null; }
+  }
+  state.scanning = false;
+  if (!state.key) { showSetup(); return; }
+  renderScout();
+}
+
+/* ======================= news & IPO ======================= */
+
+function tagImpact(headline) {
+  const h = (headline || "").toLowerCase();
+  if (GOOD_WORDS.some(w => h.includes(w))) return "GOOD";
+  if (BAD_WORDS.some(w => h.includes(w))) return "BAD";
+  return "NEUTRAL";
+}
+
+async function checkNews(ticker, container, btn) {
+  btn.disabled = true; btn.textContent = "Checking news…";
+  const to = new Date(), from = new Date(Date.now() - 21 * 864e5);
+  const fmt = d => d.toISOString().slice(0, 10);
+  try {
+    const items = await fh("/company-news", { symbol: ticker, from: fmt(from), to: fmt(to) });
+    const top = (items || []).slice(0, 4);
+    if (top.length === 0) {
+      container.innerHTML = '<div class="news-empty">No headlines in the last 3 weeks — quiet is often fine.</div>';
+    } else {
+      container.innerHTML = '<div class="news">' + top.map(n => {
+        const impact = tagImpact(n.headline);
+        const st = IMPACT_STYLE[impact];
+        const date = n.datetime ? new Date(n.datetime * 1000).toLocaleDateString() : "";
+        return `<div class="news-item">
+          <div class="news-top">
+            <span class="chip" style="background:${st.bg};color:${st.fg}">${impact.toLowerCase()}</span>
+            <span class="news-date">${date}</span>
+          </div>
+          <div class="news-headline"><a href="${n.url}" target="_blank" rel="noopener">${escapeHtml(n.headline)}</a></div>
+          <div class="news-src">${escapeHtml(n.source || "")} — impact auto-tagged by keywords, click through to judge for yourself</div>
+        </div>`;
+      }).join("") + "</div>";
+    }
+  } catch (e) {
+    container.innerHTML = '<div class="news-empty">Couldn\'t load news right now — try again in a minute.</div>';
+  }
+  btn.disabled = false; btn.textContent = "Check news";
+}
+
+async function runIpoScan() {
+  const out = document.getElementById("ipoResults");
+  const btn = document.getElementById("ipoBtn");
+  btn.disabled = true; btn.textContent = "Scanning…";
+  out.innerHTML = "";
+  const from = new Date(), to = new Date(Date.now() + 90 * 864e5);
+  const fmt = d => d.toISOString().slice(0, 10);
+  try {
+    const data = await fh("/calendar/ipo", { from: fmt(from), to: fmt(to) });
+    const cal = (data.ipoCalendar || []).filter(i => i.name).slice(0, 12);
+    if (cal.length === 0) {
+      out.innerHTML = '<div class="empty"><div class="empty-title">Nothing on the calendar yet</div><p>No confirmed IPOs in the next 90 days — check back weekly, filings land all the time.</p></div>';
+    } else {
+      out.innerHTML = cal.map(i => `
+        <div class="card">
+          <div class="ticker-row">
+            <span class="ticker">${escapeHtml(i.symbol || i.name)}</span>
+            <span class="chip" style="background:#EAEEF1;color:#4A5A66">${escapeHtml(i.date || "TBD")}</span>
+            <span class="chip" style="background:#EAEEF1;color:#4A5A66">${escapeHtml(i.exchange || "")}</span>
+          </div>
+          <div class="name">${escapeHtml(i.name)}</div>
+          <div class="stats" style="margin-top:12px">
+            <div class="stat"><span>Expected price</span><strong>${i.price ? "$" + escapeHtml(String(i.price)) : "TBD"}</strong></div>
+            <div class="stat"><span>Shares offered</span><strong>${i.numberOfShares ? Number(i.numberOfShares).toLocaleString() : "TBD"}</strong></div>
+            <div class="stat"><span>Raise size</span><strong>${i.totalSharesValue ? "$" + (i.totalSharesValue / 1e6).toFixed(0) + "M" : "TBD"}</strong></div>
+          </div>
+          <div class="notes"><p><span class="k-risk">Caution.</span> New listings have no trading history and often spike then slump — many value investors wait for the first earnings reports.</p></div>
+        </div>`).join("");
+    }
+  } catch (e) {
+    out.innerHTML = '<div class="error">Couldn\'t load the IPO calendar (' + escapeHtml(e.message) + '). Try again in a minute.</div>';
+  }
+  btn.disabled = false; btn.textContent = "Scan upcoming IPOs";
+}
+
+/* ======================= rendering ======================= */
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function fmtCap(m) { return m >= 1000 ? "$" + (m / 1000).toFixed(1) + "B" : "$" + Math.round(m) + "M"; }
+
+function stockCardHtml(s, inWatch) {
+  const sig = SIGNAL_STYLE[s.signal] || SIGNAL_STYLE.WATCH;
+  return `
+    <div class="card" data-ticker="${s.ticker}">
+      <div class="card-head">
+        <div>
+          <div class="ticker-row">
+            <span class="ticker">${s.ticker}</span>
+            <span class="chip" style="background:${sig.bg};color:${sig.fg}">${sig.label}</span>
+          </div>
+          <div class="name">${escapeHtml(s.sector)}</div>
+        </div>
+        <div class="price-block">
+          <div class="price">$${s.price.toFixed(2)}</div>
+          <div class="room">${(s.discount * 100).toFixed(0)}% below 52-wk high</div>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat"><span>P/E</span><strong>${s.pe.toFixed(1)}</strong></div>
+        <div class="stat"><span>Market cap</span><strong>${fmtCap(s.cap)}</strong></div>
+        <div class="stat"><span>Analysts</span><strong>${s.recTotal ? (s.strongBuy + s.buy) + " buy / " + (s.sell + s.strongSell) + " sell" : "n/a"}</strong></div>
+      </div>
+      <div class="gauge">
+        <div class="gauge-labels"><span>Deep value</span><span>Fairly priced</span><span>Pricey</span></div>
+        <div class="gauge-track"><div class="gauge-marker" style="left:${s.verdict}%"></div></div>
+      </div>
+      <div class="notes">
+        <p><span class="k">Why it made the cut.</span> ${whyText(s)}</p>
+        <p><span class="k-risk">Main risk.</span> ${riskText(s)}</p>
+        <p><span class="k-sell">When to rethink.</span> ${sellIfText(s)}</p>
+      </div>
+      <div class="card-actions">
+        <button class="btn ${inWatch ? "btn-quiet" : ""}" data-act="watch">${inWatch ? "Remove from watchlist" : "+ Add to watchlist"}</button>
+        <button class="btn btn-quiet" data-act="news">Check news</button>
+      </div>
+      <div class="news-slot"></div>
+    </div>`;
+}
+
+function bindStockCards(root, listGetter) {
+  root.querySelectorAll(".card[data-ticker]").forEach(card => {
+    const tk = card.dataset.ticker;
+    card.querySelector('[data-act="watch"]').addEventListener("click", () => {
+      const s = listGetter().find(x => x.ticker === tk);
+      const idx = state.watchlist.findIndex(w => w.ticker === tk);
+      if (idx >= 0) state.watchlist.splice(idx, 1); else if (s) state.watchlist.push(s);
+      saveWatchlist(); renderScout(); renderWatch();
+    });
+    const newsBtn = card.querySelector('[data-act="news"]');
+    newsBtn.addEventListener("click", () => checkNews(tk, card.querySelector(".news-slot"), newsBtn));
+  });
+}
+
+function renderScout() {
+  const root = document.getElementById("tab-scout");
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">Set your screen</div>
+      <div class="field-label">Sector</div>
+      <div class="chips" id="sectorChips">${SECTORS.map(s => `<button class="pick ${s === state.sector ? "on" : ""}" data-sector="${s}">${s}</button>`).join("")}</div>
+      <div class="field-label">Company size</div>
+      <div class="chips" id="capChips">${CAPS.map(c => `<button class="pick ${c.max === state.capMax ? "on" : ""}" data-cap="${c.max}">${c.label}</button>`).join("")}</div>
+      <div class="baked">Always applied: healthy P/E (6–25, profitable) · under your size cap · trading at a real discount to its 52-week high · analyst sentiment factored into signals</div>
+      <button class="btn btn-big" id="scanBtn" ${state.scanning ? "disabled" : ""}>${state.scanning ? "Scanning…" : "Run live scan"}</button>
+    </div>
+    ${state.scanning ? `
+      <div class="progress-wrap">
+        <div class="progress-line" id="scanProgress">Warming up…</div>
+        <div class="progress-track"><div class="progress-fill" id="scanFill"></div></div>
+        <div class="progress-sub">Checking each company live against your criteria. A full sector takes about a minute — that's the polite pace for the free data plan.</div>
+      </div>` : ""}
+    ${state.scanError && !state.scanning ? `<div class="error">${escapeHtml(state.scanError)}</div>` : ""}
+    ${!state.scanning && state.results.length === 0 && state.scanned && !state.scanError ? `<div class="empty"><div class="empty-title">Nothing passed the screen today</div><p>That happens — value is scarce some weeks. Try another sector or a bigger size cap.</p></div>` : ""}
+    <div id="scoutResults">${state.results.map(s => stockCardHtml(s, state.watchlist.some(w => w.ticker === s.ticker))).join("")}</div>
+  `;
+  root.querySelectorAll("[data-sector]").forEach(b => b.addEventListener("click", () => { state.sector = b.dataset.sector; renderScout(); }));
+  root.querySelectorAll("[data-cap]").forEach(b => b.addEventListener("click", () => { state.capMax = Number(b.dataset.cap); renderScout(); }));
+  const scanBtn = document.getElementById("scanBtn");
+  if (scanBtn) scanBtn.addEventListener("click", () => { state.scanError = null; state.scanned = true; runScan(); });
+  bindStockCards(root, () => state.results);
+}
+
+function renderWatch() {
+  const root = document.getElementById("tab-watch");
+  if (state.watchlist.length === 0) {
+    root.innerHTML = `<div class="empty"><div class="empty-title">Your watchlist is empty</div><p>Run a scan on the Scout tab and add stocks here. They're saved in this browser, and you can pull fresh news on each any time.</p></div>`;
+    return;
+  }
+  root.innerHTML = `<div class="hint">Numbers shown are from each stock's last scan — re-scan its sector for fresh prices. "Check news" is always live.</div>`
+    + state.watchlist.map(s => stockCardHtml(s, true)).join("");
+  bindStockCards(root, () => state.watchlist);
+}
+
+function renderIpo() {
+  const root = document.getElementById("tab-ipo");
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">IPO radar</div>
+      <p class="panel-copy">Confirmed and expected listings over the next 90 days, straight from the IPO calendar. Heads up: IPOs are the riskiest corner of this app — no history, and prices often spike then slump. Many value investors wait for the first few earnings reports.</p>
+      <button class="btn btn-big" id="ipoBtn">Scan upcoming IPOs</button>
+    </div>
+    <div id="ipoResults"></div>`;
+  document.getElementById("ipoBtn").addEventListener("click", runIpoScan);
+}
+
+function renderLearn() {
+  const G = [
+    ["P/E ratio", "Price divided by yearly earnings — how many dollars you pay for $1 of annual profit. This app screens for 6–25: profitable, but not priced for miracles. Negative P/E means the company loses money, and those never pass the screen."],
+    ["Market cap", "The whole company's price tag (share price × shares). Small caps (under $2B) can grow fastest but swing hardest; mid caps are the middle ground. Your size cap sets the ceiling."],
+    ["Below 52-week high", "How far the price has fallen from its best level in the past year. A 25% discount on a still-profitable company is the kind of setup value investors hunt — but always check the news for why it fell."],
+    ["How the signals are computed", "No black box. <code>Buy</code> = 20%+ below its 52-week high, analysts clearly positive, P/E ≤ 20. <code>Accumulate</code> = 12%+ discount and analysts lean positive. <code>Watch</code> = passed the screen but without strong confirmation. The gauge blends P/E position and the discount, half and half."],
+    ["Analyst ratings", "Professional analysts publish buy/hold/sell calls. The app counts the latest month's votes. They're often wrong individually, but a strong lean one way is a useful second opinion on top of the numbers."],
+    ["IPO", "A private company selling shares to the public for the first time. Exciting but risky — no trading history, and early prices are driven by hype. Many pros wait 6–12 months and a couple of earnings reports."],
+    ["Diversification", "Don't put everything in one stock or sector. The 'Any sector' scan exists for exactly this reason — spreading bets is the closest thing investing has to a free lunch."],
+    ["About the data", "Quotes, fundamentals, ratings, news, and the IPO calendar come live from Finnhub's free tier. The scan paces itself to respect the free rate limit, which is why a full sector takes about a minute."]
+  ];
+  document.getElementById("tab-learn").innerHTML =
+    `<div class="panel"><div class="panel-title">The five-minute vocabulary</div><p class="panel-copy">Everything this app measures, in plain English — including exactly how the signals are calculated.</p></div>`
+    + G.map(([t, d]) => `<div class="card learn-card"><div class="learn-term">${t}</div><div class="learn-def">${d}</div></div>`).join("");
+}
+
+/* ======================= shell ======================= */
+
+function showSetup() {
+  document.getElementById("setup").classList.remove("hidden");
+  document.getElementById("app").classList.add("hidden");
+}
+function showApp() {
+  document.getElementById("setup").classList.add("hidden");
+  document.getElementById("app").classList.remove("hidden");
+  renderScout(); renderWatch(); renderIpo(); renderLearn();
+}
+
+document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
+  document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
+  ["scout", "watch", "ipo", "learn"].forEach(id =>
+    document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
+}));
+
+document.getElementById("saveKey").addEventListener("click", async () => {
+  const key = document.getElementById("keyInput").value.trim();
+  const err = document.getElementById("keyError");
+  err.classList.add("hidden");
+  if (!key) { err.textContent = "Paste your Finnhub key first."; err.classList.remove("hidden"); return; }
+  state.key = key;
+  try {
+    await fh("/quote", { symbol: "AAPL" }); // validate the key with one cheap call
+    try { localStorage.setItem("uc:key", key); } catch (e) {}
+    showApp();
+  } catch (e) {
+    state.key = null;
+    err.textContent = e.message === "BADKEY"
+      ? "Finnhub didn't accept that key — double-check for extra spaces and try again."
+      : "Couldn't reach Finnhub (" + e.message + "). Check your internet connection.";
+    err.classList.remove("hidden");
+  }
+});
+
+loadState();
+if (state.key) showApp(); else showSetup();
+</script>
+</body>
+</html>
