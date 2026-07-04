@@ -238,8 +238,9 @@ function pickTickers() {
 function computeSignal(s) {
   // Transparent rules, explained on the Learn tab.
   const net = s.recTotal > 0 ? (2 * s.strongBuy + s.buy - s.sell - 2 * s.strongSell) / s.recTotal : 0;
-  if (s.discount >= 0.20 && net >= 0.5 && s.pe <= 20) return "BUY";
-  if (s.discount >= 0.12 && net >= 0.25) return "ACCUMULATE";
+  const q = s.qMax > 0 ? s.qPass / s.qMax : 0.5; // health-check pass rate; neutral if no data
+  if (s.discount >= 0.20 && net >= 0.5 && s.pe <= 20 && q >= 0.5) return "BUY";
+  if (s.discount >= 0.12 && net >= 0.25 && q >= 0.5) return "ACCUMULATE";
   return "WATCH";
 }
 
@@ -255,11 +256,14 @@ function whyText(s) {
   const bits = [];
   bits.push(`P/E of ${s.pe.toFixed(1)} — you're paying a reasonable price for real profits`);
   if (s.discount >= 0.15) bits.push(`price is ${(s.discount * 100).toFixed(0)}% below its 52-week high, so there's room to recover`);
+  if (s.qMax > 0 && s.qPass >= Math.ceil(s.qMax * 0.75)) bits.push(`it passes ${s.qPass} of ${s.qMax} financial-health checks (debt, cash, efficiency, growth-vs-price)`);
   if (s.recTotal > 0 && (s.strongBuy + s.buy) > (s.sell + s.strongSell)) bits.push(`analysts lean positive (${s.strongBuy + s.buy} buy vs ${s.sell + s.strongSell} sell ratings)`);
   return bits.join("; ") + ".";
 }
 
 function riskText(s) {
+  if (s.de !== null && s.de >= 1.0) return `Debt is ${s.de.toFixed(1)}× its equity — heavier than the blueprint likes. Leveraged companies fall hardest when business slows.`;
+  if (s.cr !== null && s.cr <= 1.0) return "Short-term cash looks thin (current ratio ≤ 1) — check whether it can comfortably pay its bills this year.";
   if (s.discount >= 0.30) return "It's this cheap for a reason — the market is worried about something. Check recent news before buying.";
   if (s.recTotal > 0 && s.sell + s.strongSell > 0) return `${s.sell + s.strongSell} analyst(s) rate it a sell — opinions are split.`;
   return "Small and mid-caps swing harder than big names; expect bumpy months even when the thesis is right.";
@@ -268,6 +272,30 @@ function riskText(s) {
 function sellIfText(s) {
   const near = (s.high * 0.97).toFixed(2);
   return `Consider trimming if it climbs near its 52-week high (~$${near}) without earnings improving, or if the P/E drifts well above 25.`;
+}
+
+function num(v) { return (typeof v === "number" && isFinite(v)) ? v : null; }
+
+function extractQuality(m, pe) {
+  let de = num(m["totalDebt/totalEquityQuarterly"]) ?? num(m["totalDebt/totalEquityAnnual"]);
+  if (de !== null && de > 10) de = de / 100; // some feeds report this as a percentage
+  const cr = num(m.currentRatioQuarterly) ?? num(m.currentRatioAnnual);
+  const roe = num(m.roeTTM) ?? num(m.roeRfy);                       // percent
+  const growth = num(m.epsGrowth5Y) ?? num(m.epsGrowthTTMYoy);       // percent
+  const peg = (growth && growth > 0) ? pe / growth : null;
+  const ps = num(m.psTTM);
+  const divYield = num(m.currentDividendYieldTTM) ?? num(m.dividendYieldIndicatedAnnual);
+  // The blueprint checks: low debt, strong short-term cash, efficient
+  // management, growth cheaper than it looks. null = data unavailable.
+  const checks = [
+    de === null ? null : de < 1.0,
+    cr === null ? null : cr > 1.5,
+    roe === null ? null : roe > 15,
+    peg === null ? null : peg < 1.2
+  ];
+  const qMax = checks.filter(c => c !== null).length;
+  const qPass = checks.filter(c => c === true).length;
+  return { de, cr, roe, peg, ps, divYield, qPass, qMax };
 }
 
 async function runScan() {
@@ -302,8 +330,11 @@ async function runScan() {
         if (cap > state.capMax) { await sleep(650); continue; }        // not a huge market cap
         const discount = (high - price) / high;
         if (discount < 0.08) { await sleep(650); continue; }           // wants some undervaluation
-        passed.push({ ticker: tk, sector: sec, price, pe, cap, high, low, discount,
-                      strongBuy: 0, buy: 0, hold: 0, sell: 0, strongSell: 0, recTotal: 0 });
+        passed.push(Object.assign(
+          { ticker: tk, sector: sec, price, pe, cap, high, low, discount,
+            strongBuy: 0, buy: 0, hold: 0, sell: 0, strongSell: 0, recTotal: 0 },
+          extractQuality(m, pe)
+        ));
       } catch (e) {
         if (e.message === "BADKEY") throw e;
         // one bad ticker shouldn't kill the scan
@@ -311,8 +342,8 @@ async function runScan() {
       await sleep(650); // stay well under 60 calls/min (2 calls per tick)
     }
 
-    // rank by discount depth, keep the best 6, then pull analyst sentiment
-    passed.sort((a, b) => b.discount - a.discount);
+    // rank by discount depth plus financial-health passes, keep the best 6
+    passed.sort((a, b) => (b.discount + 0.04 * b.qPass) - (a.discount + 0.04 * a.qPass));
     const finalists = passed.slice(0, 6);
     for (let i = 0; i < finalists.length; i++) {
       prog.textContent = `Reading analyst ratings for ${finalists[i].ticker}…`;
@@ -428,6 +459,22 @@ function escapeHtml(s) {
 
 function fmtCap(m) { return m >= 1000 ? "$" + (m / 1000).toFixed(1) + "B" : "$" + Math.round(m) + "M"; }
 
+function healthChips(s) {
+  const chip = (txt, ok) => {
+    const st = ok === null ? IMPACT_STYLE.NEUTRAL : (ok ? IMPACT_STYLE.GOOD : IMPACT_STYLE.BAD);
+    return `<span class="chip" style="background:${st.bg};color:${st.fg}">${txt}</span>`;
+  };
+  return `<div class="field-label" style="margin-top:14px">Financial health — ${s.qMax ? s.qPass + " of " + s.qMax + " checks passed" : "no data"}</div>
+  <div class="chips">
+    ${chip(s.de === null ? "Debt n/a" : "Debt " + s.de.toFixed(2) + "×", s.de === null ? null : s.de < 1.0)}
+    ${chip(s.cr === null ? "Liquidity n/a" : "Liquidity " + s.cr.toFixed(1) + "×", s.cr === null ? null : s.cr > 1.5)}
+    ${chip(s.roe === null ? "ROE n/a" : "ROE " + s.roe.toFixed(0) + "%", s.roe === null ? null : s.roe > 15)}
+    ${chip(s.peg === null ? "PEG n/a" : "PEG " + s.peg.toFixed(2), s.peg === null ? null : s.peg < 1.2)}
+    ${s.ps !== null ? chip("P/S " + s.ps.toFixed(1), s.ps < 2) : ""}
+    ${s.divYield ? chip("Div " + s.divYield.toFixed(1) + "%", true) : ""}
+  </div>`;
+}
+
 function stockCardHtml(s, inWatch) {
   const sig = SIGNAL_STYLE[s.signal] || SIGNAL_STYLE.WATCH;
   return `
@@ -450,6 +497,7 @@ function stockCardHtml(s, inWatch) {
         <div class="stat"><span>Market cap</span><strong>${fmtCap(s.cap)}</strong></div>
         <div class="stat"><span>Analysts</span><strong>${s.recTotal ? (s.strongBuy + s.buy) + " buy / " + (s.sell + s.strongSell) + " sell" : "n/a"}</strong></div>
       </div>
+      ${healthChips(s)}
       <div class="gauge">
         <div class="gauge-labels"><span>Deep value</span><span>Fairly priced</span><span>Pricey</span></div>
         <div class="gauge-track"><div class="gauge-marker" style="left:${s.verdict}%"></div></div>
@@ -490,7 +538,7 @@ function renderScout() {
       <div class="chips" id="sectorChips">${SECTORS.map(s => `<button class="pick ${s === state.sector ? "on" : ""}" data-sector="${s}">${s}</button>`).join("")}</div>
       <div class="field-label">Company size</div>
       <div class="chips" id="capChips">${CAPS.map(c => `<button class="pick ${c.max === state.capMax ? "on" : ""}" data-cap="${c.max}">${c.label}</button>`).join("")}</div>
-      <div class="baked">Always applied: healthy P/E (6–25, profitable) · under your size cap · trading at a real discount to its 52-week high · analyst sentiment factored into signals</div>
+      <div class="baked">Always applied: healthy P/E (6–25, profitable) · under your size cap · real discount to its 52-week high · financial-health checks (debt &lt; 1× equity, current ratio &gt; 1.5, ROE &gt; 15%, PEG &lt; 1.2) factored into rankings and signals</div>
       <button class="btn btn-big" id="scanBtn" ${state.scanning ? "disabled" : ""}>${state.scanning ? "Scanning…" : "Run live scan"}</button>
     </div>
     ${state.scanning ? `
@@ -538,7 +586,12 @@ function renderLearn() {
     ["P/E ratio", "Price divided by yearly earnings — how many dollars you pay for $1 of annual profit. This app screens for 6–25: profitable, but not priced for miracles. Negative P/E means the company loses money, and those never pass the screen."],
     ["Market cap", "The whole company's price tag (share price × shares). Small caps (under $2B) can grow fastest but swing hardest; mid caps are the middle ground. Your size cap sets the ceiling."],
     ["Below 52-week high", "How far the price has fallen from its best level in the past year. A 25% discount on a still-profitable company is the kind of setup value investors hunt — but always check the news for why it fell."],
-    ["How the signals are computed", "No black box. <code>Buy</code> = 20%+ below its 52-week high, analysts clearly positive, P/E ≤ 20. <code>Accumulate</code> = 12%+ discount and analysts lean positive. <code>Watch</code> = passed the screen but without strong confirmation. The gauge blends P/E position and the discount, half and half."],
+    ["How the signals are computed", "No black box. <code>Buy</code> = 20%+ below its 52-week high, analysts clearly positive, P/E ≤ 20, AND it passes at least half its financial-health checks. <code>Accumulate</code> = 12%+ discount, analysts lean positive, health checks at least half passed. <code>Watch</code> = passed the screen but without strong confirmation. The gauge blends P/E position and the discount, half and half."],
+    ["Debt-to-Equity (D/E)", "Total debt divided by shareholders' equity. Below 1.0× means the company owes less than it owns — a safety cushion. Heavily indebted companies fall hardest in downturns because interest bills don't shrink when sales do."],
+    ["Current ratio", "Short-term assets divided by short-term bills. Above 1.5× means it can comfortably pay everything due this year. Below 1.0× is a yellow flag worth investigating."],
+    ["Return on Equity (ROE)", "Yearly profit as a percentage of shareholders' money. Above 15% means management turns your capital into profit efficiently. Cheap + high ROE is the classic 'good business at a fair price' combo."],
+    ["PEG ratio", "P/E divided by the earnings growth rate. It answers: is the price fair <em>for how fast profits are growing</em>? Under 1.2 (ideally under 1.0) suggests you're getting the growth cheaply. A stock with P/E 20 growing 25%/yr (PEG 0.8) can be a better deal than P/E 12 with no growth."],
+    ["Price-to-Sales (P/S)", "Company price tag divided by yearly revenue. Handy as a sanity check next to P/E — under ~2 for a profitable company usually means expectations are modest."],
     ["Analyst ratings", "Professional analysts publish buy/hold/sell calls. The app counts the latest month's votes. They're often wrong individually, but a strong lean one way is a useful second opinion on top of the numbers."],
     ["IPO", "A private company selling shares to the public for the first time. Exciting but risky — no trading history, and early prices are driven by hype. Many pros wait 6–12 months and a couple of earnings reports."],
     ["Diversification", "Don't put everything in one stock or sector. The 'Any sector' scan exists for exactly this reason — spreading bets is the closest thing investing has to a free lunch."],
