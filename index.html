@@ -346,10 +346,14 @@ async function runScan() {
     passed.sort((a, b) => (b.discount + 0.04 * b.qPass) - (a.discount + 0.04 * a.qPass));
     const finalists = passed.slice(0, 6);
     for (let i = 0; i < finalists.length; i++) {
-      prog.textContent = `Reading analyst ratings for ${finalists[i].ticker}…`;
+      prog.textContent = `Reading analyst ratings and earnings dates for ${finalists[i].ticker}…`;
       fill.style.width = `${90 + ((i + 1) / finalists.length) * 10}%`;
       try {
-        const recs = await fh("/stock/recommendation", { symbol: finalists[i].ticker });
+        const fmt = d => d.toISOString().slice(0, 10);
+        const [recs, earn] = await Promise.all([
+          fh("/stock/recommendation", { symbol: finalists[i].ticker }),
+          fh("/calendar/earnings", { symbol: finalists[i].ticker, from: fmt(new Date()), to: fmt(new Date(Date.now() + 45 * 864e5)) })
+        ]);
         if (recs && recs[0]) {
           const r = recs[0];
           Object.assign(finalists[i], {
@@ -358,6 +362,8 @@ async function runScan() {
             recTotal: (r.strongBuy||0)+(r.buy||0)+(r.hold||0)+(r.sell||0)+(r.strongSell||0)
           });
         }
+        const ev = (earn && earn.earningsCalendar || []).filter(e => e.date).sort((a, b) => a.date.localeCompare(b.date))[0];
+        if (ev) finalists[i].earningsDate = ev.date;
       } catch (e) { if (e.message === "BADKEY") throw e; }
       await sleep(1100);
     }
@@ -475,6 +481,14 @@ function healthChips(s) {
   </div>`;
 }
 
+function earningsChip(s) {
+  if (!s.earningsDate) return "";
+  const days = Math.round((new Date(s.earningsDate + "T12:00:00") - Date.now()) / 864e5);
+  if (days < 0 || days > 45) return "";
+  const label = days === 0 ? "Earnings today" : days === 1 ? "Earnings tomorrow" : `Earnings in ${days}d`;
+  return `<span class="chip" style="background:#F6EEDD;color:#9A6B1B" title="Reports ${s.earningsDate}">⚡ ${label}</span>`;
+}
+
 function stockCardHtml(s, inWatch) {
   const sig = SIGNAL_STYLE[s.signal] || SIGNAL_STYLE.WATCH;
   return `
@@ -484,6 +498,7 @@ function stockCardHtml(s, inWatch) {
           <div class="ticker-row">
             <span class="ticker">${s.ticker}</span>
             <span class="chip" style="background:${sig.bg};color:${sig.fg}">${sig.label}</span>
+            ${earningsChip(s)}
           </div>
           <div class="name">${escapeHtml(s.sector)}</div>
         </div>
@@ -594,6 +609,7 @@ function renderLearn() {
     ["Price-to-Sales (P/S)", "Company price tag divided by yearly revenue. Handy as a sanity check next to P/E — under ~2 for a profitable company usually means expectations are modest."],
     ["Analyst ratings", "Professional analysts publish buy/hold/sell calls. The app counts the latest month's votes. They're often wrong individually, but a strong lean one way is a useful second opinion on top of the numbers."],
     ["IPO", "A private company selling shares to the public for the first time. Exciting but risky — no trading history, and early prices are driven by hype. Many pros wait 6–12 months and a couple of earnings reports."],
+    ["Earnings countdown", "The ⚡ chip means the company reports quarterly results within ~45 days. Earnings day is when prices jump the most, up or down. If you're new: buying a beaten-down stock right before earnings is the riskiest possible timing — many investors wait until after the report to see the reaction."],
     ["Diversification", "Don't put everything in one stock or sector. The 'Any sector' scan exists for exactly this reason — spreading bets is the closest thing investing has to a free lunch."],
     ["About the data", "Quotes, fundamentals, ratings, news, and the IPO calendar come live from Finnhub's free tier. The scan paces itself to respect the free rate limit, which is why a full sector takes about a minute."]
   ];
