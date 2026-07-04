@@ -223,7 +223,8 @@ let state = {
   scanning: false,
   lookupValue: "",
   lookupResult: null,
-  lookupError: null
+  lookupError: null,
+  lookupGrowth: null
 };
 
 /* ======================= storage ======================= */
@@ -655,6 +656,36 @@ function scoreHtml(s) {
     </div>`;
 }
 
+function growthCardHtml(g) {
+  return `
+    <div class="card" data-growth-ticker="${g.ticker}">
+      <div class="card-head">
+        <div>
+          <div class="ticker-row">
+            <span class="ticker">${g.ticker}</span>
+            <span class="chip" style="background:#EAEEF1;color:#4A5A66">Pre-profit — value screen n/a</span>
+          </div>
+          <div class="name">${escapeHtml(g.sector)}</div>
+        </div>
+        <div class="price-block">
+          <div class="price">$${g.price.toFixed(2)}</div>
+          <div class="room">${(g.discount * 100).toFixed(0)}% below 52-wk high</div>
+        </div>
+      </div>
+      <div class="stats" style="margin-top:14px">
+        <div class="stat"><span>Market cap</span><strong>${fmtCap(g.cap)}</strong></div>
+        <div class="stat"><span>P/S</span><strong>${g.ps !== null ? g.ps.toFixed(1) : "n/a"}</strong></div>
+        <div class="stat"><span>Beta</span><strong>${g.beta !== null ? g.beta.toFixed(2) : "n/a"}</strong></div>
+        <div class="stat"><span>Revenue growth</span><strong>${g.revGrowth !== null ? g.revGrowth.toFixed(0) + "%" : "n/a"}</strong></div>
+      </div>
+      <div class="notes">
+        <p><strong>Why no score.</strong> ${escapeHtml(g.ticker)} has no P/E ratio because it isn't consistently profitable yet — this app's entire methodology (health checks, desk price levels, conviction score) is built on real earnings, so none of that applies honestly here.</p>
+        <p><span class="k-risk">What this means for you.</span> Pre-profit companies are a completely different, higher-risk kind of bet: you're paying for a story about the future (revenue growth, market size, path to profitability) rather than current cash flow. That can pay off big or go to zero — it's speculation, not value investing, and belongs in a much smaller slice of a portfolio if at all.</p>
+        ${g.targetMean ? `<p><span class="k">Analyst price target (avg).</span> $${g.targetMean.toFixed(2)} — for a story stock, treat this as a guess about the future, not a valuation anchor.</p>` : ""}
+      </div>
+    </div>`;
+}
+
 function stockCardHtml(s, inWatch) {
   const sig = SIGNAL_STYLE[s.signal] || SIGNAL_STYLE.WATCH;
   return `
@@ -729,7 +760,22 @@ async function lookupTicker(rawTicker) {
     const cap = m.marketCapitalization;
     const high = m["52WeekHigh"];
     const low = m["52WeekLow"];
-    if (!pe || pe <= 0 || !cap || !high) return { error: `"${tk}" is missing key data (P/E, market cap, or 52-week high) — likely unprofitable or too new to fully score. Not every ticker has enough public data for this app's checks.` };
+
+    // No P/E (or negative) usually means unprofitable — common for young growth
+    // companies. The value screen genuinely doesn't apply, so hand back a
+    // lighter, honest read instead of forcing a fake score onto it.
+    if (!pe || pe <= 0 || !cap || !high) {
+      if (price && cap && high) {
+        return { growth: {
+          ticker: tk, sector: TICKER_SECTOR[tk] || "Unknown", price, cap, high, low,
+          ps: num(m.psTTM), beta: num(m.beta),
+          revGrowth: num(m.revenueGrowthTTMYoy) ?? num(m.revenueGrowth5Y),
+          targetMean: num(m.targetMeanPrice ?? metric.targetMeanPrice),
+          discount: (high - price) / high
+        }};
+      }
+      return { error: `"${tk}" is missing key data (P/E, market cap, or 52-week high) — likely unprofitable or too new to fully score. Not every ticker has enough public data for this app's checks.` };
+    }
 
     const discount = (high - price) / high;
     const sector = TICKER_SECTOR[tk] || "Unknown";
@@ -794,9 +840,11 @@ async function runLookup() {
   try {
     const r = await lookupTicker(val);
     if (r.error) {
-      state.lookupError = r.error; state.lookupResult = null;
+      state.lookupError = r.error; state.lookupResult = null; state.lookupGrowth = null;
+    } else if (r.growth) {
+      state.lookupGrowth = r.growth; state.lookupResult = null; state.lookupError = null;
     } else {
-      state.lookupResult = r.stock; state.lookupError = null;
+      state.lookupResult = r.stock; state.lookupError = null; state.lookupGrowth = null;
     }
   } catch (e) {
     if (e.message === "BADKEY") {
@@ -827,6 +875,7 @@ function renderScout() {
       </div>
       <div id="lookupResult" style="margin-top:16px">${
         state.lookupError ? `<div class="error">${escapeHtml(state.lookupError)}</div>`
+        : state.lookupGrowth ? growthCardHtml(state.lookupGrowth)
         : state.lookupResult ? stockCardHtml(state.lookupResult, state.watchlist.some(w => w.ticker === state.lookupResult.ticker))
         : ""
       }</div>
@@ -940,6 +989,7 @@ function renderLearn() {
     ["Return on Equity (ROE)", "Yearly profit as a percentage of shareholders' money. Above 15% means management turns your capital into profit efficiently. Cheap + high ROE is the classic 'good business at a fair price' combo."],
     ["PEG ratio", "P/E divided by the earnings growth rate. It answers: is the price fair <em>for how fast profits are growing</em>? Under 1.2 (ideally under 1.0) suggests you're getting the growth cheaply. A stock with P/E 20 growing 25%/yr (PEG 0.8) can be a better deal than P/E 12 with no growth."],
     ["Price-to-Sales (P/S)", "Company price tag divided by yearly revenue. Handy as a sanity check next to P/E — under ~2 for a profitable company usually means expectations are modest."],
+    ["Pre-profit / growth stocks", "Companies like Joby Aviation don't have a P/E ratio because they aren't consistently profitable yet — there's no earnings to divide the price by. This app's whole approach (health checks, desk levels, conviction score) depends on real profits, so those tickers get a lighter card instead of a forced score: price, market cap, P/S, beta, revenue growth, and an honest note that this is speculation on a future story, not value investing."],
     ["Peer comparison", "Same idea as a Wall Street 'comps' analysis, simplified: each stock's P/E is measured against the median P/E of every other company the scan checked in its sector that day. A P/E of 18 is expensive for a sleepy utility and cheap for a software company — this tells you which one you're looking at, using the sector's own current pricing instead of one fixed number for everyone."],
     ["Beta", "How much a stock swings compared to the overall market. Beta of 1.0 moves roughly with the market; below 0.8 tends to be calmer (common in utilities, consumer staples); above 1.2 swings harder in both directions (common in smaller or cyclical names). Not good or bad by itself — just tells you what kind of ride to expect."],
     ["Analyst ratings", "Professional analysts publish buy/hold/sell calls. The app counts the latest month's votes. They're often wrong individually, but a strong lean one way is a useful second opinion on top of the numbers."],
