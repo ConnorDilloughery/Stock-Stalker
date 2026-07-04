@@ -82,6 +82,13 @@
   .score-label { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--dim); margin-bottom: 6px; }
   .score-bar { height: 7px; border-radius: 999px; background: var(--line); overflow: hidden; }
   .score-bar div { height: 100%; border-radius: 999px; }
+  .score-toggle { background: none; border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; font: 600 12px 'IBM Plex Sans', sans-serif; color: var(--tide); cursor: pointer; align-self: center; }
+  .score-breakdown { margin: 4px 0 0; padding: 4px 14px 2px; }
+  .score-part { display: flex; align-items: center; gap: 10px; padding: 5px 0; }
+  .score-part-label { flex: 0 0 130px; font-size: 12.5px; color: var(--dim); }
+  .score-part-bar { flex: 1; height: 6px; border-radius: 999px; background: var(--line); overflow: hidden; }
+  .score-part-bar div { height: 100%; border-radius: 999px; background: var(--tide); }
+  .score-part-pts { flex: 0 0 56px; text-align: right; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--ink); }
 
   .news { margin-top: 14px; border-top: 1px dashed var(--line); padding-top: 12px; }
   .news-item { padding: 10px 0; border-bottom: 1px solid var(--mist); }
@@ -285,21 +292,22 @@ function zoneOf(s) {
   return "BETWEEN";
 }
 
-function computeScore(s) {
-  // Conviction score /100 — weights are published on the Learn tab.
-  const value = Math.min((s.discount || 0) / 0.35, 1) * 30;                       // discount depth
-  const peScore = (1 - Math.max(0, Math.min(1, ((s.pe || 15) - 6) / 19))) * 15;   // P/E attractiveness
-  const health = s.qMax > 0 ? (s.qPass / s.qMax) * 25 : 12.5;                     // health checks (neutral if no data)
+function computeScoreParts(s) {
+  const value = Math.min((s.discount || 0) / 0.35, 1) * 30;
+  const peScore = (1 - Math.max(0, Math.min(1, ((s.pe || 15) - 6) / 19))) * 15;
+  const health = s.qMax > 0 ? (s.qPass / s.qMax) * 25 : 12.5;
   const net = s.recTotal > 0 ? (2 * s.strongBuy + s.buy - s.sell - 2 * s.strongSell) / s.recTotal : 0.4;
-  const analysts = Math.max(0, Math.min(net, 1)) * 20;                            // analyst sentiment
-  let zonePts = 5;                                                                // position vs desk levels
+  const analysts = Math.max(0, Math.min(net, 1)) * 20;
+  let zonePts = 5;
   if (s.buyBelow && s.avoidAbove) {
     if (s.price <= s.buyBelow) zonePts = 10;
     else if (s.price >= s.avoidAbove) zonePts = 0;
     else zonePts = ((s.avoidAbove - s.price) / (s.avoidAbove - s.buyBelow)) * 10;
   }
-  return Math.round(value + peScore + health + analysts + zonePts);
+  return { value, peScore, health, analysts, zonePts, total: Math.round(value + peScore + health + analysts + zonePts) };
 }
+
+function computeScore(s) { return computeScoreParts(s).total; }
 
 function scoreBand(n) {
   if (n >= 80) return { label: "Strong case", color: "#1E7A5A" };
@@ -319,6 +327,7 @@ function computeVerdict(s) {
 function whyText(s) {
   const bits = [];
   bits.push(`P/E of ${s.pe.toFixed(1)} — you're paying a reasonable price for real profits`);
+  if (s.sectorMedianPE && s.pe < s.sectorMedianPE) bits.push(`cheaper than the median ${s.sectorMedianPE.toFixed(1)} P/E among its scanned peers`);
   if (s.discount >= 0.15) bits.push(`price is ${(s.discount * 100).toFixed(0)}% below its 52-week high, so there's room to recover`);
   if (s.qMax > 0 && s.qPass >= Math.ceil(s.qMax * 0.75)) bits.push(`it passes ${s.qPass} of ${s.qMax} financial-health checks (debt, cash, efficiency, growth-vs-price)`);
   if (s.recTotal > 0 && (s.strongBuy + s.buy) > (s.sell + s.strongSell)) bits.push(`analysts lean positive (${s.strongBuy + s.buy} buy vs ${s.sell + s.strongSell} sell ratings)`);
@@ -368,6 +377,7 @@ function extractQuality(m, pe) {
   const peg = (growth && growth > 0) ? pe / growth : null;
   const ps = num(m.psTTM);
   const divYield = num(m.currentDividendYieldTTM) ?? num(m.dividendYieldIndicatedAnnual);
+  const beta = num(m.beta);
   // The blueprint checks: low debt, strong short-term cash, efficient
   // management, growth cheaper than it looks. null = data unavailable.
   const checks = [
@@ -378,7 +388,21 @@ function extractQuality(m, pe) {
   ];
   const qMax = checks.filter(c => c !== null).length;
   const qPass = checks.filter(c => c === true).length;
-  return { de, cr, roe, peg, ps, divYield, qPass, qMax };
+  return { de, cr, roe, peg, ps, divYield, beta, qPass, qMax };
+}
+
+function median(arr) {
+  const a = arr.filter(v => v !== null && isFinite(v)).sort((x, y) => x - y);
+  if (a.length === 0) return null;
+  const mid = Math.floor(a.length / 2);
+  return a.length % 2 ? a[mid] : (a[mid - 1] + a[mid]) / 2;
+}
+
+function betaLabel(b) {
+  if (b === null) return "n/a";
+  if (b < 0.8) return "calmer than the market";
+  if (b <= 1.2) return "moves with the market";
+  return "swings harder than the market";
 }
 
 async function runScan() {
@@ -429,6 +453,16 @@ async function runScan() {
     // rank by discount depth plus financial-health passes, keep the best 6
     passed.sort((a, b) => (b.discount + 0.04 * b.qPass) - (a.discount + 0.04 * a.qPass));
     const finalists = passed.slice(0, 6);
+
+    // sector P/E medians computed from everything scanned (not just finalists)
+    // so a peer comparison reflects the sector's actual price-of-earnings today
+    const sectorPEs = {};
+    for (const sec of new Set(passed.map(x => x.sector))) {
+      sectorPEs[sec] = median(passed.filter(x => x.sector === sec).map(x => x.pe));
+    }
+    finalists.forEach(s => {
+      s.sectorMedianPE = sectorPEs[s.sector] ?? null;
+    });
     for (let i = 0; i < finalists.length; i++) {
       prog.textContent = `Reading analyst ratings and earnings dates for ${finalists[i].ticker}…`;
       fill.style.width = `${90 + ((i + 1) / finalists.length) * 10}%`;
@@ -557,6 +591,14 @@ function healthChips(s) {
     const st = ok === null ? IMPACT_STYLE.NEUTRAL : (ok ? IMPACT_STYLE.GOOD : IMPACT_STYLE.BAD);
     return `<span class="chip" style="background:${st.bg};color:${st.fg}">${txt}</span>`;
   };
+  const peerLine = (s.sectorMedianPE !== null && s.sectorMedianPE !== undefined)
+    ? `<div style="font-size:13px;color:var(--dim);margin:8px 0 2px">
+        Peer comp: this scan's ${escapeHtml(s.sector)} names trade at a median P/E of ${s.sectorMedianPE.toFixed(1)} —
+        ${s.pe < s.sectorMedianPE
+          ? `<span class="k">${s.ticker} is cheaper than its peers</span> at ${s.pe.toFixed(1)}.`
+          : `<span class="k-risk">${s.ticker} is pricier than its peers</span> at ${s.pe.toFixed(1)}.`}
+      </div>`
+    : "";
   return `<div class="field-label" style="margin-top:14px">Financial health — ${s.qMax ? s.qPass + " of " + s.qMax + " checks passed" : "no data"}</div>
   <div class="chips">
     ${chip(s.de === null ? "Debt n/a" : "Debt " + s.de.toFixed(2) + "×", s.de === null ? null : s.de < 1.0)}
@@ -565,7 +607,9 @@ function healthChips(s) {
     ${chip(s.peg === null ? "PEG n/a" : "PEG " + s.peg.toFixed(2), s.peg === null ? null : s.peg < 1.2)}
     ${s.ps !== null ? chip("P/S " + s.ps.toFixed(1), s.ps < 2) : ""}
     ${s.divYield ? chip("Div " + s.divYield.toFixed(1) + "%", true) : ""}
-  </div>`;
+    ${s.beta !== null && s.beta !== undefined ? chip("Beta " + s.beta.toFixed(2), s.beta <= 1.2) : ""}
+  </div>
+  ${peerLine}`;
 }
 
 function earningsChip(s) {
@@ -579,6 +623,13 @@ function earningsChip(s) {
 function scoreHtml(s) {
   const score = s.score ?? computeScore(s); // older watchlist saves get scored on render
   const band = scoreBand(score);
+  const p = computeScoreParts(s);
+  const row = (label, pts, max) => `
+    <div class="score-part">
+      <span class="score-part-label">${label}</span>
+      <div class="score-part-bar"><div style="width:${(pts / max) * 100}%"></div></div>
+      <span class="score-part-pts">${pts.toFixed(1)}/${max}</span>
+    </div>`;
   return `
     <div class="score-row">
       <div class="score-num" style="color:${band.color}">${score}<span>/100</span></div>
@@ -586,6 +637,14 @@ function scoreHtml(s) {
         <div class="score-label">Conviction score — ${band.label}</div>
         <div class="score-bar"><div style="width:${score}%;background:${band.color}"></div></div>
       </div>
+      <button class="score-toggle" data-act="breakdown">Why?</button>
+    </div>
+    <div class="score-breakdown hidden">
+      ${row("Discount depth", p.value, 30)}
+      ${row("Financial health", p.health, 25)}
+      ${row("Analyst sentiment", p.analysts, 20)}
+      ${row("P/E attractiveness", p.peScore, 15)}
+      ${row("Zone position", p.zonePts, 10)}
     </div>`;
 }
 
@@ -643,6 +702,8 @@ function bindStockCards(root, listGetter) {
     });
     const newsBtn = card.querySelector('[data-act="news"]');
     newsBtn.addEventListener("click", () => checkNews(tk, card.querySelector(".news-slot"), newsBtn));
+    const bd = card.querySelector('[data-act="breakdown"]');
+    if (bd) bd.addEventListener("click", () => card.querySelector(".score-breakdown").classList.toggle("hidden"));
   });
 }
 
@@ -754,6 +815,8 @@ function renderLearn() {
     ["Return on Equity (ROE)", "Yearly profit as a percentage of shareholders' money. Above 15% means management turns your capital into profit efficiently. Cheap + high ROE is the classic 'good business at a fair price' combo."],
     ["PEG ratio", "P/E divided by the earnings growth rate. It answers: is the price fair <em>for how fast profits are growing</em>? Under 1.2 (ideally under 1.0) suggests you're getting the growth cheaply. A stock with P/E 20 growing 25%/yr (PEG 0.8) can be a better deal than P/E 12 with no growth."],
     ["Price-to-Sales (P/S)", "Company price tag divided by yearly revenue. Handy as a sanity check next to P/E — under ~2 for a profitable company usually means expectations are modest."],
+    ["Peer comparison", "Same idea as a Wall Street 'comps' analysis, simplified: each stock's P/E is measured against the median P/E of every other company the scan checked in its sector that day. A P/E of 18 is expensive for a sleepy utility and cheap for a software company — this tells you which one you're looking at, using the sector's own current pricing instead of one fixed number for everyone."],
+    ["Beta", "How much a stock swings compared to the overall market. Beta of 1.0 moves roughly with the market; below 0.8 tends to be calmer (common in utilities, consumer staples); above 1.2 swings harder in both directions (common in smaller or cyclical names). Not good or bad by itself — just tells you what kind of ride to expect."],
     ["Analyst ratings", "Professional analysts publish buy/hold/sell calls. The app counts the latest month's votes. They're often wrong individually, but a strong lean one way is a useful second opinion on top of the numbers."],
     ["IPO", "A private company selling shares to the public for the first time. Exciting but risky — no trading history, and early prices are driven by hype. Many pros wait 6–12 months and a couple of earnings reports."],
     ["Conviction score (/100)", "The desk's overall enthusiasm, with published weights: 30 pts for discount depth (maxes at 35% below the 52-week high), 25 pts for financial-health checks passed, 20 pts for analyst sentiment, 15 pts for P/E attractiveness within the 6–25 band, and 10 pts for sitting close to (or inside) the buy zone. 80+ = strong case, 65+ = solid, 50+ = decent, below 50 = thin. It measures how well the numbers line up — it can't see fraud, lawsuits, or tomorrow's news, so read the headlines before acting on a high score."],
