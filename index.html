@@ -171,22 +171,36 @@ const API = "https://finnhub.io/api/v1";
 // The live numeric filter does the real work — unprofitable or expensive
 // names in this list simply won't pass the screen on scan day.
 const UNIVERSE = {
-  "Technology":  ["SMTC","DIOD","POWI","CRUS","SLAB","ONTO","PLXS","SANM","KLIC","VECO","ACLS","FORM"],
-  "Healthcare":  ["SUPN","AMPH","PRGO","OGN","HSIC","PINC","CNMD","EXEL","UTHR","HALO","ITGR","MMSI"],
-  "Industrials": ["AGCO","OSK","TEX","ALSN","MLI","ATKR","GBX","HRI","SNDR","WERN","HUBG","AIT"],
-  "Energy":      ["MUR","CIVI","CTRA","APA","OVV","CRC","MTDR","SM","CRGY","PBF","DINO","VAL"],
-  "Consumer":    ["CROX","KTB","GIII","OXM","AEO","URBN","BKE","THO","ASO","DKS","DDS","WGO"],
-  "Financials":  ["JXN","OMF","SYF","LNC","UNM","AXS","ESNT","MTG","RDN","NMIH","RGA","RNR"],
-  "Materials":   ["CMC","STLD","WLK","SON","KALU","RS","WOR","SLVM","GPK","HWKN","MP","ATI"]
+  "Technology":  ["SMTC","DIOD","POWI","CRUS","SLAB","ONTO","PLXS","SANM","KLIC","VECO","ACLS","FORM",
+                  "MXL","SYNA","COHU","UCTT","ICHR","AEIS","NSIT","PRFT","CALX","DGII","EXTR","VIAV"],
+  "Healthcare":  ["SUPN","AMPH","PRGO","OGN","HSIC","PINC","CNMD","EXEL","UTHR","HALO","ITGR","MMSI",
+                  "PDCO","OMCL","ICUI","NEOG","ANIP","LMAT","PAHC","SGRY","AMED","ENSG","ACHC","USPH"],
+  "Industrials": ["AGCO","OSK","TEX","ALSN","MLI","ATKR","GBX","HRI","SNDR","WERN","HUBG","AIT",
+                  "MATX","ARCB","SAIA","ROAD","AAON","LII","WTS","CR","FLS","GTES","BWXT","MTZ"],
+  "Energy":      ["MUR","CIVI","CTRA","APA","OVV","CRC","MTDR","SM","CRGY","PBF","DINO","VAL",
+                  "AR","RRC","CHRD","VTLE","NOG","MGY","GPOR","PR","WTI","REI","TALO","KOS"],
+  "Consumer":    ["CROX","KTB","GIII","OXM","AEO","URBN","BKE","THO","ASO","DKS","DDS","WGO",
+                  "BOOT","CATO","CHS","JWN","M","KSS","BJ","SFM","WEN","JACK","CAKE","TXRH"],
+  "Financials":  ["JXN","OMF","SYF","LNC","UNM","AXS","ESNT","MTG","RDN","NMIH","RGA","RNR",
+                  "GNW","CNO","FAF","ORI","WRB","THG","SIGI","AFG","CINF","HIG","MKL","Y"],
+  "Materials":   ["CMC","STLD","WLK","SON","KALU","RS","WOR","SLVM","GPK","HWKN","MP","ATI",
+                  "SCL","OLN","ASH","GEF","SXT","NGVT","UFPI","TROX","KWR","FUL","IOSP","CBT"]
 };
 const UNIVERSE_LARGE = {
-  "Technology":  ["AAPL","MSFT","GOOGL","AVGO","ORCL","CSCO","QCOM","TXN","AMAT","MU","ADI","IBM"],
-  "Healthcare":  ["LLY","UNH","JNJ","ABBV","MRK","PFE","TMO","AMGN","GILD","CVS","CI","ELV"],
-  "Industrials": ["CAT","HON","UNP","DE","GE","LMT","RTX","UPS","ETN","ADP","CSX","EMR"],
-  "Energy":      ["XOM","CVX","COP","SLB","EOG","MPC","PSX","VLO","OXY","WMB","KMI","OKE"],
-  "Consumer":    ["WMT","HD","PG","KO","PEP","COST","MCD","NKE","SBUX","TJX","LOW","TGT"],
-  "Financials":  ["JPM","BAC","WFC","GS","MS","SCHW","AXP","C","BLK","PNC","USB","TFC"],
-  "Materials":   ["LIN","SHW","APD","FCX","NUE","DOW","NEM","CTVA","VMC","MLM","PPG","IP"]
+  "Technology":  ["AAPL","MSFT","GOOGL","AVGO","ORCL","CSCO","QCOM","TXN","AMAT","MU","ADI","IBM",
+                  "INTU","ADBE","CRM","NOW","INTC","AMD","PANW","SNPS","CDNS","FTNT","ANET","MSI"],
+  "Healthcare":  ["LLY","UNH","JNJ","ABBV","MRK","PFE","TMO","AMGN","GILD","CVS","CI","ELV",
+                  "MDT","SYK","BSX","ZTS","VRTX","REGN","HUM","ISRG","BDX","DHR","MCK","COR"],
+  "Industrials": ["CAT","HON","UNP","DE","GE","LMT","RTX","UPS","ETN","ADP","CSX","EMR",
+                  "BA","MMM","NSC","GD","NOC","ITW","PH","ROK","FDX","WM","CMI","PCAR"],
+  "Energy":      ["XOM","CVX","COP","SLB","EOG","MPC","PSX","VLO","OXY","WMB","KMI","OKE",
+                  "HES","BKR","TRGP","FANG","HAL","DVN","EQT","LNG","PXD","APA","MRO","CTRA"],
+  "Consumer":    ["WMT","HD","PG","KO","PEP","COST","MCD","NKE","SBUX","TJX","LOW","TGT",
+                  "CL","EL","MDLZ","MNST","YUM","CMG","ORLY","AZO","ROST","DG","KHC","GIS"],
+  "Financials":  ["JPM","BAC","WFC","GS","MS","SCHW","AXP","C","BLK","PNC","USB","TFC",
+                  "SPGI","CME","ICE","MMC","AON","TRV","PGR","AIG","MET","PRU","COF","BK"],
+  "Materials":   ["LIN","SHW","APD","FCX","NUE","DOW","NEM","CTVA","VMC","MLM","PPG","IP",
+                  "ECL","ALB","IFF","LYB","CE","AVY","BALL","PKG","MOS","CF","STLD","RPM"]
 };
 const SECTORS = Object.keys(UNIVERSE).concat(["Any sector"]);
 const TICKER_SECTOR = {};
@@ -893,7 +907,7 @@ function renderScout() {
       <div class="progress-wrap">
         <div class="progress-line" id="scanProgress">Warming up…</div>
         <div class="progress-track"><div class="progress-fill" id="scanFill"></div></div>
-        <div class="progress-sub">Checking each company live against your criteria. A full sector takes about a minute — that's the polite pace for the free data plan.</div>
+        <div class="progress-sub">Checking each company live against your criteria. A single-sector scan now covers twice as many companies, so it can take a couple of minutes — that's the polite pace for the free data plan.</div>
       </div>` : ""}
     ${state.scanError && !state.scanning ? `<div class="error">${escapeHtml(state.scanError)}</div>` : ""}
     ${!state.scanning && state.results.length === 0 && state.scanned && !state.scanError ? `<div class="empty"><div class="empty-title">Nothing passed the screen today</div><p>That happens — value is scarce some weeks. Try another sector or a bigger size cap.</p></div>` : ""}
@@ -998,7 +1012,7 @@ function renderLearn() {
     ["Desk price levels (buy below / avoid above)", "Pre-committed levels so decisions happen before emotions do. <code>Fair value</code> = earnings per share × a target P/E of 13–19× (higher when more health checks pass — better businesses deserve richer multiples). <code>Buy below</code> = fair value minus a 15% margin of safety, the classic cushion for being wrong. <code>Avoid above</code> = the price where P/E would exceed 25 and leave healthy territory. Formula estimates from current earnings, not professional advice — a bad earnings report changes all three overnight."],
     ["Earnings countdown", "The ⚡ chip means the company reports quarterly results within ~45 days. Earnings day is when prices jump the most, up or down. If you're new: buying a beaten-down stock right before earnings is the riskiest possible timing — many investors wait until after the report to see the reaction."],
     ["Diversification", "Don't put everything in one stock or sector. The 'Any sector' scan exists for exactly this reason — spreading bets is the closest thing investing has to a free lunch."],
-    ["About the data", "Quotes, fundamentals, ratings, news, and the IPO calendar come live from Finnhub's free tier. The scan paces itself to respect the free rate limit, which is why a full sector takes about a minute."]
+    ["About the data", "Quotes, fundamentals, ratings, news, and the IPO calendar come live from Finnhub's free tier. Each sector now covers roughly 24 companies (up from 12), so the scan paces itself to respect the free rate limit, which is why a full single-sector scan can take a couple of minutes."]
   ];
   document.getElementById("tab-learn").innerHTML =
     `<div class="panel"><div class="panel-title">The five-minute vocabulary</div><p class="panel-copy">Everything this app measures, in plain English — including exactly how the signals are calculated.</p></div>`
