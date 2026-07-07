@@ -118,8 +118,6 @@
   code { font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; background: var(--mist); padding: 1px 5px; border-radius: 4px; }
 
   .hidden { display: none; }
-  .modal-overlay { position: fixed; inset: 0; background: rgba(22,35,46,0.55); display: flex; align-items: center; justify-content: center; z-index: 1000; padding: 16px; }
-  .modal-panel { max-width: 520px; width: 100%; max-height: 90vh; overflow-y: auto; margin: 0; }
   @media (max-width: 480px) {
     .logo { font-size: 24px; }
     .tab { padding: 10px 8px; font-size: 14px; }
@@ -137,28 +135,22 @@
     </div>
   </header>
 
-  <!-- API key modal — only shown when a Finnhub-dependent action is used -->
-  <div id="setupOverlay" class="modal-overlay hidden">
-    <div id="setup" class="panel modal-panel">
-      <div class="panel-title">Quick setup (2 minutes, free)</div>
-      <p class="panel-copy">
-        This feature needs live data straight from Finnhub's free tier — no AI, no tokens, no cost.
-        Grab a free API key at <a href="https://finnhub.io/register" target="_blank" rel="noopener">finnhub.io/register</a>
-        (email signup, no credit card), paste it below, and you're set. The key is saved only in this browser on this computer.
-        <br><br>Note: the <strong>Full Market</strong>, <strong>ETFs</strong>, and <strong>Learn</strong> tabs don't need this at all — only the Scout lookup/scan, Watchlist news check, and IPO radar do.
-      </p>
-      <div class="field-label">Finnhub API key</div>
-      <input type="password" id="keyInput" placeholder="paste your key here" autocomplete="off">
-      <div style="height:12px"></div>
-      <div style="display:flex;gap:10px">
-        <button class="btn btn-big" id="saveKey">Save key and continue</button>
-        <button class="btn btn-quiet" id="cancelKey">Not now</button>
-      </div>
-      <div id="keyError" class="error hidden" style="margin-top:12px"></div>
-    </div>
+  <!-- API key setup -->
+  <div id="setup" class="panel hidden">
+    <div class="panel-title">One-time setup (2 minutes, free)</div>
+    <p class="panel-copy">
+      This app pulls live market data straight from Finnhub's free tier — no AI, no tokens, no cost.
+      Grab a free API key at <a href="https://finnhub.io/register" target="_blank" rel="noopener">finnhub.io/register</a>
+      (email signup, no credit card), paste it below, and you're set. The key is saved only in this browser on this computer.
+    </p>
+    <div class="field-label">Finnhub API key</div>
+    <input type="password" id="keyInput" placeholder="paste your key here" autocomplete="off">
+    <div style="height:12px"></div>
+    <button class="btn btn-big" id="saveKey">Save key and start scouting</button>
+    <div id="keyError" class="error hidden" style="margin-top:12px"></div>
   </div>
 
-  <div id="app">
+  <div id="app" class="hidden">
     <nav class="tabs">
       <button class="tab on" data-tab="market">Full Market</button>
       <button class="tab" data-tab="scout">Scout</button>
@@ -541,7 +533,7 @@ async function runScan() {
     if (e.message === "BADKEY") { try { localStorage.removeItem("uc:key"); } catch(_){} state.key = null; }
   }
   state.scanning = false;
-  if (!state.key) { renderScout(); showKeyModal(); return; }
+  if (!state.key) { renderScout(); showSetup(); return; }
   renderScout();
 }
 
@@ -781,7 +773,7 @@ function bindStockCards(root, listGetter) {
       saveWatchlist(); renderScout(); renderWatch();
     });
     const newsBtn = card.querySelector('[data-act="news"]');
-    newsBtn.addEventListener("click", () => requireKey(() => checkNews(tk, card.querySelector(".news-slot"), newsBtn)));
+    newsBtn.addEventListener("click", () => checkNews(tk, card.querySelector(".news-slot"), newsBtn));
     const bd = card.querySelector('[data-act="breakdown"]');
     if (bd) bd.addEventListener("click", () => card.querySelector(".score-breakdown").classList.toggle("hidden"));
   });
@@ -893,7 +885,7 @@ async function runLookup() {
       try { localStorage.removeItem("uc:key"); } catch(_){}
       state.key = null;
       btn.disabled = false; btn.textContent = "Run the checks";
-      showKeyModal(() => runLookup());
+      showSetup();
       const ke = document.getElementById("keyError");
       ke.classList.remove("hidden");
       ke.textContent = "Finnhub rejected the API key. Double-check it and re-enter it below.";
@@ -944,10 +936,10 @@ function renderScout() {
   root.querySelectorAll("[data-sector]").forEach(b => b.addEventListener("click", () => { state.sector = b.dataset.sector; renderScout(); }));
   root.querySelectorAll("[data-capidx]").forEach(b => b.addEventListener("click", () => { state.capIdx = Number(b.dataset.capidx); renderScout(); }));
   const scanBtn = document.getElementById("scanBtn");
-  if (scanBtn) scanBtn.addEventListener("click", () => requireKey(() => { state.scanError = null; state.scanned = true; runScan(); }));
+  if (scanBtn) scanBtn.addEventListener("click", () => { state.scanError = null; state.scanned = true; runScan(); });
   bindStockCards(root, () => state.results);
-  document.getElementById("lookupBtn").addEventListener("click", () => requireKey(runLookup));
-  document.getElementById("lookupInput").addEventListener("keydown", (e) => { if (e.key === "Enter") requireKey(runLookup); });
+  document.getElementById("lookupBtn").addEventListener("click", runLookup);
+  document.getElementById("lookupInput").addEventListener("keydown", (e) => { if (e.key === "Enter") runLookup(); });
   document.getElementById("lookupInput").addEventListener("input", (e) => { state.lookupValue = e.target.value; });
   if (state.lookupResult) bindStockCards(document.getElementById("lookupResult"), () => [state.lookupResult]);
 }
@@ -1004,7 +996,7 @@ function renderWatch() {
     </div>`
     + state.watchlist.map(s => stockCardHtml(s, true)).join("");
   const rbtn = document.getElementById("refreshWatch");
-  if (rbtn) rbtn.addEventListener("click", () => requireKey(refreshWatchPrices));
+  if (rbtn) rbtn.addEventListener("click", refreshWatchPrices);
   bindStockCards(root, () => state.watchlist);
 }
 
@@ -1149,7 +1141,7 @@ function renderIpo() {
       <button class="btn btn-big" id="ipoBtn">Scan upcoming IPOs</button>
     </div>
     <div id="ipoResults"></div>`;
-  document.getElementById("ipoBtn").addEventListener("click", () => requireKey(runIpoScan));
+  document.getElementById("ipoBtn").addEventListener("click", runIpoScan);
 }
 
 function renderLearn() {
@@ -1182,26 +1174,13 @@ function renderLearn() {
 
 /* ======================= shell ======================= */
 
-let pendingKeyAction = null;
-
-function showKeyModal(onReady) {
-  pendingKeyAction = onReady || null;
-  document.getElementById("setupOverlay").classList.remove("hidden");
-  document.getElementById("keyError").classList.add("hidden");
+function showSetup() {
+  document.getElementById("setup").classList.remove("hidden");
+  document.getElementById("app").classList.add("hidden");
 }
-function hideKeyModal() {
-  document.getElementById("setupOverlay").classList.add("hidden");
-  pendingKeyAction = null;
-}
-// Call this before any action that actually needs a live Finnhub call
-// (Scout lookup/scan, Watchlist news check, IPO radar). If a key is
-// already saved, the action just runs immediately with no interruption.
-function requireKey(action) {
-  if (state.key) { action(); return; }
-  showKeyModal(action);
-}
-
-function initApp() {
+function showApp() {
+  document.getElementById("setup").classList.add("hidden");
+  document.getElementById("app").classList.remove("hidden");
   renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs();
 }
 
@@ -1209,16 +1188,6 @@ document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () =>
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
   ["scout", "market", "etfs", "watch", "ipo", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
-  // Scout and IPO radar are the two tabs that are useless without a
-  // Finnhub key, so prompt right when landing on them instead of waiting
-  // for a button press inside.
-  if (!state.key && (t.dataset.tab === "scout" || t.dataset.tab === "ipo")) {
-    showKeyModal();
-  } else {
-    // Any other tab always force-closes the modal, so it can never get
-    // stuck showing on top of a tab that doesn't need it.
-    hideKeyModal();
-  }
 }));
 
 document.getElementById("saveKey").addEventListener("click", async () => {
@@ -1226,16 +1195,13 @@ document.getElementById("saveKey").addEventListener("click", async () => {
   const err = document.getElementById("keyError");
   err.classList.add("hidden");
   if (!key) { err.textContent = "Paste your Finnhub key first."; err.classList.remove("hidden"); return; }
-  const previousKey = state.key;
   state.key = key;
   try {
     await fh("/quote", { symbol: "AAPL" }); // validate the key with one cheap call
     try { localStorage.setItem("uc:key", key); } catch (e) {}
-    const action = pendingKeyAction;
-    hideKeyModal();
-    if (action) action();
+    showApp();
   } catch (e) {
-    state.key = previousKey;
+    state.key = null;
     err.textContent = e.message === "BADKEY"
       ? "Finnhub didn't accept that key — double-check for extra spaces and try again."
       : "Couldn't reach Finnhub (" + e.message + "). Check your internet connection.";
@@ -1243,16 +1209,8 @@ document.getElementById("saveKey").addEventListener("click", async () => {
   }
 });
 
-document.getElementById("cancelKey").addEventListener("click", hideKeyModal);
-// Clicking the dark backdrop itself (not the white panel) also dismisses
-// it — a second, independent way out in case the button click is ever
-// missed, so the modal can never feel "stuck."
-document.getElementById("setupOverlay").addEventListener("click", (e) => {
-  if (e.target.id === "setupOverlay") hideKeyModal();
-});
-
 loadState();
-initApp();
+if (state.key) showApp(); else showSetup();
 </script>
 </body>
 </html>
