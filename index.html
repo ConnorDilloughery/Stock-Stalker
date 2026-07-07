@@ -52,6 +52,7 @@
   .ticker-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
   .ticker { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 20px; }
   .name { color: var(--dim); font-size: 14px; margin-top: 2px; }
+  .scanned-at { color: var(--dim); font-size: 11.5px; margin-top: 4px; }
   .chip { font-size: 12px; font-weight: 600; border-radius: 999px; padding: 3px 10px; white-space: nowrap; }
   .price-block { text-align: right; }
   .price { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 20px; }
@@ -152,11 +153,15 @@
   <div id="app" class="hidden">
     <nav class="tabs">
       <button class="tab on" data-tab="scout">Scout</button>
+      <button class="tab" data-tab="market">Full Market</button>
+      <button class="tab" data-tab="etfs">ETFs</button>
       <button class="tab" data-tab="watch">Watchlist</button>
       <button class="tab" data-tab="ipo">IPO radar</button>
       <button class="tab" data-tab="learn">Learn</button>
     </nav>
     <div id="tab-scout"></div>
+    <div id="tab-market" class="hidden"></div>
+    <div id="tab-etfs" class="hidden"></div>
     <div id="tab-watch" class="hidden"></div>
     <div id="tab-ipo" class="hidden"></div>
     <div id="tab-learn" class="hidden"></div>
@@ -238,7 +243,13 @@ let state = {
   lookupValue: "",
   lookupResult: null,
   lookupError: null,
-  lookupGrowth: null
+  lookupGrowth: null,
+  marketData: null,
+  marketError: null,
+  marketLoading: false,
+  etfData: null,
+  etfError: null,
+  etfLoading: false
 };
 
 /* ======================= storage ======================= */
@@ -700,6 +711,14 @@ function growthCardHtml(g) {
     </div>`;
 }
 
+function scannedAtLabel(s) {
+  if (!s.scannedAt) return "";
+  const d = new Date(s.scannedAt);
+  const mins = Math.round((Date.now() - d.getTime()) / 60000);
+  const rel = mins < 1 ? "just now" : mins < 60 ? `${mins} min ago` : `${Math.round(mins/60)}h ago`;
+  return `<div class="scanned-at" title="${d.toLocaleString()}">Last refreshed: ${d.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'})} (${rel})</div>`;
+}
+
 function stockCardHtml(s, inWatch) {
   const sig = SIGNAL_STYLE[s.signal] || SIGNAL_STYLE.WATCH;
   return `
@@ -712,6 +731,7 @@ function stockCardHtml(s, inWatch) {
             ${earningsChip(s)}
           </div>
           <div class="name">${escapeHtml(s.sector)}</div>
+          ${scannedAtLabel(s)}
         </div>
         <div class="price-block">
           <div class="price">$${s.price.toFixed(2)}</div>
@@ -980,6 +1000,104 @@ function renderWatch() {
   bindStockCards(root, () => state.watchlist);
 }
 
+function etfCardHtml(e) {
+  const discount = (e.high && e.high > e.price) ? ((e.high - e.price) / e.high) : null;
+  return `
+    <div class="card">
+      <div class="card-head">
+        <div>
+          <div class="ticker-row">
+            <span class="ticker">${e.ticker}</span>
+            <span class="chip" style="background:#EAEEF1;color:#4A5A66">${escapeHtml(e.category || "ETF")}</span>
+          </div>
+          <div class="name">${escapeHtml(e.name || "")}</div>
+          ${scannedAtLabel(e)}
+        </div>
+        <div class="price-block">
+          <div class="price">$${e.price.toFixed(2)}</div>
+          ${discount !== null ? `<div class="room">${(discount*100).toFixed(0)}% below 52-wk high</div>` : ""}
+        </div>
+      </div>
+      <div class="stats" style="margin-top:14px">
+        <div class="stat"><span>Expense ratio</span><strong>${(e.expenseRatio ?? 0).toFixed(2)}%</strong></div>
+        <div class="stat"><span>Fund size proxy</span><strong>${e.aum ? fmtCap(e.aum) : "n/a"}</strong></div>
+        <div class="stat"><span>Beta</span><strong>${e.beta !== null && e.beta !== undefined ? e.beta.toFixed(2) : "n/a"}</strong></div>
+        <div class="stat"><span>Dividend yield</span><strong>${e.divYield ? e.divYield.toFixed(1) + "%" : "n/a"}</strong></div>
+      </div>
+      <div class="notes">
+        <p><span class="k">What this is.</span> ${escapeHtml(e.category || "A fund")} — a basket of holdings, not a single company, so there's no P/E or conviction score here. Lower expense ratio generally means more of the return stays in your pocket over time.</p>
+      </div>
+    </div>`;
+}
+
+async function loadMarketData(force) {
+  if (state.marketData && !force) return;
+  state.marketLoading = true; state.marketError = null;
+  renderMarket();
+  try {
+    const res = await fetch("./stocks.json?ts=" + Date.now());
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    state.marketData = await res.json();
+  } catch (e) {
+    state.marketError = "Couldn't load the Pi's full-market scan (" + e.message + "). If you haven't set up the scanner yet, this file won't exist — see the Learn tab.";
+  }
+  state.marketLoading = false;
+  renderMarket();
+}
+
+async function loadEtfData(force) {
+  if (state.etfData && !force) return;
+  state.etfLoading = true; state.etfError = null;
+  renderEtfs();
+  try {
+    const res = await fetch("./etfs.json?ts=" + Date.now());
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    state.etfData = await res.json();
+  } catch (e) {
+    state.etfError = "Couldn't load ETF data (" + e.message + "). If you haven't set up the scanner yet, this file won't exist — see the Learn tab.";
+  }
+  state.etfLoading = false;
+  renderEtfs();
+}
+
+function renderMarket() {
+  const root = document.getElementById("tab-market");
+  const d = state.marketData;
+  const updated = d ? new Date(d.generatedAt).toLocaleString() : null;
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">Full market scan</div>
+      <p class="panel-copy">Fed by a Pi running continuously in the background, scanning every actively-traded US stock on a rolling basis — same formulas as the Scout tab, just at full market width. ${updated ? `Last updated: <strong>${updated}</strong> · ${d.count} companies passed the screen this pass.` : ""}</p>
+      ${d && d.partial ? `<div class="baked" style="margin-bottom:0">Scan still in progress — these are checkpoint results partway through the current pass, not the final tally. Refresh in a bit for more complete coverage.</div>` : ""}
+      <button class="btn btn-big" id="marketRefresh">${state.marketLoading ? "Loading…" : "Refresh from Pi"}</button>
+    </div>
+    ${state.marketError ? `<div class="error">${escapeHtml(state.marketError)}</div>` : ""}
+    <div id="marketResults">${d ? d.stocks.map(s => stockCardHtml(s, state.watchlist.some(w => w.ticker === s.ticker))).join("") : ""}</div>
+  `;
+  const btn = document.getElementById("marketRefresh");
+  if (btn) btn.addEventListener("click", () => loadMarketData(true));
+  if (d) bindStockCards(document.getElementById("marketResults"), () => d.stocks);
+  if (!d && !state.marketLoading && !state.marketError) loadMarketData(false);
+}
+
+function renderEtfs() {
+  const root = document.getElementById("tab-etfs");
+  const d = state.etfData;
+  const updated = d ? new Date(d.generatedAt).toLocaleString() : null;
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">ETFs</div>
+      <p class="panel-copy">A curated list of ~60 liquid, well-known ETFs, also refreshed by the Pi. These get fund-appropriate metrics only (expense ratio, fund size, beta, yield) — no P/E-based score, since that math doesn't apply to a basket of holdings rather than one company. ${updated ? `Last updated: <strong>${updated}</strong>` : ""}</p>
+      <button class="btn btn-big" id="etfRefresh">${state.etfLoading ? "Loading…" : "Refresh from Pi"}</button>
+    </div>
+    ${state.etfError ? `<div class="error">${escapeHtml(state.etfError)}</div>` : ""}
+    <div>${d ? d.etfs.map(etfCardHtml).join("") : ""}</div>
+  `;
+  const btn = document.getElementById("etfRefresh");
+  if (btn) btn.addEventListener("click", () => loadEtfData(true));
+  if (!d && !state.etfLoading && !state.etfError) loadEtfData(false);
+}
+
 function renderIpo() {
   const root = document.getElementById("tab-ipo");
   root.innerHTML = `
@@ -1012,7 +1130,8 @@ function renderLearn() {
     ["Desk price levels (buy below / avoid above)", "Pre-committed levels so decisions happen before emotions do. <code>Fair value</code> = earnings per share × a target P/E of 13–19× (higher when more health checks pass — better businesses deserve richer multiples). <code>Buy below</code> = fair value minus a 15% margin of safety, the classic cushion for being wrong. <code>Avoid above</code> = the price where P/E would exceed 25 and leave healthy territory. Formula estimates from current earnings, not professional advice — a bad earnings report changes all three overnight."],
     ["Earnings countdown", "The ⚡ chip means the company reports quarterly results within ~45 days. Earnings day is when prices jump the most, up or down. If you're new: buying a beaten-down stock right before earnings is the riskiest possible timing — many investors wait until after the report to see the reaction."],
     ["Diversification", "Don't put everything in one stock or sector. The 'Any sector' scan exists for exactly this reason — spreading bets is the closest thing investing has to a free lunch."],
-    ["About the data", "Quotes, fundamentals, ratings, news, and the IPO calendar come live from Finnhub's free tier. Each sector now covers roughly 24 companies (up from 12), so the scan paces itself to respect the free rate limit, which is why a full single-sector scan can take a couple of minutes."]
+    ["About the data", "Quotes, fundamentals, ratings, news, and the IPO calendar come live from Finnhub's free tier. Each sector now covers roughly 24 companies (up from 12), so the scan paces itself to respect the free rate limit, which is why a full single-sector scan can take a couple of minutes."],
+    ["Full Market & ETF tabs", "These two tabs read stocks.json and etfs.json — files produced by a small Python script meant to run continuously on a Raspberry Pi (or any always-on computer), scanning the whole active US stock market (Russell 3000) plus ~60 liquid ETFs on Finnhub's free tier, and pushing results into this app's GitHub repo. If these tabs show an error, that just means the Pi scanner hasn't been set up yet, or hasn't pushed its first update — the rest of the app works fine without it."]
   ];
   document.getElementById("tab-learn").innerHTML =
     `<div class="panel"><div class="panel-title">The five-minute vocabulary</div><p class="panel-copy">Everything this app measures, in plain English — including exactly how the signals are calculated.</p></div>`
@@ -1028,12 +1147,12 @@ function showSetup() {
 function showApp() {
   document.getElementById("setup").classList.add("hidden");
   document.getElementById("app").classList.remove("hidden");
-  renderScout(); renderWatch(); renderIpo(); renderLearn();
+  renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs();
 }
 
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
-  ["scout", "watch", "ipo", "learn"].forEach(id =>
+  ["scout", "market", "etfs", "watch", "ipo", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
 }));
 
