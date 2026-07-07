@@ -118,6 +118,8 @@
   code { font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; background: var(--mist); padding: 1px 5px; border-radius: 4px; }
 
   .hidden { display: none; }
+  .modal-overlay { position: fixed; inset: 0; background: rgba(22,35,46,0.55); display: flex; align-items: center; justify-content: center; z-index: 1000; padding: 16px; }
+  .modal-panel { max-width: 520px; width: 100%; max-height: 90vh; overflow-y: auto; margin: 0; }
   @media (max-width: 480px) {
     .logo { font-size: 24px; }
     .tab { padding: 10px 8px; font-size: 14px; }
@@ -135,32 +137,38 @@
     </div>
   </header>
 
-  <!-- API key setup -->
-  <div id="setup" class="panel hidden">
-    <div class="panel-title">One-time setup (2 minutes, free)</div>
-    <p class="panel-copy">
-      This app pulls live market data straight from Finnhub's free tier — no AI, no tokens, no cost.
-      Grab a free API key at <a href="https://finnhub.io/register" target="_blank" rel="noopener">finnhub.io/register</a>
-      (email signup, no credit card), paste it below, and you're set. The key is saved only in this browser on this computer.
-    </p>
-    <div class="field-label">Finnhub API key</div>
-    <input type="password" id="keyInput" placeholder="paste your key here" autocomplete="off">
-    <div style="height:12px"></div>
-    <button class="btn btn-big" id="saveKey">Save key and start scouting</button>
-    <div id="keyError" class="error hidden" style="margin-top:12px"></div>
+  <!-- API key modal — only shown when a Finnhub-dependent action is used -->
+  <div id="setupOverlay" class="modal-overlay hidden">
+    <div id="setup" class="panel modal-panel">
+      <div class="panel-title">Quick setup (2 minutes, free)</div>
+      <p class="panel-copy">
+        This feature needs live data straight from Finnhub's free tier — no AI, no tokens, no cost.
+        Grab a free API key at <a href="https://finnhub.io/register" target="_blank" rel="noopener">finnhub.io/register</a>
+        (email signup, no credit card), paste it below, and you're set. The key is saved only in this browser on this computer.
+        <br><br>Note: the <strong>Full Market</strong>, <strong>ETFs</strong>, and <strong>Learn</strong> tabs don't need this at all — only the Scout lookup/scan, Watchlist news check, and IPO radar do.
+      </p>
+      <div class="field-label">Finnhub API key</div>
+      <input type="password" id="keyInput" placeholder="paste your key here" autocomplete="off">
+      <div style="height:12px"></div>
+      <div style="display:flex;gap:10px">
+        <button class="btn btn-big" id="saveKey">Save key and continue</button>
+        <button class="btn btn-quiet" id="cancelKey">Not now</button>
+      </div>
+      <div id="keyError" class="error hidden" style="margin-top:12px"></div>
+    </div>
   </div>
 
-  <div id="app" class="hidden">
+  <div id="app">
     <nav class="tabs">
-      <button class="tab on" data-tab="scout">Scout</button>
-      <button class="tab" data-tab="market">Full Market</button>
+      <button class="tab on" data-tab="market">Full Market</button>
+      <button class="tab" data-tab="scout">Scout</button>
       <button class="tab" data-tab="etfs">ETFs</button>
       <button class="tab" data-tab="watch">Watchlist</button>
       <button class="tab" data-tab="ipo">IPO radar</button>
       <button class="tab" data-tab="learn">Learn</button>
     </nav>
-    <div id="tab-scout"></div>
-    <div id="tab-market" class="hidden"></div>
+    <div id="tab-market"></div>
+    <div id="tab-scout" class="hidden"></div>
     <div id="tab-etfs" class="hidden"></div>
     <div id="tab-watch" class="hidden"></div>
     <div id="tab-ipo" class="hidden"></div>
@@ -533,7 +541,7 @@ async function runScan() {
     if (e.message === "BADKEY") { try { localStorage.removeItem("uc:key"); } catch(_){} state.key = null; }
   }
   state.scanning = false;
-  if (!state.key) { showSetup(); return; }
+  if (!state.key) { renderScout(); showKeyModal(); return; }
   renderScout();
 }
 
@@ -773,7 +781,7 @@ function bindStockCards(root, listGetter) {
       saveWatchlist(); renderScout(); renderWatch();
     });
     const newsBtn = card.querySelector('[data-act="news"]');
-    newsBtn.addEventListener("click", () => checkNews(tk, card.querySelector(".news-slot"), newsBtn));
+    newsBtn.addEventListener("click", () => requireKey(() => checkNews(tk, card.querySelector(".news-slot"), newsBtn)));
     const bd = card.querySelector('[data-act="breakdown"]');
     if (bd) bd.addEventListener("click", () => card.querySelector(".score-breakdown").classList.toggle("hidden"));
   });
@@ -885,7 +893,7 @@ async function runLookup() {
       try { localStorage.removeItem("uc:key"); } catch(_){}
       state.key = null;
       btn.disabled = false; btn.textContent = "Run the checks";
-      showSetup();
+      showKeyModal(() => runLookup());
       const ke = document.getElementById("keyError");
       ke.classList.remove("hidden");
       ke.textContent = "Finnhub rejected the API key. Double-check it and re-enter it below.";
@@ -936,10 +944,10 @@ function renderScout() {
   root.querySelectorAll("[data-sector]").forEach(b => b.addEventListener("click", () => { state.sector = b.dataset.sector; renderScout(); }));
   root.querySelectorAll("[data-capidx]").forEach(b => b.addEventListener("click", () => { state.capIdx = Number(b.dataset.capidx); renderScout(); }));
   const scanBtn = document.getElementById("scanBtn");
-  if (scanBtn) scanBtn.addEventListener("click", () => { state.scanError = null; state.scanned = true; runScan(); });
+  if (scanBtn) scanBtn.addEventListener("click", () => requireKey(() => { state.scanError = null; state.scanned = true; runScan(); }));
   bindStockCards(root, () => state.results);
-  document.getElementById("lookupBtn").addEventListener("click", runLookup);
-  document.getElementById("lookupInput").addEventListener("keydown", (e) => { if (e.key === "Enter") runLookup(); });
+  document.getElementById("lookupBtn").addEventListener("click", () => requireKey(runLookup));
+  document.getElementById("lookupInput").addEventListener("keydown", (e) => { if (e.key === "Enter") requireKey(runLookup); });
   document.getElementById("lookupInput").addEventListener("input", (e) => { state.lookupValue = e.target.value; });
   if (state.lookupResult) bindStockCards(document.getElementById("lookupResult"), () => [state.lookupResult]);
 }
@@ -996,12 +1004,42 @@ function renderWatch() {
     </div>`
     + state.watchlist.map(s => stockCardHtml(s, true)).join("");
   const rbtn = document.getElementById("refreshWatch");
-  if (rbtn) rbtn.addEventListener("click", refreshWatchPrices);
+  if (rbtn) rbtn.addEventListener("click", () => requireKey(refreshWatchPrices));
   bindStockCards(root, () => state.watchlist);
 }
 
 function etfCardHtml(e) {
   const discount = (e.high && e.high > e.price) ? ((e.high - e.price) / e.high) : null;
+  const rangePos = (typeof e.rangePosition === "number") ? e.rangePosition : null;
+
+  const expenseLine = (e.categoryMedianExpense !== undefined && e.categoryMedianExpense !== null)
+    ? (() => {
+        const diff = e.expenseRatio - e.categoryMedianExpense;
+        const cheaper = diff < -0.005;
+        const pricier = diff > 0.005;
+        const verdict = cheaper
+          ? `<span class="k">cheaper than the category median</span>`
+          : pricier
+            ? `<span class="k-risk">pricier than the category median</span>`
+            : `<span style="color:var(--dim)">right in line with the category median</span>`;
+        return `<p><span class="k">Cost vs. peers.</span> ${escapeHtml(e.category)} funds in this scan run a median expense ratio of ${e.categoryMedianExpense.toFixed(2)}% — ${e.ticker} is ${verdict} at ${e.expenseRatio.toFixed(2)}%.</p>`;
+      })()
+    : "";
+
+  const betaText = (e.beta !== null && e.beta !== undefined)
+    ? `<p><span class="k">Volatility.</span> Beta of ${e.beta.toFixed(2)} — this fund ${betaLabel(e.beta)}. ${e.beta > 1.2 ? "Expect bigger swings, both up and down, than the broad market." : e.beta < 0.8 ? "Tends to hold up more calmly than the broad market in rough patches." : "Moves roughly in step with the broad market."}</p>`
+    : "";
+
+  const yieldText = (e.divYield && e.divYield > 0)
+    ? `<p><span class="k">Income.</span> Pays out ${e.divYield.toFixed(1)}% a year in distributions — ${e.divYield > 3 ? "on the higher end, often a sign the fund leans toward income-focused or value holdings." : "modest, typical of growth-leaning or broad-market funds."}</p>`
+    : "";
+
+  const rangeGauge = (rangePos !== null) ? `
+      <div class="gauge">
+        <div class="gauge-labels"><span>52-wk low</span><span>Mid-range</span><span>52-wk high</span></div>
+        <div class="gauge-track"><div class="gauge-marker" style="left:${rangePos}%"></div></div>
+      </div>` : "";
+
   return `
     <div class="card">
       <div class="card-head">
@@ -1024,8 +1062,12 @@ function etfCardHtml(e) {
         <div class="stat"><span>Beta</span><strong>${e.beta !== null && e.beta !== undefined ? e.beta.toFixed(2) : "n/a"}</strong></div>
         <div class="stat"><span>Dividend yield</span><strong>${e.divYield ? e.divYield.toFixed(1) + "%" : "n/a"}</strong></div>
       </div>
+      ${rangeGauge}
       <div class="notes">
         <p><span class="k">What this is.</span> ${escapeHtml(e.category || "A fund")} — a basket of holdings, not a single company, so there's no P/E or conviction score here. Lower expense ratio generally means more of the return stays in your pocket over time.</p>
+        ${expenseLine}
+        ${betaText}
+        ${yieldText}
       </div>
     </div>`;
 }
@@ -1087,7 +1129,7 @@ function renderEtfs() {
   root.innerHTML = `
     <div class="panel">
       <div class="panel-title">ETFs</div>
-      <p class="panel-copy">A curated list of ~60 liquid, well-known ETFs, also refreshed by the Pi. These get fund-appropriate metrics only (expense ratio, fund size, beta, yield) — no P/E-based score, since that math doesn't apply to a basket of holdings rather than one company. ${updated ? `Last updated: <strong>${updated}</strong>` : ""}</p>
+      <p class="panel-copy">A curated list of ~60 liquid, well-known ETFs, also refreshed by the Pi. These get fund-appropriate metrics only (expense ratio, fund size, beta, yield, category cost comparison, 52-week range position) — no P/E-based score, since that math doesn't apply to a basket of holdings rather than one company. ${updated ? `Last updated: <strong>${updated}</strong>` : ""}</p>
       <button class="btn btn-big" id="etfRefresh">${state.etfLoading ? "Loading…" : "Refresh from Pi"}</button>
     </div>
     ${state.etfError ? `<div class="error">${escapeHtml(state.etfError)}</div>` : ""}
@@ -1107,7 +1149,7 @@ function renderIpo() {
       <button class="btn btn-big" id="ipoBtn">Scan upcoming IPOs</button>
     </div>
     <div id="ipoResults"></div>`;
-  document.getElementById("ipoBtn").addEventListener("click", runIpoScan);
+  document.getElementById("ipoBtn").addEventListener("click", () => requireKey(runIpoScan));
 }
 
 function renderLearn() {
@@ -1140,13 +1182,26 @@ function renderLearn() {
 
 /* ======================= shell ======================= */
 
-function showSetup() {
-  document.getElementById("setup").classList.remove("hidden");
-  document.getElementById("app").classList.add("hidden");
+let pendingKeyAction = null;
+
+function showKeyModal(onReady) {
+  pendingKeyAction = onReady || null;
+  document.getElementById("setupOverlay").classList.remove("hidden");
+  document.getElementById("keyError").classList.add("hidden");
 }
-function showApp() {
-  document.getElementById("setup").classList.add("hidden");
-  document.getElementById("app").classList.remove("hidden");
+function hideKeyModal() {
+  document.getElementById("setupOverlay").classList.add("hidden");
+  pendingKeyAction = null;
+}
+// Call this before any action that actually needs a live Finnhub call
+// (Scout lookup/scan, Watchlist news check, IPO radar). If a key is
+// already saved, the action just runs immediately with no interruption.
+function requireKey(action) {
+  if (state.key) { action(); return; }
+  showKeyModal(action);
+}
+
+function initApp() {
   renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs();
 }
 
@@ -1154,6 +1209,12 @@ document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () =>
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
   ["scout", "market", "etfs", "watch", "ipo", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
+  // Scout and IPO radar are the two tabs that are useless without a
+  // Finnhub key, so prompt right when landing on them instead of waiting
+  // for a button press inside. "Not now" just closes it — nothing forced.
+  if (!state.key && (t.dataset.tab === "scout" || t.dataset.tab === "ipo")) {
+    showKeyModal();
+  }
 }));
 
 document.getElementById("saveKey").addEventListener("click", async () => {
@@ -1161,13 +1222,16 @@ document.getElementById("saveKey").addEventListener("click", async () => {
   const err = document.getElementById("keyError");
   err.classList.add("hidden");
   if (!key) { err.textContent = "Paste your Finnhub key first."; err.classList.remove("hidden"); return; }
+  const previousKey = state.key;
   state.key = key;
   try {
     await fh("/quote", { symbol: "AAPL" }); // validate the key with one cheap call
     try { localStorage.setItem("uc:key", key); } catch (e) {}
-    showApp();
+    const action = pendingKeyAction;
+    hideKeyModal();
+    if (action) action();
   } catch (e) {
-    state.key = null;
+    state.key = previousKey;
     err.textContent = e.message === "BADKEY"
       ? "Finnhub didn't accept that key — double-check for extra spaces and try again."
       : "Couldn't reach Finnhub (" + e.message + "). Check your internet connection.";
@@ -1175,8 +1239,10 @@ document.getElementById("saveKey").addEventListener("click", async () => {
   }
 });
 
+document.getElementById("cancelKey").addEventListener("click", hideKeyModal);
+
 loadState();
-if (state.key) showApp(); else showSetup();
+initApp();
 </script>
 </body>
 </html>
