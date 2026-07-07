@@ -1211,9 +1211,13 @@ document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
   // Scout and IPO radar are the two tabs that are useless without a
   // Finnhub key, so prompt right when landing on them instead of waiting
-  // for a button press inside. "Not now" just closes it — nothing forced.
+  // for a button press inside.
   if (!state.key && (t.dataset.tab === "scout" || t.dataset.tab === "ipo")) {
     showKeyModal();
+  } else {
+    // Any other tab always force-closes the modal, so it can never get
+    // stuck showing on top of a tab that doesn't need it.
+    hideKeyModal();
   }
 }));
 
@@ -1240,6 +1244,12 @@ document.getElementById("saveKey").addEventListener("click", async () => {
 });
 
 document.getElementById("cancelKey").addEventListener("click", hideKeyModal);
+// Clicking the dark backdrop itself (not the white panel) also dismisses
+// it — a second, independent way out in case the button click is ever
+// missed, so the modal can never feel "stuck."
+document.getElementById("setupOverlay").addEventListener("click", (e) => {
+  if (e.target.id === "setupOverlay") hideKeyModal();
+});
 
 loadState();
 initApp();
