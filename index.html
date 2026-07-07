@@ -172,6 +172,16 @@
 
 const API = "https://finnhub.io/api/v1";
 
+// The Pi pushes stocks.json/etfs.json straight to this repo every ~30
+// minutes. Fetching them from GitHub's raw content endpoint (instead of
+// as static files served by Vercel) means new data shows up the instant
+// it's pushed — no waiting for Vercel to build, deploy, and promote a
+// new deployment to production first. main always resolves to whatever
+// was pushed most recently, so this can never go stale behind an old
+// deployment the way ./stocks.json (relative to whatever build the
+// browser happens to have loaded) could.
+const DATA_BASE = "https://raw.githubusercontent.com/ConnorDilloughery/Stock-Stalker/main";
+
 // Built-in screening universe: liquid small/mid-cap US names by sector.
 // The live numeric filter does the real work — unprofitable or expensive
 // names in this list simply won't pass the screen on scan day.
@@ -1069,7 +1079,7 @@ async function loadMarketData(force) {
   state.marketLoading = true; state.marketError = null;
   renderMarket();
   try {
-    const res = await fetch("./stocks.json?ts=" + Date.now());
+    const res = await fetch(DATA_BASE + "/stocks.json?ts=" + Date.now());
     if (!res.ok) throw new Error("HTTP " + res.status);
     state.marketData = await res.json();
   } catch (e) {
@@ -1084,7 +1094,7 @@ async function loadEtfData(force) {
   state.etfLoading = true; state.etfError = null;
   renderEtfs();
   try {
-    const res = await fetch("./etfs.json?ts=" + Date.now());
+    const res = await fetch(DATA_BASE + "/etfs.json?ts=" + Date.now());
     if (!res.ok) throw new Error("HTTP " + res.status);
     state.etfData = await res.json();
   } catch (e) {
