@@ -1125,6 +1125,7 @@ async function loadMarketData(force) {
   }
   state.marketLoading = false;
   renderMarket();
+  renderDividends(); // Dividends depends on this data too, even if it wasn't the tab that triggered the fetch
 }
 
 async function loadEtfData(force) {
@@ -1140,6 +1141,7 @@ async function loadEtfData(force) {
   }
   state.etfLoading = false;
   renderEtfs();
+  renderDividends(); // same reason — Dividends needs to know the moment this resolves too
 }
 
 function renderMarket() {
@@ -1314,9 +1316,11 @@ function renderDividends() {
     ${!etfsReady ? `<p class="panel-copy" style="margin:0 4px">Loading ETF data…</p>` : topEtfs.length === 0 ? `<p class="panel-copy" style="margin:0 4px">No dividend-paying ETFs in the current results.</p>` : topEtfs.map(e => dividendRow(e, true)).join("")}
   `;
   // Reuse whatever Full Market/ETF data is already loading elsewhere in
-  // the app rather than triggering a second, redundant fetch.
-  if (!stocksReady && !state.marketLoading) loadMarketData(false).then(renderDividends);
-  if (!etfsReady && !state.etfLoading) loadEtfData(false).then(renderDividends);
+  // the app rather than triggering a second, redundant fetch — the
+  // loaders themselves call renderDividends() again once they resolve,
+  // regardless of which tab actually triggered the fetch.
+  if (!stocksReady && !state.marketLoading) loadMarketData(false);
+  if (!etfsReady && !state.etfLoading) loadEtfData(false);
 }
 
 function renderPulse() {
