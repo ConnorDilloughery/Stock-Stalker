@@ -158,6 +158,7 @@
       <button class="tab" data-tab="watch">Watchlist</button>
       <button class="tab" data-tab="ipo">IPO radar</button>
       <button class="tab" data-tab="pulse">Market Pulse</button>
+      <button class="tab" data-tab="dividends">Dividends</button>
       <button class="tab" data-tab="learn">Learn</button>
     </nav>
     <div id="tab-market"></div>
@@ -166,6 +167,7 @@
     <div id="tab-watch" class="hidden"></div>
     <div id="tab-ipo" class="hidden"></div>
     <div id="tab-pulse" class="hidden"></div>
+    <div id="tab-dividends" class="hidden"></div>
     <div id="tab-learn" class="hidden"></div>
   </div>
 </div>
@@ -257,6 +259,7 @@ let state = {
   lookupError: null,
   lookupGrowth: null,
   pulseData: null,
+  pulseLoading: false,
   marketData: null,
   marketError: null,
   marketLoading: false,
@@ -770,6 +773,7 @@ function stockCardHtml(s, inWatch) {
       <div class="stats">
         <div class="stat"><span>P/E</span><strong>${s.pe.toFixed(1)}</strong></div>
         <div class="stat"><span>Market cap</span><strong>${fmtCap(s.cap)}</strong></div>
+        <div class="stat"><span>Avg volume</span><strong>${s.avgVolumeM !== null && s.avgVolumeM !== undefined ? s.avgVolumeM.toFixed(1) + "M/day" : "n/a"}</strong></div>
         <div class="stat"><span>Analysts</span><strong>${s.recTotal ? (s.strongBuy + s.buy) + " buy / " + (s.sell + s.strongSell) + " sell" : "n/a"}</strong></div>
       </div>
       ${healthChips(s)}
@@ -1185,10 +1189,9 @@ const PULSE_INDEXES = [
 ];
 
 async function runMarketPulse() {
-  const out = document.getElementById("pulseResults");
-  const btn = document.getElementById("pulseBtn");
-  btn.disabled = true; btn.textContent = "Scanning…";
-  out.innerHTML = `<div class="progress-wrap"><div class="progress-line">Pulling overnight moves, news, and today's calendar…</div><div class="progress-track"><div class="progress-fill" style="width:60%"></div></div></div>`;
+  if (state.pulseLoading) return;
+  state.pulseLoading = true;
+  renderPulse();
 
   const today = new Date().toISOString().slice(0, 10);
   let indexes = [], news = [], earnings = [], econEvents = null; // null = "couldn't tell"
@@ -1223,17 +1226,19 @@ async function runMarketPulse() {
       econEvents = econData.economicCalendar;
     }
   } catch (e) {
+    state.pulseLoading = false;
     if (e.message === "BADKEY") {
       try { localStorage.removeItem("uc:key"); } catch(_){}
       state.key = null;
-      btn.disabled = false; btn.textContent = "Run pre-market scan";
       showSetup();
       return;
     }
+    renderPulse();
+    return;
   }
 
   state.pulseData = { indexes, news, earnings, econEvents, generatedAt: new Date().toISOString() };
-  btn.disabled = false; btn.textContent = "Run pre-market scan";
+  state.pulseLoading = false;
   renderPulse();
 }
 
@@ -1264,6 +1269,56 @@ function pulseNewsRow(n) {
   </div>`;
 }
 
+/* ======================= dividends ======================= */
+
+function dividendRow(item, isEtf) {
+  const yieldVal = item.divYield;
+  return `
+    <div class="card" style="padding:16px 20px">
+      <div class="card-head" style="align-items:center">
+        <div>
+          <div class="ticker-row">
+            <span class="ticker">${item.ticker}</span>
+            ${isEtf ? `<span class="chip" style="background:#EAEEF1;color:#4A5A66">${escapeHtml(item.category || "ETF")}</span>` : `<span class="chip" style="background:#EAEEF1;color:#4A5A66">${escapeHtml(item.sector || "")}</span>`}
+          </div>
+          <div class="name">${escapeHtml(item.name || "")}</div>
+        </div>
+        <div class="price-block">
+          <div class="price" style="color:var(--kelp)">${yieldVal.toFixed(2)}%</div>
+          <div class="room" style="color:var(--dim)">$${item.price.toFixed(2)}</div>
+        </div>
+      </div>
+    </div>`;
+}
+
+function renderDividends() {
+  const root = document.getElementById("tab-dividends");
+  const stocksReady = state.marketData && state.marketData.stocks;
+  const etfsReady = state.etfData && state.etfData.etfs;
+
+  const topStocks = stocksReady
+    ? state.marketData.stocks.filter(s => s.divYield && s.divYield > 0).sort((a, b) => b.divYield - a.divYield).slice(0, 15)
+    : [];
+  const topEtfs = etfsReady
+    ? state.etfData.etfs.filter(e => e.divYield && e.divYield > 0).sort((a, b) => b.divYield - a.divYield).slice(0, 15)
+    : [];
+
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">Highest dividend yields</div>
+      <p class="panel-copy">Pulled from the same Full Market and ETF data the Pi already scans — sorted by trailing dividend yield, highest first. A very high yield can mean a genuinely strong payer, or it can mean the price has fallen hard and the yield hasn't caught up yet (a "yield trap") — check the news and financial health checks on a stock before assuming a big number is free money.</p>
+    </div>
+    <div class="panel-title" style="margin:20px 4px 10px">Top stocks by yield</div>
+    ${!stocksReady ? `<p class="panel-copy" style="margin:0 4px">Loading Full Market data…</p>` : topStocks.length === 0 ? `<p class="panel-copy" style="margin:0 4px">No dividend-paying stocks in the current Full Market results.</p>` : topStocks.map(s => dividendRow(s, false)).join("")}
+    <div class="panel-title" style="margin:20px 4px 10px">Top ETFs by yield</div>
+    ${!etfsReady ? `<p class="panel-copy" style="margin:0 4px">Loading ETF data…</p>` : topEtfs.length === 0 ? `<p class="panel-copy" style="margin:0 4px">No dividend-paying ETFs in the current results.</p>` : topEtfs.map(e => dividendRow(e, true)).join("")}
+  `;
+  // Reuse whatever Full Market/ETF data is already loading elsewhere in
+  // the app rather than triggering a second, redundant fetch.
+  if (!stocksReady && !state.marketLoading) loadMarketData(false).then(renderDividends);
+  if (!etfsReady && !state.etfLoading) loadEtfData(false).then(renderDividends);
+}
+
 function renderPulse() {
   const root = document.getElementById("tab-pulse");
   const d = state.pulseData;
@@ -1271,8 +1326,9 @@ function renderPulse() {
     <div class="panel">
       <div class="panel-title">Pre-market pulse</div>
       <p class="panel-copy">A quick before-the-bell scan: major index moves, today's earnings calendar, and general market headlines — all live, real data. This does NOT rank items by "how much they'll move the market" — that needs real quantitative event modeling no free source honestly provides, so read everything below and use your own judgment on what matters most today.</p>
-      <button class="btn btn-big" id="pulseBtn">${d ? "Refresh scan" : "Run pre-market scan"}</button>
+      <button class="btn btn-big" id="pulseBtn">${state.pulseLoading ? "Loading…" : "Refresh"}</button>
     </div>
+    ${state.pulseLoading ? `<div class="progress-wrap"><div class="progress-line">Pulling overnight moves, news, and today's calendar…</div><div class="progress-track"><div class="progress-fill" style="width:60%"></div></div></div>` : ""}
     ${d ? `
       <div class="panel">
         <div class="panel-title" style="font-size:16px">Index snapshot</div>
@@ -1296,7 +1352,8 @@ function renderPulse() {
       </div>
     ` : ""}
   `;
-  document.getElementById("pulseBtn").addEventListener("click", runMarketPulse);
+  document.getElementById("pulseBtn").addEventListener("click", () => runMarketPulse());
+  if (!d && !state.pulseLoading) runMarketPulse();
 }
 
 function renderIpo() {
@@ -1350,12 +1407,12 @@ function showSetup() {
 function showApp() {
   document.getElementById("setup").classList.add("hidden");
   document.getElementById("app").classList.remove("hidden");
-  renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse();
+  renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse(); renderDividends();
 }
 
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
-  ["scout", "market", "etfs", "watch", "ipo", "pulse", "learn"].forEach(id =>
+  ["scout", "market", "etfs", "watch", "ipo", "pulse", "dividends", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
 }));
 
