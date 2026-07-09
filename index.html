@@ -157,6 +157,7 @@
       <button class="tab" data-tab="etfs">ETFs</button>
       <button class="tab" data-tab="watch">Watchlist</button>
       <button class="tab" data-tab="ipo">IPO radar</button>
+      <button class="tab" data-tab="pulse">Market Pulse</button>
       <button class="tab" data-tab="learn">Learn</button>
     </nav>
     <div id="tab-market"></div>
@@ -164,6 +165,7 @@
     <div id="tab-etfs" class="hidden"></div>
     <div id="tab-watch" class="hidden"></div>
     <div id="tab-ipo" class="hidden"></div>
+    <div id="tab-pulse" class="hidden"></div>
     <div id="tab-learn" class="hidden"></div>
   </div>
 </div>
@@ -254,6 +256,7 @@ let state = {
   lookupResult: null,
   lookupError: null,
   lookupGrowth: null,
+  pulseData: null,
   marketData: null,
   marketError: null,
   marketLoading: false,
@@ -286,6 +289,21 @@ async function fh(path, params) {
   if (res.status === 401 || res.status === 403) throw new Error("BADKEY");
   if (!res.ok) throw new Error("HTTP " + res.status);
   return res.json();
+}
+
+// For endpoints that might just not be on the free plan (rather than an
+// actually-bad key) — a 403 here means "this feature isn't available,"
+// not "log the person out." Never throws BADKEY.
+async function fhOptional(path, params) {
+  try {
+    const q = new URLSearchParams(Object.assign({}, params, { token: state.key }));
+    const res = await fetch(`${API}${path}?${q}`);
+    if (res.status === 429) { await new Promise(r => setTimeout(r, 5000)); return fhOptional(path, params); }
+    if (!res.ok) return null;
+    return await res.json();
+  } catch (e) {
+    return null;
+  }
 }
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
@@ -1042,6 +1060,21 @@ function etfCardHtml(e) {
         <div class="gauge-track"><div class="gauge-marker" style="left:${rangePos}%"></div></div>
       </div>` : "";
 
+  const optionsSection = (e.avgVolumeM !== undefined || e.weeklyOptions !== undefined) ? `
+      <div class="field-label" style="margin-top:14px">Options-selling fit — see caveats below</div>
+      <div class="chips">
+        ${e.avgVolumeM !== null && e.avgVolumeM !== undefined ? `<span class="chip" style="background:${e.avgVolumeM >= 5 ? '#E3F1EA' : '#F6EEDD'};color:${e.avgVolumeM >= 5 ? '#1E7A5A' : '#9A6B1B'}">Avg volume ${e.avgVolumeM.toFixed(1)}M/day</span>` : ""}
+        ${e.weeklyOptions
+          ? `<span class="chip" style="background:#E3F1EA;color:#1E7A5A">Weekly options: likely yes</span>`
+          : `<span class="chip" style="background:#EAEEF1;color:#4A5A66">Weekly options: unconfirmed</span>`}
+        ${e.rangeWidthPct !== null && e.rangeWidthPct !== undefined ? `<span class="chip" style="background:#EAEEF1;color:#4A5A66">52-wk range width ${e.rangeWidthPct.toFixed(0)}%</span>` : ""}
+      </div>
+      <p style="font-size:13px;color:var(--dim);margin-top:8px;line-height:1.5">
+        High daily volume is a real, live number and a decent liquidity signal. The weekly-options flag is hand-maintained, not live data — confirm it's still accurate in your broker's options chain.
+        <strong>Range width is a rough stand-in for how much the fund moves — it is NOT implied volatility.</strong>
+        Free data providers don't expose live options bid-ask spreads or true IV; check those in your broker's actual options chain right before placing a trade, since they change by the minute.
+      </p>` : "";
+
   return `
     <div class="card">
       <div class="card-head">
@@ -1065,6 +1098,7 @@ function etfCardHtml(e) {
         <div class="stat"><span>Dividend yield</span><strong>${e.divYield ? e.divYield.toFixed(1) + "%" : "n/a"}</strong></div>
       </div>
       ${rangeGauge}
+      ${optionsSection}
       <div class="notes">
         <p><span class="k">What this is.</span> ${escapeHtml(e.category || "A fund")} — a basket of holdings, not a single company, so there's no P/E or conviction score here. Lower expense ratio generally means more of the return stays in your pocket over time.</p>
         ${expenseLine}
@@ -1142,6 +1176,129 @@ function renderEtfs() {
   if (!d && !state.etfLoading && !state.etfError) loadEtfData(false);
 }
 
+/* ======================= pre-market pulse ======================= */
+
+const PULSE_INDEXES = [
+  { ticker: "SPY", label: "S&P 500 (SPY)" },
+  { ticker: "QQQ", label: "Nasdaq 100 (QQQ)" },
+  { ticker: "DIA", label: "Dow Jones (DIA)" },
+];
+
+async function runMarketPulse() {
+  const out = document.getElementById("pulseResults");
+  const btn = document.getElementById("pulseBtn");
+  btn.disabled = true; btn.textContent = "Scanning…";
+  out.innerHTML = `<div class="progress-wrap"><div class="progress-line">Pulling overnight moves, news, and today's calendar…</div><div class="progress-track"><div class="progress-fill" style="width:60%"></div></div></div>`;
+
+  const today = new Date().toISOString().slice(0, 10);
+  let indexes = [], news = [], earnings = [], econEvents = null; // null = "couldn't tell"
+
+  try {
+    // Index ETF snapshot — real, live quotes. Finnhub's free quote already
+    // includes change vs. previous close, which is the best available
+    // stand-in for "overnight move" outside of paid futures data.
+    for (const idx of PULSE_INDEXES) {
+      try {
+        const q = await fh("/quote", { symbol: idx.ticker });
+        indexes.push({ ...idx, price: q.c, change: q.d, changePct: q.dp });
+      } catch (e) { if (e.message === "BADKEY") throw e; }
+    }
+
+    // General market news — real free-tier endpoint.
+    const newsData = await fhOptional("/news", { category: "general" });
+    if (Array.isArray(newsData)) news = newsData.slice(0, 6);
+
+    // Today's earnings calendar, unfiltered by symbol — Finnhub returns
+    // every company reporting that day when no symbol is given.
+    const earnData = await fhOptional("/calendar/earnings", { from: today, to: today });
+    if (earnData && Array.isArray(earnData.earningsCalendar)) {
+      earnings = earnData.earningsCalendar.slice(0, 12);
+    }
+
+    // Economic calendar (Fed events, CPI, jobs data, etc.) — likely a
+    // premium-only endpoint on Finnhub's free tier. fhOptional means a
+    // 403 here just means "not available," not a bad key.
+    const econData = await fhOptional("/calendar/economic", { from: today, to: today });
+    if (econData && Array.isArray(econData.economicCalendar)) {
+      econEvents = econData.economicCalendar;
+    }
+  } catch (e) {
+    if (e.message === "BADKEY") {
+      try { localStorage.removeItem("uc:key"); } catch(_){}
+      state.key = null;
+      btn.disabled = false; btn.textContent = "Run pre-market scan";
+      showSetup();
+      return;
+    }
+  }
+
+  state.pulseData = { indexes, news, earnings, econEvents, generatedAt: new Date().toISOString() };
+  btn.disabled = false; btn.textContent = "Run pre-market scan";
+  renderPulse();
+}
+
+function pulseIndexCard(idx) {
+  if (idx.price === undefined || idx.price === null) return "";
+  const up = (idx.changePct || 0) >= 0;
+  const color = up ? "var(--kelp)" : "var(--coral)";
+  const arrow = up ? "▲" : "▼";
+  return `
+    <div class="stat" style="flex:1;min-width:150px">
+      <span>${escapeHtml(idx.label)}</span>
+      <strong>$${idx.price.toFixed(2)}</strong>
+      <div style="color:${color};font-size:13px;font-weight:600;margin-top:2px">${arrow} ${Math.abs(idx.changePct || 0).toFixed(2)}%</div>
+    </div>`;
+}
+
+function pulseEarningsRow(e) {
+  const when = e.hour === "bmo" ? "before the open" : e.hour === "amc" ? "after the close" : "time unconfirmed";
+  return `<div class="news-item"><div class="news-headline">${escapeHtml(e.symbol || "")}</div><div class="news-src">Reports ${when}${e.epsEstimate ? " · EPS est. $" + e.epsEstimate : ""}</div></div>`;
+}
+
+function pulseNewsRow(n) {
+  const date = n.datetime ? new Date(n.datetime * 1000).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}) : "";
+  return `<div class="news-item">
+    <div class="news-top"><span class="news-date">${date}</span></div>
+    <div class="news-headline"><a href="${n.url}" target="_blank" rel="noopener">${escapeHtml(n.headline || "")}</a></div>
+    <div class="news-src">${escapeHtml(n.source || "")}</div>
+  </div>`;
+}
+
+function renderPulse() {
+  const root = document.getElementById("tab-pulse");
+  const d = state.pulseData;
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">Pre-market pulse</div>
+      <p class="panel-copy">A quick before-the-bell scan: major index moves, today's earnings calendar, and general market headlines — all live, real data. This does NOT rank items by "how much they'll move the market" — that needs real quantitative event modeling no free source honestly provides, so read everything below and use your own judgment on what matters most today.</p>
+      <button class="btn btn-big" id="pulseBtn">${d ? "Refresh scan" : "Run pre-market scan"}</button>
+    </div>
+    ${d ? `
+      <div class="panel">
+        <div class="panel-title" style="font-size:16px">Index snapshot</div>
+        <div class="stats" style="margin-top:10px">${d.indexes.map(pulseIndexCard).join("") || "<span style='color:var(--dim)'>No index data available.</span>"}</div>
+      </div>
+      <div class="panel">
+        <div class="panel-title" style="font-size:16px">Economic calendar</div>
+        ${d.econEvents === null
+          ? `<p class="panel-copy">Not available on the free Finnhub plan. For Fed events, CPI, jobs data, etc., check a free public source like <a href="https://tradingeconomics.com/calendar" target="_blank" rel="noopener">tradingeconomics.com/calendar</a>.</p>`
+          : d.econEvents.length === 0
+            ? `<p class="panel-copy">No major economic events flagged for today.</p>`
+            : d.econEvents.slice(0, 8).map(e => `<div class="news-item"><div class="news-headline">${escapeHtml(e.event || "")}</div><div class="news-src">${escapeHtml(e.country || "")}${e.time ? " · " + escapeHtml(e.time) : ""}</div></div>`).join("")}
+      </div>
+      <div class="panel">
+        <div class="panel-title" style="font-size:16px">Earnings today</div>
+        ${d.earnings.length === 0 ? `<p class="panel-copy">No major earnings found for today.</p>` : d.earnings.map(pulseEarningsRow).join("")}
+      </div>
+      <div class="panel">
+        <div class="panel-title" style="font-size:16px">Market headlines</div>
+        ${d.news.length === 0 ? `<p class="panel-copy">No general market news returned right now.</p>` : d.news.map(pulseNewsRow).join("")}
+      </div>
+    ` : ""}
+  `;
+  document.getElementById("pulseBtn").addEventListener("click", runMarketPulse);
+}
+
 function renderIpo() {
   const root = document.getElementById("tab-ipo");
   root.innerHTML = `
@@ -1175,7 +1332,9 @@ function renderLearn() {
     ["Earnings countdown", "The ⚡ chip means the company reports quarterly results within ~45 days. Earnings day is when prices jump the most, up or down. If you're new: buying a beaten-down stock right before earnings is the riskiest possible timing — many investors wait until after the report to see the reaction."],
     ["Diversification", "Don't put everything in one stock or sector. The 'Any sector' scan exists for exactly this reason — spreading bets is the closest thing investing has to a free lunch."],
     ["About the data", "Quotes, fundamentals, ratings, news, and the IPO calendar come live from Finnhub's free tier. Each sector now covers roughly 24 companies (up from 12), so the scan paces itself to respect the free rate limit, which is why a full single-sector scan can take a couple of minutes."],
-    ["Full Market & ETF tabs", "These two tabs read stocks.json and etfs.json — files produced by a small Python script meant to run continuously on a Raspberry Pi (or any always-on computer), scanning the whole active US stock market (Russell 3000) plus ~60 liquid ETFs on Finnhub's free tier, and pushing results into this app's GitHub repo. If these tabs show an error, that just means the Pi scanner hasn't been set up yet, or hasn't pushed its first update — the rest of the app works fine without it."]
+    ["Full Market & ETF tabs", "These two tabs read stocks.json and etfs.json — files produced by a small Python script meant to run continuously on a Raspberry Pi (or any always-on computer), scanning the whole active US stock market (Russell 3000) plus ~60 liquid ETFs on Finnhub's free tier, and pushing results into this app's GitHub repo. If these tabs show an error, that just means the Pi scanner hasn't been set up yet, or hasn't pushed its first update — the rest of the app works fine without it."],
+    ["Options-selling fit (ETF cards)", "A starting filter for options-selling strategies, built honestly from what free data actually covers. Average daily volume is real, live data — a decent liquidity proxy. The weekly-options flag is hand-maintained (not live), so confirm it's still accurate in your broker. 52-week range width is a rough stand-in for how much a fund moves — it is explicitly NOT the same as options implied volatility, which changes constantly and isn't available from any free data source. Real bid-ask spreads and current IV only exist in your broker's live options chain — check those there, right before placing a trade."],
+    ["Market Pulse tab", "A before-the-bell scan: live index snapshots (SPY/QQQ/DIA vs. previous close — the best free stand-in for overnight futures moves), today's full earnings calendar, and general market headlines. The economic calendar (Fed events, CPI, jobs data) needs a paid Finnhub plan — if it shows as unavailable, that's why, and a free public link is provided instead. Nothing here is ranked by predicted market impact; that requires real quantitative modeling no honest free source can back up, so read everything and use your own judgment on what matters most."]
   ];
   document.getElementById("tab-learn").innerHTML =
     `<div class="panel"><div class="panel-title">The five-minute vocabulary</div><p class="panel-copy">Everything this app measures, in plain English — including exactly how the signals are calculated.</p></div>`
@@ -1191,12 +1350,12 @@ function showSetup() {
 function showApp() {
   document.getElementById("setup").classList.add("hidden");
   document.getElementById("app").classList.remove("hidden");
-  renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs();
+  renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse();
 }
 
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
-  ["scout", "market", "etfs", "watch", "ipo", "learn"].forEach(id =>
+  ["scout", "market", "etfs", "watch", "ipo", "pulse", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
 }));
 
