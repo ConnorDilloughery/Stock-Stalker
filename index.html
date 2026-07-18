@@ -159,6 +159,7 @@
       <button class="tab" data-tab="ipo">IPO radar</button>
       <button class="tab" data-tab="pulse">Market Pulse</button>
       <button class="tab" data-tab="dividends">Dividends</button>
+      <button class="tab" data-tab="congress">Congress Trades</button>
       <button class="tab" data-tab="learn">Learn</button>
     </nav>
     <div id="tab-market"></div>
@@ -168,6 +169,7 @@
     <div id="tab-ipo" class="hidden"></div>
     <div id="tab-pulse" class="hidden"></div>
     <div id="tab-dividends" class="hidden"></div>
+    <div id="tab-congress" class="hidden"></div>
     <div id="tab-learn" class="hidden"></div>
   </div>
 </div>
@@ -265,7 +267,12 @@ let state = {
   marketLoading: false,
   etfData: null,
   etfError: null,
-  etfLoading: false
+  etfLoading: false,
+  congressData: null,
+  congressError: null,
+  congressLoading: false,
+  congressView: "feed",
+  congressExpanded: null
 };
 
 /* ======================= storage ======================= */
@@ -1182,6 +1189,121 @@ function renderEtfs() {
   if (!d && !state.etfLoading && !state.etfError) loadEtfData(false);
 }
 
+/* ======================= congress trades ======================= */
+
+async function loadCongressData(force) {
+  if (state.congressData && !force) return;
+  state.congressLoading = true; state.congressError = null;
+  renderCongress();
+  try {
+    const res = await fetch(DATA_BASE + "/congress.json?ts=" + Date.now());
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    state.congressData = await res.json();
+  } catch (e) {
+    state.congressError = "Couldn't load congressional trading data (" + e.message + "). If you haven't set up the scanner yet, this file won't exist — see the Learn tab.";
+  }
+  state.congressLoading = false;
+  renderCongress();
+}
+
+const TX_TYPE_STYLE = {
+  purchase: { bg: "#E3F1EA", fg: "#1E7A5A", label: "Buy" },
+  sale:     { bg: "#F7E6E2", fg: "#C94F3D", label: "Sell" },
+  exchange: { bg: "#EAEEF1", fg: "#4A5A66", label: "Exchange" },
+};
+function txStyle(type) {
+  const t = (type || "").toLowerCase();
+  if (t.includes("purchase")) return TX_TYPE_STYLE.purchase;
+  if (t.includes("sale")) return TX_TYPE_STYLE.sale;
+  return TX_TYPE_STYLE.exchange;
+}
+
+function congressTradeRow(t) {
+  const st = txStyle(t.type);
+  return `
+    <div class="card" style="padding:14px 20px">
+      <div class="card-head" style="align-items:center">
+        <div>
+          <div class="ticker-row">
+            <span class="ticker">${escapeHtml(t.ticker)}</span>
+            <span class="chip" style="background:${st.bg};color:${st.fg}">${st.label}</span>
+            ${t.owner ? `<span class="chip" style="background:#EAEEF1;color:#4A5A66">${escapeHtml(t.owner)}</span>` : ""}
+          </div>
+          <div class="name">${escapeHtml(t.senator || "")}${t.office ? " · " + escapeHtml(t.office) : ""}</div>
+        </div>
+        <div class="price-block">
+          <div class="room" style="color:var(--dim)">${escapeHtml(t.amountRange || "n/a")}</div>
+          <div class="room" style="color:var(--dim)">${escapeHtml(t.transactionDate || "")}</div>
+        </div>
+      </div>
+    </div>`;
+}
+
+function congressPoliticianCard(name, p) {
+  const expanded = state.congressExpanded === name;
+  const tickers = Object.entries(p.tickers).sort((a, b) => (b[1].lastDate || "").localeCompare(a[1].lastDate || ""));
+  return `
+    <div class="card" style="padding:16px 20px">
+      <div class="card-head" style="align-items:center;cursor:pointer" data-congress-toggle="${escapeHtml(name)}">
+        <div>
+          <div class="name" style="font-size:16px;font-weight:600;color:var(--ink)">${escapeHtml(name)}</div>
+          <div class="name">${escapeHtml(p.office || "")} · ${p.tradeCount} trade${p.tradeCount === 1 ? "" : "s"} · ${tickers.length} ticker${tickers.length === 1 ? "" : "s"}</div>
+        </div>
+        <div class="price-block"><div class="room" style="color:var(--dim)">${expanded ? "Hide" : "Show"} history</div></div>
+      </div>
+      ${expanded ? `
+        <div style="margin-top:12px;display:flex;flex-direction:column;gap:8px">
+          ${tickers.map(([ticker, tk]) => `
+            <div style="border-top:1px solid var(--line);padding-top:8px">
+              <div class="ticker-row">
+                <span class="ticker">${escapeHtml(ticker)}</span>
+                <span class="chip" style="background:${txStyle(tk.lastAction).bg};color:${txStyle(tk.lastAction).fg}">Last: ${escapeHtml(txStyle(tk.lastAction).label)} · ${escapeHtml(tk.lastDate || "")}</span>
+              </div>
+              ${tk.trades.map(tr => `<div class="name">${escapeHtml(txStyle(tr.type).label)} · ${escapeHtml(tr.amountRange || "n/a")} · ${escapeHtml(tr.transactionDate || "")}${tr.owner ? " · " + escapeHtml(tr.owner) : ""}</div>`).join("")}
+            </div>
+          `).join("")}
+        </div>
+      ` : ""}
+    </div>`;
+}
+
+function renderCongress() {
+  const root = document.getElementById("tab-congress");
+  const d = state.congressData;
+  const updated = d ? new Date(d.generatedAt).toLocaleString() : null;
+  const politicians = d ? Object.entries(d.politicians).sort((a, b) => b[1].tradeCount - a[1].tradeCount) : [];
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">Congress trades</div>
+      <p class="panel-copy">U.S. Senate Periodic Transaction Reports, pulled straight from the official public disclosure system (efdsearch.senate.gov) and refreshed once a day by the Pi. Amounts are reported as ranges by law, not exact figures — this shows each senator's observed buy/sell activity, not a live portfolio valuation. House disclosures aren't covered yet. ${updated ? `Last updated: <strong>${updated}</strong> · ${d.count} trades on file.` : ""}</p>
+      <div class="chips">
+        <button class="pick ${state.congressView === "feed" ? "on" : ""}" data-congress-view="feed">Recent trades</button>
+        <button class="pick ${state.congressView === "politicians" ? "on" : ""}" data-congress-view="politicians">By politician</button>
+      </div>
+      <button class="btn btn-big" id="congressRefresh">${state.congressLoading ? "Loading…" : "Refresh from Pi"}</button>
+    </div>
+    ${state.congressError ? `<div class="error">${escapeHtml(state.congressError)}</div>` : ""}
+    <div id="congressResults">${
+      !d ? "" :
+      state.congressView === "feed"
+        ? d.trades.slice(0, 200).map(congressTradeRow).join("")
+        : politicians.map(([name, p]) => congressPoliticianCard(name, p)).join("")
+    }</div>
+  `;
+  const btn = document.getElementById("congressRefresh");
+  if (btn) btn.addEventListener("click", () => loadCongressData(true));
+  root.querySelectorAll("[data-congress-view]").forEach(b => b.addEventListener("click", () => {
+    state.congressView = b.dataset.congressView;
+    renderCongress();
+  }));
+  root.querySelectorAll("[data-congress-toggle]").forEach(b => b.addEventListener("click", () => {
+    const name = b.dataset.congressToggle;
+    state.congressExpanded = state.congressExpanded === name ? null : name;
+    renderCongress();
+  }));
+  if (!d && !state.congressLoading && !state.congressError) loadCongressData(false);
+}
+
 /* ======================= pre-market pulse ======================= */
 
 const PULSE_INDEXES = [
@@ -1396,7 +1518,8 @@ function renderLearn() {
     ["Full Market & ETF tabs", "These two tabs read stocks.json and etfs.json — files produced by a small Python script meant to run continuously on a Raspberry Pi (or any always-on computer), scanning the whole active US stock market (Russell 3000) plus ~60 liquid ETFs on Finnhub's free tier, and pushing results into this app's GitHub repo. If these tabs show an error, that just means the Pi scanner hasn't been set up yet, or hasn't pushed its first update — the rest of the app works fine without it."],
     ["Options-selling fit (ETF cards)", "A starting filter for options-selling strategies, built honestly from what free data actually covers. Average daily volume is real, live data — a decent liquidity proxy. The weekly-options flag is hand-maintained (not live), so confirm it's still accurate in your broker. 52-week range width is a rough stand-in for how much a fund moves — it is explicitly NOT the same as options implied volatility, which changes constantly and isn't available from any free data source. Real bid-ask spreads and current IV only exist in your broker's live options chain — check those there, right before placing a trade."],
     ["Why some dividend yields show n/a", "A sustained real-world dividend yield above ~25% essentially never happens — it would mean a company pays out nearly its entire share price in dividends every year. Finnhub's free tier occasionally reports garbage yield values for thinly-covered small/micro-cap tickers (a data quality issue on their end, not a calculation bug here). Rather than display a false number like '94.70%,' anything above that ceiling gets treated as unreliable and shown as n/a instead."],
-    ["Market Pulse tab", "A before-the-bell scan: live index snapshots (SPY/QQQ/DIA vs. previous close — the best free stand-in for overnight futures moves), today's full earnings calendar, and general market headlines. The economic calendar (Fed events, CPI, jobs data) needs a paid Finnhub plan — if it shows as unavailable, that's why, and a free public link is provided instead. Nothing here is ranked by predicted market impact; that requires real quantitative modeling no honest free source can back up, so read everything and use your own judgment on what matters most."]
+    ["Market Pulse tab", "A before-the-bell scan: live index snapshots (SPY/QQQ/DIA vs. previous close — the best free stand-in for overnight futures moves), today's full earnings calendar, and general market headlines. The economic calendar (Fed events, CPI, jobs data) needs a paid Finnhub plan — if it shows as unavailable, that's why, and a free public link is provided instead. Nothing here is ranked by predicted market impact; that requires real quantitative modeling no honest free source can back up, so read everything and use your own judgment on what matters most."],
+    ["Congress Trades tab", "Reads congress.json, built by a separate Pi script (congress_scanner.py) that runs once a day and pulls U.S. Senate Periodic Transaction Reports straight from the official public disclosure system at efdsearch.senate.gov — no paid data vendor. By law, senators report trade amounts as ranges (e.g. \"$1,001–$15,000\"), not exact dollar figures or share counts, so the per-politician view here is an observed buy/sell history, not a live net-worth or portfolio-value calculation — treat it as a lead to research further, not a finished answer. House disclosures are PDF-based and aren't covered by this first version. If this tab shows an error, the Pi's congress-scanner.timer hasn't run yet or hasn't pushed its first update."]
   ];
   document.getElementById("tab-learn").innerHTML =
     `<div class="panel"><div class="panel-title">The five-minute vocabulary</div><p class="panel-copy">Everything this app measures, in plain English — including exactly how the signals are calculated.</p></div>`
@@ -1412,12 +1535,12 @@ function showSetup() {
 function showApp() {
   document.getElementById("setup").classList.add("hidden");
   document.getElementById("app").classList.remove("hidden");
-  renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse(); renderDividends();
+  renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse(); renderDividends(); renderCongress();
 }
 
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
-  ["scout", "market", "etfs", "watch", "ipo", "pulse", "dividends", "learn"].forEach(id =>
+  ["scout", "market", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
 }));
 
