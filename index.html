@@ -139,14 +139,14 @@
   <div id="setup" class="panel hidden">
     <div class="panel-title">One-time setup (2 minutes, free)</div>
     <p class="panel-copy">
-      This app pulls live market data straight from Finnhub's free tier — no AI, no tokens, no cost.
-      Grab a free API key at <a href="https://finnhub.io/register" target="_blank" rel="noopener">finnhub.io/register</a>
+      This is only needed for features that pull live data straight from Finnhub — Scout, IPO radar, Market Pulse, and Watchlist price refresh. Grab a free API key at <a href="https://finnhub.io/register" target="_blank" rel="noopener">finnhub.io/register</a>
       (email signup, no credit card), paste it below, and you're set. The key is saved only in this browser on this computer.
     </p>
     <div class="field-label">Finnhub API key</div>
     <input type="password" id="keyInput" placeholder="paste your key here" autocomplete="off">
     <div style="height:12px"></div>
-    <button class="btn btn-big" id="saveKey">Save key and start scouting</button>
+    <button class="btn btn-big" id="saveKey">Save key and continue</button>
+    <button class="btn btn-quiet" id="skipKey" style="margin-left:8px">Not right now</button>
     <div id="keyError" class="error hidden" style="margin-top:12px"></div>
   </div>
 
@@ -268,6 +268,7 @@ let state = {
   etfData: null,
   etfError: null,
   etfLoading: false,
+  pendingAction: null,
   congressData: null,
   congressError: null,
   congressLoading: false,
@@ -975,10 +976,10 @@ function renderScout() {
   root.querySelectorAll("[data-sector]").forEach(b => b.addEventListener("click", () => { state.sector = b.dataset.sector; renderScout(); }));
   root.querySelectorAll("[data-capidx]").forEach(b => b.addEventListener("click", () => { state.capIdx = Number(b.dataset.capidx); renderScout(); }));
   const scanBtn = document.getElementById("scanBtn");
-  if (scanBtn) scanBtn.addEventListener("click", () => { state.scanError = null; state.scanned = true; runScan(); });
+  if (scanBtn) scanBtn.addEventListener("click", () => requireKey(() => { state.scanError = null; state.scanned = true; runScan(); }));
   bindStockCards(root, () => state.results);
-  document.getElementById("lookupBtn").addEventListener("click", runLookup);
-  document.getElementById("lookupInput").addEventListener("keydown", (e) => { if (e.key === "Enter") runLookup(); });
+  document.getElementById("lookupBtn").addEventListener("click", () => requireKey(runLookup));
+  document.getElementById("lookupInput").addEventListener("keydown", (e) => { if (e.key === "Enter") requireKey(runLookup); });
   document.getElementById("lookupInput").addEventListener("input", (e) => { state.lookupValue = e.target.value; });
   if (state.lookupResult) bindStockCards(document.getElementById("lookupResult"), () => [state.lookupResult]);
 }
@@ -1035,7 +1036,7 @@ function renderWatch() {
     </div>`
     + state.watchlist.map(s => stockCardHtml(s, true)).join("");
   const rbtn = document.getElementById("refreshWatch");
-  if (rbtn) rbtn.addEventListener("click", refreshWatchPrices);
+  if (rbtn) rbtn.addEventListener("click", () => requireKey(refreshWatchPrices));
   bindStockCards(root, () => state.watchlist);
 }
 
@@ -1478,8 +1479,11 @@ function renderPulse() {
       </div>
     ` : ""}
   `;
-  document.getElementById("pulseBtn").addEventListener("click", () => runMarketPulse());
-  if (!d && !state.pulseLoading) runMarketPulse();
+  document.getElementById("pulseBtn").addEventListener("click", () => requireKey(runMarketPulse));
+  // Only auto-run if a key is already saved — don't force the setup prompt
+  // just from opening this tab; opening the tab is passive, running a
+  // Finnhub-backed scan isn't.
+  if (!d && !state.pulseLoading && state.key) runMarketPulse();
 }
 
 function renderIpo() {
@@ -1491,7 +1495,7 @@ function renderIpo() {
       <button class="btn btn-big" id="ipoBtn">Scan upcoming IPOs</button>
     </div>
     <div id="ipoResults"></div>`;
-  document.getElementById("ipoBtn").addEventListener("click", runIpoScan);
+  document.getElementById("ipoBtn").addEventListener("click", () => requireKey(runIpoScan));
 }
 
 function renderLearn() {
@@ -1538,6 +1542,17 @@ function showApp() {
   renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse(); renderDividends(); renderCongress();
 }
 
+// Only Scout, IPO radar, Market Pulse, and Watchlist price refresh actually
+// call Finnhub — everything else (Full Market, ETFs, Dividends, Congress
+// Trades, Learn) reads Pi-published JSON and needs no key at all. So the
+// app opens straight to the tabs, and only these specific actions pause to
+// ask for a key, right when they're first needed.
+function requireKey(action) {
+  if (state.key) { action(); return; }
+  state.pendingAction = action;
+  showSetup();
+}
+
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
   ["scout", "market", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "learn"].forEach(id =>
@@ -1554,6 +1569,9 @@ document.getElementById("saveKey").addEventListener("click", async () => {
     await fh("/quote", { symbol: "AAPL" }); // validate the key with one cheap call
     try { localStorage.setItem("uc:key", key); } catch (e) {}
     showApp();
+    const pending = state.pendingAction;
+    state.pendingAction = null;
+    if (pending) pending();
   } catch (e) {
     state.key = null;
     err.textContent = e.message === "BADKEY"
@@ -1563,8 +1581,13 @@ document.getElementById("saveKey").addEventListener("click", async () => {
   }
 });
 
+document.getElementById("skipKey").addEventListener("click", () => {
+  state.pendingAction = null;
+  showApp();
+});
+
 loadState();
-if (state.key) showApp(); else showSetup();
+showApp();
 </script>
 </body>
 </html>
