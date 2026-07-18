@@ -1,8 +1,36 @@
 {
-  "generatedAt": "2026-07-18T20:16:34.301114+00:00",
+  "generatedAt": "2026-07-18T20:19:34.683318+00:00",
   "source": "U.S. Senate Periodic Transaction Reports (efdsearch.senate.gov) + President Trump's PTRs (whitehouse.gov)",
-  "count": 164,
+  "count": 166,
   "trades": [
+    {
+      "politician": "Donald J. Trump",
+      "office": "President",
+      "transactionDate": null,
+      "filedDate": "04/20/2026",
+      "owner": null,
+      "ticker": "MSFT",
+      "assetName": null,
+      "type": "Purchase",
+      "amountRange": "$15,001 - $50,000",
+      "sourceId": "5222a7c9279310c6",
+      "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/04/President-Donald-J.-Trump-Periodic-Transaction-Report-4.20.26.pdf",
+      "source": "president"
+    },
+    {
+      "politician": "Donald J. Trump",
+      "office": "President",
+      "transactionDate": null,
+      "filedDate": "04/20/2026",
+      "owner": null,
+      "ticker": "BA",
+      "assetName": null,
+      "type": null,
+      "amountRange": "$250,004 - $500,000",
+      "sourceId": "5222a7c9279310c6",
+      "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/04/President-Donald-J.-Trump-Periodic-Transaction-Report-4.20.26.pdf",
+      "source": "president"
+    },
     {
       "politician": "Donald J. Trump",
       "office": "President",
@@ -2304,8 +2332,56 @@
     "Donald J. Trump": {
       "office": "President",
       "tickers": {
+        "MSFT": {
+          "trades": [
+            {
+              "transactionDate": null,
+              "filedDate": "04/20/2026",
+              "type": "Purchase",
+              "amountRange": "$15,001 - $50,000",
+              "owner": null
+            },
+            {
+              "transactionDate": null,
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$250,001 - $500,000",
+              "owner": null
+            },
+            {
+              "transactionDate": null,
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$1,001 - $15,000",
+              "owner": null
+            },
+            {
+              "transactionDate": null,
+              "filedDate": null,
+              "type": "Purchase",
+              "amountRange": "$100,001 - $250,000",
+              "owner": null
+            },
+            {
+              "transactionDate": null,
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$1,001 - $15,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Purchase",
+          "lastDate": "04/20/2026"
+        },
         "BA": {
           "trades": [
+            {
+              "transactionDate": null,
+              "filedDate": "04/20/2026",
+              "type": null,
+              "amountRange": "$250,004 - $500,000",
+              "owner": null
+            },
             {
               "transactionDate": null,
               "filedDate": "01/14/2026",
@@ -2328,8 +2404,8 @@
               "owner": null
             }
           ],
-          "lastAction": "Purchase",
-          "lastDate": "01/14/2026"
+          "lastAction": null,
+          "lastDate": "04/20/2026"
         },
         "GOOGL": {
           "trades": [
@@ -3638,40 +3714,6 @@
           "lastAction": "Sale",
           "lastDate": null
         },
-        "MSFT": {
-          "trades": [
-            {
-              "transactionDate": null,
-              "filedDate": null,
-              "type": "Sale",
-              "amountRange": "$250,001 - $500,000",
-              "owner": null
-            },
-            {
-              "transactionDate": null,
-              "filedDate": null,
-              "type": "Sale",
-              "amountRange": "$1,001 - $15,000",
-              "owner": null
-            },
-            {
-              "transactionDate": null,
-              "filedDate": null,
-              "type": "Purchase",
-              "amountRange": "$100,001 - $250,000",
-              "owner": null
-            },
-            {
-              "transactionDate": null,
-              "filedDate": null,
-              "type": "Sale",
-              "amountRange": "$1,001 - $15,000",
-              "owner": null
-            }
-          ],
-          "lastAction": "Sale",
-          "lastDate": null
-        },
         "NKE": {
           "trades": [
             {
@@ -3891,14 +3933,16 @@
           "lastDate": null
         }
       },
-      "tradeCount": 164
+      "tradeCount": 166
     }
   },
   "_meta": {
     "seenIds": [
       "a92935027467ccaf",
+      "https://www.whitehouse.gov/wp-content/uploads/2025/09/President-Donald-J.-Trump-Periodic-Transaction-Report-9.3.25-4.pdf",
       "https://www.whitehouse.gov/wp-content/uploads/2025/12/President-Donald-J.-Trump-Periodic-Transaction-Report-12.18.25.pdf",
       "https://www.whitehouse.gov/wp-content/uploads/2026/01/President-Donald-J.-Trump-Periodic-Transaction-Report-1.14.2026-.pdf",
+      "https://www.whitehouse.gov/wp-content/uploads/2026/04/President-Donald-J.-Trump-Periodic-Transaction-Report-4.20.26.pdf",
       "https://www.whitehouse.gov/wp-content/uploads/2026/06/President-Donald-J.-Trump-Periodic-Transaction-Report-0.6.25.26-2.pdf"
     ],
     "lastFiledDateSenate": null
