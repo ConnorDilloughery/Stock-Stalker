@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-07-18T16:59:02.531609+00:00",
+  "source": "U.S. Senate Periodic Transaction Reports (efdsearch.senate.gov) + President Trump's PTRs (whitehouse.gov)",
+  "count": 2,
+  "trades": [
+    {
+      "politician": "Donald J. Trump",
+      "office": "President",
+      "transactionDate": null,
+      "filedDate": "01/14/2026",
+      "owner": null,
+      "ticker": "BA",
+      "assetName": null,
+      "type": "Purchase",
+      "amountRange": "$100,001 - $250,000",
+      "sourceId": "a92935027467ccaf",
+      "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/01/President-Donald-J.-Trump-Periodic-Transaction-Report-1.14.2026-.pdf",
+      "source": "president"
+    },
+    {
+      "politician": "Donald J. Trump",
+      "office": "President",
+      "transactionDate": null,
+      "filedDate": "01/14/2026",
+      "owner": null,
+      "ticker": "BA",
+      "assetName": null,
+      "type": "Purchase",
+      "amountRange": "$100,001 - $250,000",
+      "sourceId": "a92935027467ccaf",
+      "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/01/President-Donald-J.-Trump-Periodic-Transaction-Report-1.14.2026-.pdf",
+      "source": "president"
+    }
+  ],
+  "politicians": {
+    "Donald J. Trump": {
+      "office": "President",
+      "tickers": {
+        "BA": {
+          "trades": [
+            {
+              "transactionDate": null,
+              "filedDate": "01/14/2026",
+              "type": "Purchase",
+              "amountRange": "$100,001 - $250,000",
+              "owner": null
+            },
+            {
+              "transactionDate": null,
+              "filedDate": "01/14/2026",
+              "type": "Purchase",
+              "amountRange": "$100,001 - $250,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Purchase",
+          "lastDate": "01/14/2026"
+        }
+      },
+      "tradeCount": 2
+    }
+  },
+  "_meta": {
+    "seenIds": [
+      "a92935027467ccaf",
+      "https://www.whitehouse.gov/wp-content/uploads/2026/01/President-Donald-J.-Trump-Periodic-Transaction-Report-1.14.2026-.pdf"
+    ],
+    "lastFiledDateSenate": null
+  }
+}
