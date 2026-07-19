@@ -275,7 +275,10 @@ let state = {
   congressError: null,
   congressLoading: false,
   congressView: "feed",
-  congressExpanded: null
+  congressExpanded: null,
+  sectorHistory: null,
+  sectorHistoryError: null,
+  sectorHistoryLoading: false
 };
 
 /* ======================= storage ======================= */
@@ -1442,19 +1445,36 @@ function computeSectorStats(stocks) {
     .sort((a, b) => b.count - a.count);
 }
 
-function sectorCardHtml(s) {
+const SECTOR_CHANGE_WINDOWS = [
+  { key: "oneDay", label: "1D" }, { key: "oneWeek", label: "1W" }, { key: "oneMonth", label: "1M" },
+  { key: "threeMonth", label: "3M" }, { key: "ytd", label: "YTD" }, { key: "oneYear", label: "1Y" },
+  { key: "fiveYear", label: "5Y" },
+];
+
+function changeChip(pct) {
+  if (pct === null || pct === undefined) return `<span class="chip" style="background:#EAEEF1;color:#4A5A66">n/a</span>`;
+  const up = pct >= 0;
+  return `<span class="chip" style="background:${up ? "#E3F1EA" : "#F7E6E2"};color:${up ? "var(--kelp)" : "var(--coral)"}">${up ? "+" : ""}${pct.toFixed(1)}%</span>`;
+}
+
+function sectorCardHtml(s, history) {
+  const changes = history ? history.changes : null;
   return `
     <div class="card" style="padding:16px 20px">
       <div class="card-head" style="align-items:center">
         <div>
           <div class="name" style="font-size:16px;font-weight:600;color:var(--ink)">${escapeHtml(s.sector)}</div>
-          <div class="name">${s.count} stock${s.count === 1 ? "" : "s"} passing the screen this pass</div>
+          <div class="name">${s.count} stock${s.count === 1 ? "" : "s"} passing the screen this pass${history ? " · tracked via " + escapeHtml(history.ticker) : ""}</div>
         </div>
         <div class="price-block">
           <div class="room" style="color:var(--dim)">Median P/E</div>
           <div class="price" style="font-size:20px">${s.medianPE !== null ? s.medianPE.toFixed(1) : "n/a"}</div>
         </div>
       </div>
+      ${changes ? `
+        <div class="field-label" style="margin-top:12px">Sector ETF performance</div>
+        <div class="chips">${SECTOR_CHANGE_WINDOWS.map(w => `<span class="stat" style="min-width:0;flex:none;padding:4px 0"><span style="display:block;font-size:11px;color:var(--dim);text-align:center;margin-bottom:2px">${w.label}</span>${changeChip(changes[w.key])}</span>`).join("")}</div>
+      ` : ""}
       <div class="stats" style="margin-top:12px">
         <div class="stat"><span>Avg discount</span><strong>${s.avgDiscount !== null ? (s.avgDiscount * 100).toFixed(0) + "%" : "n/a"}</strong></div>
         <div class="stat"><span>Avg score</span><strong>${s.avgScore !== null ? Math.round(s.avgScore) : "n/a"}/100</strong></div>
@@ -1465,20 +1485,172 @@ function sectorCardHtml(s) {
     </div>`;
 }
 
+/* ======================= sector history (ETF performance) ======================= */
+
+async function loadSectorHistory(force) {
+  if (state.sectorHistory && !force) return;
+  state.sectorHistoryLoading = true; state.sectorHistoryError = null;
+  renderSectors();
+  try {
+    const res = await fetch(DATA_BASE + "/sector_history.json?ts=" + Date.now());
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    state.sectorHistory = await res.json();
+  } catch (e) {
+    state.sectorHistoryError = "Couldn't load sector ETF history (" + e.message + "). If the Pi hasn't run the sector-history scanner yet, this file won't exist.";
+  }
+  state.sectorHistoryLoading = false;
+  renderSectors();
+}
+
+// Categorical palette, dataviz skill's validated 8-hue order (first 7 slots) —
+// adjacent-pair CVD-safe for a multi-line chart in light mode.
+const SECTOR_CHART_COLORS = {
+  Technology: "#2a78d6", Healthcare: "#008300", Consumer: "#e87ba4", Energy: "#eda100",
+  Financials: "#1baf7a", Industrials: "#eb6834", Materials: "#4a3aa7",
+};
+
+function buildIndexedQuarterlySeries(sectorHistory) {
+  const sectors = Object.keys(sectorHistory.sectors).filter(s => SECTOR_CHART_COLORS[s]);
+  if (sectors.length === 0) return null;
+  const quarterSets = sectors.map(s => new Set(sectorHistory.sectors[s].quarterly.map(q => q.quarter)));
+  const allQuarters = [...new Set(sectorHistory.sectors[sectors[0]].quarterly.map(q => q.quarter))]
+    .filter(q => quarterSets.every(set => set.has(q)))
+    .sort();
+  if (allQuarters.length === 0) return null;
+  const series = {};
+  for (const s of sectors) {
+    const byQ = Object.fromEntries(sectorHistory.sectors[s].quarterly.map(q => [q.quarter, q.close]));
+    const base = byQ[allQuarters[0]];
+    series[s] = allQuarters.map(q => (byQ[q] / base) * 100);
+  }
+  return { quarters: allQuarters, series };
+}
+
+function sectorChartSvg(data) {
+  const W = 900, H = 320, padL = 44, padR = 16, padT = 16, padB = 28;
+  const plotW = W - padL - padR, plotH = H - padT - padB;
+  const sectors = Object.keys(data.series);
+  const allVals = sectors.flatMap(s => data.series[s]);
+  const yMin = Math.min(...allVals, 90), yMax = Math.max(...allVals);
+  const yPad = (yMax - yMin) * 0.08;
+  const y0 = yMin - yPad, y1 = yMax + yPad;
+  const n = data.quarters.length;
+  const xAt = i => padL + (n === 1 ? 0 : (i / (n - 1)) * plotW);
+  const yAt = v => padT + plotH - ((v - y0) / (y1 - y0)) * plotH;
+
+  const gridLines = [0, 0.25, 0.5, 0.75, 1].map(f => {
+    const yv = y0 + f * (y1 - y0);
+    const yPix = yAt(yv);
+    return `<line x1="${padL}" y1="${yPix}" x2="${W - padR}" y2="${yPix}" stroke="#e1e0d9" stroke-width="1"/>
+            <text x="${padL - 8}" y="${yPix + 4}" font-size="11" fill="#898781" text-anchor="end">${Math.round(yv)}</text>`;
+  }).join("");
+
+  const yearLabels = [];
+  let lastYear = null;
+  data.quarters.forEach((q, i) => {
+    const year = q.split("-")[0];
+    if (year !== lastYear && i % 2 === 0) {
+      yearLabels.push(`<text x="${xAt(i)}" y="${H - 8}" font-size="11" fill="#898781" text-anchor="middle">${year}</text>`);
+      lastYear = year;
+    }
+  });
+
+  const paths = sectors.map(s => {
+    const d = data.series[s].map((v, i) => `${i === 0 ? "M" : "L"}${xAt(i).toFixed(1)},${yAt(v).toFixed(1)}`).join(" ");
+    return `<path d="${d}" fill="none" stroke="${SECTOR_CHART_COLORS[s]}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`;
+  }).join("");
+
+  const baselinePix = yAt(100);
+  return `
+    <svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;display:block" id="sectorChartSvg" data-plotl="${padL}" data-plotr="${W - padR}" data-n="${n}">
+      ${gridLines}
+      <line x1="${padL}" y1="${baselinePix}" x2="${W - padR}" y2="${baselinePix}" stroke="#c3c2b7" stroke-width="1" stroke-dasharray="3,3"/>
+      ${yearLabels.join("")}
+      ${paths}
+      <g id="sectorChartHover" style="display:none">
+        <line id="sectorChartCrosshair" x1="0" y1="${padT}" x2="0" y2="${padT + plotH}" stroke="#898781" stroke-width="1"/>
+      </g>
+      <rect id="sectorChartCapture" x="${padL}" y="${padT}" width="${plotW}" height="${plotH}" fill="transparent" style="cursor:crosshair"/>
+    </svg>
+    <div id="sectorChartTooltip" class="card" style="display:none;position:absolute;padding:10px 14px;pointer-events:none;box-shadow:0 4px 16px rgba(0,0,0,0.12);z-index:5;min-width:180px"></div>
+  `;
+}
+
+function attachSectorChartHover(data) {
+  const svg = document.getElementById("sectorChartSvg");
+  const capture = document.getElementById("sectorChartCapture");
+  const hoverGroup = document.getElementById("sectorChartHover");
+  const crosshair = document.getElementById("sectorChartCrosshair");
+  const tooltip = document.getElementById("sectorChartTooltip");
+  if (!svg || !capture) return;
+  const padL = Number(svg.dataset.plotl), padR = Number(svg.dataset.plotr), n = Number(svg.dataset.n);
+  const plotW = padR - padL;
+  const sectors = Object.keys(data.series);
+
+  function move(evt) {
+    const rect = svg.getBoundingClientRect();
+    const scaleX = 900 / rect.width; // matches the SVG's viewBox width
+    const localX = (evt.clientX - rect.left) * scaleX;
+    let idx = Math.round(((localX - padL) / plotW) * (n - 1));
+    idx = Math.max(0, Math.min(n - 1, idx));
+    const xPix = padL + (n === 1 ? 0 : (idx / (n - 1)) * plotW);
+    crosshair.setAttribute("x1", xPix); crosshair.setAttribute("x2", xPix);
+    hoverGroup.style.display = "block";
+
+    const rows = sectors
+      .map(s => ({ s, v: data.series[s][idx] }))
+      .sort((a, b) => b.v - a.v)
+      .map(({ s, v }) => `<div style="display:flex;align-items:center;gap:6px;margin-top:4px">
+        <span style="display:inline-block;width:10px;height:2px;background:${SECTOR_CHART_COLORS[s]};flex:none"></span>
+        <span style="flex:1;color:var(--dim);font-size:13px">${escapeHtml(s)}</span>
+        <strong style="font-size:13px">${v.toFixed(1)}</strong>
+      </div>`).join("");
+    tooltip.innerHTML = `<div style="font-weight:600;font-size:13px;margin-bottom:2px">${escapeHtml(data.quarters[idx])}</div>${rows}`;
+    tooltip.style.display = "block";
+    const wrap = svg.closest(".panel");
+    const wrapRect = wrap.getBoundingClientRect();
+    let left = evt.clientX - wrapRect.left + 16;
+    if (left + 190 > wrapRect.width) left = evt.clientX - wrapRect.left - 200;
+    tooltip.style.left = left + "px";
+    tooltip.style.top = (evt.clientY - wrapRect.top - 20) + "px";
+  }
+  capture.addEventListener("mousemove", move);
+  capture.addEventListener("mouseleave", () => { hoverGroup.style.display = "none"; tooltip.style.display = "none"; });
+}
+
+function sectorChartLegendHtml() {
+  return `<div class="chips" style="margin-top:10px">${Object.entries(SECTOR_CHART_COLORS).map(([s, c]) =>
+    `<span style="display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--dim)">
+      <span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:${c}"></span>${escapeHtml(s)}
+    </span>`).join("")}</div>`;
+}
+
 function renderSectors() {
   const root = document.getElementById("tab-sectors");
   const stocksReady = state.marketData && state.marketData.stocks;
   const sectors = stocksReady ? computeSectorStats(state.marketData.stocks) : [];
+  const historyBySector = state.sectorHistory ? state.sectorHistory.sectors : {};
+  const chartData = state.sectorHistory ? buildIndexedQuarterlySeries(state.sectorHistory) : null;
+
   root.innerHTML = `
     <div class="panel">
       <div class="panel-title">Sector breakdown</div>
-      <p class="panel-copy">The same Full Market scan data, grouped by sector instead of by stock — median P/E, average discount from 52-week high, and how many stocks in each sector are currently flashing Buy, Accumulate, or Watch. No new data source, no separate fetch — just a different lens on what the Pi already scans, so it updates exactly whenever Full Market does.</p>
+      <p class="panel-copy">The same Full Market scan data, grouped by sector instead of by stock — median P/E, average discount from 52-week high, and how many stocks in each sector are currently flashing Buy, Accumulate, or Watch. No new data source, no separate fetch — just a different lens on what the Pi already scans, so it updates exactly whenever Full Market does. Performance figures (1D–5Y) and the chart below come from a second Pi job that tracks each sector's SPDR ETF (e.g. Technology → XLK) as a live proxy — a real, tradeable stand-in for "how is this sector doing," not a synthetic index.</p>
     </div>
-    ${!stocksReady ? `<p class="panel-copy" style="margin:0 4px">Loading Full Market data…</p>` : sectors.length === 0 ? `<p class="panel-copy" style="margin:0 4px">No sector data available yet.</p>` : sectors.map(sectorCardHtml).join("")}
+    <div class="panel" style="position:relative">
+      <div class="panel-title" style="font-size:16px">20-year sector performance</div>
+      <p class="panel-copy">Quarterly closes for each sector ETF, indexed to 100 at the start of the window — this shows relative growth, not raw price, so sectors trading at very different price points (a $50 ETF vs a $200 one) are directly comparable. Hover to see exact values.</p>
+      ${!state.sectorHistory ? `<p class="panel-copy" style="margin:0 4px">${state.sectorHistoryLoading ? "Loading sector history…" : state.sectorHistoryError ? "" : "Loading…"}</p>${state.sectorHistoryError ? `<div class="error">${escapeHtml(state.sectorHistoryError)}</div>` : ""}`
+        : !chartData ? `<p class="panel-copy" style="margin:0 4px">Not enough overlapping history yet.</p>`
+        : sectorChartSvg(chartData) + sectorChartLegendHtml()}
+    </div>
+    ${!stocksReady ? `<p class="panel-copy" style="margin:0 4px">Loading Full Market data…</p>` : sectors.length === 0 ? `<p class="panel-copy" style="margin:0 4px">No sector data available yet.</p>` : sectors.map(s => sectorCardHtml(s, historyBySector[s.sector])).join("")}
   `;
   // Reuse whatever Full Market data is already loading elsewhere in the
   // app rather than triggering a second, redundant fetch.
   if (!stocksReady && !state.marketLoading) loadMarketData(false);
+  if (!state.sectorHistory && !state.sectorHistoryLoading) loadSectorHistory(false);
+  if (chartData) attachSectorChartHover(chartData);
 }
 
 function renderDividends() {
