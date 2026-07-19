@@ -25,8 +25,16 @@
   .tagline { color: var(--dim); font-size: 14px; margin-top: 2px; }
   .disclaimer { font-size: 12px; color: var(--dim); background: #E9EEF1; border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; margin: 14px 0 4px; }
 
-  .tabs { display: flex; gap: 4px; margin: 16px 0 20px; border-bottom: 2px solid var(--line); }
-  .tab { background: none; border: none; font: 600 15px 'IBM Plex Sans', sans-serif; color: var(--dim); padding: 10px 14px; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -2px; }
+  .tabs {
+    display: flex; gap: 4px; margin: 16px 0 20px; border-bottom: 2px solid var(--line);
+    overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab {
+    background: none; border: none; font: 600 15px 'IBM Plex Sans', sans-serif; color: var(--dim);
+    padding: 10px 14px; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -2px;
+    flex: none; white-space: nowrap; min-height: 44px;
+  }
   .tab.on { color: var(--ink); border-bottom-color: var(--tide); }
   .tab:focus-visible, button:focus-visible { outline: 2px solid var(--tide); outline-offset: 2px; }
 
@@ -119,9 +127,14 @@
 
   .hidden { display: none; }
   @media (max-width: 480px) {
+    .shell { padding: 0 12px; }
     .logo { font-size: 24px; }
-    .tab { padding: 10px 8px; font-size: 14px; }
-    .card, .panel { padding: 16px; }
+    .tab { padding: 10px 10px; font-size: 14px; }
+    .card, .panel { padding: 14px; }
+    .ticker, .price { font-size: 18px; }
+    .card-head { flex-wrap: wrap; }
+    .price-block { text-align: left; }
+    .stat { min-width: 84px; }
   }
 </style>
 </head>
