@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-19T00:00:23.169799+00:00",
+  "generatedAt": "2026-07-19T00:14:51.506761+00:00",
   "source": "U.S. Senate (efdsearch.senate.gov) + U.S. House (disclosures-clerk.house.gov) + President Trump's PTRs (whitehouse.gov)",
-  "count": 1464,
+  "count": 1469,
   "trades": [
     {
       "politician": "Cisneros, Gilbert",
@@ -547,6 +547,34 @@
       "amountRange": "$15,001 - $50,000",
       "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033739.pdf",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033739.pdf",
+      "source": "house"
+    },
+    {
+      "politician": "Williams, Roger",
+      "office": "TX25",
+      "transactionDate": "12/22/2025",
+      "filedDate": null,
+      "owner": null,
+      "ticker": "FANG",
+      "assetName": null,
+      "type": "Sale",
+      "amountRange": "$1,001 - $15,000",
+      "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
+      "source": "house"
+    },
+    {
+      "politician": "Williams, Roger",
+      "office": "TX25",
+      "transactionDate": "12/22/2025",
+      "filedDate": null,
+      "owner": null,
+      "ticker": "RTX",
+      "assetName": null,
+      "type": "Purchase",
+      "amountRange": "$1,001 - $15,000",
+      "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
       "source": "house"
     },
     {
@@ -2678,6 +2706,20 @@
       "source": "house"
     },
     {
+      "politician": "Allen, Richard W.",
+      "office": "GA12",
+      "transactionDate": "08/19/2025",
+      "filedDate": null,
+      "owner": null,
+      "ticker": "ATO",
+      "assetName": null,
+      "type": "Purchase",
+      "amountRange": "$15,001 - $50,000",
+      "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032052.pdf",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032052.pdf",
+      "source": "house"
+    },
+    {
       "politician": "Case, Ed",
       "office": "HI01",
       "transactionDate": "08/15/2024",
@@ -3966,6 +4008,20 @@
       "source": "house"
     },
     {
+      "politician": "Bentz, Cliff",
+      "office": "OR02",
+      "transactionDate": "06/06/2025",
+      "filedDate": null,
+      "owner": null,
+      "ticker": "PG",
+      "assetName": null,
+      "type": "Purchase",
+      "amountRange": "$1,001 - $15,000",
+      "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030646.pdf",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030646.pdf",
+      "source": "house"
+    },
+    {
       "politician": "Cisneros, Gilbert",
       "office": "CA31",
       "transactionDate": "06/05/2026",
@@ -4873,6 +4929,20 @@
       "amountRange": "$1,001 - $15,000",
       "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034718.pdf",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034718.pdf",
+      "source": "house"
+    },
+    {
+      "politician": "Allen, Richard W.",
+      "office": "GA12",
+      "transactionDate": "05/16/2025",
+      "filedDate": null,
+      "owner": null,
+      "ticker": "TMO",
+      "assetName": null,
+      "type": "Sale",
+      "amountRange": "$15,001 - $50,000",
+      "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030502.pdf",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030502.pdf",
       "source": "house"
     },
     {
@@ -25040,6 +25110,38 @@
       },
       "tradeCount": 20
     },
+    "Williams, Roger": {
+      "office": "TX25",
+      "tickers": {
+        "FANG": {
+          "trades": [
+            {
+              "transactionDate": "12/22/2025",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$1,001 - $15,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "12/22/2025"
+        },
+        "RTX": {
+          "trades": [
+            {
+              "transactionDate": "12/22/2025",
+              "filedDate": null,
+              "type": "Purchase",
+              "amountRange": "$1,001 - $15,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Purchase",
+          "lastDate": "12/22/2025"
+        }
+      },
+      "tradeCount": 2
+    },
     "Doggett, Lloyd": {
       "office": "TX37",
       "tickers": {
@@ -27985,6 +28087,32 @@
           "lastAction": "Sale",
           "lastDate": "12/12/2025"
         },
+        "ATO": {
+          "trades": [
+            {
+              "transactionDate": "08/19/2025",
+              "filedDate": null,
+              "type": "Purchase",
+              "amountRange": "$15,001 - $50,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Purchase",
+          "lastDate": "08/19/2025"
+        },
+        "TMO": {
+          "trades": [
+            {
+              "transactionDate": "05/16/2025",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$15,001 - $50,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "05/16/2025"
+        },
         "AXP": {
           "trades": [
             {
@@ -28064,7 +28192,7 @@
           "lastDate": "01/14/2026"
         }
       },
-      "tradeCount": 7
+      "tradeCount": 9
     },
     "Delaney, April McClain": {
       "office": "MD06",
@@ -31249,6 +31377,25 @@
         }
       },
       "tradeCount": 16
+    },
+    "Bentz, Cliff": {
+      "office": "OR02",
+      "tickers": {
+        "PG": {
+          "trades": [
+            {
+              "transactionDate": "06/06/2025",
+              "filedDate": null,
+              "type": "Purchase",
+              "amountRange": "$1,001 - $15,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Purchase",
+          "lastDate": "06/06/2025"
+        }
+      },
+      "tradeCount": 1
     },
     "Crenshaw, Daniel": {
       "office": "TX02",
@@ -35727,6 +35874,24 @@
   "_meta": {
     "seenIds": [
       "a92935027467ccaf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026517.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026537.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026727.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027810.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027927.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030316.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030397.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030502.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030608.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030646.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030850.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030976.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032052.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032062.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032204.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033415.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033492.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033589.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20019182.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20020055.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20030977.pdf",
@@ -35762,6 +35927,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033763.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033766.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033780.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033789.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033800.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033803.pdf",
@@ -35865,6 +36031,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034292.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034295.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034297.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034298.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034299.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034300.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034301.pdf",
@@ -35920,6 +36087,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034547.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034552.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034556.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034562.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034563.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034579.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034581.pdf",
@@ -35978,6 +36146,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034908.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034911.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034915.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034916.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034920.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034928.pdf",
@@ -35992,6 +36161,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034960.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034968.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034977.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034984.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034999.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035003.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035013.pdf",
@@ -36002,6 +36172,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221332.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221358.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221359.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221360.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115704.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115711.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115726.pdf",
@@ -36014,6 +36185,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115813.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115814.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115815.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115816.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115820.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115821.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115822.pdf",
