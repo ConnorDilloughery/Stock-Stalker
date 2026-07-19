@@ -161,6 +161,7 @@
       <button class="tab" data-tab="pulse">Market Pulse</button>
       <button class="tab" data-tab="dividends">Dividends</button>
       <button class="tab" data-tab="congress">Congress Trades</button>
+      <button class="tab" data-tab="insiders">Insider Trades</button>
       <button class="tab" data-tab="learn">Learn</button>
     </nav>
     <div id="tab-market"></div>
@@ -172,6 +173,7 @@
     <div id="tab-pulse" class="hidden"></div>
     <div id="tab-dividends" class="hidden"></div>
     <div id="tab-congress" class="hidden"></div>
+    <div id="tab-insiders" class="hidden"></div>
     <div id="tab-learn" class="hidden"></div>
   </div>
 </div>
@@ -278,7 +280,11 @@ let state = {
   congressExpanded: null,
   sectorHistory: null,
   sectorHistoryError: null,
-  sectorHistoryLoading: false
+  sectorHistoryLoading: false,
+  insiderData: null,
+  insiderError: null,
+  insiderLoading: false,
+  insiderView: "feed"
 };
 
 /* ======================= storage ======================= */
@@ -1026,6 +1032,35 @@ async function refreshWatchPrices() {
   btn.disabled = false; btn.textContent = "Refresh prices & check alerts";
 }
 
+function watchlistCrossoverHtml() {
+  if (state.watchlist.length === 0) return "";
+  const watchTickers = new Set(state.watchlist.map(s => s.ticker));
+  const hits = [];
+  if (state.congressData) {
+    for (const t of state.congressData.trades) {
+      if (watchTickers.has(t.ticker)) hits.push({ ticker: t.ticker, who: t.politician, role: t.office, type: t.type, when: t.transactionDate || t.filedDate, source: "Congress" });
+    }
+  }
+  if (state.insiderData) {
+    for (const t of state.insiderData.trades) {
+      if (watchTickers.has(t.ticker)) hits.push({ ticker: t.ticker, who: t.insiderName, role: t.title, type: t.type, when: t.transactionDate, source: "Insider" });
+    }
+  }
+  if (hits.length === 0) return "";
+  hits.sort((a, b) => (b.when || "").localeCompare(a.when || ""));
+  return `
+    <div class="panel" style="border:1px solid var(--tide)">
+      <div class="panel-title" style="font-size:16px">Watchlist activity</div>
+      <p class="panel-copy">Politicians or corporate insiders have traded stocks on your watchlist:</p>
+      <div style="display:flex;flex-direction:column;gap:6px">
+        ${hits.slice(0, 20).map(h => `<div class="name">
+          <span class="chip" style="background:${txStyle(h.type).bg};color:${txStyle(h.type).fg}">${escapeHtml(txStyle(h.type).label)}</span>
+          <strong>${escapeHtml(h.ticker)}</strong> — ${escapeHtml(h.who || "")}${h.role ? " (" + escapeHtml(h.role) + ")" : ""} · ${escapeHtml(h.source)} · ${escapeHtml(h.when || "")}
+        </div>`).join("")}
+      </div>
+    </div>`;
+}
+
 function renderWatch() {
   const root = document.getElementById("tab-watch");
   if (state.watchlist.length === 0) {
@@ -1038,11 +1073,16 @@ function renderWatch() {
       <p class="panel-copy">One tap pulls a live quote for every stock below and flags anything that has dropped into its buy zone or risen past its avoid level.</p>
       <button class="btn btn-big" id="refreshWatch">Refresh prices &amp; check alerts</button>
       <div id="watchAlerts" class="baked hidden" style="margin-bottom:0"></div>
-    </div>`
+    </div>
+    ${watchlistCrossoverHtml()}`
     + state.watchlist.map(s => stockCardHtml(s, true)).join("");
   const rbtn = document.getElementById("refreshWatch");
   if (rbtn) rbtn.addEventListener("click", () => requireKey(refreshWatchPrices));
   bindStockCards(root, () => state.watchlist);
+  // Reuse whatever Congress/Insider data is already loading elsewhere in the
+  // app rather than triggering a second, redundant fetch.
+  if (!state.congressData && !state.congressLoading) loadCongressData(false);
+  if (!state.insiderData && !state.insiderLoading) loadInsiderData(false);
 }
 
 function etfCardHtml(e) {
@@ -1140,6 +1180,7 @@ async function loadMarketData(force) {
   renderMarket();
   renderDividends(); // Dividends depends on this data too, even if it wasn't the tab that triggered the fetch
   renderSectors(); // same for Sectors
+  if (state.insiderData) renderInsiders(); // cross-reference callout depends on this too
 }
 
 async function loadEtfData(force) {
@@ -1211,6 +1252,7 @@ async function loadCongressData(force) {
   }
   state.congressLoading = false;
   renderCongress();
+  if (state.watchlist.length > 0) renderWatch(); // watchlist crossover alert depends on this too
 }
 
 const TX_TYPE_STYLE = {
@@ -1309,6 +1351,125 @@ function renderCongress() {
     renderCongress();
   }));
   if (!d && !state.congressLoading && !state.congressError) loadCongressData(false);
+}
+
+/* ======================= insider trades ======================= */
+
+async function loadInsiderData(force) {
+  if (state.insiderData && !force) return;
+  state.insiderLoading = true; state.insiderError = null;
+  renderInsiders();
+  try {
+    const res = await fetch(DATA_BASE + "/insider_trades.json?ts=" + Date.now());
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    state.insiderData = await res.json();
+  } catch (e) {
+    state.insiderError = "Couldn't load insider trading data (" + e.message + "). If the Pi hasn't run the insider scanner yet, this file won't exist.";
+  }
+  state.insiderLoading = false;
+  renderInsiders();
+  if (state.watchlist.length > 0) renderWatch(); // watchlist crossover alert depends on this too
+}
+
+function insiderAmount(t) {
+  if (t.pricePerShare === null || t.pricePerShare === undefined) return null;
+  return t.shares * t.pricePerShare;
+}
+
+function insiderTradeRow(t) {
+  const st = txStyle(t.type);
+  const amount = insiderAmount(t);
+  return `
+    <div class="card" style="padding:14px 20px">
+      <div class="card-head" style="align-items:center">
+        <div>
+          <div class="ticker-row">
+            <span class="ticker">${escapeHtml(t.ticker)}</span>
+            <span class="chip" style="background:${st.bg};color:${st.fg}">${st.label}</span>
+          </div>
+          <div class="name">${escapeHtml(t.insiderName || "")} · ${escapeHtml(t.title || "")}${t.issuerName ? " · " + escapeHtml(t.issuerName) : ""}</div>
+        </div>
+        <div class="price-block">
+          <div class="room" style="color:var(--dim)">${t.shares.toLocaleString()} sh${t.pricePerShare ? " @ $" + t.pricePerShare.toFixed(2) : ""}</div>
+          <div class="room" style="color:var(--dim)">${amount ? "$" + Math.round(amount).toLocaleString() : ""} · ${escapeHtml(t.transactionDate || "")}</div>
+        </div>
+      </div>
+    </div>`;
+}
+
+function insiderTickerCard(ticker, tk) {
+  const buys = tk.trades.filter(t => t.type === "Purchase").length;
+  const sells = tk.trades.filter(t => t.type === "Sale").length;
+  return `
+    <div class="card" style="padding:16px 20px">
+      <div class="card-head" style="align-items:center">
+        <div>
+          <div class="ticker-row"><span class="ticker">${escapeHtml(ticker)}</span></div>
+          <div class="name">${escapeHtml(tk.issuerName || "")} · ${tk.trades.length} transaction${tk.trades.length === 1 ? "" : "s"} · ${buys} buy${buys === 1 ? "" : "s"} / ${sells} sell${sells === 1 ? "" : "s"}</div>
+        </div>
+      </div>
+      <div style="margin-top:10px;display:flex;flex-direction:column;gap:6px">
+        ${tk.trades.slice(0, 8).map(t => {
+          const st = txStyle(t.type);
+          const amount = insiderAmount(t);
+          return `<div class="name">
+            <span class="chip" style="background:${st.bg};color:${st.fg}">${st.label}</span>
+            ${escapeHtml(t.insiderName || "")} (${escapeHtml(t.title || "")}) · ${t.shares.toLocaleString()} sh${amount ? " · $" + Math.round(amount).toLocaleString() : ""} · ${escapeHtml(t.transactionDate || "")}
+          </div>`;
+        }).join("")}
+      </div>
+    </div>`;
+}
+
+function highConfidenceCrossRefHtml() {
+  if (!state.marketData || !state.marketData.stocks || !state.insiderData) return "";
+  const recentBuyTickers = new Set(
+    state.insiderData.trades.filter(t => t.type === "Purchase").map(t => t.ticker)
+  );
+  if (recentBuyTickers.size === 0) return "";
+  const matches = state.marketData.stocks.filter(s =>
+    (s.signal === "BUY" || s.signal === "ACCUMULATE") && recentBuyTickers.has(s.ticker));
+  if (matches.length === 0) return "";
+  return `
+    <div class="panel" style="border:1px solid var(--kelp)">
+      <div class="panel-title" style="font-size:16px">Highest-confidence overlap</div>
+      <p class="panel-copy">Stocks that are both a Buy/Accumulate signal on Full Market <em>and</em> have had an insider open-market purchase recently — cheap by the numbers, and someone with inside knowledge of the business put their own money in too. Still not advice — read why before acting.</p>
+      <div class="chips">${matches.map(s => `<span class="chip" style="background:#E3F1EA;color:var(--kelp)">${escapeHtml(s.ticker)} · ${s.signal}</span>`).join("")}</div>
+    </div>`;
+}
+
+function renderInsiders() {
+  const root = document.getElementById("tab-insiders");
+  const d = state.insiderData;
+  const updated = d ? new Date(d.generatedAt).toLocaleString() : null;
+  const tickers = d ? Object.entries(d.byTicker).sort((a, b) => b[1].trades.length - a[1].trades.length) : [];
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">Insider trades</div>
+      <p class="panel-copy">SEC Form 4 filings (sec.gov) — corporate officers, directors, and 10%+ owners buying or selling their own company's stock, refreshed hourly by the Pi. Scoped to tickers currently passing the Full Market screen, not the whole market — the entire market files Form 4s constantly for routine compensation events (RSU vests, tax withholding, option exercises), so this keeps only genuine open-market purchases and sales for stocks Undercurrent already flags as interesting, and skips the noise. ${updated ? `Last updated: <strong>${updated}</strong> · ${d.count} transactions on file.` : ""}</p>
+      <div class="chips">
+        <button class="pick ${state.insiderView === "feed" ? "on" : ""}" data-insider-view="feed">Recent trades</button>
+        <button class="pick ${state.insiderView === "ticker" ? "on" : ""}" data-insider-view="ticker">By stock</button>
+      </div>
+      <button class="btn btn-big" id="insiderRefresh">${state.insiderLoading ? "Loading…" : "Refresh from Pi"}</button>
+    </div>
+    ${highConfidenceCrossRefHtml()}
+    ${state.insiderError ? `<div class="error">${escapeHtml(state.insiderError)}</div>` : ""}
+    <div id="insiderResults">${
+      !d ? "" :
+      state.insiderView === "feed"
+        ? d.trades.slice(0, 200).map(insiderTradeRow).join("")
+        : tickers.map(([ticker, tk]) => insiderTickerCard(ticker, tk)).join("")
+    }</div>
+  `;
+  const btn = document.getElementById("insiderRefresh");
+  if (btn) btn.addEventListener("click", () => loadInsiderData(true));
+  root.querySelectorAll("[data-insider-view]").forEach(b => b.addEventListener("click", () => {
+    state.insiderView = b.dataset.insiderView;
+    renderInsiders();
+  }));
+  if (!d && !state.insiderLoading && !state.insiderError) loadInsiderData(false);
+  if (!state.marketData && !state.marketLoading) loadMarketData(false); // needed for the cross-reference callout
 }
 
 /* ======================= pre-market pulse ======================= */
@@ -1761,7 +1922,8 @@ function renderLearn() {
     ["Options-selling fit (ETF cards)", "A starting filter for options-selling strategies, built honestly from what free data actually covers. Average daily volume is real, live data — a decent liquidity proxy. The weekly-options flag is hand-maintained (not live), so confirm it's still accurate in your broker. 52-week range width is a rough stand-in for how much a fund moves — it is explicitly NOT the same as options implied volatility, which changes constantly and isn't available from any free data source. Real bid-ask spreads and current IV only exist in your broker's live options chain — check those there, right before placing a trade."],
     ["Why some dividend yields show n/a", "A sustained real-world dividend yield above ~25% essentially never happens — it would mean a company pays out nearly its entire share price in dividends every year. Finnhub's free tier occasionally reports garbage yield values for thinly-covered small/micro-cap tickers (a data quality issue on their end, not a calculation bug here). Rather than display a false number like '94.70%,' anything above that ceiling gets treated as unreliable and shown as n/a instead."],
     ["Market Pulse tab", "A before-the-bell scan: live index snapshots (SPY/QQQ/DIA vs. previous close — the best free stand-in for overnight futures moves), today's full earnings calendar, and general market headlines. The economic calendar (Fed events, CPI, jobs data) needs a paid Finnhub plan — if it shows as unavailable, that's why, and a free public link is provided instead. Nothing here is ranked by predicted market impact; that requires real quantitative modeling no honest free source can back up, so read everything and use your own judgment on what matters most."],
-    ["Congress Trades tab", "Reads congress.json, built by a separate Pi script (congress_scanner.py) that runs hourly and pulls from three official sources — no paid data vendor. <strong>Senate:</strong> Periodic Transaction Reports from efdsearch.senate.gov, filed as clean structured HTML — high confidence on ticker, date, type, and amount. <strong>House:</strong> PTRs from disclosures-clerk.house.gov, filed as PDFs but almost always real digital text (not scans) — tickers appear directly in the filing, e.g. \"Apple Inc. - Common Stock (AAPL)\", extracted from real table structure — nearly as high-confidence as the Senate. Complex filings that bundle many holdings into one bulk transaction occasionally lose a few rows to imperfect table parsing — never a wrong ticker, just an incomplete one. <strong>President:</strong> Trump's PTRs are self-published as PDFs on whitehouse.gov under the same STOCK Act requirement, but that's meaningfully lower-confidence data: some filings are pure scanned images, so pages with no text layer are run through OCR — even filings with a real text layer are often themselves noisy OCR baked in by whoever produced the PDF — so only transactions matching a recognized large-cap ticker are kept (bonds and smaller/unrecognized names are silently dropped, never guessed at), and transaction dates are omitted for these entries since OCR'd dates aren't reliable enough to trust (only the filing's date is kept). By law, amounts are reported as ranges, not exact dollar figures or share counts, so the per-politician view here is an observed buy/sell history, not a live net-worth or portfolio-value calculation — treat it as a lead to research further, not a finished answer. If this tab shows an error, the Pi's congress-scanner.timer hasn't run yet or hasn't pushed its first update."]
+    ["Congress Trades tab", "Reads congress.json, built by a separate Pi script (congress_scanner.py) that runs hourly and pulls from three official sources — no paid data vendor. <strong>Senate:</strong> Periodic Transaction Reports from efdsearch.senate.gov, filed as clean structured HTML — high confidence on ticker, date, type, and amount. <strong>House:</strong> PTRs from disclosures-clerk.house.gov, filed as PDFs but almost always real digital text (not scans) — tickers appear directly in the filing, e.g. \"Apple Inc. - Common Stock (AAPL)\", extracted from real table structure — nearly as high-confidence as the Senate. Complex filings that bundle many holdings into one bulk transaction occasionally lose a few rows to imperfect table parsing — never a wrong ticker, just an incomplete one. <strong>President:</strong> Trump's PTRs are self-published as PDFs on whitehouse.gov under the same STOCK Act requirement, but that's meaningfully lower-confidence data: some filings are pure scanned images, so pages with no text layer are run through OCR — even filings with a real text layer are often themselves noisy OCR baked in by whoever produced the PDF — so only transactions matching a recognized large-cap ticker are kept (bonds and smaller/unrecognized names are silently dropped, never guessed at), and transaction dates are omitted for these entries since OCR'd dates aren't reliable enough to trust (only the filing's date is kept). By law, amounts are reported as ranges, not exact dollar figures or share counts, so the per-politician view here is an observed buy/sell history, not a live net-worth or portfolio-value calculation — treat it as a lead to research further, not a finished answer. If this tab shows an error, the Pi's congress-scanner.timer hasn't run yet or hasn't pushed its first update."],
+    ["Insider Trades tab", "Reads insider_trades.json, built by insider_scanner.py — hourly, straight from SEC EDGAR's real-time Form 4 feed (sec.gov), no paid vendor. Form 4 is how corporate officers, directors, and 10%+ owners disclose buying or selling their own company's stock. This intentionally only covers tickers currently passing the Full Market screen, not the whole market — every public company files Form 4s constantly for routine compensation events (RSU vests, tax-withholding sales, option exercises), which would be mostly noise unrelated to genuine buy/sell conviction. Only real open-market purchases and sales are kept; grants, exercises, and gifts are filtered out. Amounts here are exact (real share counts × real price), unlike Congress data's legally-mandated ranges. The \"highest-confidence overlap\" callout highlights stocks that are both a Buy/Accumulate signal on Full Market and have had a recent insider purchase — still not advice, just two independent signals agreeing."]
   ];
   document.getElementById("tab-learn").innerHTML =
     `<div class="panel"><div class="panel-title">The five-minute vocabulary</div><p class="panel-copy">Everything this app measures, in plain English — including exactly how the signals are calculated.</p></div>`
@@ -1777,7 +1939,7 @@ function showSetup() {
 function showApp() {
   document.getElementById("setup").classList.add("hidden");
   document.getElementById("app").classList.remove("hidden");
-  renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse(); renderDividends(); renderCongress(); renderSectors();
+  renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse(); renderDividends(); renderCongress(); renderSectors(); renderInsiders();
 }
 
 // Only Scout, IPO radar, Market Pulse, and Watchlist price refresh actually
@@ -1793,7 +1955,7 @@ function requireKey(action) {
 
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
-  ["scout", "market", "sectors", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "learn"].forEach(id =>
+  ["scout", "market", "sectors", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
 }));
 
