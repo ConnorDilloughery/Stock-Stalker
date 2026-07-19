@@ -25,15 +25,24 @@
   .tagline { color: var(--dim); font-size: 14px; margin-top: 2px; }
   .disclaimer { font-size: 12px; color: var(--dim); background: #E9EEF1; border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; margin: 14px 0 4px; }
 
+  .tab-groups {
+    display: flex; flex-direction: column; gap: 10px; margin: 16px 0 20px;
+    padding-bottom: 12px; border-bottom: 2px solid var(--line);
+  }
+  .tab-group-row { display: flex; flex-wrap: wrap; gap: 10px 28px; }
+  .tab-group-label {
+    font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em;
+    color: var(--dim); margin-bottom: 5px;
+  }
   .tabs {
-    display: flex; flex-wrap: wrap; gap: 4px; margin: 16px 0 20px; border-bottom: 2px solid var(--line);
+    display: flex; flex-wrap: wrap; gap: 4px;
   }
   .tab {
-    background: none; border: none; font: 600 15px 'IBM Plex Sans', sans-serif; color: var(--dim);
-    padding: 10px 14px; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -2px;
-    flex: none; white-space: nowrap; min-height: 44px;
+    background: none; border: 1px solid transparent; border-radius: 8px; font: 600 14px 'IBM Plex Sans', sans-serif; color: var(--dim);
+    padding: 8px 13px; cursor: pointer; flex: none; white-space: nowrap; min-height: 40px;
   }
-  .tab.on { color: var(--ink); border-bottom-color: var(--tide); }
+  .tab.on { color: #fff; background: var(--tide); }
+  .tab:not(.on):hover { background: var(--mist); color: var(--ink); }
   .tab:focus-visible, button:focus-visible { outline: 2px solid var(--tide); outline-offset: 2px; }
 
   .panel { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; margin-bottom: 18px; }
@@ -127,7 +136,8 @@
   @media (max-width: 480px) {
     .shell { padding: 0 12px; }
     .logo { font-size: 24px; }
-    .tab { padding: 10px 10px; font-size: 14px; }
+    .tab { padding: 8px 10px; font-size: 13px; }
+    .tab-group-row { gap: 10px 18px; }
     .card, .panel { padding: 14px; }
     .ticker, .price { font-size: 18px; }
     .card-head { flex-wrap: wrap; }
@@ -162,20 +172,42 @@
   </div>
 
   <div id="app" class="hidden">
-    <nav class="tabs">
-      <button class="tab on" data-tab="market">Full Market</button>
-      <button class="tab" data-tab="sectors">Sectors</button>
-      <button class="tab" data-tab="scout">Scout</button>
-      <button class="tab" data-tab="etfs">ETFs</button>
-      <button class="tab" data-tab="watch">Watchlist</button>
-      <button class="tab" data-tab="ipo">IPO radar</button>
-      <button class="tab" data-tab="pulse">Market Pulse</button>
-      <button class="tab" data-tab="dividends">Dividends</button>
-      <button class="tab" data-tab="congress">Congress Trades</button>
-      <button class="tab" data-tab="insiders">Insider Trades</button>
-      <button class="tab" data-tab="backtest">Track Record</button>
-      <button class="tab" data-tab="health">Status</button>
-      <button class="tab" data-tab="learn">Learn</button>
+    <nav class="tab-groups">
+      <div class="tab-group">
+        <div class="tab-group-label">Screeners</div>
+        <div class="tabs">
+          <button class="tab on" data-tab="market">Full Market</button>
+          <button class="tab" data-tab="sectors">Sectors</button>
+          <button class="tab" data-tab="scout">Scout</button>
+          <button class="tab" data-tab="etfs">ETFs</button>
+          <button class="tab" data-tab="dividends">Dividends</button>
+          <button class="tab" data-tab="ipo">IPO radar</button>
+          <button class="tab" data-tab="pulse">Market Pulse</button>
+        </div>
+      </div>
+      <div class="tab-group">
+        <div class="tab-group-label">Money Trails</div>
+        <div class="tabs">
+          <button class="tab" data-tab="congress">Congress Trades</button>
+          <button class="tab" data-tab="insiders">Insider Trades</button>
+          <button class="tab" data-tab="backtest">Track Record</button>
+        </div>
+      </div>
+      <div class="tab-group-row">
+        <div class="tab-group">
+          <div class="tab-group-label">Yours</div>
+          <div class="tabs">
+            <button class="tab" data-tab="watch">Watchlist</button>
+          </div>
+        </div>
+        <div class="tab-group">
+          <div class="tab-group-label">Info</div>
+          <div class="tabs">
+            <button class="tab" data-tab="health">Status</button>
+            <button class="tab" data-tab="learn">Learn</button>
+          </div>
+        </div>
+      </div>
     </nav>
     <div id="tab-market"></div>
     <div id="tab-sectors" class="hidden"></div>
