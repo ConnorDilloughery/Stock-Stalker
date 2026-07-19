@@ -162,6 +162,7 @@
       <button class="tab" data-tab="dividends">Dividends</button>
       <button class="tab" data-tab="congress">Congress Trades</button>
       <button class="tab" data-tab="insiders">Insider Trades</button>
+      <button class="tab" data-tab="backtest">Track Record</button>
       <button class="tab" data-tab="learn">Learn</button>
     </nav>
     <div id="tab-market"></div>
@@ -174,6 +175,7 @@
     <div id="tab-dividends" class="hidden"></div>
     <div id="tab-congress" class="hidden"></div>
     <div id="tab-insiders" class="hidden"></div>
+    <div id="tab-backtest" class="hidden"></div>
     <div id="tab-learn" class="hidden"></div>
   </div>
 </div>
@@ -284,7 +286,10 @@ let state = {
   insiderData: null,
   insiderError: null,
   insiderLoading: false,
-  insiderView: "feed"
+  insiderView: "feed",
+  backtestData: null,
+  backtestError: null,
+  backtestLoading: false
 };
 
 /* ======================= storage ======================= */
@@ -1472,6 +1477,76 @@ function renderInsiders() {
   if (!state.marketData && !state.marketLoading) loadMarketData(false); // needed for the cross-reference callout
 }
 
+/* ======================= backtest / track record ======================= */
+
+async function loadBacktestData(force) {
+  if (state.backtestData && !force) return;
+  state.backtestLoading = true; state.backtestError = null;
+  renderBacktest();
+  try {
+    const res = await fetch(DATA_BASE + "/backtest.json?ts=" + Date.now());
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    state.backtestData = await res.json();
+  } catch (e) {
+    state.backtestError = "Couldn't load track record data (" + e.message + "). If the Pi hasn't run the backtest tracker yet, this file won't exist.";
+  }
+  state.backtestLoading = false;
+  renderBacktest();
+}
+
+const BACKTEST_BUCKET_LABELS = { "30d": "30+ days old", "90d": "90+ days old", "180d": "180+ days old", "365d": "1+ year old" };
+
+function backtestStatCard(label, s) {
+  const hasData = s.count > 0;
+  const winColor = hasData && s.winRate >= 50 ? "var(--kelp)" : hasData ? "var(--coral)" : "var(--dim)";
+  return `
+    <div class="stat" style="flex:1;min-width:150px">
+      <span>${label}</span>
+      <strong style="color:${winColor}">${hasData ? s.winRate.toFixed(0) + "% win rate" : "no data yet"}</strong>
+      ${hasData ? `<div style="font-size:13px;color:var(--dim);margin-top:2px">${s.count} signal${s.count === 1 ? "" : "s"} · avg ${s.avgReturn >= 0 ? "+" : ""}${s.avgReturn.toFixed(1)}%</div>` : ""}
+    </div>`;
+}
+
+function backtestEntryRow(e) {
+  const up = e.returnPct >= 0;
+  return `
+    <div class="card" style="padding:14px 20px">
+      <div class="card-head" style="align-items:center">
+        <div>
+          <div class="ticker-row">
+            <span class="ticker">${escapeHtml(e.ticker)}</span>
+            <span class="chip" style="background:#EAEEF1;color:#4A5A66">${escapeHtml(e.signal)}</span>
+          </div>
+          <div class="name">Entered ${escapeHtml(e.entryDate)} at $${e.entryPrice.toFixed(2)} · conviction ${e.convictionScore}/100</div>
+        </div>
+        <div class="price-block">
+          <div class="price" style="color:${up ? "var(--kelp)" : "var(--coral)"};font-size:18px">${up ? "+" : ""}${e.returnPct.toFixed(1)}%</div>
+          <div class="room" style="color:var(--dim)">$${e.currentPrice.toFixed(2)} as of ${escapeHtml(e.currentDate)}</div>
+        </div>
+      </div>
+    </div>`;
+}
+
+function renderBacktest() {
+  const root = document.getElementById("tab-backtest");
+  const d = state.backtestData;
+  const updated = d ? new Date(d.generatedAt).toLocaleString() : null;
+  const entries = d ? [...d.entries].sort((a, b) => b.entryDate.localeCompare(a.entryDate)) : [];
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">Track record</div>
+      <p class="panel-copy">Does the conviction score actually mean anything? Every day, backtest_tracker.py logs the entry price the moment a stock first qualifies for a Buy or Accumulate signal, then tracks its price forward. This is a real, honest, <strong>forward-only</strong> track record — it started the day this feature shipped, so it cannot show what the signal "would have" predicted in the past, and early results here reflect too small a sample to mean much either way. Give it months, not days, before trusting the win rate. ${updated ? `Last updated: <strong>${updated}</strong> · ${d.count} signal episodes tracked.` : ""}</p>
+      ${d ? `<div class="stats" style="margin-top:4px">${Object.entries(BACKTEST_BUCKET_LABELS).map(([k, label]) => backtestStatCard(label, d.stats[k])).join("")}</div>` : ""}
+      <button class="btn btn-big" id="backtestRefresh" style="margin-top:14px">${state.backtestLoading ? "Loading…" : "Refresh from Pi"}</button>
+    </div>
+    ${state.backtestError ? `<div class="error">${escapeHtml(state.backtestError)}</div>` : ""}
+    <div id="backtestResults">${!d ? "" : entries.slice(0, 200).map(backtestEntryRow).join("")}</div>
+  `;
+  const btn = document.getElementById("backtestRefresh");
+  if (btn) btn.addEventListener("click", () => loadBacktestData(true));
+  if (!d && !state.backtestLoading && !state.backtestError) loadBacktestData(false);
+}
+
 /* ======================= pre-market pulse ======================= */
 
 const PULSE_INDEXES = [
@@ -1923,7 +1998,8 @@ function renderLearn() {
     ["Why some dividend yields show n/a", "A sustained real-world dividend yield above ~25% essentially never happens — it would mean a company pays out nearly its entire share price in dividends every year. Finnhub's free tier occasionally reports garbage yield values for thinly-covered small/micro-cap tickers (a data quality issue on their end, not a calculation bug here). Rather than display a false number like '94.70%,' anything above that ceiling gets treated as unreliable and shown as n/a instead."],
     ["Market Pulse tab", "A before-the-bell scan: live index snapshots (SPY/QQQ/DIA vs. previous close — the best free stand-in for overnight futures moves), today's full earnings calendar, and general market headlines. The economic calendar (Fed events, CPI, jobs data) needs a paid Finnhub plan — if it shows as unavailable, that's why, and a free public link is provided instead. Nothing here is ranked by predicted market impact; that requires real quantitative modeling no honest free source can back up, so read everything and use your own judgment on what matters most."],
     ["Congress Trades tab", "Reads congress.json, built by a separate Pi script (congress_scanner.py) that runs hourly and pulls from three official sources — no paid data vendor. <strong>Senate:</strong> Periodic Transaction Reports from efdsearch.senate.gov, filed as clean structured HTML — high confidence on ticker, date, type, and amount. <strong>House:</strong> PTRs from disclosures-clerk.house.gov, filed as PDFs but almost always real digital text (not scans) — tickers appear directly in the filing, e.g. \"Apple Inc. - Common Stock (AAPL)\", extracted from real table structure — nearly as high-confidence as the Senate. Complex filings that bundle many holdings into one bulk transaction occasionally lose a few rows to imperfect table parsing — never a wrong ticker, just an incomplete one. <strong>President:</strong> Trump's PTRs are self-published as PDFs on whitehouse.gov under the same STOCK Act requirement, but that's meaningfully lower-confidence data: some filings are pure scanned images, so pages with no text layer are run through OCR — even filings with a real text layer are often themselves noisy OCR baked in by whoever produced the PDF — so only transactions matching a recognized large-cap ticker are kept (bonds and smaller/unrecognized names are silently dropped, never guessed at), and transaction dates are omitted for these entries since OCR'd dates aren't reliable enough to trust (only the filing's date is kept). By law, amounts are reported as ranges, not exact dollar figures or share counts, so the per-politician view here is an observed buy/sell history, not a live net-worth or portfolio-value calculation — treat it as a lead to research further, not a finished answer. If this tab shows an error, the Pi's congress-scanner.timer hasn't run yet or hasn't pushed its first update."],
-    ["Insider Trades tab", "Reads insider_trades.json, built by insider_scanner.py — hourly, straight from SEC EDGAR's real-time Form 4 feed (sec.gov), no paid vendor. Form 4 is how corporate officers, directors, and 10%+ owners disclose buying or selling their own company's stock. This intentionally only covers tickers currently passing the Full Market screen, not the whole market — every public company files Form 4s constantly for routine compensation events (RSU vests, tax-withholding sales, option exercises), which would be mostly noise unrelated to genuine buy/sell conviction. Only real open-market purchases and sales are kept; grants, exercises, and gifts are filtered out. Amounts here are exact (real share counts × real price), unlike Congress data's legally-mandated ranges. The \"highest-confidence overlap\" callout highlights stocks that are both a Buy/Accumulate signal on Full Market and have had a recent insider purchase — still not advice, just two independent signals agreeing."]
+    ["Insider Trades tab", "Reads insider_trades.json, built by insider_scanner.py — hourly, straight from SEC EDGAR's real-time Form 4 feed (sec.gov), no paid vendor. Form 4 is how corporate officers, directors, and 10%+ owners disclose buying or selling their own company's stock. This intentionally only covers tickers currently passing the Full Market screen, not the whole market — every public company files Form 4s constantly for routine compensation events (RSU vests, tax-withholding sales, option exercises), which would be mostly noise unrelated to genuine buy/sell conviction. Only real open-market purchases and sales are kept; grants, exercises, and gifts are filtered out. Amounts here are exact (real share counts × real price), unlike Congress data's legally-mandated ranges. The \"highest-confidence overlap\" callout highlights stocks that are both a Buy/Accumulate signal on Full Market and have had a recent insider purchase — still not advice, just two independent signals agreeing."],
+    ["Track Record tab", "The honest test of whether this app's conviction score means anything. Every day, backtest_tracker.py logs the entry price the moment a stock first qualifies for a Buy or Accumulate signal (once per signal \"episode,\" not once per day it stays qualified), then tracks that price forward indefinitely. This is <strong>forward-only</strong> — stocks.json is a rolling snapshot with no stored history of past signals, so there was never a way to reconstruct what the score \"would have\" called six months ago. The track record here only started the day this feature shipped, so early on there simply isn't enough data (or enough time elapsed) to say whether the score works — treat the first few months of results as noise, not a verdict. Win rate and average return are broken out by how long ago each signal fired (30/90/180/365+ days), since a 3-day-old pick hasn't had a chance to prove anything yet."]
   ];
   document.getElementById("tab-learn").innerHTML =
     `<div class="panel"><div class="panel-title">The five-minute vocabulary</div><p class="panel-copy">Everything this app measures, in plain English — including exactly how the signals are calculated.</p></div>`
@@ -1939,7 +2015,7 @@ function showSetup() {
 function showApp() {
   document.getElementById("setup").classList.add("hidden");
   document.getElementById("app").classList.remove("hidden");
-  renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse(); renderDividends(); renderCongress(); renderSectors(); renderInsiders();
+  renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse(); renderDividends(); renderCongress(); renderSectors(); renderInsiders(); renderBacktest();
 }
 
 // Only Scout, IPO radar, Market Pulse, and Watchlist price refresh actually
@@ -1955,7 +2031,7 @@ function requireKey(action) {
 
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
-  ["scout", "market", "sectors", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "learn"].forEach(id =>
+  ["scout", "market", "sectors", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "backtest", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
 }));
 
