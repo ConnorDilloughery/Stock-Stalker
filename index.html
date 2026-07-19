@@ -174,6 +174,7 @@
       <button class="tab" data-tab="congress">Congress Trades</button>
       <button class="tab" data-tab="insiders">Insider Trades</button>
       <button class="tab" data-tab="backtest">Track Record</button>
+      <button class="tab" data-tab="health">Status</button>
       <button class="tab" data-tab="learn">Learn</button>
     </nav>
     <div id="tab-market"></div>
@@ -187,6 +188,7 @@
     <div id="tab-congress" class="hidden"></div>
     <div id="tab-insiders" class="hidden"></div>
     <div id="tab-backtest" class="hidden"></div>
+    <div id="tab-health" class="hidden"></div>
     <div id="tab-learn" class="hidden"></div>
   </div>
 </div>
@@ -1197,6 +1199,7 @@ async function loadMarketData(force) {
   renderDividends(); // Dividends depends on this data too, even if it wasn't the tab that triggered the fetch
   renderSectors(); // same for Sectors
   if (state.insiderData) renderInsiders(); // cross-reference callout depends on this too
+  renderHealth();
 }
 
 async function loadEtfData(force) {
@@ -1213,6 +1216,7 @@ async function loadEtfData(force) {
   state.etfLoading = false;
   renderEtfs();
   renderDividends(); // same reason — Dividends needs to know the moment this resolves too
+  renderHealth();
 }
 
 function renderMarket() {
@@ -1269,6 +1273,7 @@ async function loadCongressData(force) {
   state.congressLoading = false;
   renderCongress();
   if (state.watchlist.length > 0) renderWatch(); // watchlist crossover alert depends on this too
+  renderHealth();
 }
 
 const TX_TYPE_STYLE = {
@@ -1385,6 +1390,7 @@ async function loadInsiderData(force) {
   state.insiderLoading = false;
   renderInsiders();
   if (state.watchlist.length > 0) renderWatch(); // watchlist crossover alert depends on this too
+  renderHealth();
 }
 
 function insiderAmount(t) {
@@ -1503,6 +1509,7 @@ async function loadBacktestData(force) {
   }
   state.backtestLoading = false;
   renderBacktest();
+  renderHealth();
 }
 
 const BACKTEST_BUCKET_LABELS = { "30d": "30+ days old", "90d": "90+ days old", "180d": "180+ days old", "365d": "1+ year old" };
@@ -1556,6 +1563,85 @@ function renderBacktest() {
   const btn = document.getElementById("backtestRefresh");
   if (btn) btn.addEventListener("click", () => loadBacktestData(true));
   if (!d && !state.backtestLoading && !state.backtestError) loadBacktestData(false);
+}
+
+/* ======================= system status ======================= */
+
+// Staleness thresholds are per-scanner, not one-size-fits-all: the
+// continuous market/ETF scanner should basically always be recent,
+// while Congress/Insider Trades can go days without a genuine new
+// match (a quiet weekend is normal, not broken) — see each scanner's
+// own module docstring for why. These thresholds reflect that, so a
+// legitimately quiet scanner doesn't get flagged as if it crashed.
+const HEALTH_SOURCES = [
+  { key: "market", label: "Full Market", loader: () => loadMarketData(false), dataKey: "marketData", errorKey: "marketError", warnHrs: 4, errorHrs: 24 },
+  { key: "etfs", label: "ETFs", loader: () => loadEtfData(false), dataKey: "etfData", errorKey: "etfError", warnHrs: 4, errorHrs: 24 },
+  { key: "sectors", label: "Sectors", loader: () => loadSectorHistory(false), dataKey: "sectorHistory", errorKey: "sectorHistoryError", warnHrs: 48, errorHrs: 120 },
+  { key: "congress", label: "Congress Trades", loader: () => loadCongressData(false), dataKey: "congressData", errorKey: "congressError", warnHrs: 72, errorHrs: 168 },
+  { key: "insiders", label: "Insider Trades", loader: () => loadInsiderData(false), dataKey: "insiderData", errorKey: "insiderError", warnHrs: 72, errorHrs: 168 },
+  { key: "backtest", label: "Track Record", loader: () => loadBacktestData(false), dataKey: "backtestData", errorKey: "backtestError", warnHrs: 48, errorHrs: 120 },
+];
+
+function timeAgoText(ms) {
+  const hrs = ms / 3600000;
+  if (hrs < 1) return Math.round(ms / 60000) + "m ago";
+  if (hrs < 48) return hrs.toFixed(1) + "h ago";
+  return (hrs / 24).toFixed(1) + "d ago";
+}
+
+function healthRowHtml(source) {
+  const d = state[source.dataKey];
+  const err = state[source.errorKey];
+  if (err) {
+    return `<div class="card" style="padding:14px 20px">
+      <div class="card-head" style="align-items:center">
+        <div class="name" style="font-size:15px;font-weight:600;color:var(--ink)">${escapeHtml(source.label)}</div>
+        <span class="chip" style="background:#F7E6E2;color:var(--coral)">Fetch failed</span>
+      </div>
+      <div class="name" style="margin-top:4px">${escapeHtml(err)}</div>
+    </div>`;
+  }
+  if (!d) {
+    return `<div class="card" style="padding:14px 20px">
+      <div class="card-head" style="align-items:center">
+        <div class="name" style="font-size:15px;font-weight:600;color:var(--ink)">${escapeHtml(source.label)}</div>
+        <span class="chip" style="background:#EAEEF1;color:#4A5A66">Loading…</span>
+      </div>
+    </div>`;
+  }
+  const ageMs = Date.now() - new Date(d.generatedAt).getTime();
+  const ageHrs = ageMs / 3600000;
+  const status = ageHrs > source.errorHrs ? "error" : ageHrs > source.warnHrs ? "warn" : "ok";
+  const style = {
+    ok: { bg: "#E3F1EA", fg: "var(--kelp)", label: "Healthy" },
+    warn: { bg: "#F6EEDD", fg: "var(--amber)", label: "Stale" },
+    error: { bg: "#F7E6E2", fg: "var(--coral)", label: "Likely stuck" },
+  }[status];
+  const count = d.count !== undefined ? d.count : (d.stocks ? d.stocks.length : d.etfs ? d.etfs.length : null);
+  return `
+    <div class="card" style="padding:14px 20px">
+      <div class="card-head" style="align-items:center">
+        <div>
+          <div class="name" style="font-size:15px;font-weight:600;color:var(--ink)">${escapeHtml(source.label)}</div>
+          <div class="name">Last data push: ${timeAgoText(ageMs)}${count !== null ? " · " + count.toLocaleString() + " records" : ""}</div>
+        </div>
+        <span class="chip" style="background:${style.bg};color:${style.fg}">${style.label}</span>
+      </div>
+    </div>`;
+}
+
+function renderHealth() {
+  const root = document.getElementById("tab-health");
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">System status</div>
+      <p class="panel-copy">A quick look at whether each Pi scanner is still checking in — not a separate monitoring system, just the same "last updated" timestamp each tab already shows, gathered in one place. <strong>"Stale" doesn't necessarily mean broken</strong>: Congress Trades and Insider Trades can legitimately go days without a new match (weekends, or just no qualifying activity), so their thresholds are looser than the continuously-running Full Market/ETF scanner's. Treat "Likely stuck" as the actual signal worth investigating — that's calibrated to be well past what a normal quiet period would produce for that source.</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:10px">${HEALTH_SOURCES.map(healthRowHtml).join("")}</div>
+  `;
+  HEALTH_SOURCES.forEach(s => {
+    if (!state[s.dataKey] && !state[s.errorKey]) s.loader();
+  });
 }
 
 /* ======================= pre-market pulse ======================= */
@@ -1747,6 +1833,7 @@ async function loadSectorHistory(force) {
   }
   state.sectorHistoryLoading = false;
   renderSectors();
+  renderHealth();
 }
 
 // Categorical palette, dataviz skill's validated 8-hue order (first 7 slots) —
@@ -2010,7 +2097,8 @@ function renderLearn() {
     ["Market Pulse tab", "A before-the-bell scan: live index snapshots (SPY/QQQ/DIA vs. previous close — the best free stand-in for overnight futures moves), today's full earnings calendar, and general market headlines. The economic calendar (Fed events, CPI, jobs data) needs a paid Finnhub plan — if it shows as unavailable, that's why, and a free public link is provided instead. Nothing here is ranked by predicted market impact; that requires real quantitative modeling no honest free source can back up, so read everything and use your own judgment on what matters most."],
     ["Congress Trades tab", "Reads congress.json, built by a separate Pi script (congress_scanner.py) that runs hourly and pulls from three official sources — no paid data vendor. <strong>Senate:</strong> Periodic Transaction Reports from efdsearch.senate.gov, filed as clean structured HTML — high confidence on ticker, date, type, and amount. <strong>House:</strong> PTRs from disclosures-clerk.house.gov, filed as PDFs but almost always real digital text (not scans) — tickers appear directly in the filing, e.g. \"Apple Inc. - Common Stock (AAPL)\", extracted from real table structure — nearly as high-confidence as the Senate. Complex filings that bundle many holdings into one bulk transaction occasionally lose a few rows to imperfect table parsing — never a wrong ticker, just an incomplete one. <strong>President:</strong> Trump's PTRs are self-published as PDFs on whitehouse.gov under the same STOCK Act requirement, but that's meaningfully lower-confidence data: some filings are pure scanned images, so pages with no text layer are run through OCR — even filings with a real text layer are often themselves noisy OCR baked in by whoever produced the PDF — so only transactions matching a recognized large-cap ticker are kept (bonds and smaller/unrecognized names are silently dropped, never guessed at), and transaction dates are omitted for these entries since OCR'd dates aren't reliable enough to trust (only the filing's date is kept). By law, amounts are reported as ranges, not exact dollar figures or share counts, so the per-politician view here is an observed buy/sell history, not a live net-worth or portfolio-value calculation — treat it as a lead to research further, not a finished answer. If this tab shows an error, the Pi's congress-scanner.timer hasn't run yet or hasn't pushed its first update."],
     ["Insider Trades tab", "Reads insider_trades.json, built by insider_scanner.py — hourly, straight from SEC EDGAR's real-time Form 4 feed (sec.gov), no paid vendor. Form 4 is how corporate officers, directors, and 10%+ owners disclose buying or selling their own company's stock. Covers the full actively-traded US stock universe (thousands of tickers, the same NASDAQ screener market_scanner.py uses) — not literally every filer on EDGAR, since foreign issuers, OTC/pink sheets, and very thin names are excluded, but broad enough that real matches show up regularly. Every public company files Form 4s constantly for routine compensation events (RSU vests, tax-withholding sales, option exercises), which would be mostly noise unrelated to genuine buy/sell conviction — only real open-market purchases and sales are kept; grants, exercises, and gifts are filtered out. Amounts here are exact (real share counts × real price), unlike Congress data's legally-mandated ranges. The \"highest-confidence overlap\" callout highlights stocks that are both a Buy/Accumulate signal on Full Market and have had a recent insider purchase — still not advice, just two independent signals agreeing."],
-    ["Track Record tab", "The honest test of whether this app's conviction score means anything. Every day, backtest_tracker.py logs the entry price the moment a stock first qualifies for a Buy or Accumulate signal (once per signal \"episode,\" not once per day it stays qualified), then tracks that price forward indefinitely. This is <strong>forward-only</strong> — stocks.json is a rolling snapshot with no stored history of past signals, so there was never a way to reconstruct what the score \"would have\" called six months ago. The track record here only started the day this feature shipped, so early on there simply isn't enough data (or enough time elapsed) to say whether the score works — treat the first few months of results as noise, not a verdict. Win rate and average return are broken out by how long ago each signal fired (30/90/180/365+ days), since a 3-day-old pick hasn't had a chance to prove anything yet."]
+    ["Track Record tab", "The honest test of whether this app's conviction score means anything. Every day, backtest_tracker.py logs the entry price the moment a stock first qualifies for a Buy or Accumulate signal (once per signal \"episode,\" not once per day it stays qualified), then tracks that price forward indefinitely. This is <strong>forward-only</strong> — stocks.json is a rolling snapshot with no stored history of past signals, so there was never a way to reconstruct what the score \"would have\" called six months ago. The track record here only started the day this feature shipped, so early on there simply isn't enough data (or enough time elapsed) to say whether the score works — treat the first few months of results as noise, not a verdict. Win rate and average return are broken out by how long ago each signal fired (30/90/180/365+ days), since a 3-day-old pick hasn't had a chance to prove anything yet."],
+    ["Status tab", "Not a separate monitoring system — just the \"last updated\" timestamp every other tab already shows, gathered in one place, so a scanner that's quietly stopped working doesn't go unnoticed for days. Each source has its own staleness threshold rather than one blanket rule: the continuously-running Full Market/ETF scanner should almost always be recent, while Congress Trades and Insider Trades can legitimately go multiple days without a new match — a quiet weekend, or just no qualifying activity in that window, isn't a bug (see their own tabs for why matches are inherently less frequent). \"Healthy\" and \"Stale\" both just describe normal operation at different points in a source's own cadence; \"Likely stuck\" is calibrated to be well past what a normal quiet period would produce, and is the one worth actually checking on."]
   ];
   document.getElementById("tab-learn").innerHTML =
     `<div class="panel"><div class="panel-title">The five-minute vocabulary</div><p class="panel-copy">Everything this app measures, in plain English — including exactly how the signals are calculated.</p></div>`
@@ -2026,7 +2114,7 @@ function showSetup() {
 function showApp() {
   document.getElementById("setup").classList.add("hidden");
   document.getElementById("app").classList.remove("hidden");
-  renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse(); renderDividends(); renderCongress(); renderSectors(); renderInsiders(); renderBacktest();
+  renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse(); renderDividends(); renderCongress(); renderSectors(); renderInsiders(); renderBacktest(); renderHealth();
 }
 
 // Only Scout, IPO radar, Market Pulse, and Watchlist price refresh actually
@@ -2042,7 +2130,7 @@ function requireKey(action) {
 
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
-  ["scout", "market", "sectors", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "backtest", "learn"].forEach(id =>
+  ["scout", "market", "sectors", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "backtest", "health", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
 }));
 
