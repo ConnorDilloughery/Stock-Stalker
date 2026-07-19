@@ -153,6 +153,7 @@
   <div id="app" class="hidden">
     <nav class="tabs">
       <button class="tab on" data-tab="market">Full Market</button>
+      <button class="tab" data-tab="sectors">Sectors</button>
       <button class="tab" data-tab="scout">Scout</button>
       <button class="tab" data-tab="etfs">ETFs</button>
       <button class="tab" data-tab="watch">Watchlist</button>
@@ -163,6 +164,7 @@
       <button class="tab" data-tab="learn">Learn</button>
     </nav>
     <div id="tab-market"></div>
+    <div id="tab-sectors" class="hidden"></div>
     <div id="tab-scout" class="hidden"></div>
     <div id="tab-etfs" class="hidden"></div>
     <div id="tab-watch" class="hidden"></div>
@@ -1134,6 +1136,7 @@ async function loadMarketData(force) {
   state.marketLoading = false;
   renderMarket();
   renderDividends(); // Dividends depends on this data too, even if it wasn't the tab that triggered the fetch
+  renderSectors(); // same for Sectors
 }
 
 async function loadEtfData(force) {
@@ -1416,6 +1419,68 @@ function dividendRow(item, isEtf) {
     </div>`;
 }
 
+function computeSectorStats(stocks) {
+  const bySector = {};
+  for (const s of stocks) {
+    const sec = s.sector || "Other";
+    if (!bySector[sec]) bySector[sec] = { count: 0, pes: [], discounts: [], scores: [], buy: 0, accumulate: 0, watch: 0 };
+    const b = bySector[sec];
+    b.count++;
+    if (s.pe) b.pes.push(s.pe);
+    if (s.discount !== undefined && s.discount !== null) b.discounts.push(s.discount);
+    if (s.score !== undefined && s.score !== null) b.scores.push(s.score);
+    if (s.signal === "BUY") b.buy++;
+    else if (s.signal === "ACCUMULATE") b.accumulate++;
+    else if (s.signal === "WATCH") b.watch++;
+  }
+  const avg = arr => arr.length ? arr.reduce((a, c) => a + c, 0) / arr.length : null;
+  return Object.entries(bySector)
+    .map(([sector, b]) => ({
+      sector, count: b.count, medianPE: median(b.pes), avgDiscount: avg(b.discounts),
+      avgScore: avg(b.scores), buy: b.buy, accumulate: b.accumulate, watch: b.watch,
+    }))
+    .sort((a, b) => b.count - a.count);
+}
+
+function sectorCardHtml(s) {
+  return `
+    <div class="card" style="padding:16px 20px">
+      <div class="card-head" style="align-items:center">
+        <div>
+          <div class="name" style="font-size:16px;font-weight:600;color:var(--ink)">${escapeHtml(s.sector)}</div>
+          <div class="name">${s.count} stock${s.count === 1 ? "" : "s"} passing the screen this pass</div>
+        </div>
+        <div class="price-block">
+          <div class="room" style="color:var(--dim)">Median P/E</div>
+          <div class="price" style="font-size:20px">${s.medianPE !== null ? s.medianPE.toFixed(1) : "n/a"}</div>
+        </div>
+      </div>
+      <div class="stats" style="margin-top:12px">
+        <div class="stat"><span>Avg discount</span><strong>${s.avgDiscount !== null ? (s.avgDiscount * 100).toFixed(0) + "%" : "n/a"}</strong></div>
+        <div class="stat"><span>Avg score</span><strong>${s.avgScore !== null ? Math.round(s.avgScore) : "n/a"}/100</strong></div>
+        <div class="stat"><span>Buy signal</span><strong style="color:var(--kelp)">${s.buy}</strong></div>
+        <div class="stat"><span>Accumulate</span><strong style="color:var(--kelp)">${s.accumulate}</strong></div>
+        <div class="stat"><span>Watch</span><strong style="color:var(--amber)">${s.watch}</strong></div>
+      </div>
+    </div>`;
+}
+
+function renderSectors() {
+  const root = document.getElementById("tab-sectors");
+  const stocksReady = state.marketData && state.marketData.stocks;
+  const sectors = stocksReady ? computeSectorStats(state.marketData.stocks) : [];
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">Sector breakdown</div>
+      <p class="panel-copy">The same Full Market scan data, grouped by sector instead of by stock — median P/E, average discount from 52-week high, and how many stocks in each sector are currently flashing Buy, Accumulate, or Watch. No new data source, no separate fetch — just a different lens on what the Pi already scans, so it updates exactly whenever Full Market does.</p>
+    </div>
+    ${!stocksReady ? `<p class="panel-copy" style="margin:0 4px">Loading Full Market data…</p>` : sectors.length === 0 ? `<p class="panel-copy" style="margin:0 4px">No sector data available yet.</p>` : sectors.map(sectorCardHtml).join("")}
+  `;
+  // Reuse whatever Full Market data is already loading elsewhere in the
+  // app rather than triggering a second, redundant fetch.
+  if (!stocksReady && !state.marketLoading) loadMarketData(false);
+}
+
 function renderDividends() {
   const root = document.getElementById("tab-dividends");
   const stocksReady = state.marketData && state.marketData.stocks;
@@ -1520,6 +1585,7 @@ function renderLearn() {
     ["Diversification", "Don't put everything in one stock or sector. The 'Any sector' scan exists for exactly this reason — spreading bets is the closest thing investing has to a free lunch."],
     ["About the data", "Quotes, fundamentals, ratings, news, and the IPO calendar come live from Finnhub's free tier. Each sector now covers roughly 24 companies (up from 12), so the scan paces itself to respect the free rate limit, which is why a full single-sector scan can take a couple of minutes."],
     ["Full Market & ETF tabs", "These two tabs read stocks.json and etfs.json — files produced by a small Python script meant to run continuously on a Raspberry Pi (or any always-on computer), scanning the whole active US stock market (Russell 3000) plus ~60 liquid ETFs on Finnhub's free tier, and pushing results into this app's GitHub repo. If these tabs show an error, that just means the Pi scanner hasn't been set up yet, or hasn't pushed its first update — the rest of the app works fine without it."],
+    ["Sectors tab", "Not a separate data source — it's the exact same Full Market scan results, just grouped by sector instead of listed stock-by-stock: how many stocks in each sector are currently passing the screen, the sector's median P/E, average discount from 52-week high, and the Buy/Accumulate/Watch breakdown. Useful for spotting which sectors are broadly cheap or broadly expensive right now, rather than judging one stock at a time. It updates automatically whenever Full Market does, since it's reading the same underlying data."],
     ["Options-selling fit (ETF cards)", "A starting filter for options-selling strategies, built honestly from what free data actually covers. Average daily volume is real, live data — a decent liquidity proxy. The weekly-options flag is hand-maintained (not live), so confirm it's still accurate in your broker. 52-week range width is a rough stand-in for how much a fund moves — it is explicitly NOT the same as options implied volatility, which changes constantly and isn't available from any free data source. Real bid-ask spreads and current IV only exist in your broker's live options chain — check those there, right before placing a trade."],
     ["Why some dividend yields show n/a", "A sustained real-world dividend yield above ~25% essentially never happens — it would mean a company pays out nearly its entire share price in dividends every year. Finnhub's free tier occasionally reports garbage yield values for thinly-covered small/micro-cap tickers (a data quality issue on their end, not a calculation bug here). Rather than display a false number like '94.70%,' anything above that ceiling gets treated as unreliable and shown as n/a instead."],
     ["Market Pulse tab", "A before-the-bell scan: live index snapshots (SPY/QQQ/DIA vs. previous close — the best free stand-in for overnight futures moves), today's full earnings calendar, and general market headlines. The economic calendar (Fed events, CPI, jobs data) needs a paid Finnhub plan — if it shows as unavailable, that's why, and a free public link is provided instead. Nothing here is ranked by predicted market impact; that requires real quantitative modeling no honest free source can back up, so read everything and use your own judgment on what matters most."],
@@ -1539,7 +1605,7 @@ function showSetup() {
 function showApp() {
   document.getElementById("setup").classList.add("hidden");
   document.getElementById("app").classList.remove("hidden");
-  renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse(); renderDividends(); renderCongress();
+  renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse(); renderDividends(); renderCongress(); renderSectors();
 }
 
 // Only Scout, IPO radar, Market Pulse, and Watchlist price refresh actually
@@ -1555,7 +1621,7 @@ function requireKey(action) {
 
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
-  ["scout", "market", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "learn"].forEach(id =>
+  ["scout", "market", "sectors", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
 }));
 
