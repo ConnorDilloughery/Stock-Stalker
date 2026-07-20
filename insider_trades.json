@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-20T10:04:10.036839+00:00",
+  "generatedAt": "2026-07-20T11:01:05.138919+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 36,
+  "count": 44,
   "trades": [
     {
       "ticker": "SE",
@@ -161,6 +161,66 @@
       "type": "Sale",
       "shares": 200.0,
       "pricePerShare": 38.39,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "YQ",
+      "issuerName": "17 Education & Technology Group Inc.",
+      "insiderName": "Liu Chang",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 7633.0,
+      "pricePerShare": 2.0813,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Hou Tianyu",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2840.0,
+      "pricePerShare": 101.48,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Hou Tianyu",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2177.0,
+      "pricePerShare": 102.54,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Hou Tianyu",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 5887.0,
+      "pricePerShare": 103.51,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Hou Tianyu",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3136.0,
+      "pricePerShare": 104.35,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Hou Tianyu",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 960.0,
+      "pricePerShare": 105.11,
       "transactionDate": "2026-07-17"
     },
     {
@@ -324,6 +384,16 @@
       "transactionDate": "2026-07-16"
     },
     {
+      "ticker": "NEXN",
+      "issuerName": "Nexxen International Ltd.",
+      "insiderName": "Niri Sagi",
+      "title": "Chief Financial Officer",
+      "type": "Sale",
+      "shares": 35000.0,
+      "pricePerShare": 10.3136,
+      "transactionDate": "2026-07-16"
+    },
+    {
       "ticker": "MPLT",
       "issuerName": "MapLight Therapeutics, Inc.",
       "insiderName": "GILLIS JONATHAN",
@@ -361,6 +431,16 @@
       "type": "Sale",
       "shares": 4510.0,
       "pricePerShare": 36.94,
+      "transactionDate": "2026-07-15"
+    },
+    {
+      "ticker": "MLTX",
+      "issuerName": "MoonLake Immunotherapeutics",
+      "insiderName": "Reich Kristian",
+      "title": "Chief Scientific Officer",
+      "type": "Sale",
+      "shares": 16105.0,
+      "pricePerShare": 20.01,
       "transactionDate": "2026-07-15"
     }
   ],
@@ -466,6 +546,56 @@
           "type": "Sale",
           "shares": 1700.0,
           "pricePerShare": 105.06,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Hou Tianyu",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2840.0,
+          "pricePerShare": 101.48,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Hou Tianyu",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2177.0,
+          "pricePerShare": 102.54,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Hou Tianyu",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5887.0,
+          "pricePerShare": 103.51,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Hou Tianyu",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3136.0,
+          "pricePerShare": 104.35,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Hou Tianyu",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 960.0,
+          "pricePerShare": 105.11,
           "transactionDate": "2026-07-17"
         },
         {
@@ -734,10 +864,56 @@
           "transactionDate": "2026-07-15"
         }
       ]
+    },
+    "YQ": {
+      "issuerName": "17 Education & Technology Group Inc.",
+      "trades": [
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 7633.0,
+          "pricePerShare": 2.0813,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "NEXN": {
+      "issuerName": "Nexxen International Ltd.",
+      "trades": [
+        {
+          "ticker": "NEXN",
+          "issuerName": "Nexxen International Ltd.",
+          "insiderName": "Niri Sagi",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 35000.0,
+          "pricePerShare": 10.3136,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "MLTX": {
+      "issuerName": "MoonLake Immunotherapeutics",
+      "trades": [
+        {
+          "ticker": "MLTX",
+          "issuerName": "MoonLake Immunotherapeutics",
+          "insiderName": "Reich Kristian",
+          "title": "Chief Scientific Officer",
+          "type": "Sale",
+          "shares": 16105.0,
+          "pricePerShare": 20.01,
+          "transactionDate": "2026-07-15"
+        }
+      ]
     }
   },
   "_meta": {
     "seenAccessions": [
+      "0000950103-26-010819",
       "0001104659-26-084764",
       "0001104659-26-084765",
       "0001104659-26-084766",
@@ -752,8 +928,11 @@
       "0001104659-26-084779",
       "0001104659-26-084780",
       "0001104659-26-084781",
+      "0001104659-26-084828",
+      "0001104659-26-084845",
       "0001140361-26-028844",
       "0001140361-26-028846",
+      "0001178913-26-003524",
       "0001193125-26-308109",
       "0001193125-26-308116",
       "0001193125-26-308129",
@@ -767,6 +946,10 @@
       "0001193125-26-308143",
       "0001193125-26-308264",
       "0001193125-26-308266",
+      "0001193125-26-308267",
+      "0001193125-26-308294",
+      "0001193125-26-308311",
+      "0001213900-26-079376",
       "0001233433-26-000004",
       "0001357615-26-000163",
       "0001437749-26-023807",
