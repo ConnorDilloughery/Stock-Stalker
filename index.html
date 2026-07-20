@@ -1822,6 +1822,26 @@ function changeChip(pct) {
   return `<span class="chip" style="background:${up ? "#E3F1EA" : "#F7E6E2"};color:${up ? "var(--kelp)" : "var(--coral)"}">${up ? "+" : ""}${pct.toFixed(1)}%</span>`;
 }
 
+function sectorSparklineSvg(quarterly, color) {
+  if (!quarterly || quarterly.length < 2) return "";
+  const W = 600, H = 90, pad = 4;
+  const vals = quarterly.map(q => q.close);
+  const n = vals.length;
+  const min = Math.min(...vals), max = Math.max(...vals);
+  const range = max - min || 1;
+  const xAt = i => pad + (i / (n - 1)) * (W - pad * 2);
+  const yAt = v => H - pad - ((v - min) / range) * (H - pad * 2);
+  const d = vals.map((v, i) => `${i === 0 ? "M" : "L"}${xAt(i).toFixed(1)},${yAt(v).toFixed(1)}`).join(" ");
+  const firstQ = quarterly[0].quarter, lastQ = quarterly[n - 1].quarter;
+  return `
+    <svg viewBox="0 0 ${W} ${H}" style="width:100%;height:56px;display:block" preserveAspectRatio="none">
+      <path d="${d}" fill="none" stroke="${color}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+    </svg>
+    <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--dim);margin-top:2px">
+      <span>${escapeHtml(firstQ)}</span><span>${escapeHtml(lastQ)}</span>
+    </div>`;
+}
+
 function sectorCardHtml(s, history) {
   const changes = history ? history.changes : null;
   return `
@@ -1839,6 +1859,10 @@ function sectorCardHtml(s, history) {
       ${changes ? `
         <div class="field-label" style="margin-top:12px">Sector ETF performance</div>
         <div class="chips">${SECTOR_CHANGE_WINDOWS.map(w => `<span class="stat" style="min-width:0;flex:none;padding:4px 0"><span style="display:block;font-size:11px;color:var(--dim);text-align:center;margin-bottom:2px">${w.label}</span>${changeChip(changes[w.key])}</span>`).join("")}</div>
+      ` : ""}
+      ${history && history.quarterly && history.quarterly.length >= 2 ? `
+        <div class="field-label" style="margin-top:12px">${escapeHtml(history.ticker)} price trend</div>
+        ${sectorSparklineSvg(history.quarterly, SECTOR_CHART_COLORS[s.sector] || "#4A5A66")}
       ` : ""}
       <div class="stats" style="margin-top:12px">
         <div class="stat"><span>Avg discount</span><strong>${s.avgDiscount !== null ? (s.avgDiscount * 100).toFixed(0) + "%" : "n/a"}</strong></div>
