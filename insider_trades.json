@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-20T21:04:08.536322+00:00",
+  "generatedAt": "2026-07-20T22:03:57.315623+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 97,
+  "count": 105,
   "trades": [
     {
       "ticker": "GRML",
@@ -31,6 +31,16 @@
       "type": "Purchase",
       "shares": 32.264,
       "pricePerShare": 30.9945,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "CLOV",
+      "issuerName": "CLOVER HEALTH INVESTMENTS, CORP. /DE",
+      "insiderName": "Soares Karen",
+      "title": "Chief Legal Officer",
+      "type": "Sale",
+      "shares": 51700.0,
+      "pricePerShare": 4.51,
       "transactionDate": "2026-07-20"
     },
     {
@@ -411,6 +421,26 @@
       "type": "Sale",
       "shares": 2248.0,
       "pricePerShare": 27.32,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "AKTS",
+      "issuerName": "Aktis Oncology, Inc.",
+      "insiderName": "Herrmann Ken",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3065.0,
+      "pricePerShare": 25.2067,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "PD",
+      "issuerName": "PagerDuty, Inc.",
+      "insiderName": "Tejada Jennifer",
+      "title": "Director, Executive Chair",
+      "type": "Sale",
+      "shares": 96847.0,
+      "pricePerShare": 10.413,
       "transactionDate": "2026-07-17"
     },
     {
@@ -854,6 +884,56 @@
       "transactionDate": "2026-07-16"
     },
     {
+      "ticker": "SFIX",
+      "issuerName": "Stitch Fix, Inc.",
+      "insiderName": "O'Connor Casey",
+      "title": "Chief Legal Officer",
+      "type": "Sale",
+      "shares": 50000.0,
+      "pricePerShare": 3.9312,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "PD",
+      "issuerName": "PagerDuty, Inc.",
+      "insiderName": "Tejada Jennifer",
+      "title": "Director, Executive Chair",
+      "type": "Sale",
+      "shares": 302100.0,
+      "pricePerShare": 10.7,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "CBIO",
+      "issuerName": "CRESCENT BIOPHARMA, INC.",
+      "insiderName": "Fairmount Funds Management LLC",
+      "title": "Director, 10% Owner",
+      "type": "Purchase",
+      "shares": 853450.0,
+      "pricePerShare": 14.5,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "MOBX",
+      "issuerName": "MOBIX LABS, INC",
+      "insiderName": "SANSONE PHILIP",
+      "title": "Director, Chief Executive Officer",
+      "type": "Sale",
+      "shares": 9301.0,
+      "pricePerShare": 1.8669,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "OOMA",
+      "issuerName": "OOMA INC",
+      "insiderName": "Yeh Jenny C",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1762.0,
+      "pricePerShare": 21.0,
+      "transactionDate": "2026-07-16"
+    },
+    {
       "ticker": "MPLT",
       "issuerName": "MapLight Therapeutics, Inc.",
       "insiderName": "GILLIS JONATHAN",
@@ -1016,6 +1096,21 @@
           "type": "Purchase",
           "shares": 32.264,
           "pricePerShare": 30.9945,
+          "transactionDate": "2026-07-20"
+        }
+      ]
+    },
+    "CLOV": {
+      "issuerName": "CLOVER HEALTH INVESTMENTS, CORP. /DE",
+      "trades": [
+        {
+          "ticker": "CLOV",
+          "issuerName": "CLOVER HEALTH INVESTMENTS, CORP. /DE",
+          "insiderName": "Soares Karen",
+          "title": "Chief Legal Officer",
+          "type": "Sale",
+          "shares": 51700.0,
+          "pricePerShare": 4.51,
           "transactionDate": "2026-07-20"
         }
       ]
@@ -1725,6 +1820,46 @@
         }
       ]
     },
+    "AKTS": {
+      "issuerName": "Aktis Oncology, Inc.",
+      "trades": [
+        {
+          "ticker": "AKTS",
+          "issuerName": "Aktis Oncology, Inc.",
+          "insiderName": "Herrmann Ken",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3065.0,
+          "pricePerShare": 25.2067,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "PD": {
+      "issuerName": "PagerDuty, Inc.",
+      "trades": [
+        {
+          "ticker": "PD",
+          "issuerName": "PagerDuty, Inc.",
+          "insiderName": "Tejada Jennifer",
+          "title": "Director, Executive Chair",
+          "type": "Sale",
+          "shares": 96847.0,
+          "pricePerShare": 10.413,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "PD",
+          "issuerName": "PagerDuty, Inc.",
+          "insiderName": "Tejada Jennifer",
+          "title": "Director, Executive Chair",
+          "type": "Sale",
+          "shares": 302100.0,
+          "pricePerShare": 10.7,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
     "NEXN": {
       "issuerName": "Nexxen International Ltd.",
       "trades": [
@@ -2020,6 +2155,66 @@
         }
       ]
     },
+    "SFIX": {
+      "issuerName": "Stitch Fix, Inc.",
+      "trades": [
+        {
+          "ticker": "SFIX",
+          "issuerName": "Stitch Fix, Inc.",
+          "insiderName": "O'Connor Casey",
+          "title": "Chief Legal Officer",
+          "type": "Sale",
+          "shares": 50000.0,
+          "pricePerShare": 3.9312,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "CBIO": {
+      "issuerName": "CRESCENT BIOPHARMA, INC.",
+      "trades": [
+        {
+          "ticker": "CBIO",
+          "issuerName": "CRESCENT BIOPHARMA, INC.",
+          "insiderName": "Fairmount Funds Management LLC",
+          "title": "Director, 10% Owner",
+          "type": "Purchase",
+          "shares": 853450.0,
+          "pricePerShare": 14.5,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "MOBX": {
+      "issuerName": "MOBIX LABS, INC",
+      "trades": [
+        {
+          "ticker": "MOBX",
+          "issuerName": "MOBIX LABS, INC",
+          "insiderName": "SANSONE PHILIP",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 9301.0,
+          "pricePerShare": 1.8669,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "OOMA": {
+      "issuerName": "OOMA INC",
+      "trades": [
+        {
+          "ticker": "OOMA",
+          "issuerName": "OOMA INC",
+          "insiderName": "Yeh Jenny C",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1762.0,
+          "pricePerShare": 21.0,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
     "MLTX": {
       "issuerName": "MoonLake Immunotherapeutics",
       "trades": [
@@ -2158,6 +2353,7 @@
       "0001071739-26-000146",
       "0001079973-26-000959",
       "0001081400-26-000304",
+      "0001091482-26-000010",
       "0001104659-26-084764",
       "0001104659-26-084765",
       "0001104659-26-084766",
@@ -2189,6 +2385,7 @@
       "0001104659-26-085093",
       "0001104659-26-085101",
       "0001104659-26-085104",
+      "0001104659-26-085113",
       "0001114446-26-004848",
       "0001114446-26-004849",
       "0001114446-26-004850",
@@ -2212,6 +2409,7 @@
       "0001140361-26-028934",
       "0001140361-26-028955",
       "0001140361-26-028977",
+      "0001140361-26-028987",
       "0001178913-26-003524",
       "0001178913-26-003542",
       "0001186836-26-000008",
@@ -2296,6 +2494,12 @@
       "0001193125-26-309018",
       "0001193125-26-309034",
       "0001193125-26-309037",
+      "0001193125-26-309093",
+      "0001193125-26-309096",
+      "0001193125-26-309099",
+      "0001193125-26-309104",
+      "0001193125-26-309106",
+      "0001193125-26-309115",
       "0001204034-26-000021",
       "0001213900-26-079376",
       "0001213900-26-079412",
@@ -2321,6 +2525,7 @@
       "0001213900-26-079578",
       "0001213900-26-079656",
       "0001213900-26-079663",
+      "0001213900-26-079707",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -2334,6 +2539,7 @@
       "0001294280-26-000005",
       "0001349121-26-000001",
       "0001357615-26-000163",
+      "0001398344-26-012331",
       "0001437749-26-023807",
       "0001437749-26-023808",
       "0001437749-26-023809",
@@ -2363,12 +2569,19 @@
       "0001445546-26-005267",
       "0001445546-26-005268",
       "0001445546-26-005269",
+      "0001477932-26-004399",
+      "0001477932-26-004400",
+      "0001477932-26-004401",
+      "0001477932-26-004402",
+      "0001477932-26-004404",
       "0001493152-26-033875",
+      "0001493152-26-033945",
       "0001499832-26-000035",
       "0001499832-26-000036",
       "0001510281-26-000239",
       "0001510281-26-000240",
       "0001510281-26-000241",
+      "0001513957-26-000002",
       "0001517413-26-000203",
       "0001528621-26-000727",
       "0001538429-26-000008",
@@ -2391,6 +2604,7 @@
       "0001580642-26-004497",
       "0001580642-26-004502",
       "0001590264-26-000010",
+      "0001593040-26-000002",
       "0001623632-26-001024",
       "0001628280-26-048733",
       "0001628280-26-048734",
@@ -2404,6 +2618,17 @@
       "0001628280-26-048795",
       "0001628280-26-048803",
       "0001628280-26-048832",
+      "0001628280-26-048848",
+      "0001628280-26-048850",
+      "0001628280-26-048852",
+      "0001628280-26-048853",
+      "0001628280-26-048854",
+      "0001628280-26-048855",
+      "0001628280-26-048856",
+      "0001628280-26-048858",
+      "0001628280-26-048866",
+      "0001628280-26-048868",
+      "0001628280-26-048869",
       "0001646649-26-000020",
       "0001651981-26-000061",
       "0001651981-26-000062",
@@ -2411,6 +2636,9 @@
       "0001691675-26-000002",
       "0001709954-26-000010",
       "0001728746-26-000012",
+      "0001736979-26-000013",
+      "0001742938-26-000007",
+      "0001748614-26-000007",
       "0001753926-26-001207",
       "0001753926-26-001209",
       "0001771146-26-001463",
@@ -2418,9 +2646,11 @@
       "0001786240-26-000007",
       "0001789970-26-000012",
       "0001794684-26-000014",
+      "0001811389-26-000002",
       "0001818383-26-000190",
       "0001818383-26-000191",
       "0001829126-26-007664",
+      "0001831651-26-000102",
       "0001839882-26-035407",
       "0001839882-26-035409",
       "0001839882-26-035411",
@@ -2516,6 +2746,8 @@
       "0001839882-26-035571",
       "0001839882-26-035572",
       "0001839882-26-035573",
+      "0001839882-26-035577",
+      "0001839882-26-035579",
       "0001846069-26-000150",
       "0001862314-26-000012",
       "0001876526-26-000001",
@@ -2618,15 +2850,28 @@
       "0001918704-26-020617",
       "0001918704-26-020618",
       "0001918704-26-020619",
+      "0001918704-26-020622",
+      "0001918704-26-020623",
+      "0001918704-26-020624",
+      "0001918704-26-020625",
       "0001929185-26-000012",
       "0001960181-26-000002",
+      "0001973103-26-000007",
+      "0001999086-26-000021",
       "0001999371-26-015366",
       "0001999371-26-015380",
       "0001999371-26-015400",
+      "0002004222-26-000006",
+      "0002020287-26-000002",
       "0002021233-26-000012",
       "0002021238-26-000010",
       "0002032661-26-000002",
+      "0002051008-26-000002",
+      "0002056381-26-000004",
+      "0002077291-26-000002",
       "0002089872-26-000002",
+      "0002096532-26-000002",
+      "0002099292-26-000002",
       "0002109337-26-000010",
       "0002111348-26-000011",
       "0002120714-26-000004",
