@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-20T22:03:57.315623+00:00",
+  "generatedAt": "2026-07-20T23:01:19.712228+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 105,
+  "count": 121,
   "trades": [
     {
       "ticker": "GRML",
@@ -41,6 +41,56 @@
       "type": "Sale",
       "shares": 51700.0,
       "pricePerShare": 4.51,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "MARA",
+      "issuerName": "MARA Holdings, Inc.",
+      "insiderName": "Nowaid Zabi",
+      "title": "General Counsel",
+      "type": "Sale",
+      "shares": 8376.0,
+      "pricePerShare": 12.0,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "PSMT",
+      "issuerName": "PRICESMART INC",
+      "insiderName": "PRICE ROBERT E",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 200.0,
+      "pricePerShare": 182.8675,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "PSMT",
+      "issuerName": "PRICESMART INC",
+      "insiderName": "PRICE ROBERT E",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 4655.0,
+      "pricePerShare": 181.7474,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "ZSTK",
+      "issuerName": "ZeroStack Corp.",
+      "insiderName": "Heinrich Michael",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 4608575.0,
+      "pricePerShare": 0.7549,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "ANIX",
+      "issuerName": "Anixa Biosciences Inc",
+      "insiderName": "Titterton Lewis H jr",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 12000.0,
+      "pricePerShare": 3.47,
       "transactionDate": "2026-07-20"
     },
     {
@@ -441,6 +491,56 @@
       "type": "Sale",
       "shares": 96847.0,
       "pricePerShare": 10.413,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "MARA",
+      "issuerName": "MARA Holdings, Inc.",
+      "insiderName": "Thiel Frederick G",
+      "title": "Director, Chief Executive Officer",
+      "type": "Sale",
+      "shares": 27505.0,
+      "pricePerShare": 10.9,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "MARA",
+      "issuerName": "MARA Holdings, Inc.",
+      "insiderName": "Khan Salman Hassan",
+      "title": "Chief Financial Officer",
+      "type": "Sale",
+      "shares": 16000.0,
+      "pricePerShare": 10.9,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "PSMT",
+      "issuerName": "PRICESMART INC",
+      "insiderName": "PRICE ROBERT E",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 4300.0,
+      "pricePerShare": 188.8097,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "PSMT",
+      "issuerName": "PRICESMART INC",
+      "insiderName": "PRICE ROBERT E",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3700.0,
+      "pricePerShare": 186.9586,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "ARTV",
+      "issuerName": "Artiva Biotherapeutics, Inc.",
+      "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 7882.0,
+      "pricePerShare": 8.95,
       "transactionDate": "2026-07-17"
     },
     {
@@ -934,6 +1034,66 @@
       "transactionDate": "2026-07-16"
     },
     {
+      "ticker": "SNAP",
+      "issuerName": "Snap Inc",
+      "insiderName": "Mohan Ajit",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 24263.0,
+      "pricePerShare": 4.7173,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "KMI",
+      "issuerName": "KINDER MORGAN, INC.",
+      "insiderName": "Garthwaite Michael P.",
+      "title": "VP (Pres., Products Pipelines)",
+      "type": "Sale",
+      "shares": 1550.0,
+      "pricePerShare": 32.516,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "PSMT",
+      "issuerName": "PRICESMART INC",
+      "insiderName": "PRICE ROBERT E",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1100.0,
+      "pricePerShare": 191.151,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "PSMT",
+      "issuerName": "PRICESMART INC",
+      "insiderName": "PRICE ROBERT E",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 7299.0,
+      "pricePerShare": 189.5476,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "BETA",
+      "issuerName": "BETA Technologies, Inc.",
+      "insiderName": "Clark Kyle",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 5000.0,
+      "pricePerShare": 17.5183,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "ARTV",
+      "issuerName": "Artiva Biotherapeutics, Inc.",
+      "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 152472.0,
+      "pricePerShare": 8.93,
+      "transactionDate": "2026-07-16"
+    },
+    {
       "ticker": "MPLT",
       "issuerName": "MapLight Therapeutics, Inc.",
       "insiderName": "GILLIS JONATHAN",
@@ -1111,6 +1271,136 @@
           "type": "Sale",
           "shares": 51700.0,
           "pricePerShare": 4.51,
+          "transactionDate": "2026-07-20"
+        }
+      ]
+    },
+    "MARA": {
+      "issuerName": "MARA Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "MARA",
+          "issuerName": "MARA Holdings, Inc.",
+          "insiderName": "Nowaid Zabi",
+          "title": "General Counsel",
+          "type": "Sale",
+          "shares": 8376.0,
+          "pricePerShare": 12.0,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "MARA",
+          "issuerName": "MARA Holdings, Inc.",
+          "insiderName": "Thiel Frederick G",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 27505.0,
+          "pricePerShare": 10.9,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "MARA",
+          "issuerName": "MARA Holdings, Inc.",
+          "insiderName": "Khan Salman Hassan",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 16000.0,
+          "pricePerShare": 10.9,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "PSMT": {
+      "issuerName": "PRICESMART INC",
+      "trades": [
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 182.8675,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4655.0,
+          "pricePerShare": 181.7474,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4300.0,
+          "pricePerShare": 188.8097,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3700.0,
+          "pricePerShare": 186.9586,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 191.151,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7299.0,
+          "pricePerShare": 189.5476,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "ZSTK": {
+      "issuerName": "ZeroStack Corp.",
+      "trades": [
+        {
+          "ticker": "ZSTK",
+          "issuerName": "ZeroStack Corp.",
+          "insiderName": "Heinrich Michael",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 4608575.0,
+          "pricePerShare": 0.7549,
+          "transactionDate": "2026-07-20"
+        }
+      ]
+    },
+    "ANIX": {
+      "issuerName": "Anixa Biosciences Inc",
+      "trades": [
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "Titterton Lewis H jr",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 12000.0,
+          "pricePerShare": 3.47,
           "transactionDate": "2026-07-20"
         }
       ]
@@ -1860,6 +2150,31 @@
         }
       ]
     },
+    "ARTV": {
+      "issuerName": "Artiva Biotherapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "ARTV",
+          "issuerName": "Artiva Biotherapeutics, Inc.",
+          "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 7882.0,
+          "pricePerShare": 8.95,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "ARTV",
+          "issuerName": "Artiva Biotherapeutics, Inc.",
+          "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 152472.0,
+          "pricePerShare": 8.93,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
     "NEXN": {
       "issuerName": "Nexxen International Ltd.",
       "trades": [
@@ -2215,6 +2530,51 @@
         }
       ]
     },
+    "SNAP": {
+      "issuerName": "Snap Inc",
+      "trades": [
+        {
+          "ticker": "SNAP",
+          "issuerName": "Snap Inc",
+          "insiderName": "Mohan Ajit",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 24263.0,
+          "pricePerShare": 4.7173,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "KMI": {
+      "issuerName": "KINDER MORGAN, INC.",
+      "trades": [
+        {
+          "ticker": "KMI",
+          "issuerName": "KINDER MORGAN, INC.",
+          "insiderName": "Garthwaite Michael P.",
+          "title": "VP (Pres., Products Pipelines)",
+          "type": "Sale",
+          "shares": 1550.0,
+          "pricePerShare": 32.516,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "BETA": {
+      "issuerName": "BETA Technologies, Inc.",
+      "trades": [
+        {
+          "ticker": "BETA",
+          "issuerName": "BETA Technologies, Inc.",
+          "insiderName": "Clark Kyle",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 17.5183,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
     "MLTX": {
       "issuerName": "MoonLake Immunotherapeutics",
       "trades": [
@@ -2325,6 +2685,9 @@
       "0000894189-26-021227",
       "0000897069-26-001523",
       "0000897069-26-001525",
+      "0000912282-26-000993",
+      "0000912282-26-000995",
+      "0000912282-26-000998",
       "0000923120-26-000014",
       "0000950103-26-010819",
       "0000950103-26-010823",
@@ -2386,6 +2749,7 @@
       "0001104659-26-085101",
       "0001104659-26-085104",
       "0001104659-26-085113",
+      "0001104659-26-085130",
       "0001114446-26-004848",
       "0001114446-26-004849",
       "0001114446-26-004850",
@@ -2500,6 +2864,8 @@
       "0001193125-26-309104",
       "0001193125-26-309106",
       "0001193125-26-309115",
+      "0001193125-26-309189",
+      "0001193125-26-309191",
       "0001204034-26-000021",
       "0001213900-26-079376",
       "0001213900-26-079412",
@@ -2533,8 +2899,10 @@
       "0001214659-26-008720",
       "0001214659-26-008722",
       "0001225208-26-006693",
+      "0001231919-26-000774",
       "0001233433-26-000004",
       "0001238705-26-000007",
+      "0001266240-26-000004",
       "0001292208-26-000010",
       "0001294280-26-000005",
       "0001349121-26-000001",
@@ -2569,6 +2937,8 @@
       "0001445546-26-005267",
       "0001445546-26-005268",
       "0001445546-26-005269",
+      "0001458423-26-000006",
+      "0001464521-26-000105",
       "0001477932-26-004399",
       "0001477932-26-004400",
       "0001477932-26-004401",
@@ -2576,8 +2946,14 @@
       "0001477932-26-004404",
       "0001493152-26-033875",
       "0001493152-26-033945",
+      "0001493152-26-033949",
+      "0001493152-26-033953",
+      "0001493152-26-033954",
+      "0001493152-26-033955",
       "0001499832-26-000035",
       "0001499832-26-000036",
+      "0001506307-26-000059",
+      "0001506307-26-000061",
       "0001510281-26-000239",
       "0001510281-26-000240",
       "0001510281-26-000241",
@@ -2629,6 +3005,16 @@
       "0001628280-26-048866",
       "0001628280-26-048868",
       "0001628280-26-048869",
+      "0001628280-26-048884",
+      "0001628280-26-048885",
+      "0001628280-26-048886",
+      "0001628280-26-048887",
+      "0001628280-26-048888",
+      "0001628280-26-048889",
+      "0001628280-26-048890",
+      "0001628280-26-048891",
+      "0001628280-26-048892",
+      "0001628280-26-048893",
       "0001646649-26-000020",
       "0001651981-26-000061",
       "0001651981-26-000062",
@@ -2649,6 +3035,7 @@
       "0001811389-26-000002",
       "0001818383-26-000190",
       "0001818383-26-000191",
+      "0001826030-26-000002",
       "0001829126-26-007664",
       "0001831651-26-000102",
       "0001839882-26-035407",
@@ -2750,9 +3137,11 @@
       "0001839882-26-035579",
       "0001846069-26-000150",
       "0001862314-26-000012",
+      "0001870488-26-000002",
       "0001876526-26-000001",
       "0001891792-26-000002",
       "0001899338-26-000002",
+      "0001903115-26-000003",
       "0001918704-26-020489",
       "0001918704-26-020490",
       "0001918704-26-020491",
@@ -2868,8 +3257,12 @@
       "0002032661-26-000002",
       "0002051008-26-000002",
       "0002056381-26-000004",
+      "0002062182-26-000006",
+      "0002074666-26-000006",
       "0002077291-26-000002",
       "0002089872-26-000002",
+      "0002090083-26-000016",
+      "0002094759-26-000002",
       "0002096532-26-000002",
       "0002099292-26-000002",
       "0002109337-26-000010",
