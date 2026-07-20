@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-07-20T18:03:25.098751+00:00",
+  "generatedAt": "2026-07-20T19:00:55.689385+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 60,
+  "count": 66,
   "trades": [
+    {
+      "ticker": "GRML",
+      "issuerName": "Greenland Mines Ltd",
+      "insiderName": "McGarity Jon",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 140000.0,
+      "pricePerShare": 0.1773,
+      "transactionDate": "2026-07-20"
+    },
     {
       "ticker": "SE",
       "issuerName": "Sea Ltd",
@@ -294,6 +304,16 @@
       "transactionDate": "2026-07-17"
     },
     {
+      "ticker": "LYEL",
+      "issuerName": "Lyell Immunopharma, Inc.",
+      "insiderName": "Innovative Cellular Therapeutics Holdings Ltd",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 10.0,
+      "pricePerShare": 13.7,
+      "transactionDate": "2026-07-17"
+    },
+    {
       "ticker": "SE",
       "issuerName": "Sea Ltd",
       "insiderName": "Wang Yanjun",
@@ -494,6 +514,46 @@
       "transactionDate": "2026-07-16"
     },
     {
+      "ticker": "HQL",
+      "issuerName": "abrdn Life Sciences Investors",
+      "insiderName": "Mahai Chris LaVictoire",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 527.0,
+      "pricePerShare": 19.92,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "HQH",
+      "issuerName": "abrdn Healthcare Investors",
+      "insiderName": "Mahai Chris LaVictoire",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 501.0,
+      "pricePerShare": 20.96,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "THW",
+      "issuerName": "abrdn World Healthcare Fund",
+      "insiderName": "Mahai Chris LaVictoire",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 796.0,
+      "pricePerShare": 13.2,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "THQ",
+      "issuerName": "abrdn Healthcare Opportunities Fund",
+      "insiderName": "Mahai Chris LaVictoire",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 568.0,
+      "pricePerShare": 18.49,
+      "transactionDate": "2026-07-16"
+    },
+    {
       "ticker": "MPLT",
       "issuerName": "MapLight Therapeutics, Inc.",
       "insiderName": "GILLIS JONATHAN",
@@ -605,6 +665,21 @@
     }
   ],
   "byTicker": {
+    "GRML": {
+      "issuerName": "Greenland Mines Ltd",
+      "trades": [
+        {
+          "ticker": "GRML",
+          "issuerName": "Greenland Mines Ltd",
+          "insiderName": "McGarity Jon",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 140000.0,
+          "pricePerShare": 0.1773,
+          "transactionDate": "2026-07-20"
+        }
+      ]
+    },
     "SE": {
       "issuerName": "Sea Ltd",
       "trades": [
@@ -1165,6 +1240,21 @@
         }
       ]
     },
+    "LYEL": {
+      "issuerName": "Lyell Immunopharma, Inc.",
+      "trades": [
+        {
+          "ticker": "LYEL",
+          "issuerName": "Lyell Immunopharma, Inc.",
+          "insiderName": "Innovative Cellular Therapeutics Holdings Ltd",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10.0,
+          "pricePerShare": 13.7,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
     "NEXN": {
       "issuerName": "Nexxen International Ltd.",
       "trades": [
@@ -1191,6 +1281,66 @@
           "type": "Purchase",
           "shares": 26343.0,
           "pricePerShare": 18.7893,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "HQL": {
+      "issuerName": "abrdn Life Sciences Investors",
+      "trades": [
+        {
+          "ticker": "HQL",
+          "issuerName": "abrdn Life Sciences Investors",
+          "insiderName": "Mahai Chris LaVictoire",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 527.0,
+          "pricePerShare": 19.92,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "HQH": {
+      "issuerName": "abrdn Healthcare Investors",
+      "trades": [
+        {
+          "ticker": "HQH",
+          "issuerName": "abrdn Healthcare Investors",
+          "insiderName": "Mahai Chris LaVictoire",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 501.0,
+          "pricePerShare": 20.96,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "THW": {
+      "issuerName": "abrdn World Healthcare Fund",
+      "trades": [
+        {
+          "ticker": "THW",
+          "issuerName": "abrdn World Healthcare Fund",
+          "insiderName": "Mahai Chris LaVictoire",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 796.0,
+          "pricePerShare": 13.2,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "THQ": {
+      "issuerName": "abrdn Healthcare Opportunities Fund",
+      "trades": [
+        {
+          "ticker": "THQ",
+          "issuerName": "abrdn Healthcare Opportunities Fund",
+          "insiderName": "Mahai Chris LaVictoire",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 568.0,
+          "pricePerShare": 18.49,
           "transactionDate": "2026-07-16"
         }
       ]
@@ -1292,6 +1442,7 @@
       "0000070502-26-000499",
       "0000763744-26-000065",
       "0000837276-26-000080",
+      "0000894189-26-021227",
       "0000897069-26-001523",
       "0000950103-26-010819",
       "0000950103-26-010823",
@@ -1300,6 +1451,11 @@
       "0000950103-26-010827",
       "0000950103-26-010828",
       "0000950103-26-010829",
+      "0000950103-26-010830",
+      "0000950103-26-010831",
+      "0000950103-26-010832",
+      "0000950103-26-010833",
+      "0000950103-26-010834",
       "0001024547-26-000012",
       "0001049521-26-000034",
       "0001081400-26-000304",
@@ -1325,6 +1481,11 @@
       "0001104659-26-084915",
       "0001104659-26-085008",
       "0001104659-26-085011",
+      "0001104659-26-085023",
+      "0001104659-26-085025",
+      "0001104659-26-085026",
+      "0001104659-26-085027",
+      "0001104659-26-085032",
       "0001140361-26-028844",
       "0001140361-26-028846",
       "0001140361-26-028877",
@@ -1336,6 +1497,7 @@
       "0001140361-26-028918",
       "0001140361-26-028930",
       "0001140361-26-028934",
+      "0001140361-26-028955",
       "0001178913-26-003524",
       "0001193125-26-308109",
       "0001193125-26-308116",
@@ -1400,6 +1562,12 @@
       "0001193125-26-308695",
       "0001193125-26-308721",
       "0001193125-26-308737",
+      "0001193125-26-308768",
+      "0001193125-26-308771",
+      "0001193125-26-308777",
+      "0001193125-26-308793",
+      "0001193125-26-308803",
+      "0001204034-26-000021",
       "0001213900-26-079376",
       "0001213900-26-079412",
       "0001213900-26-079435",
@@ -1415,9 +1583,13 @@
       "0001213900-26-079503",
       "0001213900-26-079509",
       "0001213900-26-079525",
+      "0001213900-26-079548",
+      "0001213900-26-079555",
+      "0001213900-26-079558",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001233433-26-000004",
+      "0001292208-26-000010",
       "0001294280-26-000005",
       "0001349121-26-000001",
       "0001357615-26-000163",
@@ -1465,7 +1637,9 @@
       "0001562577-26-000264",
       "0001562577-26-000266",
       "0001562577-26-000268",
+      "0001580502-26-000010",
       "0001580642-26-004479",
+      "0001580642-26-004491",
       "0001623632-26-001024",
       "0001628280-26-048733",
       "0001628280-26-048734",
@@ -1489,6 +1663,7 @@
       "0001753926-26-001209",
       "0001786240-26-000007",
       "0001789970-26-000012",
+      "0001794684-26-000014",
       "0001818383-26-000190",
       "0001818383-26-000191",
       "0001839882-26-035407",
@@ -1544,6 +1719,25 @@
       "0001839882-26-035492",
       "0001839882-26-035493",
       "0001839882-26-035494",
+      "0001839882-26-035503",
+      "0001839882-26-035504",
+      "0001839882-26-035506",
+      "0001839882-26-035508",
+      "0001839882-26-035509",
+      "0001839882-26-035510",
+      "0001839882-26-035511",
+      "0001839882-26-035512",
+      "0001839882-26-035513",
+      "0001839882-26-035514",
+      "0001839882-26-035515",
+      "0001839882-26-035516",
+      "0001839882-26-035517",
+      "0001839882-26-035518",
+      "0001839882-26-035519",
+      "0001839882-26-035520",
+      "0001839882-26-035521",
+      "0001839882-26-035522",
+      "0001862314-26-000012",
       "0001876526-26-000001",
       "0001899338-26-000002",
       "0001918704-26-020489",
@@ -1621,15 +1815,28 @@
       "0001918704-26-020582",
       "0001918704-26-020583",
       "0001918704-26-020584",
+      "0001918704-26-020594",
+      "0001918704-26-020595",
+      "0001918704-26-020596",
+      "0001918704-26-020597",
+      "0001918704-26-020598",
+      "0001918704-26-020599",
+      "0001918704-26-020600",
+      "0001918704-26-020601",
+      "0001918704-26-020602",
+      "0001918704-26-020603",
+      "0001929185-26-000012",
       "0001960181-26-000002",
       "0001999371-26-015366",
       "0001999371-26-015380",
+      "0001999371-26-015400",
       "0002021233-26-000012",
       "0002021238-26-000010",
       "0002089872-26-000002",
       "0002109337-26-000010",
       "0002111348-26-000011",
       "0002120714-26-000004",
+      "0002127674-26-000002",
       "0002134641-26-000006"
     ]
   }
