@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-20T14:01:05.880919+00:00",
+  "generatedAt": "2026-07-20T15:03:41.460551+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 52,
+  "count": 58,
   "trades": [
     {
       "ticker": "SE",
@@ -244,6 +244,36 @@
       "transactionDate": "2026-07-17"
     },
     {
+      "ticker": "MXF",
+      "issuerName": "MEXICO FUND INC",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 570.0,
+      "pricePerShare": 21.44,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "GF",
+      "issuerName": "NEW GERMANY FUND INC",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 500.0,
+      "pricePerShare": 11.23,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "ECAT",
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 83087.0,
+      "pricePerShare": 15.35,
+      "transactionDate": "2026-07-17"
+    },
+    {
       "ticker": "SE",
       "issuerName": "Sea Ltd",
       "insiderName": "Wang Yanjun",
@@ -424,6 +454,26 @@
       "transactionDate": "2026-07-16"
     },
     {
+      "ticker": "MXF",
+      "issuerName": "MEXICO FUND INC",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1682.0,
+      "pricePerShare": 21.64,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "ECAT",
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 32854.0,
+      "pricePerShare": 15.62,
+      "transactionDate": "2026-07-16"
+    },
+    {
       "ticker": "MPLT",
       "issuerName": "MapLight Therapeutics, Inc.",
       "insiderName": "GILLIS JONATHAN",
@@ -481,6 +531,16 @@
       "type": "Sale",
       "shares": 2562.0,
       "pricePerShare": 6.3001,
+      "transactionDate": "2026-07-15"
+    },
+    {
+      "ticker": "DOCS",
+      "issuerName": "Doximity, Inc.",
+      "insiderName": "Sitaram Siddharth",
+      "title": "Chief Accounting Officer",
+      "type": "Sale",
+      "shares": 1732.0,
+      "pricePerShare": 22.02,
       "transactionDate": "2026-07-15"
     },
     {
@@ -990,6 +1050,71 @@
         }
       ]
     },
+    "MXF": {
+      "issuerName": "MEXICO FUND INC",
+      "trades": [
+        {
+          "ticker": "MXF",
+          "issuerName": "MEXICO FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 570.0,
+          "pricePerShare": 21.44,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "MXF",
+          "issuerName": "MEXICO FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1682.0,
+          "pricePerShare": 21.64,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "GF": {
+      "issuerName": "NEW GERMANY FUND INC",
+      "trades": [
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 500.0,
+          "pricePerShare": 11.23,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "ECAT": {
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "trades": [
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 83087.0,
+          "pricePerShare": 15.35,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 32854.0,
+          "pricePerShare": 15.62,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
     "NEXN": {
       "issuerName": "Nexxen International Ltd.",
       "trades": [
@@ -1050,6 +1175,21 @@
         }
       ]
     },
+    "DOCS": {
+      "issuerName": "Doximity, Inc.",
+      "trades": [
+        {
+          "ticker": "DOCS",
+          "issuerName": "Doximity, Inc.",
+          "insiderName": "Sitaram Siddharth",
+          "title": "Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 1732.0,
+          "pricePerShare": 22.02,
+          "transactionDate": "2026-07-15"
+        }
+      ]
+    },
     "COE": {
       "issuerName": "51Talk Online Education Group",
       "trades": [
@@ -1098,11 +1238,13 @@
   },
   "_meta": {
     "seenAccessions": [
+      "0000070502-26-000497",
       "0000763744-26-000065",
       "0000837276-26-000080",
       "0000897069-26-001523",
       "0000950103-26-010819",
       "0001049521-26-000034",
+      "0001081400-26-000304",
       "0001104659-26-084764",
       "0001104659-26-084765",
       "0001104659-26-084766",
@@ -1167,6 +1309,8 @@
       "0001193125-26-308499",
       "0001193125-26-308500",
       "0001193125-26-308501",
+      "0001193125-26-308548",
+      "0001193125-26-308568",
       "0001213900-26-079376",
       "0001213900-26-079412",
       "0001213900-26-079435",
@@ -1175,12 +1319,23 @@
       "0001213900-26-079456",
       "0001213900-26-079460",
       "0001213900-26-079463",
+      "0001213900-26-079479",
+      "0001213900-26-079481",
       "0001233433-26-000004",
+      "0001294280-26-000005",
       "0001357615-26-000163",
       "0001437749-26-023807",
       "0001437749-26-023808",
       "0001437749-26-023809",
       "0001437749-26-023810",
+      "0001445546-26-005229",
+      "0001445546-26-005230",
+      "0001445546-26-005231",
+      "0001445546-26-005232",
+      "0001510281-26-000239",
+      "0001510281-26-000240",
+      "0001510281-26-000241",
+      "0001542447-26-000083",
       "0001543262-26-000006",
       "0001580642-26-004479",
       "0001623632-26-001024",
@@ -1201,15 +1356,59 @@
       "0001789970-26-000012",
       "0001818383-26-000190",
       "0001818383-26-000191",
+      "0001839882-26-035407",
+      "0001839882-26-035409",
+      "0001839882-26-035411",
+      "0001839882-26-035415",
       "0001918704-26-020489",
       "0001918704-26-020490",
       "0001918704-26-020491",
       "0001918704-26-020492",
       "0001918704-26-020493",
+      "0001918704-26-020502",
+      "0001918704-26-020503",
+      "0001918704-26-020504",
+      "0001918704-26-020505",
+      "0001918704-26-020506",
+      "0001918704-26-020507",
+      "0001918704-26-020508",
+      "0001918704-26-020509",
+      "0001918704-26-020510",
+      "0001918704-26-020511",
+      "0001918704-26-020512",
+      "0001918704-26-020513",
+      "0001918704-26-020514",
+      "0001918704-26-020515",
+      "0001918704-26-020516",
+      "0001918704-26-020517",
+      "0001918704-26-020518",
+      "0001918704-26-020519",
+      "0001918704-26-020520",
+      "0001918704-26-020521",
+      "0001918704-26-020522",
+      "0001918704-26-020523",
+      "0001918704-26-020524",
+      "0001918704-26-020525",
+      "0001918704-26-020526",
+      "0001918704-26-020527",
+      "0001918704-26-020528",
+      "0001918704-26-020529",
+      "0001918704-26-020530",
+      "0001918704-26-020531",
+      "0001918704-26-020532",
+      "0001918704-26-020533",
+      "0001918704-26-020534",
+      "0001918704-26-020535",
+      "0001918704-26-020536",
+      "0001918704-26-020537",
+      "0001918704-26-020538",
+      "0001918704-26-020539",
+      "0001918704-26-020540",
       "0001999371-26-015366",
       "0002021233-26-000012",
       "0002021238-26-000010",
       "0002109337-26-000010",
+      "0002111348-26-000011",
       "0002134641-26-000006"
     ]
   }
