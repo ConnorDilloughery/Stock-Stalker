@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-19T03:05:38.470593+00:00",
+  "generatedAt": "2026-07-20T01:40:15.478886+00:00",
   "source": "Undercurrent's own conviction score, tracked forward from each signal's first day \u2014 see module docstring for why this can't be retroactive",
-  "count": 41,
+  "count": 43,
   "entries": [
     {
       "ticker": "TCOM",
@@ -412,6 +412,26 @@
       "currentPrice": 12.6,
       "currentDate": "2026-07-17",
       "returnPct": 0.0
+    },
+    {
+      "ticker": "AIZN",
+      "signal": "BUY",
+      "entryDate": "2026-07-20",
+      "entryPrice": 19.52,
+      "convictionScore": 88,
+      "currentPrice": 19.52,
+      "currentDate": "2026-07-17",
+      "returnPct": 0.0
+    },
+    {
+      "ticker": "TSSI",
+      "signal": "BUY",
+      "entryDate": "2026-07-20",
+      "entryPrice": 9.76,
+      "convictionScore": 87,
+      "currentPrice": 9.76,
+      "currentDate": "2026-07-17",
+      "returnPct": 0.0
     }
   ],
   "stats": {
@@ -438,9 +458,9 @@
   },
   "_meta": {
     "activeTickers": [
+      "AIZN",
       "ALAR",
       "BTI",
-      "EDN",
       "GFI",
       "GMAB",
       "HAFN",
@@ -454,7 +474,6 @@
       "MGRE",
       "NICE",
       "NMR",
-      "PSIX",
       "PSO",
       "PUK",
       "RDY",
@@ -471,6 +490,7 @@
       "TCOM",
       "TKC",
       "TRMD",
+      "TSSI",
       "TTD",
       "UCL",
       "UGP",
