@@ -328,6 +328,7 @@ let state = {
   sectorHistory: null,
   sectorHistoryError: null,
   sectorHistoryLoading: false,
+  expandedSubsectorCards: new Set(),
   insiderData: null,
   insiderError: null,
   insiderLoading: false,
@@ -1849,6 +1850,8 @@ function sectorSparklineSvg(quarterly, color, opts) {
 // (each has its own labeled row), just visually distinct from the parent
 // sector's line above.
 const SUBSECTOR_LINE_COLOR = "#8A8578";
+const SUBSECTOR_COLLAPSED_COUNT = 4;
+const SUBSECTOR_MAX_SHOWN = 20;
 
 function subsectorRowHtml(name, sub) {
   const c = sub.changes || {};
@@ -1888,10 +1891,17 @@ function sectorCardHtml(s, history) {
         <div class="field-label" style="margin-top:12px">${escapeHtml(history.ticker)} price trend</div>
         ${sectorSparklineSvg(history.quarterly, SECTOR_CHART_COLORS[s.sector] || "#4A5A66")}
       ` : ""}
-      ${history && history.subsectors && Object.keys(history.subsectors).length > 0 ? `
-        <div class="field-label" style="margin-top:12px">Within ${escapeHtml(s.sector)}</div>
-        ${Object.entries(history.subsectors).map(([name, sub]) => subsectorRowHtml(name, sub)).join("")}
-      ` : ""}
+      ${history && history.subsectors && Object.keys(history.subsectors).length > 0 ? (() => {
+        const entries = Object.entries(history.subsectors).slice(0, SUBSECTOR_MAX_SHOWN);
+        const expanded = state.expandedSubsectorCards.has(s.sector);
+        const visible = expanded ? entries : entries.slice(0, SUBSECTOR_COLLAPSED_COUNT);
+        const hasMore = entries.length > SUBSECTOR_COLLAPSED_COUNT;
+        return `
+          <div class="field-label" style="margin-top:12px">Within ${escapeHtml(s.sector)}</div>
+          ${visible.map(([name, sub]) => subsectorRowHtml(name, sub)).join("")}
+          ${hasMore ? `<button class="btn btn-quiet" data-subsector-toggle="${escapeHtml(s.sector)}" style="margin-top:8px;width:100%;font-size:13px;padding:8px">${expanded ? "Show fewer" : `Show all ${entries.length} sub-sectors`}</button>` : ""}
+        `;
+      })() : ""}
       <div class="stats" style="margin-top:12px">
         <div class="stat"><span>Avg discount</span><strong>${s.avgDiscount !== null ? (s.avgDiscount * 100).toFixed(0) + "%" : "n/a"}</strong></div>
         <div class="stat"><span>Avg score</span><strong>${s.avgScore !== null ? Math.round(s.avgScore) : "n/a"}/100</strong></div>
@@ -2064,6 +2074,12 @@ function renderSectors() {
     </div>
     ${!stocksReady ? `<p class="panel-copy" style="margin:0 4px">Loading Full Market data…</p>` : sectors.length === 0 ? `<p class="panel-copy" style="margin:0 4px">No sector data available yet.</p>` : sectors.map(s => sectorCardHtml(s, historyBySector[s.sector])).join("")}
   `;
+  root.querySelectorAll("[data-subsector-toggle]").forEach(b => b.addEventListener("click", () => {
+    const sector = b.dataset.subsectorToggle;
+    if (state.expandedSubsectorCards.has(sector)) state.expandedSubsectorCards.delete(sector);
+    else state.expandedSubsectorCards.add(sector);
+    renderSectors();
+  }));
   // Reuse whatever Full Market data is already loading elsewhere in the
   // app rather than triggering a second, redundant fetch.
   if (!stocksReady && !state.marketLoading) loadMarketData(false);
