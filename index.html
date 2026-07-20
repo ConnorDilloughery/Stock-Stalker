@@ -1822,8 +1822,9 @@ function changeChip(pct) {
   return `<span class="chip" style="background:${up ? "#E3F1EA" : "#F7E6E2"};color:${up ? "var(--kelp)" : "var(--coral)"}">${up ? "+" : ""}${pct.toFixed(1)}%</span>`;
 }
 
-function sectorSparklineSvg(quarterly, color) {
+function sectorSparklineSvg(quarterly, color, opts) {
   if (!quarterly || quarterly.length < 2) return "";
+  const { height = 56, showLabels = true } = opts || {};
   const W = 600, H = 90, pad = 4;
   const vals = quarterly.map(q => q.close);
   const n = vals.length;
@@ -1834,11 +1835,34 @@ function sectorSparklineSvg(quarterly, color) {
   const d = vals.map((v, i) => `${i === 0 ? "M" : "L"}${xAt(i).toFixed(1)},${yAt(v).toFixed(1)}`).join(" ");
   const firstQ = quarterly[0].quarter, lastQ = quarterly[n - 1].quarter;
   return `
-    <svg viewBox="0 0 ${W} ${H}" style="width:100%;height:56px;display:block" preserveAspectRatio="none">
+    <svg viewBox="0 0 ${W} ${H}" style="width:100%;height:${height}px;display:block" preserveAspectRatio="none">
       <path d="${d}" fill="none" stroke="${color}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
     </svg>
+    ${showLabels ? `
     <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--dim);margin-top:2px">
       <span>${escapeHtml(firstQ)}</span><span>${escapeHtml(lastQ)}</span>
+    </div>` : ""}`;
+}
+
+// Muted, sector-independent palette for sub-sector sparklines — sub-sectors
+// within a card don't need to be color-distinguishable from each other
+// (each has its own labeled row), just visually distinct from the parent
+// sector's line above.
+const SUBSECTOR_LINE_COLOR = "#8A8578";
+
+function subsectorRowHtml(name, sub) {
+  const c = sub.changes || {};
+  return `
+    <div style="display:flex;align-items:center;gap:14px;padding:10px 0;border-top:1px solid #EAE9E2">
+      <div style="flex:0 0 30%;min-width:0">
+        <div style="font-size:13px;font-weight:600;color:var(--ink)">${escapeHtml(name)}</div>
+        <div style="font-size:11px;color:var(--dim)">${escapeHtml(sub.ticker)}</div>
+      </div>
+      <div style="flex:1;min-width:0">${sectorSparklineSvg(sub.quarterly, SUBSECTOR_LINE_COLOR, { height: 32, showLabels: false })}</div>
+      <div style="display:flex;gap:8px;flex:none">
+        <span class="stat" style="min-width:0;flex:none;padding:0"><span style="display:block;font-size:10px;color:var(--dim);text-align:center;margin-bottom:2px">YTD</span>${changeChip(c.ytd)}</span>
+        <span class="stat" style="min-width:0;flex:none;padding:0"><span style="display:block;font-size:10px;color:var(--dim);text-align:center;margin-bottom:2px">1Y</span>${changeChip(c.oneYear)}</span>
+      </div>
     </div>`;
 }
 
@@ -1863,6 +1887,10 @@ function sectorCardHtml(s, history) {
       ${history && history.quarterly && history.quarterly.length >= 2 ? `
         <div class="field-label" style="margin-top:12px">${escapeHtml(history.ticker)} price trend</div>
         ${sectorSparklineSvg(history.quarterly, SECTOR_CHART_COLORS[s.sector] || "#4A5A66")}
+      ` : ""}
+      ${history && history.subsectors && Object.keys(history.subsectors).length > 0 ? `
+        <div class="field-label" style="margin-top:12px">Within ${escapeHtml(s.sector)}</div>
+        ${Object.entries(history.subsectors).map(([name, sub]) => subsectorRowHtml(name, sub)).join("")}
       ` : ""}
       <div class="stats" style="margin-top:12px">
         <div class="stat"><span>Avg discount</span><strong>${s.avgDiscount !== null ? (s.avgDiscount * 100).toFixed(0) + "%" : "n/a"}</strong></div>
