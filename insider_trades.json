@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-20T23:01:19.712228+00:00",
+  "generatedAt": "2026-07-21T00:01:39.200000+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 121,
+  "count": 128,
   "trades": [
     {
       "ticker": "GRML",
@@ -91,6 +91,16 @@
       "type": "Purchase",
       "shares": 12000.0,
       "pricePerShare": 3.47,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "GWRE",
+      "issuerName": "Guidewire Software, Inc.",
+      "insiderName": "Rosenbaum Michael George",
+      "title": "Director, Chief Executive Officer",
+      "type": "Sale",
+      "shares": 1200.0,
+      "pricePerShare": 147.42,
       "transactionDate": "2026-07-20"
     },
     {
@@ -541,6 +551,16 @@
       "type": "Purchase",
       "shares": 7882.0,
       "pricePerShare": 8.95,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "SAFT",
+      "issuerName": "SAFETY INSURANCE GROUP INC",
+      "insiderName": "SRB CORP",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 5159.0,
+      "pricePerShare": 76.0315,
       "transactionDate": "2026-07-17"
     },
     {
@@ -1094,6 +1114,56 @@
       "transactionDate": "2026-07-16"
     },
     {
+      "ticker": "BLLN",
+      "issuerName": "BillionToOne, Inc.",
+      "insiderName": "Johnson Nancy JoAnn",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 2133.0,
+      "pricePerShare": 126.9821,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "BLLN",
+      "issuerName": "BillionToOne, Inc.",
+      "insiderName": "Johnson Nancy JoAnn",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 5559.0,
+      "pricePerShare": 127.886,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "BLLN",
+      "issuerName": "BillionToOne, Inc.",
+      "insiderName": "Johnson Nancy JoAnn",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 5601.0,
+      "pricePerShare": 128.9551,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "BLLN",
+      "issuerName": "BillionToOne, Inc.",
+      "insiderName": "Johnson Nancy JoAnn",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 906.0,
+      "pricePerShare": 129.7787,
+      "transactionDate": "2026-07-16"
+    },
+    {
+      "ticker": "ADPT",
+      "issuerName": "Adaptive Biotechnologies Corp",
+      "insiderName": "BOBULSKY SUSAN",
+      "title": "Chief Commercial Officer, MRD",
+      "type": "Sale",
+      "shares": 5000.0,
+      "pricePerShare": 23.0,
+      "transactionDate": "2026-07-16"
+    },
+    {
       "ticker": "MPLT",
       "issuerName": "MapLight Therapeutics, Inc.",
       "insiderName": "GILLIS JONATHAN",
@@ -1401,6 +1471,21 @@
           "type": "Purchase",
           "shares": 12000.0,
           "pricePerShare": 3.47,
+          "transactionDate": "2026-07-20"
+        }
+      ]
+    },
+    "GWRE": {
+      "issuerName": "Guidewire Software, Inc.",
+      "trades": [
+        {
+          "ticker": "GWRE",
+          "issuerName": "Guidewire Software, Inc.",
+          "insiderName": "Rosenbaum Michael George",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 1200.0,
+          "pricePerShare": 147.42,
           "transactionDate": "2026-07-20"
         }
       ]
@@ -2175,6 +2260,21 @@
         }
       ]
     },
+    "SAFT": {
+      "issuerName": "SAFETY INSURANCE GROUP INC",
+      "trades": [
+        {
+          "ticker": "SAFT",
+          "issuerName": "SAFETY INSURANCE GROUP INC",
+          "insiderName": "SRB CORP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 5159.0,
+          "pricePerShare": 76.0315,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
     "NEXN": {
       "issuerName": "Nexxen International Ltd.",
       "trades": [
@@ -2575,6 +2675,66 @@
         }
       ]
     },
+    "BLLN": {
+      "issuerName": "BillionToOne, Inc.",
+      "trades": [
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Johnson Nancy JoAnn",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 2133.0,
+          "pricePerShare": 126.9821,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Johnson Nancy JoAnn",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 5559.0,
+          "pricePerShare": 127.886,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Johnson Nancy JoAnn",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 5601.0,
+          "pricePerShare": 128.9551,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Johnson Nancy JoAnn",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 906.0,
+          "pricePerShare": 129.7787,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "ADPT": {
+      "issuerName": "Adaptive Biotechnologies Corp",
+      "trades": [
+        {
+          "ticker": "ADPT",
+          "issuerName": "Adaptive Biotechnologies Corp",
+          "insiderName": "BOBULSKY SUSAN",
+          "title": "Chief Commercial Officer, MRD",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 23.0,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
     "MLTX": {
       "issuerName": "MoonLake Immunotherapeutics",
       "trades": [
@@ -2685,6 +2845,7 @@
       "0000894189-26-021227",
       "0000897069-26-001523",
       "0000897069-26-001525",
+      "0000904454-26-000415",
       "0000912282-26-000993",
       "0000912282-26-000995",
       "0000912282-26-000998",
@@ -2711,6 +2872,7 @@
       "0000950142-26-002131",
       "0000950142-26-002132",
       "0001024547-26-000012",
+      "0001040470-26-000217",
       "0001049521-26-000034",
       "0001050269-26-000011",
       "0001071739-26-000146",
@@ -2892,6 +3054,7 @@
       "0001213900-26-079656",
       "0001213900-26-079663",
       "0001213900-26-079707",
+      "0001213900-26-079753",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -2950,6 +3113,14 @@
       "0001493152-26-033953",
       "0001493152-26-033954",
       "0001493152-26-033955",
+      "0001493152-26-033959",
+      "0001493152-26-033961",
+      "0001493152-26-033963",
+      "0001493152-26-033964",
+      "0001493152-26-033967",
+      "0001493152-26-033968",
+      "0001493152-26-033970",
+      "0001493152-26-033972",
       "0001499832-26-000035",
       "0001499832-26-000036",
       "0001506307-26-000059",
@@ -2981,6 +3152,7 @@
       "0001580642-26-004502",
       "0001590264-26-000010",
       "0001593040-26-000002",
+      "0001610717-26-000340",
       "0001623632-26-001024",
       "0001628280-26-048733",
       "0001628280-26-048734",
@@ -3015,6 +3187,8 @@
       "0001628280-26-048891",
       "0001628280-26-048892",
       "0001628280-26-048893",
+      "0001628280-26-048902",
+      "0001628280-26-048903",
       "0001646649-26-000020",
       "0001651981-26-000061",
       "0001651981-26-000062",
@@ -3029,12 +3203,14 @@
       "0001753926-26-001209",
       "0001771146-26-001463",
       "0001783879-26-000097",
+      "0001784996-26-000068",
       "0001786240-26-000007",
       "0001789970-26-000012",
       "0001794684-26-000014",
       "0001811389-26-000002",
       "0001818383-26-000190",
       "0001818383-26-000191",
+      "0001820885-26-000016",
       "0001826030-26-000002",
       "0001829126-26-007664",
       "0001831651-26-000102",
@@ -3258,6 +3434,7 @@
       "0002051008-26-000002",
       "0002056381-26-000004",
       "0002062182-26-000006",
+      "0002070849-26-000044",
       "0002074666-26-000006",
       "0002077291-26-000002",
       "0002089872-26-000002",
