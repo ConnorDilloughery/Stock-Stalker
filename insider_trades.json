@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-21T21:02:27.730969+00:00",
+  "generatedAt": "2026-07-21T22:03:58.131331+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 203,
+  "count": 215,
   "trades": [
     {
       "ticker": "VG",
@@ -51,6 +51,16 @@
       "type": "Purchase",
       "shares": 156.0,
       "pricePerShare": 134.55,
+      "transactionDate": "2026-07-21"
+    },
+    {
+      "ticker": "XYZ",
+      "issuerName": "Block, Inc.",
+      "insiderName": "Eisen Anthony Mathew",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 6000.0,
+      "pricePerShare": 79.31,
       "transactionDate": "2026-07-21"
     },
     {
@@ -571,6 +581,36 @@
       "type": "Sale",
       "shares": 440.0,
       "pricePerShare": 1224.1377,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "QBTS",
+      "issuerName": "D-Wave Quantum Inc.",
+      "insiderName": "AMES SOPHIE C",
+      "title": "Exec. Vice President & CHRO",
+      "type": "Sale",
+      "shares": 3070.0,
+      "pricePerShare": 16.9517,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "XYZ",
+      "issuerName": "Block, Inc.",
+      "insiderName": "Eisen Anthony Mathew",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 6000.0,
+      "pricePerShare": 78.9,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "JNJ",
+      "issuerName": "JOHNSON & JOHNSON",
+      "insiderName": "Broadhurst Vanessa",
+      "title": "EVP, Global Corp Affairs",
+      "type": "Sale",
+      "shares": 23054.0,
+      "pricePerShare": 251.266,
       "transactionDate": "2026-07-20"
     },
     {
@@ -1161,6 +1201,86 @@
       "type": "Sale",
       "shares": 5000.0,
       "pricePerShare": 12.64,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "CAG",
+      "issuerName": "CONAGRA BRANDS INC.",
+      "insiderName": "Brase John P",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 35000.0,
+      "pricePerShare": 14.5895,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "XYZ",
+      "issuerName": "Block, Inc.",
+      "insiderName": "Eisen Anthony Mathew",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 6000.0,
+      "pricePerShare": 79.13,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "LOCO",
+      "issuerName": "El Pollo Loco Holdings, Inc.",
+      "insiderName": "BIGLARI, SARDAR",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 11000.0,
+      "pricePerShare": 16.71,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "ELVN",
+      "issuerName": "Enliven Therapeutics, Inc.",
+      "insiderName": "Hohl Benjamin",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 324.0,
+      "pricePerShare": 49.9715,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "ELVN",
+      "issuerName": "Enliven Therapeutics, Inc.",
+      "insiderName": "Hohl Benjamin",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 369.0,
+      "pricePerShare": 51.4823,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "ELVN",
+      "issuerName": "Enliven Therapeutics, Inc.",
+      "insiderName": "Hohl Benjamin",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2564.0,
+      "pricePerShare": 52.318,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "ELVN",
+      "issuerName": "Enliven Therapeutics, Inc.",
+      "insiderName": "Hohl Benjamin",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2638.0,
+      "pricePerShare": 53.3825,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "ELVN",
+      "issuerName": "Enliven Therapeutics, Inc.",
+      "insiderName": "Hohl Benjamin",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 123.0,
+      "pricePerShare": 53.8716,
       "transactionDate": "2026-07-17"
     },
     {
@@ -2105,6 +2225,41 @@
         }
       ]
     },
+    "XYZ": {
+      "issuerName": "Block, Inc.",
+      "trades": [
+        {
+          "ticker": "XYZ",
+          "issuerName": "Block, Inc.",
+          "insiderName": "Eisen Anthony Mathew",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 6000.0,
+          "pricePerShare": 79.31,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "XYZ",
+          "issuerName": "Block, Inc.",
+          "insiderName": "Eisen Anthony Mathew",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 6000.0,
+          "pricePerShare": 78.9,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "XYZ",
+          "issuerName": "Block, Inc.",
+          "insiderName": "Eisen Anthony Mathew",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 6000.0,
+          "pricePerShare": 79.13,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
     "GRML": {
       "issuerName": "Greenland Mines Ltd",
       "trades": [
@@ -2831,6 +2986,36 @@
           "type": "Sale",
           "shares": 440.0,
           "pricePerShare": 1224.1377,
+          "transactionDate": "2026-07-20"
+        }
+      ]
+    },
+    "QBTS": {
+      "issuerName": "D-Wave Quantum Inc.",
+      "trades": [
+        {
+          "ticker": "QBTS",
+          "issuerName": "D-Wave Quantum Inc.",
+          "insiderName": "AMES SOPHIE C",
+          "title": "Exec. Vice President & CHRO",
+          "type": "Sale",
+          "shares": 3070.0,
+          "pricePerShare": 16.9517,
+          "transactionDate": "2026-07-20"
+        }
+      ]
+    },
+    "JNJ": {
+      "issuerName": "JOHNSON & JOHNSON",
+      "trades": [
+        {
+          "ticker": "JNJ",
+          "issuerName": "JOHNSON & JOHNSON",
+          "insiderName": "Broadhurst Vanessa",
+          "title": "EVP, Global Corp Affairs",
+          "type": "Sale",
+          "shares": 23054.0,
+          "pricePerShare": 251.266,
           "transactionDate": "2026-07-20"
         }
       ]
@@ -3760,6 +3945,91 @@
         }
       ]
     },
+    "CAG": {
+      "issuerName": "CONAGRA BRANDS INC.",
+      "trades": [
+        {
+          "ticker": "CAG",
+          "issuerName": "CONAGRA BRANDS INC.",
+          "insiderName": "Brase John P",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 35000.0,
+          "pricePerShare": 14.5895,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "LOCO": {
+      "issuerName": "El Pollo Loco Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "LOCO",
+          "issuerName": "El Pollo Loco Holdings, Inc.",
+          "insiderName": "BIGLARI, SARDAR",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 11000.0,
+          "pricePerShare": 16.71,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "ELVN": {
+      "issuerName": "Enliven Therapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "ELVN",
+          "issuerName": "Enliven Therapeutics, Inc.",
+          "insiderName": "Hohl Benjamin",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 324.0,
+          "pricePerShare": 49.9715,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "ELVN",
+          "issuerName": "Enliven Therapeutics, Inc.",
+          "insiderName": "Hohl Benjamin",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 369.0,
+          "pricePerShare": 51.4823,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "ELVN",
+          "issuerName": "Enliven Therapeutics, Inc.",
+          "insiderName": "Hohl Benjamin",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2564.0,
+          "pricePerShare": 52.318,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "ELVN",
+          "issuerName": "Enliven Therapeutics, Inc.",
+          "insiderName": "Hohl Benjamin",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2638.0,
+          "pricePerShare": 53.3825,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "ELVN",
+          "issuerName": "Enliven Therapeutics, Inc.",
+          "insiderName": "Hohl Benjamin",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 123.0,
+          "pricePerShare": 53.8716,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
     "NEXN": {
       "issuerName": "Nexxen International Ltd.",
       "trades": [
@@ -4459,6 +4729,7 @@
       "0000088053-26-000545",
       "0000088053-26-000546",
       "0000108985-26-000066",
+      "0000200406-26-000148",
       "0000311094-26-000054",
       "0000311094-26-000056",
       "0000726854-26-000154",
@@ -4479,6 +4750,7 @@
       "0000912282-26-000993",
       "0000912282-26-000995",
       "0000912282-26-000998",
+      "0000921895-26-001848",
       "0000923120-26-000014",
       "0000929638-26-002639",
       "0000950103-26-010819",
@@ -4532,11 +4804,14 @@
       "0000950103-26-010923",
       "0000950103-26-010940",
       "0000950103-26-010941",
+      "0000950103-26-010951",
+      "0000950103-26-010953",
       "0000950142-26-002131",
       "0000950142-26-002132",
       "0001003078-26-000088",
       "0001024547-26-000012",
       "0001040470-26-000217",
+      "0001040470-26-000219",
       "0001046179-26-000453",
       "0001047058-26-000009",
       "0001049521-26-000034",
@@ -4827,6 +5102,8 @@
       "0001193125-26-310495",
       "0001193125-26-310499",
       "0001193125-26-310504",
+      "0001193125-26-310577",
+      "0001193125-26-310582",
       "0001204034-26-000021",
       "0001213272-26-000017",
       "0001213900-26-079376",
@@ -4882,6 +5159,7 @@
       "0001213900-26-080074",
       "0001213900-26-080077",
       "0001213900-26-080085",
+      "0001213900-26-080123",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -4905,6 +5183,7 @@
       "0001271848-26-000003",
       "0001292208-26-000010",
       "0001294280-26-000005",
+      "0001295727-26-000002",
       "0001299992-26-000002",
       "0001349121-26-000001",
       "0001352573-26-000012",
@@ -4925,6 +5204,21 @@
       "0001437749-26-023835",
       "0001437749-26-023922",
       "0001437749-26-023926",
+      "0001437749-26-023977",
+      "0001437749-26-023979",
+      "0001437749-26-023981",
+      "0001437749-26-023984",
+      "0001437749-26-023986",
+      "0001437749-26-023988",
+      "0001437749-26-023990",
+      "0001437749-26-023992",
+      "0001437749-26-023994",
+      "0001437749-26-023997",
+      "0001437749-26-023999",
+      "0001437749-26-024001",
+      "0001437749-26-024003",
+      "0001437749-26-024005",
+      "0001437749-26-024007",
       "0001445546-26-005229",
       "0001445546-26-005230",
       "0001445546-26-005231",
@@ -4982,6 +5276,7 @@
       "0001493152-26-034010",
       "0001493152-26-034027",
       "0001493152-26-034069",
+      "0001493152-26-034114",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -4995,6 +5290,7 @@
       "0001493225-26-000086",
       "0001493225-26-000087",
       "0001493225-26-000088",
+      "0001495594-26-000005",
       "0001499832-26-000035",
       "0001499832-26-000036",
       "0001506307-26-000059",
@@ -5011,6 +5307,7 @@
       "0001539285-26-000011",
       "0001542447-26-000083",
       "0001543262-26-000006",
+      "0001545591-26-000008",
       "0001553153-26-000002",
       "0001561550-26-000246",
       "0001562577-26-000256",
@@ -5087,18 +5384,23 @@
       "0001628280-26-049040",
       "0001628280-26-049041",
       "0001628280-26-049043",
+      "0001628280-26-049078",
       "0001634117-26-000081",
+      "0001638728-26-000011",
       "0001646649-26-000020",
       "0001651981-26-000061",
       "0001651981-26-000062",
       "0001651981-26-000067",
       "0001651981-26-000068",
       "0001656109-26-000006",
+      "0001657787-26-000002",
       "0001658918-26-000014",
       "0001672659-26-000036",
       "0001688568-26-000056",
       "0001691675-26-000002",
+      "0001703841-26-000003",
       "0001709954-26-000010",
+      "0001714908-26-000007",
       "0001728746-26-000012",
       "0001736979-26-000013",
       "0001742938-26-000007",
@@ -5116,6 +5418,7 @@
       "0001789970-26-000012",
       "0001794684-26-000014",
       "0001795924-26-000005",
+      "0001807641-26-000007",
       "0001811389-26-000002",
       "0001818383-26-000190",
       "0001818383-26-000191",
@@ -5125,6 +5428,8 @@
       "0001829126-26-007688",
       "0001829126-26-007695",
       "0001829126-26-007707",
+      "0001829126-26-007716",
+      "0001829126-26-007718",
       "0001831651-26-000102",
       "0001839882-26-035407",
       "0001839882-26-035409",
@@ -5322,6 +5627,8 @@
       "0001870488-26-000002",
       "0001871423-26-000010",
       "0001876526-26-000001",
+      "0001882764-26-000006",
+      "0001886368-26-000002",
       "0001891792-26-000002",
       "0001899338-26-000002",
       "0001903115-26-000003",
@@ -5538,7 +5845,10 @@
       "0001918704-26-020820",
       "0001918704-26-020821",
       "0001918704-26-020822",
+      "0001918704-26-020844",
+      "0001918704-26-020845",
       "0001929185-26-000012",
+      "0001932635-26-000003",
       "0001960181-26-000002",
       "0001973103-26-000007",
       "0001976408-26-000660",
@@ -5551,14 +5861,20 @@
       "0001999371-26-015461",
       "0001999371-26-015509",
       "0001999371-26-015510",
+      "0001999371-26-015514",
       "0002004222-26-000006",
       "0002014633-26-000014",
       "0002020287-26-000002",
       "0002021233-26-000012",
       "0002021238-26-000010",
+      "0002028272-26-000003",
+      "0002028275-26-000003",
+      "0002028304-26-000003",
+      "0002028316-26-000003",
       "0002032661-26-000002",
       "0002051008-26-000002",
       "0002056381-26-000004",
+      "0002060932-26-000005",
       "0002062182-26-000006",
       "0002070849-26-000044",
       "0002071761-26-000009",
@@ -5570,6 +5886,8 @@
       "0002096532-26-000002",
       "0002099292-26-000002",
       "0002105171-26-000010",
+      "0002105851-26-000002",
+      "0002106277-26-000002",
       "0002109337-26-000010",
       "0002111348-26-000011",
       "0002111867-26-000011",
@@ -5577,7 +5895,9 @@
       "0002123155-26-000002",
       "0002126940-26-000004",
       "0002127674-26-000002",
+      "0002129321-26-000011",
       "0002134641-26-000006",
+      "0002142313-26-000003",
       "0002142755-26-000004",
       "0002143887-26-000005",
       "0002145764-26-000004",
