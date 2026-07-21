@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-21T10:02:31.553496+00:00",
+  "generatedAt": "2026-07-21T11:01:35.471907+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 160,
+  "count": 165,
   "trades": [
     {
       "ticker": "GRML",
@@ -292,6 +292,36 @@
       "shares": 280.0,
       "pricePerShare": 555.05,
       "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "insiderName": "Lin Shyue-Shyh",
+      "title": "VP",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 72.1,
+      "transactionDate": "2026-07-19"
+    },
+    {
+      "ticker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "insiderName": "Lin Shyue-Shyh",
+      "title": "VP",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 71.32,
+      "transactionDate": "2026-07-19"
+    },
+    {
+      "ticker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "insiderName": "Lin Shyue-Shyh",
+      "title": "VP",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 71.94,
+      "transactionDate": "2026-07-19"
     },
     {
       "ticker": "SE",
@@ -811,6 +841,26 @@
       "type": "Purchase",
       "shares": 50945.0,
       "pricePerShare": 3.52,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "KC",
+      "issuerName": "Kingsoft Cloud Holdings Ltd",
+      "insiderName": "Zou Tao",
+      "title": "Director, Acting Chief Executive Officer",
+      "type": "Sale",
+      "shares": 26000.0,
+      "pricePerShare": 0.6459,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "KC",
+      "issuerName": "Kingsoft Cloud Holdings Ltd",
+      "insiderName": "Zou Tao",
+      "title": "Director, Acting Chief Executive Officer",
+      "type": "Sale",
+      "shares": 274000.0,
+      "pricePerShare": 0.637,
       "transactionDate": "2026-07-17"
     },
     {
@@ -2050,6 +2100,41 @@
         }
       ]
     },
+    "TSM": {
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "trades": [
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Lin Shyue-Shyh",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 72.1,
+          "transactionDate": "2026-07-19"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Lin Shyue-Shyh",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 71.32,
+          "transactionDate": "2026-07-19"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Lin Shyue-Shyh",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 71.94,
+          "transactionDate": "2026-07-19"
+        }
+      ]
+    },
     "SE": {
       "issuerName": "Sea Ltd",
       "trades": [
@@ -2915,6 +3000,31 @@
         }
       ]
     },
+    "KC": {
+      "issuerName": "Kingsoft Cloud Holdings Ltd",
+      "trades": [
+        {
+          "ticker": "KC",
+          "issuerName": "Kingsoft Cloud Holdings Ltd",
+          "insiderName": "Zou Tao",
+          "title": "Director, Acting Chief Executive Officer",
+          "type": "Sale",
+          "shares": 26000.0,
+          "pricePerShare": 0.6459,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "KC",
+          "issuerName": "Kingsoft Cloud Holdings Ltd",
+          "insiderName": "Zou Tao",
+          "title": "Director, Acting Chief Executive Officer",
+          "type": "Sale",
+          "shares": 274000.0,
+          "pricePerShare": 0.637,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
     "NEXN": {
       "issuerName": "Nexxen International Ltd.",
       "trades": [
@@ -3558,10 +3668,13 @@
       "0000950103-26-010846",
       "0000950103-26-010847",
       "0000950103-26-010848",
+      "0000950103-26-010861",
+      "0000950103-26-010863",
       "0000950142-26-002131",
       "0000950142-26-002132",
       "0001024547-26-000012",
       "0001040470-26-000217",
+      "0001046179-26-000453",
       "0001049521-26-000034",
       "0001050269-26-000011",
       "0001071739-26-000146",
@@ -3606,6 +3719,8 @@
       "0001104659-26-085156",
       "0001104659-26-085157",
       "0001104659-26-085158",
+      "0001104659-26-085169",
+      "0001104659-26-085199",
       "0001114446-26-004848",
       "0001114446-26-004849",
       "0001114446-26-004850",
@@ -3630,6 +3745,8 @@
       "0001140361-26-028955",
       "0001140361-26-028977",
       "0001140361-26-028987",
+      "0001140361-26-029013",
+      "0001140361-26-029015",
       "0001178579-26-000016",
       "0001178913-26-003524",
       "0001178913-26-003542",
@@ -3726,6 +3843,7 @@
       "0001193125-26-309324",
       "0001193125-26-309327",
       "0001193125-26-309331",
+      "0001193125-26-309347",
       "0001204034-26-000021",
       "0001213272-26-000017",
       "0001213900-26-079376",
@@ -3755,6 +3873,10 @@
       "0001213900-26-079707",
       "0001213900-26-079753",
       "0001213900-26-079764",
+      "0001213900-26-079767",
+      "0001213900-26-079768",
+      "0001213900-26-079770",
+      "0001213900-26-079774",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -3823,6 +3945,7 @@
       "0001493152-26-033968",
       "0001493152-26-033970",
       "0001493152-26-033972",
+      "0001493152-26-033976",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -3942,6 +4065,7 @@
       "0001820885-26-000016",
       "0001826030-26-000002",
       "0001829126-26-007664",
+      "0001829126-26-007688",
       "0001831651-26-000102",
       "0001839882-26-035407",
       "0001839882-26-035409",
