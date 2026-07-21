@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-21T11:01:35.471907+00:00",
+  "generatedAt": "2026-07-21T12:04:03.447159+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 165,
+  "count": 166,
   "trades": [
     {
       "ticker": "GRML",
@@ -861,6 +861,16 @@
       "type": "Sale",
       "shares": 274000.0,
       "pricePerShare": 0.637,
+      "transactionDate": "2026-07-17"
+    },
+    {
+      "ticker": "PRQR",
+      "issuerName": "ProQR Therapeutics N.V.",
+      "insiderName": "Filius Bart",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 150000.0,
+      "pricePerShare": 1.7195,
       "transactionDate": "2026-07-17"
     },
     {
@@ -3025,6 +3035,21 @@
         }
       ]
     },
+    "PRQR": {
+      "issuerName": "ProQR Therapeutics N.V.",
+      "trades": [
+        {
+          "ticker": "PRQR",
+          "issuerName": "ProQR Therapeutics N.V.",
+          "insiderName": "Filius Bart",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 150000.0,
+          "pricePerShare": 1.7195,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
     "NEXN": {
       "issuerName": "Nexxen International Ltd.",
       "trades": [
@@ -3721,6 +3746,8 @@
       "0001104659-26-085158",
       "0001104659-26-085169",
       "0001104659-26-085199",
+      "0001104659-26-085228",
+      "0001104659-26-085234",
       "0001114446-26-004848",
       "0001114446-26-004849",
       "0001114446-26-004850",
@@ -3844,6 +3871,7 @@
       "0001193125-26-309327",
       "0001193125-26-309331",
       "0001193125-26-309347",
+      "0001193125-26-309566",
       "0001204034-26-000021",
       "0001213272-26-000017",
       "0001213900-26-079376",
@@ -3877,6 +3905,7 @@
       "0001213900-26-079768",
       "0001213900-26-079770",
       "0001213900-26-079774",
+      "0001213900-26-079806",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -3946,6 +3975,7 @@
       "0001493152-26-033970",
       "0001493152-26-033972",
       "0001493152-26-033976",
+      "0001493152-26-034003",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
