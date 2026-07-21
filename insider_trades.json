@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-21T16:01:51.394866+00:00",
+  "generatedAt": "2026-07-21T17:02:28.322299+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 173,
+  "count": 180,
   "trades": [
     {
       "ticker": "GRML",
@@ -1714,6 +1714,36 @@
       "transactionDate": "2026-07-09"
     },
     {
+      "ticker": "WOR",
+      "issuerName": "WORTHINGTON ENTERPRISES, INC.",
+      "insiderName": "MCCONNELL JOHN P/OH",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 17625.0,
+      "pricePerShare": 53.04,
+      "transactionDate": "2026-07-01"
+    },
+    {
+      "ticker": "WOR",
+      "issuerName": "WORTHINGTON ENTERPRISES, INC.",
+      "insiderName": "MCCONNELL JOHN P/OH",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 38965.0,
+      "pricePerShare": 55.82,
+      "transactionDate": "2026-06-26"
+    },
+    {
+      "ticker": "WOR",
+      "issuerName": "WORTHINGTON ENTERPRISES, INC.",
+      "insiderName": "MCCONNELL JOHN P/OH",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2739.0,
+      "pricePerShare": 56.35,
+      "transactionDate": "2026-06-26"
+    },
+    {
       "ticker": "NEXN",
       "issuerName": "Nexxen International Ltd.",
       "insiderName": "Niri Sagi",
@@ -1732,6 +1762,46 @@
       "shares": 7471500.0,
       "pricePerShare": null,
       "transactionDate": "2026-03-26"
+    },
+    {
+      "ticker": "WOR",
+      "issuerName": "WORTHINGTON ENTERPRISES, INC.",
+      "insiderName": "MCCONNELL JOHN P/OH",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 54745.0,
+      "pricePerShare": 61.04,
+      "transactionDate": "2025-05-13"
+    },
+    {
+      "ticker": "WOR",
+      "issuerName": "WORTHINGTON ENTERPRISES, INC.",
+      "insiderName": "MCCONNELL JOHN P/OH",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 336.0,
+      "pricePerShare": 61.41,
+      "transactionDate": "2025-05-13"
+    },
+    {
+      "ticker": "WOR",
+      "issuerName": "WORTHINGTON ENTERPRISES, INC.",
+      "insiderName": "MCCONNELL JOHN P/OH",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 18061.0,
+      "pricePerShare": 58.79,
+      "transactionDate": "2024-05-07"
+    },
+    {
+      "ticker": "WOR",
+      "issuerName": "WORTHINGTON ENTERPRISES, INC.",
+      "insiderName": "MCCONNELL JOHN P/OH",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 8692.0,
+      "pricePerShare": 59.91,
+      "transactionDate": "2024-05-07"
     }
   ],
   "byTicker": {
@@ -3804,6 +3874,81 @@
           "transactionDate": "2026-03-26"
         }
       ]
+    },
+    "WOR": {
+      "issuerName": "WORTHINGTON ENTERPRISES, INC.",
+      "trades": [
+        {
+          "ticker": "WOR",
+          "issuerName": "WORTHINGTON ENTERPRISES, INC.",
+          "insiderName": "MCCONNELL JOHN P/OH",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 17625.0,
+          "pricePerShare": 53.04,
+          "transactionDate": "2026-07-01"
+        },
+        {
+          "ticker": "WOR",
+          "issuerName": "WORTHINGTON ENTERPRISES, INC.",
+          "insiderName": "MCCONNELL JOHN P/OH",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 38965.0,
+          "pricePerShare": 55.82,
+          "transactionDate": "2026-06-26"
+        },
+        {
+          "ticker": "WOR",
+          "issuerName": "WORTHINGTON ENTERPRISES, INC.",
+          "insiderName": "MCCONNELL JOHN P/OH",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2739.0,
+          "pricePerShare": 56.35,
+          "transactionDate": "2026-06-26"
+        },
+        {
+          "ticker": "WOR",
+          "issuerName": "WORTHINGTON ENTERPRISES, INC.",
+          "insiderName": "MCCONNELL JOHN P/OH",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 54745.0,
+          "pricePerShare": 61.04,
+          "transactionDate": "2025-05-13"
+        },
+        {
+          "ticker": "WOR",
+          "issuerName": "WORTHINGTON ENTERPRISES, INC.",
+          "insiderName": "MCCONNELL JOHN P/OH",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 336.0,
+          "pricePerShare": 61.41,
+          "transactionDate": "2025-05-13"
+        },
+        {
+          "ticker": "WOR",
+          "issuerName": "WORTHINGTON ENTERPRISES, INC.",
+          "insiderName": "MCCONNELL JOHN P/OH",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 18061.0,
+          "pricePerShare": 58.79,
+          "transactionDate": "2024-05-07"
+        },
+        {
+          "ticker": "WOR",
+          "issuerName": "WORTHINGTON ENTERPRISES, INC.",
+          "insiderName": "MCCONNELL JOHN P/OH",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8692.0,
+          "pricePerShare": 59.91,
+          "transactionDate": "2024-05-07"
+        }
+      ]
     }
   },
   "_meta": {
@@ -3866,6 +4011,10 @@
       "0000950103-26-010876",
       "0000950103-26-010877",
       "0000950103-26-010878",
+      "0000950103-26-010883",
+      "0000950103-26-010884",
+      "0000950103-26-010885",
+      "0000950103-26-010886",
       "0000950142-26-002131",
       "0000950142-26-002132",
       "0001003078-26-000088",
@@ -3949,6 +4098,7 @@
       "0001104659-26-085303",
       "0001104659-26-085316",
       "0001104659-26-085319",
+      "0001104659-26-085329",
       "0001114446-26-004848",
       "0001114446-26-004849",
       "0001114446-26-004850",
@@ -3981,6 +4131,8 @@
       "0001140361-26-029052",
       "0001140361-26-029058",
       "0001140361-26-029060",
+      "0001140361-26-029068",
+      "0001140361-26-029070",
       "0001178579-26-000016",
       "0001178913-26-003524",
       "0001178913-26-003542",
@@ -4105,6 +4257,9 @@
       "0001193125-26-309826",
       "0001193125-26-309840",
       "0001193125-26-309842",
+      "0001193125-26-309858",
+      "0001193125-26-309869",
+      "0001193125-26-309873",
       "0001204034-26-000021",
       "0001213272-26-000017",
       "0001213900-26-079376",
@@ -4142,6 +4297,9 @@
       "0001213900-26-079834",
       "0001213900-26-079869",
       "0001213900-26-079879",
+      "0001213900-26-079905",
+      "0001213900-26-079906",
+      "0001213900-26-079911",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -4155,12 +4313,16 @@
       "0001233433-26-000004",
       "0001238705-26-000007",
       "0001266240-26-000004",
+      "0001271848-26-000003",
       "0001292208-26-000010",
       "0001294280-26-000005",
       "0001349121-26-000001",
       "0001357615-26-000163",
       "0001398344-26-012331",
       "0001398344-26-012357",
+      "0001398344-26-012379",
+      "0001398344-26-012382",
+      "0001398344-26-012386",
       "0001437749-26-023807",
       "0001437749-26-023808",
       "0001437749-26-023809",
@@ -4342,6 +4504,7 @@
       "0001753926-26-001209",
       "0001771146-26-001463",
       "0001771146-26-001465",
+      "0001771146-26-001467",
       "0001775297-26-000010",
       "0001783879-26-000097",
       "0001784996-26-000068",
@@ -4505,6 +4668,23 @@
       "0001839882-26-035703",
       "0001839882-26-035708",
       "0001839882-26-035709",
+      "0001839882-26-035718",
+      "0001839882-26-035719",
+      "0001839882-26-035720",
+      "0001839882-26-035721",
+      "0001839882-26-035723",
+      "0001839882-26-035725",
+      "0001839882-26-035731",
+      "0001839882-26-035732",
+      "0001839882-26-035733",
+      "0001839882-26-035734",
+      "0001839882-26-035735",
+      "0001839882-26-035736",
+      "0001839882-26-035737",
+      "0001839882-26-035738",
+      "0001839882-26-035740",
+      "0001839882-26-035741",
+      "0001839882-26-035742",
       "0001846069-26-000150",
       "0001846472-26-000013",
       "0001862314-26-000012",
@@ -4670,6 +4850,26 @@
       "0001918704-26-020708",
       "0001918704-26-020709",
       "0001918704-26-020710",
+      "0001918704-26-020713",
+      "0001918704-26-020714",
+      "0001918704-26-020715",
+      "0001918704-26-020716",
+      "0001918704-26-020717",
+      "0001918704-26-020718",
+      "0001918704-26-020719",
+      "0001918704-26-020720",
+      "0001918704-26-020721",
+      "0001918704-26-020722",
+      "0001918704-26-020723",
+      "0001918704-26-020724",
+      "0001918704-26-020725",
+      "0001918704-26-020726",
+      "0001918704-26-020727",
+      "0001918704-26-020728",
+      "0001918704-26-020729",
+      "0001918704-26-020730",
+      "0001918704-26-020731",
+      "0001918704-26-020732",
       "0001929185-26-000012",
       "0001960181-26-000002",
       "0001973103-26-000007",
@@ -4709,7 +4909,9 @@
       "0002127674-26-000002",
       "0002134641-26-000006",
       "0002143887-26-000005",
-      "0002145764-26-000004"
+      "0002145764-26-000004",
+      "0002146462-26-000003",
+      "0002146475-26-000002"
     ]
   }
 }
