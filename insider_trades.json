@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-22T01:04:42.321802+00:00",
+  "generatedAt": "2026-07-22T02:02:32.070003+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 273,
+  "count": 275,
   "trades": [
     {
       "ticker": "VG",
@@ -131,6 +131,26 @@
       "type": "Sale",
       "shares": 3523.0,
       "pricePerShare": 211.0482,
+      "transactionDate": "2026-07-21"
+    },
+    {
+      "ticker": "UAL",
+      "issuerName": "United Airlines Holdings, Inc.",
+      "insiderName": "KIRBY J SCOTT",
+      "title": "Director, Chief Executive Officer",
+      "type": "Sale",
+      "shares": 159321.0,
+      "pricePerShare": 118.045,
+      "transactionDate": "2026-07-21"
+    },
+    {
+      "ticker": "MGTX",
+      "issuerName": "MeiraGTx Holdings plc",
+      "insiderName": "Giroux Richard",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 56000.0,
+      "pricePerShare": 12.51,
       "transactionDate": "2026-07-21"
     },
     {
@@ -2986,6 +3006,36 @@
           "type": "Sale",
           "shares": 808.0,
           "pricePerShare": 529.63,
+          "transactionDate": "2026-07-21"
+        }
+      ]
+    },
+    "UAL": {
+      "issuerName": "United Airlines Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "UAL",
+          "issuerName": "United Airlines Holdings, Inc.",
+          "insiderName": "KIRBY J SCOTT",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 159321.0,
+          "pricePerShare": 118.045,
+          "transactionDate": "2026-07-21"
+        }
+      ]
+    },
+    "MGTX": {
+      "issuerName": "MeiraGTx Holdings plc",
+      "trades": [
+        {
+          "ticker": "MGTX",
+          "issuerName": "MeiraGTx Holdings plc",
+          "insiderName": "Giroux Richard",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 56000.0,
+          "pricePerShare": 12.51,
           "transactionDate": "2026-07-21"
         }
       ]
@@ -5958,6 +6008,7 @@
       "0000088053-26-000544",
       "0000088053-26-000545",
       "0000088053-26-000546",
+      "0000100517-26-000142",
       "0000108985-26-000066",
       "0000200406-26-000148",
       "0000311094-26-000054",
@@ -6357,6 +6408,7 @@
       "0001193125-26-310983",
       "0001193125-26-310990",
       "0001193125-26-310991",
+      "0001193125-26-311001",
       "0001204034-26-000021",
       "0001213272-26-000017",
       "0001213900-26-079376",
@@ -6438,6 +6490,7 @@
       "0001266240-26-000004",
       "0001266824-26-000160",
       "0001271848-26-000003",
+      "0001278521-26-000011",
       "0001292208-26-000010",
       "0001294280-26-000005",
       "0001295727-26-000002",
@@ -6677,6 +6730,7 @@
       "0001714908-26-000007",
       "0001728746-26-000012",
       "0001736979-26-000013",
+      "0001742734-26-000018",
       "0001742938-26-000007",
       "0001748614-26-000007",
       "0001753926-26-001207",
