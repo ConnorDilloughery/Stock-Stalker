@@ -325,6 +325,7 @@ let state = {
   congressLoading: false,
   congressView: "feed",
   congressExpanded: null,
+  congressTicker: "",
   sectorHistory: null,
   sectorHistoryError: null,
   sectorHistoryLoading: false,
@@ -1370,6 +1371,41 @@ function congressPoliticianCard(name, p) {
     </div>`;
 }
 
+// Filter every trade on file down to a single ticker, newest first.
+function congressTradesForTicker(d, query) {
+  const q = (query || "").trim().toUpperCase();
+  if (!q) return [];
+  return d.trades
+    .filter(t => (t.ticker || "").toUpperCase() === q)
+    .sort((a, b) => (b.transactionDate || b.filedDate || "").localeCompare(a.transactionDate || a.filedDate || ""));
+}
+
+// Results portion of the "By ticker" view (everything below the search box),
+// factored out so live keystroke filtering can refresh just this slice.
+function congressByTickerResultsHtml(d, query) {
+  const q = (query || "").trim().toUpperCase();
+  if (!q) {
+    return `<div class="empty"><div class="empty-title">Search a ticker</div><p>Type a symbol above to see every congressional trade on file for that stock, across all politicians.</p></div>`;
+  }
+  const trades = congressTradesForTicker(d, query);
+  if (trades.length === 0) {
+    return `<div class="empty"><div class="empty-title">No trades on file for ${escapeHtml(q)}</div><p>No senator, representative, or the President has a disclosed transaction in ${escapeHtml(q)} in the current data. Congressional filings lag the actual trade by up to 45 days, so recent activity may not have been disclosed yet.</p></div>`;
+  }
+  const buys = trades.filter(t => (t.type || "").toLowerCase().includes("purchase")).length;
+  const sells = trades.filter(t => (t.type || "").toLowerCase().includes("sale")).length;
+  const people = new Set(trades.map(t => t.politician || "")).size;
+  return `
+    <div class="card" style="padding:14px 20px">
+      <div class="name" style="font-size:15px;color:var(--ink)">
+        <strong>${trades.length}</strong> trade${trades.length === 1 ? "" : "s"} in <strong>${escapeHtml(q)}</strong> ·
+        ${people} politician${people === 1 ? "" : "s"} ·
+        <span style="color:${TX_TYPE_STYLE.purchase.fg}">${buys} buy${buys === 1 ? "" : "s"}</span> ·
+        <span style="color:${TX_TYPE_STYLE.sale.fg}">${sells} sell${sells === 1 ? "" : "s"}</span>
+      </div>
+    </div>
+    ${trades.map(congressTradeRow).join("")}`;
+}
+
 function renderCongress() {
   const root = document.getElementById("tab-congress");
   const d = state.congressData;
@@ -1382,14 +1418,23 @@ function renderCongress() {
       <div class="chips">
         <button class="pick ${state.congressView === "feed" ? "on" : ""}" data-congress-view="feed">Recent trades</button>
         <button class="pick ${state.congressView === "politicians" ? "on" : ""}" data-congress-view="politicians">By politician</button>
+        <button class="pick ${state.congressView === "byTicker" ? "on" : ""}" data-congress-view="byTicker">By ticker</button>
       </div>
       <button class="btn btn-big" id="congressRefresh">${state.congressLoading ? "Loading…" : "Refresh from Pi"}</button>
     </div>
     ${state.congressError ? `<div class="error">${escapeHtml(state.congressError)}</div>` : ""}
+    ${state.congressView === "byTicker" && d ? `
+      <div class="panel">
+        <div style="display:flex;gap:10px">
+          <input type="text" id="congressTickerInput" placeholder="e.g. NVDA" style="flex:1" autocomplete="off" value="${escapeHtml(state.congressTicker)}">
+        </div>
+      </div>` : ""}
     <div id="congressResults">${
       !d ? "" :
       state.congressView === "feed"
         ? d.trades.slice(0, 200).map(congressTradeRow).join("")
+        : state.congressView === "byTicker"
+        ? congressByTickerResultsHtml(d, state.congressTicker)
         : politicians.map(([name, p]) => congressPoliticianCard(name, p)).join("")
     }</div>
   `;
@@ -1404,6 +1449,15 @@ function renderCongress() {
     state.congressExpanded = state.congressExpanded === name ? null : name;
     renderCongress();
   }));
+  const tickerInput = document.getElementById("congressTickerInput");
+  if (tickerInput) {
+    // Filter live but only repaint the results list, so the input keeps focus.
+    tickerInput.addEventListener("input", (e) => {
+      state.congressTicker = e.target.value;
+      const results = document.getElementById("congressResults");
+      if (results && d) results.innerHTML = congressByTickerResultsHtml(d, state.congressTicker);
+    });
+  }
   if (!d && !state.congressLoading && !state.congressError) loadCongressData(false);
 }
 
