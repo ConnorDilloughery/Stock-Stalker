@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-22T10:01:38.155452+00:00",
+  "generatedAt": "2026-07-22T11:01:07.338287+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 275,
+  "count": 290,
   "trades": [
     {
       "ticker": "VG",
@@ -151,6 +151,86 @@
       "type": "Sale",
       "shares": 56000.0,
       "pricePerShare": 12.51,
+      "transactionDate": "2026-07-21"
+    },
+    {
+      "ticker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "insiderName": "Lin Shyue-Shyh",
+      "title": "VP",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 74.13,
+      "transactionDate": "2026-07-21"
+    },
+    {
+      "ticker": "YQ",
+      "issuerName": "17 Education & Technology Group Inc.",
+      "insiderName": "Liu Chang",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 9287.0,
+      "pricePerShare": 2.1696,
+      "transactionDate": "2026-07-21"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Ye Gang",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 15712.0,
+      "pricePerShare": 106.01,
+      "transactionDate": "2026-07-21"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Ye Gang",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3143.0,
+      "pricePerShare": 106.83,
+      "transactionDate": "2026-07-21"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Ye Gang",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1145.0,
+      "pricePerShare": 107.87,
+      "transactionDate": "2026-07-21"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Wang Yanjun",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 937.0,
+      "pricePerShare": 106.0,
+      "transactionDate": "2026-07-21"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Wang Yanjun",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 194.0,
+      "pricePerShare": 106.73,
+      "transactionDate": "2026-07-21"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Wang Yanjun",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 69.0,
+      "pricePerShare": 107.91,
       "transactionDate": "2026-07-21"
     },
     {
@@ -971,6 +1051,76 @@
       "type": "Sale",
       "shares": 120.0,
       "pricePerShare": 207.77,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "insiderName": "Lin Shyue-Shyh",
+      "title": "VP",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 72.65,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Ye Gang",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 9200.0,
+      "pricePerShare": 105.92,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Ye Gang",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 8000.0,
+      "pricePerShare": 107.06,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Ye Gang",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2800.0,
+      "pricePerShare": 107.64,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Wang Yanjun",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 574.0,
+      "pricePerShare": 105.75,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Wang Yanjun",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 463.0,
+      "pricePerShare": 107.02,
+      "transactionDate": "2026-07-20"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Wang Yanjun",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 163.0,
+      "pricePerShare": 107.66,
       "transactionDate": "2026-07-20"
     },
     {
@@ -3040,6 +3190,481 @@
         }
       ]
     },
+    "TSM": {
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "trades": [
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Lin Shyue-Shyh",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 74.13,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Lin Shyue-Shyh",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 72.65,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Lin Shyue-Shyh",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 72.1,
+          "transactionDate": "2026-07-19"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Lin Shyue-Shyh",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 71.32,
+          "transactionDate": "2026-07-19"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Lin Shyue-Shyh",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 71.94,
+          "transactionDate": "2026-07-19"
+        }
+      ]
+    },
+    "YQ": {
+      "issuerName": "17 Education & Technology Group Inc.",
+      "trades": [
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 9287.0,
+          "pricePerShare": 2.1696,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 7633.0,
+          "pricePerShare": 2.0813,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "SE": {
+      "issuerName": "Sea Ltd",
+      "trades": [
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15712.0,
+          "pricePerShare": 106.01,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3143.0,
+          "pricePerShare": 106.83,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1145.0,
+          "pricePerShare": 107.87,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 937.0,
+          "pricePerShare": 106.0,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 194.0,
+          "pricePerShare": 106.73,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 69.0,
+          "pricePerShare": 107.91,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 9200.0,
+          "pricePerShare": 105.92,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8000.0,
+          "pricePerShare": 107.06,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2800.0,
+          "pricePerShare": 107.64,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 574.0,
+          "pricePerShare": 105.75,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 463.0,
+          "pricePerShare": 107.02,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 163.0,
+          "pricePerShare": 107.66,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 223.0,
+          "pricePerShare": 101.46,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 205.0,
+          "pricePerShare": 102.47,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 490.0,
+          "pricePerShare": 103.44,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 210.0,
+          "pricePerShare": 104.45,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 72.0,
+          "pricePerShare": 105.11,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3932.0,
+          "pricePerShare": 101.44,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4519.0,
+          "pricePerShare": 102.4,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5039.0,
+          "pricePerShare": 103.45,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4810.0,
+          "pricePerShare": 104.29,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1700.0,
+          "pricePerShare": 105.06,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Hou Tianyu",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2840.0,
+          "pricePerShare": 101.48,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Hou Tianyu",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2177.0,
+          "pricePerShare": 102.54,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Hou Tianyu",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5887.0,
+          "pricePerShare": 103.51,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Hou Tianyu",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3136.0,
+          "pricePerShare": 104.35,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Hou Tianyu",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 960.0,
+          "pricePerShare": 105.11,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 463.0,
+          "pricePerShare": 106.05,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 211.0,
+          "pricePerShare": 107.35,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 147.0,
+          "pricePerShare": 107.96,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 184.0,
+          "pricePerShare": 109.1,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 153.0,
+          "pricePerShare": 110.12,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Wang Yanjun",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 342.0,
+          "pricePerShare": 111.0,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4199.0,
+          "pricePerShare": 106.28,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5778.0,
+          "pricePerShare": 107.29,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2877.0,
+          "pricePerShare": 108.01,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3611.0,
+          "pricePerShare": 109.15,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2639.0,
+          "pricePerShare": 110.14,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Ye Gang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 896.0,
+          "pricePerShare": 110.95,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
     "GRML": {
       "issuerName": "Greenland Mines Ltd",
       "trades": [
@@ -4280,316 +4905,6 @@
         }
       ]
     },
-    "TSM": {
-      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "trades": [
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Lin Shyue-Shyh",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 72.1,
-          "transactionDate": "2026-07-19"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Lin Shyue-Shyh",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 71.32,
-          "transactionDate": "2026-07-19"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Lin Shyue-Shyh",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 71.94,
-          "transactionDate": "2026-07-19"
-        }
-      ]
-    },
-    "SE": {
-      "issuerName": "Sea Ltd",
-      "trades": [
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 223.0,
-          "pricePerShare": 101.46,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 205.0,
-          "pricePerShare": 102.47,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 490.0,
-          "pricePerShare": 103.44,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 210.0,
-          "pricePerShare": 104.45,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 72.0,
-          "pricePerShare": 105.11,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3932.0,
-          "pricePerShare": 101.44,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4519.0,
-          "pricePerShare": 102.4,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5039.0,
-          "pricePerShare": 103.45,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4810.0,
-          "pricePerShare": 104.29,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1700.0,
-          "pricePerShare": 105.06,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Hou Tianyu",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2840.0,
-          "pricePerShare": 101.48,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Hou Tianyu",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2177.0,
-          "pricePerShare": 102.54,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Hou Tianyu",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5887.0,
-          "pricePerShare": 103.51,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Hou Tianyu",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3136.0,
-          "pricePerShare": 104.35,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Hou Tianyu",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 960.0,
-          "pricePerShare": 105.11,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 463.0,
-          "pricePerShare": 106.05,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 211.0,
-          "pricePerShare": 107.35,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 147.0,
-          "pricePerShare": 107.96,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 184.0,
-          "pricePerShare": 109.1,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 153.0,
-          "pricePerShare": 110.12,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 342.0,
-          "pricePerShare": 111.0,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4199.0,
-          "pricePerShare": 106.28,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5778.0,
-          "pricePerShare": 107.29,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2877.0,
-          "pricePerShare": 108.01,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3611.0,
-          "pricePerShare": 109.15,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2639.0,
-          "pricePerShare": 110.14,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 896.0,
-          "pricePerShare": 110.95,
-          "transactionDate": "2026-07-16"
-        }
-      ]
-    },
     "MPLT": {
       "issuerName": "MapLight Therapeutics, Inc.",
       "trades": [
@@ -4732,21 +5047,6 @@
           "shares": 4510.0,
           "pricePerShare": 36.94,
           "transactionDate": "2026-07-15"
-        }
-      ]
-    },
-    "YQ": {
-      "issuerName": "17 Education & Technology Group Inc.",
-      "trades": [
-        {
-          "ticker": "YQ",
-          "issuerName": "17 Education & Technology Group Inc.",
-          "insiderName": "Liu Chang",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 7633.0,
-          "pricePerShare": 2.0813,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -6088,6 +6388,10 @@
       "0000950103-26-010941",
       "0000950103-26-010951",
       "0000950103-26-010953",
+      "0000950103-26-010961",
+      "0000950103-26-010965",
+      "0000950103-26-010966",
+      "0000950103-26-010970",
       "0000950142-26-002131",
       "0000950142-26-002132",
       "0001003078-26-000088",
@@ -6096,6 +6400,7 @@
       "0001040470-26-000217",
       "0001040470-26-000219",
       "0001046179-26-000453",
+      "0001046179-26-000455",
       "0001047058-26-000009",
       "0001049521-26-000034",
       "0001050269-26-000011",
@@ -6180,6 +6485,9 @@
       "0001104659-26-085383",
       "0001104659-26-085432",
       "0001104659-26-085497",
+      "0001104659-26-085503",
+      "0001104659-26-085511",
+      "0001104659-26-085575",
       "0001114446-26-004848",
       "0001114446-26-004849",
       "0001114446-26-004850",
@@ -6221,12 +6529,14 @@
       "0001140361-26-029176",
       "0001140361-26-029178",
       "0001140361-26-029181",
+      "0001140361-26-029183",
       "0001140361-26-029185",
       "0001140361-26-029188",
       "0001140361-26-029190",
       "0001140361-26-029191",
       "0001140361-26-029192",
       "0001140361-26-029193",
+      "0001140361-26-029196",
       "0001174610-26-000437",
       "0001178579-26-000016",
       "0001178579-26-000017",
@@ -6409,6 +6719,10 @@
       "0001193125-26-310990",
       "0001193125-26-310991",
       "0001193125-26-311001",
+      "0001193125-26-311018",
+      "0001193125-26-311232",
+      "0001193125-26-311234",
+      "0001193125-26-311236",
       "0001204034-26-000021",
       "0001213272-26-000017",
       "0001213900-26-079376",
@@ -6466,6 +6780,7 @@
       "0001213900-26-080085",
       "0001213900-26-080123",
       "0001213900-26-080133",
+      "0001213900-26-080174",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -6568,6 +6883,7 @@
       "0001477932-26-004401",
       "0001477932-26-004402",
       "0001477932-26-004404",
+      "0001477932-26-004434",
       "0001490925-26-000003",
       "0001492597-26-000001",
       "0001492597-26-000002",
@@ -6595,6 +6911,7 @@
       "0001493152-26-034124",
       "0001493152-26-034126",
       "0001493152-26-034133",
+      "0001493152-26-034161",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -7186,6 +7503,11 @@
       "0001918704-26-020822",
       "0001918704-26-020844",
       "0001918704-26-020845",
+      "0001918704-26-020848",
+      "0001918704-26-020850",
+      "0001918704-26-020851",
+      "0001918704-26-020852",
+      "0001918704-26-020853",
       "0001929185-26-000012",
       "0001932635-26-000003",
       "0001960181-26-000002",
