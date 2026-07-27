@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-27T22:06:06.904653+00:00",
+  "generatedAt": "2026-07-27T23:05:03.478283+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 680,
+  "count": 690,
   "trades": [
     {
       "ticker": "ANIX",
@@ -21,6 +21,26 @@
       "type": "Sale",
       "shares": 1200.0,
       "pricePerShare": 142.31,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "OVLY",
+      "issuerName": "Oak Valley Bancorp",
+      "insiderName": "Strong Gary",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 2000.0,
+      "pricePerShare": 32.5,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "EW",
+      "issuerName": "Edwards Lifesciences Corp",
+      "insiderName": "Zovighian Bernard J",
+      "title": "Director, CEO",
+      "type": "Sale",
+      "shares": 2920.5511,
+      "pricePerShare": 83.9342,
       "transactionDate": "2026-07-27"
     },
     {
@@ -231,6 +251,36 @@
       "type": "Purchase",
       "shares": 20000.0,
       "pricePerShare": 20.9348,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "RENT",
+      "issuerName": "Rent the Runway, Inc.",
+      "insiderName": "Fonseca Dhiren R.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 34516.0,
+      "pricePerShare": 2.9905,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "LIFE",
+      "issuerName": "Ethos Technologies Inc.",
+      "insiderName": "GV 2019 GP, L.L.C.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 23417.0,
+      "pricePerShare": 18.8752,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "LGHL",
+      "issuerName": "Lion Group Holding Ltd",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 27702.0,
+      "pricePerShare": 0.954,
       "transactionDate": "2026-07-24"
     },
     {
@@ -621,6 +671,56 @@
       "type": "Purchase",
       "shares": 20000.0,
       "pricePerShare": 20.2942,
+      "transactionDate": "2026-07-23"
+    },
+    {
+      "ticker": "LIFE",
+      "issuerName": "Ethos Technologies Inc.",
+      "insiderName": "GV 2019 GP, L.L.C.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 63297.0,
+      "pricePerShare": 19.0573,
+      "transactionDate": "2026-07-23"
+    },
+    {
+      "ticker": "LGHL",
+      "issuerName": "Lion Group Holding Ltd",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 8435.0,
+      "pricePerShare": 1.43,
+      "transactionDate": "2026-07-23"
+    },
+    {
+      "ticker": "MCB",
+      "issuerName": "Metropolitan Bank Holding Corp.",
+      "insiderName": "Dougherty Daniel F",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 89.98,
+      "transactionDate": "2026-07-23"
+    },
+    {
+      "ticker": "PUBM",
+      "issuerName": "PubMatic, Inc.",
+      "insiderName": "Goel Rajeev K.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 49979.0,
+      "pricePerShare": 12.3453,
+      "transactionDate": "2026-07-23"
+    },
+    {
+      "ticker": "SCHW",
+      "issuerName": "SCHWAB CHARLES CORP",
+      "insiderName": "Morgan Peter J. III",
+      "title": "General Counsel",
+      "type": "Sale",
+      "shares": 6952.0,
+      "pricePerShare": 102.0341,
       "transactionDate": "2026-07-23"
     },
     {
@@ -6875,6 +6975,36 @@
         }
       ]
     },
+    "OVLY": {
+      "issuerName": "Oak Valley Bancorp",
+      "trades": [
+        {
+          "ticker": "OVLY",
+          "issuerName": "Oak Valley Bancorp",
+          "insiderName": "Strong Gary",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 32.5,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
+    "EW": {
+      "issuerName": "Edwards Lifesciences Corp",
+      "trades": [
+        {
+          "ticker": "EW",
+          "issuerName": "Edwards Lifesciences Corp",
+          "insiderName": "Zovighian Bernard J",
+          "title": "Director, CEO",
+          "type": "Sale",
+          "shares": 2920.5511,
+          "pricePerShare": 83.9342,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
     "UTHR": {
       "issuerName": "UNITED THERAPEUTICS Corp",
       "trades": [
@@ -7157,6 +7287,91 @@
           "shares": 20000.0,
           "pricePerShare": 20.2942,
           "transactionDate": "2026-07-23"
+        }
+      ]
+    },
+    "RENT": {
+      "issuerName": "Rent the Runway, Inc.",
+      "trades": [
+        {
+          "ticker": "RENT",
+          "issuerName": "Rent the Runway, Inc.",
+          "insiderName": "Fonseca Dhiren R.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 34516.0,
+          "pricePerShare": 2.9905,
+          "transactionDate": "2026-07-24"
+        }
+      ]
+    },
+    "LIFE": {
+      "issuerName": "Ethos Technologies Inc.",
+      "trades": [
+        {
+          "ticker": "LIFE",
+          "issuerName": "Ethos Technologies Inc.",
+          "insiderName": "GV 2019 GP, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 23417.0,
+          "pricePerShare": 18.8752,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "LIFE",
+          "issuerName": "Ethos Technologies Inc.",
+          "insiderName": "GV 2019 GP, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 63297.0,
+          "pricePerShare": 19.0573,
+          "transactionDate": "2026-07-23"
+        }
+      ]
+    },
+    "LGHL": {
+      "issuerName": "Lion Group Holding Ltd",
+      "trades": [
+        {
+          "ticker": "LGHL",
+          "issuerName": "Lion Group Holding Ltd",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 27702.0,
+          "pricePerShare": 0.954,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "LGHL",
+          "issuerName": "Lion Group Holding Ltd",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 8435.0,
+          "pricePerShare": 1.43,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "LGHL",
+          "issuerName": "Lion Group Holding Ltd",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 3763.0,
+          "pricePerShare": 1.36,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "LGHL",
+          "issuerName": "Lion Group Holding Ltd",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 31226.0,
+          "pricePerShare": 1.46,
+          "transactionDate": "2026-07-21"
         }
       ]
     },
@@ -8360,6 +8575,71 @@
         }
       ]
     },
+    "MCB": {
+      "issuerName": "Metropolitan Bank Holding Corp.",
+      "trades": [
+        {
+          "ticker": "MCB",
+          "issuerName": "Metropolitan Bank Holding Corp.",
+          "insiderName": "Dougherty Daniel F",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 89.98,
+          "transactionDate": "2026-07-23"
+        }
+      ]
+    },
+    "PUBM": {
+      "issuerName": "PubMatic, Inc.",
+      "trades": [
+        {
+          "ticker": "PUBM",
+          "issuerName": "PubMatic, Inc.",
+          "insiderName": "Goel Rajeev K.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 49979.0,
+          "pricePerShare": 12.3453,
+          "transactionDate": "2026-07-23"
+        }
+      ]
+    },
+    "SCHW": {
+      "issuerName": "SCHWAB CHARLES CORP",
+      "trades": [
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Morgan Peter J. III",
+          "title": "General Counsel",
+          "type": "Sale",
+          "shares": 6952.0,
+          "pricePerShare": 102.0341,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Beatty Jonathan S",
+          "title": "MD, Head of Advisor Services",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 104.2055,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Murtagh Nigel J",
+          "title": "Chief Risk Officer",
+          "type": "Sale",
+          "shares": 4053.0,
+          "pricePerShare": 104.1374,
+          "transactionDate": "2026-07-21"
+        }
+      ]
+    },
     "BTO": {
       "issuerName": "JOHN HANCOCK FINANCIAL OPPORTUNITIES FUND",
       "trades": [
@@ -9002,31 +9282,6 @@
           "shares": 32854.0,
           "pricePerShare": 15.62,
           "transactionDate": "2026-07-16"
-        }
-      ]
-    },
-    "LGHL": {
-      "issuerName": "Lion Group Holding Ltd",
-      "trades": [
-        {
-          "ticker": "LGHL",
-          "issuerName": "Lion Group Holding Ltd",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 3763.0,
-          "pricePerShare": 1.36,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "LGHL",
-          "issuerName": "Lion Group Holding Ltd",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 31226.0,
-          "pricePerShare": 1.46,
-          "transactionDate": "2026-07-21"
         }
       ]
     },
@@ -9792,31 +10047,6 @@
           "shares": 6000.0,
           "pricePerShare": 79.13,
           "transactionDate": "2026-07-17"
-        }
-      ]
-    },
-    "SCHW": {
-      "issuerName": "SCHWAB CHARLES CORP",
-      "trades": [
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Beatty Jonathan S",
-          "title": "MD, Head of Advisor Services",
-          "type": "Sale",
-          "shares": 2000.0,
-          "pricePerShare": 104.2055,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Murtagh Nigel J",
-          "title": "Chief Risk Officer",
-          "type": "Sale",
-          "shares": 4053.0,
-          "pricePerShare": 104.1374,
-          "transactionDate": "2026-07-21"
         }
       ]
     },
@@ -14716,6 +14946,9 @@
       "0000950103-26-011214",
       "0000950103-26-011215",
       "0000950103-26-011216",
+      "0000950103-26-011219",
+      "0000950103-26-011220",
+      "0000950103-26-011221",
       "0000950142-26-002131",
       "0000950142-26-002132",
       "0000950142-26-002145",
@@ -15035,6 +15268,7 @@
       "0001140361-26-029746",
       "0001140361-26-029768",
       "0001160077-26-000003",
+      "0001168404-26-000039",
       "0001171843-26-004845",
       "0001174610-26-000437",
       "0001174610-26-000473",
@@ -15488,6 +15722,8 @@
       "0001193125-26-318289",
       "0001193125-26-318294",
       "0001193125-26-318317",
+      "0001193125-26-318408",
+      "0001196460-26-000004",
       "0001201252-26-000010",
       "0001203302-26-000012",
       "0001204034-26-000021",
@@ -15698,6 +15934,8 @@
       "0001214659-26-009053",
       "0001214659-26-009054",
       "0001214659-26-009070",
+      "0001214659-26-009073",
+      "0001214659-26-009074",
       "0001220634-26-000002",
       "0001225208-26-006693",
       "0001225208-26-006694",
@@ -15713,6 +15951,8 @@
       "0001225208-26-006726",
       "0001225208-26-006727",
       "0001225208-26-006728",
+      "0001225208-26-006743",
+      "0001225481-26-000006",
       "0001230589-26-000004",
       "0001231919-26-000774",
       "0001231919-26-000776",
@@ -15746,6 +15986,7 @@
       "0001313071-26-000012",
       "0001331271-26-000064",
       "0001334330-26-000002",
+      "0001338913-26-000008",
       "0001339736-26-000014",
       "0001349121-26-000001",
       "0001352573-26-000012",
@@ -15833,6 +16074,7 @@
       "0001437749-26-024483",
       "0001437749-26-024529",
       "0001437749-26-024530",
+      "0001437749-26-024534",
       "0001445546-26-005229",
       "0001445546-26-005230",
       "0001445546-26-005231",
@@ -15876,12 +16118,15 @@
       "0001448765-26-000011",
       "0001451455-26-000009",
       "0001458423-26-000006",
+      "0001460835-26-000002",
       "0001464521-26-000105",
       "0001464521-26-000107",
       "0001464521-26-000109",
+      "0001468327-26-000055",
       "0001470831-26-000729",
       "0001475597-26-000164",
       "0001475597-26-000165",
+      "0001475597-26-000166",
       "0001475856-26-000004",
       "0001477932-26-004399",
       "0001477932-26-004400",
@@ -16198,6 +16443,14 @@
       "0001628280-26-049853",
       "0001628280-26-049871",
       "0001628280-26-049875",
+      "0001628280-26-049879",
+      "0001628280-26-049881",
+      "0001628280-26-049886",
+      "0001628280-26-049889",
+      "0001628280-26-049891",
+      "0001628280-26-049893",
+      "0001628280-26-049895",
+      "0001628280-26-049897",
       "0001634117-26-000081",
       "0001638728-26-000011",
       "0001640334-26-001221",
@@ -16302,6 +16555,7 @@
       "0001778564-26-000123",
       "0001778564-26-000125",
       "0001780851-26-000017",
+      "0001780915-26-000010",
       "0001783820-26-000010",
       "0001783879-26-000097",
       "0001783879-26-000099",
@@ -16313,6 +16567,7 @@
       "0001786612-26-000009",
       "0001786769-26-000011",
       "0001789970-26-000012",
+      "0001792910-26-000006",
       "0001794002-26-000012",
       "0001794684-26-000014",
       "0001795924-26-000005",
@@ -16356,6 +16611,7 @@
       "0001829126-26-007878",
       "0001830532-26-000008",
       "0001831651-26-000102",
+      "0001833511-26-000032",
       "0001834164-26-000004",
       "0001837872-26-000002",
       "0001837910-26-000004",
@@ -16783,7 +17039,9 @@
       "0001861460-26-000006",
       "0001862195-26-000009",
       "0001862314-26-000012",
+      "0001863185-26-000004",
       "0001863328-26-000002",
+      "0001866161-26-000004",
       "0001868844-26-000016",
       "0001869319-26-000008",
       "0001869579-26-000006",
@@ -16794,8 +17052,10 @@
       "0001876526-26-000001",
       "0001882764-26-000006",
       "0001886368-26-000002",
+      "0001887601-26-000006",
       "0001889687-26-000006",
       "0001891792-26-000002",
+      "0001892579-26-000006",
       "0001895106-26-000016",
       "0001895111-26-000015",
       "0001896463-26-000006",
@@ -17395,7 +17655,9 @@
       "0001999371-26-016049",
       "0001999371-26-016050",
       "0001999371-26-016068",
+      "0002000276-26-000006",
       "0002004222-26-000006",
+      "0002011525-26-000002",
       "0002012383-26-001978",
       "0002014633-26-000014",
       "0002017287-26-000005",
@@ -17417,6 +17679,7 @@
       "0002032340-26-000007",
       "0002032458-26-000022",
       "0002032661-26-000002",
+      "0002039219-26-000008",
       "0002041625-26-000004",
       "0002051008-26-000002",
       "0002056381-26-000004",
