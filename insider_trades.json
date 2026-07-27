@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-07-27T19:05:24.505436+00:00",
+  "generatedAt": "2026-07-27T20:03:24.190747+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 656,
+  "count": 664,
   "trades": [
+    {
+      "ticker": "ANIX",
+      "issuerName": "Anixa Biosciences Inc",
+      "insiderName": "KUMAR AMIT",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 3188.0,
+      "pricePerShare": 3.37,
+      "transactionDate": "2026-07-27"
+    },
     {
       "ticker": "UTHR",
       "issuerName": "UNITED THERAPEUTICS Corp",
@@ -101,6 +111,66 @@
       "type": "Sale",
       "shares": 500.0,
       "pricePerShare": 39.87,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "WAB",
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "insiderName": "DeNinno David L",
+      "title": "Exec VP, General Counsel, Sec.",
+      "type": "Sale",
+      "shares": 3000.0,
+      "pricePerShare": 301.3076,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "WAB",
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "insiderName": "Gebhardt Eric",
+      "title": "Chief Technology Officer",
+      "type": "Sale",
+      "shares": 1107.0,
+      "pricePerShare": 297.386,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "WAB",
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "insiderName": "Gebhardt Eric",
+      "title": "Chief Technology Officer",
+      "type": "Sale",
+      "shares": 2040.0,
+      "pricePerShare": 298.8574,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "WAB",
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "insiderName": "Gebhardt Eric",
+      "title": "Chief Technology Officer",
+      "type": "Sale",
+      "shares": 2353.0,
+      "pricePerShare": 299.6913,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "WAB",
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "insiderName": "Gebhardt Eric",
+      "title": "Chief Technology Officer",
+      "type": "Sale",
+      "shares": 1600.0,
+      "pricePerShare": 300.4941,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "WAB",
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "insiderName": "Gaur Sameer",
+      "title": "Pres., Global Freight Services",
+      "type": "Sale",
+      "shares": 1000.0,
+      "pricePerShare": 300.64,
       "transactionDate": "2026-07-24"
     },
     {
@@ -6484,6 +6554,16 @@
       "transactionDate": "2026-06-03"
     },
     {
+      "ticker": "KITT",
+      "issuerName": "Nauticus Robotics, Inc.",
+      "insiderName": "DROR BRIAN ISAAC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 32539.0,
+      "pricePerShare": 2.021,
+      "transactionDate": "2026-06-01"
+    },
+    {
       "ticker": "RANI",
       "issuerName": "Rani Therapeutics Holdings, Inc.",
       "insiderName": "Javadi Alireza",
@@ -6565,6 +6645,51 @@
     }
   ],
   "byTicker": {
+    "ANIX": {
+      "issuerName": "Anixa Biosciences Inc",
+      "trades": [
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "KUMAR AMIT",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 3188.0,
+          "pricePerShare": 3.37,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "KUMAR AMIT",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 3000.0,
+          "pricePerShare": 3.73,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "Titterton Lewis H jr",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 12000.0,
+          "pricePerShare": 3.47,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "KUMAR AMIT",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 3.46,
+          "transactionDate": "2026-07-20"
+        }
+      ]
+    },
     "UTHR": {
       "issuerName": "UNITED THERAPEUTICS Corp",
       "trades": [
@@ -6665,41 +6790,6 @@
         }
       ]
     },
-    "ANIX": {
-      "issuerName": "Anixa Biosciences Inc",
-      "trades": [
-        {
-          "ticker": "ANIX",
-          "issuerName": "Anixa Biosciences Inc",
-          "insiderName": "KUMAR AMIT",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 3000.0,
-          "pricePerShare": 3.73,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "ANIX",
-          "issuerName": "Anixa Biosciences Inc",
-          "insiderName": "Titterton Lewis H jr",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 12000.0,
-          "pricePerShare": 3.47,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "ANIX",
-          "issuerName": "Anixa Biosciences Inc",
-          "insiderName": "KUMAR AMIT",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 5000.0,
-          "pricePerShare": 3.46,
-          "transactionDate": "2026-07-20"
-        }
-      ]
-    },
     "PEBO": {
       "issuerName": "PEOPLES BANCORP INC",
       "trades": [
@@ -6711,6 +6801,71 @@
           "type": "Sale",
           "shares": 500.0,
           "pricePerShare": 39.87,
+          "transactionDate": "2026-07-24"
+        }
+      ]
+    },
+    "WAB": {
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "trades": [
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "DeNinno David L",
+          "title": "Exec VP, General Counsel, Sec.",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 301.3076,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Gebhardt Eric",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 1107.0,
+          "pricePerShare": 297.386,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Gebhardt Eric",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 2040.0,
+          "pricePerShare": 298.8574,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Gebhardt Eric",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 2353.0,
+          "pricePerShare": 299.6913,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Gebhardt Eric",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 1600.0,
+          "pricePerShare": 300.4941,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Gaur Sameer",
+          "title": "Pres., Global Freight Services",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 300.64,
           "transactionDate": "2026-07-24"
         }
       ]
@@ -13890,6 +14045,21 @@
         }
       ]
     },
+    "KITT": {
+      "issuerName": "Nauticus Robotics, Inc.",
+      "trades": [
+        {
+          "ticker": "KITT",
+          "issuerName": "Nauticus Robotics, Inc.",
+          "insiderName": "DROR BRIAN ISAAC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 32539.0,
+          "pricePerShare": 2.021,
+          "transactionDate": "2026-06-01"
+        }
+      ]
+    },
     "CAPS": {
       "issuerName": "Capstone Holding Corp.",
       "trades": [
@@ -13980,6 +14150,7 @@
       "0000894189-26-021383",
       "0000894189-26-021438",
       "0000894189-26-021441",
+      "0000894189-26-021452",
       "0000897069-26-001523",
       "0000897069-26-001525",
       "0000898243-26-000015",
@@ -14016,6 +14187,9 @@
       "0000930413-26-002108",
       "0000938333-26-000005",
       "0000939057-26-000141",
+      "0000943452-26-000004",
+      "0000943452-26-000005",
+      "0000943452-26-000007",
       "0000947703-26-000199",
       "0000947703-26-000200",
       "0000947703-26-000201",
@@ -14172,6 +14346,11 @@
       "0000950103-26-011192",
       "0000950103-26-011193",
       "0000950103-26-011194",
+      "0000950103-26-011195",
+      "0000950103-26-011196",
+      "0000950103-26-011197",
+      "0000950103-26-011198",
+      "0000950103-26-011199",
       "0000950142-26-002131",
       "0000950142-26-002132",
       "0000950142-26-002145",
@@ -14353,6 +14532,7 @@
       "0001104659-26-087023",
       "0001104659-26-087024",
       "0001104659-26-087030",
+      "0001104659-26-087074",
       "0001106578-26-000106",
       "0001108524-26-000154",
       "0001108524-26-000156",
@@ -14475,6 +14655,10 @@
       "0001140361-26-029710",
       "0001140361-26-029712",
       "0001140361-26-029715",
+      "0001140361-26-029733",
+      "0001140361-26-029736",
+      "0001140361-26-029742",
+      "0001140361-26-029746",
       "0001160077-26-000003",
       "0001171843-26-004845",
       "0001174610-26-000437",
@@ -14898,6 +15082,14 @@
       "0001193125-26-317896",
       "0001193125-26-317897",
       "0001193125-26-317898",
+      "0001193125-26-317922",
+      "0001193125-26-317923",
+      "0001193125-26-317925",
+      "0001193125-26-317955",
+      "0001193125-26-317984",
+      "0001193125-26-317989",
+      "0001193125-26-318022",
+      "0001193125-26-318034",
       "0001201252-26-000010",
       "0001203302-26-000012",
       "0001204034-26-000021",
@@ -15062,6 +15254,10 @@
       "0001213900-26-081761",
       "0001213900-26-081763",
       "0001213900-26-081766",
+      "0001213900-26-081768",
+      "0001213900-26-081770",
+      "0001213900-26-081786",
+      "0001213900-26-081797",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -15091,6 +15287,11 @@
       "0001214659-26-009034",
       "0001214659-26-009044",
       "0001214659-26-009045",
+      "0001214659-26-009049",
+      "0001214659-26-009050",
+      "0001214659-26-009051",
+      "0001214659-26-009053",
+      "0001214659-26-009054",
       "0001220634-26-000002",
       "0001225208-26-006693",
       "0001225208-26-006694",
@@ -15329,6 +15530,7 @@
       "0001493152-26-034675",
       "0001493152-26-034723",
       "0001493152-26-034726",
+      "0001493152-26-034772",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -15560,6 +15762,10 @@
       "0001628280-26-049491",
       "0001628280-26-049497",
       "0001628280-26-049740",
+      "0001628280-26-049775",
+      "0001628280-26-049777",
+      "0001628280-26-049779",
+      "0001628280-26-049781",
       "0001634117-26-000081",
       "0001638728-26-000011",
       "0001640334-26-001221",
@@ -16114,6 +16320,7 @@
       "0001839882-26-036437",
       "0001839882-26-036440",
       "0001839882-26-036441",
+      "0001839882-26-036445",
       "0001843103-26-000014",
       "0001843104-26-000014",
       "0001844767-26-000012",
@@ -16652,6 +16859,20 @@
       "0001918704-26-021310",
       "0001918704-26-021311",
       "0001918704-26-021312",
+      "0001918704-26-021313",
+      "0001918704-26-021314",
+      "0001918704-26-021315",
+      "0001918704-26-021316",
+      "0001918704-26-021317",
+      "0001918704-26-021318",
+      "0001918704-26-021319",
+      "0001918704-26-021320",
+      "0001918704-26-021321",
+      "0001918704-26-021322",
+      "0001918704-26-021323",
+      "0001918704-26-021324",
+      "0001918704-26-021325",
+      "0001918704-26-021326",
       "0001929185-26-000012",
       "0001932635-26-000003",
       "0001939754-26-000005",
@@ -16714,6 +16935,8 @@
       "0001999371-26-016026",
       "0001999371-26-016028",
       "0001999371-26-016038",
+      "0001999371-26-016049",
+      "0001999371-26-016050",
       "0002004222-26-000006",
       "0002012383-26-001978",
       "0002014633-26-000014",
@@ -16791,7 +17014,8 @@
       "0002145764-26-000004",
       "0002146309-26-000004",
       "0002146462-26-000003",
-      "0002146475-26-000002"
+      "0002146475-26-000002",
+      "0002147429-26-000003"
     ]
   }
 }
