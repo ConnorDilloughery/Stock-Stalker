@@ -132,6 +132,13 @@
   .learn-def { font-size: 14px; line-height: 1.6; color: #3A4852; }
   code { font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; background: var(--mist); padding: 1px 5px; border-radius: 4px; }
 
+  .checklist { margin-top: 14px; border-top: 1px dashed var(--line); padding-top: 4px; }
+  .check-row { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--mist); }
+  .check-row:last-child { border-bottom: none; }
+  .check-ic { font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 15px; width: 16px; text-align: center; flex-shrink: 0; line-height: 1.4; }
+  .check-label { font-size: 14px; font-weight: 500; line-height: 1.35; }
+  .check-detail { font-size: 12.5px; color: var(--dim); margin-top: 2px; line-height: 1.4; }
+
   .hidden { display: none; }
   @media (max-width: 480px) {
     .shell { padding: 0 12px; }
@@ -186,6 +193,15 @@
         </div>
       </div>
       <div class="tab-group">
+        <div class="tab-group-label">Legends</div>
+        <div class="tabs">
+          <button class="tab" data-tab="graham">Graham</button>
+          <button class="tab" data-tab="lynch">Lynch</button>
+          <button class="tab" data-tab="oneil">O'Neil</button>
+          <button class="tab" data-tab="murphy">Murphy</button>
+        </div>
+      </div>
+      <div class="tab-group">
         <div class="tab-group-label">Money Trails</div>
         <div class="tabs">
           <button class="tab" data-tab="congress">Congress Trades</button>
@@ -212,6 +228,10 @@
     <div id="tab-market"></div>
     <div id="tab-sectors" class="hidden"></div>
     <div id="tab-scout" class="hidden"></div>
+    <div id="tab-graham" class="hidden"></div>
+    <div id="tab-lynch" class="hidden"></div>
+    <div id="tab-oneil" class="hidden"></div>
+    <div id="tab-murphy" class="hidden"></div>
     <div id="tab-etfs" class="hidden"></div>
     <div id="tab-watch" class="hidden"></div>
     <div id="tab-ipo" class="hidden"></div>
@@ -325,6 +345,7 @@ let state = {
   congressLoading: false,
   congressView: "feed",
   congressExpanded: null,
+  congressTicker: "",
   sectorHistory: null,
   sectorHistoryError: null,
   sectorHistoryLoading: false,
@@ -333,6 +354,7 @@ let state = {
   insiderError: null,
   insiderLoading: false,
   insiderView: "feed",
+  insiderTicker: "",
   backtestData: null,
   backtestError: null,
   backtestLoading: false
@@ -719,6 +741,282 @@ function escapeHtml(s) {
 }
 
 function fmtCap(m) { return m >= 1000 ? "$" + (m / 1000).toFixed(1) + "B" : "$" + Math.round(m) + "M"; }
+
+/* ======================= legend screeners ======================= */
+/* Graham / Lynch / O'Neil / Murphy tabs: each screens the shared universe
+   against a famous investor's checklist using live Finnhub metric=all data.
+   Criteria the free tier can't verify (multi-decade history, float,
+   institutional ownership, RSI/MACD, chart patterns) render as "—  not on
+   free data" and never count as a pass. */
+
+const sNum = (v) => (typeof v === "number" && isFinite(v)) ? v : null;
+const sChk = (status, detail) => ({ status, detail });
+
+const STRATEGIES = [
+  {
+    id: "graham", tab: "Graham",
+    title: "Benjamin Graham — Defensive Value",
+    blurb: "From The Intelligent Investor: only financially bulletproof businesses bought at a strict discount, chosen to protect your downside first.",
+    minPct: 75,
+    naNote: "Free data can't confirm a 10-year unbroken EPS record or 20 years of continuous dividends, so those show “—”. The debt test uses long-term-debt/equity as a stand-in for the true debt-vs-working-capital rule.",
+    checks: [
+      { label: "Current ratio > 2.0 (financial solvency)", test: d => {
+        const v = sNum(d.currentRatio); if (v == null) return sChk("na", "current ratio unavailable in free data");
+        return sChk(v > 2 ? "pass" : "fail", "current ratio " + v.toFixed(2)); } },
+      { label: "Long-term debt below working capital (conservative debt)", test: d => {
+        const v = sNum(d.ltDebtEq); if (v == null) return sChk("na", "debt data unavailable");
+        return sChk(v < 0.5 ? "pass" : "fail", "long-term-debt/equity " + v.toFixed(2) + " — proxy for the working-capital rule"); } },
+      { label: "Positive EPS every year for the past 10 years", test: d => {
+        const pe = sNum(d.pe);
+        return sChk("na", pe != null && pe > 0 ? "profitable now; 10-yr history not on free data" : "10-yr EPS history not on free data"); } },
+      { label: "Uninterrupted dividends for at least 20 years", test: d => {
+        const paysNow = (sNum(d.divYield) || 0) > 0 || (sNum(d.divPerShare) || 0) > 0;
+        return sChk("na", paysNow ? "pays a dividend now; 20-yr continuity not on free data" : "no current dividend; 20-yr history not on free data"); } },
+      { label: "EPS up at least one-third over the decade", test: d => {
+        const g = sNum(d.epsGrowth5Y); if (g == null) return sChk("na", "growth data unavailable");
+        return sChk(g >= 3 ? "pass" : "fail", "5-yr EPS growth " + g.toFixed(1) + "%/yr — proxy for the 10-yr test"); } },
+      { label: "P/E × P/B ≤ 22.5 (strict valuation cap)", test: d => {
+        const pe = sNum(d.pe), pb = sNum(d.pb); if (pe == null || pb == null) return sChk("na", "P/E or P/B unavailable");
+        const p = pe * pb; return sChk(p <= 22.5 ? "pass" : "fail", "P/E " + pe.toFixed(1) + " × P/B " + pb.toFixed(2) + " = " + p.toFixed(1)); } },
+    ],
+  },
+  {
+    id: "lynch", tab: "Lynch",
+    title: "Peter Lynch — Growth at a Reasonable Price",
+    blurb: "From One Up on Wall Street: understandable companies growing steadily, cheap relative to that growth, spotted before Wall Street piles in.",
+    minPct: 60,
+    naNote: "The “dull name”, institutional-neglect and insider-buying tests are subjective or need ownership/insider feeds this free-data pull doesn't include, so they show “—”. PEG uses the 5-year EPS growth rate.",
+    checks: [
+      { label: "PEG ≤ 1 (P/E no higher than the growth rate)", test: d => {
+        const pe = sNum(d.pe), g = sNum(d.epsGrowth5Y);
+        if (pe == null || g == null || g <= 0) return sChk("na", "needs positive P/E and growth — one is missing/negative");
+        const peg = pe / g; return sChk(peg <= 1 ? "pass" : "fail", "PEG " + peg.toFixed(2) + " (P/E " + pe.toFixed(1) + " ÷ growth " + g.toFixed(0) + "%)"); } },
+      { label: "Sustainable 20–25% growth (not a frantic 50–100%)", test: d => {
+        const g = sNum(d.epsGrowth5Y); if (g == null) return sChk("na", "growth data unavailable");
+        if (g > 45) return sChk("fail", "5-yr EPS growth " + g.toFixed(0) + "% — too frantic to sustain");
+        return sChk(g >= 10 && g <= 30 ? "pass" : "fail", "5-yr EPS growth " + g.toFixed(0) + "%"); } },
+      { label: "Clean balance sheet — high cash, very low debt", test: d => {
+        const v = sNum(d.totalDebtEq) ?? sNum(d.ltDebtEq);
+        if (v == null) return sChk("na", "debt data unavailable");
+        const cash = sNum(d.cashPerShare); const cashNote = cash != null ? " · $" + cash.toFixed(2) + " cash/share" : "";
+        return sChk(v < 0.5 ? "pass" : "fail", "debt/equity " + v.toFixed(2) + cashNote); } },
+      { label: "A boring, dull, or unglamorous name/industry", test: () => sChk("na", "subjective — Lynch wants you to judge the name yourself") },
+      { label: "Institutional neglect (low analyst & fund coverage)", test: () => sChk("na", "analyst coverage & institutional ownership aren't in this free-data pull") },
+      { label: "Insider buying with executives' own money", test: () => sChk("na", "insider-transaction feed not included in this screen") },
+    ],
+  },
+  {
+    id: "oneil", tab: "O'Neil",
+    title: "William O'Neil — CAN SLIM Growth",
+    blurb: "From How to Make Money in Stocks: fast-growing earnings leaders breaking out on strength, bought only in a rising market.",
+    minPct: 75,
+    naNote: "Float, a volume spike, institutional fund count, market direction and chart patterns (cup-and-handle, etc.) need premium/price-history data, so they show “—”. The Relative-Strength check is approximated by ranking 52-week return within the scanned names.",
+    checks: [
+      { label: "C — Quarterly EPS up ≥ 25% year-over-year", test: d => {
+        const g = sNum(d.epsGrowthQtrYoy); if (g == null) return sChk("na", "quarterly growth unavailable");
+        return sChk(g >= 25 ? "pass" : "fail", "latest-quarter EPS " + (g >= 0 ? "+" : "") + g.toFixed(0) + "% YoY"); } },
+      { label: "A — Annual EPS growth ≥ 25% over 3–5 years", test: d => {
+        const g = sNum(d.epsGrowth3Y) ?? sNum(d.epsGrowth5Y); if (g == null) return sChk("na", "annual growth unavailable");
+        return sChk(g >= 25 ? "pass" : "fail", "3–5yr EPS growth " + g.toFixed(0) + "%/yr"); } },
+      { label: "N — Near a new high (new product/leadership proxy)", test: d => {
+        const h = sNum(d.high52), p = sNum(d.price); if (h == null || p == null) return sChk("na", "52-week high unavailable");
+        const off = (h - p) / h * 100; return sChk(off <= 5 ? "pass" : "fail", "within " + off.toFixed(0) + "% of its 52-week high"); } },
+      { label: "L — Relative Strength ≥ 80 (a leader, not a laggard)", test: d => {
+        const rs = sNum(d.rsApprox); if (rs == null) return sChk("na", "not enough names to rank");
+        return sChk(rs >= 80 ? "pass" : "fail", "approx RS " + rs + " — ranked within this scan's universe"); } },
+      { label: "S — Low float + volume spike on breakout", test: () => sChk("na", "float & intraday volume are premium data") },
+      { label: "I — Owned by 3–5 top institutional funds", test: () => sChk("na", "institutional fund holdings not in free data") },
+      { label: "M — Overall market in a confirmed uptrend", test: () => sChk("na", "confirm the major indexes are trending up yourself before buying") },
+      { label: "Breaking out of a cup-and-handle / base pattern", test: () => sChk("na", "chart-pattern recognition needs price-history data") },
+    ],
+  },
+  {
+    id: "murphy", tab: "Murphy",
+    title: "John Murphy — Trend & Momentum",
+    blurb: "From Technical Analysis of the Financial Markets: ignore the financials, follow price. Note: this is the most data-limited screen — most true technical checks need premium price-history data.",
+    minPct: 100,
+    naNote: "Real 50/200-day moving-average crossovers, RSI/MACD, support/resistance breakouts and volume confirmation all need daily price-history (a Finnhub premium feed), so they show “—”. The two proxy checks below use the free multi-horizon return figures instead.",
+    checks: [
+      { label: "Trend alignment (up over 3, 6 and 12 months)", test: d => {
+        const a = sNum(d.ret13), b = sNum(d.ret26), c = sNum(d.ret52);
+        if (a == null || b == null || c == null) return sChk("na", "return history unavailable");
+        const up = a > 0 && b > 0 && c > 0;
+        return sChk(up ? "pass" : "fail", `13w ${a.toFixed(0)}% · 26w ${b.toFixed(0)}% · 52w ${c.toFixed(0)}% — proxy for the 50/200-day MA crossover`); } },
+      { label: "Trading in the upper half of its 52-week range", test: d => {
+        const h = sNum(d.high52), l = sNum(d.low52), p = sNum(d.price);
+        if (h == null || l == null || p == null || h === l) return sChk("na", "range data unavailable");
+        const pos = (p - l) / (h - l) * 100;
+        return sChk(pos >= 50 ? "pass" : "fail", pos.toFixed(0) + "% up its 52-week range — proxy for a support/resistance breakout"); } },
+      { label: "Volume confirming the move (rising on up-days)", test: () => sChk("na", "daily volume history is premium data") },
+      { label: "RSI / MACD bullish but not overextended", test: () => sChk("na", "RSI & MACD are premium technical indicators") },
+    ],
+  },
+];
+
+// Per-strategy UI substate + a short-lived cache so the four screens share
+// Finnhub calls instead of re-fetching the same universe each time.
+state.metricCache = {};
+state.strat = {};
+STRATEGIES.forEach(s => { state.strat[s.id] = { sector: "Any sector", results: [], scanning: false, error: null, scanned: false }; });
+
+function pickTickersForStrat(sector) {
+  if (sector !== "Any sector") return UNIVERSE[sector].map(t => [t, sector]);
+  const picks = [];
+  for (const [sec, list] of Object.entries(UNIVERSE)) {
+    [...list].sort(() => Math.random() - 0.5).slice(0, 3).forEach(t => picks.push([t, sec]));
+  }
+  return picks;
+}
+
+async function fetchMetricsStrat(tk, sec) {
+  const now = Date.now();
+  let cached = state.metricCache[tk];
+  if (!cached || now - cached.t > 600000) { // 10-minute reuse window
+    const [quote, metric] = await Promise.all([
+      fh("/quote", { symbol: tk }),
+      fh("/stock/metric", { symbol: tk, metric: "all" })
+    ]);
+    cached = { t: now, quote, metric: metric.metric || {} };
+    state.metricCache[tk] = cached;
+  }
+  const m = cached.metric, price = cached.quote.c;
+  if (!price) return null;
+  const g = (k) => sNum(m[k]);
+  return {
+    ticker: tk, sector: sec, price,
+    pe: g("peBasicExclExtraTTM") ?? g("peTTM") ?? g("peNormalizedAnnual"),
+    pb: g("pbAnnual") ?? g("pbQuarterly"),
+    currentRatio: g("currentRatioAnnual") ?? g("currentRatioQuarterly"),
+    ltDebtEq: g("longTermDebt/equityAnnual") ?? g("longTermDebt/equityQuarterly"),
+    totalDebtEq: g("totalDebt/totalEquityAnnual") ?? g("totalDebt/totalEquityQuarterly"),
+    epsGrowth3Y: g("epsGrowth3Y"), epsGrowth5Y: g("epsGrowth5Y"),
+    epsGrowthQtrYoy: g("epsGrowthQuarterlyYoy"), epsGrowthTTMYoy: g("epsGrowthTTMYoy"),
+    divYield: g("dividendYieldIndicatedAnnual") ?? g("currentDividendYieldTTM"),
+    divPerShare: g("dividendPerShareAnnual") ?? g("dividendPerShareTTM"),
+    cashPerShare: g("cashPerSharePerShareAnnual") ?? g("cashPerSharePerShareQuarterly"),
+    high52: g("52WeekHigh"), low52: g("52WeekLow"),
+    ret52: g("52WeekPriceReturnDaily"), ret26: g("26WeekPriceReturnDaily"), ret13: g("13WeekPriceReturnDaily"),
+    marketCap: g("marketCapitalization"),
+    rsApprox: null,
+  };
+}
+
+async function runStrategyScan(stratId) {
+  const S = state.strat[stratId];
+  if (S.scanning) return;
+  const strat = STRATEGIES.find(s => s.id === stratId);
+  S.scanning = true; S.error = null; S.results = []; S.scanned = true;
+  renderStrategy(stratId);
+  const prog = document.getElementById(stratId + "Progress");
+  const fill = document.getElementById(stratId + "Fill");
+  const tickers = pickTickersForStrat(S.sector);
+  const rows = [];
+  try {
+    for (let i = 0; i < tickers.length; i++) {
+      const [tk, sec] = tickers[i];
+      if (prog) prog.textContent = `Checking ${tk} — ${i + 1} of ${tickers.length}`;
+      if (fill) fill.style.width = `${((i + 1) / tickers.length) * 90}%`;
+      const fresh = !state.metricCache[tk] || (Date.now() - state.metricCache[tk].t > 600000);
+      try {
+        const d = await fetchMetricsStrat(tk, sec);
+        if (d) rows.push(d);
+      } catch (e) { if (e.message === "BADKEY") throw e; }
+      if (fresh) await sleep(650); // only pace real network calls, not cache hits
+    }
+    // Universe-relative Relative-Strength approximation (for O'Neil's L test)
+    const rets = rows.map(r => sNum(r.ret52)).filter(v => v != null).sort((a, b) => a - b);
+    rows.forEach(r => {
+      const v = sNum(r.ret52);
+      r.rsApprox = (v == null || rets.length === 0) ? null
+        : Math.round((rets.filter(x => x <= v).length / rets.length) * 99);
+    });
+    rows.forEach(r => {
+      const res = strat.checks.map(c => Object.assign({ label: c.label }, c.test(r)));
+      const scored = res.filter(x => x.status !== "na");
+      const passed = res.filter(x => x.status === "pass").length;
+      r.checkResults = res;
+      r.passed = passed;
+      r.scoredTotal = scored.length;
+      r.matchPct = scored.length ? Math.round((passed / scored.length) * 100) : 0;
+    });
+    S.results = rows
+      .filter(r => r.scoredTotal > 0 && r.matchPct >= strat.minPct)
+      .sort((a, b) => b.matchPct - a.matchPct || b.passed - a.passed)
+      .slice(0, 10);
+  } catch (e) {
+    S.error = e.message === "BADKEY"
+      ? "Finnhub rejected the API key. Re-enter it when prompted."
+      : "The scan hit a network snag (" + e.message + "). Try again in a minute.";
+    if (e.message === "BADKEY") { try { localStorage.removeItem("uc:key"); } catch (_) {} state.key = null; }
+  }
+  S.scanning = false;
+  renderStrategy(stratId);
+}
+
+const CHECK_ICON = {
+  pass: { c: "var(--kelp)", s: "✓" },
+  fail: { c: "var(--coral)", s: "✗" },
+  na:   { c: "var(--dim)",  s: "—" },
+};
+
+function strategyCardHtml(r) {
+  const bg = r.matchPct >= 75 ? "#E3F1EA" : r.matchPct >= 50 ? "#F6EEDD" : "#F7E6E2";
+  const fg = r.matchPct >= 75 ? "#1E7A5A" : r.matchPct >= 50 ? "#9A6B1B" : "#C94F3D";
+  const meta = [r.sector,
+    r.pe != null ? "P/E " + r.pe.toFixed(1) : null,
+    r.marketCap != null ? fmtCap(r.marketCap) : null].filter(Boolean).join(" · ");
+  return `
+    <div class="card">
+      <div class="card-head">
+        <div>
+          <div class="ticker-row">
+            <span class="ticker">${escapeHtml(r.ticker)}</span>
+            <span class="chip" style="background:${bg};color:${fg}">${r.passed}/${r.scoredTotal} verifiable checks · ${r.matchPct}%</span>
+          </div>
+          <div class="name">${escapeHtml(meta)}</div>
+        </div>
+        <div class="price-block"><div class="price">$${r.price.toFixed(2)}</div></div>
+      </div>
+      <div class="checklist">
+        ${r.checkResults.map(c => {
+          const ic = CHECK_ICON[c.status];
+          return `<div class="check-row">
+            <span class="check-ic" style="color:${ic.c}">${ic.s}</span>
+            <div><div class="check-label">${escapeHtml(c.label)}</div><div class="check-detail">${escapeHtml(c.detail)}</div></div>
+          </div>`;
+        }).join("")}
+      </div>
+    </div>`;
+}
+
+function renderStrategy(stratId) {
+  const strat = STRATEGIES.find(s => s.id === stratId);
+  const S = state.strat[stratId];
+  const root = document.getElementById("tab-" + stratId);
+  if (!root) return;
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">${escapeHtml(strat.title)}</div>
+      <p class="panel-copy">${escapeHtml(strat.blurb)}</p>
+      <div class="field-label">Sector</div>
+      <div class="chips">${SECTORS.map(s => `<button class="pick ${s === S.sector ? "on" : ""}" data-strat-sector="${s}">${s}</button>`).join("")}</div>
+      <div class="baked"><strong>Honest-data note.</strong> ${escapeHtml(strat.naNote)} A “—” means the criterion can't be verified on the free data plan — it's never counted as a pass. Cards are ranked by the share of <em>verifiable</em> checks they clear.</div>
+      <button class="btn btn-big" id="${stratId}Btn" ${S.scanning ? "disabled" : ""}>${S.scanning ? "Scanning…" : "Run the " + strat.tab + " screen"}</button>
+    </div>
+    ${S.scanning ? `
+      <div class="progress-wrap">
+        <div class="progress-line" id="${stratId}Progress">Warming up…</div>
+        <div class="progress-track"><div class="progress-fill" id="${stratId}Fill"></div></div>
+        <div class="progress-sub">Checking each name live against ${escapeHtml(strat.tab)}'s checklist. A full sector takes about a minute on the free data plan; repeat scans reuse recent data instantly.</div>
+      </div>` : ""}
+    ${S.error && !S.scanning ? `<div class="error">${escapeHtml(S.error)}</div>` : ""}
+    ${!S.scanning && S.scanned && S.results.length === 0 && !S.error ? `<div class="empty"><div class="empty-title">Nothing cleared ${escapeHtml(strat.tab)}'s bar today</div><p>These are strict, opinionated screens — an empty result is common and honest. Try another sector.</p></div>` : ""}
+    <div id="${stratId}Results">${S.results.map(strategyCardHtml).join("")}</div>
+  `;
+  root.querySelectorAll("[data-strat-sector]").forEach(b => b.addEventListener("click", () => { S.sector = b.dataset.stratSector; renderStrategy(stratId); }));
+  const btn = document.getElementById(stratId + "Btn");
+  if (btn) btn.addEventListener("click", () => requireKey(() => { S.error = null; runStrategyScan(stratId); }));
+}
 
 function healthChips(s) {
   const chip = (txt, ok) => {
@@ -1370,6 +1668,41 @@ function congressPoliticianCard(name, p) {
     </div>`;
 }
 
+// Filter every trade on file down to a single ticker, newest first.
+function congressTradesForTicker(d, query) {
+  const q = (query || "").trim().toUpperCase();
+  if (!q) return [];
+  return d.trades
+    .filter(t => (t.ticker || "").toUpperCase() === q)
+    .sort((a, b) => (b.transactionDate || b.filedDate || "").localeCompare(a.transactionDate || a.filedDate || ""));
+}
+
+// Results portion of the "By ticker" view (everything below the search box),
+// factored out so live keystroke filtering can refresh just this slice.
+function congressByTickerResultsHtml(d, query) {
+  const q = (query || "").trim().toUpperCase();
+  if (!q) {
+    return `<div class="empty"><div class="empty-title">Search a ticker</div><p>Type a symbol above to see every congressional trade on file for that stock, across all politicians.</p></div>`;
+  }
+  const trades = congressTradesForTicker(d, query);
+  if (trades.length === 0) {
+    return `<div class="empty"><div class="empty-title">No trades on file for ${escapeHtml(q)}</div><p>No senator, representative, or the President has a disclosed transaction in ${escapeHtml(q)} in the current data. Congressional filings lag the actual trade by up to 45 days, so recent activity may not have been disclosed yet.</p></div>`;
+  }
+  const buys = trades.filter(t => (t.type || "").toLowerCase().includes("purchase")).length;
+  const sells = trades.filter(t => (t.type || "").toLowerCase().includes("sale")).length;
+  const people = new Set(trades.map(t => t.politician || "")).size;
+  return `
+    <div class="card" style="padding:14px 20px">
+      <div class="name" style="font-size:15px;color:var(--ink)">
+        <strong>${trades.length}</strong> trade${trades.length === 1 ? "" : "s"} in <strong>${escapeHtml(q)}</strong> ·
+        ${people} politician${people === 1 ? "" : "s"} ·
+        <span style="color:${TX_TYPE_STYLE.purchase.fg}">${buys} buy${buys === 1 ? "" : "s"}</span> ·
+        <span style="color:${TX_TYPE_STYLE.sale.fg}">${sells} sell${sells === 1 ? "" : "s"}</span>
+      </div>
+    </div>
+    ${trades.map(congressTradeRow).join("")}`;
+}
+
 function renderCongress() {
   const root = document.getElementById("tab-congress");
   const d = state.congressData;
@@ -1382,14 +1715,23 @@ function renderCongress() {
       <div class="chips">
         <button class="pick ${state.congressView === "feed" ? "on" : ""}" data-congress-view="feed">Recent trades</button>
         <button class="pick ${state.congressView === "politicians" ? "on" : ""}" data-congress-view="politicians">By politician</button>
+        <button class="pick ${state.congressView === "byTicker" ? "on" : ""}" data-congress-view="byTicker">By ticker</button>
       </div>
       <button class="btn btn-big" id="congressRefresh">${state.congressLoading ? "Loading…" : "Refresh from Pi"}</button>
     </div>
     ${state.congressError ? `<div class="error">${escapeHtml(state.congressError)}</div>` : ""}
+    ${state.congressView === "byTicker" && d ? `
+      <div class="panel">
+        <div style="display:flex;gap:10px">
+          <input type="text" id="congressTickerInput" placeholder="e.g. NVDA" style="flex:1" autocomplete="off" value="${escapeHtml(state.congressTicker)}">
+        </div>
+      </div>` : ""}
     <div id="congressResults">${
       !d ? "" :
       state.congressView === "feed"
         ? d.trades.slice(0, 200).map(congressTradeRow).join("")
+        : state.congressView === "byTicker"
+        ? congressByTickerResultsHtml(d, state.congressTicker)
         : politicians.map(([name, p]) => congressPoliticianCard(name, p)).join("")
     }</div>
   `;
@@ -1404,6 +1746,15 @@ function renderCongress() {
     state.congressExpanded = state.congressExpanded === name ? null : name;
     renderCongress();
   }));
+  const tickerInput = document.getElementById("congressTickerInput");
+  if (tickerInput) {
+    // Filter live but only repaint the results list, so the input keeps focus.
+    tickerInput.addEventListener("input", (e) => {
+      state.congressTicker = e.target.value;
+      const results = document.getElementById("congressResults");
+      if (results && d) results.innerHTML = congressByTickerResultsHtml(d, state.congressTicker);
+    });
+  }
   if (!d && !state.congressLoading && !state.congressError) loadCongressData(false);
 }
 
@@ -1493,11 +1844,24 @@ function highConfidenceCrossRefHtml() {
     </div>`;
 }
 
+// Results portion of the "By stock" view (everything below the search box),
+// factored out so live keystroke filtering can refresh just this slice.
+// Empty query lists every stock (the original behavior); a query narrows to
+// tickers matching what's typed.
+function insiderByTickerResultsHtml(d, query) {
+  const q = (query || "").trim().toUpperCase();
+  let tickers = Object.entries(d.byTicker).sort((a, b) => b[1].trades.length - a[1].trades.length);
+  if (q) tickers = tickers.filter(([ticker]) => ticker.toUpperCase().includes(q));
+  if (tickers.length === 0) {
+    return `<div class="empty"><div class="empty-title">No insider trades on file for ${escapeHtml(q)}</div><p>No open-market Form 4 purchase or sale for a ticker matching “${escapeHtml(q)}” is in the current data. Coverage is the actively-traded US universe, so foreign issuers, OTC/pink sheets, and very thin names won't appear.</p></div>`;
+  }
+  return tickers.map(([ticker, tk]) => insiderTickerCard(ticker, tk)).join("");
+}
+
 function renderInsiders() {
   const root = document.getElementById("tab-insiders");
   const d = state.insiderData;
   const updated = d ? new Date(d.generatedAt).toLocaleString() : null;
-  const tickers = d ? Object.entries(d.byTicker).sort((a, b) => b[1].trades.length - a[1].trades.length) : [];
   root.innerHTML = `
     <div class="panel">
       <div class="panel-title">Insider trades</div>
@@ -1510,11 +1874,17 @@ function renderInsiders() {
     </div>
     ${highConfidenceCrossRefHtml()}
     ${state.insiderError ? `<div class="error">${escapeHtml(state.insiderError)}</div>` : ""}
+    ${state.insiderView === "ticker" && d ? `
+      <div class="panel">
+        <div style="display:flex;gap:10px">
+          <input type="text" id="insiderTickerInput" placeholder="Look up a stock — e.g. NVDA" style="flex:1" autocomplete="off" value="${escapeHtml(state.insiderTicker)}">
+        </div>
+      </div>` : ""}
     <div id="insiderResults">${
       !d ? "" :
       state.insiderView === "feed"
         ? d.trades.slice(0, 200).map(insiderTradeRow).join("")
-        : tickers.map(([ticker, tk]) => insiderTickerCard(ticker, tk)).join("")
+        : insiderByTickerResultsHtml(d, state.insiderTicker)
     }</div>
   `;
   const btn = document.getElementById("insiderRefresh");
@@ -1523,6 +1893,15 @@ function renderInsiders() {
     state.insiderView = b.dataset.insiderView;
     renderInsiders();
   }));
+  const insiderTickerInput = document.getElementById("insiderTickerInput");
+  if (insiderTickerInput) {
+    // Filter live but only repaint the results list, so the input keeps focus.
+    insiderTickerInput.addEventListener("input", (e) => {
+      state.insiderTicker = e.target.value;
+      const results = document.getElementById("insiderResults");
+      if (results && d) results.innerHTML = insiderByTickerResultsHtml(d, state.insiderTicker);
+    });
+  }
   if (!d && !state.insiderLoading && !state.insiderError) loadInsiderData(false);
   if (!state.marketData && !state.marketLoading) loadMarketData(false); // needed for the cross-reference callout
 }
@@ -2197,6 +2576,7 @@ function renderLearn() {
     ["Market Pulse tab", "A before-the-bell scan: live index snapshots (SPY/QQQ/DIA vs. previous close — the best free stand-in for overnight futures moves), today's full earnings calendar, and general market headlines. The economic calendar (Fed events, CPI, jobs data) needs a paid Finnhub plan — if it shows as unavailable, that's why, and a free public link is provided instead. Nothing here is ranked by predicted market impact; that requires real quantitative modeling no honest free source can back up, so read everything and use your own judgment on what matters most."],
     ["Congress Trades tab", "Reads congress.json, built by a separate Pi script (congress_scanner.py) that runs hourly and pulls from three official sources — no paid data vendor. <strong>Senate:</strong> Periodic Transaction Reports from efdsearch.senate.gov, filed as clean structured HTML — high confidence on ticker, date, type, and amount. <strong>House:</strong> PTRs from disclosures-clerk.house.gov, filed as PDFs but almost always real digital text (not scans) — tickers appear directly in the filing, e.g. \"Apple Inc. - Common Stock (AAPL)\", extracted from real table structure — nearly as high-confidence as the Senate. Complex filings that bundle many holdings into one bulk transaction occasionally lose a few rows to imperfect table parsing — never a wrong ticker, just an incomplete one. <strong>President:</strong> Trump's PTRs are self-published as PDFs on whitehouse.gov under the same STOCK Act requirement, but that's meaningfully lower-confidence data: some filings are pure scanned images, so pages with no text layer are run through OCR — even filings with a real text layer are often themselves noisy OCR baked in by whoever produced the PDF — so only transactions matching a recognized large-cap ticker are kept (bonds and smaller/unrecognized names are silently dropped, never guessed at), and transaction dates are omitted for these entries since OCR'd dates aren't reliable enough to trust (only the filing's date is kept). By law, amounts are reported as ranges, not exact dollar figures or share counts, so the per-politician view here is an observed buy/sell history, not a live net-worth or portfolio-value calculation — treat it as a lead to research further, not a finished answer. If this tab shows an error, the Pi's congress-scanner.timer hasn't run yet or hasn't pushed its first update."],
     ["Insider Trades tab", "Reads insider_trades.json, built by insider_scanner.py — hourly, straight from SEC EDGAR's real-time Form 4 feed (sec.gov), no paid vendor. Form 4 is how corporate officers, directors, and 10%+ owners disclose buying or selling their own company's stock. Covers the full actively-traded US stock universe (thousands of tickers, the same NASDAQ screener market_scanner.py uses) — not literally every filer on EDGAR, since foreign issuers, OTC/pink sheets, and very thin names are excluded, but broad enough that real matches show up regularly. Every public company files Form 4s constantly for routine compensation events (RSU vests, tax-withholding sales, option exercises), which would be mostly noise unrelated to genuine buy/sell conviction — only real open-market purchases and sales are kept; grants, exercises, and gifts are filtered out. Amounts here are exact (real share counts × real price), unlike Congress data's legally-mandated ranges. The \"highest-confidence overlap\" callout highlights stocks that are both a Buy/Accumulate signal on Full Market and have had a recent insider purchase — still not advice, just two independent signals agreeing."],
+    ["Legends tabs (Graham / Lynch / O'Neil / Murphy)", "Four screens that grade the same live-Finnhub universe against a famous investor's checklist instead of this app's own signal. <strong>Graham</strong> = defensive deep value (current ratio, strict P/E × P/B ≤ 22.5). <strong>Lynch</strong> = growth at a reasonable price (PEG ≤ 1, sustainable growth, clean balance sheet). <strong>O'Neil</strong> = CAN SLIM growth leaders (rising quarterly & annual EPS, near new highs, relative strength). <strong>Murphy</strong> = pure price-trend momentum. Each card scores only the checks the free data can actually verify, and is ranked by the share it clears. These strategies were written for data a free plan doesn't expose — 10–20 years of EPS/dividend history, share float, institutional holdings, and true technical indicators (RSI, MACD, moving-average crossovers, chart patterns). Rather than fake those, the app marks them “—” and never counts them as a pass, so a card's score always reflects only what was really checked. Murphy is the most limited screen for that reason; its two checks are honest proxies built from the free multi-horizon return figures. Like Scout, these call Finnhub live, so they'll ask for your free API key the first time you run one."],
     ["Track Record tab", "The honest test of whether this app's conviction score means anything. Every day, backtest_tracker.py logs the entry price the moment a stock first qualifies for a Buy or Accumulate signal (once per signal \"episode,\" not once per day it stays qualified), then tracks that price forward indefinitely. This is <strong>forward-only</strong> — stocks.json is a rolling snapshot with no stored history of past signals, so there was never a way to reconstruct what the score \"would have\" called six months ago. The track record here only started the day this feature shipped, so early on there simply isn't enough data (or enough time elapsed) to say whether the score works — treat the first few months of results as noise, not a verdict. Win rate and average return are broken out by how long ago each signal fired (30/90/180/365+ days), since a 3-day-old pick hasn't had a chance to prove anything yet."],
     ["Status tab", "Not a separate monitoring system — just the \"last updated\" timestamp every other tab already shows, gathered in one place, so a scanner that's quietly stopped working doesn't go unnoticed for days. Each source has its own staleness threshold rather than one blanket rule: the continuously-running Full Market/ETF scanner should almost always be recent, while Congress Trades and Insider Trades can legitimately go multiple days without a new match — a quiet weekend, or just no qualifying activity in that window, isn't a bug (see their own tabs for why matches are inherently less frequent). \"Healthy\" and \"Stale\" both just describe normal operation at different points in a source's own cadence; \"Likely stuck\" is calibrated to be well past what a normal quiet period would produce, and is the one worth actually checking on."]
   ];
@@ -2215,6 +2595,7 @@ function showApp() {
   document.getElementById("setup").classList.add("hidden");
   document.getElementById("app").classList.remove("hidden");
   renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse(); renderDividends(); renderCongress(); renderSectors(); renderInsiders(); renderBacktest(); renderHealth();
+  STRATEGIES.forEach(s => renderStrategy(s.id));
 }
 
 // Only Scout, IPO radar, Market Pulse, and Watchlist price refresh actually
@@ -2230,7 +2611,7 @@ function requireKey(action) {
 
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
-  ["scout", "market", "sectors", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "backtest", "health", "learn"].forEach(id =>
+  ["scout", "graham", "lynch", "oneil", "murphy", "market", "sectors", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "backtest", "health", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
 }));
 
