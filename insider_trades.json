@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-27T12:05:00.888966+00:00",
+  "generatedAt": "2026-07-27T13:04:33.751004+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 649,
+  "count": 652,
   "trades": [
     {
       "ticker": "UTHR",
@@ -81,6 +81,16 @@
       "type": "Purchase",
       "shares": 1100.0,
       "pricePerShare": 12.88,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "ANIX",
+      "issuerName": "Anixa Biosciences Inc",
+      "insiderName": "KUMAR AMIT",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 3000.0,
+      "pricePerShare": 3.73,
       "transactionDate": "2026-07-24"
     },
     {
@@ -321,6 +331,26 @@
       "type": "Purchase",
       "shares": 2500.0,
       "pricePerShare": 13.14,
+      "transactionDate": "2026-07-23"
+    },
+    {
+      "ticker": "VLN",
+      "issuerName": "Valens Semiconductor Ltd.",
+      "insiderName": "Rozenberg Haine Yael",
+      "title": "VP Finance",
+      "type": "Sale",
+      "shares": 2750.0,
+      "pricePerShare": 1.7257,
+      "transactionDate": "2026-07-23"
+    },
+    {
+      "ticker": "MKC",
+      "issuerName": "MCCORMICK & CO INC",
+      "insiderName": "Conway Michael Aaron",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1100.0,
+      "pricePerShare": 50.2067,
       "transactionDate": "2026-07-23"
     },
     {
@@ -6595,6 +6625,41 @@
         }
       ]
     },
+    "ANIX": {
+      "issuerName": "Anixa Biosciences Inc",
+      "trades": [
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "KUMAR AMIT",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 3000.0,
+          "pricePerShare": 3.73,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "Titterton Lewis H jr",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 12000.0,
+          "pricePerShare": 3.47,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "KUMAR AMIT",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 3.46,
+          "transactionDate": "2026-07-20"
+        }
+      ]
+    },
     "PSMT": {
       "issuerName": "PRICESMART INC",
       "trades": [
@@ -7590,6 +7655,56 @@
         }
       ]
     },
+    "VLN": {
+      "issuerName": "Valens Semiconductor Ltd.",
+      "trades": [
+        {
+          "ticker": "VLN",
+          "issuerName": "Valens Semiconductor Ltd.",
+          "insiderName": "Rozenberg Haine Yael",
+          "title": "VP Finance",
+          "type": "Sale",
+          "shares": 2750.0,
+          "pricePerShare": 1.7257,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "VLN",
+          "issuerName": "Valens Semiconductor Ltd.",
+          "insiderName": "Rozenberg Haine Yael",
+          "title": "VP Finance",
+          "type": "Sale",
+          "shares": 3125.0,
+          "pricePerShare": 1.7142,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "VLN",
+          "issuerName": "Valens Semiconductor Ltd.",
+          "insiderName": "Rozenberg Haine Yael",
+          "title": "VP Finance",
+          "type": "Sale",
+          "shares": 1458.0,
+          "pricePerShare": 1.71,
+          "transactionDate": "2026-07-20"
+        }
+      ]
+    },
+    "MKC": {
+      "issuerName": "MCCORMICK & CO INC",
+      "trades": [
+        {
+          "ticker": "MKC",
+          "issuerName": "MCCORMICK & CO INC",
+          "insiderName": "Conway Michael Aaron",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1100.0,
+          "pricePerShare": 50.2067,
+          "transactionDate": "2026-07-23"
+        }
+      ]
+    },
     "BTO": {
       "issuerName": "JOHN HANCOCK FINANCIAL OPPORTUNITIES FUND",
       "trades": [
@@ -7981,31 +8096,6 @@
           "type": "Purchase",
           "shares": 1167.0,
           "pricePerShare": 72.9507,
-          "transactionDate": "2026-07-20"
-        }
-      ]
-    },
-    "VLN": {
-      "issuerName": "Valens Semiconductor Ltd.",
-      "trades": [
-        {
-          "ticker": "VLN",
-          "issuerName": "Valens Semiconductor Ltd.",
-          "insiderName": "Rozenberg Haine Yael",
-          "title": "VP Finance",
-          "type": "Sale",
-          "shares": 3125.0,
-          "pricePerShare": 1.7142,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "VLN",
-          "issuerName": "Valens Semiconductor Ltd.",
-          "insiderName": "Rozenberg Haine Yael",
-          "title": "VP Finance",
-          "type": "Sale",
-          "shares": 1458.0,
-          "pricePerShare": 1.71,
           "transactionDate": "2026-07-20"
         }
       ]
@@ -11005,31 +11095,6 @@
         }
       ]
     },
-    "ANIX": {
-      "issuerName": "Anixa Biosciences Inc",
-      "trades": [
-        {
-          "ticker": "ANIX",
-          "issuerName": "Anixa Biosciences Inc",
-          "insiderName": "Titterton Lewis H jr",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 12000.0,
-          "pricePerShare": 3.47,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "ANIX",
-          "issuerName": "Anixa Biosciences Inc",
-          "insiderName": "KUMAR AMIT",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 5000.0,
-          "pricePerShare": 3.46,
-          "transactionDate": "2026-07-20"
-        }
-      ]
-    },
     "GWRE": {
       "issuerName": "Guidewire Software, Inc.",
       "trades": [
@@ -13760,6 +13825,7 @@
       "0000030146-26-000310",
       "0000030146-26-000312",
       "0000038777-26-000191",
+      "0000063754-26-000284",
       "0000070502-26-000497",
       "0000070502-26-000499",
       "0000070502-26-000501",
@@ -14140,6 +14206,11 @@
       "0001104659-26-086771",
       "0001104659-26-086797",
       "0001104659-26-086856",
+      "0001104659-26-086863",
+      "0001104659-26-086865",
+      "0001104659-26-086872",
+      "0001104659-26-086877",
+      "0001104659-26-086880",
       "0001106578-26-000106",
       "0001108524-26-000154",
       "0001108524-26-000156",
@@ -14623,6 +14694,11 @@
       "0001193125-26-316592",
       "0001193125-26-316918",
       "0001193125-26-316920",
+      "0001193125-26-316960",
+      "0001193125-26-316964",
+      "0001193125-26-316973",
+      "0001193125-26-316974",
+      "0001193125-26-316975",
       "0001201252-26-000010",
       "0001204034-26-000021",
       "0001204816-26-000026",
@@ -14772,6 +14848,7 @@
       "0001213900-26-081115",
       "0001213900-26-081547",
       "0001213900-26-081556",
+      "0001213900-26-081592",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -15024,6 +15101,7 @@
       "0001493152-26-034654",
       "0001493152-26-034656",
       "0001493152-26-034675",
+      "0001493152-26-034723",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -16188,6 +16266,9 @@
       "0001918704-26-021098",
       "0001918704-26-021104",
       "0001918704-26-021105",
+      "0001918704-26-021224",
+      "0001918704-26-021225",
+      "0001918704-26-021226",
       "0001929185-26-000012",
       "0001932635-26-000003",
       "0001939754-26-000005",
@@ -16204,6 +16285,7 @@
       "0001973678-26-000013",
       "0001976408-26-000660",
       "0001976408-26-000664",
+      "0001976408-26-000674",
       "0001983992-26-000005",
       "0001984784-26-000020",
       "0001999086-26-000021",
