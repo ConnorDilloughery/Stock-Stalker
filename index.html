@@ -860,10 +860,19 @@ state.strat = {};
 STRATEGIES.forEach(s => { state.strat[s.id] = { sector: "Any sector", results: [], scanning: false, error: null, scanned: false }; });
 
 function pickTickersForStrat(sector) {
-  if (sector !== "Any sector") return UNIVERSE[sector].map(t => [t, sector]);
+  // Legends screens draw from BOTH the small/mid list and the large-cap list,
+  // so classic Graham/value blue-chips can qualify — not just small/mid names.
+  const combined = {};
+  for (const sec of Object.keys(UNIVERSE)) {
+    combined[sec] = [...new Set([...(UNIVERSE[sec] || []), ...((UNIVERSE_LARGE && UNIVERSE_LARGE[sec]) || [])])];
+  }
+  if (sector !== "Any sector") return (combined[sector] || []).map(t => [t, sector]);
+  // Any sector: sample 8 per sector from the combined pool (~56 names) for a
+  // deeper cross-market scan. Repeat scans reuse cached data, so this only
+  // pays the full pacing cost the first time within the 10-minute window.
   const picks = [];
-  for (const [sec, list] of Object.entries(UNIVERSE)) {
-    [...list].sort(() => Math.random() - 0.5).slice(0, 3).forEach(t => picks.push([t, sec]));
+  for (const [sec, list] of Object.entries(combined)) {
+    [...list].sort(() => Math.random() - 0.5).slice(0, 8).forEach(t => picks.push([t, sec]));
   }
   return picks;
 }
@@ -942,7 +951,7 @@ async function runStrategyScan(stratId) {
     S.results = rows
       .filter(r => r.scoredTotal > 0 && r.matchPct >= strat.minPct)
       .sort((a, b) => b.matchPct - a.matchPct || b.passed - a.passed)
-      .slice(0, 10);
+      .slice(0, 20);
   } catch (e) {
     S.error = e.message === "BADKEY"
       ? "Finnhub rejected the API key. Re-enter it when prompted."
@@ -1007,7 +1016,7 @@ function renderStrategy(stratId) {
       <div class="progress-wrap">
         <div class="progress-line" id="${stratId}Progress">Warming up…</div>
         <div class="progress-track"><div class="progress-fill" id="${stratId}Fill"></div></div>
-        <div class="progress-sub">Checking each name live against ${escapeHtml(strat.tab)}'s checklist. A full sector takes about a minute on the free data plan; repeat scans reuse recent data instantly.</div>
+        <div class="progress-sub">Checking each name live against ${escapeHtml(strat.tab)}'s checklist — now including large-caps, so a scan takes a minute or two on the free data plan. Repeat scans (and the other Legends tabs) reuse recent data instantly.</div>
       </div>` : ""}
     ${S.error && !S.scanning ? `<div class="error">${escapeHtml(S.error)}</div>` : ""}
     ${!S.scanning && S.scanned && S.results.length === 0 && !S.error ? `<div class="empty"><div class="empty-title">Nothing cleared ${escapeHtml(strat.tab)}'s bar today</div><p>These are strict, opinionated screens — an empty result is common and honest. Try another sector.</p></div>` : ""}
