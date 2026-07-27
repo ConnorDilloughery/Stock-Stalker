@@ -757,26 +757,29 @@ const STRATEGIES = [
     id: "graham", tab: "Graham",
     title: "Benjamin Graham — Defensive Value",
     blurb: "From The Intelligent Investor: only financially bulletproof businesses bought at a strict discount, chosen to protect your downside first.",
-    minPct: 75,
-    naNote: "Free data can't confirm a 10-year unbroken EPS record or 20 years of continuous dividends, so those show “—”. The debt test uses long-term-debt/equity as a stand-in for the true debt-vs-working-capital rule.",
+    minPct: 100,
+    naNote: "Runs off the Full Market data, which doesn't carry Price-to-Book, so the full P/E × P/B ≤ 22.5 cap shows “—”; the verifiable half — Graham's P/E ≤ 15 rule — is enforced instead. A 10-year unbroken EPS record and 20 years of continuous dividends aren't in the data either. Debt uses debt/equity as a stand-in for the working-capital rule, and the growth check is implied from the pre-computed PEG. To qualify a name must clear every verifiable check.",
     checks: [
       { label: "Current ratio > 2.0 (financial solvency)", test: d => {
-        const v = sNum(d.currentRatio); if (v == null) return sChk("na", "current ratio unavailable in free data");
+        const v = sNum(d.currentRatio); if (v == null) return sChk("na", "current ratio unavailable");
         return sChk(v > 2 ? "pass" : "fail", "current ratio " + v.toFixed(2)); } },
       { label: "Long-term debt below working capital (conservative debt)", test: d => {
         const v = sNum(d.ltDebtEq); if (v == null) return sChk("na", "debt data unavailable");
-        return sChk(v < 0.5 ? "pass" : "fail", "long-term-debt/equity " + v.toFixed(2) + " — proxy for the working-capital rule"); } },
-      { label: "Positive EPS every year for the past 10 years", test: d => {
-        const pe = sNum(d.pe);
-        return sChk("na", pe != null && pe > 0 ? "profitable now; 10-yr history not on free data" : "10-yr EPS history not on free data"); } },
-      { label: "Uninterrupted dividends for at least 20 years", test: d => {
-        const paysNow = (sNum(d.divYield) || 0) > 0 || (sNum(d.divPerShare) || 0) > 0;
-        return sChk("na", paysNow ? "pays a dividend now; 20-yr continuity not on free data" : "no current dividend; 20-yr history not on free data"); } },
+        return sChk(v < 0.5 ? "pass" : "fail", "debt/equity " + v.toFixed(2) + " — proxy for the working-capital rule"); } },
+      { label: "P/E ≤ 15 (Graham's valuation cap; P/B half unavailable)", test: d => {
+        const pe = sNum(d.pe); if (pe == null) return sChk("na", "P/E unavailable");
+        return sChk(pe > 0 && pe <= 15 ? "pass" : "fail", "P/E " + pe.toFixed(1) + (pe <= 0 ? " (unprofitable)" : "")); } },
       { label: "EPS up at least one-third over the decade", test: d => {
         const g = sNum(d.epsGrowth5Y); if (g == null) return sChk("na", "growth data unavailable");
-        return sChk(g >= 3 ? "pass" : "fail", "5-yr EPS growth " + g.toFixed(1) + "%/yr — proxy for the 10-yr test"); } },
-      { label: "P/E × P/B ≤ 22.5 (strict valuation cap)", test: d => {
-        const pe = sNum(d.pe), pb = sNum(d.pb); if (pe == null || pb == null) return sChk("na", "P/E or P/B unavailable");
+        return sChk(g >= 3 ? "pass" : "fail", "implied growth ~" + g.toFixed(0) + "%/yr (from PEG) — proxy for the 10-yr ⅓ rule"); } },
+      { label: "Positive EPS every year for the past 10 years", test: d => {
+        const pe = sNum(d.pe);
+        return sChk("na", pe != null && pe > 0 ? "profitable now; 10-yr history not in the data" : "10-yr EPS history not in the data"); } },
+      { label: "Uninterrupted dividends for at least 20 years", test: d => {
+        const paysNow = (sNum(d.divYield) || 0) > 0;
+        return sChk("na", paysNow ? "pays a dividend now; 20-yr continuity not in the data" : "no current dividend; 20-yr history not in the data"); } },
+      { label: "P/E × P/B ≤ 22.5 (full strict valuation cap)", test: d => {
+        const pe = sNum(d.pe), pb = sNum(d.pb); if (pe == null || pb == null) return sChk("na", "Price-to-Book isn't in the Full Market data");
         const p = pe * pb; return sChk(p <= 22.5 ? "pass" : "fail", "P/E " + pe.toFixed(1) + " × P/B " + pb.toFixed(2) + " = " + p.toFixed(1)); } },
     ],
   },
@@ -784,24 +787,25 @@ const STRATEGIES = [
     id: "lynch", tab: "Lynch",
     title: "Peter Lynch — Growth at a Reasonable Price",
     blurb: "From One Up on Wall Street: understandable companies growing steadily, cheap relative to that growth, spotted before Wall Street piles in.",
-    minPct: 60,
-    naNote: "The “dull name”, institutional-neglect and insider-buying tests are subjective or need ownership/insider feeds this free-data pull doesn't include, so they show “—”. PEG uses the 5-year EPS growth rate.",
+    minPct: 100,
+    naNote: "PEG and the growth band come from the Full Market data's pre-computed PEG. Low analyst coverage stands in for the “institutional neglect” idea (true institutional-ownership % isn't in the data). The “dull name” and insider-buying tests are subjective or need a feed the data doesn't include, so they show “—”. To qualify a name must clear every verifiable check.",
     checks: [
       { label: "PEG ≤ 1 (P/E no higher than the growth rate)", test: d => {
         const pe = sNum(d.pe), g = sNum(d.epsGrowth5Y);
         if (pe == null || g == null || g <= 0) return sChk("na", "needs positive P/E and growth — one is missing/negative");
-        const peg = pe / g; return sChk(peg <= 1 ? "pass" : "fail", "PEG " + peg.toFixed(2) + " (P/E " + pe.toFixed(1) + " ÷ growth " + g.toFixed(0) + "%)"); } },
+        const peg = pe / g; return sChk(peg <= 1 ? "pass" : "fail", "PEG " + peg.toFixed(2) + " (P/E " + pe.toFixed(1) + " ÷ implied growth " + g.toFixed(0) + "%)"); } },
       { label: "Sustainable 20–25% growth (not a frantic 50–100%)", test: d => {
         const g = sNum(d.epsGrowth5Y); if (g == null) return sChk("na", "growth data unavailable");
-        if (g > 45) return sChk("fail", "5-yr EPS growth " + g.toFixed(0) + "% — too frantic to sustain");
-        return sChk(g >= 10 && g <= 30 ? "pass" : "fail", "5-yr EPS growth " + g.toFixed(0) + "%"); } },
+        if (g > 45) return sChk("fail", "implied growth " + g.toFixed(0) + "% — too frantic to sustain");
+        return sChk(g >= 10 && g <= 30 ? "pass" : "fail", "implied growth ~" + g.toFixed(0) + "% (from PEG)"); } },
       { label: "Clean balance sheet — high cash, very low debt", test: d => {
         const v = sNum(d.totalDebtEq) ?? sNum(d.ltDebtEq);
         if (v == null) return sChk("na", "debt data unavailable");
-        const cash = sNum(d.cashPerShare); const cashNote = cash != null ? " · $" + cash.toFixed(2) + " cash/share" : "";
-        return sChk(v < 0.5 ? "pass" : "fail", "debt/equity " + v.toFixed(2) + cashNote); } },
+        return sChk(v < 0.5 ? "pass" : "fail", "debt/equity " + v.toFixed(2) + " (cash reserves not in the data)"); } },
       { label: "A boring, dull, or unglamorous name/industry", test: () => sChk("na", "subjective — Lynch wants you to judge the name yourself") },
-      { label: "Institutional neglect (low analyst & fund coverage)", test: () => sChk("na", "analyst coverage & institutional ownership aren't in this free-data pull") },
+      { label: "Institutional neglect (low analyst coverage)", test: d => {
+        const n = sNum(d.recTotal); if (n == null) return sChk("na", "analyst coverage unavailable");
+        return sChk(n <= 5 ? "pass" : "fail", n + " analyst rating" + (n === 1 ? "" : "s") + " — true institutional ownership % not in the data"); } },
       { label: "Insider buying with executives' own money", test: () => sChk("na", "insider-transaction feed not included in this screen") },
     ],
   },
@@ -809,21 +813,21 @@ const STRATEGIES = [
     id: "oneil", tab: "O'Neil",
     title: "William O'Neil — CAN SLIM Growth",
     blurb: "From How to Make Money in Stocks: fast-growing earnings leaders breaking out on strength, bought only in a rising market.",
-    minPct: 75,
-    naNote: "Float, a volume spike, institutional fund count, market direction and chart patterns (cup-and-handle, etc.) need premium/price-history data, so they show “—”. The Relative-Strength check is approximated by ranking 52-week return within the scanned names.",
+    minPct: 66,
+    naNote: "Quarterly EPS growth, float, a volume spike, institutional fund count, market direction and chart patterns aren't in the Full Market data, so they show “—”. Annual growth is implied from the pre-computed PEG, and Relative Strength is approximated by ranking each name's proximity to its 52-week high across the whole market.",
     checks: [
       { label: "C — Quarterly EPS up ≥ 25% year-over-year", test: d => {
-        const g = sNum(d.epsGrowthQtrYoy); if (g == null) return sChk("na", "quarterly growth unavailable");
+        const g = sNum(d.epsGrowthQtrYoy); if (g == null) return sChk("na", "quarterly EPS growth isn't in the Full Market data");
         return sChk(g >= 25 ? "pass" : "fail", "latest-quarter EPS " + (g >= 0 ? "+" : "") + g.toFixed(0) + "% YoY"); } },
       { label: "A — Annual EPS growth ≥ 25% over 3–5 years", test: d => {
         const g = sNum(d.epsGrowth3Y) ?? sNum(d.epsGrowth5Y); if (g == null) return sChk("na", "annual growth unavailable");
-        return sChk(g >= 25 ? "pass" : "fail", "3–5yr EPS growth " + g.toFixed(0) + "%/yr"); } },
+        return sChk(g >= 25 ? "pass" : "fail", "implied growth ~" + g.toFixed(0) + "%/yr (from PEG)"); } },
       { label: "N — Near a new high (new product/leadership proxy)", test: d => {
         const h = sNum(d.high52), p = sNum(d.price); if (h == null || p == null) return sChk("na", "52-week high unavailable");
         const off = (h - p) / h * 100; return sChk(off <= 5 ? "pass" : "fail", "within " + off.toFixed(0) + "% of its 52-week high"); } },
       { label: "L — Relative Strength ≥ 80 (a leader, not a laggard)", test: d => {
-        const rs = sNum(d.rsApprox); if (rs == null) return sChk("na", "not enough names to rank");
-        return sChk(rs >= 80 ? "pass" : "fail", "approx RS " + rs + " — ranked within this scan's universe"); } },
+        const rs = sNum(d.rsApprox); if (rs == null) return sChk("na", "not enough data to rank");
+        return sChk(rs >= 80 ? "pass" : "fail", "approx RS " + rs + " — ranked by proximity to 52-week high across the market"); } },
       { label: "S — Low float + volume spike on breakout", test: () => sChk("na", "float & intraday volume are premium data") },
       { label: "I — Owned by 3–5 top institutional funds", test: () => sChk("na", "institutional fund holdings not in free data") },
       { label: "M — Overall market in a confirmed uptrend", test: () => sChk("na", "confirm the major indexes are trending up yourself before buying") },
@@ -835,78 +839,49 @@ const STRATEGIES = [
     title: "John Murphy — Trend & Momentum",
     blurb: "From Technical Analysis of the Financial Markets: ignore the financials, follow price. Note: this is the most data-limited screen — most true technical checks need premium price-history data.",
     minPct: 100,
-    naNote: "Real 50/200-day moving-average crossovers, RSI/MACD, support/resistance breakouts and volume confirmation all need daily price-history (a Finnhub premium feed), so they show “—”. The two proxy checks below use the free multi-horizon return figures instead.",
+    naNote: "This is the most data-limited screen: the Full Market data is a fundamentals snapshot with no daily price history, so real 50/200-day moving-average crossovers, RSI/MACD, support-vs-resistance and volume confirmation all show “—”. The two checks below are honest proxies built from each name's position within its 52-week range.",
     checks: [
-      { label: "Trend alignment (up over 3, 6 and 12 months)", test: d => {
-        const a = sNum(d.ret13), b = sNum(d.ret26), c = sNum(d.ret52);
-        if (a == null || b == null || c == null) return sChk("na", "return history unavailable");
-        const up = a > 0 && b > 0 && c > 0;
-        return sChk(up ? "pass" : "fail", `13w ${a.toFixed(0)}% · 26w ${b.toFixed(0)}% · 52w ${c.toFixed(0)}% — proxy for the 50/200-day MA crossover`); } },
-      { label: "Trading in the upper half of its 52-week range", test: d => {
+      { label: "Trend alignment (50-day above 200-day MA)", test: () => sChk("na", "daily price history for moving averages isn't in the Full Market data") },
+      { label: "In the top third of its 52-week range", test: d => {
         const h = sNum(d.high52), l = sNum(d.low52), p = sNum(d.price);
         if (h == null || l == null || p == null || h === l) return sChk("na", "range data unavailable");
         const pos = (p - l) / (h - l) * 100;
-        return sChk(pos >= 50 ? "pass" : "fail", pos.toFixed(0) + "% up its 52-week range — proxy for a support/resistance breakout"); } },
-      { label: "Volume confirming the move (rising on up-days)", test: () => sChk("na", "daily volume history is premium data") },
-      { label: "RSI / MACD bullish but not overextended", test: () => sChk("na", "RSI & MACD are premium technical indicators") },
+        return sChk(pos >= 66 ? "pass" : "fail", pos.toFixed(0) + "% up its 52-week range — proxy for a support/resistance breakout"); } },
+      { label: "Within 12% of its 52-week high (uptrend confirmation)", test: d => {
+        const dd = sNum(d.discount); if (dd == null) return sChk("na", "discount data unavailable");
+        return sChk(dd <= 0.12 ? "pass" : "fail", (dd * 100).toFixed(0) + "% below its 52-week high — proxy for a confirmed uptrend"); } },
+      { label: "Volume confirming the move (rising on up-days)", test: () => sChk("na", "daily volume history isn't in the Full Market data") },
+      { label: "RSI / MACD bullish but not overextended", test: () => sChk("na", "RSI & MACD need price history not in the Full Market data") },
     ],
   },
 ];
 
-// Per-strategy UI substate + a short-lived cache so the four screens share
-// Finnhub calls instead of re-fetching the same universe each time.
-state.metricCache = {};
+// Per-strategy UI substate.
 state.strat = {};
 STRATEGIES.forEach(s => { state.strat[s.id] = { sector: "Any sector", results: [], scanning: false, error: null, scanned: false }; });
 
-function pickTickersForStrat(sector) {
-  // Legends screens draw from BOTH the small/mid list and the large-cap list,
-  // so classic Graham/value blue-chips can qualify — not just small/mid names.
-  const combined = {};
-  for (const sec of Object.keys(UNIVERSE)) {
-    combined[sec] = [...new Set([...(UNIVERSE[sec] || []), ...((UNIVERSE_LARGE && UNIVERSE_LARGE[sec]) || [])])];
-  }
-  if (sector !== "Any sector") return (combined[sector] || []).map(t => [t, sector]);
-  // Any sector: sample 8 per sector from the combined pool (~56 names) for a
-  // deeper cross-market scan. Repeat scans reuse cached data, so this only
-  // pays the full pacing cost the first time within the 10-minute window.
-  const picks = [];
-  for (const [sec, list] of Object.entries(combined)) {
-    [...list].sort(() => Math.random() - 0.5).slice(0, 8).forEach(t => picks.push([t, sec]));
-  }
-  return picks;
-}
-
-async function fetchMetricsStrat(tk, sec) {
-  const now = Date.now();
-  let cached = state.metricCache[tk];
-  if (!cached || now - cached.t > 600000) { // 10-minute reuse window
-    const [quote, metric] = await Promise.all([
-      fh("/quote", { symbol: tk }),
-      fh("/stock/metric", { symbol: tk, metric: "all" })
-    ]);
-    cached = { t: now, quote, metric: metric.metric || {} };
-    state.metricCache[tk] = cached;
-  }
-  const m = cached.metric, price = cached.quote.c;
-  if (!price) return null;
-  const g = (k) => sNum(m[k]);
+// Map one Full-Market (stocks.json) record into the shape the strategy checks
+// expect. This is the whole speed win: no live Finnhub calls — the ~1,200
+// records are already fetched for the Full Market tab. Fields the Full Market
+// scanner doesn't carry (P/B, quarterly EPS growth, multi-horizon returns)
+// stay null, so the checks that need them honestly report "—". EPS growth is
+// implied from the pre-computed PEG (growth ≈ P/E ÷ PEG).
+function buildDFromMarket(s, rs) {
+  const pe = sNum(s.pe), peg = sNum(s.peg);
+  const impliedGrowth = (pe != null && peg != null && peg > 0) ? pe / peg : null;
   return {
-    ticker: tk, sector: sec, price,
-    pe: g("peBasicExclExtraTTM") ?? g("peTTM") ?? g("peNormalizedAnnual"),
-    pb: g("pbAnnual") ?? g("pbQuarterly"),
-    currentRatio: g("currentRatioAnnual") ?? g("currentRatioQuarterly"),
-    ltDebtEq: g("longTermDebt/equityAnnual") ?? g("longTermDebt/equityQuarterly"),
-    totalDebtEq: g("totalDebt/totalEquityAnnual") ?? g("totalDebt/totalEquityQuarterly"),
-    epsGrowth3Y: g("epsGrowth3Y"), epsGrowth5Y: g("epsGrowth5Y"),
-    epsGrowthQtrYoy: g("epsGrowthQuarterlyYoy"), epsGrowthTTMYoy: g("epsGrowthTTMYoy"),
-    divYield: g("dividendYieldIndicatedAnnual") ?? g("currentDividendYieldTTM"),
-    divPerShare: g("dividendPerShareAnnual") ?? g("dividendPerShareTTM"),
-    cashPerShare: g("cashPerSharePerShareAnnual") ?? g("cashPerSharePerShareQuarterly"),
-    high52: g("52WeekHigh"), low52: g("52WeekLow"),
-    ret52: g("52WeekPriceReturnDaily"), ret26: g("26WeekPriceReturnDaily"), ret13: g("13WeekPriceReturnDaily"),
-    marketCap: g("marketCapitalization"),
-    rsApprox: null,
+    ticker: s.ticker, sector: s.sector, price: sNum(s.price),
+    pe, pb: null,
+    currentRatio: sNum(s.cr),
+    ltDebtEq: sNum(s.de), totalDebtEq: sNum(s.de),
+    epsGrowth3Y: impliedGrowth, epsGrowth5Y: impliedGrowth, epsGrowthQtrYoy: null,
+    growthImplied: impliedGrowth != null,
+    divYield: sNum(s.divYield), divPerShare: null, cashPerShare: null,
+    high52: sNum(s.high), low52: sNum(s.low), discount: sNum(s.discount),
+    ret52: null, ret26: null, ret13: null,
+    marketCap: sNum(s.cap), recTotal: sNum(s.recTotal),
+    rsApprox: rs,
+    score: sNum(s.score), // the app's own conviction score — used to rank qualifiers
   };
 }
 
@@ -916,29 +891,21 @@ async function runStrategyScan(stratId) {
   const strat = STRATEGIES.find(s => s.id === stratId);
   S.scanning = true; S.error = null; S.results = []; S.scanned = true;
   renderStrategy(stratId);
-  const prog = document.getElementById(stratId + "Progress");
-  const fill = document.getElementById(stratId + "Fill");
-  const tickers = pickTickersForStrat(S.sector);
-  const rows = [];
   try {
-    for (let i = 0; i < tickers.length; i++) {
-      const [tk, sec] = tickers[i];
-      if (prog) prog.textContent = `Checking ${tk} — ${i + 1} of ${tickers.length}`;
-      if (fill) fill.style.width = `${((i + 1) / tickers.length) * 90}%`;
-      const fresh = !state.metricCache[tk] || (Date.now() - state.metricCache[tk].t > 600000);
-      try {
-        const d = await fetchMetricsStrat(tk, sec);
-        if (d) rows.push(d);
-      } catch (e) { if (e.message === "BADKEY") throw e; }
-      if (fresh) await sleep(650); // only pace real network calls, not cache hits
-    }
-    // Universe-relative Relative-Strength approximation (for O'Neil's L test)
-    const rets = rows.map(r => sNum(r.ret52)).filter(v => v != null).sort((a, b) => a - b);
-    rows.forEach(r => {
-      const v = sNum(r.ret52);
-      r.rsApprox = (v == null || rets.length === 0) ? null
-        : Math.round((rets.filter(x => x <= v).length / rets.length) * 99);
-    });
+    if (!state.marketData) await loadMarketData(false);
+    const all = (state.marketData && state.marketData.stocks) || [];
+    if (all.length === 0) throw new Error("Full Market data isn't loaded yet");
+    // Market-wide Relative-Strength proxy: rank every name by how close it is
+    // to its 52-week high (1 − discount), across the entire market.
+    const strengths = all.map(s => (sNum(s.discount) != null ? 1 - s.discount : null)).filter(v => v != null).sort((a, b) => a - b);
+    const rsOf = (s) => {
+      const dd = sNum(s.discount);
+      if (dd == null || strengths.length === 0) return null;
+      const v = 1 - dd;
+      return Math.round((strengths.filter(x => x <= v).length / strengths.length) * 99);
+    };
+    const pool = S.sector === "Any sector" ? all : all.filter(s => s.sector === S.sector);
+    const rows = pool.map(s => buildDFromMarket(s, rsOf(s)));
     rows.forEach(r => {
       const res = strat.checks.map(c => Object.assign({ label: c.label }, c.test(r)));
       const scored = res.filter(x => x.status !== "na");
@@ -950,13 +917,10 @@ async function runStrategyScan(stratId) {
     });
     S.results = rows
       .filter(r => r.scoredTotal > 0 && r.matchPct >= strat.minPct)
-      .sort((a, b) => b.matchPct - a.matchPct || b.passed - a.passed)
-      .slice(0, 20);
+      .sort((a, b) => b.matchPct - a.matchPct || b.passed - a.passed || (b.score || 0) - (a.score || 0))
+      .slice(0, 60);
   } catch (e) {
-    S.error = e.message === "BADKEY"
-      ? "Finnhub rejected the API key. Re-enter it when prompted."
-      : "The scan hit a network snag (" + e.message + "). Try again in a minute.";
-    if (e.message === "BADKEY") { try { localStorage.removeItem("uc:key"); } catch (_) {} state.key = null; }
+    S.error = "Couldn't run the screen (" + e.message + "). Open the Full Market tab once to load its data, then try again.";
   }
   S.scanning = false;
   renderStrategy(stratId);
@@ -1009,22 +973,19 @@ function renderStrategy(stratId) {
       <p class="panel-copy">${escapeHtml(strat.blurb)}</p>
       <div class="field-label">Sector</div>
       <div class="chips">${SECTORS.map(s => `<button class="pick ${s === S.sector ? "on" : ""}" data-strat-sector="${s}">${s}</button>`).join("")}</div>
-      <div class="baked"><strong>Honest-data note.</strong> ${escapeHtml(strat.naNote)} A “—” means the criterion can't be verified on the free data plan — it's never counted as a pass. Cards are ranked by the share of <em>verifiable</em> checks they clear.</div>
-      <button class="btn btn-big" id="${stratId}Btn" ${S.scanning ? "disabled" : ""}>${S.scanning ? "Scanning…" : "Run the " + strat.tab + " screen"}</button>
+      <div class="baked"><strong>Honest-data note.</strong> ${escapeHtml(strat.naNote)} A “—” means the criterion can't be verified from the Full Market data — it's never counted as a pass. Cards are ranked by the share of <em>verifiable</em> checks they clear.</div>
+      <button class="btn btn-big" id="${stratId}Btn" ${S.scanning ? "disabled" : ""}>${S.scanning ? "Screening…" : "Run the " + strat.tab + " screen"}</button>
+      <div class="hint" style="margin-top:10px">Screens the whole Full Market list (~${state.marketData ? state.marketData.count : "1,200"} names) instantly — no API key, no waiting.</div>
     </div>
-    ${S.scanning ? `
-      <div class="progress-wrap">
-        <div class="progress-line" id="${stratId}Progress">Warming up…</div>
-        <div class="progress-track"><div class="progress-fill" id="${stratId}Fill"></div></div>
-        <div class="progress-sub">Checking each name live against ${escapeHtml(strat.tab)}'s checklist — now including large-caps, so a scan takes a minute or two on the free data plan. Repeat scans (and the other Legends tabs) reuse recent data instantly.</div>
-      </div>` : ""}
+    ${S.scanning ? `<div class="progress-wrap"><div class="progress-line">Screening the full market…</div></div>` : ""}
     ${S.error && !S.scanning ? `<div class="error">${escapeHtml(S.error)}</div>` : ""}
     ${!S.scanning && S.scanned && S.results.length === 0 && !S.error ? `<div class="empty"><div class="empty-title">Nothing cleared ${escapeHtml(strat.tab)}'s bar today</div><p>These are strict, opinionated screens — an empty result is common and honest. Try another sector.</p></div>` : ""}
+    ${!S.scanning && S.results.length > 0 ? `<div class="hint">${S.results.length} name${S.results.length === 1 ? "" : "s"} cleared ${escapeHtml(strat.tab)}'s bar${S.sector !== "Any sector" ? " in " + escapeHtml(S.sector) : ""}.</div>` : ""}
     <div id="${stratId}Results">${S.results.map(strategyCardHtml).join("")}</div>
   `;
   root.querySelectorAll("[data-strat-sector]").forEach(b => b.addEventListener("click", () => { S.sector = b.dataset.stratSector; renderStrategy(stratId); }));
   const btn = document.getElementById(stratId + "Btn");
-  if (btn) btn.addEventListener("click", () => requireKey(() => { S.error = null; runStrategyScan(stratId); }));
+  if (btn) btn.addEventListener("click", () => { S.error = null; runStrategyScan(stratId); });
 }
 
 function healthChips(s) {
@@ -2585,7 +2546,7 @@ function renderLearn() {
     ["Market Pulse tab", "A before-the-bell scan: live index snapshots (SPY/QQQ/DIA vs. previous close — the best free stand-in for overnight futures moves), today's full earnings calendar, and general market headlines. The economic calendar (Fed events, CPI, jobs data) needs a paid Finnhub plan — if it shows as unavailable, that's why, and a free public link is provided instead. Nothing here is ranked by predicted market impact; that requires real quantitative modeling no honest free source can back up, so read everything and use your own judgment on what matters most."],
     ["Congress Trades tab", "Reads congress.json, built by a separate Pi script (congress_scanner.py) that runs hourly and pulls from three official sources — no paid data vendor. <strong>Senate:</strong> Periodic Transaction Reports from efdsearch.senate.gov, filed as clean structured HTML — high confidence on ticker, date, type, and amount. <strong>House:</strong> PTRs from disclosures-clerk.house.gov, filed as PDFs but almost always real digital text (not scans) — tickers appear directly in the filing, e.g. \"Apple Inc. - Common Stock (AAPL)\", extracted from real table structure — nearly as high-confidence as the Senate. Complex filings that bundle many holdings into one bulk transaction occasionally lose a few rows to imperfect table parsing — never a wrong ticker, just an incomplete one. <strong>President:</strong> Trump's PTRs are self-published as PDFs on whitehouse.gov under the same STOCK Act requirement, but that's meaningfully lower-confidence data: some filings are pure scanned images, so pages with no text layer are run through OCR — even filings with a real text layer are often themselves noisy OCR baked in by whoever produced the PDF — so only transactions matching a recognized large-cap ticker are kept (bonds and smaller/unrecognized names are silently dropped, never guessed at), and transaction dates are omitted for these entries since OCR'd dates aren't reliable enough to trust (only the filing's date is kept). By law, amounts are reported as ranges, not exact dollar figures or share counts, so the per-politician view here is an observed buy/sell history, not a live net-worth or portfolio-value calculation — treat it as a lead to research further, not a finished answer. If this tab shows an error, the Pi's congress-scanner.timer hasn't run yet or hasn't pushed its first update."],
     ["Insider Trades tab", "Reads insider_trades.json, built by insider_scanner.py — hourly, straight from SEC EDGAR's real-time Form 4 feed (sec.gov), no paid vendor. Form 4 is how corporate officers, directors, and 10%+ owners disclose buying or selling their own company's stock. Covers the full actively-traded US stock universe (thousands of tickers, the same NASDAQ screener market_scanner.py uses) — not literally every filer on EDGAR, since foreign issuers, OTC/pink sheets, and very thin names are excluded, but broad enough that real matches show up regularly. Every public company files Form 4s constantly for routine compensation events (RSU vests, tax-withholding sales, option exercises), which would be mostly noise unrelated to genuine buy/sell conviction — only real open-market purchases and sales are kept; grants, exercises, and gifts are filtered out. Amounts here are exact (real share counts × real price), unlike Congress data's legally-mandated ranges. The \"highest-confidence overlap\" callout highlights stocks that are both a Buy/Accumulate signal on Full Market and have had a recent insider purchase — still not advice, just two independent signals agreeing."],
-    ["Legends tabs (Graham / Lynch / O'Neil / Murphy)", "Four screens that grade the same live-Finnhub universe against a famous investor's checklist instead of this app's own signal. <strong>Graham</strong> = defensive deep value (current ratio, strict P/E × P/B ≤ 22.5). <strong>Lynch</strong> = growth at a reasonable price (PEG ≤ 1, sustainable growth, clean balance sheet). <strong>O'Neil</strong> = CAN SLIM growth leaders (rising quarterly & annual EPS, near new highs, relative strength). <strong>Murphy</strong> = pure price-trend momentum. Each card scores only the checks the free data can actually verify, and is ranked by the share it clears. These strategies were written for data a free plan doesn't expose — 10–20 years of EPS/dividend history, share float, institutional holdings, and true technical indicators (RSI, MACD, moving-average crossovers, chart patterns). Rather than fake those, the app marks them “—” and never counts them as a pass, so a card's score always reflects only what was really checked. Murphy is the most limited screen for that reason; its two checks are honest proxies built from the free multi-horizon return figures. Like Scout, these call Finnhub live, so they'll ask for your free API key the first time you run one."],
+    ["Legends tabs (Graham / Lynch / O'Neil / Murphy)", "Four screens that grade the same live-Finnhub universe against a famous investor's checklist instead of this app's own signal. <strong>Graham</strong> = defensive deep value (current ratio, strict P/E × P/B ≤ 22.5). <strong>Lynch</strong> = growth at a reasonable price (PEG ≤ 1, sustainable growth, clean balance sheet). <strong>O'Neil</strong> = CAN SLIM growth leaders (rising quarterly & annual EPS, near new highs, relative strength). <strong>Murphy</strong> = pure price-trend momentum. Each card scores only the checks the free data can actually verify, and is ranked by the share it clears. They read the same Full Market data (stocks.json) the Full Market tab already loaded, so a screen runs instantly across the whole ~1,200-name universe — no API key and no waiting. That data is a fundamentals snapshot, though, so anything needing history or a feed it doesn't carry — 10–20 years of EPS/dividend records, Price-to-Book (Graham's P/E × P/B cap), quarterly EPS growth, share float, institutional holdings, and true technical indicators (RSI, MACD, moving-average crossovers, chart patterns) — is marked “—” and never counted as a pass, so a card's score always reflects only what was really checked. EPS growth is implied from the pre-computed PEG, and O'Neil's Relative-Strength rank is approximated by proximity to the 52-week high across the market. Murphy is the most limited screen, since price-trend analysis needs the daily history this snapshot doesn't include."],
     ["Track Record tab", "The honest test of whether this app's conviction score means anything. Every day, backtest_tracker.py logs the entry price the moment a stock first qualifies for a Buy or Accumulate signal (once per signal \"episode,\" not once per day it stays qualified), then tracks that price forward indefinitely. This is <strong>forward-only</strong> — stocks.json is a rolling snapshot with no stored history of past signals, so there was never a way to reconstruct what the score \"would have\" called six months ago. The track record here only started the day this feature shipped, so early on there simply isn't enough data (or enough time elapsed) to say whether the score works — treat the first few months of results as noise, not a verdict. Win rate and average return are broken out by how long ago each signal fired (30/90/180/365+ days), since a 3-day-old pick hasn't had a chance to prove anything yet."],
     ["Status tab", "Not a separate monitoring system — just the \"last updated\" timestamp every other tab already shows, gathered in one place, so a scanner that's quietly stopped working doesn't go unnoticed for days. Each source has its own staleness threshold rather than one blanket rule: the continuously-running Full Market/ETF scanner should almost always be recent, while Congress Trades and Insider Trades can legitimately go multiple days without a new match — a quiet weekend, or just no qualifying activity in that window, isn't a bug (see their own tabs for why matches are inherently less frequent). \"Healthy\" and \"Stale\" both just describe normal operation at different points in a source's own cadence; \"Likely stuck\" is calibrated to be well past what a normal quiet period would produce, and is the one worth actually checking on."]
   ];
