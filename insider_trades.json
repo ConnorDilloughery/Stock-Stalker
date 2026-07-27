@@ -1,8 +1,88 @@
 {
-  "generatedAt": "2026-07-27T10:00:58.155687+00:00",
+  "generatedAt": "2026-07-27T11:01:04.028579+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 640,
+  "count": 649,
   "trades": [
+    {
+      "ticker": "UTHR",
+      "issuerName": "UNITED THERAPEUTICS Corp",
+      "insiderName": "ROTHBLATT MARTINE A",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 820.0,
+      "pricePerShare": 528.718,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "UTHR",
+      "issuerName": "UNITED THERAPEUTICS Corp",
+      "insiderName": "ROTHBLATT MARTINE A",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2285.0,
+      "pricePerShare": 530.4506,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "UTHR",
+      "issuerName": "UNITED THERAPEUTICS Corp",
+      "insiderName": "ROTHBLATT MARTINE A",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1115.0,
+      "pricePerShare": 531.1021,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "UTHR",
+      "issuerName": "UNITED THERAPEUTICS Corp",
+      "insiderName": "ROTHBLATT MARTINE A",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2719.0,
+      "pricePerShare": 532.2653,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "UTHR",
+      "issuerName": "UNITED THERAPEUTICS Corp",
+      "insiderName": "ROTHBLATT MARTINE A",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1818.0,
+      "pricePerShare": 533.1991,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "UTHR",
+      "issuerName": "UNITED THERAPEUTICS Corp",
+      "insiderName": "ROTHBLATT MARTINE A",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 630.0,
+      "pricePerShare": 534.3938,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "UTHR",
+      "issuerName": "UNITED THERAPEUTICS Corp",
+      "insiderName": "ROTHBLATT MARTINE A",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 113.0,
+      "pricePerShare": 535.0256,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "GLSI",
+      "issuerName": "Greenwich LifeSciences, Inc.",
+      "insiderName": "Patel Snehal",
+      "title": "Director, CEO and CFO, 10% Owner",
+      "type": "Purchase",
+      "shares": 1100.0,
+      "pricePerShare": 12.88,
+      "transactionDate": "2026-07-24"
+    },
     {
       "ticker": "PSMT",
       "issuerName": "PRICESMART INC",
@@ -231,6 +311,16 @@
       "type": "Sale",
       "shares": 98144.0,
       "pricePerShare": 24.22,
+      "transactionDate": "2026-07-23"
+    },
+    {
+      "ticker": "GLSI",
+      "issuerName": "Greenwich LifeSciences, Inc.",
+      "insiderName": "Patel Snehal",
+      "title": "Director, CEO and CFO, 10% Owner",
+      "type": "Purchase",
+      "shares": 2500.0,
+      "pricePerShare": 13.14,
       "transactionDate": "2026-07-23"
     },
     {
@@ -6405,6 +6495,106 @@
     }
   ],
   "byTicker": {
+    "UTHR": {
+      "issuerName": "UNITED THERAPEUTICS Corp",
+      "trades": [
+        {
+          "ticker": "UTHR",
+          "issuerName": "UNITED THERAPEUTICS Corp",
+          "insiderName": "ROTHBLATT MARTINE A",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 820.0,
+          "pricePerShare": 528.718,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "UTHR",
+          "issuerName": "UNITED THERAPEUTICS Corp",
+          "insiderName": "ROTHBLATT MARTINE A",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2285.0,
+          "pricePerShare": 530.4506,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "UTHR",
+          "issuerName": "UNITED THERAPEUTICS Corp",
+          "insiderName": "ROTHBLATT MARTINE A",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1115.0,
+          "pricePerShare": 531.1021,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "UTHR",
+          "issuerName": "UNITED THERAPEUTICS Corp",
+          "insiderName": "ROTHBLATT MARTINE A",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2719.0,
+          "pricePerShare": 532.2653,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "UTHR",
+          "issuerName": "UNITED THERAPEUTICS Corp",
+          "insiderName": "ROTHBLATT MARTINE A",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1818.0,
+          "pricePerShare": 533.1991,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "UTHR",
+          "issuerName": "UNITED THERAPEUTICS Corp",
+          "insiderName": "ROTHBLATT MARTINE A",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 630.0,
+          "pricePerShare": 534.3938,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "UTHR",
+          "issuerName": "UNITED THERAPEUTICS Corp",
+          "insiderName": "ROTHBLATT MARTINE A",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 113.0,
+          "pricePerShare": 535.0256,
+          "transactionDate": "2026-07-24"
+        }
+      ]
+    },
+    "GLSI": {
+      "issuerName": "Greenwich LifeSciences, Inc.",
+      "trades": [
+        {
+          "ticker": "GLSI",
+          "issuerName": "Greenwich LifeSciences, Inc.",
+          "insiderName": "Patel Snehal",
+          "title": "Director, CEO and CFO, 10% Owner",
+          "type": "Purchase",
+          "shares": 1100.0,
+          "pricePerShare": 12.88,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "GLSI",
+          "issuerName": "Greenwich LifeSciences, Inc.",
+          "insiderName": "Patel Snehal",
+          "title": "Director, CEO and CFO, 10% Owner",
+          "type": "Purchase",
+          "shares": 2500.0,
+          "pricePerShare": 13.14,
+          "transactionDate": "2026-07-23"
+        }
+      ]
+    },
     "PSMT": {
       "issuerName": "PRICESMART INC",
       "trades": [
@@ -13783,6 +13973,12 @@
       "0000950103-26-011109",
       "0000950103-26-011123",
       "0000950103-26-011125",
+      "0000950103-26-011173",
+      "0000950103-26-011174",
+      "0000950103-26-011175",
+      "0000950103-26-011176",
+      "0000950103-26-011177",
+      "0000950103-26-011179",
       "0000950142-26-002131",
       "0000950142-26-002132",
       "0000950142-26-002145",
@@ -13939,6 +14135,11 @@
       "0001104659-26-086427",
       "0001104659-26-086729",
       "0001104659-26-086733",
+      "0001104659-26-086755",
+      "0001104659-26-086767",
+      "0001104659-26-086771",
+      "0001104659-26-086797",
+      "0001106578-26-000106",
       "0001108524-26-000154",
       "0001108524-26-000156",
       "0001114446-26-004848",
@@ -14413,8 +14614,12 @@
       "0001193125-26-316458",
       "0001193125-26-316533",
       "0001193125-26-316544",
+      "0001193125-26-316552",
+      "0001193125-26-316553",
+      "0001193125-26-316561",
       "0001193125-26-316570",
       "0001193125-26-316589",
+      "0001193125-26-316592",
       "0001201252-26-000010",
       "0001204034-26-000021",
       "0001204816-26-000026",
@@ -14562,6 +14767,8 @@
       "0001213900-26-081092",
       "0001213900-26-081096",
       "0001213900-26-081115",
+      "0001213900-26-081547",
+      "0001213900-26-081556",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -14812,6 +15019,7 @@
       "0001493152-26-034653",
       "0001493152-26-034654",
       "0001493152-26-034656",
+      "0001493152-26-034675",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -15519,6 +15727,7 @@
       "0001839882-26-036125",
       "0001839882-26-036147",
       "0001839882-26-036148",
+      "0001839882-26-036309",
       "0001843103-26-000014",
       "0001843104-26-000014",
       "0001844767-26-000012",
