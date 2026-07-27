@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-26T01:38:57.512344+00:00",
+  "generatedAt": "2026-07-27T01:34:44.112109+00:00",
   "source": "Undercurrent's own conviction score, tracked forward from each signal's first day \u2014 see module docstring for why this can't be retroactive",
-  "count": 75,
+  "count": 87,
   "entries": [
     {
       "ticker": "TCOM",
@@ -752,6 +752,126 @@
       "currentPrice": 40.72,
       "currentDate": "2026-07-24",
       "returnPct": 0.77
+    },
+    {
+      "ticker": "PSIX",
+      "signal": "BUY",
+      "entryDate": "2026-07-27",
+      "entryPrice": 29.96,
+      "convictionScore": 99,
+      "currentPrice": 29.96,
+      "currentDate": "2026-07-24",
+      "returnPct": 0.0
+    },
+    {
+      "ticker": "SCZM",
+      "signal": "BUY",
+      "entryDate": "2026-07-27",
+      "entryPrice": 6.29,
+      "convictionScore": 97,
+      "currentPrice": 6.29,
+      "currentDate": "2026-07-24",
+      "returnPct": 0.0
+    },
+    {
+      "ticker": "SBS",
+      "signal": "BUY",
+      "entryDate": "2026-07-27",
+      "entryPrice": 5.61,
+      "convictionScore": 89,
+      "currentPrice": 5.61,
+      "currentDate": "2026-07-24",
+      "returnPct": 0.0
+    },
+    {
+      "ticker": "VIST",
+      "signal": "BUY",
+      "entryDate": "2026-07-27",
+      "entryPrice": 69.5,
+      "convictionScore": 86,
+      "currentPrice": 69.5,
+      "currentDate": "2026-07-24",
+      "returnPct": 0.0
+    },
+    {
+      "ticker": "TRMD",
+      "signal": "BUY",
+      "entryDate": "2026-07-27",
+      "entryPrice": 30.28,
+      "convictionScore": 86,
+      "currentPrice": 30.28,
+      "currentDate": "2026-07-24",
+      "returnPct": 0.0
+    },
+    {
+      "ticker": "UGP",
+      "signal": "BUY",
+      "entryDate": "2026-07-27",
+      "entryPrice": 6.43,
+      "convictionScore": 86,
+      "currentPrice": 6.43,
+      "currentDate": "2026-07-24",
+      "returnPct": 0.0
+    },
+    {
+      "ticker": "ROLR",
+      "signal": "ACCUMULATE",
+      "entryDate": "2026-07-27",
+      "entryPrice": 6.36,
+      "convictionScore": 84,
+      "currentPrice": 6.36,
+      "currentDate": "2026-07-24",
+      "returnPct": 0.0
+    },
+    {
+      "ticker": "VITL",
+      "signal": "BUY",
+      "entryDate": "2026-07-27",
+      "entryPrice": 13.02,
+      "convictionScore": 83,
+      "currentPrice": 13.02,
+      "currentDate": "2026-07-24",
+      "returnPct": 0.0
+    },
+    {
+      "ticker": "RZC",
+      "signal": "BUY",
+      "entryDate": "2026-07-27",
+      "entryPrice": 25.34,
+      "convictionScore": 80,
+      "currentPrice": 25.34,
+      "currentDate": "2026-07-24",
+      "returnPct": 0.0
+    },
+    {
+      "ticker": "TCBIO",
+      "signal": "BUY",
+      "entryDate": "2026-07-27",
+      "entryPrice": 20.37,
+      "convictionScore": 79,
+      "currentPrice": 20.37,
+      "currentDate": "2026-07-24",
+      "returnPct": 0.0
+    },
+    {
+      "ticker": "SIGIP",
+      "signal": "BUY",
+      "entryDate": "2026-07-27",
+      "entryPrice": 15.79,
+      "convictionScore": 76,
+      "currentPrice": 15.79,
+      "currentDate": "2026-07-24",
+      "returnPct": 0.0
+    },
+    {
+      "ticker": "TTD",
+      "signal": "ACCUMULATE",
+      "entryDate": "2026-07-27",
+      "entryPrice": 17.29,
+      "convictionScore": 69,
+      "currentPrice": 17.29,
+      "currentDate": "2026-07-24",
+      "returnPct": 0.0
     }
   ],
   "stats": {
@@ -795,17 +915,28 @@
       "MGRE",
       "NICE",
       "NMR",
+      "PSIX",
       "PSO",
       "PUK",
-      "RDY",
       "RIO",
+      "ROLR",
+      "RZC",
+      "SBS",
+      "SCZM",
       "SHEL",
+      "SIGIP",
       "SKHY",
       "SNN",
+      "TCBIO",
       "TCOM",
       "TKC",
+      "TRMD",
+      "TTD",
       "UCL",
+      "UGP",
       "UL",
+      "VIST",
+      "VITL",
       "WTFCN",
       "ZTO"
     ]
