@@ -788,7 +788,7 @@ const STRATEGIES = [
     title: "Peter Lynch — Growth at a Reasonable Price",
     blurb: "From One Up on Wall Street: understandable companies growing steadily, cheap relative to that growth, spotted before Wall Street piles in.",
     minPct: 100,
-    naNote: "PEG and the growth band come from the Full Market data's pre-computed PEG. Low analyst coverage stands in for the “institutional neglect” idea (true institutional-ownership % isn't in the data). The “dull name” and insider-buying tests are subjective or need a feed the data doesn't include, so they show “—”. To qualify a name must clear every verifiable check.",
+    naNote: "PEG and the growth band come from the pre-computed PEG. Low analyst coverage stands in for the “institutional neglect” idea where that count is available (true institutional-ownership % isn't in the data). The “dull name” and insider-buying tests are subjective or need a feed the data doesn't include, so they show “—”. To qualify a name must clear every verifiable check.",
     checks: [
       { label: "PEG ≤ 1 (P/E no higher than the growth rate)", test: d => {
         const pe = sNum(d.pe), g = sNum(d.epsGrowth5Y);
@@ -892,9 +892,15 @@ async function runStrategyScan(stratId) {
   S.scanning = true; S.error = null; S.results = []; S.scanned = true;
   renderStrategy(stratId);
   try {
-    if (!state.marketData) await loadMarketData(false);
-    const all = (state.marketData && state.marketData.stocks) || [];
-    if (all.length === 0) throw new Error("Full Market data isn't loaded yet");
+    // Prefer the unfiltered full universe (~6,700); fall back to the
+    // value-filtered Full Market list (~1,200) until the Pi publishes it.
+    await loadUniverseData(false);
+    let src = state.universeData;
+    if (!src) { if (!state.marketData) await loadMarketData(false); src = state.marketData; }
+    S.usedFallback = !state.universeData;
+    S.sourceCount = src ? src.count : null;
+    const all = (src && src.stocks) || [];
+    if (all.length === 0) throw new Error("market data isn't loaded yet");
     // Market-wide Relative-Strength proxy: rank every name by how close it is
     // to its 52-week high (1 − discount), across the entire market.
     const strengths = all.map(s => (sNum(s.discount) != null ? 1 - s.discount : null)).filter(v => v != null).sort((a, b) => a - b);
@@ -917,7 +923,7 @@ async function runStrategyScan(stratId) {
     });
     S.results = rows
       .filter(r => r.scoredTotal > 0 && r.matchPct >= strat.minPct)
-      .sort((a, b) => b.matchPct - a.matchPct || b.passed - a.passed || (b.score || 0) - (a.score || 0))
+      .sort((a, b) => b.matchPct - a.matchPct || b.passed - a.passed || (b.score || 0) - (a.score || 0) || (b.marketCap || 0) - (a.marketCap || 0))
       .slice(0, 60);
   } catch (e) {
     S.error = "Couldn't run the screen (" + e.message + "). Open the Full Market tab once to load its data, then try again.";
@@ -975,7 +981,7 @@ function renderStrategy(stratId) {
       <div class="chips">${SECTORS.map(s => `<button class="pick ${s === S.sector ? "on" : ""}" data-strat-sector="${s}">${s}</button>`).join("")}</div>
       <div class="baked"><strong>Honest-data note.</strong> ${escapeHtml(strat.naNote)} A “—” means the criterion can't be verified from the Full Market data — it's never counted as a pass. Cards are ranked by the share of <em>verifiable</em> checks they clear.</div>
       <button class="btn btn-big" id="${stratId}Btn" ${S.scanning ? "disabled" : ""}>${S.scanning ? "Screening…" : "Run the " + strat.tab + " screen"}</button>
-      <div class="hint" style="margin-top:10px">Screens the whole Full Market list (~${state.marketData ? state.marketData.count : "1,200"} names) instantly — no API key, no waiting.</div>
+      <div class="hint" style="margin-top:10px">Screens the whole ${state.universeData ? "~" + state.universeData.count.toLocaleString() + "-name universe" : "market"} instantly — no API key, no waiting.${S.usedFallback ? " <em>(Currently using the value-filtered ~1,200-name list — the full-universe file isn't published by the Pi yet.)</em>" : ""}</div>
     </div>
     ${S.scanning ? `<div class="progress-wrap"><div class="progress-line">Screening the full market…</div></div>` : ""}
     ${S.error && !S.scanning ? `<div class="error">${escapeHtml(S.error)}</div>` : ""}
@@ -1501,6 +1507,22 @@ async function loadMarketData(force) {
   renderSectors(); // same for Sectors
   if (state.insiderData) renderInsiders(); // cross-reference callout depends on this too
   renderHealth();
+}
+
+// The unfiltered full-universe file the Pi publishes for the Legends screeners.
+// It may not exist yet (the Pi needs the updated scanner); callers fall back to
+// the value-filtered stocks.json in that case, so the feature still works.
+async function loadUniverseData(force) {
+  if ((state.universeData || state.universeMissing) && !force) return;
+  try {
+    const res = await fetch(DATA_BASE + "/universe.json?ts=" + Date.now());
+    if (res.status === 404) { state.universeMissing = true; return; }
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    state.universeData = await res.json();
+    state.universeMissing = false;
+  } catch (e) {
+    state.universeMissing = true; // network/parse trouble — fall back gracefully
+  }
 }
 
 async function loadEtfData(force) {
