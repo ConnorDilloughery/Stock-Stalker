@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-28T21:04:23.353274+00:00",
+  "generatedAt": "2026-07-28T22:02:56.060745+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 762,
+  "count": 771,
   "trades": [
     {
       "ticker": "LOAN",
@@ -51,6 +51,46 @@
       "type": "Purchase",
       "shares": 1499.0,
       "pricePerShare": 3.8633,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "BYD",
+      "issuerName": "BOYD GAMING CORP",
+      "insiderName": "Hirsberg Josh",
+      "title": "CFO & Treasurer",
+      "type": "Sale",
+      "shares": 12777.0,
+      "pricePerShare": 89.76,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "VEL",
+      "issuerName": "Velocity Financial, Inc.",
+      "insiderName": "Szczepaniak Mark R",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 400.0,
+      "pricePerShare": 18.0,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "SNA",
+      "issuerName": "Snap-on Inc",
+      "insiderName": "Chambers Timothy L",
+      "title": "Sr VP & Pres - Tools",
+      "type": "Sale",
+      "shares": 9091.0,
+      "pricePerShare": 419.3563,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "SNA",
+      "issuerName": "Snap-on Inc",
+      "insiderName": "Chambers Timothy L",
+      "title": "Sr VP & Pres - Tools",
+      "type": "Sale",
+      "shares": 20.0,
+      "pricePerShare": 420.0,
       "transactionDate": "2026-07-28"
     },
     {
@@ -441,6 +481,26 @@
       "type": "Purchase",
       "shares": 2501.0,
       "pricePerShare": 3.77,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "ECAT",
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 151995.0,
+      "pricePerShare": 15.11,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "PKE",
+      "issuerName": "PARK AEROSPACE CORP",
+      "insiderName": "Petropoulos Constantine",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 2500.0,
+      "pricePerShare": 36.0,
       "transactionDate": "2026-07-27"
     },
     {
@@ -891,6 +951,26 @@
       "type": "Sale",
       "shares": 4760.0,
       "pricePerShare": 213.62,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "ECAT",
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 46387.0,
+      "pricePerShare": 15.13,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "ARTV",
+      "issuerName": "Artiva Biotherapeutics, Inc.",
+      "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 41319.0,
+      "pricePerShare": 9.99,
       "transactionDate": "2026-07-24"
     },
     {
@@ -1421,6 +1501,16 @@
       "type": "Purchase",
       "shares": 1131.0,
       "pricePerShare": 748119.0,
+      "transactionDate": "2026-07-23"
+    },
+    {
+      "ticker": "DRIO",
+      "issuerName": "DarioHealth Corp.",
+      "insiderName": "Matheis Dennis",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 14430.0,
+      "pricePerShare": 6.93,
       "transactionDate": "2026-07-23"
     },
     {
@@ -7825,6 +7915,61 @@
         }
       ]
     },
+    "BYD": {
+      "issuerName": "BOYD GAMING CORP",
+      "trades": [
+        {
+          "ticker": "BYD",
+          "issuerName": "BOYD GAMING CORP",
+          "insiderName": "Hirsberg Josh",
+          "title": "CFO & Treasurer",
+          "type": "Sale",
+          "shares": 12777.0,
+          "pricePerShare": 89.76,
+          "transactionDate": "2026-07-28"
+        }
+      ]
+    },
+    "VEL": {
+      "issuerName": "Velocity Financial, Inc.",
+      "trades": [
+        {
+          "ticker": "VEL",
+          "issuerName": "Velocity Financial, Inc.",
+          "insiderName": "Szczepaniak Mark R",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 18.0,
+          "transactionDate": "2026-07-28"
+        }
+      ]
+    },
+    "SNA": {
+      "issuerName": "Snap-on Inc",
+      "trades": [
+        {
+          "ticker": "SNA",
+          "issuerName": "Snap-on Inc",
+          "insiderName": "Chambers Timothy L",
+          "title": "Sr VP & Pres - Tools",
+          "type": "Sale",
+          "shares": 9091.0,
+          "pricePerShare": 419.3563,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SNA",
+          "issuerName": "Snap-on Inc",
+          "insiderName": "Chambers Timothy L",
+          "title": "Sr VP & Pres - Tools",
+          "type": "Sale",
+          "shares": 20.0,
+          "pricePerShare": 420.0,
+          "transactionDate": "2026-07-28"
+        }
+      ]
+    },
     "ANIX": {
       "issuerName": "Anixa Biosciences Inc",
       "trades": [
@@ -9205,6 +9350,86 @@
         }
       ]
     },
+    "ECAT": {
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "trades": [
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 151995.0,
+          "pricePerShare": 15.11,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 46387.0,
+          "pricePerShare": 15.13,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 79000.0,
+          "pricePerShare": 15.44,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 93506.0,
+          "pricePerShare": 15.49,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 83087.0,
+          "pricePerShare": 15.35,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 32854.0,
+          "pricePerShare": 15.62,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "PKE": {
+      "issuerName": "PARK AEROSPACE CORP",
+      "trades": [
+        {
+          "ticker": "PKE",
+          "issuerName": "PARK AEROSPACE CORP",
+          "insiderName": "Petropoulos Constantine",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 36.0,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
     "GLSI": {
       "issuerName": "Greenwich LifeSciences, Inc.",
       "trades": [
@@ -9705,6 +9930,81 @@
         }
       ]
     },
+    "ARTV": {
+      "issuerName": "Artiva Biotherapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "ARTV",
+          "issuerName": "Artiva Biotherapeutics, Inc.",
+          "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 41319.0,
+          "pricePerShare": 9.99,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "ARTV",
+          "issuerName": "Artiva Biotherapeutics, Inc.",
+          "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 59880.0,
+          "pricePerShare": 9.96,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "ARTV",
+          "issuerName": "Artiva Biotherapeutics, Inc.",
+          "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 84124.0,
+          "pricePerShare": 9.93,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "ARTV",
+          "issuerName": "Artiva Biotherapeutics, Inc.",
+          "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 120582.0,
+          "pricePerShare": 9.55,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "ARTV",
+          "issuerName": "Artiva Biotherapeutics, Inc.",
+          "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 7882.0,
+          "pricePerShare": 8.95,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "ARTV",
+          "issuerName": "Artiva Biotherapeutics, Inc.",
+          "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 152472.0,
+          "pricePerShare": 8.93,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "ARTV",
+          "issuerName": "Artiva Biotherapeutics, Inc.",
+          "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 6522.0,
+          "pricePerShare": 8.94,
+          "transactionDate": "2026-07-13"
+        }
+      ]
+    },
     "PSMT": {
       "issuerName": "PRICESMART INC",
       "trades": [
@@ -9977,71 +10277,6 @@
           "shares": 9588.0,
           "pricePerShare": 11.7042,
           "transactionDate": "2026-07-21"
-        }
-      ]
-    },
-    "ARTV": {
-      "issuerName": "Artiva Biotherapeutics, Inc.",
-      "trades": [
-        {
-          "ticker": "ARTV",
-          "issuerName": "Artiva Biotherapeutics, Inc.",
-          "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 59880.0,
-          "pricePerShare": 9.96,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "ARTV",
-          "issuerName": "Artiva Biotherapeutics, Inc.",
-          "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 84124.0,
-          "pricePerShare": 9.93,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "ARTV",
-          "issuerName": "Artiva Biotherapeutics, Inc.",
-          "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 120582.0,
-          "pricePerShare": 9.55,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "ARTV",
-          "issuerName": "Artiva Biotherapeutics, Inc.",
-          "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 7882.0,
-          "pricePerShare": 8.95,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "ARTV",
-          "issuerName": "Artiva Biotherapeutics, Inc.",
-          "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 152472.0,
-          "pricePerShare": 8.93,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "ARTV",
-          "issuerName": "Artiva Biotherapeutics, Inc.",
-          "insiderName": "RA CAPITAL MANAGEMENT, L.P.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 6522.0,
-          "pricePerShare": 8.94,
-          "transactionDate": "2026-07-13"
         }
       ]
     },
@@ -10386,6 +10621,21 @@
           "type": "Purchase",
           "shares": 1333.0,
           "pricePerShare": 15.0,
+          "transactionDate": "2026-07-23"
+        }
+      ]
+    },
+    "DRIO": {
+      "issuerName": "DarioHealth Corp.",
+      "trades": [
+        {
+          "ticker": "DRIO",
+          "issuerName": "DarioHealth Corp.",
+          "insiderName": "Matheis Dennis",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 14430.0,
+          "pricePerShare": 6.93,
           "transactionDate": "2026-07-23"
         }
       ]
@@ -10846,51 +11096,6 @@
           "type": "Purchase",
           "shares": 1682.0,
           "pricePerShare": 21.64,
-          "transactionDate": "2026-07-16"
-        }
-      ]
-    },
-    "ECAT": {
-      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-      "trades": [
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 79000.0,
-          "pricePerShare": 15.44,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 93506.0,
-          "pricePerShare": 15.49,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 83087.0,
-          "pricePerShare": 15.35,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 32854.0,
-          "pricePerShare": 15.62,
           "transactionDate": "2026-07-16"
         }
       ]
@@ -16245,6 +16450,7 @@
       "0000088053-26-000559",
       "0000088053-26-000561",
       "0000088053-26-000564",
+      "0000091440-26-000146",
       "0000093751-26-000393",
       "0000100334-26-000052",
       "0000100517-26-000142",
@@ -16339,6 +16545,7 @@
       "0000904548-26-000013",
       "0000906553-26-000060",
       "0000906553-26-000062",
+      "0000906553-26-000064",
       "0000908834-26-000354",
       "0000912282-26-000993",
       "0000912282-26-000995",
@@ -16799,6 +17006,8 @@
       "0001104659-26-087517",
       "0001104659-26-087584",
       "0001104659-26-087588",
+      "0001104659-26-087615",
+      "0001104659-26-087626",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001108524-26-000154",
@@ -16959,6 +17168,7 @@
       "0001178913-26-003542",
       "0001178913-26-003555",
       "0001178913-26-003595",
+      "0001178913-26-003620",
       "0001181540-26-000002",
       "0001181664-26-000004",
       "0001181672-26-000004",
@@ -17516,6 +17726,12 @@
       "0001193125-26-321204",
       "0001193125-26-321206",
       "0001193125-26-321209",
+      "0001193125-26-321271",
+      "0001193125-26-321274",
+      "0001193125-26-321283",
+      "0001193125-26-321286",
+      "0001193125-26-321288",
+      "0001193125-26-321292",
       "0001196460-26-000004",
       "0001201252-26-000010",
       "0001203302-26-000012",
@@ -17723,6 +17939,14 @@
       "0001213900-26-082332",
       "0001213900-26-082333",
       "0001213900-26-082349",
+      "0001213900-26-082371",
+      "0001213900-26-082376",
+      "0001213900-26-082379",
+      "0001213900-26-082383",
+      "0001213900-26-082386",
+      "0001213900-26-082387",
+      "0001213900-26-082388",
+      "0001213900-26-082392",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -17762,6 +17986,8 @@
       "0001214659-26-009074",
       "0001214659-26-009084",
       "0001214659-26-009112",
+      "0001214659-26-009113",
+      "0001214659-26-009115",
       "0001220634-26-000002",
       "0001223260-26-000009",
       "0001225208-26-006693",
@@ -17791,6 +18017,7 @@
       "0001231919-26-000786",
       "0001231919-26-000790",
       "0001231919-26-000791",
+      "0001231919-26-000808",
       "0001233433-26-000004",
       "0001235321-26-000002",
       "0001238705-26-000007",
@@ -17833,6 +18060,7 @@
       "0001352573-26-000012",
       "0001357615-26-000163",
       "0001364924-26-000187",
+      "0001367902-26-000004",
       "0001375800-26-000005",
       "0001395277-26-000001",
       "0001398344-26-012331",
@@ -17854,6 +18082,7 @@
       "0001398344-26-012804",
       "0001398344-26-012862",
       "0001398344-26-012876",
+      "0001398344-26-012914",
       "0001401336-26-000020",
       "0001402348-26-000016",
       "0001405955-26-000007",
@@ -17926,6 +18155,7 @@
       "0001437749-26-024609",
       "0001437749-26-024664",
       "0001437749-26-024689",
+      "0001437749-26-024702",
       "0001445546-26-005229",
       "0001445546-26-005230",
       "0001445546-26-005231",
@@ -17979,6 +18209,8 @@
       "0001464521-26-000105",
       "0001464521-26-000107",
       "0001464521-26-000109",
+      "0001464521-26-000111",
+      "0001464521-26-000113",
       "0001468327-26-000055",
       "0001470831-26-000729",
       "0001475597-26-000164",
@@ -17994,6 +18226,7 @@
       "0001477932-26-004439",
       "0001477932-26-004466",
       "0001477932-26-004473",
+      "0001479079-26-000035",
       "0001490925-26-000003",
       "0001491567-26-000008",
       "0001492597-26-000001",
@@ -18062,6 +18295,7 @@
       "0001493152-26-034952",
       "0001493152-26-034959",
       "0001493152-26-034977",
+      "0001493152-26-035040",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -18080,6 +18314,7 @@
       "0001498270-26-000010",
       "0001499832-26-000035",
       "0001499832-26-000036",
+      "0001504699-26-000005",
       "0001506307-26-000059",
       "0001506307-26-000061",
       "0001506307-26-000074",
@@ -18097,6 +18332,7 @@
       "0001510281-26-000241",
       "0001510281-26-000245",
       "0001510281-26-000246",
+      "0001510281-26-000250",
       "0001511110-26-000008",
       "0001511110-26-000010",
       "0001513957-26-000002",
@@ -18188,6 +18424,7 @@
       "0001580642-26-004647",
       "0001580642-26-004653",
       "0001580642-26-004661",
+      "0001580642-26-004665",
       "0001590264-26-000010",
       "0001592900-26-003595",
       "0001592900-26-003620",
@@ -18196,6 +18433,14 @@
       "0001598091-26-000005",
       "0001601099-26-000043",
       "0001604488-26-000079",
+      "0001606498-26-000105",
+      "0001606498-26-000106",
+      "0001606498-26-000107",
+      "0001606498-26-000108",
+      "0001606498-26-000109",
+      "0001606498-26-000110",
+      "0001606498-26-000111",
+      "0001606498-26-000112",
       "0001610717-26-000340",
       "0001620586-26-000009",
       "0001623632-26-001024",
@@ -18345,6 +18590,7 @@
       "0001628280-26-050227",
       "0001628280-26-050228",
       "0001628280-26-050230",
+      "0001628280-26-050262",
       "0001634117-26-000081",
       "0001638728-26-000011",
       "0001640334-26-001221",
@@ -18403,6 +18649,7 @@
       "0001709954-26-000010",
       "0001714908-26-000007",
       "0001722684-26-000075",
+      "0001724169-26-000035",
       "0001727440-26-000003",
       "0001728746-26-000012",
       "0001729835-26-000011",
@@ -18414,6 +18661,7 @@
       "0001731395-26-000007",
       "0001732802-26-000014",
       "0001736979-26-000013",
+      "0001737568-26-000003",
       "0001740393-26-000006",
       "0001742734-26-000018",
       "0001742938-26-000007",
@@ -19011,6 +19259,8 @@
       "0001839882-26-036692",
       "0001839882-26-036693",
       "0001839882-26-036694",
+      "0001839882-26-036730",
+      "0001839882-26-036731",
       "0001840706-26-000265",
       "0001842720-26-000009",
       "0001843103-26-000014",
@@ -19020,6 +19270,7 @@
       "0001846472-26-000013",
       "0001847776-26-000010",
       "0001849122-26-000012",
+      "0001849820-26-000114",
       "0001852009-26-000004",
       "0001852010-26-000006",
       "0001855880-26-000014",
@@ -19060,6 +19311,7 @@
       "0001899338-26-000002",
       "0001903115-26-000003",
       "0001916048-26-000009",
+      "0001916473-26-000034",
       "0001918704-26-020489",
       "0001918704-26-020490",
       "0001918704-26-020491",
@@ -19661,6 +19913,8 @@
       "0001918704-26-021473",
       "0001918704-26-021474",
       "0001918704-26-021475",
+      "0001918704-26-021486",
+      "0001918704-26-021487",
       "0001929185-26-000012",
       "0001932635-26-000003",
       "0001939754-26-000005",
@@ -19838,6 +20092,10 @@
       "0002032340-26-000007",
       "0002032458-26-000022",
       "0002032661-26-000002",
+      "0002035959-26-000005",
+      "0002037266-26-000006",
+      "0002037312-26-000003",
+      "0002037321-26-000003",
       "0002039219-26-000008",
       "0002041625-26-000004",
       "0002051008-26-000002",
