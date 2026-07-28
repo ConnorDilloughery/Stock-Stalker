@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-28T20:04:53.495178+00:00",
+  "generatedAt": "2026-07-28T21:04:23.353274+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 751,
+  "count": 762,
   "trades": [
     {
       "ticker": "LOAN",
@@ -11,6 +11,46 @@
       "type": "Purchase",
       "shares": 8000.0,
       "pricePerShare": 3.99,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "EOSE",
+      "issuerName": "Eos Energy Enterprises, Inc.",
+      "insiderName": "Puri Sumeet",
+      "title": "Chief Accounting Officer",
+      "type": "Sale",
+      "shares": 29167.0,
+      "pricePerShare": 3.36,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "EOSE",
+      "issuerName": "Eos Energy Enterprises, Inc.",
+      "insiderName": "Kroeker Nathan",
+      "title": "Chief Commercial Officer",
+      "type": "Sale",
+      "shares": 110417.0,
+      "pricePerShare": 3.36,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "RTX",
+      "issuerName": "RTX Corp",
+      "insiderName": "DaSilva Kevin G",
+      "title": "Senior VP and Treasurer",
+      "type": "Sale",
+      "shares": 2250.0,
+      "pricePerShare": 216.932,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "BYRN",
+      "issuerName": "Byrna Technologies Inc.",
+      "insiderName": "Hughes Herbert",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1499.0,
+      "pricePerShare": 3.8633,
       "transactionDate": "2026-07-28"
     },
     {
@@ -361,6 +401,46 @@
       "type": "Sale",
       "shares": 5000.0,
       "pricePerShare": 5.6611,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "EOSE",
+      "issuerName": "Eos Energy Enterprises, Inc.",
+      "insiderName": "Mastrangelo Joe",
+      "title": "Director, Chief Executive Officer",
+      "type": "Sale",
+      "shares": 159154.0,
+      "pricePerShare": 3.61,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "RTX",
+      "issuerName": "RTX Corp",
+      "insiderName": "Atkinson Tracy A",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 2295.0,
+      "pricePerShare": 218.0497,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "NNOX",
+      "issuerName": "Nano-X Imaging Ltd.",
+      "insiderName": "Meltzer Erez",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 36000.0,
+      "pricePerShare": 0.93,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "BYRN",
+      "issuerName": "Byrna Technologies Inc.",
+      "insiderName": "Hughes Herbert",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 2501.0,
+      "pricePerShare": 3.77,
       "transactionDate": "2026-07-27"
     },
     {
@@ -781,6 +861,36 @@
       "type": "Sale",
       "shares": 2662.0,
       "pricePerShare": 170.24,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "RTX",
+      "issuerName": "RTX Corp",
+      "insiderName": "Brunk Troy D",
+      "title": "President, Collins Aerospace",
+      "type": "Sale",
+      "shares": 1811.0,
+      "pricePerShare": 210.645,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "RTX",
+      "issuerName": "RTX Corp",
+      "insiderName": "Brunk Troy D",
+      "title": "President, Collins Aerospace",
+      "type": "Sale",
+      "shares": 6746.0,
+      "pricePerShare": 210.2,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "RTX",
+      "issuerName": "RTX Corp",
+      "insiderName": "DaSilva Kevin G",
+      "title": "Senior VP and Treasurer",
+      "type": "Sale",
+      "shares": 4760.0,
+      "pricePerShare": 213.62,
       "transactionDate": "2026-07-24"
     },
     {
@@ -7530,6 +7640,191 @@
         }
       ]
     },
+    "EOSE": {
+      "issuerName": "Eos Energy Enterprises, Inc.",
+      "trades": [
+        {
+          "ticker": "EOSE",
+          "issuerName": "Eos Energy Enterprises, Inc.",
+          "insiderName": "Puri Sumeet",
+          "title": "Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 29167.0,
+          "pricePerShare": 3.36,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "EOSE",
+          "issuerName": "Eos Energy Enterprises, Inc.",
+          "insiderName": "Kroeker Nathan",
+          "title": "Chief Commercial Officer",
+          "type": "Sale",
+          "shares": 110417.0,
+          "pricePerShare": 3.36,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "EOSE",
+          "issuerName": "Eos Energy Enterprises, Inc.",
+          "insiderName": "Mastrangelo Joe",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 159154.0,
+          "pricePerShare": 3.61,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
+    "RTX": {
+      "issuerName": "RTX Corp",
+      "trades": [
+        {
+          "ticker": "RTX",
+          "issuerName": "RTX Corp",
+          "insiderName": "DaSilva Kevin G",
+          "title": "Senior VP and Treasurer",
+          "type": "Sale",
+          "shares": 2250.0,
+          "pricePerShare": 216.932,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "RTX",
+          "issuerName": "RTX Corp",
+          "insiderName": "Atkinson Tracy A",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 2295.0,
+          "pricePerShare": 218.0497,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "RTX",
+          "issuerName": "RTX Corp",
+          "insiderName": "Brunk Troy D",
+          "title": "President, Collins Aerospace",
+          "type": "Sale",
+          "shares": 1811.0,
+          "pricePerShare": 210.645,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "RTX",
+          "issuerName": "RTX Corp",
+          "insiderName": "Brunk Troy D",
+          "title": "President, Collins Aerospace",
+          "type": "Sale",
+          "shares": 6746.0,
+          "pricePerShare": 210.2,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "RTX",
+          "issuerName": "RTX Corp",
+          "insiderName": "DaSilva Kevin G",
+          "title": "Senior VP and Treasurer",
+          "type": "Sale",
+          "shares": 4760.0,
+          "pricePerShare": 213.62,
+          "transactionDate": "2026-07-24"
+        }
+      ]
+    },
+    "BYRN": {
+      "issuerName": "Byrna Technologies Inc.",
+      "trades": [
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Hughes Herbert",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1499.0,
+          "pricePerShare": 3.8633,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Hughes Herbert",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2501.0,
+          "pricePerShare": 3.77,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Reed Chris Lavern",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 8150.0,
+          "pricePerShare": 3.63,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Davis Conn Q.",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 3430.0,
+          "pricePerShare": 3.51,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Hughes Herbert",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 3703.0,
+          "pricePerShare": 3.4232,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Hughes Herbert",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 12500.0,
+          "pricePerShare": 3.4037,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Davis Conn Q.",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 18767.9201,
+          "pricePerShare": 3.4614,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Hughes Herbert",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 5478.0,
+          "pricePerShare": 3.4733,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Kennedy TJ",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 29000.0,
+          "pricePerShare": 3.5271,
+          "transactionDate": "2026-07-22"
+        }
+      ]
+    },
     "ANIX": {
       "issuerName": "Anixa Biosciences Inc",
       "trades": [
@@ -8895,6 +9190,21 @@
         }
       ]
     },
+    "NNOX": {
+      "issuerName": "Nano-X Imaging Ltd.",
+      "trades": [
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Meltzer Erez",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 36000.0,
+          "pricePerShare": 0.93,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
     "GLSI": {
       "issuerName": "Greenwich LifeSciences, Inc.",
       "trades": [
@@ -9362,81 +9672,6 @@
           "shares": 9.0,
           "pricePerShare": 10.175,
           "transactionDate": "2026-07-24"
-        }
-      ]
-    },
-    "BYRN": {
-      "issuerName": "Byrna Technologies Inc.",
-      "trades": [
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Reed Chris Lavern",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 8150.0,
-          "pricePerShare": 3.63,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Davis Conn Q.",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 3430.0,
-          "pricePerShare": 3.51,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Hughes Herbert",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 3703.0,
-          "pricePerShare": 3.4232,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Hughes Herbert",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 12500.0,
-          "pricePerShare": 3.4037,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Davis Conn Q.",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 18767.9201,
-          "pricePerShare": 3.4614,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Hughes Herbert",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 5478.0,
-          "pricePerShare": 3.4733,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Kennedy TJ",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 29000.0,
-          "pricePerShare": 3.5271,
-          "transactionDate": "2026-07-22"
         }
       ]
     },
@@ -16022,6 +16257,13 @@
       "0000225322-26-000191",
       "0000311094-26-000054",
       "0000311094-26-000056",
+      "0000313143-26-000099",
+      "0000313143-26-000101",
+      "0000313143-26-000103",
+      "0000313143-26-000105",
+      "0000313143-26-000107",
+      "0000313143-26-000109",
+      "0000313143-26-000111",
       "0000318300-26-000185",
       "0000318300-26-000189",
       "0000356171-26-000106",
@@ -16080,6 +16322,8 @@
       "0000898432-26-000541",
       "0000898432-26-000542",
       "0000898432-26-000554",
+      "0000898432-26-000557",
+      "0000898432-26-000558",
       "0000899140-26-000726",
       "0000899140-26-000735",
       "0000899140-26-000736",
@@ -16342,6 +16586,7 @@
       "0000950103-26-011282",
       "0000950103-26-011283",
       "0000950103-26-011284",
+      "0000950103-26-011291",
       "0000950142-26-002131",
       "0000950142-26-002132",
       "0000950142-26-002145",
@@ -16355,6 +16600,7 @@
       "0001023731-26-000091",
       "0001023731-26-000093",
       "0001024547-26-000012",
+      "0001028284-26-000011",
       "0001032834-26-000006",
       "0001040470-26-000217",
       "0001040470-26-000219",
@@ -16551,6 +16797,8 @@
       "0001104659-26-087434",
       "0001104659-26-087516",
       "0001104659-26-087517",
+      "0001104659-26-087584",
+      "0001104659-26-087588",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001108524-26-000154",
@@ -16576,6 +16824,8 @@
       "0001114446-26-004934",
       "0001114446-26-005021",
       "0001120545-26-000004",
+      "0001128480-26-000004",
+      "0001128483-26-000012",
       "0001133228-26-010642",
       "0001133228-26-010644",
       "0001133228-26-010646",
@@ -16701,6 +16951,7 @@
       "0001174610-26-000437",
       "0001174610-26-000473",
       "0001174850-26-000159",
+      "0001176368-26-000005",
       "0001178032-26-000008",
       "0001178579-26-000016",
       "0001178579-26-000017",
@@ -17253,11 +17504,24 @@
       "0001193125-26-320966",
       "0001193125-26-320967",
       "0001193125-26-320969",
+      "0001193125-26-321148",
+      "0001193125-26-321153",
+      "0001193125-26-321155",
+      "0001193125-26-321178",
+      "0001193125-26-321181",
+      "0001193125-26-321192",
+      "0001193125-26-321196",
+      "0001193125-26-321199",
+      "0001193125-26-321203",
+      "0001193125-26-321204",
+      "0001193125-26-321206",
+      "0001193125-26-321209",
       "0001196460-26-000004",
       "0001201252-26-000010",
       "0001203302-26-000012",
       "0001204034-26-000021",
       "0001204816-26-000026",
+      "0001206774-26-000365",
       "0001207622-26-000005",
       "0001208362-26-000011",
       "0001209992-26-000046",
@@ -17455,6 +17719,10 @@
       "0001213900-26-082165",
       "0001213900-26-082188",
       "0001213900-26-082239",
+      "0001213900-26-082326",
+      "0001213900-26-082332",
+      "0001213900-26-082333",
+      "0001213900-26-082349",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -17493,6 +17761,7 @@
       "0001214659-26-009073",
       "0001214659-26-009074",
       "0001214659-26-009084",
+      "0001214659-26-009112",
       "0001220634-26-000002",
       "0001223260-26-000009",
       "0001225208-26-006693",
@@ -17510,6 +17779,9 @@
       "0001225208-26-006727",
       "0001225208-26-006728",
       "0001225208-26-006743",
+      "0001225208-26-006771",
+      "0001225208-26-006772",
+      "0001225208-26-006773",
       "0001225481-26-000006",
       "0001230589-26-000004",
       "0001231919-26-000774",
@@ -17528,6 +17800,7 @@
       "0001266240-26-000004",
       "0001266824-26-000160",
       "0001271848-26-000003",
+      "0001273861-26-000005",
       "0001278521-26-000011",
       "0001282930-26-000004",
       "0001284309-26-000021",
@@ -17652,6 +17925,7 @@
       "0001437749-26-024591",
       "0001437749-26-024609",
       "0001437749-26-024664",
+      "0001437749-26-024689",
       "0001445546-26-005229",
       "0001445546-26-005230",
       "0001445546-26-005231",
@@ -17891,6 +18165,7 @@
       "0001568982-26-000004",
       "0001569789-26-000012",
       "0001576059-26-000002",
+      "0001576939-26-000005",
       "0001579427-26-000005",
       "0001579427-26-000007",
       "0001580502-26-000010",
@@ -17912,6 +18187,7 @@
       "0001580642-26-004646",
       "0001580642-26-004647",
       "0001580642-26-004653",
+      "0001580642-26-004661",
       "0001590264-26-000010",
       "0001592900-26-003595",
       "0001592900-26-003620",
@@ -18065,6 +18341,10 @@
       "0001628280-26-049897",
       "0001628280-26-049906",
       "0001628280-26-049989",
+      "0001628280-26-050226",
+      "0001628280-26-050227",
+      "0001628280-26-050228",
+      "0001628280-26-050230",
       "0001634117-26-000081",
       "0001638728-26-000011",
       "0001640334-26-001221",
@@ -18083,6 +18363,7 @@
       "0001651981-26-000067",
       "0001651981-26-000068",
       "0001652149-26-000005",
+      "0001653477-26-000041",
       "0001653558-26-000110",
       "0001653558-26-000112",
       "0001653558-26-000114",
@@ -18101,6 +18382,7 @@
       "0001662210-26-000011",
       "0001672659-26-000036",
       "0001673356-26-000008",
+      "0001674335-26-000111",
       "0001676421-26-000002",
       "0001683168-26-005715",
       "0001683168-26-005736",
@@ -18120,6 +18402,7 @@
       "0001709430-26-000008",
       "0001709954-26-000010",
       "0001714908-26-000007",
+      "0001722684-26-000075",
       "0001727440-26-000003",
       "0001728746-26-000012",
       "0001729835-26-000011",
@@ -18145,6 +18428,7 @@
       "0001753926-26-001217",
       "0001753926-26-001224",
       "0001753926-26-001238",
+      "0001760265-26-000003",
       "0001763161-26-000011",
       "0001769421-26-000010",
       "0001769628-26-000323",
@@ -18183,6 +18467,7 @@
       "0001784996-26-000070",
       "0001785783-26-000010",
       "0001785802-26-000002",
+      "0001785802-26-000006",
       "0001786240-26-000007",
       "0001786612-26-000009",
       "0001786769-26-000011",
@@ -18235,6 +18520,7 @@
       "0001829126-26-007901",
       "0001829126-26-007902",
       "0001829126-26-007921",
+      "0001829126-26-007930",
       "0001830165-26-000026",
       "0001830532-26-000008",
       "0001831410-26-000008",
@@ -19372,6 +19658,9 @@
       "0001918704-26-021461",
       "0001918704-26-021462",
       "0001918704-26-021469",
+      "0001918704-26-021473",
+      "0001918704-26-021474",
+      "0001918704-26-021475",
       "0001929185-26-000012",
       "0001932635-26-000003",
       "0001939754-26-000005",
