@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-27T23:05:03.478283+00:00",
+  "generatedAt": "2026-07-28T00:02:57.227696+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 690,
+  "count": 697,
   "trades": [
     {
       "ticker": "ANIX",
@@ -41,6 +41,16 @@
       "type": "Sale",
       "shares": 2920.5511,
       "pricePerShare": 83.9342,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "OVLY",
+      "issuerName": "Oak Valley Bancorp",
+      "insiderName": "Barton Don",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 375.0,
+      "pricePerShare": 32.72,
       "transactionDate": "2026-07-27"
     },
     {
@@ -281,6 +291,26 @@
       "type": "Purchase",
       "shares": 27702.0,
       "pricePerShare": 0.954,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "OLMA",
+      "issuerName": "Olema Pharmaceuticals, Inc.",
+      "insiderName": "Harmon Cyrus",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 12500.0,
+      "pricePerShare": 11.714,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "SNEX",
+      "issuerName": "StoneX Group Inc.",
+      "insiderName": "Rotsztain Diego",
+      "title": "Chief Governance/Legal Officer",
+      "type": "Sale",
+      "shares": 20630.0,
+      "pricePerShare": 74.4007,
       "transactionDate": "2026-07-24"
     },
     {
@@ -721,6 +751,46 @@
       "type": "Sale",
       "shares": 6952.0,
       "pricePerShare": 102.0341,
+      "transactionDate": "2026-07-23"
+    },
+    {
+      "ticker": "MU",
+      "issuerName": "MICRON TECHNOLOGY INC",
+      "insiderName": "ALLEN SCOTT R.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 879.0,
+      "pricePerShare": 1000.0,
+      "transactionDate": "2026-07-23"
+    },
+    {
+      "ticker": "OLMA",
+      "issuerName": "Olema Pharmaceuticals, Inc.",
+      "insiderName": "Harmon Cyrus",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 12500.0,
+      "pricePerShare": 11.579,
+      "transactionDate": "2026-07-23"
+    },
+    {
+      "ticker": "DSP",
+      "issuerName": "Viant Technology Inc.",
+      "insiderName": "MADDEN LARRY",
+      "title": "Chief Financial Officer",
+      "type": "Sale",
+      "shares": 2814.0,
+      "pricePerShare": 10.6857,
+      "transactionDate": "2026-07-23"
+    },
+    {
+      "ticker": "FUNC",
+      "issuerName": "FIRST UNITED CORP/MD/",
+      "insiderName": "Sanders Keith",
+      "title": "EVP & Chief Wealth Officer",
+      "type": "Sale",
+      "shares": 5000.0,
+      "pricePerShare": 43.6795,
       "transactionDate": "2026-07-23"
     },
     {
@@ -6987,6 +7057,16 @@
           "shares": 2000.0,
           "pricePerShare": 32.5,
           "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "OVLY",
+          "issuerName": "Oak Valley Bancorp",
+          "insiderName": "Barton Don",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 375.0,
+          "pricePerShare": 32.72,
+          "transactionDate": "2026-07-27"
         }
       ]
     },
@@ -7375,6 +7455,106 @@
         }
       ]
     },
+    "OLMA": {
+      "issuerName": "Olema Pharmaceuticals, Inc.",
+      "trades": [
+        {
+          "ticker": "OLMA",
+          "issuerName": "Olema Pharmaceuticals, Inc.",
+          "insiderName": "Harmon Cyrus",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 12500.0,
+          "pricePerShare": 11.714,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "OLMA",
+          "issuerName": "Olema Pharmaceuticals, Inc.",
+          "insiderName": "Harmon Cyrus",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 12500.0,
+          "pricePerShare": 11.579,
+          "transactionDate": "2026-07-23"
+        }
+      ]
+    },
+    "SNEX": {
+      "issuerName": "StoneX Group Inc.",
+      "trades": [
+        {
+          "ticker": "SNEX",
+          "issuerName": "StoneX Group Inc.",
+          "insiderName": "Rotsztain Diego",
+          "title": "Chief Governance/Legal Officer",
+          "type": "Sale",
+          "shares": 20630.0,
+          "pricePerShare": 74.4007,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "SNEX",
+          "issuerName": "StoneX Group Inc.",
+          "insiderName": "Rotsztain Diego",
+          "title": "Chief Governance/Legal Officer",
+          "type": "Sale",
+          "shares": 29995.0,
+          "pricePerShare": 74.3218,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "SNEX",
+          "issuerName": "StoneX Group Inc.",
+          "insiderName": "OCONNOR SEAN MICHAEL",
+          "title": "Director, Executive Vice-Chairman-Board",
+          "type": "Sale",
+          "shares": 104934.0,
+          "pricePerShare": 74.3303,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "SNEX",
+          "issuerName": "StoneX Group Inc.",
+          "insiderName": "Dunaway William J",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 95970.0,
+          "pricePerShare": 74.3287,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "SNEX",
+          "issuerName": "StoneX Group Inc.",
+          "insiderName": "Smith Philip Andrew",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 45000.0,
+          "pricePerShare": 74.3218,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "SNEX",
+          "issuerName": "StoneX Group Inc.",
+          "insiderName": "Maurer Mark Lowry",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 52376.0,
+          "pricePerShare": 74.3218,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "SNEX",
+          "issuerName": "StoneX Group Inc.",
+          "insiderName": "Perkins Abigail H",
+          "title": "Chief Information Officer",
+          "type": "Sale",
+          "shares": 8919.0,
+          "pricePerShare": 70.428,
+          "transactionDate": "2026-07-20"
+        }
+      ]
+    },
     "PSMT": {
       "issuerName": "PRICESMART INC",
       "trades": [
@@ -7641,6 +7821,16 @@
           "type": "Sale",
           "shares": 12912.0,
           "pricePerShare": 10.4704,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "DSP",
+          "issuerName": "Viant Technology Inc.",
+          "insiderName": "MADDEN LARRY",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 2814.0,
+          "pricePerShare": 10.6857,
           "transactionDate": "2026-07-23"
         },
         {
@@ -8637,6 +8827,36 @@
           "shares": 4053.0,
           "pricePerShare": 104.1374,
           "transactionDate": "2026-07-21"
+        }
+      ]
+    },
+    "MU": {
+      "issuerName": "MICRON TECHNOLOGY INC",
+      "trades": [
+        {
+          "ticker": "MU",
+          "issuerName": "MICRON TECHNOLOGY INC",
+          "insiderName": "ALLEN SCOTT R.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 879.0,
+          "pricePerShare": 1000.0,
+          "transactionDate": "2026-07-23"
+        }
+      ]
+    },
+    "FUNC": {
+      "issuerName": "FIRST UNITED CORP/MD/",
+      "trades": [
+        {
+          "ticker": "FUNC",
+          "issuerName": "FIRST UNITED CORP/MD/",
+          "insiderName": "Sanders Keith",
+          "title": "EVP & Chief Wealth Officer",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 43.6795,
+          "transactionDate": "2026-07-23"
         }
       ]
     },
@@ -9757,71 +9977,6 @@
           "shares": 80.0,
           "pricePerShare": 345.165,
           "transactionDate": "2026-07-22"
-        }
-      ]
-    },
-    "SNEX": {
-      "issuerName": "StoneX Group Inc.",
-      "trades": [
-        {
-          "ticker": "SNEX",
-          "issuerName": "StoneX Group Inc.",
-          "insiderName": "Rotsztain Diego",
-          "title": "Chief Governance/Legal Officer",
-          "type": "Sale",
-          "shares": 29995.0,
-          "pricePerShare": 74.3218,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "SNEX",
-          "issuerName": "StoneX Group Inc.",
-          "insiderName": "OCONNOR SEAN MICHAEL",
-          "title": "Director, Executive Vice-Chairman-Board",
-          "type": "Sale",
-          "shares": 104934.0,
-          "pricePerShare": 74.3303,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "SNEX",
-          "issuerName": "StoneX Group Inc.",
-          "insiderName": "Dunaway William J",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 95970.0,
-          "pricePerShare": 74.3287,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "SNEX",
-          "issuerName": "StoneX Group Inc.",
-          "insiderName": "Smith Philip Andrew",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 45000.0,
-          "pricePerShare": 74.3218,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "SNEX",
-          "issuerName": "StoneX Group Inc.",
-          "insiderName": "Maurer Mark Lowry",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 52376.0,
-          "pricePerShare": 74.3218,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "SNEX",
-          "issuerName": "StoneX Group Inc.",
-          "insiderName": "Perkins Abigail H",
-          "title": "Chief Information Officer",
-          "type": "Sale",
-          "shares": 8919.0,
-          "pricePerShare": 70.428,
-          "transactionDate": "2026-07-20"
         }
       ]
     },
@@ -14956,6 +15111,7 @@
       "0001009165-26-000006",
       "0001011438-26-000438",
       "0001013594-26-000773",
+      "0001014100-26-000019",
       "0001019155-26-000352",
       "0001023731-26-000091",
       "0001023731-26-000093",
@@ -15138,6 +15294,7 @@
       "0001104659-26-087135",
       "0001104659-26-087145",
       "0001104659-26-087156",
+      "0001104659-26-087217",
       "0001106578-26-000106",
       "0001108524-26-000154",
       "0001108524-26-000156",
@@ -15267,6 +15424,7 @@
       "0001140361-26-029742",
       "0001140361-26-029746",
       "0001140361-26-029768",
+      "0001140361-26-029791",
       "0001160077-26-000003",
       "0001168404-26-000039",
       "0001171843-26-004845",
@@ -15723,6 +15881,7 @@
       "0001193125-26-318294",
       "0001193125-26-318317",
       "0001193125-26-318408",
+      "0001193125-26-318442",
       "0001196460-26-000004",
       "0001201252-26-000010",
       "0001203302-26-000012",
@@ -15971,6 +16130,7 @@
       "0001266824-26-000160",
       "0001271848-26-000003",
       "0001278521-26-000011",
+      "0001284309-26-000021",
       "0001286737-26-000002",
       "0001290673-26-000003",
       "0001292208-26-000010",
@@ -16075,6 +16235,7 @@
       "0001437749-26-024529",
       "0001437749-26-024530",
       "0001437749-26-024534",
+      "0001437749-26-024535",
       "0001445546-26-005229",
       "0001445546-26-005230",
       "0001445546-26-005231",
@@ -16195,6 +16356,7 @@
       "0001493152-26-034726",
       "0001493152-26-034772",
       "0001493152-26-034846",
+      "0001493152-26-034888",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -16230,6 +16392,7 @@
       "0001510281-26-000245",
       "0001510281-26-000246",
       "0001511110-26-000008",
+      "0001511110-26-000010",
       "0001513957-26-000002",
       "0001515156-26-000099",
       "0001517413-26-000203",
@@ -16468,6 +16631,7 @@
       "0001651981-26-000062",
       "0001651981-26-000067",
       "0001651981-26-000068",
+      "0001652149-26-000005",
       "0001653558-26-000110",
       "0001653558-26-000112",
       "0001653558-26-000114",
@@ -16610,6 +16774,7 @@
       "0001829126-26-007801",
       "0001829126-26-007878",
       "0001830532-26-000008",
+      "0001831410-26-000008",
       "0001831651-26-000102",
       "0001833511-26-000032",
       "0001834164-26-000004",
