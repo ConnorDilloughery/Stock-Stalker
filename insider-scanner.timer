@@ -1,0 +1,13 @@
+[Unit]
+Description=Run the Undercurrent insider trading scanner hourly
+
+[Timer]
+# SEC's "current filings" feed caps at 100 entries (~50 unique
+# filings), which comfortably covers well over an hour even on busy
+# days — hourly keeps up without hammering EDGAR.
+OnCalendar=hourly
+Persistent=true
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target

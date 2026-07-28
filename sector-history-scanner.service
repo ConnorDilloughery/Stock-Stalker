@@ -1,0 +1,13 @@
+[Unit]
+Description=Undercurrent sector history scanner (one-shot, run daily by sector-history-scanner.timer)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=connor
+WorkingDirectory=/home/connor/undercurrent-scanner
+EnvironmentFile=/home/connor/undercurrent-scanner/scanner.env
+ExecStart=/usr/bin/python3 /home/connor/undercurrent-scanner/sector_history_scanner.py
+StandardOutput=append:/home/connor/undercurrent-scanner/sector_history.log
+StandardError=append:/home/connor/undercurrent-scanner/sector_history.log

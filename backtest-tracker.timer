@@ -1,0 +1,12 @@
+[Unit]
+Description=Run the Undercurrent backtest tracker once a day
+
+[Timer]
+# Daily is plenty — this logs new signal episodes and refreshes prices,
+# neither of which needs intraday granularity.
+OnCalendar=*-*-* 21:30:00 America/New_York
+Persistent=true
+RandomizedDelaySec=600
+
+[Install]
+WantedBy=timers.target

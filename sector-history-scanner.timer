@@ -1,0 +1,13 @@
+[Unit]
+Description=Run the Undercurrent sector history scanner once a day
+
+[Timer]
+# Sector-level price history barely changes intraday-urgently — daily,
+# after market close, is more than enough (unlike the congress scanner,
+# this doesn't need hourly polling).
+OnCalendar=*-*-* 21:00:00 America/New_York
+Persistent=true
+RandomizedDelaySec=600
+
+[Install]
+WantedBy=timers.target

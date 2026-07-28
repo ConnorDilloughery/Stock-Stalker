@@ -1,0 +1,18 @@
+[Unit]
+Description=Run the Undercurrent congressional trading scanner hourly
+
+[Timer]
+# Hourly doesn't mean trades show up within an hour of happening — the
+# STOCK Act allows up to 45 days between a trade and its public filing
+# either way — it just minimizes how long we lag behind whatever the
+# government has already posted. Safe to run this often because
+# congress_scanner.py's own PID-file lock skips a trigger outright if
+# the previous run (e.g. a long OCR pass) is still in progress, and
+# seen_ids means a no-op hour costs almost nothing (a quick Senate
+# check plus "0 new Trump filings").
+OnCalendar=hourly
+Persistent=true
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target

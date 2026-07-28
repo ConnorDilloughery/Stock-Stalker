@@ -1,0 +1,18 @@
+[Unit]
+Description=Undercurrent market scanner (continuous rolling scans)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/undercurrent-scanner
+EnvironmentFile=/home/pi/undercurrent-scanner/scanner.env
+ExecStart=/usr/bin/python3 /home/pi/undercurrent-scanner/market_scanner.py
+Restart=always
+RestartSec=30
+StandardOutput=append:/home/pi/undercurrent-scanner/scanner.log
+StandardError=append:/home/pi/undercurrent-scanner/scanner.log
+
+[Install]
+WantedBy=multi-user.target
