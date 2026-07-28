@@ -1,0 +1,18 @@
+# Secrets — the real Finnhub key + repo path live only on the Pi, never here.
+# Only scanner.env.example (placeholders) is tracked.
+scanner.env
+*.env
+!scanner.env.example
+
+# Scanner runtime logs (written next to the scripts on the Pi)
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Local fallback output dir (used only when REPO_DIR is unset)
+output/
+
+# macOS
+.DS_Store
