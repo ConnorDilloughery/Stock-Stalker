@@ -5,14 +5,14 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-User=pi
-WorkingDirectory=/home/pi/undercurrent-scanner
-EnvironmentFile=/home/pi/undercurrent-scanner/scanner.env
-ExecStart=/usr/bin/python3 /home/pi/undercurrent-scanner/market_scanner.py
+User=connor
+WorkingDirectory=/home/connor/undercurrent-scanner
+EnvironmentFile=/home/connor/undercurrent-scanner/scanner.env
+ExecStart=/usr/bin/python3 /home/connor/undercurrent-scanner/market_scanner.py
 Restart=always
 RestartSec=30
-StandardOutput=append:/home/pi/undercurrent-scanner/scanner.log
-StandardError=append:/home/pi/undercurrent-scanner/scanner.log
+StandardOutput=append:/home/connor/undercurrent-scanner/scanner.log
+StandardError=append:/home/connor/undercurrent-scanner/scanner.log
 
 [Install]
 WantedBy=multi-user.target
