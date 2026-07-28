@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-28T00:02:57.227696+00:00",
+  "generatedAt": "2026-07-28T01:05:21.678084+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 697,
+  "count": 699,
   "trades": [
     {
       "ticker": "ANIX",
@@ -51,6 +51,16 @@
       "type": "Sale",
       "shares": 375.0,
       "pricePerShare": 32.72,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "S",
+      "issuerName": "SentinelOne, Inc.",
+      "insiderName": "Parekh Sonalee Elizabeth",
+      "title": "Chief Financial Officer",
+      "type": "Sale",
+      "shares": 12987.0,
+      "pricePerShare": 18.254,
       "transactionDate": "2026-07-27"
     },
     {
@@ -791,6 +801,16 @@
       "type": "Sale",
       "shares": 5000.0,
       "pricePerShare": 43.6795,
+      "transactionDate": "2026-07-23"
+    },
+    {
+      "ticker": "PENG",
+      "issuerName": "Penguin Solutions, Inc.",
+      "insiderName": "Clark Joseph Gates",
+      "title": "SVP and Pres, Optimized LED",
+      "type": "Sale",
+      "shares": 1327.0,
+      "pricePerShare": 57.47,
       "transactionDate": "2026-07-23"
     },
     {
@@ -7085,6 +7105,21 @@
         }
       ]
     },
+    "S": {
+      "issuerName": "SentinelOne, Inc.",
+      "trades": [
+        {
+          "ticker": "S",
+          "issuerName": "SentinelOne, Inc.",
+          "insiderName": "Parekh Sonalee Elizabeth",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 12987.0,
+          "pricePerShare": 18.254,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
     "UTHR": {
       "issuerName": "UNITED THERAPEUTICS Corp",
       "trades": [
@@ -8860,6 +8895,31 @@
         }
       ]
     },
+    "PENG": {
+      "issuerName": "Penguin Solutions, Inc.",
+      "trades": [
+        {
+          "ticker": "PENG",
+          "issuerName": "Penguin Solutions, Inc.",
+          "insiderName": "Clark Joseph Gates",
+          "title": "SVP and Pres, Optimized LED",
+          "type": "Sale",
+          "shares": 1327.0,
+          "pricePerShare": 57.47,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "PENG",
+          "issuerName": "Penguin Solutions, Inc.",
+          "insiderName": "Kuykendall Anne",
+          "title": "SVP and Chief Legal Officer",
+          "type": "Sale",
+          "shares": 739.0,
+          "pricePerShare": 56.12,
+          "transactionDate": "2026-07-22"
+        }
+      ]
+    },
     "BTO": {
       "issuerName": "JOHN HANCOCK FINANCIAL OPPORTUNITIES FUND",
       "trades": [
@@ -9137,21 +9197,6 @@
           "shares": 12100.0,
           "pricePerShare": 11.2698,
           "transactionDate": "2026-07-21"
-        }
-      ]
-    },
-    "PENG": {
-      "issuerName": "Penguin Solutions, Inc.",
-      "trades": [
-        {
-          "ticker": "PENG",
-          "issuerName": "Penguin Solutions, Inc.",
-          "insiderName": "Kuykendall Anne",
-          "title": "SVP and Chief Legal Officer",
-          "type": "Sale",
-          "shares": 739.0,
-          "pricePerShare": 56.12,
-          "transactionDate": "2026-07-22"
         }
       ]
     },
@@ -14909,7 +14954,16 @@
       "0000898432-26-000541",
       "0000898432-26-000542",
       "0000899140-26-000726",
+      "0000899140-26-000735",
+      "0000899140-26-000736",
+      "0000899140-26-000737",
+      "0000899140-26-000738",
+      "0000899140-26-000739",
+      "0000899140-26-000740",
+      "0000899140-26-000741",
+      "0000899140-26-000742",
       "0000902664-26-003205",
+      "0000902664-26-003254",
       "0000904454-26-000415",
       "0000904548-26-000013",
       "0000906553-26-000060",
@@ -15119,6 +15173,9 @@
       "0001032834-26-000006",
       "0001040470-26-000217",
       "0001040470-26-000219",
+      "0001040470-26-000221",
+      "0001040470-26-000223",
+      "0001040470-26-000225",
       "0001046179-26-000453",
       "0001046179-26-000455",
       "0001046179-26-000457",
@@ -16058,6 +16115,7 @@
       "0001213900-26-081859",
       "0001213900-26-081861",
       "0001213900-26-081871",
+      "0001213900-26-081932",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -17192,6 +17250,7 @@
       "0001846069-26-000150",
       "0001846472-26-000013",
       "0001847776-26-000010",
+      "0001849122-26-000012",
       "0001852009-26-000004",
       "0001852010-26-000006",
       "0001855880-26-000014",
@@ -17759,6 +17818,7 @@
       "0001932635-26-000003",
       "0001939754-26-000005",
       "0001944970-26-000021",
+      "0001944970-26-000023",
       "0001949911-26-000014",
       "0001957684-26-000011",
       "0001960181-26-000002",
