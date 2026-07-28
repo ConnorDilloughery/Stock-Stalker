@@ -758,7 +758,7 @@ const STRATEGIES = [
     title: "Benjamin Graham — Defensive Value",
     blurb: "From The Intelligent Investor: only financially bulletproof businesses bought at a strict discount, chosen to protect your downside first.",
     minPct: 100,
-    naNote: "Runs off the Full Market data, which doesn't carry Price-to-Book, so the full P/E × P/B ≤ 22.5 cap shows “—”; the verifiable half — Graham's P/E ≤ 15 rule — is enforced instead. A 10-year unbroken EPS record and 20 years of continuous dividends aren't in the data either. Debt uses debt/equity as a stand-in for the working-capital rule, and the growth check is implied from the pre-computed PEG. To qualify a name must clear every verifiable check.",
+    naNote: "Graham's valuation is enforced two ways: the standalone P/E ≤ 15 rule always, plus the full P/E × P/B ≤ 22.5 cap whenever Price-to-Book is in the data (it shows “—” only for names missing a book value). A 10-year unbroken EPS record and 20 years of continuous dividends aren't in the data, so those stay “—”. Debt uses debt/equity as a stand-in for the working-capital rule, and the growth check is implied from the pre-computed PEG. To qualify a name must clear every verifiable check.",
     checks: [
       { label: "Current ratio > 2.0 (financial solvency)", test: d => {
         const v = sNum(d.currentRatio); if (v == null) return sChk("na", "current ratio unavailable");
@@ -871,7 +871,7 @@ function buildDFromMarket(s, rs) {
   const impliedGrowth = (pe != null && peg != null && peg > 0) ? pe / peg : null;
   return {
     ticker: s.ticker, sector: s.sector, price: sNum(s.price),
-    pe, pb: null,
+    pe, pb: sNum(s.pb),
     currentRatio: sNum(s.cr),
     ltDebtEq: sNum(s.de), totalDebtEq: sNum(s.de),
     epsGrowth3Y: impliedGrowth, epsGrowth5Y: impliedGrowth, epsGrowthQtrYoy: null,

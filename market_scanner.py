@@ -317,6 +317,7 @@ def extract_quality(m, pe):
     growth = num(m.get("epsGrowth5Y")) or num(m.get("epsGrowthTTMYoy"))
     peg = (pe / growth) if (pe and growth and growth > 0) else None
     ps = num(m.get("psTTM"))
+    pb = num(m.get("pbQuarterly")) or num(m.get("pbAnnual"))
     div_yield = sanitize_yield(num(m.get("currentDividendYieldTTM")) or num(m.get("dividendYieldIndicatedAnnual")))
     beta = num(m.get("beta"))
     checks = [
@@ -328,7 +329,7 @@ def extract_quality(m, pe):
     valid = [c for c in checks if c is not None]
     q_max = len(valid)
     q_pass = sum(1 for c in valid if c)
-    return {"de": de, "cr": cr, "roe": roe, "peg": peg, "ps": ps,
+    return {"de": de, "cr": cr, "roe": roe, "peg": peg, "ps": ps, "pb": pb,
             "divYield": div_yield, "beta": beta, "qPass": q_pass, "qMax": q_max}
 
 
@@ -525,7 +526,7 @@ def scan_stocks(tickers, known, universe=None, on_checkpoint=None):
                     "price": price, "pe": pe, "cap": cap, "high": high, "low": low,
                     "discount": (high - price) / high,
                     "de": uq["de"], "cr": uq["cr"], "roe": uq["roe"], "peg": uq["peg"],
-                    "divYield": uq["divYield"], "beta": uq["beta"],
+                    "pb": uq["pb"], "divYield": uq["divYield"], "beta": uq["beta"],
                     "scannedAt": datetime.now(timezone.utc).isoformat(),
                 }
             else:
