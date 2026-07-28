@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-28T15:03:21.254668+00:00",
+  "generatedAt": "2026-07-28T16:03:38.005180+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 734,
+  "count": 742,
   "trades": [
     {
       "ticker": "ANIX",
@@ -261,6 +261,76 @@
       "type": "Purchase",
       "shares": 5000.0,
       "pricePerShare": 3.44,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "TPL",
+      "issuerName": "Texas Pacific Land Corp",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 409.31,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "KRNY",
+      "issuerName": "Kearny Financial Corp.",
+      "insiderName": "Fields Curtland E",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 358.0,
+      "pricePerShare": 9.4,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "KRNY",
+      "issuerName": "Kearny Financial Corp.",
+      "insiderName": "Fields Curtland E",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 3900.0,
+      "pricePerShare": 9.3999,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "KRNY",
+      "issuerName": "Kearny Financial Corp.",
+      "insiderName": "Fields Curtland E",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 9742.0,
+      "pricePerShare": 9.41,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "KRNY",
+      "issuerName": "Kearny Financial Corp.",
+      "insiderName": "Fields Curtland E",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 700.0,
+      "pricePerShare": 9.395,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "BDX",
+      "issuerName": "BECTON DICKINSON & CO",
+      "insiderName": "Feld Michael",
+      "title": "EVP, Chief Revenue Officer",
+      "type": "Sale",
+      "shares": 75.0,
+      "pricePerShare": 157.13,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "KN",
+      "issuerName": "Knowles Corp",
+      "insiderName": "Cabrera Raymond D.",
+      "title": "SVP, Chief HR Officer",
+      "type": "Sale",
+      "shares": 6178.0,
+      "pricePerShare": 36.28,
       "transactionDate": "2026-07-27"
     },
     {
@@ -1921,6 +1991,16 @@
       "type": "Sale",
       "shares": 1000.0,
       "pricePerShare": 306.68,
+      "transactionDate": "2026-07-22"
+    },
+    {
+      "ticker": "STFS",
+      "issuerName": "Star Fashion Culture Holdings Ltd",
+      "insiderName": "ZHANG PINGTING",
+      "title": "Director, Chief Financial Officer",
+      "type": "Purchase",
+      "shares": 2000000.0,
+      "pricePerShare": 1.3,
       "transactionDate": "2026-07-22"
     },
     {
@@ -8540,6 +8620,136 @@
         }
       ]
     },
+    "TPL": {
+      "issuerName": "Texas Pacific Land Corp",
+      "trades": [
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 409.31,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 427.42,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 413.48,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 416.47,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 420.15,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "KRNY": {
+      "issuerName": "Kearny Financial Corp.",
+      "trades": [
+        {
+          "ticker": "KRNY",
+          "issuerName": "Kearny Financial Corp.",
+          "insiderName": "Fields Curtland E",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 358.0,
+          "pricePerShare": 9.4,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "KRNY",
+          "issuerName": "Kearny Financial Corp.",
+          "insiderName": "Fields Curtland E",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 3900.0,
+          "pricePerShare": 9.3999,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "KRNY",
+          "issuerName": "Kearny Financial Corp.",
+          "insiderName": "Fields Curtland E",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 9742.0,
+          "pricePerShare": 9.41,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "KRNY",
+          "issuerName": "Kearny Financial Corp.",
+          "insiderName": "Fields Curtland E",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 700.0,
+          "pricePerShare": 9.395,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
+    "BDX": {
+      "issuerName": "BECTON DICKINSON & CO",
+      "trades": [
+        {
+          "ticker": "BDX",
+          "issuerName": "BECTON DICKINSON & CO",
+          "insiderName": "Feld Michael",
+          "title": "EVP, Chief Revenue Officer",
+          "type": "Sale",
+          "shares": 75.0,
+          "pricePerShare": 157.13,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
+    "KN": {
+      "issuerName": "Knowles Corp",
+      "trades": [
+        {
+          "ticker": "KN",
+          "issuerName": "Knowles Corp",
+          "insiderName": "Cabrera Raymond D.",
+          "title": "SVP, Chief HR Officer",
+          "type": "Sale",
+          "shares": 6178.0,
+          "pricePerShare": 36.28,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
     "GLSI": {
       "issuerName": "Greenwich LifeSciences, Inc.",
       "trades": [
@@ -10155,51 +10365,6 @@
         }
       ]
     },
-    "TPL": {
-      "issuerName": "Texas Pacific Land Corp",
-      "trades": [
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 427.42,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 413.48,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 416.47,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 420.15,
-          "transactionDate": "2026-07-17"
-        }
-      ]
-    },
     "MXF": {
       "issuerName": "MEXICO FUND INC",
       "trades": [
@@ -10881,6 +11046,21 @@
           "type": "Sale",
           "shares": 1000.0,
           "pricePerShare": 306.68,
+          "transactionDate": "2026-07-22"
+        }
+      ]
+    },
+    "STFS": {
+      "issuerName": "Star Fashion Culture Holdings Ltd",
+      "trades": [
+        {
+          "ticker": "STFS",
+          "issuerName": "Star Fashion Culture Holdings Ltd",
+          "insiderName": "ZHANG PINGTING",
+          "title": "Director, Chief Financial Officer",
+          "type": "Purchase",
+          "shares": 2000000.0,
+          "pricePerShare": 1.3,
           "transactionDate": "2026-07-22"
         }
       ]
@@ -15619,6 +15799,7 @@
       "0000088053-26-000546",
       "0000088053-26-000559",
       "0000088053-26-000561",
+      "0000088053-26-000564",
       "0000100334-26-000052",
       "0000100517-26-000142",
       "0000108985-26-000066",
@@ -15702,6 +15883,10 @@
       "0000912282-26-000993",
       "0000912282-26-000995",
       "0000912282-26-000998",
+      "0000912869-26-000064",
+      "0000912869-26-000066",
+      "0000912869-26-000068",
+      "0000912869-26-000072",
       "0000912938-26-000751",
       "0000912938-26-000752",
       "0000912938-26-000753",
@@ -15923,6 +16108,11 @@
       "0000950103-26-011251",
       "0000950103-26-011252",
       "0000950103-26-011253",
+      "0000950103-26-011254",
+      "0000950103-26-011255",
+      "0000950103-26-011256",
+      "0000950103-26-011257",
+      "0000950103-26-011258",
       "0000950142-26-002131",
       "0000950142-26-002132",
       "0000950142-26-002145",
@@ -16167,6 +16357,12 @@
       "0001133228-26-010773",
       "0001133228-26-010776",
       "0001133228-26-010801",
+      "0001133228-26-010816",
+      "0001133228-26-010818",
+      "0001133228-26-010820",
+      "0001133228-26-010822",
+      "0001133228-26-010825",
+      "0001133228-26-010827",
       "0001134261-26-000005",
       "0001140361-26-028844",
       "0001140361-26-028846",
@@ -16735,6 +16931,12 @@
       "0001193125-26-319140",
       "0001193125-26-319159",
       "0001193125-26-319302",
+      "0001193125-26-319480",
+      "0001193125-26-319510",
+      "0001193125-26-319530",
+      "0001193125-26-319563",
+      "0001193125-26-319595",
+      "0001193125-26-319622",
       "0001196460-26-000004",
       "0001201252-26-000010",
       "0001203302-26-000012",
@@ -16921,6 +17123,10 @@
       "0001213900-26-082035",
       "0001213900-26-082037",
       "0001213900-26-082050",
+      "0001213900-26-082081",
+      "0001213900-26-082096",
+      "0001213900-26-082100",
+      "0001213900-26-082103",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -17007,7 +17213,14 @@
       "0001307748-26-000177",
       "0001307748-26-000178",
       "0001307748-26-000179",
+      "0001310881-26-000010",
       "0001313071-26-000012",
+      "0001314152-26-000139",
+      "0001314152-26-000140",
+      "0001314152-26-000141",
+      "0001314152-26-000142",
+      "0001314152-26-000143",
+      "0001314152-26-000144",
       "0001331271-26-000064",
       "0001334330-26-000002",
       "0001338913-26-000008",
@@ -17036,15 +17249,18 @@
       "0001398344-26-012758",
       "0001398344-26-012761",
       "0001398344-26-012804",
+      "0001398344-26-012862",
       "0001401336-26-000020",
       "0001402348-26-000016",
       "0001405955-26-000007",
       "0001409460-26-000011",
       "0001413042-26-000608",
+      "0001413042-26-000618",
       "0001415666-26-000008",
       "0001432353-26-000623",
       "0001432353-26-000626",
       "0001432353-26-000628",
+      "0001432353-26-000635",
       "0001435109-26-000123",
       "0001435109-26-000125",
       "0001435109-26-000128",
@@ -17102,6 +17318,7 @@
       "0001437749-26-024534",
       "0001437749-26-024535",
       "0001437749-26-024576",
+      "0001437749-26-024591",
       "0001445546-26-005229",
       "0001445546-26-005230",
       "0001445546-26-005231",
@@ -17235,6 +17452,7 @@
       "0001493152-26-034909",
       "0001493152-26-034910",
       "0001493152-26-034952",
+      "0001493152-26-034959",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -17352,11 +17570,13 @@
       "0001580642-26-004624",
       "0001580642-26-004625",
       "0001580642-26-004626",
+      "0001580642-26-004637",
       "0001590264-26-000010",
       "0001592900-26-003595",
       "0001592900-26-003620",
       "0001593040-26-000002",
       "0001596532-26-000166",
+      "0001598091-26-000005",
       "0001601099-26-000043",
       "0001604488-26-000079",
       "0001610717-26-000340",
@@ -17366,6 +17586,12 @@
       "0001623632-26-001065",
       "0001623632-26-001071",
       "0001623632-26-001072",
+      "0001623632-26-001092",
+      "0001623632-26-001093",
+      "0001623632-26-001094",
+      "0001623632-26-001095",
+      "0001623632-26-001097",
+      "0001623632-26-001101",
       "0001625641-26-000156",
       "0001626201-26-000018",
       "0001627893-26-000012",
@@ -17494,6 +17720,7 @@
       "0001628280-26-049895",
       "0001628280-26-049897",
       "0001628280-26-049906",
+      "0001628280-26-049989",
       "0001634117-26-000081",
       "0001638728-26-000011",
       "0001640334-26-001221",
@@ -18084,6 +18311,13 @@
       "0001839882-26-036537",
       "0001839882-26-036538",
       "0001839882-26-036540",
+      "0001839882-26-036552",
+      "0001839882-26-036554",
+      "0001839882-26-036560",
+      "0001839882-26-036561",
+      "0001839882-26-036562",
+      "0001839882-26-036563",
+      "0001839882-26-036564",
       "0001842720-26-000009",
       "0001843103-26-000014",
       "0001843104-26-000014",
@@ -18119,6 +18353,7 @@
       "0001886368-26-000002",
       "0001887601-26-000006",
       "0001889687-26-000006",
+      "0001889998-26-000006",
       "0001891792-26-000002",
       "0001892579-26-000006",
       "0001895106-26-000016",
@@ -18693,6 +18928,14 @@
       "0001918704-26-021394",
       "0001918704-26-021395",
       "0001918704-26-021396",
+      "0001918704-26-021397",
+      "0001918704-26-021398",
+      "0001918704-26-021399",
+      "0001918704-26-021400",
+      "0001918704-26-021401",
+      "0001918704-26-021402",
+      "0001918704-26-021403",
+      "0001918704-26-021404",
       "0001929185-26-000012",
       "0001932635-26-000003",
       "0001939754-26-000005",
@@ -18875,6 +19118,7 @@
       "0002070849-26-000044",
       "0002071761-26-000009",
       "0002071844-26-000880",
+      "0002071844-26-000883",
       "0002074666-26-000006",
       "0002075052-26-000004",
       "0002077291-26-000002",
