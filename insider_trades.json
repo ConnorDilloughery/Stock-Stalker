@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-29T11:04:44.601871+00:00",
+  "generatedAt": "2026-07-29T12:01:59.767459+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 869,
+  "count": 872,
   "trades": [
     {
       "ticker": "LOAN",
@@ -251,6 +251,16 @@
       "type": "Sale",
       "shares": 208731.0,
       "pricePerShare": 8.09,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "NNOX",
+      "issuerName": "Nano-X Imaging Ltd.",
+      "insiderName": "Kainan Noga",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 33000.0,
+      "pricePerShare": 0.9,
       "transactionDate": "2026-07-28"
     },
     {
@@ -941,6 +951,26 @@
       "type": "Purchase",
       "shares": 1500.0,
       "pricePerShare": 13.62,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "NNOX",
+      "issuerName": "Nano-X Imaging Ltd.",
+      "insiderName": "Suesskind Dan S",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 25000.0,
+      "pricePerShare": 0.94,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "NNOX",
+      "issuerName": "Nano-X Imaging Ltd.",
+      "insiderName": "Suesskind Dan S",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 25000.0,
+      "pricePerShare": 0.92,
       "transactionDate": "2026-07-27"
     },
     {
@@ -9550,6 +9580,51 @@
         }
       ]
     },
+    "NNOX": {
+      "issuerName": "Nano-X Imaging Ltd.",
+      "trades": [
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Kainan Noga",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 33000.0,
+          "pricePerShare": 0.9,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Meltzer Erez",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 36000.0,
+          "pricePerShare": 0.93,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Suesskind Dan S",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 25000.0,
+          "pricePerShare": 0.94,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Suesskind Dan S",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 25000.0,
+          "pricePerShare": 0.92,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
     "ANIX": {
       "issuerName": "Anixa Biosciences Inc",
       "trades": [
@@ -10751,21 +10826,6 @@
           "type": "Sale",
           "shares": 5000.0,
           "pricePerShare": 5.6611,
-          "transactionDate": "2026-07-27"
-        }
-      ]
-    },
-    "NNOX": {
-      "issuerName": "Nano-X Imaging Ltd.",
-      "trades": [
-        {
-          "ticker": "NNOX",
-          "issuerName": "Nano-X Imaging Ltd.",
-          "insiderName": "Meltzer Erez",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 36000.0,
-          "pricePerShare": 0.93,
           "transactionDate": "2026-07-27"
         }
       ]
@@ -19046,6 +19106,8 @@
       "0001104659-26-087626",
       "0001104659-26-087706",
       "0001104659-26-087715",
+      "0001104659-26-087828",
+      "0001104659-26-087832",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -19806,6 +19868,9 @@
       "0001193125-26-321758",
       "0001193125-26-322012",
       "0001193125-26-322038",
+      "0001193125-26-322134",
+      "0001193125-26-322162",
+      "0001193125-26-322163",
       "0001196460-26-000004",
       "0001201252-26-000010",
       "0001203302-26-000012",
@@ -20028,6 +20093,9 @@
       "0001213900-26-082494",
       "0001213900-26-082500",
       "0001213900-26-082512",
+      "0001213900-26-082517",
+      "0001213900-26-082533",
+      "0001213900-26-082543",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -20523,6 +20591,9 @@
       "0001580642-26-004653",
       "0001580642-26-004661",
       "0001580642-26-004665",
+      "0001580642-26-004667",
+      "0001580642-26-004669",
+      "0001580642-26-004672",
       "0001590264-26-000010",
       "0001592900-26-003595",
       "0001592900-26-003620",
@@ -22038,6 +22109,7 @@
       "0001918704-26-021489",
       "0001918704-26-021490",
       "0001918704-26-021491",
+      "0001918704-26-021492",
       "0001929185-26-000012",
       "0001932635-26-000003",
       "0001939754-26-000005",
