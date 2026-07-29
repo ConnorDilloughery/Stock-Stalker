@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-29T01:04:19.608939+00:00",
+  "generatedAt": "2026-07-29T02:03:11.625395+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 860,
+  "count": 866,
   "trades": [
     {
       "ticker": "LOAN",
@@ -221,6 +221,26 @@
       "type": "Sale",
       "shares": 30108.0,
       "pricePerShare": 120.72,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "SCTX",
+      "issuerName": "Scribe Therapeutics, Inc.",
+      "insiderName": "Aghazadeh Behzad",
+      "title": "Director, 10% Owner",
+      "type": "Purchase",
+      "shares": 7905.0,
+      "pricePerShare": 18.25,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "MPLT",
+      "issuerName": "MapLight Therapeutics, Inc.",
+      "insiderName": "Cox Troy",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 15620.0,
+      "pricePerShare": 9.52,
       "transactionDate": "2026-07-28"
     },
     {
@@ -871,6 +891,26 @@
       "type": "Sale",
       "shares": 80.0,
       "pricePerShare": 188.28,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "ARX",
+      "issuerName": "Accelerant Holdings",
+      "insiderName": "RADKE JEFFREY L",
+      "title": "Director, Co-Founder, CEO, 10% Owner",
+      "type": "Sale",
+      "shares": 80000.0,
+      "pricePerShare": 14.6315,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "ARX",
+      "issuerName": "Accelerant Holdings",
+      "insiderName": "RADKE JEFFREY L",
+      "title": "Director, Co-Founder, CEO, 10% Owner",
+      "type": "Sale",
+      "shares": 15223.0,
+      "pricePerShare": 14.4527,
       "transactionDate": "2026-07-27"
     },
     {
@@ -1861,6 +1901,26 @@
       "type": "Sale",
       "shares": 20000.0,
       "pricePerShare": 119.91,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "SCTX",
+      "issuerName": "Scribe Therapeutics, Inc.",
+      "insiderName": "Aghazadeh Behzad",
+      "title": "Director, 10% Owner",
+      "type": "Purchase",
+      "shares": 2333333.0,
+      "pricePerShare": 15.0,
+      "transactionDate": "2026-07-24"
+    },
+    {
+      "ticker": "SCTX",
+      "issuerName": "Scribe Therapeutics, Inc.",
+      "insiderName": "Aghazadeh Behzad",
+      "title": "Director, 10% Owner",
+      "type": "Purchase",
+      "shares": 50000.0,
+      "pricePerShare": 22.31,
       "transactionDate": "2026-07-24"
     },
     {
@@ -9195,6 +9255,226 @@
         }
       ]
     },
+    "SCTX": {
+      "issuerName": "Scribe Therapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "SCTX",
+          "issuerName": "Scribe Therapeutics, Inc.",
+          "insiderName": "Aghazadeh Behzad",
+          "title": "Director, 10% Owner",
+          "type": "Purchase",
+          "shares": 7905.0,
+          "pricePerShare": 18.25,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SCTX",
+          "issuerName": "Scribe Therapeutics, Inc.",
+          "insiderName": "Aghazadeh Behzad",
+          "title": "Director, 10% Owner",
+          "type": "Purchase",
+          "shares": 2333333.0,
+          "pricePerShare": 15.0,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "SCTX",
+          "issuerName": "Scribe Therapeutics, Inc.",
+          "insiderName": "Aghazadeh Behzad",
+          "title": "Director, 10% Owner",
+          "type": "Purchase",
+          "shares": 50000.0,
+          "pricePerShare": 22.31,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "SCTX",
+          "issuerName": "Scribe Therapeutics, Inc.",
+          "insiderName": "Lucas Svetlana",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 3000.0,
+          "pricePerShare": 15.0,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "SCTX",
+          "issuerName": "Scribe Therapeutics, Inc.",
+          "insiderName": "Parrot David",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1333.0,
+          "pricePerShare": 15.0,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "SCTX",
+          "issuerName": "Scribe Therapeutics, Inc.",
+          "insiderName": "Parrot David",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1333.0,
+          "pricePerShare": 15.0,
+          "transactionDate": "2026-07-23"
+        }
+      ]
+    },
+    "MPLT": {
+      "issuerName": "MapLight Therapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "MPLT",
+          "issuerName": "MapLight Therapeutics, Inc.",
+          "insiderName": "Cox Troy",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 15620.0,
+          "pricePerShare": 9.52,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "MPLT",
+          "issuerName": "MapLight Therapeutics, Inc.",
+          "insiderName": "GILLIS JONATHAN",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 600.0,
+          "pricePerShare": 36.51,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "MPLT",
+          "issuerName": "MapLight Therapeutics, Inc.",
+          "insiderName": "GILLIS JONATHAN",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 16969.0,
+          "pricePerShare": 37.61,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "MPLT",
+          "issuerName": "MapLight Therapeutics, Inc.",
+          "insiderName": "GILLIS JONATHAN",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 900.0,
+          "pricePerShare": 38.17,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "MPLT",
+          "issuerName": "MapLight Therapeutics, Inc.",
+          "insiderName": "Kreitzer Anatol",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2833.0,
+          "pricePerShare": 37.05,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "MPLT",
+          "issuerName": "MapLight Therapeutics, Inc.",
+          "insiderName": "Kreitzer Anatol",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 14140.0,
+          "pricePerShare": 37.7,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "MPLT",
+          "issuerName": "MapLight Therapeutics, Inc.",
+          "insiderName": "Kreitzer Anatol",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 38.39,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "MPLT",
+          "issuerName": "MapLight Therapeutics, Inc.",
+          "insiderName": "GILLIS JONATHAN",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6979.0,
+          "pricePerShare": 36.66,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "MPLT",
+          "issuerName": "MapLight Therapeutics, Inc.",
+          "insiderName": "GILLIS JONATHAN",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1476.0,
+          "pricePerShare": 37.44,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "MPLT",
+          "issuerName": "MapLight Therapeutics, Inc.",
+          "insiderName": "Kreitzer Anatol",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7464.0,
+          "pricePerShare": 36.66,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "MPLT",
+          "issuerName": "MapLight Therapeutics, Inc.",
+          "insiderName": "Kreitzer Anatol",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1592.0,
+          "pricePerShare": 37.44,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "MPLT",
+          "issuerName": "MapLight Therapeutics, Inc.",
+          "insiderName": "GILLIS JONATHAN",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5356.0,
+          "pricePerShare": 36.13,
+          "transactionDate": "2026-07-15"
+        },
+        {
+          "ticker": "MPLT",
+          "issuerName": "MapLight Therapeutics, Inc.",
+          "insiderName": "GILLIS JONATHAN",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4699.0,
+          "pricePerShare": 36.94,
+          "transactionDate": "2026-07-15"
+        },
+        {
+          "ticker": "MPLT",
+          "issuerName": "MapLight Therapeutics, Inc.",
+          "insiderName": "Kreitzer Anatol",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5545.0,
+          "pricePerShare": 36.13,
+          "transactionDate": "2026-07-15"
+        },
+        {
+          "ticker": "MPLT",
+          "issuerName": "MapLight Therapeutics, Inc.",
+          "insiderName": "Kreitzer Anatol",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4510.0,
+          "pricePerShare": 36.94,
+          "transactionDate": "2026-07-15"
+        }
+      ]
+    },
     "ANIX": {
       "issuerName": "Anixa Biosciences Inc",
       "trades": [
@@ -9326,6 +9606,26 @@
           "type": "Sale",
           "shares": 17568.0,
           "pricePerShare": 14.6406,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "ARX",
+          "issuerName": "Accelerant Holdings",
+          "insiderName": "RADKE JEFFREY L",
+          "title": "Director, Co-Founder, CEO, 10% Owner",
+          "type": "Sale",
+          "shares": 80000.0,
+          "pricePerShare": 14.6315,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "ARX",
+          "issuerName": "Accelerant Holdings",
+          "insiderName": "RADKE JEFFREY L",
+          "title": "Director, Co-Founder, CEO, 10% Owner",
+          "type": "Sale",
+          "shares": 15223.0,
+          "pricePerShare": 14.4527,
           "transactionDate": "2026-07-27"
         },
         {
@@ -12747,41 +13047,6 @@
           "shares": 739.0,
           "pricePerShare": 56.12,
           "transactionDate": "2026-07-22"
-        }
-      ]
-    },
-    "SCTX": {
-      "issuerName": "Scribe Therapeutics, Inc.",
-      "trades": [
-        {
-          "ticker": "SCTX",
-          "issuerName": "Scribe Therapeutics, Inc.",
-          "insiderName": "Lucas Svetlana",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 3000.0,
-          "pricePerShare": 15.0,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "SCTX",
-          "issuerName": "Scribe Therapeutics, Inc.",
-          "insiderName": "Parrot David",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 1333.0,
-          "pricePerShare": 15.0,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "SCTX",
-          "issuerName": "Scribe Therapeutics, Inc.",
-          "insiderName": "Parrot David",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 1333.0,
-          "pricePerShare": 15.0,
-          "transactionDate": "2026-07-23"
         }
       ]
     },
@@ -16950,151 +17215,6 @@
         }
       ]
     },
-    "MPLT": {
-      "issuerName": "MapLight Therapeutics, Inc.",
-      "trades": [
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "GILLIS JONATHAN",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 600.0,
-          "pricePerShare": 36.51,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "GILLIS JONATHAN",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 16969.0,
-          "pricePerShare": 37.61,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "GILLIS JONATHAN",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 900.0,
-          "pricePerShare": 38.17,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "Kreitzer Anatol",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2833.0,
-          "pricePerShare": 37.05,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "Kreitzer Anatol",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 14140.0,
-          "pricePerShare": 37.7,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "Kreitzer Anatol",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 38.39,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "GILLIS JONATHAN",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6979.0,
-          "pricePerShare": 36.66,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "GILLIS JONATHAN",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1476.0,
-          "pricePerShare": 37.44,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "Kreitzer Anatol",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7464.0,
-          "pricePerShare": 36.66,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "Kreitzer Anatol",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1592.0,
-          "pricePerShare": 37.44,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "GILLIS JONATHAN",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5356.0,
-          "pricePerShare": 36.13,
-          "transactionDate": "2026-07-15"
-        },
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "GILLIS JONATHAN",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4699.0,
-          "pricePerShare": 36.94,
-          "transactionDate": "2026-07-15"
-        },
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "Kreitzer Anatol",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5545.0,
-          "pricePerShare": 36.13,
-          "transactionDate": "2026-07-15"
-        },
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "Kreitzer Anatol",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4510.0,
-          "pricePerShare": 36.94,
-          "transactionDate": "2026-07-15"
-        }
-      ]
-    },
     "OWLS": {
       "issuerName": "OBOOK HOLDINGS INC.",
       "trades": [
@@ -18376,6 +18496,7 @@
       "0000899140-26-000742",
       "0000902664-26-003205",
       "0000902664-26-003254",
+      "0000902664-26-003270",
       "0000904454-26-000415",
       "0000904454-26-000425",
       "0000904548-26-000013",
@@ -18676,6 +18797,9 @@
       "0001050269-26-000011",
       "0001059244-26-000009",
       "0001071739-26-000146",
+      "0001075736-26-000071",
+      "0001075736-26-000074",
+      "0001075736-26-000075",
       "0001079973-26-000959",
       "0001081400-26-000304",
       "0001081400-26-000307",
@@ -20487,6 +20611,7 @@
       "0001628280-26-050298",
       "0001628280-26-050300",
       "0001628280-26-050308",
+      "0001628280-26-050312",
       "0001634117-26-000081",
       "0001638728-26-000011",
       "0001640334-26-001221",
@@ -20538,6 +20663,7 @@
       "0001689926-26-000003",
       "0001690209-26-000003",
       "0001691675-26-000002",
+      "0001696923-26-000007",
       "0001703841-26-000003",
       "0001705189-26-000013",
       "0001705419-26-000004",
