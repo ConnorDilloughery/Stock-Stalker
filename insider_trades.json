@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-29T16:01:45.770887+00:00",
+  "generatedAt": "2026-07-29T17:03:32.058483+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 887,
+  "count": 889,
   "trades": [
     {
       "ticker": "LOAN",
@@ -361,6 +361,26 @@
       "type": "Sale",
       "shares": 40334.0,
       "pricePerShare": 89.6864,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 3.05,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "TPL",
+      "issuerName": "Texas Pacific Land Corp",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 393.09,
       "transactionDate": "2026-07-28"
     },
     {
@@ -9995,6 +10015,136 @@
         }
       ]
     },
+    "RCG": {
+      "issuerName": "RENN Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.05,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.03,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.06,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.07,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.03,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.02,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "TPL": {
+      "issuerName": "Texas Pacific Land Corp",
+      "trades": [
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 393.09,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 409.31,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 427.42,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 413.48,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 416.47,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 420.15,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
     "ANIX": {
       "issuerName": "Anixa Biosciences Inc",
       "trades": [
@@ -10957,116 +11107,6 @@
           "shares": 896.0,
           "pricePerShare": 110.95,
           "transactionDate": "2026-07-16"
-        }
-      ]
-    },
-    "RCG": {
-      "issuerName": "RENN Fund, Inc.",
-      "trades": [
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.03,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.06,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.07,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.03,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.02,
-          "transactionDate": "2026-07-17"
-        }
-      ]
-    },
-    "TPL": {
-      "issuerName": "Texas Pacific Land Corp",
-      "trades": [
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 409.31,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 427.42,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 413.48,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 416.47,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 420.15,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -18814,6 +18854,7 @@
       "0000030146-26-000324",
       "0000030146-26-000325",
       "0000030146-26-000326",
+      "0000030146-26-000327",
       "0000036405-26-000386",
       "0000038777-26-000191",
       "0000052848-26-000831",
@@ -19253,6 +19294,10 @@
       "0000950103-26-011303",
       "0000950103-26-011304",
       "0000950103-26-011305",
+      "0000950103-26-011306",
+      "0000950103-26-011307",
+      "0000950103-26-011308",
+      "0000950103-26-011309",
       "0000950142-26-002131",
       "0000950142-26-002132",
       "0000950142-26-002145",
@@ -19492,6 +19537,9 @@
       "0001104659-26-087920",
       "0001104659-26-087922",
       "0001104659-26-087924",
+      "0001104659-26-088005",
+      "0001104659-26-088026",
+      "0001104659-26-088027",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -19645,6 +19693,9 @@
       "0001140361-26-029977",
       "0001140361-26-029979",
       "0001140361-26-029984",
+      "0001140361-26-029996",
+      "0001140361-26-029998",
+      "0001140361-26-030002",
       "0001160077-26-000003",
       "0001168404-26-000039",
       "0001171843-26-004845",
@@ -20283,6 +20334,15 @@
       "0001193125-26-322533",
       "0001193125-26-322640",
       "0001193125-26-322709",
+      "0001193125-26-322865",
+      "0001193125-26-322872",
+      "0001193125-26-322884",
+      "0001193125-26-322903",
+      "0001193125-26-322917",
+      "0001193125-26-322954",
+      "0001193125-26-322968",
+      "0001193125-26-322987",
+      "0001193125-26-323010",
       "0001196460-26-000004",
       "0001201252-26-000010",
       "0001202722-26-000010",
@@ -20517,6 +20577,8 @@
       "0001213900-26-082624",
       "0001213900-26-082638",
       "0001213900-26-082644",
+      "0001213900-26-082682",
+      "0001213900-26-082683",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -20693,6 +20755,7 @@
       "0001413042-26-000608",
       "0001413042-26-000618",
       "0001413042-26-000624",
+      "0001413042-26-000626",
       "0001415666-26-000008",
       "0001423238-26-000008",
       "0001432353-26-000623",
@@ -20761,6 +20824,8 @@
       "0001437749-26-024664",
       "0001437749-26-024689",
       "0001437749-26-024702",
+      "0001437749-26-024804",
+      "0001437749-26-024821",
       "0001445546-26-005229",
       "0001445546-26-005230",
       "0001445546-26-005231",
@@ -20807,6 +20872,9 @@
       "0001445546-26-005511",
       "0001445546-26-005512",
       "0001445546-26-005521",
+      "0001445546-26-005532",
+      "0001445546-26-005533",
+      "0001445546-26-005534",
       "0001448765-26-000011",
       "0001451455-26-000009",
       "0001458423-26-000006",
@@ -20989,6 +21057,7 @@
       "0001528621-26-000799",
       "0001528621-26-000800",
       "0001528621-26-000801",
+      "0001530038-26-000002",
       "0001534701-26-000026",
       "0001536588-26-000021",
       "0001536588-26-000022",
@@ -21267,6 +21336,8 @@
       "0001655589-26-000970",
       "0001655589-26-000971",
       "0001655589-26-000973",
+      "0001655589-26-001001",
+      "0001655589-26-001002",
       "0001656109-26-000006",
       "0001657787-26-000002",
       "0001658470-26-000003",
@@ -21289,6 +21360,7 @@
       "0001690209-26-000003",
       "0001691675-26-000002",
       "0001696923-26-000007",
+      "0001700266-26-000001",
       "0001703841-26-000003",
       "0001705189-26-000013",
       "0001705419-26-000004",
@@ -21320,6 +21392,7 @@
       "0001748614-26-000007",
       "0001749623-26-000003",
       "0001752640-26-000011",
+      "0001753234-26-000006",
       "0001753926-26-001207",
       "0001753926-26-001209",
       "0001753926-26-001217",
@@ -21360,6 +21433,7 @@
       "0001780851-26-000017",
       "0001780915-26-000010",
       "0001781292-26-000007",
+      "0001782435-26-000001",
       "0001783820-26-000010",
       "0001783879-26-000097",
       "0001783879-26-000099",
@@ -21433,6 +21507,9 @@
       "0001829126-26-007956",
       "0001829126-26-007957",
       "0001829126-26-007959",
+      "0001829126-26-007982",
+      "0001829126-26-007989",
+      "0001829126-26-007990",
       "0001830165-26-000026",
       "0001830532-26-000008",
       "0001831410-26-000008",
@@ -21956,6 +22033,16 @@
       "0001839882-26-036835",
       "0001839882-26-036836",
       "0001839882-26-036837",
+      "0001839882-26-036847",
+      "0001839882-26-036848",
+      "0001839882-26-036849",
+      "0001839882-26-036852",
+      "0001839882-26-036854",
+      "0001839882-26-036858",
+      "0001839882-26-036859",
+      "0001839882-26-036860",
+      "0001839882-26-036861",
+      "0001839882-26-036865",
       "0001840706-26-000265",
       "0001842720-26-000009",
       "0001843103-26-000014",
@@ -22651,8 +22738,19 @@
       "0001918704-26-021525",
       "0001918704-26-021526",
       "0001918704-26-021527",
+      "0001918704-26-021533",
+      "0001918704-26-021534",
+      "0001918704-26-021535",
+      "0001918704-26-021536",
+      "0001918704-26-021537",
+      "0001918704-26-021538",
+      "0001918704-26-021539",
+      "0001918704-26-021540",
+      "0001918704-26-021541",
+      "0001918704-26-021542",
       "0001929185-26-000012",
       "0001932635-26-000003",
+      "0001939403-26-000002",
       "0001939754-26-000005",
       "0001941739-26-000006",
       "0001944970-26-000021",
@@ -22846,6 +22944,7 @@
       "0002041211-26-000014",
       "0002041625-26-000004",
       "0002051008-26-000002",
+      "0002052896-26-000001",
       "0002056381-26-000004",
       "0002058897-26-000248",
       "0002058897-26-000250",
