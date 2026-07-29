@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-29T12:01:59.767459+00:00",
+  "generatedAt": "2026-07-29T13:01:58.444407+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 872,
+  "count": 875,
   "trades": [
     {
       "ticker": "LOAN",
@@ -261,6 +261,16 @@
       "type": "Purchase",
       "shares": 33000.0,
       "pricePerShare": 0.9,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "FMAO",
+      "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+      "insiderName": "Briggs Andrew J",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3000.0,
+      "pricePerShare": 31.59,
       "transactionDate": "2026-07-28"
     },
     {
@@ -971,6 +981,26 @@
       "type": "Purchase",
       "shares": 25000.0,
       "pricePerShare": 0.92,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "FMAO",
+      "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+      "insiderName": "Briggs Andrew J",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3000.0,
+      "pricePerShare": 30.98,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "VMI",
+      "issuerName": "VALMONT INDUSTRIES INC",
+      "insiderName": "Freye Theodor Werner",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 800.0,
+      "pricePerShare": 495.0,
       "transactionDate": "2026-07-27"
     },
     {
@@ -9625,6 +9655,61 @@
         }
       ]
     },
+    "FMAO": {
+      "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+      "trades": [
+        {
+          "ticker": "FMAO",
+          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+          "insiderName": "Briggs Andrew J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 31.59,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "FMAO",
+          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+          "insiderName": "Briggs Andrew J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 30.98,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "FMAO",
+          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+          "insiderName": "Briggs Andrew J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 30.84,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "FMAO",
+          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+          "insiderName": "Briggs Andrew J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 30.75,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "FMAO",
+          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+          "insiderName": "Briggs Andrew J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 30.47,
+          "transactionDate": "2026-07-20"
+        }
+      ]
+    },
     "ANIX": {
       "issuerName": "Anixa Biosciences Inc",
       "trades": [
@@ -11580,6 +11665,21 @@
         }
       ]
     },
+    "VMI": {
+      "issuerName": "VALMONT INDUSTRIES INC",
+      "trades": [
+        {
+          "ticker": "VMI",
+          "issuerName": "VALMONT INDUSTRIES INC",
+          "insiderName": "Freye Theodor Werner",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 800.0,
+          "pricePerShare": 495.0,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
     "PEBO": {
       "issuerName": "PEOPLES BANCORP INC",
       "trades": [
@@ -13401,41 +13501,6 @@
           "type": "Sale",
           "shares": 1456.0,
           "pricePerShare": 172.1679,
-          "transactionDate": "2026-07-20"
-        }
-      ]
-    },
-    "FMAO": {
-      "issuerName": "FARMERS & MERCHANTS BANCORP INC",
-      "trades": [
-        {
-          "ticker": "FMAO",
-          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
-          "insiderName": "Briggs Andrew J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 30.84,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "FMAO",
-          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
-          "insiderName": "Briggs Andrew J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 30.75,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "FMAO",
-          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
-          "insiderName": "Briggs Andrew J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 30.47,
           "transactionDate": "2026-07-20"
         }
       ]
@@ -18469,7 +18534,11 @@
       "0000030146-26-000309",
       "0000030146-26-000310",
       "0000030146-26-000312",
+      "0000030146-26-000319",
+      "0000036405-26-000386",
       "0000038777-26-000191",
+      "0000052848-26-000831",
+      "0000052848-26-000832",
       "0000058492-26-000420",
       "0000058492-26-000421",
       "0000058492-26-000422",
@@ -18560,6 +18629,8 @@
       "0000826675-26-000084",
       "0000833640-26-000127",
       "0000837276-26-000080",
+      "0000857490-26-000485",
+      "0000862084-26-000116",
       "0000885590-26-000101",
       "0000887340-26-000097",
       "0000894189-26-021227",
@@ -19108,6 +19179,8 @@
       "0001104659-26-087715",
       "0001104659-26-087828",
       "0001104659-26-087832",
+      "0001104659-26-087835",
+      "0001104659-26-087840",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -19256,6 +19329,7 @@
       "0001140361-26-029857",
       "0001140361-26-029860",
       "0001140361-26-029923",
+      "0001140361-26-029965",
       "0001160077-26-000003",
       "0001168404-26-000039",
       "0001171843-26-004845",
@@ -19271,6 +19345,8 @@
       "0001178913-26-003555",
       "0001178913-26-003595",
       "0001178913-26-003620",
+      "0001178913-26-003664",
+      "0001178913-26-003666",
       "0001181540-26-000002",
       "0001181664-26-000004",
       "0001181672-26-000004",
@@ -19871,6 +19947,8 @@
       "0001193125-26-322134",
       "0001193125-26-322162",
       "0001193125-26-322163",
+      "0001193125-26-322253",
+      "0001193125-26-322276",
       "0001196460-26-000004",
       "0001201252-26-000010",
       "0001203302-26-000012",
@@ -20096,6 +20174,9 @@
       "0001213900-26-082517",
       "0001213900-26-082533",
       "0001213900-26-082543",
+      "0001213900-26-082569",
+      "0001213900-26-082573",
+      "0001213900-26-082575",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -20242,6 +20323,8 @@
       "0001398344-26-012862",
       "0001398344-26-012876",
       "0001398344-26-012914",
+      "0001398344-26-012928",
+      "0001398344-26-012930",
       "0001401336-26-000020",
       "0001402348-26-000016",
       "0001405955-26-000007",
@@ -20779,6 +20862,7 @@
       "0001640334-26-001229",
       "0001640334-26-001231",
       "0001641294-26-000008",
+      "0001644373-26-000004",
       "0001646649-26-000020",
       "0001649599-26-000009",
       "0001649989-26-000006",
