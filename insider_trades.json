@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-29T10:00:26.123093+00:00",
+  "generatedAt": "2026-07-29T11:04:44.601871+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 866,
+  "count": 869,
   "trades": [
     {
       "ticker": "LOAN",
@@ -241,6 +241,16 @@
       "type": "Purchase",
       "shares": 15620.0,
       "pricePerShare": 9.52,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "AVR",
+      "issuerName": "Anteris Technologies Global Corp.",
+      "insiderName": "L1 Capital Pty Ltd",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 208731.0,
+      "pricePerShare": 8.09,
       "transactionDate": "2026-07-28"
     },
     {
@@ -911,6 +921,26 @@
       "type": "Sale",
       "shares": 15223.0,
       "pricePerShare": 14.4527,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "AVR",
+      "issuerName": "Anteris Technologies Global Corp.",
+      "insiderName": "L1 Capital Pty Ltd",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 232817.0,
+      "pricePerShare": 8.19,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "GLSI",
+      "issuerName": "Greenwich LifeSciences, Inc.",
+      "insiderName": "Patel Snehal",
+      "title": "Director, CEO and CFO, 10% Owner",
+      "type": "Purchase",
+      "shares": 1500.0,
+      "pricePerShare": 13.62,
       "transactionDate": "2026-07-27"
     },
     {
@@ -9475,6 +9505,51 @@
         }
       ]
     },
+    "AVR": {
+      "issuerName": "Anteris Technologies Global Corp.",
+      "trades": [
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 208731.0,
+          "pricePerShare": 8.09,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 232817.0,
+          "pricePerShare": 8.19,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 23000.0,
+          "pricePerShare": 8.13,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 5000000.0,
+          "pricePerShare": 5.75,
+          "transactionDate": "2026-01-22"
+        }
+      ]
+    },
     "ANIX": {
       "issuerName": "Anixa Biosciences Inc",
       "trades": [
@@ -11419,6 +11494,16 @@
           "insiderName": "Patel Snehal",
           "title": "Director, CEO and CFO, 10% Owner",
           "type": "Purchase",
+          "shares": 1500.0,
+          "pricePerShare": 13.62,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "GLSI",
+          "issuerName": "Greenwich LifeSciences, Inc.",
+          "insiderName": "Patel Snehal",
+          "title": "Director, CEO and CFO, 10% Owner",
+          "type": "Purchase",
           "shares": 1100.0,
           "pricePerShare": 12.88,
           "transactionDate": "2026-07-24"
@@ -11802,31 +11887,6 @@
           "shares": 8919.0,
           "pricePerShare": 70.428,
           "transactionDate": "2026-07-20"
-        }
-      ]
-    },
-    "AVR": {
-      "issuerName": "Anteris Technologies Global Corp.",
-      "trades": [
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 23000.0,
-          "pricePerShare": 8.13,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 5000000.0,
-          "pricePerShare": 5.75,
-          "transactionDate": "2026-01-22"
         }
       ]
     },
@@ -18984,6 +19044,8 @@
       "0001104659-26-087588",
       "0001104659-26-087615",
       "0001104659-26-087626",
+      "0001104659-26-087706",
+      "0001104659-26-087715",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -19726,6 +19788,24 @@
       "0001193125-26-321682",
       "0001193125-26-321683",
       "0001193125-26-321684",
+      "0001193125-26-321738",
+      "0001193125-26-321743",
+      "0001193125-26-321744",
+      "0001193125-26-321745",
+      "0001193125-26-321746",
+      "0001193125-26-321747",
+      "0001193125-26-321748",
+      "0001193125-26-321749",
+      "0001193125-26-321750",
+      "0001193125-26-321751",
+      "0001193125-26-321752",
+      "0001193125-26-321753",
+      "0001193125-26-321754",
+      "0001193125-26-321756",
+      "0001193125-26-321757",
+      "0001193125-26-321758",
+      "0001193125-26-322012",
+      "0001193125-26-322038",
       "0001196460-26-000004",
       "0001201252-26-000010",
       "0001203302-26-000012",
@@ -19944,6 +20024,10 @@
       "0001213900-26-082436",
       "0001213900-26-082437",
       "0001213900-26-082451",
+      "0001213900-26-082490",
+      "0001213900-26-082494",
+      "0001213900-26-082500",
+      "0001213900-26-082512",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -20306,6 +20390,8 @@
       "0001493152-26-034977",
       "0001493152-26-035040",
       "0001493152-26-035055",
+      "0001493152-26-035085",
+      "0001493152-26-035087",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -20337,6 +20423,7 @@
       "0001506307-26-000081",
       "0001506307-26-000082",
       "0001506307-26-000083",
+      "0001507133-26-000003",
       "0001510281-26-000239",
       "0001510281-26-000240",
       "0001510281-26-000241",
@@ -20758,6 +20845,7 @@
       "0001813613-26-000006",
       "0001817646-26-000012",
       "0001817646-26-000013",
+      "0001817646-26-000014",
       "0001818383-26-000190",
       "0001818383-26-000191",
       "0001818383-26-000193",
@@ -21947,6 +22035,9 @@
       "0001918704-26-021475",
       "0001918704-26-021486",
       "0001918704-26-021487",
+      "0001918704-26-021489",
+      "0001918704-26-021490",
+      "0001918704-26-021491",
       "0001929185-26-000012",
       "0001932635-26-000003",
       "0001939754-26-000005",
