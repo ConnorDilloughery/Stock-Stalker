@@ -52,6 +52,8 @@ import json
 import time
 import logging
 import subprocess
+
+import scanner_git
 from datetime import datetime, timezone, timedelta
 
 import requests
@@ -138,31 +140,10 @@ def compute_stats(entries):
 
 
 def git_commit_and_push(repo_dir, files):
-    try:
-        subprocess.run(["git", "-C", repo_dir, "add"] + files, check=True, timeout=60)
-        diff = subprocess.run(["git", "-C", repo_dir, "diff", "--cached", "--quiet"], timeout=60)
-        if diff.returncode == 0:
-            log.info("No changes since last push — skipping commit")
-            return
-        now = datetime.now(timezone.utc).isoformat()
-        subprocess.run(["git", "-C", repo_dir, "commit", "-m", f"backtest tracker update {now}"], check=True, timeout=60)
-        # Reconcile with anything pushed to the repo elsewhere before pushing,
-        # so ours fast-forwards. Without this, one outside push would
-        # non-fast-forward-reject every future push and silently freeze the
-        # feed. On conflict, abort and retry next cycle rather than wedge the repo.
-        pull = subprocess.run(["git", "-C", repo_dir, "pull", "--rebase", "--autostash", "origin", "main"],
-                              capture_output=True, timeout=60)
-        if pull.returncode != 0:
-            subprocess.run(["git", "-C", repo_dir, "rebase", "--abort"], capture_output=True, timeout=60)
-            log.error("git pull --rebase failed; skipping push this cycle: "
-                      + (pull.stderr.decode(errors="replace")[:200] if pull.stderr else ""))
-            return
-        subprocess.run(["git", "-C", repo_dir, "push"], check=True, timeout=60)
-        log.info("Pushed updated backtest.json to GitHub — Vercel will redeploy shortly")
-    except subprocess.CalledProcessError as e:
-        log.error(f"git commit/push failed: {e}")
-    except subprocess.TimeoutExpired as e:
-        log.error(f"git command timed out (hung connection?): {e}")
+    """Delegates to the shared, self-healing, lock-serialized publisher
+    (scanner_git) so a race, crash, or dirty tree can't freeze the feed."""
+    now = datetime.now(timezone.utc).isoformat()
+    scanner_git.commit_and_push(repo_dir, files, f"backtest tracker update {now}")
 
 
 def main():

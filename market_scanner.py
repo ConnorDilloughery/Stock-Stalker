@@ -69,6 +69,8 @@ import time
 import math
 import statistics
 import subprocess
+
+import scanner_git
 import logging
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urlencode
@@ -745,29 +747,10 @@ def write_output(stocks, etfs, stocks_only=False, etfs_only=False, partial=False
     log.info(f"Wrote {'' if etfs_only else str(len(stocks)) + ' stocks '}{'' if stocks_only else 'and ' + str(len(etfs)) + ' ETFs '}to {os.path.dirname(stock_path) or '.'}")
 
     if REPO_DIR:
-        try:
-            subprocess.run(["git", "-C", REPO_DIR, "add"] + files_to_add, check=True)
-            diff = subprocess.run(["git", "-C", REPO_DIR, "diff", "--cached", "--quiet"])
-            if diff.returncode == 0:
-                log.info("No changes since last push — skipping commit")
-                return
-            label = "checkpoint" if partial else "scan update"
-            subprocess.run(["git", "-C", REPO_DIR, "commit", "-m", f"{label} {now}"], check=True)
-            # Reconcile with anything pushed to the repo elsewhere before pushing,
-            # so ours fast-forwards. Without this, one outside push would
-            # non-fast-forward-reject every future push and silently freeze the
-            # feed. On conflict, abort and retry next cycle rather than wedge the repo.
-            pull = subprocess.run(["git", "-C", REPO_DIR, "pull", "--rebase", "--autostash", "origin", "main"],
-                                  capture_output=True)
-            if pull.returncode != 0:
-                subprocess.run(["git", "-C", REPO_DIR, "rebase", "--abort"], capture_output=True)
-                log.error("git pull --rebase failed; skipping push this cycle: "
-                          + (pull.stderr.decode(errors="replace")[:200] if pull.stderr else ""))
-                return
-            subprocess.run(["git", "-C", REPO_DIR, "push"], check=True)
-            log.info("Pushed updated data to GitHub — Vercel will redeploy shortly")
-        except subprocess.CalledProcessError as e:
-            log.error(f"git commit/push failed: {e}")
+        # Shared, self-healing, lock-serialized publisher — a race, crash, or
+        # stray dirty file can't freeze the feed (see scanner_git.py).
+        label = "checkpoint" if partial else "scan update"
+        scanner_git.commit_and_push(REPO_DIR, files_to_add, f"{label} {now}")
 
 
 # ----------------------------------------------------------------------
