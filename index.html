@@ -1967,6 +1967,35 @@ async function ensureHoldingsData() {
   }
 }
 
+// Portable backup of the holdings list — so the list can be moved to another
+// URL (localStorage is per-origin) or restored after a browser storage clear.
+function holdingsBackupJson() {
+  return JSON.stringify({ app: "undercurrent", type: "holdings", v: 1,
+    exportedAt: new Date().toISOString(), holdings: state.holdings || [] }, null, 2);
+}
+
+// Accepts either the wrapped export object or a bare array. Merges into the
+// current list (existing kept, new tickers added) so importing is always safe
+// and idempotent — it never wipes what's already there.
+function importHoldingsText(text) {
+  let data;
+  try { data = JSON.parse((text || "").trim()); }
+  catch (e) { return { error: "That doesn't look like valid backup text — paste the whole block you exported." }; }
+  const list = Array.isArray(data) ? data : (data && Array.isArray(data.holdings) ? data.holdings : null);
+  if (!list) return { error: "No holdings found in that text." };
+  const clean = list
+    .filter(h => h && typeof h.ticker === "string" && /^[A-Za-z.\-]{1,6}$/.test(h.ticker.trim()))
+    .map(h => ({ ticker: h.ticker.trim().toUpperCase(),
+                 shares: h.shares != null && h.shares !== "" ? String(h.shares) : null,
+                 cost: h.cost != null && h.cost !== "" ? String(h.cost) : null }));
+  if (!clean.length) return { error: "No valid tickers found in that backup." };
+  const have = new Set((state.holdings || []).map(h => (h.ticker || "").toUpperCase()));
+  const added = clean.filter(h => !have.has(h.ticker));
+  state.holdings = (state.holdings || []).concat(added);
+  saveHoldings();
+  return { added: added.length, skipped: clean.length - added.length };
+}
+
 function renderHoldings() {
   const root = document.getElementById("tab-holdings");
   if (!root) return;
@@ -1974,6 +2003,23 @@ function renderHoldings() {
   const dataReady = !!(state.marketData || state.universeData);
   const asOf = (state.universeData && state.universeData.generatedAt) || (state.marketData && state.marketData.generatedAt);
   const analyses = dataReady ? holdings.map(analyzeHolding) : [];
+
+  const taStyle = "width:100%;min-height:88px;font-family:'IBM Plex Mono',monospace;font-size:12px;border:1px solid var(--line);border-radius:8px;padding:8px;box-sizing:border-box;resize:vertical";
+  const backupPanel = state.holdBackupMode === "export"
+    ? `<div class="baked" style="margin-bottom:0">
+         <div style="font-size:12.5px;margin-bottom:6px">Copied to your clipboard. Or select all below and copy — paste it into <strong>Import</strong> on another URL, or keep it somewhere safe as a backup.</div>
+         <textarea id="holdExportText" readonly style="${taStyle}">${escapeHtml(holdingsBackupJson())}</textarea>
+       </div>`
+    : state.holdBackupMode === "import"
+    ? `<div class="baked" style="margin-bottom:0">
+         <div style="font-size:12.5px;margin-bottom:6px">Paste an exported backup and press <strong>Load</strong>. Your current holdings are kept; only new tickers are added.</div>
+         <textarea id="holdImportText" placeholder="Paste your exported holdings backup here" style="${taStyle}"></textarea>
+         <div style="display:flex;gap:8px;align-items:center;margin-top:8px">
+           <button class="btn" id="holdImportLoad">Load</button>
+           <span id="holdImportMsg" style="font-size:12.5px"></span>
+         </div>
+       </div>`
+    : "";
 
   const form = `
     <div class="panel">
@@ -1988,6 +2034,13 @@ function renderHoldings() {
       </div>
       <div id="holdAddErr" class="baked hidden" style="margin-bottom:0;color:var(--coral)"></div>
       <div class="baked" style="font-size:12.5px;margin-bottom:0"><strong>How the levels work.</strong> Fair value scales with the company's earnings growth — a fast compounder earns a higher P/E, so quality names aren't flagged the moment they pass 25× earnings. <span style="color:var(--kelp)">Buy more at</span> ≈ 15% below that growth-adjusted fair value; <span style="color:var(--coral)">Sell / trim at</span> only triggers when a name looks stretched <em>even after</em> crediting its growth. Independent of what you paid — see the Learn tab.</div>
+      <div style="display:flex;gap:8px;align-items:center;margin-top:12px;flex-wrap:wrap">
+        <span class="field-label" style="margin:0">Backup &amp; restore</span>
+        <button class="btn btn-quiet" id="holdExport">Export / copy</button>
+        <button class="btn btn-quiet" id="holdImport">Import / paste</button>
+        <span style="font-size:12px;color:var(--dim)">Saved in this browser only — export a copy to move it to another URL or keep it safe.</span>
+      </div>
+      ${backupPanel}
     </div>`;
 
   let body;
@@ -2024,6 +2077,34 @@ function renderHoldings() {
     renderHoldings();
   }));
   root.querySelectorAll("[data-live]").forEach(btn => btn.addEventListener("click", () => liveLookupHolding(btn.dataset.live)));
+
+  const exportBtn = document.getElementById("holdExport");
+  if (exportBtn) exportBtn.addEventListener("click", () => {
+    state.holdBackupMode = state.holdBackupMode === "export" ? null : "export";
+    renderHoldings();
+    if (state.holdBackupMode === "export") {
+      try { if (navigator.clipboard) navigator.clipboard.writeText(holdingsBackupJson()); } catch (e) {}
+      const ta = document.getElementById("holdExportText");
+      if (ta) { ta.focus(); ta.select(); }
+    }
+  });
+  const importBtn = document.getElementById("holdImport");
+  if (importBtn) importBtn.addEventListener("click", () => {
+    state.holdBackupMode = state.holdBackupMode === "import" ? null : "import";
+    renderHoldings();
+  });
+  const importLoad = document.getElementById("holdImportLoad");
+  if (importLoad) importLoad.addEventListener("click", () => {
+    const ta = document.getElementById("holdImportText");
+    const res = importHoldingsText(ta ? ta.value : "");
+    if (res.error) {
+      const msg = document.getElementById("holdImportMsg");
+      if (msg) { msg.style.color = "var(--coral)"; msg.textContent = res.error; }
+      return;
+    }
+    state.holdBackupMode = null;
+    renderHoldings();
+  });
 
   // Only pull data when the tab is actually on-screen — keeps boot lazy.
   if (!dataReady && !root.classList.contains("hidden")) ensureHoldingsData();
