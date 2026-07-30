@@ -474,6 +474,32 @@ def load_existing_universe():
         return {}
 
 
+def sane_52w(price, high, low):
+    """True when the 52-week range is internally consistent with the price.
+
+    Finnhub occasionally returns a corrupt 52-week high/low — e.g. a low far
+    ABOVE today's price (GFI: low 42292 vs price ~32), or a high hundreds of
+    times the price (SKHY: high ~3,000,000). Left unchecked these manufacture
+    a fake ~99% 'discount', which is 30% of compute_score and a gate in
+    compute_signal, so they silently invent BUY signals and pollute the radar.
+
+    A real price must sit within its own 52-week range. We allow 2% slack for
+    intraday drift, and also reject implausibly deep discounts (>95% off the
+    high) that indicate a high-side data error rather than a genuine crash —
+    a legitimately battered name like BYRN (~86% off) still passes.
+    """
+    if not price or price <= 0 or not high or high <= 0:
+        return False
+    tol = 1.02
+    if price > high * tol:                    # price above its own 52-wk high
+        return False
+    if low and low > 0 and price < low / tol:  # price below its own 52-wk low
+        return False
+    if (high - price) / high > 0.95:          # >95% off high — high-side corruption
+        return False
+    return True
+
+
 def scan_stocks(tickers, known, universe=None, on_checkpoint=None):
     """Scans every ticker, updating `known` (a ticker -> stock dict, kept
     by the caller across passes and restarts) in place: tickers that
@@ -523,10 +549,14 @@ def scan_stocks(tickers, known, universe=None, on_checkpoint=None):
         if universe is not None:
             if price and cap and high:
                 uq = extract_quality(m, pe)
+                # Only trust the discount when the 52-week range is sane; a
+                # corrupt range would fake a deep bargain. None = "unknown"
+                # (radar treats a non-numeric discount as no momentum signal).
+                disc = (high - price) / high if sane_52w(price, high, low) else None
                 universe[tk] = {
                     "ticker": tk, "sector": guess_sector(profile.get("finnhubIndustry")),
                     "price": price, "pe": pe, "cap": cap, "high": high, "low": low,
-                    "discount": (high - price) / high,
+                    "discount": disc,
                     "de": uq["de"], "cr": uq["cr"], "roe": uq["roe"], "peg": uq["peg"],
                     "pb": uq["pb"], "divYield": uq["divYield"], "beta": uq["beta"],
                     "scannedAt": datetime.now(timezone.utc).isoformat(),
@@ -539,6 +569,9 @@ def scan_stocks(tickers, known, universe=None, on_checkpoint=None):
             continue
         if pe < 6 or pe > 25:
             known.pop(tk, None)  # re-checked and no longer in the healthy P/E band
+            continue
+        if not sane_52w(price, high, low):
+            known.pop(tk, None)  # corrupt 52-week range — would fake the discount/BUY
             continue
 
         discount = (high - price) / high
