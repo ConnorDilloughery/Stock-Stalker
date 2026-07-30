@@ -43,6 +43,7 @@ import os
 import sys
 import json
 import time
+import tempfile
 import logging
 from datetime import datetime, timezone, timedelta
 
@@ -314,6 +315,26 @@ def score_and_rank(stocks, universe, clusters, congress_buys):
     return picks
 
 
+def _atomic_dump(path, payload, **json_kwargs):
+    """Write JSON atomically (temp file in the same dir + fsync + os.replace),
+    so a crash or SIGTERM mid-write can never leave a truncated radar.json for
+    the app to choke on — the same hardening applied to the market scanner."""
+    d = os.path.dirname(path) or "."
+    fd, tmp = tempfile.mkstemp(dir=d, prefix=".tmp-", suffix=".json")
+    try:
+        with os.fdopen(fd, "w") as f:
+            json.dump(payload, f, **json_kwargs)
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(tmp, path)
+    except BaseException:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
+
+
 def main():
     if not REPO_DIR:
         log.warning("REPO_DIR not set — reading/writing ./output")
@@ -342,8 +363,7 @@ def main():
     path = os.path.join(REPO_DIR, "radar.json") if REPO_DIR else os.path.join("output", "radar.json")
     if not REPO_DIR:
         os.makedirs("output", exist_ok=True)
-    with open(path, "w") as f:
-        json.dump(payload, f, separators=(",", ":"))
+    _atomic_dump(path, payload, separators=(",", ":"))
     log.info(f"Wrote radar.json — {len(top)} picks")
 
     if REPO_DIR:

@@ -69,6 +69,7 @@ import time
 import math
 import statistics
 import subprocess
+import tempfile
 
 import scanner_git
 import logging
@@ -771,6 +772,28 @@ def scan_etfs():
 # Output + git push
 # ----------------------------------------------------------------------
 
+def _atomic_dump(path, payload, **json_kwargs):
+    """Write JSON atomically: dump to a temp file in the same directory, fsync,
+    then os.replace() it into place (an atomic rename on POSIX). A crash or a
+    SIGTERM mid-write leaves only the temp file — never a truncated published
+    file. This is exactly the failure that left universe.json corrupt when a
+    restart interrupted a plain open('w')/json.dump."""
+    d = os.path.dirname(path) or "."
+    fd, tmp = tempfile.mkstemp(dir=d, prefix=".tmp-", suffix=".json")
+    try:
+        with os.fdopen(fd, "w") as f:
+            json.dump(payload, f, **json_kwargs)
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(tmp, path)
+    except BaseException:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
+
+
 def write_output(stocks, etfs, stocks_only=False, etfs_only=False, partial=False, universe=None):
     now = datetime.now(timezone.utc).isoformat()
     stock_payload = {"generatedAt": now, "count": len(stocks), "stocks": stocks, "partial": partial}
@@ -788,19 +811,16 @@ def write_output(stocks, etfs, stocks_only=False, etfs_only=False, partial=False
 
     files_to_add = []
     if not etfs_only:
-        with open(stock_path, "w") as f:
-            json.dump(stock_payload, f, indent=2)
+        _atomic_dump(stock_path, stock_payload, indent=2)
         files_to_add.append("stocks.json")
     if not stocks_only:
-        with open(etf_path, "w") as f:
-            json.dump(etf_payload, f, indent=2)
+        _atomic_dump(etf_path, etf_payload, indent=2)
         files_to_add.append("etfs.json")
     # Full universe (unfiltered) for the Legends screeners. Written compact
     # (no indent) since it's ~6× bigger than stocks.json and only read by code.
     if universe is not None and not etfs_only:
         universe_payload = {"generatedAt": now, "count": len(universe), "stocks": universe, "partial": partial}
-        with open(universe_path, "w") as f:
-            json.dump(universe_payload, f, separators=(",", ":"))
+        _atomic_dump(universe_path, universe_payload, separators=(",", ":"))
         files_to_add.append("universe.json")
     log.info(f"Wrote {'' if etfs_only else str(len(stocks)) + ' stocks '}{'' if stocks_only else 'and ' + str(len(etfs)) + ' ETFs '}to {os.path.dirname(stock_path) or '.'}")
 
