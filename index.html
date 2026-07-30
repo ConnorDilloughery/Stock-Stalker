@@ -1736,11 +1736,31 @@ function parseMoney(v) {
   return isFinite(n) ? n : null;
 }
 
-// The algorithm behind "buy more at" / "sell at". Purely valuation-based: the
-// levels come from the desk's fair-value math (computeBands), NOT from what you
-// paid — cost basis is used only for the profit/loss context line, never to
-// move a trigger price (anchoring buy/sell decisions to your entry is the
-// classic behavioral trap this deliberately avoids).
+// Growth-aware valuation for the My Stocks verdict ONLY (the value screener
+// everywhere else keeps its strict flat-25x ceiling). A great compounder
+// deserves a higher P/E than a no-grower, so the fair multiple scales with the
+// company's sanitized earnings growth — quality names aren't auto-flagged the
+// instant they pass 25x, and only names stretched EVEN AFTER accounting for
+// growth (e.g. a 100x+ P/E) trip the trim line. Returns null when growth data
+// is missing or negative, so the caller falls back to the plain value bands.
+function growthBands(s) {
+  if (!(s.pe > 0) || !(s.peg > 0)) return null;
+  let growth = s.pe / s.peg;                 // recover the annual EPS growth % the app already used for PEG
+  if (!isFinite(growth) || growth <= 0) return null;
+  growth = Math.min(growth, 30);             // cap unsustainable TTM spikes (e.g. a just-turned-profitable name)
+  const fairPE = Math.max(14, Math.min(11 + 0.9 * growth, 36)); // GARP fair P/E: ~growth-scaled, floored/capped
+  const eps = s.price / s.pe;
+  const fair = eps * fairPE;
+  // Trim only when price is 2× the growth-justified fair value (≈ PEG 3),
+  // so richly-valued quality names read "hold", and only the genuinely
+  // stretched (e.g. a 100×+ P/E) trip a sell.
+  return { fair, buyBelow: fair * 0.85, trimAbove: fair * 2.0, growth, fairPE, pegShown: s.pe / growth };
+}
+
+// The algorithm behind "buy more at" / "sell at". Valuation-based and
+// growth-adjusted (see growthBands), and independent of what you paid — cost
+// basis feeds the profit/loss line only, never a trigger price (anchoring
+// buy/sell decisions to your entry is the classic behavioral trap this avoids).
 function analyzeHolding(h) {
   const shares = parseMoney(h.shares);
   const cost = parseMoney(h.cost);
@@ -1765,16 +1785,22 @@ function analyzeHolding(h) {
     return Object.assign(base, { covered: true, hasBands: false, s, price, value, pnlPct, pnlAbs, sector: s.sector, src: data._src });
   }
 
-  const buyMoreAt = s.buyBelow, sellAt = s.avoidAbove, fairValue = s.fairValue;
-  let verdict, tone;
+  // Prefer growth-adjusted levels; fall back to the flat value bands when
+  // there's no usable growth figure (declining or unknown earnings growth).
+  const gb = growthBands(s);
+  const buyMoreAt = gb ? gb.buyBelow : s.buyBelow;
+  const fairValue = gb ? gb.fair : s.fairValue;
+  const sellAt = gb ? gb.trimAbove : s.avoidAbove;
+  let verdict, tone, rich = false;
   if (price <= buyMoreAt) { verdict = "BUY MORE"; tone = "buy"; }
   else if (price >= sellAt) { verdict = "SELL / TRIM"; tone = "sell"; }
-  else { verdict = "HOLD"; tone = "hold"; }
+  else { verdict = "HOLD"; tone = "hold"; rich = price > fairValue; }
 
   return Object.assign(base, {
     covered: true, hasBands: true, s, price, value, pnlPct, pnlAbs,
-    buyMoreAt, sellAt, fairValue, verdict, tone, sector: s.sector, pe: s.pe,
-    signal: s.signal, score: s.score, discount: s.discount, src: data._src,
+    buyMoreAt, sellAt, fairValue, verdict, tone, rich,
+    growth: gb ? gb.growth : null, pegShown: gb ? gb.pegShown : null, growthAdjusted: !!gb,
+    sector: s.sector, pe: s.pe, signal: s.signal, score: s.score, discount: s.discount, src: data._src,
   });
 }
 
@@ -1795,18 +1821,24 @@ function pnlHtml(a) {
 
 function holdingRecommendation(a) {
   const b = "$" + a.buyMoreAt.toFixed(2), sell = "$" + a.sellAt.toFixed(2), fv = "$" + a.fairValue.toFixed(2);
+  // Valuation context: P/E, and growth/PEG when we could growth-adjust.
+  const gctx = a.growthAdjusted
+    ? ` at ${a.pe.toFixed(0)}× earnings on ~${a.growth.toFixed(0)}% growth (PEG ~${a.pegShown.toFixed(1)})`
+    : ` at ${a.pe.toFixed(0)}× earnings`;
   let core;
   if (a.tone === "buy")
-    core = `<span class="k">Add zone.</span> At $${a.price.toFixed(2)} it's already at or below the buy-below line (${b}) — the value math favors buying more here. Fair value is estimated around ${fv}.`;
+    core = `<span class="k">Add zone.</span> At $${a.price.toFixed(2)}${gctx}, it's at or below the growth-adjusted buy line (${b}) — reasonably priced for what it earns and how fast it's growing. Fair value around ${fv}.`;
   else if (a.tone === "sell")
-    core = `<span class="k-risk">Trim zone.</span> At $${a.price.toFixed(2)} it's past ${sell}, where the P/E leaves healthy territory — consider trimming. If you still like the business, at least stop adding.`;
+    core = `<span class="k-risk">Stretched.</span> At $${a.price.toFixed(2)}${gctx}, it's expensive even after crediting its growth — past ${sell}. Consider trimming; at minimum stop adding.`;
+  else if (a.rich)
+    core = `<span class="k-sell">Hold — richly valued.</span> At $${a.price.toFixed(2)}${gctx}, it's above fair value (${fv}) but not extreme. No rush to sell a quality name that's still growing — only consider trimming above ${sell}.`;
   else
-    core = `<span class="k-sell">Hold.</span> Fairly valued between ${b} (add on dips) and ${sell} (trim into strength). Fair value est. ${fv}.`;
+    core = `<span class="k-sell">Hold.</span> At $${a.price.toFixed(2)}${gctx}, it's fairly valued for its growth — between ${b} (add on dips) and ${sell} (trim into strength). Fair value ${fv}.`;
   const extras = [];
-  if (a.signal === "BUY") extras.push("the desk's own screen also rates it a Buy right now");
-  else if (a.signal === "ACCUMULATE") extras.push("the desk's screen rates it Accumulate");
+  if (a.signal === "BUY") extras.push("the desk's value screen also rates it a Buy");
+  else if (a.signal === "ACCUMULATE") extras.push("the desk's value screen rates it Accumulate");
   if (typeof a.discount === "number" && a.discount >= 0.15) extras.push(`it's ${(a.discount * 100).toFixed(0)}% below its 52-week high`);
-  if (a.pnlPct != null && a.pnlPct >= 0.5 && a.tone !== "sell") extras.push(`you're up ${(a.pnlPct * 100).toFixed(0)}% — a large gain is itself a reason to consider taking some off, independent of valuation`);
+  if (a.pnlPct != null && a.pnlPct >= 0.75 && a.tone !== "sell") extras.push(`you're up ${(a.pnlPct * 100).toFixed(0)}% — trimming a slice to lock in gains is reasonable regardless of valuation`);
   return core + (extras.length ? ` <span style="color:var(--dim)">(${extras.join("; ")}).</span>` : "");
 }
 
@@ -1955,7 +1987,7 @@ function renderHoldings() {
         <button class="btn" id="holdAdd">Add</button>
       </div>
       <div id="holdAddErr" class="baked hidden" style="margin-bottom:0;color:var(--coral)"></div>
-      <div class="baked" style="font-size:12.5px;margin-bottom:0"><strong>How the levels work.</strong> <span style="color:var(--kelp)">Buy more at</span> = fair value minus a 15% margin of safety. <span style="color:var(--coral)">Sell / trim at</span> = the price where the P/E would leave healthy territory. These are valuation-based and independent of what you paid — see the Learn tab.</div>
+      <div class="baked" style="font-size:12.5px;margin-bottom:0"><strong>How the levels work.</strong> Fair value scales with the company's earnings growth — a fast compounder earns a higher P/E, so quality names aren't flagged the moment they pass 25× earnings. <span style="color:var(--kelp)">Buy more at</span> ≈ 15% below that growth-adjusted fair value; <span style="color:var(--coral)">Sell / trim at</span> only triggers when a name looks stretched <em>even after</em> crediting its growth. Independent of what you paid — see the Learn tab.</div>
     </div>`;
 
   let body;
