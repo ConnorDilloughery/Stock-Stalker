@@ -221,6 +221,7 @@
         <div class="tab-group">
           <div class="tab-group-label">Yours</div>
           <div class="tabs">
+            <button class="tab" data-tab="holdings">My Stocks</button>
             <button class="tab" data-tab="watch">Watchlist</button>
           </div>
         </div>
@@ -244,6 +245,7 @@
     <div id="tab-allfour" class="hidden"></div>
     <div id="tab-legendlookup" class="hidden"></div>
     <div id="tab-etfs" class="hidden"></div>
+    <div id="tab-holdings" class="hidden"></div>
     <div id="tab-watch" class="hidden"></div>
     <div id="tab-ipo" class="hidden"></div>
     <div id="tab-pulse" class="hidden"></div>
@@ -337,6 +339,7 @@ let state = {
   capIdx: 1,
   results: [],
   watchlist: [],
+  holdings: [],
   scanning: false,
   lookupValue: "",
   lookupResult: null,
@@ -377,10 +380,14 @@ function loadState() {
   try {
     state.key = localStorage.getItem("uc:key") || null;
     state.watchlist = JSON.parse(localStorage.getItem("uc:watchlist") || "[]");
+    state.holdings = JSON.parse(localStorage.getItem("uc:holdings") || "[]");
   } catch (e) { /* private browsing: memory only */ }
 }
 function saveWatchlist() {
   try { localStorage.setItem("uc:watchlist", JSON.stringify(state.watchlist)); } catch (e) {}
+}
+function saveHoldings() {
+  try { localStorage.setItem("uc:holdings", JSON.stringify(state.holdings)); } catch (e) {}
 }
 
 /* ======================= API helpers ======================= */
@@ -1690,6 +1697,258 @@ function renderWatch() {
   if (!state.insiderData && !state.insiderLoading) loadInsiderData(false);
 }
 
+/* ======================= My Stocks (holdings) ======================= */
+
+// Rebuild the health-check pass count from the raw metrics the universe file
+// carries (it doesn't store qPass/qMax like the value-screened stocks.json
+// does), using the exact same thresholds as the Pi scanner's extract_quality.
+function deriveQuality(s) {
+  const checks = [
+    s.de  != null ? s.de  < 1.0 : null,
+    s.cr  != null ? s.cr  > 1.5 : null,
+    s.roe != null ? s.roe > 15  : null,
+    s.peg != null ? s.peg < 1.2 : null,
+  ];
+  const valid = checks.filter(c => c !== null);
+  return { qPass: valid.filter(Boolean).length, qMax: valid.length };
+}
+
+// Look a ticker up in the data the app already has: prefer the value-screened
+// stocks.json (richest — carries signal, analyst ratings, precomputed bands),
+// then fall back to the full universe.json (~6,000 names).
+function lookupStockData(ticker) {
+  const tk = (ticker || "").toUpperCase();
+  const inStocks = state.marketData && state.marketData.stocks && state.marketData.stocks.find(s => s.ticker === tk);
+  if (inStocks) return Object.assign({}, inStocks, { _src: "stocks" });
+  const inUni = state.universeData && state.universeData.stocks && state.universeData.stocks.find(s => s.ticker === tk);
+  if (inUni) return Object.assign({}, inUni, { _src: "universe" });
+  return null;
+}
+
+function parseMoney(v) {
+  if (v == null) return null;
+  const n = parseFloat(String(v).replace(/[,$\s]/g, ""));
+  return isFinite(n) ? n : null;
+}
+
+// The algorithm behind "buy more at" / "sell at". Purely valuation-based: the
+// levels come from the desk's fair-value math (computeBands), NOT from what you
+// paid — cost basis is used only for the profit/loss context line, never to
+// move a trigger price (anchoring buy/sell decisions to your entry is the
+// classic behavioral trap this deliberately avoids).
+function analyzeHolding(h) {
+  const shares = parseMoney(h.shares);
+  const cost = parseMoney(h.cost);
+  const data = lookupStockData(h.ticker);
+  const base = { ticker: (h.ticker || "").toUpperCase(), shares, cost };
+  if (!data) return Object.assign(base, { covered: false });
+
+  const s = Object.assign({}, data);
+  if (s.qPass == null || s.qMax == null) Object.assign(s, deriveQuality(s));
+  const price = s.price;
+  const hasBands = price > 0 && s.pe > 0 && isFinite(price / s.pe);
+  if (hasBands && (!s.buyBelow || !s.avoidAbove || !s.fairValue)) Object.assign(s, computeBands(s));
+
+  const value = shares != null ? shares * price : null;
+  const pnlPct = (cost != null && cost > 0) ? (price - cost) / cost : null;
+  const pnlAbs = (shares != null && cost != null) ? (price - cost) * shares : null;
+
+  if (!hasBands) {
+    return Object.assign(base, { covered: true, hasBands: false, s, price, value, pnlPct, pnlAbs, sector: s.sector });
+  }
+
+  const buyMoreAt = s.buyBelow, sellAt = s.avoidAbove, fairValue = s.fairValue;
+  let verdict, tone;
+  if (price <= buyMoreAt) { verdict = "BUY MORE"; tone = "buy"; }
+  else if (price >= sellAt) { verdict = "SELL / TRIM"; tone = "sell"; }
+  else { verdict = "HOLD"; tone = "hold"; }
+
+  return Object.assign(base, {
+    covered: true, hasBands: true, s, price, value, pnlPct, pnlAbs,
+    buyMoreAt, sellAt, fairValue, verdict, tone, sector: s.sector, pe: s.pe,
+    signal: s.signal, score: s.score, discount: s.discount, src: data._src,
+  });
+}
+
+const HOLD_CHIP = {
+  buy:  "background:#E3F1EA;color:#1E7A5A",
+  hold: "background:#F6EEDD;color:#9A6B1B",
+  sell: "background:#F7E6E2;color:#C94F3D",
+};
+
+function pnlHtml(a) {
+  if (a.pnlPct == null) return "";
+  const up = a.pnlPct >= 0;
+  const col = up ? "var(--kelp)" : "var(--coral)";
+  const pct = (up ? "+" : "") + (a.pnlPct * 100).toFixed(1) + "%";
+  const abs = a.pnlAbs != null ? ` · ${up ? "+" : "−"}$${Math.abs(a.pnlAbs).toFixed(2)}` : "";
+  return `<span style="color:${col};font-weight:600">${pct}${abs}</span>`;
+}
+
+function holdingRecommendation(a) {
+  const b = "$" + a.buyMoreAt.toFixed(2), sell = "$" + a.sellAt.toFixed(2), fv = "$" + a.fairValue.toFixed(2);
+  let core;
+  if (a.tone === "buy")
+    core = `<span class="k">Add zone.</span> At $${a.price.toFixed(2)} it's already at or below the buy-below line (${b}) — the value math favors buying more here. Fair value is estimated around ${fv}.`;
+  else if (a.tone === "sell")
+    core = `<span class="k-risk">Trim zone.</span> At $${a.price.toFixed(2)} it's past ${sell}, where the P/E leaves healthy territory — consider trimming. If you still like the business, at least stop adding.`;
+  else
+    core = `<span class="k-sell">Hold.</span> Fairly valued between ${b} (add on dips) and ${sell} (trim into strength). Fair value est. ${fv}.`;
+  const extras = [];
+  if (a.signal === "BUY") extras.push("the desk's own screen also rates it a Buy right now");
+  else if (a.signal === "ACCUMULATE") extras.push("the desk's screen rates it Accumulate");
+  if (typeof a.discount === "number" && a.discount >= 0.15) extras.push(`it's ${(a.discount * 100).toFixed(0)}% below its 52-week high`);
+  if (a.pnlPct != null && a.pnlPct >= 0.5 && a.tone !== "sell") extras.push(`you're up ${(a.pnlPct * 100).toFixed(0)}% — a large gain is itself a reason to consider taking some off, independent of valuation`);
+  return core + (extras.length ? ` <span style="color:var(--dim)">(${extras.join("; ")}).</span>` : "");
+}
+
+function holdingCardHtml(a, i) {
+  const pos = (a.shares != null || a.cost != null) ? `
+    <div style="color:var(--dim);font-size:13px;margin-top:2px">
+      ${a.shares != null ? `${a.shares} sh` : "shares —"}${a.cost != null ? ` @ $${a.cost.toFixed(2)} cost` : ""}${a.value != null ? ` · worth $${a.value.toFixed(2)}` : ""} ${a.pnlPct != null ? "· " + pnlHtml(a) : ""}
+    </div>` : "";
+
+  if (!a.covered) return `
+    <div class="card">
+      <div class="card-head">
+        <div><span class="ticker">${escapeHtml(a.ticker)}</span>
+          <span class="chip" style="background:#EAEEF1;color:#4A5A66">Not covered</span>${pos}
+        </div>
+        <button class="btn btn-quiet" data-remove="${i}">Remove</button>
+      </div>
+      <div style="font-size:13.5px;line-height:1.5;margin-top:12px;color:var(--dim)">
+        This ticker isn't in the Pi's scanned universe (~6,000 US names with clean fundamentals), so there's no price or valuation data to build buy/sell levels from. Small, very new, or foreign-listed names often fall outside it.
+      </div>
+    </div>`;
+
+  if (!a.hasBands) return `
+    <div class="card">
+      <div class="card-head">
+        <div><span class="ticker">${escapeHtml(a.ticker)}</span>
+          <span class="chip" style="background:#EAEEF1;color:#4A5A66">No levels</span>${pos}
+        </div>
+        <button class="btn btn-quiet" data-remove="${i}">Remove</button>
+      </div>
+      <div class="stats" style="margin-top:12px">
+        <div class="stat"><span>Price</span><strong>$${a.price.toFixed(2)}</strong></div>
+        ${a.sector ? `<div class="stat"><span>Sector</span><strong style="font-size:13px">${escapeHtml(a.sector)}</strong></div>` : ""}
+      </div>
+      <div style="font-size:13.5px;line-height:1.5;margin-top:8px;color:var(--dim)">No valuation levels — it's unprofitable or missing a usable P/E, so the fair-value / buy-below / sell math doesn't apply. This is a story stock, not a value setup; judge it on growth, not these levels.</div>
+    </div>`;
+
+  return `
+    <div class="card">
+      <div class="card-head">
+        <div>
+          <span class="ticker">${escapeHtml(a.ticker)}</span>
+          <span class="chip" style="${HOLD_CHIP[a.tone]}">${a.verdict}</span>${pos}
+        </div>
+        <button class="btn btn-quiet" data-remove="${i}">Remove</button>
+      </div>
+      <div class="stats" style="margin-top:12px">
+        <div class="stat"><span>Price now</span><strong>$${a.price.toFixed(2)}</strong></div>
+        <div class="stat"><span style="color:var(--kelp)">Buy more at</span><strong>$${a.buyMoreAt.toFixed(2)}</strong></div>
+        <div class="stat"><span>Fair value</span><strong>$${a.fairValue.toFixed(2)}</strong></div>
+        <div class="stat"><span style="color:var(--coral)">Sell / trim at</span><strong>$${a.sellAt.toFixed(2)}</strong></div>
+      </div>
+      <div style="font-size:13.5px;line-height:1.55;margin-top:10px">${holdingRecommendation(a)}</div>
+    </div>`;
+}
+
+function portfolioSummaryHtml(analyses) {
+  const withVal = analyses.filter(a => a.value != null);
+  if (withVal.length === 0) return "";
+  const total = withVal.reduce((sum, a) => sum + a.value, 0);
+  const costed = withVal.filter(a => a.cost != null && a.shares != null);
+  const totalCost = costed.reduce((sum, a) => sum + a.cost * a.shares, 0);
+  const gain = costed.length ? total - totalCost : null; // only meaningful if we have cost on the same names
+  const gainCostBase = costed.reduce((sum, a) => sum + a.value, 0);
+  const gainPct = (gain != null && totalCost > 0) ? (gainCostBase - totalCost) / totalCost : null;
+  const up = gain != null && gain >= 0;
+  return `
+    <div class="baked" style="display:flex;gap:18px;flex-wrap:wrap;align-items:baseline">
+      <span><strong style="font-size:17px">$${total.toFixed(2)}</strong> total value</span>
+      ${gain != null ? `<span style="color:${up ? "var(--kelp)" : "var(--coral)"};font-weight:600">${up ? "+" : "−"}$${Math.abs(gain).toFixed(2)}${gainPct != null ? ` (${up ? "+" : ""}${(gainPct * 100).toFixed(1)}%)` : ""} vs cost</span>` : ""}
+      <span style="color:var(--dim);font-size:13px">${analyses.length} position${analyses.length !== 1 ? "s" : ""}</span>
+    </div>`;
+}
+
+let _holdingsLoading = false;
+async function ensureHoldingsData() {
+  const needMarket = !state.marketData;
+  const needUni = !state.universeData && !state.universeMissing;
+  if (_holdingsLoading || (!needMarket && !needUni)) return;
+  _holdingsLoading = true;
+  renderHoldings();
+  try {
+    await Promise.all([needMarket ? loadMarketData(false) : null, needUni ? loadUniverseData(false) : null]);
+  } finally {
+    _holdingsLoading = false;
+    renderHoldings();
+  }
+}
+
+function renderHoldings() {
+  const root = document.getElementById("tab-holdings");
+  if (!root) return;
+  const holdings = state.holdings || [];
+  const dataReady = !!(state.marketData || state.universeData);
+  const asOf = (state.universeData && state.universeData.generatedAt) || (state.marketData && state.marketData.generatedAt);
+  const analyses = dataReady ? holdings.map(analyzeHolding) : [];
+
+  const form = `
+    <div class="panel">
+      <div class="panel-title">My Stocks</div>
+      <p class="panel-copy">Add what you own and this tells you — from the desk's fair-value math — whether each name is a <strong>buy-more</strong>, a <strong>hold</strong>, or a <strong>trim</strong>, with the price levels to act on. Shares and average cost are optional; add them to see your gain/loss too. Everything is saved in this browser only. ${asOf ? `Prices from the Pi's last scan (${escapeHtml(new Date(asOf).toLocaleString())}).` : ""}</p>
+      <div class="field-label">Add a holding</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+        <input type="text" id="holdTicker" placeholder="Ticker (e.g. AAPL)" style="flex:2;min-width:130px" autocomplete="off">
+        <input type="text" id="holdShares" placeholder="Shares (optional)" style="flex:1;min-width:110px" autocomplete="off">
+        <input type="text" id="holdCost" placeholder="Avg cost $ (optional)" style="flex:1;min-width:120px" autocomplete="off">
+        <button class="btn" id="holdAdd">Add</button>
+      </div>
+      <div id="holdAddErr" class="baked hidden" style="margin-bottom:0;color:var(--coral)"></div>
+      <div class="baked" style="font-size:12.5px;margin-bottom:0"><strong>How the levels work.</strong> <span style="color:var(--kelp)">Buy more at</span> = fair value minus a 15% margin of safety. <span style="color:var(--coral)">Sell / trim at</span> = the price where the P/E would leave healthy territory. These are valuation-based and independent of what you paid — see the Learn tab.</div>
+    </div>`;
+
+  let body;
+  if (holdings.length === 0) {
+    body = `<div class="empty"><div class="empty-title">No holdings yet</div><p>Add a ticker above to get a buy-more / hold / trim call with concrete price levels. Try one you own, or a name from the Radar or Full Market tabs.</p></div>`;
+  } else if (!dataReady) {
+    body = `<div class="empty"><p>Loading the Pi's market data…</p></div>`;
+  } else {
+    body = portfolioSummaryHtml(analyses) + analyses.map((a, i) => holdingCardHtml(a, i)).join("");
+  }
+
+  root.innerHTML = form + body;
+
+  const addBtn = document.getElementById("holdAdd");
+  const tIn = document.getElementById("holdTicker");
+  const shIn = document.getElementById("holdShares");
+  const cIn = document.getElementById("holdCost");
+  const errBox = document.getElementById("holdAddErr");
+  const doAdd = () => {
+    const ticker = (tIn.value || "").trim().toUpperCase();
+    errBox.classList.add("hidden");
+    if (!/^[A-Z.\-]{1,6}$/.test(ticker)) { errBox.textContent = "Enter a valid ticker symbol (e.g. AAPL)."; errBox.classList.remove("hidden"); return; }
+    if ((state.holdings || []).some(h => (h.ticker || "").toUpperCase() === ticker)) { errBox.textContent = ticker + " is already in your list."; errBox.classList.remove("hidden"); return; }
+    state.holdings = (state.holdings || []).concat([{ ticker, shares: shIn.value.trim() || null, cost: cIn.value.trim() || null }]);
+    saveHoldings();
+    renderHoldings();
+  };
+  if (addBtn) addBtn.addEventListener("click", doAdd);
+  [tIn, shIn, cIn].forEach(el => el && el.addEventListener("keydown", e => { if (e.key === "Enter") doAdd(); }));
+  root.querySelectorAll("[data-remove]").forEach(btn => btn.addEventListener("click", () => {
+    const idx = Number(btn.dataset.remove);
+    state.holdings = (state.holdings || []).filter((_, j) => j !== idx);
+    saveHoldings();
+    renderHoldings();
+  }));
+
+  // Only pull data when the tab is actually on-screen — keeps boot lazy.
+  if (!dataReady && !root.classList.contains("hidden")) ensureHoldingsData();
+}
+
 function etfCardHtml(e) {
   const discount = (e.high && e.high > e.price) ? ((e.high - e.price) / e.high) : null;
   const rangePos = (typeof e.rangePosition === "number") ? e.rangePosition : null;
@@ -2885,8 +3144,9 @@ function requireKey(action) {
 
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
-  ["radar", "scout", "graham", "lynch", "oneil", "murphy", "allfour", "legendlookup", "market", "sectors", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "backtest", "health", "learn"].forEach(id =>
+  ["radar", "scout", "graham", "lynch", "oneil", "murphy", "allfour", "legendlookup", "market", "sectors", "etfs", "holdings", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "backtest", "health", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
+  if (t.dataset.tab === "holdings") ensureHoldingsData();
 }));
 
 document.getElementById("saveKey").addEventListener("click", async () => {
@@ -2918,6 +3178,7 @@ document.getElementById("skipKey").addEventListener("click", () => {
 
 loadState();
 showApp();
+renderHoldings();
 </script>
 </body>
 </html>
