@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-30T00:05:25.180258+00:00",
+  "generatedAt": "2026-07-30T01:02:35.007919+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1059,
+  "count": 1069,
   "trades": [
     {
       "ticker": "EQBK",
@@ -211,6 +211,36 @@
       "type": "Sale",
       "shares": 15222.0,
       "pricePerShare": 114.08,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "VKTX",
+      "issuerName": "Viking Therapeutics, Inc.",
+      "insiderName": "Lian Brian",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 148517.0,
+      "pricePerShare": 33.3153,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "VKTX",
+      "issuerName": "Viking Therapeutics, Inc.",
+      "insiderName": "ZANTE GREG",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 21217.0,
+      "pricePerShare": 33.4704,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "VKTX",
+      "issuerName": "Viking Therapeutics, Inc.",
+      "insiderName": "Mancini Marianna",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 18217.0,
+      "pricePerShare": 33.4652,
       "transactionDate": "2026-07-29"
     },
     {
@@ -1411,6 +1441,36 @@
       "type": "Sale",
       "shares": 3260.0,
       "pricePerShare": 117.57,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "SCHW",
+      "issuerName": "SCHWAB CHARLES CORP",
+      "insiderName": "Bettinger Walter W",
+      "title": "Director, Co-Chairman",
+      "type": "Sale",
+      "shares": 42265.0,
+      "pricePerShare": 103.86,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "SCHW",
+      "issuerName": "SCHWAB CHARLES CORP",
+      "insiderName": "Bettinger Walter W",
+      "title": "Director, Co-Chairman",
+      "type": "Sale",
+      "shares": 38263.0,
+      "pricePerShare": 105.1848,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "SCHW",
+      "issuerName": "SCHWAB CHARLES CORP",
+      "insiderName": "Bettinger Walter W",
+      "title": "Director, Co-Chairman",
+      "type": "Sale",
+      "shares": 12880.0,
+      "pricePerShare": 105.5636,
       "transactionDate": "2026-07-28"
     },
     {
@@ -2831,6 +2891,46 @@
       "type": "Purchase",
       "shares": 333333.0,
       "pricePerShare": 15.0,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "ROIV",
+      "issuerName": "Roivant Sciences Ltd.",
+      "insiderName": "Venker Eric",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 200000.0,
+      "pricePerShare": 34.95,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "SCHW",
+      "issuerName": "SCHWAB CHARLES CORP",
+      "insiderName": "Bettinger Walter W",
+      "title": "Director, Co-Chairman",
+      "type": "Sale",
+      "shares": 192488.0,
+      "pricePerShare": 103.9022,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "SCHW",
+      "issuerName": "SCHWAB CHARLES CORP",
+      "insiderName": "Murtagh Nigel J",
+      "title": "Chief Risk Officer",
+      "type": "Sale",
+      "shares": 21947.0,
+      "pricePerShare": 104.0,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "SCHW",
+      "issuerName": "SCHWAB CHARLES CORP",
+      "insiderName": "Murtagh Nigel J",
+      "title": "Chief Risk Officer",
+      "type": "Sale",
+      "shares": 11000.0,
+      "pricePerShare": 104.0317,
       "transactionDate": "2026-07-27"
     },
     {
@@ -11375,6 +11475,41 @@
         }
       ]
     },
+    "VKTX": {
+      "issuerName": "Viking Therapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "VKTX",
+          "issuerName": "Viking Therapeutics, Inc.",
+          "insiderName": "Lian Brian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 148517.0,
+          "pricePerShare": 33.3153,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "VKTX",
+          "issuerName": "Viking Therapeutics, Inc.",
+          "insiderName": "ZANTE GREG",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 21217.0,
+          "pricePerShare": 33.4704,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "VKTX",
+          "issuerName": "Viking Therapeutics, Inc.",
+          "insiderName": "Mancini Marianna",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 18217.0,
+          "pricePerShare": 33.4652,
+          "transactionDate": "2026-07-29"
+        }
+      ]
+    },
     "LOAN": {
       "issuerName": "MANHATTAN BRIDGE CAPITAL, INC",
       "trades": [
@@ -13945,6 +14080,111 @@
         }
       ]
     },
+    "SCHW": {
+      "issuerName": "SCHWAB CHARLES CORP",
+      "trades": [
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Bettinger Walter W",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 42265.0,
+          "pricePerShare": 103.86,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Bettinger Walter W",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 38263.0,
+          "pricePerShare": 105.1848,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Bettinger Walter W",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 12880.0,
+          "pricePerShare": 105.5636,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Bettinger Walter W",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 192488.0,
+          "pricePerShare": 103.9022,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Murtagh Nigel J",
+          "title": "Chief Risk Officer",
+          "type": "Sale",
+          "shares": 21947.0,
+          "pricePerShare": 104.0,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Murtagh Nigel J",
+          "title": "Chief Risk Officer",
+          "type": "Sale",
+          "shares": 11000.0,
+          "pricePerShare": 104.0317,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab Charles R.",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 45500.0,
+          "pricePerShare": 101.7185,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Morgan Peter J. III",
+          "title": "General Counsel",
+          "type": "Sale",
+          "shares": 6952.0,
+          "pricePerShare": 102.0341,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Beatty Jonathan S",
+          "title": "MD, Head of Advisor Services",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 104.2055,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Murtagh Nigel J",
+          "title": "Chief Risk Officer",
+          "type": "Sale",
+          "shares": 4053.0,
+          "pricePerShare": 104.1374,
+          "transactionDate": "2026-07-21"
+        }
+      ]
+    },
     "ANIX": {
       "issuerName": "Anixa Biosciences Inc",
       "trades": [
@@ -16260,6 +16500,21 @@
         }
       ]
     },
+    "ROIV": {
+      "issuerName": "Roivant Sciences Ltd.",
+      "trades": [
+        {
+          "ticker": "ROIV",
+          "issuerName": "Roivant Sciences Ltd.",
+          "insiderName": "Venker Eric",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 200000.0,
+          "pricePerShare": 34.95,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
     "PEBO": {
       "issuerName": "PEOPLES BANCORP INC",
       "trades": [
@@ -16742,51 +16997,6 @@
           "shares": 0.001,
           "pricePerShare": 75.43,
           "transactionDate": "2026-07-24"
-        }
-      ]
-    },
-    "SCHW": {
-      "issuerName": "SCHWAB CHARLES CORP",
-      "trades": [
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Schwab Charles R.",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 45500.0,
-          "pricePerShare": 101.7185,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Morgan Peter J. III",
-          "title": "General Counsel",
-          "type": "Sale",
-          "shares": 6952.0,
-          "pricePerShare": 102.0341,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Beatty Jonathan S",
-          "title": "MD, Head of Advisor Services",
-          "type": "Sale",
-          "shares": 2000.0,
-          "pricePerShare": 104.2055,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Murtagh Nigel J",
-          "title": "Chief Risk Officer",
-          "type": "Sale",
-          "shares": 4053.0,
-          "pricePerShare": 104.1374,
-          "transactionDate": "2026-07-21"
         }
       ]
     },
@@ -23335,6 +23545,7 @@
       "0001140361-26-030002",
       "0001140361-26-030008",
       "0001140361-26-030093",
+      "0001140361-26-030107",
       "0001160077-26-000003",
       "0001162044-26-000644",
       "0001167691-26-000004",
@@ -24040,6 +24251,10 @@
       "0001193125-26-324438",
       "0001193125-26-324439",
       "0001193125-26-324440",
+      "0001193125-26-324445",
+      "0001193125-26-324446",
+      "0001193125-26-324447",
+      "0001193125-26-324448",
       "0001196460-26-000004",
       "0001201252-26-000010",
       "0001202722-26-000010",
@@ -24292,6 +24507,9 @@
       "0001213900-26-082919",
       "0001213900-26-082920",
       "0001213900-26-082968",
+      "0001213900-26-082979",
+      "0001213900-26-082980",
+      "0001213900-26-082982",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -24408,6 +24626,7 @@
       "0001292814-26-003872",
       "0001294280-26-000005",
       "0001295727-26-000002",
+      "0001296479-26-000009",
       "0001299992-26-000002",
       "0001307748-26-000175",
       "0001307748-26-000176",
@@ -24565,6 +24784,8 @@
       "0001437749-26-024804",
       "0001437749-26-024821",
       "0001437749-26-024823",
+      "0001437749-26-024923",
+      "0001437749-26-024924",
       "0001445546-26-005229",
       "0001445546-26-005230",
       "0001445546-26-005231",
@@ -24845,6 +25066,7 @@
       "0001545591-26-000008",
       "0001547434-26-000003",
       "0001553153-26-000002",
+      "0001556224-26-000004",
       "0001561550-26-000246",
       "0001561861-26-000059",
       "0001562577-26-000256",
@@ -24914,6 +25136,7 @@
       "0001606498-26-000110",
       "0001606498-26-000111",
       "0001606498-26-000112",
+      "0001607210-26-000004",
       "0001610717-26-000340",
       "0001620586-26-000009",
       "0001623632-26-001024",
@@ -25081,6 +25304,13 @@
       "0001628280-26-050688",
       "0001628280-26-050691",
       "0001628280-26-050700",
+      "0001628280-26-050715",
+      "0001628280-26-050717",
+      "0001628280-26-050719",
+      "0001628280-26-050721",
+      "0001628280-26-050723",
+      "0001628280-26-050726",
+      "0001628280-26-050728",
       "0001634117-26-000081",
       "0001638728-26-000011",
       "0001640334-26-001221",
@@ -25094,6 +25324,7 @@
       "0001644373-26-000004",
       "0001646649-26-000020",
       "0001649599-26-000009",
+      "0001649599-26-000012",
       "0001649989-26-000006",
       "0001649989-26-000007",
       "0001650664-26-000076",
@@ -25166,6 +25397,7 @@
       "0001736979-26-000013",
       "0001737568-26-000003",
       "0001740393-26-000006",
+      "0001742046-26-000004",
       "0001742734-26-000018",
       "0001742938-26-000007",
       "0001746129-26-000032",
