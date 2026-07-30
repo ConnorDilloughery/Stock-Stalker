@@ -474,6 +474,31 @@ def load_existing_universe():
         return {}
 
 
+def resolve_pe(m, price):
+    """Authoritative P/E = price / trailing EPS, cross-checked against the
+    vendor's P/E.
+
+    Finnhub's peTTM is sometimes internally inconsistent with its own epsTTM
+    (CLBK: peTTM reported 52.5, yet price / epsTTM = 34.6 — the vendor number
+    was built off a stale/annual EPS). When the vendor P/E and the
+    price-derived P/E disagree by more than ~25%, trust the price-derived
+    value; otherwise keep the vendor number, which correctly excludes
+    extraordinary items when the two agree. This is the same "don't trust a
+    single corrupt vendor field" discipline as sane_52w() applies to the
+    52-week range.
+    """
+    vendor = num(m.get("peBasicExclExtraTTM")) or num(m.get("peTTM")) or num(m.get("peNormalizedAnnual"))
+    eps = num(m.get("epsExclExtraItemsTTM")) or num(m.get("epsTTM"))
+    derived = (price / eps) if (price and eps and eps > 0) else None
+    if derived is None:
+        return vendor
+    if vendor is None or vendor <= 0:
+        return derived
+    if abs(vendor - derived) / derived > 0.25:
+        return derived
+    return vendor
+
+
 def sane_52w(price, high, low):
     """True when the 52-week range is internally consistent with the price.
 
@@ -535,7 +560,7 @@ def scan_stocks(tickers, known, universe=None, on_checkpoint=None):
 
         price = quote.get("c")
         m = metric.get("metric") or {}
-        pe = m.get("peBasicExclExtraTTM") or m.get("peTTM") or m.get("peNormalizedAnnual")
+        pe = resolve_pe(m, price)
         cap = m.get("marketCapitalization")
         high = m.get("52WeekHigh")
         low = m.get("52WeekLow")

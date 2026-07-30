@@ -91,8 +91,16 @@ def _parse_date(s):
 
 
 def build_insider_clusters(insider, today):
-    """ticker -> {count of distinct open-market buyers, names, lastDate}
-    within the recent window."""
+    """ticker -> {distinct open-market buyers, names, lastDate, buyShares,
+    sellShares, sellers} within the recent window.
+
+    Share totals let the ranker DOLLAR-WEIGHT the signal (shares x current
+    price) instead of merely counting buyers — so a handful of token lots
+    (CHCO: 4 buyers, 444 shares, ~$64k) no longer scores like a genuine
+    multi-million-dollar conviction cluster (CLBK: ~$5.2M). Concurrent
+    selling in the same window is captured too, so it can be netted out.
+    The insider feed rarely reports a reliable per-share price, so the
+    ranker approximates dollars from shares x the current market price."""
     cutoff = today - timedelta(days=INSIDER_WINDOW_DAYS)
     by = {}
     for t in insider.get("trades", []):
@@ -104,12 +112,31 @@ def build_insider_clusters(insider, today):
         tk = t.get("ticker")
         if not tk:
             continue
-        e = by.setdefault(tk, {"buyers": set(), "last": None})
+        e = by.setdefault(tk, {"buyers": set(), "last": None,
+                               "buyShares": 0.0, "sellShares": 0.0, "sellers": set()})
         e["buyers"].add(t.get("insiderName") or "?")
+        e["buyShares"] += t.get("shares") or 0
         if e["last"] is None or d > e["last"]:
             e["last"] = d
+    # Second pass: attach sells ONLY for tickers that already have a buy, so
+    # sell-only names never become radar candidates but a net seller among the
+    # buyers can still be detected and penalized.
+    for t in insider.get("trades", []):
+        ty = (t.get("type") or "").lower()
+        if "sale" not in ty and "sell" not in ty:
+            continue
+        d = _parse_date(t.get("transactionDate"))
+        if not d or d < cutoff:
+            continue
+        e = by.get(t.get("ticker"))
+        if e is None:
+            continue
+        e["sellShares"] += t.get("shares") or 0
+        e["sellers"].add(t.get("insiderName") or "?")
     return {tk: {"count": len(v["buyers"]), "names": sorted(v["buyers"])[:6],
-                 "lastDate": v["last"].isoformat() if v["last"] else None}
+                 "lastDate": v["last"].isoformat() if v["last"] else None,
+                 "buyShares": round(v["buyShares"]), "sellShares": round(v["sellShares"]),
+                 "sellers": len(v["sellers"])}
             for tk, v in by.items()}
 
 
@@ -197,10 +224,29 @@ def score_and_rank(stocks, universe, clusters, congress_buys):
         cl = clusters.get(tk)
         if cl:
             n = cl["count"]
-            # A cluster (3+) is the strongest single signal, but capped ~30 so
-            # even a huge 16-buyer cluster can't outweigh broad convergence.
-            score += (20 + min(n - 3, 10)) if n >= 3 else 14 if n == 2 else 8
-            label = f"{n} insider buyer{'s' if n != 1 else ''}" + (" — cluster" if n >= 3 else "")
+            # Breadth tier: a cluster (3+) is the strongest single signal,
+            # still capped ~30 so even a 16-buyer cluster can't outweigh broad
+            # convergence.
+            base = (20 + min(n - 3, 10)) if n >= 3 else 14 if n == 2 else 8
+            # Dollar-weight it. Approximate the money committed as
+            # shares x current price. Token lots get heavily discounted; a real
+            # multi-million-dollar commitment keeps the full tier. Concurrent
+            # selling is netted out, and a net seller guts the signal to ~zero.
+            price = s.get("price") or 0
+            net_usd = (cl.get("buyShares", 0) - cl.get("sellShares", 0)) * price
+            if price <= 0:
+                factor = 1.0            # no price to weight against — don't penalize
+            elif net_usd <= 0:
+                factor = 0.1            # insiders were net sellers this window
+            else:
+                factor = min(max(net_usd / 1_000_000, 0.2), 1.0)  # $1M+ -> full tier
+            score += base * factor
+            usd_txt = ("" if price <= 0 or net_usd <= 0
+                       else f" · ~${net_usd / 1e6:.1f}M" if net_usd >= 1e6
+                       else f" · ~${round(net_usd / 1e3)}k")
+            net_txt = " (net selling)" if price > 0 and net_usd <= 0 and cl.get("sellShares") else ""
+            label = (f"{n} insider buyer{'s' if n != 1 else ''}"
+                     + (" — cluster" if n >= 3 else "") + usd_txt + net_txt)
             signals.append({"kind": "insider", "label": label})
 
         vsig = s.get("signal") if s.get("signal") in ("BUY", "ACCUMULATE") else None
