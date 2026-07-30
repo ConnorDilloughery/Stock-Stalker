@@ -191,31 +191,33 @@ def score_and_rank(stocks, universe, clusters, congress_buys):
         score = 0.0
         signals = []
 
+        # Each signal contributes a BOUNDED amount, so no single one can
+        # crown a pick on its own. The real driver is BREADTH — a name lit
+        # up by several INDEPENDENT signals ranks far above one big signal.
         cl = clusters.get(tk)
         if cl:
             n = cl["count"]
-            # 3+ distinct buyers is a "cluster" (the strong signal); give a
-            # little extra for unusually broad clusters, capped so one signal
-            # can't dominate the convergence score.
-            score += (40 + min(n - 3, 10) * 2) if n >= 3 else 25 if n == 2 else 12
+            # A cluster (3+) is the strongest single signal, but capped ~30 so
+            # even a huge 16-buyer cluster can't outweigh broad convergence.
+            score += (20 + min(n - 3, 10)) if n >= 3 else 14 if n == 2 else 8
             label = f"{n} insider buyer{'s' if n != 1 else ''}" + (" — cluster" if n >= 3 else "")
             signals.append({"kind": "insider", "label": label})
 
         vsig = s.get("signal") if s.get("signal") in ("BUY", "ACCUMULATE") else None
         if vsig == "BUY":
-            score += 25
+            score += 20
             signals.append({"kind": "value", "label": "Buy signal"})
         elif vsig == "ACCUMULATE":
-            score += 15
+            score += 12
             signals.append({"kind": "value", "label": "Accumulate"})
 
         conv = s.get("score")
         if isinstance(conv, (int, float)):
-            score += conv / 100 * 15
+            score += conv / 100 * 10  # a modifier on the value thesis, not its own signal
 
         cg = congress_buys.get(tk)
         if cg:
-            score += min(12 + 3 * (cg["count"] - 1), 20)
+            score += min(12 + 3 * (cg["count"] - 1), 18)
             signals.append({"kind": "congress",
                             "label": f"{cg['count']} congress buy{'s' if cg['count'] != 1 else ''}"})
 
@@ -223,19 +225,28 @@ def score_and_rank(stocks, universe, clusters, congress_buys):
         if isinstance(disc, (int, float)):
             offpct = round(disc * 100)
             if disc <= 0.05:
-                score += 15
+                score += 12
                 signals.append({"kind": "momentum", "label": f"{offpct}% below 52-wk high"})
             elif disc <= 0.15:
-                score += 8
+                score += 7
                 signals.append({"kind": "momentum", "label": f"{offpct}% below 52-wk high"})
 
-        rec = s.get("recTotal") or 0
-        if rec:
-            buys = (s.get("strongBuy") or 0) + (s.get("buy") or 0)
-            sells = (s.get("sell") or 0) + (s.get("strongSell") or 0)
-            if buys - sells > 0:
-                score += 8
-                signals.append({"kind": "analyst", "label": f"{buys} buy / {sells} sell"})
+        # Analyst lean only counts as an INDEPENDENT signal when there's no
+        # value Buy/Accumulate — that signal is itself computed from positive
+        # analyst sentiment, so counting both would double-count and inflate
+        # every value name's breadth.
+        if not vsig:
+            rec = s.get("recTotal") or 0
+            if rec:
+                buys = (s.get("strongBuy") or 0) + (s.get("buy") or 0)
+                sells = (s.get("sell") or 0) + (s.get("strongSell") or 0)
+                if buys - sells > 0:
+                    score += 8
+                    signals.append({"kind": "analyst", "label": f"{buys} buy / {sells} sell"})
+
+        # Breadth bonus: the more DISTINCT signals converge, the bigger the
+        # boost. This is what makes a 4-signal name beat a lone big cluster.
+        score += max(0, len(signals) - 1) * 18
 
         picks.append({
             "ticker": tk,
