@@ -421,7 +421,9 @@ def scan_senate(seen_ids, last_filed_date):
     try:
         session = senate_open_session()
         filings = senate_list_new_filings(session, submitted_start_date)
+        SOURCE_STATUS["senate"] = "ok"
     except RuntimeError as e:
+        SOURCE_STATUS["senate"] = "unreachable"
         log.error(f"[senate] Couldn't reach the Senate search backend: {e}")
         return []
 
@@ -647,8 +649,10 @@ def scan_whitehouse_trump(seen_ids, on_filing_done=None):
     try:
         links = wh_fetch_trump_links()
     except Exception as e:
+        SOURCE_STATUS["president"] = "unreachable"
         log.error(f"[president] Couldn't reach whitehouse.gov/disclosures/: {e}")
         return []
+    SOURCE_STATUS["president"] = "ok"
 
     new_links = [l for l in links if l["url"] not in seen_ids]
     log.info(f"[president] Found {len(links)} Trump PTR PDFs listed, {len(new_links)} not seen before")
@@ -808,8 +812,10 @@ def scan_house(seen_ids, on_batch_done=None):
     try:
         session, token = house_open_session()
     except Exception as e:
+        SOURCE_STATUS["house"] = "unreachable"
         log.error(f"[house] Couldn't reach disclosures-clerk.house.gov: {e}")
         return []
+    SOURCE_STATUS["house"] = "ok"
 
     this_year = datetime.now(timezone.utc).year
     all_links = []
@@ -955,6 +961,34 @@ GIT_SUBPROCESS_TIMEOUT = 60  # seconds — a hung `git push` (e.g. a stalled SSH
                               # entire scan indefinitely, since a long OCR/House
                               # run may call this many times unattended
 
+# Per-source reachability for this run: "ok" (fetched) vs "unreachable" (the
+# source's backend errored, e.g. the Senate eFD 503s). Lets the run summary and
+# the heartbeat distinguish "a source is down" from "nothing new was filed".
+SOURCE_STATUS = {}
+
+# Heartbeat: even with zero new trades, refresh the published file once the last
+# push is older than this, so a healthy-but-quiet feed doesn't read as "down".
+# Bounds staleness to ~a day without spamming an hourly commit.
+HEARTBEAT_MAX_AGE_HOURS = 20
+
+
+def last_push_age_hours(repo_dir, filename="congress.json"):
+    """Hours since congress.json was last committed (its last real push), or
+    None if it can't be determined. Used to decide whether a heartbeat push is
+    due when there are no new trades."""
+    try:
+        out = subprocess.run(
+            ["git", "-C", repo_dir, "log", "-1", "--format=%ct", "--", filename],
+            capture_output=True, text=True, timeout=GIT_SUBPROCESS_TIMEOUT,
+        )
+        ts = out.stdout.strip()
+        if not ts:
+            return None
+        return (datetime.now(timezone.utc).timestamp() - int(ts)) / 3600.0
+    except Exception as e:
+        log.warning(f"Couldn't read last push time for {filename} ({e})")
+        return None
+
 
 def git_commit_and_push(repo_dir, files):
     """Delegates to the shared, self-healing, lock-serialized publisher
@@ -1018,6 +1052,7 @@ def _run():
     existing_trades, seen_ids, last_filed_senate = load_existing(out_path)
     all_trades = list(existing_trades)
     last_pushed_count = len(all_trades)
+    pushed_this_run = False
 
     def checkpoint():
         # Always write locally — this persists seen_ids growth (e.g. a
@@ -1029,13 +1064,14 @@ def _run():
         # rebuild Vercel) even when zero new trades were found — the
         # common case on an hourly schedule — so only push when the
         # trade count actually moved.
-        nonlocal last_pushed_count
+        nonlocal last_pushed_count, pushed_this_run
         write_output(all_trades, seen_ids, out_path)
         if len(all_trades) == last_pushed_count:
             log.info("No new trades since last push — wrote locally, skipping git push")
             return
         if REPO_DIR:
             git_commit_and_push(REPO_DIR, ["congress.json"])
+            pushed_this_run = True
         last_pushed_count = len(all_trades)
 
     senate_trades = scan_senate(seen_ids, last_filed_senate)
@@ -1057,6 +1093,28 @@ def _run():
 
     checkpoint()  # final write — a harmless no-op most of the time since the last
                   # per-filing checkpoint already covers it (git diff check skips the commit)
+
+    # Source-status summary — makes a dead source visible instead of buried in
+    # the middle of the log, and distinguishes "unreachable" from "nothing new".
+    if SOURCE_STATUS:
+        log.info("Source status this run: " + ", ".join(f"{k}={v}" for k, v in sorted(SOURCE_STATUS.items())))
+    down = sorted(k for k, v in SOURCE_STATUS.items() if v == "unreachable")
+    if down:
+        log.warning(f"{len(down)} source(s) unreachable this run: {', '.join(down)} — "
+                    "their data is missing, not merely unchanged")
+
+    # Heartbeat: if nothing new was pushed this run but the published feed is
+    # aging, push the freshly-written file (whose generatedAt already advanced)
+    # so a quiet-but-healthy feed doesn't get flagged "stale"/"down". Bounds
+    # staleness to ~HEARTBEAT_MAX_AGE_HOURS without an hourly commit storm.
+    if REPO_DIR and not pushed_this_run:
+        age = last_push_age_hours(REPO_DIR)
+        if age is not None and age >= HEARTBEAT_MAX_AGE_HOURS:
+            log.info(f"No new trades, but last push was {age:.1f}h ago "
+                     f"(>= {HEARTBEAT_MAX_AGE_HOURS}h) — pushing a heartbeat to refresh the feed")
+            git_commit_and_push(REPO_DIR, ["congress.json"])
+        elif age is not None:
+            log.info(f"No new trades; last push {age:.1f}h ago — heartbeat not due (< {HEARTBEAT_MAX_AGE_HOURS}h)")
 
 
 if __name__ == "__main__":
