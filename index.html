@@ -340,6 +340,7 @@ let state = {
   results: [],
   watchlist: [],
   holdings: [],
+  holdingsLive: {}, // session-only cache of live Finnhub lookups for uncovered tickers
   scanning: false,
   lookupValue: "",
   lookupResult: null,
@@ -1722,6 +1723,10 @@ function lookupStockData(ticker) {
   if (inStocks) return Object.assign({}, inStocks, { _src: "stocks" });
   const inUni = state.universeData && state.universeData.stocks && state.universeData.stocks.find(s => s.ticker === tk);
   if (inUni) return Object.assign({}, inUni, { _src: "universe" });
+  // Fallback: a live Finnhub lookup the user requested this session for a name
+  // outside the Pi's scanned universe.
+  const live = state.holdingsLive && state.holdingsLive[tk];
+  if (live && live.price && !live._error && !live._loading) return Object.assign({}, live, { _src: "live" });
   return null;
 }
 
@@ -1741,7 +1746,10 @@ function analyzeHolding(h) {
   const cost = parseMoney(h.cost);
   const data = lookupStockData(h.ticker);
   const base = { ticker: (h.ticker || "").toUpperCase(), shares, cost };
-  if (!data) return Object.assign(base, { covered: false });
+  if (!data) {
+    const live = state.holdingsLive && state.holdingsLive[base.ticker];
+    return Object.assign(base, { covered: false, liveLoading: !!(live && live._loading), liveError: live && live._error });
+  }
 
   const s = Object.assign({}, data);
   if (s.qPass == null || s.qMax == null) Object.assign(s, deriveQuality(s));
@@ -1754,7 +1762,7 @@ function analyzeHolding(h) {
   const pnlAbs = (shares != null && cost != null) ? (price - cost) * shares : null;
 
   if (!hasBands) {
-    return Object.assign(base, { covered: true, hasBands: false, s, price, value, pnlPct, pnlAbs, sector: s.sector });
+    return Object.assign(base, { covered: true, hasBands: false, s, price, value, pnlPct, pnlAbs, sector: s.sector, src: data._src });
   }
 
   const buyMoreAt = s.buyBelow, sellAt = s.avoidAbove, fairValue = s.fairValue;
@@ -1808,7 +1816,14 @@ function holdingCardHtml(a, i) {
       ${a.shares != null ? `${a.shares} sh` : "shares —"}${a.cost != null ? ` @ $${a.cost.toFixed(2)} cost` : ""}${a.value != null ? ` · worth $${a.value.toFixed(2)}` : ""} ${a.pnlPct != null ? "· " + pnlHtml(a) : ""}
     </div>` : "";
 
-  if (!a.covered) return `
+  if (!a.covered) {
+    const liveUI = a.liveLoading
+      ? `<div style="color:var(--dim);font-size:13px;margin-top:10px">Pulling live data…</div>`
+      : a.liveError
+        ? `<div style="color:var(--coral);font-size:13px;margin-top:10px">${escapeHtml(a.liveError)}</div>
+           <button class="btn btn-quiet" data-live="${escapeHtml(a.ticker)}" style="margin-top:8px">Try live lookup again</button>`
+        : `<button class="btn" data-live="${escapeHtml(a.ticker)}" style="margin-top:10px">Look up live</button>`;
+    return `
     <div class="card">
       <div class="card-head">
         <div><span class="ticker">${escapeHtml(a.ticker)}</span>
@@ -1817,9 +1832,11 @@ function holdingCardHtml(a, i) {
         <button class="btn btn-quiet" data-remove="${i}">Remove</button>
       </div>
       <div style="font-size:13.5px;line-height:1.5;margin-top:12px;color:var(--dim)">
-        This ticker isn't in the Pi's scanned universe (~6,000 US names with clean fundamentals), so there's no price or valuation data to build buy/sell levels from. Small, very new, or foreign-listed names often fall outside it.
+        This ticker isn't in the Pi's scanned universe (~6,000 US names with clean fundamentals). Tap <strong>Look up live</strong> to pull it straight from Finnhub using your own key and get the same buy/sell levels — handy for small, new, or foreign-listed names outside the scan.
       </div>
+      ${liveUI}
     </div>`;
+  }
 
   if (!a.hasBands) return `
     <div class="card">
@@ -1852,6 +1869,7 @@ function holdingCardHtml(a, i) {
         <div class="stat"><span style="color:var(--coral)">Sell / trim at</span><strong>$${a.sellAt.toFixed(2)}</strong></div>
       </div>
       <div style="font-size:13.5px;line-height:1.55;margin-top:10px">${holdingRecommendation(a)}</div>
+      ${a.src === "live" ? `<div style="font-size:12px;color:var(--dim);margin-top:6px">Live quote via your Finnhub key — not from the Pi scan.</div>` : ""}
     </div>`;
 }
 
@@ -1871,6 +1889,35 @@ function portfolioSummaryHtml(analyses) {
       ${gain != null ? `<span style="color:${up ? "var(--kelp)" : "var(--coral)"};font-weight:600">${up ? "+" : "−"}$${Math.abs(gain).toFixed(2)}${gainPct != null ? ` (${up ? "+" : ""}${(gainPct * 100).toFixed(1)}%)` : ""} vs cost</span>` : ""}
       <span style="color:var(--dim);font-size:13px">${analyses.length} position${analyses.length !== 1 ? "s" : ""}</span>
     </div>`;
+}
+
+// Live fallback for a ticker outside the Pi's scanned universe: reuse the
+// Scout tab's lookupTicker (quote + metric + analyst recs → same quality/bands/
+// signal pipeline), cache it for the session, and re-render. Needs the user's
+// Finnhub key, so it's gated behind requireKey like the other live features.
+function liveLookupHolding(ticker) {
+  requireKey(async () => {
+    const tk = (ticker || "").toUpperCase();
+    state.holdingsLive[tk] = { _loading: true };
+    renderHoldings();
+    try {
+      const r = await lookupTicker(tk);
+      if (r.stock) state.holdingsLive[tk] = r.stock;                          // full value read w/ bands
+      else if (r.growth) state.holdingsLive[tk] = Object.assign({ pe: null }, r.growth); // unprofitable → "no levels"
+      else state.holdingsLive[tk] = { _error: r.error || ("Couldn't fetch live data for " + tk) };
+    } catch (e) {
+      if (e.message === "BADKEY") {
+        delete state.holdingsLive[tk];
+        try { localStorage.removeItem("uc:key"); } catch (_) {}
+        state.key = null; showSetup();
+        const ke = document.getElementById("keyError");
+        if (ke) { ke.classList.remove("hidden"); ke.textContent = "Finnhub rejected the API key. Double-check it and re-enter it below."; }
+        return;
+      }
+      state.holdingsLive[tk] = { _error: e.message };
+    }
+    renderHoldings();
+  });
 }
 
 let _holdingsLoading = false;
@@ -1899,7 +1946,7 @@ function renderHoldings() {
   const form = `
     <div class="panel">
       <div class="panel-title">My Stocks</div>
-      <p class="panel-copy">Add what you own and this tells you — from the desk's fair-value math — whether each name is a <strong>buy-more</strong>, a <strong>hold</strong>, or a <strong>trim</strong>, with the price levels to act on. Shares and average cost are optional; add them to see your gain/loss too. Everything is saved in this browser only. ${asOf ? `Prices from the Pi's last scan (${escapeHtml(new Date(asOf).toLocaleString())}).` : ""}</p>
+      <p class="panel-copy">Add what you own and this tells you — from the desk's fair-value math — whether each name is a <strong>buy-more</strong>, a <strong>hold</strong>, or a <strong>trim</strong>, with the price levels to act on. Shares and average cost are optional; add them to see your gain/loss too. Anything outside the Pi's scanned universe gets a one-tap <strong>live lookup</strong> using your Finnhub key. Everything is saved in this browser only. ${asOf ? `Prices from the Pi's last scan (${escapeHtml(new Date(asOf).toLocaleString())}).` : ""}</p>
       <div class="field-label">Add a holding</div>
       <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
         <input type="text" id="holdTicker" placeholder="Ticker (e.g. AAPL)" style="flex:2;min-width:130px" autocomplete="off">
@@ -1944,6 +1991,7 @@ function renderHoldings() {
     saveHoldings();
     renderHoldings();
   }));
+  root.querySelectorAll("[data-live]").forEach(btn => btn.addEventListener("click", () => liveLookupHolding(btn.dataset.live)));
 
   // Only pull data when the tab is actually on-screen — keeps boot lazy.
   if (!dataReady && !root.classList.contains("hidden")) ensureHoldingsData();
