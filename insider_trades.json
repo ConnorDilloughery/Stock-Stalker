@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-30T14:00:56.437694+00:00",
+  "generatedAt": "2026-07-30T15:03:19.804044+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1156,
+  "count": 1160,
   "trades": [
     {
       "ticker": "EQBK",
@@ -441,6 +441,16 @@
       "type": "Sale",
       "shares": 10000.0,
       "pricePerShare": 30.74,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "PSMT",
+      "issuerName": "PRICESMART INC",
+      "insiderName": "Bahrambeygui Sherry S.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1000.0,
+      "pricePerShare": 192.663,
       "transactionDate": "2026-07-29"
     },
     {
@@ -1901,6 +1911,36 @@
       "type": "Purchase",
       "shares": 19132.0,
       "pricePerShare": 11.377,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "NEXN",
+      "issuerName": "Nexxen International Ltd.",
+      "insiderName": "Niri Sagi",
+      "title": "Chief Financial Officer",
+      "type": "Sale",
+      "shares": 17578.0,
+      "pricePerShare": 10.5116,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "PSMT",
+      "issuerName": "PRICESMART INC",
+      "insiderName": "Bahrambeygui Sherry S.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1100.0,
+      "pricePerShare": 192.294,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "NWFL",
+      "issuerName": "NORWOOD FINANCIAL CORP",
+      "insiderName": "Shook James",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 3100.0,
+      "pricePerShare": 34.55,
       "transactionDate": "2026-07-28"
     },
     {
@@ -13900,6 +13940,131 @@
         }
       ]
     },
+    "PSMT": {
+      "issuerName": "PRICESMART INC",
+      "trades": [
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "Bahrambeygui Sherry S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 192.663,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "Bahrambeygui Sherry S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 192.294,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "Bahrambeygui Sherry S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 184.65,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "Bahrambeygui Sherry S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 184.33,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "Bahrambeygui Sherry S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 188.93,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "Bahrambeygui Sherry S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 189.13,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 182.8675,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4655.0,
+          "pricePerShare": 181.7474,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4300.0,
+          "pricePerShare": 188.8097,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3700.0,
+          "pricePerShare": 186.9586,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 191.151,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7299.0,
+          "pricePerShare": 189.5476,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
     "LOAN": {
       "issuerName": "MANHATTAN BRIDGE CAPITAL, INC",
       "trades": [
@@ -16452,6 +16617,86 @@
           "shares": 170500.0,
           "pricePerShare": 11.509,
           "transactionDate": "2026-07-27"
+        }
+      ]
+    },
+    "NEXN": {
+      "issuerName": "Nexxen International Ltd.",
+      "trades": [
+        {
+          "ticker": "NEXN",
+          "issuerName": "Nexxen International Ltd.",
+          "insiderName": "Niri Sagi",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 17578.0,
+          "pricePerShare": 10.5116,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "NEXN",
+          "issuerName": "Nexxen International Ltd.",
+          "insiderName": "Niri Sagi",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 35000.0,
+          "pricePerShare": 10.3136,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "NEXN",
+          "issuerName": "Nexxen International Ltd.",
+          "insiderName": "Niri Sagi",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 12717.0,
+          "pricePerShare": 9.1342,
+          "transactionDate": "2026-07-01"
+        },
+        {
+          "ticker": "NEXN",
+          "issuerName": "Nexxen International Ltd.",
+          "insiderName": "Niri Sagi",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 23391.0,
+          "pricePerShare": 9.4429,
+          "transactionDate": "2026-07-01"
+        },
+        {
+          "ticker": "NEXN",
+          "issuerName": "Nexxen International Ltd.",
+          "insiderName": "Niri Sagi",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 6584.0,
+          "pricePerShare": 9.5232,
+          "transactionDate": "2026-07-01"
+        },
+        {
+          "ticker": "NEXN",
+          "issuerName": "Nexxen International Ltd.",
+          "insiderName": "Niri Sagi",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 8.58,
+          "transactionDate": "2026-06-03"
+        }
+      ]
+    },
+    "NWFL": {
+      "issuerName": "NORWOOD FINANCIAL CORP",
+      "trades": [
+        {
+          "ticker": "NWFL",
+          "issuerName": "NORWOOD FINANCIAL CORP",
+          "insiderName": "Shook James",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 3100.0,
+          "pricePerShare": 34.55,
+          "transactionDate": "2026-07-28"
         }
       ]
     },
@@ -20025,111 +20270,6 @@
         }
       ]
     },
-    "PSMT": {
-      "issuerName": "PRICESMART INC",
-      "trades": [
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "Bahrambeygui Sherry S.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 184.65,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "Bahrambeygui Sherry S.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 184.33,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "Bahrambeygui Sherry S.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 188.93,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "Bahrambeygui Sherry S.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 189.13,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "PRICE ROBERT E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 182.8675,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "PRICE ROBERT E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4655.0,
-          "pricePerShare": 181.7474,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "PRICE ROBERT E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4300.0,
-          "pricePerShare": 188.8097,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "PRICE ROBERT E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3700.0,
-          "pricePerShare": 186.9586,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "PRICE ROBERT E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1100.0,
-          "pricePerShare": 191.151,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "PRICE ROBERT E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7299.0,
-          "pricePerShare": 189.5476,
-          "transactionDate": "2026-07-16"
-        }
-      ]
-    },
     "NPWR": {
       "issuerName": "NET Power Inc.",
       "trades": [
@@ -23630,61 +23770,6 @@
         }
       ]
     },
-    "NEXN": {
-      "issuerName": "Nexxen International Ltd.",
-      "trades": [
-        {
-          "ticker": "NEXN",
-          "issuerName": "Nexxen International Ltd.",
-          "insiderName": "Niri Sagi",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 35000.0,
-          "pricePerShare": 10.3136,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "NEXN",
-          "issuerName": "Nexxen International Ltd.",
-          "insiderName": "Niri Sagi",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 12717.0,
-          "pricePerShare": 9.1342,
-          "transactionDate": "2026-07-01"
-        },
-        {
-          "ticker": "NEXN",
-          "issuerName": "Nexxen International Ltd.",
-          "insiderName": "Niri Sagi",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 23391.0,
-          "pricePerShare": 9.4429,
-          "transactionDate": "2026-07-01"
-        },
-        {
-          "ticker": "NEXN",
-          "issuerName": "Nexxen International Ltd.",
-          "insiderName": "Niri Sagi",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 6584.0,
-          "pricePerShare": 9.5232,
-          "transactionDate": "2026-07-01"
-        },
-        {
-          "ticker": "NEXN",
-          "issuerName": "Nexxen International Ltd.",
-          "insiderName": "Niri Sagi",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 1100.0,
-          "pricePerShare": 8.58,
-          "transactionDate": "2026-06-03"
-        }
-      ]
-    },
     "FCEL": {
       "issuerName": "FUELCELL ENERGY INC",
       "trades": [
@@ -24380,6 +24465,7 @@
       "0000030146-26-000328",
       "0000030146-26-000329",
       "0000030146-26-000330",
+      "0000030146-26-000332",
       "0000036405-26-000386",
       "0000038777-26-000191",
       "0000052848-26-000831",
@@ -24602,6 +24688,7 @@
       "0000912938-26-000760",
       "0000919574-26-004512",
       "0000919574-26-004631",
+      "0000919574-26-004677",
       "0000921895-26-001848",
       "0000921895-26-001852",
       "0000923120-26-000014",
@@ -24883,6 +24970,10 @@
       "0000950103-26-011359",
       "0000950103-26-011360",
       "0000950103-26-011361",
+      "0000950103-26-011364",
+      "0000950103-26-011365",
+      "0000950103-26-011366",
+      "0000950103-26-011367",
       "0000950142-26-002131",
       "0000950142-26-002132",
       "0000950142-26-002145",
@@ -25161,6 +25252,7 @@
       "0001104659-26-088371",
       "0001104659-26-088431",
       "0001104659-26-088441",
+      "0001104659-26-088524",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -25222,6 +25314,8 @@
       "0001133228-26-010827",
       "0001133228-26-010835",
       "0001133228-26-010977",
+      "0001133228-26-010994",
+      "0001133228-26-010996",
       "0001134261-26-000005",
       "0001134261-26-000007",
       "0001137360-26-000718",
@@ -25333,6 +25427,7 @@
       "0001140361-26-030157",
       "0001140361-26-030158",
       "0001140361-26-030161",
+      "0001140361-26-030168",
       "0001160077-26-000003",
       "0001162044-26-000644",
       "0001167691-26-000004",
@@ -25358,6 +25453,7 @@
       "0001178913-26-003677",
       "0001178913-26-003683",
       "0001178913-26-003685",
+      "0001178913-26-003699",
       "0001181540-26-000002",
       "0001181664-26-000004",
       "0001181672-26-000004",
@@ -26046,6 +26142,9 @@
       "0001193125-26-324794",
       "0001193125-26-324798",
       "0001193125-26-325109",
+      "0001193125-26-325154",
+      "0001193125-26-325155",
+      "0001193125-26-325161",
       "0001196460-26-000004",
       "0001201252-26-000010",
       "0001202722-26-000010",
@@ -26317,6 +26416,9 @@
       "0001213900-26-083101",
       "0001213900-26-083105",
       "0001213900-26-083122",
+      "0001213900-26-083154",
+      "0001213900-26-083162",
+      "0001213900-26-083163",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -26527,6 +26629,7 @@
       "0001432353-26-000626",
       "0001432353-26-000628",
       "0001432353-26-000635",
+      "0001432353-26-000637",
       "0001435109-26-000123",
       "0001435109-26-000125",
       "0001435109-26-000128",
@@ -26778,6 +26881,9 @@
       "0001493152-26-035364",
       "0001493152-26-035366",
       "0001493152-26-035368",
+      "0001493152-26-035378",
+      "0001493152-26-035380",
+      "0001493152-26-035382",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -26863,6 +26969,7 @@
       "0001528621-26-000800",
       "0001528621-26-000801",
       "0001528621-26-000803",
+      "0001528621-26-000804",
       "0001530038-26-000002",
       "0001530819-26-000012",
       "0001534701-26-000026",
@@ -27153,6 +27260,7 @@
       "0001628280-26-050876",
       "0001628280-26-050878",
       "0001628280-26-050881",
+      "0001628280-26-050901",
       "0001634117-26-000081",
       "0001638728-26-000011",
       "0001640334-26-001221",
@@ -27391,6 +27499,7 @@
       "0001829126-26-007995",
       "0001829126-26-007996",
       "0001829126-26-008035",
+      "0001829126-26-008077",
       "0001830165-26-000026",
       "0001830532-26-000008",
       "0001831410-26-000008",
@@ -27952,6 +28061,19 @@
       "0001839882-26-036965",
       "0001839882-26-037020",
       "0001839882-26-037022",
+      "0001839882-26-037035",
+      "0001839882-26-037037",
+      "0001839882-26-037038",
+      "0001839882-26-037040",
+      "0001839882-26-037041",
+      "0001839882-26-037045",
+      "0001839882-26-037047",
+      "0001839882-26-037050",
+      "0001839882-26-037054",
+      "0001839882-26-037056",
+      "0001839882-26-037061",
+      "0001839882-26-037065",
+      "0001839882-26-037069",
       "0001840706-26-000265",
       "0001842720-26-000009",
       "0001843103-26-000014",
@@ -28740,6 +28862,27 @@
       "0001918704-26-021660",
       "0001918704-26-021661",
       "0001918704-26-021662",
+      "0001918704-26-021686",
+      "0001918704-26-021687",
+      "0001918704-26-021688",
+      "0001918704-26-021689",
+      "0001918704-26-021690",
+      "0001918704-26-021691",
+      "0001918704-26-021692",
+      "0001918704-26-021693",
+      "0001918704-26-021694",
+      "0001918704-26-021695",
+      "0001918704-26-021696",
+      "0001918704-26-021697",
+      "0001918704-26-021698",
+      "0001918704-26-021699",
+      "0001918704-26-021700",
+      "0001918704-26-021701",
+      "0001918704-26-021702",
+      "0001918704-26-021703",
+      "0001918704-26-021704",
+      "0001918704-26-021705",
+      "0001918704-26-021706",
       "0001929185-26-000012",
       "0001932635-26-000003",
       "0001939403-26-000002",
