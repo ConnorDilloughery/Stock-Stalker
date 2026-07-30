@@ -199,6 +199,8 @@
           <button class="tab" data-tab="lynch">Lynch</button>
           <button class="tab" data-tab="oneil">O'Neil</button>
           <button class="tab" data-tab="murphy">Murphy</button>
+          <button class="tab" data-tab="allfour">All Four</button>
+          <button class="tab" data-tab="legendlookup">Look up</button>
         </div>
       </div>
       <div class="tab-group">
@@ -232,6 +234,8 @@
     <div id="tab-lynch" class="hidden"></div>
     <div id="tab-oneil" class="hidden"></div>
     <div id="tab-murphy" class="hidden"></div>
+    <div id="tab-allfour" class="hidden"></div>
+    <div id="tab-legendlookup" class="hidden"></div>
     <div id="tab-etfs" class="hidden"></div>
     <div id="tab-watch" class="hidden"></div>
     <div id="tab-ipo" class="hidden"></div>
@@ -859,6 +863,8 @@ const STRATEGIES = [
 // Per-strategy UI substate.
 state.strat = {};
 STRATEGIES.forEach(s => { state.strat[s.id] = { sector: "Any sector", results: [], scanning: false, error: null, scanned: false }; });
+state.legendLookup = "";  // ticker typed into the Legends "Look up" tab
+state.allFour = { sector: "Any sector", results: [], scanning: false, error: null, scanned: false };
 
 // Map one Full-Market (stocks.json) record into the shape the strategy checks
 // expect. This is the whole speed win: no live Finnhub calls — the ~1,200
@@ -885,6 +891,43 @@ function buildDFromMarket(s, rs) {
   };
 }
 
+// Synchronous accessor for whatever Legends data is already loaded (full
+// universe preferred, value-filtered Full Market as fallback), plus a
+// market-wide Relative-Strength function. Shared by every Legends view.
+function legendPool() {
+  const src = state.universeData || state.marketData;
+  const all = (src && src.stocks) || [];
+  const strengths = all.map(s => (sNum(s.discount) != null ? 1 - s.discount : null)).filter(v => v != null).sort((a, b) => a - b);
+  const rsOf = (s) => {
+    const dd = sNum(s.discount);
+    if (dd == null || strengths.length === 0) return null;
+    const v = 1 - dd;
+    return Math.round((strengths.filter(x => x <= v).length / strengths.length) * 99);
+  };
+  return { all, rsOf, count: src ? src.count : null, usedFallback: !state.universeData };
+}
+
+// Load the Legends data pool if it isn't already, then return legendPool().
+async function ensureLegendData() {
+  await loadUniverseData(false);
+  if (!state.universeData && !state.marketData) await loadMarketData(false);
+  return legendPool();
+}
+
+// Evaluate one strategy's checklist against a prepared record `d`, attaching
+// checkResults/passed/scoredTotal/matchPct. Returns whether it clears the bar.
+// Shared by the per-strategy, "Look up", and "All Four" views.
+function evalStrategy(strat, d) {
+  const res = strat.checks.map(c => Object.assign({ label: c.label }, c.test(d)));
+  const scored = res.filter(x => x.status !== "na");
+  const passed = res.filter(x => x.status === "pass").length;
+  d.checkResults = res;
+  d.passed = passed;
+  d.scoredTotal = scored.length;
+  d.matchPct = scored.length ? Math.round((passed / scored.length) * 100) : 0;
+  return d.scoredTotal > 0 && d.matchPct >= strat.minPct;
+}
+
 async function runStrategyScan(stratId) {
   const S = state.strat[stratId];
   if (S.scanning) return;
@@ -892,35 +935,13 @@ async function runStrategyScan(stratId) {
   S.scanning = true; S.error = null; S.results = []; S.scanned = true;
   renderStrategy(stratId);
   try {
-    // Prefer the unfiltered full universe (~6,700); fall back to the
-    // value-filtered Full Market list (~1,200) until the Pi publishes it.
-    await loadUniverseData(false);
-    let src = state.universeData;
-    if (!src) { if (!state.marketData) await loadMarketData(false); src = state.marketData; }
+    const { all, rsOf, count } = await ensureLegendData();
     S.usedFallback = !state.universeData;
-    S.sourceCount = src ? src.count : null;
-    const all = (src && src.stocks) || [];
+    S.sourceCount = count;
     if (all.length === 0) throw new Error("market data isn't loaded yet");
-    // Market-wide Relative-Strength proxy: rank every name by how close it is
-    // to its 52-week high (1 − discount), across the entire market.
-    const strengths = all.map(s => (sNum(s.discount) != null ? 1 - s.discount : null)).filter(v => v != null).sort((a, b) => a - b);
-    const rsOf = (s) => {
-      const dd = sNum(s.discount);
-      if (dd == null || strengths.length === 0) return null;
-      const v = 1 - dd;
-      return Math.round((strengths.filter(x => x <= v).length / strengths.length) * 99);
-    };
     const pool = S.sector === "Any sector" ? all : all.filter(s => s.sector === S.sector);
     const rows = pool.map(s => buildDFromMarket(s, rsOf(s)));
-    rows.forEach(r => {
-      const res = strat.checks.map(c => Object.assign({ label: c.label }, c.test(r)));
-      const scored = res.filter(x => x.status !== "na");
-      const passed = res.filter(x => x.status === "pass").length;
-      r.checkResults = res;
-      r.passed = passed;
-      r.scoredTotal = scored.length;
-      r.matchPct = scored.length ? Math.round((passed / scored.length) * 100) : 0;
-    });
+    rows.forEach(r => evalStrategy(strat, r));
     S.results = rows
       .filter(r => r.scoredTotal > 0 && r.matchPct >= strat.minPct)
       .sort((a, b) => b.matchPct - a.matchPct || b.passed - a.passed || (b.score || 0) - (a.score || 0) || (b.marketCap || 0) - (a.marketCap || 0))
@@ -992,6 +1013,159 @@ function renderStrategy(stratId) {
   root.querySelectorAll("[data-strat-sector]").forEach(b => b.addEventListener("click", () => { S.sector = b.dataset.stratSector; renderStrategy(stratId); }));
   const btn = document.getElementById(stratId + "Btn");
   if (btn) btn.addEventListener("click", () => { S.error = null; runStrategyScan(stratId); });
+}
+
+/* ---- Legends: "Look up" a single ticker across all four legends ---- */
+
+function strategyLookupCardHtml(strat, d, qualifies) {
+  const bg = qualifies ? "#E3F1EA" : "#F7E6E2";
+  const fg = qualifies ? "#1E7A5A" : "#C94F3D";
+  return `
+    <div class="card">
+      <div class="card-head" style="align-items:center">
+        <div class="name" style="font-size:16px;font-weight:600;color:var(--ink)">${escapeHtml(strat.title)}</div>
+        <span class="chip" style="background:${bg};color:${fg}">${qualifies ? "Passes" : "Doesn't pass"} · ${d.passed}/${d.scoredTotal} · ${d.matchPct}%</span>
+      </div>
+      <div class="checklist">
+        ${d.checkResults.map(c => {
+          const ic = CHECK_ICON[c.status];
+          return `<div class="check-row">
+            <span class="check-ic" style="color:${ic.c}">${ic.s}</span>
+            <div><div class="check-label">${escapeHtml(c.label)}</div><div class="check-detail">${escapeHtml(c.detail)}</div></div>
+          </div>`;
+        }).join("")}
+      </div>
+    </div>`;
+}
+
+function legendLookupResultsHtml(all, rsOf, q) {
+  if (!q) return `<div class="empty"><div class="empty-title">Search a ticker</div><p>Enter a symbol above to see its Graham, Lynch, O'Neil and Murphy checklists — every criterion, and whether it clears each legend's bar.</p></div>`;
+  const rec = all.find(s => (s.ticker || "").toUpperCase() === q);
+  if (!rec) return `<div class="empty"><div class="empty-title">${escapeHtml(q)} isn't in the data</div><p>It may be outside the scanned universe, or the data hasn't loaded yet — open the Full Market or a Legends tab once, then try again.</p></div>`;
+  const d0 = buildDFromMarket(rec, rsOf(rec));
+  const meta = [d0.sector, d0.pe != null ? "P/E " + d0.pe.toFixed(1) : null, d0.marketCap != null ? fmtCap(d0.marketCap) : null].filter(Boolean).join(" · ");
+  const passCount = STRATEGIES.filter(strat => evalStrategy(strat, buildDFromMarket(rec, rsOf(rec)))).length;
+  const header = `
+    <div class="card" style="padding:14px 20px">
+      <div class="card-head" style="align-items:center">
+        <div>
+          <div class="ticker-row"><span class="ticker">${escapeHtml(d0.ticker)}</span>
+            <span class="chip" style="background:#EAEEF1;color:#4A5A66">Passes ${passCount} of 4 legends</span></div>
+          <div class="name">${escapeHtml(meta)}</div>
+        </div>
+        <div class="price-block"><div class="price">$${d0.price.toFixed(2)}</div></div>
+      </div>
+    </div>`;
+  const cards = STRATEGIES.map(strat => {
+    const d = buildDFromMarket(rec, rsOf(rec));
+    const qualifies = evalStrategy(strat, d);
+    return strategyLookupCardHtml(strat, d, qualifies);
+  }).join("");
+  return header + cards;
+}
+
+function renderLegendLookup() {
+  const root = document.getElementById("tab-legendlookup");
+  if (!root) return;
+  const pool = legendPool();
+  const q = (state.legendLookup || "").trim().toUpperCase();
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">Look up a stock across all four legends</div>
+      <p class="panel-copy">Type any ticker to see exactly how it scores against Graham, Lynch, O'Neil and Murphy — every criterion marked pass, fail, or “—”, whether or not it clears each legend's bar. Same honest-data rules as the individual tabs.</p>
+      <div style="display:flex;gap:10px">
+        <input type="text" id="legendLookupInput" placeholder="e.g. AAPL" style="flex:1" autocomplete="off" value="${escapeHtml(state.legendLookup)}">
+      </div>
+    </div>
+    <div id="legendLookupResults">${legendLookupResultsHtml(pool.all, pool.rsOf, q)}</div>
+  `;
+  const input = document.getElementById("legendLookupInput");
+  if (input) input.addEventListener("input", (e) => {
+    state.legendLookup = e.target.value;
+    const box = document.getElementById("legendLookupResults");
+    if (box) box.innerHTML = legendLookupResultsHtml(pool.all, pool.rsOf, state.legendLookup.trim().toUpperCase());
+  });
+  // If no data is loaded yet, fetch it and repaint so lookups work.
+  if (pool.all.length === 0) ensureLegendData().then(renderLegendLookup);
+}
+
+/* ---- Legends: "All Four" — stocks that clear every legend's bar ---- */
+
+function allFourCardHtml(h) {
+  const meta = [h.sector, h.pe != null ? "P/E " + h.pe.toFixed(1) : null, h.marketCap != null ? fmtCap(h.marketCap) : null].filter(Boolean).join(" · ");
+  const badges = h.perStrat.map(x => `<span class="chip" style="background:#E3F1EA;color:#1E7A5A">${escapeHtml(x.strat.tab)} ✓ ${x.matchPct}%</span>`).join("");
+  return `
+    <div class="card">
+      <div class="card-head" style="align-items:center">
+        <div>
+          <div class="ticker-row"><span class="ticker">${escapeHtml(h.ticker)}</span>
+            <span class="chip" style="background:#E3F1EA;color:#1E7A5A;font-weight:700">Passes all four</span></div>
+          <div class="name">${escapeHtml(meta)}</div>
+        </div>
+        <div class="price-block"><div class="price">$${h.price.toFixed(2)}</div></div>
+      </div>
+      <div class="chips" style="margin-top:12px">${badges}</div>
+      <div class="name" style="margin-top:8px">Open the <strong>Look up</strong> tab and enter ${escapeHtml(h.ticker)} for the full per-legend checklist.</div>
+    </div>`;
+}
+
+async function runAllFourScan() {
+  const S = state.allFour;
+  if (S.scanning) return;
+  S.scanning = true; S.error = null; S.results = []; S.scanned = true;
+  renderAllFour();
+  try {
+    const { all, rsOf, count } = await ensureLegendData();
+    S.usedFallback = !state.universeData;
+    S.sourceCount = count;
+    if (all.length === 0) throw new Error("market data isn't loaded yet");
+    const pool = S.sector === "Any sector" ? all : all.filter(s => s.sector === S.sector);
+    const hits = [];
+    for (const s of pool) {
+      const perStrat = STRATEGIES.map(strat => {
+        const d = buildDFromMarket(s, rsOf(s));
+        const ok = evalStrategy(strat, d);
+        return { strat, ok, matchPct: d.matchPct };
+      });
+      if (perStrat.every(x => x.ok)) {
+        hits.push({
+          ticker: s.ticker, sector: s.sector, price: sNum(s.price),
+          pe: sNum(s.pe), marketCap: sNum(s.cap), score: sNum(s.score),
+          perStrat, avgPct: Math.round(perStrat.reduce((a, x) => a + x.matchPct, 0) / perStrat.length),
+        });
+      }
+    }
+    hits.sort((a, b) => b.avgPct - a.avgPct || (b.score || 0) - (a.score || 0));
+    S.results = hits.slice(0, 40);
+  } catch (e) {
+    S.error = "Couldn't run the screen (" + e.message + "). Open the Full Market tab once to load its data, then try again.";
+  }
+  S.scanning = false;
+  renderAllFour();
+}
+
+function renderAllFour() {
+  const S = state.allFour;
+  const root = document.getElementById("tab-allfour");
+  if (!root) return;
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">Passes all four legends</div>
+      <p class="panel-copy">Stocks that clear <strong>every</strong> legend's bar at once — Graham, Lynch, O'Neil and Murphy. That means a name has to be cheap and financially sound (the value legends) <em>and</em> showing momentum near its highs (the momentum legends) at the same time — an unusual combination, so this is a short, selective cross-section of the market, ranked best-first. Still a hard-look list, not a buy list.</p>
+      <div class="field-label">Sector</div>
+      <div class="chips">${SECTORS.map(s => `<button class="pick ${s === S.sector ? "on" : ""}" data-allfour-sector="${s}">${s}</button>`).join("")}</div>
+      <button class="btn btn-big" id="allfourBtn" ${S.scanning ? "disabled" : ""}>${S.scanning ? "Screening…" : "Find stocks that pass all four"}</button>
+      <div class="hint" style="margin-top:10px">Screens the whole ${state.universeData ? "~" + state.universeData.count.toLocaleString() + "-name universe" : "market"} instantly.${S.usedFallback ? " <em>(Using the value-filtered ~1,200-name list until the Pi publishes the full universe.)</em>" : ""}</div>
+    </div>
+    ${S.scanning ? `<div class="progress-wrap"><div class="progress-line">Screening the full market…</div></div>` : ""}
+    ${S.error && !S.scanning ? `<div class="error">${escapeHtml(S.error)}</div>` : ""}
+    ${!S.scanning && S.scanned && S.results.length === 0 && !S.error ? `<div class="empty"><div class="empty-title">No four-way matches in this slice</div><p>No name here clears all four at once — try "Any sector", or a different sector.</p></div>` : ""}
+    ${!S.scanning && S.results.length > 0 ? `<div class="hint">${S.results.length} name${S.results.length === 1 ? "" : "s"} clear all four${S.sector !== "Any sector" ? " in " + escapeHtml(S.sector) : ""}.</div>` : ""}
+    <div id="allfourResults">${S.results.map(allFourCardHtml).join("")}</div>
+  `;
+  root.querySelectorAll("[data-allfour-sector]").forEach(b => b.addEventListener("click", () => { S.sector = b.dataset.allfourSector; renderAllFour(); }));
+  const btn = document.getElementById("allfourBtn");
+  if (btn) btn.addEventListener("click", () => { S.error = null; runAllFourScan(); });
 }
 
 function healthChips(s) {
@@ -2588,6 +2762,7 @@ function showApp() {
   document.getElementById("app").classList.remove("hidden");
   renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse(); renderDividends(); renderCongress(); renderSectors(); renderInsiders(); renderBacktest(); renderHealth();
   STRATEGIES.forEach(s => renderStrategy(s.id));
+  renderAllFour(); renderLegendLookup();
 }
 
 // Only Scout, IPO radar, Market Pulse, and Watchlist price refresh actually
@@ -2603,7 +2778,7 @@ function requireKey(action) {
 
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
-  ["scout", "graham", "lynch", "oneil", "murphy", "market", "sectors", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "backtest", "health", "learn"].forEach(id =>
+  ["scout", "graham", "lynch", "oneil", "murphy", "allfour", "legendlookup", "market", "sectors", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "backtest", "health", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
 }));
 
