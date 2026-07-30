@@ -1,0 +1,13 @@
+[Unit]
+Description=Undercurrent Radar ranker (one-shot, run hourly by radar-scanner.timer)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=connor
+WorkingDirectory=/home/connor/undercurrent-scanner
+EnvironmentFile=/home/connor/undercurrent-scanner/scanner.env
+ExecStart=/usr/bin/python3 /home/connor/undercurrent-scanner/radar_scanner.py
+StandardOutput=append:/home/connor/undercurrent-scanner/radar.log
+StandardError=append:/home/connor/undercurrent-scanner/radar.log

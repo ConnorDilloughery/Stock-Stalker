@@ -1,0 +1,13 @@
+[Unit]
+Description=Run the Undercurrent Radar ranker hourly
+
+[Timer]
+# Runs at :25 past the hour so it lands after the hourly insider and
+# congress scanners (which run near the top of the hour) have published,
+# giving the Radar the freshest cluster/congress data to rank from.
+OnCalendar=*-*-* *:25:00
+Persistent=true
+RandomizedDelaySec=120
+
+[Install]
+WantedBy=timers.target

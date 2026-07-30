@@ -181,6 +181,12 @@
   <div id="app" class="hidden">
     <nav class="tab-groups">
       <div class="tab-group">
+        <div class="tab-group-label">Buyer Radar</div>
+        <div class="tabs">
+          <button class="tab" data-tab="radar">★ Radar</button>
+        </div>
+      </div>
+      <div class="tab-group">
         <div class="tab-group-label">Screeners</div>
         <div class="tabs">
           <button class="tab on" data-tab="market">Full Market</button>
@@ -227,6 +233,7 @@
         </div>
       </div>
     </nav>
+    <div id="tab-radar" class="hidden"></div>
     <div id="tab-market"></div>
     <div id="tab-sectors" class="hidden"></div>
     <div id="tab-scout" class="hidden"></div>
@@ -865,6 +872,8 @@ state.strat = {};
 STRATEGIES.forEach(s => { state.strat[s.id] = { sector: "Any sector", results: [], scanning: false, error: null, scanned: false }; });
 state.legendLookup = "";  // ticker typed into the Legends "Look up" tab
 state.allFour = { sector: "Any sector", results: [], scanning: false, error: null, scanned: false };
+// Radar (buyer resource): reads radar.json published by radar_scanner.py.
+state.radarData = null; state.radarLoading = false; state.radarError = null; state.radarMissing = false;
 
 // Map one Full-Market (stocks.json) record into the shape the strategy checks
 // expect. This is the whole speed win: no live Finnhub calls — the ~1,200
@@ -1166,6 +1175,103 @@ function renderAllFour() {
   root.querySelectorAll("[data-allfour-sector]").forEach(b => b.addEventListener("click", () => { S.sector = b.dataset.allfourSector; renderAllFour(); }));
   const btn = document.getElementById("allfourBtn");
   if (btn) btn.addEventListener("click", () => { S.error = null; runAllFourScan(); });
+}
+
+/* ======================= Radar (buyer resource) ======================= */
+
+async function loadRadarData(force) {
+  if ((state.radarData || state.radarMissing) && !force) return;
+  state.radarLoading = true; state.radarError = null;
+  renderRadar();
+  try {
+    const res = await fetch(DATA_BASE + "/radar.json?ts=" + Date.now());
+    if (res.status === 404) { state.radarMissing = true; state.radarData = null; }
+    else if (!res.ok) throw new Error("HTTP " + res.status);
+    else { state.radarData = await res.json(); state.radarMissing = false; }
+  } catch (e) {
+    state.radarError = "Couldn't load the Radar (" + e.message + ").";
+  }
+  state.radarLoading = false;
+  renderRadar();
+}
+
+const RADAR_SIGNAL_STYLE = {
+  insider:  { bg: "#E3F1EA", fg: "#1E7A5A" },
+  value:    { bg: "#E3EDF5", fg: "#2E5E7E" },
+  congress: { bg: "#F6EEDD", fg: "#9A6B1B" },
+  momentum: { bg: "#EEE7F5", fg: "#6B4FA0" },
+  analyst:  { bg: "#EAEEF1", fg: "#4A5A66" },
+};
+
+function radarRetChip(label, v) {
+  if (v == null) return `<div class="stat" style="flex:1;min-width:70px"><span>${label}</span><strong style="color:var(--dim)">—</strong></div>`;
+  const col = v > 0 ? "var(--kelp)" : v < 0 ? "var(--coral)" : "var(--dim)";
+  return `<div class="stat" style="flex:1;min-width:70px"><span>${label}</span><strong style="color:${col}">${v > 0 ? "+" : ""}${v.toFixed(1)}%</strong></div>`;
+}
+
+function radarLegendBadges(lp, ticker) {
+  const rec = lp.all.find(s => (s.ticker || "").toUpperCase() === (ticker || "").toUpperCase());
+  if (!rec) return "";
+  const passed = STRATEGIES.filter(strat => evalStrategy(strat, buildDFromMarket(rec, lp.rsOf(rec))));
+  if (passed.length === 0) return "";
+  return `<div class="name" style="margin-top:8px">Also passes: ${passed.map(s => `<span class="chip" style="background:#E3F1EA;color:#1E7A5A">${escapeHtml(s.tab)} ✓</span>`).join(" ")}</div>`;
+}
+
+function radarCardHtml(p, lp) {
+  const meta = [p.sector, p.pe != null ? "P/E " + p.pe.toFixed(1) : null, p.cap != null ? fmtCap(p.cap) : null].filter(Boolean).join(" · ");
+  const badges = (p.signals || []).map(s => {
+    const st = RADAR_SIGNAL_STYLE[s.kind] || RADAR_SIGNAL_STYLE.analyst;
+    return `<span class="chip" style="background:${st.bg};color:${st.fg}">${escapeHtml(s.label)}</span>`;
+  }).join(" ");
+  const cl = p.insiderCluster;
+  const clusterNote = cl && cl.count >= 3
+    ? `<div class="name" style="margin-top:6px"><strong style="color:var(--kelp)">Insider cluster:</strong> ${cl.count} distinct buyers${cl.lastDate ? ", latest " + escapeHtml(cl.lastDate) : ""}${cl.names && cl.names.length ? " — " + cl.names.slice(0, 3).map(escapeHtml).join(", ") + (cl.count > 3 ? "…" : "") : ""}</div>`
+    : "";
+  return `
+    <div class="card">
+      <div class="card-head">
+        <div>
+          <div class="ticker-row">
+            <span class="ticker">${escapeHtml(p.ticker)}</span>
+            <span class="chip" style="background:#16232E;color:#fff">${p.signalCount} signal${p.signalCount === 1 ? "" : "s"} · score ${p.radarScore}</span>
+          </div>
+          <div class="name">${escapeHtml(meta)}</div>
+        </div>
+        ${p.price != null ? `<div class="price-block"><div class="price">$${p.price.toFixed(2)}</div></div>` : ""}
+      </div>
+      <div class="chips" style="margin-top:10px">${badges}</div>
+      ${clusterNote}
+      ${radarLegendBadges(lp, p.ticker)}
+      <div class="stats" style="margin-top:12px">
+        ${radarRetChip("1-day", p.ret1d)}
+        ${radarRetChip("1-week", p.ret1w)}
+        ${radarRetChip("1-month", p.ret1m)}
+      </div>
+    </div>`;
+}
+
+function renderRadar() {
+  const root = document.getElementById("tab-radar");
+  if (!root) return;
+  const d = state.radarData;
+  const lp = legendPool();
+  const updated = d ? new Date(d.generatedAt).toLocaleString() : null;
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">Radar — where the signals converge</div>
+      <p class="panel-copy">Your buyer shortlist: the names where the most <em>independent</em> bullish signals line up at once — <strong>insider cluster buying</strong> (3+ distinct insiders, the strongest single signal in the research), <strong>proximity to the 52-week high</strong> (a dominant forward-return predictor), the app's own <strong>value Buy/Accumulate</strong> call, <strong>congressional</strong> buys, and <strong>analyst</strong> lean — ranked by how many stack up. Built and refreshed hourly by the Pi. ${updated ? `Last updated: <strong>${escapeHtml(updated)}</strong> · ${d.count} picks.` : ""}</p>
+      <div class="baked"><strong>Read me first.</strong> This is a research shortlist, not advice or a buy list — it points you at names worth <em>investigating</em>. Insider and congressional filings lag the actual trade (up to ~45 days), and the 1d/1w/1m figures are plain price changes, not a strategy. Always check <em>why</em> before acting.</div>
+      <button class="btn btn-big" id="radarRefresh">${state.radarLoading ? "Loading…" : "Refresh from Pi"}</button>
+    </div>
+    ${state.radarMissing ? `<div class="baked">The Radar file isn't published yet — the Pi needs the <code>radar_scanner.py</code> deploy. This tab fills in once it runs.</div>` : ""}
+    ${state.radarError ? `<div class="error">${escapeHtml(state.radarError)}</div>` : ""}
+    <div id="radarResults">${d && d.picks ? d.picks.map(p => radarCardHtml(p, lp)).join("") : ""}</div>
+  `;
+  const btn = document.getElementById("radarRefresh");
+  if (btn) btn.addEventListener("click", () => loadRadarData(true));
+  if (!d && !state.radarLoading && !state.radarError && !state.radarMissing) loadRadarData(false);
+  // Load legend data once (for the "Also passes" annotations) if it isn't yet.
+  if (lp.all.length === 0 && !state.radarLegendKicked) { state.radarLegendKicked = true; ensureLegendData().then(renderRadar); }
 }
 
 function healthChips(s) {
@@ -2742,6 +2848,7 @@ function renderLearn() {
     ["Market Pulse tab", "A before-the-bell scan: live index snapshots (SPY/QQQ/DIA vs. previous close — the best free stand-in for overnight futures moves), today's full earnings calendar, and general market headlines. The economic calendar (Fed events, CPI, jobs data) needs a paid Finnhub plan — if it shows as unavailable, that's why, and a free public link is provided instead. Nothing here is ranked by predicted market impact; that requires real quantitative modeling no honest free source can back up, so read everything and use your own judgment on what matters most."],
     ["Congress Trades tab", "Reads congress.json, built by a separate Pi script (congress_scanner.py) that runs hourly and pulls from three official sources — no paid data vendor. <strong>Senate:</strong> Periodic Transaction Reports from efdsearch.senate.gov, filed as clean structured HTML — high confidence on ticker, date, type, and amount. <strong>House:</strong> PTRs from disclosures-clerk.house.gov, filed as PDFs but almost always real digital text (not scans) — tickers appear directly in the filing, e.g. \"Apple Inc. - Common Stock (AAPL)\", extracted from real table structure — nearly as high-confidence as the Senate. Complex filings that bundle many holdings into one bulk transaction occasionally lose a few rows to imperfect table parsing — never a wrong ticker, just an incomplete one. <strong>President:</strong> Trump's PTRs are self-published as PDFs on whitehouse.gov under the same STOCK Act requirement, but that's meaningfully lower-confidence data: some filings are pure scanned images, so pages with no text layer are run through OCR — even filings with a real text layer are often themselves noisy OCR baked in by whoever produced the PDF — so only transactions matching a recognized large-cap ticker are kept (bonds and smaller/unrecognized names are silently dropped, never guessed at), and transaction dates are omitted for these entries since OCR'd dates aren't reliable enough to trust (only the filing's date is kept). By law, amounts are reported as ranges, not exact dollar figures or share counts, so the per-politician view here is an observed buy/sell history, not a live net-worth or portfolio-value calculation — treat it as a lead to research further, not a finished answer. If this tab shows an error, the Pi's congress-scanner.timer hasn't run yet or hasn't pushed its first update."],
     ["Insider Trades tab", "Reads insider_trades.json, built by insider_scanner.py — hourly, straight from SEC EDGAR's real-time Form 4 feed (sec.gov), no paid vendor. Form 4 is how corporate officers, directors, and 10%+ owners disclose buying or selling their own company's stock. Covers the full actively-traded US stock universe (thousands of tickers, the same NASDAQ screener market_scanner.py uses) — not literally every filer on EDGAR, since foreign issuers, OTC/pink sheets, and very thin names are excluded, but broad enough that real matches show up regularly. Every public company files Form 4s constantly for routine compensation events (RSU vests, tax-withholding sales, option exercises), which would be mostly noise unrelated to genuine buy/sell conviction — only real open-market purchases and sales are kept; grants, exercises, and gifts are filtered out. Amounts here are exact (real share counts × real price), unlike Congress data's legally-mandated ranges. The \"highest-confidence overlap\" callout highlights stocks that are both a Buy/Accumulate signal on Full Market and have had a recent insider purchase — still not advice, just two independent signals agreeing."],
+    ["Radar tab (buyer resource)", "Reads radar.json, built by radar_scanner.py on the Pi (hourly). It's the one place that combines signals instead of showing them separately: it ranks names by how many <em>independent</em> bullish signals converge at once — <strong>insider cluster buying</strong> (3+ distinct insiders buying on the open market in a recent window; the research consistently links clusters to ~2× the excess return of a lone insider buy), <strong>proximity to the 52-week high</strong> (a dominant forward-return predictor in the academic work, e.g. George & Hwang), the app's own <strong>value Buy/Accumulate</strong> call, recent <strong>congressional</strong> buys, and <strong>analyst</strong> lean. More converging signals = higher rank; each card shows exactly which fired, plus 1-day/1-week/1-month price returns (from Nasdaq daily closes) and which Legends the name also passes. Honest limits: it's a convergence shortlist, not a proven alpha model or advice — filings lag the real trade by up to ~45 days, and the returns are plain price changes (no dividends), a quick read rather than a backtest. Use it to decide what to <em>investigate</em>, never as a buy list."],
     ["Legends tabs (Graham / Lynch / O'Neil / Murphy)", "Four screens that grade the same live-Finnhub universe against a famous investor's checklist instead of this app's own signal. <strong>Graham</strong> = defensive deep value (current ratio, strict P/E × P/B ≤ 22.5). <strong>Lynch</strong> = growth at a reasonable price (PEG ≤ 1, sustainable growth, clean balance sheet). <strong>O'Neil</strong> = CAN SLIM growth leaders (rising quarterly & annual EPS, near new highs, relative strength). <strong>Murphy</strong> = pure price-trend momentum. Each card scores only the checks the free data can actually verify, and is ranked by the share it clears. They read the same Full Market data (stocks.json) the Full Market tab already loaded, so a screen runs instantly across the whole ~1,200-name universe — no API key and no waiting. That data is a fundamentals snapshot, though, so anything needing history or a feed it doesn't carry — 10–20 years of EPS/dividend records, Price-to-Book (Graham's P/E × P/B cap), quarterly EPS growth, share float, institutional holdings, and true technical indicators (RSI, MACD, moving-average crossovers, chart patterns) — is marked “—” and never counted as a pass, so a card's score always reflects only what was really checked. EPS growth is implied from the pre-computed PEG, and O'Neil's Relative-Strength rank is approximated by proximity to the 52-week high across the market. Murphy is the most limited screen, since price-trend analysis needs the daily history this snapshot doesn't include."],
     ["Track Record tab", "The honest test of whether this app's conviction score means anything. Every day, backtest_tracker.py logs the entry price the moment a stock first qualifies for a Buy or Accumulate signal (once per signal \"episode,\" not once per day it stays qualified), then tracks that price forward indefinitely. This is <strong>forward-only</strong> — stocks.json is a rolling snapshot with no stored history of past signals, so there was never a way to reconstruct what the score \"would have\" called six months ago. The track record here only started the day this feature shipped, so early on there simply isn't enough data (or enough time elapsed) to say whether the score works — treat the first few months of results as noise, not a verdict. Win rate and average return are broken out by how long ago each signal fired (30/90/180/365+ days), since a 3-day-old pick hasn't had a chance to prove anything yet."],
     ["Status tab", "Not a separate monitoring system — just the \"last updated\" timestamp every other tab already shows, gathered in one place, so a scanner that's quietly stopped working doesn't go unnoticed for days. Each source has its own staleness threshold rather than one blanket rule: the continuously-running Full Market/ETF scanner should almost always be recent, while Congress Trades and Insider Trades can legitimately go multiple days without a new match — a quiet weekend, or just no qualifying activity in that window, isn't a bug (see their own tabs for why matches are inherently less frequent). \"Healthy\" and \"Stale\" both just describe normal operation at different points in a source's own cadence; \"Likely stuck\" is calibrated to be well past what a normal quiet period would produce, and is the one worth actually checking on."]
@@ -2762,7 +2869,7 @@ function showApp() {
   document.getElementById("app").classList.remove("hidden");
   renderScout(); renderWatch(); renderIpo(); renderLearn(); renderMarket(); renderEtfs(); renderPulse(); renderDividends(); renderCongress(); renderSectors(); renderInsiders(); renderBacktest(); renderHealth();
   STRATEGIES.forEach(s => renderStrategy(s.id));
-  renderAllFour(); renderLegendLookup();
+  renderAllFour(); renderLegendLookup(); renderRadar();
 }
 
 // Only Scout, IPO radar, Market Pulse, and Watchlist price refresh actually
@@ -2778,7 +2885,7 @@ function requireKey(action) {
 
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
-  ["scout", "graham", "lynch", "oneil", "murphy", "allfour", "legendlookup", "market", "sectors", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "backtest", "health", "learn"].forEach(id =>
+  ["radar", "scout", "graham", "lynch", "oneil", "murphy", "allfour", "legendlookup", "market", "sectors", "etfs", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "backtest", "health", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
 }));
 
