@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-30T18:04:20.810775+00:00",
+  "generatedAt": "2026-07-30T19:05:00.506121+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1172,
+  "count": 1180,
   "trades": [
     {
       "ticker": "CARE",
@@ -531,6 +531,56 @@
       "type": "Sale",
       "shares": 145947.0,
       "pricePerShare": 90.0942,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "NBTB",
+      "issuerName": "NBT BANCORP INC",
+      "insiderName": "Mahoney Ruth H",
+      "title": "EVP/President of Wealth Mgmt",
+      "type": "Sale",
+      "shares": 4500.0,
+      "pricePerShare": 54.3,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "FRAF",
+      "issuerName": "FRANKLIN FINANCIAL SERVICES CORP /PA/",
+      "insiderName": "Duffey Gregory A",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 16.0,
+      "pricePerShare": 64.08,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "PKBK",
+      "issuerName": "PARKE BANCORP, INC.",
+      "insiderName": "PANTILIONE VITO S",
+      "title": "Director, President & CEO",
+      "type": "Purchase",
+      "shares": 1300.0,
+      "pricePerShare": 33.68,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "NBTB",
+      "issuerName": "NBT BANCORP INC",
+      "insiderName": "Halliday Sarah A",
+      "title": "EVP/Chief Comm Innovation Off",
+      "type": "Sale",
+      "shares": 9000.0,
+      "pricePerShare": 54.0446,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "TPL",
+      "issuerName": "Texas Pacific Land Corp",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 394.14,
       "transactionDate": "2026-07-29"
     },
     {
@@ -11614,6 +11664,16 @@
       "transactionDate": "2026-06-23"
     },
     {
+      "ticker": "CRESY",
+      "issuerName": "CRESUD INC",
+      "insiderName": "Elsztain Fernando Adrian",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 70000.0,
+      "pricePerShare": 1.26,
+      "transactionDate": "2026-06-11"
+    },
+    {
       "ticker": "NEXN",
       "issuerName": "Nexxen International Ltd.",
       "insiderName": "Niri Sagi",
@@ -11632,6 +11692,26 @@
       "shares": 32539.0,
       "pricePerShare": 2.021,
       "transactionDate": "2026-06-01"
+    },
+    {
+      "ticker": "CRESY",
+      "issuerName": "CRESUD INC",
+      "insiderName": "Elsztain Fernando Adrian",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 31000.0,
+      "pricePerShare": 1.16,
+      "transactionDate": "2026-04-21"
+    },
+    {
+      "ticker": "IRS",
+      "issuerName": "IRSA INVESTMENTS & REPRESENTATIONS INC",
+      "insiderName": "Elsztain Fernando Adrian",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 5524.0,
+      "pricePerShare": 1.69,
+      "transactionDate": "2026-04-09"
     },
     {
       "ticker": "RANI",
@@ -14310,6 +14390,136 @@
         }
       ]
     },
+    "NBTB": {
+      "issuerName": "NBT BANCORP INC",
+      "trades": [
+        {
+          "ticker": "NBTB",
+          "issuerName": "NBT BANCORP INC",
+          "insiderName": "Mahoney Ruth H",
+          "title": "EVP/President of Wealth Mgmt",
+          "type": "Sale",
+          "shares": 4500.0,
+          "pricePerShare": 54.3,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "NBTB",
+          "issuerName": "NBT BANCORP INC",
+          "insiderName": "Halliday Sarah A",
+          "title": "EVP/Chief Comm Innovation Off",
+          "type": "Sale",
+          "shares": 9000.0,
+          "pricePerShare": 54.0446,
+          "transactionDate": "2026-07-29"
+        }
+      ]
+    },
+    "FRAF": {
+      "issuerName": "FRANKLIN FINANCIAL SERVICES CORP /PA/",
+      "trades": [
+        {
+          "ticker": "FRAF",
+          "issuerName": "FRANKLIN FINANCIAL SERVICES CORP /PA/",
+          "insiderName": "Duffey Gregory A",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 16.0,
+          "pricePerShare": 64.08,
+          "transactionDate": "2026-07-29"
+        }
+      ]
+    },
+    "PKBK": {
+      "issuerName": "PARKE BANCORP, INC.",
+      "trades": [
+        {
+          "ticker": "PKBK",
+          "issuerName": "PARKE BANCORP, INC.",
+          "insiderName": "PANTILIONE VITO S",
+          "title": "Director, President & CEO",
+          "type": "Purchase",
+          "shares": 1300.0,
+          "pricePerShare": 33.68,
+          "transactionDate": "2026-07-29"
+        }
+      ]
+    },
+    "TPL": {
+      "issuerName": "Texas Pacific Land Corp",
+      "trades": [
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 394.14,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 393.09,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 409.31,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 427.42,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 413.48,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 416.47,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 420.15,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
     "LOAN": {
       "issuerName": "MANHATTAN BRIDGE CAPITAL, INC",
       "trades": [
@@ -15206,71 +15416,6 @@
           "type": "Purchase",
           "shares": 756.0,
           "pricePerShare": 3.02,
-          "transactionDate": "2026-07-17"
-        }
-      ]
-    },
-    "TPL": {
-      "issuerName": "Texas Pacific Land Corp",
-      "trades": [
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 393.09,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 409.31,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 427.42,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 413.48,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 416.47,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 420.15,
           "transactionDate": "2026-07-17"
         }
       ]
@@ -24665,6 +24810,31 @@
         }
       ]
     },
+    "CRESY": {
+      "issuerName": "CRESUD INC",
+      "trades": [
+        {
+          "ticker": "CRESY",
+          "issuerName": "CRESUD INC",
+          "insiderName": "Elsztain Fernando Adrian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 70000.0,
+          "pricePerShare": 1.26,
+          "transactionDate": "2026-06-11"
+        },
+        {
+          "ticker": "CRESY",
+          "issuerName": "CRESUD INC",
+          "insiderName": "Elsztain Fernando Adrian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 31000.0,
+          "pricePerShare": 1.16,
+          "transactionDate": "2026-04-21"
+        }
+      ]
+    },
     "KITT": {
       "issuerName": "Nauticus Robotics, Inc.",
       "trades": [
@@ -24677,6 +24847,21 @@
           "shares": 32539.0,
           "pricePerShare": 2.021,
           "transactionDate": "2026-06-01"
+        }
+      ]
+    },
+    "IRS": {
+      "issuerName": "IRSA INVESTMENTS & REPRESENTATIONS INC",
+      "trades": [
+        {
+          "ticker": "IRS",
+          "issuerName": "IRSA INVESTMENTS & REPRESENTATIONS INC",
+          "insiderName": "Elsztain Fernando Adrian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5524.0,
+          "pricePerShare": 1.69,
+          "transactionDate": "2026-04-09"
         }
       ]
     },
@@ -24831,6 +25016,8 @@
       "0000763744-26-000065",
       "0000765207-26-000100",
       "0000784977-26-000048",
+      "0000790359-26-000059",
+      "0000790359-26-000060",
       "0000806180-26-000069",
       "0000807249-26-000057",
       "0000813672-26-000085",
@@ -24842,6 +25029,9 @@
       "0000837276-26-000080",
       "0000857490-26-000485",
       "0000862084-26-000116",
+      "0000884546-26-000386",
+      "0000884546-26-000388",
+      "0000884546-26-000390",
       "0000885590-26-000101",
       "0000887340-26-000097",
       "0000894189-26-021227",
@@ -25256,6 +25446,10 @@
       "0000950103-26-011396",
       "0000950103-26-011397",
       "0000950103-26-011398",
+      "0000950103-26-011411",
+      "0000950103-26-011412",
+      "0000950103-26-011413",
+      "0000950103-26-011414",
       "0000950142-26-002131",
       "0000950142-26-002132",
       "0000950142-26-002145",
@@ -25283,6 +25477,7 @@
       "0001040470-26-000225",
       "0001040470-26-000227",
       "0001040470-26-000229",
+      "0001040674-26-000040",
       "0001046179-26-000453",
       "0001046179-26-000455",
       "0001046179-26-000457",
@@ -25725,6 +25920,7 @@
       "0001140361-26-030200",
       "0001140361-26-030210",
       "0001140361-26-030218",
+      "0001140361-26-030227",
       "0001160077-26-000003",
       "0001162044-26-000644",
       "0001167691-26-000004",
@@ -26739,6 +26935,9 @@
       "0001213900-26-083232",
       "0001213900-26-083234",
       "0001213900-26-083239",
+      "0001213900-26-083265",
+      "0001213900-26-083274",
+      "0001213900-26-083276",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -26793,6 +26992,7 @@
       "0001214659-26-009164",
       "0001214659-26-009199",
       "0001214659-26-009200",
+      "0001214659-26-009202",
       "0001220634-26-000002",
       "0001223260-26-000009",
       "0001225208-26-006693",
@@ -26939,6 +27139,8 @@
       "0001398344-26-013055",
       "0001398344-26-013059",
       "0001398344-26-013070",
+      "0001398344-26-013126",
+      "0001398344-26-013129",
       "0001401336-26-000020",
       "0001402348-26-000016",
       "0001405955-26-000007",
@@ -27024,6 +27226,8 @@
       "0001437749-26-024923",
       "0001437749-26-024924",
       "0001437749-26-024925",
+      "0001437749-26-024994",
+      "0001437749-26-024996",
       "0001445546-26-005229",
       "0001445546-26-005230",
       "0001445546-26-005231",
@@ -27105,6 +27309,7 @@
       "0001491567-26-000008",
       "0001492597-26-000001",
       "0001492597-26-000002",
+      "0001492950-26-000003",
       "0001493152-26-033875",
       "0001493152-26-033945",
       "0001493152-26-033949",
@@ -27394,6 +27599,7 @@
       "0001580642-26-004706",
       "0001580642-26-004707",
       "0001580642-26-004724",
+      "0001580642-26-004728",
       "0001590264-26-000010",
       "0001592900-26-003595",
       "0001592900-26-003620",
@@ -27603,6 +27809,7 @@
       "0001628280-26-050901",
       "0001628280-26-050911",
       "0001634117-26-000081",
+      "0001638509-26-000007",
       "0001638728-26-000011",
       "0001640334-26-001221",
       "0001640334-26-001223",
@@ -27622,6 +27829,7 @@
       "0001649989-26-000006",
       "0001649989-26-000007",
       "0001650664-26-000076",
+      "0001651887-26-000003",
       "0001651981-26-000061",
       "0001651981-26-000062",
       "0001651981-26-000067",
@@ -27637,6 +27845,8 @@
       "0001654954-26-006836",
       "0001654954-26-006837",
       "0001654954-26-006986",
+      "0001654954-26-007024",
+      "0001654954-26-007026",
       "0001655589-26-000970",
       "0001655589-26-000971",
       "0001655589-26-000973",
@@ -27752,6 +27962,10 @@
       "0001771146-26-001536",
       "0001771146-26-001538",
       "0001771146-26-001540",
+      "0001771146-26-001542",
+      "0001771146-26-001544",
+      "0001771146-26-001547",
+      "0001771146-26-001548",
       "0001772603-26-000012",
       "0001775297-26-000010",
       "0001778564-26-000123",
@@ -28481,6 +28695,18 @@
       "0001839882-26-037233",
       "0001839882-26-037236",
       "0001839882-26-037240",
+      "0001839882-26-037260",
+      "0001839882-26-037261",
+      "0001839882-26-037263",
+      "0001839882-26-037264",
+      "0001839882-26-037265",
+      "0001839882-26-037266",
+      "0001839882-26-037269",
+      "0001839882-26-037270",
+      "0001839882-26-037271",
+      "0001839882-26-037272",
+      "0001839882-26-037273",
+      "0001839882-26-037274",
       "0001840706-26-000265",
       "0001842720-26-000009",
       "0001843103-26-000014",
@@ -29321,6 +29547,30 @@
       "0001918704-26-021772",
       "0001918704-26-021773",
       "0001918704-26-021774",
+      "0001918704-26-021779",
+      "0001918704-26-021780",
+      "0001918704-26-021781",
+      "0001918704-26-021782",
+      "0001918704-26-021783",
+      "0001918704-26-021784",
+      "0001918704-26-021785",
+      "0001918704-26-021786",
+      "0001918704-26-021787",
+      "0001918704-26-021788",
+      "0001918704-26-021789",
+      "0001918704-26-021790",
+      "0001918704-26-021791",
+      "0001918704-26-021792",
+      "0001918704-26-021793",
+      "0001918704-26-021794",
+      "0001918704-26-021795",
+      "0001918704-26-021796",
+      "0001918704-26-021797",
+      "0001918704-26-021798",
+      "0001918704-26-021799",
+      "0001918704-26-021800",
+      "0001918704-26-021801",
+      "0001918704-26-021802",
       "0001929185-26-000012",
       "0001932635-26-000003",
       "0001939403-26-000002",
