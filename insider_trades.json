@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-30T12:00:38.898159+00:00",
+  "generatedAt": "2026-07-30T13:01:43.878361+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1151,
+  "count": 1155,
   "trades": [
     {
       "ticker": "EQBK",
@@ -421,6 +421,16 @@
       "type": "Sale",
       "shares": 1240.0,
       "pricePerShare": 525.4636,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "PEBK",
+      "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
+      "insiderName": "ABERNETHY JAMES S",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 43.17,
       "transactionDate": "2026-07-29"
     },
     {
@@ -1851,6 +1861,36 @@
       "type": "Purchase",
       "shares": 1500.0,
       "pricePerShare": 13.59,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "PEBK",
+      "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
+      "insiderName": "ABERNETHY JAMES S",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1000.0,
+      "pricePerShare": 42.89,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "ACI",
+      "issuerName": "Albertsons Companies, Inc.",
+      "insiderName": "MORRIS SUSAN",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 20277.0,
+      "pricePerShare": 11.455,
+      "transactionDate": "2026-07-28"
+    },
+    {
+      "ticker": "ACI",
+      "issuerName": "Albertsons Companies, Inc.",
+      "insiderName": "MORRIS SUSAN",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 19132.0,
+      "pricePerShare": 11.377,
       "transactionDate": "2026-07-28"
     },
     {
@@ -13790,6 +13830,31 @@
         }
       ]
     },
+    "PEBK": {
+      "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
+      "trades": [
+        {
+          "ticker": "PEBK",
+          "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
+          "insiderName": "ABERNETHY JAMES S",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 43.17,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "PEBK",
+          "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
+          "insiderName": "ABERNETHY JAMES S",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 42.89,
+          "transactionDate": "2026-07-28"
+        }
+      ]
+    },
     "LOAN": {
       "issuerName": "MANHATTAN BRIDGE CAPITAL, INC",
       "trades": [
@@ -16335,6 +16400,41 @@
         }
       ]
     },
+    "ACI": {
+      "issuerName": "Albertsons Companies, Inc.",
+      "trades": [
+        {
+          "ticker": "ACI",
+          "issuerName": "Albertsons Companies, Inc.",
+          "insiderName": "MORRIS SUSAN",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 20277.0,
+          "pricePerShare": 11.455,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "ACI",
+          "issuerName": "Albertsons Companies, Inc.",
+          "insiderName": "MORRIS SUSAN",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 19132.0,
+          "pricePerShare": 11.377,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "ACI",
+          "issuerName": "Albertsons Companies, Inc.",
+          "insiderName": "Moriarty Thomas M",
+          "title": "EVP, M&A and Corporate Affairs",
+          "type": "Purchase",
+          "shares": 170500.0,
+          "pricePerShare": 11.509,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
     "ANIX": {
       "issuerName": "Anixa Biosciences Inc",
       "trades": [
@@ -16831,21 +16931,6 @@
           "type": "Sale",
           "shares": 142.0,
           "pricePerShare": 148.8106,
-          "transactionDate": "2026-07-27"
-        }
-      ]
-    },
-    "ACI": {
-      "issuerName": "Albertsons Companies, Inc.",
-      "trades": [
-        {
-          "ticker": "ACI",
-          "issuerName": "Albertsons Companies, Inc.",
-          "insiderName": "Moriarty Thomas M",
-          "title": "EVP, M&A and Corporate Affairs",
-          "type": "Purchase",
-          "shares": 170500.0,
-          "pricePerShare": 11.509,
           "transactionDate": "2026-07-27"
         }
       ]
@@ -24766,6 +24851,13 @@
       "0000950103-26-011342",
       "0000950103-26-011349",
       "0000950103-26-011350",
+      "0000950103-26-011354",
+      "0000950103-26-011355",
+      "0000950103-26-011356",
+      "0000950103-26-011357",
+      "0000950103-26-011358",
+      "0000950103-26-011359",
+      "0000950103-26-011360",
       "0000950142-26-002131",
       "0000950142-26-002132",
       "0000950142-26-002145",
@@ -25074,6 +25166,7 @@
       "0001114446-26-005107",
       "0001120545-26-000004",
       "0001123292-26-001022",
+      "0001123292-26-001026",
       "0001128480-26-000004",
       "0001128483-26-000012",
       "0001133228-26-010642",
@@ -25105,6 +25198,8 @@
       "0001133228-26-010977",
       "0001134261-26-000005",
       "0001134261-26-000007",
+      "0001137360-26-000718",
+      "0001137360-26-000719",
       "0001140361-26-028844",
       "0001140361-26-028846",
       "0001140361-26-028877",
@@ -26188,6 +26283,7 @@
       "0001213900-26-083022",
       "0001213900-26-083044",
       "0001213900-26-083049",
+      "0001213900-26-083083",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -26632,6 +26728,7 @@
       "0001493152-26-035294",
       "0001493152-26-035310",
       "0001493152-26-035324",
+      "0001493152-26-035330",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -26834,6 +26931,7 @@
       "0001623632-26-001105",
       "0001623632-26-001115",
       "0001623632-26-001116",
+      "0001623632-26-001120",
       "0001625641-26-000156",
       "0001626201-26-000018",
       "0001627893-26-000012",
@@ -26992,6 +27090,9 @@
       "0001628280-26-050723",
       "0001628280-26-050726",
       "0001628280-26-050728",
+      "0001628280-26-050816",
+      "0001628280-26-050821",
+      "0001628280-26-050831",
       "0001634117-26-000081",
       "0001638728-26-000011",
       "0001640334-26-001221",
@@ -27025,6 +27126,7 @@
       "0001654954-26-006801",
       "0001654954-26-006836",
       "0001654954-26-006837",
+      "0001654954-26-006986",
       "0001655589-26-000970",
       "0001655589-26-000971",
       "0001655589-26-000973",
@@ -27180,6 +27282,7 @@
       "0001821268-26-000112",
       "0001821268-26-000113",
       "0001824992-26-000008",
+      "0001825780-26-000001",
       "0001826030-26-000002",
       "0001826853-26-000019",
       "0001828057-26-000012",
