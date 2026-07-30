@@ -245,7 +245,7 @@ def git_commit_and_push(repo_dir, files):
         # so ours fast-forwards. Without this, one outside push would
         # non-fast-forward-reject every future push and silently freeze the
         # feed. On conflict, abort and retry next cycle rather than wedge the repo.
-        pull = subprocess.run(["git", "-C", repo_dir, "pull", "--rebase", "origin", "main"],
+        pull = subprocess.run(["git", "-C", repo_dir, "pull", "--rebase", "--autostash", "origin", "main"],
                               capture_output=True, timeout=60)
         if pull.returncode != 0:
             subprocess.run(["git", "-C", repo_dir, "rebase", "--abort"], capture_output=True, timeout=60)

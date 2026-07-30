@@ -757,7 +757,7 @@ def write_output(stocks, etfs, stocks_only=False, etfs_only=False, partial=False
             # so ours fast-forwards. Without this, one outside push would
             # non-fast-forward-reject every future push and silently freeze the
             # feed. On conflict, abort and retry next cycle rather than wedge the repo.
-            pull = subprocess.run(["git", "-C", REPO_DIR, "pull", "--rebase", "origin", "main"],
+            pull = subprocess.run(["git", "-C", REPO_DIR, "pull", "--rebase", "--autostash", "origin", "main"],
                                   capture_output=True)
             if pull.returncode != 0:
                 subprocess.run(["git", "-C", REPO_DIR, "rebase", "--abort"], capture_output=True)
