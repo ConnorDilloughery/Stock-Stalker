@@ -323,6 +323,14 @@ def extract_quality(m, pe):
     pb = num(m.get("pbQuarterly")) or num(m.get("pbAnnual"))
     div_yield = sanitize_yield(num(m.get("currentDividendYieldTTM")) or num(m.get("dividendYieldIndicatedAnnual")))
     beta = num(m.get("beta"))
+    # Real earnings-growth + dividend fields (already in the metric payload) so the
+    # Legends screens can actually evaluate growth/PEG/quarterly-EPS/dividend
+    # criteria instead of reporting "—". No extra API calls.
+    g5 = num(m.get("epsGrowth5Y"))
+    g3 = num(m.get("epsGrowth3Y"))
+    gq = num(m.get("epsGrowthQuarterlyYoy"))
+    gttm = num(m.get("epsGrowthTTMYoy"))
+    div_ps = num(m.get("dividendPerShareAnnual")) or num(m.get("dividendIndicatedAnnual"))
     checks = [
         None if de is None else de < 1.0,
         None if cr is None else cr > 1.5,
@@ -333,7 +341,9 @@ def extract_quality(m, pe):
     q_max = len(valid)
     q_pass = sum(1 for c in valid if c)
     return {"de": de, "cr": cr, "roe": roe, "peg": peg, "ps": ps, "pb": pb,
-            "divYield": div_yield, "beta": beta, "qPass": q_pass, "qMax": q_max}
+            "divYield": div_yield, "beta": beta, "qPass": q_pass, "qMax": q_max,
+            "epsGrowth5Y": g5, "epsGrowth3Y": g3, "epsGrowthQtrYoy": gq,
+            "epsGrowthTTMYoy": gttm, "divPerShare": div_ps}
 
 
 def median(values):
@@ -585,6 +595,9 @@ def scan_stocks(tickers, known, universe=None, on_checkpoint=None):
                     "discount": disc,
                     "de": uq["de"], "cr": uq["cr"], "roe": uq["roe"], "peg": uq["peg"],
                     "pb": uq["pb"], "divYield": uq["divYield"], "beta": uq["beta"],
+                    "epsGrowth5Y": uq["epsGrowth5Y"], "epsGrowth3Y": uq["epsGrowth3Y"],
+                    "epsGrowthQtrYoy": uq["epsGrowthQtrYoy"], "epsGrowthTTMYoy": uq["epsGrowthTTMYoy"],
+                    "divPerShare": uq["divPerShare"],
                     "scannedAt": datetime.now(timezone.utc).isoformat(),
                 }
             else:

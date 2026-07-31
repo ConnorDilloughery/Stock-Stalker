@@ -790,13 +790,16 @@ const STRATEGIES = [
         return sChk(pe > 0 && pe <= 15 ? "pass" : "fail", "P/E " + pe.toFixed(1) + (pe <= 0 ? " (unprofitable)" : "")); } },
       { label: "EPS up at least one-third over the decade", test: d => {
         const g = sNum(d.epsGrowth5Y); if (g == null) return sChk("na", "growth data unavailable");
-        return sChk(g >= 3 ? "pass" : "fail", "implied growth ~" + g.toFixed(0) + "%/yr (from PEG) — proxy for the 10-yr ⅓ rule"); } },
+        const src = d.growthImplied ? " (implied from PEG)" : "/yr (5-yr EPS growth)";
+        return sChk(g >= 3 ? "pass" : "fail", (g >= 0 ? "+" : "") + g.toFixed(0) + "%" + src + " — proxy for the 10-yr ⅓ rule"); } },
       { label: "Positive EPS every year for the past 10 years", test: d => {
         const pe = sNum(d.pe);
-        return sChk("na", pe != null && pe > 0 ? "profitable now; 10-yr history not in the data" : "10-yr EPS history not in the data"); } },
+        if (pe != null && pe <= 0) return sChk("fail", "unprofitable now — can't have 10 straight profitable years");
+        return sChk("na", pe != null ? "profitable now; 10-yr history not in the data" : "10-yr EPS history not in the data"); } },
       { label: "Uninterrupted dividends for at least 20 years", test: d => {
-        const paysNow = (sNum(d.divYield) || 0) > 0;
-        return sChk("na", paysNow ? "pays a dividend now; 20-yr continuity not in the data" : "no current dividend; 20-yr history not in the data"); } },
+        const pays = (sNum(d.divPerShare) || 0) > 0 || (sNum(d.divYield) || 0) > 0;
+        if (!pays) return sChk("fail", "pays no dividend — fails the 20-year rule outright");
+        return sChk("na", "pays a dividend now; 20-yr continuity not in the data"); } },
       { label: "P/E × P/B ≤ 22.5 (full strict valuation cap)", test: d => {
         const pe = sNum(d.pe), pb = sNum(d.pb); if (pe == null || pb == null) return sChk("na", "Price-to-Book isn't in the Full Market data");
         const p = pe * pb; return sChk(p <= 22.5 ? "pass" : "fail", "P/E " + pe.toFixed(1) + " × P/B " + pb.toFixed(2) + " = " + p.toFixed(1)); } },
@@ -807,16 +810,17 @@ const STRATEGIES = [
     title: "Peter Lynch — Growth at a Reasonable Price",
     blurb: "From One Up on Wall Street: understandable companies growing steadily, cheap relative to that growth, spotted before Wall Street piles in.",
     minPct: 100,
-    naNote: "PEG and the growth band come from the pre-computed PEG. Low analyst coverage stands in for the “institutional neglect” idea where that count is available (true institutional-ownership % isn't in the data). The “dull name” and insider-buying tests are subjective or need a feed the data doesn't include, so they show “—”. To qualify a name must clear every verifiable check.",
+    naNote: "PEG and the growth band use the scanner's real 5-year EPS-growth data (falling back to PEG-implied growth only when a name lacks it). Low analyst coverage stands in for the “institutional neglect” idea where that count is available (true institutional-ownership % isn't in the data). The “dull name” and insider-buying tests are subjective or need a feed the data doesn't include, so they show “—”. To qualify a name must clear every verifiable check.",
     checks: [
       { label: "PEG ≤ 1 (P/E no higher than the growth rate)", test: d => {
         const pe = sNum(d.pe), g = sNum(d.epsGrowth5Y);
         if (pe == null || g == null || g <= 0) return sChk("na", "needs positive P/E and growth — one is missing/negative");
-        const peg = pe / g; return sChk(peg <= 1 ? "pass" : "fail", "PEG " + peg.toFixed(2) + " (P/E " + pe.toFixed(1) + " ÷ implied growth " + g.toFixed(0) + "%)"); } },
+        const peg = pe / g; return sChk(peg <= 1 ? "pass" : "fail", "PEG " + peg.toFixed(2) + " (P/E " + pe.toFixed(1) + " ÷ " + g.toFixed(0) + "% growth" + (d.growthImplied ? ", implied" : "") + ")"); } },
       { label: "Sustainable 20–25% growth (not a frantic 50–100%)", test: d => {
         const g = sNum(d.epsGrowth5Y); if (g == null) return sChk("na", "growth data unavailable");
-        if (g > 45) return sChk("fail", "implied growth " + g.toFixed(0) + "% — too frantic to sustain");
-        return sChk(g >= 10 && g <= 30 ? "pass" : "fail", "implied growth ~" + g.toFixed(0) + "% (from PEG)"); } },
+        const src = d.growthImplied ? " (implied from PEG)" : " (5-yr EPS growth)";
+        if (g > 45) return sChk("fail", g.toFixed(0) + "%" + src + " — too frantic to sustain");
+        return sChk(g >= 10 && g <= 30 ? "pass" : "fail", (g >= 0 ? "+" : "") + g.toFixed(0) + "%" + src); } },
       { label: "Clean balance sheet — high cash, very low debt", test: d => {
         const v = sNum(d.totalDebtEq) ?? sNum(d.ltDebtEq);
         if (v == null) return sChk("na", "debt data unavailable");
@@ -833,14 +837,15 @@ const STRATEGIES = [
     title: "William O'Neil — CAN SLIM Growth",
     blurb: "From How to Make Money in Stocks: fast-growing earnings leaders breaking out on strength, bought only in a rising market.",
     minPct: 66,
-    naNote: "Quarterly EPS growth, float, a volume spike, institutional fund count, market direction and chart patterns aren't in the Full Market data, so they show “—”. Annual growth is implied from the pre-computed PEG, and Relative Strength is approximated by ranking each name's proximity to its 52-week high across the whole market.",
+    naNote: "Quarterly and annual EPS growth now use real Finnhub data. Float, a volume spike, institutional fund count, market direction and chart patterns still aren't in the Full Market data, so they show “—”. Relative Strength is approximated by ranking each name's proximity to its 52-week high across the whole market.",
     checks: [
       { label: "C — Quarterly EPS up ≥ 25% year-over-year", test: d => {
-        const g = sNum(d.epsGrowthQtrYoy); if (g == null) return sChk("na", "quarterly EPS growth isn't in the Full Market data");
-        return sChk(g >= 25 ? "pass" : "fail", "latest-quarter EPS " + (g >= 0 ? "+" : "") + g.toFixed(0) + "% YoY"); } },
+        const q = sNum(d.epsGrowthQtrYoy), g = q != null ? q : sNum(d.epsGrowthTTMYoy);
+        if (g == null) return sChk("na", "quarterly EPS growth unavailable");
+        return sChk(g >= 25 ? "pass" : "fail", (g >= 0 ? "+" : "") + g.toFixed(0) + "% YoY" + (q == null ? " (trailing-12-mo)" : " (latest quarter)")); } },
       { label: "A — Annual EPS growth ≥ 25% over 3–5 years", test: d => {
         const g = sNum(d.epsGrowth3Y) ?? sNum(d.epsGrowth5Y); if (g == null) return sChk("na", "annual growth unavailable");
-        return sChk(g >= 25 ? "pass" : "fail", "implied growth ~" + g.toFixed(0) + "%/yr (from PEG)"); } },
+        return sChk(g >= 25 ? "pass" : "fail", (g >= 0 ? "+" : "") + g.toFixed(0) + "%/yr" + (d.growthImplied ? " (implied)" : " (3–5yr EPS growth)")); } },
       { label: "N — Near a new high (new product/leadership proxy)", test: d => {
         const h = sNum(d.high52), p = sNum(d.price); if (h == null || p == null) return sChk("na", "52-week high unavailable");
         const off = (h - p) / h * 100; return sChk(off <= 5 ? "pass" : "fail", "within " + off.toFixed(0) + "% of its 52-week high"); } },
@@ -897,9 +902,12 @@ function buildDFromMarket(s, rs) {
     pe, pb: sNum(s.pb),
     currentRatio: sNum(s.cr),
     ltDebtEq: sNum(s.de), totalDebtEq: sNum(s.de),
-    epsGrowth3Y: impliedGrowth, epsGrowth5Y: impliedGrowth, epsGrowthQtrYoy: null,
-    growthImplied: impliedGrowth != null,
-    divYield: sNum(s.divYield), divPerShare: null, cashPerShare: null,
+    epsGrowth3Y: sNum(s.epsGrowth3Y) ?? impliedGrowth,
+    epsGrowth5Y: sNum(s.epsGrowth5Y) ?? impliedGrowth,
+    epsGrowthQtrYoy: sNum(s.epsGrowthQtrYoy),
+    epsGrowthTTMYoy: sNum(s.epsGrowthTTMYoy),
+    growthImplied: (sNum(s.epsGrowth5Y) == null && impliedGrowth != null),
+    divYield: sNum(s.divYield), divPerShare: sNum(s.divPerShare), cashPerShare: null,
     high52: sNum(s.high), low52: sNum(s.low), discount: sNum(s.discount),
     ret52: null, ret26: null, ret13: null,
     marketCap: sNum(s.cap), recTotal: sNum(s.recTotal),
