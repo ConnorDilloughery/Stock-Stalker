@@ -60,6 +60,10 @@ INSIDER_WINDOW_DAYS = 45   # Form 4 filings lag the trade; window for a "recent"
 CONGRESS_WINDOW_DAYS = 60  # STOCK Act allows up to 45 days to file; a bit more slack
 TOP_N = 40                 # how many top picks to fetch returns for + publish
 
+FINNHUB_KEY = os.environ.get("FINNHUB_API_KEY", "").strip()  # for the earnings calendar
+EARNINGS_WINDOW_DAYS = 21  # look this far ahead for an upcoming earnings catalyst
+EM_TOP_N = 30              # how many Early Movers to publish
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -335,6 +339,143 @@ def _atomic_dump(path, payload, **json_kwargs):
         raise
 
 
+def fetch_earnings_days(today):
+    """{ticker: days_until_earnings} for the next EARNINGS_WINDOW_DAYS, from
+    Finnhub's bulk earnings calendar (one call covers the whole market)."""
+    if not FINNHUB_KEY:
+        log.warning("FINNHUB_API_KEY not set — Early Movers will skip the earnings catalyst")
+        return {}
+    to = today + timedelta(days=EARNINGS_WINDOW_DAYS)
+    try:
+        r = requests.get("https://finnhub.io/api/v1/calendar/earnings",
+                         params={"from": today.isoformat(), "to": to.isoformat(), "token": FINNHUB_KEY},
+                         timeout=25)
+        r.raise_for_status()
+        cal = (r.json() or {}).get("earningsCalendar") or []
+    except Exception as e:
+        log.warning(f"Earnings calendar fetch failed ({e})")
+        return {}
+    out = {}
+    for e in cal:
+        tk = e.get("symbol")
+        d = _parse_date(e.get("date"))
+        if not tk or not d:
+            continue
+        days = (d - today).days
+        if days < 0:
+            continue
+        if tk not in out or days < out[tk]:
+            out[tk] = days
+    return out
+
+
+def compute_early_movers(technicals, universe, stocks, clusters, congress_buys, earnings_days):
+    """Rank names that are STARTING to move: emerging technical momentum, an
+    imminent catalyst, and standing conviction, converging on one name.
+
+    This is NOT a predictor — it can't know an earnings surprise's direction. It
+    surfaces coiled setups with better-than-average odds; it will miss moves and
+    fire false positives. Scores are bounded and the firing signals are shown so
+    the ranking stays auditable. Candidates must already be moving up (price
+    above a 50-day MA with momentum) to qualify — a downtrend with insider buys
+    is a value idea for the Radar, not an early mover.
+    """
+    tech = technicals.get("byTicker") or {}
+    uidx = {s["ticker"]: s for s in universe.get("stocks", []) if s.get("ticker")}
+    sidx = {s["ticker"]: s for s in stocks.get("stocks", []) if s.get("ticker")}
+    movers = []
+    for tk, t in tech.items():
+        price = t.get("price") or (uidx.get(tk) or {}).get("price")
+        sma50, sma200, rsi = t.get("sma50"), t.get("sma200"), t.get("rsi")
+        rs, macd_bull, vol_up = t.get("rsRank"), t.get("macdBull"), t.get("volTrendUp")
+        if not price or not sma50:
+            continue
+        uptrend = bool(sma200 and sma50 > sma200)
+        above50 = price >= sma50
+        has_rs = isinstance(rs, (int, float))
+        # GATE: must actually be moving up to be an "early mover".
+        if not (above50 and (macd_bull or (has_rs and rs >= 70))):
+            continue
+        disc = (uidx.get(tk) or {}).get("discount")
+        score, signals = 0.0, []
+
+        # --- A. Momentum emerging (the core) ---
+        if uptrend:
+            score += 10
+        if above50:
+            score += 6
+        if macd_bull:
+            score += 8
+            signals.append("MACD bullish")
+        if isinstance(rsi, (int, float)):
+            if 50 <= rsi <= 68:
+                score += 8
+                signals.append(f"RSI {round(rsi)} building")
+            elif rsi > 72:
+                score -= 8
+                signals.append(f"RSI {round(rsi)} overbought")
+        if vol_up:
+            score += 6
+            signals.append("volume expanding")
+        if has_rs:
+            if rs >= 80:
+                score += 12
+                signals.append(f"RS {rs}")
+            elif rs >= 65:
+                score += 6
+                signals.append(f"RS {rs}")
+        if isinstance(disc, (int, float)):
+            if 0.02 <= disc <= 0.15 and (not isinstance(rsi, (int, float)) or rsi < 70):
+                score += 10
+                signals.append(f"{round(disc * 100)}% below high — coiled")
+            elif disc < 0.005:
+                score -= 4  # right at the high; may already be extended
+        if (uptrend and above50 and macd_bull and isinstance(rsi, (int, float)) and 50 <= rsi <= 68
+                and isinstance(disc, (int, float)) and disc <= 0.15):
+            score += 15
+            signals.append("emerging leadership")
+
+        # --- B. Catalyst proximity ---
+        days = earnings_days.get(tk)
+        if days is not None:
+            if days <= 7:
+                score += 10
+                signals.append(f"earnings in {days}d")
+            elif days <= 14:
+                score += 6
+                signals.append(f"earnings in {days}d")
+            elif days <= 21:
+                score += 3
+
+        # --- C. Conviction convergence ---
+        cl = clusters.get(tk)
+        if cl:
+            net_usd = (cl.get("buyShares", 0) - cl.get("sellShares", 0)) * price
+            if net_usd > 0:
+                score += min(6 + net_usd / 1_000_000 * 6, 14)
+                signals.append(f"{cl['count']} insider buyer{'s' if cl['count'] != 1 else ''}")
+        cg = congress_buys.get(tk)
+        if cg:
+            score += 6
+            signals.append(f"{cg['count']} congress buy{'s' if cg['count'] != 1 else ''}")
+        s = sidx.get(tk)
+        if s and s.get("signal") == "BUY":
+            score += 8
+            signals.append("value Buy")
+        elif s and s.get("signal") == "ACCUMULATE":
+            score += 4
+            signals.append("Accumulate")
+
+        movers.append({
+            "ticker": tk, "sector": (uidx.get(tk) or {}).get("sector"), "price": price,
+            "emScore": round(score, 1), "rsRank": rs if has_rs else None, "rsi": rsi,
+            "uptrend": uptrend, "earningsInDays": days,
+            "signalCount": len(signals), "signals": signals,
+        })
+    movers.sort(key=lambda m: (m["emScore"], m["signalCount"]), reverse=True)
+    return movers[:EM_TOP_N]
+
+
 def main():
     if not REPO_DIR:
         log.warning("REPO_DIR not set — reading/writing ./output")
@@ -360,15 +501,25 @@ def main():
         time.sleep(0.4)  # be polite to the free Nasdaq endpoint
 
     payload = {"generatedAt": datetime.now(timezone.utc).isoformat(), "count": len(top), "picks": top}
-    path = os.path.join(REPO_DIR, "radar.json") if REPO_DIR else os.path.join("output", "radar.json")
+    out_dir = REPO_DIR if REPO_DIR else "output"
     if not REPO_DIR:
         os.makedirs("output", exist_ok=True)
-    _atomic_dump(path, payload, separators=(",", ":"))
+    _atomic_dump(os.path.join(out_dir, "radar.json"), payload, separators=(",", ":"))
     log.info(f"Wrote radar.json — {len(top)} picks")
 
+    # --- Early Movers: momentum-emergence + catalyst + conviction ---
+    technicals = _load("technicals.json")
+    earnings_days = fetch_earnings_days(today)
+    movers = compute_early_movers(technicals, universe, stocks, clusters, congress_buys, earnings_days)
+    em_payload = {"generatedAt": datetime.now(timezone.utc).isoformat(),
+                  "count": len(movers), "earningsCatalog": len(earnings_days), "movers": movers}
+    _atomic_dump(os.path.join(out_dir, "early_movers.json"), em_payload, separators=(",", ":"))
+    log.info(f"Wrote early_movers.json — {len(movers)} early movers "
+             f"({sum(1 for m in movers if m['earningsInDays'] is not None)} with an upcoming earnings catalyst)")
+
     if REPO_DIR:
-        scanner_git.commit_and_push(REPO_DIR, ["radar.json"],
-                                    f"radar update {datetime.now(timezone.utc).isoformat()}")
+        scanner_git.commit_and_push(REPO_DIR, ["radar.json", "early_movers.json"],
+                                    f"radar + early movers update {datetime.now(timezone.utc).isoformat()}")
 
 
 if __name__ == "__main__":

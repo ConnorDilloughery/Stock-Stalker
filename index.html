@@ -184,6 +184,7 @@
         <div class="tab-group-label">Buyer Radar</div>
         <div class="tabs">
           <button class="tab" data-tab="radar">★ Radar</button>
+          <button class="tab" data-tab="earlymovers">⚡ Early Movers</button>
         </div>
       </div>
       <div class="tab-group">
@@ -235,6 +236,7 @@
       </div>
     </nav>
     <div id="tab-radar" class="hidden"></div>
+    <div id="tab-earlymovers" class="hidden"></div>
     <div id="tab-market"></div>
     <div id="tab-sectors" class="hidden"></div>
     <div id="tab-scout" class="hidden"></div>
@@ -903,6 +905,7 @@ state.legendLookup = "";  // ticker typed into the Legends "Look up" tab
 state.allFour = { sector: "Any sector", results: [], scanning: false, error: null, scanned: false };
 // Radar (buyer resource): reads radar.json published by radar_scanner.py.
 state.radarData = null; state.radarLoading = false; state.radarError = null; state.radarMissing = false;
+state.earlyMoversData = null; state.emLoading = false; state.emError = null; state.emMissing = false;
 
 // Map one Full-Market (stocks.json) record into the shape the strategy checks
 // expect. This is the whole speed win: no live Finnhub calls — the ~1,200
@@ -1328,6 +1331,71 @@ function renderRadar() {
   if (!d && !state.radarLoading && !state.radarError && !state.radarMissing) loadRadarData(false);
   // Load legend data once (for the "Also passes" annotations) if it isn't yet.
   if (lp.all.length === 0 && !state.radarLegendKicked) { state.radarLegendKicked = true; ensureLegendData().then(renderRadar); }
+}
+
+/* ---------- Early Movers ---------- */
+
+async function loadEarlyMoversData(force) {
+  if ((state.earlyMoversData || state.emMissing) && !force) return;
+  state.emLoading = true; state.emError = null;
+  renderEarlyMovers();
+  try {
+    const res = await fetch(DATA_BASE + "/early_movers.json?ts=" + Date.now());
+    if (res.status === 404) { state.emMissing = true; state.earlyMoversData = null; }
+    else if (!res.ok) throw new Error("HTTP " + res.status);
+    else { state.earlyMoversData = await res.json(); state.emMissing = false; }
+  } catch (e) {
+    state.emError = "Couldn't load Early Movers (" + e.message + ").";
+  }
+  state.emLoading = false;
+  renderEarlyMovers();
+}
+
+function emSignalChip(label) {
+  let bg = "#EEE7F5", fg = "#6B4FA0"; // technical / momentum (purple)
+  if (/earnings/i.test(label)) { bg = "#F6EEDD"; fg = "#9A6B1B"; }                        // catalyst (amber)
+  else if (/insider|congress|\bBuy\b|Accumulate/i.test(label)) { bg = "#E3F1EA"; fg = "#1E7A5A"; } // conviction (green)
+  return `<span class="chip" style="background:${bg};color:${fg}">${escapeHtml(label)}</span>`;
+}
+
+function earlyMoverCardHtml(m) {
+  const meta = [m.sector, m.rsRank != null ? "RS " + m.rsRank : null, m.rsi != null ? "RSI " + Math.round(m.rsi) : null].filter(Boolean).join(" · ");
+  const chips = (m.signals || []).map(emSignalChip).join(" ");
+  return `
+    <div class="card">
+      <div class="card-head">
+        <div>
+          <div class="ticker-row">
+            <span class="ticker">${escapeHtml(m.ticker)}</span>
+            <span class="chip" style="background:#16232E;color:#fff">${m.signalCount} signal${m.signalCount === 1 ? "" : "s"} · score ${m.emScore}</span>
+          </div>
+          <div class="name">${escapeHtml(meta)}</div>
+        </div>
+        ${m.price != null ? `<div class="price-block"><div class="price">$${m.price.toFixed(2)}</div>${m.uptrend ? `<div class="upside" style="color:var(--kelp)">in uptrend</div>` : ""}</div>` : ""}
+      </div>
+      <div class="chips" style="margin-top:10px">${chips}</div>
+    </div>`;
+}
+
+function renderEarlyMovers() {
+  const root = document.getElementById("tab-earlymovers");
+  if (!root) return;
+  const d = state.earlyMoversData;
+  const updated = d ? new Date(d.generatedAt).toLocaleString() : null;
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">Early Movers — coiled before the pop</div>
+      <p class="panel-copy">Names that are <em>starting</em> to move but aren't stretched yet: real emerging momentum — reclaiming a rising 50-day average, MACD turning up, relative strength climbing, volume expanding, still near a base — combined with an <strong>upcoming earnings catalyst</strong> and standing <strong>insider / congress conviction</strong>, ranked by how much stacks up. ${updated ? `Refreshed hourly by the Pi. Last updated: <strong>${escapeHtml(updated)}</strong> · ${d.count} movers.` : ""}</p>
+      <div class="baked"><strong>This is not a prediction.</strong> Nothing can know the direction of an earnings surprise — this surfaces coiled setups with better-than-average odds, and it <em>will</em> miss moves and flag false positives. Positioning into earnings is a genuine risk. Research <em>why</em> before acting, and don't chase a name that has already run.</div>
+      <button class="btn btn-big" id="emRefresh">${state.emLoading ? "Loading…" : "Refresh from Pi"}</button>
+    </div>
+    ${state.emMissing ? `<div class="baked">Early Movers isn't published yet — it fills in on the next Radar run once the technicals feed has data.</div>` : ""}
+    ${state.emError ? `<div class="error">${escapeHtml(state.emError)}</div>` : ""}
+    ${d && d.movers && d.movers.length === 0 ? `<div class="baked">No early movers cleared the screen this run — the market may be quiet, or the technicals feed is still populating.</div>` : ""}
+    <div>${d && d.movers ? d.movers.map(earlyMoverCardHtml).join("") : ""}</div>`;
+  const btn = document.getElementById("emRefresh");
+  if (btn) btn.addEventListener("click", () => loadEarlyMoversData(true));
+  if (!d && !state.emLoading && !state.emError && !state.emMissing) loadEarlyMoversData(false);
 }
 
 function healthChips(s) {
@@ -3353,9 +3421,10 @@ function requireKey(action) {
 
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
-  ["radar", "scout", "graham", "lynch", "oneil", "murphy", "allfour", "legendlookup", "market", "sectors", "etfs", "holdings", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "backtest", "health", "learn"].forEach(id =>
+  ["radar", "earlymovers", "scout", "graham", "lynch", "oneil", "murphy", "allfour", "legendlookup", "market", "sectors", "etfs", "holdings", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "backtest", "health", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
   if (t.dataset.tab === "holdings") ensureHoldingsData();
+  if (t.dataset.tab === "earlymovers") renderEarlyMovers();
 }));
 
 document.getElementById("saveKey").addEventListener("click", async () => {
