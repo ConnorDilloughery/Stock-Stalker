@@ -1,0 +1,13 @@
+[Unit]
+Description=Run the Undercurrent technicals scanner twice a day
+
+[Timer]
+# Moving averages, RSI, MACD and relative strength move slowly day-to-day, and
+# a full pass fetches hundreds of charts from a free endpoint — so twice daily
+# is plenty and stays polite. Runs mid-morning and late afternoon ET-ish.
+OnCalendar=*-*-* 06,16:40:00
+Persistent=true
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target

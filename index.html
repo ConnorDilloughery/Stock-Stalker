@@ -837,7 +837,7 @@ const STRATEGIES = [
     title: "William O'Neil — CAN SLIM Growth",
     blurb: "From How to Make Money in Stocks: fast-growing earnings leaders breaking out on strength, bought only in a rising market.",
     minPct: 66,
-    naNote: "Quarterly and annual EPS growth now use real Finnhub data. Float, a volume spike, institutional fund count, market direction and chart patterns still aren't in the Full Market data, so they show “—”. Relative Strength is approximated by ranking each name's proximity to its 52-week high across the whole market.",
+    naNote: "Quarterly and annual EPS growth use real Finnhub data; Relative Strength (L) is a 12-month market-relative return rank and the market check (M) reads SPY's 50/200-day trend — both from real daily price history where a name is in the technicals set (else “—”). Share float, the institutional-fund count and chart-pattern recognition still aren't in the free data, so they stay “—”.",
     checks: [
       { label: "C — Quarterly EPS up ≥ 25% year-over-year", test: d => {
         const q = sNum(d.epsGrowthQtrYoy), g = q != null ? q : sNum(d.epsGrowthTTMYoy);
@@ -850,11 +850,16 @@ const STRATEGIES = [
         const h = sNum(d.high52), p = sNum(d.price); if (h == null || p == null) return sChk("na", "52-week high unavailable");
         const off = (h - p) / h * 100; return sChk(off <= 5 ? "pass" : "fail", "within " + off.toFixed(0) + "% of its 52-week high"); } },
       { label: "L — Relative Strength ≥ 80 (a leader, not a laggard)", test: d => {
-        const rs = sNum(d.rsApprox); if (rs == null) return sChk("na", "not enough data to rank");
-        return sChk(rs >= 80 ? "pass" : "fail", "approx RS " + rs + " — ranked by proximity to 52-week high across the market"); } },
-      { label: "S — Low float + volume spike on breakout", test: () => sChk("na", "float & intraday volume are premium data") },
+        const real = sNum(d.rsRank), rs = real != null ? real : sNum(d.rsApprox);
+        if (rs == null) return sChk("na", "not enough data to rank");
+        return sChk(rs >= 80 ? "pass" : "fail", "RS " + rs + (real != null ? " — 12-mo return rank vs the market" : " — approx from 52-wk-high proximity")); } },
+      { label: "S — Low float + volume spike on breakout", test: d => {
+        if (d.volTrendUp == null) return sChk("na", "float & volume-spike data unavailable");
+        return sChk("na", (d.volTrendUp ? "volume is rising" : "volume not rising") + ", but share float isn't in the data"); } },
       { label: "I — Owned by 3–5 top institutional funds", test: () => sChk("na", "institutional fund holdings not in free data") },
-      { label: "M — Overall market in a confirmed uptrend", test: () => sChk("na", "confirm the major indexes are trending up yourself before buying") },
+      { label: "M — Overall market in a confirmed uptrend", test: d => {
+        if (d.marketUptrend == null) return sChk("na", "confirm the major indexes are trending up yourself before buying");
+        return sChk(d.marketUptrend ? "pass" : "fail", "SPY's 50-day is " + (d.marketUptrend ? "above" : "below") + " its 200-day average"); } },
       { label: "Breaking out of a cup-and-handle / base pattern", test: () => sChk("na", "chart-pattern recognition needs price-history data") },
     ],
   },
@@ -863,9 +868,12 @@ const STRATEGIES = [
     title: "John Murphy — Trend & Momentum",
     blurb: "From Technical Analysis of the Financial Markets: ignore the financials, follow price. Note: this is the most data-limited screen — most true technical checks need premium price-history data.",
     minPct: 100,
-    naNote: "This is the most data-limited screen: the Full Market data is a fundamentals snapshot with no daily price history, so real 50/200-day moving-average crossovers, RSI/MACD, support-vs-resistance and volume confirmation all show “—”. The two checks below are honest proxies built from each name's position within its 52-week range.",
+    naNote: "Moving-average trend, RSI/MACD and volume confirmation now come from real daily price history (technicals.json), computed for the names nearest their 52-week highs. A name outside that set — or before the first technicals run — still shows “—” for those. Chart-pattern recognition and the exact support/resistance read remain beyond a single free feed.",
     checks: [
-      { label: "Trend alignment (50-day above 200-day MA)", test: () => sChk("na", "daily price history for moving averages isn't in the Full Market data") },
+      { label: "Trend alignment (50-day above 200-day MA)", test: d => {
+        const a = sNum(d.sma50), b = sNum(d.sma200);
+        if (a == null || b == null) return sChk("na", "moving-average history not available for this name");
+        return sChk(a > b ? "pass" : "fail", "50-day $" + a.toFixed(2) + (a > b ? " above " : " below ") + "200-day $" + b.toFixed(2)); } },
       { label: "In the top third of its 52-week range", test: d => {
         const h = sNum(d.high52), l = sNum(d.low52), p = sNum(d.price);
         if (h == null || l == null || p == null || h === l) return sChk("na", "range data unavailable");
@@ -874,8 +882,16 @@ const STRATEGIES = [
       { label: "Within 12% of its 52-week high (uptrend confirmation)", test: d => {
         const dd = sNum(d.discount); if (dd == null) return sChk("na", "discount data unavailable");
         return sChk(dd <= 0.12 ? "pass" : "fail", (dd * 100).toFixed(0) + "% below its 52-week high — proxy for a confirmed uptrend"); } },
-      { label: "Volume confirming the move (rising on up-days)", test: () => sChk("na", "daily volume history isn't in the Full Market data") },
-      { label: "RSI / MACD bullish but not overextended", test: () => sChk("na", "RSI & MACD need price history not in the Full Market data") },
+      { label: "Volume confirming the move (rising on up-days)", test: d => {
+        if (d.volTrendUp == null) return sChk("na", "daily volume history not available for this name");
+        return sChk(d.volTrendUp ? "pass" : "fail", d.volTrendUp ? "10-day volume above its 50-day average" : "10-day volume below its 50-day average"); } },
+      { label: "RSI / MACD bullish but not overextended", test: d => {
+        const r = sNum(d.rsi), mb = d.macdBull;
+        if (r == null && mb == null) return sChk("na", "RSI & MACD history not available for this name");
+        const overext = r != null && r >= 70;
+        const ok = mb === true && !overext;
+        const detail = "RSI " + (r != null ? r.toFixed(0) : "—") + ", MACD " + (mb === true ? "bullish" : mb === false ? "bearish" : "—") + (overext ? " (overbought)" : "");
+        return sChk(ok ? "pass" : "fail", detail); } },
     ],
   },
 ];
@@ -897,6 +913,8 @@ state.radarData = null; state.radarLoading = false; state.radarError = null; sta
 function buildDFromMarket(s, rs) {
   const pe = sNum(s.pe), peg = sNum(s.peg);
   const impliedGrowth = (pe != null && peg != null && peg > 0) ? pe / peg : null;
+  const tech = (state.technicalsData && state.technicalsData.byTicker && state.technicalsData.byTicker[s.ticker]) || null;
+  const mkt = (state.technicalsData && state.technicalsData.market) || null;
   return {
     ticker: s.ticker, sector: s.sector, price: sNum(s.price),
     pe, pb: sNum(s.pb),
@@ -912,6 +930,12 @@ function buildDFromMarket(s, rs) {
     ret52: null, ret26: null, ret13: null,
     marketCap: sNum(s.cap), recTotal: sNum(s.recTotal),
     rsApprox: rs,
+    // Real daily-price-history indicators (technicals.json), merged by ticker.
+    sma50: tech ? sNum(tech.sma50) : null, sma200: tech ? sNum(tech.sma200) : null,
+    rsi: tech ? sNum(tech.rsi) : null, macdBull: tech ? tech.macdBull : null,
+    volTrendUp: tech ? tech.volTrendUp : null,
+    rsRank: (tech && tech.rsRank != null) ? tech.rsRank : null,
+    marketUptrend: mkt ? mkt.uptrend : null,
     score: sNum(s.score), // the app's own conviction score — used to rank qualifiers
   };
 }
@@ -934,9 +958,25 @@ function legendPool() {
 
 // Load the Legends data pool if it isn't already, then return legendPool().
 async function ensureLegendData() {
-  await loadUniverseData(false);
+  await Promise.all([loadUniverseData(false), loadTechnicalsData(false)]);
   if (!state.universeData && !state.marketData) await loadMarketData(false);
   return legendPool();
+}
+
+// Daily-price-history indicators (50/200-day MA, RSI, MACD, volume trend,
+// market-relative RS) published by technicals_scanner.py. Optional: names not
+// covered (or if the file doesn't exist yet) simply keep showing "—".
+async function loadTechnicalsData(force) {
+  if ((state.technicalsData || state.technicalsMissing) && !force) return;
+  try {
+    const res = await fetch(DATA_BASE + "/technicals.json?ts=" + Date.now());
+    if (res.status === 404) { state.technicalsMissing = true; return; }
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    state.technicalsData = await res.json();
+    state.technicalsMissing = false;
+  } catch (e) {
+    state.technicalsMissing = true;
+  }
 }
 
 // Evaluate one strategy's checklist against a prepared record `d`, attaching

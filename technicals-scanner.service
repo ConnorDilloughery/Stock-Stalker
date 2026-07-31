@@ -1,0 +1,15 @@
+[Unit]
+Description=Undercurrent technicals (daily price-history indicators for the Legends screens)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=connor
+WorkingDirectory=/home/connor/undercurrent-scanner
+EnvironmentFile=/home/connor/undercurrent-scanner/scanner.env
+ExecStart=/usr/bin/python3 /home/connor/undercurrent-scanner/technicals_scanner.py
+# A full pass fetches ~800 charts at ~0.4s each; give it generous headroom.
+TimeoutStartSec=3600
+StandardOutput=append:/home/connor/undercurrent-scanner/technicals.log
+StandardError=append:/home/connor/undercurrent-scanner/technicals.log
