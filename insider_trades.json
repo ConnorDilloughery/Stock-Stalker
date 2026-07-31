@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-31T10:03:31.978254+00:00",
+  "generatedAt": "2026-07-31T11:03:00.707002+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1314,
+  "count": 1317,
   "trades": [
     {
       "ticker": "CARE",
@@ -231,6 +231,26 @@
       "type": "Purchase",
       "shares": 1068.0,
       "pricePerShare": 78.3705,
+      "transactionDate": "2026-07-30"
+    },
+    {
+      "ticker": "AVR",
+      "issuerName": "Anteris Technologies Global Corp.",
+      "insiderName": "L1 Capital Pty Ltd",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 558633.0,
+      "pricePerShare": 8.2,
+      "transactionDate": "2026-07-30"
+    },
+    {
+      "ticker": "YQ",
+      "issuerName": "17 Education & Technology Group Inc.",
+      "insiderName": "Liu Chang",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 500.0,
+      "pricePerShare": 1.8628,
       "transactionDate": "2026-07-30"
     },
     {
@@ -1211,6 +1231,16 @@
       "type": "Purchase",
       "shares": 1051.0,
       "pricePerShare": 78.5495,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "AVR",
+      "issuerName": "Anteris Technologies Global Corp.",
+      "insiderName": "L1 Capital Pty Ltd",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 155505.0,
+      "pricePerShare": 8.04,
       "transactionDate": "2026-07-29"
     },
     {
@@ -13995,6 +14025,106 @@
         }
       ]
     },
+    "AVR": {
+      "issuerName": "Anteris Technologies Global Corp.",
+      "trades": [
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 558633.0,
+          "pricePerShare": 8.2,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 155505.0,
+          "pricePerShare": 8.04,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 208731.0,
+          "pricePerShare": 8.09,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 232817.0,
+          "pricePerShare": 8.19,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 23000.0,
+          "pricePerShare": 8.13,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 5000000.0,
+          "pricePerShare": 5.75,
+          "transactionDate": "2026-01-22"
+        }
+      ]
+    },
+    "YQ": {
+      "issuerName": "17 Education & Technology Group Inc.",
+      "trades": [
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 500.0,
+          "pricePerShare": 1.8628,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 9287.0,
+          "pricePerShare": 2.1696,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 7633.0,
+          "pricePerShare": 2.0813,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
     "EQBK": {
       "issuerName": "EQUITY BANCSHARES INC",
       "trades": [
@@ -19680,51 +19810,6 @@
         }
       ]
     },
-    "AVR": {
-      "issuerName": "Anteris Technologies Global Corp.",
-      "trades": [
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 208731.0,
-          "pricePerShare": 8.09,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 232817.0,
-          "pricePerShare": 8.19,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 23000.0,
-          "pricePerShare": 8.13,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 5000000.0,
-          "pricePerShare": 5.75,
-          "transactionDate": "2026-01-22"
-        }
-      ]
-    },
     "NNOX": {
       "issuerName": "Nano-X Imaging Ltd.",
       "trades": [
@@ -25085,31 +25170,6 @@
         }
       ]
     },
-    "YQ": {
-      "issuerName": "17 Education & Technology Group Inc.",
-      "trades": [
-        {
-          "ticker": "YQ",
-          "issuerName": "17 Education & Technology Group Inc.",
-          "insiderName": "Liu Chang",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 9287.0,
-          "pricePerShare": 2.1696,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "YQ",
-          "issuerName": "17 Education & Technology Group Inc.",
-          "insiderName": "Liu Chang",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 7633.0,
-          "pricePerShare": 2.0813,
-          "transactionDate": "2026-07-17"
-        }
-      ]
-    },
     "TOI": {
       "issuerName": "Oncology Institute, Inc.",
       "trades": [
@@ -28263,6 +28323,11 @@
       "0000950103-26-011492",
       "0000950103-26-011493",
       "0000950103-26-011495",
+      "0000950103-26-011522",
+      "0000950103-26-011523",
+      "0000950103-26-011526",
+      "0000950103-26-011527",
+      "0000950103-26-011528",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -28298,6 +28363,7 @@
       "0001046179-26-000455",
       "0001046179-26-000457",
       "0001046179-26-000461",
+      "0001046179-26-000463",
       "0001047058-26-000009",
       "0001049521-26-000034",
       "0001050269-26-000011",
@@ -28573,6 +28639,8 @@
       "0001104659-26-088814",
       "0001104659-26-088827",
       "0001104659-26-088828",
+      "0001104659-26-088883",
+      "0001104659-26-088884",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -28760,6 +28828,8 @@
       "0001140361-26-030227",
       "0001140361-26-030276",
       "0001140361-26-030278",
+      "0001140361-26-030305",
+      "0001140361-26-030308",
       "0001160077-26-000003",
       "0001162044-26-000644",
       "0001167691-26-000004",
@@ -29520,8 +29590,13 @@
       "0001193125-26-326486",
       "0001193125-26-326487",
       "0001193125-26-326503",
+      "0001193125-26-326531",
+      "0001193125-26-326535",
       "0001193125-26-326536",
       "0001193125-26-326537",
+      "0001193125-26-326663",
+      "0001193125-26-326704",
+      "0001193125-26-326741",
       "0001196460-26-000004",
       "0001196484-26-000014",
       "0001201252-26-000010",
@@ -29821,7 +29896,20 @@
       "0001213900-26-083435",
       "0001213900-26-083436",
       "0001213900-26-083464",
+      "0001213900-26-083523",
+      "0001213900-26-083526",
+      "0001213900-26-083527",
+      "0001213900-26-083528",
+      "0001213900-26-083529",
+      "0001213900-26-083530",
+      "0001213900-26-083531",
+      "0001213900-26-083534",
+      "0001213900-26-083535",
+      "0001213900-26-083538",
       "0001213900-26-083547",
+      "0001213900-26-083556",
+      "0001213900-26-083567",
+      "0001213900-26-083581",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -30934,6 +31022,7 @@
       "0001817646-26-000012",
       "0001817646-26-000013",
       "0001817646-26-000014",
+      "0001817646-26-000015",
       "0001818383-26-000190",
       "0001818383-26-000191",
       "0001818383-26-000193",
@@ -32570,6 +32659,20 @@
       "0001918704-26-021936",
       "0001918704-26-021948",
       "0001918704-26-021967",
+      "0001918704-26-021972",
+      "0001918704-26-021973",
+      "0001918704-26-021974",
+      "0001918704-26-021975",
+      "0001918704-26-021976",
+      "0001918704-26-021977",
+      "0001918704-26-021978",
+      "0001918704-26-021979",
+      "0001918704-26-021980",
+      "0001918704-26-021981",
+      "0001918704-26-021982",
+      "0001918704-26-022001",
+      "0001918704-26-022008",
+      "0001918704-26-022009",
       "0001921051-26-000012",
       "0001929185-26-000012",
       "0001932635-26-000003",
