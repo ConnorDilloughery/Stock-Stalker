@@ -43,6 +43,7 @@ USER_AGENT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 
 MAX_TECH = int(os.environ.get("MAX_TECH", "800"))  # how many names to fetch history for
+LARGE_CAP_ALWAYS = 250  # always cover the N largest-cap names, even if they're not near a high
 FETCH_DELAY = 0.4                                    # be polite to the free endpoint
 HISTORY_DAYS = 420                                   # calendar days requested (~280 trading days)
 
@@ -205,18 +206,37 @@ def indicators_for(closes, vols):
 
 
 def pick_candidates(universe, stocks):
-    """Momentum leaders first (nearest their 52-week high), which is what the
-    technical screens care about, then fill with value names; capped."""
+    """Which names to compute technicals for, in priority order:
+      1. the LARGE_CAP_ALWAYS biggest companies — so household names (NVDA,
+         AAPL, MSFT...) always get a technical read even when they're well off
+         their 52-week high and wouldn't make the momentum cut;
+      2. momentum leaders (nearest their 52-week high) — what O'Neil/Murphy and
+         Early Movers care about;
+      3. remaining value-screen names.
+    Capped at MAX_TECH."""
     uni = [s for s in universe.get("stocks", []) if s.get("ticker")]
-    # nearest-high first (smallest discount). None discounts sort last.
-    uni.sort(key=lambda s: (s.get("discount") if isinstance(s.get("discount"), (int, float)) else 1.0))
-    order = [s["ticker"] for s in uni]
-    seen = set(order)
-    for s in stocks.get("stocks", []):
-        tk = s.get("ticker")
+    order, seen = [], set()
+
+    def add(tk):
         if tk and tk not in seen:
             order.append(tk)
             seen.add(tk)
+
+    by_cap = sorted((s for s in uni if isinstance(s.get("cap"), (int, float))),
+                    key=lambda s: s["cap"], reverse=True)
+    for s in by_cap[:LARGE_CAP_ALWAYS]:
+        add(s["ticker"])
+
+    for s in sorted(uni, key=lambda s: (s.get("discount") if isinstance(s.get("discount"), (int, float)) else 1.0)):
+        if len(order) >= MAX_TECH:
+            break
+        add(s["ticker"])
+
+    for s in stocks.get("stocks", []):
+        if len(order) >= MAX_TECH:
+            break
+        add(s.get("ticker"))
+
     return order[:MAX_TECH]
 
 
