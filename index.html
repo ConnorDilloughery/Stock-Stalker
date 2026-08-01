@@ -1490,7 +1490,7 @@ function bullBearResultHtml(r) {
         <div>
           <div class="ticker-row"><span class="ticker">${escapeHtml(r.ticker)}</span>
             <span class="chip" style="${HOLD_CHIP[r.tone]}">${r.verdict}</span></div>
-          <div class="name">${escapeHtml([r.sector, r.covered ? null : "no technicals for this name"].filter(Boolean).join(" · "))}</div>
+          <div class="name">${escapeHtml([r.sector, r.source === "live" ? "live lookup" : "Pi scan data", r.covered ? null : "no technicals for this name"].filter(Boolean).join(" · "))}</div>
         </div>
         ${r.price != null ? `<div class="price-block"><div class="price">$${r.price.toFixed(2)}</div></div>` : ""}
       </div>
@@ -1502,15 +1502,64 @@ function bullBearResultHtml(r) {
     </div>`;
 }
 
+// Build a bull/bear input record from the Pi's already-published scan data
+// (no API key needed). stocks.json is richest (adds value signal + analyst
+// ratings); universe.json covers the rest of the market. Returns null when the
+// ticker isn't in either, so the caller falls back to a live Finnhub lookup.
+function bullBearFromPushed(tk) {
+  const inStocks = state.marketData && state.marketData.stocks && state.marketData.stocks.find(x => x.ticker === tk);
+  const inUni = state.universeData && state.universeData.stocks && state.universeData.stocks.find(x => x.ticker === tk);
+  const row = inStocks || inUni;
+  if (!row) return null;
+  const q = (row.qPass != null && row.qMax != null) ? { qPass: row.qPass, qMax: row.qMax } : deriveQuality(row);
+  const pe = num(row.pe), peg = num(row.peg);
+  const growth = num(row.epsGrowth5Y) != null ? num(row.epsGrowth5Y) : (pe != null && peg != null && peg > 0 ? pe / peg : null);
+  return {
+    ticker: tk, sector: row.sector, price: num(row.price), pe, discount: num(row.discount), peg, growth,
+    qPass: q.qPass, qMax: q.qMax,
+    strongBuy: row.strongBuy, buy: row.buy, hold: row.hold, sell: row.sell, strongSell: row.strongSell, recTotal: row.recTotal,
+    signal: row.signal,
+    preProfit: pe != null && pe <= 0,
+  };
+}
+
 async function runBullBear() {
   const inp = document.getElementById("bbInput");
-  const val = inp ? inp.value : state.bullBearValue;
+  const val = (inp ? inp.value : state.bullBearValue) || "";
+  const tk = val.trim().toUpperCase();
   state.bullBearValue = val;
+  if (!/^[A-Z.\-]{1,6}$/.test(tk)) {
+    state.bullBearError = "Enter a valid ticker symbol (e.g. AAPL)."; state.bullBearResult = null;
+    renderBullBear(); return;
+  }
+  state.bullBearLoading = true; state.bullBearError = null; state.bullBearResult = null;
+  renderBullBear();
+  try {
+    // Key-free path: the Pi's published data covers ~1,000+ names.
+    await Promise.all([loadMarketData(false), loadUniverseData(false), loadTechnicalsData(false)]);
+    const s = bullBearFromPushed(tk);
+    if (s) {
+      const tech = (state.technicalsData && state.technicalsData.byTicker && state.technicalsData.byTicker[tk]) || null;
+      const a = bullBearAnalysis(s, tech);
+      state.bullBearResult = Object.assign({ ticker: tk, price: s.price, sector: s.sector, covered: !!tech, source: "scan" }, a);
+      state.bullBearLoading = false; renderBullBear();
+      return;
+    }
+  } catch (e) {
+    state.bullBearError = "Something went wrong (" + e.message + ")."; state.bullBearLoading = false;
+    renderBullBear(); return;
+  }
+  // Not in the Pi's data — fall back to a live Finnhub lookup (needs a key).
+  state.bullBearLoading = false; renderBullBear();
+  requireKey(() => runBullBearLive(tk));
+}
+
+async function runBullBearLive(tk) {
   state.bullBearLoading = true; state.bullBearError = null; state.bullBearResult = null;
   renderBullBear();
   try {
     await loadTechnicalsData(false);
-    const res = await lookupTicker(val);
+    const res = await lookupTicker(tk);
     if (res.error) {
       state.bullBearError = res.error;
     } else {
@@ -1521,7 +1570,7 @@ async function runBullBear() {
       if (!s) throw new Error("no data");
       const tech = (state.technicalsData && state.technicalsData.byTicker && state.technicalsData.byTicker[s.ticker]) || null;
       const a = bullBearAnalysis(s, tech);
-      state.bullBearResult = Object.assign({ ticker: s.ticker, price: s.price, sector: s.sector, covered: !!tech }, a);
+      state.bullBearResult = Object.assign({ ticker: s.ticker, price: s.price, sector: s.sector, covered: !!tech, source: "live" }, a);
     }
   } catch (e) {
     if (e.message === "BADKEY") {
@@ -1548,15 +1597,15 @@ function renderBullBear() {
         <input type="text" id="bbInput" placeholder="Ticker (e.g. AAPL)" style="flex:1;min-width:160px" autocomplete="off" value="${escapeHtml(state.bullBearValue || "")}">
         <button class="btn" id="bbBtn">${state.bullBearLoading ? "Analyzing…" : "Analyze"}</button>
       </div>
-      <div class="baked" style="margin-bottom:0;font-size:12.5px">Uses your Finnhub key for live fundamentals &amp; analyst ratings; the trend/RSI/MACD/relative-strength come from the Pi's daily-history feed when the name is in it. Research tool, not advice.</div>
+      <div class="baked" style="margin-bottom:0;font-size:12.5px">Instant and key-free for the ~1,000+ names the Pi already tracks. For anything outside that set it falls back to a live Finnhub lookup (your key). Research tool, not advice.</div>
     </div>
     ${state.bullBearLoading ? `<div class="progress-wrap"><div class="progress-line">Weighing the evidence for ${escapeHtml((state.bullBearValue || "").trim().toUpperCase() || "that ticker")}…</div><div class="progress-track"><div class="progress-fill" style="width:60%"></div></div></div>` : ""}
     ${state.bullBearError ? `<div class="error">${escapeHtml(state.bullBearError)}</div>` : ""}
     ${state.bullBearResult ? bullBearResultHtml(state.bullBearResult) : ""}`;
   const btn = document.getElementById("bbBtn");
-  if (btn) btn.addEventListener("click", () => requireKey(runBullBear));
+  if (btn) btn.addEventListener("click", () => runBullBear());
   const inp = document.getElementById("bbInput");
-  if (inp) inp.addEventListener("keydown", e => { if (e.key === "Enter") requireKey(runBullBear); });
+  if (inp) inp.addEventListener("keydown", e => { if (e.key === "Enter") runBullBear(); });
 }
 
 function healthChips(s) {
