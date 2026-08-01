@@ -185,6 +185,7 @@
         <div class="tabs">
           <button class="tab" data-tab="radar">★ Radar</button>
           <button class="tab" data-tab="earlymovers">⚡ Early Movers</button>
+          <button class="tab" data-tab="bullbear">Bull / Bear</button>
         </div>
       </div>
       <div class="tab-group">
@@ -237,6 +238,7 @@
     </nav>
     <div id="tab-radar" class="hidden"></div>
     <div id="tab-earlymovers" class="hidden"></div>
+    <div id="tab-bullbear" class="hidden"></div>
     <div id="tab-market"></div>
     <div id="tab-sectors" class="hidden"></div>
     <div id="tab-scout" class="hidden"></div>
@@ -565,7 +567,7 @@ function extractQuality(m, pe) {
   ];
   const qMax = checks.filter(c => c !== null).length;
   const qPass = checks.filter(c => c === true).length;
-  return { de, cr, roe, peg, ps, divYield, beta, qPass, qMax };
+  return { de, cr, roe, peg, growth, ps, divYield, beta, qPass, qMax };
 }
 
 function median(arr) {
@@ -906,6 +908,7 @@ state.allFour = { sector: "Any sector", results: [], scanning: false, error: nul
 // Radar (buyer resource): reads radar.json published by radar_scanner.py.
 state.radarData = null; state.radarLoading = false; state.radarError = null; state.radarMissing = false;
 state.earlyMoversData = null; state.emLoading = false; state.emError = null; state.emMissing = false;
+state.bullBearValue = ""; state.bullBearResult = null; state.bullBearError = null; state.bullBearLoading = false;
 
 // Map one Full-Market (stocks.json) record into the shape the strategy checks
 // expect. This is the whole speed win: no live Finnhub calls — the ~1,200
@@ -1396,6 +1399,164 @@ function renderEarlyMovers() {
   const btn = document.getElementById("emRefresh");
   if (btn) btn.addEventListener("click", () => loadEarlyMoversData(true));
   if (!d && !state.emLoading && !state.emError && !state.emMissing) loadEarlyMoversData(false);
+}
+
+/* ---------- Bull / Bear ---------- */
+
+// Weigh the evidence for one stock: trend, momentum, relative strength,
+// valuation, growth, financial health and analyst lean → a bull case, a bear
+// case, and an overall verdict. Transparent (shows every reason), not a
+// black-box score, and explicitly not a prediction.
+function bullBearAnalysis(s, tech) {
+  const bull = [], bear = [], neutral = [];
+  const price = s.price;
+  if (tech) {
+    const s50 = num(tech.sma50), s200 = num(tech.sma200), rsi = num(tech.rsi);
+    if (s50 != null && s200 != null && price != null) {
+      if (price >= s50 && s50 > s200) bull.push("Uptrend — price above a rising 50-day average, 50-day above the 200-day");
+      else if (price < s50 && s50 < s200) bear.push("Downtrend — price below both the 50- and 200-day averages");
+      else neutral.push("Mixed trend — price and moving averages aren't aligned yet");
+    }
+    if (tech.macdBull === true) bull.push("MACD is bullish — momentum turning up");
+    else if (tech.macdBull === false) bear.push("MACD is bearish — momentum pointing down");
+    if (rsi != null) {
+      if (rsi >= 70) neutral.push("Overbought — RSI " + Math.round(rsi) + " (strong, but stretched short-term)");
+      else if (rsi <= 30) neutral.push("Oversold — RSI " + Math.round(rsi) + " (weak, but possibly washed out)");
+      else if (rsi >= 50) bull.push("Positive momentum — RSI " + Math.round(rsi));
+      else bear.push("Weak momentum — RSI " + Math.round(rsi));
+    }
+    const rsr = num(tech.rsRank);
+    if (rsr != null) {
+      if (rsr >= 80) bull.push("Market leader — relative strength " + rsr + "/99 vs the market");
+      else if (rsr <= 30) bear.push("Laggard — relative strength " + rsr + "/99 vs the market");
+    }
+    if (tech.volTrendUp === true) bull.push("Volume expanding — rising interest");
+    else if (tech.volTrendUp === false) neutral.push("Volume not expanding");
+  } else {
+    neutral.push("No daily-price-history indicators for this name (outside the technicals set) — trend, RSI and MACD aren't scored here");
+  }
+  if (s.discount != null) {
+    if (s.discount <= 0.05) bull.push("Trading right near its 52-week high (" + Math.round(s.discount * 100) + "% below)");
+    else if (s.discount >= 0.4) bear.push("Deep below its 52-week high (" + Math.round(s.discount * 100) + "% off)");
+  }
+  if (s.preProfit) bear.push("Unprofitable — no positive earnings yet (a story stock, higher risk)");
+  else if (s.pe != null) {
+    if (s.pe > 0 && s.pe <= 25) bull.push("Reasonable valuation — P/E " + s.pe.toFixed(1));
+    else if (s.pe > 45) bear.push("Expensive — P/E " + s.pe.toFixed(1));
+  }
+  if (num(s.peg) != null) {
+    if (s.peg <= 1) bull.push("Cheap for its growth — PEG " + s.peg.toFixed(2));
+    else if (s.peg >= 3) bear.push("Expensive for its growth — PEG " + s.peg.toFixed(2));
+  }
+  if (num(s.growth) != null) {
+    if (s.growth >= 15) bull.push("Earnings growing ~" + Math.round(s.growth) + "%/yr");
+    else if (s.growth < 0) bear.push("Earnings shrinking (~" + Math.round(s.growth) + "%/yr)");
+  }
+  if (s.qMax > 0) {
+    const frac = s.qPass / s.qMax;
+    if (frac >= 0.75) bull.push("Healthy financials — " + s.qPass + "/" + s.qMax + " balance-sheet checks passed");
+    else if (frac <= 0.25) bear.push("Weak financials — only " + s.qPass + "/" + s.qMax + " checks passed");
+  }
+  if (s.recTotal > 0) {
+    const buys = (s.strongBuy || 0) + (s.buy || 0), sells = (s.sell || 0) + (s.strongSell || 0);
+    if (buys - sells >= 2) bull.push("Analysts lean buy (" + buys + " buy vs " + sells + " sell)");
+    else if (sells - buys >= 1) bear.push("Analysts lean sell (" + sells + " sell vs " + buys + " buy)");
+  }
+  if (s.signal === "BUY") bull.push("The app's value screen rates it a Buy");
+  else if (s.signal === "ACCUMULATE") bull.push("The app's value screen rates it Accumulate");
+  if (s.earningsDate) neutral.push("Earnings due " + s.earningsDate + " — a catalyst that can cut either way");
+
+  const net = bull.length - bear.length;
+  let verdict, tone;
+  if (net >= 3) { verdict = "Bullish"; tone = "buy"; }
+  else if (net >= 1) { verdict = "Leaning bullish"; tone = "buy"; }
+  else if (net <= -3) { verdict = "Bearish"; tone = "sell"; }
+  else if (net <= -1) { verdict = "Leaning bearish"; tone = "sell"; }
+  else { verdict = "Neutral / mixed"; tone = "hold"; }
+  return { verdict, tone, net, bull, bear, neutral };
+}
+
+function bbColumn(arr, color, label) {
+  const items = arr.length
+    ? arr.map(x => `<div style="font-size:13.5px;line-height:1.5;margin:6px 0;padding-left:16px;position:relative"><span style="position:absolute;left:0;color:${color}">•</span>${escapeHtml(x)}</div>`).join("")
+    : `<div style="font-size:13px;color:var(--dim)">—</div>`;
+  return `<div style="flex:1;min-width:240px"><div class="field-label" style="color:${color};margin-top:0">${label} (${arr.length})</div>${items}</div>`;
+}
+
+function bullBearResultHtml(r) {
+  return `
+    <div class="card">
+      <div class="card-head">
+        <div>
+          <div class="ticker-row"><span class="ticker">${escapeHtml(r.ticker)}</span>
+            <span class="chip" style="${HOLD_CHIP[r.tone]}">${r.verdict}</span></div>
+          <div class="name">${escapeHtml([r.sector, r.covered ? null : "no technicals for this name"].filter(Boolean).join(" · "))}</div>
+        </div>
+        ${r.price != null ? `<div class="price-block"><div class="price">$${r.price.toFixed(2)}</div></div>` : ""}
+      </div>
+      <div style="display:flex;gap:28px;flex-wrap:wrap;margin-top:16px">
+        ${bbColumn(r.bull, "var(--kelp)", "Bull case")}
+        ${bbColumn(r.bear, "var(--coral)", "Bear case")}
+      </div>
+      ${r.neutral.length ? `<div style="margin-top:14px;border-top:1px dashed var(--line);padding-top:10px"><div class="field-label" style="margin-top:0">Context</div>${r.neutral.map(x => `<div style="font-size:13px;color:var(--dim);margin:4px 0">${escapeHtml(x)}</div>`).join("")}</div>` : ""}
+    </div>`;
+}
+
+async function runBullBear() {
+  const inp = document.getElementById("bbInput");
+  const val = inp ? inp.value : state.bullBearValue;
+  state.bullBearValue = val;
+  state.bullBearLoading = true; state.bullBearError = null; state.bullBearResult = null;
+  renderBullBear();
+  try {
+    await loadTechnicalsData(false);
+    const res = await lookupTicker(val);
+    if (res.error) {
+      state.bullBearError = res.error;
+    } else {
+      let s;
+      if (res.stock) s = res.stock;
+      else if (res.growth) s = Object.assign({}, res.growth, { pe: null, peg: null, growth: null, qMax: 0, recTotal: 0, preProfit: true });
+      else s = null;
+      if (!s) throw new Error("no data");
+      const tech = (state.technicalsData && state.technicalsData.byTicker && state.technicalsData.byTicker[s.ticker]) || null;
+      const a = bullBearAnalysis(s, tech);
+      state.bullBearResult = Object.assign({ ticker: s.ticker, price: s.price, sector: s.sector, covered: !!tech }, a);
+    }
+  } catch (e) {
+    if (e.message === "BADKEY") {
+      try { localStorage.removeItem("uc:key"); } catch (_) {}
+      state.key = null; state.bullBearLoading = false; showSetup();
+      const ke = document.getElementById("keyError");
+      if (ke) { ke.classList.remove("hidden"); ke.textContent = "Finnhub rejected the API key. Double-check it and re-enter it below."; }
+      return;
+    }
+    state.bullBearError = "Something went wrong (" + e.message + "). Try again.";
+  }
+  state.bullBearLoading = false;
+  renderBullBear();
+}
+
+function renderBullBear() {
+  const root = document.getElementById("tab-bullbear");
+  if (!root) return;
+  root.innerHTML = `
+    <div class="panel">
+      <div class="panel-title">Bull vs Bear — is the setup pointing up or down?</div>
+      <p class="panel-copy">Type any US ticker and this weighs its <strong>trend, momentum, relative strength, valuation, growth, financial health and analyst lean</strong> into one read: the bull case, the bear case, and an overall verdict. It's a weighing of today's evidence — <em>not</em> a forecast.</p>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <input type="text" id="bbInput" placeholder="Ticker (e.g. AAPL)" style="flex:1;min-width:160px" autocomplete="off" value="${escapeHtml(state.bullBearValue || "")}">
+        <button class="btn" id="bbBtn">${state.bullBearLoading ? "Analyzing…" : "Analyze"}</button>
+      </div>
+      <div class="baked" style="margin-bottom:0;font-size:12.5px">Uses your Finnhub key for live fundamentals &amp; analyst ratings; the trend/RSI/MACD/relative-strength come from the Pi's daily-history feed when the name is in it. Research tool, not advice.</div>
+    </div>
+    ${state.bullBearLoading ? `<div class="progress-wrap"><div class="progress-line">Weighing the evidence for ${escapeHtml((state.bullBearValue || "").trim().toUpperCase() || "that ticker")}…</div><div class="progress-track"><div class="progress-fill" style="width:60%"></div></div></div>` : ""}
+    ${state.bullBearError ? `<div class="error">${escapeHtml(state.bullBearError)}</div>` : ""}
+    ${state.bullBearResult ? bullBearResultHtml(state.bullBearResult) : ""}`;
+  const btn = document.getElementById("bbBtn");
+  if (btn) btn.addEventListener("click", () => requireKey(runBullBear));
+  const inp = document.getElementById("bbInput");
+  if (inp) inp.addEventListener("keydown", e => { if (e.key === "Enter") requireKey(runBullBear); });
 }
 
 function healthChips(s) {
@@ -3421,10 +3582,11 @@ function requireKey(action) {
 
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
   document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
-  ["radar", "earlymovers", "scout", "graham", "lynch", "oneil", "murphy", "allfour", "legendlookup", "market", "sectors", "etfs", "holdings", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "backtest", "health", "learn"].forEach(id =>
+  ["radar", "earlymovers", "bullbear", "scout", "graham", "lynch", "oneil", "murphy", "allfour", "legendlookup", "market", "sectors", "etfs", "holdings", "watch", "ipo", "pulse", "dividends", "congress", "insiders", "backtest", "health", "learn"].forEach(id =>
     document.getElementById("tab-" + id).classList.toggle("hidden", t.dataset.tab !== id));
   if (t.dataset.tab === "holdings") ensureHoldingsData();
   if (t.dataset.tab === "earlymovers") renderEarlyMovers();
+  if (t.dataset.tab === "bullbear") renderBullBear();
 }));
 
 document.getElementById("saveKey").addEventListener("click", async () => {
