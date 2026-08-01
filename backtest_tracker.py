@@ -1,222 +1,284 @@
 #!/usr/bin/env python3
 """
-Undercurrent Backtest Tracker — runs on the Pi once a day. Tracks
-whether the app's own "Buy"/"Accumulate" conviction score actually
-predicts anything, by logging the entry price the day a stock first
-qualifies for a signal and checking its price again every day after.
+Undercurrent Backtest Tracker — an HONEST forward track record for the app's
+signals. Runs daily on the Pi.
 
-Zero subscriptions, zero paid APIs — reuses the same Nasdaq public
-chart API already validated for sector_history_scanner.py.
+The only question that matters for any of these signals is: does it beat just
+buying the index? So this doesn't report "% that went up" (meaningless if the
+whole market went up) — it reports, per signal and per holding horizon, the
+EXCESS return over SPY and the share of picks that actually BEAT SPY.
 
-WHY THIS CAN ONLY TRACK FORWARD, NOT BACKTEST THE PAST
-stocks.json is a rolling current-state snapshot that gets overwritten
-every scan pass — there has never been a stored history of which
-stocks had a Buy signal on a given past date. So this script starts
-a real, honest track record from whenever it's first run onward; it
-cannot retroactively reconstruct what the signal "would have said"
-six months ago.
+WHAT IT TRACKS (each as its own signal, tagged so we can compare them)
+  * value      — stocks.json names currently rated BUY / ACCUMULATE
+  * radar      — radar.json convergence picks
+  * earlymover — early_movers.json momentum-emergence picks
 
-WHAT IT DOES
-1. Reads stocks.json for tickers currently signaled BUY or ACCUMULATE.
-2. For any such ticker not already being tracked as an active signal,
-   logs a new entry: ticker, signal type, entry date, entry price,
-   conviction score at the time. This only fires once per signal
-   "episode" — a stock that stays BUY for three months doesn't create
-   90 near-duplicate entries, just one, from the day it first
-   qualified. If it later drops out and re-qualifies afterward, that's
-   a genuinely new episode and gets its own entry.
-3. Refreshes every existing entry's current price and computes its
-   return since entry.
-4. Computes aggregate stats (win rate, average return) bucketed by how
-   long ago each entry started — a 3-day-old entry hasn't had time to
-   prove anything, a 180-day-old one has.
-5. Writes backtest.json and commits + pushes, same pattern as the
-   other Pi scanners.
+FORWARD-ONLY (not retroactive)
+  These files are rolling current-state snapshots with no stored past, so this
+  can only start a real record from the day it first runs each signal forward.
+  Treat the first few months as too small a sample to mean anything.
 
-HONEST LIMITATIONS
-  - Forward-only, as explained above — treat early results (the first
-    few months) as too small a sample to mean much either way.
-  - Uses each entry's most recent available close as "current price,"
-    not a specific hold-to-date strategy — this measures "how did the
-    stock do since the signal fired," not any particular buy/sell
-    trading rule.
-  - Entry/current prices come from Nasdaq's public chart API, the same
-    source already used for sector history — real market closes, not
-    the Finnhub quote stocks.json itself uses, so there can be small
-    day-to-day discrepancies between the two.
+HOW THE MATH WORKS
+  * One episode per (ticker, signal): logged the first day it qualifies, with
+    entry price and SPY's close that day. It re-logs only if it drops out and
+    later re-qualifies.
+  * As each entry ages past a horizon (7/30/90/180/365 days), its return AT
+    that horizon is captured once, alongside SPY's return over the same window,
+    and the excess (stock − SPY) is frozen in. Point-in-time, no look-ahead.
+  * Stats per signal × horizon: count, % that beat SPY, average excess return,
+    plus the raw average stock and SPY returns for context.
+
+DATA
+  Prices and the SPY benchmark come from Nasdaq's public daily chart API (same
+  source the technicals and sector scanners use) — real closes, one free feed.
 """
 
 import os
 import sys
 import json
 import time
+import bisect
 import logging
-import subprocess
-
-import scanner_git
 from datetime import datetime, timezone, timedelta
 
 import requests
+
+import scanner_git
 
 REPO_DIR = os.environ.get("REPO_DIR", "").strip()
 NASDAQ_CHART_URL = "https://api.nasdaq.com/api/quote/{symbol}/chart"
 USER_AGENT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 
-TRACKED_SIGNALS = {"BUY", "ACCUMULATE"}
-AGE_BUCKETS = [("30d", 30), ("90d", 90), ("180d", 180), ("365d", 365)]
+TRACKED_VALUE = {"BUY", "ACCUMULATE"}
+HORIZONS = [7, 30, 90, 180, 365]      # trading-forward days to measure at
+BENCHMARK = "SPY"
+FETCH_DELAY = 0.35
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[logging.StreamHandler(sys.stdout)],
-)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s",
+                    handlers=[logging.StreamHandler(sys.stdout)])
 log = logging.getLogger("backtest_tracker")
 
 
-def load_current_signals(repo_dir):
-    path = os.path.join(repo_dir, "stocks.json") if repo_dir else "output/stocks.json"
+def _load(name):
+    path = os.path.join(REPO_DIR, name) if REPO_DIR else os.path.join("output", name)
     try:
         with open(path) as f:
-            data = json.load(f)
-        return {s["ticker"]: s for s in data.get("stocks", []) if s.get("signal") in TRACKED_SIGNALS}
+            return json.load(f)
     except Exception as e:
-        log.warning(f"Couldn't load stocks.json ({e}) — no new signals will be logged this run")
+        log.warning(f"Couldn't load {name} ({e})")
         return {}
 
 
-def fetch_latest_close(ticker):
-    """A lightweight recent-window fetch (not the full multi-year
-    history sector_history_scanner.py pulls) just to get the latest
-    available close for one ticker."""
+def _key(ticker, signal_type):
+    return ticker + "|" + signal_type
+
+
+def load_current_signals():
+    """{(ticker, signalType): {price, score, detail}} across all three feeds."""
+    out = {}
+    for s in _load("stocks.json").get("stocks", []):
+        tk, price = s.get("ticker"), s.get("price")
+        if tk and price and s.get("signal") in TRACKED_VALUE:
+            out[(tk, "value")] = {"price": price, "score": s.get("score"), "detail": s["signal"]}
+    for p in _load("radar.json").get("picks", []):
+        tk, price = p.get("ticker"), p.get("price")
+        if tk and price:
+            out[(tk, "radar")] = {"price": price, "score": p.get("radarScore"),
+                                  "detail": f"{p.get('signalCount', '?')} signals"}
+    for m in _load("early_movers.json").get("movers", []):
+        tk, price = m.get("ticker"), m.get("price")
+        if tk and price:
+            out[(tk, "earlymover")] = {"price": price, "score": m.get("emScore"),
+                                       "detail": f"{m.get('signalCount', '?')} signals"}
+    return out
+
+
+def fetch_history(symbol, assetclass="stocks"):
+    """{isodate: close} of daily closes, or {} on failure."""
     today = datetime.now(timezone.utc).date()
-    fromdate = today - timedelta(days=10)
-    url = NASDAQ_CHART_URL.format(symbol=ticker)
-    params = {"assetclass": "stocks", "fromdate": fromdate.isoformat(), "todate": today.isoformat()}
-    headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
-    resp = requests.get(url, params=params, headers=headers, timeout=20)
-    resp.raise_for_status()
-    data = resp.json()
-    chart = (data.get("data") or {}).get("chart") or []
-    if not chart:
-        return None, None
-    last = chart[-1]
-    z = last.get("z") or {}
-    close = z.get("close")
-    dt_str = z.get("dateTime")
-    if close is None or not dt_str:
-        return None, None
+    frm = today - timedelta(days=420)
     try:
-        return float(str(close).replace(",", "")), datetime.strptime(dt_str, "%m/%d/%Y").date().isoformat()
-    except (ValueError, TypeError):
-        return None, None
+        resp = requests.get(NASDAQ_CHART_URL.format(symbol=symbol),
+                            params={"assetclass": assetclass, "fromdate": frm.isoformat(), "todate": today.isoformat()},
+                            headers={"User-Agent": USER_AGENT, "Accept": "application/json"}, timeout=20)
+        resp.raise_for_status()
+        chart = (resp.json().get("data") or {}).get("chart") or []
+        out = {}
+        for pt in chart:
+            z = pt.get("z") or {}
+            c, d = z.get("close"), z.get("dateTime")
+            if c is None or not d:
+                continue
+            try:
+                iso = datetime.strptime(d, "%m/%d/%Y").date().isoformat()
+                out[iso] = float(str(c).replace(",", ""))
+            except (ValueError, TypeError):
+                continue
+        return out
+    except Exception as e:
+        log.warning(f"History fetch failed for {symbol} ({e})")
+        return {}
 
 
-def load_existing(path):
-    try:
-        with open(path) as f:
-            data = json.load(f)
-        return data.get("entries", []), set(data.get("_meta", {}).get("activeTickers", []))
-    except Exception:
-        return [], set()
+def price_asof(by_date, sorted_dates, target_iso):
+    """Latest close on or before target_iso (nearest prior trading day)."""
+    if not sorted_dates:
+        return None
+    i = bisect.bisect_right(sorted_dates, target_iso) - 1
+    if i < 0:
+        return None
+    return by_date.get(sorted_dates[i])
+
+
+def latest(by_date, sorted_dates):
+    return (sorted_dates[-1], by_date[sorted_dates[-1]]) if sorted_dates else (None, None)
 
 
 def compute_stats(entries):
-    now = datetime.now(timezone.utc).date()
+    """Per signalType × horizon: count, % beat SPY, avg excess, avg stock ret,
+    avg SPY ret — the honest 'did it beat the index' table."""
     stats = {}
-    for label, min_days in AGE_BUCKETS:
-        cohort = [e for e in entries if e.get("returnPct") is not None
-                  and (now - datetime.fromisoformat(e["entryDate"]).date()).days >= min_days]
-        if not cohort:
-            stats[label] = {"count": 0, "winRate": None, "avgReturn": None}
-            continue
-        wins = sum(1 for e in cohort if e["returnPct"] > 0)
-        stats[label] = {
-            "count": len(cohort),
-            "winRate": round(wins / len(cohort) * 100, 1),
-            "avgReturn": round(sum(e["returnPct"] for e in cohort) / len(cohort), 2),
-        }
-    return stats
-
-
-def git_commit_and_push(repo_dir, files):
-    """Delegates to the shared, self-healing, lock-serialized publisher
-    (scanner_git) so a race, crash, or dirty tree can't freeze the feed."""
-    now = datetime.now(timezone.utc).isoformat()
-    scanner_git.commit_and_push(repo_dir, files, f"backtest tracker update {now}")
+    for e in entries:
+        st = e.get("signalType", "value")
+        for h in HORIZONS:
+            rec = (e.get("horizons") or {}).get(str(h))
+            if not rec or rec.get("excess") is None:
+                continue
+            b = stats.setdefault(st, {}).setdefault(str(h),
+                                                    {"n": 0, "beat": 0, "sumEx": 0.0, "sumRet": 0.0, "sumSpy": 0.0})
+            b["n"] += 1
+            b["beat"] += 1 if rec["excess"] > 0 else 0
+            b["sumEx"] += rec["excess"]
+            b["sumRet"] += rec.get("stockRet", 0.0)
+            b["sumSpy"] += rec.get("spyRet", 0.0)
+    out = {}
+    for st, hs in stats.items():
+        out[st] = {}
+        for h, b in hs.items():
+            n = b["n"]
+            out[st][h] = {
+                "count": n,
+                "beatRate": round(b["beat"] / n * 100, 1),
+                "avgExcess": round(b["sumEx"] / n, 2),
+                "avgReturn": round(b["sumRet"] / n, 2),
+                "avgSpy": round(b["sumSpy"] / n, 2),
+            }
+    return out
 
 
 def main():
+    today = datetime.now(timezone.utc).date()
+    today_iso = today.isoformat()
     out_path = os.path.join(REPO_DIR, "backtest.json") if REPO_DIR else "output/backtest.json"
     if not REPO_DIR:
-        log.warning("REPO_DIR not set — writing to ./output instead of a git repo")
         os.makedirs("output", exist_ok=True)
 
-    entries, active_tickers = load_existing(out_path)
-    current_signals = load_current_signals(REPO_DIR)
-    today = datetime.now(timezone.utc).date().isoformat()
+    existing = _load("backtest.json") if REPO_DIR else {}
+    entries = existing.get("entries", [])
+    active = set(existing.get("_meta", {}).get("activeKeys", []))
+    # Back-compat: older entries had no signalType — they were the value signal.
+    for e in entries:
+        e.setdefault("signalType", "value")
+        e.setdefault("horizons", {})
 
-    # New signal episodes: currently signaled, not already being tracked as active
+    # SPY benchmark history (one fetch).
+    spy = fetch_history(BENCHMARK, assetclass="etf")
+    spy_dates = sorted(spy.keys())
+    _, spy_now = latest(spy, spy_dates)
+    if not spy:
+        log.warning("No SPY history — excess returns can't be computed this run")
+
+    # New episodes across all three feeds.
+    current = load_current_signals()
     new_count = 0
-    for ticker, s in current_signals.items():
-        if ticker in active_tickers:
-            continue
-        price = s.get("price")
-        if not price:
+    for (tk, st), sig in current.items():
+        if _key(tk, st) in active:
             continue
         entries.append({
-            "ticker": ticker, "signal": s["signal"], "entryDate": today, "entryPrice": price,
-            "convictionScore": s.get("score"), "currentPrice": price, "currentDate": today, "returnPct": 0.0,
+            "ticker": tk, "signalType": st, "entryDate": today_iso,
+            "entryPrice": sig["price"], "spyEntry": spy_now,
+            "score": sig.get("score"), "detail": sig.get("detail"),
+            "currentPrice": sig["price"], "currentDate": today_iso, "returnPct": 0.0,
+            "horizons": {},
         })
-        active_tickers.add(ticker)
+        active.add(_key(tk, st))
         new_count += 1
-    log.info(f"Logged {new_count} new signal episodes")
+    log.info(f"Logged {new_count} new episodes ({len(current)} live signals across value/radar/earlymover)")
 
-    # Episodes that dropped out of the signal — stop tracking as "active" (they
-    # keep their permanent entry, just won't re-trigger until they re-qualify)
-    dropped = active_tickers - set(current_signals.keys())
-    active_tickers -= dropped
+    # Episodes no longer signaled stop being 'active' (keep their record).
+    still = {_key(tk, st) for (tk, st) in current}
+    dropped = active - still
+    active -= dropped
     if dropped:
-        log.info(f"{len(dropped)} tickers dropped out of signal status: {sorted(dropped)}")
+        log.info(f"{len(dropped)} episodes dropped out of signal status")
 
-    # Refresh current price + return for every entry
-    unique_tickers = sorted({e["ticker"] for e in entries})
-    prices = {}
-    for i, ticker in enumerate(unique_tickers):
-        if i and i % 30 == 0:
-            log.info(f"Refreshed prices for {i}/{len(unique_tickers)} tracked tickers so far")
-        try:
-            price, date = fetch_latest_close(ticker)
-            if price:
-                prices[ticker] = (price, date)
-        except Exception as e:
-            log.warning(f"Couldn't refresh price for {ticker}: {e}")
-        time.sleep(0.3)
+    # Fetch each tracked ticker's history once, then refresh returns + fill any
+    # horizons that have newly matured.
+    tickers = sorted({e["ticker"] for e in entries})
+    log.info(f"Refreshing {len(tickers)} tracked tickers across {len(entries)} episodes")
+    hist = {}
+    for i, tk in enumerate(tickers):
+        if i and i % 50 == 0:
+            log.info(f"  {i}/{len(tickers)} histories fetched")
+        h = fetch_history(tk)
+        if h:
+            hist[tk] = (h, sorted(h.keys()))
+        time.sleep(FETCH_DELAY)
 
     for e in entries:
-        if e["ticker"] in prices:
-            price, date = prices[e["ticker"]]
-            e["currentPrice"] = price
-            e["currentDate"] = date
-            e["returnPct"] = round((price - e["entryPrice"]) / e["entryPrice"] * 100, 2)
+        pack = hist.get(e["ticker"])
+        if not pack:
+            continue
+        by_date, sdates = pack
+        cur_date, cur_price = latest(by_date, sdates)
+        if cur_price:
+            e["currentPrice"] = cur_price
+            e["currentDate"] = cur_date
+            if e.get("entryPrice"):
+                e["returnPct"] = round((cur_price - e["entryPrice"]) / e["entryPrice"] * 100, 2)
+        # Backfill SPY entry price for older entries.
+        if not e.get("spyEntry") and spy:
+            e["spyEntry"] = price_asof(spy, spy_dates, e["entryDate"])
+        # Freeze in each horizon as it matures (measured once).
+        entry_d = datetime.fromisoformat(e["entryDate"]).date()
+        age = (today - entry_d).days
+        for h in HORIZONS:
+            hk = str(h)
+            if hk in (e.get("horizons") or {}) or age < h:
+                continue
+            target = (entry_d + timedelta(days=h)).isoformat()
+            sp = price_asof(by_date, sdates, target)
+            spy_e, spy_h = e.get("spyEntry"), price_asof(spy, spy_dates, target)
+            if sp and e.get("entryPrice") and spy_e and spy_h:
+                stock_ret = round((sp / e["entryPrice"] - 1) * 100, 2)
+                spy_ret = round((spy_h / spy_e - 1) * 100, 2)
+                e.setdefault("horizons", {})[hk] = {
+                    "stockRet": stock_ret, "spyRet": spy_ret, "excess": round(stock_ret - spy_ret, 2),
+                }
 
     stats = compute_stats(entries)
-    log.info(f"Stats: {stats}")
+    log.info(f"Stats by signal × horizon: {json.dumps(stats)}")
 
     payload = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
-        "source": "Undercurrent's own conviction score, tracked forward from each signal's first day — see module docstring for why this can't be retroactive",
+        "benchmark": BENCHMARK,
+        "horizons": HORIZONS,
+        "source": "Undercurrent's own signals (value / radar / early-mover), tracked forward vs SPY from each signal's first day — forward-only, not retroactive.",
         "count": len(entries),
         "entries": entries,
         "stats": stats,
-        "_meta": {"activeTickers": sorted(active_tickers)},
+        "_meta": {"activeKeys": sorted(active)},
     }
-    with open(out_path, "w") as f:
+    tmp = out_path + ".tmp"
+    with open(tmp, "w") as f:
         json.dump(payload, f, indent=2)
-    log.info(f"Wrote {len(entries)} tracked signal episodes to {out_path}")
+    os.replace(tmp, out_path)
+    log.info(f"Wrote {len(entries)} episodes to {out_path}")
 
     if REPO_DIR:
-        git_commit_and_push(REPO_DIR, ["backtest.json"])
+        scanner_git.commit_and_push(REPO_DIR, ["backtest.json"],
+                                    f"backtest tracker update {datetime.now(timezone.utc).isoformat()}")
 
 
 if __name__ == "__main__":

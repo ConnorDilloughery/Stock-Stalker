@@ -2942,34 +2942,48 @@ async function loadBacktestData(force) {
   renderHealth();
 }
 
-const BACKTEST_BUCKET_LABELS = { "30d": "30+ days old", "90d": "90+ days old", "180d": "180+ days old", "365d": "1+ year old" };
+const BT_SIGNAL_LABELS = { value: "Value Buy / Accumulate", radar: "Radar convergence", earlymover: "Early Movers" };
+const BT_HORIZON_LABELS = { "7": "1 week", "30": "1 month", "90": "3 months", "180": "6 months", "365": "1 year" };
+const BT_HORIZON_ORDER = ["7", "30", "90", "180", "365"];
 
-function backtestStatCard(label, s) {
-  const hasData = s.count > 0;
-  const winColor = hasData && s.winRate >= 50 ? "var(--kelp)" : hasData ? "var(--coral)" : "var(--dim)";
+function backtestHorizonCard(h, s) {
+  const col = s.avgExcess > 0 ? "var(--kelp)" : s.avgExcess < 0 ? "var(--coral)" : "var(--dim)";
   return `
     <div class="stat" style="flex:1;min-width:150px">
-      <span>${label}</span>
-      <strong style="color:${winColor}">${hasData ? s.winRate.toFixed(0) + "% win rate" : "no data yet"}</strong>
-      ${hasData ? `<div style="font-size:13px;color:var(--dim);margin-top:2px">${s.count} signal${s.count === 1 ? "" : "s"} · avg ${s.avgReturn >= 0 ? "+" : ""}${s.avgReturn.toFixed(1)}%</div>` : ""}
+      <span>${BT_HORIZON_LABELS[h] || h + "d"}</span>
+      <strong style="color:${col}">${s.avgExcess >= 0 ? "+" : ""}${s.avgExcess.toFixed(1)}% vs SPY</strong>
+      <div style="font-size:12px;color:var(--dim);margin-top:3px;line-height:1.5">${s.beatRate.toFixed(0)}% beat the index · n=${s.count}<br>stock ${s.avgReturn >= 0 ? "+" : ""}${s.avgReturn.toFixed(1)}% vs SPY ${s.avgSpy >= 0 ? "+" : ""}${s.avgSpy.toFixed(1)}%</div>
     </div>`;
 }
 
+function backtestSignalSection(st, hs) {
+  const cards = BT_HORIZON_ORDER.filter(h => hs[h]).map(h => backtestHorizonCard(h, hs[h])).join("");
+  if (!cards) return "";
+  return `<div style="margin-top:14px"><div class="field-label" style="margin-top:0">${BT_SIGNAL_LABELS[st] || st}</div><div class="stats">${cards}</div></div>`;
+}
+
 function backtestEntryRow(e) {
-  const up = e.returnPct >= 0;
+  const ret = e.returnPct || 0, up = ret >= 0;
+  const hs = e.horizons || {};
+  const matured = Object.keys(hs).map(Number).sort((a, b) => b - a);
+  let exNote = "";
+  if (matured.length) {
+    const h = String(matured[0]), r = hs[h];
+    exNote = ` · <span style="color:${r.excess >= 0 ? "var(--kelp)" : "var(--coral)"}">${BT_HORIZON_LABELS[h]}: ${r.excess >= 0 ? "+" : ""}${r.excess.toFixed(1)}% vs SPY</span>`;
+  }
   return `
     <div class="card" style="padding:14px 20px">
       <div class="card-head" style="align-items:center">
         <div>
           <div class="ticker-row">
             <span class="ticker">${escapeHtml(e.ticker)}</span>
-            <span class="chip" style="background:#EAEEF1;color:#4A5A66">${escapeHtml(e.signal)}</span>
+            <span class="chip" style="background:#EAEEF1;color:#4A5A66">${escapeHtml(BT_SIGNAL_LABELS[e.signalType] || e.signalType || "value")}</span>
           </div>
-          <div class="name">Entered ${escapeHtml(e.entryDate)} at $${e.entryPrice.toFixed(2)} · conviction ${e.convictionScore}/100</div>
+          <div class="name">Entered ${escapeHtml(e.entryDate)} at $${(e.entryPrice || 0).toFixed(2)}${e.score != null ? " · score " + e.score : ""}${exNote}</div>
         </div>
         <div class="price-block">
-          <div class="price" style="color:${up ? "var(--kelp)" : "var(--coral)"};font-size:18px">${up ? "+" : ""}${e.returnPct.toFixed(1)}%</div>
-          <div class="room" style="color:var(--dim)">$${e.currentPrice.toFixed(2)} as of ${escapeHtml(e.currentDate)}</div>
+          <div class="price" style="color:${up ? "var(--kelp)" : "var(--coral)"};font-size:18px">${up ? "+" : ""}${ret.toFixed(1)}%</div>
+          <div class="room" style="color:var(--dim)">$${(e.currentPrice || 0).toFixed(2)}${e.currentDate ? " as of " + escapeHtml(e.currentDate) : ""}</div>
         </div>
       </div>
     </div>`;
@@ -2979,13 +2993,17 @@ function renderBacktest() {
   const root = document.getElementById("tab-backtest");
   const d = state.backtestData;
   const updated = d ? new Date(d.generatedAt).toLocaleString() : null;
-  const entries = d ? [...d.entries].sort((a, b) => b.entryDate.localeCompare(a.entryDate)) : [];
+  const entries = d ? [...(d.entries || [])].sort((a, b) => (b.entryDate || "").localeCompare(a.entryDate || "")) : [];
+  const stats = (d && d.stats) || {};
+  const sections = ["value", "radar", "earlymover"].map(st => stats[st] ? backtestSignalSection(st, stats[st]) : "").join("");
+  const anyMatured = Object.values(stats).some(hs => Object.keys(hs).length > 0);
   root.innerHTML = `
     <div class="panel">
-      <div class="panel-title">Track record</div>
-      <p class="panel-copy">Does the conviction score actually mean anything? Every day, backtest_tracker.py logs the entry price the moment a stock first qualifies for a Buy or Accumulate signal, then tracks its price forward. This is a real, honest, <strong>forward-only</strong> track record — it started the day this feature shipped, so it cannot show what the signal "would have" predicted in the past, and early results here reflect too small a sample to mean much either way. Give it months, not days, before trusting the win rate. ${updated ? `Last updated: <strong>${updated}</strong> · ${d.count} signal episodes tracked.` : ""}</p>
-      ${d ? `<div class="stats" style="margin-top:4px">${Object.entries(BACKTEST_BUCKET_LABELS).map(([k, label]) => backtestStatCard(label, d.stats[k])).join("")}</div>` : ""}
-      <button class="btn btn-big" id="backtestRefresh" style="margin-top:14px">${state.backtestLoading ? "Loading…" : "Refresh from Pi"}</button>
+      <div class="panel-title">Track record — does it beat the index?</div>
+      <p class="panel-copy">The only test that matters: do the signals beat just buying SPY? Every day the Pi logs each signal (value Buy/Accumulate, Radar, Early Movers) the moment it first fires, records SPY that day, and freezes in the <strong>excess return over SPY</strong> as each holding horizon matures. <strong>Forward-only</strong> — it started when this shipped, so it can't show the past, and the first few months are far too small a sample to trust. Judge it in months, and remember: beating the index is hard, and "% beat" near 50 means no edge. ${updated ? `Last updated: <strong>${updated}</strong> · ${d.count} episodes tracked.` : ""}</p>
+      ${d && !anyMatured ? `<div class="baked">No horizons have matured yet — the earliest results appear about a week after the first signals were logged. Check back.</div>` : ""}
+      ${sections}
+      <button class="btn btn-big" id="backtestRefresh" style="margin-top:16px">${state.backtestLoading ? "Loading…" : "Refresh from Pi"}</button>
     </div>
     ${state.backtestError ? `<div class="error">${escapeHtml(state.backtestError)}</div>` : ""}
     <div id="backtestResults">${!d ? "" : entries.slice(0, 200).map(backtestEntryRow).join("")}</div>
