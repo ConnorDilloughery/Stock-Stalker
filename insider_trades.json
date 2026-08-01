@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-31T23:04:31.950607+00:00",
+  "generatedAt": "2026-08-01T00:00:17.863524+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1426,
+  "count": 1435,
   "trades": [
     {
       "ticker": "UMBF",
@@ -161,6 +161,26 @@
       "type": "Sale",
       "shares": 10000.0,
       "pricePerShare": 31.5,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "GLOO",
+      "issuerName": "Gloo Holdings, Inc.",
+      "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 20000.0,
+      "pricePerShare": 3.2284,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "CATY",
+      "issuerName": "CATHAY GENERAL BANCORP",
+      "insiderName": "Sun Richard",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 5000.0,
+      "pricePerShare": 62.4251,
       "transactionDate": "2026-07-31"
     },
     {
@@ -771,6 +791,16 @@
       "type": "Sale",
       "shares": 273.0,
       "pricePerShare": 16.7,
+      "transactionDate": "2026-07-30"
+    },
+    {
+      "ticker": "CATY",
+      "issuerName": "CATHAY GENERAL BANCORP",
+      "insiderName": "Sun Richard",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 5000.0,
+      "pricePerShare": 63.3118,
       "transactionDate": "2026-07-30"
     },
     {
@@ -2231,6 +2261,56 @@
       "type": "Sale",
       "shares": 3305.0,
       "pricePerShare": 16.71,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "FIG",
+      "issuerName": "Figma, Inc.",
+      "insiderName": "Mulligan Brendan",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 18213.0,
+      "pricePerShare": 25.0033,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "FIG",
+      "issuerName": "Figma, Inc.",
+      "insiderName": "Rasmussen Kris",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 261301.0,
+      "pricePerShare": 25.0686,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "GLOO",
+      "issuerName": "Gloo Holdings, Inc.",
+      "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1000.0,
+      "pricePerShare": 3.1374,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "CATY",
+      "issuerName": "CATHAY GENERAL BANCORP",
+      "insiderName": "Sun Richard",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 10000.0,
+      "pricePerShare": 63.3343,
+      "transactionDate": "2026-07-29"
+    },
+    {
+      "ticker": "CATY",
+      "issuerName": "CATHAY GENERAL BANCORP",
+      "insiderName": "Sun Richard",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 10000.0,
+      "pricePerShare": 63.2899,
       "transactionDate": "2026-07-29"
     },
     {
@@ -14194,6 +14274,16 @@
       "transactionDate": "2026-03-26"
     },
     {
+      "ticker": "STRR",
+      "issuerName": "Star Equity Holdings, Inc.",
+      "insiderName": "Coleman Richard Kenneth Jr.",
+      "title": "Chief Operating Officer",
+      "type": "Purchase",
+      "shares": 977.0,
+      "pricePerShare": 9.95,
+      "transactionDate": "2026-03-25"
+    },
+    {
       "ticker": "AVR",
       "issuerName": "Anteris Technologies Global Corp.",
       "insiderName": "L1 Capital Pty Ltd",
@@ -14857,6 +14947,126 @@
           "shares": 10000.0,
           "pricePerShare": 32.08,
           "transactionDate": "2026-07-30"
+        }
+      ]
+    },
+    "GLOO": {
+      "issuerName": "Gloo Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 3.2284,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 3.1374,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 3.37,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8300.0,
+          "pricePerShare": 3.3635,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7000.0,
+          "pricePerShare": 3.44,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 3.2814,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 3.2596,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "CATY": {
+      "issuerName": "CATHAY GENERAL BANCORP",
+      "trades": [
+        {
+          "ticker": "CATY",
+          "issuerName": "CATHAY GENERAL BANCORP",
+          "insiderName": "Sun Richard",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 62.4251,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "CATY",
+          "issuerName": "CATHAY GENERAL BANCORP",
+          "insiderName": "Sun Richard",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 63.3118,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "CATY",
+          "issuerName": "CATHAY GENERAL BANCORP",
+          "insiderName": "Sun Richard",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 63.3343,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "CATY",
+          "issuerName": "CATHAY GENERAL BANCORP",
+          "insiderName": "Sun Richard",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 63.2899,
+          "transactionDate": "2026-07-29"
         }
       ]
     },
@@ -21905,6 +22115,31 @@
         }
       ]
     },
+    "FIG": {
+      "issuerName": "Figma, Inc.",
+      "trades": [
+        {
+          "ticker": "FIG",
+          "issuerName": "Figma, Inc.",
+          "insiderName": "Mulligan Brendan",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 18213.0,
+          "pricePerShare": 25.0033,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "FIG",
+          "issuerName": "Figma, Inc.",
+          "insiderName": "Rasmussen Kris",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 261301.0,
+          "pricePerShare": 25.0686,
+          "transactionDate": "2026-07-29"
+        }
+      ]
+    },
     "LOAN": {
       "issuerName": "MANHATTAN BRIDGE CAPITAL, INC",
       "trades": [
@@ -27105,61 +27340,6 @@
         }
       ]
     },
-    "GLOO": {
-      "issuerName": "Gloo Holdings, Inc.",
-      "trades": [
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 3.37,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 8300.0,
-          "pricePerShare": 3.3635,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7000.0,
-          "pricePerShare": 3.44,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 3.2814,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 3.2596,
-          "transactionDate": "2026-07-16"
-        }
-      ]
-    },
     "CDNS": {
       "issuerName": "CADENCE DESIGN SYSTEMS INC",
       "trades": [
@@ -30050,6 +30230,21 @@
         }
       ]
     },
+    "STRR": {
+      "issuerName": "Star Equity Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "STRR",
+          "issuerName": "Star Equity Holdings, Inc.",
+          "insiderName": "Coleman Richard Kenneth Jr.",
+          "title": "Chief Operating Officer",
+          "type": "Purchase",
+          "shares": 977.0,
+          "pricePerShare": 9.95,
+          "transactionDate": "2026-03-25"
+        }
+      ]
+    },
     "CAPS": {
       "issuerName": "Capstone Holding Corp.",
       "trades": [
@@ -30410,6 +30605,7 @@
       "0000923738-26-000031",
       "0000929638-26-002639",
       "0000929638-26-002682",
+      "0000929638-26-002852",
       "0000930413-26-002107",
       "0000930413-26-002108",
       "0000930413-26-002187",
@@ -32231,6 +32427,7 @@
       "0001193125-26-329068",
       "0001193125-26-329069",
       "0001193125-26-329074",
+      "0001193125-26-329115",
       "0001196460-26-000004",
       "0001196484-26-000014",
       "0001201252-26-000010",
@@ -32936,6 +33133,7 @@
       "0001437749-26-025250",
       "0001437749-26-025257",
       "0001437749-26-025258",
+      "0001437749-26-025265",
       "0001445546-26-005229",
       "0001445546-26-005230",
       "0001445546-26-005231",
@@ -33298,6 +33496,7 @@
       "0001552781-26-000400",
       "0001553153-26-000002",
       "0001556224-26-000004",
+      "0001556224-26-000006",
       "0001561550-26-000246",
       "0001561861-26-000059",
       "0001562577-26-000256",
@@ -33672,6 +33871,7 @@
       "0001673356-26-000008",
       "0001674335-26-000111",
       "0001676421-26-000002",
+      "0001679788-26-000089",
       "0001680691-26-000003",
       "0001683168-26-005715",
       "0001683168-26-005736",
@@ -35931,6 +36131,8 @@
       "0002071761-26-000009",
       "0002071844-26-000880",
       "0002071844-26-000883",
+      "0002073592-26-000029",
+      "0002073801-26-000035",
       "0002074666-26-000006",
       "0002075052-26-000004",
       "0002077291-26-000002",
