@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-08-03T15:01:42.514192+00:00",
+  "generatedAt": "2026-08-03T16:03:38.330211+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1458,
+  "count": 1463,
   "trades": [
+    {
+      "ticker": "GOOD",
+      "issuerName": "GLADSTONE COMMERCIAL CORP",
+      "insiderName": "Carter Ryan Stuart",
+      "title": "Executive Vice President",
+      "type": "Purchase",
+      "shares": 100.0,
+      "pricePerShare": 12.58,
+      "transactionDate": "2026-08-03"
+    },
     {
       "ticker": "UMBF",
       "issuerName": "UMB FINANCIAL CORP",
@@ -291,6 +301,46 @@
       "type": "Sale",
       "shares": 12488.0,
       "pricePerShare": 26.4376,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "ATLO",
+      "issuerName": "AMES NATIONAL CORP",
+      "insiderName": "Cassabaum Michelle R",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 140.0,
+      "pricePerShare": 30.2,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "KO",
+      "issuerName": "COCA COLA CO",
+      "insiderName": "MURPHY JOHN",
+      "title": "President and CFO",
+      "type": "Sale",
+      "shares": 152483.0,
+      "pricePerShare": 87.3119,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "BCML",
+      "issuerName": "BayCom Corp",
+      "insiderName": "PERDUE MICHAEL J",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 5000.0,
+      "pricePerShare": 30.17,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "HURN",
+      "issuerName": "Huron Consulting Group Inc.",
+      "insiderName": "Featherstone Kyle",
+      "title": "Chief Acct Officer, Controller",
+      "type": "Sale",
+      "shares": 459.0,
+      "pricePerShare": 152.67,
       "transactionDate": "2026-07-31"
     },
     {
@@ -14585,6 +14635,21 @@
     }
   ],
   "byTicker": {
+    "GOOD": {
+      "issuerName": "GLADSTONE COMMERCIAL CORP",
+      "trades": [
+        {
+          "ticker": "GOOD",
+          "issuerName": "GLADSTONE COMMERCIAL CORP",
+          "insiderName": "Carter Ryan Stuart",
+          "title": "Executive Vice President",
+          "type": "Purchase",
+          "shares": 100.0,
+          "pricePerShare": 12.58,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
     "UMBF": {
       "issuerName": "UMB FINANCIAL CORP",
       "trades": [
@@ -15562,6 +15627,226 @@
           "shares": 12488.0,
           "pricePerShare": 26.4376,
           "transactionDate": "2026-07-31"
+        }
+      ]
+    },
+    "ATLO": {
+      "issuerName": "AMES NATIONAL CORP",
+      "trades": [
+        {
+          "ticker": "ATLO",
+          "issuerName": "AMES NATIONAL CORP",
+          "insiderName": "Cassabaum Michelle R",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 140.0,
+          "pricePerShare": 30.2,
+          "transactionDate": "2026-07-31"
+        }
+      ]
+    },
+    "KO": {
+      "issuerName": "COCA COLA CO",
+      "trades": [
+        {
+          "ticker": "KO",
+          "issuerName": "COCA COLA CO",
+          "insiderName": "MURPHY JOHN",
+          "title": "President and CFO",
+          "type": "Sale",
+          "shares": 152483.0,
+          "pricePerShare": 87.3119,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "KO",
+          "issuerName": "COCA COLA CO",
+          "insiderName": "Quincey James",
+          "title": "Director, Chairman",
+          "type": "Sale",
+          "shares": 145947.0,
+          "pricePerShare": 90.0942,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "KO",
+          "issuerName": "COCA COLA CO",
+          "insiderName": "Pietracci Bruno",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 35393.0,
+          "pricePerShare": 89.6,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "KO",
+          "issuerName": "COCA COLA CO",
+          "insiderName": "Pietracci Bruno",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 40334.0,
+          "pricePerShare": 89.6864,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "KO",
+          "issuerName": "COCA COLA CO",
+          "insiderName": "Quincey James",
+          "title": "Director, Chairman",
+          "type": "Sale",
+          "shares": 381140.0,
+          "pricePerShare": 90.0447,
+          "transactionDate": "2026-07-28"
+        }
+      ]
+    },
+    "BCML": {
+      "issuerName": "BayCom Corp",
+      "trades": [
+        {
+          "ticker": "BCML",
+          "issuerName": "BayCom Corp",
+          "insiderName": "PERDUE MICHAEL J",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 30.17,
+          "transactionDate": "2026-07-31"
+        }
+      ]
+    },
+    "HURN": {
+      "issuerName": "Huron Consulting Group Inc.",
+      "trades": [
+        {
+          "ticker": "HURN",
+          "issuerName": "Huron Consulting Group Inc.",
+          "insiderName": "Featherstone Kyle",
+          "title": "Chief Acct Officer, Controller",
+          "type": "Sale",
+          "shares": 459.0,
+          "pricePerShare": 152.67,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "HURN",
+          "issuerName": "Huron Consulting Group Inc.",
+          "insiderName": "Hussey C. Mark",
+          "title": "Director, CEO and President",
+          "type": "Sale",
+          "shares": 4972.0,
+          "pricePerShare": 160.28,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HURN",
+          "issuerName": "Huron Consulting Group Inc.",
+          "insiderName": "Hussey C. Mark",
+          "title": "Director, CEO and President",
+          "type": "Sale",
+          "shares": 1142.0,
+          "pricePerShare": 161.42,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HURN",
+          "issuerName": "Huron Consulting Group Inc.",
+          "insiderName": "Hussey C. Mark",
+          "title": "Director, CEO and President",
+          "type": "Sale",
+          "shares": 2507.0,
+          "pricePerShare": 162.56,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HURN",
+          "issuerName": "Huron Consulting Group Inc.",
+          "insiderName": "Hussey C. Mark",
+          "title": "Director, CEO and President",
+          "type": "Sale",
+          "shares": 2168.0,
+          "pricePerShare": 163.49,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HURN",
+          "issuerName": "Huron Consulting Group Inc.",
+          "insiderName": "Hussey C. Mark",
+          "title": "Director, CEO and President",
+          "type": "Sale",
+          "shares": 1373.0,
+          "pricePerShare": 164.49,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HURN",
+          "issuerName": "Huron Consulting Group Inc.",
+          "insiderName": "Hussey C. Mark",
+          "title": "Director, CEO and President",
+          "type": "Sale",
+          "shares": 800.0,
+          "pricePerShare": 165.22,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HURN",
+          "issuerName": "Huron Consulting Group Inc.",
+          "insiderName": "Hussey C. Mark",
+          "title": "Director, CEO and President",
+          "type": "Sale",
+          "shares": 884.0,
+          "pricePerShare": 166.32,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HURN",
+          "issuerName": "Huron Consulting Group Inc.",
+          "insiderName": "Hussey C. Mark",
+          "title": "Director, CEO and President",
+          "type": "Sale",
+          "shares": 497.0,
+          "pricePerShare": 168.24,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HURN",
+          "issuerName": "Huron Consulting Group Inc.",
+          "insiderName": "Hussey C. Mark",
+          "title": "Director, CEO and President",
+          "type": "Sale",
+          "shares": 3060.0,
+          "pricePerShare": 169.35,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HURN",
+          "issuerName": "Huron Consulting Group Inc.",
+          "insiderName": "Hussey C. Mark",
+          "title": "Director, CEO and President",
+          "type": "Sale",
+          "shares": 5613.0,
+          "pricePerShare": 170.15,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HURN",
+          "issuerName": "Huron Consulting Group Inc.",
+          "insiderName": "Hussey C. Mark",
+          "title": "Director, CEO and President",
+          "type": "Sale",
+          "shares": 867.0,
+          "pricePerShare": 171.17,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HURN",
+          "issuerName": "Huron Consulting Group Inc.",
+          "insiderName": "Hussey C. Mark",
+          "title": "Director, CEO and President",
+          "type": "Sale",
+          "shares": 189.0,
+          "pricePerShare": 172.51,
+          "transactionDate": "2026-07-29"
         }
       ]
     },
@@ -19660,51 +19945,6 @@
         }
       ]
     },
-    "KO": {
-      "issuerName": "COCA COLA CO",
-      "trades": [
-        {
-          "ticker": "KO",
-          "issuerName": "COCA COLA CO",
-          "insiderName": "Quincey James",
-          "title": "Director, Chairman",
-          "type": "Sale",
-          "shares": 145947.0,
-          "pricePerShare": 90.0942,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "KO",
-          "issuerName": "COCA COLA CO",
-          "insiderName": "Pietracci Bruno",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 35393.0,
-          "pricePerShare": 89.6,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "KO",
-          "issuerName": "COCA COLA CO",
-          "insiderName": "Pietracci Bruno",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 40334.0,
-          "pricePerShare": 89.6864,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "KO",
-          "issuerName": "COCA COLA CO",
-          "insiderName": "Quincey James",
-          "title": "Director, Chairman",
-          "type": "Sale",
-          "shares": 381140.0,
-          "pricePerShare": 90.0447,
-          "transactionDate": "2026-07-28"
-        }
-      ]
-    },
     "NBTB": {
       "issuerName": "NBT BANCORP INC",
       "trades": [
@@ -22487,131 +22727,6 @@
           "shares": 31226.0,
           "pricePerShare": 1.46,
           "transactionDate": "2026-07-21"
-        }
-      ]
-    },
-    "HURN": {
-      "issuerName": "Huron Consulting Group Inc.",
-      "trades": [
-        {
-          "ticker": "HURN",
-          "issuerName": "Huron Consulting Group Inc.",
-          "insiderName": "Hussey C. Mark",
-          "title": "Director, CEO and President",
-          "type": "Sale",
-          "shares": 4972.0,
-          "pricePerShare": 160.28,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HURN",
-          "issuerName": "Huron Consulting Group Inc.",
-          "insiderName": "Hussey C. Mark",
-          "title": "Director, CEO and President",
-          "type": "Sale",
-          "shares": 1142.0,
-          "pricePerShare": 161.42,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HURN",
-          "issuerName": "Huron Consulting Group Inc.",
-          "insiderName": "Hussey C. Mark",
-          "title": "Director, CEO and President",
-          "type": "Sale",
-          "shares": 2507.0,
-          "pricePerShare": 162.56,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HURN",
-          "issuerName": "Huron Consulting Group Inc.",
-          "insiderName": "Hussey C. Mark",
-          "title": "Director, CEO and President",
-          "type": "Sale",
-          "shares": 2168.0,
-          "pricePerShare": 163.49,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HURN",
-          "issuerName": "Huron Consulting Group Inc.",
-          "insiderName": "Hussey C. Mark",
-          "title": "Director, CEO and President",
-          "type": "Sale",
-          "shares": 1373.0,
-          "pricePerShare": 164.49,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HURN",
-          "issuerName": "Huron Consulting Group Inc.",
-          "insiderName": "Hussey C. Mark",
-          "title": "Director, CEO and President",
-          "type": "Sale",
-          "shares": 800.0,
-          "pricePerShare": 165.22,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HURN",
-          "issuerName": "Huron Consulting Group Inc.",
-          "insiderName": "Hussey C. Mark",
-          "title": "Director, CEO and President",
-          "type": "Sale",
-          "shares": 884.0,
-          "pricePerShare": 166.32,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HURN",
-          "issuerName": "Huron Consulting Group Inc.",
-          "insiderName": "Hussey C. Mark",
-          "title": "Director, CEO and President",
-          "type": "Sale",
-          "shares": 497.0,
-          "pricePerShare": 168.24,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HURN",
-          "issuerName": "Huron Consulting Group Inc.",
-          "insiderName": "Hussey C. Mark",
-          "title": "Director, CEO and President",
-          "type": "Sale",
-          "shares": 3060.0,
-          "pricePerShare": 169.35,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HURN",
-          "issuerName": "Huron Consulting Group Inc.",
-          "insiderName": "Hussey C. Mark",
-          "title": "Director, CEO and President",
-          "type": "Sale",
-          "shares": 5613.0,
-          "pricePerShare": 170.15,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HURN",
-          "issuerName": "Huron Consulting Group Inc.",
-          "insiderName": "Hussey C. Mark",
-          "title": "Director, CEO and President",
-          "type": "Sale",
-          "shares": 867.0,
-          "pricePerShare": 171.17,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HURN",
-          "issuerName": "Huron Consulting Group Inc.",
-          "insiderName": "Hussey C. Mark",
-          "title": "Director, CEO and President",
-          "type": "Sale",
-          "shares": 189.0,
-          "pricePerShare": 172.51,
-          "transactionDate": "2026-07-29"
         }
       ]
     },
@@ -30792,10 +30907,12 @@
       "0000009713-26-000196",
       "0000021344-26-000154",
       "0000021344-26-000156",
+      "0000021344-26-000158",
       "0000022356-26-000181",
       "0000022356-26-000185",
       "0000026058-26-000030",
       "0000029915-26-000066",
+      "0000029915-26-000068",
       "0000030146-26-000307",
       "0000030146-26-000308",
       "0000030146-26-000309",
@@ -31490,6 +31607,9 @@
       "0000950103-26-011609",
       "0000950103-26-011610",
       "0000950103-26-011611",
+      "0000950103-26-011613",
+      "0000950103-26-011614",
+      "0000950103-26-011615",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -32079,6 +32199,12 @@
       "0001140361-26-030628",
       "0001140361-26-030740",
       "0001140361-26-030767",
+      "0001140361-26-030777",
+      "0001140361-26-030784",
+      "0001140361-26-030787",
+      "0001140361-26-030789",
+      "0001140361-26-030791",
+      "0001140361-26-030793",
       "0001160077-26-000003",
       "0001162044-26-000644",
       "0001167691-26-000004",
@@ -32127,6 +32253,7 @@
       "0001185185-26-003152",
       "0001186836-26-000008",
       "0001188203-26-000007",
+      "0001189242-26-000037",
       "0001192890-26-000006",
       "0001193074-26-000010",
       "0001193125-26-308109",
@@ -33030,6 +33157,11 @@
       "0001193125-26-329805",
       "0001193125-26-329806",
       "0001193125-26-329807",
+      "0001193125-26-329842",
+      "0001193125-26-329845",
+      "0001193125-26-329848",
+      "0001193125-26-329901",
+      "0001193125-26-329926",
       "0001196460-26-000004",
       "0001196484-26-000014",
       "0001201252-26-000010",
@@ -33471,6 +33603,7 @@
       "0001214659-26-009413",
       "0001214659-26-009414",
       "0001214659-26-009439",
+      "0001214659-26-009444",
       "0001216725-26-000012",
       "0001219555-26-000006",
       "0001220634-26-000002",
@@ -33545,6 +33678,7 @@
       "0001286737-26-000002",
       "0001289315-26-000009",
       "0001289848-26-000114",
+      "0001289848-26-000122",
       "0001290673-26-000003",
       "0001292208-26-000010",
       "0001292814-26-003872",
@@ -33594,6 +33728,7 @@
       "0001364924-26-000207",
       "0001367902-26-000004",
       "0001371285-26-000161",
+      "0001375323-26-000010",
       "0001375800-26-000005",
       "0001392116-26-000010",
       "0001392116-26-000011",
@@ -33763,6 +33898,7 @@
       "0001437749-26-025335",
       "0001437749-26-025338",
       "0001437749-26-025344",
+      "0001437749-26-025356",
       "0001445546-26-005229",
       "0001445546-26-005230",
       "0001445546-26-005231",
@@ -34196,6 +34332,7 @@
       "0001580642-26-004757",
       "0001580642-26-004758",
       "0001580642-26-004780",
+      "0001582473-26-000008",
       "0001590264-26-000010",
       "0001590364-26-000078",
       "0001592900-26-003595",
@@ -34433,6 +34570,13 @@
       "0001628280-26-051550",
       "0001628280-26-051580",
       "0001628280-26-051586",
+      "0001628280-26-051602",
+      "0001628280-26-051604",
+      "0001628280-26-051607",
+      "0001628280-26-051614",
+      "0001628280-26-051621",
+      "0001628280-26-051623",
+      "0001628280-26-051629",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001638509-26-000007",
@@ -34644,6 +34788,7 @@
       "0001771146-26-001561",
       "0001771146-26-001563",
       "0001772603-26-000012",
+      "0001773399-26-000006",
       "0001775297-26-000010",
       "0001778564-26-000123",
       "0001778564-26-000125",
@@ -35514,6 +35659,24 @@
       "0001839882-26-037718",
       "0001839882-26-037719",
       "0001839882-26-037720",
+      "0001839882-26-037734",
+      "0001839882-26-037735",
+      "0001839882-26-037736",
+      "0001839882-26-037738",
+      "0001839882-26-037740",
+      "0001839882-26-037741",
+      "0001839882-26-037742",
+      "0001839882-26-037744",
+      "0001839882-26-037745",
+      "0001839882-26-037746",
+      "0001839882-26-037747",
+      "0001839882-26-037748",
+      "0001839882-26-037749",
+      "0001839882-26-037750",
+      "0001839882-26-037752",
+      "0001839882-26-037753",
+      "0001839882-26-037754",
+      "0001839882-26-037758",
       "0001840706-26-000265",
       "0001842720-26-000009",
       "0001843103-26-000014",
@@ -36570,6 +36733,14 @@
       "0001918704-26-022264",
       "0001918704-26-022266",
       "0001918704-26-022267",
+      "0001918704-26-022285",
+      "0001918704-26-022286",
+      "0001918704-26-022288",
+      "0001918704-26-022290",
+      "0001918704-26-022291",
+      "0001918704-26-022292",
+      "0001918704-26-022293",
+      "0001918704-26-022294",
       "0001921051-26-000012",
       "0001922252-26-000003",
       "0001924790-26-000006",
@@ -36920,6 +37091,7 @@
       "0002127674-26-000002",
       "0002127814-26-000004",
       "0002127908-26-000004",
+      "0002127924-26-000012",
       "0002129321-26-000011",
       "0002130384-26-000004",
       "0002130394-26-000019",
