@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-03T12:01:00.064982+00:00",
+  "generatedAt": "2026-08-03T13:00:53.585213+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1448,
+  "count": 1450,
   "trades": [
     {
       "ticker": "UMBF",
@@ -221,6 +221,26 @@
       "type": "Purchase",
       "shares": 2000.0,
       "pricePerShare": 25.21,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "ANIX",
+      "issuerName": "Anixa Biosciences Inc",
+      "insiderName": "KUMAR AMIT",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 5000.0,
+      "pricePerShare": 3.47,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "BPRN",
+      "issuerName": "Princeton Bancorp, Inc.",
+      "insiderName": "Distler Stephen",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 8776.0,
+      "pricePerShare": 41.4801,
       "transactionDate": "2026-07-31"
     },
     {
@@ -15260,6 +15280,86 @@
         }
       ]
     },
+    "ANIX": {
+      "issuerName": "Anixa Biosciences Inc",
+      "trades": [
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "KUMAR AMIT",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 3.47,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "KUMAR AMIT",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 3188.0,
+          "pricePerShare": 3.37,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "KUMAR AMIT",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 3.44,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "KUMAR AMIT",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 3000.0,
+          "pricePerShare": 3.73,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "Titterton Lewis H jr",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 12000.0,
+          "pricePerShare": 3.47,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "KUMAR AMIT",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 3.46,
+          "transactionDate": "2026-07-20"
+        }
+      ]
+    },
+    "BPRN": {
+      "issuerName": "Princeton Bancorp, Inc.",
+      "trades": [
+        {
+          "ticker": "BPRN",
+          "issuerName": "Princeton Bancorp, Inc.",
+          "insiderName": "Distler Stephen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8776.0,
+          "pricePerShare": 41.4801,
+          "transactionDate": "2026-07-31"
+        }
+      ]
+    },
     "COSM": {
       "issuerName": "Cosmos Health Inc.",
       "trades": [
@@ -25040,61 +25140,6 @@
         }
       ]
     },
-    "ANIX": {
-      "issuerName": "Anixa Biosciences Inc",
-      "trades": [
-        {
-          "ticker": "ANIX",
-          "issuerName": "Anixa Biosciences Inc",
-          "insiderName": "KUMAR AMIT",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 3188.0,
-          "pricePerShare": 3.37,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "ANIX",
-          "issuerName": "Anixa Biosciences Inc",
-          "insiderName": "KUMAR AMIT",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 5000.0,
-          "pricePerShare": 3.44,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "ANIX",
-          "issuerName": "Anixa Biosciences Inc",
-          "insiderName": "KUMAR AMIT",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 3000.0,
-          "pricePerShare": 3.73,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "ANIX",
-          "issuerName": "Anixa Biosciences Inc",
-          "insiderName": "Titterton Lewis H jr",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 12000.0,
-          "pricePerShare": 3.47,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "ANIX",
-          "issuerName": "Anixa Biosciences Inc",
-          "insiderName": "KUMAR AMIT",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 5000.0,
-          "pricePerShare": 3.46,
-          "transactionDate": "2026-07-20"
-        }
-      ]
-    },
     "GWRE": {
       "issuerName": "Guidewire Software, Inc.",
       "trades": [
@@ -30914,6 +30959,7 @@
       "0000930413-26-002233",
       "0000930413-26-002288",
       "0000930413-26-002289",
+      "0000930413-26-002327",
       "0000938333-26-000005",
       "0000938333-26-000006",
       "0000938333-26-000007",
@@ -31599,6 +31645,8 @@
       "0001104659-26-089400",
       "0001104659-26-089409",
       "0001104659-26-089426",
+      "0001104659-26-089525",
+      "0001104659-26-089527",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -32752,6 +32800,12 @@
       "0001193125-26-329517",
       "0001193125-26-329521",
       "0001193125-26-329563",
+      "0001193125-26-329575",
+      "0001193125-26-329577",
+      "0001193125-26-329584",
+      "0001193125-26-329588",
+      "0001193125-26-329614",
+      "0001193125-26-329620",
       "0001196460-26-000004",
       "0001196484-26-000014",
       "0001201252-26-000010",
@@ -33104,6 +33158,9 @@
       "0001213900-26-084125",
       "0001213900-26-084196",
       "0001213900-26-084219",
+      "0001213900-26-084277",
+      "0001213900-26-084283",
+      "0001213900-26-084286",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -33186,6 +33243,7 @@
       "0001214659-26-009412",
       "0001214659-26-009413",
       "0001214659-26-009414",
+      "0001214659-26-009439",
       "0001216725-26-000012",
       "0001220634-26-000002",
       "0001222371-26-000009",
@@ -33472,6 +33530,7 @@
       "0001437749-26-025286",
       "0001437749-26-025287",
       "0001437749-26-025288",
+      "0001437749-26-025321",
       "0001445546-26-005229",
       "0001445546-26-005230",
       "0001445546-26-005231",
@@ -33713,6 +33772,7 @@
       "0001493152-26-035713",
       "0001493152-26-035714",
       "0001493152-26-035715",
+      "0001493152-26-035751",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -34134,6 +34194,7 @@
       "0001628280-26-051495",
       "0001628280-26-051497",
       "0001628280-26-051505",
+      "0001628280-26-051550",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001638509-26-000007",
@@ -34201,6 +34262,8 @@
       "0001655589-26-001075",
       "0001655589-26-001076",
       "0001655589-26-001077",
+      "0001655589-26-001137",
+      "0001655589-26-001138",
       "0001656109-26-000006",
       "0001656846-26-000007",
       "0001657787-26-000002",
@@ -36437,6 +36500,8 @@
       "0001999371-26-016720",
       "0001999371-26-016721",
       "0001999371-26-016731",
+      "0001999371-26-016738",
+      "0001999371-26-016742",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002004222-26-000006",
