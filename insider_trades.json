@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-03T14:01:14.571908+00:00",
+  "generatedAt": "2026-08-03T15:01:42.514192+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1452,
+  "count": 1458,
   "trades": [
     {
       "ticker": "UMBF",
@@ -251,6 +251,46 @@
       "type": "Sale",
       "shares": 2150.0,
       "pricePerShare": 356.82,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 3.03,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "NRIM",
+      "issuerName": "NORTHRIM BANCORP INC",
+      "insiderName": "CRIQUI JASON ALEXANDER",
+      "title": "EVP, CBO of Northrim Bank",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 26.53,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "NRIM",
+      "issuerName": "NORTHRIM BANCORP INC",
+      "insiderName": "CRIQUI JASON ALEXANDER",
+      "title": "EVP, CBO of Northrim Bank",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 26.478,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "NRIM",
+      "issuerName": "NORTHRIM BANCORP INC",
+      "insiderName": "CRIQUI JASON ALEXANDER",
+      "title": "EVP, CBO of Northrim Bank",
+      "type": "Sale",
+      "shares": 12488.0,
+      "pricePerShare": 26.4376,
       "transactionDate": "2026-07-31"
     },
     {
@@ -901,6 +941,16 @@
       "type": "Sale",
       "shares": 29000.0,
       "pricePerShare": 17.9029,
+      "transactionDate": "2026-07-30"
+    },
+    {
+      "ticker": "SYBT",
+      "issuerName": "Stock Yards Bancorp, Inc.",
+      "insiderName": "Wells Laura L",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 6823.0,
+      "pricePerShare": 86.29,
       "transactionDate": "2026-07-30"
     },
     {
@@ -6591,6 +6641,16 @@
       "type": "Purchase",
       "shares": 10.0,
       "pricePerShare": 5.09,
+      "transactionDate": "2026-07-27"
+    },
+    {
+      "ticker": "UNB",
+      "issuerName": "UNION BANKSHARES INC",
+      "insiderName": "Bugbee Dawn D",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 200.0,
+      "pricePerShare": 23.3,
       "transactionDate": "2026-07-27"
     },
     {
@@ -15395,6 +15455,116 @@
         }
       ]
     },
+    "RCG": {
+      "issuerName": "RENN Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.03,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.05,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.03,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.06,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.07,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.03,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.02,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "NRIM": {
+      "issuerName": "NORTHRIM BANCORP INC",
+      "trades": [
+        {
+          "ticker": "NRIM",
+          "issuerName": "NORTHRIM BANCORP INC",
+          "insiderName": "CRIQUI JASON ALEXANDER",
+          "title": "EVP, CBO of Northrim Bank",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 26.53,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "NRIM",
+          "issuerName": "NORTHRIM BANCORP INC",
+          "insiderName": "CRIQUI JASON ALEXANDER",
+          "title": "EVP, CBO of Northrim Bank",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 26.478,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "NRIM",
+          "issuerName": "NORTHRIM BANCORP INC",
+          "insiderName": "CRIQUI JASON ALEXANDER",
+          "title": "EVP, CBO of Northrim Bank",
+          "type": "Sale",
+          "shares": 12488.0,
+          "pricePerShare": 26.4376,
+          "transactionDate": "2026-07-31"
+        }
+      ]
+    },
     "COSM": {
       "issuerName": "Cosmos Health Inc.",
       "trades": [
@@ -17032,6 +17202,21 @@
           "shares": 7500.0,
           "pricePerShare": 20.0,
           "transactionDate": "2026-07-28"
+        }
+      ]
+    },
+    "SYBT": {
+      "issuerName": "Stock Yards Bancorp, Inc.",
+      "trades": [
+        {
+          "ticker": "SYBT",
+          "issuerName": "Stock Yards Bancorp, Inc.",
+          "insiderName": "Wells Laura L",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 6823.0,
+          "pricePerShare": 86.29,
+          "transactionDate": "2026-07-30"
         }
       ]
     },
@@ -23350,71 +23535,6 @@
         }
       ]
     },
-    "RCG": {
-      "issuerName": "RENN Fund, Inc.",
-      "trades": [
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.05,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.03,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.06,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.07,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.03,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.02,
-          "transactionDate": "2026-07-17"
-        }
-      ]
-    },
     "RJF": {
       "issuerName": "RAYMOND JAMES FINANCIAL INC",
       "trades": [
@@ -26192,6 +26312,21 @@
           "shares": 7471500.0,
           "pricePerShare": null,
           "transactionDate": "2026-03-26"
+        }
+      ]
+    },
+    "UNB": {
+      "issuerName": "UNION BANKSHARES INC",
+      "trades": [
+        {
+          "ticker": "UNB",
+          "issuerName": "UNION BANKSHARES INC",
+          "insiderName": "Bugbee Dawn D",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 200.0,
+          "pricePerShare": 23.3,
+          "transactionDate": "2026-07-27"
         }
       ]
     },
@@ -30802,6 +30937,7 @@
       "0000320335-26-000206",
       "0000320335-26-000210",
       "0000356171-26-000106",
+      "0000706863-26-000071",
       "0000707179-26-000047",
       "0000707179-26-000048",
       "0000708955-26-000136",
@@ -31349,6 +31485,11 @@
       "0000950103-26-011584",
       "0000950103-26-011588",
       "0000950103-26-011605",
+      "0000950103-26-011607",
+      "0000950103-26-011608",
+      "0000950103-26-011609",
+      "0000950103-26-011610",
+      "0000950103-26-011611",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -31430,6 +31571,8 @@
       "0001081400-26-000315",
       "0001081400-26-000316",
       "0001081400-26-000326",
+      "0001081400-26-000336",
+      "0001081400-26-000337",
       "0001090009-26-000088",
       "0001090155-26-000004",
       "0001090355-26-000007",
@@ -31702,6 +31845,9 @@
       "0001104659-26-089549",
       "0001104659-26-089552",
       "0001104659-26-089557",
+      "0001104659-26-089598",
+      "0001104659-26-089612",
+      "0001104659-26-089616",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -31927,6 +32073,12 @@
       "0001140361-26-030529",
       "0001140361-26-030539",
       "0001140361-26-030566",
+      "0001140361-26-030621",
+      "0001140361-26-030623",
+      "0001140361-26-030625",
+      "0001140361-26-030628",
+      "0001140361-26-030740",
+      "0001140361-26-030767",
       "0001160077-26-000003",
       "0001162044-26-000644",
       "0001167691-26-000004",
@@ -32870,6 +33022,14 @@
       "0001193125-26-329694",
       "0001193125-26-329698",
       "0001193125-26-329720",
+      "0001193125-26-329752",
+      "0001193125-26-329762",
+      "0001193125-26-329772",
+      "0001193125-26-329797",
+      "0001193125-26-329804",
+      "0001193125-26-329805",
+      "0001193125-26-329806",
+      "0001193125-26-329807",
       "0001196460-26-000004",
       "0001196484-26-000014",
       "0001201252-26-000010",
@@ -33226,6 +33386,8 @@
       "0001213900-26-084283",
       "0001213900-26-084286",
       "0001213900-26-084295",
+      "0001213900-26-084348",
+      "0001213900-26-084353",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -33599,6 +33761,8 @@
       "0001437749-26-025288",
       "0001437749-26-025321",
       "0001437749-26-025335",
+      "0001437749-26-025338",
+      "0001437749-26-025344",
       "0001445546-26-005229",
       "0001445546-26-005230",
       "0001445546-26-005231",
@@ -33670,6 +33834,7 @@
       "0001445546-26-005659",
       "0001445546-26-005694",
       "0001445546-26-005695",
+      "0001445546-26-005697",
       "0001448765-26-000011",
       "0001451455-26-000009",
       "0001451763-26-000012",
@@ -34030,6 +34195,7 @@
       "0001580642-26-004744",
       "0001580642-26-004757",
       "0001580642-26-004758",
+      "0001580642-26-004780",
       "0001590264-26-000010",
       "0001590364-26-000078",
       "0001592900-26-003595",
@@ -34265,6 +34431,8 @@
       "0001628280-26-051497",
       "0001628280-26-051505",
       "0001628280-26-051550",
+      "0001628280-26-051580",
+      "0001628280-26-051586",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001638509-26-000007",
@@ -35328,6 +35496,24 @@
       "0001839882-26-037653",
       "0001839882-26-037654",
       "0001839882-26-037657",
+      "0001839882-26-037679",
+      "0001839882-26-037680",
+      "0001839882-26-037681",
+      "0001839882-26-037683",
+      "0001839882-26-037684",
+      "0001839882-26-037685",
+      "0001839882-26-037687",
+      "0001839882-26-037689",
+      "0001839882-26-037696",
+      "0001839882-26-037697",
+      "0001839882-26-037703",
+      "0001839882-26-037705",
+      "0001839882-26-037709",
+      "0001839882-26-037715",
+      "0001839882-26-037716",
+      "0001839882-26-037718",
+      "0001839882-26-037719",
+      "0001839882-26-037720",
       "0001840706-26-000265",
       "0001842720-26-000009",
       "0001843103-26-000014",
@@ -36373,6 +36559,17 @@
       "0001918704-26-022240",
       "0001918704-26-022241",
       "0001918704-26-022244",
+      "0001918704-26-022256",
+      "0001918704-26-022257",
+      "0001918704-26-022258",
+      "0001918704-26-022259",
+      "0001918704-26-022260",
+      "0001918704-26-022261",
+      "0001918704-26-022262",
+      "0001918704-26-022263",
+      "0001918704-26-022264",
+      "0001918704-26-022266",
+      "0001918704-26-022267",
       "0001921051-26-000012",
       "0001922252-26-000003",
       "0001924790-26-000006",
@@ -36422,6 +36619,11 @@
       "0001992104-26-000304",
       "0001992104-26-000305",
       "0001992104-26-000306",
+      "0001992104-26-000312",
+      "0001992104-26-000313",
+      "0001992104-26-000314",
+      "0001992104-26-000315",
+      "0001992104-26-000316",
       "0001994445-26-000006",
       "0001994955-26-000007",
       "0001998941-26-000004",
@@ -36606,6 +36808,7 @@
       "0001999371-26-016758",
       "0001999371-26-016762",
       "0001999371-26-016766",
+      "0001999371-26-016778",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002004222-26-000006",
@@ -36724,6 +36927,7 @@
       "0002133572-26-000004",
       "0002134641-26-000006",
       "0002134641-26-000007",
+      "0002136282-26-000006",
       "0002137987-26-000003",
       "0002138148-26-000002",
       "0002141713-26-000004",
