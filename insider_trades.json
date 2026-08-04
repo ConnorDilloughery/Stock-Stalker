@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-04T13:05:16.689107+00:00",
+  "generatedAt": "2026-08-04T14:04:13.869648+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1629,
+  "count": 1632,
   "trades": [
     {
       "ticker": "GOOD",
@@ -401,6 +401,26 @@
       "type": "Purchase",
       "shares": 1000.0,
       "pricePerShare": 73.06,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "TSBK",
+      "issuerName": "TIMBERLAND BANCORP INC",
+      "insiderName": "BRYDON DEAN J",
+      "title": "Director, CEO",
+      "type": "Sale",
+      "shares": 3000.0,
+      "pricePerShare": 45.24,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "CHE",
+      "issuerName": "CHEMED CORP",
+      "insiderName": "MCNAMARA KEVIN J",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2000.0,
+      "pricePerShare": 539.51,
       "transactionDate": "2026-08-03"
     },
     {
@@ -1441,6 +1461,16 @@
       "type": "Sale",
       "shares": 2200.0,
       "pricePerShare": 410.11,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "TFC",
+      "issuerName": "TRUIST FINANCIAL CORP",
+      "insiderName": "Wilson Donta L",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 13280.0,
+      "pricePerShare": 51.8538,
       "transactionDate": "2026-07-31"
     },
     {
@@ -17661,12 +17691,47 @@
         {
           "ticker": "TSBK",
           "issuerName": "TIMBERLAND BANCORP INC",
+          "insiderName": "BRYDON DEAN J",
+          "title": "Director, CEO",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 45.24,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "TSBK",
+          "issuerName": "TIMBERLAND BANCORP INC",
           "insiderName": "Antich Breanne D",
           "title": "Chief Technology Officer/EVP",
           "type": "Sale",
           "shares": 269.0,
           "pricePerShare": 45.44,
           "transactionDate": "2026-08-01"
+        }
+      ]
+    },
+    "CHE": {
+      "issuerName": "CHEMED CORP",
+      "trades": [
+        {
+          "ticker": "CHE",
+          "issuerName": "CHEMED CORP",
+          "insiderName": "MCNAMARA KEVIN J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 539.51,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "CHE",
+          "issuerName": "CHEMED CORP",
+          "insiderName": "GRACE PATRICK P",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 190.0,
+          "pricePerShare": 532.0,
+          "transactionDate": "2026-07-31"
         }
       ]
     },
@@ -18806,21 +18871,6 @@
           "type": "Sale",
           "shares": 2278.0,
           "pricePerShare": 25.372,
-          "transactionDate": "2026-07-31"
-        }
-      ]
-    },
-    "CHE": {
-      "issuerName": "CHEMED CORP",
-      "trades": [
-        {
-          "ticker": "CHE",
-          "issuerName": "CHEMED CORP",
-          "insiderName": "GRACE PATRICK P",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 190.0,
-          "pricePerShare": 532.0,
           "transactionDate": "2026-07-31"
         }
       ]
@@ -20587,6 +20637,41 @@
           "shares": 1391.0,
           "pricePerShare": 414.42,
           "transactionDate": "2026-07-28"
+        }
+      ]
+    },
+    "TFC": {
+      "issuerName": "TRUIST FINANCIAL CORP",
+      "trades": [
+        {
+          "ticker": "TFC",
+          "issuerName": "TRUIST FINANCIAL CORP",
+          "insiderName": "Wilson Donta L",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 13280.0,
+          "pricePerShare": 51.8538,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "TFC",
+          "issuerName": "TRUIST FINANCIAL CORP",
+          "insiderName": "Boyer K. David Jr.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3986.0,
+          "pricePerShare": 50.7,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "TFC",
+          "issuerName": "TRUIST FINANCIAL CORP",
+          "insiderName": "ROGERS WILLIAM H JR",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 13250.0,
+          "pricePerShare": 52.363,
+          "transactionDate": "2026-07-20"
         }
       ]
     },
@@ -30985,31 +31070,6 @@
         }
       ]
     },
-    "TFC": {
-      "issuerName": "TRUIST FINANCIAL CORP",
-      "trades": [
-        {
-          "ticker": "TFC",
-          "issuerName": "TRUIST FINANCIAL CORP",
-          "insiderName": "Boyer K. David Jr.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3986.0,
-          "pricePerShare": 50.7,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "TFC",
-          "issuerName": "TRUIST FINANCIAL CORP",
-          "insiderName": "ROGERS WILLIAM H JR",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 13250.0,
-          "pricePerShare": 52.363,
-          "transactionDate": "2026-07-20"
-        }
-      ]
-    },
     "WFRD": {
       "issuerName": "Weatherford International plc",
       "trades": [
@@ -34799,6 +34859,7 @@
       "0000939057-26-000141",
       "0000939057-26-000148",
       "0000939057-26-000150",
+      "0000939057-26-000151",
       "0000943452-26-000004",
       "0000943452-26-000005",
       "0000943452-26-000007",
@@ -35165,6 +35226,9 @@
       "0000950103-26-011748",
       "0000950103-26-011749",
       "0000950103-26-011750",
+      "0000950103-26-011751",
+      "0000950103-26-011752",
+      "0000950103-26-011753",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -35635,6 +35699,7 @@
       "0001133228-26-011100",
       "0001133228-26-011101",
       "0001133228-26-011103",
+      "0001133228-26-011164",
       "0001133416-26-000065",
       "0001134261-26-000005",
       "0001134261-26-000007",
@@ -35814,6 +35879,7 @@
       "0001140361-26-030973",
       "0001140361-26-030975",
       "0001140361-26-031055",
+      "0001140361-26-031067",
       "0001160077-26-000003",
       "0001162044-26-000644",
       "0001167691-26-000004",
@@ -36830,6 +36896,9 @@
       "0001193125-26-331639",
       "0001193125-26-331642",
       "0001193125-26-331652",
+      "0001193125-26-331690",
+      "0001193125-26-331721",
+      "0001193125-26-331722",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -37232,6 +37301,8 @@
       "0001213900-26-084918",
       "0001213900-26-084922",
       "0001213900-26-084931",
+      "0001213900-26-084966",
+      "0001213900-26-084972",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -38479,6 +38550,7 @@
       "0001676421-26-000002",
       "0001679788-26-000089",
       "0001680691-26-000003",
+      "0001681329-26-000006",
       "0001683168-26-005715",
       "0001683168-26-005736",
       "0001683168-26-005737",
@@ -39587,6 +39659,12 @@
       "0001839882-26-038237",
       "0001839882-26-038285",
       "0001839882-26-038286",
+      "0001839882-26-038298",
+      "0001839882-26-038300",
+      "0001839882-26-038301",
+      "0001839882-26-038302",
+      "0001839882-26-038305",
+      "0001839882-26-038307",
       "0001840706-26-000265",
       "0001842720-26-000009",
       "0001843103-26-000014",
@@ -39663,6 +39741,8 @@
       "0001896463-26-000006",
       "0001897580-26-000014",
       "0001899338-26-000002",
+      "0001899338-26-000003",
+      "0001899338-26-000004",
       "0001900201-26-000003",
       "0001903115-26-000003",
       "0001903739-26-000013",
@@ -40707,6 +40787,40 @@
       "0001918704-26-022483",
       "0001918704-26-022484",
       "0001918704-26-022489",
+      "0001918704-26-022501",
+      "0001918704-26-022502",
+      "0001918704-26-022503",
+      "0001918704-26-022504",
+      "0001918704-26-022505",
+      "0001918704-26-022506",
+      "0001918704-26-022507",
+      "0001918704-26-022508",
+      "0001918704-26-022509",
+      "0001918704-26-022510",
+      "0001918704-26-022511",
+      "0001918704-26-022512",
+      "0001918704-26-022513",
+      "0001918704-26-022514",
+      "0001918704-26-022515",
+      "0001918704-26-022516",
+      "0001918704-26-022517",
+      "0001918704-26-022518",
+      "0001918704-26-022519",
+      "0001918704-26-022520",
+      "0001918704-26-022521",
+      "0001918704-26-022522",
+      "0001918704-26-022523",
+      "0001918704-26-022524",
+      "0001918704-26-022525",
+      "0001918704-26-022526",
+      "0001918704-26-022527",
+      "0001918704-26-022528",
+      "0001918704-26-022529",
+      "0001918704-26-022530",
+      "0001918704-26-022531",
+      "0001918704-26-022532",
+      "0001918704-26-022533",
+      "0001918704-26-022534",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -41052,6 +41166,8 @@
       "0002077810-26-000271",
       "0002077810-26-000272",
       "0002077810-26-000273",
+      "0002078265-26-000329",
+      "0002078265-26-000330",
       "0002078512-26-000002",
       "0002078651-26-000012",
       "0002079031-26-000003",
