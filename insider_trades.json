@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-04T16:05:34.388442+00:00",
+  "generatedAt": "2026-08-04T17:04:42.348243+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1646,
+  "count": 1652,
   "trades": [
     {
       "ticker": "GOOD",
@@ -521,6 +521,46 @@
       "type": "Purchase",
       "shares": 756.0,
       "pricePerShare": 3.02,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "SXI",
+      "issuerName": "STANDEX INTERNATIONAL CORP/DE/",
+      "insiderName": "CHORMAN THOMAS E",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 50.0,
+      "pricePerShare": 305.56,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "PSMT",
+      "issuerName": "PRICESMART INC",
+      "insiderName": "Bahrambeygui Sherry S.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 3499.0,
+      "pricePerShare": 197.384,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "TPL",
+      "issuerName": "Texas Pacific Land Corp",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 392.66,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "MKSI",
+      "issuerName": "MKS INC",
+      "insiderName": "Williams John Edward",
+      "title": "EVP & GM, PSD",
+      "type": "Sale",
+      "shares": 457.0,
+      "pricePerShare": 288.31,
       "transactionDate": "2026-08-03"
     },
     {
@@ -1611,6 +1651,26 @@
       "type": "Sale",
       "shares": 2246.0,
       "pricePerShare": 66.74,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "PSMT",
+      "issuerName": "PRICESMART INC",
+      "insiderName": "Bahrambeygui Sherry S.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 200.0,
+      "pricePerShare": 194.4,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "PSMT",
+      "issuerName": "PRICESMART INC",
+      "insiderName": "Bahrambeygui Sherry S.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 800.0,
+      "pricePerShare": 194.469,
       "transactionDate": "2026-07-31"
     },
     {
@@ -18080,6 +18140,276 @@
         }
       ]
     },
+    "SXI": {
+      "issuerName": "STANDEX INTERNATIONAL CORP/DE/",
+      "trades": [
+        {
+          "ticker": "SXI",
+          "issuerName": "STANDEX INTERNATIONAL CORP/DE/",
+          "insiderName": "CHORMAN THOMAS E",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 50.0,
+          "pricePerShare": 305.56,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "PSMT": {
+      "issuerName": "PRICESMART INC",
+      "trades": [
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "Bahrambeygui Sherry S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3499.0,
+          "pricePerShare": 197.384,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "Bahrambeygui Sherry S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 194.4,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "Bahrambeygui Sherry S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 800.0,
+          "pricePerShare": 194.469,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "Bahrambeygui Sherry S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 192.663,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "Bahrambeygui Sherry S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 192.294,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "Bahrambeygui Sherry S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 184.65,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "Bahrambeygui Sherry S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 184.33,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "Bahrambeygui Sherry S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 188.93,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "Bahrambeygui Sherry S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 189.13,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 182.8675,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4655.0,
+          "pricePerShare": 181.7474,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4300.0,
+          "pricePerShare": 188.8097,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3700.0,
+          "pricePerShare": 186.9586,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 191.151,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "PSMT",
+          "issuerName": "PRICESMART INC",
+          "insiderName": "PRICE ROBERT E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7299.0,
+          "pricePerShare": 189.5476,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "TPL": {
+      "issuerName": "Texas Pacific Land Corp",
+      "trades": [
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 392.66,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 394.14,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 393.09,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 409.31,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 427.42,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 413.48,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 416.47,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 420.15,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "MKSI": {
+      "issuerName": "MKS INC",
+      "trades": [
+        {
+          "ticker": "MKSI",
+          "issuerName": "MKS INC",
+          "insiderName": "Williams John Edward",
+          "title": "EVP & GM, PSD",
+          "type": "Sale",
+          "shares": 457.0,
+          "pricePerShare": 288.31,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
     "UMBF": {
       "issuerName": "UMB FINANCIAL CORP",
       "trades": [
@@ -24845,131 +25175,6 @@
         }
       ]
     },
-    "PSMT": {
-      "issuerName": "PRICESMART INC",
-      "trades": [
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "Bahrambeygui Sherry S.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 192.663,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "Bahrambeygui Sherry S.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1100.0,
-          "pricePerShare": 192.294,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "Bahrambeygui Sherry S.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 184.65,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "Bahrambeygui Sherry S.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 184.33,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "Bahrambeygui Sherry S.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 188.93,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "Bahrambeygui Sherry S.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 189.13,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "PRICE ROBERT E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 182.8675,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "PRICE ROBERT E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4655.0,
-          "pricePerShare": 181.7474,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "PRICE ROBERT E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4300.0,
-          "pricePerShare": 188.8097,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "PRICE ROBERT E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3700.0,
-          "pricePerShare": 186.9586,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "PRICE ROBERT E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1100.0,
-          "pricePerShare": 191.151,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "PRICE ROBERT E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7299.0,
-          "pricePerShare": 189.5476,
-          "transactionDate": "2026-07-16"
-        }
-      ]
-    },
     "PB": {
       "issuerName": "PROSPERITY BANCSHARES INC",
       "trades": [
@@ -25087,81 +25292,6 @@
           "shares": 1300.0,
           "pricePerShare": 33.68,
           "transactionDate": "2026-07-29"
-        }
-      ]
-    },
-    "TPL": {
-      "issuerName": "Texas Pacific Land Corp",
-      "trades": [
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 394.14,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 393.09,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 409.31,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 427.42,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 413.48,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 416.47,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 420.15,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -34938,6 +35068,7 @@
       "0000225322-26-000197",
       "0000225322-26-000198",
       "0000225322-26-000199",
+      "0000310354-26-000043",
       "0000311094-26-000054",
       "0000311094-26-000056",
       "0000313143-26-000099",
@@ -34978,6 +35109,7 @@
       "0000784977-26-000048",
       "0000790359-26-000059",
       "0000790359-26-000060",
+      "0000795890-26-000037",
       "0000796343-26-000137",
       "0000806180-26-000069",
       "0000806180-26-000079",
@@ -34990,6 +35122,8 @@
       "0000827060-26-000029",
       "0000827060-26-000031",
       "0000827060-26-000033",
+      "0000833444-26-000089",
+      "0000833444-26-000091",
       "0000833640-26-000127",
       "0000836906-26-000362",
       "0000837276-26-000080",
@@ -35053,6 +35187,8 @@
       "0000894189-26-021849",
       "0000894189-26-021859",
       "0000894189-26-021860",
+      "0000894189-26-021920",
+      "0000894189-26-021921",
       "0000896622-26-000170",
       "0000896622-26-000172",
       "0000897069-26-001523",
@@ -35135,6 +35271,8 @@
       "0000912869-26-000068",
       "0000912869-26-000072",
       "0000912869-26-000076",
+      "0000912869-26-000083",
+      "0000912869-26-000085",
       "0000912938-26-000751",
       "0000912938-26-000752",
       "0000912938-26-000753",
@@ -35566,6 +35704,8 @@
       "0000950103-26-011770",
       "0000950103-26-011771",
       "0000950103-26-011772",
+      "0000950103-26-011773",
+      "0000950103-26-011774",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -35618,6 +35758,7 @@
       "0001046179-26-000463",
       "0001046179-26-000465",
       "0001047058-26-000009",
+      "0001049502-26-000111",
       "0001049521-26-000034",
       "0001050269-26-000011",
       "0001059244-26-000009",
@@ -35673,6 +35814,7 @@
       "0001093557-26-000137",
       "0001094891-26-000260",
       "0001101239-26-000149",
+      "0001101302-26-000148",
       "0001102993-26-000038",
       "0001102993-26-000041",
       "0001102993-26-000048",
@@ -35961,6 +36103,7 @@
       "0001104659-26-090089",
       "0001104659-26-090092",
       "0001104659-26-090107",
+      "0001104659-26-090197",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -36219,6 +36362,9 @@
       "0001140361-26-030975",
       "0001140361-26-031055",
       "0001140361-26-031067",
+      "0001140361-26-031092",
+      "0001140361-26-031099",
+      "0001140842-26-000004",
       "0001160077-26-000003",
       "0001162044-26-000644",
       "0001167691-26-000004",
@@ -37270,6 +37416,9 @@
       "0001193125-26-332095",
       "0001193125-26-332100",
       "0001193125-26-332103",
+      "0001193125-26-332127",
+      "0001193125-26-332167",
+      "0001193125-26-332172",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -37676,6 +37825,10 @@
       "0001213900-26-084972",
       "0001213900-26-084999",
       "0001213900-26-085016",
+      "0001213900-26-085047",
+      "0001213900-26-085053",
+      "0001213900-26-085056",
+      "0001213900-26-085057",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -37812,6 +37965,8 @@
       "0001225208-26-006898",
       "0001225208-26-006900",
       "0001225208-26-006906",
+      "0001225208-26-006908",
+      "0001225208-26-006909",
       "0001225481-26-000006",
       "0001227384-26-000017",
       "0001227654-26-000042",
@@ -38097,6 +38252,8 @@
       "0001437749-26-025491",
       "0001437749-26-025492",
       "0001437749-26-025564",
+      "0001437749-26-025582",
+      "0001437749-26-025589",
       "0001438584-26-000002",
       "0001445546-26-005229",
       "0001445546-26-005230",
@@ -38174,6 +38331,10 @@
       "0001445546-26-005709",
       "0001445546-26-005710",
       "0001445546-26-005711",
+      "0001445546-26-005713",
+      "0001445546-26-005714",
+      "0001445546-26-005715",
+      "0001445546-26-005716",
       "0001448765-26-000011",
       "0001451455-26-000009",
       "0001451763-26-000012",
@@ -38377,6 +38538,7 @@
       "0001493152-26-035900",
       "0001493152-26-035945",
       "0001493152-26-035950",
+      "0001493152-26-035955",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -38853,6 +39015,7 @@
       "0001628280-26-052169",
       "0001628280-26-052171",
       "0001628280-26-052253",
+      "0001628280-26-052328",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001637259-26-000004",
@@ -39244,6 +39407,7 @@
       "0001829126-26-008283",
       "0001829126-26-008284",
       "0001829126-26-008285",
+      "0001829126-26-008316",
       "0001830165-26-000026",
       "0001830532-26-000008",
       "0001831410-26-000008",
@@ -40078,6 +40242,19 @@
       "0001839882-26-038413",
       "0001839882-26-038415",
       "0001839882-26-038416",
+      "0001839882-26-038430",
+      "0001839882-26-038435",
+      "0001839882-26-038437",
+      "0001839882-26-038438",
+      "0001839882-26-038440",
+      "0001839882-26-038441",
+      "0001839882-26-038442",
+      "0001839882-26-038443",
+      "0001839882-26-038444",
+      "0001839882-26-038445",
+      "0001839882-26-038446",
+      "0001839882-26-038451",
+      "0001839882-26-038453",
       "0001840706-26-000265",
       "0001842720-26-000009",
       "0001843103-26-000014",
@@ -41271,6 +41448,7 @@
       "0001918704-26-022653",
       "0001918704-26-022654",
       "0001918704-26-022655",
+      "0001918704-26-022658",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -41537,10 +41715,15 @@
       "0001999371-26-016911",
       "0001999371-26-016919",
       "0001999371-26-016922",
+      "0001999371-26-016931",
+      "0001999371-26-016937",
+      "0001999371-26-016939",
+      "0001999371-26-016941",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
       "0002004222-26-000006",
+      "0002004397-26-000006",
       "0002006416-26-000013",
       "0002009989-26-000019",
       "0002010019-26-000021",
