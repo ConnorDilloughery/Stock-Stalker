@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-04T15:03:13.889929+00:00",
+  "generatedAt": "2026-08-04T16:05:34.388442+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1642,
+  "count": 1646,
   "trades": [
     {
       "ticker": "GOOD",
@@ -511,6 +511,16 @@
       "type": "Sale",
       "shares": 100.0,
       "pricePerShare": 94.28,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 3.02,
       "transactionDate": "2026-08-03"
     },
     {
@@ -1571,6 +1581,36 @@
       "type": "Purchase",
       "shares": 5000.0,
       "pricePerShare": 10.78,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "DRI",
+      "issuerName": "DARDEN RESTAURANTS INC",
+      "insiderName": "Williamson Laura B",
+      "title": "President, LongHorn Steakhouse",
+      "type": "Sale",
+      "shares": 1110.0,
+      "pricePerShare": 204.3172,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "DRI",
+      "issuerName": "DARDEN RESTAURANTS INC",
+      "insiderName": "Williamson Laura B",
+      "title": "President, LongHorn Steakhouse",
+      "type": "Sale",
+      "shares": 443.0,
+      "pricePerShare": 204.8946,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "BWFG",
+      "issuerName": "Bankwell Financial Group, Inc.",
+      "insiderName": "Hildebrand Ryan Jason",
+      "title": "Chief Innovation Officer",
+      "type": "Sale",
+      "shares": 2246.0,
+      "pricePerShare": 66.74,
       "transactionDate": "2026-07-31"
     },
     {
@@ -17955,6 +17995,91 @@
         }
       ]
     },
+    "RCG": {
+      "issuerName": "RENN Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.02,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.03,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.05,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.03,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.06,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.07,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.03,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.02,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
     "UMBF": {
       "issuerName": "UMB FINANCIAL CORP",
       "trades": [
@@ -18747,81 +18872,6 @@
           "shares": 2150.0,
           "pricePerShare": 356.82,
           "transactionDate": "2026-07-31"
-        }
-      ]
-    },
-    "RCG": {
-      "issuerName": "RENN Fund, Inc.",
-      "trades": [
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.03,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.05,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.03,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.06,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.07,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.03,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.02,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -20906,6 +20956,46 @@
           "type": "Purchase",
           "shares": 5000.0,
           "pricePerShare": 10.78,
+          "transactionDate": "2026-07-31"
+        }
+      ]
+    },
+    "DRI": {
+      "issuerName": "DARDEN RESTAURANTS INC",
+      "trades": [
+        {
+          "ticker": "DRI",
+          "issuerName": "DARDEN RESTAURANTS INC",
+          "insiderName": "Williamson Laura B",
+          "title": "President, LongHorn Steakhouse",
+          "type": "Sale",
+          "shares": 1110.0,
+          "pricePerShare": 204.3172,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "DRI",
+          "issuerName": "DARDEN RESTAURANTS INC",
+          "insiderName": "Williamson Laura B",
+          "title": "President, LongHorn Steakhouse",
+          "type": "Sale",
+          "shares": 443.0,
+          "pricePerShare": 204.8946,
+          "transactionDate": "2026-07-31"
+        }
+      ]
+    },
+    "BWFG": {
+      "issuerName": "Bankwell Financial Group, Inc.",
+      "trades": [
+        {
+          "ticker": "BWFG",
+          "issuerName": "Bankwell Financial Group, Inc.",
+          "insiderName": "Hildebrand Ryan Jason",
+          "title": "Chief Innovation Officer",
+          "type": "Sale",
+          "shares": 2246.0,
+          "pricePerShare": 66.74,
           "transactionDate": "2026-07-31"
         }
       ]
@@ -34890,6 +34980,7 @@
       "0000790359-26-000060",
       "0000796343-26-000137",
       "0000806180-26-000069",
+      "0000806180-26-000079",
       "0000807249-26-000057",
       "0000813672-26-000085",
       "0000821026-26-000110",
@@ -35466,6 +35557,15 @@
       "0000950103-26-011752",
       "0000950103-26-011753",
       "0000950103-26-011757",
+      "0000950103-26-011762",
+      "0000950103-26-011763",
+      "0000950103-26-011766",
+      "0000950103-26-011767",
+      "0000950103-26-011768",
+      "0000950103-26-011769",
+      "0000950103-26-011770",
+      "0000950103-26-011771",
+      "0000950103-26-011772",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -37152,6 +37252,24 @@
       "0001193125-26-331890",
       "0001193125-26-331893",
       "0001193125-26-331898",
+      "0001193125-26-331996",
+      "0001193125-26-332004",
+      "0001193125-26-332008",
+      "0001193125-26-332022",
+      "0001193125-26-332029",
+      "0001193125-26-332039",
+      "0001193125-26-332045",
+      "0001193125-26-332057",
+      "0001193125-26-332059",
+      "0001193125-26-332069",
+      "0001193125-26-332076",
+      "0001193125-26-332080",
+      "0001193125-26-332085",
+      "0001193125-26-332089",
+      "0001193125-26-332093",
+      "0001193125-26-332095",
+      "0001193125-26-332100",
+      "0001193125-26-332103",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -37557,6 +37675,7 @@
       "0001213900-26-084966",
       "0001213900-26-084972",
       "0001213900-26-084999",
+      "0001213900-26-085016",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -37692,6 +37811,7 @@
       "0001225208-26-006896",
       "0001225208-26-006898",
       "0001225208-26-006900",
+      "0001225208-26-006906",
       "0001225481-26-000006",
       "0001227384-26-000017",
       "0001227654-26-000042",
@@ -37976,6 +38096,7 @@
       "0001437749-26-025490",
       "0001437749-26-025491",
       "0001437749-26-025492",
+      "0001437749-26-025564",
       "0001438584-26-000002",
       "0001445546-26-005229",
       "0001445546-26-005230",
@@ -38255,6 +38376,7 @@
       "0001493152-26-035898",
       "0001493152-26-035900",
       "0001493152-26-035945",
+      "0001493152-26-035950",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -38275,6 +38397,7 @@
       "0001499832-26-000036",
       "0001503584-26-000010",
       "0001504699-26-000005",
+      "0001505732-26-000100",
       "0001505744-26-000013",
       "0001506307-26-000059",
       "0001506307-26-000061",
@@ -38460,10 +38583,16 @@
       "0001580642-26-004758",
       "0001580642-26-004780",
       "0001580642-26-004804",
+      "0001580642-26-004836",
+      "0001580642-26-004837",
+      "0001580642-26-004838",
+      "0001580642-26-004839",
+      "0001580642-26-004840",
       "0001582473-26-000008",
       "0001588852-26-000009",
       "0001590264-26-000010",
       "0001590364-26-000078",
+      "0001590625-26-000063",
       "0001592900-26-003595",
       "0001592900-26-003620",
       "0001592900-26-003763",
@@ -38723,6 +38852,7 @@
       "0001628280-26-052070",
       "0001628280-26-052169",
       "0001628280-26-052171",
+      "0001628280-26-052253",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001637259-26-000004",
@@ -39933,6 +40063,21 @@
       "0001839882-26-038348",
       "0001839882-26-038349",
       "0001839882-26-038353",
+      "0001839882-26-038382",
+      "0001839882-26-038388",
+      "0001839882-26-038390",
+      "0001839882-26-038392",
+      "0001839882-26-038393",
+      "0001839882-26-038395",
+      "0001839882-26-038401",
+      "0001839882-26-038408",
+      "0001839882-26-038409",
+      "0001839882-26-038410",
+      "0001839882-26-038411",
+      "0001839882-26-038412",
+      "0001839882-26-038413",
+      "0001839882-26-038415",
+      "0001839882-26-038416",
       "0001840706-26-000265",
       "0001842720-26-000009",
       "0001843103-26-000014",
@@ -41112,6 +41257,20 @@
       "0001918704-26-022620",
       "0001918704-26-022621",
       "0001918704-26-022622",
+      "0001918704-26-022642",
+      "0001918704-26-022643",
+      "0001918704-26-022644",
+      "0001918704-26-022645",
+      "0001918704-26-022646",
+      "0001918704-26-022647",
+      "0001918704-26-022648",
+      "0001918704-26-022649",
+      "0001918704-26-022650",
+      "0001918704-26-022651",
+      "0001918704-26-022652",
+      "0001918704-26-022653",
+      "0001918704-26-022654",
+      "0001918704-26-022655",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -41376,6 +41535,8 @@
       "0001999371-26-016905",
       "0001999371-26-016909",
       "0001999371-26-016911",
+      "0001999371-26-016919",
+      "0001999371-26-016922",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
@@ -41457,6 +41618,7 @@
       "0002073801-26-000035",
       "0002074666-26-000006",
       "0002075052-26-000004",
+      "0002075110-26-000006",
       "0002077291-26-000002",
       "0002077810-26-000271",
       "0002077810-26-000272",
