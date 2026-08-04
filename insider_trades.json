@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-04T10:02:04.999282+00:00",
+  "generatedAt": "2026-08-04T11:01:52.918012+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1618,
+  "count": 1622,
   "trades": [
     {
       "ticker": "GOOD",
@@ -341,6 +341,26 @@
       "type": "Sale",
       "shares": 1200.0,
       "pricePerShare": 59.405,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "TAL",
+      "issuerName": "TAL Education Group",
+      "insiderName": "PENG ALEX ZHUANGZHUANG",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 30000.0,
+      "pricePerShare": 12.281,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "AVR",
+      "issuerName": "Anteris Technologies Global Corp.",
+      "insiderName": "L1 Capital Pty Ltd",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 475693.0,
+      "pricePerShare": 8.1,
       "transactionDate": "2026-08-03"
     },
     {
@@ -1331,6 +1351,26 @@
       "type": "Sale",
       "shares": 4986.0,
       "pricePerShare": 300.0,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "AVR",
+      "issuerName": "Anteris Technologies Global Corp.",
+      "insiderName": "L1 Capital Pty Ltd",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 48711.0,
+      "pricePerShare": 8.15,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "JMKE",
+      "issuerName": "Jersey Mike's Subs Inc.",
+      "insiderName": "Abu Dhabi Investment Authority",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 4411064.0,
+      "pricePerShare": 21.85,
       "transactionDate": "2026-07-31"
     },
     {
@@ -17210,6 +17250,106 @@
         }
       ]
     },
+    "TAL": {
+      "issuerName": "TAL Education Group",
+      "trades": [
+        {
+          "ticker": "TAL",
+          "issuerName": "TAL Education Group",
+          "insiderName": "PENG ALEX ZHUANGZHUANG",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 30000.0,
+          "pricePerShare": 12.281,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "AVR": {
+      "issuerName": "Anteris Technologies Global Corp.",
+      "trades": [
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 475693.0,
+          "pricePerShare": 8.1,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 48711.0,
+          "pricePerShare": 8.15,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 558633.0,
+          "pricePerShare": 8.2,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 155505.0,
+          "pricePerShare": 8.04,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 208731.0,
+          "pricePerShare": 8.09,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 232817.0,
+          "pricePerShare": 8.19,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 23000.0,
+          "pricePerShare": 8.13,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 5000000.0,
+          "pricePerShare": 5.75,
+          "transactionDate": "2026-01-22"
+        }
+      ]
+    },
     "TSBK": {
       "issuerName": "TIMBERLAND BANCORP INC",
       "trades": [
@@ -20080,6 +20220,21 @@
         }
       ]
     },
+    "JMKE": {
+      "issuerName": "Jersey Mike's Subs Inc.",
+      "trades": [
+        {
+          "ticker": "JMKE",
+          "issuerName": "Jersey Mike's Subs Inc.",
+          "insiderName": "Abu Dhabi Investment Authority",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4411064.0,
+          "pricePerShare": 21.85,
+          "transactionDate": "2026-07-31"
+        }
+      ]
+    },
     "COSM": {
       "issuerName": "Cosmos Health Inc.",
       "trades": [
@@ -20907,71 +21062,6 @@
           "shares": 1167.0,
           "pricePerShare": 72.9507,
           "transactionDate": "2026-07-20"
-        }
-      ]
-    },
-    "AVR": {
-      "issuerName": "Anteris Technologies Global Corp.",
-      "trades": [
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 558633.0,
-          "pricePerShare": 8.2,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 155505.0,
-          "pricePerShare": 8.04,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 208731.0,
-          "pricePerShare": 8.09,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 232817.0,
-          "pricePerShare": 8.19,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 23000.0,
-          "pricePerShare": 8.13,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 5000000.0,
-          "pricePerShare": 5.75,
-          "transactionDate": "2026-01-22"
         }
       ]
     },
@@ -34375,6 +34465,7 @@
       "0000884546-26-000388",
       "0000884546-26-000390",
       "0000885590-26-000101",
+      "0000886982-26-000298",
       "0000887340-26-000097",
       "0000894189-26-021227",
       "0000894189-26-021264",
@@ -34919,6 +35010,9 @@
       "0000950103-26-011689",
       "0000950103-26-011710",
       "0000950103-26-011715",
+      "0000950103-26-011746",
+      "0000950103-26-011747",
+      "0000950103-26-011748",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -35298,6 +35392,12 @@
       "0001104659-26-089775",
       "0001104659-26-089920",
       "0001104659-26-089928",
+      "0001104659-26-089978",
+      "0001104659-26-089994",
+      "0001104659-26-089995",
+      "0001104659-26-090017",
+      "0001104659-26-090028",
+      "0001104659-26-090039",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -36560,7 +36660,9 @@
       "0001193125-26-331062",
       "0001193125-26-331065",
       "0001193125-26-331066",
+      "0001193125-26-331165",
       "0001193125-26-331208",
+      "0001193125-26-331222",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -36948,6 +37050,15 @@
       "0001213900-26-084777",
       "0001213900-26-084778",
       "0001213900-26-084779",
+      "0001213900-26-084843",
+      "0001213900-26-084847",
+      "0001213900-26-084852",
+      "0001213900-26-084855",
+      "0001213900-26-084857",
+      "0001213900-26-084858",
+      "0001213900-26-084862",
+      "0001213900-26-084868",
+      "0001213900-26-084870",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -37037,6 +37148,7 @@
       "0001214659-26-009462",
       "0001214659-26-009492",
       "0001214659-26-009498",
+      "0001214659-26-009509",
       "0001216725-26-000012",
       "0001219555-26-000006",
       "0001220634-26-000002",
@@ -37242,6 +37354,7 @@
       "0001398344-26-013332",
       "0001398344-26-013335",
       "0001398344-26-013336",
+      "0001398344-26-013383",
       "0001401336-26-000020",
       "0001402348-26-000016",
       "0001403373-26-000007",
@@ -37479,6 +37592,9 @@
       "0001477932-26-004685",
       "0001477932-26-004686",
       "0001479079-26-000035",
+      "0001481792-26-000136",
+      "0001481792-26-000138",
+      "0001481792-26-000140",
       "0001490925-26-000003",
       "0001491567-26-000008",
       "0001492597-26-000001",
@@ -38235,6 +38351,7 @@
       "0001729840-26-000024",
       "0001729859-26-000040",
       "0001729897-26-000038",
+      "0001731122-26-001007",
       "0001731363-26-000007",
       "0001731365-26-000007",
       "0001731395-26-000007",
@@ -38376,6 +38493,7 @@
       "0001817646-26-000013",
       "0001817646-26-000014",
       "0001817646-26-000015",
+      "0001817646-26-000016",
       "0001818383-26-000190",
       "0001818383-26-000191",
       "0001818383-26-000193",
@@ -40395,6 +40513,8 @@
       "0001918704-26-022444",
       "0001918704-26-022445",
       "0001918704-26-022446",
+      "0001918704-26-022454",
+      "0001918704-26-022455",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -40452,6 +40572,7 @@
       "0001983992-26-000005",
       "0001984784-26-000020",
       "0001986157-26-000016",
+      "0001987126-26-000002",
       "0001988976-26-000006",
       "0001992104-26-000301",
       "0001992104-26-000303",
