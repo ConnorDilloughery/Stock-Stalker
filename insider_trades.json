@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-04T11:01:52.918012+00:00",
+  "generatedAt": "2026-08-04T12:04:17.463030+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1622,
+  "count": 1627,
   "trades": [
     {
       "ticker": "GOOD",
@@ -361,6 +361,46 @@
       "type": "Sale",
       "shares": 475693.0,
       "pricePerShare": 8.1,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "PGY",
+      "issuerName": "Pagaya Technologies Ltd.",
+      "insiderName": "Rosen Tami",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 28181.0,
+      "pricePerShare": 21.9783,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "PGY",
+      "issuerName": "Pagaya Technologies Ltd.",
+      "insiderName": "DAS SANJIV",
+      "title": "President",
+      "type": "Sale",
+      "shares": 21289.0,
+      "pricePerShare": 22.0,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "KARO",
+      "issuerName": "Karooooo Ltd.",
+      "insiderName": "Calisto Isaias Jose",
+      "title": "Director, CEO & Executive Chairman, 10% Owner",
+      "type": "Sale",
+      "shares": 20417.0,
+      "pricePerShare": 64.5101,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "insiderName": "Tien Bor-Zen",
+      "title": "VP",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 73.06,
       "transactionDate": "2026-08-03"
     },
     {
@@ -1371,6 +1411,16 @@
       "type": "Sale",
       "shares": 4411064.0,
       "pricePerShare": 21.85,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "KARO",
+      "issuerName": "Karooooo Ltd.",
+      "insiderName": "Calisto Isaias Jose",
+      "title": "Director, CEO & Executive Chairman, 10% Owner",
+      "type": "Sale",
+      "shares": 25452.0,
+      "pricePerShare": 64.6496,
       "transactionDate": "2026-07-31"
     },
     {
@@ -17350,6 +17400,241 @@
         }
       ]
     },
+    "PGY": {
+      "issuerName": "Pagaya Technologies Ltd.",
+      "trades": [
+        {
+          "ticker": "PGY",
+          "issuerName": "Pagaya Technologies Ltd.",
+          "insiderName": "Rosen Tami",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 28181.0,
+          "pricePerShare": 21.9783,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "PGY",
+          "issuerName": "Pagaya Technologies Ltd.",
+          "insiderName": "DAS SANJIV",
+          "title": "President",
+          "type": "Sale",
+          "shares": 21289.0,
+          "pricePerShare": 22.0,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "KARO": {
+      "issuerName": "Karooooo Ltd.",
+      "trades": [
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 20417.0,
+          "pricePerShare": 64.5101,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 25452.0,
+          "pricePerShare": 64.6496,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 18630.0,
+          "pricePerShare": 63.4706,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 31897.0,
+          "pricePerShare": 64.4327,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 22036.0,
+          "pricePerShare": 64.1878,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 25913.0,
+          "pricePerShare": 63.4383,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
+    "TSM": {
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "trades": [
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Tien Bor-Zen",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 73.06,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Tien Bor-Zen",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 10.0,
+          "pricePerShare": 390.0,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Tien Bor-Zen",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 5.0,
+          "pricePerShare": 390.0,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Tien Bor-Zen",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 67.97,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Lin Shyue-Shyh",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 74.13,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Tien Bor-Zen",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 74.13,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Tien Bor-Zen",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 73.98,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Tien Bor-Zen",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 74.44,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Tien Bor-Zen",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 74.75,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Lin Shyue-Shyh",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 72.65,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Tien Bor-Zen",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 10.0,
+          "pricePerShare": 405.0,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Lin Shyue-Shyh",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 72.1,
+          "transactionDate": "2026-07-19"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Lin Shyue-Shyh",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 71.32,
+          "transactionDate": "2026-07-19"
+        },
+        {
+          "ticker": "TSM",
+          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+          "insiderName": "Lin Shyue-Shyh",
+          "title": "VP",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 71.94,
+          "transactionDate": "2026-07-19"
+        }
+      ]
+    },
     "TSBK": {
       "issuerName": "TIMBERLAND BANCORP INC",
       "trades": [
@@ -21112,51 +21397,6 @@
           "shares": 1170.96,
           "pricePerShare": 68.32,
           "transactionDate": "2026-07-30"
-        }
-      ]
-    },
-    "KARO": {
-      "issuerName": "Karooooo Ltd.",
-      "trades": [
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 18630.0,
-          "pricePerShare": 63.4706,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 31897.0,
-          "pricePerShare": 64.4327,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 22036.0,
-          "pricePerShare": 64.1878,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 25913.0,
-          "pricePerShare": 63.4383,
-          "transactionDate": "2026-07-27"
         }
       ]
     },
@@ -28275,141 +28515,6 @@
         }
       ]
     },
-    "TSM": {
-      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "trades": [
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Tien Bor-Zen",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 10.0,
-          "pricePerShare": 390.0,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Tien Bor-Zen",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 5.0,
-          "pricePerShare": 390.0,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Tien Bor-Zen",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 67.97,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Lin Shyue-Shyh",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 74.13,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Tien Bor-Zen",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 74.13,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Tien Bor-Zen",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 73.98,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Tien Bor-Zen",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 74.44,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Tien Bor-Zen",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 74.75,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Lin Shyue-Shyh",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 72.65,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Tien Bor-Zen",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 10.0,
-          "pricePerShare": 405.0,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Lin Shyue-Shyh",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 72.1,
-          "transactionDate": "2026-07-19"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Lin Shyue-Shyh",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 71.32,
-          "transactionDate": "2026-07-19"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Lin Shyue-Shyh",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 71.94,
-          "transactionDate": "2026-07-19"
-        }
-      ]
-    },
     "NEXN": {
       "issuerName": "Nexxen International Ltd.",
       "trades": [
@@ -35060,6 +35165,7 @@
       "0001046179-26-000457",
       "0001046179-26-000461",
       "0001046179-26-000463",
+      "0001046179-26-000465",
       "0001047058-26-000009",
       "0001049521-26-000034",
       "0001050269-26-000011",
@@ -35398,6 +35504,9 @@
       "0001104659-26-090017",
       "0001104659-26-090028",
       "0001104659-26-090039",
+      "0001104659-26-090068",
+      "0001104659-26-090069",
+      "0001104659-26-090083",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -35474,6 +35583,7 @@
       "0001133228-26-011100",
       "0001133228-26-011101",
       "0001133228-26-011103",
+      "0001133416-26-000065",
       "0001134261-26-000005",
       "0001134261-26-000007",
       "0001137360-26-000718",
@@ -35651,6 +35761,7 @@
       "0001140361-26-030971",
       "0001140361-26-030973",
       "0001140361-26-030975",
+      "0001140361-26-031055",
       "0001160077-26-000003",
       "0001162044-26-000644",
       "0001167691-26-000004",
@@ -37059,6 +37170,7 @@
       "0001213900-26-084862",
       "0001213900-26-084868",
       "0001213900-26-084870",
+      "0001213900-26-084902",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -38216,6 +38328,8 @@
       "0001628280-26-052067",
       "0001628280-26-052069",
       "0001628280-26-052070",
+      "0001628280-26-052169",
+      "0001628280-26-052171",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001637259-26-000004",
@@ -40515,6 +40629,7 @@
       "0001918704-26-022446",
       "0001918704-26-022454",
       "0001918704-26-022455",
+      "0001918704-26-022462",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -40772,6 +40887,7 @@
       "0001999371-26-016766",
       "0001999371-26-016778",
       "0001999371-26-016795",
+      "0001999371-26-016880",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002004222-26-000006",
