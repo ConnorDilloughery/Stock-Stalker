@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-04T17:04:42.348243+00:00",
+  "generatedAt": "2026-08-04T19:02:11.959255+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1652,
+  "count": 1662,
   "trades": [
     {
       "ticker": "GOOD",
@@ -561,6 +561,96 @@
       "type": "Sale",
       "shares": 457.0,
       "pricePerShare": 288.31,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "SFST",
+      "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+      "insiderName": "Fairchild Julie Ann",
+      "title": "Chief Accounting Officer",
+      "type": "Sale",
+      "shares": 1500.0,
+      "pricePerShare": 63.0,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "WMB",
+      "issuerName": "WILLIAMS COMPANIES, INC.",
+      "insiderName": "Wilson Terrance Lane",
+      "title": "SVP & General Counsel",
+      "type": "Sale",
+      "shares": 2000.0,
+      "pricePerShare": 70.65,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "NMZ",
+      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+      "insiderName": "BANK OF AMERICA CORP /DE/",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 7.0,
+      "pricePerShare": 10.195,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "NMZ",
+      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+      "insiderName": "BANK OF AMERICA CORP /DE/",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 14.0,
+      "pricePerShare": 10.2143,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "NMZ",
+      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+      "insiderName": "BANK OF AMERICA CORP /DE/",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 10.0,
+      "pricePerShare": 10.2143,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "NMZ",
+      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+      "insiderName": "BANK OF AMERICA CORP /DE/",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 5.0,
+      "pricePerShare": 10.22,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "NMZ",
+      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+      "insiderName": "BANK OF AMERICA CORP /DE/",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 7.0,
+      "pricePerShare": 10.3237,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "NMZ",
+      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+      "insiderName": "BANK OF AMERICA CORP /DE/",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 14.0,
+      "pricePerShare": 10.2412,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "NMZ",
+      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+      "insiderName": "BANK OF AMERICA CORP /DE/",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 10.0,
+      "pricePerShare": 10.2301,
       "transactionDate": "2026-08-03"
     },
     {
@@ -1671,6 +1761,16 @@
       "type": "Sale",
       "shares": 800.0,
       "pricePerShare": 194.469,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "NMZ",
+      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+      "insiderName": "BANK OF AMERICA CORP /DE/",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 5.0,
+      "pricePerShare": 10.325,
       "transactionDate": "2026-07-31"
     },
     {
@@ -18410,6 +18510,151 @@
         }
       ]
     },
+    "SFST": {
+      "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+      "trades": [
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "Fairchild Julie Ann",
+          "title": "Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 63.0,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "Lattimore Ray",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 253.0,
+          "pricePerShare": 59.2768,
+          "transactionDate": "2026-06-23"
+        }
+      ]
+    },
+    "WMB": {
+      "issuerName": "WILLIAMS COMPANIES, INC.",
+      "trades": [
+        {
+          "ticker": "WMB",
+          "issuerName": "WILLIAMS COMPANIES, INC.",
+          "insiderName": "Wilson Terrance Lane",
+          "title": "SVP & General Counsel",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 70.65,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "NMZ": {
+      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+      "trades": [
+        {
+          "ticker": "NMZ",
+          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+          "insiderName": "BANK OF AMERICA CORP /DE/",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 7.0,
+          "pricePerShare": 10.195,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "NMZ",
+          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+          "insiderName": "BANK OF AMERICA CORP /DE/",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 14.0,
+          "pricePerShare": 10.2143,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "NMZ",
+          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+          "insiderName": "BANK OF AMERICA CORP /DE/",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10.0,
+          "pricePerShare": 10.2143,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "NMZ",
+          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+          "insiderName": "BANK OF AMERICA CORP /DE/",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 5.0,
+          "pricePerShare": 10.22,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "NMZ",
+          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+          "insiderName": "BANK OF AMERICA CORP /DE/",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 7.0,
+          "pricePerShare": 10.3237,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "NMZ",
+          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+          "insiderName": "BANK OF AMERICA CORP /DE/",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 14.0,
+          "pricePerShare": 10.2412,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "NMZ",
+          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+          "insiderName": "BANK OF AMERICA CORP /DE/",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 10.0,
+          "pricePerShare": 10.2301,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "NMZ",
+          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+          "insiderName": "BANK OF AMERICA CORP /DE/",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 5.0,
+          "pricePerShare": 10.325,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "NMZ",
+          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+          "insiderName": "BANK OF AMERICA CORP /DE/",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9.0,
+          "pricePerShare": 10.235,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "NMZ",
+          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
+          "insiderName": "BANK OF AMERICA CORP /DE/",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 9.0,
+          "pricePerShare": 10.175,
+          "transactionDate": "2026-07-24"
+        }
+      ]
+    },
     "UMBF": {
       "issuerName": "UMB FINANCIAL CORP",
       "trades": [
@@ -30805,31 +31050,6 @@
         }
       ]
     },
-    "NMZ": {
-      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-      "trades": [
-        {
-          "ticker": "NMZ",
-          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-          "insiderName": "BANK OF AMERICA CORP /DE/",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9.0,
-          "pricePerShare": 10.235,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "NMZ",
-          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-          "insiderName": "BANK OF AMERICA CORP /DE/",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 9.0,
-          "pricePerShare": 10.175,
-          "transactionDate": "2026-07-24"
-        }
-      ]
-    },
     "STT": {
       "issuerName": "STATE STREET CORP",
       "trades": [
@@ -34795,21 +35015,6 @@
         }
       ]
     },
-    "SFST": {
-      "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-      "trades": [
-        {
-          "ticker": "SFST",
-          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-          "insiderName": "Lattimore Ray",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 253.0,
-          "pricePerShare": 59.2768,
-          "transactionDate": "2026-06-23"
-        }
-      ]
-    },
     "CRESY": {
       "issuerName": "CRESUD INC",
       "trades": [
@@ -34996,6 +35201,7 @@
       "0000070502-26-000513",
       "0000070858-26-000359",
       "0000070858-26-000368",
+      "0000070858-26-000409",
       "0000073756-26-000141",
       "0000073756-26-000142",
       "0000074260-26-000089",
@@ -35706,6 +35912,11 @@
       "0000950103-26-011772",
       "0000950103-26-011773",
       "0000950103-26-011774",
+      "0000950103-26-011842",
+      "0000950103-26-011843",
+      "0000950103-26-011844",
+      "0000950103-26-011845",
+      "0000950103-26-011846",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -35807,6 +36018,7 @@
       "0001083301-26-000153",
       "0001083301-26-000154",
       "0001090009-26-000088",
+      "0001090009-26-000090",
       "0001090155-26-000004",
       "0001090355-26-000007",
       "0001090394-26-000005",
@@ -37419,6 +37631,12 @@
       "0001193125-26-332127",
       "0001193125-26-332167",
       "0001193125-26-332172",
+      "0001193125-26-332452",
+      "0001193125-26-332453",
+      "0001193125-26-332454",
+      "0001193125-26-332463",
+      "0001193125-26-332479",
+      "0001193125-26-332488",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -37829,6 +38047,8 @@
       "0001213900-26-085053",
       "0001213900-26-085056",
       "0001213900-26-085057",
+      "0001213900-26-085119",
+      "0001213900-26-085120",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -37967,6 +38187,8 @@
       "0001225208-26-006906",
       "0001225208-26-006908",
       "0001225208-26-006909",
+      "0001225208-26-006914",
+      "0001225208-26-006915",
       "0001225481-26-000006",
       "0001227384-26-000017",
       "0001227654-26-000042",
@@ -38131,6 +38353,7 @@
       "0001401336-26-000020",
       "0001402348-26-000016",
       "0001403373-26-000007",
+      "0001403967-26-000004",
       "0001405955-26-000007",
       "0001409460-26-000011",
       "0001411724-26-000006",
@@ -38648,6 +38871,7 @@
       "0001539147-26-000009",
       "0001539285-26-000011",
       "0001542447-26-000083",
+      "0001542447-26-000092",
       "0001542574-26-000372",
       "0001542574-26-000373",
       "0001542574-26-000374",
@@ -38750,6 +38974,10 @@
       "0001580642-26-004838",
       "0001580642-26-004839",
       "0001580642-26-004840",
+      "0001580642-26-004856",
+      "0001580642-26-004857",
+      "0001580642-26-004860",
+      "0001580642-26-004861",
       "0001582473-26-000008",
       "0001588852-26-000009",
       "0001590264-26-000010",
@@ -39130,6 +39358,7 @@
       "0001696923-26-000007",
       "0001697362-26-000014",
       "0001700266-26-000001",
+      "0001703388-26-000021",
       "0001703841-26-000003",
       "0001705189-26-000013",
       "0001705419-26-000004",
@@ -39280,6 +39509,7 @@
       "0001807459-26-000020",
       "0001807641-26-000007",
       "0001811389-26-000002",
+      "0001811822-26-000002",
       "0001812715-26-000006",
       "0001812999-26-000006",
       "0001813570-26-000007",
@@ -40255,6 +40485,17 @@
       "0001839882-26-038446",
       "0001839882-26-038451",
       "0001839882-26-038453",
+      "0001839882-26-038501",
+      "0001839882-26-038502",
+      "0001839882-26-038503",
+      "0001839882-26-038504",
+      "0001839882-26-038505",
+      "0001839882-26-038506",
+      "0001839882-26-038507",
+      "0001839882-26-038508",
+      "0001839882-26-038509",
+      "0001839882-26-038510",
+      "0001839882-26-038511",
       "0001840706-26-000265",
       "0001842720-26-000009",
       "0001843103-26-000014",
@@ -41449,6 +41690,22 @@
       "0001918704-26-022654",
       "0001918704-26-022655",
       "0001918704-26-022658",
+      "0001918704-26-022752",
+      "0001918704-26-022753",
+      "0001918704-26-022754",
+      "0001918704-26-022755",
+      "0001918704-26-022756",
+      "0001918704-26-022757",
+      "0001918704-26-022758",
+      "0001918704-26-022759",
+      "0001918704-26-022760",
+      "0001918704-26-022761",
+      "0001918704-26-022762",
+      "0001918704-26-022763",
+      "0001918704-26-022764",
+      "0001918704-26-022765",
+      "0001918704-26-022766",
+      "0001918704-26-022767",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -41725,6 +41982,7 @@
       "0002004222-26-000006",
       "0002004397-26-000006",
       "0002006416-26-000013",
+      "0002008482-26-000002",
       "0002009989-26-000019",
       "0002010019-26-000021",
       "0002010135-26-000016",
@@ -41802,6 +42060,7 @@
       "0002074666-26-000006",
       "0002075052-26-000004",
       "0002075110-26-000006",
+      "0002076289-26-000007",
       "0002077291-26-000002",
       "0002077810-26-000271",
       "0002077810-26-000272",
@@ -41836,6 +42095,8 @@
       "0002111465-26-000004",
       "0002111466-26-000004",
       "0002111867-26-000011",
+      "0002112700-26-000006",
+      "0002112713-26-000008",
       "0002116333-26-000001",
       "0002120714-26-000004",
       "0002123155-26-000002",
