@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-05T12:01:59.494185+00:00",
+  "generatedAt": "2026-08-05T13:02:13.749051+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1801,
+  "count": 1806,
   "trades": [
     {
       "ticker": "SMBK",
@@ -1831,6 +1831,56 @@
       "type": "Sale",
       "shares": 1948.0,
       "pricePerShare": 110.81,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "FUNC",
+      "issuerName": "FIRST UNITED CORP/MD/",
+      "insiderName": "Rodeheaver Carissa Lynn",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 36.8835,
+      "pricePerShare": 45.32,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "FUNC",
+      "issuerName": "FIRST UNITED CORP/MD/",
+      "insiderName": "Rodeheaver Carissa Lynn",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 103.054,
+      "pricePerShare": 45.84,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "FUNC",
+      "issuerName": "FIRST UNITED CORP/MD/",
+      "insiderName": "Rush Jason Barry",
+      "title": "Director, Chairman, President & CEO",
+      "type": "Purchase",
+      "shares": 63.671,
+      "pricePerShare": 45.84,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "FUNC",
+      "issuerName": "FIRST UNITED CORP/MD/",
+      "insiderName": "Sturm Tonya K.",
+      "title": "EVP & CFO",
+      "type": "Purchase",
+      "shares": 2.469,
+      "pricePerShare": 45.84,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "FUNC",
+      "issuerName": "FIRST UNITED CORP/MD/",
+      "insiderName": "Boal Brian R.",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 73.591,
+      "pricePerShare": 45.84,
       "transactionDate": "2026-08-03"
     },
     {
@@ -23840,6 +23890,91 @@
         }
       ]
     },
+    "FUNC": {
+      "issuerName": "FIRST UNITED CORP/MD/",
+      "trades": [
+        {
+          "ticker": "FUNC",
+          "issuerName": "FIRST UNITED CORP/MD/",
+          "insiderName": "Rodeheaver Carissa Lynn",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 36.8835,
+          "pricePerShare": 45.32,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "FUNC",
+          "issuerName": "FIRST UNITED CORP/MD/",
+          "insiderName": "Rodeheaver Carissa Lynn",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 103.054,
+          "pricePerShare": 45.84,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "FUNC",
+          "issuerName": "FIRST UNITED CORP/MD/",
+          "insiderName": "Rush Jason Barry",
+          "title": "Director, Chairman, President & CEO",
+          "type": "Purchase",
+          "shares": 63.671,
+          "pricePerShare": 45.84,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "FUNC",
+          "issuerName": "FIRST UNITED CORP/MD/",
+          "insiderName": "Sturm Tonya K.",
+          "title": "EVP & CFO",
+          "type": "Purchase",
+          "shares": 2.469,
+          "pricePerShare": 45.84,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "FUNC",
+          "issuerName": "FIRST UNITED CORP/MD/",
+          "insiderName": "Boal Brian R.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 73.591,
+          "pricePerShare": 45.84,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "FUNC",
+          "issuerName": "FIRST UNITED CORP/MD/",
+          "insiderName": "Fisher Robert L. II",
+          "title": "EVP & Chief Banking Officer",
+          "type": "Sale",
+          "shares": 5250.0,
+          "pricePerShare": 45.29,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "FUNC",
+          "issuerName": "FIRST UNITED CORP/MD/",
+          "insiderName": "RUDY IRVIN ROBERT",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 44.58,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "FUNC",
+          "issuerName": "FIRST UNITED CORP/MD/",
+          "insiderName": "Sanders Keith",
+          "title": "EVP & Chief Wealth Officer",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 43.6795,
+          "transactionDate": "2026-07-23"
+        }
+      ]
+    },
     "UMBF": {
       "issuerName": "UMB FINANCIAL CORP",
       "trades": [
@@ -31600,41 +31735,6 @@
         }
       ]
     },
-    "FUNC": {
-      "issuerName": "FIRST UNITED CORP/MD/",
-      "trades": [
-        {
-          "ticker": "FUNC",
-          "issuerName": "FIRST UNITED CORP/MD/",
-          "insiderName": "Fisher Robert L. II",
-          "title": "EVP & Chief Banking Officer",
-          "type": "Sale",
-          "shares": 5250.0,
-          "pricePerShare": 45.29,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "FUNC",
-          "issuerName": "FIRST UNITED CORP/MD/",
-          "insiderName": "RUDY IRVIN ROBERT",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 44.58,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "FUNC",
-          "issuerName": "FIRST UNITED CORP/MD/",
-          "insiderName": "Sanders Keith",
-          "title": "EVP & Chief Wealth Officer",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 43.6795,
-          "transactionDate": "2026-07-23"
-        }
-      ]
-    },
     "ABNB": {
       "issuerName": "Airbnb, Inc.",
       "trades": [
@@ -38937,6 +39037,10 @@
       "0001014100-26-000019",
       "0001014100-26-000020",
       "0001014100-26-000021",
+      "0001014100-26-000022",
+      "0001014100-26-000023",
+      "0001014100-26-000024",
+      "0001014100-26-000025",
       "0001016245-26-000015",
       "0001019155-26-000352",
       "0001021882-26-000648",
@@ -39333,6 +39437,10 @@
       "0001104659-26-090608",
       "0001104659-26-090713",
       "0001104659-26-090715",
+      "0001104659-26-090758",
+      "0001104659-26-090759",
+      "0001104659-26-090772",
+      "0001104659-26-090777",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -39626,6 +39734,7 @@
       "0001174947-26-000721",
       "0001174947-26-000729",
       "0001174947-26-000739",
+      "0001174947-26-000745",
       "0001176368-26-000005",
       "0001178032-26-000008",
       "0001178579-26-000016",
@@ -40719,6 +40828,8 @@
       "0001193125-26-333839",
       "0001193125-26-333847",
       "0001193125-26-333857",
+      "0001193125-26-333985",
+      "0001193125-26-333987",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -41148,6 +41259,7 @@
       "0001213900-26-085337",
       "0001213900-26-085354",
       "0001213900-26-085356",
+      "0001213900-26-085404",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -41242,6 +41354,10 @@
       "0001214659-26-009594",
       "0001214659-26-009596",
       "0001216725-26-000012",
+      "0001218497-26-000001",
+      "0001218497-26-000002",
+      "0001218497-26-000003",
+      "0001218497-26-000004",
       "0001219555-26-000006",
       "0001220634-26-000002",
       "0001222371-26-000009",
@@ -42054,6 +42170,7 @@
       "0001548006-26-000010",
       "0001549373-26-000012",
       "0001552781-26-000400",
+      "0001552781-26-000403",
       "0001553153-26-000002",
       "0001555186-26-000006",
       "0001556224-26-000004",
@@ -44962,6 +45079,8 @@
       "0001918704-26-022863",
       "0001918704-26-022864",
       "0001918704-26-022865",
+      "0001918704-26-022882",
+      "0001918704-26-022883",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
