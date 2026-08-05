@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-05T16:05:51.049767+00:00",
+  "generatedAt": "2026-08-05T17:03:52.055045+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1841,
+  "count": 1847,
   "trades": [
     {
       "ticker": "SMBK",
@@ -271,6 +271,46 @@
       "type": "Sale",
       "shares": 5000.0,
       "pricePerShare": 44.2336,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "PBF",
+      "issuerName": "PBF Energy Inc.",
+      "insiderName": "Davis Paul T",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 75997.0,
+      "pricePerShare": 65.7129,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "VTMX",
+      "issuerName": "Vesta Real Estate Corporation, S.A.B. de C.V.",
+      "insiderName": "DEL CASTILLO CACHO GUILLERMO",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2413.0,
+      "pricePerShare": 3.44,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "SONY",
+      "issuerName": "Sony Group Corp",
+      "insiderName": "Kodera Tsuyoshi",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 17100.0,
+      "pricePerShare": 22.72,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "OBT",
+      "issuerName": "Orange County Bancorp, Inc. /DE/",
+      "insiderName": "Rooney Stephen",
+      "title": "SVP, Chief Credit Officer",
+      "type": "Sale",
+      "shares": 1500.0,
+      "pricePerShare": 38.71,
       "transactionDate": "2026-08-04"
     },
     {
@@ -2131,6 +2171,26 @@
       "type": "Sale",
       "shares": 100.0,
       "pricePerShare": 216.04,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "MHK",
+      "issuerName": "MOHAWK INDUSTRIES INC",
+      "insiderName": "HELEN SUZANNE L",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 7000.0,
+      "pricePerShare": 131.52,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "HMN",
+      "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
+      "insiderName": "ZURAITIS MARITA",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 7500.0,
+      "pricePerShare": 52.033,
       "transactionDate": "2026-08-03"
     },
     {
@@ -20100,24 +20160,124 @@
         }
       ]
     },
-    "GOOD": {
-      "issuerName": "GLADSTONE COMMERCIAL CORP",
+    "PBF": {
+      "issuerName": "PBF Energy Inc.",
       "trades": [
         {
-          "ticker": "GOOD",
-          "issuerName": "GLADSTONE COMMERCIAL CORP",
-          "insiderName": "Carter Ryan Stuart",
-          "title": "Executive Vice President",
-          "type": "Purchase",
-          "shares": 100.0,
-          "pricePerShare": 12.58,
+          "ticker": "PBF",
+          "issuerName": "PBF Energy Inc.",
+          "insiderName": "Davis Paul T",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 75997.0,
+          "pricePerShare": 65.7129,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "PBF",
+          "issuerName": "PBF Energy Inc.",
+          "insiderName": "Nimbley Thomas J.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100000.0,
+          "pricePerShare": 68.94,
           "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "PBF",
+          "issuerName": "PBF Energy Inc.",
+          "insiderName": "Nimbley Thomas J.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 368139.0,
+          "pricePerShare": 69.7064,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "PBF",
+          "issuerName": "PBF Energy Inc.",
+          "insiderName": "Lucey Matthew C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 120000.0,
+          "pricePerShare": 71.6212,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "PBF",
+          "issuerName": "PBF Energy Inc.",
+          "insiderName": "Lucey Matthew C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 105473.0,
+          "pricePerShare": 72.25,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "PBF",
+          "issuerName": "PBF Energy Inc.",
+          "insiderName": "Ho Tai Wendy",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 12500.0,
+          "pricePerShare": 72.0852,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "PBF",
+          "issuerName": "PBF Energy Inc.",
+          "insiderName": "Ho Tai Wendy",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 16459.0,
+          "pricePerShare": 71.9439,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "VTMX": {
+      "issuerName": "Vesta Real Estate Corporation, S.A.B. de C.V.",
+      "trades": [
+        {
+          "ticker": "VTMX",
+          "issuerName": "Vesta Real Estate Corporation, S.A.B. de C.V.",
+          "insiderName": "DEL CASTILLO CACHO GUILLERMO",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2413.0,
+          "pricePerShare": 3.44,
+          "transactionDate": "2026-08-04"
+        }
+      ]
+    },
+    "SONY": {
+      "issuerName": "Sony Group Corp",
+      "trades": [
+        {
+          "ticker": "SONY",
+          "issuerName": "Sony Group Corp",
+          "insiderName": "Kodera Tsuyoshi",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 17100.0,
+          "pricePerShare": 22.72,
+          "transactionDate": "2026-08-04"
         }
       ]
     },
     "OBT": {
       "issuerName": "Orange County Bancorp, Inc. /DE/",
       "trades": [
+        {
+          "ticker": "OBT",
+          "issuerName": "Orange County Bancorp, Inc. /DE/",
+          "insiderName": "Rooney Stephen",
+          "title": "SVP, Chief Credit Officer",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 38.71,
+          "transactionDate": "2026-08-04"
+        },
         {
           "ticker": "OBT",
           "issuerName": "Orange County Bancorp, Inc. /DE/",
@@ -20137,6 +20297,21 @@
           "shares": 1165.0,
           "pricePerShare": 38.75,
           "transactionDate": "2026-07-30"
+        }
+      ]
+    },
+    "GOOD": {
+      "issuerName": "GLADSTONE COMMERCIAL CORP",
+      "trades": [
+        {
+          "ticker": "GOOD",
+          "issuerName": "GLADSTONE COMMERCIAL CORP",
+          "insiderName": "Carter Ryan Stuart",
+          "title": "Executive Vice President",
+          "type": "Purchase",
+          "shares": 100.0,
+          "pricePerShare": 12.58,
+          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -22236,71 +22411,6 @@
           "type": "Sale",
           "shares": 10000.0,
           "pricePerShare": 363.0,
-          "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "PBF": {
-      "issuerName": "PBF Energy Inc.",
-      "trades": [
-        {
-          "ticker": "PBF",
-          "issuerName": "PBF Energy Inc.",
-          "insiderName": "Nimbley Thomas J.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100000.0,
-          "pricePerShare": 68.94,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "PBF",
-          "issuerName": "PBF Energy Inc.",
-          "insiderName": "Nimbley Thomas J.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 368139.0,
-          "pricePerShare": 69.7064,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "PBF",
-          "issuerName": "PBF Energy Inc.",
-          "insiderName": "Lucey Matthew C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 120000.0,
-          "pricePerShare": 71.6212,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "PBF",
-          "issuerName": "PBF Energy Inc.",
-          "insiderName": "Lucey Matthew C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 105473.0,
-          "pricePerShare": 72.25,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "PBF",
-          "issuerName": "PBF Energy Inc.",
-          "insiderName": "Ho Tai Wendy",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 12500.0,
-          "pricePerShare": 72.0852,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "PBF",
-          "issuerName": "PBF Energy Inc.",
-          "insiderName": "Ho Tai Wendy",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 16459.0,
-          "pricePerShare": 71.9439,
           "transactionDate": "2026-08-03"
         }
       ]
@@ -24626,6 +24736,36 @@
           "type": "Sale",
           "shares": 100.0,
           "pricePerShare": 216.04,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "MHK": {
+      "issuerName": "MOHAWK INDUSTRIES INC",
+      "trades": [
+        {
+          "ticker": "MHK",
+          "issuerName": "MOHAWK INDUSTRIES INC",
+          "insiderName": "HELEN SUZANNE L",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7000.0,
+          "pricePerShare": 131.52,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "HMN": {
+      "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
+      "trades": [
+        {
+          "ticker": "HMN",
+          "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
+          "insiderName": "ZURAITIS MARITA",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7500.0,
+          "pricePerShare": 52.033,
           "transactionDate": "2026-08-03"
         }
       ]
@@ -38989,6 +39129,18 @@
       "0000051931-26-000754",
       "0000051931-26-000755",
       "0000051931-26-000756",
+      "0000051931-26-000813",
+      "0000051931-26-000814",
+      "0000051931-26-000817",
+      "0000051931-26-000818",
+      "0000051931-26-000819",
+      "0000051931-26-000820",
+      "0000051931-26-000821",
+      "0000051931-26-000823",
+      "0000051931-26-000825",
+      "0000051931-26-000827",
+      "0000051931-26-000829",
+      "0000051931-26-000831",
       "0000052848-26-000831",
       "0000052848-26-000832",
       "0000058492-26-000420",
@@ -39299,6 +39451,7 @@
       "0000905148-26-003416",
       "0000905148-26-003417",
       "0000906163-26-000088",
+      "0000906465-26-000064",
       "0000906553-26-000060",
       "0000906553-26-000062",
       "0000906553-26-000064",
@@ -39404,6 +39557,7 @@
       "0000947871-26-000730",
       "0000947871-26-000733",
       "0000947871-26-000734",
+      "0000947871-26-000744",
       "0000950103-26-010819",
       "0000950103-26-010823",
       "0000950103-26-010824",
@@ -39785,6 +39939,14 @@
       "0000950103-26-011925",
       "0000950103-26-011926",
       "0000950103-26-011927",
+      "0000950103-26-011930",
+      "0000950103-26-011931",
+      "0000950103-26-011932",
+      "0000950103-26-011934",
+      "0000950103-26-011935",
+      "0000950103-26-011936",
+      "0000950103-26-011937",
+      "0000950103-26-011938",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -40217,6 +40379,7 @@
       "0001104659-26-090759",
       "0001104659-26-090772",
       "0001104659-26-090777",
+      "0001104659-26-090899",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -41623,6 +41786,9 @@
       "0001193125-26-334255",
       "0001193125-26-334265",
       "0001193125-26-334267",
+      "0001193125-26-334379",
+      "0001193125-26-334434",
+      "0001193125-26-334459",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -42151,6 +42317,7 @@
       "0001214659-26-009594",
       "0001214659-26-009596",
       "0001214659-26-009608",
+      "0001214659-26-009623",
       "0001216725-26-000012",
       "0001218497-26-000001",
       "0001218497-26-000002",
@@ -42254,6 +42421,7 @@
       "0001266824-26-000163",
       "0001266824-26-000164",
       "0001267926-26-000008",
+      "0001271373-26-000009",
       "0001271848-26-000003",
       "0001273861-26-000005",
       "0001278521-26-000011",
@@ -42392,6 +42560,7 @@
       "0001398344-26-013516",
       "0001398344-26-013520",
       "0001398344-26-013536",
+      "0001398344-26-013543",
       "0001401336-26-000020",
       "0001402348-26-000016",
       "0001403373-26-000007",
@@ -42529,6 +42698,7 @@
       "0001437749-26-025790",
       "0001437749-26-025791",
       "0001437749-26-025827",
+      "0001437749-26-025845",
       "0001438584-26-000002",
       "0001444540-26-000002",
       "0001445546-26-005229",
@@ -42612,6 +42782,8 @@
       "0001445546-26-005715",
       "0001445546-26-005716",
       "0001445546-26-005719",
+      "0001445546-26-005722",
+      "0001445546-26-005723",
       "0001448765-26-000011",
       "0001451455-26-000009",
       "0001451763-26-000012",
@@ -44723,6 +44895,14 @@
       "0001839882-26-038713",
       "0001839882-26-038715",
       "0001839882-26-038716",
+      "0001839882-26-038717",
+      "0001839882-26-038718",
+      "0001839882-26-038719",
+      "0001839882-26-038720",
+      "0001839882-26-038721",
+      "0001839882-26-038722",
+      "0001839882-26-038723",
+      "0001839882-26-038724",
       "0001840706-26-000265",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -46004,6 +46184,11 @@
       "0001918704-26-022944",
       "0001918704-26-022945",
       "0001918704-26-022946",
+      "0001918704-26-022947",
+      "0001918704-26-022948",
+      "0001918704-26-022949",
+      "0001918704-26-022950",
+      "0001918704-26-022951",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -46294,6 +46479,7 @@
       "0001999371-26-016976",
       "0001999371-26-017034",
       "0001999371-26-017038",
+      "0001999371-26-017042",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
@@ -46450,6 +46636,7 @@
       "0002112713-26-000008",
       "0002116333-26-000001",
       "0002120714-26-000004",
+      "0002121472-26-000003",
       "0002123155-26-000002",
       "0002123843-26-000008",
       "0002124319-26-000008",
