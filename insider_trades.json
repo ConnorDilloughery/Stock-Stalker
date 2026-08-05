@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-05T17:03:52.055045+00:00",
+  "generatedAt": "2026-08-05T18:02:10.394801+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1847,
+  "count": 1857,
   "trades": [
     {
       "ticker": "SMBK",
@@ -311,6 +311,56 @@
       "type": "Sale",
       "shares": 1500.0,
       "pricePerShare": 38.71,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 3.06,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "PFSA",
+      "issuerName": "Profusa, Inc.",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1368.0,
+      "pricePerShare": 0.954,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "MSA",
+      "issuerName": "MSA Safety Inc",
+      "insiderName": "Buck Jonathan D.",
+      "title": "Chief Accounting Officer",
+      "type": "Sale",
+      "shares": 469.0,
+      "pricePerShare": 191.0,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "MMSI",
+      "issuerName": "MERIT MEDICAL SYSTEMS INC",
+      "insiderName": "Peterson Neil W.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 21449.0,
+      "pricePerShare": 85.0,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "SONY",
+      "issuerName": "Sony Group Corp",
+      "insiderName": "Ahuja Ravi",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 15580.0,
+      "pricePerShare": 22.71,
       "transactionDate": "2026-08-04"
     },
     {
@@ -2191,6 +2241,56 @@
       "type": "Sale",
       "shares": 7500.0,
       "pricePerShare": 52.033,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "PFSA",
+      "issuerName": "Profusa, Inc.",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 14556.0,
+      "pricePerShare": 0.958,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "RGCO",
+      "issuerName": "RGC RESOURCES INC",
+      "insiderName": "Oliver Lawrence T.",
+      "title": "Senior VP and Secretary",
+      "type": "Purchase",
+      "shares": 9.307,
+      "pricePerShare": 21.49,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "RGCO",
+      "issuerName": "RGC RESOURCES INC",
+      "insiderName": "Miles Christen Brooke",
+      "title": "VP, Human Resources",
+      "type": "Purchase",
+      "shares": 4.653,
+      "pricePerShare": 21.49,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "MTD",
+      "issuerName": "METTLER TOLEDO INTERNATIONAL INC/",
+      "insiderName": "SALICE THOMAS P",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 415.0,
+      "pricePerShare": 1444.62,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "PBF",
+      "issuerName": "PBF Energy Inc.",
+      "insiderName": "Fedena James E.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 24756.0,
+      "pricePerShare": 71.8283,
       "transactionDate": "2026-08-03"
     },
     {
@@ -20232,6 +20332,16 @@
           "shares": 16459.0,
           "pricePerShare": 71.9439,
           "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "PBF",
+          "issuerName": "PBF Energy Inc.",
+          "insiderName": "Fedena James E.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 24756.0,
+          "pricePerShare": 71.8283,
+          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -20261,6 +20371,16 @@
           "type": "Sale",
           "shares": 17100.0,
           "pricePerShare": 22.72,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "SONY",
+          "issuerName": "Sony Group Corp",
+          "insiderName": "Ahuja Ravi",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15580.0,
+          "pricePerShare": 22.71,
           "transactionDate": "2026-08-04"
         }
       ]
@@ -20297,6 +20417,156 @@
           "shares": 1165.0,
           "pricePerShare": 38.75,
           "transactionDate": "2026-07-30"
+        }
+      ]
+    },
+    "RCG": {
+      "issuerName": "RENN Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.06,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.02,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.03,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.05,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.03,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.06,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.07,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.03,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.02,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "PFSA": {
+      "issuerName": "Profusa, Inc.",
+      "trades": [
+        {
+          "ticker": "PFSA",
+          "issuerName": "Profusa, Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1368.0,
+          "pricePerShare": 0.954,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "PFSA",
+          "issuerName": "Profusa, Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 14556.0,
+          "pricePerShare": 0.958,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "MSA": {
+      "issuerName": "MSA Safety Inc",
+      "trades": [
+        {
+          "ticker": "MSA",
+          "issuerName": "MSA Safety Inc",
+          "insiderName": "Buck Jonathan D.",
+          "title": "Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 469.0,
+          "pricePerShare": 191.0,
+          "transactionDate": "2026-08-04"
+        }
+      ]
+    },
+    "MMSI": {
+      "issuerName": "MERIT MEDICAL SYSTEMS INC",
+      "trades": [
+        {
+          "ticker": "MMSI",
+          "issuerName": "MERIT MEDICAL SYSTEMS INC",
+          "insiderName": "Peterson Neil W.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 21449.0,
+          "pricePerShare": 85.0,
+          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -21757,91 +22027,6 @@
           "shares": 100.0,
           "pricePerShare": 94.28,
           "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "RCG": {
-      "issuerName": "RENN Fund, Inc.",
-      "trades": [
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.02,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.03,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.05,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.03,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.06,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.07,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.03,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.02,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -24562,6 +24747,16 @@
           "shares": 2240.0,
           "pricePerShare": 1432.0,
           "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "MTD",
+          "issuerName": "METTLER TOLEDO INTERNATIONAL INC/",
+          "insiderName": "SALICE THOMAS P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 415.0,
+          "pricePerShare": 1444.62,
+          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -24766,6 +24961,31 @@
           "type": "Sale",
           "shares": 7500.0,
           "pricePerShare": 52.033,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "RGCO": {
+      "issuerName": "RGC RESOURCES INC",
+      "trades": [
+        {
+          "ticker": "RGCO",
+          "issuerName": "RGC RESOURCES INC",
+          "insiderName": "Oliver Lawrence T.",
+          "title": "Senior VP and Secretary",
+          "type": "Purchase",
+          "shares": 9.307,
+          "pricePerShare": 21.49,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "RGCO",
+          "issuerName": "RGC RESOURCES INC",
+          "insiderName": "Miles Christen Brooke",
+          "title": "VP, Human Resources",
+          "type": "Purchase",
+          "shares": 4.653,
+          "pricePerShare": 21.49,
           "transactionDate": "2026-08-03"
         }
       ]
@@ -39958,6 +40178,7 @@
       "0001005817-26-000108",
       "0001005817-26-000109",
       "0001005817-26-000114",
+      "0001005817-26-000116",
       "0001009165-26-000006",
       "0001011438-26-000438",
       "0001011438-26-000457",
@@ -39989,6 +40210,7 @@
       "0001032834-26-000006",
       "0001037646-26-000057",
       "0001037646-26-000059",
+      "0001037646-26-000061",
       "0001040470-26-000217",
       "0001040470-26-000219",
       "0001040470-26-000221",
@@ -40646,10 +40868,12 @@
       "0001140361-26-031324",
       "0001140361-26-031326",
       "0001140361-26-031367",
+      "0001140361-26-031383",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001161867-26-000009",
       "0001162044-26-000644",
+      "0001162044-26-000678",
       "0001167691-26-000004",
       "0001168019-26-000002",
       "0001168404-26-000039",
@@ -41789,6 +42013,17 @@
       "0001193125-26-334379",
       "0001193125-26-334434",
       "0001193125-26-334459",
+      "0001193125-26-334497",
+      "0001193125-26-334498",
+      "0001193125-26-334502",
+      "0001193125-26-334518",
+      "0001193125-26-334519",
+      "0001193125-26-334520",
+      "0001193125-26-334529",
+      "0001193125-26-334533",
+      "0001193125-26-334542",
+      "0001193125-26-334543",
+      "0001193125-26-334559",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -42223,6 +42458,10 @@
       "0001213900-26-085464",
       "0001213900-26-085503",
       "0001213900-26-085504",
+      "0001213900-26-085545",
+      "0001213900-26-085549",
+      "0001213900-26-085550",
+      "0001213900-26-085551",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -42318,6 +42557,8 @@
       "0001214659-26-009596",
       "0001214659-26-009608",
       "0001214659-26-009623",
+      "0001214659-26-009624",
+      "0001214659-26-009627",
       "0001216725-26-000012",
       "0001218497-26-000001",
       "0001218497-26-000002",
@@ -42376,6 +42617,8 @@
       "0001225208-26-006909",
       "0001225208-26-006914",
       "0001225208-26-006915",
+      "0001225208-26-006932",
+      "0001225208-26-006934",
       "0001225481-26-000006",
       "0001227384-26-000017",
       "0001227654-26-000042",
@@ -42561,6 +42804,9 @@
       "0001398344-26-013520",
       "0001398344-26-013536",
       "0001398344-26-013543",
+      "0001398344-26-013554",
+      "0001398344-26-013555",
+      "0001398344-26-013559",
       "0001401336-26-000020",
       "0001402348-26-000016",
       "0001403373-26-000007",
@@ -42699,6 +42945,14 @@
       "0001437749-26-025791",
       "0001437749-26-025827",
       "0001437749-26-025845",
+      "0001437749-26-025864",
+      "0001437749-26-025866",
+      "0001437749-26-025868",
+      "0001437749-26-025870",
+      "0001437749-26-025872",
+      "0001437749-26-025874",
+      "0001437749-26-025877",
+      "0001437749-26-025884",
       "0001438584-26-000002",
       "0001444540-26-000002",
       "0001445546-26-005229",
@@ -42814,6 +43068,7 @@
       "0001475597-26-000179",
       "0001475597-26-000180",
       "0001475597-26-000182",
+      "0001475597-26-000185",
       "0001475856-26-000004",
       "0001477932-26-004399",
       "0001477932-26-004400",
@@ -43243,6 +43498,8 @@
       "0001580642-26-004860",
       "0001580642-26-004861",
       "0001580642-26-004890",
+      "0001580642-26-004899",
+      "0001580642-26-004903",
       "0001582328-26-000007",
       "0001582473-26-000008",
       "0001588852-26-000009",
@@ -43658,6 +43915,7 @@
       "0001683168-26-005888",
       "0001683168-26-005889",
       "0001683168-26-005939",
+      "0001687898-26-000009",
       "0001688568-26-000056",
       "0001689926-26-000003",
       "0001690209-26-000003",
@@ -43992,6 +44250,7 @@
       "0001829126-26-008284",
       "0001829126-26-008285",
       "0001829126-26-008316",
+      "0001829126-26-008372",
       "0001830043-26-000094",
       "0001830165-26-000026",
       "0001830165-26-000028",
@@ -44903,6 +45162,13 @@
       "0001839882-26-038722",
       "0001839882-26-038723",
       "0001839882-26-038724",
+      "0001839882-26-038732",
+      "0001839882-26-038733",
+      "0001839882-26-038735",
+      "0001839882-26-038738",
+      "0001839882-26-038744",
+      "0001839882-26-038745",
+      "0001839882-26-038746",
       "0001840706-26-000265",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -46189,6 +46455,17 @@
       "0001918704-26-022949",
       "0001918704-26-022950",
       "0001918704-26-022951",
+      "0001918704-26-022952",
+      "0001918704-26-022953",
+      "0001918704-26-022954",
+      "0001918704-26-022955",
+      "0001918704-26-022956",
+      "0001918704-26-022957",
+      "0001918704-26-022958",
+      "0001918704-26-022959",
+      "0001918704-26-022960",
+      "0001918704-26-022961",
+      "0001918704-26-022962",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -46196,6 +46473,7 @@
       "0001921640-26-000011",
       "0001922252-26-000003",
       "0001924790-26-000006",
+      "0001926221-26-000006",
       "0001929185-26-000012",
       "0001930862-26-000011",
       "0001932635-26-000003",
@@ -46267,6 +46545,7 @@
       "0001987126-26-000002",
       "0001987164-26-000011",
       "0001988976-26-000006",
+      "0001988976-26-000008",
       "0001992104-26-000301",
       "0001992104-26-000303",
       "0001992104-26-000304",
