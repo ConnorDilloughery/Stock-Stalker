@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-04T23:02:14.733096+00:00",
+  "generatedAt": "2026-08-05T00:01:11.281081+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1727,
+  "count": 1738,
   "trades": [
     {
       "ticker": "SMBK",
@@ -21,6 +21,36 @@
       "type": "Sale",
       "shares": 22656.0,
       "pricePerShare": 53.09,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "BOH",
+      "issuerName": "BANK OF HAWAII CORP",
+      "insiderName": "Abbruzzese Marco A",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2441.0,
+      "pricePerShare": 81.59,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "SCHW",
+      "issuerName": "SCHWAB CHARLES CORP",
+      "insiderName": "Schwab Charles R.",
+      "title": "Director, Co-Chairman",
+      "type": "Sale",
+      "shares": 47650.0,
+      "pricePerShare": 106.077,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "LBRT",
+      "issuerName": "Liberty Energy Inc.",
+      "insiderName": "Stock Michael",
+      "title": "Chief Financial Officer",
+      "type": "Sale",
+      "shares": 3333.0,
+      "pricePerShare": 20.0,
       "transactionDate": "2026-08-04"
     },
     {
@@ -1171,6 +1201,66 @@
       "type": "Sale",
       "shares": 14280.0,
       "pricePerShare": 32.887,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "TRU",
+      "issuerName": "TransUnion",
+      "insiderName": "Skinner Todd C.",
+      "title": "President, International",
+      "type": "Sale",
+      "shares": 950.0,
+      "pricePerShare": 79.96,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "TRU",
+      "issuerName": "TransUnion",
+      "insiderName": "CHAOUKI STEVEN M",
+      "title": "President, US Markets",
+      "type": "Sale",
+      "shares": 1000.0,
+      "pricePerShare": 79.96,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "HOPE",
+      "issuerName": "HOPE BANCORP INC",
+      "insiderName": "HA DAISY Y",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 26995.0,
+      "pricePerShare": 14.245,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "SCHW",
+      "issuerName": "SCHWAB CHARLES CORP",
+      "insiderName": "Schwab Charles R.",
+      "title": "Director, Co-Chairman",
+      "type": "Sale",
+      "shares": 95250.0,
+      "pricePerShare": 105.5162,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "FIG",
+      "issuerName": "Figma, Inc.",
+      "insiderName": "Herb Tyler",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1536.0,
+      "pricePerShare": 26.0,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "LBRT",
+      "issuerName": "Liberty Energy Inc.",
+      "insiderName": "Stock Michael",
+      "title": "Chief Financial Officer",
+      "type": "Sale",
+      "shares": 3333.0,
+      "pricePerShare": 17.95,
       "transactionDate": "2026-08-03"
     },
     {
@@ -2421,6 +2511,16 @@
       "type": "Sale",
       "shares": 464.0,
       "pricePerShare": 543.56,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "BCAL",
+      "issuerName": "California BanCorp \\ CA",
+      "insiderName": "Machado Lester",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 7500.0,
+      "pricePerShare": 21.193,
       "transactionDate": "2026-07-31"
     },
     {
@@ -11704,6 +11804,16 @@
       "transactionDate": "2026-07-22"
     },
     {
+      "ticker": "BRTMU",
+      "issuerName": "B&R Technology Merger Corp.",
+      "insiderName": "B&R Technology Sponsor LLC (Cayman)",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 687500.0,
+      "pricePerShare": 10.0,
+      "transactionDate": "2026-07-22"
+    },
+    {
       "ticker": "VG",
       "issuerName": "Venture Global, Inc.",
       "insiderName": "Thayer Jonathan W",
@@ -17305,6 +17415,211 @@
         }
       ]
     },
+    "BOH": {
+      "issuerName": "BANK OF HAWAII CORP",
+      "trades": [
+        {
+          "ticker": "BOH",
+          "issuerName": "BANK OF HAWAII CORP",
+          "insiderName": "Abbruzzese Marco A",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2441.0,
+          "pricePerShare": 81.59,
+          "transactionDate": "2026-08-04"
+        }
+      ]
+    },
+    "SCHW": {
+      "issuerName": "SCHWAB CHARLES CORP",
+      "trades": [
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab Charles R.",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 47650.0,
+          "pricePerShare": 106.077,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab Charles R.",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 95250.0,
+          "pricePerShare": 105.5162,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab Charles R.",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 95450.0,
+          "pricePerShare": 105.8152,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Bettinger Walter W",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 42265.0,
+          "pricePerShare": 103.86,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Bettinger Walter W",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 38263.0,
+          "pricePerShare": 105.1848,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Bettinger Walter W",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 12880.0,
+          "pricePerShare": 105.5636,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Howard Dennis",
+          "title": "MD, Chief Tech, OPS & Data Off",
+          "type": "Sale",
+          "shares": 28000.0,
+          "pricePerShare": 105.0094,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab Charles R.",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 48000.0,
+          "pricePerShare": 105.5964,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab-Pomerantz Carolyn",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 22650.0,
+          "pricePerShare": 105.713,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Bettinger Walter W",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 192488.0,
+          "pricePerShare": 103.9022,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Murtagh Nigel J",
+          "title": "Chief Risk Officer",
+          "type": "Sale",
+          "shares": 21947.0,
+          "pricePerShare": 104.0,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Murtagh Nigel J",
+          "title": "Chief Risk Officer",
+          "type": "Sale",
+          "shares": 11000.0,
+          "pricePerShare": 104.0317,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab Charles R.",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 45500.0,
+          "pricePerShare": 101.7185,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Morgan Peter J. III",
+          "title": "General Counsel",
+          "type": "Sale",
+          "shares": 6952.0,
+          "pricePerShare": 102.0341,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Beatty Jonathan S",
+          "title": "MD, Head of Advisor Services",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 104.2055,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Murtagh Nigel J",
+          "title": "Chief Risk Officer",
+          "type": "Sale",
+          "shares": 4053.0,
+          "pricePerShare": 104.1374,
+          "transactionDate": "2026-07-21"
+        }
+      ]
+    },
+    "LBRT": {
+      "issuerName": "Liberty Energy Inc.",
+      "trades": [
+        {
+          "ticker": "LBRT",
+          "issuerName": "Liberty Energy Inc.",
+          "insiderName": "Stock Michael",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 3333.0,
+          "pricePerShare": 20.0,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "LBRT",
+          "issuerName": "Liberty Energy Inc.",
+          "insiderName": "Stock Michael",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 3333.0,
+          "pricePerShare": 17.95,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
     "GOOD": {
       "issuerName": "GLADSTONE COMMERCIAL CORP",
       "trades": [
@@ -20167,6 +20482,101 @@
           "shares": 14280.0,
           "pricePerShare": 32.887,
           "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "TRU": {
+      "issuerName": "TransUnion",
+      "trades": [
+        {
+          "ticker": "TRU",
+          "issuerName": "TransUnion",
+          "insiderName": "Skinner Todd C.",
+          "title": "President, International",
+          "type": "Sale",
+          "shares": 950.0,
+          "pricePerShare": 79.96,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "TRU",
+          "issuerName": "TransUnion",
+          "insiderName": "CHAOUKI STEVEN M",
+          "title": "President, US Markets",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 79.96,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "TRU",
+          "issuerName": "TransUnion",
+          "insiderName": "Abdelsadek Mohamed",
+          "title": "EVP, Chief Global Solutions",
+          "type": "Sale",
+          "shares": 23495.0,
+          "pricePerShare": 85.0,
+          "transactionDate": "2026-07-28"
+        }
+      ]
+    },
+    "HOPE": {
+      "issuerName": "HOPE BANCORP INC",
+      "trades": [
+        {
+          "ticker": "HOPE",
+          "issuerName": "HOPE BANCORP INC",
+          "insiderName": "HA DAISY Y",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 26995.0,
+          "pricePerShare": 14.245,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "FIG": {
+      "issuerName": "Figma, Inc.",
+      "trades": [
+        {
+          "ticker": "FIG",
+          "issuerName": "Figma, Inc.",
+          "insiderName": "Herb Tyler",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1536.0,
+          "pricePerShare": 26.0,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "FIG",
+          "issuerName": "Figma, Inc.",
+          "insiderName": "Mulligan Brendan",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 18213.0,
+          "pricePerShare": 25.0033,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "FIG",
+          "issuerName": "Figma, Inc.",
+          "insiderName": "Rasmussen Kris",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 261301.0,
+          "pricePerShare": 25.0686,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "FIG",
+          "issuerName": "Figma, Inc.",
+          "insiderName": "Melwani Praveer",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 381288.0,
+          "pricePerShare": 25.1291,
+          "transactionDate": "2026-07-29"
         }
       ]
     },
@@ -23277,6 +23687,21 @@
           "shares": 408.0,
           "pricePerShare": 645.85,
           "transactionDate": "2026-07-20"
+        }
+      ]
+    },
+    "BCAL": {
+      "issuerName": "California BanCorp \\ CA",
+      "trades": [
+        {
+          "ticker": "BCAL",
+          "issuerName": "California BanCorp \\ CA",
+          "insiderName": "Machado Lester",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7500.0,
+          "pricePerShare": 21.193,
+          "transactionDate": "2026-07-31"
         }
       ]
     },
@@ -28570,151 +28995,6 @@
         }
       ]
     },
-    "SCHW": {
-      "issuerName": "SCHWAB CHARLES CORP",
-      "trades": [
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Schwab Charles R.",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 95450.0,
-          "pricePerShare": 105.8152,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Bettinger Walter W",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 42265.0,
-          "pricePerShare": 103.86,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Bettinger Walter W",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 38263.0,
-          "pricePerShare": 105.1848,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Bettinger Walter W",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 12880.0,
-          "pricePerShare": 105.5636,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Howard Dennis",
-          "title": "MD, Chief Tech, OPS & Data Off",
-          "type": "Sale",
-          "shares": 28000.0,
-          "pricePerShare": 105.0094,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Schwab Charles R.",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 48000.0,
-          "pricePerShare": 105.5964,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Schwab-Pomerantz Carolyn",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 22650.0,
-          "pricePerShare": 105.713,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Bettinger Walter W",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 192488.0,
-          "pricePerShare": 103.9022,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Murtagh Nigel J",
-          "title": "Chief Risk Officer",
-          "type": "Sale",
-          "shares": 21947.0,
-          "pricePerShare": 104.0,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Murtagh Nigel J",
-          "title": "Chief Risk Officer",
-          "type": "Sale",
-          "shares": 11000.0,
-          "pricePerShare": 104.0317,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Schwab Charles R.",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 45500.0,
-          "pricePerShare": 101.7185,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Morgan Peter J. III",
-          "title": "General Counsel",
-          "type": "Sale",
-          "shares": 6952.0,
-          "pricePerShare": 102.0341,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Beatty Jonathan S",
-          "title": "MD, Head of Advisor Services",
-          "type": "Sale",
-          "shares": 2000.0,
-          "pricePerShare": 104.2055,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Murtagh Nigel J",
-          "title": "Chief Risk Officer",
-          "type": "Sale",
-          "shares": 4053.0,
-          "pricePerShare": 104.1374,
-          "transactionDate": "2026-07-21"
-        }
-      ]
-    },
     "PRTA": {
       "issuerName": "PROTHENA CORP PUBLIC LTD CO",
       "trades": [
@@ -29001,41 +29281,6 @@
           "type": "Purchase",
           "shares": 4340.0,
           "pricePerShare": 5.76,
-          "transactionDate": "2026-07-29"
-        }
-      ]
-    },
-    "FIG": {
-      "issuerName": "Figma, Inc.",
-      "trades": [
-        {
-          "ticker": "FIG",
-          "issuerName": "Figma, Inc.",
-          "insiderName": "Mulligan Brendan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 18213.0,
-          "pricePerShare": 25.0033,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "FIG",
-          "issuerName": "Figma, Inc.",
-          "insiderName": "Rasmussen Kris",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 261301.0,
-          "pricePerShare": 25.0686,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "FIG",
-          "issuerName": "Figma, Inc.",
-          "insiderName": "Melwani Praveer",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 381288.0,
-          "pricePerShare": 25.1291,
           "transactionDate": "2026-07-29"
         }
       ]
@@ -30366,21 +30611,6 @@
           "type": "Sale",
           "shares": 6100.0,
           "pricePerShare": 42.077,
-          "transactionDate": "2026-07-28"
-        }
-      ]
-    },
-    "TRU": {
-      "issuerName": "TransUnion",
-      "trades": [
-        {
-          "ticker": "TRU",
-          "issuerName": "TransUnion",
-          "insiderName": "Abdelsadek Mohamed",
-          "title": "EVP, Chief Global Solutions",
-          "type": "Sale",
-          "shares": 23495.0,
-          "pricePerShare": 85.0,
           "transactionDate": "2026-07-28"
         }
       ]
@@ -33627,6 +33857,16 @@
           "shares": 687500.0,
           "pricePerShare": 10.0,
           "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "BRTMU",
+          "issuerName": "B&R Technology Merger Corp.",
+          "insiderName": "B&R Technology Sponsor LLC (Cayman)",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 687500.0,
+          "pricePerShare": 10.0,
+          "transactionDate": "2026-07-22"
         }
       ]
     },
@@ -36728,6 +36968,7 @@
       "0000712515-26-000134",
       "0000712515-26-000136",
       "0000712515-26-000138",
+      "0000712515-26-000150",
       "0000719220-26-000092",
       "0000719955-26-000189",
       "0000719955-26-000190",
@@ -36739,6 +36980,12 @@
       "0000726854-26-000156",
       "0000726854-26-000157",
       "0000726854-26-000158",
+      "0000730708-26-000120",
+      "0000730708-26-000122",
+      "0000730708-26-000124",
+      "0000730708-26-000126",
+      "0000730708-26-000128",
+      "0000730708-26-000130",
       "0000739421-26-000068",
       "0000744822-26-000071",
       "0000744822-26-000075",
@@ -36938,6 +37185,7 @@
       "0000923120-26-000014",
       "0000923738-26-000028",
       "0000923738-26-000031",
+      "0000923738-26-000033",
       "0000929638-26-002639",
       "0000929638-26-002682",
       "0000929638-26-002852",
@@ -37471,6 +37719,7 @@
       "0001083301-26-000154",
       "0001090009-26-000088",
       "0001090009-26-000090",
+      "0001090012-26-000108",
       "0001090155-26-000004",
       "0001090355-26-000007",
       "0001090394-26-000005",
@@ -39128,6 +39377,9 @@
       "0001193125-26-333219",
       "0001193125-26-333251",
       "0001193125-26-333260",
+      "0001193125-26-333368",
+      "0001193125-26-333412",
+      "0001193125-26-333414",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -39720,6 +39972,7 @@
       "0001242654-26-000014",
       "0001243160-26-000002",
       "0001248294-26-000005",
+      "0001249970-26-000009",
       "0001250536-26-000017",
       "0001254781-26-000021",
       "0001254781-26-000022",
@@ -40342,6 +40595,7 @@
       "0001511110-26-000008",
       "0001511110-26-000010",
       "0001512785-26-000012",
+      "0001513723-26-000008",
       "0001513957-26-000002",
       "0001514396-26-000006",
       "0001515156-26-000099",
@@ -40439,6 +40693,7 @@
       "0001556224-26-000004",
       "0001556224-26-000006",
       "0001558242-26-000020",
+      "0001560409-26-000008",
       "0001561550-26-000246",
       "0001561861-26-000059",
       "0001562577-26-000256",
@@ -40459,6 +40714,7 @@
       "0001565249-26-000008",
       "0001568982-26-000004",
       "0001569789-26-000012",
+      "0001571610-26-000013",
       "0001573461-26-000004",
       "0001575202-26-000011",
       "0001576059-26-000002",
@@ -40522,6 +40778,7 @@
       "0001590264-26-000010",
       "0001590364-26-000078",
       "0001590625-26-000063",
+      "0001591719-26-000009",
       "0001592900-26-003595",
       "0001592900-26-003620",
       "0001592900-26-003763",
@@ -40799,6 +41056,11 @@
       "0001628280-26-052805",
       "0001628280-26-052808",
       "0001628280-26-052809",
+      "0001628280-26-052832",
+      "0001628280-26-052833",
+      "0001628280-26-052840",
+      "0001628280-26-052841",
+      "0001628280-26-052842",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -40930,6 +41192,7 @@
       "0001706137-26-000011",
       "0001706137-26-000012",
       "0001707744-26-000019",
+      "0001708062-26-000010",
       "0001709352-26-000008",
       "0001709430-26-000008",
       "0001709954-26-000010",
@@ -41048,6 +41311,7 @@
       "0001775075-26-000005",
       "0001775297-26-000010",
       "0001776485-26-000013",
+      "0001776865-26-000020",
       "0001778564-26-000123",
       "0001778564-26-000125",
       "0001778564-26-000127",
@@ -41123,6 +41387,7 @@
       "0001823608-26-000180",
       "0001824992-26-000008",
       "0001825454-26-000023",
+      "0001825454-26-000026",
       "0001825780-26-000001",
       "0001826030-26-000002",
       "0001826853-26-000019",
@@ -42147,6 +42412,7 @@
       "0001872274-26-000002",
       "0001875284-26-000006",
       "0001876526-26-000001",
+      "0001879101-26-000022",
       "0001882285-26-000014",
       "0001882764-26-000006",
       "0001883312-26-000002",
@@ -43331,6 +43597,7 @@
       "0001961104-26-000012",
       "0001961877-26-000041",
       "0001964281-26-000002",
+      "0001964281-26-000004",
       "0001964417-26-000011",
       "0001965040-26-000103",
       "0001965585-26-000006",
@@ -43338,6 +43605,7 @@
       "0001967048-26-000010",
       "0001968192-26-000013",
       "0001968347-26-000007",
+      "0001968951-26-000004",
       "0001969106-26-000004",
       "0001969292-26-000007",
       "0001970613-26-000004",
@@ -43346,8 +43614,14 @@
       "0001973103-26-000007",
       "0001973495-26-000004",
       "0001973678-26-000013",
+      "0001973680-26-000002",
+      "0001973683-26-000002",
       "0001973684-26-000006",
+      "0001973685-26-000005",
+      "0001973708-26-000009",
+      "0001974084-26-000009",
       "0001974087-26-000006",
+      "0001974089-26-000008",
       "0001974947-26-000006",
       "0001975015-26-000043",
       "0001976408-26-000660",
@@ -43367,6 +43641,7 @@
       "0001977271-26-000002",
       "0001979088-26-000015",
       "0001983992-26-000005",
+      "0001984186-26-000006",
       "0001984784-26-000020",
       "0001986157-26-000016",
       "0001987126-26-000002",
@@ -43600,6 +43875,7 @@
       "0002014633-26-000014",
       "0002017287-26-000005",
       "0002017632-26-000004",
+      "0002019976-26-000009",
       "0002020287-26-000002",
       "0002021233-26-000012",
       "0002021238-26-000010",
@@ -43637,15 +43913,19 @@
       "0002040815-26-000018",
       "0002041211-26-000014",
       "0002041625-26-000004",
+      "0002043520-26-000006",
       "0002044207-26-000015",
       "0002044350-26-000015",
       "0002044800-26-000006",
       "0002046824-26-000020",
+      "0002050174-26-000002",
       "0002051008-26-000002",
       "0002052113-26-000768",
       "0002052896-26-000001",
+      "0002053817-26-000003",
       "0002055817-26-000003",
       "0002056381-26-000004",
+      "0002056622-26-000003",
       "0002056794-26-000006",
       "0002058080-26-000010",
       "0002058231-26-000008",
@@ -43668,9 +43948,14 @@
       "0002071844-26-000880",
       "0002071844-26-000883",
       "0002071844-26-000905",
+      "0002073587-26-000026",
       "0002073590-26-000026",
+      "0002073590-26-000028",
+      "0002073591-26-000030",
       "0002073592-26-000029",
+      "0002073592-26-000031",
       "0002073801-26-000035",
+      "0002073801-26-000037",
       "0002074666-26-000006",
       "0002075052-26-000004",
       "0002075110-26-000006",
@@ -43728,6 +44013,8 @@
       "0002127814-26-000004",
       "0002127908-26-000004",
       "0002127924-26-000012",
+      "0002128287-26-000004",
+      "0002128466-26-000003",
       "0002129321-26-000011",
       "0002130384-26-000004",
       "0002130394-26-000019",
@@ -43736,6 +44023,7 @@
       "0002134641-26-000006",
       "0002134641-26-000007",
       "0002136282-26-000006",
+      "0002137804-26-000004",
       "0002137987-26-000003",
       "0002138148-26-000002",
       "0002141713-26-000004",
