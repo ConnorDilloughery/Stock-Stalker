@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-05T19:01:14.737149+00:00",
+  "generatedAt": "2026-08-05T20:01:53.509604+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 1863,
+  "count": 1876,
   "trades": [
     {
       "ticker": "PKG",
@@ -11,6 +11,16 @@
       "type": "Sale",
       "shares": 8797.0,
       "pricePerShare": 257.0,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "CCNE",
+      "issuerName": "CNB FINANCIAL CORP/PA",
+      "insiderName": "Peduzzi Michael D",
+      "title": "Director, President & CEO",
+      "type": "Purchase",
+      "shares": 1100.0,
+      "pricePerShare": 35.3712,
       "transactionDate": "2026-08-05"
     },
     {
@@ -391,6 +401,46 @@
       "type": "Sale",
       "shares": 27286.0,
       "pricePerShare": 45.14,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "PSUS",
+      "issuerName": "Pershing Square USA, Ltd.",
+      "insiderName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 25000.0,
+      "pricePerShare": 38.04,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "PSUS",
+      "issuerName": "Pershing Square USA, Ltd.",
+      "insiderName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 25000.0,
+      "pricePerShare": 38.1,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "LGHL",
+      "issuerName": "Lion Group Holding Ltd",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 13764.0,
+      "pricePerShare": 0.92,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "ASB",
+      "issuerName": "ASSOCIATED BANC-CORP",
+      "insiderName": "Utz John A.",
+      "title": "Executive Vice President",
+      "type": "Sale",
+      "shares": 44465.0,
+      "pricePerShare": 31.725,
       "transactionDate": "2026-08-04"
     },
     {
@@ -2351,6 +2401,86 @@
       "type": "Sale",
       "shares": 132714.0,
       "pricePerShare": 44.75,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "AMAL",
+      "issuerName": "Amalgamated Financial Corp.",
+      "insiderName": "Wells Royce A.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 787.0,
+      "pricePerShare": 50.0,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "CBLL",
+      "issuerName": "Ceribell, Inc.",
+      "insiderName": "Chao Xingjuan",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 39000.0,
+      "pricePerShare": 18.32,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "LGHL",
+      "issuerName": "Lion Group Holding Ltd",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 1827.0,
+      "pricePerShare": 0.926,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "RELL",
+      "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+      "insiderName": "Halverson Kenneth",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 5000.0,
+      "pricePerShare": 18.7707,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "RELL",
+      "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+      "insiderName": "Benham James",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 9836.0,
+      "pricePerShare": 18.5,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "PSUS",
+      "issuerName": "Pershing Square USA, Ltd.",
+      "insiderName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 25000.0,
+      "pricePerShare": 38.11,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "PSUS",
+      "issuerName": "Pershing Square USA, Ltd.",
+      "insiderName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 25000.0,
+      "pricePerShare": 38.19,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "PSUS",
+      "issuerName": "Pershing Square USA, Ltd.",
+      "insiderName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 20000.0,
+      "pricePerShare": 38.13,
       "transactionDate": "2026-08-03"
     },
     {
@@ -18660,6 +18790,21 @@
         }
       ]
     },
+    "CCNE": {
+      "issuerName": "CNB FINANCIAL CORP/PA",
+      "trades": [
+        {
+          "ticker": "CCNE",
+          "issuerName": "CNB FINANCIAL CORP/PA",
+          "insiderName": "Peduzzi Michael D",
+          "title": "Director, President & CEO",
+          "type": "Purchase",
+          "shares": 1100.0,
+          "pricePerShare": 35.3712,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
     "SMBK": {
       "issuerName": "SMARTFINANCIAL INC.",
       "trades": [
@@ -20702,6 +20847,181 @@
           "shares": 132714.0,
           "pricePerShare": 44.75,
           "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "PSUS": {
+      "issuerName": "Pershing Square USA, Ltd.",
+      "trades": [
+        {
+          "ticker": "PSUS",
+          "issuerName": "Pershing Square USA, Ltd.",
+          "insiderName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 38.04,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "PSUS",
+          "issuerName": "Pershing Square USA, Ltd.",
+          "insiderName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 38.1,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "PSUS",
+          "issuerName": "Pershing Square USA, Ltd.",
+          "insiderName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 38.11,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "PSUS",
+          "issuerName": "Pershing Square USA, Ltd.",
+          "insiderName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 38.19,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "PSUS",
+          "issuerName": "Pershing Square USA, Ltd.",
+          "insiderName": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 38.13,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "LGHL": {
+      "issuerName": "Lion Group Holding Ltd",
+      "trades": [
+        {
+          "ticker": "LGHL",
+          "issuerName": "Lion Group Holding Ltd",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 13764.0,
+          "pricePerShare": 0.92,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "LGHL",
+          "issuerName": "Lion Group Holding Ltd",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1827.0,
+          "pricePerShare": 0.926,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "LGHL",
+          "issuerName": "Lion Group Holding Ltd",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 3029.0,
+          "pricePerShare": 1.21,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "LGHL",
+          "issuerName": "Lion Group Holding Ltd",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 27702.0,
+          "pricePerShare": 0.954,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "LGHL",
+          "issuerName": "Lion Group Holding Ltd",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 8435.0,
+          "pricePerShare": 1.43,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "LGHL",
+          "issuerName": "Lion Group Holding Ltd",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 3763.0,
+          "pricePerShare": 1.36,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "LGHL",
+          "issuerName": "Lion Group Holding Ltd",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 31226.0,
+          "pricePerShare": 1.46,
+          "transactionDate": "2026-07-21"
+        }
+      ]
+    },
+    "ASB": {
+      "issuerName": "ASSOCIATED BANC-CORP",
+      "trades": [
+        {
+          "ticker": "ASB",
+          "issuerName": "ASSOCIATED BANC-CORP",
+          "insiderName": "Utz John A.",
+          "title": "Executive Vice President",
+          "type": "Sale",
+          "shares": 44465.0,
+          "pricePerShare": 31.725,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "ASB",
+          "issuerName": "ASSOCIATED BANC-CORP",
+          "insiderName": "Meyer Derek S.",
+          "title": "EVP, Chief Financial Officer",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 30.74,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "ASB",
+          "issuerName": "ASSOCIATED BANC-CORP",
+          "insiderName": "Kitowski Nicole M",
+          "title": "Executive Vice President",
+          "type": "Sale",
+          "shares": 6255.0,
+          "pricePerShare": 30.9101,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "ASB",
+          "issuerName": "ASSOCIATED BANC-CORP",
+          "insiderName": "Kitowski Nicole M",
+          "title": "Executive Vice President",
+          "type": "Sale",
+          "shares": 1408.0,
+          "pricePerShare": 30.915,
+          "transactionDate": "2026-07-28"
         }
       ]
     },
@@ -25125,6 +25445,101 @@
         }
       ]
     },
+    "AMAL": {
+      "issuerName": "Amalgamated Financial Corp.",
+      "trades": [
+        {
+          "ticker": "AMAL",
+          "issuerName": "Amalgamated Financial Corp.",
+          "insiderName": "Wells Royce A.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 787.0,
+          "pricePerShare": 50.0,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "AMAL",
+          "issuerName": "Amalgamated Financial Corp.",
+          "insiderName": "Bruce Maryann",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 2138.0,
+          "pricePerShare": 49.5522,
+          "transactionDate": "2026-07-30"
+        }
+      ]
+    },
+    "CBLL": {
+      "issuerName": "Ceribell, Inc.",
+      "trades": [
+        {
+          "ticker": "CBLL",
+          "issuerName": "Ceribell, Inc.",
+          "insiderName": "Chao Xingjuan",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 39000.0,
+          "pricePerShare": 18.32,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "RELL": {
+      "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+      "trades": [
+        {
+          "ticker": "RELL",
+          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+          "insiderName": "Halverson Kenneth",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 18.7707,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "RELL",
+          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+          "insiderName": "Benham James",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 9836.0,
+          "pricePerShare": 18.5,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "RELL",
+          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+          "insiderName": "KLUGE ROBERT H",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 29000.0,
+          "pricePerShare": 17.9029,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "RELL",
+          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+          "insiderName": "Ruppert Jens Frank",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 37500.0,
+          "pricePerShare": 19.0082,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "RELL",
+          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+          "insiderName": "Ben Robert J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7500.0,
+          "pricePerShare": 20.0,
+          "transactionDate": "2026-07-28"
+        }
+      ]
+    },
     "UMBF": {
       "issuerName": "UMB FINANCIAL CORP",
       "trades": [
@@ -28780,41 +29195,6 @@
         }
       ]
     },
-    "RELL": {
-      "issuerName": "RICHARDSON ELECTRONICS, LTD.",
-      "trades": [
-        {
-          "ticker": "RELL",
-          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
-          "insiderName": "KLUGE ROBERT H",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 29000.0,
-          "pricePerShare": 17.9029,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "RELL",
-          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
-          "insiderName": "Ruppert Jens Frank",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 37500.0,
-          "pricePerShare": 19.0082,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "RELL",
-          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
-          "insiderName": "Ben Robert J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7500.0,
-          "pricePerShare": 20.0,
-          "transactionDate": "2026-07-28"
-        }
-      ]
-    },
     "SYBT": {
       "issuerName": "Stock Yards Bancorp, Inc.",
       "trades": [
@@ -28826,21 +29206,6 @@
           "type": "Sale",
           "shares": 6823.0,
           "pricePerShare": 86.29,
-          "transactionDate": "2026-07-30"
-        }
-      ]
-    },
-    "AMAL": {
-      "issuerName": "Amalgamated Financial Corp.",
-      "trades": [
-        {
-          "ticker": "AMAL",
-          "issuerName": "Amalgamated Financial Corp.",
-          "insiderName": "Bruce Maryann",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 2138.0,
-          "pricePerShare": 49.5522,
           "transactionDate": "2026-07-30"
         }
       ]
@@ -30431,41 +30796,6 @@
           "type": "Sale",
           "shares": 1000.0,
           "pricePerShare": 42.89,
-          "transactionDate": "2026-07-28"
-        }
-      ]
-    },
-    "ASB": {
-      "issuerName": "ASSOCIATED BANC-CORP",
-      "trades": [
-        {
-          "ticker": "ASB",
-          "issuerName": "ASSOCIATED BANC-CORP",
-          "insiderName": "Meyer Derek S.",
-          "title": "EVP, Chief Financial Officer",
-          "type": "Sale",
-          "shares": 10000.0,
-          "pricePerShare": 30.74,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "ASB",
-          "issuerName": "ASSOCIATED BANC-CORP",
-          "insiderName": "Kitowski Nicole M",
-          "title": "Executive Vice President",
-          "type": "Sale",
-          "shares": 6255.0,
-          "pricePerShare": 30.9101,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "ASB",
-          "issuerName": "ASSOCIATED BANC-CORP",
-          "insiderName": "Kitowski Nicole M",
-          "title": "Executive Vice President",
-          "type": "Sale",
-          "shares": 1408.0,
-          "pricePerShare": 30.915,
           "transactionDate": "2026-07-28"
         }
       ]
@@ -32082,61 +32412,6 @@
           "shares": 416.0,
           "pricePerShare": 264.33,
           "transactionDate": "2026-07-29"
-        }
-      ]
-    },
-    "LGHL": {
-      "issuerName": "Lion Group Holding Ltd",
-      "trades": [
-        {
-          "ticker": "LGHL",
-          "issuerName": "Lion Group Holding Ltd",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 3029.0,
-          "pricePerShare": 1.21,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "LGHL",
-          "issuerName": "Lion Group Holding Ltd",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 27702.0,
-          "pricePerShare": 0.954,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "LGHL",
-          "issuerName": "Lion Group Holding Ltd",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 8435.0,
-          "pricePerShare": 1.43,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "LGHL",
-          "issuerName": "Lion Group Holding Ltd",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 3763.0,
-          "pricePerShare": 1.36,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "LGHL",
-          "issuerName": "Lion Group Holding Ltd",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 31226.0,
-          "pricePerShare": 1.46,
-          "transactionDate": "2026-07-21"
         }
       ]
     },
@@ -39412,6 +39687,7 @@
       "0000007789-26-000188",
       "0000007789-26-000192",
       "0000007789-26-000193",
+      "0000007789-26-000204",
       "0000008818-26-000123",
       "0000009712-26-000095",
       "0000009713-26-000196",
@@ -39471,6 +39747,8 @@
       "0000043920-26-000111",
       "0000043920-26-000113",
       "0000043920-26-000115",
+      "0000043920-26-000117",
+      "0000043920-26-000119",
       "0000048287-26-000127",
       "0000051931-26-000740",
       "0000051931-26-000741",
@@ -39666,11 +39944,14 @@
       "0000760498-26-000048",
       "0000763744-26-000065",
       "0000765207-26-000100",
+      "0000773674-26-000024",
       "0000784977-26-000048",
       "0000790359-26-000059",
       "0000790359-26-000060",
       "0000795890-26-000037",
       "0000796343-26-000137",
+      "0000796848-26-000006",
+      "0000796848-26-000007",
       "0000806180-26-000069",
       "0000806180-26-000079",
       "0000807249-26-000057",
@@ -40313,6 +40594,8 @@
       "0000950103-26-011938",
       "0000950103-26-011945",
       "0000950103-26-011946",
+      "0000950103-26-011947",
+      "0000950103-26-011948",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -40758,6 +41041,21 @@
       "0001104659-26-090974",
       "0001104659-26-090975",
       "0001104659-26-090977",
+      "0001104659-26-090996",
+      "0001104659-26-090997",
+      "0001104659-26-090998",
+      "0001104659-26-090999",
+      "0001104659-26-091000",
+      "0001104659-26-091001",
+      "0001104659-26-091002",
+      "0001104659-26-091003",
+      "0001104659-26-091005",
+      "0001104659-26-091006",
+      "0001104659-26-091007",
+      "0001104659-26-091008",
+      "0001104659-26-091009",
+      "0001104659-26-091033",
+      "0001104659-26-091046",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -41025,6 +41323,7 @@
       "0001140361-26-031326",
       "0001140361-26-031367",
       "0001140361-26-031383",
+      "0001140361-26-031402",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001161867-26-000009",
@@ -42187,6 +42486,11 @@
       "0001193125-26-334707",
       "0001193125-26-334708",
       "0001193125-26-334727",
+      "0001193125-26-334845",
+      "0001193125-26-334856",
+      "0001193125-26-334866",
+      "0001193125-26-334912",
+      "0001193125-26-334919",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -42652,6 +42956,8 @@
       "0001213900-26-085603",
       "0001213900-26-085604",
       "0001213900-26-085606",
+      "0001213900-26-085641",
+      "0001213900-26-085648",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -42750,6 +43056,7 @@
       "0001214659-26-009624",
       "0001214659-26-009627",
       "0001214659-26-009643",
+      "0001214659-26-009646",
       "0001216725-26-000012",
       "0001218497-26-000001",
       "0001218497-26-000002",
@@ -42875,6 +43182,7 @@
       "0001296479-26-000009",
       "0001298255-26-000015",
       "0001299992-26-000002",
+      "0001307520-26-000002",
       "0001307748-26-000175",
       "0001307748-26-000176",
       "0001307748-26-000177",
@@ -42906,6 +43214,7 @@
       "0001339142-26-000005",
       "0001339736-26-000014",
       "0001341004-26-000038",
+      "0001341985-26-000004",
       "0001342916-26-000050",
       "0001349121-26-000001",
       "0001350761-26-000002",
@@ -43004,6 +43313,7 @@
       "0001403967-26-000004",
       "0001405955-26-000007",
       "0001409460-26-000011",
+      "0001409722-26-000012",
       "0001411724-26-000006",
       "0001413042-26-000608",
       "0001413042-26-000618",
@@ -43269,6 +43579,7 @@
       "0001475597-26-000180",
       "0001475597-26-000182",
       "0001475597-26-000185",
+      "0001475597-26-000186",
       "0001475856-26-000004",
       "0001477932-26-004399",
       "0001477932-26-004400",
@@ -43569,6 +43880,8 @@
       "0001528621-26-000803",
       "0001528621-26-000804",
       "0001528621-26-000808",
+      "0001528621-26-000811",
+      "0001528621-26-000812",
       "0001530038-26-000002",
       "0001530255-26-000010",
       "0001530819-26-000012",
@@ -43701,6 +44014,8 @@
       "0001580642-26-004899",
       "0001580642-26-004903",
       "0001580642-26-004908",
+      "0001580642-26-004911",
+      "0001580642-26-004912",
       "0001582328-26-000007",
       "0001582473-26-000008",
       "0001588852-26-000009",
@@ -43742,6 +44057,7 @@
       "0001606498-26-000111",
       "0001606498-26-000112",
       "0001607210-26-000004",
+      "0001607675-26-000005",
       "0001608347-26-000013",
       "0001610717-26-000340",
       "0001611597-26-000009",
@@ -43997,6 +44313,7 @@
       "0001628280-26-052848",
       "0001628280-26-052968",
       "0001628280-26-053017",
+      "0001628280-26-053230",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -44124,6 +44441,7 @@
       "0001691675-26-000002",
       "0001693906-26-000011",
       "0001693906-26-000012",
+      "0001693996-26-000001",
       "0001695434-26-000010",
       "0001696923-26-000007",
       "0001697362-26-000014",
@@ -44357,6 +44675,7 @@
       "0001821268-26-000115",
       "0001821737-26-000010",
       "0001823608-26-000180",
+      "0001823608-26-000184",
       "0001824992-26-000008",
       "0001825454-26-000023",
       "0001825454-26-000026",
@@ -44455,6 +44774,12 @@
       "0001829126-26-008285",
       "0001829126-26-008316",
       "0001829126-26-008372",
+      "0001829126-26-008381",
+      "0001829126-26-008383",
+      "0001829126-26-008384",
+      "0001829126-26-008385",
+      "0001829126-26-008386",
+      "0001829126-26-008387",
       "0001830043-26-000094",
       "0001830165-26-000026",
       "0001830165-26-000028",
@@ -45377,6 +45702,12 @@
       "0001839882-26-038756",
       "0001839882-26-038759",
       "0001839882-26-038760",
+      "0001839882-26-038763",
+      "0001839882-26-038765",
+      "0001839882-26-038766",
+      "0001839882-26-038767",
+      "0001839882-26-038770",
+      "0001839882-26-038771",
       "0001840706-26-000265",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -45460,6 +45791,7 @@
       "0001899338-26-000002",
       "0001899338-26-000003",
       "0001899338-26-000004",
+      "0001899338-26-000005",
       "0001900201-26-000003",
       "0001903115-26-000003",
       "0001903739-26-000013",
@@ -46676,6 +47008,11 @@
       "0001918704-26-022962",
       "0001918704-26-022968",
       "0001918704-26-022969",
+      "0001918704-26-022972",
+      "0001918704-26-022973",
+      "0001918704-26-022974",
+      "0001918704-26-022975",
+      "0001918704-26-022976",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -46970,6 +47307,8 @@
       "0001999371-26-017038",
       "0001999371-26-017042",
       "0001999371-26-017062",
+      "0001999371-26-017074",
+      "0001999371-26-017076",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
