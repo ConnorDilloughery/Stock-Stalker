@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-06T18:05:22.818024+00:00",
+  "generatedAt": "2026-08-06T19:06:01.681652+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 2276,
+  "count": 2288,
   "trades": [
     {
       "ticker": "SILC",
@@ -21,6 +21,16 @@
       "type": "Sale",
       "shares": 6975.0,
       "pricePerShare": 44.44,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "RBKB",
+      "issuerName": "Rhinebeck Bancorp, Inc.",
+      "insiderName": "Vitale Michael",
+      "title": "EVP, Head of Comm Banking",
+      "type": "Purchase",
+      "shares": 4834.0,
+      "pricePerShare": 12.35,
       "transactionDate": "2026-08-06"
     },
     {
@@ -751,6 +761,56 @@
       "type": "Sale",
       "shares": 4100.0,
       "pricePerShare": 24.8003,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "WAB",
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "insiderName": "Santana Rafael",
+      "title": "Director, President and CEO",
+      "type": "Sale",
+      "shares": 397.0,
+      "pricePerShare": 296.1427,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "WAB",
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "insiderName": "Santana Rafael",
+      "title": "Director, President and CEO",
+      "type": "Sale",
+      "shares": 518.0,
+      "pricePerShare": 297.0532,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "WAB",
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "insiderName": "Santana Rafael",
+      "title": "Director, President and CEO",
+      "type": "Sale",
+      "shares": 194.0,
+      "pricePerShare": 298.2637,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "WAB",
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "insiderName": "Santana Rafael",
+      "title": "Director, President and CEO",
+      "type": "Sale",
+      "shares": 54.0,
+      "pricePerShare": 298.8481,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "RMD",
+      "issuerName": "RESMED INC",
+      "insiderName": "FARRELL PETER C",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 8000.0,
+      "pricePerShare": 225.0,
       "transactionDate": "2026-08-05"
     },
     {
@@ -2391,6 +2451,66 @@
       "type": "Sale",
       "shares": 1.0,
       "pricePerShare": 10.2301,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "FSS",
+      "issuerName": "FEDERAL SIGNAL CORP /DE/",
+      "insiderName": "REICHELDERFER BRENDA",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 6070.0,
+      "pricePerShare": 131.0169,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "WAB",
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "insiderName": "Santana Rafael",
+      "title": "Director, President and CEO",
+      "type": "Sale",
+      "shares": 80.0,
+      "pricePerShare": 296.4616,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "WAB",
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "insiderName": "Santana Rafael",
+      "title": "Director, President and CEO",
+      "type": "Sale",
+      "shares": 120.0,
+      "pricePerShare": 297.6759,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "WAB",
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "insiderName": "Santana Rafael",
+      "title": "Director, President and CEO",
+      "type": "Sale",
+      "shares": 334.0,
+      "pricePerShare": 298.8952,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "WAB",
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "insiderName": "Santana Rafael",
+      "title": "Director, President and CEO",
+      "type": "Sale",
+      "shares": 629.0,
+      "pricePerShare": 299.6998,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "ARCB",
+      "issuerName": "ARCBEST CORP /TX/",
+      "insiderName": "MCREYNOLDS JUDY R",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1500.0,
+      "pricePerShare": 144.78,
       "transactionDate": "2026-08-04"
     },
     {
@@ -22790,6 +22910,21 @@
         }
       ]
     },
+    "RBKB": {
+      "issuerName": "Rhinebeck Bancorp, Inc.",
+      "trades": [
+        {
+          "ticker": "RBKB",
+          "issuerName": "Rhinebeck Bancorp, Inc.",
+          "insiderName": "Vitale Michael",
+          "title": "EVP, Head of Comm Banking",
+          "type": "Purchase",
+          "shares": 4834.0,
+          "pricePerShare": 12.35,
+          "transactionDate": "2026-08-06"
+        }
+      ]
+    },
     "PKG": {
       "issuerName": "PACKAGING CORP OF AMERICA",
       "trades": [
@@ -25550,6 +25685,166 @@
         }
       ]
     },
+    "WAB": {
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "trades": [
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 397.0,
+          "pricePerShare": 296.1427,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 518.0,
+          "pricePerShare": 297.0532,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 194.0,
+          "pricePerShare": 298.2637,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 54.0,
+          "pricePerShare": 298.8481,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 80.0,
+          "pricePerShare": 296.4616,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 120.0,
+          "pricePerShare": 297.6759,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 334.0,
+          "pricePerShare": 298.8952,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 629.0,
+          "pricePerShare": 299.6998,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "DeNinno David L",
+          "title": "Exec VP, General Counsel, Sec.",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 301.3076,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Gebhardt Eric",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 1107.0,
+          "pricePerShare": 297.386,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Gebhardt Eric",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 2040.0,
+          "pricePerShare": 298.8574,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Gebhardt Eric",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 2353.0,
+          "pricePerShare": 299.6913,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Gebhardt Eric",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 1600.0,
+          "pricePerShare": 300.4941,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Gaur Sameer",
+          "title": "Pres., Global Freight Services",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 300.64,
+          "transactionDate": "2026-07-24"
+        }
+      ]
+    },
+    "RMD": {
+      "issuerName": "RESMED INC",
+      "trades": [
+        {
+          "ticker": "RMD",
+          "issuerName": "RESMED INC",
+          "insiderName": "FARRELL PETER C",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 8000.0,
+          "pricePerShare": 225.0,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
     "SMBK": {
       "issuerName": "SMARTFINANCIAL INC.",
       "trades": [
@@ -28221,6 +28516,16 @@
         {
           "ticker": "FSS",
           "issuerName": "FEDERAL SIGNAL CORP /DE/",
+          "insiderName": "REICHELDERFER BRENDA",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 6070.0,
+          "pricePerShare": 131.0169,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "FSS",
+          "issuerName": "FEDERAL SIGNAL CORP /DE/",
           "insiderName": "Bonina Diane",
           "title": "VP, Gen'l Counsel & Secretary",
           "type": "Sale",
@@ -29227,6 +29532,21 @@
           "shares": 9.0,
           "pricePerShare": 10.175,
           "transactionDate": "2026-07-24"
+        }
+      ]
+    },
+    "ARCB": {
+      "issuerName": "ARCBEST CORP /TX/",
+      "trades": [
+        {
+          "ticker": "ARCB",
+          "issuerName": "ARCBEST CORP /TX/",
+          "insiderName": "MCREYNOLDS JUDY R",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 144.78,
+          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -43615,71 +43935,6 @@
         }
       ]
     },
-    "WAB": {
-      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-      "trades": [
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "DeNinno David L",
-          "title": "Exec VP, General Counsel, Sec.",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 301.3076,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Gebhardt Eric",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 1107.0,
-          "pricePerShare": 297.386,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Gebhardt Eric",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 2040.0,
-          "pricePerShare": 298.8574,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Gebhardt Eric",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 2353.0,
-          "pricePerShare": 299.6913,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Gebhardt Eric",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 1600.0,
-          "pricePerShare": 300.4941,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Gaur Sameer",
-          "title": "Pres., Global Freight Services",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 300.64,
-          "transactionDate": "2026-07-24"
-        }
-      ]
-    },
     "FFIN": {
       "issuerName": "FIRST FINANCIAL BANKSHARES INC",
       "trades": [
@@ -48346,6 +48601,7 @@
       "0000894189-26-021942",
       "0000894189-26-021947",
       "0000894189-26-021948",
+      "0000894189-26-021965",
       "0000896622-26-000170",
       "0000896622-26-000172",
       "0000896622-26-000174",
@@ -48502,6 +48758,8 @@
       "0000943452-26-000004",
       "0000943452-26-000005",
       "0000943452-26-000007",
+      "0000943452-26-000009",
+      "0000943819-26-000040",
       "0000944148-26-000099",
       "0000944305-26-000031",
       "0000947703-26-000199",
@@ -48929,6 +49187,10 @@
       "0000950103-26-011993",
       "0000950103-26-011994",
       "0000950103-26-011995",
+      "0000950103-26-011996",
+      "0000950103-26-011997",
+      "0000950103-26-011998",
+      "0000950103-26-012000",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -49430,6 +49692,8 @@
       "0001104659-26-091810",
       "0001104659-26-091816",
       "0001104659-26-091818",
+      "0001104659-26-091902",
+      "0001104659-26-091915",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -49710,6 +49974,7 @@
       "0001140361-26-031637",
       "0001140361-26-031641",
       "0001140361-26-031650",
+      "0001140361-26-031660",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001161867-26-000009",
@@ -49779,6 +50044,7 @@
       "0001188203-26-000007",
       "0001189242-26-000037",
       "0001192890-26-000006",
+      "0001193004-26-000004",
       "0001193074-26-000010",
       "0001193125-26-308109",
       "0001193125-26-308116",
@@ -50946,6 +51212,18 @@
       "0001193125-26-337504",
       "0001193125-26-337586",
       "0001193125-26-337598",
+      "0001193125-26-337633",
+      "0001193125-26-337649",
+      "0001193125-26-337654",
+      "0001193125-26-337671",
+      "0001193125-26-337673",
+      "0001193125-26-337685",
+      "0001193125-26-337694",
+      "0001193125-26-337703",
+      "0001193125-26-337719",
+      "0001193125-26-337723",
+      "0001193125-26-337726",
+      "0001193125-26-337734",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -51454,6 +51732,10 @@
       "0001213900-26-086032",
       "0001213900-26-086037",
       "0001213900-26-086038",
+      "0001213900-26-086051",
+      "0001213900-26-086056",
+      "0001213900-26-086078",
+      "0001213900-26-086081",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -51657,6 +51939,7 @@
       "0001244373-26-000002",
       "0001244373-26-000003",
       "0001244373-26-000004",
+      "0001244563-26-000006",
       "0001248294-26-000005",
       "0001249970-26-000009",
       "0001250536-26-000017",
@@ -51842,6 +52125,7 @@
       "0001421517-26-000073",
       "0001421517-26-000075",
       "0001423238-26-000008",
+      "0001429897-26-000004",
       "0001430723-26-000015",
       "0001432353-26-000623",
       "0001432353-26-000626",
@@ -51987,6 +52271,7 @@
       "0001437749-26-026154",
       "0001437749-26-026156",
       "0001437749-26-026158",
+      "0001437749-26-026192",
       "0001438584-26-000002",
       "0001444540-26-000002",
       "0001445546-26-005229",
@@ -52137,6 +52422,7 @@
       "0001481792-26-000136",
       "0001481792-26-000138",
       "0001481792-26-000140",
+      "0001488151-26-000004",
       "0001490925-26-000003",
       "0001491567-26-000008",
       "0001492597-26-000001",
@@ -52430,6 +52716,8 @@
       "0001528621-26-000808",
       "0001528621-26-000811",
       "0001528621-26-000812",
+      "0001528621-26-000813",
+      "0001528621-26-000814",
       "0001530038-26-000002",
       "0001530255-26-000010",
       "0001530819-26-000012",
@@ -52918,6 +53206,7 @@
       "0001628280-26-053937",
       "0001628280-26-053939",
       "0001628280-26-053943",
+      "0001628280-26-054191",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -54394,6 +54683,19 @@
       "0001839882-26-038911",
       "0001839882-26-038914",
       "0001839882-26-038915",
+      "0001839882-26-038919",
+      "0001839882-26-038921",
+      "0001839882-26-038922",
+      "0001839882-26-038923",
+      "0001839882-26-038924",
+      "0001839882-26-038925",
+      "0001839882-26-038926",
+      "0001839882-26-038927",
+      "0001839882-26-038928",
+      "0001839882-26-038929",
+      "0001839882-26-038930",
+      "0001839882-26-038931",
+      "0001839882-26-038932",
       "0001840706-26-000265",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -55758,6 +56060,14 @@
       "0001918704-26-023071",
       "0001918704-26-023072",
       "0001918704-26-023073",
+      "0001918704-26-023074",
+      "0001918704-26-023075",
+      "0001918704-26-023076",
+      "0001918704-26-023077",
+      "0001918704-26-023078",
+      "0001918704-26-023079",
+      "0001918704-26-023080",
+      "0001918704-26-023081",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
