@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-06T15:05:15.714996+00:00",
+  "generatedAt": "2026-08-06T16:02:08.640015+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 2261,
+  "count": 2268,
   "trades": [
     {
       "ticker": "SILC",
@@ -671,6 +671,66 @@
       "type": "Purchase",
       "shares": 237616.0,
       "pricePerShare": 1.0,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "GLBE",
+      "issuerName": "Global-E Online Ltd.",
+      "insiderName": "Tamari Shahar",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 24999.0,
+      "pricePerShare": 41.5941,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "GLBE",
+      "issuerName": "Global-E Online Ltd.",
+      "insiderName": "Schlachet Amir",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1308.0,
+      "pricePerShare": 42.0896,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "CHD",
+      "issuerName": "CHURCH & DWIGHT CO INC /DE/",
+      "insiderName": "WINKLEBLACK ARTHUR B",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 13200.0,
+      "pricePerShare": 102.8265,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "TPL",
+      "issuerName": "Texas Pacific Land Corp",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 385.95,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "PFE",
+      "issuerName": "PFIZER INC",
+      "insiderName": "DAMICO JENNIFER B.",
+      "title": "SVP & Controller",
+      "type": "Sale",
+      "shares": 3278.0,
+      "pricePerShare": 25.4,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "BANF",
+      "issuerName": "BANCFIRST CORP /OK/",
+      "insiderName": "RAINBOLT DAVID E",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2000.0,
+      "pricePerShare": 115.025,
       "transactionDate": "2026-08-05"
     },
     {
@@ -2241,6 +2301,16 @@
       "type": "Sale",
       "shares": 23901.0,
       "pricePerShare": 20.0,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "BPOP",
+      "issuerName": "POPULAR, INC.",
+      "insiderName": "CESTERO LUIS E.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 8500.0,
+      "pricePerShare": 176.356,
       "transactionDate": "2026-08-04"
     },
     {
@@ -25175,6 +25245,201 @@
         }
       ]
     },
+    "GLBE": {
+      "issuerName": "Global-E Online Ltd.",
+      "trades": [
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Tamari Shahar",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 24999.0,
+          "pricePerShare": 41.5941,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Schlachet Amir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1308.0,
+          "pricePerShare": 42.0896,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Tamari Shahar",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 24999.0,
+          "pricePerShare": 37.9815,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "CHD": {
+      "issuerName": "CHURCH & DWIGHT CO INC /DE/",
+      "trades": [
+        {
+          "ticker": "CHD",
+          "issuerName": "CHURCH & DWIGHT CO INC /DE/",
+          "insiderName": "WINKLEBLACK ARTHUR B",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 13200.0,
+          "pricePerShare": 102.8265,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "TPL": {
+      "issuerName": "Texas Pacific Land Corp",
+      "trades": [
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 385.95,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 392.66,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 394.14,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 393.09,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 409.31,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 427.42,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 413.48,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 416.47,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 420.15,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "PFE": {
+      "issuerName": "PFIZER INC",
+      "trades": [
+        {
+          "ticker": "PFE",
+          "issuerName": "PFIZER INC",
+          "insiderName": "DAMICO JENNIFER B.",
+          "title": "SVP & Controller",
+          "type": "Sale",
+          "shares": 3278.0,
+          "pricePerShare": 25.4,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "BANF": {
+      "issuerName": "BANCFIRST CORP /OK/",
+      "trades": [
+        {
+          "ticker": "BANF",
+          "issuerName": "BANCFIRST CORP /OK/",
+          "insiderName": "RAINBOLT DAVID E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 115.025,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "BANF",
+          "issuerName": "BANCFIRST CORP /OK/",
+          "insiderName": "RAINBOLT DAVID E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 81492.0,
+          "pricePerShare": 116.7113,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "BANF",
+          "issuerName": "BANCFIRST CORP /OK/",
+          "insiderName": "RAINBOLT DAVID E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 29740.0,
+          "pricePerShare": 116.4884,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
     "SMBK": {
       "issuerName": "SMARTFINANCIAL INC.",
       "trades": [
@@ -28655,6 +28920,41 @@
         }
       ]
     },
+    "BPOP": {
+      "issuerName": "POPULAR, INC.",
+      "trades": [
+        {
+          "ticker": "BPOP",
+          "issuerName": "POPULAR, INC.",
+          "insiderName": "CESTERO LUIS E.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8500.0,
+          "pricePerShare": 176.356,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "BPOP",
+          "issuerName": "POPULAR, INC.",
+          "insiderName": "Ferre Maria Luisa",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3076.0,
+          "pricePerShare": 173.786,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "BPOP",
+          "issuerName": "POPULAR, INC.",
+          "insiderName": "Ferre Maria Luisa",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3385.0,
+          "pricePerShare": 175.42,
+          "transactionDate": "2026-07-30"
+        }
+      ]
+    },
     "GOOD": {
       "issuerName": "GLADSTONE COMMERCIAL CORP",
       "trades": [
@@ -30092,91 +30392,6 @@
           "shares": 7299.0,
           "pricePerShare": 189.5476,
           "transactionDate": "2026-07-16"
-        }
-      ]
-    },
-    "TPL": {
-      "issuerName": "Texas Pacific Land Corp",
-      "trades": [
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 392.66,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 394.14,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 393.09,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 409.31,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 427.42,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 413.48,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 416.47,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 420.15,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -38660,31 +38875,6 @@
         }
       ]
     },
-    "BPOP": {
-      "issuerName": "POPULAR, INC.",
-      "trades": [
-        {
-          "ticker": "BPOP",
-          "issuerName": "POPULAR, INC.",
-          "insiderName": "Ferre Maria Luisa",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3076.0,
-          "pricePerShare": 173.786,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "BPOP",
-          "issuerName": "POPULAR, INC.",
-          "insiderName": "Ferre Maria Luisa",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3385.0,
-          "pricePerShare": 175.42,
-          "transactionDate": "2026-07-30"
-        }
-      ]
-    },
     "PFGC": {
       "issuerName": "Performance Food Group Co",
       "trades": [
@@ -41307,31 +41497,6 @@
           "shares": 3000.0,
           "pricePerShare": 30.47,
           "transactionDate": "2026-07-20"
-        }
-      ]
-    },
-    "BANF": {
-      "issuerName": "BANCFIRST CORP /OK/",
-      "trades": [
-        {
-          "ticker": "BANF",
-          "issuerName": "BANCFIRST CORP /OK/",
-          "insiderName": "RAINBOLT DAVID E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 81492.0,
-          "pricePerShare": 116.7113,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "BANF",
-          "issuerName": "BANCFIRST CORP /OK/",
-          "insiderName": "RAINBOLT DAVID E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 29740.0,
-          "pricePerShare": 116.4884,
-          "transactionDate": "2026-07-27"
         }
       ]
     },
@@ -46480,21 +46645,6 @@
         }
       ]
     },
-    "GLBE": {
-      "issuerName": "Global-E Online Ltd.",
-      "trades": [
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Tamari Shahar",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 24999.0,
-          "pricePerShare": 37.9815,
-          "transactionDate": "2026-07-17"
-        }
-      ]
-    },
     "LYEL": {
       "issuerName": "Lyell Immunopharma, Inc.",
       "trades": [
@@ -47857,6 +48007,7 @@
       "0000313927-26-000286",
       "0000313927-26-000288",
       "0000313927-26-000290",
+      "0000313927-26-000292",
       "0000318300-26-000185",
       "0000318300-26-000189",
       "0000320335-26-000206",
@@ -47914,8 +48065,10 @@
       "0000744822-26-000071",
       "0000744822-26-000075",
       "0000744822-26-000076",
+      "0000752642-26-000089",
       "0000760498-26-000047",
       "0000760498-26-000048",
+      "0000760498-26-000052",
       "0000763744-26-000065",
       "0000765207-26-000100",
       "0000773674-26-000024",
@@ -48588,6 +48741,7 @@
       "0000950103-26-011989",
       "0000950103-26-011990",
       "0000950103-26-011991",
+      "0000950103-26-011992",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -49084,6 +49238,10 @@
       "0001104659-26-091699",
       "0001104659-26-091713",
       "0001104659-26-091714",
+      "0001104659-26-091795",
+      "0001104659-26-091810",
+      "0001104659-26-091816",
+      "0001104659-26-091818",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -49360,6 +49518,9 @@
       "0001140361-26-031544",
       "0001140361-26-031559",
       "0001140361-26-031560",
+      "0001140361-26-031635",
+      "0001140361-26-031637",
+      "0001140361-26-031641",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001161867-26-000009",
@@ -50586,6 +50747,9 @@
       "0001193125-26-337183",
       "0001193125-26-337184",
       "0001193125-26-337185",
+      "0001193125-26-337251",
+      "0001193125-26-337264",
+      "0001193125-26-337284",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -51088,6 +51252,8 @@
       "0001213900-26-085950",
       "0001213900-26-085956",
       "0001213900-26-085957",
+      "0001213900-26-085998",
+      "0001213900-26-086005",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -51255,6 +51421,7 @@
       "0001225208-26-006971",
       "0001225208-26-006972",
       "0001225208-26-006973",
+      "0001225208-26-007004",
       "0001225481-26-000006",
       "0001227384-26-000017",
       "0001227654-26-000042",
@@ -51606,6 +51773,9 @@
       "0001437749-26-025884",
       "0001437749-26-025990",
       "0001437749-26-026014",
+      "0001437749-26-026108",
+      "0001437749-26-026112",
+      "0001437749-26-026114",
       "0001438584-26-000002",
       "0001444540-26-000002",
       "0001445546-26-005229",
@@ -51702,6 +51872,7 @@
       "0001445546-26-005745",
       "0001445546-26-005757",
       "0001445546-26-005759",
+      "0001445546-26-005760",
       "0001448765-26-000011",
       "0001451455-26-000009",
       "0001451763-26-000012",
@@ -52202,6 +52373,8 @@
       "0001592900-26-003770",
       "0001592900-26-003777",
       "0001592900-26-003788",
+      "0001592900-26-003852",
+      "0001592900-26-003853",
       "0001593040-26-000002",
       "0001593516-26-000004",
       "0001596532-26-000166",
@@ -52552,6 +52725,7 @@
       "0001640334-26-001231",
       "0001640334-26-001254",
       "0001641294-26-000008",
+      "0001642415-26-000010",
       "0001644373-26-000004",
       "0001646382-26-000014",
       "0001646382-26-000017",
@@ -52825,6 +52999,13 @@
       "0001771146-26-001548",
       "0001771146-26-001561",
       "0001771146-26-001563",
+      "0001771146-26-001592",
+      "0001771146-26-001594",
+      "0001771146-26-001596",
+      "0001771146-26-001598",
+      "0001771146-26-001600",
+      "0001771146-26-001602",
+      "0001771146-26-001604",
       "0001772603-26-000012",
       "0001773399-26-000006",
       "0001774463-26-000002",
@@ -53977,6 +54158,20 @@
       "0001839882-26-038865",
       "0001839882-26-038870",
       "0001839882-26-038873",
+      "0001839882-26-038876",
+      "0001839882-26-038878",
+      "0001839882-26-038880",
+      "0001839882-26-038881",
+      "0001839882-26-038882",
+      "0001839882-26-038883",
+      "0001839882-26-038884",
+      "0001839882-26-038885",
+      "0001839882-26-038886",
+      "0001839882-26-038887",
+      "0001839882-26-038888",
+      "0001839882-26-038889",
+      "0001839882-26-038891",
+      "0001839882-26-038893",
       "0001840706-26-000265",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -54069,6 +54264,7 @@
       "0001899338-26-000003",
       "0001899338-26-000004",
       "0001899338-26-000005",
+      "0001899338-26-000006",
       "0001900201-26-000003",
       "0001903115-26-000003",
       "0001903739-26-000013",
@@ -55323,6 +55519,14 @@
       "0001918704-26-023048",
       "0001918704-26-023049",
       "0001918704-26-023050",
+      "0001918704-26-023052",
+      "0001918704-26-023053",
+      "0001918704-26-023054",
+      "0001918704-26-023055",
+      "0001918704-26-023056",
+      "0001918704-26-023057",
+      "0001918704-26-023058",
+      "0001918704-26-023059",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -55642,6 +55846,9 @@
       "0001999371-26-017169",
       "0001999371-26-017172",
       "0001999371-26-017175",
+      "0001999371-26-017179",
+      "0001999371-26-017183",
+      "0001999371-26-017186",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
