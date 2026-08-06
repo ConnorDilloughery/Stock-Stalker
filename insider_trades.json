@@ -1,8 +1,28 @@
 {
-  "generatedAt": "2026-08-06T13:01:04.631317+00:00",
+  "generatedAt": "2026-08-06T14:04:51.238241+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 2250,
+  "count": 2261,
   "trades": [
+    {
+      "ticker": "SILC",
+      "issuerName": "SILICOM LTD.",
+      "insiderName": "Gilad Eran",
+      "title": "CFO",
+      "type": "Sale",
+      "shares": 25.0,
+      "pricePerShare": 46.56,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "SILC",
+      "issuerName": "SILICOM LTD.",
+      "insiderName": "Gilad Eran",
+      "title": "CFO",
+      "type": "Sale",
+      "shares": 6975.0,
+      "pricePerShare": 44.44,
+      "transactionDate": "2026-08-06"
+    },
     {
       "ticker": "PKG",
       "issuerName": "PACKAGING CORP OF AMERICA",
@@ -621,6 +641,36 @@
       "type": "Purchase",
       "shares": 43382.0,
       "pricePerShare": 4.67,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "ECAT",
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 42298.0,
+      "pricePerShare": 15.46,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "GF",
+      "issuerName": "NEW GERMANY FUND INC",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 266.0,
+      "pricePerShare": 11.43,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "TLSA",
+      "issuerName": "Tiziana Life Sciences Ltd",
+      "insiderName": "Elrifi Ivor",
+      "title": "Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 237616.0,
+      "pricePerShare": 1.0,
       "transactionDate": "2026-08-05"
     },
     {
@@ -2131,6 +2181,66 @@
       "type": "Purchase",
       "shares": 370.0,
       "pricePerShare": 11.81,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "ECAT",
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 99323.0,
+      "pricePerShare": 15.34,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "GF",
+      "issuerName": "NEW GERMANY FUND INC",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1844.0,
+      "pricePerShare": 11.6,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "MXF",
+      "issuerName": "MEXICO FUND INC",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 9362.0,
+      "pricePerShare": 22.19,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "TLSA",
+      "issuerName": "Tiziana Life Sciences Ltd",
+      "insiderName": "Elrifi Ivor",
+      "title": "Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 83807.0,
+      "pricePerShare": 0.97,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "BOKF",
+      "issuerName": "BOK FINANCIAL CORP",
+      "insiderName": "Vincent Brad A",
+      "title": "EVP - Specialized Industries",
+      "type": "Sale",
+      "shares": 4015.0,
+      "pricePerShare": 145.42,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "RELL",
+      "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+      "insiderName": "Diddell Wendy",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 23901.0,
+      "pricePerShare": 20.0,
       "transactionDate": "2026-08-04"
     },
     {
@@ -22505,6 +22615,31 @@
     }
   ],
   "byTicker": {
+    "SILC": {
+      "issuerName": "SILICOM LTD.",
+      "trades": [
+        {
+          "ticker": "SILC",
+          "issuerName": "SILICOM LTD.",
+          "insiderName": "Gilad Eran",
+          "title": "CFO",
+          "type": "Sale",
+          "shares": 25.0,
+          "pricePerShare": 46.56,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "SILC",
+          "issuerName": "SILICOM LTD.",
+          "insiderName": "Gilad Eran",
+          "title": "CFO",
+          "type": "Sale",
+          "shares": 6975.0,
+          "pricePerShare": 44.44,
+          "transactionDate": "2026-08-06"
+        }
+      ]
+    },
     "PKG": {
       "issuerName": "PACKAGING CORP OF AMERICA",
       "trades": [
@@ -24862,6 +24997,181 @@
           "shares": 43382.0,
           "pricePerShare": 4.67,
           "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "ECAT": {
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "trades": [
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 42298.0,
+          "pricePerShare": 15.46,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 99323.0,
+          "pricePerShare": 15.34,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 158002.0,
+          "pricePerShare": 14.94,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 148742.0,
+          "pricePerShare": 15.15,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 151995.0,
+          "pricePerShare": 15.11,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 46387.0,
+          "pricePerShare": 15.13,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 79000.0,
+          "pricePerShare": 15.44,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 93506.0,
+          "pricePerShare": 15.49,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 83087.0,
+          "pricePerShare": 15.35,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 32854.0,
+          "pricePerShare": 15.62,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "GF": {
+      "issuerName": "NEW GERMANY FUND INC",
+      "trades": [
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 266.0,
+          "pricePerShare": 11.43,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1844.0,
+          "pricePerShare": 11.6,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 325.0,
+          "pricePerShare": 11.28,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 500.0,
+          "pricePerShare": 11.23,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "TLSA": {
+      "issuerName": "Tiziana Life Sciences Ltd",
+      "trades": [
+        {
+          "ticker": "TLSA",
+          "issuerName": "Tiziana Life Sciences Ltd",
+          "insiderName": "Elrifi Ivor",
+          "title": "Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 237616.0,
+          "pricePerShare": 1.0,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "TLSA",
+          "issuerName": "Tiziana Life Sciences Ltd",
+          "insiderName": "Elrifi Ivor",
+          "title": "Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 83807.0,
+          "pricePerShare": 0.97,
+          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -28187,6 +28497,161 @@
           "shares": 370.0,
           "pricePerShare": 11.81,
           "transactionDate": "2026-08-04"
+        }
+      ]
+    },
+    "MXF": {
+      "issuerName": "MEXICO FUND INC",
+      "trades": [
+        {
+          "ticker": "MXF",
+          "issuerName": "MEXICO FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9362.0,
+          "pricePerShare": 22.19,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "MXF",
+          "issuerName": "MEXICO FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 2608.0,
+          "pricePerShare": 21.56,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "MXF",
+          "issuerName": "MEXICO FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 7623.0,
+          "pricePerShare": 21.8,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "MXF",
+          "issuerName": "MEXICO FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 200.0,
+          "pricePerShare": 21.52,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "MXF",
+          "issuerName": "MEXICO FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 570.0,
+          "pricePerShare": 21.44,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "MXF",
+          "issuerName": "MEXICO FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1682.0,
+          "pricePerShare": 21.64,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "BOKF": {
+      "issuerName": "BOK FINANCIAL CORP",
+      "trades": [
+        {
+          "ticker": "BOKF",
+          "issuerName": "BOK FINANCIAL CORP",
+          "insiderName": "Vincent Brad A",
+          "title": "EVP - Specialized Industries",
+          "type": "Sale",
+          "shares": 4015.0,
+          "pricePerShare": 145.42,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "BOKF",
+          "issuerName": "BOK FINANCIAL CORP",
+          "insiderName": "KYMES STACY",
+          "title": "Director, President & CEO",
+          "type": "Sale",
+          "shares": 8.5386,
+          "pricePerShare": 139.532,
+          "transactionDate": "2026-07-23"
+        }
+      ]
+    },
+    "RELL": {
+      "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+      "trades": [
+        {
+          "ticker": "RELL",
+          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+          "insiderName": "Diddell Wendy",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 23901.0,
+          "pricePerShare": 20.0,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "RELL",
+          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+          "insiderName": "Halverson Kenneth",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 18.7707,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "RELL",
+          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+          "insiderName": "Benham James",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 9836.0,
+          "pricePerShare": 18.5,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "RELL",
+          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+          "insiderName": "KLUGE ROBERT H",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 29000.0,
+          "pricePerShare": 17.9029,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "RELL",
+          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+          "insiderName": "Ruppert Jens Frank",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 37500.0,
+          "pricePerShare": 19.0082,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "RELL",
+          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+          "insiderName": "Ben Robert J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7500.0,
+          "pricePerShare": 20.0,
+          "transactionDate": "2026-07-28"
         }
       ]
     },
@@ -32517,61 +32982,6 @@
           "shares": 39000.0,
           "pricePerShare": 18.32,
           "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "RELL": {
-      "issuerName": "RICHARDSON ELECTRONICS, LTD.",
-      "trades": [
-        {
-          "ticker": "RELL",
-          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
-          "insiderName": "Halverson Kenneth",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 18.7707,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "RELL",
-          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
-          "insiderName": "Benham James",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 9836.0,
-          "pricePerShare": 18.5,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "RELL",
-          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
-          "insiderName": "KLUGE ROBERT H",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 29000.0,
-          "pricePerShare": 17.9029,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "RELL",
-          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
-          "insiderName": "Ruppert Jens Frank",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 37500.0,
-          "pricePerShare": 19.0082,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "RELL",
-          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
-          "insiderName": "Ben Robert J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7500.0,
-          "pricePerShare": 20.0,
-          "transactionDate": "2026-07-28"
         }
       ]
     },
@@ -39970,91 +40380,6 @@
         }
       ]
     },
-    "ECAT": {
-      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-      "trades": [
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 158002.0,
-          "pricePerShare": 14.94,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 148742.0,
-          "pricePerShare": 15.15,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 151995.0,
-          "pricePerShare": 15.11,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 46387.0,
-          "pricePerShare": 15.13,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 79000.0,
-          "pricePerShare": 15.44,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 93506.0,
-          "pricePerShare": 15.49,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 83087.0,
-          "pricePerShare": 15.35,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 32854.0,
-          "pricePerShare": 15.62,
-          "transactionDate": "2026-07-16"
-        }
-      ]
-    },
     "PYPL": {
       "issuerName": "PayPal Holdings, Inc.",
       "trades": [
@@ -41350,61 +41675,6 @@
         }
       ]
     },
-    "MXF": {
-      "issuerName": "MEXICO FUND INC",
-      "trades": [
-        {
-          "ticker": "MXF",
-          "issuerName": "MEXICO FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 2608.0,
-          "pricePerShare": 21.56,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "MXF",
-          "issuerName": "MEXICO FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 7623.0,
-          "pricePerShare": 21.8,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "MXF",
-          "issuerName": "MEXICO FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 200.0,
-          "pricePerShare": 21.52,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "MXF",
-          "issuerName": "MEXICO FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 570.0,
-          "pricePerShare": 21.44,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "MXF",
-          "issuerName": "MEXICO FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1682.0,
-          "pricePerShare": 21.64,
-          "transactionDate": "2026-07-16"
-        }
-      ]
-    },
     "NIC": {
       "issuerName": "NICOLET BANKSHARES INC",
       "trades": [
@@ -42447,31 +42717,6 @@
           "shares": 1537.0,
           "pricePerShare": 51.83,
           "transactionDate": "2026-07-27"
-        }
-      ]
-    },
-    "GF": {
-      "issuerName": "NEW GERMANY FUND INC",
-      "trades": [
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 325.0,
-          "pricePerShare": 11.28,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 500.0,
-          "pricePerShare": 11.23,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -44046,21 +44291,6 @@
           "type": "Sale",
           "shares": 3561.0,
           "pricePerShare": 85.36,
-          "transactionDate": "2026-07-23"
-        }
-      ]
-    },
-    "BOKF": {
-      "issuerName": "BOK FINANCIAL CORP",
-      "trades": [
-        {
-          "ticker": "BOKF",
-          "issuerName": "BOK FINANCIAL CORP",
-          "insiderName": "KYMES STACY",
-          "title": "Director, President & CEO",
-          "type": "Sale",
-          "shares": 8.5386,
-          "pricePerShare": 139.532,
           "transactionDate": "2026-07-23"
         }
       ]
@@ -47582,6 +47812,7 @@
       "0000100517-26-000160",
       "0000101382-26-000165",
       "0000103379-26-000117",
+      "0000105563-26-000298",
       "0000105634-26-000117",
       "0000105634-26-000119",
       "0000105634-26-000121",
@@ -47605,6 +47836,7 @@
       "0000225322-26-000197",
       "0000225322-26-000198",
       "0000225322-26-000199",
+      "0000225997-26-000271",
       "0000310354-26-000043",
       "0000311094-26-000054",
       "0000311094-26-000056",
@@ -47687,6 +47919,7 @@
       "0000765207-26-000100",
       "0000773674-26-000024",
       "0000784977-26-000048",
+      "0000788599-26-000084",
       "0000790359-26-000059",
       "0000790359-26-000060",
       "0000795890-26-000037",
@@ -47852,6 +48085,7 @@
       "0000908186-26-000034",
       "0000908186-26-000035",
       "0000908406-26-000006",
+      "0000908406-26-000040",
       "0000908834-26-000354",
       "0000908834-26-000359",
       "0000911971-26-000051",
@@ -48842,6 +49076,8 @@
       "0001104659-26-091652",
       "0001104659-26-091653",
       "0001104659-26-091699",
+      "0001104659-26-091713",
+      "0001104659-26-091714",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -48921,6 +49157,7 @@
       "0001133228-26-011101",
       "0001133228-26-011103",
       "0001133228-26-011164",
+      "0001133228-26-011209",
       "0001133416-26-000065",
       "0001134261-26-000005",
       "0001134261-26-000007",
@@ -49115,6 +49352,8 @@
       "0001140361-26-031473",
       "0001140361-26-031542",
       "0001140361-26-031544",
+      "0001140361-26-031559",
+      "0001140361-26-031560",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001161867-26-000009",
@@ -49166,6 +49405,7 @@
       "0001178913-26-003733",
       "0001178913-26-003735",
       "0001178913-26-003885",
+      "0001178913-26-003909",
       "0001181540-26-000002",
       "0001181664-26-000004",
       "0001181672-26-000004",
@@ -50333,6 +50573,9 @@
       "0001193125-26-336925",
       "0001193125-26-336928",
       "0001193125-26-336941",
+      "0001193125-26-336946",
+      "0001193125-26-337036",
+      "0001193125-26-337040",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -50832,6 +51075,9 @@
       "0001213900-26-085915",
       "0001213900-26-085931",
       "0001213900-26-085938",
+      "0001213900-26-085950",
+      "0001213900-26-085956",
+      "0001213900-26-085957",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -51049,6 +51295,7 @@
       "0001271373-26-000009",
       "0001271848-26-000003",
       "0001273861-26-000005",
+      "0001273878-26-000046",
       "0001278521-26-000011",
       "0001282930-26-000004",
       "0001284309-26-000021",
@@ -51723,6 +51970,9 @@
       "0001510281-26-000251",
       "0001510281-26-000252",
       "0001510281-26-000253",
+      "0001510281-26-000260",
+      "0001510281-26-000261",
+      "0001510281-26-000262",
       "0001511110-26-000008",
       "0001511110-26-000010",
       "0001512785-26-000012",
@@ -53705,6 +53955,13 @@
       "0001839882-26-038770",
       "0001839882-26-038771",
       "0001839882-26-038818",
+      "0001839882-26-038821",
+      "0001839882-26-038823",
+      "0001839882-26-038824",
+      "0001839882-26-038825",
+      "0001839882-26-038830",
+      "0001839882-26-038832",
+      "0001839882-26-038833",
       "0001840706-26-000265",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -53775,6 +54032,7 @@
       "0001876526-26-000001",
       "0001877286-26-000006",
       "0001879101-26-000022",
+      "0001880990-26-000005",
       "0001882285-26-000014",
       "0001882764-26-000006",
       "0001883312-26-000002",
@@ -55035,6 +55293,15 @@
       "0001918704-26-023013",
       "0001918704-26-023014",
       "0001918704-26-023015",
+      "0001918704-26-023016",
+      "0001918704-26-023017",
+      "0001918704-26-023018",
+      "0001918704-26-023019",
+      "0001918704-26-023020",
+      "0001918704-26-023021",
+      "0001918704-26-023022",
+      "0001918704-26-023023",
+      "0001918704-26-023024",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -55346,6 +55613,8 @@
       "0001999371-26-017094",
       "0001999371-26-017119",
       "0001999371-26-017134",
+      "0001999371-26-017138",
+      "0001999371-26-017151",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
