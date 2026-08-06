@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-06T19:06:01.681652+00:00",
+  "generatedAt": "2026-08-06T20:04:57.486591+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 2288,
+  "count": 2302,
   "trades": [
     {
       "ticker": "SILC",
@@ -31,6 +31,26 @@
       "type": "Purchase",
       "shares": 4834.0,
       "pricePerShare": 12.35,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "LODE",
+      "issuerName": "Comstock Inc.",
+      "insiderName": "DEGASPERIS CORRADO",
+      "title": "Director, CEO",
+      "type": "Purchase",
+      "shares": 7250.0,
+      "pricePerShare": 3.0416,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "BHRB",
+      "issuerName": "Burke & Herbert Financial Services Corp.",
+      "insiderName": "McLaughlin Shawn Patrick",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 73.25,
       "transactionDate": "2026-08-06"
     },
     {
@@ -811,6 +831,86 @@
       "type": "Sale",
       "shares": 8000.0,
       "pricePerShare": 225.0,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "YSS",
+      "issuerName": "York Space Systems Inc.",
+      "insiderName": "BlackRock Portfolio Management LLC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 116162.0,
+      "pricePerShare": 13.49,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "YSS",
+      "issuerName": "York Space Systems Inc.",
+      "insiderName": "BlackRock Portfolio Management LLC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 11784.0,
+      "pricePerShare": 15.28,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "GD",
+      "issuerName": "GENERAL DYNAMICS CORP",
+      "insiderName": "Brady Christopher J",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 6320.0,
+      "pricePerShare": 383.32,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "LKFN",
+      "issuerName": "LAKELAND FINANCIAL CORP",
+      "insiderName": "Robinson-Gay Donald",
+      "title": "Senior Vice President",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 63.0,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "WHD",
+      "issuerName": "Cactus, Inc.",
+      "insiderName": "ODONNELL JOHN A",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 10000.0,
+      "pricePerShare": 66.1306,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "WHD",
+      "issuerName": "Cactus, Inc.",
+      "insiderName": "MARSH WILLIAM D",
+      "title": "GC, EVP and Secretary",
+      "type": "Sale",
+      "shares": 7178.0,
+      "pricePerShare": 66.3151,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "SONY",
+      "issuerName": "Sony Group Corp",
+      "insiderName": "Stringer Robert Adrian",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 445000.0,
+      "pricePerShare": 22.49,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "SONY",
+      "issuerName": "Sony Group Corp",
+      "insiderName": "Stringer Robert Adrian",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 100547.0,
+      "pricePerShare": 22.49,
       "transactionDate": "2026-08-05"
     },
     {
@@ -2511,6 +2611,46 @@
       "type": "Sale",
       "shares": 1500.0,
       "pricePerShare": 144.78,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "NEO",
+      "issuerName": "NEOGENOMICS INC",
+      "insiderName": "Aunan Greg D",
+      "title": "Chief Accounting Officer",
+      "type": "Sale",
+      "shares": 20000.0,
+      "pricePerShare": 16.07,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "YSS",
+      "issuerName": "York Space Systems Inc.",
+      "insiderName": "BlackRock Portfolio Management LLC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 77743.0,
+      "pricePerShare": 15.02,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "YSS",
+      "issuerName": "York Space Systems Inc.",
+      "insiderName": "BlackRock Portfolio Management LLC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 456310.0,
+      "pricePerShare": 15.58,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "CBSH",
+      "issuerName": "COMMERCE BANCSHARES INC /MO/",
+      "insiderName": "Roller David L.",
+      "title": "Senior Vice President",
+      "type": "Sale",
+      "shares": 830.0,
+      "pricePerShare": 60.2766,
       "transactionDate": "2026-08-04"
     },
     {
@@ -22925,6 +23065,46 @@
         }
       ]
     },
+    "LODE": {
+      "issuerName": "Comstock Inc.",
+      "trades": [
+        {
+          "ticker": "LODE",
+          "issuerName": "Comstock Inc.",
+          "insiderName": "DEGASPERIS CORRADO",
+          "title": "Director, CEO",
+          "type": "Purchase",
+          "shares": 7250.0,
+          "pricePerShare": 3.0416,
+          "transactionDate": "2026-08-06"
+        }
+      ]
+    },
+    "BHRB": {
+      "issuerName": "Burke & Herbert Financial Services Corp.",
+      "trades": [
+        {
+          "ticker": "BHRB",
+          "issuerName": "Burke & Herbert Financial Services Corp.",
+          "insiderName": "McLaughlin Shawn Patrick",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 73.25,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "BHRB",
+          "issuerName": "Burke & Herbert Financial Services Corp.",
+          "insiderName": "WILSON DAVID",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 100.0,
+          "pricePerShare": 73.68,
+          "transactionDate": "2026-07-31"
+        }
+      ]
+    },
     "PKG": {
       "issuerName": "PACKAGING CORP OF AMERICA",
       "trades": [
@@ -25845,6 +26025,271 @@
         }
       ]
     },
+    "YSS": {
+      "issuerName": "York Space Systems Inc.",
+      "trades": [
+        {
+          "ticker": "YSS",
+          "issuerName": "York Space Systems Inc.",
+          "insiderName": "BlackRock Portfolio Management LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 116162.0,
+          "pricePerShare": 13.49,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "YSS",
+          "issuerName": "York Space Systems Inc.",
+          "insiderName": "BlackRock Portfolio Management LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 11784.0,
+          "pricePerShare": 15.28,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "YSS",
+          "issuerName": "York Space Systems Inc.",
+          "insiderName": "BlackRock Portfolio Management LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 77743.0,
+          "pricePerShare": 15.02,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "YSS",
+          "issuerName": "York Space Systems Inc.",
+          "insiderName": "BlackRock Portfolio Management LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 456310.0,
+          "pricePerShare": 15.58,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "YSS",
+          "issuerName": "York Space Systems Inc.",
+          "insiderName": "BlackRock Portfolio Management LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 140823.0,
+          "pricePerShare": 15.18,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "YSS",
+          "issuerName": "York Space Systems Inc.",
+          "insiderName": "BlackRock Portfolio Management LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 63390.0,
+          "pricePerShare": 15.31,
+          "transactionDate": "2026-07-29"
+        }
+      ]
+    },
+    "GD": {
+      "issuerName": "GENERAL DYNAMICS CORP",
+      "trades": [
+        {
+          "ticker": "GD",
+          "issuerName": "GENERAL DYNAMICS CORP",
+          "insiderName": "Brady Christopher J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6320.0,
+          "pricePerShare": 383.32,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "GD",
+          "issuerName": "GENERAL DYNAMICS CORP",
+          "insiderName": "NOVAKOVIC PHEBE N",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5673.0,
+          "pricePerShare": 381.17,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "GD",
+          "issuerName": "GENERAL DYNAMICS CORP",
+          "insiderName": "NOVAKOVIC PHEBE N",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 22707.0,
+          "pricePerShare": 382.165,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "GD",
+          "issuerName": "GENERAL DYNAMICS CORP",
+          "insiderName": "NOVAKOVIC PHEBE N",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15917.0,
+          "pricePerShare": 383.091,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "GD",
+          "issuerName": "GENERAL DYNAMICS CORP",
+          "insiderName": "NOVAKOVIC PHEBE N",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7271.0,
+          "pricePerShare": 383.852,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "GD",
+          "issuerName": "GENERAL DYNAMICS CORP",
+          "insiderName": "Gilliland Marguerite Amy",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 16970.0,
+          "pricePerShare": 377.442,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "GD",
+          "issuerName": "GENERAL DYNAMICS CORP",
+          "insiderName": "Gilliland Marguerite Amy",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 26210.0,
+          "pricePerShare": 378.423,
+          "transactionDate": "2026-07-31"
+        }
+      ]
+    },
+    "LKFN": {
+      "issuerName": "LAKELAND FINANCIAL CORP",
+      "trades": [
+        {
+          "ticker": "LKFN",
+          "issuerName": "LAKELAND FINANCIAL CORP",
+          "insiderName": "Robinson-Gay Donald",
+          "title": "Senior Vice President",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 63.0,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "WHD": {
+      "issuerName": "Cactus, Inc.",
+      "trades": [
+        {
+          "ticker": "WHD",
+          "issuerName": "Cactus, Inc.",
+          "insiderName": "ODONNELL JOHN A",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 66.1306,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "WHD",
+          "issuerName": "Cactus, Inc.",
+          "insiderName": "MARSH WILLIAM D",
+          "title": "GC, EVP and Secretary",
+          "type": "Sale",
+          "shares": 7178.0,
+          "pricePerShare": 66.3151,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "WHD",
+          "issuerName": "Cactus, Inc.",
+          "insiderName": "Bender Joel",
+          "title": "Director, President, 10% Owner",
+          "type": "Sale",
+          "shares": 86700.0,
+          "pricePerShare": 57.618,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "WHD",
+          "issuerName": "Cactus, Inc.",
+          "insiderName": "Bender Scott",
+          "title": "Director, Chairman and CEO, 10% Owner",
+          "type": "Sale",
+          "shares": 86700.0,
+          "pricePerShare": 57.618,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "WHD",
+          "issuerName": "Cactus, Inc.",
+          "insiderName": "Bender Scott",
+          "title": "Director, Chairman and CEO, 10% Owner",
+          "type": "Sale",
+          "shares": 13300.0,
+          "pricePerShare": 55.067,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "WHD",
+          "issuerName": "Cactus, Inc.",
+          "insiderName": "Bender Joel",
+          "title": "Director, President, 10% Owner",
+          "type": "Sale",
+          "shares": 13300.0,
+          "pricePerShare": 55.067,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
+    "SONY": {
+      "issuerName": "Sony Group Corp",
+      "trades": [
+        {
+          "ticker": "SONY",
+          "issuerName": "Sony Group Corp",
+          "insiderName": "Stringer Robert Adrian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 445000.0,
+          "pricePerShare": 22.49,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "SONY",
+          "issuerName": "Sony Group Corp",
+          "insiderName": "Stringer Robert Adrian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100547.0,
+          "pricePerShare": 22.49,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "SONY",
+          "issuerName": "Sony Group Corp",
+          "insiderName": "Kodera Tsuyoshi",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 17100.0,
+          "pricePerShare": 22.72,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "SONY",
+          "issuerName": "Sony Group Corp",
+          "insiderName": "Ahuja Ravi",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15580.0,
+          "pricePerShare": 22.71,
+          "transactionDate": "2026-08-04"
+        }
+      ]
+    },
     "SMBK": {
       "issuerName": "SMARTFINANCIAL INC.",
       "trades": [
@@ -27551,31 +27996,6 @@
           "type": "Sale",
           "shares": 2413.0,
           "pricePerShare": 3.44,
-          "transactionDate": "2026-08-04"
-        }
-      ]
-    },
-    "SONY": {
-      "issuerName": "Sony Group Corp",
-      "trades": [
-        {
-          "ticker": "SONY",
-          "issuerName": "Sony Group Corp",
-          "insiderName": "Kodera Tsuyoshi",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 17100.0,
-          "pricePerShare": 22.72,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "SONY",
-          "issuerName": "Sony Group Corp",
-          "insiderName": "Ahuja Ravi",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15580.0,
-          "pricePerShare": 22.71,
           "transactionDate": "2026-08-04"
         }
       ]
@@ -29547,6 +29967,56 @@
           "shares": 1500.0,
           "pricePerShare": 144.78,
           "transactionDate": "2026-08-04"
+        }
+      ]
+    },
+    "NEO": {
+      "issuerName": "NEOGENOMICS INC",
+      "trades": [
+        {
+          "ticker": "NEO",
+          "issuerName": "NEOGENOMICS INC",
+          "insiderName": "Aunan Greg D",
+          "title": "Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 16.07,
+          "transactionDate": "2026-08-04"
+        }
+      ]
+    },
+    "CBSH": {
+      "issuerName": "COMMERCE BANCSHARES INC /MO/",
+      "trades": [
+        {
+          "ticker": "CBSH",
+          "issuerName": "COMMERCE BANCSHARES INC /MO/",
+          "insiderName": "Roller David L.",
+          "title": "Senior Vice President",
+          "type": "Sale",
+          "shares": 830.0,
+          "pricePerShare": 60.2766,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "CBSH",
+          "issuerName": "COMMERCE BANCSHARES INC /MO/",
+          "insiderName": "Kemper John W",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 5830.0,
+          "pricePerShare": 60.5815,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "CBSH",
+          "issuerName": "COMMERCE BANCSHARES INC /MO/",
+          "insiderName": "KIM CHARLES G",
+          "title": "Exec. Vice President and CFO",
+          "type": "Sale",
+          "shares": 19771.0,
+          "pricePerShare": 59.179,
+          "transactionDate": "2026-07-27"
         }
       ]
     },
@@ -31652,71 +32122,6 @@
           "shares": 1001.0,
           "pricePerShare": 274.2098,
           "transactionDate": "2026-07-21"
-        }
-      ]
-    },
-    "GD": {
-      "issuerName": "GENERAL DYNAMICS CORP",
-      "trades": [
-        {
-          "ticker": "GD",
-          "issuerName": "GENERAL DYNAMICS CORP",
-          "insiderName": "NOVAKOVIC PHEBE N",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5673.0,
-          "pricePerShare": 381.17,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "GD",
-          "issuerName": "GENERAL DYNAMICS CORP",
-          "insiderName": "NOVAKOVIC PHEBE N",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 22707.0,
-          "pricePerShare": 382.165,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "GD",
-          "issuerName": "GENERAL DYNAMICS CORP",
-          "insiderName": "NOVAKOVIC PHEBE N",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15917.0,
-          "pricePerShare": 383.091,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "GD",
-          "issuerName": "GENERAL DYNAMICS CORP",
-          "insiderName": "NOVAKOVIC PHEBE N",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7271.0,
-          "pricePerShare": 383.852,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "GD",
-          "issuerName": "GENERAL DYNAMICS CORP",
-          "insiderName": "Gilliland Marguerite Amy",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 16970.0,
-          "pricePerShare": 377.442,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "GD",
-          "issuerName": "GENERAL DYNAMICS CORP",
-          "insiderName": "Gilliland Marguerite Amy",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 26210.0,
-          "pricePerShare": 378.423,
-          "transactionDate": "2026-07-31"
         }
       ]
     },
@@ -38240,21 +38645,6 @@
         }
       ]
     },
-    "BHRB": {
-      "issuerName": "Burke & Herbert Financial Services Corp.",
-      "trades": [
-        {
-          "ticker": "BHRB",
-          "issuerName": "Burke & Herbert Financial Services Corp.",
-          "insiderName": "WILSON DAVID",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 100.0,
-          "pricePerShare": 73.68,
-          "transactionDate": "2026-07-31"
-        }
-      ]
-    },
     "RS": {
       "issuerName": "RELIANCE, INC.",
       "trades": [
@@ -39450,31 +39840,6 @@
         }
       ]
     },
-    "YSS": {
-      "issuerName": "York Space Systems Inc.",
-      "trades": [
-        {
-          "ticker": "YSS",
-          "issuerName": "York Space Systems Inc.",
-          "insiderName": "BlackRock Portfolio Management LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 140823.0,
-          "pricePerShare": 15.18,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "YSS",
-          "issuerName": "York Space Systems Inc.",
-          "insiderName": "BlackRock Portfolio Management LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 63390.0,
-          "pricePerShare": 15.31,
-          "transactionDate": "2026-07-29"
-        }
-      ]
-    },
     "ACAD": {
       "issuerName": "ACADIA PHARMACEUTICALS INC",
       "trades": [
@@ -39722,51 +40087,6 @@
           "shares": 12360.0,
           "pricePerShare": 7.98,
           "transactionDate": "2026-07-30"
-        }
-      ]
-    },
-    "WHD": {
-      "issuerName": "Cactus, Inc.",
-      "trades": [
-        {
-          "ticker": "WHD",
-          "issuerName": "Cactus, Inc.",
-          "insiderName": "Bender Joel",
-          "title": "Director, President, 10% Owner",
-          "type": "Sale",
-          "shares": 86700.0,
-          "pricePerShare": 57.618,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "WHD",
-          "issuerName": "Cactus, Inc.",
-          "insiderName": "Bender Scott",
-          "title": "Director, Chairman and CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 86700.0,
-          "pricePerShare": 57.618,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "WHD",
-          "issuerName": "Cactus, Inc.",
-          "insiderName": "Bender Scott",
-          "title": "Director, Chairman and CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 13300.0,
-          "pricePerShare": 55.067,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "WHD",
-          "issuerName": "Cactus, Inc.",
-          "insiderName": "Bender Joel",
-          "title": "Director, President, 10% Owner",
-          "type": "Sale",
-          "shares": 13300.0,
-          "pricePerShare": 55.067,
-          "transactionDate": "2026-07-27"
         }
       ]
     },
@@ -40997,31 +41317,6 @@
           "shares": 1300.0,
           "pricePerShare": 33.68,
           "transactionDate": "2026-07-29"
-        }
-      ]
-    },
-    "CBSH": {
-      "issuerName": "COMMERCE BANCSHARES INC /MO/",
-      "trades": [
-        {
-          "ticker": "CBSH",
-          "issuerName": "COMMERCE BANCSHARES INC /MO/",
-          "insiderName": "Kemper John W",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 5830.0,
-          "pricePerShare": 60.5815,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "CBSH",
-          "issuerName": "COMMERCE BANCSHARES INC /MO/",
-          "insiderName": "KIM CHARLES G",
-          "title": "Exec. Vice President and CFO",
-          "type": "Sale",
-          "shares": 19771.0,
-          "pricePerShare": 59.179,
-          "transactionDate": "2026-07-27"
         }
       ]
     },
@@ -48244,6 +48539,7 @@
       "0000021344-26-000158",
       "0000022356-26-000181",
       "0000022356-26-000185",
+      "0000022356-26-000192",
       "0000026058-26-000030",
       "0000029915-26-000066",
       "0000029915-26-000068",
@@ -48516,6 +48812,7 @@
       "0000821026-26-000124",
       "0000821189-26-000159",
       "0000826675-26-000084",
+      "0000826734-26-000076",
       "0000827060-26-000029",
       "0000827060-26-000031",
       "0000827060-26-000033",
@@ -48540,6 +48837,7 @@
       "0000857490-26-000485",
       "0000862084-26-000116",
       "0000874716-26-000117",
+      "0000881453-26-000084",
       "0000884546-26-000386",
       "0000884546-26-000388",
       "0000884546-26-000390",
@@ -48729,6 +49027,7 @@
       "0000929638-26-002682",
       "0000929638-26-002852",
       "0000929638-26-002862",
+      "0000929638-26-002906",
       "0000930413-26-002107",
       "0000930413-26-002108",
       "0000930413-26-002187",
@@ -49191,6 +49490,9 @@
       "0000950103-26-011997",
       "0000950103-26-011998",
       "0000950103-26-012000",
+      "0000950103-26-012009",
+      "0000950103-26-012010",
+      "0000950103-26-012012",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -49694,6 +49996,8 @@
       "0001104659-26-091818",
       "0001104659-26-091902",
       "0001104659-26-091915",
+      "0001104659-26-091948",
+      "0001104659-26-091968",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -50043,6 +50347,8 @@
       "0001186865-26-000004",
       "0001188203-26-000007",
       "0001189242-26-000037",
+      "0001189410-26-000008",
+      "0001189422-26-000031",
       "0001192890-26-000006",
       "0001193004-26-000004",
       "0001193074-26-000010",
@@ -51224,6 +51530,13 @@
       "0001193125-26-337723",
       "0001193125-26-337726",
       "0001193125-26-337734",
+      "0001193125-26-337777",
+      "0001193125-26-337780",
+      "0001193125-26-337792",
+      "0001193125-26-337853",
+      "0001193125-26-337875",
+      "0001193125-26-337881",
+      "0001193125-26-337909",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -51736,6 +52049,8 @@
       "0001213900-26-086056",
       "0001213900-26-086078",
       "0001213900-26-086081",
+      "0001213900-26-086110",
+      "0001213900-26-086116",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -51905,6 +52220,9 @@
       "0001225208-26-006972",
       "0001225208-26-006973",
       "0001225208-26-007004",
+      "0001225208-26-007005",
+      "0001225208-26-007006",
+      "0001225208-26-007007",
       "0001225481-26-000006",
       "0001227384-26-000017",
       "0001227654-26-000042",
@@ -52040,6 +52358,7 @@
       "0001375323-26-000010",
       "0001375800-26-000005",
       "0001378072-26-000002",
+      "0001380659-26-000014",
       "0001381197-26-000140",
       "0001385325-26-000002",
       "0001392116-26-000010",
@@ -52272,6 +52591,11 @@
       "0001437749-26-026156",
       "0001437749-26-026158",
       "0001437749-26-026192",
+      "0001437749-26-026233",
+      "0001437749-26-026236",
+      "0001437749-26-026239",
+      "0001437749-26-026242",
+      "0001437749-26-026251",
       "0001438584-26-000002",
       "0001444540-26-000002",
       "0001445546-26-005229",
@@ -52600,6 +52924,7 @@
       "0001493152-26-036231",
       "0001493152-26-036280",
       "0001493152-26-036282",
+      "0001493152-26-036329",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -52670,6 +52995,7 @@
       "0001520262-26-000110",
       "0001520262-26-000111",
       "0001522176-26-000003",
+      "0001525177-26-000010",
       "0001525321-26-000008",
       "0001525358-26-000024",
       "0001526378-26-000037",
@@ -52722,6 +53048,7 @@
       "0001530255-26-000010",
       "0001530819-26-000012",
       "0001531352-26-000009",
+      "0001532431-26-000014",
       "0001533568-26-000012",
       "0001534701-26-000026",
       "0001536588-26-000021",
@@ -53207,6 +53534,10 @@
       "0001628280-26-053939",
       "0001628280-26-053943",
       "0001628280-26-054191",
+      "0001628280-26-054213",
+      "0001628280-26-054214",
+      "0001628280-26-054222",
+      "0001628280-26-054226",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -53228,6 +53559,7 @@
       "0001641294-26-000008",
       "0001642415-26-000010",
       "0001644373-26-000004",
+      "0001646370-26-000002",
       "0001646382-26-000014",
       "0001646382-26-000017",
       "0001646649-26-000020",
@@ -53435,6 +53767,7 @@
       "0001753926-26-001286",
       "0001755172-26-000002",
       "0001755832-26-000008",
+      "0001756274-26-000010",
       "0001757376-26-000009",
       "0001759234-26-000008",
       "0001760265-26-000003",
@@ -54696,6 +55029,11 @@
       "0001839882-26-038930",
       "0001839882-26-038931",
       "0001839882-26-038932",
+      "0001839882-26-038936",
+      "0001839882-26-038937",
+      "0001839882-26-038941",
+      "0001839882-26-038942",
+      "0001839882-26-038943",
       "0001840706-26-000265",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -54793,6 +55131,7 @@
       "0001903115-26-000003",
       "0001903739-26-000013",
       "0001904829-26-000008",
+      "0001904915-26-000010",
       "0001905272-26-000012",
       "0001908561-26-000012",
       "0001909068-26-000018",
@@ -56068,6 +56407,11 @@
       "0001918704-26-023079",
       "0001918704-26-023080",
       "0001918704-26-023081",
+      "0001918704-26-023083",
+      "0001918704-26-023086",
+      "0001918704-26-023087",
+      "0001918704-26-023088",
+      "0001918704-26-023089",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -56096,6 +56440,7 @@
       "0001951665-26-000020",
       "0001957684-26-000011",
       "0001959033-26-000014",
+      "0001959402-26-000004",
       "0001960181-26-000002",
       "0001961099-26-000008",
       "0001961104-26-000012",
@@ -56104,6 +56449,7 @@
       "0001964281-26-000002",
       "0001964281-26-000004",
       "0001964417-26-000011",
+      "0001964493-26-000008",
       "0001965040-26-000103",
       "0001965585-26-000006",
       "0001966942-26-000004",
@@ -56391,6 +56737,7 @@
       "0001999371-26-017183",
       "0001999371-26-017186",
       "0001999371-26-017198",
+      "0001999371-26-017234",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
@@ -56463,6 +56810,7 @@
       "0002040815-26-000018",
       "0002041211-26-000014",
       "0002041625-26-000004",
+      "0002042934-26-000008",
       "0002043520-26-000006",
       "0002044207-26-000015",
       "0002044350-26-000015",
@@ -56472,6 +56820,7 @@
       "0002050174-26-000002",
       "0002051008-26-000002",
       "0002052113-26-000768",
+      "0002052113-26-000809",
       "0002052319-26-000008",
       "0002052896-26-000001",
       "0002053817-26-000003",
@@ -56496,6 +56845,8 @@
       "0002062781-26-000018",
       "0002063236-26-000012",
       "0002066890-26-000012",
+      "0002069860-26-000010",
+      "0002070264-26-000008",
       "0002070849-26-000044",
       "0002070849-26-000052",
       "0002071761-26-000009",
