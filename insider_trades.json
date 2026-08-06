@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-06T08:05:14.520814+00:00",
+  "generatedAt": "2026-08-06T12:03:16.850881+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 2240,
+  "count": 2246,
   "trades": [
     {
       "ticker": "PKG",
@@ -581,6 +581,36 @@
       "type": "Sale",
       "shares": 9002.0,
       "pricePerShare": 1.7,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "KARO",
+      "issuerName": "Karooooo Ltd.",
+      "insiderName": "Calisto Isaias Jose",
+      "title": "Director, CEO&Executive Chairman, 10% Owner",
+      "type": "Sale",
+      "shares": 33833.0,
+      "pricePerShare": 66.1396,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "AVR",
+      "issuerName": "Anteris Technologies Global Corp.",
+      "insiderName": "L1 Capital Pty Ltd",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 14581.0,
+      "pricePerShare": 8.23,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "TM",
+      "issuerName": "TOYOTA MOTOR CORP/",
+      "insiderName": "Kon Kenta",
+      "title": "Director, President",
+      "type": "Purchase",
+      "shares": 85000.0,
+      "pricePerShare": 18.41,
       "transactionDate": "2026-08-05"
     },
     {
@@ -2041,6 +2071,36 @@
       "type": "Sale",
       "shares": 478.0,
       "pricePerShare": 274.22,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "KARO",
+      "issuerName": "Karooooo Ltd.",
+      "insiderName": "Calisto Isaias Jose",
+      "title": "Director, CEO&Executive Chairman, 10% Owner",
+      "type": "Sale",
+      "shares": 25594.0,
+      "pricePerShare": 64.6035,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "AVR",
+      "issuerName": "Anteris Technologies Global Corp.",
+      "insiderName": "L1 Capital Pty Ltd",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 480608.0,
+      "pricePerShare": 8.3,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "CHKP",
+      "issuerName": "CHECK POINT SOFTWARE TECHNOLOGIES LTD",
+      "insiderName": "Seddik Sherif",
+      "title": "Chief Revenue Officer",
+      "type": "Sale",
+      "shares": 10272.0,
+      "pricePerShare": 123.5889,
       "transactionDate": "2026-08-04"
     },
     {
@@ -24545,6 +24605,211 @@
         }
       ]
     },
+    "KARO": {
+      "issuerName": "Karooooo Ltd.",
+      "trades": [
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 33833.0,
+          "pricePerShare": 66.1396,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 25594.0,
+          "pricePerShare": 64.6035,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 20417.0,
+          "pricePerShare": 64.5101,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 25452.0,
+          "pricePerShare": 64.6496,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 18630.0,
+          "pricePerShare": 63.4706,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 31897.0,
+          "pricePerShare": 64.4327,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 22036.0,
+          "pricePerShare": 64.1878,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 25913.0,
+          "pricePerShare": 63.4383,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
+    "AVR": {
+      "issuerName": "Anteris Technologies Global Corp.",
+      "trades": [
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 14581.0,
+          "pricePerShare": 8.23,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 480608.0,
+          "pricePerShare": 8.3,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 475693.0,
+          "pricePerShare": 8.1,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 48711.0,
+          "pricePerShare": 8.15,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 558633.0,
+          "pricePerShare": 8.2,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 155505.0,
+          "pricePerShare": 8.04,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 208731.0,
+          "pricePerShare": 8.09,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 232817.0,
+          "pricePerShare": 8.19,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 23000.0,
+          "pricePerShare": 8.13,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 5000000.0,
+          "pricePerShare": 5.75,
+          "transactionDate": "2026-01-22"
+        }
+      ]
+    },
+    "TM": {
+      "issuerName": "TOYOTA MOTOR CORP/",
+      "trades": [
+        {
+          "ticker": "TM",
+          "issuerName": "TOYOTA MOTOR CORP/",
+          "insiderName": "Kon Kenta",
+          "title": "Director, President",
+          "type": "Purchase",
+          "shares": 85000.0,
+          "pricePerShare": 18.41,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
     "SMBK": {
       "issuerName": "SMARTFINANCIAL INC.",
       "trades": [
@@ -27805,6 +28070,21 @@
         }
       ]
     },
+    "CHKP": {
+      "issuerName": "CHECK POINT SOFTWARE TECHNOLOGIES LTD",
+      "trades": [
+        {
+          "ticker": "CHKP",
+          "issuerName": "CHECK POINT SOFTWARE TECHNOLOGIES LTD",
+          "insiderName": "Seddik Sherif",
+          "title": "Chief Revenue Officer",
+          "type": "Sale",
+          "shares": 10272.0,
+          "pricePerShare": 123.5889,
+          "transactionDate": "2026-08-04"
+        }
+      ]
+    },
     "GOOD": {
       "issuerName": "GLADSTONE COMMERCIAL CORP",
       "trades": [
@@ -28755,91 +29035,6 @@
         }
       ]
     },
-    "AVR": {
-      "issuerName": "Anteris Technologies Global Corp.",
-      "trades": [
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 475693.0,
-          "pricePerShare": 8.1,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 48711.0,
-          "pricePerShare": 8.15,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 558633.0,
-          "pricePerShare": 8.2,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 155505.0,
-          "pricePerShare": 8.04,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 208731.0,
-          "pricePerShare": 8.09,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 232817.0,
-          "pricePerShare": 8.19,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 23000.0,
-          "pricePerShare": 8.13,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 5000000.0,
-          "pricePerShare": 5.75,
-          "transactionDate": "2026-01-22"
-        }
-      ]
-    },
     "PGY": {
       "issuerName": "Pagaya Technologies Ltd.",
       "trades": [
@@ -28862,71 +29057,6 @@
           "shares": 21289.0,
           "pricePerShare": 22.0,
           "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "KARO": {
-      "issuerName": "Karooooo Ltd.",
-      "trades": [
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 20417.0,
-          "pricePerShare": 64.5101,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 25452.0,
-          "pricePerShare": 64.6496,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 18630.0,
-          "pricePerShare": 63.4706,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 31897.0,
-          "pricePerShare": 64.4327,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 22036.0,
-          "pricePerShare": 64.1878,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 25913.0,
-          "pricePerShare": 63.4383,
-          "transactionDate": "2026-07-27"
         }
       ]
     },
@@ -47425,6 +47555,14 @@
       "0000719955-26-000190",
       "0000719955-26-000191",
       "0000719955-26-000192",
+      "0000721371-26-000027",
+      "0000721371-26-000028",
+      "0000721371-26-000029",
+      "0000721371-26-000030",
+      "0000721371-26-000031",
+      "0000721371-26-000032",
+      "0000721371-26-000033",
+      "0000721371-26-000034",
       "0000724910-26-000004",
       "0000726854-26-000154",
       "0000726854-26-000155",
@@ -47717,6 +47855,7 @@
       "0000947871-26-000734",
       "0000947871-26-000744",
       "0000947871-26-000745",
+      "0000947871-26-000750",
       "0000950103-26-010819",
       "0000950103-26-010823",
       "0000950103-26-010824",
@@ -48602,6 +48741,9 @@
       "0001104659-26-091451",
       "0001104659-26-091452",
       "0001104659-26-091457",
+      "0001104659-26-091556",
+      "0001104659-26-091652",
+      "0001104659-26-091653",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -48923,6 +49065,7 @@
       "0001178913-26-003731",
       "0001178913-26-003733",
       "0001178913-26-003735",
+      "0001178913-26-003885",
       "0001181540-26-000002",
       "0001181664-26-000004",
       "0001181672-26-000004",
@@ -50078,6 +50221,10 @@
       "0001193125-26-336128",
       "0001193125-26-336134",
       "0001193125-26-336135",
+      "0001193125-26-336684",
+      "0001193125-26-336687",
+      "0001193125-26-336792",
+      "0001193125-26-336798",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -50090,6 +50237,7 @@
       "0001204816-26-000026",
       "0001204816-26-000028",
       "0001205069-26-000005",
+      "0001206264-26-000101",
       "0001206774-26-000365",
       "0001206774-26-000416",
       "0001207433-26-000018",
@@ -50564,6 +50712,16 @@
       "0001213900-26-085857",
       "0001213900-26-085872",
       "0001213900-26-085874",
+      "0001213900-26-085894",
+      "0001213900-26-085895",
+      "0001213900-26-085896",
+      "0001213900-26-085897",
+      "0001213900-26-085898",
+      "0001213900-26-085899",
+      "0001213900-26-085900",
+      "0001213900-26-085901",
+      "0001213900-26-085902",
+      "0001213900-26-085915",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -51984,6 +52142,7 @@
       "0001628280-26-053753",
       "0001628280-26-053754",
       "0001628280-26-053755",
+      "0001628280-26-053873",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -52362,6 +52521,7 @@
       "0001817646-26-000014",
       "0001817646-26-000015",
       "0001817646-26-000016",
+      "0001817646-26-000017",
       "0001818383-26-000190",
       "0001818383-26-000191",
       "0001818383-26-000193",
@@ -54728,6 +54888,21 @@
       "0001918704-26-022974",
       "0001918704-26-022975",
       "0001918704-26-022976",
+      "0001918704-26-022999",
+      "0001918704-26-023000",
+      "0001918704-26-023001",
+      "0001918704-26-023002",
+      "0001918704-26-023003",
+      "0001918704-26-023004",
+      "0001918704-26-023005",
+      "0001918704-26-023006",
+      "0001918704-26-023007",
+      "0001918704-26-023008",
+      "0001918704-26-023009",
+      "0001918704-26-023010",
+      "0001918704-26-023011",
+      "0001918704-26-023012",
+      "0001918704-26-023013",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -55037,6 +55212,7 @@
       "0001999371-26-017076",
       "0001999371-26-017093",
       "0001999371-26-017094",
+      "0001999371-26-017119",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
