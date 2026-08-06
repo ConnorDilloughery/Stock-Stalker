@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-06T12:03:16.850881+00:00",
+  "generatedAt": "2026-08-06T13:01:04.631317+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 2246,
+  "count": 2250,
   "trades": [
     {
       "ticker": "PKG",
@@ -611,6 +611,16 @@
       "type": "Purchase",
       "shares": 85000.0,
       "pricePerShare": 18.41,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "BBBY",
+      "issuerName": "BED BATH & BEYOND, INC.",
+      "insiderName": "LEMONIS MARCUS",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 43382.0,
+      "pricePerShare": 4.67,
       "transactionDate": "2026-08-05"
     },
     {
@@ -2101,6 +2111,26 @@
       "type": "Sale",
       "shares": 10272.0,
       "pricePerShare": 123.5889,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "LH",
+      "issuerName": "LABCORP HOLDINGS INC.",
+      "insiderName": "Summy Amy B.",
+      "title": "EVP, Chief Marketing Officer",
+      "type": "Sale",
+      "shares": 924.0,
+      "pricePerShare": 306.74,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "NEOG",
+      "issuerName": "NEOGEN CORP",
+      "insiderName": "Nassif Mikheal",
+      "title": "Director, CEO",
+      "type": "Purchase",
+      "shares": 370.0,
+      "pricePerShare": 11.81,
       "transactionDate": "2026-08-04"
     },
     {
@@ -6171,6 +6201,16 @@
       "type": "Sale",
       "shares": 16.0,
       "pricePerShare": 97.46,
+      "transactionDate": "2026-08-03"
+    },
+    {
+      "ticker": "EXLS",
+      "issuerName": "ExlService Holdings, Inc.",
+      "insiderName": "Bhalla Vikas",
+      "title": "President of EXL",
+      "type": "Sale",
+      "shares": 11000.0,
+      "pricePerShare": 34.99,
       "transactionDate": "2026-08-03"
     },
     {
@@ -24810,6 +24850,21 @@
         }
       ]
     },
+    "BBBY": {
+      "issuerName": "BED BATH & BEYOND, INC.",
+      "trades": [
+        {
+          "ticker": "BBBY",
+          "issuerName": "BED BATH & BEYOND, INC.",
+          "insiderName": "LEMONIS MARCUS",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 43382.0,
+          "pricePerShare": 4.67,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
     "SMBK": {
       "issuerName": "SMARTFINANCIAL INC.",
       "trades": [
@@ -28081,6 +28136,56 @@
           "type": "Sale",
           "shares": 10272.0,
           "pricePerShare": 123.5889,
+          "transactionDate": "2026-08-04"
+        }
+      ]
+    },
+    "LH": {
+      "issuerName": "LABCORP HOLDINGS INC.",
+      "trades": [
+        {
+          "ticker": "LH",
+          "issuerName": "LABCORP HOLDINGS INC.",
+          "insiderName": "Summy Amy B.",
+          "title": "EVP, Chief Marketing Officer",
+          "type": "Sale",
+          "shares": 924.0,
+          "pricePerShare": 306.74,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "LH",
+          "issuerName": "LABCORP HOLDINGS INC.",
+          "insiderName": "Wilkinson Peter J",
+          "title": "SVP, Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 82.0,
+          "pricePerShare": 309.22,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "LH",
+          "issuerName": "LABCORP HOLDINGS INC.",
+          "insiderName": "Wilkinson Peter J",
+          "title": "SVP, Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 1338.0,
+          "pricePerShare": 309.2311,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "NEOG": {
+      "issuerName": "NEOGEN CORP",
+      "trades": [
+        {
+          "ticker": "NEOG",
+          "issuerName": "NEOGEN CORP",
+          "insiderName": "Nassif Mikheal",
+          "title": "Director, CEO",
+          "type": "Purchase",
+          "shares": 370.0,
+          "pricePerShare": 11.81,
           "transactionDate": "2026-08-04"
         }
       ]
@@ -32085,31 +32190,6 @@
         }
       ]
     },
-    "LH": {
-      "issuerName": "LABCORP HOLDINGS INC.",
-      "trades": [
-        {
-          "ticker": "LH",
-          "issuerName": "LABCORP HOLDINGS INC.",
-          "insiderName": "Wilkinson Peter J",
-          "title": "SVP, Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 82.0,
-          "pricePerShare": 309.22,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "LH",
-          "issuerName": "LABCORP HOLDINGS INC.",
-          "insiderName": "Wilkinson Peter J",
-          "title": "SVP, Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 1338.0,
-          "pricePerShare": 309.2311,
-          "transactionDate": "2026-08-03"
-        }
-      ]
-    },
     "VICR": {
       "issuerName": "VICOR CORP",
       "trades": [
@@ -35416,6 +35496,21 @@
           "type": "Sale",
           "shares": 16.0,
           "pricePerShare": 97.46,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "EXLS": {
+      "issuerName": "ExlService Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "EXLS",
+          "issuerName": "ExlService Holdings, Inc.",
+          "insiderName": "Bhalla Vikas",
+          "title": "President of EXL",
+          "type": "Sale",
+          "shares": 11000.0,
+          "pricePerShare": 34.99,
           "transactionDate": "2026-08-03"
         }
       ]
@@ -47541,6 +47636,7 @@
       "0000707179-26-000048",
       "0000708955-26-000136",
       "0000708955-26-000141",
+      "0000711377-26-000013",
       "0000712515-26-000124",
       "0000712515-26-000126",
       "0000712515-26-000128",
@@ -47787,6 +47883,7 @@
       "0000919574-26-004699",
       "0000919574-26-004743",
       "0000920148-26-000172",
+      "0000920148-26-000176",
       "0000921895-26-001848",
       "0000921895-26-001852",
       "0000921895-26-001917",
@@ -48744,6 +48841,7 @@
       "0001104659-26-091556",
       "0001104659-26-091652",
       "0001104659-26-091653",
+      "0001104659-26-091699",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -49015,6 +49113,8 @@
       "0001140361-26-031457",
       "0001140361-26-031471",
       "0001140361-26-031473",
+      "0001140361-26-031542",
+      "0001140361-26-031544",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001161867-26-000009",
@@ -50225,6 +50325,14 @@
       "0001193125-26-336687",
       "0001193125-26-336792",
       "0001193125-26-336798",
+      "0001193125-26-336853",
+      "0001193125-26-336856",
+      "0001193125-26-336866",
+      "0001193125-26-336922",
+      "0001193125-26-336923",
+      "0001193125-26-336925",
+      "0001193125-26-336928",
+      "0001193125-26-336941",
       "0001193532-26-000008",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -50722,6 +50830,8 @@
       "0001213900-26-085901",
       "0001213900-26-085902",
       "0001213900-26-085915",
+      "0001213900-26-085931",
+      "0001213900-26-085938",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -51561,6 +51671,8 @@
       "0001493152-26-036080",
       "0001493152-26-036100",
       "0001493152-26-036231",
+      "0001493152-26-036280",
+      "0001493152-26-036282",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -52143,6 +52255,22 @@
       "0001628280-26-053754",
       "0001628280-26-053755",
       "0001628280-26-053873",
+      "0001628280-26-053881",
+      "0001628280-26-053885",
+      "0001628280-26-053890",
+      "0001628280-26-053891",
+      "0001628280-26-053894",
+      "0001628280-26-053900",
+      "0001628280-26-053904",
+      "0001628280-26-053907",
+      "0001628280-26-053910",
+      "0001628280-26-053914",
+      "0001628280-26-053916",
+      "0001628280-26-053928",
+      "0001628280-26-053931",
+      "0001628280-26-053937",
+      "0001628280-26-053939",
+      "0001628280-26-053943",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -52478,6 +52606,7 @@
       "0001789317-26-000007",
       "0001789719-26-000008",
       "0001789970-26-000012",
+      "0001792236-26-000002",
       "0001792910-26-000006",
       "0001794002-26-000012",
       "0001794684-26-000014",
@@ -53575,6 +53704,7 @@
       "0001839882-26-038767",
       "0001839882-26-038770",
       "0001839882-26-038771",
+      "0001839882-26-038818",
       "0001840706-26-000265",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -54903,6 +55033,8 @@
       "0001918704-26-023011",
       "0001918704-26-023012",
       "0001918704-26-023013",
+      "0001918704-26-023014",
+      "0001918704-26-023015",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -55213,6 +55345,7 @@
       "0001999371-26-017093",
       "0001999371-26-017094",
       "0001999371-26-017119",
+      "0001999371-26-017134",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
