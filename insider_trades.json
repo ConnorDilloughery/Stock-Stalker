@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-07T19:04:50.615459+00:00",
+  "generatedAt": "2026-08-07T20:05:05.789331+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 2460,
+  "count": 2472,
   "trades": [
     {
       "ticker": "WEYS",
@@ -31,6 +31,16 @@
       "type": "Sale",
       "shares": 615.0,
       "pricePerShare": 57.61,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "ACNB",
+      "issuerName": "ACNB CORP",
+      "insiderName": "Seibel Donald Arthur Jr",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1500.0,
+      "pricePerShare": 64.35,
       "transactionDate": "2026-08-07"
     },
     {
@@ -371,6 +381,56 @@
       "type": "Sale",
       "shares": 3333.0,
       "pricePerShare": 94.02,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "HSY",
+      "issuerName": "HERSHEY CO",
+      "insiderName": "McCalman Jennifer",
+      "title": "VP, Chief Accounting Officer",
+      "type": "Sale",
+      "shares": 710.0,
+      "pricePerShare": 180.78,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "ORRF",
+      "issuerName": "ORRSTOWN FINANCIAL SERVICES INC",
+      "insiderName": "Rice Michael John",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 2530.0,
+      "pricePerShare": 43.16,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "ADTN",
+      "issuerName": "ADTRAN Holdings, Inc.",
+      "insiderName": "Santo Timothy P",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 6579.0,
+      "pricePerShare": 7.6,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "AWRE",
+      "issuerName": "AWARE INC /MA/",
+      "insiderName": "Amlani Ajay K",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 39.0,
+      "pricePerShare": 1.26,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "ATTO",
+      "issuerName": "Attovia Therapeutics, Inc.",
+      "insiderName": "Sanofi",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 300000.0,
+      "pricePerShare": 17.0,
       "transactionDate": "2026-08-06"
     },
     {
@@ -1811,6 +1871,66 @@
       "type": "Sale",
       "shares": 6500.0,
       "pricePerShare": 18.35,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "BLLN",
+      "issuerName": "BillionToOne, Inc.",
+      "insiderName": "Atay Oguzhan",
+      "title": "Director, Chairman and CEO",
+      "type": "Sale",
+      "shares": 15539.0,
+      "pricePerShare": 150.0323,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "INCY",
+      "issuerName": "INCYTE CORP",
+      "insiderName": "CAGNONI PABLO J",
+      "title": "President, Global Head of R&D",
+      "type": "Sale",
+      "shares": 10640.0,
+      "pricePerShare": 122.69,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "INCY",
+      "issuerName": "INCYTE CORP",
+      "insiderName": "Mayes Patrick A",
+      "title": "EVP & Chief Scientific Officer",
+      "type": "Sale",
+      "shares": 2207.0,
+      "pricePerShare": 123.99,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "PMN",
+      "issuerName": "ProMIS Neurosciences Inc.",
+      "insiderName": "Kaplan Johanne",
+      "title": "Chief Development Officer",
+      "type": "Purchase",
+      "shares": 2280.0,
+      "pricePerShare": 13.3,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "AWRE",
+      "issuerName": "AWARE INC /MA/",
+      "insiderName": "Amlani Ajay K",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 10030.0,
+      "pricePerShare": 1.24,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "RCKY",
+      "issuerName": "ROCKY BRANDS, INC.",
+      "insiderName": "Moore Robert Burton Jr.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 3000.0,
+      "pricePerShare": 49.73,
       "transactionDate": "2026-08-05"
     },
     {
@@ -24645,6 +24765,21 @@
         }
       ]
     },
+    "ACNB": {
+      "issuerName": "ACNB CORP",
+      "trades": [
+        {
+          "ticker": "ACNB",
+          "issuerName": "ACNB CORP",
+          "insiderName": "Seibel Donald Arthur Jr",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 64.35,
+          "transactionDate": "2026-08-07"
+        }
+      ]
+    },
     "SILC": {
       "issuerName": "SILICOM LTD.",
       "trades": [
@@ -24795,6 +24930,16 @@
           "title": "Reporting Person",
           "type": "Purchase",
           "shares": 588235.0,
+          "pricePerShare": 17.0,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "ATTO",
+          "issuerName": "Attovia Therapeutics, Inc.",
+          "insiderName": "Sanofi",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 300000.0,
           "pricePerShare": 17.0,
           "transactionDate": "2026-08-06"
         }
@@ -27672,6 +27817,366 @@
           "shares": 100.0,
           "pricePerShare": 94.28,
           "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "HSY": {
+      "issuerName": "HERSHEY CO",
+      "trades": [
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "McCalman Jennifer",
+          "title": "VP, Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 710.0,
+          "pricePerShare": 180.78,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 3100.0,
+          "pricePerShare": 183.7063,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2400.0,
+          "pricePerShare": 184.4651,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 3500.0,
+          "pricePerShare": 185.4161,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 600.0,
+          "pricePerShare": 186.2667,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 187.4625,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2660.0,
+          "pricePerShare": 181.6076,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1930.0,
+          "pricePerShare": 182.2478,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 3657.0,
+          "pricePerShare": 183.3389,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 409.0,
+          "pricePerShare": 184.5811,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1344.0,
+          "pricePerShare": 185.4464,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 83.0,
+          "pricePerShare": 175.4401,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 300.0,
+          "pricePerShare": 176.4333,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 544.0,
+          "pricePerShare": 177.398,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2258.0,
+          "pricePerShare": 178.5505,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2414.0,
+          "pricePerShare": 179.5726,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4401.0,
+          "pricePerShare": 180.1947,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 125.0,
+          "pricePerShare": 170.8714,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4084.0,
+          "pricePerShare": 171.6988,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 5791.0,
+          "pricePerShare": 172.2865,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1384.0,
+          "pricePerShare": 169.8714,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 8387.0,
+          "pricePerShare": 170.4112,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 189.0,
+          "pricePerShare": 171.1233,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 40.0,
+          "pricePerShare": 172.06,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 18.0,
+          "pricePerShare": 168.84,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1375.0,
+          "pricePerShare": 169.5897,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2703.0,
+          "pricePerShare": 170.4735,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4448.0,
+          "pricePerShare": 171.6539,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1456.0,
+          "pricePerShare": 172.1679,
+          "transactionDate": "2026-07-20"
+        }
+      ]
+    },
+    "ORRF": {
+      "issuerName": "ORRSTOWN FINANCIAL SERVICES INC",
+      "trades": [
+        {
+          "ticker": "ORRF",
+          "issuerName": "ORRSTOWN FINANCIAL SERVICES INC",
+          "insiderName": "Rice Michael John",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 2530.0,
+          "pricePerShare": 43.16,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "ORRF",
+          "issuerName": "ORRSTOWN FINANCIAL SERVICES INC",
+          "insiderName": "DOLL AMY",
+          "title": "EVP, Chief Admin. Officer",
+          "type": "Sale",
+          "shares": 3002.0,
+          "pricePerShare": 41.61,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
+    "ADTN": {
+      "issuerName": "ADTRAN Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "ADTN",
+          "issuerName": "ADTRAN Holdings, Inc.",
+          "insiderName": "Santo Timothy P",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 6579.0,
+          "pricePerShare": 7.6,
+          "transactionDate": "2026-08-06"
+        }
+      ]
+    },
+    "AWRE": {
+      "issuerName": "AWARE INC /MA/",
+      "trades": [
+        {
+          "ticker": "AWRE",
+          "issuerName": "AWARE INC /MA/",
+          "insiderName": "Amlani Ajay K",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 39.0,
+          "pricePerShare": 1.26,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "AWRE",
+          "issuerName": "AWARE INC /MA/",
+          "insiderName": "Amlani Ajay K",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 10030.0,
+          "pricePerShare": 1.24,
+          "transactionDate": "2026-08-05"
         }
       ]
     },
@@ -31022,6 +31527,396 @@
           "shares": 6500.0,
           "pricePerShare": 18.35,
           "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "BLLN": {
+      "issuerName": "BillionToOne, Inc.",
+      "trades": [
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 15539.0,
+          "pricePerShare": 150.0323,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 269.0,
+          "pricePerShare": 133.0074,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 555.0,
+          "pricePerShare": 133.8083,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 135.0,
+          "pricePerShare": 135.4241,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 6354.0,
+          "pricePerShare": 136.4246,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 9989.0,
+          "pricePerShare": 137.2456,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 2431.0,
+          "pricePerShare": 138.0892,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 267.0,
+          "pricePerShare": 139.2052,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 84.0,
+          "pricePerShare": 133.0045,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 173.0,
+          "pricePerShare": 133.8076,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 44.0,
+          "pricePerShare": 135.4122,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 1981.0,
+          "pricePerShare": 136.4246,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 3124.0,
+          "pricePerShare": 137.2453,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 762.0,
+          "pricePerShare": 138.0897,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 82.0,
+          "pricePerShare": 139.209,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 84.0,
+          "pricePerShare": 133.0096,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 173.0,
+          "pricePerShare": 133.8076,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 43.0,
+          "pricePerShare": 135.4088,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 1983.0,
+          "pricePerShare": 136.424,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 3125.0,
+          "pricePerShare": 137.2457,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 760.0,
+          "pricePerShare": 138.0901,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 82.0,
+          "pricePerShare": 139.2042,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 6250.0,
+          "pricePerShare": 137.37,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Atay Oguzhan",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 6250.0,
+          "pricePerShare": 137.37,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Johnson Nancy JoAnn",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 2133.0,
+          "pricePerShare": 126.9821,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Johnson Nancy JoAnn",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 5559.0,
+          "pricePerShare": 127.886,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Johnson Nancy JoAnn",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 5601.0,
+          "pricePerShare": 128.9551,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "BLLN",
+          "issuerName": "BillionToOne, Inc.",
+          "insiderName": "Johnson Nancy JoAnn",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 906.0,
+          "pricePerShare": 129.7787,
+          "transactionDate": "2026-07-16"
+        }
+      ]
+    },
+    "INCY": {
+      "issuerName": "INCYTE CORP",
+      "trades": [
+        {
+          "ticker": "INCY",
+          "issuerName": "INCYTE CORP",
+          "insiderName": "CAGNONI PABLO J",
+          "title": "President, Global Head of R&D",
+          "type": "Sale",
+          "shares": 10640.0,
+          "pricePerShare": 122.69,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "INCY",
+          "issuerName": "INCYTE CORP",
+          "insiderName": "Mayes Patrick A",
+          "title": "EVP & Chief Scientific Officer",
+          "type": "Sale",
+          "shares": 2207.0,
+          "pricePerShare": 123.99,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "PMN": {
+      "issuerName": "ProMIS Neurosciences Inc.",
+      "trades": [
+        {
+          "ticker": "PMN",
+          "issuerName": "ProMIS Neurosciences Inc.",
+          "insiderName": "Kaplan Johanne",
+          "title": "Chief Development Officer",
+          "type": "Purchase",
+          "shares": 2280.0,
+          "pricePerShare": 13.3,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "RCKY": {
+      "issuerName": "ROCKY BRANDS, INC.",
+      "trades": [
+        {
+          "ticker": "RCKY",
+          "issuerName": "ROCKY BRANDS, INC.",
+          "insiderName": "Moore Robert Burton Jr.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 49.73,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "RCKY",
+          "issuerName": "ROCKY BRANDS, INC.",
+          "insiderName": "Winbigler Tracie A.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 47.4456,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "RCKY",
+          "issuerName": "ROCKY BRANDS, INC.",
+          "insiderName": "Jordan William L",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 2011.0,
+          "pricePerShare": 48.48,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "RCKY",
+          "issuerName": "ROCKY BRANDS, INC.",
+          "insiderName": "Haning G Courtney",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 49.06,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "RCKY",
+          "issuerName": "ROCKY BRANDS, INC.",
+          "insiderName": "Smith Dwight Eric",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 500.0,
+          "pricePerShare": 48.63,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "RCKY",
+          "issuerName": "ROCKY BRANDS, INC.",
+          "insiderName": "LOVELAND CURTIS A",
+          "title": "Director, Assistant Secretary",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 49.62,
+          "transactionDate": "2026-07-30"
         }
       ]
     },
@@ -39900,281 +40795,6 @@
         }
       ]
     },
-    "BLLN": {
-      "issuerName": "BillionToOne, Inc.",
-      "trades": [
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 269.0,
-          "pricePerShare": 133.0074,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 555.0,
-          "pricePerShare": 133.8083,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 135.0,
-          "pricePerShare": 135.4241,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 6354.0,
-          "pricePerShare": 136.4246,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 9989.0,
-          "pricePerShare": 137.2456,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 2431.0,
-          "pricePerShare": 138.0892,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 267.0,
-          "pricePerShare": 139.2052,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 84.0,
-          "pricePerShare": 133.0045,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 173.0,
-          "pricePerShare": 133.8076,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 44.0,
-          "pricePerShare": 135.4122,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 1981.0,
-          "pricePerShare": 136.4246,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 3124.0,
-          "pricePerShare": 137.2453,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 762.0,
-          "pricePerShare": 138.0897,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 82.0,
-          "pricePerShare": 139.209,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 84.0,
-          "pricePerShare": 133.0096,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 173.0,
-          "pricePerShare": 133.8076,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 43.0,
-          "pricePerShare": 135.4088,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 1983.0,
-          "pricePerShare": 136.424,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 3125.0,
-          "pricePerShare": 137.2457,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 760.0,
-          "pricePerShare": 138.0901,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 82.0,
-          "pricePerShare": 139.2042,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 6250.0,
-          "pricePerShare": 137.37,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Atay Oguzhan",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 6250.0,
-          "pricePerShare": 137.37,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Johnson Nancy JoAnn",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 2133.0,
-          "pricePerShare": 126.9821,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Johnson Nancy JoAnn",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 5559.0,
-          "pricePerShare": 127.886,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Johnson Nancy JoAnn",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 5601.0,
-          "pricePerShare": 128.9551,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "BLLN",
-          "issuerName": "BillionToOne, Inc.",
-          "insiderName": "Johnson Nancy JoAnn",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 906.0,
-          "pricePerShare": 129.7787,
-          "transactionDate": "2026-07-16"
-        }
-      ]
-    },
     "SNOW": {
       "issuerName": "Snowflake Inc.",
       "trades": [
@@ -41636,61 +42256,6 @@
           "type": "Sale",
           "shares": 114756.0,
           "pricePerShare": 6.93,
-          "transactionDate": "2026-07-30"
-        }
-      ]
-    },
-    "RCKY": {
-      "issuerName": "ROCKY BRANDS, INC.",
-      "trades": [
-        {
-          "ticker": "RCKY",
-          "issuerName": "ROCKY BRANDS, INC.",
-          "insiderName": "Winbigler Tracie A.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 47.4456,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "RCKY",
-          "issuerName": "ROCKY BRANDS, INC.",
-          "insiderName": "Jordan William L",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 2011.0,
-          "pricePerShare": 48.48,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "RCKY",
-          "issuerName": "ROCKY BRANDS, INC.",
-          "insiderName": "Haning G Courtney",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 49.06,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "RCKY",
-          "issuerName": "ROCKY BRANDS, INC.",
-          "insiderName": "Smith Dwight Eric",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 500.0,
-          "pricePerShare": 48.63,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "RCKY",
-          "issuerName": "ROCKY BRANDS, INC.",
-          "insiderName": "LOVELAND CURTIS A",
-          "title": "Director, Assistant Secretary",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 49.62,
           "transactionDate": "2026-07-30"
         }
       ]
@@ -43717,291 +44282,6 @@
           "shares": 5303.0,
           "pricePerShare": 51.05,
           "transactionDate": "2026-07-28"
-        }
-      ]
-    },
-    "HSY": {
-      "issuerName": "HERSHEY CO",
-      "trades": [
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 3100.0,
-          "pricePerShare": 183.7063,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2400.0,
-          "pricePerShare": 184.4651,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 3500.0,
-          "pricePerShare": 185.4161,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 600.0,
-          "pricePerShare": 186.2667,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 187.4625,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2660.0,
-          "pricePerShare": 181.6076,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1930.0,
-          "pricePerShare": 182.2478,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 3657.0,
-          "pricePerShare": 183.3389,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 409.0,
-          "pricePerShare": 184.5811,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1344.0,
-          "pricePerShare": 185.4464,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 83.0,
-          "pricePerShare": 175.4401,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 300.0,
-          "pricePerShare": 176.4333,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 544.0,
-          "pricePerShare": 177.398,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2258.0,
-          "pricePerShare": 178.5505,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2414.0,
-          "pricePerShare": 179.5726,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4401.0,
-          "pricePerShare": 180.1947,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 125.0,
-          "pricePerShare": 170.8714,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4084.0,
-          "pricePerShare": 171.6988,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 5791.0,
-          "pricePerShare": 172.2865,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1384.0,
-          "pricePerShare": 169.8714,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 8387.0,
-          "pricePerShare": 170.4112,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 189.0,
-          "pricePerShare": 171.1233,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 40.0,
-          "pricePerShare": 172.06,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 18.0,
-          "pricePerShare": 168.84,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1375.0,
-          "pricePerShare": 169.5897,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2703.0,
-          "pricePerShare": 170.4735,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4448.0,
-          "pricePerShare": 171.6539,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1456.0,
-          "pricePerShare": 172.1679,
-          "transactionDate": "2026-07-20"
         }
       ]
     },
@@ -47006,21 +47286,6 @@
           "type": "Sale",
           "shares": 1537.0,
           "pricePerShare": 51.83,
-          "transactionDate": "2026-07-27"
-        }
-      ]
-    },
-    "ORRF": {
-      "issuerName": "ORRSTOWN FINANCIAL SERVICES INC",
-      "trades": [
-        {
-          "ticker": "ORRF",
-          "issuerName": "ORRSTOWN FINANCIAL SERVICES INC",
-          "insiderName": "DOLL AMY",
-          "title": "EVP, Chief Admin. Officer",
-          "type": "Sale",
-          "shares": 3002.0,
-          "pricePerShare": 41.61,
           "transactionDate": "2026-07-27"
         }
       ]
@@ -51911,6 +52176,7 @@
       "0000043920-26-000115",
       "0000043920-26-000117",
       "0000043920-26-000119",
+      "0000047111-26-000230",
       "0000048287-26-000127",
       "0000051931-26-000740",
       "0000051931-26-000741",
@@ -52428,6 +52694,7 @@
       "0000943819-26-000040",
       "0000944148-26-000099",
       "0000944305-26-000031",
+      "0000945621-26-000995",
       "0000947703-26-000199",
       "0000947703-26-000200",
       "0000947703-26-000201",
@@ -52970,6 +53237,7 @@
       "0001050797-26-000134",
       "0001059244-26-000009",
       "0001060391-26-000268",
+      "0001061272-26-000002",
       "0001065280-26-000217",
       "0001065280-26-000219",
       "0001065280-26-000221",
@@ -53018,6 +53286,7 @@
       "0001081400-26-000337",
       "0001083301-26-000153",
       "0001083301-26-000154",
+      "0001085612-26-000080",
       "0001090009-26-000088",
       "0001090009-26-000090",
       "0001090012-26-000108",
@@ -53432,6 +53701,8 @@
       "0001104659-26-092557",
       "0001104659-26-092566",
       "0001104659-26-092616",
+      "0001104659-26-092657",
+      "0001104659-26-092673",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -53718,6 +53989,7 @@
       "0001140361-26-031660",
       "0001140361-26-031712",
       "0001140361-26-031795",
+      "0001140361-26-031810",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -55077,6 +55349,16 @@
       "0001193125-26-340055",
       "0001193125-26-340056",
       "0001193125-26-340057",
+      "0001193125-26-340131",
+      "0001193125-26-340138",
+      "0001193125-26-340168",
+      "0001193125-26-340173",
+      "0001193125-26-340189",
+      "0001193125-26-340201",
+      "0001193125-26-340202",
+      "0001193125-26-340206",
+      "0001193125-26-340215",
+      "0001193125-26-340220",
       "0001193532-26-000008",
       "0001193532-26-000010",
       "0001194348-26-000004",
@@ -55093,6 +55375,7 @@
       "0001204816-26-000026",
       "0001204816-26-000028",
       "0001205069-26-000005",
+      "0001205703-26-000025",
       "0001206264-26-000101",
       "0001206774-26-000365",
       "0001206774-26-000416",
@@ -55640,6 +55923,22 @@
       "0001213900-26-086551",
       "0001213900-26-086554",
       "0001213900-26-086571",
+      "0001213900-26-086600",
+      "0001213900-26-086608",
+      "0001213900-26-086641",
+      "0001213900-26-086647",
+      "0001213900-26-086648",
+      "0001213900-26-086651",
+      "0001213900-26-086652",
+      "0001213900-26-086653",
+      "0001213900-26-086654",
+      "0001213900-26-086655",
+      "0001213900-26-086656",
+      "0001213900-26-086657",
+      "0001213900-26-086658",
+      "0001213900-26-086661",
+      "0001213900-26-086662",
+      "0001213900-26-086664",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -55819,6 +56118,7 @@
       "0001225208-26-007007",
       "0001225208-26-007027",
       "0001225208-26-007028",
+      "0001225208-26-007029",
       "0001225481-26-000006",
       "0001227384-26-000017",
       "0001227654-26-000042",
@@ -55973,6 +56273,8 @@
       "0001381197-26-000140",
       "0001385325-26-000002",
       "0001385613-26-000100",
+      "0001385613-26-000103",
+      "0001385613-26-000105",
       "0001392116-26-000010",
       "0001392116-26-000011",
       "0001392116-26-000012",
@@ -56042,6 +56344,7 @@
       "0001398344-26-013723",
       "0001398344-26-013726",
       "0001398344-26-013728",
+      "0001399967-26-000002",
       "0001401336-26-000020",
       "0001402348-26-000016",
       "0001403373-26-000007",
@@ -56577,6 +56880,7 @@
       "0001493152-26-036463",
       "0001493152-26-036466",
       "0001493152-26-036525",
+      "0001493152-26-036560",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -57223,6 +57527,10 @@
       "0001628280-26-054750",
       "0001628280-26-054753",
       "0001628280-26-054754",
+      "0001628280-26-054805",
+      "0001628280-26-054817",
+      "0001628280-26-054819",
+      "0001628280-26-054821",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -57559,6 +57867,7 @@
       "0001774463-26-000002",
       "0001775075-26-000005",
       "0001775297-26-000010",
+      "0001776004-26-000003",
       "0001776485-26-000013",
       "0001776865-26-000020",
       "0001778564-26-000123",
@@ -58838,6 +59147,7 @@
       "0001839882-26-039113",
       "0001839882-26-039116",
       "0001839882-26-039117",
+      "0001839882-26-039122",
       "0001840706-26-000265",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -60291,6 +60601,13 @@
       "0001918704-26-023179",
       "0001918704-26-023180",
       "0001918704-26-023181",
+      "0001918704-26-023184",
+      "0001918704-26-023185",
+      "0001918704-26-023186",
+      "0001918704-26-023187",
+      "0001918704-26-023188",
+      "0001918704-26-023189",
+      "0001918704-26-023190",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -60795,6 +61112,7 @@
       "0002078651-26-000012",
       "0002079031-26-000003",
       "0002079520-26-000020",
+      "0002079962-26-000015",
       "0002080505-26-000002",
       "0002083595-26-000006",
       "0002083617-26-000012",
@@ -60803,6 +61121,7 @@
       "0002084606-26-000012",
       "0002084812-26-000013",
       "0002088410-26-000008",
+      "0002088549-26-000007",
       "0002088880-26-000006",
       "0002089872-26-000002",
       "0002090083-26-000016",
