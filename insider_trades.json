@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-07T13:01:24.488856+00:00",
+  "generatedAt": "2026-08-07T14:05:23.212923+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 2426,
+  "count": 2431,
   "trades": [
     {
       "ticker": "SILC",
@@ -211,6 +211,36 @@
       "type": "Sale",
       "shares": 5000.0,
       "pricePerShare": 29.5,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "DCOM",
+      "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+      "insiderName": "NIELSEN RAYMOND A",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1800.0,
+      "pricePerShare": 41.7293,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "EPR",
+      "issuerName": "EPR PROPERTIES",
+      "insiderName": "Sterneck Robin Peppe",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 3403.0,
+      "pricePerShare": 61.5375,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "TLRY",
+      "issuerName": "Tilray Brands, Inc.",
+      "insiderName": "Gendel Mitchell",
+      "title": "Global General Counsel",
+      "type": "Purchase",
+      "shares": 2500.0,
+      "pricePerShare": 4.43,
       "transactionDate": "2026-08-06"
     },
     {
@@ -1511,6 +1541,26 @@
       "type": "Sale",
       "shares": 1500.0,
       "pricePerShare": 324.88,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "ATRC",
+      "issuerName": "AtriCure, Inc.",
+      "insiderName": "Prange Karen",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 3564.0,
+      "pricePerShare": 38.8,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "ATRC",
+      "issuerName": "AtriCure, Inc.",
+      "insiderName": "Yuen Maggie",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 3500.0,
+      "pricePerShare": 38.42,
       "transactionDate": "2026-08-05"
     },
     {
@@ -26700,6 +26750,231 @@
         }
       ]
     },
+    "DCOM": {
+      "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+      "trades": [
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "NIELSEN RAYMOND A",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1800.0,
+          "pricePerShare": 41.7293,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 14907.0,
+          "pricePerShare": 41.17,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1571.0,
+          "pricePerShare": 41.17,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 44.0,
+          "pricePerShare": 41.17,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3987.0,
+          "pricePerShare": 41.17,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 178.0,
+          "pricePerShare": 41.17,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 30661.0,
+          "pricePerShare": 40.76,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5931.0,
+          "pricePerShare": 40.76,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 288.0,
+          "pricePerShare": 40.76,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 14990.0,
+          "pricePerShare": 40.76,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1130.0,
+          "pricePerShare": 40.76,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6187.0,
+          "pricePerShare": 40.79,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1244.0,
+          "pricePerShare": 40.79,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 57.0,
+          "pricePerShare": 40.79,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3115.0,
+          "pricePerShare": 40.79,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "DCOM",
+          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
+          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 326.0,
+          "pricePerShare": 40.79,
+          "transactionDate": "2026-07-30"
+        }
+      ]
+    },
+    "EPR": {
+      "issuerName": "EPR PROPERTIES",
+      "trades": [
+        {
+          "ticker": "EPR",
+          "issuerName": "EPR PROPERTIES",
+          "insiderName": "Sterneck Robin Peppe",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3403.0,
+          "pricePerShare": 61.5375,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "EPR",
+          "issuerName": "EPR PROPERTIES",
+          "insiderName": "Mater Tonya L.",
+          "title": "SVP & Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 3600.0,
+          "pricePerShare": 61.8159,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "EPR",
+          "issuerName": "EPR PROPERTIES",
+          "insiderName": "Mater Tonya L.",
+          "title": "SVP & Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 3092.0,
+          "pricePerShare": 61.7576,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "TLRY": {
+      "issuerName": "Tilray Brands, Inc.",
+      "trades": [
+        {
+          "ticker": "TLRY",
+          "issuerName": "Tilray Brands, Inc.",
+          "insiderName": "Gendel Mitchell",
+          "title": "Global General Counsel",
+          "type": "Purchase",
+          "shares": 2500.0,
+          "pricePerShare": 4.43,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "TLRY",
+          "issuerName": "Tilray Brands, Inc.",
+          "insiderName": "FALTISCHEK DENISE M",
+          "title": "Chief Strategy Officer",
+          "type": "Purchase",
+          "shares": 2500.0,
+          "pricePerShare": 4.78,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
     "PKG": {
       "issuerName": "PACKAGING CORP OF AMERICA",
       "trades": [
@@ -29877,6 +30152,61 @@
           "shares": 1500.0,
           "pricePerShare": 324.88,
           "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "ATRC": {
+      "issuerName": "AtriCure, Inc.",
+      "trades": [
+        {
+          "ticker": "ATRC",
+          "issuerName": "AtriCure, Inc.",
+          "insiderName": "Prange Karen",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3564.0,
+          "pricePerShare": 38.8,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "ATRC",
+          "issuerName": "AtriCure, Inc.",
+          "insiderName": "Yuen Maggie",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3500.0,
+          "pricePerShare": 38.42,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "ATRC",
+          "issuerName": "AtriCure, Inc.",
+          "insiderName": "Noznesky Justin J",
+          "title": "Chief Mktg & Strategy Officer",
+          "type": "Sale",
+          "shares": 6182.0,
+          "pricePerShare": 38.8,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "ATRC",
+          "issuerName": "AtriCure, Inc.",
+          "insiderName": "Doraiswamy Vinayak",
+          "title": "Chief Scientific Officer",
+          "type": "Sale",
+          "shares": 6000.0,
+          "pricePerShare": 38.88,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "ATRC",
+          "issuerName": "AtriCure, Inc.",
+          "insiderName": "WEHRWEIN SVEN",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 37.84,
+          "transactionDate": "2026-07-28"
         }
       ]
     },
@@ -33550,161 +33880,6 @@
         }
       ]
     },
-    "DCOM": {
-      "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-      "trades": [
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 14907.0,
-          "pricePerShare": 41.17,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1571.0,
-          "pricePerShare": 41.17,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 44.0,
-          "pricePerShare": 41.17,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3987.0,
-          "pricePerShare": 41.17,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 178.0,
-          "pricePerShare": 41.17,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 30661.0,
-          "pricePerShare": 40.76,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5931.0,
-          "pricePerShare": 40.76,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 288.0,
-          "pricePerShare": 40.76,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 14990.0,
-          "pricePerShare": 40.76,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1130.0,
-          "pricePerShare": 40.76,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6187.0,
-          "pricePerShare": 40.79,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1244.0,
-          "pricePerShare": 40.79,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 57.0,
-          "pricePerShare": 40.79,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3115.0,
-          "pricePerShare": 40.79,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 326.0,
-          "pricePerShare": 40.79,
-          "transactionDate": "2026-07-30"
-        }
-      ]
-    },
     "TK": {
       "issuerName": "TEEKAY CORP LTD",
       "trades": [
@@ -34100,21 +34275,6 @@
         }
       ]
     },
-    "TLRY": {
-      "issuerName": "Tilray Brands, Inc.",
-      "trades": [
-        {
-          "ticker": "TLRY",
-          "issuerName": "Tilray Brands, Inc.",
-          "insiderName": "FALTISCHEK DENISE M",
-          "title": "Chief Strategy Officer",
-          "type": "Purchase",
-          "shares": 2500.0,
-          "pricePerShare": 4.78,
-          "transactionDate": "2026-08-03"
-        }
-      ]
-    },
     "ALLT": {
       "issuerName": "Allot Ltd.",
       "trades": [
@@ -34126,31 +34286,6 @@
           "type": "Sale",
           "shares": 556.0,
           "pricePerShare": 7.7972,
-          "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "EPR": {
-      "issuerName": "EPR PROPERTIES",
-      "trades": [
-        {
-          "ticker": "EPR",
-          "issuerName": "EPR PROPERTIES",
-          "insiderName": "Mater Tonya L.",
-          "title": "SVP & Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 3600.0,
-          "pricePerShare": 61.8159,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "EPR",
-          "issuerName": "EPR PROPERTIES",
-          "insiderName": "Mater Tonya L.",
-          "title": "SVP & Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 3092.0,
-          "pricePerShare": 61.7576,
           "transactionDate": "2026-08-03"
         }
       ]
@@ -43955,41 +44090,6 @@
         }
       ]
     },
-    "ATRC": {
-      "issuerName": "AtriCure, Inc.",
-      "trades": [
-        {
-          "ticker": "ATRC",
-          "issuerName": "AtriCure, Inc.",
-          "insiderName": "Noznesky Justin J",
-          "title": "Chief Mktg & Strategy Officer",
-          "type": "Sale",
-          "shares": 6182.0,
-          "pricePerShare": 38.8,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "ATRC",
-          "issuerName": "AtriCure, Inc.",
-          "insiderName": "Doraiswamy Vinayak",
-          "title": "Chief Scientific Officer",
-          "type": "Sale",
-          "shares": 6000.0,
-          "pricePerShare": 38.88,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "ATRC",
-          "issuerName": "AtriCure, Inc.",
-          "insiderName": "WEHRWEIN SVEN",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 25000.0,
-          "pricePerShare": 37.84,
-          "transactionDate": "2026-07-28"
-        }
-      ]
-    },
     "PYPL": {
       "issuerName": "PayPal Holdings, Inc.",
       "trades": [
@@ -52127,6 +52227,8 @@
       "0000950103-26-012037",
       "0000950103-26-012038",
       "0000950103-26-012050",
+      "0000950103-26-012052",
+      "0000950103-26-012053",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -52195,6 +52297,7 @@
       "0001041061-26-000153",
       "0001041061-26-000155",
       "0001045450-26-000044",
+      "0001045450-26-000045",
       "0001046179-26-000453",
       "0001046179-26-000455",
       "0001046179-26-000457",
@@ -52652,6 +52755,7 @@
       "0001104659-26-092233",
       "0001104659-26-092263",
       "0001104659-26-092381",
+      "0001104659-26-092437",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -52953,6 +53057,7 @@
       "0001171843-26-005128",
       "0001171843-26-005173",
       "0001171843-26-005208",
+      "0001171843-26-005348",
       "0001174610-26-000437",
       "0001174610-26-000473",
       "0001174610-26-000497",
@@ -54263,8 +54368,10 @@
       "0001193125-26-339287",
       "0001193125-26-339289",
       "0001193125-26-339293",
+      "0001193125-26-339386",
       "0001193532-26-000008",
       "0001193532-26-000010",
+      "0001194348-26-000004",
       "0001196460-26-000004",
       "0001196484-26-000014",
       "0001198444-26-000010",
@@ -54810,6 +54917,10 @@
       "0001213900-26-086432",
       "0001213900-26-086433",
       "0001213900-26-086434",
+      "0001213900-26-086443",
+      "0001213900-26-086444",
+      "0001213900-26-086445",
+      "0001213900-26-086449",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -55919,6 +56030,7 @@
       "0001563411-26-000194",
       "0001564675-26-000004",
       "0001565249-26-000008",
+      "0001566083-26-000006",
       "0001568982-26-000004",
       "0001569789-26-000012",
       "0001571610-26-000013",
@@ -56673,6 +56785,20 @@
       "0001771146-26-001600",
       "0001771146-26-001602",
       "0001771146-26-001604",
+      "0001771146-26-001626",
+      "0001771146-26-001627",
+      "0001771146-26-001628",
+      "0001771146-26-001629",
+      "0001771146-26-001630",
+      "0001771146-26-001632",
+      "0001771146-26-001633",
+      "0001771146-26-001634",
+      "0001771146-26-001635",
+      "0001771146-26-001636",
+      "0001771146-26-001637",
+      "0001771146-26-001638",
+      "0001771146-26-001639",
+      "0001771146-26-001640",
       "0001772603-26-000012",
       "0001773399-26-000006",
       "0001774463-26-000002",
@@ -56731,6 +56857,7 @@
       "0001794783-26-000048",
       "0001795924-26-000005",
       "0001795924-26-000007",
+      "0001796057-26-000010",
       "0001797318-26-000104",
       "0001799211-26-000014",
       "0001801365-26-000005",
@@ -57877,6 +58004,11 @@
       "0001839882-26-038943",
       "0001839882-26-038953",
       "0001839882-26-038954",
+      "0001839882-26-038987",
+      "0001839882-26-038988",
+      "0001839882-26-038989",
+      "0001839882-26-038996",
+      "0001839882-26-038997",
       "0001840706-26-000265",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -59266,6 +59398,20 @@
       "0001918704-26-023098",
       "0001918704-26-023108",
       "0001918704-26-023109",
+      "0001918704-26-023111",
+      "0001918704-26-023112",
+      "0001918704-26-023113",
+      "0001918704-26-023114",
+      "0001918704-26-023115",
+      "0001918704-26-023116",
+      "0001918704-26-023119",
+      "0001918704-26-023120",
+      "0001918704-26-023121",
+      "0001918704-26-023122",
+      "0001918704-26-023123",
+      "0001918704-26-023124",
+      "0001918704-26-023125",
+      "0001918704-26-023128",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -59600,6 +59746,22 @@
       "0001999371-26-017271",
       "0001999371-26-017278",
       "0001999371-26-017280",
+      "0001999371-26-017286",
+      "0001999371-26-017287",
+      "0001999371-26-017288",
+      "0001999371-26-017291",
+      "0001999371-26-017293",
+      "0001999371-26-017294",
+      "0001999371-26-017296",
+      "0001999371-26-017298",
+      "0001999371-26-017300",
+      "0001999371-26-017301",
+      "0001999371-26-017305",
+      "0001999371-26-017306",
+      "0001999371-26-017307",
+      "0001999371-26-017308",
+      "0001999371-26-017309",
+      "0001999371-26-017310",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
