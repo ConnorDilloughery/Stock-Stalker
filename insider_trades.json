@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-07T17:05:20.858133+00:00",
+  "generatedAt": "2026-08-07T18:01:35.534283+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 2447,
+  "count": 2455,
   "trades": [
     {
       "ticker": "WEYS",
@@ -301,6 +301,36 @@
       "type": "Purchase",
       "shares": 756.0,
       "pricePerShare": 2.97,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "FNB",
+      "issuerName": "FNB CORP/PA/",
+      "insiderName": "David Bryant Mitchell",
+      "title": "Chief Wholesale Banking Office",
+      "type": "Sale",
+      "shares": 4055.0,
+      "pricePerShare": 19.245,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "PEBO",
+      "issuerName": "PEOPLES BANCORP INC",
+      "insiderName": "Edgell Matthew",
+      "title": "Chief of Staff",
+      "type": "Sale",
+      "shares": 3000.0,
+      "pricePerShare": 41.275,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "LRCX",
+      "issuerName": "LAM RESEARCH CORP",
+      "insiderName": "ARCHER TIMOTHY",
+      "title": "President and CEO",
+      "type": "Sale",
+      "shares": 30000.0,
+      "pricePerShare": 300.0,
       "transactionDate": "2026-08-06"
     },
     {
@@ -1681,6 +1711,56 @@
       "type": "Sale",
       "shares": 9.3659,
       "pricePerShare": 253.7724,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "KLTR",
+      "issuerName": "KALTURA INC",
+      "insiderName": "Manor Eyal",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 112713.0,
+      "pricePerShare": 1.8996,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "KLTR",
+      "issuerName": "KALTURA INC",
+      "insiderName": "Manor Eyal",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 25430.0,
+      "pricePerShare": 2.0138,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "KLTR",
+      "issuerName": "KALTURA INC",
+      "insiderName": "Azaria Eynav",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 83995.0,
+      "pricePerShare": 2.0122,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "KLTR",
+      "issuerName": "KALTURA INC",
+      "insiderName": "Israeli Natan",
+      "title": "Chief Customer Officer",
+      "type": "Sale",
+      "shares": 196432.0,
+      "pricePerShare": 1.8227,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "KLTR",
+      "issuerName": "KALTURA INC",
+      "insiderName": "Israeli Natan",
+      "title": "Chief Customer Officer",
+      "type": "Sale",
+      "shares": 62890.0,
+      "pricePerShare": 2.0098,
       "transactionDate": "2026-08-05"
     },
     {
@@ -27415,6 +27495,61 @@
         }
       ]
     },
+    "FNB": {
+      "issuerName": "FNB CORP/PA/",
+      "trades": [
+        {
+          "ticker": "FNB",
+          "issuerName": "FNB CORP/PA/",
+          "insiderName": "David Bryant Mitchell",
+          "title": "Chief Wholesale Banking Office",
+          "type": "Sale",
+          "shares": 4055.0,
+          "pricePerShare": 19.245,
+          "transactionDate": "2026-08-06"
+        }
+      ]
+    },
+    "PEBO": {
+      "issuerName": "PEOPLES BANCORP INC",
+      "trades": [
+        {
+          "ticker": "PEBO",
+          "issuerName": "PEOPLES BANCORP INC",
+          "insiderName": "Edgell Matthew",
+          "title": "Chief of Staff",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 41.275,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "PEBO",
+          "issuerName": "PEOPLES BANCORP INC",
+          "insiderName": "Donlon Hugh J",
+          "title": "EVP,  Community Banking",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 39.87,
+          "transactionDate": "2026-07-24"
+        }
+      ]
+    },
+    "LRCX": {
+      "issuerName": "LAM RESEARCH CORP",
+      "trades": [
+        {
+          "ticker": "LRCX",
+          "issuerName": "LAM RESEARCH CORP",
+          "insiderName": "ARCHER TIMOTHY",
+          "title": "President and CEO",
+          "type": "Sale",
+          "shares": 30000.0,
+          "pricePerShare": 300.0,
+          "transactionDate": "2026-08-06"
+        }
+      ]
+    },
     "PKG": {
       "issuerName": "PACKAGING CORP OF AMERICA",
       "trades": [
@@ -30652,6 +30787,101 @@
           "shares": 9.3659,
           "pricePerShare": 253.7724,
           "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "KLTR": {
+      "issuerName": "KALTURA INC",
+      "trades": [
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Manor Eyal",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 112713.0,
+          "pricePerShare": 1.8996,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Manor Eyal",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 25430.0,
+          "pricePerShare": 2.0138,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 83995.0,
+          "pricePerShare": 2.0122,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Israeli Natan",
+          "title": "Chief Customer Officer",
+          "type": "Sale",
+          "shares": 196432.0,
+          "pricePerShare": 1.8227,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Israeli Natan",
+          "title": "Chief Customer Officer",
+          "type": "Sale",
+          "shares": 62890.0,
+          "pricePerShare": 2.0098,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Israeli Natan",
+          "title": "Chief Customer Officer",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 1.5,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 6301.0,
+          "pricePerShare": 1.4239,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 3480.0,
+          "pricePerShare": 1.4122,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 2777.0,
+          "pricePerShare": 1.403,
+          "transactionDate": "2026-07-20"
         }
       ]
     },
@@ -46820,51 +47050,6 @@
         }
       ]
     },
-    "KLTR": {
-      "issuerName": "KALTURA INC",
-      "trades": [
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Israeli Natan",
-          "title": "Chief Customer Officer",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 1.5,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 6301.0,
-          "pricePerShare": 1.4239,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 3480.0,
-          "pricePerShare": 1.4122,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 2777.0,
-          "pricePerShare": 1.403,
-          "transactionDate": "2026-07-20"
-        }
-      ]
-    },
     "CRDO": {
       "issuerName": "Credo Technology Group Holding Ltd",
       "trades": [
@@ -47212,21 +47397,6 @@
           "shares": 200.0,
           "pricePerShare": 23.3,
           "transactionDate": "2026-07-27"
-        }
-      ]
-    },
-    "PEBO": {
-      "issuerName": "PEOPLES BANCORP INC",
-      "trades": [
-        {
-          "ticker": "PEBO",
-          "issuerName": "PEOPLES BANCORP INC",
-          "insiderName": "Donlon Hugh J",
-          "title": "EVP,  Community Banking",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 39.87,
-          "transactionDate": "2026-07-24"
         }
       ]
     },
@@ -51791,6 +51961,7 @@
       "0000313927-26-000292",
       "0000318300-26-000185",
       "0000318300-26-000189",
+      "0000318300-26-000197",
       "0000320335-26-000206",
       "0000320335-26-000210",
       "0000320351-26-000369",
@@ -51846,6 +52017,8 @@
       "0000744822-26-000071",
       "0000744822-26-000075",
       "0000744822-26-000076",
+      "0000745544-26-000140",
+      "0000745544-26-000142",
       "0000752642-26-000089",
       "0000760498-26-000047",
       "0000760498-26-000048",
@@ -52595,6 +52768,9 @@
       "0000950103-26-012064",
       "0000950103-26-012065",
       "0000950103-26-012066",
+      "0000950103-26-012067",
+      "0000950103-26-012068",
+      "0000950103-26-012069",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -53229,6 +53405,7 @@
       "0001137360-26-000718",
       "0001137360-26-000719",
       "0001137360-26-000735",
+      "0001137360-26-000737",
       "0001140361-26-028844",
       "0001140361-26-028846",
       "0001140361-26-028877",
@@ -54764,6 +54941,12 @@
       "0001193125-26-339745",
       "0001193125-26-339746",
       "0001193125-26-339811",
+      "0001193125-26-339855",
+      "0001193125-26-339873",
+      "0001193125-26-339875",
+      "0001193125-26-339892",
+      "0001193125-26-339899",
+      "0001193125-26-339918",
       "0001193532-26-000008",
       "0001193532-26-000010",
       "0001194348-26-000004",
@@ -55623,6 +55806,7 @@
       "0001341004-26-000038",
       "0001341985-26-000004",
       "0001342916-26-000050",
+      "0001343600-26-000011",
       "0001349121-26-000001",
       "0001349628-26-000003",
       "0001350761-26-000002",
@@ -55654,6 +55838,7 @@
       "0001380659-26-000014",
       "0001381197-26-000140",
       "0001385325-26-000002",
+      "0001385613-26-000100",
       "0001392116-26-000010",
       "0001392116-26-000011",
       "0001392116-26-000012",
@@ -56009,6 +56194,9 @@
       "0001445546-26-005781",
       "0001445546-26-005782",
       "0001445546-26-005783",
+      "0001445546-26-005785",
+      "0001445546-26-005787",
+      "0001445546-26-005789",
       "0001448765-26-000011",
       "0001451455-26-000009",
       "0001451763-26-000012",
@@ -56895,6 +57083,9 @@
       "0001628280-26-054590",
       "0001628280-26-054686",
       "0001628280-26-054698",
+      "0001628280-26-054748",
+      "0001628280-26-054750",
+      "0001628280-26-054753",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -56986,6 +57177,7 @@
       "0001655589-26-001146",
       "0001655589-26-001147",
       "0001655589-26-001148",
+      "0001655589-26-001151",
       "0001656109-26-000006",
       "0001656846-26-000007",
       "0001657787-26-000002",
@@ -58497,6 +58689,11 @@
       "0001839882-26-039094",
       "0001839882-26-039095",
       "0001839882-26-039100",
+      "0001839882-26-039101",
+      "0001839882-26-039102",
+      "0001839882-26-039103",
+      "0001839882-26-039105",
+      "0001839882-26-039106",
       "0001840706-26-000265",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -58521,6 +58718,7 @@
       "0001851564-26-000030",
       "0001852009-26-000004",
       "0001852010-26-000006",
+      "0001855837-26-000012",
       "0001855880-26-000014",
       "0001856339-26-000006",
       "0001856365-26-000094",
@@ -59930,6 +60128,19 @@
       "0001918704-26-023160",
       "0001918704-26-023161",
       "0001918704-26-023162",
+      "0001918704-26-023163",
+      "0001918704-26-023164",
+      "0001918704-26-023165",
+      "0001918704-26-023166",
+      "0001918704-26-023167",
+      "0001918704-26-023168",
+      "0001918704-26-023169",
+      "0001918704-26-023170",
+      "0001918704-26-023171",
+      "0001918704-26-023172",
+      "0001918704-26-023173",
+      "0001918704-26-023174",
+      "0001918704-26-023175",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -60366,11 +60577,13 @@
       "0002046824-26-000020",
       "0002050174-26-000002",
       "0002051008-26-000002",
+      "0002051619-26-000018",
       "0002052113-26-000768",
       "0002052113-26-000809",
       "0002052319-26-000008",
       "0002052896-26-000001",
       "0002052994-26-000003",
+      "0002053424-26-000018",
       "0002053817-26-000003",
       "0002055817-26-000003",
       "0002056381-26-000004",
