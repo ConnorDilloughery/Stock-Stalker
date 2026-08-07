@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-07T14:05:23.212923+00:00",
+  "generatedAt": "2026-08-07T15:05:25.637310+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 2431,
+  "count": 2436,
   "trades": [
     {
       "ticker": "SILC",
@@ -241,6 +241,26 @@
       "type": "Purchase",
       "shares": 2500.0,
       "pricePerShare": 4.43,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 18000.0,
+      "pricePerShare": 19.67,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "HOFFMAN CHRISTINA MARIE",
+      "title": "Sr. VP & Chief Risk Officer",
+      "type": "Sale",
+      "shares": 18000.0,
+      "pricePerShare": 19.67,
       "transactionDate": "2026-08-06"
     },
     {
@@ -1561,6 +1581,36 @@
       "type": "Sale",
       "shares": 3500.0,
       "pricePerShare": 38.42,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "AX",
+      "issuerName": "Axos Financial, Inc.",
+      "insiderName": "Santi Roque A",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 105.3,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "DRI",
+      "issuerName": "DARDEN RESTAURANTS INC",
+      "insiderName": "Wilkerson John W.",
+      "title": "President, Olive Garden",
+      "type": "Sale",
+      "shares": 2500.0,
+      "pricePerShare": 208.4141,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "DRI",
+      "issuerName": "DARDEN RESTAURANTS INC",
+      "insiderName": "Wilkerson John W.",
+      "title": "President, Olive Garden",
+      "type": "Sale",
+      "shares": 6364.0,
+      "pricePerShare": 208.297,
       "transactionDate": "2026-08-05"
     },
     {
@@ -26975,6 +27025,51 @@
         }
       ]
     },
+    "DGICA": {
+      "issuerName": "DONEGAL GROUP INC",
+      "trades": [
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 18000.0,
+          "pricePerShare": 19.67,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "HOFFMAN CHRISTINA MARIE",
+          "title": "Sr. VP & Chief Risk Officer",
+          "type": "Sale",
+          "shares": 18000.0,
+          "pricePerShare": 19.67,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "BIXENMAN DENNIS JOSEPH",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 11250.0,
+          "pricePerShare": 19.26,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "KING DAVID CHARLES",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 9000.0,
+          "pricePerShare": 19.33,
+          "transactionDate": "2026-08-04"
+        }
+      ]
+    },
     "PKG": {
       "issuerName": "PACKAGING CORP OF AMERICA",
       "trades": [
@@ -30210,6 +30305,66 @@
         }
       ]
     },
+    "AX": {
+      "issuerName": "Axos Financial, Inc.",
+      "trades": [
+        {
+          "ticker": "AX",
+          "issuerName": "Axos Financial, Inc.",
+          "insiderName": "Santi Roque A",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 105.3,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "DRI": {
+      "issuerName": "DARDEN RESTAURANTS INC",
+      "trades": [
+        {
+          "ticker": "DRI",
+          "issuerName": "DARDEN RESTAURANTS INC",
+          "insiderName": "Wilkerson John W.",
+          "title": "President, Olive Garden",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 208.4141,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "DRI",
+          "issuerName": "DARDEN RESTAURANTS INC",
+          "insiderName": "Wilkerson John W.",
+          "title": "President, Olive Garden",
+          "type": "Sale",
+          "shares": 6364.0,
+          "pricePerShare": 208.297,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "DRI",
+          "issuerName": "DARDEN RESTAURANTS INC",
+          "insiderName": "Williamson Laura B",
+          "title": "President, LongHorn Steakhouse",
+          "type": "Sale",
+          "shares": 1110.0,
+          "pricePerShare": 204.3172,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "DRI",
+          "issuerName": "DARDEN RESTAURANTS INC",
+          "insiderName": "Williamson Laura B",
+          "title": "President, LongHorn Steakhouse",
+          "type": "Sale",
+          "shares": 443.0,
+          "pricePerShare": 204.8946,
+          "transactionDate": "2026-07-31"
+        }
+      ]
+    },
     "SMBK": {
       "issuerName": "SMARTFINANCIAL INC.",
       "trades": [
@@ -30741,31 +30896,6 @@
           "type": "Purchase",
           "shares": 83300.0,
           "pricePerShare": 29.89,
-          "transactionDate": "2026-08-04"
-        }
-      ]
-    },
-    "DGICA": {
-      "issuerName": "DONEGAL GROUP INC",
-      "trades": [
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "BIXENMAN DENNIS JOSEPH",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 11250.0,
-          "pricePerShare": 19.26,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "KING DAVID CHARLES",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 9000.0,
-          "pricePerShare": 19.33,
           "transactionDate": "2026-08-04"
         }
       ]
@@ -41515,31 +41645,6 @@
         }
       ]
     },
-    "DRI": {
-      "issuerName": "DARDEN RESTAURANTS INC",
-      "trades": [
-        {
-          "ticker": "DRI",
-          "issuerName": "DARDEN RESTAURANTS INC",
-          "insiderName": "Williamson Laura B",
-          "title": "President, LongHorn Steakhouse",
-          "type": "Sale",
-          "shares": 1110.0,
-          "pricePerShare": 204.3172,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "DRI",
-          "issuerName": "DARDEN RESTAURANTS INC",
-          "insiderName": "Williamson Laura B",
-          "title": "President, LongHorn Steakhouse",
-          "type": "Sale",
-          "shares": 443.0,
-          "pricePerShare": 204.8946,
-          "transactionDate": "2026-07-31"
-        }
-      ]
-    },
     "BWFG": {
       "issuerName": "Bankwell Financial Group, Inc.",
       "trades": [
@@ -51626,6 +51731,9 @@
       "0000894189-26-021965",
       "0000894189-26-021980",
       "0000894189-26-021982",
+      "0000894189-26-021995",
+      "0000894189-26-021996",
+      "0000894189-26-021997",
       "0000896622-26-000170",
       "0000896622-26-000172",
       "0000896622-26-000174",
@@ -51773,6 +51881,7 @@
       "0000930413-26-002327",
       "0000930413-26-002328",
       "0000930413-26-002329",
+      "0000935596-26-000016",
       "0000935703-26-000095",
       "0000935703-26-000097",
       "0000935836-26-000372",
@@ -52229,6 +52338,7 @@
       "0000950103-26-012050",
       "0000950103-26-012052",
       "0000950103-26-012053",
+      "0000950103-26-012054",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -52756,6 +52866,9 @@
       "0001104659-26-092263",
       "0001104659-26-092381",
       "0001104659-26-092437",
+      "0001104659-26-092475",
+      "0001104659-26-092476",
+      "0001104659-26-092486",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -54921,6 +55034,7 @@
       "0001213900-26-086444",
       "0001213900-26-086445",
       "0001213900-26-086449",
+      "0001213900-26-086478",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -55097,6 +55211,7 @@
       "0001225208-26-007005",
       "0001225208-26-007006",
       "0001225208-26-007007",
+      "0001225208-26-007027",
       "0001225481-26-000006",
       "0001227384-26-000017",
       "0001227654-26-000042",
@@ -55192,6 +55307,7 @@
       "0001314152-26-000143",
       "0001314152-26-000144",
       "0001315098-26-000153",
+      "0001316254-26-000005",
       "0001318349-26-000015",
       "0001318349-26-000017",
       "0001320461-26-000104",
@@ -56870,6 +56986,7 @@
       "0001810201-26-000008",
       "0001810239-26-000006",
       "0001810477-26-000002",
+      "0001810680-26-000003",
       "0001811389-26-000002",
       "0001811655-26-000004",
       "0001811822-26-000002",
@@ -57019,6 +57136,13 @@
       "0001829126-26-008385",
       "0001829126-26-008386",
       "0001829126-26-008387",
+      "0001829126-26-008470",
+      "0001829126-26-008471",
+      "0001829126-26-008472",
+      "0001829126-26-008473",
+      "0001829126-26-008474",
+      "0001829126-26-008475",
+      "0001829126-26-008476",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -58009,6 +58133,33 @@
       "0001839882-26-038989",
       "0001839882-26-038996",
       "0001839882-26-038997",
+      "0001839882-26-039015",
+      "0001839882-26-039016",
+      "0001839882-26-039017",
+      "0001839882-26-039018",
+      "0001839882-26-039019",
+      "0001839882-26-039020",
+      "0001839882-26-039021",
+      "0001839882-26-039022",
+      "0001839882-26-039023",
+      "0001839882-26-039024",
+      "0001839882-26-039025",
+      "0001839882-26-039026",
+      "0001839882-26-039027",
+      "0001839882-26-039028",
+      "0001839882-26-039029",
+      "0001839882-26-039030",
+      "0001839882-26-039031",
+      "0001839882-26-039032",
+      "0001839882-26-039033",
+      "0001839882-26-039034",
+      "0001839882-26-039035",
+      "0001839882-26-039036",
+      "0001839882-26-039037",
+      "0001839882-26-039038",
+      "0001839882-26-039039",
+      "0001839882-26-039040",
+      "0001839882-26-039041",
       "0001840706-26-000265",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -59412,6 +59563,17 @@
       "0001918704-26-023124",
       "0001918704-26-023125",
       "0001918704-26-023128",
+      "0001918704-26-023132",
+      "0001918704-26-023133",
+      "0001918704-26-023134",
+      "0001918704-26-023135",
+      "0001918704-26-023136",
+      "0001918704-26-023137",
+      "0001918704-26-023138",
+      "0001918704-26-023139",
+      "0001918704-26-023140",
+      "0001918704-26-023141",
+      "0001918704-26-023142",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
