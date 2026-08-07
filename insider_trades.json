@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-07T15:05:25.637310+00:00",
+  "generatedAt": "2026-08-07T16:01:30.267037+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 2436,
+  "count": 2441,
   "trades": [
     {
       "ticker": "SILC",
@@ -261,6 +261,16 @@
       "type": "Sale",
       "shares": 18000.0,
       "pricePerShare": 19.67,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "TPL",
+      "issuerName": "Texas Pacific Land Corp",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 355.62,
       "transactionDate": "2026-08-06"
     },
     {
@@ -23864,6 +23874,46 @@
       "transactionDate": "2026-07-14"
     },
     {
+      "ticker": "BAFN",
+      "issuerName": "BayFirst Financial Corp.",
+      "insiderName": "Rogers Alfred Tate Jr",
+      "title": "Director, CEO & President",
+      "type": "Sale",
+      "shares": 148564.0,
+      "pricePerShare": null,
+      "transactionDate": "2026-07-14"
+    },
+    {
+      "ticker": "BAFN",
+      "issuerName": "BayFirst Financial Corp.",
+      "insiderName": "Rogers Alfred Tate Jr",
+      "title": "Director, CEO & President",
+      "type": "Sale",
+      "shares": 279986.0,
+      "pricePerShare": null,
+      "transactionDate": "2026-07-14"
+    },
+    {
+      "ticker": "BAFN",
+      "issuerName": "BayFirst Financial Corp.",
+      "insiderName": "Rogers Alfred Tate Jr",
+      "title": "Director, CEO & President",
+      "type": "Sale",
+      "shares": 22856.0,
+      "pricePerShare": null,
+      "transactionDate": "2026-07-14"
+    },
+    {
+      "ticker": "BAFN",
+      "issuerName": "BayFirst Financial Corp.",
+      "insiderName": "Rogers Alfred Tate Jr",
+      "title": "Director, CEO & President",
+      "type": "Sale",
+      "shares": 691394.0,
+      "pricePerShare": null,
+      "transactionDate": "2026-07-14"
+    },
+    {
       "ticker": "COE",
       "issuerName": "51Talk Online Education Group",
       "insiderName": "Huang Jack Jiajia",
@@ -27070,6 +27120,111 @@
         }
       ]
     },
+    "TPL": {
+      "issuerName": "Texas Pacific Land Corp",
+      "trades": [
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 355.62,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 385.95,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 392.66,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 394.14,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 393.09,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 409.31,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 427.42,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 413.48,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 416.47,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 420.15,
+          "transactionDate": "2026-07-17"
+        }
+      ]
+    },
     "PKG": {
       "issuerName": "PACKAGING CORP OF AMERICA",
       "trades": [
@@ -28777,101 +28932,6 @@
           "shares": 13200.0,
           "pricePerShare": 102.8265,
           "transactionDate": "2026-08-05"
-        }
-      ]
-    },
-    "TPL": {
-      "issuerName": "Texas Pacific Land Corp",
-      "trades": [
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 385.95,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 392.66,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 394.14,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 393.09,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 409.31,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 427.42,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 413.48,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 416.47,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 420.15,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -50980,6 +51040,51 @@
         }
       ]
     },
+    "BAFN": {
+      "issuerName": "BayFirst Financial Corp.",
+      "trades": [
+        {
+          "ticker": "BAFN",
+          "issuerName": "BayFirst Financial Corp.",
+          "insiderName": "Rogers Alfred Tate Jr",
+          "title": "Director, CEO & President",
+          "type": "Sale",
+          "shares": 148564.0,
+          "pricePerShare": null,
+          "transactionDate": "2026-07-14"
+        },
+        {
+          "ticker": "BAFN",
+          "issuerName": "BayFirst Financial Corp.",
+          "insiderName": "Rogers Alfred Tate Jr",
+          "title": "Director, CEO & President",
+          "type": "Sale",
+          "shares": 279986.0,
+          "pricePerShare": null,
+          "transactionDate": "2026-07-14"
+        },
+        {
+          "ticker": "BAFN",
+          "issuerName": "BayFirst Financial Corp.",
+          "insiderName": "Rogers Alfred Tate Jr",
+          "title": "Director, CEO & President",
+          "type": "Sale",
+          "shares": 22856.0,
+          "pricePerShare": null,
+          "transactionDate": "2026-07-14"
+        },
+        {
+          "ticker": "BAFN",
+          "issuerName": "BayFirst Financial Corp.",
+          "insiderName": "Rogers Alfred Tate Jr",
+          "title": "Director, CEO & President",
+          "type": "Sale",
+          "shares": 691394.0,
+          "pricePerShare": null,
+          "transactionDate": "2026-07-14"
+        }
+      ]
+    },
     "WOR": {
       "issuerName": "WORTHINGTON ENTERPRISES, INC.",
       "trades": [
@@ -51814,6 +51919,10 @@
       "0000908406-26-000040",
       "0000908834-26-000354",
       "0000908834-26-000359",
+      "0000910606-26-000064",
+      "0000910606-26-000065",
+      "0000910606-26-000066",
+      "0000910606-26-000067",
       "0000911971-26-000051",
       "0000912282-26-000993",
       "0000912282-26-000995",
@@ -52339,6 +52448,9 @@
       "0000950103-26-012052",
       "0000950103-26-012053",
       "0000950103-26-012054",
+      "0000950103-26-012055",
+      "0000950103-26-012057",
+      "0000950103-26-012058",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -52869,6 +52981,21 @@
       "0001104659-26-092475",
       "0001104659-26-092476",
       "0001104659-26-092486",
+      "0001104659-26-092495",
+      "0001104659-26-092497",
+      "0001104659-26-092498",
+      "0001104659-26-092499",
+      "0001104659-26-092500",
+      "0001104659-26-092501",
+      "0001104659-26-092502",
+      "0001104659-26-092504",
+      "0001104659-26-092505",
+      "0001104659-26-092506",
+      "0001104659-26-092507",
+      "0001104659-26-092508",
+      "0001104659-26-092510",
+      "0001104659-26-092511",
+      "0001104659-26-092528",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -53178,6 +53305,8 @@
       "0001174610-26-000499",
       "0001174610-26-000500",
       "0001174610-26-000501",
+      "0001174610-26-000512",
+      "0001174610-26-000513",
       "0001174850-26-000159",
       "0001174850-26-000162",
       "0001174947-26-000721",
@@ -54482,6 +54611,8 @@
       "0001193125-26-339289",
       "0001193125-26-339293",
       "0001193125-26-339386",
+      "0001193125-26-339630",
+      "0001193125-26-339647",
       "0001193532-26-000008",
       "0001193532-26-000010",
       "0001194348-26-000004",
@@ -55436,6 +55567,7 @@
       "0001402348-26-000016",
       "0001403373-26-000007",
       "0001403967-26-000004",
+      "0001405444-26-000006",
       "0001405955-26-000007",
       "0001409460-26-000011",
       "0001409722-26-000012",
@@ -55613,6 +55745,8 @@
       "0001437749-26-026394",
       "0001437749-26-026401",
       "0001437749-26-026403",
+      "0001437749-26-026469",
+      "0001438566-26-000007",
       "0001438584-26-000002",
       "0001444540-26-000002",
       "0001445546-26-005229",
@@ -55710,6 +55844,8 @@
       "0001445546-26-005757",
       "0001445546-26-005759",
       "0001445546-26-005760",
+      "0001445546-26-005780",
+      "0001445546-26-005781",
       "0001448765-26-000011",
       "0001451455-26-000009",
       "0001451763-26-000012",
@@ -56155,6 +56291,7 @@
       "0001575124-26-000019",
       "0001575202-26-000011",
       "0001576059-26-000002",
+      "0001576182-26-000004",
       "0001576939-26-000005",
       "0001577526-26-000094",
       "0001578180-26-000005",
@@ -56217,6 +56354,8 @@
       "0001580642-26-004908",
       "0001580642-26-004911",
       "0001580642-26-004912",
+      "0001580642-26-004984",
+      "0001580642-26-004985",
       "0001582328-26-000007",
       "0001582473-26-000008",
       "0001585521-26-000111",
@@ -56291,6 +56430,8 @@
       "0001623632-26-001116",
       "0001623632-26-001120",
       "0001623632-26-001123",
+      "0001623632-26-001149",
+      "0001623632-26-001150",
       "0001624067-26-000002",
       "0001624067-26-000004",
       "0001624651-26-000041",
@@ -58160,6 +58301,20 @@
       "0001839882-26-039039",
       "0001839882-26-039040",
       "0001839882-26-039041",
+      "0001839882-26-039045",
+      "0001839882-26-039047",
+      "0001839882-26-039049",
+      "0001839882-26-039052",
+      "0001839882-26-039053",
+      "0001839882-26-039054",
+      "0001839882-26-039055",
+      "0001839882-26-039057",
+      "0001839882-26-039059",
+      "0001839882-26-039060",
+      "0001839882-26-039062",
+      "0001839882-26-039063",
+      "0001839882-26-039064",
+      "0001839882-26-039065",
       "0001840706-26-000265",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -59574,6 +59729,10 @@
       "0001918704-26-023140",
       "0001918704-26-023141",
       "0001918704-26-023142",
+      "0001918704-26-023143",
+      "0001918704-26-023144",
+      "0001918704-26-023145",
+      "0001918704-26-023146",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -59924,6 +60083,8 @@
       "0001999371-26-017308",
       "0001999371-26-017309",
       "0001999371-26-017310",
+      "0001999371-26-017331",
+      "0001999371-26-017333",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
@@ -60076,6 +60237,7 @@
       "0002084264-26-000006",
       "0002084606-26-000012",
       "0002084812-26-000013",
+      "0002088410-26-000008",
       "0002088880-26-000006",
       "0002089872-26-000002",
       "0002090083-26-000016",
@@ -60110,6 +60272,7 @@
       "0002116333-26-000001",
       "0002120714-26-000004",
       "0002121472-26-000003",
+      "0002122411-26-000001",
       "0002123155-26-000002",
       "0002123843-26-000008",
       "0002124319-26-000008",
@@ -60133,6 +60296,7 @@
       "0002134641-26-000006",
       "0002134641-26-000007",
       "0002136282-26-000006",
+      "0002136327-26-000005",
       "0002137804-26-000004",
       "0002137987-26-000003",
       "0002138148-26-000002",
