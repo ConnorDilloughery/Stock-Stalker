@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-07T18:01:35.534283+00:00",
+  "generatedAt": "2026-08-07T19:04:50.615459+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 2455,
+  "count": 2460,
   "trades": [
     {
       "ticker": "WEYS",
@@ -21,6 +21,16 @@
       "type": "Sale",
       "shares": 2602.0,
       "pricePerShare": 43.2731,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "MSEX",
+      "issuerName": "MIDDLESEX WATER CO",
+      "insiderName": "Ginegaw Lorrie Beth",
+      "title": "VP, Human Resources",
+      "type": "Sale",
+      "shares": 615.0,
+      "pricePerShare": 57.61,
       "transactionDate": "2026-08-07"
     },
     {
@@ -331,6 +341,36 @@
       "type": "Sale",
       "shares": 30000.0,
       "pricePerShare": 300.0,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "ARCB",
+      "issuerName": "ARCBEST CORP /TX/",
+      "insiderName": "Stipp Janice E",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1400.0,
+      "pricePerShare": 137.46,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "ARCB",
+      "issuerName": "ARCBEST CORP /TX/",
+      "insiderName": "Stipp Janice E",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3600.0,
+      "pricePerShare": 139.2,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "SO",
+      "issuerName": "SOUTHERN CO",
+      "insiderName": "Spainhour Sterling A Jr.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3333.0,
+      "pricePerShare": 94.02,
       "transactionDate": "2026-08-06"
     },
     {
@@ -1761,6 +1801,16 @@
       "type": "Sale",
       "shares": 62890.0,
       "pricePerShare": 2.0098,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "TFSL",
+      "issuerName": "TFS Financial CORP",
+      "insiderName": "Stefanski Gavin B",
+      "title": "Chief Experience Officer",
+      "type": "Sale",
+      "shares": 6500.0,
+      "pricePerShare": 18.35,
       "transactionDate": "2026-08-05"
     },
     {
@@ -24580,6 +24630,21 @@
         }
       ]
     },
+    "MSEX": {
+      "issuerName": "MIDDLESEX WATER CO",
+      "trades": [
+        {
+          "ticker": "MSEX",
+          "issuerName": "MIDDLESEX WATER CO",
+          "insiderName": "Ginegaw Lorrie Beth",
+          "title": "VP, Human Resources",
+          "type": "Sale",
+          "shares": 615.0,
+          "pricePerShare": 57.61,
+          "transactionDate": "2026-08-07"
+        }
+      ]
+    },
     "SILC": {
       "issuerName": "SILICOM LTD.",
       "trades": [
@@ -27547,6 +27612,66 @@
           "shares": 30000.0,
           "pricePerShare": 300.0,
           "transactionDate": "2026-08-06"
+        }
+      ]
+    },
+    "ARCB": {
+      "issuerName": "ARCBEST CORP /TX/",
+      "trades": [
+        {
+          "ticker": "ARCB",
+          "issuerName": "ARCBEST CORP /TX/",
+          "insiderName": "Stipp Janice E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1400.0,
+          "pricePerShare": 137.46,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "ARCB",
+          "issuerName": "ARCBEST CORP /TX/",
+          "insiderName": "Stipp Janice E",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3600.0,
+          "pricePerShare": 139.2,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "ARCB",
+          "issuerName": "ARCBEST CORP /TX/",
+          "insiderName": "MCREYNOLDS JUDY R",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 144.78,
+          "transactionDate": "2026-08-04"
+        }
+      ]
+    },
+    "SO": {
+      "issuerName": "SOUTHERN CO",
+      "trades": [
+        {
+          "ticker": "SO",
+          "issuerName": "SOUTHERN CO",
+          "insiderName": "Spainhour Sterling A Jr.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3333.0,
+          "pricePerShare": 94.02,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "SO",
+          "issuerName": "SOUTHERN CO",
+          "insiderName": "Kim Matthew M.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 94.28,
+          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -30885,6 +31010,21 @@
         }
       ]
     },
+    "TFSL": {
+      "issuerName": "TFS Financial CORP",
+      "trades": [
+        {
+          "ticker": "TFSL",
+          "issuerName": "TFS Financial CORP",
+          "insiderName": "Stefanski Gavin B",
+          "title": "Chief Experience Officer",
+          "type": "Sale",
+          "shares": 6500.0,
+          "pricePerShare": 18.35,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
     "SMBK": {
       "issuerName": "SMARTFINANCIAL INC.",
       "trades": [
@@ -33370,21 +33510,6 @@
         }
       ]
     },
-    "ARCB": {
-      "issuerName": "ARCBEST CORP /TX/",
-      "trades": [
-        {
-          "ticker": "ARCB",
-          "issuerName": "ARCBEST CORP /TX/",
-          "insiderName": "MCREYNOLDS JUDY R",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1500.0,
-          "pricePerShare": 144.78,
-          "transactionDate": "2026-08-04"
-        }
-      ]
-    },
     "NEO": {
       "issuerName": "NEOGENOMICS INC",
       "trades": [
@@ -34856,21 +34981,6 @@
           "type": "Sale",
           "shares": 50000.0,
           "pricePerShare": 9.9623,
-          "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "SO": {
-      "issuerName": "SOUTHERN CO",
-      "trades": [
-        {
-          "ticker": "SO",
-          "issuerName": "SOUTHERN CO",
-          "insiderName": "Kim Matthew M.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 94.28,
           "transactionDate": "2026-08-03"
         }
       ]
@@ -52771,6 +52881,9 @@
       "0000950103-26-012067",
       "0000950103-26-012068",
       "0000950103-26-012069",
+      "0000950103-26-012071",
+      "0000950103-26-012072",
+      "0000950103-26-012075",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -53318,6 +53431,7 @@
       "0001104659-26-092528",
       "0001104659-26-092557",
       "0001104659-26-092566",
+      "0001104659-26-092616",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -53603,6 +53717,7 @@
       "0001140361-26-031650",
       "0001140361-26-031660",
       "0001140361-26-031712",
+      "0001140361-26-031795",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -54947,6 +55062,21 @@
       "0001193125-26-339892",
       "0001193125-26-339899",
       "0001193125-26-339918",
+      "0001193125-26-339927",
+      "0001193125-26-339930",
+      "0001193125-26-339949",
+      "0001193125-26-339953",
+      "0001193125-26-339954",
+      "0001193125-26-339962",
+      "0001193125-26-339968",
+      "0001193125-26-339986",
+      "0001193125-26-339996",
+      "0001193125-26-340007",
+      "0001193125-26-340034",
+      "0001193125-26-340053",
+      "0001193125-26-340055",
+      "0001193125-26-340056",
+      "0001193125-26-340057",
       "0001193532-26-000008",
       "0001193532-26-000010",
       "0001194348-26-000004",
@@ -55506,6 +55636,10 @@
       "0001213900-26-086491",
       "0001213900-26-086492",
       "0001213900-26-086500",
+      "0001213900-26-086543",
+      "0001213900-26-086551",
+      "0001213900-26-086554",
+      "0001213900-26-086571",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -56442,6 +56576,7 @@
       "0001493152-26-036462",
       "0001493152-26-036463",
       "0001493152-26-036466",
+      "0001493152-26-036525",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -56568,6 +56703,7 @@
       "0001530255-26-000010",
       "0001530819-26-000012",
       "0001531352-26-000009",
+      "0001532388-26-000004",
       "0001532431-26-000014",
       "0001533568-26-000012",
       "0001534701-26-000026",
@@ -57086,6 +57222,7 @@
       "0001628280-26-054748",
       "0001628280-26-054750",
       "0001628280-26-054753",
+      "0001628280-26-054754",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -58694,6 +58831,13 @@
       "0001839882-26-039103",
       "0001839882-26-039105",
       "0001839882-26-039106",
+      "0001839882-26-039109",
+      "0001839882-26-039110",
+      "0001839882-26-039111",
+      "0001839882-26-039112",
+      "0001839882-26-039113",
+      "0001839882-26-039116",
+      "0001839882-26-039117",
       "0001840706-26-000265",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -60141,10 +60285,17 @@
       "0001918704-26-023173",
       "0001918704-26-023174",
       "0001918704-26-023175",
+      "0001918704-26-023176",
+      "0001918704-26-023177",
+      "0001918704-26-023178",
+      "0001918704-26-023179",
+      "0001918704-26-023180",
+      "0001918704-26-023181",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
       "0001921051-26-000012",
+      "0001921253-26-000004",
       "0001921640-26-000011",
       "0001922252-26-000003",
       "0001924613-26-000037",
@@ -60494,6 +60645,9 @@
       "0001999371-26-017331",
       "0001999371-26-017333",
       "0001999371-26-017346",
+      "0001999371-26-017397",
+      "0001999371-26-017400",
+      "0001999371-26-017402",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
