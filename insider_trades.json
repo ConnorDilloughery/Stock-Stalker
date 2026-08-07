@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-07T12:00:46.903178+00:00",
+  "generatedAt": "2026-08-07T13:01:24.488856+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 2420,
+  "count": 2426,
   "trades": [
     {
       "ticker": "SILC",
@@ -201,6 +201,16 @@
       "type": "Sale",
       "shares": 434.0,
       "pricePerShare": 111.86,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "SBLK",
+      "issuerName": "Star Bulk Carriers Corp.",
+      "insiderName": "Reskos Nikolaos",
+      "title": "Chief Operating Officer",
+      "type": "Sale",
+      "shares": 5000.0,
+      "pricePerShare": 29.5,
       "transactionDate": "2026-08-06"
     },
     {
@@ -1451,6 +1461,56 @@
       "type": "Sale",
       "shares": 27.0,
       "pricePerShare": 114.75,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "SSB",
+      "issuerName": "SouthState Bank Corp",
+      "insiderName": "Brooks David R",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 18000.0,
+      "pricePerShare": 110.0,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "SSB",
+      "issuerName": "SouthState Bank Corp",
+      "insiderName": "Brooks David R",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1800.0,
+      "pricePerShare": 110.0,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "SSB",
+      "issuerName": "SouthState Bank Corp",
+      "insiderName": "Brooks David R",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1100.0,
+      "pricePerShare": 110.0,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "SSB",
+      "issuerName": "SouthState Bank Corp",
+      "insiderName": "Brooks David R",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3750.0,
+      "pricePerShare": 110.0,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "IDCC",
+      "issuerName": "InterDigital, Inc.",
+      "insiderName": "Pankaj Rajesh",
+      "title": "Chief Technology Officer",
+      "type": "Sale",
+      "shares": 1500.0,
+      "pricePerShare": 324.88,
       "transactionDate": "2026-08-05"
     },
     {
@@ -26615,6 +26675,31 @@
         }
       ]
     },
+    "SBLK": {
+      "issuerName": "Star Bulk Carriers Corp.",
+      "trades": [
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Reskos Nikolaos",
+          "title": "Chief Operating Officer",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 29.5,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Reskos Nikolaos",
+          "title": "Chief Operating Officer",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 28.99,
+          "transactionDate": "2026-07-30"
+        }
+      ]
+    },
     "PKG": {
       "issuerName": "PACKAGING CORP OF AMERICA",
       "trades": [
@@ -29721,6 +29806,76 @@
           "type": "Sale",
           "shares": 15400.0,
           "pricePerShare": 28.05,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "SSB": {
+      "issuerName": "SouthState Bank Corp",
+      "trades": [
+        {
+          "ticker": "SSB",
+          "issuerName": "SouthState Bank Corp",
+          "insiderName": "Brooks David R",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 18000.0,
+          "pricePerShare": 110.0,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "SSB",
+          "issuerName": "SouthState Bank Corp",
+          "insiderName": "Brooks David R",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1800.0,
+          "pricePerShare": 110.0,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "SSB",
+          "issuerName": "SouthState Bank Corp",
+          "insiderName": "Brooks David R",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 110.0,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "SSB",
+          "issuerName": "SouthState Bank Corp",
+          "insiderName": "Brooks David R",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3750.0,
+          "pricePerShare": 110.0,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "SSB",
+          "issuerName": "SouthState Bank Corp",
+          "insiderName": "Brooks David R",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6181.0,
+          "pricePerShare": 107.92,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "IDCC": {
+      "issuerName": "InterDigital, Inc.",
+      "trades": [
+        {
+          "ticker": "IDCC",
+          "issuerName": "InterDigital, Inc.",
+          "insiderName": "Pankaj Rajesh",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 324.88,
           "transactionDate": "2026-08-05"
         }
       ]
@@ -33956,21 +34111,6 @@
           "type": "Purchase",
           "shares": 2500.0,
           "pricePerShare": 4.78,
-          "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "SSB": {
-      "issuerName": "SouthState Bank Corp",
-      "trades": [
-        {
-          "ticker": "SSB",
-          "issuerName": "SouthState Bank Corp",
-          "insiderName": "Brooks David R",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6181.0,
-          "pricePerShare": 107.92,
           "transactionDate": "2026-08-03"
         }
       ]
@@ -42436,21 +42576,6 @@
           "type": "Sale",
           "shares": 2000.0,
           "pricePerShare": 36.7601,
-          "transactionDate": "2026-07-30"
-        }
-      ]
-    },
-    "SBLK": {
-      "issuerName": "Star Bulk Carriers Corp.",
-      "trades": [
-        {
-          "ticker": "SBLK",
-          "issuerName": "Star Bulk Carriers Corp.",
-          "insiderName": "Reskos Nikolaos",
-          "title": "Chief Operating Officer",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 28.99,
           "transactionDate": "2026-07-30"
         }
       ]
@@ -51290,6 +51415,7 @@
       "0000779152-26-000049",
       "0000779152-26-000050",
       "0000784977-26-000048",
+      "0000787441-26-000039",
       "0000788599-26-000084",
       "0000790359-26-000059",
       "0000790359-26-000060",
@@ -51341,6 +51467,7 @@
       "0000885590-26-000101",
       "0000886982-26-000298",
       "0000887340-26-000097",
+      "0000887340-26-000099",
       "0000894189-26-021227",
       "0000894189-26-021264",
       "0000894189-26-021338",
@@ -52524,6 +52651,7 @@
       "0001104659-26-092232",
       "0001104659-26-092233",
       "0001104659-26-092263",
+      "0001104659-26-092381",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -54128,6 +54256,13 @@
       "0001193125-26-339176",
       "0001193125-26-339179",
       "0001193125-26-339181",
+      "0001193125-26-339244",
+      "0001193125-26-339284",
+      "0001193125-26-339285",
+      "0001193125-26-339286",
+      "0001193125-26-339287",
+      "0001193125-26-339289",
+      "0001193125-26-339293",
       "0001193532-26-000008",
       "0001193532-26-000010",
       "0001196460-26-000004",
@@ -54669,6 +54804,12 @@
       "0001213900-26-086375",
       "0001213900-26-086403",
       "0001213900-26-086405",
+      "0001213900-26-086415",
+      "0001213900-26-086427",
+      "0001213900-26-086431",
+      "0001213900-26-086432",
+      "0001213900-26-086433",
+      "0001213900-26-086434",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -55363,6 +55504,7 @@
       "0001466848-26-000005",
       "0001467266-26-000008",
       "0001468327-26-000055",
+      "0001469192-26-000107",
       "0001469367-26-000055",
       "0001470831-26-000729",
       "0001471619-26-000002",
@@ -55781,6 +55923,7 @@
       "0001569789-26-000012",
       "0001571610-26-000013",
       "0001573461-26-000004",
+      "0001573461-26-000005",
       "0001575124-26-000019",
       "0001575202-26-000011",
       "0001576059-26-000002",
@@ -56215,6 +56358,7 @@
       "0001628280-26-054546",
       "0001628280-26-054553",
       "0001628280-26-054555",
+      "0001628280-26-054590",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -59172,6 +59316,7 @@
       "0001968951-26-000004",
       "0001969106-26-000004",
       "0001969292-26-000007",
+      "0001969292-26-000009",
       "0001970613-26-000004",
       "0001971511-26-000004",
       "0001971617-26-000010",
@@ -59453,6 +59598,8 @@
       "0001999371-26-017234",
       "0001999371-26-017262",
       "0001999371-26-017271",
+      "0001999371-26-017278",
+      "0001999371-26-017280",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
@@ -59540,6 +59687,7 @@
       "0002052113-26-000809",
       "0002052319-26-000008",
       "0002052896-26-000001",
+      "0002052994-26-000003",
       "0002053817-26-000003",
       "0002055817-26-000003",
       "0002056381-26-000004",
@@ -59642,6 +59790,7 @@
       "0002123843-26-000008",
       "0002124319-26-000008",
       "0002124319-26-000010",
+      "0002125050-26-000006",
       "0002125533-26-000013",
       "0002126940-26-000004",
       "0002127674-26-000002",
