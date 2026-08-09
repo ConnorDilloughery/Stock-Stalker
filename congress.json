@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-09T15:06:07.153914+00:00",
+  "generatedAt": "2026-08-09T15:09:11.089605+00:00",
   "source": "U.S. Senate (efdsearch.senate.gov) + U.S. House (disclosures-clerk.house.gov) + President Trump's PTRs (whitehouse.gov)",
-  "count": 4431,
+  "count": 4433,
   "trades": [
     {
       "politician": "Delaney, April McClain",
@@ -4314,6 +4314,34 @@
       "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034479.pdf",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034479.pdf",
       "source": "house"
+    },
+    {
+      "politician": "Donald J. Trump",
+      "office": "President",
+      "transactionDate": null,
+      "filedDate": "04/20/2026",
+      "owner": null,
+      "ticker": "MSFT",
+      "assetName": null,
+      "type": "Purchase",
+      "amountRange": "$15,001 - $50,000",
+      "sourceId": "5222a7c9279310c6",
+      "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/04/President-Donald-J.-Trump-Periodic-Transaction-Report-4.20.26.pdf",
+      "source": "president"
+    },
+    {
+      "politician": "Donald J. Trump",
+      "office": "President",
+      "transactionDate": null,
+      "filedDate": "04/20/2026",
+      "owner": null,
+      "ticker": "BA",
+      "assetName": null,
+      "type": null,
+      "amountRange": "$250,004 - $500,000",
+      "sourceId": "5222a7c9279310c6",
+      "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/04/President-Donald-J.-Trump-Periodic-Transaction-Report-4.20.26.pdf",
+      "source": "president"
     },
     {
       "politician": "Delaney, April McClain",
@@ -85294,6 +85322,38 @@
       },
       "tradeCount": 4
     },
+    "Donald J. Trump": {
+      "office": "President",
+      "tickers": {
+        "MSFT": {
+          "trades": [
+            {
+              "transactionDate": null,
+              "filedDate": "04/20/2026",
+              "type": "Purchase",
+              "amountRange": "$15,001 - $50,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Purchase",
+          "lastDate": "04/20/2026"
+        },
+        "BA": {
+          "trades": [
+            {
+              "transactionDate": null,
+              "filedDate": "04/20/2026",
+              "type": null,
+              "amountRange": "$250,004 - $500,000",
+              "owner": null
+            }
+          ],
+          "lastAction": null,
+          "lastDate": "04/20/2026"
+        }
+      },
+      "tradeCount": 2
+    },
     "Fletcher, Elizabeth": {
       "office": "TX07",
       "tickers": {
@@ -110202,7 +110262,8 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116212.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116217.pdf",
-      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116218.pdf"
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116218.pdf",
+      "https://www.whitehouse.gov/wp-content/uploads/2026/04/President-Donald-J.-Trump-Periodic-Transaction-Report-4.20.26.pdf"
     ],
     "lastFiledDateSenate": null
   }
