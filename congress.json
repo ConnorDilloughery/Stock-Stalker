@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-09T14:45:05.376923+00:00",
+  "generatedAt": "2026-08-09T14:46:12.688557+00:00",
   "source": "U.S. Senate (efdsearch.senate.gov) + U.S. House (disclosures-clerk.house.gov) + President Trump's PTRs (whitehouse.gov)",
-  "count": 2920,
+  "count": 2924,
   "trades": [
     {
       "politician": "Delaney, April McClain",
@@ -23426,6 +23426,34 @@
       "source": "house"
     },
     {
+      "politician": "Kelly, Mike",
+      "office": "PA16",
+      "transactionDate": "06/20/2025",
+      "filedDate": null,
+      "owner": null,
+      "ticker": "X",
+      "assetName": null,
+      "type": "Sale",
+      "amountRange": "$15,001 - $50,000",
+      "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030639.pdf",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030639.pdf",
+      "source": "house"
+    },
+    {
+      "politician": "Kelly, Mike",
+      "office": "PA16",
+      "transactionDate": "06/18/2025",
+      "filedDate": null,
+      "owner": null,
+      "ticker": "HLMEX",
+      "assetName": null,
+      "type": "Sale",
+      "amountRange": "$100,001 - $250,000",
+      "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030639.pdf",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030639.pdf",
+      "source": "house"
+    },
+    {
       "politician": "Letlow, Julia",
       "office": "LA05",
       "transactionDate": "06/17/2025",
@@ -32904,6 +32932,20 @@
       "source": "house"
     },
     {
+      "politician": "Keating, William R.",
+      "office": "MA09",
+      "transactionDate": "03/03/2025",
+      "filedDate": null,
+      "owner": null,
+      "ticker": "BJ",
+      "assetName": null,
+      "type": "Sale",
+      "amountRange": "$1,001 - $15,000",
+      "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20028007.pdf",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20028007.pdf",
+      "source": "house"
+    },
+    {
       "politician": "Letlow, Julia",
       "office": "LA05",
       "transactionDate": "02/28/2025",
@@ -37241,6 +37283,20 @@
       "amountRange": "$1,001 - $15,000",
       "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026762.pdf",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026762.pdf",
+      "source": "house"
+    },
+    {
+      "politician": "Knott, Brad",
+      "office": "NC13",
+      "transactionDate": "01/14/2025",
+      "filedDate": null,
+      "owner": null,
+      "ticker": "CMPO",
+      "assetName": null,
+      "type": "Purchase",
+      "amountRange": "$1,001 - $15,000",
+      "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027846.pdf",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027846.pdf",
       "source": "house"
     },
     {
@@ -61574,9 +61630,35 @@
           ],
           "lastAction": "Sale",
           "lastDate": "05/07/2026"
+        },
+        "X": {
+          "trades": [
+            {
+              "transactionDate": "06/20/2025",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$15,001 - $50,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "06/20/2025"
+        },
+        "HLMEX": {
+          "trades": [
+            {
+              "transactionDate": "06/18/2025",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$100,001 - $250,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "06/18/2025"
         }
       },
-      "tradeCount": 1
+      "tradeCount": 3
     },
     "Babin, Brian": {
       "office": "TX36",
@@ -71912,6 +71994,19 @@
     "Keating, William R.": {
       "office": "MA09",
       "tickers": {
+        "BJ": {
+          "trades": [
+            {
+              "transactionDate": "03/03/2025",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$1,001 - $15,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "03/03/2025"
+        },
         "ARMK": {
           "trades": [
             {
@@ -71978,7 +72073,7 @@
           "lastDate": "01/07/2025"
         }
       },
-      "tradeCount": 5
+      "tradeCount": 6
     },
     "Green, Mark Dr": {
       "office": "TN07",
@@ -71998,6 +72093,25 @@
         }
       },
       "tradeCount": 1
+    },
+    "Knott, Brad": {
+      "office": "NC13",
+      "tickers": {
+        "CMPO": {
+          "trades": [
+            {
+              "transactionDate": "01/14/2025",
+              "filedDate": null,
+              "type": "Purchase",
+              "amountRange": "$1,001 - $15,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Purchase",
+          "lastDate": "01/14/2025"
+        }
+      },
+      "tradeCount": 1
     }
   },
   "_meta": {
@@ -72013,6 +72127,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026538.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026545.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026548.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026550.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026556.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026591.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026597.pdf",
@@ -72031,6 +72146,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026750.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026762.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026791.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026792.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026794.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026802.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027807.pdf",
@@ -72039,6 +72155,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027834.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027837.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027845.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027846.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027855.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027876.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027891.pdf",
@@ -72061,6 +72178,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027995.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027999.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20028002.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20028007.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20028016.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20028025.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029026.pdf",
@@ -72086,6 +72204,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029132.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029138.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030155.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030174.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030179.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030181.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030185.pdf",
@@ -72135,6 +72254,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030502.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030539.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030541.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030542.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030546.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030548.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030551.pdf",
@@ -72150,6 +72270,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030632.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030634.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030635.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030639.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030641.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030646.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030647.pdf",
@@ -72170,6 +72291,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030857.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030860.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030889.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030892.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030901.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030909.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030918.pdf",
@@ -72186,6 +72308,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031007.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031011.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031013.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031014.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031017.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031022.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031023.pdf",
@@ -72216,6 +72339,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032246.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032248.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032250.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032254.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032269.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032284.pdf",
@@ -72237,6 +72361,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033424.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033428.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033431.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033447.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033455.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033458.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033462.pdf",
@@ -72259,21 +72384,35 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033589.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033604.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033611.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033615.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033616.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033619.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033628.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033649.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033659.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033667.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033691.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033694.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220747.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220750.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220753.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220783.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220796.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220809.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220827.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220845.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220902.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220906.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221124.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221176.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221231.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221237.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221264.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221285.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115670.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115671.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115676.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115679.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20019182.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20020055.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20022577.pdf",
