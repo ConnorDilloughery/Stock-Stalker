@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-10T14:03:45.838838+00:00",
+  "generatedAt": "2026-08-10T15:01:59.392204+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 2849,
+  "count": 2852,
   "trades": [
     {
       "ticker": "WEYS",
@@ -901,6 +901,26 @@
       "type": "Purchase",
       "shares": 72.0,
       "pricePerShare": 73.31,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "ECAT",
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 165027.0,
+      "pricePerShare": 15.67,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "WEYS",
+      "issuerName": "WEYCO GROUP INC",
+      "insiderName": "Schiff Kevin",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1191.0,
+      "pricePerShare": 45.3215,
       "transactionDate": "2026-08-07"
     },
     {
@@ -2151,6 +2171,16 @@
       "type": "Purchase",
       "shares": 1857.0,
       "pricePerShare": 2.1315,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "ECAT",
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 134046.0,
+      "pricePerShare": 15.5,
       "transactionDate": "2026-08-06"
     },
     {
@@ -28517,6 +28547,16 @@
           "shares": 2602.0,
           "pricePerShare": 43.2731,
           "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "WEYS",
+          "issuerName": "WEYCO GROUP INC",
+          "insiderName": "Schiff Kevin",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1191.0,
+          "pricePerShare": 45.3215,
+          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -30782,6 +30822,131 @@
           "shares": 1000.0,
           "pricePerShare": 71.94,
           "transactionDate": "2026-07-19"
+        }
+      ]
+    },
+    "ECAT": {
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "trades": [
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 165027.0,
+          "pricePerShare": 15.67,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 134046.0,
+          "pricePerShare": 15.5,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 42298.0,
+          "pricePerShare": 15.46,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 99323.0,
+          "pricePerShare": 15.34,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 158002.0,
+          "pricePerShare": 14.94,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 148742.0,
+          "pricePerShare": 15.15,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 151995.0,
+          "pricePerShare": 15.11,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 46387.0,
+          "pricePerShare": 15.13,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 79000.0,
+          "pricePerShare": 15.44,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 93506.0,
+          "pricePerShare": 15.49,
+          "transactionDate": "2026-07-21"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 83087.0,
+          "pricePerShare": 15.35,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 32854.0,
+          "pricePerShare": 15.62,
+          "transactionDate": "2026-07-16"
         }
       ]
     },
@@ -37622,111 +37787,6 @@
           "shares": 43382.0,
           "pricePerShare": 4.67,
           "transactionDate": "2026-08-05"
-        }
-      ]
-    },
-    "ECAT": {
-      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-      "trades": [
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 42298.0,
-          "pricePerShare": 15.46,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 99323.0,
-          "pricePerShare": 15.34,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 158002.0,
-          "pricePerShare": 14.94,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 148742.0,
-          "pricePerShare": 15.15,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 151995.0,
-          "pricePerShare": 15.11,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 46387.0,
-          "pricePerShare": 15.13,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 79000.0,
-          "pricePerShare": 15.44,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 93506.0,
-          "pricePerShare": 15.49,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 83087.0,
-          "pricePerShare": 15.35,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 32854.0,
-          "pricePerShare": 15.62,
-          "transactionDate": "2026-07-16"
         }
       ]
     },
@@ -60903,6 +60963,9 @@
       "0000950103-26-012095",
       "0000950103-26-012096",
       "0000950103-26-012097",
+      "0000950103-26-012100",
+      "0000950103-26-012101",
+      "0000950103-26-012102",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -61503,6 +61566,8 @@
       "0001104659-26-093108",
       "0001104659-26-093116",
       "0001104659-26-093133",
+      "0001104659-26-093140",
+      "0001104659-26-093166",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -61798,6 +61863,7 @@
       "0001140361-26-031892",
       "0001140361-26-031893",
       "0001140361-26-031935",
+      "0001140361-26-031964",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -63202,6 +63268,7 @@
       "0001193125-26-341308",
       "0001193125-26-341420",
       "0001193125-26-341435",
+      "0001193125-26-341528",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -63793,6 +63860,9 @@
       "0001213900-26-086824",
       "0001213900-26-086889",
       "0001213900-26-086952",
+      "0001213900-26-087060",
+      "0001213900-26-087066",
+      "0001213900-26-087068",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -63905,6 +63975,7 @@
       "0001214659-26-009814",
       "0001214659-26-009815",
       "0001214659-26-009816",
+      "0001214659-26-009818",
       "0001216055-26-000006",
       "0001216055-26-000007",
       "0001216725-26-000012",
@@ -64521,6 +64592,10 @@
       "0001445546-26-005785",
       "0001445546-26-005787",
       "0001445546-26-005789",
+      "0001445546-26-005921",
+      "0001445546-26-005922",
+      "0001445546-26-005923",
+      "0001445546-26-005924",
       "0001448765-26-000011",
       "0001451455-26-000009",
       "0001451763-26-000012",
@@ -64772,6 +64847,7 @@
       "0001493152-26-036689",
       "0001493152-26-036690",
       "0001493152-26-036700",
+      "0001493152-26-036782",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -64825,6 +64901,7 @@
       "0001510281-26-000260",
       "0001510281-26-000261",
       "0001510281-26-000262",
+      "0001510281-26-000263",
       "0001511110-26-000008",
       "0001511110-26-000010",
       "0001511194-26-000012",
@@ -64852,6 +64929,9 @@
       "0001526520-26-000153",
       "0001526520-26-000155",
       "0001526520-26-000157",
+      "0001527541-26-000265",
+      "0001527541-26-000267",
+      "0001527541-26-000269",
       "0001528621-26-000727",
       "0001528621-26-000729",
       "0001528621-26-000762",
@@ -65615,9 +65695,11 @@
       "0001689926-26-000003",
       "0001690209-26-000003",
       "0001690867-26-000004",
+      "0001691646-26-000004",
       "0001691675-26-000002",
       "0001691675-26-000004",
       "0001692175-26-000010",
+      "0001692175-26-000012",
       "0001693906-26-000011",
       "0001693906-26-000012",
       "0001693996-26-000001",
@@ -67113,6 +67195,17 @@
       "0001839882-26-039140",
       "0001839882-26-039141",
       "0001839882-26-039142",
+      "0001839882-26-039158",
+      "0001839882-26-039163",
+      "0001839882-26-039164",
+      "0001839882-26-039165",
+      "0001839882-26-039167",
+      "0001839882-26-039170",
+      "0001839882-26-039171",
+      "0001839882-26-039172",
+      "0001839882-26-039173",
+      "0001839882-26-039174",
+      "0001839882-26-039176",
       "0001840244-26-000015",
       "0001840706-26-000265",
       "0001840706-26-000275",
@@ -68604,6 +68697,25 @@
       "0001918704-26-023246",
       "0001918704-26-023250",
       "0001918704-26-023251",
+      "0001918704-26-023252",
+      "0001918704-26-023253",
+      "0001918704-26-023254",
+      "0001918704-26-023255",
+      "0001918704-26-023256",
+      "0001918704-26-023257",
+      "0001918704-26-023258",
+      "0001918704-26-023259",
+      "0001918704-26-023260",
+      "0001918704-26-023261",
+      "0001918704-26-023262",
+      "0001918704-26-023263",
+      "0001918704-26-023264",
+      "0001918704-26-023265",
+      "0001918704-26-023266",
+      "0001918704-26-023267",
+      "0001918704-26-023268",
+      "0001918704-26-023269",
+      "0001918704-26-023270",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -69134,6 +69246,7 @@
       "0002079520-26-000020",
       "0002079962-26-000015",
       "0002080505-26-000002",
+      "0002080588-26-000005",
       "0002083595-26-000006",
       "0002083617-26-000012",
       "0002084264-26-000004",
@@ -69232,7 +69345,8 @@
       "0002146909-26-000004",
       "0002147247-26-000004",
       "0002147429-26-000003",
-      "0002148131-26-000004"
+      "0002148131-26-000004",
+      "0002149159-26-000004"
     ]
   }
 }
