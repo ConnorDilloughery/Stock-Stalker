@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-10T10:03:52.149628+00:00",
+  "generatedAt": "2026-08-10T11:02:54.460660+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
-  "count": 2801,
+  "count": 2810,
   "trades": [
     {
       "ticker": "WEYS",
@@ -551,6 +551,36 @@
       "type": "Purchase",
       "shares": 1054.0,
       "pricePerShare": 78.938,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "IDCC",
+      "issuerName": "InterDigital, Inc.",
+      "insiderName": "Gillman Joan H",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 300.0,
+      "pricePerShare": 331.06,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "FND",
+      "issuerName": "Floor & Decor Holdings, Inc.",
+      "insiderName": "TAYLOR THOMAS V",
+      "title": "Director, Executive Chair",
+      "type": "Sale",
+      "shares": 218189.0,
+      "pricePerShare": 62.3,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "PRCT",
+      "issuerName": "PROCEPT BioRobotics Corp",
+      "insiderName": "Wood Larry L",
+      "title": "Director, President, CEO",
+      "type": "Purchase",
+      "shares": 23900.0,
+      "pricePerShare": 20.85,
       "transactionDate": "2026-08-07"
     },
     {
@@ -1741,6 +1771,16 @@
       "type": "Purchase",
       "shares": 1063.0,
       "pricePerShare": 79.5271,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "BYRN",
+      "issuerName": "Byrna Technologies Inc.",
+      "insiderName": "ELMORE LEONARD J",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 4.64,
       "transactionDate": "2026-08-06"
     },
     {
@@ -5184,6 +5224,26 @@
       "transactionDate": "2026-08-05"
     },
     {
+      "ticker": "COE",
+      "issuerName": "51Talk Online Education Group",
+      "insiderName": "Huang Jack Jiajia",
+      "title": "Director, Chief Executive Officer, 10% Owner",
+      "type": "Purchase",
+      "shares": 158460.0,
+      "pricePerShare": 19.2,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "TEVA",
+      "issuerName": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
+      "insiderName": "Zaks Tal Zvi",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 17.0,
+      "pricePerShare": 34.8655,
+      "transactionDate": "2026-08-05"
+    },
+    {
       "ticker": "SMBK",
       "issuerName": "SMARTFINANCIAL INC.",
       "insiderName": "Jordan Rhett D.",
@@ -7521,6 +7581,16 @@
       "type": "Sale",
       "shares": 98.0,
       "pricePerShare": 21.8,
+      "transactionDate": "2026-08-04"
+    },
+    {
+      "ticker": "COE",
+      "issuerName": "51Talk Online Education Group",
+      "insiderName": "Huang Jack Jiajia",
+      "title": "Director, Chief Executive Officer, 10% Owner",
+      "type": "Purchase",
+      "shares": 125880.0,
+      "pricePerShare": 19.06,
       "transactionDate": "2026-08-04"
     },
     {
@@ -11614,6 +11684,16 @@
       "transactionDate": "2026-08-03"
     },
     {
+      "ticker": "COE",
+      "issuerName": "51Talk Online Education Group",
+      "insiderName": "Huang Jack Jiajia",
+      "title": "Director, Chief Executive Officer, 10% Owner",
+      "type": "Purchase",
+      "shares": 333840.0,
+      "pricePerShare": 18.48,
+      "transactionDate": "2026-08-03"
+    },
+    {
       "ticker": "TSBK",
       "issuerName": "TIMBERLAND BANCORP INC",
       "insiderName": "Antich Breanne D",
@@ -12931,6 +13011,16 @@
       "type": "Sale",
       "shares": 625000.0,
       "pricePerShare": 0.8,
+      "transactionDate": "2026-07-31"
+    },
+    {
+      "ticker": "COE",
+      "issuerName": "51Talk Online Education Group",
+      "insiderName": "Huang Jack Jiajia",
+      "title": "Director, Chief Executive Officer, 10% Owner",
+      "type": "Purchase",
+      "shares": 122580.0,
+      "pricePerShare": 17.54,
       "transactionDate": "2026-07-31"
     },
     {
@@ -29690,6 +29780,61 @@
         }
       ]
     },
+    "IDCC": {
+      "issuerName": "InterDigital, Inc.",
+      "trades": [
+        {
+          "ticker": "IDCC",
+          "issuerName": "InterDigital, Inc.",
+          "insiderName": "Gillman Joan H",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 300.0,
+          "pricePerShare": 331.06,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "IDCC",
+          "issuerName": "InterDigital, Inc.",
+          "insiderName": "Pankaj Rajesh",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 324.88,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "FND": {
+      "issuerName": "Floor & Decor Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "FND",
+          "issuerName": "Floor & Decor Holdings, Inc.",
+          "insiderName": "TAYLOR THOMAS V",
+          "title": "Director, Executive Chair",
+          "type": "Sale",
+          "shares": 218189.0,
+          "pricePerShare": 62.3,
+          "transactionDate": "2026-08-07"
+        }
+      ]
+    },
+    "PRCT": {
+      "issuerName": "PROCEPT BioRobotics Corp",
+      "trades": [
+        {
+          "ticker": "PRCT",
+          "issuerName": "PROCEPT BioRobotics Corp",
+          "insiderName": "Wood Larry L",
+          "title": "Director, President, CEO",
+          "type": "Purchase",
+          "shares": 23900.0,
+          "pricePerShare": 20.85,
+          "transactionDate": "2026-08-07"
+        }
+      ]
+    },
     "SILC": {
       "issuerName": "SILICOM LTD.",
       "trades": [
@@ -35055,6 +35200,111 @@
         }
       ]
     },
+    "BYRN": {
+      "issuerName": "Byrna Technologies Inc.",
+      "trades": [
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "ELMORE LEONARD J",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 4.64,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Hughes Herbert",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1499.0,
+          "pricePerShare": 3.8633,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Hughes Herbert",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2501.0,
+          "pricePerShare": 3.77,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Reed Chris Lavern",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 8150.0,
+          "pricePerShare": 3.63,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Davis Conn Q.",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 3430.0,
+          "pricePerShare": 3.51,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Hughes Herbert",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 3703.0,
+          "pricePerShare": 3.4232,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Hughes Herbert",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 12500.0,
+          "pricePerShare": 3.4037,
+          "transactionDate": "2026-07-23"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Davis Conn Q.",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 18767.9201,
+          "pricePerShare": 3.4614,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Hughes Herbert",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 5478.0,
+          "pricePerShare": 3.4733,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "BYRN",
+          "issuerName": "Byrna Technologies Inc.",
+          "insiderName": "Kennedy TJ",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 29000.0,
+          "pricePerShare": 3.5271,
+          "transactionDate": "2026-07-22"
+        }
+      ]
+    },
     "PKG": {
       "issuerName": "PACKAGING CORP OF AMERICA",
       "trades": [
@@ -37885,21 +38135,6 @@
         }
       ]
     },
-    "IDCC": {
-      "issuerName": "InterDigital, Inc.",
-      "trades": [
-        {
-          "ticker": "IDCC",
-          "issuerName": "InterDigital, Inc.",
-          "insiderName": "Pankaj Rajesh",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 1500.0,
-          "pricePerShare": 324.88,
-          "transactionDate": "2026-08-05"
-        }
-      ]
-    },
     "ATRC": {
       "issuerName": "AtriCure, Inc.",
       "trades": [
@@ -40036,6 +40271,206 @@
           "type": "Sale",
           "shares": 3032.0,
           "pricePerShare": 165.0,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "COE": {
+      "issuerName": "51Talk Online Education Group",
+      "trades": [
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 158460.0,
+          "pricePerShare": 19.2,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 125880.0,
+          "pricePerShare": 19.06,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 333840.0,
+          "pricePerShare": 18.48,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 122580.0,
+          "pricePerShare": 17.54,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 194460.0,
+          "pricePerShare": 17.21,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 109080.0,
+          "pricePerShare": 16.91,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 169980.0,
+          "pricePerShare": 16.88,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 451320.0,
+          "pricePerShare": 16.97,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 185880.0,
+          "pricePerShare": 16.26,
+          "transactionDate": "2026-07-24"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 112500.0,
+          "pricePerShare": 16.68,
+          "transactionDate": "2026-07-20"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 83460.0,
+          "pricePerShare": 16.56,
+          "transactionDate": "2026-07-17"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 111840.0,
+          "pricePerShare": 16.6,
+          "transactionDate": "2026-07-16"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 135540.0,
+          "pricePerShare": 16.93,
+          "transactionDate": "2026-07-15"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 178800.0,
+          "pricePerShare": 17.23,
+          "transactionDate": "2026-07-14"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 213480.0,
+          "pricePerShare": 17.24,
+          "transactionDate": "2026-07-13"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 95040.0,
+          "pricePerShare": 16.71,
+          "transactionDate": "2026-07-10"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 186840.0,
+          "pricePerShare": 17.19,
+          "transactionDate": "2026-07-09"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Shu Ting",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 7471500.0,
+          "pricePerShare": null,
+          "transactionDate": "2026-03-26"
+        }
+      ]
+    },
+    "TEVA": {
+      "issuerName": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
+      "trades": [
+        {
+          "ticker": "TEVA",
+          "issuerName": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
+          "insiderName": "Zaks Tal Zvi",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 17.0,
+          "pricePerShare": 34.8655,
           "transactionDate": "2026-08-05"
         }
       ]
@@ -51160,151 +51595,6 @@
         }
       ]
     },
-    "COE": {
-      "issuerName": "51Talk Online Education Group",
-      "trades": [
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 194460.0,
-          "pricePerShare": 17.21,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 109080.0,
-          "pricePerShare": 16.91,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 169980.0,
-          "pricePerShare": 16.88,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 451320.0,
-          "pricePerShare": 16.97,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 185880.0,
-          "pricePerShare": 16.26,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 112500.0,
-          "pricePerShare": 16.68,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 83460.0,
-          "pricePerShare": 16.56,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 111840.0,
-          "pricePerShare": 16.6,
-          "transactionDate": "2026-07-16"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 135540.0,
-          "pricePerShare": 16.93,
-          "transactionDate": "2026-07-15"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 178800.0,
-          "pricePerShare": 17.23,
-          "transactionDate": "2026-07-14"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 213480.0,
-          "pricePerShare": 17.24,
-          "transactionDate": "2026-07-13"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 95040.0,
-          "pricePerShare": 16.71,
-          "transactionDate": "2026-07-10"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 186840.0,
-          "pricePerShare": 17.19,
-          "transactionDate": "2026-07-09"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Shu Ting",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 7471500.0,
-          "pricePerShare": null,
-          "transactionDate": "2026-03-26"
-        }
-      ]
-    },
     "EQBK": {
       "issuerName": "EQUITY BANCSHARES INC",
       "trades": [
@@ -52487,101 +52777,6 @@
           "shares": 4760.0,
           "pricePerShare": 213.62,
           "transactionDate": "2026-07-24"
-        }
-      ]
-    },
-    "BYRN": {
-      "issuerName": "Byrna Technologies Inc.",
-      "trades": [
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Hughes Herbert",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1499.0,
-          "pricePerShare": 3.8633,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Hughes Herbert",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 2501.0,
-          "pricePerShare": 3.77,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Reed Chris Lavern",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 8150.0,
-          "pricePerShare": 3.63,
-          "transactionDate": "2026-07-24"
-        },
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Davis Conn Q.",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 3430.0,
-          "pricePerShare": 3.51,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Hughes Herbert",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 3703.0,
-          "pricePerShare": 3.4232,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Hughes Herbert",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 12500.0,
-          "pricePerShare": 3.4037,
-          "transactionDate": "2026-07-23"
-        },
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Davis Conn Q.",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 18767.9201,
-          "pricePerShare": 3.4614,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Hughes Herbert",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 5478.0,
-          "pricePerShare": 3.4733,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "BYRN",
-          "issuerName": "Byrna Technologies Inc.",
-          "insiderName": "Kennedy TJ",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 29000.0,
-          "pricePerShare": 3.5271,
-          "transactionDate": "2026-07-22"
         }
       ]
     },
@@ -59917,6 +60112,12 @@
       "0000950103-26-012072",
       "0000950103-26-012075",
       "0000950103-26-012078",
+      "0000950103-26-012091",
+      "0000950103-26-012093",
+      "0000950103-26-012094",
+      "0000950103-26-012095",
+      "0000950103-26-012096",
+      "0000950103-26-012097",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -60477,6 +60678,7 @@
       "0001104659-26-092838",
       "0001104659-26-092853",
       "0001104659-26-092867",
+      "0001104659-26-092869",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -60828,6 +61030,7 @@
       "0001178913-26-003735",
       "0001178913-26-003885",
       "0001178913-26-003909",
+      "0001178913-26-003963",
       "0001181540-26-000002",
       "0001181664-26-000004",
       "0001181672-26-000004",
@@ -62162,6 +62365,8 @@
       "0001193125-26-340735",
       "0001193125-26-340765",
       "0001193125-26-340786",
+      "0001193125-26-341076",
+      "0001193125-26-341086",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -63368,6 +63573,7 @@
       "0001437749-26-026603",
       "0001437749-26-026608",
       "0001437749-26-026616",
+      "0001437749-26-026647",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001444540-26-000002",
@@ -64400,6 +64606,10 @@
       "0001628280-26-054948",
       "0001628280-26-054951",
       "0001628280-26-054956",
+      "0001628280-26-054970",
+      "0001628280-26-054972",
+      "0001628280-26-054978",
+      "0001628280-26-054987",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -67534,6 +67744,8 @@
       "0001918704-26-023204",
       "0001918704-26-023205",
       "0001918704-26-023206",
+      "0001918704-26-023227",
+      "0001918704-26-023228",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -67944,6 +68156,7 @@
       "0002029760-26-000003",
       "0002029760-26-000004",
       "0002029760-26-000005",
+      "0002029760-26-000006",
       "0002030650-26-000006",
       "0002031596-26-000006",
       "0002031697-26-000006",
@@ -68155,6 +68368,7 @@
       "0002146475-26-000002",
       "0002146717-26-000004",
       "0002146909-26-000004",
+      "0002147247-26-000004",
       "0002147429-26-000003",
       "0002148131-26-000004"
     ]
