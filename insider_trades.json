@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T15:00:46.424859+00:00",
+  "generatedAt": "2026-08-11T16:05:28.699959+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -641,6 +641,46 @@
       "type": "Purchase",
       "shares": 9443.0,
       "pricePerShare": 1.03,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "GLBE",
+      "issuerName": "Global-E Online Ltd.",
+      "insiderName": "Schlachet Amir",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 322.0,
+      "pricePerShare": 42.0734,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "CROX",
+      "issuerName": "Crocs, Inc.",
+      "insiderName": "Rees Andrew",
+      "title": "Director, Chief Executive Officer",
+      "type": "Sale",
+      "shares": 9576.0,
+      "pricePerShare": 138.3812,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "CROX",
+      "issuerName": "Crocs, Inc.",
+      "insiderName": "Rees Andrew",
+      "title": "Director, Chief Executive Officer",
+      "type": "Sale",
+      "shares": 8696.0,
+      "pricePerShare": 139.3938,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "CROX",
+      "issuerName": "Crocs, Inc.",
+      "insiderName": "Rees Andrew",
+      "title": "Director, Chief Executive Officer",
+      "type": "Sale",
+      "shares": 800.0,
+      "pricePerShare": 140.0163,
       "transactionDate": "2026-08-10"
     },
     {
@@ -2711,6 +2751,36 @@
       "type": "Sale",
       "shares": 7063.0,
       "pricePerShare": 254.0,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "CROX",
+      "issuerName": "Crocs, Inc.",
+      "insiderName": "Rees Andrew",
+      "title": "Director, Chief Executive Officer",
+      "type": "Sale",
+      "shares": 5796.0,
+      "pricePerShare": 137.4143,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "CROX",
+      "issuerName": "Crocs, Inc.",
+      "insiderName": "Rees Andrew",
+      "title": "Director, Chief Executive Officer",
+      "type": "Sale",
+      "shares": 4204.0,
+      "pricePerShare": 137.9603,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "CROX",
+      "issuerName": "Crocs, Inc.",
+      "insiderName": "Rees Andrew",
+      "title": "Director, Chief Executive Officer",
+      "type": "Sale",
+      "shares": 928.0,
+      "pricePerShare": 139.0372,
       "transactionDate": "2026-08-07"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 960.0,
       "pricePerShare": 105.11,
       "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "OWLS",
-      "issuerName": "OBOOK HOLDINGS INC.",
-      "insiderName": "WANG CHUN KAI",
-      "title": "Director, Chief Executive Officer",
-      "type": "Purchase",
-      "shares": 1257.0,
-      "pricePerShare": 5.606,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "GLBE",
-      "issuerName": "Global-E Online Ltd.",
-      "insiderName": "Tamari Shahar",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 24999.0,
-      "pricePerShare": 37.9815,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "MXF",
-      "issuerName": "MEXICO FUND INC",
-      "insiderName": "Saba Capital Management, L.P.",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 570.0,
-      "pricePerShare": 21.44,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "GF",
-      "issuerName": "NEW GERMANY FUND INC",
-      "insiderName": "Saba Capital Management, L.P.",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 500.0,
-      "pricePerShare": 11.23,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "ECAT",
-      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-      "insiderName": "Saba Capital Management, L.P.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 83087.0,
-      "pricePerShare": 15.35,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "RCG",
-      "issuerName": "RENN Fund, Inc.",
-      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 756.0,
-      "pricePerShare": 3.02,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "TPL",
-      "issuerName": "Texas Pacific Land Corp",
-      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 1.0,
-      "pricePerShare": 420.15,
-      "transactionDate": "2026-07-17"
     }
   ],
   "byTicker": {
@@ -33065,6 +33065,116 @@
         }
       ]
     },
+    "GLBE": {
+      "issuerName": "Global-E Online Ltd.",
+      "trades": [
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Schlachet Amir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 322.0,
+          "pricePerShare": 42.0734,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Schlachet Amir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100000.0,
+          "pricePerShare": 42.1955,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Tamari Shahar",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 24999.0,
+          "pricePerShare": 41.5941,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Schlachet Amir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1308.0,
+          "pricePerShare": 42.0896,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "CROX": {
+      "issuerName": "Crocs, Inc.",
+      "trades": [
+        {
+          "ticker": "CROX",
+          "issuerName": "Crocs, Inc.",
+          "insiderName": "Rees Andrew",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 9576.0,
+          "pricePerShare": 138.3812,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "CROX",
+          "issuerName": "Crocs, Inc.",
+          "insiderName": "Rees Andrew",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 8696.0,
+          "pricePerShare": 139.3938,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "CROX",
+          "issuerName": "Crocs, Inc.",
+          "insiderName": "Rees Andrew",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 800.0,
+          "pricePerShare": 140.0163,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "CROX",
+          "issuerName": "Crocs, Inc.",
+          "insiderName": "Rees Andrew",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 5796.0,
+          "pricePerShare": 137.4143,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "CROX",
+          "issuerName": "Crocs, Inc.",
+          "insiderName": "Rees Andrew",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 4204.0,
+          "pricePerShare": 137.9603,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "CROX",
+          "issuerName": "Crocs, Inc.",
+          "insiderName": "Rees Andrew",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 928.0,
+          "pricePerShare": 139.0372,
+          "transactionDate": "2026-08-07"
+        }
+      ]
+    },
     "WEYS": {
       "issuerName": "WEYCO GROUP INC",
       "trades": [
@@ -35442,16 +35552,6 @@
           "shares": 93506.0,
           "pricePerShare": 15.49,
           "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 83087.0,
-          "pricePerShare": 15.35,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -35702,16 +35802,6 @@
           "shares": 756.0,
           "pricePerShare": 3.03,
           "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.02,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -35997,16 +36087,6 @@
           "shares": 1.0,
           "pricePerShare": 416.47,
           "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 420.15,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -36197,51 +36277,6 @@
           "shares": 5281.0,
           "pricePerShare": 52.2301,
           "transactionDate": "2026-08-06"
-        }
-      ]
-    },
-    "GLBE": {
-      "issuerName": "Global-E Online Ltd.",
-      "trades": [
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Schlachet Amir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100000.0,
-          "pricePerShare": 42.1955,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Tamari Shahar",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 24999.0,
-          "pricePerShare": 41.5941,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Schlachet Amir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1308.0,
-          "pricePerShare": 42.0896,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Tamari Shahar",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 24999.0,
-          "pricePerShare": 37.9815,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -46032,16 +46067,6 @@
           "shares": 325.0,
           "pricePerShare": 11.28,
           "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 500.0,
-          "pricePerShare": 11.23,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -49427,16 +49452,6 @@
           "shares": 200.0,
           "pricePerShare": 21.52,
           "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "MXF",
-          "issuerName": "MEXICO FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 570.0,
-          "pricePerShare": 21.44,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -62854,21 +62869,6 @@
           "transactionDate": "2026-07-20"
         }
       ]
-    },
-    "OWLS": {
-      "issuerName": "OBOOK HOLDINGS INC.",
-      "trades": [
-        {
-          "ticker": "OWLS",
-          "issuerName": "OBOOK HOLDINGS INC.",
-          "insiderName": "WANG CHUN KAI",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 1257.0,
-          "pricePerShare": 5.606,
-          "transactionDate": "2026-07-17"
-        }
-      ]
     }
   },
   "_meta": {
@@ -62948,6 +62948,7 @@
       "0000038009-26-000043",
       "0000038009-26-000045",
       "0000038009-26-000048",
+      "0000038009-26-000050",
       "0000038777-26-000191",
       "0000043920-26-000105",
       "0000043920-26-000107",
@@ -64077,6 +64078,13 @@
       "0000950103-26-012144",
       "0000950103-26-012145",
       "0000950103-26-012146",
+      "0000950103-26-012151",
+      "0000950103-26-012152",
+      "0000950103-26-012153",
+      "0000950103-26-012154",
+      "0000950103-26-012155",
+      "0000950103-26-012156",
+      "0000950103-26-012157",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -64709,6 +64717,9 @@
       "0001104659-26-093822",
       "0001104659-26-093837",
       "0001104659-26-093859",
+      "0001104659-26-093894",
+      "0001104659-26-093903",
+      "0001104659-26-093904",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66547,6 +66558,9 @@
       "0001193125-26-343692",
       "0001193125-26-343703",
       "0001193125-26-343705",
+      "0001193125-26-343803",
+      "0001193125-26-343811",
+      "0001193125-26-343838",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -67170,6 +67184,8 @@
       "0001213900-26-087472",
       "0001213900-26-087487",
       "0001213900-26-087547",
+      "0001213900-26-087590",
+      "0001213900-26-087592",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -67306,6 +67322,13 @@
       "0001223373-26-000003",
       "0001223373-26-000004",
       "0001223726-26-000001",
+      "0001224071-26-000001",
+      "0001224071-26-000002",
+      "0001224071-26-000003",
+      "0001224071-26-000004",
+      "0001224071-26-000005",
+      "0001224071-26-000006",
+      "0001224071-26-000007",
       "0001225062-26-000006",
       "0001225208-26-006693",
       "0001225208-26-006694",
@@ -68578,6 +68601,7 @@
       "0001608347-26-000013",
       "0001608511-26-000015",
       "0001609711-26-000094",
+      "0001609901-26-000014",
       "0001610717-26-000340",
       "0001610717-26-000349",
       "0001610717-26-000351",
@@ -69577,6 +69601,12 @@
       "0001829126-26-008488",
       "0001829126-26-008520",
       "0001829126-26-008521",
+      "0001829126-26-008585",
+      "0001829126-26-008586",
+      "0001829126-26-008587",
+      "0001829126-26-008588",
+      "0001829126-26-008589",
+      "0001829126-26-008590",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -70736,6 +70766,18 @@
       "0001839882-26-039392",
       "0001839882-26-039393",
       "0001839882-26-039394",
+      "0001839882-26-039407",
+      "0001839882-26-039409",
+      "0001839882-26-039411",
+      "0001839882-26-039412",
+      "0001839882-26-039413",
+      "0001839882-26-039419",
+      "0001839882-26-039421",
+      "0001839882-26-039422",
+      "0001839882-26-039423",
+      "0001839882-26-039424",
+      "0001839882-26-039425",
+      "0001839882-26-039428",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -72324,6 +72366,22 @@
       "0001918704-26-023394",
       "0001918704-26-023395",
       "0001918704-26-023396",
+      "0001918704-26-023401",
+      "0001918704-26-023402",
+      "0001918704-26-023403",
+      "0001918704-26-023404",
+      "0001918704-26-023405",
+      "0001918704-26-023406",
+      "0001918704-26-023407",
+      "0001918704-26-023408",
+      "0001918704-26-023409",
+      "0001918704-26-023410",
+      "0001918704-26-023411",
+      "0001918704-26-023412",
+      "0001918704-26-023413",
+      "0001918704-26-023414",
+      "0001918704-26-023415",
+      "0001918704-26-023416",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
