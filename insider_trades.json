@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T13:05:31.995314+00:00",
+  "generatedAt": "2026-08-11T14:01:54.215494+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -621,6 +621,26 @@
       "type": "Sale",
       "shares": 1595.0,
       "pricePerShare": 37.37,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "SMG",
+      "issuerName": "SCOTTS MIRACLE-GRO CO",
+      "insiderName": "Kingdon Mark D",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 831.0,
+      "pricePerShare": 61.645,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "NNOX",
+      "issuerName": "Nano-X Imaging Ltd.",
+      "insiderName": "Meltzer Erez",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 9443.0,
+      "pricePerShare": 1.03,
       "transactionDate": "2026-08-10"
     },
     {
@@ -2651,6 +2671,36 @@
       "type": "Sale",
       "shares": 29796.0,
       "pricePerShare": 18.65,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "MSA",
+      "issuerName": "MSA Safety Inc",
+      "insiderName": "Vartanian Nishan J.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 20000.0,
+      "pricePerShare": 193.9866,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "NVR",
+      "issuerName": "NVR INC",
+      "insiderName": "Oliver George",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 63.0,
+      "pricePerShare": 6431.51,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "WEYS",
+      "issuerName": "WEYCO GROUP INC",
+      "insiderName": "Walton Damian",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1100.0,
+      "pricePerShare": 43.0,
       "transactionDate": "2026-08-07"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 10.0,
       "pricePerShare": 13.7,
       "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "FSLY",
-      "issuerName": "Fastly, Inc.",
-      "insiderName": "Compton Charles Lacey III",
-      "title": "Director, CEO",
-      "type": "Sale",
-      "shares": 2714.0,
-      "pricePerShare": 20.51,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "FSLY",
-      "issuerName": "Fastly, Inc.",
-      "insiderName": "Compton Charles Lacey III",
-      "title": "Director, CEO",
-      "type": "Sale",
-      "shares": 4204.0,
-      "pricePerShare": 21.1,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "FSLY",
-      "issuerName": "Fastly, Inc.",
-      "insiderName": "Compton Charles Lacey III",
-      "title": "Director, CEO",
-      "type": "Sale",
-      "shares": 155.0,
-      "pricePerShare": 21.9,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "DNA",
-      "issuerName": "Ginkgo Bioworks Holdings, Inc.",
-      "insiderName": "Coen Steven P.",
-      "title": "See remarks",
-      "type": "Sale",
-      "shares": 752.0,
-      "pricePerShare": 7.903,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "ESNT",
-      "issuerName": "Essent Group Ltd.",
-      "insiderName": "Gibbons Mary Lourdes",
-      "title": "SVP and Chief Legal Officer",
-      "type": "Sale",
-      "shares": 4678.0,
-      "pricePerShare": 67.04,
-      "transactionDate": "2026-07-17"
     }
   ],
   "byTicker": {
@@ -32985,6 +32985,86 @@
         }
       ]
     },
+    "SMG": {
+      "issuerName": "SCOTTS MIRACLE-GRO CO",
+      "trades": [
+        {
+          "ticker": "SMG",
+          "issuerName": "SCOTTS MIRACLE-GRO CO",
+          "insiderName": "Kingdon Mark D",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 831.0,
+          "pricePerShare": 61.645,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "SMG",
+          "issuerName": "SCOTTS MIRACLE-GRO CO",
+          "insiderName": "Johnson Stephen L",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1170.96,
+          "pricePerShare": 68.32,
+          "transactionDate": "2026-07-30"
+        }
+      ]
+    },
+    "NNOX": {
+      "issuerName": "Nano-X Imaging Ltd.",
+      "trades": [
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Meltzer Erez",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 9443.0,
+          "pricePerShare": 1.03,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Kainan Noga",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 33000.0,
+          "pricePerShare": 0.9,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Meltzer Erez",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 36000.0,
+          "pricePerShare": 0.93,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Suesskind Dan S",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 25000.0,
+          "pricePerShare": 0.94,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Suesskind Dan S",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 25000.0,
+          "pricePerShare": 0.92,
+          "transactionDate": "2026-07-27"
+        }
+      ]
+    },
     "WEYS": {
       "issuerName": "WEYCO GROUP INC",
       "trades": [
@@ -33016,6 +33096,16 @@
           "type": "Sale",
           "shares": 1191.0,
           "pricePerShare": 45.3215,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "WEYS",
+          "issuerName": "WEYCO GROUP INC",
+          "insiderName": "Walton Damian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 43.0,
           "transactionDate": "2026-08-07"
         }
       ]
@@ -38766,6 +38856,46 @@
           "type": "Sale",
           "shares": 29796.0,
           "pricePerShare": 18.65,
+          "transactionDate": "2026-08-07"
+        }
+      ]
+    },
+    "MSA": {
+      "issuerName": "MSA Safety Inc",
+      "trades": [
+        {
+          "ticker": "MSA",
+          "issuerName": "MSA Safety Inc",
+          "insiderName": "Vartanian Nishan J.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 193.9866,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "MSA",
+          "issuerName": "MSA Safety Inc",
+          "insiderName": "Buck Jonathan D.",
+          "title": "Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 469.0,
+          "pricePerShare": 191.0,
+          "transactionDate": "2026-08-04"
+        }
+      ]
+    },
+    "NVR": {
+      "issuerName": "NVR INC",
+      "trades": [
+        {
+          "ticker": "NVR",
+          "issuerName": "NVR INC",
+          "insiderName": "Oliver George",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 63.0,
+          "pricePerShare": 6431.51,
           "transactionDate": "2026-08-07"
         }
       ]
@@ -48400,21 +48530,6 @@
         }
       ]
     },
-    "MSA": {
-      "issuerName": "MSA Safety Inc",
-      "trades": [
-        {
-          "ticker": "MSA",
-          "issuerName": "MSA Safety Inc",
-          "insiderName": "Buck Jonathan D.",
-          "title": "Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 469.0,
-          "pricePerShare": 191.0,
-          "transactionDate": "2026-08-04"
-        }
-      ]
-    },
     "MMSI": {
       "issuerName": "MERIT MEDICAL SYSTEMS INC",
       "trades": [
@@ -56480,21 +56595,6 @@
         }
       ]
     },
-    "SMG": {
-      "issuerName": "SCOTTS MIRACLE-GRO CO",
-      "trades": [
-        {
-          "ticker": "SMG",
-          "issuerName": "SCOTTS MIRACLE-GRO CO",
-          "insiderName": "Johnson Stephen L",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1170.96,
-          "pricePerShare": 68.32,
-          "transactionDate": "2026-07-30"
-        }
-      ]
-    },
     "ASPS": {
       "issuerName": "ALTISOURCE PORTFOLIO SOLUTIONS S.A.",
       "trades": [
@@ -58217,51 +58317,6 @@
           "shares": 1333.0,
           "pricePerShare": 15.0,
           "transactionDate": "2026-07-23"
-        }
-      ]
-    },
-    "NNOX": {
-      "issuerName": "Nano-X Imaging Ltd.",
-      "trades": [
-        {
-          "ticker": "NNOX",
-          "issuerName": "Nano-X Imaging Ltd.",
-          "insiderName": "Kainan Noga",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 33000.0,
-          "pricePerShare": 0.9,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "NNOX",
-          "issuerName": "Nano-X Imaging Ltd.",
-          "insiderName": "Meltzer Erez",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 36000.0,
-          "pricePerShare": 0.93,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "NNOX",
-          "issuerName": "Nano-X Imaging Ltd.",
-          "insiderName": "Suesskind Dan S",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 25000.0,
-          "pricePerShare": 0.94,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "NNOX",
-          "issuerName": "Nano-X Imaging Ltd.",
-          "insiderName": "Suesskind Dan S",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 25000.0,
-          "pricePerShare": 0.92,
-          "transactionDate": "2026-07-27"
         }
       ]
     },
@@ -62819,71 +62874,6 @@
           "transactionDate": "2026-07-17"
         }
       ]
-    },
-    "FSLY": {
-      "issuerName": "Fastly, Inc.",
-      "trades": [
-        {
-          "ticker": "FSLY",
-          "issuerName": "Fastly, Inc.",
-          "insiderName": "Compton Charles Lacey III",
-          "title": "Director, CEO",
-          "type": "Sale",
-          "shares": 2714.0,
-          "pricePerShare": 20.51,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "FSLY",
-          "issuerName": "Fastly, Inc.",
-          "insiderName": "Compton Charles Lacey III",
-          "title": "Director, CEO",
-          "type": "Sale",
-          "shares": 4204.0,
-          "pricePerShare": 21.1,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "FSLY",
-          "issuerName": "Fastly, Inc.",
-          "insiderName": "Compton Charles Lacey III",
-          "title": "Director, CEO",
-          "type": "Sale",
-          "shares": 155.0,
-          "pricePerShare": 21.9,
-          "transactionDate": "2026-07-17"
-        }
-      ]
-    },
-    "DNA": {
-      "issuerName": "Ginkgo Bioworks Holdings, Inc.",
-      "trades": [
-        {
-          "ticker": "DNA",
-          "issuerName": "Ginkgo Bioworks Holdings, Inc.",
-          "insiderName": "Coen Steven P.",
-          "title": "See remarks",
-          "type": "Sale",
-          "shares": 752.0,
-          "pricePerShare": 7.903,
-          "transactionDate": "2026-07-17"
-        }
-      ]
-    },
-    "ESNT": {
-      "issuerName": "Essent Group Ltd.",
-      "trades": [
-        {
-          "ticker": "ESNT",
-          "issuerName": "Essent Group Ltd.",
-          "insiderName": "Gibbons Mary Lourdes",
-          "title": "SVP and Chief Legal Officer",
-          "type": "Sale",
-          "shares": 4678.0,
-          "pricePerShare": 67.04,
-          "transactionDate": "2026-07-17"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63394,6 +63384,7 @@
       "0000894189-26-022093",
       "0000894189-26-022095",
       "0000894189-26-022097",
+      "0000894189-26-022106",
       "0000895345-26-000353",
       "0000896622-26-000170",
       "0000896622-26-000172",
@@ -63465,6 +63456,7 @@
       "0000905148-26-003534",
       "0000905148-26-003544",
       "0000906163-26-000088",
+      "0000906163-26-000095",
       "0000906465-26-000064",
       "0000906553-26-000060",
       "0000906553-26-000062",
@@ -64086,6 +64078,7 @@
       "0000950103-26-012118",
       "0000950103-26-012137",
       "0000950103-26-012139",
+      "0000950103-26-012143",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -64715,6 +64708,8 @@
       "0001104659-26-093727",
       "0001104659-26-093759",
       "0001104659-26-093800",
+      "0001104659-26-093822",
+      "0001104659-26-093837",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -65022,6 +65017,7 @@
       "0001140361-26-031992",
       "0001140361-26-032051",
       "0001140361-26-032145",
+      "0001140361-26-032156",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -66538,6 +66534,14 @@
       "0001193125-26-343542",
       "0001193125-26-343544",
       "0001193125-26-343561",
+      "0001193125-26-343609",
+      "0001193125-26-343610",
+      "0001193125-26-343611",
+      "0001193125-26-343612",
+      "0001193125-26-343613",
+      "0001193125-26-343614",
+      "0001193125-26-343615",
+      "0001193125-26-343616",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -66546,6 +66550,7 @@
       "0001193805-26-001069",
       "0001194348-26-000004",
       "0001194948-26-000009",
+      "0001194948-26-000011",
       "0001195052-26-000006",
       "0001196198-26-000003",
       "0001196460-26-000004",
@@ -67159,6 +67164,7 @@
       "0001213900-26-087457",
       "0001213900-26-087472",
       "0001213900-26-087487",
+      "0001213900-26-087547",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -67359,6 +67365,7 @@
       "0001225208-26-007046",
       "0001225208-26-007049",
       "0001225208-26-007051",
+      "0001225208-26-007053",
       "0001225481-26-000006",
       "0001227384-26-000017",
       "0001227654-26-000042",
@@ -67926,6 +67933,10 @@
       "0001445546-26-005922",
       "0001445546-26-005923",
       "0001445546-26-005924",
+      "0001445546-26-005952",
+      "0001445546-26-005953",
+      "0001445546-26-005954",
+      "0001445546-26-005955",
       "0001448765-26-000011",
       "0001451455-26-000009",
       "0001451763-26-000012",
@@ -68196,6 +68207,9 @@
       "0001493152-26-036950",
       "0001493152-26-036951",
       "0001493152-26-036993",
+      "0001493152-26-037015",
+      "0001493152-26-037020",
+      "0001493152-26-037021",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -68973,6 +68987,8 @@
       "0001653242-26-000063",
       "0001653242-26-000064",
       "0001653242-26-000065",
+      "0001653242-26-000078",
+      "0001653242-26-000079",
       "0001653477-26-000041",
       "0001653558-26-000110",
       "0001653558-26-000112",
@@ -70673,6 +70689,13 @@
       "0001839882-26-039270",
       "0001839882-26-039271",
       "0001839882-26-039279",
+      "0001839882-26-039335",
+      "0001839882-26-039337",
+      "0001839882-26-039341",
+      "0001839882-26-039342",
+      "0001839882-26-039343",
+      "0001839882-26-039344",
+      "0001839882-26-039345",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -72226,6 +72249,30 @@
       "0001918704-26-023340",
       "0001918704-26-023341",
       "0001918704-26-023354",
+      "0001918704-26-023357",
+      "0001918704-26-023358",
+      "0001918704-26-023359",
+      "0001918704-26-023360",
+      "0001918704-26-023361",
+      "0001918704-26-023362",
+      "0001918704-26-023363",
+      "0001918704-26-023364",
+      "0001918704-26-023365",
+      "0001918704-26-023366",
+      "0001918704-26-023367",
+      "0001918704-26-023368",
+      "0001918704-26-023369",
+      "0001918704-26-023370",
+      "0001918704-26-023371",
+      "0001918704-26-023372",
+      "0001918704-26-023373",
+      "0001918704-26-023374",
+      "0001918704-26-023375",
+      "0001918704-26-023376",
+      "0001918704-26-023377",
+      "0001918704-26-023378",
+      "0001918704-26-023379",
+      "0001918704-26-023380",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -72327,6 +72374,7 @@
       "0001983992-26-000005",
       "0001984186-26-000006",
       "0001984784-26-000020",
+      "0001985704-26-000011",
       "0001986157-26-000016",
       "0001987126-26-000002",
       "0001987164-26-000011",
@@ -72348,6 +72396,7 @@
       "0001994445-26-000006",
       "0001994955-26-000007",
       "0001995565-26-000003",
+      "0001998242-26-000004",
       "0001998256-26-000009",
       "0001998332-26-000006",
       "0001998544-26-000006",
@@ -72600,6 +72649,9 @@
       "0001999371-26-017490",
       "0001999371-26-017494",
       "0001999371-26-017498",
+      "0001999371-26-017558",
+      "0001999371-26-017561",
+      "0001999371-26-017567",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
