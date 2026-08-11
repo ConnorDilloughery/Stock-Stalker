@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T12:02:10.162107+00:00",
+  "generatedAt": "2026-08-11T13:05:31.995314+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -611,6 +611,16 @@
       "type": "Sale",
       "shares": 2812.0,
       "pricePerShare": 9.9799,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "VIAV",
+      "issuerName": "VIAVI SOLUTIONS INC.",
+      "insiderName": "McNab Paul",
+      "title": "EVP, Chief Mktg & Stgy Officer",
+      "type": "Sale",
+      "shares": 1595.0,
+      "pricePerShare": 37.37,
       "transactionDate": "2026-08-10"
     },
     {
@@ -2621,6 +2631,26 @@
       "type": "Sale",
       "shares": 3278.0,
       "pricePerShare": 67.29,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "MDLN",
+      "issuerName": "Medline Inc.",
+      "insiderName": "GIC Private Ltd",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 590284.0,
+      "pricePerShare": 35.58,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "DHT",
+      "issuerName": "DHT Holdings, Inc.",
+      "insiderName": "Kramer Jeremy",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 29796.0,
+      "pricePerShare": 18.65,
       "transactionDate": "2026-08-07"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 4678.0,
       "pricePerShare": 67.04,
       "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "RVI",
-      "issuerName": "Robinhood Ventures Fund I",
-      "insiderName": "Robinhood Markets, Inc.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 13461.0,
-      "pricePerShare": 25.45,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "RVI",
-      "issuerName": "Robinhood Ventures Fund I",
-      "insiderName": "Robinhood Markets, Inc.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 10505.0,
-      "pricePerShare": 26.42,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "RVI",
-      "issuerName": "Robinhood Ventures Fund I",
-      "insiderName": "Robinhood Markets, Inc.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 2248.0,
-      "pricePerShare": 27.32,
-      "transactionDate": "2026-07-17"
     }
   ],
   "byTicker": {
@@ -32967,6 +32967,21 @@
           "shares": 960.0,
           "pricePerShare": 105.11,
           "transactionDate": "2026-07-17"
+        }
+      ]
+    },
+    "VIAV": {
+      "issuerName": "VIAVI SOLUTIONS INC.",
+      "trades": [
+        {
+          "ticker": "VIAV",
+          "issuerName": "VIAVI SOLUTIONS INC.",
+          "insiderName": "McNab Paul",
+          "title": "EVP, Chief Mktg & Stgy Officer",
+          "type": "Sale",
+          "shares": 1595.0,
+          "pricePerShare": 37.37,
+          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -38725,6 +38740,36 @@
         }
       ]
     },
+    "MDLN": {
+      "issuerName": "Medline Inc.",
+      "trades": [
+        {
+          "ticker": "MDLN",
+          "issuerName": "Medline Inc.",
+          "insiderName": "GIC Private Ltd",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 590284.0,
+          "pricePerShare": 35.58,
+          "transactionDate": "2026-08-07"
+        }
+      ]
+    },
+    "DHT": {
+      "issuerName": "DHT Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "DHT",
+          "issuerName": "DHT Holdings, Inc.",
+          "insiderName": "Kramer Jeremy",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 29796.0,
+          "pricePerShare": 18.65,
+          "transactionDate": "2026-08-07"
+        }
+      ]
+    },
     "SILC": {
       "issuerName": "SILICOM LTD.",
       "trades": [
@@ -41487,36 +41532,6 @@
           "shares": 4320.0,
           "pricePerShare": 26.48,
           "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "RVI",
-          "issuerName": "Robinhood Ventures Fund I",
-          "insiderName": "Robinhood Markets, Inc.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13461.0,
-          "pricePerShare": 25.45,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "RVI",
-          "issuerName": "Robinhood Ventures Fund I",
-          "insiderName": "Robinhood Markets, Inc.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 10505.0,
-          "pricePerShare": 26.42,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "RVI",
-          "issuerName": "Robinhood Ventures Fund I",
-          "insiderName": "Robinhood Markets, Inc.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2248.0,
-          "pricePerShare": 27.32,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -63472,6 +63487,7 @@
       "0000910606-26-000066",
       "0000910606-26-000067",
       "0000911971-26-000051",
+      "0000912093-26-000056",
       "0000912282-26-000993",
       "0000912282-26-000995",
       "0000912282-26-000998",
@@ -64698,6 +64714,7 @@
       "0001104659-26-093633",
       "0001104659-26-093727",
       "0001104659-26-093759",
+      "0001104659-26-093800",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -64792,6 +64809,7 @@
       "0001137360-26-000735",
       "0001137360-26-000737",
       "0001137360-26-000739",
+      "0001137360-26-000745",
       "0001140361-26-028844",
       "0001140361-26-028846",
       "0001140361-26-028877",
@@ -65003,6 +65021,7 @@
       "0001140361-26-031990",
       "0001140361-26-031992",
       "0001140361-26-032051",
+      "0001140361-26-032145",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -66512,6 +66531,13 @@
       "0001193125-26-343460",
       "0001193125-26-343465",
       "0001193125-26-343470",
+      "0001193125-26-343483",
+      "0001193125-26-343495",
+      "0001193125-26-343522",
+      "0001193125-26-343535",
+      "0001193125-26-343542",
+      "0001193125-26-343544",
+      "0001193125-26-343561",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -67460,6 +67486,7 @@
       "0001328600-26-000002",
       "0001331271-26-000064",
       "0001331271-26-000065",
+      "0001331284-26-000007",
       "0001332349-26-000059",
       "0001333280-26-000016",
       "0001334330-26-000002",
@@ -68168,6 +68195,7 @@
       "0001493152-26-036949",
       "0001493152-26-036950",
       "0001493152-26-036951",
+      "0001493152-26-036993",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -68255,6 +68283,9 @@
       "0001527541-26-000265",
       "0001527541-26-000267",
       "0001527541-26-000269",
+      "0001527541-26-000274",
+      "0001527541-26-000277",
+      "0001527541-26-000279",
       "0001528621-26-000727",
       "0001528621-26-000729",
       "0001528621-26-000762",
@@ -68888,6 +68919,7 @@
       "0001628280-26-055427",
       "0001628280-26-055434",
       "0001628280-26-055502",
+      "0001628280-26-055507",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -70668,6 +70700,7 @@
       "0001849820-26-000121",
       "0001850152-26-000010",
       "0001851564-26-000030",
+      "0001851763-26-000010",
       "0001852009-26-000004",
       "0001852010-26-000006",
       "0001855837-26-000012",
@@ -72192,6 +72225,7 @@
       "0001918704-26-023339",
       "0001918704-26-023340",
       "0001918704-26-023341",
+      "0001918704-26-023354",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
