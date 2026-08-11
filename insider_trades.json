@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T17:02:06.104084+00:00",
+  "generatedAt": "2026-08-11T18:05:35.624365+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -711,6 +711,26 @@
       "type": "Purchase",
       "shares": 4773.0,
       "pricePerShare": 9.46,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "GLRE",
+      "issuerName": "GREENLIGHT CAPITAL RE, LTD.",
+      "insiderName": "Goldberg Leonard R",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 6000.0,
+      "pricePerShare": 15.42,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "BPOP",
+      "issuerName": "POPULAR, INC.",
+      "insiderName": "Soriano Lidio",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3000.0,
+      "pricePerShare": 174.505,
       "transactionDate": "2026-08-10"
     },
     {
@@ -2811,6 +2831,36 @@
       "type": "Sale",
       "shares": 928.0,
       "pricePerShare": 139.0372,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "GLRE",
+      "issuerName": "GREENLIGHT CAPITAL RE, LTD.",
+      "insiderName": "Goldberg Leonard R",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 6000.0,
+      "pricePerShare": 15.62,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "OTTR",
+      "issuerName": "Otter Tail Corp",
+      "insiderName": "KNUTSON PAUL L",
+      "title": "VP, Human Resources",
+      "type": "Sale",
+      "shares": 3500.0,
+      "pricePerShare": 93.11,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "ECG",
+      "issuerName": "Everus Construction Group, Inc.",
+      "insiderName": "Sanderson Paul R.",
+      "title": "VP, CLO & Corporate Secretary",
+      "type": "Sale",
+      "shares": 3300.0,
+      "pricePerShare": 136.6901,
       "transactionDate": "2026-08-07"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 2833.0,
       "pricePerShare": 37.05,
       "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "MPLT",
-      "issuerName": "MapLight Therapeutics, Inc.",
-      "insiderName": "Kreitzer Anatol",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 14140.0,
-      "pricePerShare": 37.7,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "MPLT",
-      "issuerName": "MapLight Therapeutics, Inc.",
-      "insiderName": "Kreitzer Anatol",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 200.0,
-      "pricePerShare": 38.39,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "YQ",
-      "issuerName": "17 Education & Technology Group Inc.",
-      "insiderName": "Liu Chang",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 7633.0,
-      "pricePerShare": 2.0813,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Hou Tianyu",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2840.0,
-      "pricePerShare": 101.48,
-      "transactionDate": "2026-07-17"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Hou Tianyu",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2177.0,
-      "pricePerShare": 102.54,
-      "transactionDate": "2026-07-17"
     }
   ],
   "byTicker": {
@@ -31661,6 +31661,16 @@
         {
           "ticker": "BPOP",
           "issuerName": "POPULAR, INC.",
+          "insiderName": "Soriano Lidio",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 174.505,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "BPOP",
+          "issuerName": "POPULAR, INC.",
           "insiderName": "CESTERO LUIS E.",
           "title": "Reporting Person",
           "type": "Sale",
@@ -31862,16 +31872,6 @@
           "shares": 9287.0,
           "pricePerShare": 2.1696,
           "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "YQ",
-          "issuerName": "17 Education & Technology Group Inc.",
-          "insiderName": "Liu Chang",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 7633.0,
-          "pricePerShare": 2.0813,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -32917,26 +32917,6 @@
           "shares": 1700.0,
           "pricePerShare": 105.06,
           "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Hou Tianyu",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2840.0,
-          "pricePerShare": 101.48,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Hou Tianyu",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2177.0,
-          "pricePerShare": 102.54,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -33427,6 +33407,31 @@
           "shares": 700.0,
           "pricePerShare": 9.395,
           "transactionDate": "2026-07-27"
+        }
+      ]
+    },
+    "GLRE": {
+      "issuerName": "GREENLIGHT CAPITAL RE, LTD.",
+      "trades": [
+        {
+          "ticker": "GLRE",
+          "issuerName": "GREENLIGHT CAPITAL RE, LTD.",
+          "insiderName": "Goldberg Leonard R",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 6000.0,
+          "pricePerShare": 15.42,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "GLRE",
+          "issuerName": "GREENLIGHT CAPITAL RE, LTD.",
+          "insiderName": "Goldberg Leonard R",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 6000.0,
+          "pricePerShare": 15.62,
+          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -39012,6 +39017,36 @@
           "shares": 12531.0,
           "pricePerShare": 250.0,
           "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "OTTR": {
+      "issuerName": "Otter Tail Corp",
+      "trades": [
+        {
+          "ticker": "OTTR",
+          "issuerName": "Otter Tail Corp",
+          "insiderName": "KNUTSON PAUL L",
+          "title": "VP, Human Resources",
+          "type": "Sale",
+          "shares": 3500.0,
+          "pricePerShare": 93.11,
+          "transactionDate": "2026-08-07"
+        }
+      ]
+    },
+    "ECG": {
+      "issuerName": "Everus Construction Group, Inc.",
+      "trades": [
+        {
+          "ticker": "ECG",
+          "issuerName": "Everus Construction Group, Inc.",
+          "insiderName": "Sanderson Paul R.",
+          "title": "VP, CLO & Corporate Secretary",
+          "type": "Sale",
+          "shares": 3300.0,
+          "pricePerShare": 136.6901,
+          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -51872,26 +51907,6 @@
           "shares": 2833.0,
           "pricePerShare": 37.05,
           "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "Kreitzer Anatol",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 14140.0,
-          "pricePerShare": 37.7,
-          "transactionDate": "2026-07-17"
-        },
-        {
-          "ticker": "MPLT",
-          "issuerName": "MapLight Therapeutics, Inc.",
-          "insiderName": "Kreitzer Anatol",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 38.39,
-          "transactionDate": "2026-07-17"
         }
       ]
     },
@@ -64089,6 +64104,10 @@
       "0000950103-26-012155",
       "0000950103-26-012156",
       "0000950103-26-012157",
+      "0000950103-26-012160",
+      "0000950103-26-012161",
+      "0000950103-26-012162",
+      "0000950103-26-012163",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -64124,6 +64143,7 @@
       "0001014100-26-000024",
       "0001014100-26-000025",
       "0001014108-26-000044",
+      "0001014108-26-000045",
       "0001016245-26-000015",
       "0001016246-26-000004",
       "0001018572-26-000003",
@@ -64725,6 +64745,12 @@
       "0001104659-26-093894",
       "0001104659-26-093903",
       "0001104659-26-093904",
+      "0001104659-26-093949",
+      "0001104659-26-093950",
+      "0001104659-26-093960",
+      "0001104659-26-093961",
+      "0001104659-26-093964",
+      "0001104659-26-093968",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66567,6 +66593,20 @@
       "0001193125-26-343803",
       "0001193125-26-343811",
       "0001193125-26-343838",
+      "0001193125-26-343965",
+      "0001193125-26-343967",
+      "0001193125-26-343968",
+      "0001193125-26-343983",
+      "0001193125-26-343986",
+      "0001193125-26-343997",
+      "0001193125-26-344000",
+      "0001193125-26-344005",
+      "0001193125-26-344006",
+      "0001193125-26-344008",
+      "0001193125-26-344024",
+      "0001193125-26-344049",
+      "0001193125-26-344063",
+      "0001193125-26-344078",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -67194,6 +67234,10 @@
       "0001213900-26-087581",
       "0001213900-26-087590",
       "0001213900-26-087592",
+      "0001213900-26-087640",
+      "0001213900-26-087647",
+      "0001213900-26-087649",
+      "0001213900-26-087652",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -67311,6 +67355,7 @@
       "0001214659-26-009843",
       "0001216055-26-000006",
       "0001216055-26-000007",
+      "0001216581-26-000006",
       "0001216725-26-000012",
       "0001217074-26-000006",
       "0001217160-26-000064",
@@ -67402,6 +67447,7 @@
       "0001225208-26-007049",
       "0001225208-26-007051",
       "0001225208-26-007053",
+      "0001225208-26-007057",
       "0001225481-26-000006",
       "0001227384-26-000017",
       "0001227654-26-000042",
@@ -67587,6 +67633,7 @@
       "0001385613-26-000103",
       "0001385613-26-000105",
       "0001385613-26-000116",
+      "0001385613-26-000119",
       "0001385849-26-000030",
       "0001385849-26-000031",
       "0001385849-26-000032",
@@ -67986,6 +68033,7 @@
       "0001451455-26-000009",
       "0001451763-26-000012",
       "0001455134-26-000016",
+      "0001455732-26-000003",
       "0001455831-26-000024",
       "0001456412-26-000004",
       "0001458423-26-000006",
@@ -68389,6 +68437,7 @@
       "0001528621-26-000814",
       "0001528621-26-000815",
       "0001528621-26-000816",
+      "0001528621-26-000824",
       "0001530038-26-000002",
       "0001530255-26-000010",
       "0001530819-26-000012",
@@ -68447,6 +68496,7 @@
       "0001556224-26-000004",
       "0001556224-26-000006",
       "0001558242-26-000020",
+      "0001559334-26-000006",
       "0001560409-26-000008",
       "0001561550-26-000246",
       "0001561550-26-000260",
@@ -69620,6 +69670,13 @@
       "0001829126-26-008588",
       "0001829126-26-008589",
       "0001829126-26-008590",
+      "0001829126-26-008606",
+      "0001829126-26-008607",
+      "0001829126-26-008608",
+      "0001829126-26-008609",
+      "0001829126-26-008610",
+      "0001829126-26-008611",
+      "0001829126-26-008612",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -70795,6 +70852,13 @@
       "0001839882-26-039424",
       "0001839882-26-039425",
       "0001839882-26-039428",
+      "0001839882-26-039448",
+      "0001839882-26-039449",
+      "0001839882-26-039450",
+      "0001839882-26-039451",
+      "0001839882-26-039452",
+      "0001839882-26-039453",
+      "0001839882-26-039454",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -72403,6 +72467,14 @@
       "0001918704-26-023414",
       "0001918704-26-023415",
       "0001918704-26-023416",
+      "0001918704-26-023437",
+      "0001918704-26-023438",
+      "0001918704-26-023439",
+      "0001918704-26-023440",
+      "0001918704-26-023441",
+      "0001918704-26-023442",
+      "0001918704-26-023443",
+      "0001918704-26-023444",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
