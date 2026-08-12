@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-08-12T18:01:32.944494+00:00",
+  "generatedAt": "2026-08-12T19:01:23.031171+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "EHLD",
+      "issuerName": "Euroholdings Ltd.",
+      "insiderName": "Karmiri Stefania",
+      "title": "Corporate Secretary",
+      "type": "Sale",
+      "shares": 1000.0,
+      "pricePerShare": 9.9,
+      "transactionDate": "2026-08-12"
+    },
     {
       "ticker": "TILE",
       "issuerName": "INTERFACE INC",
@@ -591,6 +601,146 @@
       "type": "Sale",
       "shares": 10000.0,
       "pricePerShare": 400.0,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "AVBC",
+      "issuerName": "Avidia Bancorp, Inc.",
+      "insiderName": "Grimaldo Joseph F",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 4655.0,
+      "pricePerShare": 21.4364,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "CIA",
+      "issuerName": "CITIZENS, INC.",
+      "insiderName": "Stenberg Jon",
+      "title": "Director, President & CEO",
+      "type": "Purchase",
+      "shares": 12000.0,
+      "pricePerShare": 3.6496,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "WSBC",
+      "issuerName": "WESBANCO INC",
+      "insiderName": "Friend Robert H",
+      "title": "EVP & CCO",
+      "type": "Sale",
+      "shares": 1000.0,
+      "pricePerShare": 42.06,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "WSBC",
+      "issuerName": "WESBANCO INC",
+      "insiderName": "Friend Robert H",
+      "title": "EVP & CCO",
+      "type": "Sale",
+      "shares": 787.0,
+      "pricePerShare": 42.045,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "WSBC",
+      "issuerName": "WESBANCO INC",
+      "insiderName": "Friend Robert H",
+      "title": "EVP & CCO",
+      "type": "Sale",
+      "shares": 213.0,
+      "pricePerShare": 42.05,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "WSBC",
+      "issuerName": "WESBANCO INC",
+      "insiderName": "Friend Robert H",
+      "title": "EVP & CCO",
+      "type": "Sale",
+      "shares": 2000.0,
+      "pricePerShare": 42.05,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "WSBC",
+      "issuerName": "WESBANCO INC",
+      "insiderName": "Friend Robert H",
+      "title": "EVP & CCO",
+      "type": "Sale",
+      "shares": 200.0,
+      "pricePerShare": 42.06,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "WSBC",
+      "issuerName": "WESBANCO INC",
+      "insiderName": "Friend Robert H",
+      "title": "EVP & CCO",
+      "type": "Sale",
+      "shares": 700.0,
+      "pricePerShare": 42.07,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "WSBC",
+      "issuerName": "WESBANCO INC",
+      "insiderName": "Friend Robert H",
+      "title": "EVP & CCO",
+      "type": "Sale",
+      "shares": 1100.0,
+      "pricePerShare": 42.08,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 2.99,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "LH",
+      "issuerName": "LABCORP HOLDINGS INC.",
+      "insiderName": "Schechter Adam H",
+      "title": "Director, President & CEO",
+      "type": "Sale",
+      "shares": 4669.0,
+      "pricePerShare": 320.37,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "WSBC",
+      "issuerName": "WESBANCO INC",
+      "insiderName": "Friend Robert H",
+      "title": "EVP & CCO",
+      "type": "Sale",
+      "shares": 1000.0,
+      "pricePerShare": 42.06,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "WSBC",
+      "issuerName": "WESBANCO INC",
+      "insiderName": "Friend Robert H",
+      "title": "EVP & CCO",
+      "type": "Sale",
+      "shares": 1000.0,
+      "pricePerShare": 42.055,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "EDRY",
+      "issuerName": "EuroDry Ltd.",
+      "insiderName": "Karmiri Stefania",
+      "title": "Corporate Secretary",
+      "type": "Sale",
+      "shares": 400.0,
+      "pricePerShare": 38.5,
       "transactionDate": "2026-08-11"
     },
     {
@@ -2451,6 +2601,36 @@
       "type": "Sale",
       "shares": 6911.789,
       "pricePerShare": 13.1349,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "GD",
+      "issuerName": "GENERAL DYNAMICS CORP",
+      "insiderName": "Wall Peter A",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1990.0,
+      "pricePerShare": 396.431,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "EDRY",
+      "issuerName": "EuroDry Ltd.",
+      "insiderName": "Pittas Aristeidis P",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 250.0,
+      "pricePerShare": 37.803,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "EDRY",
+      "issuerName": "EuroDry Ltd.",
+      "insiderName": "Pittas Aristeidis P",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 250.0,
+      "pricePerShare": 37.803,
       "transactionDate": "2026-08-10"
     },
     {
@@ -29822,189 +30002,24 @@
       "shares": 152.0,
       "pricePerShare": 196.41,
       "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 384.0,
-      "pricePerShare": 197.59,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 492.0,
-      "pricePerShare": 198.77,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 68.0,
-      "pricePerShare": 199.93,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "SNOW",
-      "issuerName": "Snowflake Inc.",
-      "insiderName": "Slootman Frank",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 632.0,
-      "pricePerShare": 269.582,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "SNOW",
-      "issuerName": "Snowflake Inc.",
-      "insiderName": "Slootman Frank",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 281.0,
-      "pricePerShare": 270.622,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "SNOW",
-      "issuerName": "Snowflake Inc.",
-      "insiderName": "Slootman Frank",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 1297.0,
-      "pricePerShare": 271.507,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "SNOW",
-      "issuerName": "Snowflake Inc.",
-      "insiderName": "Slootman Frank",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 1078.0,
-      "pricePerShare": 272.834,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "SNOW",
-      "issuerName": "Snowflake Inc.",
-      "insiderName": "Slootman Frank",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 600.0,
-      "pricePerShare": 274.082,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "SNOW",
-      "issuerName": "Snowflake Inc.",
-      "insiderName": "Slootman Frank",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 1945.0,
-      "pricePerShare": 275.234,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "SNOW",
-      "issuerName": "Snowflake Inc.",
-      "insiderName": "Slootman Frank",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 2699.0,
-      "pricePerShare": 277.537,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "SNOW",
-      "issuerName": "Snowflake Inc.",
-      "insiderName": "Slootman Frank",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 1783.0,
-      "pricePerShare": 278.24,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "LQDA",
-      "issuerName": "Liquidia Corp",
-      "insiderName": "Bloch Stephen M",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 74444.0,
-      "pricePerShare": 79.9841,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "LQDA",
-      "issuerName": "Liquidia Corp",
-      "insiderName": "Bloch Stephen M",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 556.0,
-      "pricePerShare": 80.6576,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "MAX",
-      "issuerName": "MediaAlpha, Inc.",
-      "insiderName": "Nonko Eugene",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 4952.0,
-      "pricePerShare": 14.3317,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "MAX",
-      "issuerName": "MediaAlpha, Inc.",
-      "insiderName": "Nonko Eugene",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 9524.0,
-      "pricePerShare": 14.3296,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "TKO",
-      "issuerName": "TKO Group Holdings, Inc.",
-      "insiderName": "Khan Nick",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 132.0,
-      "pricePerShare": 181.09,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "TKO",
-      "issuerName": "TKO Group Holdings, Inc.",
-      "insiderName": "Khan Nick",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 12866.0,
-      "pricePerShare": 181.11,
-      "transactionDate": "2026-07-21"
-    },
-    {
-      "ticker": "NMM",
-      "issuerName": "Navios Maritime Partners L.P.",
-      "insiderName": "Frangou Angeliki",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 1149.0,
-      "pricePerShare": 74.0276,
-      "transactionDate": "2026-07-21"
     }
   ],
   "byTicker": {
+    "EHLD": {
+      "issuerName": "Euroholdings Ltd.",
+      "trades": [
+        {
+          "ticker": "EHLD",
+          "issuerName": "Euroholdings Ltd.",
+          "insiderName": "Karmiri Stefania",
+          "title": "Corporate Secretary",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 9.9,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
     "TILE": {
       "issuerName": "INTERFACE INC",
       "trades": [
@@ -31997,6 +32012,376 @@
           "shares": 2062.0,
           "pricePerShare": 149.52,
           "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "AVBC": {
+      "issuerName": "Avidia Bancorp, Inc.",
+      "trades": [
+        {
+          "ticker": "AVBC",
+          "issuerName": "Avidia Bancorp, Inc.",
+          "insiderName": "Grimaldo Joseph F",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 4655.0,
+          "pricePerShare": 21.4364,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "CIA": {
+      "issuerName": "CITIZENS, INC.",
+      "trades": [
+        {
+          "ticker": "CIA",
+          "issuerName": "CITIZENS, INC.",
+          "insiderName": "Stenberg Jon",
+          "title": "Director, President & CEO",
+          "type": "Purchase",
+          "shares": 12000.0,
+          "pricePerShare": 3.6496,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "CIA",
+          "issuerName": "CITIZENS, INC.",
+          "insiderName": "Stenberg Jon",
+          "title": "Director, President & CEO",
+          "type": "Purchase",
+          "shares": 50000.0,
+          "pricePerShare": 3.9926,
+          "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "WSBC": {
+      "issuerName": "WESBANCO INC",
+      "trades": [
+        {
+          "ticker": "WSBC",
+          "issuerName": "WESBANCO INC",
+          "insiderName": "Friend Robert H",
+          "title": "EVP & CCO",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 42.06,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "WSBC",
+          "issuerName": "WESBANCO INC",
+          "insiderName": "Friend Robert H",
+          "title": "EVP & CCO",
+          "type": "Sale",
+          "shares": 787.0,
+          "pricePerShare": 42.045,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "WSBC",
+          "issuerName": "WESBANCO INC",
+          "insiderName": "Friend Robert H",
+          "title": "EVP & CCO",
+          "type": "Sale",
+          "shares": 213.0,
+          "pricePerShare": 42.05,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "WSBC",
+          "issuerName": "WESBANCO INC",
+          "insiderName": "Friend Robert H",
+          "title": "EVP & CCO",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 42.05,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "WSBC",
+          "issuerName": "WESBANCO INC",
+          "insiderName": "Friend Robert H",
+          "title": "EVP & CCO",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 42.06,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "WSBC",
+          "issuerName": "WESBANCO INC",
+          "insiderName": "Friend Robert H",
+          "title": "EVP & CCO",
+          "type": "Sale",
+          "shares": 700.0,
+          "pricePerShare": 42.07,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "WSBC",
+          "issuerName": "WESBANCO INC",
+          "insiderName": "Friend Robert H",
+          "title": "EVP & CCO",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 42.08,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "WSBC",
+          "issuerName": "WESBANCO INC",
+          "insiderName": "Friend Robert H",
+          "title": "EVP & CCO",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 42.06,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "WSBC",
+          "issuerName": "WESBANCO INC",
+          "insiderName": "Friend Robert H",
+          "title": "EVP & CCO",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 42.055,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "WSBC",
+          "issuerName": "WESBANCO INC",
+          "insiderName": "Zatta Jayson M",
+          "title": "SEVP & Chief Banking Officer",
+          "type": "Sale",
+          "shares": 12500.0,
+          "pricePerShare": 41.803,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "WSBC",
+          "issuerName": "WESBANCO INC",
+          "insiderName": "Pattishall-Krupinski Jan",
+          "title": "SEVP - Chief Admin Officer",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 41.9054,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "WSBC",
+          "issuerName": "WESBANCO INC",
+          "insiderName": "Pattishall-Krupinski Jan",
+          "title": "SEVP - Chief Admin Officer",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 41.905,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "WSBC",
+          "issuerName": "WESBANCO INC",
+          "insiderName": "Pattishall-Krupinski Jan",
+          "title": "SEVP - Chief Admin Officer",
+          "type": "Sale",
+          "shares": 2250.0,
+          "pricePerShare": 41.4463,
+          "transactionDate": "2026-07-28"
+        }
+      ]
+    },
+    "RCG": {
+      "issuerName": "RENN Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.99,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.96,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.0,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.97,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.06,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.02,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.03,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.05,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.03,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.06,
+          "transactionDate": "2026-07-22"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.07,
+          "transactionDate": "2026-07-21"
+        }
+      ]
+    },
+    "LH": {
+      "issuerName": "LABCORP HOLDINGS INC.",
+      "trades": [
+        {
+          "ticker": "LH",
+          "issuerName": "LABCORP HOLDINGS INC.",
+          "insiderName": "Schechter Adam H",
+          "title": "Director, President & CEO",
+          "type": "Sale",
+          "shares": 4669.0,
+          "pricePerShare": 320.37,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "LH",
+          "issuerName": "LABCORP HOLDINGS INC.",
+          "insiderName": "Summy Amy B.",
+          "title": "EVP, Chief Marketing Officer",
+          "type": "Sale",
+          "shares": 924.0,
+          "pricePerShare": 306.74,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "LH",
+          "issuerName": "LABCORP HOLDINGS INC.",
+          "insiderName": "Wilkinson Peter J",
+          "title": "SVP, Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 82.0,
+          "pricePerShare": 309.22,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "LH",
+          "issuerName": "LABCORP HOLDINGS INC.",
+          "insiderName": "Wilkinson Peter J",
+          "title": "SVP, Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 1338.0,
+          "pricePerShare": 309.2311,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "EDRY": {
+      "issuerName": "EuroDry Ltd.",
+      "trades": [
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Karmiri Stefania",
+          "title": "Corporate Secretary",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 38.5,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 250.0,
+          "pricePerShare": 37.803,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 250.0,
+          "pricePerShare": 37.803,
+          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -34625,111 +35010,6 @@
         }
       ]
     },
-    "RCG": {
-      "issuerName": "RENN Fund, Inc.",
-      "trades": [
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.96,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.0,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.97,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.06,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.02,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.03,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.05,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.03,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.06,
-          "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.07,
-          "transactionDate": "2026-07-21"
-        }
-      ]
-    },
     "TPL": {
       "issuerName": "Texas Pacific Land Corp",
       "trades": [
@@ -35262,21 +35542,6 @@
           "shares": 2712.0,
           "pricePerShare": 122.1209,
           "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "CIA": {
-      "issuerName": "CITIZENS, INC.",
-      "trades": [
-        {
-          "ticker": "CIA",
-          "issuerName": "CITIZENS, INC.",
-          "insiderName": "Stenberg Jon",
-          "title": "Director, President & CEO",
-          "type": "Purchase",
-          "shares": 50000.0,
-          "pricePerShare": 3.9926,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -37495,6 +37760,91 @@
         }
       ]
     },
+    "GD": {
+      "issuerName": "GENERAL DYNAMICS CORP",
+      "trades": [
+        {
+          "ticker": "GD",
+          "issuerName": "GENERAL DYNAMICS CORP",
+          "insiderName": "Wall Peter A",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1990.0,
+          "pricePerShare": 396.431,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "GD",
+          "issuerName": "GENERAL DYNAMICS CORP",
+          "insiderName": "Brady Christopher J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6320.0,
+          "pricePerShare": 383.32,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "GD",
+          "issuerName": "GENERAL DYNAMICS CORP",
+          "insiderName": "NOVAKOVIC PHEBE N",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5673.0,
+          "pricePerShare": 381.17,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "GD",
+          "issuerName": "GENERAL DYNAMICS CORP",
+          "insiderName": "NOVAKOVIC PHEBE N",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 22707.0,
+          "pricePerShare": 382.165,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "GD",
+          "issuerName": "GENERAL DYNAMICS CORP",
+          "insiderName": "NOVAKOVIC PHEBE N",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15917.0,
+          "pricePerShare": 383.091,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "GD",
+          "issuerName": "GENERAL DYNAMICS CORP",
+          "insiderName": "NOVAKOVIC PHEBE N",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7271.0,
+          "pricePerShare": 383.852,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "GD",
+          "issuerName": "GENERAL DYNAMICS CORP",
+          "insiderName": "Gilliland Marguerite Amy",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 16970.0,
+          "pricePerShare": 377.442,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "GD",
+          "issuerName": "GENERAL DYNAMICS CORP",
+          "insiderName": "Gilliland Marguerite Amy",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 26210.0,
+          "pricePerShare": 378.423,
+          "transactionDate": "2026-07-31"
+        }
+      ]
+    },
     "WEYS": {
       "issuerName": "WEYCO GROUP INC",
       "trades": [
@@ -39077,16 +39427,6 @@
           "shares": 1121.0,
           "pricePerShare": 74.0678,
           "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "NMM",
-          "issuerName": "Navios Maritime Partners L.P.",
-          "insiderName": "Frangou Angeliki",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 1149.0,
-          "pricePerShare": 74.0276,
-          "transactionDate": "2026-07-21"
         }
       ]
     },
@@ -42087,36 +42427,6 @@
           "shares": 152.0,
           "pricePerShare": 196.41,
           "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 384.0,
-          "pricePerShare": 197.59,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 492.0,
-          "pricePerShare": 198.77,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 68.0,
-          "pricePerShare": 199.93,
-          "transactionDate": "2026-07-21"
         }
       ]
     },
@@ -43897,86 +44207,6 @@
           "shares": 50000.0,
           "pricePerShare": 280.0,
           "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "SNOW",
-          "issuerName": "Snowflake Inc.",
-          "insiderName": "Slootman Frank",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 632.0,
-          "pricePerShare": 269.582,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "SNOW",
-          "issuerName": "Snowflake Inc.",
-          "insiderName": "Slootman Frank",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 281.0,
-          "pricePerShare": 270.622,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "SNOW",
-          "issuerName": "Snowflake Inc.",
-          "insiderName": "Slootman Frank",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1297.0,
-          "pricePerShare": 271.507,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "SNOW",
-          "issuerName": "Snowflake Inc.",
-          "insiderName": "Slootman Frank",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1078.0,
-          "pricePerShare": 272.834,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "SNOW",
-          "issuerName": "Snowflake Inc.",
-          "insiderName": "Slootman Frank",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 600.0,
-          "pricePerShare": 274.082,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "SNOW",
-          "issuerName": "Snowflake Inc.",
-          "insiderName": "Slootman Frank",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1945.0,
-          "pricePerShare": 275.234,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "SNOW",
-          "issuerName": "Snowflake Inc.",
-          "insiderName": "Slootman Frank",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 2699.0,
-          "pricePerShare": 277.537,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "SNOW",
-          "issuerName": "Snowflake Inc.",
-          "insiderName": "Slootman Frank",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1783.0,
-          "pricePerShare": 278.24,
-          "transactionDate": "2026-07-21"
         }
       ]
     },
@@ -50930,81 +51160,6 @@
         }
       ]
     },
-    "GD": {
-      "issuerName": "GENERAL DYNAMICS CORP",
-      "trades": [
-        {
-          "ticker": "GD",
-          "issuerName": "GENERAL DYNAMICS CORP",
-          "insiderName": "Brady Christopher J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6320.0,
-          "pricePerShare": 383.32,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "GD",
-          "issuerName": "GENERAL DYNAMICS CORP",
-          "insiderName": "NOVAKOVIC PHEBE N",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5673.0,
-          "pricePerShare": 381.17,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "GD",
-          "issuerName": "GENERAL DYNAMICS CORP",
-          "insiderName": "NOVAKOVIC PHEBE N",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 22707.0,
-          "pricePerShare": 382.165,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "GD",
-          "issuerName": "GENERAL DYNAMICS CORP",
-          "insiderName": "NOVAKOVIC PHEBE N",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15917.0,
-          "pricePerShare": 383.091,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "GD",
-          "issuerName": "GENERAL DYNAMICS CORP",
-          "insiderName": "NOVAKOVIC PHEBE N",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7271.0,
-          "pricePerShare": 383.852,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "GD",
-          "issuerName": "GENERAL DYNAMICS CORP",
-          "insiderName": "Gilliland Marguerite Amy",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 16970.0,
-          "pricePerShare": 377.442,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "GD",
-          "issuerName": "GENERAL DYNAMICS CORP",
-          "insiderName": "Gilliland Marguerite Amy",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 26210.0,
-          "pricePerShare": 378.423,
-          "transactionDate": "2026-07-31"
-        }
-      ]
-    },
     "LKFN": {
       "issuerName": "LAKELAND FINANCIAL CORP",
       "trades": [
@@ -53872,41 +54027,6 @@
           "shares": 10272.0,
           "pricePerShare": 123.5889,
           "transactionDate": "2026-08-04"
-        }
-      ]
-    },
-    "LH": {
-      "issuerName": "LABCORP HOLDINGS INC.",
-      "trades": [
-        {
-          "ticker": "LH",
-          "issuerName": "LABCORP HOLDINGS INC.",
-          "insiderName": "Summy Amy B.",
-          "title": "EVP, Chief Marketing Officer",
-          "type": "Sale",
-          "shares": 924.0,
-          "pricePerShare": 306.74,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "LH",
-          "issuerName": "LABCORP HOLDINGS INC.",
-          "insiderName": "Wilkinson Peter J",
-          "title": "SVP, Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 82.0,
-          "pricePerShare": 309.22,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "LH",
-          "issuerName": "LABCORP HOLDINGS INC.",
-          "insiderName": "Wilkinson Peter J",
-          "title": "SVP, Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 1338.0,
-          "pricePerShare": 309.2311,
-          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -58902,26 +59022,6 @@
           "shares": 9524.0,
           "pricePerShare": 13.7127,
           "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 4952.0,
-          "pricePerShare": 14.3317,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 9524.0,
-          "pricePerShare": 14.3296,
-          "transactionDate": "2026-07-21"
         }
       ]
     },
@@ -59532,51 +59632,6 @@
           "shares": 732.0,
           "pricePerShare": 58.1,
           "transactionDate": "2026-07-29"
-        }
-      ]
-    },
-    "WSBC": {
-      "issuerName": "WESBANCO INC",
-      "trades": [
-        {
-          "ticker": "WSBC",
-          "issuerName": "WESBANCO INC",
-          "insiderName": "Zatta Jayson M",
-          "title": "SEVP & Chief Banking Officer",
-          "type": "Sale",
-          "shares": 12500.0,
-          "pricePerShare": 41.803,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "WSBC",
-          "issuerName": "WESBANCO INC",
-          "insiderName": "Pattishall-Krupinski Jan",
-          "title": "SEVP - Chief Admin Officer",
-          "type": "Sale",
-          "shares": 2000.0,
-          "pricePerShare": 41.9054,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WSBC",
-          "issuerName": "WESBANCO INC",
-          "insiderName": "Pattishall-Krupinski Jan",
-          "title": "SEVP - Chief Admin Officer",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 41.905,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WSBC",
-          "issuerName": "WESBANCO INC",
-          "insiderName": "Pattishall-Krupinski Jan",
-          "title": "SEVP - Chief Admin Officer",
-          "type": "Sale",
-          "shares": 2250.0,
-          "pricePerShare": 41.4463,
-          "transactionDate": "2026-07-28"
         }
       ]
     },
@@ -63009,56 +63064,6 @@
           "transactionDate": "2026-07-21"
         }
       ]
-    },
-    "LQDA": {
-      "issuerName": "Liquidia Corp",
-      "trades": [
-        {
-          "ticker": "LQDA",
-          "issuerName": "Liquidia Corp",
-          "insiderName": "Bloch Stephen M",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 74444.0,
-          "pricePerShare": 79.9841,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "LQDA",
-          "issuerName": "Liquidia Corp",
-          "insiderName": "Bloch Stephen M",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 556.0,
-          "pricePerShare": 80.6576,
-          "transactionDate": "2026-07-21"
-        }
-      ]
-    },
-    "TKO": {
-      "issuerName": "TKO Group Holdings, Inc.",
-      "trades": [
-        {
-          "ticker": "TKO",
-          "issuerName": "TKO Group Holdings, Inc.",
-          "insiderName": "Khan Nick",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 132.0,
-          "pricePerShare": 181.09,
-          "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "TKO",
-          "issuerName": "TKO Group Holdings, Inc.",
-          "insiderName": "Khan Nick",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 12866.0,
-          "pricePerShare": 181.11,
-          "transactionDate": "2026-07-21"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63214,6 +63219,7 @@
       "0000070502-26-000507",
       "0000070502-26-000513",
       "0000070502-26-000519",
+      "0000070502-26-000521",
       "0000070858-26-000359",
       "0000070858-26-000368",
       "0000070858-26-000409",
@@ -63293,6 +63299,7 @@
       "0000105634-26-000119",
       "0000105634-26-000121",
       "0000105634-26-000123",
+      "0000105770-26-000104",
       "0000108985-26-000066",
       "0000109380-26-000104",
       "0000109380-26-000105",
@@ -63302,6 +63309,8 @@
       "0000202058-26-000063",
       "0000203596-26-000105",
       "0000203596-26-000106",
+      "0000203596-26-000107",
+      "0000203596-26-000108",
       "0000217410-26-000042",
       "0000217410-26-000045",
       "0000217410-26-000047",
@@ -63720,6 +63729,7 @@
       "0000919574-26-004907",
       "0000920148-26-000172",
       "0000920148-26-000176",
+      "0000920148-26-000177",
       "0000921895-26-001848",
       "0000921895-26-001852",
       "0000921895-26-001917",
@@ -64343,6 +64353,8 @@
       "0000950103-26-012233",
       "0000950103-26-012234",
       "0000950103-26-012235",
+      "0000950103-26-012236",
+      "0000950103-26-012238",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -67005,6 +67017,16 @@
       "0001193125-26-346428",
       "0001193125-26-346430",
       "0001193125-26-346442",
+      "0001193125-26-346464",
+      "0001193125-26-346479",
+      "0001193125-26-346484",
+      "0001193125-26-346494",
+      "0001193125-26-346498",
+      "0001193125-26-346513",
+      "0001193125-26-346520",
+      "0001193125-26-346560",
+      "0001193125-26-346569",
+      "0001193125-26-346579",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -67664,6 +67686,12 @@
       "0001213900-26-088156",
       "0001213900-26-088176",
       "0001213900-26-088213",
+      "0001213900-26-088219",
+      "0001213900-26-088224",
+      "0001213900-26-088230",
+      "0001213900-26-088236",
+      "0001213900-26-088261",
+      "0001213900-26-088265",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -67784,6 +67812,7 @@
       "0001214659-26-009935",
       "0001214659-26-009936",
       "0001214659-26-009957",
+      "0001214659-26-009987",
       "0001216055-26-000006",
       "0001216055-26-000007",
       "0001216581-26-000006",
@@ -68391,6 +68420,8 @@
       "0001437749-26-027147",
       "0001437749-26-027185",
       "0001437749-26-027225",
+      "0001437749-26-027250",
+      "0001437749-26-027261",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001444540-26-000002",
@@ -69573,6 +69604,8 @@
       "0001628280-26-056048",
       "0001628280-26-056050",
       "0001628280-26-056061",
+      "0001628280-26-056108",
+      "0001628280-26-056119",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -70045,6 +70078,7 @@
       "0001789719-26-000008",
       "0001789970-26-000012",
       "0001792236-26-000002",
+      "0001792380-26-000002",
       "0001792769-26-000008",
       "0001792910-26-000006",
       "0001794002-26-000012",
@@ -71505,6 +71539,19 @@
       "0001839882-26-039625",
       "0001839882-26-039626",
       "0001839882-26-039627",
+      "0001839882-26-039639",
+      "0001839882-26-039641",
+      "0001839882-26-039642",
+      "0001839882-26-039643",
+      "0001839882-26-039644",
+      "0001839882-26-039645",
+      "0001839882-26-039646",
+      "0001839882-26-039647",
+      "0001839882-26-039648",
+      "0001839882-26-039649",
+      "0001839882-26-039650",
+      "0001839882-26-039656",
+      "0001839882-26-039657",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -73206,6 +73253,12 @@
       "0001918704-26-023550",
       "0001918704-26-023551",
       "0001918704-26-023552",
+      "0001918704-26-023553",
+      "0001918704-26-023556",
+      "0001918704-26-023557",
+      "0001918704-26-023558",
+      "0001918704-26-023559",
+      "0001918704-26-023560",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -73601,6 +73654,7 @@
       "0001999371-26-017648",
       "0001999371-26-017657",
       "0001999371-26-017660",
+      "0001999371-26-017684",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
@@ -73626,6 +73680,7 @@
       "0002014440-26-000010",
       "0002014633-26-000014",
       "0002015793-26-000012",
+      "0002015793-26-000014",
       "0002017190-26-000003",
       "0002017287-26-000005",
       "0002017618-26-000002",
@@ -73861,6 +73916,8 @@
       "0002116333-26-000001",
       "0002120714-26-000004",
       "0002121472-26-000003",
+      "0002122338-26-000005",
+      "0002122338-26-000006",
       "0002122411-26-000001",
       "0002123155-26-000002",
       "0002123843-26-000008",
@@ -73870,6 +73927,7 @@
       "0002125533-26-000013",
       "0002125533-26-000015",
       "0002126940-26-000004",
+      "0002127484-26-000012",
       "0002127674-26-000002",
       "0002127814-26-000004",
       "0002127908-26-000004",
