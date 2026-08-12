@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T13:04:02.965105+00:00",
+  "generatedAt": "2026-08-12T14:03:58.049667+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -291,6 +291,26 @@
       "type": "Sale",
       "shares": 242.0,
       "pricePerShare": 63.005,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "BOKF",
+      "issuerName": "BOK FINANCIAL CORP",
+      "insiderName": "BANGERT STEVEN",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1250.0,
+      "pricePerShare": 143.96,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "ONEW",
+      "issuerName": "OneWater Marine Inc.",
+      "insiderName": "Bos Teresa D.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 110250.0,
+      "pricePerShare": 12.81,
       "transactionDate": "2026-08-11"
     },
     {
@@ -1751,6 +1771,36 @@
       "type": "Sale",
       "shares": 22549.0,
       "pricePerShare": 63.2457,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "ONEW",
+      "issuerName": "OneWater Marine Inc.",
+      "insiderName": "Bos Teresa D.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 19871.0,
+      "pricePerShare": 12.64,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "MOSKOWITZ JOSEPH L",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 600.0,
+      "pricePerShare": 124.1,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "MATW",
+      "issuerName": "MATTHEWS INTERNATIONAL CORP",
+      "insiderName": "Nauman J Michael",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 2000.0,
+      "pricePerShare": 22.97,
       "transactionDate": "2026-08-10"
     },
     {
@@ -11381,6 +11431,16 @@
       "type": "Sale",
       "shares": 72753.0,
       "pricePerShare": 15.5369,
+      "transactionDate": "2026-08-05"
+    },
+    {
+      "ticker": "ONEW",
+      "issuerName": "OneWater Marine Inc.",
+      "insiderName": "Bos Teresa D.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 8.0,
+      "pricePerShare": 13.0,
       "transactionDate": "2026-08-05"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 500.0,
       "pricePerShare": 115.79,
       "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "ARX",
-      "issuerName": "Accelerant Holdings",
-      "insiderName": "RADKE JEFFREY L",
-      "title": "Director, Co-Founder, CEO, 10% Owner",
-      "type": "Sale",
-      "shares": 80000.0,
-      "pricePerShare": 13.5068,
-      "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "SYNA",
-      "issuerName": "SYNAPTICS Inc",
-      "insiderName": "Bodensteiner Lisa",
-      "title": "See Remarks",
-      "type": "Sale",
-      "shares": 284.0,
-      "pricePerShare": 114.62,
-      "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "SYNA",
-      "issuerName": "SYNAPTICS Inc",
-      "insiderName": "Bodensteiner Lisa",
-      "title": "See Remarks",
-      "type": "Sale",
-      "shares": 166.0,
-      "pricePerShare": 115.56,
-      "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "GLOO",
-      "issuerName": "Gloo Holdings, Inc.",
-      "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 7000.0,
-      "pricePerShare": 3.44,
-      "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "SYNA",
-      "issuerName": "SYNAPTICS Inc",
-      "insiderName": "Gupta Vikram",
-      "title": "See Remarks",
-      "type": "Sale",
-      "shares": 350.0,
-      "pricePerShare": 114.76,
-      "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "SYNA",
-      "issuerName": "SYNAPTICS Inc",
-      "insiderName": "Gupta Vikram",
-      "title": "See Remarks",
-      "type": "Sale",
-      "shares": 10.0,
-      "pricePerShare": 115.54,
-      "transactionDate": "2026-07-20"
     }
   ],
   "byTicker": {
@@ -30847,16 +30847,6 @@
           "shares": 8300.0,
           "pricePerShare": 3.3635,
           "transactionDate": "2026-07-21"
-        },
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7000.0,
-          "pricePerShare": 3.44,
-          "transactionDate": "2026-07-20"
         }
       ]
     },
@@ -31402,6 +31392,76 @@
           "shares": 25913.0,
           "pricePerShare": 63.4383,
           "transactionDate": "2026-07-27"
+        }
+      ]
+    },
+    "BOKF": {
+      "issuerName": "BOK FINANCIAL CORP",
+      "trades": [
+        {
+          "ticker": "BOKF",
+          "issuerName": "BOK FINANCIAL CORP",
+          "insiderName": "BANGERT STEVEN",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1250.0,
+          "pricePerShare": 143.96,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "BOKF",
+          "issuerName": "BOK FINANCIAL CORP",
+          "insiderName": "Vincent Brad A",
+          "title": "EVP - Specialized Industries",
+          "type": "Sale",
+          "shares": 4015.0,
+          "pricePerShare": 145.42,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "BOKF",
+          "issuerName": "BOK FINANCIAL CORP",
+          "insiderName": "KYMES STACY",
+          "title": "Director, President & CEO",
+          "type": "Sale",
+          "shares": 8.5386,
+          "pricePerShare": 139.532,
+          "transactionDate": "2026-07-23"
+        }
+      ]
+    },
+    "ONEW": {
+      "issuerName": "OneWater Marine Inc.",
+      "trades": [
+        {
+          "ticker": "ONEW",
+          "issuerName": "OneWater Marine Inc.",
+          "insiderName": "Bos Teresa D.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 110250.0,
+          "pricePerShare": 12.81,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "ONEW",
+          "issuerName": "OneWater Marine Inc.",
+          "insiderName": "Bos Teresa D.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 19871.0,
+          "pricePerShare": 12.64,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "ONEW",
+          "issuerName": "OneWater Marine Inc.",
+          "insiderName": "Bos Teresa D.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8.0,
+          "pricePerShare": 13.0,
+          "transactionDate": "2026-08-05"
         }
       ]
     },
@@ -36657,6 +36717,36 @@
           "shares": 185880.0,
           "pricePerShare": 16.26,
           "transactionDate": "2026-07-24"
+        }
+      ]
+    },
+    "AFL": {
+      "issuerName": "AFLAC INC",
+      "trades": [
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "MOSKOWITZ JOSEPH L",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 600.0,
+          "pricePerShare": 124.1,
+          "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "MATW": {
+      "issuerName": "MATTHEWS INTERNATIONAL CORP",
+      "trades": [
+        {
+          "ticker": "MATW",
+          "issuerName": "MATTHEWS INTERNATIONAL CORP",
+          "insiderName": "Nauman J Michael",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 22.97,
+          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -53250,31 +53340,6 @@
         }
       ]
     },
-    "BOKF": {
-      "issuerName": "BOK FINANCIAL CORP",
-      "trades": [
-        {
-          "ticker": "BOKF",
-          "issuerName": "BOK FINANCIAL CORP",
-          "insiderName": "Vincent Brad A",
-          "title": "EVP - Specialized Industries",
-          "type": "Sale",
-          "shares": 4015.0,
-          "pricePerShare": 145.42,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "BOKF",
-          "issuerName": "BOK FINANCIAL CORP",
-          "insiderName": "KYMES STACY",
-          "title": "Director, President & CEO",
-          "type": "Sale",
-          "shares": 8.5386,
-          "pricePerShare": 139.532,
-          "transactionDate": "2026-07-23"
-        }
-      ]
-    },
     "RELL": {
       "issuerName": "RICHARDSON ELECTRONICS, LTD.",
       "trades": [
@@ -55262,16 +55327,6 @@
           "shares": 110467.0,
           "pricePerShare": 14.6308,
           "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "ARX",
-          "issuerName": "Accelerant Holdings",
-          "insiderName": "RADKE JEFFREY L",
-          "title": "Director, Co-Founder, CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 80000.0,
-          "pricePerShare": 13.5068,
-          "transactionDate": "2026-07-20"
         }
       ]
     },
@@ -62997,46 +63052,6 @@
           "shares": 500.0,
           "pricePerShare": 115.79,
           "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "SYNA",
-          "issuerName": "SYNAPTICS Inc",
-          "insiderName": "Bodensteiner Lisa",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 284.0,
-          "pricePerShare": 114.62,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "SYNA",
-          "issuerName": "SYNAPTICS Inc",
-          "insiderName": "Bodensteiner Lisa",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 166.0,
-          "pricePerShare": 115.56,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "SYNA",
-          "issuerName": "SYNAPTICS Inc",
-          "insiderName": "Gupta Vikram",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 350.0,
-          "pricePerShare": 114.76,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "SYNA",
-          "issuerName": "SYNAPTICS Inc",
-          "insiderName": "Gupta Vikram",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 10.0,
-          "pricePerShare": 115.54,
-          "transactionDate": "2026-07-20"
         }
       ]
     }
@@ -63050,6 +63065,7 @@
       "0000002488-26-000137",
       "0000002488-26-000139",
       "0000004127-26-000046",
+      "0000004977-26-000098",
       "0000006281-26-000066",
       "0000007789-26-000188",
       "0000007789-26-000192",
@@ -63180,6 +63196,7 @@
       "0000058492-26-000443",
       "0000058492-26-000444",
       "0000062709-26-000204",
+      "0000063296-26-000082",
       "0000063754-26-000284",
       "0000063754-26-000286",
       "0000063754-26-000288",
@@ -63226,6 +63243,7 @@
       "0000080661-26-000296",
       "0000080661-26-000298",
       "0000080661-26-000306",
+      "0000081027-26-000003",
       "0000088053-26-000539",
       "0000088053-26-000540",
       "0000088053-26-000541",
@@ -63238,6 +63256,7 @@
       "0000088053-26-000561",
       "0000088053-26-000564",
       "0000088053-26-000596",
+      "0000088053-26-000624",
       "0000091440-26-000146",
       "0000091440-26-000148",
       "0000093751-26-000393",
@@ -64978,6 +64997,9 @@
       "0001104659-26-094278",
       "0001104659-26-094434",
       "0001104659-26-094437",
+      "0001104659-26-094557",
+      "0001104659-26-094564",
+      "0001104659-26-094569",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -65302,6 +65324,7 @@
       "0001140361-26-032347",
       "0001140361-26-032349",
       "0001140361-26-032391",
+      "0001140361-26-032398",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -65381,6 +65404,7 @@
       "0001185185-26-003311",
       "0001185185-26-003335",
       "0001185185-26-003387",
+      "0001185611-26-000005",
       "0001186836-26-000008",
       "0001186865-26-000001",
       "0001186865-26-000002",
@@ -66907,6 +66931,7 @@
       "0001193125-26-345839",
       "0001193125-26-345869",
       "0001193125-26-345871",
+      "0001193125-26-345881",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -67559,6 +67584,7 @@
       "0001213900-26-087981",
       "0001213900-26-088002",
       "0001213900-26-088076",
+      "0001213900-26-088085",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -69442,6 +69468,7 @@
       "0001628280-26-055893",
       "0001628280-26-055895",
       "0001628280-26-055910",
+      "0001628280-26-055989",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -72967,6 +72994,18 @@
       "0001918704-26-023486",
       "0001918704-26-023487",
       "0001918704-26-023501",
+      "0001918704-26-023502",
+      "0001918704-26-023503",
+      "0001918704-26-023504",
+      "0001918704-26-023505",
+      "0001918704-26-023506",
+      "0001918704-26-023507",
+      "0001918704-26-023508",
+      "0001918704-26-023509",
+      "0001918704-26-023510",
+      "0001918704-26-023511",
+      "0001918704-26-023512",
+      "0001918704-26-023513",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -73357,6 +73396,8 @@
       "0001999371-26-017567",
       "0001999371-26-017581",
       "0001999371-26-017648",
+      "0001999371-26-017657",
+      "0001999371-26-017660",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
