@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T12:05:04.951093+00:00",
+  "generatedAt": "2026-08-12T13:04:02.965105+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -281,6 +281,16 @@
       "type": "Purchase",
       "shares": 709.0,
       "pricePerShare": 51.68,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "KARO",
+      "issuerName": "Karooooo Ltd.",
+      "insiderName": "Calisto Isaias Jose",
+      "title": "Director, CEO Executive Chairman, 10% Owner",
+      "type": "Sale",
+      "shares": 242.0,
+      "pricePerShare": 63.005,
       "transactionDate": "2026-08-11"
     },
     {
@@ -1731,6 +1741,16 @@
       "type": "Purchase",
       "shares": 3130.0,
       "pricePerShare": 51.04,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "KARO",
+      "issuerName": "Karooooo Ltd.",
+      "insiderName": "Calisto Isaias Jose",
+      "title": "Director, CEO Executive Chairman, 10% Owner",
+      "type": "Sale",
+      "shares": 22549.0,
+      "pricePerShare": 63.2457,
       "transactionDate": "2026-08-10"
     },
     {
@@ -29982,26 +30002,6 @@
       "shares": 10.0,
       "pricePerShare": 115.54,
       "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "MDGL",
-      "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-      "insiderName": "Sibold William John",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 140.0,
-      "pricePerShare": 542.7459,
-      "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "MDGL",
-      "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-      "insiderName": "Sibold William John",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 110.0,
-      "pricePerShare": 543.7929,
-      "transactionDate": "2026-07-20"
     }
   ],
   "byTicker": {
@@ -31277,6 +31277,131 @@
           "shares": 3130.0,
           "pricePerShare": 51.04,
           "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "KARO": {
+      "issuerName": "Karooooo Ltd.",
+      "trades": [
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 242.0,
+          "pricePerShare": 63.005,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 22549.0,
+          "pricePerShare": 63.2457,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&EC, 10% Owner",
+          "type": "Sale",
+          "shares": 12430.0,
+          "pricePerShare": 64.478,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&EC, 10% Owner",
+          "type": "Sale",
+          "shares": 18849.0,
+          "pricePerShare": 63.2888,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 33833.0,
+          "pricePerShare": 66.1396,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 25594.0,
+          "pricePerShare": 64.6035,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 20417.0,
+          "pricePerShare": 64.5101,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 25452.0,
+          "pricePerShare": 64.6496,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 18630.0,
+          "pricePerShare": 63.4706,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 31897.0,
+          "pricePerShare": 64.4327,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 22036.0,
+          "pricePerShare": 64.1878,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 25913.0,
+          "pricePerShare": 63.4383,
+          "transactionDate": "2026-07-27"
         }
       ]
     },
@@ -38182,111 +38307,6 @@
           "shares": 23900.0,
           "pricePerShare": 20.85,
           "transactionDate": "2026-08-07"
-        }
-      ]
-    },
-    "KARO": {
-      "issuerName": "Karooooo Ltd.",
-      "trades": [
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO&EC, 10% Owner",
-          "type": "Sale",
-          "shares": 12430.0,
-          "pricePerShare": 64.478,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO&EC, 10% Owner",
-          "type": "Sale",
-          "shares": 18849.0,
-          "pricePerShare": 63.2888,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO&Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 33833.0,
-          "pricePerShare": 66.1396,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO&Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 25594.0,
-          "pricePerShare": 64.6035,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 20417.0,
-          "pricePerShare": 64.5101,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 25452.0,
-          "pricePerShare": 64.6496,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 18630.0,
-          "pricePerShare": 63.4706,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 31897.0,
-          "pricePerShare": 64.4327,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 22036.0,
-          "pricePerShare": 64.1878,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 25913.0,
-          "pricePerShare": 63.4383,
-          "transactionDate": "2026-07-27"
         }
       ]
     },
@@ -63019,31 +63039,6 @@
           "transactionDate": "2026-07-20"
         }
       ]
-    },
-    "MDGL": {
-      "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-      "trades": [
-        {
-          "ticker": "MDGL",
-          "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-          "insiderName": "Sibold William John",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 140.0,
-          "pricePerShare": 542.7459,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "MDGL",
-          "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-          "insiderName": "Sibold William John",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 110.0,
-          "pricePerShare": 543.7929,
-          "transactionDate": "2026-07-20"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63737,6 +63732,7 @@
       "0000930413-26-002328",
       "0000930413-26-002329",
       "0000930413-26-002431",
+      "0000930413-26-002467",
       "0000935596-26-000016",
       "0000935703-26-000095",
       "0000935703-26-000097",
@@ -64513,6 +64509,7 @@
       "0001102993-26-000038",
       "0001102993-26-000041",
       "0001102993-26-000048",
+      "0001102993-26-000095",
       "0001104659-26-084764",
       "0001104659-26-084765",
       "0001104659-26-084766",
@@ -66902,6 +66899,14 @@
       "0001193125-26-345662",
       "0001193125-26-345730",
       "0001193125-26-345801",
+      "0001193125-26-345826",
+      "0001193125-26-345835",
+      "0001193125-26-345836",
+      "0001193125-26-345837",
+      "0001193125-26-345838",
+      "0001193125-26-345839",
+      "0001193125-26-345869",
+      "0001193125-26-345871",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -67553,6 +67558,7 @@
       "0001213900-26-087980",
       "0001213900-26-087981",
       "0001213900-26-088002",
+      "0001213900-26-088076",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -73350,6 +73356,7 @@
       "0001999371-26-017561",
       "0001999371-26-017567",
       "0001999371-26-017581",
+      "0001999371-26-017648",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
