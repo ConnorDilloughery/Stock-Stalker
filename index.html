@@ -398,13 +398,21 @@ function saveHoldings() {
 /* ======================= API helpers ======================= */
 
 async function fh(path, params) {
+  // Fail fast if the key has been cleared by a concurrent request's error
+  // handling — sending a request with a null/empty token just produces a
+  // confusing "Please use an API key" response instead of a clear one.
+  if (!state.key) throw new Error("BADKEY");
   const q = new URLSearchParams(Object.assign({}, params, { token: state.key }));
   const res = await fetch(`${API}${path}?${q}`);
   if (res.status === 429) { // rate limit: wait and retry once
     await new Promise(r => setTimeout(r, 20000));
     return fh(path, params);
   }
-  if (res.status === 401 || res.status === 403) throw new Error("BADKEY");
+  // Only 401 means the key itself is invalid. 403 can mean a plan
+  // restriction or a transient block on a specific endpoint/burst of
+  // requests — treating it as BADKEY was wiping out a perfectly valid key
+  // out from under other in-flight requests in the same batch.
+  if (res.status === 401) throw new Error("BADKEY");
   if (!res.ok) throw new Error("HTTP " + res.status);
   return res.json();
 }
