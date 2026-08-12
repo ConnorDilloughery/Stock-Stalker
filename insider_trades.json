@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T10:04:44.190827+00:00",
+  "generatedAt": "2026-08-12T11:02:33.444551+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -261,6 +261,16 @@
       "type": "Sale",
       "shares": 46445.0,
       "pricePerShare": 107.7773,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "AVR",
+      "issuerName": "Anteris Technologies Global Corp.",
+      "insiderName": "L1 Capital Pty Ltd",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 375815.0,
+      "pricePerShare": 9.3,
       "transactionDate": "2026-08-11"
     },
     {
@@ -1661,6 +1671,36 @@
       "type": "Sale",
       "shares": 48000.0,
       "pricePerShare": 0.6477,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "XRN",
+      "issuerName": "Chiron Real Estate Inc.",
+      "insiderName": "Decker Mark Okey Jr",
+      "title": "Director, CEO and President",
+      "type": "Purchase",
+      "shares": 8000.0,
+      "pricePerShare": 35.88,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "XRN",
+      "issuerName": "Chiron Real Estate Inc.",
+      "insiderName": "Fitzgerald Charles",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 27600.0,
+      "pricePerShare": 35.94,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "AVR",
+      "issuerName": "Anteris Technologies Global Corp.",
+      "insiderName": "L1 Capital Pty Ltd",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 251844.0,
+      "pricePerShare": 9.1,
       "transactionDate": "2026-08-10"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 47.0,
       "pricePerShare": 548.8719,
       "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "MDGL",
-      "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-      "insiderName": "Sibold William John",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 153.0,
-      "pricePerShare": 550.0138,
-      "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "MDGL",
-      "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-      "insiderName": "Sibold William John",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 1.0,
-      "pricePerShare": 550.72,
-      "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "MDGL",
-      "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-      "insiderName": "Sibold William John",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 280.0,
-      "pricePerShare": 555.05,
-      "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "VLN",
-      "issuerName": "Valens Semiconductor Ltd.",
-      "insiderName": "Rozenberg Haine Yael",
-      "title": "VP Finance",
-      "type": "Sale",
-      "shares": 1458.0,
-      "pricePerShare": 1.71,
-      "transactionDate": "2026-07-20"
     }
   ],
   "byTicker": {
@@ -31127,6 +31127,131 @@
           "shares": 4053.0,
           "pricePerShare": 104.1374,
           "transactionDate": "2026-07-21"
+        }
+      ]
+    },
+    "AVR": {
+      "issuerName": "Anteris Technologies Global Corp.",
+      "trades": [
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 375815.0,
+          "pricePerShare": 9.3,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 251844.0,
+          "pricePerShare": 9.1,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 174721.0,
+          "pricePerShare": 8.1,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 14581.0,
+          "pricePerShare": 8.23,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 480608.0,
+          "pricePerShare": 8.3,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 475693.0,
+          "pricePerShare": 8.1,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 48711.0,
+          "pricePerShare": 8.15,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 558633.0,
+          "pricePerShare": 8.2,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 155505.0,
+          "pricePerShare": 8.04,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 208731.0,
+          "pricePerShare": 8.09,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 232817.0,
+          "pricePerShare": 8.19,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 23000.0,
+          "pricePerShare": 8.13,
+          "transactionDate": "2026-07-24"
         }
       ]
     },
@@ -36232,6 +36357,31 @@
           "shares": 50000.0,
           "pricePerShare": 0.7604,
           "transactionDate": "2026-08-07"
+        }
+      ]
+    },
+    "XRN": {
+      "issuerName": "Chiron Real Estate Inc.",
+      "trades": [
+        {
+          "ticker": "XRN",
+          "issuerName": "Chiron Real Estate Inc.",
+          "insiderName": "Decker Mark Okey Jr",
+          "title": "Director, CEO and President",
+          "type": "Purchase",
+          "shares": 8000.0,
+          "pricePerShare": 35.88,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "XRN",
+          "issuerName": "Chiron Real Estate Inc.",
+          "insiderName": "Fitzgerald Charles",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 27600.0,
+          "pricePerShare": 35.94,
+          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -46817,111 +46967,6 @@
           "shares": 556.0,
           "pricePerShare": 7.7972,
           "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "AVR": {
-      "issuerName": "Anteris Technologies Global Corp.",
-      "trades": [
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 174721.0,
-          "pricePerShare": 8.1,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 14581.0,
-          "pricePerShare": 8.23,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 480608.0,
-          "pricePerShare": 8.3,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 475693.0,
-          "pricePerShare": 8.1,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 48711.0,
-          "pricePerShare": 8.15,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 558633.0,
-          "pricePerShare": 8.2,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 155505.0,
-          "pricePerShare": 8.04,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 208731.0,
-          "pricePerShare": 8.09,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 232817.0,
-          "pricePerShare": 8.19,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "AVR",
-          "issuerName": "Anteris Technologies Global Corp.",
-          "insiderName": "L1 Capital Pty Ltd",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 23000.0,
-          "pricePerShare": 8.13,
-          "transactionDate": "2026-07-24"
         }
       ]
     },
@@ -61897,16 +61942,6 @@
           "shares": 3125.0,
           "pricePerShare": 1.7142,
           "transactionDate": "2026-07-22"
-        },
-        {
-          "ticker": "VLN",
-          "issuerName": "Valens Semiconductor Ltd.",
-          "insiderName": "Rozenberg Haine Yael",
-          "title": "VP Finance",
-          "type": "Sale",
-          "shares": 1458.0,
-          "pricePerShare": 1.71,
-          "transactionDate": "2026-07-20"
         }
       ]
     },
@@ -63001,36 +63036,6 @@
           "type": "Sale",
           "shares": 47.0,
           "pricePerShare": 548.8719,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "MDGL",
-          "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-          "insiderName": "Sibold William John",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 153.0,
-          "pricePerShare": 550.0138,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "MDGL",
-          "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-          "insiderName": "Sibold William John",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 1.0,
-          "pricePerShare": 550.72,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "MDGL",
-          "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-          "insiderName": "Sibold William John",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 280.0,
-          "pricePerShare": 555.05,
           "transactionDate": "2026-07-20"
         }
       ]
@@ -64969,6 +64974,8 @@
       "0001104659-26-094271",
       "0001104659-26-094272",
       "0001104659-26-094278",
+      "0001104659-26-094434",
+      "0001104659-26-094437",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66879,10 +66886,14 @@
       "0001193125-26-345316",
       "0001193125-26-345326",
       "0001193125-26-345333",
+      "0001193125-26-345368",
       "0001193125-26-345383",
       "0001193125-26-345446",
       "0001193125-26-345448",
+      "0001193125-26-345453",
       "0001193125-26-345454",
+      "0001193125-26-345636",
+      "0001193125-26-345662",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -67533,6 +67544,7 @@
       "0001213900-26-087979",
       "0001213900-26-087980",
       "0001213900-26-087981",
+      "0001213900-26-088002",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -69937,6 +69949,7 @@
       "0001817646-26-000016",
       "0001817646-26-000017",
       "0001817646-26-000019",
+      "0001817646-26-000020",
       "0001818383-26-000190",
       "0001818383-26-000191",
       "0001818383-26-000193",
