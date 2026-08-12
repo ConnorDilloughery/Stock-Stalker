@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T11:02:33.444551+00:00",
+  "generatedAt": "2026-08-12T12:05:04.951093+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -271,6 +271,16 @@
       "type": "Sale",
       "shares": 375815.0,
       "pricePerShare": 9.3,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "MTDR",
+      "issuerName": "Matador Resources Co",
+      "insiderName": "Foran Joseph Wm",
+      "title": "Director, Chairman and CEO",
+      "type": "Purchase",
+      "shares": 709.0,
+      "pricePerShare": 51.68,
       "transactionDate": "2026-08-11"
     },
     {
@@ -1701,6 +1711,26 @@
       "type": "Sale",
       "shares": 251844.0,
       "pricePerShare": 9.1,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "COE",
+      "issuerName": "51Talk Online Education Group",
+      "insiderName": "Huang Jack Jiajia",
+      "title": "Director, Chief Executive Officer, 10% Owner",
+      "type": "Purchase",
+      "shares": 199980.0,
+      "pricePerShare": 19.72,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "MTDR",
+      "issuerName": "Matador Resources Co",
+      "insiderName": "Foran Joseph Wm",
+      "title": "Director, Chairman and CEO",
+      "type": "Purchase",
+      "shares": 3130.0,
+      "pricePerShare": 51.04,
       "transactionDate": "2026-08-10"
     },
     {
@@ -4964,6 +4994,16 @@
       "transactionDate": "2026-08-07"
     },
     {
+      "ticker": "COE",
+      "issuerName": "51Talk Online Education Group",
+      "insiderName": "Huang Jack Jiajia",
+      "title": "Director, Chief Executive Officer, 10% Owner",
+      "type": "Purchase",
+      "shares": 90480.0,
+      "pricePerShare": 19.39,
+      "transactionDate": "2026-08-07"
+    },
+    {
       "ticker": "SILC",
       "issuerName": "SILICOM LTD.",
       "insiderName": "Gilad Eran",
@@ -7771,6 +7811,16 @@
       "type": "Sale",
       "shares": 2000.0,
       "pricePerShare": 155.64,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "COE",
+      "issuerName": "51Talk Online Education Group",
+      "insiderName": "Huang Jack Jiajia",
+      "title": "Director, Chief Executive Officer, 10% Owner",
+      "type": "Purchase",
+      "shares": 105120.0,
+      "pricePerShare": 19.29,
       "transactionDate": "2026-08-06"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 110.0,
       "pricePerShare": 543.7929,
       "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "MDGL",
-      "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-      "insiderName": "Sibold William John",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 545.0,
-      "pricePerShare": 544.714,
-      "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "MDGL",
-      "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-      "insiderName": "Sibold William John",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 275.0,
-      "pricePerShare": 545.7092,
-      "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "MDGL",
-      "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-      "insiderName": "Sibold William John",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 269.0,
-      "pricePerShare": 547.0788,
-      "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "MDGL",
-      "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-      "insiderName": "Sibold William John",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 680.0,
-      "pricePerShare": 547.698,
-      "transactionDate": "2026-07-20"
-    },
-    {
-      "ticker": "MDGL",
-      "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-      "insiderName": "Sibold William John",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 47.0,
-      "pricePerShare": 548.8719,
-      "transactionDate": "2026-07-20"
     }
   ],
   "byTicker": {
@@ -31252,6 +31252,31 @@
           "shares": 23000.0,
           "pricePerShare": 8.13,
           "transactionDate": "2026-07-24"
+        }
+      ]
+    },
+    "MTDR": {
+      "issuerName": "Matador Resources Co",
+      "trades": [
+        {
+          "ticker": "MTDR",
+          "issuerName": "Matador Resources Co",
+          "insiderName": "Foran Joseph Wm",
+          "title": "Director, Chairman and CEO",
+          "type": "Purchase",
+          "shares": 709.0,
+          "pricePerShare": 51.68,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "MTDR",
+          "issuerName": "Matador Resources Co",
+          "insiderName": "Foran Joseph Wm",
+          "title": "Director, Chairman and CEO",
+          "type": "Purchase",
+          "shares": 3130.0,
+          "pricePerShare": 51.04,
+          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -36382,6 +36407,131 @@
           "shares": 27600.0,
           "pricePerShare": 35.94,
           "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "COE": {
+      "issuerName": "51Talk Online Education Group",
+      "trades": [
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 199980.0,
+          "pricePerShare": 19.72,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 90480.0,
+          "pricePerShare": 19.39,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 105120.0,
+          "pricePerShare": 19.29,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 158460.0,
+          "pricePerShare": 19.2,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 125880.0,
+          "pricePerShare": 19.06,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 333840.0,
+          "pricePerShare": 18.48,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 122580.0,
+          "pricePerShare": 17.54,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 194460.0,
+          "pricePerShare": 17.21,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 109080.0,
+          "pricePerShare": 16.91,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 169980.0,
+          "pricePerShare": 16.88,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 451320.0,
+          "pricePerShare": 16.97,
+          "transactionDate": "2026-07-27"
+        },
+        {
+          "ticker": "COE",
+          "issuerName": "51Talk Online Education Group",
+          "insiderName": "Huang Jack Jiajia",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 185880.0,
+          "pricePerShare": 16.26,
+          "transactionDate": "2026-07-24"
         }
       ]
     },
@@ -51730,101 +51880,6 @@
         }
       ]
     },
-    "COE": {
-      "issuerName": "51Talk Online Education Group",
-      "trades": [
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 158460.0,
-          "pricePerShare": 19.2,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 125880.0,
-          "pricePerShare": 19.06,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 333840.0,
-          "pricePerShare": 18.48,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 122580.0,
-          "pricePerShare": 17.54,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 194460.0,
-          "pricePerShare": 17.21,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 109080.0,
-          "pricePerShare": 16.91,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 169980.0,
-          "pricePerShare": 16.88,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 451320.0,
-          "pricePerShare": 16.97,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 185880.0,
-          "pricePerShare": 16.26,
-          "transactionDate": "2026-07-24"
-        }
-      ]
-    },
     "TEVA": {
       "issuerName": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
       "trades": [
@@ -62987,56 +63042,6 @@
           "shares": 110.0,
           "pricePerShare": 543.7929,
           "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "MDGL",
-          "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-          "insiderName": "Sibold William John",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 545.0,
-          "pricePerShare": 544.714,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "MDGL",
-          "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-          "insiderName": "Sibold William John",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 275.0,
-          "pricePerShare": 545.7092,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "MDGL",
-          "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-          "insiderName": "Sibold William John",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 269.0,
-          "pricePerShare": 547.0788,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "MDGL",
-          "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-          "insiderName": "Sibold William John",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 680.0,
-          "pricePerShare": 547.698,
-          "transactionDate": "2026-07-20"
-        },
-        {
-          "ticker": "MDGL",
-          "issuerName": "MADRIGAL PHARMACEUTICALS, INC.",
-          "insiderName": "Sibold William John",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 47.0,
-          "pricePerShare": 548.8719,
-          "transactionDate": "2026-07-20"
         }
       ]
     }
@@ -65299,6 +65304,7 @@
       "0001140361-26-032345",
       "0001140361-26-032347",
       "0001140361-26-032349",
+      "0001140361-26-032391",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -66894,6 +66900,8 @@
       "0001193125-26-345454",
       "0001193125-26-345636",
       "0001193125-26-345662",
+      "0001193125-26-345730",
+      "0001193125-26-345801",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -67789,6 +67797,7 @@
       "0001231919-26-000852",
       "0001231919-26-000854",
       "0001231919-26-000859",
+      "0001231919-26-000861",
       "0001233433-26-000004",
       "0001233433-26-000006",
       "0001235321-26-000002",
@@ -67951,6 +67960,7 @@
       "0001375323-26-000010",
       "0001375800-26-000005",
       "0001378072-26-000002",
+      "0001379357-26-000008",
       "0001380659-26-000014",
       "0001381197-26-000140",
       "0001385325-26-000002",
@@ -68255,6 +68265,7 @@
       "0001437749-26-027121",
       "0001437749-26-027122",
       "0001437749-26-027123",
+      "0001437749-26-027147",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001444540-26-000002",
@@ -68807,6 +68818,7 @@
       "0001539285-26-000011",
       "0001539497-26-002141",
       "0001539838-26-000139",
+      "0001540655-26-000015",
       "0001541300-26-000021",
       "0001542447-26-000083",
       "0001542447-26-000092",
@@ -72976,6 +72988,7 @@
       "0001941739-26-000006",
       "0001944970-26-000021",
       "0001944970-26-000023",
+      "0001945691-26-000008",
       "0001946684-26-000013",
       "0001949911-26-000014",
       "0001950027-26-000040",
@@ -73391,6 +73404,7 @@
       "0002029760-26-000004",
       "0002029760-26-000005",
       "0002029760-26-000006",
+      "0002029760-26-000007",
       "0002030650-26-000006",
       "0002031596-26-000006",
       "0002031697-26-000006",
@@ -73518,6 +73532,7 @@
       "0002077810-26-000286",
       "0002078265-26-000329",
       "0002078265-26-000330",
+      "0002078265-26-000332",
       "0002078374-26-000003",
       "0002078512-26-000002",
       "0002078651-26-000012",
