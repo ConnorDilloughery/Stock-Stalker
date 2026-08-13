@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T12:02:57.081517+00:00",
+  "generatedAt": "2026-08-13T13:01:31.359331+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -501,6 +501,26 @@
       "type": "Sale",
       "shares": 1900.0,
       "pricePerShare": 39.98,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "CLBT",
+      "issuerName": "Cellebrite DI Ltd.",
+      "insiderName": "Jewell Marcus",
+      "title": "Global Chief Revenue Officer",
+      "type": "Sale",
+      "shares": 411.0,
+      "pricePerShare": 16.0678,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "CLBT",
+      "issuerName": "Cellebrite DI Ltd.",
+      "insiderName": "GEE DAVID NICHOLAS",
+      "title": "Chief Marketing Officer",
+      "type": "Sale",
+      "shares": 230.0,
+      "pricePerShare": 16.0678,
       "transactionDate": "2026-08-12"
     },
     {
@@ -2231,6 +2251,16 @@
       "type": "Sale",
       "shares": 6292.0,
       "pricePerShare": 131.21,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "LPG",
+      "issuerName": "DORIAN LPG LTD.",
+      "insiderName": "Hansen Tim Truels",
+      "title": "Chief Commercial Officer",
+      "type": "Sale",
+      "shares": 25000.0,
+      "pricePerShare": 45.044,
       "transactionDate": "2026-08-11"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 183.0,
       "pricePerShare": 73.2967,
       "transactionDate": "2026-07-27"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 69.0,
-      "pricePerShare": 74.2996,
-      "transactionDate": "2026-07-27"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 17606.0,
-      "pricePerShare": 70.3542,
-      "transactionDate": "2026-07-27"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 16643.0,
-      "pricePerShare": 71.0655,
-      "transactionDate": "2026-07-27"
     }
   ],
   "byTicker": {
@@ -32207,6 +32207,31 @@
           "shares": 250.0,
           "pricePerShare": 37.803,
           "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "CLBT": {
+      "issuerName": "Cellebrite DI Ltd.",
+      "trades": [
+        {
+          "ticker": "CLBT",
+          "issuerName": "Cellebrite DI Ltd.",
+          "insiderName": "Jewell Marcus",
+          "title": "Global Chief Revenue Officer",
+          "type": "Sale",
+          "shares": 411.0,
+          "pricePerShare": 16.0678,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "CLBT",
+          "issuerName": "Cellebrite DI Ltd.",
+          "insiderName": "GEE DAVID NICHOLAS",
+          "title": "Chief Marketing Officer",
+          "type": "Sale",
+          "shares": 230.0,
+          "pricePerShare": 16.0678,
+          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -36835,6 +36860,21 @@
         }
       ]
     },
+    "LPG": {
+      "issuerName": "DORIAN LPG LTD.",
+      "trades": [
+        {
+          "ticker": "LPG",
+          "issuerName": "DORIAN LPG LTD.",
+          "insiderName": "Hansen Tim Truels",
+          "title": "Chief Commercial Officer",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 45.044,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
     "TTMI": {
       "issuerName": "TTM TECHNOLOGIES INC",
       "trades": [
@@ -40901,36 +40941,6 @@
           "type": "Sale",
           "shares": 183.0,
           "pricePerShare": 73.2967,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 69.0,
-          "pricePerShare": 74.2996,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 17606.0,
-          "pricePerShare": 70.3542,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 16643.0,
-          "pricePerShare": 71.0655,
           "transactionDate": "2026-07-27"
         }
       ]
@@ -63754,6 +63764,7 @@
       "0000919574-26-004851",
       "0000919574-26-004896",
       "0000919574-26-004907",
+      "0000919574-26-005033",
       "0000920148-26-000172",
       "0000920148-26-000176",
       "0000920148-26-000177",
@@ -63777,6 +63788,10 @@
       "0000923738-26-000036",
       "0000923738-26-000038",
       "0000925421-26-000040",
+      "0000927730-26-000532",
+      "0000927730-26-000533",
+      "0000927730-26-000534",
+      "0000927730-26-000535",
       "0000929638-26-002639",
       "0000929638-26-002682",
       "0000929638-26-002852",
@@ -64447,6 +64462,7 @@
       "0001019155-26-000352",
       "0001019155-26-000384",
       "0001019155-26-000387",
+      "0001019155-26-000388",
       "0001019966-26-000004",
       "0001021330-26-000085",
       "0001021882-26-000648",
@@ -65208,6 +65224,7 @@
       "0001137360-26-000737",
       "0001137360-26-000739",
       "0001137360-26-000745",
+      "0001137360-26-000748",
       "0001140361-26-028844",
       "0001140361-26-028846",
       "0001140361-26-028877",
@@ -67155,6 +67172,7 @@
       "0001193125-26-347828",
       "0001193125-26-347880",
       "0001193125-26-347892",
+      "0001193125-26-347943",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -67838,6 +67856,7 @@
       "0001213900-26-088668",
       "0001213900-26-088678",
       "0001213900-26-088706",
+      "0001213900-26-088754",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -69833,6 +69852,8 @@
       "0001628280-26-056436",
       "0001628280-26-056484",
       "0001628280-26-056486",
+      "0001628280-26-056491",
+      "0001628280-26-056495",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -73958,6 +73979,7 @@
       "0001999371-26-017684",
       "0001999371-26-017737",
       "0001999371-26-017742",
+      "0001999371-26-017746",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
