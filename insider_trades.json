@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T18:03:49.454054+00:00",
+  "generatedAt": "2026-08-13T19:02:52.226428+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -831,6 +831,36 @@
       "type": "Sale",
       "shares": 10000.0,
       "pricePerShare": 1.06,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "TDY",
+      "issuerName": "TELEDYNE TECHNOLOGIES INC",
+      "insiderName": "VON SCHACK WESLEY W",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 468.0,
+      "pricePerShare": 686.63,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "ATMU",
+      "issuerName": "Atmus Filtration Technologies Inc.",
+      "insiderName": "Macadam Stephen E.",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 2000.0,
+      "pricePerShare": 49.7756,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "GLBE",
+      "issuerName": "Global-E Online Ltd.",
+      "insiderName": "Schlachet Amir",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 16814.0,
+      "pricePerShare": 42.4102,
       "transactionDate": "2026-08-12"
     },
     {
@@ -9361,6 +9391,16 @@
       "type": "Purchase",
       "shares": 100.0,
       "pricePerShare": 27.05,
+      "transactionDate": "2026-08-07"
+    },
+    {
+      "ticker": "OCFC",
+      "issuerName": "OCEANFIRST FINANCIAL CORP",
+      "insiderName": "BURAN JOHN R",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 113630.0,
+      "pricePerShare": 19.4036,
       "transactionDate": "2026-08-07"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 13300.0,
       "pricePerShare": 55.067,
       "transactionDate": "2026-07-27"
-    },
-    {
-      "ticker": "META",
-      "issuerName": "Meta Platforms, Inc.",
-      "insiderName": "Olivan Javier",
-      "title": "Chief Operating Officer",
-      "type": "Sale",
-      "shares": 837.0,
-      "pricePerShare": 607.85,
-      "transactionDate": "2026-07-27"
-    },
-    {
-      "ticker": "META",
-      "issuerName": "Meta Platforms, Inc.",
-      "insiderName": "Olivan Javier",
-      "title": "Chief Operating Officer",
-      "type": "Sale",
-      "shares": 82.0,
-      "pricePerShare": 607.85,
-      "transactionDate": "2026-07-27"
-    },
-    {
-      "ticker": "META",
-      "issuerName": "Meta Platforms, Inc.",
-      "insiderName": "Olivan Javier",
-      "title": "Chief Operating Officer",
-      "type": "Sale",
-      "shares": 57.0,
-      "pricePerShare": 607.85,
-      "transactionDate": "2026-07-27"
-    },
-    {
-      "ticker": "META",
-      "issuerName": "Meta Platforms, Inc.",
-      "insiderName": "Olivan Javier",
-      "title": "Chief Operating Officer",
-      "type": "Sale",
-      "shares": 82.0,
-      "pricePerShare": 607.85,
-      "transactionDate": "2026-07-27"
     }
   ],
   "byTicker": {
@@ -33152,6 +33152,91 @@
           "shares": 10000.0,
           "pricePerShare": 1.06,
           "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "TDY": {
+      "issuerName": "TELEDYNE TECHNOLOGIES INC",
+      "trades": [
+        {
+          "ticker": "TDY",
+          "issuerName": "TELEDYNE TECHNOLOGIES INC",
+          "insiderName": "VON SCHACK WESLEY W",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 468.0,
+          "pricePerShare": 686.63,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "ATMU": {
+      "issuerName": "Atmus Filtration Technologies Inc.",
+      "trades": [
+        {
+          "ticker": "ATMU",
+          "issuerName": "Atmus Filtration Technologies Inc.",
+          "insiderName": "Macadam Stephen E.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 49.7756,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "GLBE": {
+      "issuerName": "Global-E Online Ltd.",
+      "trades": [
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Schlachet Amir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 16814.0,
+          "pricePerShare": 42.4102,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Schlachet Amir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 322.0,
+          "pricePerShare": 42.0734,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Schlachet Amir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100000.0,
+          "pricePerShare": 42.1955,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Tamari Shahar",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 24999.0,
+          "pricePerShare": 41.5941,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Schlachet Amir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1308.0,
+          "pricePerShare": 42.0896,
+          "transactionDate": "2026-08-05"
         }
       ]
     },
@@ -39425,51 +39510,6 @@
         }
       ]
     },
-    "GLBE": {
-      "issuerName": "Global-E Online Ltd.",
-      "trades": [
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Schlachet Amir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 322.0,
-          "pricePerShare": 42.0734,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Schlachet Amir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100000.0,
-          "pricePerShare": 42.1955,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Tamari Shahar",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 24999.0,
-          "pricePerShare": 41.5941,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Schlachet Amir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1308.0,
-          "pricePerShare": 42.0896,
-          "transactionDate": "2026-08-05"
-        }
-      ]
-    },
     "CROX": {
       "issuerName": "Crocs, Inc.",
       "trades": [
@@ -43392,46 +43432,6 @@
           "shares": 464.0,
           "pricePerShare": 543.56,
           "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "META",
-          "issuerName": "Meta Platforms, Inc.",
-          "insiderName": "Olivan Javier",
-          "title": "Chief Operating Officer",
-          "type": "Sale",
-          "shares": 837.0,
-          "pricePerShare": 607.85,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "META",
-          "issuerName": "Meta Platforms, Inc.",
-          "insiderName": "Olivan Javier",
-          "title": "Chief Operating Officer",
-          "type": "Sale",
-          "shares": 82.0,
-          "pricePerShare": 607.85,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "META",
-          "issuerName": "Meta Platforms, Inc.",
-          "insiderName": "Olivan Javier",
-          "title": "Chief Operating Officer",
-          "type": "Sale",
-          "shares": 57.0,
-          "pricePerShare": 607.85,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "META",
-          "issuerName": "Meta Platforms, Inc.",
-          "insiderName": "Olivan Javier",
-          "title": "Chief Operating Officer",
-          "type": "Sale",
-          "shares": 82.0,
-          "pricePerShare": 607.85,
-          "transactionDate": "2026-07-27"
         }
       ]
     },
@@ -48617,6 +48617,21 @@
           "shares": 650.0,
           "pricePerShare": 27.1,
           "transactionDate": "2026-08-06"
+        }
+      ]
+    },
+    "OCFC": {
+      "issuerName": "OCEANFIRST FINANCIAL CORP",
+      "trades": [
+        {
+          "ticker": "OCFC",
+          "issuerName": "OCEANFIRST FINANCIAL CORP",
+          "insiderName": "BURAN JOHN R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 113630.0,
+          "pricePerShare": 19.4036,
+          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -63687,6 +63702,9 @@
       "0000894189-26-022223",
       "0000894189-26-022224",
       "0000894189-26-022225",
+      "0000894189-26-022268",
+      "0000894189-26-022270",
+      "0000894189-26-022271",
       "0000895345-26-000353",
       "0000896622-26-000170",
       "0000896622-26-000172",
@@ -64487,6 +64505,15 @@
       "0000950103-26-012310",
       "0000950103-26-012311",
       "0000950103-26-012312",
+      "0000950103-26-012313",
+      "0000950103-26-012314",
+      "0000950103-26-012315",
+      "0000950103-26-012316",
+      "0000950103-26-012317",
+      "0000950103-26-012318",
+      "0000950103-26-012319",
+      "0000950103-26-012320",
+      "0000950103-26-012321",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -64554,6 +64581,7 @@
       "0001023731-26-000124",
       "0001023731-26-000134",
       "0001024547-26-000012",
+      "0001025355-26-000006",
       "0001028284-26-000011",
       "0001031318-26-000004",
       "0001032834-26-000006",
@@ -65213,6 +65241,7 @@
       "0001104659-26-095668",
       "0001104659-26-095676",
       "0001104659-26-095759",
+      "0001104659-26-095793",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -65563,6 +65592,8 @@
       "0001140361-26-032739",
       "0001140361-26-032756",
       "0001140361-26-032763",
+      "0001140361-26-032774",
+      "0001140361-26-032785",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -67338,6 +67369,19 @@
       "0001193125-26-348666",
       "0001193125-26-348686",
       "0001193125-26-348724",
+      "0001193125-26-348792",
+      "0001193125-26-348816",
+      "0001193125-26-348817",
+      "0001193125-26-348829",
+      "0001193125-26-348852",
+      "0001193125-26-348857",
+      "0001193125-26-348869",
+      "0001193125-26-348872",
+      "0001193125-26-348884",
+      "0001193125-26-348887",
+      "0001193125-26-348896",
+      "0001193125-26-348925",
+      "0001193125-26-348927",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -68036,6 +68080,9 @@
       "0001213900-26-088910",
       "0001213900-26-088941",
       "0001213900-26-088943",
+      "0001213900-26-088968",
+      "0001213900-26-089001",
+      "0001213900-26-089003",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -68162,6 +68209,7 @@
       "0001214659-26-010057",
       "0001214659-26-010059",
       "0001214659-26-010062",
+      "0001214659-26-010071",
       "0001216055-26-000006",
       "0001216055-26-000007",
       "0001216581-26-000006",
@@ -68303,6 +68351,7 @@
       "0001235321-26-000002",
       "0001235499-26-000008",
       "0001235502-26-000006",
+      "0001237678-26-000010",
       "0001238040-26-000005",
       "0001238317-26-000004",
       "0001238705-26-000007",
@@ -68590,6 +68639,7 @@
       "0001423238-26-000008",
       "0001429897-26-000004",
       "0001430723-26-000015",
+      "0001432316-26-000007",
       "0001432353-26-000623",
       "0001432353-26-000626",
       "0001432353-26-000628",
@@ -69561,6 +69611,7 @@
       "0001580642-26-005024",
       "0001580642-26-005210",
       "0001580642-26-005218",
+      "0001580642-26-005259",
       "0001581754-26-000006",
       "0001582328-26-000007",
       "0001582328-26-000010",
@@ -70062,6 +70113,8 @@
       "0001628280-26-056533",
       "0001628280-26-056536",
       "0001628280-26-056563",
+      "0001628280-26-056636",
+      "0001628280-26-056649",
       "0001632531-26-000002",
       "0001633877-26-000008",
       "0001634117-26-000081",
@@ -70650,6 +70703,7 @@
       "0001826853-26-000019",
       "0001828057-26-000012",
       "0001828057-26-000014",
+      "0001828859-26-000007",
       "0001828972-26-000114",
       "0001828972-26-000115",
       "0001828972-26-000116",
@@ -72106,6 +72160,13 @@
       "0001839882-26-039852",
       "0001839882-26-039853",
       "0001839882-26-039854",
+      "0001839882-26-039860",
+      "0001839882-26-039861",
+      "0001839882-26-039862",
+      "0001839882-26-039863",
+      "0001839882-26-039864",
+      "0001839882-26-039865",
+      "0001839882-26-039871",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -73886,6 +73947,15 @@
       "0001918704-26-023690",
       "0001918704-26-023691",
       "0001918704-26-023692",
+      "0001918704-26-023702",
+      "0001918704-26-023703",
+      "0001918704-26-023704",
+      "0001918704-26-023705",
+      "0001918704-26-023706",
+      "0001918704-26-023707",
+      "0001918704-26-023708",
+      "0001918704-26-023709",
+      "0001918704-26-023710",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
