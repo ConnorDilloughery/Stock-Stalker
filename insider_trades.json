@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T11:01:43.763279+00:00",
+  "generatedAt": "2026-08-13T12:02:57.081517+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -491,6 +491,16 @@
       "type": "Sale",
       "shares": 145.0,
       "pricePerShare": 131.68,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "EDRY",
+      "issuerName": "EuroDry Ltd.",
+      "insiderName": "Pariaros Symeon",
+      "title": "Chief Administrative Officer",
+      "type": "Sale",
+      "shares": 1900.0,
+      "pricePerShare": 39.98,
       "transactionDate": "2026-08-12"
     },
     {
@@ -29992,16 +30002,6 @@
       "shares": 16643.0,
       "pricePerShare": 71.0655,
       "transactionDate": "2026-07-27"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 2280.0,
-      "pricePerShare": 72.2832,
-      "transactionDate": "2026-07-27"
     }
   ],
   "byTicker": {
@@ -32162,6 +32162,51 @@
           "shares": 578.0,
           "pricePerShare": 104.66,
           "transactionDate": "2026-07-27"
+        }
+      ]
+    },
+    "EDRY": {
+      "issuerName": "EuroDry Ltd.",
+      "trades": [
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pariaros Symeon",
+          "title": "Chief Administrative Officer",
+          "type": "Sale",
+          "shares": 1900.0,
+          "pricePerShare": 39.98,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Karmiri Stefania",
+          "title": "Corporate Secretary",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 38.5,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 250.0,
+          "pricePerShare": 37.803,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 250.0,
+          "pricePerShare": 37.803,
+          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -34362,41 +34407,6 @@
           "shares": 1338.0,
           "pricePerShare": 309.2311,
           "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "EDRY": {
-      "issuerName": "EuroDry Ltd.",
-      "trades": [
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Karmiri Stefania",
-          "title": "Corporate Secretary",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 38.5,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 250.0,
-          "pricePerShare": 37.803,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 250.0,
-          "pricePerShare": 37.803,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -40921,16 +40931,6 @@
           "type": "Sale",
           "shares": 16643.0,
           "pricePerShare": 71.0655,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 2280.0,
-          "pricePerShare": 72.2832,
           "transactionDate": "2026-07-27"
         }
       ]
@@ -67153,6 +67153,8 @@
       "0001193125-26-347736",
       "0001193125-26-347737",
       "0001193125-26-347828",
+      "0001193125-26-347880",
+      "0001193125-26-347892",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -67834,6 +67836,8 @@
       "0001213900-26-088630",
       "0001213900-26-088631",
       "0001213900-26-088668",
+      "0001213900-26-088678",
+      "0001213900-26-088706",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -69827,6 +69831,8 @@
       "0001628280-26-056412",
       "0001628280-26-056433",
       "0001628280-26-056436",
+      "0001628280-26-056484",
+      "0001628280-26-056486",
       "0001633877-26-000008",
       "0001634117-26-000081",
       "0001635669-26-000005",
@@ -70152,6 +70158,7 @@
       "0001753926-26-001394",
       "0001753926-26-001456",
       "0001753926-26-001459",
+      "0001753926-26-001465",
       "0001753958-26-000002",
       "0001754371-26-000004",
       "0001755172-26-000002",
@@ -73950,6 +73957,7 @@
       "0001999371-26-017660",
       "0001999371-26-017684",
       "0001999371-26-017737",
+      "0001999371-26-017742",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
@@ -74224,6 +74232,7 @@
       "0002121472-26-000003",
       "0002122338-26-000005",
       "0002122338-26-000006",
+      "0002122342-26-000005",
       "0002122411-26-000001",
       "0002123155-26-000002",
       "0002123843-26-000008",
