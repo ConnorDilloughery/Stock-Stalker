@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T13:01:31.359331+00:00",
+  "generatedAt": "2026-08-13T14:02:56.433753+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -521,6 +521,16 @@
       "type": "Sale",
       "shares": 230.0,
       "pricePerShare": 16.0678,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "SILC",
+      "issuerName": "SILICOM LTD.",
+      "insiderName": "Eizenman Liron",
+      "title": "President and CEO",
+      "type": "Sale",
+      "shares": 18072.0,
+      "pricePerShare": 48.53,
       "transactionDate": "2026-08-12"
     },
     {
@@ -5611,6 +5621,16 @@
       "type": "Purchase",
       "shares": 1050.0,
       "pricePerShare": 79.0902,
+      "transactionDate": "2026-08-10"
+    },
+    {
+      "ticker": "KRRO",
+      "issuerName": "Korro Bio, Inc.",
+      "insiderName": "Lynx1 Capital Management LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1462.0,
+      "pricePerShare": 13.1869,
       "transactionDate": "2026-08-10"
     },
     {
@@ -11711,6 +11731,16 @@
       "type": "Purchase",
       "shares": 105120.0,
       "pricePerShare": 19.29,
+      "transactionDate": "2026-08-06"
+    },
+    {
+      "ticker": "KRRO",
+      "issuerName": "Korro Bio, Inc.",
+      "insiderName": "Lynx1 Capital Management LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 5222.0,
+      "pricePerShare": 11.3998,
       "transactionDate": "2026-08-06"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 1317.0,
       "pricePerShare": 70.3558,
       "transactionDate": "2026-07-27"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 1265.0,
-      "pricePerShare": 71.0676,
-      "transactionDate": "2026-07-27"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 166.0,
-      "pricePerShare": 72.2892,
-      "transactionDate": "2026-07-27"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 183.0,
-      "pricePerShare": 73.2967,
-      "transactionDate": "2026-07-27"
     }
   ],
   "byTicker": {
@@ -32232,6 +32232,41 @@
           "shares": 230.0,
           "pricePerShare": 16.0678,
           "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "SILC": {
+      "issuerName": "SILICOM LTD.",
+      "trades": [
+        {
+          "ticker": "SILC",
+          "issuerName": "SILICOM LTD.",
+          "insiderName": "Eizenman Liron",
+          "title": "President and CEO",
+          "type": "Sale",
+          "shares": 18072.0,
+          "pricePerShare": 48.53,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "SILC",
+          "issuerName": "SILICOM LTD.",
+          "insiderName": "Gilad Eran",
+          "title": "CFO",
+          "type": "Sale",
+          "shares": 25.0,
+          "pricePerShare": 46.56,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "SILC",
+          "issuerName": "SILICOM LTD.",
+          "insiderName": "Gilad Eran",
+          "title": "CFO",
+          "type": "Sale",
+          "shares": 6975.0,
+          "pricePerShare": 44.44,
+          "transactionDate": "2026-08-06"
         }
       ]
     },
@@ -40912,36 +40947,6 @@
           "shares": 1317.0,
           "pricePerShare": 70.3558,
           "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 1265.0,
-          "pricePerShare": 71.0676,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 166.0,
-          "pricePerShare": 72.2892,
-          "transactionDate": "2026-07-27"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 183.0,
-          "pricePerShare": 73.2967,
-          "transactionDate": "2026-07-27"
         }
       ]
     },
@@ -43027,6 +43032,31 @@
           "shares": 30868.0,
           "pricePerShare": 17.1,
           "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "KRRO": {
+      "issuerName": "Korro Bio, Inc.",
+      "trades": [
+        {
+          "ticker": "KRRO",
+          "issuerName": "Korro Bio, Inc.",
+          "insiderName": "Lynx1 Capital Management LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1462.0,
+          "pricePerShare": 13.1869,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "KRRO",
+          "issuerName": "Korro Bio, Inc.",
+          "insiderName": "Lynx1 Capital Management LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 5222.0,
+          "pricePerShare": 11.3998,
+          "transactionDate": "2026-08-06"
         }
       ]
     },
@@ -48106,31 +48136,6 @@
           "type": "Purchase",
           "shares": 650.0,
           "pricePerShare": 27.1,
-          "transactionDate": "2026-08-06"
-        }
-      ]
-    },
-    "SILC": {
-      "issuerName": "SILICOM LTD.",
-      "trades": [
-        {
-          "ticker": "SILC",
-          "issuerName": "SILICOM LTD.",
-          "insiderName": "Gilad Eran",
-          "title": "CFO",
-          "type": "Sale",
-          "shares": 25.0,
-          "pricePerShare": 46.56,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "SILC",
-          "issuerName": "SILICOM LTD.",
-          "insiderName": "Gilad Eran",
-          "title": "CFO",
-          "type": "Sale",
-          "shares": 6975.0,
-          "pricePerShare": 44.44,
           "transactionDate": "2026-08-06"
         }
       ]
@@ -63632,6 +63637,9 @@
       "0000894189-26-022179",
       "0000894189-26-022202",
       "0000894189-26-022203",
+      "0000894189-26-022223",
+      "0000894189-26-022224",
+      "0000894189-26-022225",
       "0000895345-26-000353",
       "0000896622-26-000170",
       "0000896622-26-000172",
@@ -63691,6 +63699,7 @@
       "0000902664-26-003254",
       "0000902664-26-003270",
       "0000902664-26-003373",
+      "0000902664-26-003434",
       "0000904454-26-000415",
       "0000904454-26-000425",
       "0000904548-26-000013",
@@ -64410,6 +64419,8 @@
       "0000950103-26-012277",
       "0000950103-26-012278",
       "0000950103-26-012279",
+      "0000950103-26-012288",
+      "0000950103-26-012289",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65535,6 +65546,7 @@
       "0001178913-26-003963",
       "0001178913-26-003983",
       "0001178913-26-004095",
+      "0001178913-26-004110",
       "0001181540-26-000002",
       "0001181664-26-000004",
       "0001181672-26-000004",
@@ -67173,6 +67185,8 @@
       "0001193125-26-347880",
       "0001193125-26-347892",
       "0001193125-26-347943",
+      "0001193125-26-348053",
+      "0001193125-26-348056",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -67857,6 +67871,7 @@
       "0001213900-26-088678",
       "0001213900-26-088706",
       "0001213900-26-088754",
+      "0001213900-26-088766",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -67978,6 +67993,7 @@
       "0001214659-26-009936",
       "0001214659-26-009957",
       "0001214659-26-009987",
+      "0001214659-26-010028",
       "0001216055-26-000006",
       "0001216055-26-000007",
       "0001216581-26-000006",
@@ -68415,6 +68431,7 @@
       "0001435109-26-000132",
       "0001435109-26-000133",
       "0001435109-26-000134",
+      "0001435430-26-000006",
       "0001436125-26-000007",
       "0001436425-26-000072",
       "0001437224-26-000011",
@@ -68608,6 +68625,7 @@
       "0001437749-26-027423",
       "0001437749-26-027431",
       "0001437749-26-027449",
+      "0001437749-26-027508",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001441890-26-000005",
@@ -71830,6 +71848,8 @@
       "0001839882-26-039669",
       "0001839882-26-039670",
       "0001839882-26-039677",
+      "0001839882-26-039732",
+      "0001839882-26-039736",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -73573,6 +73593,12 @@
       "0001918704-26-023610",
       "0001918704-26-023611",
       "0001918704-26-023624",
+      "0001918704-26-023627",
+      "0001918704-26-023628",
+      "0001918704-26-023629",
+      "0001918704-26-023636",
+      "0001918704-26-023637",
+      "0001918704-26-023638",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -73980,6 +74006,7 @@
       "0001999371-26-017737",
       "0001999371-26-017742",
       "0001999371-26-017746",
+      "0001999371-26-017755",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
