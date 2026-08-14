@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T18:01:29.028129+00:00",
+  "generatedAt": "2026-08-14T19:04:26.130391+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -11,6 +11,16 @@
       "type": "Sale",
       "shares": 3000.0,
       "pricePerShare": 35.38,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "VIAV",
+      "issuerName": "VIAVI SOLUTIONS INC.",
+      "insiderName": "Solomon Joanne",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 10000.0,
+      "pricePerShare": 42.92,
       "transactionDate": "2026-08-14"
     },
     {
@@ -491,6 +501,56 @@
       "type": "Purchase",
       "shares": 58888.0,
       "pricePerShare": 3.33,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "CBLL",
+      "issuerName": "Ceribell, Inc.",
+      "insiderName": "Taylor Joseph Michael",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 13095.0,
+      "pricePerShare": 23.4,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "AEHR",
+      "issuerName": "AEHR TEST SYSTEMS",
+      "insiderName": "SALAMONE ALBERTO",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 4200.0,
+      "pricePerShare": 128.0,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "AEHR",
+      "issuerName": "AEHR TEST SYSTEMS",
+      "insiderName": "SALAMONE ALBERTO",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 5472.0,
+      "pricePerShare": 127.5014,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "CHGG",
+      "issuerName": "CHEGG, INC",
+      "insiderName": "BUDIG RENEE VARNI",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 54347.0,
+      "pricePerShare": 0.7755,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "ENTG",
+      "issuerName": "ENTEGRIS INC",
+      "insiderName": "Colella Joseph",
+      "title": "SVP and General Counsel",
+      "type": "Sale",
+      "shares": 3916.0,
+      "pricePerShare": 164.48,
       "transactionDate": "2026-08-13"
     },
     {
@@ -2141,6 +2201,26 @@
       "type": "Purchase",
       "shares": 5585.0,
       "pricePerShare": 0.964,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "TRST",
+      "issuerName": "TRUSTCO BANK CORP N Y",
+      "insiderName": "McCormick Lauren Ann",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 103.0,
+      "pricePerShare": 56.51,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "CPSS",
+      "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
+      "insiderName": "Ralston Catrina Marie",
+      "title": "Sr. Vice President",
+      "type": "Sale",
+      "shares": 3617.0,
+      "pricePerShare": 9.5,
       "transactionDate": "2026-08-12"
     },
     {
@@ -29922,86 +30002,6 @@
       "shares": 64.0,
       "pricePerShare": 434.805,
       "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 32.0,
-      "pricePerShare": 435.585,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 154.0,
-      "pricePerShare": 436.8934,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 118.0,
-      "pricePerShare": 438.0839,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 64.0,
-      "pricePerShare": 439.38,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 96.0,
-      "pricePerShare": 440.9617,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 32.0,
-      "pricePerShare": 442.47,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 32.0,
-      "pricePerShare": 444.51,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 32.0,
-      "pricePerShare": 447.095,
-      "transactionDate": "2026-07-28"
     }
   ],
   "byTicker": {
@@ -30057,6 +30057,31 @@
           "shares": 3000.0,
           "pricePerShare": 31.59,
           "transactionDate": "2026-07-28"
+        }
+      ]
+    },
+    "VIAV": {
+      "issuerName": "VIAVI SOLUTIONS INC.",
+      "trades": [
+        {
+          "ticker": "VIAV",
+          "issuerName": "VIAVI SOLUTIONS INC.",
+          "insiderName": "Solomon Joanne",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 42.92,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "VIAV",
+          "issuerName": "VIAVI SOLUTIONS INC.",
+          "insiderName": "McNab Paul",
+          "title": "EVP, Chief Mktg & Stgy Officer",
+          "type": "Sale",
+          "shares": 1595.0,
+          "pricePerShare": 37.37,
+          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -31657,6 +31682,146 @@
           "shares": 58888.0,
           "pricePerShare": 3.33,
           "transactionDate": "2026-08-13"
+        }
+      ]
+    },
+    "CBLL": {
+      "issuerName": "Ceribell, Inc.",
+      "trades": [
+        {
+          "ticker": "CBLL",
+          "issuerName": "Ceribell, Inc.",
+          "insiderName": "Taylor Joseph Michael",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 13095.0,
+          "pricePerShare": 23.4,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "CBLL",
+          "issuerName": "Ceribell, Inc.",
+          "insiderName": "Chao Xingjuan",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 39000.0,
+          "pricePerShare": 18.32,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "AEHR": {
+      "issuerName": "AEHR TEST SYSTEMS",
+      "trades": [
+        {
+          "ticker": "AEHR",
+          "issuerName": "AEHR TEST SYSTEMS",
+          "insiderName": "SALAMONE ALBERTO",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4200.0,
+          "pricePerShare": 128.0,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "AEHR",
+          "issuerName": "AEHR TEST SYSTEMS",
+          "insiderName": "SALAMONE ALBERTO",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5472.0,
+          "pricePerShare": 127.5014,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "AEHR",
+          "issuerName": "AEHR TEST SYSTEMS",
+          "insiderName": "POSEDEL RHEA J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8413.0,
+          "pricePerShare": 130.0,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "AEHR",
+          "issuerName": "AEHR TEST SYSTEMS",
+          "insiderName": "Erickson Gayn",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1548.0,
+          "pricePerShare": 132.2674,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "AEHR",
+          "issuerName": "AEHR TEST SYSTEMS",
+          "insiderName": "Erickson Gayn",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 38452.0,
+          "pricePerShare": 130.7856,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "AEHR",
+          "issuerName": "AEHR TEST SYSTEMS",
+          "insiderName": "SPORCK ALISTAIR N",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 108.49,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "AEHR",
+          "issuerName": "AEHR TEST SYSTEMS",
+          "insiderName": "SLAYEN HOWARD T",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 108.2961,
+          "transactionDate": "2026-08-04"
+        }
+      ]
+    },
+    "CHGG": {
+      "issuerName": "CHEGG, INC",
+      "trades": [
+        {
+          "ticker": "CHGG",
+          "issuerName": "CHEGG, INC",
+          "insiderName": "BUDIG RENEE VARNI",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 54347.0,
+          "pricePerShare": 0.7755,
+          "transactionDate": "2026-08-13"
+        }
+      ]
+    },
+    "ENTG": {
+      "issuerName": "ENTEGRIS INC",
+      "trades": [
+        {
+          "ticker": "ENTG",
+          "issuerName": "ENTEGRIS INC",
+          "insiderName": "Colella Joseph",
+          "title": "SVP and General Counsel",
+          "type": "Sale",
+          "shares": 3916.0,
+          "pricePerShare": 164.48,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "ENTG",
+          "issuerName": "ENTEGRIS INC",
+          "insiderName": "Rice Susan G.",
+          "title": "SVP, Global Human Resources",
+          "type": "Sale",
+          "shares": 2062.0,
+          "pricePerShare": 149.52,
+          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -35445,61 +35610,6 @@
         }
       ]
     },
-    "AEHR": {
-      "issuerName": "AEHR TEST SYSTEMS",
-      "trades": [
-        {
-          "ticker": "AEHR",
-          "issuerName": "AEHR TEST SYSTEMS",
-          "insiderName": "POSEDEL RHEA J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 8413.0,
-          "pricePerShare": 130.0,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "AEHR",
-          "issuerName": "AEHR TEST SYSTEMS",
-          "insiderName": "Erickson Gayn",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1548.0,
-          "pricePerShare": 132.2674,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "AEHR",
-          "issuerName": "AEHR TEST SYSTEMS",
-          "insiderName": "Erickson Gayn",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 38452.0,
-          "pricePerShare": 130.7856,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "AEHR",
-          "issuerName": "AEHR TEST SYSTEMS",
-          "insiderName": "SPORCK ALISTAIR N",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 108.49,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "AEHR",
-          "issuerName": "AEHR TEST SYSTEMS",
-          "insiderName": "SLAYEN HOWARD T",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 20000.0,
-          "pricePerShare": 108.2961,
-          "transactionDate": "2026-08-04"
-        }
-      ]
-    },
     "GTE": {
       "issuerName": "GRAN TIERRA ENERGY INC.",
       "trades": [
@@ -36397,6 +36507,56 @@
           "shares": 355600.0,
           "pricePerShare": 1.583,
           "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "TRST": {
+      "issuerName": "TRUSTCO BANK CORP N Y",
+      "trades": [
+        {
+          "ticker": "TRST",
+          "issuerName": "TRUSTCO BANK CORP N Y",
+          "insiderName": "McCormick Lauren Ann",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 103.0,
+          "pricePerShare": 56.51,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "CPSS": {
+      "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
+      "trades": [
+        {
+          "ticker": "CPSS",
+          "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
+          "insiderName": "Ralston Catrina Marie",
+          "title": "Sr. Vice President",
+          "type": "Sale",
+          "shares": 3617.0,
+          "pricePerShare": 9.5,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "CPSS",
+          "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
+          "insiderName": "Ralston Catrina Marie",
+          "title": "Sr. Vice President",
+          "type": "Sale",
+          "shares": 916.0,
+          "pricePerShare": 9.5,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "CPSS",
+          "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
+          "insiderName": "Ralston Catrina Marie",
+          "title": "Sr. Vice President",
+          "type": "Sale",
+          "shares": 467.0,
+          "pricePerShare": 9.5,
+          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -37756,21 +37916,6 @@
           "type": "Sale",
           "shares": 17730.0,
           "pricePerShare": 14.0032,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "ENTG": {
-      "issuerName": "ENTEGRIS INC",
-      "trades": [
-        {
-          "ticker": "ENTG",
-          "issuerName": "ENTEGRIS INC",
-          "insiderName": "Rice Susan G.",
-          "title": "SVP, Global Human Resources",
-          "type": "Sale",
-          "shares": 2062.0,
-          "pricePerShare": 149.52,
           "transactionDate": "2026-08-11"
         }
       ]
@@ -39711,86 +39856,6 @@
           "type": "Sale",
           "shares": 64.0,
           "pricePerShare": 434.805,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 32.0,
-          "pricePerShare": 435.585,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 154.0,
-          "pricePerShare": 436.8934,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 118.0,
-          "pricePerShare": 438.0839,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 64.0,
-          "pricePerShare": 439.38,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 96.0,
-          "pricePerShare": 440.9617,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 32.0,
-          "pricePerShare": 442.47,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 32.0,
-          "pricePerShare": 444.51,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 32.0,
-          "pricePerShare": 447.095,
           "transactionDate": "2026-07-28"
         }
       ]
@@ -42610,21 +42675,6 @@
         }
       ]
     },
-    "VIAV": {
-      "issuerName": "VIAVI SOLUTIONS INC.",
-      "trades": [
-        {
-          "ticker": "VIAV",
-          "issuerName": "VIAVI SOLUTIONS INC.",
-          "insiderName": "McNab Paul",
-          "title": "EVP, Chief Mktg & Stgy Officer",
-          "type": "Sale",
-          "shares": 1595.0,
-          "pricePerShare": 37.37,
-          "transactionDate": "2026-08-10"
-        }
-      ]
-    },
     "SMG": {
       "issuerName": "SCOTTS MIRACLE-GRO CO",
       "trades": [
@@ -43656,31 +43706,6 @@
           "type": "Sale",
           "shares": 1800.0,
           "pricePerShare": 102.01,
-          "transactionDate": "2026-08-07"
-        }
-      ]
-    },
-    "CPSS": {
-      "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
-      "trades": [
-        {
-          "ticker": "CPSS",
-          "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
-          "insiderName": "Ralston Catrina Marie",
-          "title": "Sr. Vice President",
-          "type": "Sale",
-          "shares": 916.0,
-          "pricePerShare": 9.5,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "CPSS",
-          "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
-          "insiderName": "Ralston Catrina Marie",
-          "title": "Sr. Vice President",
-          "type": "Sale",
-          "shares": 467.0,
-          "pricePerShare": 9.5,
           "transactionDate": "2026-08-07"
         }
       ]
@@ -60530,21 +60555,6 @@
         }
       ]
     },
-    "CBLL": {
-      "issuerName": "Ceribell, Inc.",
-      "trades": [
-        {
-          "ticker": "CBLL",
-          "issuerName": "Ceribell, Inc.",
-          "insiderName": "Chao Xingjuan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 39000.0,
-          "pricePerShare": 18.32,
-          "transactionDate": "2026-08-03"
-        }
-      ]
-    },
     "OMDA": {
       "issuerName": "Omada Health, Inc.",
       "trades": [
@@ -64034,6 +64044,7 @@
       "0000910606-26-000067",
       "0000911971-26-000051",
       "0000912093-26-000056",
+      "0000912093-26-000058",
       "0000912282-26-000993",
       "0000912282-26-000995",
       "0000912282-26-000998",
@@ -64779,6 +64790,16 @@
       "0000950103-26-012402",
       "0000950103-26-012403",
       "0000950103-26-012404",
+      "0000950103-26-012405",
+      "0000950103-26-012407",
+      "0000950103-26-012408",
+      "0000950103-26-012409",
+      "0000950103-26-012410",
+      "0000950103-26-012411",
+      "0000950103-26-012412",
+      "0000950103-26-012413",
+      "0000950103-26-012414",
+      "0000950103-26-012415",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -64837,6 +64858,7 @@
       "0001021330-26-000085",
       "0001021882-26-000648",
       "0001022408-26-000072",
+      "0001022671-26-000145",
       "0001023731-26-000091",
       "0001023731-26-000093",
       "0001023731-26-000095",
@@ -64872,6 +64894,7 @@
       "0001040470-26-000241",
       "0001040470-26-000249",
       "0001040470-26-000251",
+      "0001040470-26-000253",
       "0001040674-26-000040",
       "0001040674-26-000047",
       "0001041061-26-000153",
@@ -65543,6 +65566,7 @@
       "0001104659-26-096803",
       "0001104659-26-096806",
       "0001104659-26-096867",
+      "0001104659-26-096905",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -65905,6 +65929,10 @@
       "0001140361-26-033020",
       "0001140361-26-033022",
       "0001140361-26-033023",
+      "0001140361-26-033088",
+      "0001140361-26-033096",
+      "0001140361-26-033102",
+      "0001140361-26-033105",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -67782,6 +67810,14 @@
       "0001193125-26-351590",
       "0001193125-26-351749",
       "0001193125-26-351756",
+      "0001193125-26-351801",
+      "0001193125-26-351826",
+      "0001193125-26-351839",
+      "0001193125-26-351878",
+      "0001193125-26-351879",
+      "0001193125-26-351889",
+      "0001193125-26-351929",
+      "0001193125-26-351931",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -68527,6 +68563,13 @@
       "0001213900-26-089776",
       "0001213900-26-089780",
       "0001213900-26-089792",
+      "0001213900-26-089807",
+      "0001213900-26-089813",
+      "0001213900-26-089818",
+      "0001213900-26-089824",
+      "0001213900-26-089848",
+      "0001213900-26-089871",
+      "0001213900-26-089893",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -68965,6 +69008,7 @@
       "0001364924-26-000198",
       "0001364924-26-000204",
       "0001364924-26-000207",
+      "0001364954-26-000090",
       "0001366574-26-000020",
       "0001366975-26-000008",
       "0001367902-26-000004",
@@ -70932,6 +70976,8 @@
       "0001683168-26-006380",
       "0001683168-26-006382",
       "0001683168-26-006384",
+      "0001683168-26-006452",
+      "0001683168-26-006456",
       "0001687898-26-000009",
       "0001688236-26-000012",
       "0001688289-26-000018",
@@ -71288,6 +71334,7 @@
       "0001810239-26-000006",
       "0001810477-26-000002",
       "0001810680-26-000003",
+      "0001811061-26-000002",
       "0001811389-26-000002",
       "0001811655-26-000004",
       "0001811822-26-000002",
@@ -71334,6 +71381,7 @@
       "0001821268-26-000113",
       "0001821268-26-000115",
       "0001821737-26-000010",
+      "0001822516-26-000004",
       "0001822928-26-000074",
       "0001822928-26-000075",
       "0001823013-26-000006",
@@ -71480,6 +71528,7 @@
       "0001829126-26-008749",
       "0001829126-26-008776",
       "0001829126-26-008823",
+      "0001829126-26-008859",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -72857,6 +72906,17 @@
       "0001839882-26-040037",
       "0001839882-26-040038",
       "0001839882-26-040040",
+      "0001839882-26-040044",
+      "0001839882-26-040045",
+      "0001839882-26-040046",
+      "0001839882-26-040048",
+      "0001839882-26-040049",
+      "0001839882-26-040054",
+      "0001839882-26-040055",
+      "0001839882-26-040056",
+      "0001839882-26-040057",
+      "0001839882-26-040058",
+      "0001839882-26-040059",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -74701,6 +74761,16 @@
       "0001918704-26-023789",
       "0001918704-26-023790",
       "0001918704-26-023794",
+      "0001918704-26-023796",
+      "0001918704-26-023797",
+      "0001918704-26-023798",
+      "0001918704-26-023799",
+      "0001918704-26-023800",
+      "0001918704-26-023801",
+      "0001918704-26-023802",
+      "0001918704-26-023805",
+      "0001918704-26-023806",
+      "0001918704-26-023807",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -75129,6 +75199,7 @@
       "0001999371-26-017946",
       "0001999371-26-017959",
       "0001999371-26-017966",
+      "0001999371-26-017987",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
