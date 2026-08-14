@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T10:00:13.438847+00:00",
+  "generatedAt": "2026-08-14T11:04:19.217926+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -291,6 +291,16 @@
       "type": "Purchase",
       "shares": 60000.0,
       "pricePerShare": 7.128,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "YQ",
+      "issuerName": "17 Education & Technology Group Inc.",
+      "insiderName": "Liu Chang",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 853.0,
+      "pricePerShare": 2.4085,
       "transactionDate": "2026-08-13"
     },
     {
@@ -1731,6 +1741,66 @@
       "type": "Sale",
       "shares": 6700.0,
       "pricePerShare": 26.0847,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "GLXY",
+      "issuerName": "Galaxy Digital Inc.",
+      "insiderName": "DEASON DOUGLAS R",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 12000.0,
+      "pricePerShare": 21.536,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "BLTE",
+      "issuerName": "BELITE BIO, INC",
+      "insiderName": "Chuang Hao-Yuan",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 144.0,
+      "pricePerShare": 180.0,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "BLTE",
+      "issuerName": "BELITE BIO, INC",
+      "insiderName": "Chuang Hao-Yuan",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 223.0,
+      "pricePerShare": 180.57,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "BLTE",
+      "issuerName": "BELITE BIO, INC",
+      "insiderName": "Lin Yu-Hsin",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 142.0,
+      "pricePerShare": 180.0,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "BLTE",
+      "issuerName": "BELITE BIO, INC",
+      "insiderName": "Lin Yu-Hsin",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 223.0,
+      "pricePerShare": 180.57,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "SMFG",
+      "issuerName": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
+      "insiderName": "Anchi Kazuyuki",
+      "title": "Director, Sr. Mg. Corp. EO & Group CFO",
+      "type": "Sale",
+      "shares": 4000.0,
+      "pricePerShare": 42.47,
       "transactionDate": "2026-08-12"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 422.0,
       "pricePerShare": 104.37,
       "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 298.0,
-      "pricePerShare": 105.34,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 197.0,
-      "pricePerShare": 106.36,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "GLSI",
-      "issuerName": "Greenwich LifeSciences, Inc.",
-      "insiderName": "Patel Snehal",
-      "title": "Director, CEO and CFO, 10% Owner",
-      "type": "Purchase",
-      "shares": 1500.0,
-      "pricePerShare": 13.59,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "PEBK",
-      "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
-      "insiderName": "ABERNETHY JAMES S",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1000.0,
-      "pricePerShare": 42.89,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "ACI",
-      "issuerName": "Albertsons Companies, Inc.",
-      "insiderName": "MORRIS SUSAN",
-      "title": "Director, Chief Executive Officer",
-      "type": "Purchase",
-      "shares": 20277.0,
-      "pricePerShare": 11.455,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "ACI",
-      "issuerName": "Albertsons Companies, Inc.",
-      "insiderName": "MORRIS SUSAN",
-      "title": "Director, Chief Executive Officer",
-      "type": "Purchase",
-      "shares": 19132.0,
-      "pricePerShare": 11.377,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "NEXN",
-      "issuerName": "Nexxen International Ltd.",
-      "insiderName": "Niri Sagi",
-      "title": "Chief Financial Officer",
-      "type": "Sale",
-      "shares": 17578.0,
-      "pricePerShare": 10.5116,
-      "transactionDate": "2026-07-28"
     }
   ],
   "byTicker": {
@@ -30937,6 +30937,51 @@
           "shares": 60000.0,
           "pricePerShare": 7.0498,
           "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "YQ": {
+      "issuerName": "17 Education & Technology Group Inc.",
+      "trades": [
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 853.0,
+          "pricePerShare": 2.4085,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 3295.0,
+          "pricePerShare": 2.4395,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1857.0,
+          "pricePerShare": 2.1315,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 500.0,
+          "pricePerShare": 1.8628,
+          "transactionDate": "2026-07-30"
         }
       ]
     },
@@ -32956,26 +33001,6 @@
           "type": "Sale",
           "shares": 422.0,
           "pricePerShare": 104.37,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 298.0,
-          "pricePerShare": 105.34,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 197.0,
-          "pricePerShare": 106.36,
           "transactionDate": "2026-07-28"
         }
       ]
@@ -35652,6 +35677,81 @@
           "shares": 4375.0,
           "pricePerShare": 26.1168,
           "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "GLXY": {
+      "issuerName": "Galaxy Digital Inc.",
+      "trades": [
+        {
+          "ticker": "GLXY",
+          "issuerName": "Galaxy Digital Inc.",
+          "insiderName": "DEASON DOUGLAS R",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 12000.0,
+          "pricePerShare": 21.536,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "BLTE": {
+      "issuerName": "BELITE BIO, INC",
+      "trades": [
+        {
+          "ticker": "BLTE",
+          "issuerName": "BELITE BIO, INC",
+          "insiderName": "Chuang Hao-Yuan",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 144.0,
+          "pricePerShare": 180.0,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "BLTE",
+          "issuerName": "BELITE BIO, INC",
+          "insiderName": "Chuang Hao-Yuan",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 223.0,
+          "pricePerShare": 180.57,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "BLTE",
+          "issuerName": "BELITE BIO, INC",
+          "insiderName": "Lin Yu-Hsin",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 142.0,
+          "pricePerShare": 180.0,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "BLTE",
+          "issuerName": "BELITE BIO, INC",
+          "insiderName": "Lin Yu-Hsin",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 223.0,
+          "pricePerShare": 180.57,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "SMFG": {
+      "issuerName": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
+      "trades": [
+        {
+          "ticker": "SMFG",
+          "issuerName": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
+          "insiderName": "Anchi Kazuyuki",
+          "title": "Director, Sr. Mg. Corp. EO & Group CFO",
+          "type": "Sale",
+          "shares": 4000.0,
+          "pricePerShare": 42.47,
+          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -42260,41 +42360,6 @@
         }
       ]
     },
-    "YQ": {
-      "issuerName": "17 Education & Technology Group Inc.",
-      "trades": [
-        {
-          "ticker": "YQ",
-          "issuerName": "17 Education & Technology Group Inc.",
-          "insiderName": "Liu Chang",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 3295.0,
-          "pricePerShare": 2.4395,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "YQ",
-          "issuerName": "17 Education & Technology Group Inc.",
-          "insiderName": "Liu Chang",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 1857.0,
-          "pricePerShare": 2.1315,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "YQ",
-          "issuerName": "17 Education & Technology Group Inc.",
-          "insiderName": "Liu Chang",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 500.0,
-          "pricePerShare": 1.8628,
-          "transactionDate": "2026-07-30"
-        }
-      ]
-    },
     "VIAV": {
       "issuerName": "VIAVI SOLUTIONS INC.",
       "trades": [
@@ -45572,16 +45637,6 @@
           "shares": 500.0,
           "pricePerShare": 43.17,
           "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "PEBK",
-          "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
-          "insiderName": "ABERNETHY JAMES S",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 42.89,
-          "transactionDate": "2026-07-28"
         }
       ]
     },
@@ -61262,26 +61317,6 @@
           "shares": 9000.0,
           "pricePerShare": 11.48,
           "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "ACI",
-          "issuerName": "Albertsons Companies, Inc.",
-          "insiderName": "MORRIS SUSAN",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 20277.0,
-          "pricePerShare": 11.455,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "ACI",
-          "issuerName": "Albertsons Companies, Inc.",
-          "insiderName": "MORRIS SUSAN",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 19132.0,
-          "pricePerShare": 11.377,
-          "transactionDate": "2026-07-28"
         }
       ]
     },
@@ -62417,16 +62452,6 @@
           "shares": 700.0,
           "pricePerShare": 13.1,
           "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "GLSI",
-          "issuerName": "Greenwich LifeSciences, Inc.",
-          "insiderName": "Patel Snehal",
-          "title": "Director, CEO and CFO, 10% Owner",
-          "type": "Purchase",
-          "shares": 1500.0,
-          "pricePerShare": 13.59,
-          "transactionDate": "2026-07-28"
         }
       ]
     },
@@ -63181,21 +63206,6 @@
           "type": "Sale",
           "shares": 118138.0,
           "pricePerShare": 18.8996,
-          "transactionDate": "2026-07-28"
-        }
-      ]
-    },
-    "NEXN": {
-      "issuerName": "Nexxen International Ltd.",
-      "trades": [
-        {
-          "ticker": "NEXN",
-          "issuerName": "Nexxen International Ltd.",
-          "insiderName": "Niri Sagi",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 17578.0,
-          "pricePerShare": 10.5116,
           "transactionDate": "2026-07-28"
         }
       ]
@@ -64597,7 +64607,10 @@
       "0000950103-26-012349",
       "0000950103-26-012350",
       "0000950103-26-012351",
+      "0000950103-26-012359",
+      "0000950103-26-012360",
       "0000950103-26-012363",
+      "0000950103-26-012369",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -64779,6 +64792,7 @@
       "0001075736-26-000083",
       "0001075736-26-000084",
       "0001079500-26-000006",
+      "0001079500-26-000008",
       "0001079973-26-000959",
       "0001079973-26-000981",
       "0001079973-26-000983",
@@ -65337,6 +65351,7 @@
       "0001104659-26-096149",
       "0001104659-26-096150",
       "0001104659-26-096197",
+      "0001104659-26-096298",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -65694,6 +65709,7 @@
       "0001140361-26-032846",
       "0001140361-26-032856",
       "0001140361-26-032884",
+      "0001140361-26-032934",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -65763,6 +65779,7 @@
       "0001178913-26-004095",
       "0001178913-26-004110",
       "0001178913-26-004116",
+      "0001178913-26-004132",
       "0001181540-26-000002",
       "0001181664-26-000004",
       "0001181672-26-000004",
@@ -67528,10 +67545,16 @@
       "0001193125-26-349785",
       "0001193125-26-349810",
       "0001193125-26-349813",
+      "0001193125-26-349921",
+      "0001193125-26-349924",
+      "0001193125-26-349952",
       "0001193125-26-349960",
       "0001193125-26-349961",
       "0001193125-26-349962",
       "0001193125-26-349963",
+      "0001193125-26-350208",
+      "0001193125-26-350217",
+      "0001193125-26-350218",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -68247,6 +68270,9 @@
       "0001213900-26-089275",
       "0001213900-26-089298",
       "0001213900-26-089299",
+      "0001213900-26-089370",
+      "0001213900-26-089375",
+      "0001213900-26-089395",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -68375,6 +68401,7 @@
       "0001214659-26-010062",
       "0001214659-26-010071",
       "0001214659-26-010097",
+      "0001214659-26-010142",
       "0001216055-26-000006",
       "0001216055-26-000007",
       "0001216581-26-000006",
@@ -69738,6 +69765,8 @@
       "0001562577-26-000284",
       "0001562577-26-000285",
       "0001562577-26-000290",
+      "0001562577-26-000292",
+      "0001562577-26-000294",
       "0001563284-26-000004",
       "0001563411-26-000194",
       "0001563458-26-000012",
@@ -71094,6 +71123,7 @@
       "0001829126-26-008707",
       "0001829126-26-008749",
       "0001829126-26-008776",
+      "0001829126-26-008823",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -72439,6 +72469,7 @@
       "0001839882-26-039882",
       "0001839882-26-039883",
       "0001839882-26-039894",
+      "0001839882-26-039926",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
