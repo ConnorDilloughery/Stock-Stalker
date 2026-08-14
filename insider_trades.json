@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T11:04:19.217926+00:00",
+  "generatedAt": "2026-08-14T12:01:58.677436+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -301,6 +301,26 @@
       "type": "Purchase",
       "shares": 853.0,
       "pricePerShare": 2.4085,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "MTDR",
+      "issuerName": "Matador Resources Co",
+      "insiderName": "Foran Joseph Wm",
+      "title": "Director, Chairman and CEO",
+      "type": "Purchase",
+      "shares": 5000.0,
+      "pricePerShare": 51.44,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "BORR",
+      "issuerName": "Borr Drilling Ltd",
+      "insiderName": "Currie Jeffrey",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 125000.0,
+      "pricePerShare": 4.0131,
       "transactionDate": "2026-08-13"
     },
     {
@@ -1801,6 +1821,16 @@
       "type": "Sale",
       "shares": 4000.0,
       "pricePerShare": 42.47,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "MTDR",
+      "issuerName": "Matador Resources Co",
+      "insiderName": "Foran Joseph Wm",
+      "title": "Director, Chairman and CEO",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 52.16,
       "transactionDate": "2026-08-12"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 5539.0,
       "pricePerShare": 105.35,
       "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 3183.0,
-      "pricePerShare": 106.27,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 283.0,
-      "pricePerShare": 103.51,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 422.0,
-      "pricePerShare": 104.37,
-      "transactionDate": "2026-07-28"
     }
   ],
   "byTicker": {
@@ -30982,6 +30982,66 @@
           "shares": 500.0,
           "pricePerShare": 1.8628,
           "transactionDate": "2026-07-30"
+        }
+      ]
+    },
+    "MTDR": {
+      "issuerName": "Matador Resources Co",
+      "trades": [
+        {
+          "ticker": "MTDR",
+          "issuerName": "Matador Resources Co",
+          "insiderName": "Foran Joseph Wm",
+          "title": "Director, Chairman and CEO",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 51.44,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "MTDR",
+          "issuerName": "Matador Resources Co",
+          "insiderName": "Foran Joseph Wm",
+          "title": "Director, Chairman and CEO",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 52.16,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "MTDR",
+          "issuerName": "Matador Resources Co",
+          "insiderName": "Foran Joseph Wm",
+          "title": "Director, Chairman and CEO",
+          "type": "Purchase",
+          "shares": 709.0,
+          "pricePerShare": 51.68,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "MTDR",
+          "issuerName": "Matador Resources Co",
+          "insiderName": "Foran Joseph Wm",
+          "title": "Director, Chairman and CEO",
+          "type": "Purchase",
+          "shares": 3130.0,
+          "pricePerShare": 51.04,
+          "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "BORR": {
+      "issuerName": "Borr Drilling Ltd",
+      "trades": [
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Currie Jeffrey",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 125000.0,
+          "pricePerShare": 4.0131,
+          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -32971,36 +33031,6 @@
           "type": "Sale",
           "shares": 5539.0,
           "pricePerShare": 105.35,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3183.0,
-          "pricePerShare": 106.27,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 283.0,
-          "pricePerShare": 103.51,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 422.0,
-          "pricePerShare": 104.37,
           "transactionDate": "2026-07-28"
         }
       ]
@@ -36547,31 +36577,6 @@
           "shares": 208731.0,
           "pricePerShare": 8.09,
           "transactionDate": "2026-07-28"
-        }
-      ]
-    },
-    "MTDR": {
-      "issuerName": "Matador Resources Co",
-      "trades": [
-        {
-          "ticker": "MTDR",
-          "issuerName": "Matador Resources Co",
-          "insiderName": "Foran Joseph Wm",
-          "title": "Director, Chairman and CEO",
-          "type": "Purchase",
-          "shares": 709.0,
-          "pricePerShare": 51.68,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "MTDR",
-          "issuerName": "Matador Resources Co",
-          "insiderName": "Foran Joseph Wm",
-          "title": "Director, Chairman and CEO",
-          "type": "Purchase",
-          "shares": 3130.0,
-          "pricePerShare": 51.04,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -67555,6 +67560,7 @@
       "0001193125-26-350208",
       "0001193125-26-350217",
       "0001193125-26-350218",
+      "0001193125-26-350422",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -68273,6 +68279,7 @@
       "0001213900-26-089370",
       "0001213900-26-089375",
       "0001213900-26-089395",
+      "0001213900-26-089449",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -69701,6 +69708,7 @@
       "0001539497-26-002204",
       "0001539838-26-000139",
       "0001540655-26-000015",
+      "0001540655-26-000018",
       "0001541300-26-000021",
       "0001542447-26-000083",
       "0001542447-26-000092",
@@ -70378,6 +70386,7 @@
       "0001628280-26-056895",
       "0001628280-26-056898",
       "0001628280-26-056903",
+      "0001628280-26-056928",
       "0001632531-26-000002",
       "0001633877-26-000008",
       "0001634117-26-000081",
@@ -74279,6 +74288,7 @@
       "0001918704-26-023737",
       "0001918704-26-023738",
       "0001918704-26-023744",
+      "0001918704-26-023753",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
