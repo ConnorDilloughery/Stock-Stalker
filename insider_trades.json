@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-08-14T16:05:17.728353+00:00",
+  "generatedAt": "2026-08-14T17:04:27.542998+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "FMAO",
+      "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+      "insiderName": "Briggs Andrew J",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3000.0,
+      "pricePerShare": 35.38,
+      "transactionDate": "2026-08-14"
+    },
     {
       "ticker": "BANF",
       "issuerName": "BANCFIRST CORP /OK/",
@@ -421,6 +431,56 @@
       "type": "Purchase",
       "shares": 1.0,
       "pricePerShare": 343.02,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "FMAO",
+      "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+      "insiderName": "Briggs Andrew J",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3000.0,
+      "pricePerShare": 35.19,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "ALG",
+      "issuerName": "ALAMO GROUP INC",
+      "insiderName": "Rizzuti Edward",
+      "title": "EVP, Corp Dev, IR & Secretary",
+      "type": "Sale",
+      "shares": 2715.0,
+      "pricePerShare": 164.408,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "KNX",
+      "issuerName": "Knight-Swift Transportation Holdings Inc.",
+      "insiderName": "Dove Reid",
+      "title": "Director, CEO AAA Cooper Transportation",
+      "type": "Sale",
+      "shares": 126864.0,
+      "pricePerShare": 73.132,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "MSS",
+      "issuerName": "Maison Solutions Inc.",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 7553.0,
+      "pricePerShare": 1.4,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "PFSA",
+      "issuerName": "Profusa, Inc.",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 42411.0,
+      "pricePerShare": 0.888,
       "transactionDate": "2026-08-13"
     },
     {
@@ -2031,6 +2091,46 @@
       "type": "Purchase",
       "shares": 46387.0,
       "pricePerShare": 10.37,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "AERO",
+      "issuerName": "Grupo Aeromexico, S.A.B. de C.V.",
+      "insiderName": "Murray Aaron James",
+      "title": "Chief Commercial Officer",
+      "type": "Sale",
+      "shares": 355600.0,
+      "pricePerShare": 1.583,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "KNX",
+      "issuerName": "Knight-Swift Transportation Holdings Inc.",
+      "insiderName": "Dove Reid",
+      "title": "Director, CEO AAA Cooper Transportation",
+      "type": "Sale",
+      "shares": 42290.0,
+      "pricePerShare": 71.4898,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "MSS",
+      "issuerName": "Maison Solutions Inc.",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 22559.0,
+      "pricePerShare": 1.42,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "PFSA",
+      "issuerName": "Profusa, Inc.",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 5585.0,
+      "pricePerShare": 0.964,
       "transactionDate": "2026-08-12"
     },
     {
@@ -29902,109 +30002,64 @@
       "shares": 41.0,
       "pricePerShare": 448.4559,
       "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 39.0,
-      "pricePerShare": 449.4208,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 70.0,
-      "pricePerShare": 451.304,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 106.0,
-      "pricePerShare": 452.1232,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 144.0,
-      "pricePerShare": 453.2733,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 128.0,
-      "pricePerShare": 454.4425,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 304.0,
-      "pricePerShare": 455.5468,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 312.0,
-      "pricePerShare": 456.5162,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 328.0,
-      "pricePerShare": 457.4484,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 529.0,
-      "pricePerShare": 458.9562,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Cole Martin I",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 248.0,
-      "pricePerShare": 459.9732,
-      "transactionDate": "2026-07-28"
     }
   ],
   "byTicker": {
+    "FMAO": {
+      "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+      "trades": [
+        {
+          "ticker": "FMAO",
+          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+          "insiderName": "Briggs Andrew J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 35.38,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "FMAO",
+          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+          "insiderName": "Briggs Andrew J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 35.19,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "FMAO",
+          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+          "insiderName": "Briggs Andrew J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 34.08,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "FMAO",
+          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+          "insiderName": "Briggs Andrew J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 34.24,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "FMAO",
+          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
+          "insiderName": "Briggs Andrew J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 31.59,
+          "transactionDate": "2026-07-28"
+        }
+      ]
+    },
     "BANF": {
       "issuerName": "BANCFIRST CORP /OK/",
       "trades": [
@@ -31387,6 +31442,206 @@
           "shares": 1.0,
           "pricePerShare": 393.09,
           "transactionDate": "2026-07-28"
+        }
+      ]
+    },
+    "ALG": {
+      "issuerName": "ALAMO GROUP INC",
+      "trades": [
+        {
+          "ticker": "ALG",
+          "issuerName": "ALAMO GROUP INC",
+          "insiderName": "Rizzuti Edward",
+          "title": "EVP, Corp Dev, IR & Secretary",
+          "type": "Sale",
+          "shares": 2715.0,
+          "pricePerShare": 164.408,
+          "transactionDate": "2026-08-13"
+        }
+      ]
+    },
+    "KNX": {
+      "issuerName": "Knight-Swift Transportation Holdings Inc.",
+      "trades": [
+        {
+          "ticker": "KNX",
+          "issuerName": "Knight-Swift Transportation Holdings Inc.",
+          "insiderName": "Dove Reid",
+          "title": "Director, CEO AAA Cooper Transportation",
+          "type": "Sale",
+          "shares": 126864.0,
+          "pricePerShare": 73.132,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "KNX",
+          "issuerName": "Knight-Swift Transportation Holdings Inc.",
+          "insiderName": "Vander Ploeg David",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 2200.0,
+          "pricePerShare": 52.33,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "KNX",
+          "issuerName": "Knight-Swift Transportation Holdings Inc.",
+          "insiderName": "Dove Reid",
+          "title": "Director, CEO AAA Cooper Transportation",
+          "type": "Sale",
+          "shares": 42290.0,
+          "pricePerShare": 71.4898,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "KNX",
+          "issuerName": "Knight-Swift Transportation Holdings Inc.",
+          "insiderName": "Flanagan Cary M",
+          "title": "Exec VP and CAO",
+          "type": "Sale",
+          "shares": 3600.0,
+          "pricePerShare": 70.82,
+          "transactionDate": "2026-07-31"
+        }
+      ]
+    },
+    "MSS": {
+      "issuerName": "Maison Solutions Inc.",
+      "trades": [
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 7553.0,
+          "pricePerShare": 1.4,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 22559.0,
+          "pricePerShare": 1.42,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4329.0,
+          "pricePerShare": 1.41,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 4616.0,
+          "pricePerShare": 1.33,
+          "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "PFSA": {
+      "issuerName": "Profusa, Inc.",
+      "trades": [
+        {
+          "ticker": "PFSA",
+          "issuerName": "Profusa, Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 42411.0,
+          "pricePerShare": 0.888,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "PFSA",
+          "issuerName": "Profusa, Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 5585.0,
+          "pricePerShare": 0.964,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "PFSA",
+          "issuerName": "Profusa, Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2280.0,
+          "pricePerShare": 0.97,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "PFSA",
+          "issuerName": "Profusa, Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 4016.0,
+          "pricePerShare": 0.944,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "PFSA",
+          "issuerName": "Profusa, Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 924.0,
+          "pricePerShare": 0.946,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "PFSA",
+          "issuerName": "Profusa, Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 926.0,
+          "pricePerShare": 0.943,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "PFSA",
+          "issuerName": "Profusa, Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 383.0,
+          "pricePerShare": 0.942,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "PFSA",
+          "issuerName": "Profusa, Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1368.0,
+          "pricePerShare": 0.954,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "PFSA",
+          "issuerName": "Profusa, Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 14556.0,
+          "pricePerShare": 0.958,
+          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -35475,31 +35730,6 @@
         }
       ]
     },
-    "KNX": {
-      "issuerName": "Knight-Swift Transportation Holdings Inc.",
-      "trades": [
-        {
-          "ticker": "KNX",
-          "issuerName": "Knight-Swift Transportation Holdings Inc.",
-          "insiderName": "Vander Ploeg David",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 2200.0,
-          "pricePerShare": 52.33,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "KNX",
-          "issuerName": "Knight-Swift Transportation Holdings Inc.",
-          "insiderName": "Flanagan Cary M",
-          "title": "Exec VP and CAO",
-          "type": "Sale",
-          "shares": 3600.0,
-          "pricePerShare": 70.82,
-          "transactionDate": "2026-07-31"
-        }
-      ]
-    },
     "GH": {
       "issuerName": "Guardant Health, Inc.",
       "trades": [
@@ -36136,6 +36366,21 @@
           "type": "Purchase",
           "shares": 46387.0,
           "pricePerShare": 10.37,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "AERO": {
+      "issuerName": "Grupo Aeromexico, S.A.B. de C.V.",
+      "trades": [
+        {
+          "ticker": "AERO",
+          "issuerName": "Grupo Aeromexico, S.A.B. de C.V.",
+          "insiderName": "Murray Aaron James",
+          "title": "Chief Commercial Officer",
+          "type": "Sale",
+          "shares": 355600.0,
+          "pricePerShare": 1.583,
           "transactionDate": "2026-08-12"
         }
       ]
@@ -37741,106 +37986,6 @@
           "type": "Sale",
           "shares": 1338.0,
           "pricePerShare": 309.2311,
-          "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "MSS": {
-      "issuerName": "Maison Solutions Inc.",
-      "trades": [
-        {
-          "ticker": "MSS",
-          "issuerName": "Maison Solutions Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4329.0,
-          "pricePerShare": 1.41,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "MSS",
-          "issuerName": "Maison Solutions Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 4616.0,
-          "pricePerShare": 1.33,
-          "transactionDate": "2026-08-10"
-        }
-      ]
-    },
-    "PFSA": {
-      "issuerName": "Profusa, Inc.",
-      "trades": [
-        {
-          "ticker": "PFSA",
-          "issuerName": "Profusa, Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2280.0,
-          "pricePerShare": 0.97,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "PFSA",
-          "issuerName": "Profusa, Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 4016.0,
-          "pricePerShare": 0.944,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "PFSA",
-          "issuerName": "Profusa, Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 924.0,
-          "pricePerShare": 0.946,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "PFSA",
-          "issuerName": "Profusa, Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 926.0,
-          "pricePerShare": 0.943,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "PFSA",
-          "issuerName": "Profusa, Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 383.0,
-          "pricePerShare": 0.942,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "PFSA",
-          "issuerName": "Profusa, Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1368.0,
-          "pricePerShare": 0.954,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "PFSA",
-          "issuerName": "Profusa, Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 14556.0,
-          "pricePerShare": 0.958,
           "transactionDate": "2026-08-03"
         }
       ]
@@ -39641,106 +39786,6 @@
           "type": "Sale",
           "shares": 41.0,
           "pricePerShare": 448.4559,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 39.0,
-          "pricePerShare": 449.4208,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 70.0,
-          "pricePerShare": 451.304,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 106.0,
-          "pricePerShare": 452.1232,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 144.0,
-          "pricePerShare": 453.2733,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 128.0,
-          "pricePerShare": 454.4425,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 304.0,
-          "pricePerShare": 455.5468,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 312.0,
-          "pricePerShare": 456.5162,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 328.0,
-          "pricePerShare": 457.4484,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 529.0,
-          "pricePerShare": 458.9562,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Cole Martin I",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 248.0,
-          "pricePerShare": 459.9732,
           "transactionDate": "2026-07-28"
         }
       ]
@@ -45687,41 +45732,6 @@
           "shares": 25350.0,
           "pricePerShare": 67.47,
           "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "FMAO": {
-      "issuerName": "FARMERS & MERCHANTS BANCORP INC",
-      "trades": [
-        {
-          "ticker": "FMAO",
-          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
-          "insiderName": "Briggs Andrew J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 34.08,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "FMAO",
-          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
-          "insiderName": "Briggs Andrew J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 34.24,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "FMAO",
-          "issuerName": "FARMERS & MERCHANTS BANCORP INC",
-          "insiderName": "Briggs Andrew J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 31.59,
-          "transactionDate": "2026-07-28"
         }
       ]
     },
@@ -64710,6 +64720,9 @@
       "0000950103-26-012388",
       "0000950103-26-012389",
       "0000950103-26-012393",
+      "0000950103-26-012398",
+      "0000950103-26-012399",
+      "0000950103-26-012400",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65455,6 +65468,24 @@
       "0001104659-26-096504",
       "0001104659-26-096560",
       "0001104659-26-096701",
+      "0001104659-26-096776",
+      "0001104659-26-096777",
+      "0001104659-26-096780",
+      "0001104659-26-096781",
+      "0001104659-26-096782",
+      "0001104659-26-096783",
+      "0001104659-26-096784",
+      "0001104659-26-096787",
+      "0001104659-26-096788",
+      "0001104659-26-096790",
+      "0001104659-26-096791",
+      "0001104659-26-096793",
+      "0001104659-26-096794",
+      "0001104659-26-096797",
+      "0001104659-26-096798",
+      "0001104659-26-096800",
+      "0001104659-26-096803",
+      "0001104659-26-096806",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -67678,6 +67709,19 @@
       "0001193125-26-350982",
       "0001193125-26-351207",
       "0001193125-26-351230",
+      "0001193125-26-351370",
+      "0001193125-26-351383",
+      "0001193125-26-351387",
+      "0001193125-26-351388",
+      "0001193125-26-351391",
+      "0001193125-26-351400",
+      "0001193125-26-351415",
+      "0001193125-26-351430",
+      "0001193125-26-351447",
+      "0001193125-26-351501",
+      "0001193125-26-351509",
+      "0001193125-26-351512",
+      "0001193125-26-351514",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -68411,6 +68455,14 @@
       "0001213900-26-089596",
       "0001213900-26-089628",
       "0001213900-26-089659",
+      "0001213900-26-089691",
+      "0001213900-26-089694",
+      "0001213900-26-089695",
+      "0001213900-26-089697",
+      "0001213900-26-089716",
+      "0001213900-26-089722",
+      "0001213900-26-089724",
+      "0001213900-26-089725",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -69392,6 +69444,16 @@
       "0001445546-26-006027",
       "0001445546-26-006028",
       "0001445546-26-006030",
+      "0001445546-26-006037",
+      "0001445546-26-006039",
+      "0001445546-26-006041",
+      "0001445546-26-006043",
+      "0001445546-26-006045",
+      "0001445546-26-006047",
+      "0001445546-26-006049",
+      "0001445546-26-006051",
+      "0001445546-26-006053",
+      "0001445546-26-006055",
       "0001448765-26-000011",
       "0001450800-26-000006",
       "0001451455-26-000009",
@@ -69441,6 +69503,8 @@
       "0001475597-26-000194",
       "0001475597-26-000196",
       "0001475597-26-000198",
+      "0001475597-26-000201",
+      "0001475597-26-000202",
       "0001475856-26-000004",
       "0001476150-26-000036",
       "0001476150-26-000041",
@@ -69932,6 +69996,7 @@
       "0001543262-26-000008",
       "0001544055-26-000009",
       "0001545591-26-000008",
+      "0001546251-26-000010",
       "0001547434-26-000003",
       "0001548006-26-000010",
       "0001548147-26-000014",
@@ -69953,6 +70018,7 @@
       "0001561550-26-000260",
       "0001561733-26-000014",
       "0001561861-26-000059",
+      "0001561861-26-000063",
       "0001562577-26-000256",
       "0001562577-26-000258",
       "0001562577-26-000260",
@@ -72709,6 +72775,12 @@
       "0001839882-26-039987",
       "0001839882-26-039991",
       "0001839882-26-039992",
+      "0001839882-26-040007",
+      "0001839882-26-040008",
+      "0001839882-26-040009",
+      "0001839882-26-040010",
+      "0001839882-26-040011",
+      "0001839882-26-040012",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -72808,6 +72880,7 @@
       "0001870837-26-000003",
       "0001871423-26-000010",
       "0001871615-26-000016",
+      "0001871703-26-000002",
       "0001872274-26-000002",
       "0001874566-26-000003",
       "0001875284-26-000006",
@@ -74549,6 +74622,8 @@
       "0001918704-26-023786",
       "0001918704-26-023787",
       "0001918704-26-023788",
+      "0001918704-26-023789",
+      "0001918704-26-023790",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -74975,6 +75050,8 @@
       "0001999371-26-017915",
       "0001999371-26-017921",
       "0001999371-26-017946",
+      "0001999371-26-017959",
+      "0001999371-26-017966",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
