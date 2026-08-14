@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T00:04:01.747586+00:00",
+  "generatedAt": "2026-08-14T01:03:05.125401+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -261,6 +261,26 @@
       "type": "Sale",
       "shares": 1252.0,
       "pricePerShare": 416.4256,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "TXO",
+      "issuerName": "TXO Partners, L.P.",
+      "insiderName": "SIMPSON BOB R",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 125000.0,
+      "pricePerShare": 14.3183,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "CVRX",
+      "issuerName": "CVRx, Inc.",
+      "insiderName": "Binkowski Brent",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 26223.0,
+      "pricePerShare": 2.9147,
       "transactionDate": "2026-08-13"
     },
     {
@@ -1641,6 +1661,66 @@
       "type": "Sale",
       "shares": 200000.0,
       "pricePerShare": 76.4714,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "WVE",
+      "issuerName": "Wave Life Sciences, Inc.",
+      "insiderName": "Rawcliffe Adrian",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 12700.0,
+      "pricePerShare": 5.29,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "SCHW",
+      "issuerName": "SCHWAB CHARLES CORP",
+      "insiderName": "Schwab Charles R.",
+      "title": "Director, Co-Chairman",
+      "type": "Sale",
+      "shares": 46410.0,
+      "pricePerShare": 108.176,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "TXO",
+      "issuerName": "TXO Partners, L.P.",
+      "insiderName": "SIMPSON BOB R",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 25000.0,
+      "pricePerShare": 14.4303,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "LTC",
+      "issuerName": "LTC PROPERTIES INC",
+      "insiderName": "Gruber David L",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 500.0,
+      "pricePerShare": 38.3,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "XRN",
+      "issuerName": "Chiron Real Estate Inc.",
+      "insiderName": "Roseth Aaron Robert",
+      "title": "Director, COO",
+      "type": "Purchase",
+      "shares": 13500.0,
+      "pricePerShare": 36.73,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "ARQT",
+      "issuerName": "Arcutis Biotherapeutics, Inc.",
+      "insiderName": "Burnett Patrick",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 6700.0,
+      "pricePerShare": 26.0847,
       "transactionDate": "2026-08-12"
     },
     {
@@ -4131,6 +4211,86 @@
       "type": "Sale",
       "shares": 2000.0,
       "pricePerShare": 412.567,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "WVE",
+      "issuerName": "Wave Life Sciences, Inc.",
+      "insiderName": "Wagner Heidi L",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 7000.0,
+      "pricePerShare": 6.01,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "WVE",
+      "issuerName": "Wave Life Sciences, Inc.",
+      "insiderName": "TAKANASHI KEN",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3864.0,
+      "pricePerShare": 6.01,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "WVE",
+      "issuerName": "Wave Life Sciences, Inc.",
+      "insiderName": "Tan Aik Na",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 432.0,
+      "pricePerShare": 6.01,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "ONC",
+      "issuerName": "BeOne Medicines Ltd.",
+      "insiderName": "Lee Chan Henry",
+      "title": "SVP, General Counsel",
+      "type": "Sale",
+      "shares": 2666.0,
+      "pricePerShare": 360.0,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "PCOR",
+      "issuerName": "PROCORE TECHNOLOGIES, INC.",
+      "insiderName": "Fleming William Fred Jr",
+      "title": "SVP, Corporate Controller",
+      "type": "Sale",
+      "shares": 10000.0,
+      "pricePerShare": 58.95,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "LTC",
+      "issuerName": "LTC PROPERTIES INC",
+      "insiderName": "Gruber David L",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 3500.0,
+      "pricePerShare": 38.3,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "XRN",
+      "issuerName": "Chiron Real Estate Inc.",
+      "insiderName": "Decker Mark Okey Jr",
+      "title": "Director, CEO and President",
+      "type": "Purchase",
+      "shares": 6875.0,
+      "pricePerShare": 35.92,
+      "transactionDate": "2026-08-11"
+    },
+    {
+      "ticker": "ARQT",
+      "issuerName": "Arcutis Biotherapeutics, Inc.",
+      "insiderName": "Burnett Patrick",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 8300.0,
+      "pricePerShare": 26.5216,
       "transactionDate": "2026-08-11"
     },
     {
@@ -29842,166 +30002,6 @@
       "shares": 22650.0,
       "pricePerShare": 105.713,
       "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 160.0,
-      "pricePerShare": 174.7,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 880.0,
-      "pricePerShare": 175.86,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 760.0,
-      "pricePerShare": 176.8,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 640.0,
-      "pricePerShare": 178.04,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 680.0,
-      "pricePerShare": 179.04,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 360.0,
-      "pricePerShare": 179.94,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1238.0,
-      "pricePerShare": 181.34,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2762.0,
-      "pricePerShare": 182.08,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1600.0,
-      "pricePerShare": 183.24,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 920.0,
-      "pricePerShare": 183.97,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "CPRT",
-      "issuerName": "COPART INC",
-      "insiderName": "Liaw Jeffrey",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 27745.0,
-      "pricePerShare": 30.49,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "TEM",
-      "issuerName": "Tempus AI, Inc.",
-      "insiderName": "LEFKOFSKY ERIC P",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 20472.0,
-      "pricePerShare": 41.34,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "TEM",
-      "issuerName": "Tempus AI, Inc.",
-      "insiderName": "LEFKOFSKY ERIC P",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 30906.0,
-      "pricePerShare": 42.36,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "TEM",
-      "issuerName": "Tempus AI, Inc.",
-      "insiderName": "LEFKOFSKY ERIC P",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 6122.0,
-      "pricePerShare": 42.95,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "TEM",
-      "issuerName": "Tempus AI, Inc.",
-      "insiderName": "LEFKOFSKY ERIC P",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 48066.0,
-      "pricePerShare": 41.34,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "TEM",
-      "issuerName": "Tempus AI, Inc.",
-      "insiderName": "LEFKOFSKY ERIC P",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 72560.0,
-      "pricePerShare": 42.36,
-      "transactionDate": "2026-07-28"
     }
   ],
   "byTicker": {
@@ -30872,6 +30872,46 @@
           "shares": 1000.0,
           "pricePerShare": 402.1601,
           "transactionDate": "2026-08-06"
+        }
+      ]
+    },
+    "TXO": {
+      "issuerName": "TXO Partners, L.P.",
+      "trades": [
+        {
+          "ticker": "TXO",
+          "issuerName": "TXO Partners, L.P.",
+          "insiderName": "SIMPSON BOB R",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 125000.0,
+          "pricePerShare": 14.3183,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TXO",
+          "issuerName": "TXO Partners, L.P.",
+          "insiderName": "SIMPSON BOB R",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 25000.0,
+          "pricePerShare": 14.4303,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "CVRX": {
+      "issuerName": "CVRx, Inc.",
+      "trades": [
+        {
+          "ticker": "CVRX",
+          "issuerName": "CVRx, Inc.",
+          "insiderName": "Binkowski Brent",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 26223.0,
+          "pricePerShare": 2.9147,
+          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -35280,6 +35320,371 @@
         }
       ]
     },
+    "WVE": {
+      "issuerName": "Wave Life Sciences, Inc.",
+      "trades": [
+        {
+          "ticker": "WVE",
+          "issuerName": "Wave Life Sciences, Inc.",
+          "insiderName": "Rawcliffe Adrian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 12700.0,
+          "pricePerShare": 5.29,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "WVE",
+          "issuerName": "Wave Life Sciences, Inc.",
+          "insiderName": "Wagner Heidi L",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7000.0,
+          "pricePerShare": 6.01,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "WVE",
+          "issuerName": "Wave Life Sciences, Inc.",
+          "insiderName": "TAKANASHI KEN",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3864.0,
+          "pricePerShare": 6.01,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "WVE",
+          "issuerName": "Wave Life Sciences, Inc.",
+          "insiderName": "Tan Aik Na",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 432.0,
+          "pricePerShare": 6.01,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "SCHW": {
+      "issuerName": "SCHWAB CHARLES CORP",
+      "trades": [
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab Charles R.",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 46410.0,
+          "pricePerShare": 108.176,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab Charles R.",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 46445.0,
+          "pricePerShare": 107.7773,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Murtagh Nigel J",
+          "title": "Chief Risk Officer",
+          "type": "Sale",
+          "shares": 24778.0,
+          "pricePerShare": 109.0086,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "SNEED PAULA A",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 5263.0,
+          "pricePerShare": 107.1545,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Murtagh Nigel J",
+          "title": "Chief Risk Officer",
+          "type": "Sale",
+          "shares": 1897.0,
+          "pricePerShare": 109.0016,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab-Pomerantz Carolyn",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 18561.0,
+          "pricePerShare": 107.6998,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Craig Jonathan M.",
+          "title": "MD, Head of Retail Investing",
+          "type": "Sale",
+          "shares": 21750.0,
+          "pricePerShare": 107.0231,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab Charles R.",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 47650.0,
+          "pricePerShare": 106.077,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab-Pomerantz Carolyn",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 22640.0,
+          "pricePerShare": 106.362,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab Charles R.",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 95250.0,
+          "pricePerShare": 105.5162,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab Charles R.",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 95450.0,
+          "pricePerShare": 105.8152,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Bettinger Walter W",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 42265.0,
+          "pricePerShare": 103.86,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Bettinger Walter W",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 38263.0,
+          "pricePerShare": 105.1848,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Bettinger Walter W",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 12880.0,
+          "pricePerShare": 105.5636,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Howard Dennis",
+          "title": "MD, Chief Tech, OPS & Data Off",
+          "type": "Sale",
+          "shares": 28000.0,
+          "pricePerShare": 105.0094,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab Charles R.",
+          "title": "Director, Co-Chairman",
+          "type": "Sale",
+          "shares": 48000.0,
+          "pricePerShare": 105.5964,
+          "transactionDate": "2026-07-28"
+        },
+        {
+          "ticker": "SCHW",
+          "issuerName": "SCHWAB CHARLES CORP",
+          "insiderName": "Schwab-Pomerantz Carolyn",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 22650.0,
+          "pricePerShare": 105.713,
+          "transactionDate": "2026-07-28"
+        }
+      ]
+    },
+    "LTC": {
+      "issuerName": "LTC PROPERTIES INC",
+      "trades": [
+        {
+          "ticker": "LTC",
+          "issuerName": "LTC PROPERTIES INC",
+          "insiderName": "Gruber David L",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 500.0,
+          "pricePerShare": 38.3,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "LTC",
+          "issuerName": "LTC PROPERTIES INC",
+          "insiderName": "Gruber David L",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 3500.0,
+          "pricePerShare": 38.3,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "XRN": {
+      "issuerName": "Chiron Real Estate Inc.",
+      "trades": [
+        {
+          "ticker": "XRN",
+          "issuerName": "Chiron Real Estate Inc.",
+          "insiderName": "Roseth Aaron Robert",
+          "title": "Director, COO",
+          "type": "Purchase",
+          "shares": 13500.0,
+          "pricePerShare": 36.73,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "XRN",
+          "issuerName": "Chiron Real Estate Inc.",
+          "insiderName": "Decker Mark Okey Jr",
+          "title": "Director, CEO and President",
+          "type": "Purchase",
+          "shares": 550.0,
+          "pricePerShare": 36.0,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "XRN",
+          "issuerName": "Chiron Real Estate Inc.",
+          "insiderName": "Fitzgerald Charles",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 14000.0,
+          "pricePerShare": 35.78,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "XRN",
+          "issuerName": "Chiron Real Estate Inc.",
+          "insiderName": "Decker Mark Okey Jr",
+          "title": "Director, CEO and President",
+          "type": "Purchase",
+          "shares": 6875.0,
+          "pricePerShare": 35.92,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "XRN",
+          "issuerName": "Chiron Real Estate Inc.",
+          "insiderName": "Decker Mark Okey Jr",
+          "title": "Director, CEO and President",
+          "type": "Purchase",
+          "shares": 8000.0,
+          "pricePerShare": 35.88,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "XRN",
+          "issuerName": "Chiron Real Estate Inc.",
+          "insiderName": "Fitzgerald Charles",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 27600.0,
+          "pricePerShare": 35.94,
+          "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "ARQT": {
+      "issuerName": "Arcutis Biotherapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "ARQT",
+          "issuerName": "Arcutis Biotherapeutics, Inc.",
+          "insiderName": "Burnett Patrick",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 6700.0,
+          "pricePerShare": 26.0847,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "ARQT",
+          "issuerName": "Arcutis Biotherapeutics, Inc.",
+          "insiderName": "Burnett Patrick",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 8300.0,
+          "pricePerShare": 26.5216,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "ARQT",
+          "issuerName": "Arcutis Biotherapeutics, Inc.",
+          "insiderName": "Burnett Patrick",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 955.0,
+          "pricePerShare": 26.1168,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "ARQT",
+          "issuerName": "Arcutis Biotherapeutics, Inc.",
+          "insiderName": "Matsuda Masaru",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 1230.0,
+          "pricePerShare": 26.1168,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "ARQT",
+          "issuerName": "Arcutis Biotherapeutics, Inc.",
+          "insiderName": "Watanabe Todd",
+          "title": "Director, See Remarks",
+          "type": "Sale",
+          "shares": 4375.0,
+          "pricePerShare": 26.1168,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
     "TILE": {
       "issuerName": "INTERFACE INC",
       "trades": [
@@ -35987,171 +36392,6 @@
           "shares": 8000.0,
           "pricePerShare": 68.38,
           "transactionDate": "2026-08-07"
-        }
-      ]
-    },
-    "SCHW": {
-      "issuerName": "SCHWAB CHARLES CORP",
-      "trades": [
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Schwab Charles R.",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 46445.0,
-          "pricePerShare": 107.7773,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Murtagh Nigel J",
-          "title": "Chief Risk Officer",
-          "type": "Sale",
-          "shares": 24778.0,
-          "pricePerShare": 109.0086,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "SNEED PAULA A",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 5263.0,
-          "pricePerShare": 107.1545,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Murtagh Nigel J",
-          "title": "Chief Risk Officer",
-          "type": "Sale",
-          "shares": 1897.0,
-          "pricePerShare": 109.0016,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Schwab-Pomerantz Carolyn",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 18561.0,
-          "pricePerShare": 107.6998,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Craig Jonathan M.",
-          "title": "MD, Head of Retail Investing",
-          "type": "Sale",
-          "shares": 21750.0,
-          "pricePerShare": 107.0231,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Schwab Charles R.",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 47650.0,
-          "pricePerShare": 106.077,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Schwab-Pomerantz Carolyn",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 22640.0,
-          "pricePerShare": 106.362,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Schwab Charles R.",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 95250.0,
-          "pricePerShare": 105.5162,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Schwab Charles R.",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 95450.0,
-          "pricePerShare": 105.8152,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Bettinger Walter W",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 42265.0,
-          "pricePerShare": 103.86,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Bettinger Walter W",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 38263.0,
-          "pricePerShare": 105.1848,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Bettinger Walter W",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 12880.0,
-          "pricePerShare": 105.5636,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Howard Dennis",
-          "title": "MD, Chief Tech, OPS & Data Off",
-          "type": "Sale",
-          "shares": 28000.0,
-          "pricePerShare": 105.0094,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Schwab Charles R.",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 48000.0,
-          "pricePerShare": 105.5964,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Schwab-Pomerantz Carolyn",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 22650.0,
-          "pricePerShare": 105.713,
-          "transactionDate": "2026-07-28"
         }
       ]
     },
@@ -38687,106 +38927,6 @@
           "shares": 160.0,
           "pricePerShare": 185.77,
           "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 160.0,
-          "pricePerShare": 174.7,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 880.0,
-          "pricePerShare": 175.86,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 760.0,
-          "pricePerShare": 176.8,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 640.0,
-          "pricePerShare": 178.04,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 680.0,
-          "pricePerShare": 179.04,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 360.0,
-          "pricePerShare": 179.94,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1238.0,
-          "pricePerShare": 181.34,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2762.0,
-          "pricePerShare": 182.08,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1600.0,
-          "pricePerShare": 183.24,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 920.0,
-          "pricePerShare": 183.97,
-          "transactionDate": "2026-07-28"
         }
       ]
     },
@@ -39367,51 +39507,6 @@
           "shares": 18656.0,
           "pricePerShare": 5.3699,
           "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "XRN": {
-      "issuerName": "Chiron Real Estate Inc.",
-      "trades": [
-        {
-          "ticker": "XRN",
-          "issuerName": "Chiron Real Estate Inc.",
-          "insiderName": "Decker Mark Okey Jr",
-          "title": "Director, CEO and President",
-          "type": "Purchase",
-          "shares": 550.0,
-          "pricePerShare": 36.0,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "XRN",
-          "issuerName": "Chiron Real Estate Inc.",
-          "insiderName": "Fitzgerald Charles",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 14000.0,
-          "pricePerShare": 35.78,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "XRN",
-          "issuerName": "Chiron Real Estate Inc.",
-          "insiderName": "Decker Mark Okey Jr",
-          "title": "Director, CEO and President",
-          "type": "Purchase",
-          "shares": 8000.0,
-          "pricePerShare": 35.88,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "XRN",
-          "issuerName": "Chiron Real Estate Inc.",
-          "insiderName": "Fitzgerald Charles",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 27600.0,
-          "pricePerShare": 35.94,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -41162,6 +41257,96 @@
           "shares": 20000.0,
           "pricePerShare": 10.51,
           "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "ONC": {
+      "issuerName": "BeOne Medicines Ltd.",
+      "trades": [
+        {
+          "ticker": "ONC",
+          "issuerName": "BeOne Medicines Ltd.",
+          "insiderName": "Lee Chan Henry",
+          "title": "SVP, General Counsel",
+          "type": "Sale",
+          "shares": 2666.0,
+          "pricePerShare": 360.0,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "PCOR": {
+      "issuerName": "PROCORE TECHNOLOGIES, INC.",
+      "trades": [
+        {
+          "ticker": "PCOR",
+          "issuerName": "PROCORE TECHNOLOGIES, INC.",
+          "insiderName": "Fleming William Fred Jr",
+          "title": "SVP, Corporate Controller",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 58.95,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "PCOR",
+          "issuerName": "PROCORE TECHNOLOGIES, INC.",
+          "insiderName": "Courtemanche Craig F. Jr.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 12642.0,
+          "pricePerShare": 56.54,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "PCOR",
+          "issuerName": "PROCORE TECHNOLOGIES, INC.",
+          "insiderName": "Courtemanche Craig F. Jr.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 43480.0,
+          "pricePerShare": 57.28,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "PCOR",
+          "issuerName": "PROCORE TECHNOLOGIES, INC.",
+          "insiderName": "O CONNOR KEVIN J",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 7692.0,
+          "pricePerShare": 54.98,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "PCOR",
+          "issuerName": "PROCORE TECHNOLOGIES, INC.",
+          "insiderName": "O CONNOR KEVIN J",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3287.0,
+          "pricePerShare": 53.52,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "PCOR",
+          "issuerName": "PROCORE TECHNOLOGIES, INC.",
+          "insiderName": "O CONNOR KEVIN J",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 8167.0,
+          "pricePerShare": 55.05,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "PCOR",
+          "issuerName": "PROCORE TECHNOLOGIES, INC.",
+          "insiderName": "O CONNOR KEVIN J",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3932.0,
+          "pricePerShare": 55.84,
+          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -45092,71 +45277,6 @@
           "shares": 464.0,
           "pricePerShare": 543.56,
           "transactionDate": "2026-07-31"
-        }
-      ]
-    },
-    "PCOR": {
-      "issuerName": "PROCORE TECHNOLOGIES, INC.",
-      "trades": [
-        {
-          "ticker": "PCOR",
-          "issuerName": "PROCORE TECHNOLOGIES, INC.",
-          "insiderName": "Courtemanche Craig F. Jr.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 12642.0,
-          "pricePerShare": 56.54,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "PCOR",
-          "issuerName": "PROCORE TECHNOLOGIES, INC.",
-          "insiderName": "Courtemanche Craig F. Jr.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 43480.0,
-          "pricePerShare": 57.28,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "PCOR",
-          "issuerName": "PROCORE TECHNOLOGIES, INC.",
-          "insiderName": "O CONNOR KEVIN J",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 7692.0,
-          "pricePerShare": 54.98,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "PCOR",
-          "issuerName": "PROCORE TECHNOLOGIES, INC.",
-          "insiderName": "O CONNOR KEVIN J",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3287.0,
-          "pricePerShare": 53.52,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "PCOR",
-          "issuerName": "PROCORE TECHNOLOGIES, INC.",
-          "insiderName": "O CONNOR KEVIN J",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 8167.0,
-          "pricePerShare": 55.05,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "PCOR",
-          "issuerName": "PROCORE TECHNOLOGIES, INC.",
-          "insiderName": "O CONNOR KEVIN J",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3932.0,
-          "pricePerShare": 55.84,
-          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -60530,41 +60650,6 @@
         }
       ]
     },
-    "ARQT": {
-      "issuerName": "Arcutis Biotherapeutics, Inc.",
-      "trades": [
-        {
-          "ticker": "ARQT",
-          "issuerName": "Arcutis Biotherapeutics, Inc.",
-          "insiderName": "Burnett Patrick",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 955.0,
-          "pricePerShare": 26.1168,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "ARQT",
-          "issuerName": "Arcutis Biotherapeutics, Inc.",
-          "insiderName": "Matsuda Masaru",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 1230.0,
-          "pricePerShare": 26.1168,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "ARQT",
-          "issuerName": "Arcutis Biotherapeutics, Inc.",
-          "insiderName": "Watanabe Todd",
-          "title": "Director, See Remarks",
-          "type": "Sale",
-          "shares": 4375.0,
-          "pricePerShare": 26.1168,
-          "transactionDate": "2026-08-03"
-        }
-      ]
-    },
     "EXLS": {
       "issuerName": "ExlService Holdings, Inc.",
       "trades": [
@@ -63154,76 +63239,6 @@
           "transactionDate": "2026-07-28"
         }
       ]
-    },
-    "CPRT": {
-      "issuerName": "COPART INC",
-      "trades": [
-        {
-          "ticker": "CPRT",
-          "issuerName": "COPART INC",
-          "insiderName": "Liaw Jeffrey",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 27745.0,
-          "pricePerShare": 30.49,
-          "transactionDate": "2026-07-28"
-        }
-      ]
-    },
-    "TEM": {
-      "issuerName": "Tempus AI, Inc.",
-      "trades": [
-        {
-          "ticker": "TEM",
-          "issuerName": "Tempus AI, Inc.",
-          "insiderName": "LEFKOFSKY ERIC P",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 20472.0,
-          "pricePerShare": 41.34,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "TEM",
-          "issuerName": "Tempus AI, Inc.",
-          "insiderName": "LEFKOFSKY ERIC P",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 30906.0,
-          "pricePerShare": 42.36,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "TEM",
-          "issuerName": "Tempus AI, Inc.",
-          "insiderName": "LEFKOFSKY ERIC P",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6122.0,
-          "pricePerShare": 42.95,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "TEM",
-          "issuerName": "Tempus AI, Inc.",
-          "insiderName": "LEFKOFSKY ERIC P",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 48066.0,
-          "pricePerShare": 41.34,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "TEM",
-          "issuerName": "Tempus AI, Inc.",
-          "insiderName": "LEFKOFSKY ERIC P",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 72560.0,
-          "pricePerShare": 42.36,
-          "transactionDate": "2026-07-28"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63950,6 +63965,7 @@
       "0000923738-26-000033",
       "0000923738-26-000036",
       "0000923738-26-000038",
+      "0000923738-26-000040",
       "0000925421-26-000040",
       "0000927730-26-000532",
       "0000927730-26-000533",
@@ -65354,6 +65370,8 @@
       "0001104659-26-095837",
       "0001104659-26-095843",
       "0001104659-26-096075",
+      "0001104659-26-096149",
+      "0001104659-26-096150",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -65784,6 +65802,7 @@
       "0001181664-26-000004",
       "0001181672-26-000004",
       "0001182002-26-000006",
+      "0001182684-26-000020",
       "0001183010-26-000054",
       "0001183010-26-000055",
       "0001183010-26-000056",
@@ -67544,6 +67563,10 @@
       "0001193125-26-349785",
       "0001193125-26-349810",
       "0001193125-26-349813",
+      "0001193125-26-349960",
+      "0001193125-26-349961",
+      "0001193125-26-349962",
+      "0001193125-26-349963",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -69057,6 +69080,9 @@
       "0001437749-26-027761",
       "0001437749-26-027763",
       "0001437749-26-027765",
+      "0001437749-26-027793",
+      "0001437749-26-027796",
+      "0001437749-26-027798",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001441890-26-000005",
@@ -69509,6 +69535,7 @@
       "0001493152-26-037845",
       "0001493152-26-037870",
       "0001493152-26-037893",
+      "0001493152-26-037900",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -70354,6 +70381,8 @@
       "0001628280-26-056892",
       "0001628280-26-056894",
       "0001628280-26-056895",
+      "0001628280-26-056898",
+      "0001628280-26-056903",
       "0001632531-26-000002",
       "0001633877-26-000008",
       "0001634117-26-000081",
@@ -70380,6 +70409,7 @@
       "0001641790-26-000009",
       "0001641823-26-000009",
       "0001642415-26-000010",
+      "0001644355-26-000007",
       "0001644373-26-000004",
       "0001645325-26-000008",
       "0001645372-26-000006",
@@ -70540,6 +70570,17 @@
       "0001683168-26-006215",
       "0001683168-26-006291",
       "0001683168-26-006336",
+      "0001683168-26-006353",
+      "0001683168-26-006358",
+      "0001683168-26-006360",
+      "0001683168-26-006362",
+      "0001683168-26-006364",
+      "0001683168-26-006366",
+      "0001683168-26-006368",
+      "0001683168-26-006370",
+      "0001683168-26-006372",
+      "0001683168-26-006374",
+      "0001683168-26-006377",
       "0001687898-26-000009",
       "0001688236-26-000012",
       "0001688289-26-000018",
@@ -74358,6 +74399,7 @@
       "0001979088-26-000015",
       "0001979088-26-000016",
       "0001979088-26-000017",
+      "0001980648-26-000024",
       "0001980790-26-000012",
       "0001981599-26-000117",
       "0001981599-26-000118",
@@ -74366,6 +74408,7 @@
       "0001984784-26-000020",
       "0001985704-26-000011",
       "0001986157-26-000016",
+      "0001987058-26-000003",
       "0001987126-26-000002",
       "0001987164-26-000011",
       "0001987724-26-000004",
