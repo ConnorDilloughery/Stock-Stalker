@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T13:02:35.390481+00:00",
+  "generatedAt": "2026-08-14T14:01:33.231998+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -341,6 +341,36 @@
       "type": "Purchase",
       "shares": 1500000.0,
       "pricePerShare": 4.0245,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "WGO",
+      "issuerName": "WINNEBAGO INDUSTRIES INC",
+      "insiderName": "Woodson Bret A",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2414.0,
+      "pricePerShare": 32.66,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "WGO",
+      "issuerName": "WINNEBAGO INDUSTRIES INC",
+      "insiderName": "Happe Michael J",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 12045.0,
+      "pricePerShare": 32.68,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "KARO",
+      "issuerName": "Karooooo Ltd.",
+      "insiderName": "Calisto Isaias Jose",
+      "title": "Director, CEO & Executive Chairman, 10% Owner",
+      "type": "Sale",
+      "shares": 8235.0,
+      "pricePerShare": 63.5772,
       "transactionDate": "2026-08-13"
     },
     {
@@ -1891,6 +1921,16 @@
       "type": "Sale",
       "shares": 66.0,
       "pricePerShare": 47.48,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "KARO",
+      "issuerName": "Karooooo Ltd.",
+      "insiderName": "Calisto Isaias Jose",
+      "title": "Director, CEO & Executive Chairman, 10% Owner",
+      "type": "Sale",
+      "shares": 2158.0,
+      "pricePerShare": 63.0475,
       "transactionDate": "2026-08-12"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 931.0,
       "pricePerShare": 254.0705,
       "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Chapman Steven Leonard",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 3580.0,
-      "pricePerShare": 254.0704,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Brophy Michael Burkes",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1241.0,
-      "pricePerShare": 254.0705,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Brophy Michael Burkes",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1008.0,
-      "pricePerShare": 253.7672,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Brophy Michael Burkes",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 170.0,
-      "pricePerShare": 254.3338,
-      "transactionDate": "2026-07-28"
     }
   ],
   "byTicker": {
@@ -31067,6 +31067,166 @@
           "shares": 1390.0,
           "pricePerShare": 71.92,
           "transactionDate": "2026-08-13"
+        }
+      ]
+    },
+    "WGO": {
+      "issuerName": "WINNEBAGO INDUSTRIES INC",
+      "trades": [
+        {
+          "ticker": "WGO",
+          "issuerName": "WINNEBAGO INDUSTRIES INC",
+          "insiderName": "Woodson Bret A",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2414.0,
+          "pricePerShare": 32.66,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "WGO",
+          "issuerName": "WINNEBAGO INDUSTRIES INC",
+          "insiderName": "Happe Michael J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 12045.0,
+          "pricePerShare": 32.68,
+          "transactionDate": "2026-08-13"
+        }
+      ]
+    },
+    "KARO": {
+      "issuerName": "Karooooo Ltd.",
+      "trades": [
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 8235.0,
+          "pricePerShare": 63.5772,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 2158.0,
+          "pricePerShare": 63.0475,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 242.0,
+          "pricePerShare": 63.005,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 22549.0,
+          "pricePerShare": 63.2457,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&EC, 10% Owner",
+          "type": "Sale",
+          "shares": 12430.0,
+          "pricePerShare": 64.478,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&EC, 10% Owner",
+          "type": "Sale",
+          "shares": 18849.0,
+          "pricePerShare": 63.2888,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 33833.0,
+          "pricePerShare": 66.1396,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 25594.0,
+          "pricePerShare": 64.6035,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 20417.0,
+          "pricePerShare": 64.5101,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 25452.0,
+          "pricePerShare": 64.6496,
+          "transactionDate": "2026-07-31"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 18630.0,
+          "pricePerShare": 63.4706,
+          "transactionDate": "2026-07-30"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 31897.0,
+          "pricePerShare": 64.4327,
+          "transactionDate": "2026-07-29"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 22036.0,
+          "pricePerShare": 64.1878,
+          "transactionDate": "2026-07-28"
         }
       ]
     },
@@ -36656,121 +36816,6 @@
           "type": "Sale",
           "shares": 208731.0,
           "pricePerShare": 8.09,
-          "transactionDate": "2026-07-28"
-        }
-      ]
-    },
-    "KARO": {
-      "issuerName": "Karooooo Ltd.",
-      "trades": [
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 242.0,
-          "pricePerShare": 63.005,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 22549.0,
-          "pricePerShare": 63.2457,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO&EC, 10% Owner",
-          "type": "Sale",
-          "shares": 12430.0,
-          "pricePerShare": 64.478,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO&EC, 10% Owner",
-          "type": "Sale",
-          "shares": 18849.0,
-          "pricePerShare": 63.2888,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO&Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 33833.0,
-          "pricePerShare": 66.1396,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO&Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 25594.0,
-          "pricePerShare": 64.6035,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 20417.0,
-          "pricePerShare": 64.5101,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 25452.0,
-          "pricePerShare": 64.6496,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 18630.0,
-          "pricePerShare": 63.4706,
-          "transactionDate": "2026-07-30"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 31897.0,
-          "pricePerShare": 64.4327,
-          "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 22036.0,
-          "pricePerShare": 64.1878,
           "transactionDate": "2026-07-28"
         }
       ]
@@ -46466,46 +46511,6 @@
           "type": "Sale",
           "shares": 931.0,
           "pricePerShare": 254.0705,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Chapman Steven Leonard",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3580.0,
-          "pricePerShare": 254.0704,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Brophy Michael Burkes",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1241.0,
-          "pricePerShare": 254.0705,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Brophy Michael Burkes",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1008.0,
-          "pricePerShare": 253.7672,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Brophy Michael Burkes",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 170.0,
-          "pricePerShare": 254.3338,
           "transactionDate": "2026-07-28"
         }
       ]
@@ -63395,6 +63400,11 @@
       "0000070502-26-000513",
       "0000070502-26-000519",
       "0000070502-26-000521",
+      "0000070502-26-000523",
+      "0000070502-26-000525",
+      "0000070502-26-000527",
+      "0000070502-26-000529",
+      "0000070502-26-000531",
       "0000070858-26-000359",
       "0000070858-26-000368",
       "0000070858-26-000409",
@@ -63700,6 +63710,7 @@
       "0000874238-26-000105",
       "0000874716-26-000117",
       "0000881453-26-000084",
+      "0000881453-26-000102",
       "0000884546-26-000386",
       "0000884546-26-000388",
       "0000884546-26-000390",
@@ -65377,6 +65388,7 @@
       "0001104659-26-096197",
       "0001104659-26-096298",
       "0001104659-26-096504",
+      "0001104659-26-096560",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -65476,6 +65488,7 @@
       "0001137360-26-000739",
       "0001137360-26-000745",
       "0001137360-26-000748",
+      "0001140019-26-000099",
       "0001140361-26-028844",
       "0001140361-26-028846",
       "0001140361-26-028877",
@@ -67590,6 +67603,8 @@
       "0001193125-26-350635",
       "0001193125-26-350640",
       "0001193125-26-350686",
+      "0001193125-26-350734",
+      "0001193125-26-350794",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -67633,6 +67648,10 @@
       "0001209874-26-000004",
       "0001209992-26-000046",
       "0001210033-26-000009",
+      "0001211558-26-000012",
+      "0001211558-26-000014",
+      "0001211558-26-000016",
+      "0001211558-26-000018",
       "0001212774-26-000004",
       "0001213051-26-000010",
       "0001213272-26-000017",
@@ -68312,6 +68331,7 @@
       "0001213900-26-089480",
       "0001213900-26-089484",
       "0001213900-26-089488",
+      "0001213900-26-089498",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -68760,6 +68780,7 @@
       "0001379357-26-000008",
       "0001380659-26-000014",
       "0001381197-26-000140",
+      "0001382452-26-000002",
       "0001385325-26-000002",
       "0001385613-26-000100",
       "0001385613-26-000103",
@@ -68869,6 +68890,16 @@
       "0001398344-26-014457",
       "0001398344-26-014460",
       "0001398344-26-014475",
+      "0001398344-26-014476",
+      "0001398344-26-014477",
+      "0001398344-26-014497",
+      "0001398344-26-014498",
+      "0001398344-26-014500",
+      "0001398344-26-014501",
+      "0001398344-26-014504",
+      "0001398344-26-014507",
+      "0001398344-26-014508",
+      "0001398344-26-014513",
       "0001399967-26-000002",
       "0001401336-26-000020",
       "0001402348-26-000016",
@@ -69258,6 +69289,11 @@
       "0001445546-26-006005",
       "0001445546-26-006011",
       "0001445546-26-006012",
+      "0001445546-26-006015",
+      "0001445546-26-006016",
+      "0001445546-26-006017",
+      "0001445546-26-006018",
+      "0001445546-26-006019",
       "0001448765-26-000011",
       "0001450800-26-000006",
       "0001451455-26-000009",
@@ -69732,6 +69768,7 @@
       "0001528621-26-000829",
       "0001528621-26-000831",
       "0001528621-26-000832",
+      "0001528621-26-000833",
       "0001530038-26-000002",
       "0001530255-26-000010",
       "0001530819-26-000012",
@@ -69915,6 +69952,8 @@
       "0001580642-26-005210",
       "0001580642-26-005218",
       "0001580642-26-005259",
+      "0001580642-26-005278",
+      "0001580642-26-005282",
       "0001581754-26-000006",
       "0001582328-26-000007",
       "0001582328-26-000010",
@@ -70440,6 +70479,7 @@
       "0001628280-26-056928",
       "0001628280-26-056939",
       "0001628280-26-056941",
+      "0001630196-26-000002",
       "0001632531-26-000002",
       "0001633877-26-000008",
       "0001634117-26-000081",
@@ -70565,6 +70605,9 @@
       "0001662210-26-000011",
       "0001662962-26-000002",
       "0001663095-26-000005",
+      "0001663307-26-000010",
+      "0001663307-26-000012",
+      "0001663307-26-000014",
       "0001663507-26-000010",
       "0001663507-26-000012",
       "0001663577-26-000238",
@@ -71042,6 +71085,8 @@
       "0001821268-26-000113",
       "0001821268-26-000115",
       "0001821737-26-000010",
+      "0001822928-26-000074",
+      "0001822928-26-000075",
       "0001823013-26-000006",
       "0001823573-26-000002",
       "0001823608-26-000180",
@@ -74342,6 +74387,15 @@
       "0001918704-26-023738",
       "0001918704-26-023744",
       "0001918704-26-023753",
+      "0001918704-26-023754",
+      "0001918704-26-023755",
+      "0001918704-26-023756",
+      "0001918704-26-023757",
+      "0001918704-26-023758",
+      "0001918704-26-023759",
+      "0001918704-26-023760",
+      "0001918704-26-023761",
+      "0001918704-26-023762",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -74766,6 +74820,7 @@
       "0001999371-26-017877",
       "0001999371-26-017913",
       "0001999371-26-017915",
+      "0001999371-26-017921",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
