@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T12:01:58.677436+00:00",
+  "generatedAt": "2026-08-14T13:02:35.390481+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -321,6 +321,26 @@
       "type": "Purchase",
       "shares": 125000.0,
       "pricePerShare": 4.0131,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "CMC",
+      "issuerName": "COMMERCIAL METALS Co",
+      "insiderName": "McPherson John R",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1390.0,
+      "pricePerShare": 71.92,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "BORR",
+      "issuerName": "Borr Drilling Ltd",
+      "insiderName": "Troim Tor Olav",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1500000.0,
+      "pricePerShare": 4.0245,
       "transactionDate": "2026-08-13"
     },
     {
@@ -1831,6 +1851,46 @@
       "type": "Purchase",
       "shares": 10000.0,
       "pricePerShare": 52.16,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "VVV",
+      "issuerName": "VALVOLINE INC",
+      "insiderName": "Denny Jordan M.",
+      "title": "Chief Accounting Officer",
+      "type": "Purchase",
+      "shares": 1506.0,
+      "pricePerShare": 33.2,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "BHRB",
+      "issuerName": "Burke & Herbert Financial Services Corp.",
+      "insiderName": "Poillon Diane",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1200.0,
+      "pricePerShare": 73.6651,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "CYD",
+      "issuerName": "CHINA YUCHAI INTERNATIONAL LTD",
+      "insiderName": "Loo Choon Sen",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 13134.0,
+      "pricePerShare": 46.9494,
+      "transactionDate": "2026-08-12"
+    },
+    {
+      "ticker": "CYD",
+      "issuerName": "CHINA YUCHAI INTERNATIONAL LTD",
+      "insiderName": "Loo Choon Sen",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 66.0,
+      "pricePerShare": 47.48,
       "transactionDate": "2026-08-12"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 170.0,
       "pricePerShare": 254.3338,
       "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "TSM",
-      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "insiderName": "Tien Bor-Zen",
-      "title": "VP",
-      "type": "Purchase",
-      "shares": 10.0,
-      "pricePerShare": 390.0,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "TSM",
-      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "insiderName": "Tien Bor-Zen",
-      "title": "VP",
-      "type": "Purchase",
-      "shares": 5.0,
-      "pricePerShare": 390.0,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "TSM",
-      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "insiderName": "Tien Bor-Zen",
-      "title": "VP",
-      "type": "Purchase",
-      "shares": 1000.0,
-      "pricePerShare": 67.97,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 4350.0,
-      "pricePerShare": 103.52,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 6928.0,
-      "pricePerShare": 104.38,
-      "transactionDate": "2026-07-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 5539.0,
-      "pricePerShare": 105.35,
-      "transactionDate": "2026-07-28"
     }
   ],
   "byTicker": {
@@ -31041,6 +31041,31 @@
           "type": "Purchase",
           "shares": 125000.0,
           "pricePerShare": 4.0131,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Troim Tor Olav",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1500000.0,
+          "pricePerShare": 4.0245,
+          "transactionDate": "2026-08-13"
+        }
+      ]
+    },
+    "CMC": {
+      "issuerName": "COMMERCIAL METALS Co",
+      "trades": [
+        {
+          "ticker": "CMC",
+          "issuerName": "COMMERCIAL METALS Co",
+          "insiderName": "McPherson John R",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1390.0,
+          "pricePerShare": 71.92,
           "transactionDate": "2026-08-13"
         }
       ]
@@ -33002,36 +33027,6 @@
           "shares": 455.0,
           "pricePerShare": 109.83,
           "transactionDate": "2026-07-29"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4350.0,
-          "pricePerShare": 103.52,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6928.0,
-          "pricePerShare": 104.38,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5539.0,
-          "pricePerShare": 105.35,
-          "transactionDate": "2026-07-28"
         }
       ]
     },
@@ -35785,6 +35780,91 @@
         }
       ]
     },
+    "VVV": {
+      "issuerName": "VALVOLINE INC",
+      "trades": [
+        {
+          "ticker": "VVV",
+          "issuerName": "VALVOLINE INC",
+          "insiderName": "Denny Jordan M.",
+          "title": "Chief Accounting Officer",
+          "type": "Purchase",
+          "shares": 1506.0,
+          "pricePerShare": 33.2,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "BHRB": {
+      "issuerName": "Burke & Herbert Financial Services Corp.",
+      "trades": [
+        {
+          "ticker": "BHRB",
+          "issuerName": "Burke & Herbert Financial Services Corp.",
+          "insiderName": "Poillon Diane",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1200.0,
+          "pricePerShare": 73.6651,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "BHRB",
+          "issuerName": "Burke & Herbert Financial Services Corp.",
+          "insiderName": "Burke James Mason",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 73.025,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "BHRB",
+          "issuerName": "Burke & Herbert Financial Services Corp.",
+          "insiderName": "McLaughlin Shawn Patrick",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 73.25,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "BHRB",
+          "issuerName": "Burke & Herbert Financial Services Corp.",
+          "insiderName": "WILSON DAVID",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 100.0,
+          "pricePerShare": 73.68,
+          "transactionDate": "2026-07-31"
+        }
+      ]
+    },
+    "CYD": {
+      "issuerName": "CHINA YUCHAI INTERNATIONAL LTD",
+      "trades": [
+        {
+          "ticker": "CYD",
+          "issuerName": "CHINA YUCHAI INTERNATIONAL LTD",
+          "insiderName": "Loo Choon Sen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 13134.0,
+          "pricePerShare": 46.9494,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "CYD",
+          "issuerName": "CHINA YUCHAI INTERNATIONAL LTD",
+          "insiderName": "Loo Choon Sen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 66.0,
+          "pricePerShare": 47.48,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
     "TILE": {
       "issuerName": "INTERFACE INC",
       "trades": [
@@ -37257,41 +37337,6 @@
           "shares": 17730.0,
           "pricePerShare": 14.0032,
           "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "BHRB": {
-      "issuerName": "Burke & Herbert Financial Services Corp.",
-      "trades": [
-        {
-          "ticker": "BHRB",
-          "issuerName": "Burke & Herbert Financial Services Corp.",
-          "insiderName": "Burke James Mason",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1500.0,
-          "pricePerShare": 73.025,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "BHRB",
-          "issuerName": "Burke & Herbert Financial Services Corp.",
-          "insiderName": "McLaughlin Shawn Patrick",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 73.25,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "BHRB",
-          "issuerName": "Burke & Herbert Financial Services Corp.",
-          "insiderName": "WILSON DAVID",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 100.0,
-          "pricePerShare": 73.68,
-          "transactionDate": "2026-07-31"
         }
       ]
     },
@@ -46842,36 +46887,6 @@
           "shares": 1000.0,
           "pricePerShare": 73.06,
           "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Tien Bor-Zen",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 10.0,
-          "pricePerShare": 390.0,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Tien Bor-Zen",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 5.0,
-          "pricePerShare": 390.0,
-          "transactionDate": "2026-07-28"
-        },
-        {
-          "ticker": "TSM",
-          "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "insiderName": "Tien Bor-Zen",
-          "title": "VP",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 67.97,
-          "transactionDate": "2026-07-28"
         }
       ]
     },
@@ -63678,6 +63693,7 @@
       "0000836906-26-000362",
       "0000836982-26-000018",
       "0000837276-26-000080",
+      "0000837276-26-000095",
       "0000851520-26-000094",
       "0000857490-26-000485",
       "0000862084-26-000116",
@@ -64616,6 +64632,9 @@
       "0000950103-26-012360",
       "0000950103-26-012363",
       "0000950103-26-012369",
+      "0000950103-26-012376",
+      "0000950103-26-012377",
+      "0000950103-26-012378",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65357,6 +65376,7 @@
       "0001104659-26-096150",
       "0001104659-26-096197",
       "0001104659-26-096298",
+      "0001104659-26-096504",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -67561,6 +67581,15 @@
       "0001193125-26-350217",
       "0001193125-26-350218",
       "0001193125-26-350422",
+      "0001193125-26-350523",
+      "0001193125-26-350527",
+      "0001193125-26-350539",
+      "0001193125-26-350543",
+      "0001193125-26-350574",
+      "0001193125-26-350576",
+      "0001193125-26-350635",
+      "0001193125-26-350640",
+      "0001193125-26-350686",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -68280,6 +68309,9 @@
       "0001213900-26-089375",
       "0001213900-26-089395",
       "0001213900-26-089449",
+      "0001213900-26-089480",
+      "0001213900-26-089484",
+      "0001213900-26-089488",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -68822,6 +68854,21 @@
       "0001398344-26-014307",
       "0001398344-26-014388",
       "0001398344-26-014389",
+      "0001398344-26-014431",
+      "0001398344-26-014433",
+      "0001398344-26-014435",
+      "0001398344-26-014437",
+      "0001398344-26-014440",
+      "0001398344-26-014441",
+      "0001398344-26-014443",
+      "0001398344-26-014446",
+      "0001398344-26-014450",
+      "0001398344-26-014451",
+      "0001398344-26-014452",
+      "0001398344-26-014455",
+      "0001398344-26-014457",
+      "0001398344-26-014460",
+      "0001398344-26-014475",
       "0001399967-26-000002",
       "0001401336-26-000020",
       "0001402348-26-000016",
@@ -69633,6 +69680,9 @@
       "0001527541-26-000274",
       "0001527541-26-000277",
       "0001527541-26-000279",
+      "0001527541-26-000283",
+      "0001527541-26-000285",
+      "0001527541-26-000287",
       "0001528621-26-000727",
       "0001528621-26-000729",
       "0001528621-26-000762",
@@ -69685,6 +69735,7 @@
       "0001530038-26-000002",
       "0001530255-26-000010",
       "0001530819-26-000012",
+      "0001531183-26-000018",
       "0001531352-26-000009",
       "0001532388-26-000004",
       "0001532431-26-000014",
@@ -70387,6 +70438,8 @@
       "0001628280-26-056898",
       "0001628280-26-056903",
       "0001628280-26-056928",
+      "0001628280-26-056939",
+      "0001628280-26-056941",
       "0001632531-26-000002",
       "0001633877-26-000008",
       "0001634117-26-000081",
@@ -74321,6 +74374,7 @@
       "0001941739-26-000006",
       "0001944970-26-000021",
       "0001944970-26-000023",
+      "0001945031-26-000013",
       "0001945691-26-000008",
       "0001946684-26-000013",
       "0001949911-26-000014",
@@ -74710,6 +74764,8 @@
       "0001999371-26-017779",
       "0001999371-26-017822",
       "0001999371-26-017877",
+      "0001999371-26-017913",
+      "0001999371-26-017915",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
@@ -74989,6 +75045,8 @@
       "0002114888-26-000013",
       "0002114987-26-000002",
       "0002116333-26-000001",
+      "0002120008-26-000006",
+      "0002120298-26-000002",
       "0002120714-26-000004",
       "0002120865-26-000007",
       "0002121472-26-000003",
