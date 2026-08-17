@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:05:44.550983+00:00",
+  "generatedAt": "2026-08-17T14:02:07.297257+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -1071,6 +1071,66 @@
       "type": "Purchase",
       "shares": 65000.0,
       "pricePerShare": 30.6737,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "NTB",
+      "issuerName": "Bank of N.T. Butterfield & Son Ltd",
+      "insiderName": "Neff Michael Walter",
+      "title": "Chief Operating Officer",
+      "type": "Sale",
+      "shares": 5500.0,
+      "pricePerShare": 63.6592,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "NRGV",
+      "issuerName": "Energy Vault Holdings, Inc.",
+      "insiderName": "Hixon Dylan",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 26845.0,
+      "pricePerShare": 3.733,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "NRGV",
+      "issuerName": "Energy Vault Holdings, Inc.",
+      "insiderName": "Hixon Dylan",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 26809.0,
+      "pricePerShare": 3.733,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "NRGV",
+      "issuerName": "Energy Vault Holdings, Inc.",
+      "insiderName": "Hixon Dylan",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 31864.0,
+      "pricePerShare": 3.75,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "WLFC",
+      "issuerName": "WILLIS LEASE FINANCE CORP",
+      "insiderName": "Dameron Clifton",
+      "title": "SVP, GC & Corporate Secretary",
+      "type": "Sale",
+      "shares": 3535.0,
+      "pricePerShare": 56.83,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "CTBI",
+      "issuerName": "COMMUNITY TRUST BANCORP INC /KY/",
+      "insiderName": "MINNIFIELD FRANKY",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 3900.0,
+      "pricePerShare": 78.8543,
       "transactionDate": "2026-08-14"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 8759.0,
       "pricePerShare": 22.6054,
       "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "KMTS",
-      "issuerName": "KESTRA MEDICAL TECHNOLOGIES, LTD.",
-      "insiderName": "Ford Alfred J Jr",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 8681.0,
-      "pricePerShare": 22.6108,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "KMTS",
-      "issuerName": "KESTRA MEDICAL TECHNOLOGIES, LTD.",
-      "insiderName": "Mahboob Vaseem",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 8817.0,
-      "pricePerShare": 22.6091,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "KMTS",
-      "issuerName": "KESTRA MEDICAL TECHNOLOGIES, LTD.",
-      "insiderName": "Umberger Traci S",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 8752.0,
-      "pricePerShare": 22.6048,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "KMTS",
-      "issuerName": "KESTRA MEDICAL TECHNOLOGIES, LTD.",
-      "insiderName": "Webster Brian Daniel",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 8948.0,
-      "pricePerShare": 22.6039,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "SGHC",
-      "issuerName": "Super Group (SGHC) Ltd",
-      "insiderName": "Van Wyk Alinda",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 22644.0,
-      "pricePerShare": 13.97,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "SGHC",
-      "issuerName": "Super Group (SGHC) Ltd",
-      "insiderName": "Menashe Neal",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 48440.0,
-      "pricePerShare": 13.97,
-      "transactionDate": "2026-07-31"
     }
   ],
   "byTicker": {
@@ -35296,6 +35296,86 @@
           "type": "Purchase",
           "shares": 65000.0,
           "pricePerShare": 30.6737,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "NTB": {
+      "issuerName": "Bank of N.T. Butterfield & Son Ltd",
+      "trades": [
+        {
+          "ticker": "NTB",
+          "issuerName": "Bank of N.T. Butterfield & Son Ltd",
+          "insiderName": "Neff Michael Walter",
+          "title": "Chief Operating Officer",
+          "type": "Sale",
+          "shares": 5500.0,
+          "pricePerShare": 63.6592,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "NRGV": {
+      "issuerName": "Energy Vault Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "NRGV",
+          "issuerName": "Energy Vault Holdings, Inc.",
+          "insiderName": "Hixon Dylan",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 26845.0,
+          "pricePerShare": 3.733,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "NRGV",
+          "issuerName": "Energy Vault Holdings, Inc.",
+          "insiderName": "Hixon Dylan",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 26809.0,
+          "pricePerShare": 3.733,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "NRGV",
+          "issuerName": "Energy Vault Holdings, Inc.",
+          "insiderName": "Hixon Dylan",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 31864.0,
+          "pricePerShare": 3.75,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "WLFC": {
+      "issuerName": "WILLIS LEASE FINANCE CORP",
+      "trades": [
+        {
+          "ticker": "WLFC",
+          "issuerName": "WILLIS LEASE FINANCE CORP",
+          "insiderName": "Dameron Clifton",
+          "title": "SVP, GC & Corporate Secretary",
+          "type": "Sale",
+          "shares": 3535.0,
+          "pricePerShare": 56.83,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "CTBI": {
+      "issuerName": "COMMUNITY TRUST BANCORP INC /KY/",
+      "trades": [
+        {
+          "ticker": "CTBI",
+          "issuerName": "COMMUNITY TRUST BANCORP INC /KY/",
+          "insiderName": "MINNIFIELD FRANKY",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3900.0,
+          "pricePerShare": 78.8543,
           "transactionDate": "2026-08-14"
         }
       ]
@@ -53347,46 +53427,6 @@
           "shares": 8759.0,
           "pricePerShare": 22.6054,
           "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "KMTS",
-          "issuerName": "KESTRA MEDICAL TECHNOLOGIES, LTD.",
-          "insiderName": "Ford Alfred J Jr",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 8681.0,
-          "pricePerShare": 22.6108,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "KMTS",
-          "issuerName": "KESTRA MEDICAL TECHNOLOGIES, LTD.",
-          "insiderName": "Mahboob Vaseem",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 8817.0,
-          "pricePerShare": 22.6091,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "KMTS",
-          "issuerName": "KESTRA MEDICAL TECHNOLOGIES, LTD.",
-          "insiderName": "Umberger Traci S",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 8752.0,
-          "pricePerShare": 22.6048,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "KMTS",
-          "issuerName": "KESTRA MEDICAL TECHNOLOGIES, LTD.",
-          "insiderName": "Webster Brian Daniel",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 8948.0,
-          "pricePerShare": 22.6039,
-          "transactionDate": "2026-07-31"
         }
       ]
     },
@@ -63159,31 +63199,6 @@
           "transactionDate": "2026-07-31"
         }
       ]
-    },
-    "SGHC": {
-      "issuerName": "Super Group (SGHC) Ltd",
-      "trades": [
-        {
-          "ticker": "SGHC",
-          "issuerName": "Super Group (SGHC) Ltd",
-          "insiderName": "Van Wyk Alinda",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 22644.0,
-          "pricePerShare": 13.97,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "SGHC",
-          "issuerName": "Super Group (SGHC) Ltd",
-          "insiderName": "Menashe Neal",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 48440.0,
-          "pricePerShare": 13.97,
-          "transactionDate": "2026-07-31"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63528,6 +63543,7 @@
       "0000320335-26-000210",
       "0000320351-26-000369",
       "0000320351-26-000370",
+      "0000350852-26-000068",
       "0000354190-26-000187",
       "0000354647-26-000112",
       "0000356171-26-000106",
@@ -63641,6 +63657,7 @@
       "0000726865-26-000866",
       "0000726865-26-000867",
       "0000726865-26-000868",
+      "0000726865-26-000870",
       "0000730708-26-000120",
       "0000730708-26-000122",
       "0000730708-26-000124",
@@ -65528,6 +65545,8 @@
       "0001104659-26-097582",
       "0001104659-26-097591",
       "0001104659-26-097593",
+      "0001104659-26-097606",
+      "0001104659-26-097620",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -65897,6 +65916,7 @@
       "0001140361-26-033105",
       "0001140361-26-033118",
       "0001140361-26-033181",
+      "0001140361-26-033285",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -67834,6 +67854,11 @@
       "0001193125-26-353300",
       "0001193125-26-353301",
       "0001193125-26-353306",
+      "0001193125-26-353352",
+      "0001193125-26-353353",
+      "0001193125-26-353360",
+      "0001193125-26-353370",
+      "0001193125-26-353376",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -68895,7 +68920,10 @@
       "0001235321-26-000002",
       "0001235499-26-000008",
       "0001235502-26-000006",
+      "0001236030-26-000007",
+      "0001236215-26-000004",
       "0001237678-26-000010",
+      "0001238028-26-000004",
       "0001238040-26-000005",
       "0001238317-26-000004",
       "0001238705-26-000007",
@@ -68950,6 +68978,7 @@
       "0001278521-26-000011",
       "0001278866-26-000003",
       "0001280628-26-000014",
+      "0001282304-26-000001",
       "0001282930-26-000004",
       "0001282930-26-000008",
       "0001284309-26-000021",
@@ -69493,6 +69522,7 @@
       "0001437749-26-028036",
       "0001437749-26-028037",
       "0001437749-26-028078",
+      "0001437749-26-028122",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001441890-26-000005",
@@ -69640,6 +69670,10 @@
       "0001445546-26-006051",
       "0001445546-26-006053",
       "0001445546-26-006055",
+      "0001445546-26-006074",
+      "0001445546-26-006075",
+      "0001445546-26-006076",
+      "0001445546-26-006077",
       "0001448765-26-000011",
       "0001450800-26-000006",
       "0001451455-26-000009",
@@ -69984,6 +70018,7 @@
       "0001493152-26-038620",
       "0001493152-26-038641",
       "0001493152-26-038646",
+      "0001493152-26-038660",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -70049,6 +70084,7 @@
       "0001511110-26-000008",
       "0001511110-26-000010",
       "0001511194-26-000012",
+      "0001511858-26-000001",
       "0001512785-26-000012",
       "0001512863-26-000008",
       "0001513723-26-000008",
@@ -70250,6 +70286,7 @@
       "0001569789-26-000012",
       "0001569880-26-000012",
       "0001571610-26-000013",
+      "0001572661-26-000098",
       "0001573298-26-000022",
       "0001573338-26-000013",
       "0001573461-26-000004",
@@ -70891,6 +70928,10 @@
       "0001628280-26-057235",
       "0001628280-26-057239",
       "0001628280-26-057242",
+      "0001628280-26-057250",
+      "0001628280-26-057252",
+      "0001628280-26-057253",
+      "0001628280-26-057254",
       "0001629911-26-000006",
       "0001630196-26-000002",
       "0001632531-26-000002",
@@ -70933,6 +70974,7 @@
       "0001646649-26-000028",
       "0001646649-26-000029",
       "0001646649-26-000030",
+      "0001646989-26-000001",
       "0001647445-26-000008",
       "0001649599-26-000009",
       "0001649599-26-000012",
@@ -70960,6 +71002,7 @@
       "0001653242-26-000065",
       "0001653242-26-000078",
       "0001653242-26-000079",
+      "0001653242-26-000085",
       "0001653477-26-000041",
       "0001653558-26-000110",
       "0001653558-26-000112",
@@ -71555,6 +71598,7 @@
       "0001826853-26-000019",
       "0001828057-26-000012",
       "0001828057-26-000014",
+      "0001828536-26-000103",
       "0001828859-26-000007",
       "0001828972-26-000114",
       "0001828972-26-000115",
@@ -73094,6 +73138,9 @@
       "0001839882-26-040074",
       "0001839882-26-040075",
       "0001839882-26-040076",
+      "0001839882-26-040108",
+      "0001839882-26-040114",
+      "0001839882-26-040115",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -74970,6 +75017,10 @@
       "0001918704-26-023829",
       "0001918704-26-023833",
       "0001918704-26-023834",
+      "0001918704-26-023835",
+      "0001918704-26-023836",
+      "0001918704-26-023837",
+      "0001918704-26-023838",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -75410,6 +75461,7 @@
       "0001999371-26-017997",
       "0001999371-26-017999",
       "0001999371-26-018050",
+      "0001999371-26-018055",
       "0001999525-26-000002",
       "0002000276-26-000006",
       "0002000358-26-000016",
@@ -75574,6 +75626,7 @@
       "0002069377-26-000002",
       "0002069860-26-000010",
       "0002070264-26-000008",
+      "0002070403-26-000013",
       "0002070849-26-000044",
       "0002070849-26-000052",
       "0002070849-26-000058",
