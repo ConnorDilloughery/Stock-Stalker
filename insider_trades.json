@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T11:04:08.526194+00:00",
+  "generatedAt": "2026-08-17T12:00:38.482825+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -961,6 +961,36 @@
       "type": "Purchase",
       "shares": 5000.0,
       "pricePerShare": 4.75,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "RICK",
+      "issuerName": "RCI HOSPITALITY HOLDINGS, INC.",
+      "insiderName": "LANGAN ERIC SCOTT",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1630.0,
+      "pricePerShare": 30.8,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "REZI",
+      "issuerName": "RESIDEO TECHNOLOGIES, INC.",
+      "insiderName": "SURRAN THOMAS A",
+      "title": "Director, President and CEO",
+      "type": "Purchase",
+      "shares": 15000.0,
+      "pricePerShare": 20.46,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "BORR",
+      "issuerName": "Borr Drilling Ltd",
+      "insiderName": "Troim Tor Olav",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 500000.0,
+      "pricePerShare": 4.3868,
       "transactionDate": "2026-08-14"
     },
     {
@@ -3031,6 +3061,36 @@
       "type": "Purchase",
       "shares": 320000.0,
       "pricePerShare": 3.75,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "CAMT",
+      "issuerName": "CAMTEK LTD",
+      "insiderName": "Langer Ram",
+      "title": "Chief Operating Officer",
+      "type": "Sale",
+      "shares": 6387.0,
+      "pricePerShare": 172.3222,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "BRLT",
+      "issuerName": "Brilliant Earth Group, Inc.",
+      "insiderName": "Kuo Jeffrey Chuenhong",
+      "title": "Chief Financial Officer",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 1.36,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "CAMT",
+      "issuerName": "CAMTEK LTD",
+      "insiderName": "AMIT RAFI",
+      "title": "Chief Executive Officer",
+      "type": "Sale",
+      "shares": 6250.0,
+      "pricePerShare": 170.52,
       "transactionDate": "2026-08-13"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 13280.0,
       "pricePerShare": 51.8538,
       "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "CLB",
-      "issuerName": "Core Laboratories Inc. /DE/",
-      "insiderName": "Bruno Lawrence",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 5000.0,
-      "pricePerShare": 10.78,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "DRI",
-      "issuerName": "DARDEN RESTAURANTS INC",
-      "insiderName": "Williamson Laura B",
-      "title": "President, LongHorn Steakhouse",
-      "type": "Sale",
-      "shares": 1110.0,
-      "pricePerShare": 204.3172,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "DRI",
-      "issuerName": "DARDEN RESTAURANTS INC",
-      "insiderName": "Williamson Laura B",
-      "title": "President, LongHorn Steakhouse",
-      "type": "Sale",
-      "shares": 443.0,
-      "pricePerShare": 204.8946,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "BWFG",
-      "issuerName": "Bankwell Financial Group, Inc.",
-      "insiderName": "Hildebrand Ryan Jason",
-      "title": "Chief Innovation Officer",
-      "type": "Sale",
-      "shares": 2246.0,
-      "pricePerShare": 66.74,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "PSMT",
-      "issuerName": "PRICESMART INC",
-      "insiderName": "Bahrambeygui Sherry S.",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 200.0,
-      "pricePerShare": 194.4,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "PSMT",
-      "issuerName": "PRICESMART INC",
-      "insiderName": "Bahrambeygui Sherry S.",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 800.0,
-      "pricePerShare": 194.469,
-      "transactionDate": "2026-07-31"
     }
   ],
   "byTicker": {
@@ -34960,6 +34960,81 @@
         }
       ]
     },
+    "RICK": {
+      "issuerName": "RCI HOSPITALITY HOLDINGS, INC.",
+      "trades": [
+        {
+          "ticker": "RICK",
+          "issuerName": "RCI HOSPITALITY HOLDINGS, INC.",
+          "insiderName": "LANGAN ERIC SCOTT",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1630.0,
+          "pricePerShare": 30.8,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "RICK",
+          "issuerName": "RCI HOSPITALITY HOLDINGS, INC.",
+          "insiderName": "Barabash Yura V",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 888.0,
+          "pricePerShare": 27.2899,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "REZI": {
+      "issuerName": "RESIDEO TECHNOLOGIES, INC.",
+      "trades": [
+        {
+          "ticker": "REZI",
+          "issuerName": "RESIDEO TECHNOLOGIES, INC.",
+          "insiderName": "SURRAN THOMAS A",
+          "title": "Director, President and CEO",
+          "type": "Purchase",
+          "shares": 15000.0,
+          "pricePerShare": 20.46,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "BORR": {
+      "issuerName": "Borr Drilling Ltd",
+      "trades": [
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Troim Tor Olav",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 500000.0,
+          "pricePerShare": 4.3868,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Currie Jeffrey",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 125000.0,
+          "pricePerShare": 4.0131,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Troim Tor Olav",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1500000.0,
+          "pricePerShare": 4.0245,
+          "transactionDate": "2026-08-13"
+        }
+      ]
+    },
     "BANF": {
       "issuerName": "BANCFIRST CORP /OK/",
       "trades": [
@@ -35852,31 +35927,6 @@
           "shares": 3130.0,
           "pricePerShare": 51.04,
           "transactionDate": "2026-08-10"
-        }
-      ]
-    },
-    "BORR": {
-      "issuerName": "Borr Drilling Ltd",
-      "trades": [
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Currie Jeffrey",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 125000.0,
-          "pricePerShare": 4.0131,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Troim Tor Olav",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1500000.0,
-          "pricePerShare": 4.0245,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -38960,6 +39010,136 @@
         }
       ]
     },
+    "CAMT": {
+      "issuerName": "CAMTEK LTD",
+      "trades": [
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Langer Ram",
+          "title": "Chief Operating Officer",
+          "type": "Sale",
+          "shares": 6387.0,
+          "pricePerShare": 172.3222,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "AMIT RAFI",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 6250.0,
+          "pricePerShare": 170.52,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Geva-Dvash Orit",
+          "title": "Vice President, HR",
+          "type": "Sale",
+          "shares": 415.0,
+          "pricePerShare": 174.0623,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Aviram Lior",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1666.0,
+          "pricePerShare": 172.73,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Aviram Lior",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1681.0,
+          "pricePerShare": 175.0,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Eisenberg Moshe",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 645.0,
+          "pricePerShare": 172.6717,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Aviram Lior",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1658.0,
+          "pricePerShare": 164.0,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Aviram Lior",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1689.0,
+          "pricePerShare": 162.0,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Eisenberg Moshe",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 3759.0,
+          "pricePerShare": 160.0561,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "BRLT": {
+      "issuerName": "Brilliant Earth Group, Inc.",
+      "trades": [
+        {
+          "ticker": "BRLT",
+          "issuerName": "Brilliant Earth Group, Inc.",
+          "insiderName": "Kuo Jeffrey Chuenhong",
+          "title": "Chief Financial Officer",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 1.36,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "BRLT",
+          "issuerName": "Brilliant Earth Group, Inc.",
+          "insiderName": "MAINSAIL GP III, LLC",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 50000.0,
+          "pricePerShare": 1.287,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "BRLT",
+          "issuerName": "Brilliant Earth Group, Inc.",
+          "insiderName": "TURNER GAVIN",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 50000.0,
+          "pricePerShare": 1.287,
+          "transactionDate": "2026-08-10"
+        }
+      ]
+    },
     "EHLD": {
       "issuerName": "Euroholdings Ltd.",
       "trades": [
@@ -39785,81 +39965,6 @@
         }
       ]
     },
-    "CAMT": {
-      "issuerName": "CAMTEK LTD",
-      "trades": [
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Geva-Dvash Orit",
-          "title": "Vice President, HR",
-          "type": "Sale",
-          "shares": 415.0,
-          "pricePerShare": 174.0623,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Aviram Lior",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1666.0,
-          "pricePerShare": 172.73,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Aviram Lior",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1681.0,
-          "pricePerShare": 175.0,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Eisenberg Moshe",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 645.0,
-          "pricePerShare": 172.6717,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Aviram Lior",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1658.0,
-          "pricePerShare": 164.0,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Aviram Lior",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1689.0,
-          "pricePerShare": 162.0,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Eisenberg Moshe",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 3759.0,
-          "pricePerShare": 160.0561,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
     "EMBC": {
       "issuerName": "Embecta Corp.",
       "trades": [
@@ -40237,21 +40342,6 @@
           "shares": 17148.0,
           "pricePerShare": 8.193,
           "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "RICK": {
-      "issuerName": "RCI HOSPITALITY HOLDINGS, INC.",
-      "trades": [
-        {
-          "ticker": "RICK",
-          "issuerName": "RCI HOSPITALITY HOLDINGS, INC.",
-          "insiderName": "Barabash Yura V",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 888.0,
-          "pricePerShare": 27.2899,
-          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -49990,31 +50080,6 @@
         }
       ]
     },
-    "BRLT": {
-      "issuerName": "Brilliant Earth Group, Inc.",
-      "trades": [
-        {
-          "ticker": "BRLT",
-          "issuerName": "Brilliant Earth Group, Inc.",
-          "insiderName": "MAINSAIL GP III, LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 50000.0,
-          "pricePerShare": 1.287,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "BRLT",
-          "issuerName": "Brilliant Earth Group, Inc.",
-          "insiderName": "TURNER GAVIN",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 50000.0,
-          "pricePerShare": 1.287,
-          "transactionDate": "2026-08-10"
-        }
-      ]
-    },
     "BLCO": {
       "issuerName": "Bausch & Lomb Corp",
       "trades": [
@@ -59177,26 +59242,6 @@
           "shares": 6364.0,
           "pricePerShare": 208.297,
           "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "DRI",
-          "issuerName": "DARDEN RESTAURANTS INC",
-          "insiderName": "Williamson Laura B",
-          "title": "President, LongHorn Steakhouse",
-          "type": "Sale",
-          "shares": 1110.0,
-          "pricePerShare": 204.3172,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "DRI",
-          "issuerName": "DARDEN RESTAURANTS INC",
-          "insiderName": "Williamson Laura B",
-          "title": "President, LongHorn Steakhouse",
-          "type": "Sale",
-          "shares": 443.0,
-          "pricePerShare": 204.8946,
-          "transactionDate": "2026-07-31"
         }
       ]
     },
@@ -61277,26 +61322,6 @@
           "shares": 3499.0,
           "pricePerShare": 197.384,
           "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "Bahrambeygui Sherry S.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 194.4,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "PSMT",
-          "issuerName": "PRICESMART INC",
-          "insiderName": "Bahrambeygui Sherry S.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 800.0,
-          "pricePerShare": 194.469,
-          "transactionDate": "2026-07-31"
         }
       ]
     },
@@ -63141,36 +63166,6 @@
           "type": "Sale",
           "shares": 13280.0,
           "pricePerShare": 51.8538,
-          "transactionDate": "2026-07-31"
-        }
-      ]
-    },
-    "CLB": {
-      "issuerName": "Core Laboratories Inc. /DE/",
-      "trades": [
-        {
-          "ticker": "CLB",
-          "issuerName": "Core Laboratories Inc. /DE/",
-          "insiderName": "Bruno Lawrence",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 5000.0,
-          "pricePerShare": 10.78,
-          "transactionDate": "2026-07-31"
-        }
-      ]
-    },
-    "BWFG": {
-      "issuerName": "Bankwell Financial Group, Inc.",
-      "trades": [
-        {
-          "ticker": "BWFG",
-          "issuerName": "Bankwell Financial Group, Inc.",
-          "insiderName": "Hildebrand Ryan Jason",
-          "title": "Chief Innovation Officer",
-          "type": "Sale",
-          "shares": 2246.0,
-          "pricePerShare": 66.74,
           "transactionDate": "2026-07-31"
         }
       ]
@@ -65512,6 +65507,7 @@
       "0001104659-26-097436",
       "0001104659-26-097445",
       "0001104659-26-097446",
+      "0001104659-26-097540",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -70844,6 +70840,9 @@
       "0001628280-26-057207",
       "0001628280-26-057209",
       "0001628280-26-057211",
+      "0001628280-26-057216",
+      "0001628280-26-057220",
+      "0001628280-26-057223",
       "0001629911-26-000006",
       "0001630196-26-000002",
       "0001632531-26-000002",
@@ -75023,6 +75022,8 @@
       "0001976408-26-000729",
       "0001976408-26-000730",
       "0001976408-26-000731",
+      "0001976408-26-000743",
+      "0001976408-26-000744",
       "0001976672-26-000057",
       "0001976672-26-000059",
       "0001976684-26-000011",
