@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T18:02:45.881166+00:00",
+  "generatedAt": "2026-08-17T19:04:24.138736+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -11,6 +11,16 @@
       "type": "Purchase",
       "shares": 500.0,
       "pricePerShare": 19.75,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "EQBK",
+      "issuerName": "EQUITY BANCSHARES INC",
+      "insiderName": "Pass David",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 147.0,
+      "pricePerShare": 51.31,
       "transactionDate": "2026-08-17"
     },
     {
@@ -1291,6 +1301,66 @@
       "type": "Sale",
       "shares": 2000.0,
       "pricePerShare": 375.0,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "SLAB",
+      "issuerName": "SILICON LABORATORIES INC.",
+      "insiderName": "CONRAD ROBERT J",
+      "title": "Sr VP and General Manager",
+      "type": "Sale",
+      "shares": 6581.0,
+      "pricePerShare": 218.21,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "ATLO",
+      "issuerName": "AMES NATIONAL CORP",
+      "insiderName": "Schreier Richard",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 316.0,
+      "pricePerShare": 31.6,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "WMB",
+      "issuerName": "WILLIAMS COMPANIES, INC.",
+      "insiderName": "Wilson Terrance Lane",
+      "title": "SVP & General Counsel",
+      "type": "Sale",
+      "shares": 2800.0,
+      "pricePerShare": 74.836,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "WMB",
+      "issuerName": "WILLIAMS COMPANIES, INC.",
+      "insiderName": "Wilson Terrance Lane",
+      "title": "SVP & General Counsel",
+      "type": "Sale",
+      "shares": 10200.0,
+      "pricePerShare": 74.88,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "MXF",
+      "issuerName": "MEXICO FUND INC",
+      "insiderName": "Satterfield David Michael",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 689.612,
+      "pricePerShare": 21.72,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "MXF",
+      "issuerName": "MEXICO FUND INC",
+      "insiderName": "Satterfield David Michael",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 21.61,
       "transactionDate": "2026-08-14"
     },
     {
@@ -3591,6 +3661,46 @@
       "type": "Purchase",
       "shares": 2000.0,
       "pricePerShare": 5.0,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "PGR",
+      "issuerName": "PROGRESSIVE CORP/OH/",
+      "insiderName": "Niederst Lori A",
+      "title": "Chief Personal Lines Officer",
+      "type": "Sale",
+      "shares": 7339.0,
+      "pricePerShare": 209.29,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "TG",
+      "issuerName": "TREDEGAR CORP",
+      "insiderName": "GOTTWALD JOHN D",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1020.0,
+      "pricePerShare": 8.003,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "TG",
+      "issuerName": "TREDEGAR CORP",
+      "insiderName": "Gottwald James T.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1020.0,
+      "pricePerShare": 8.003,
+      "transactionDate": "2026-08-13"
+    },
+    {
+      "ticker": "TG",
+      "issuerName": "TREDEGAR CORP",
+      "insiderName": "GOTTWALD WILLIAM M",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1021.0,
+      "pricePerShare": 8.003,
       "transactionDate": "2026-08-13"
     },
     {
@@ -29892,116 +30002,6 @@
       "shares": 192450.0,
       "pricePerShare": 17.53,
       "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "PBI",
-      "issuerName": "PITNEY BOWES INC /DE/",
-      "insiderName": "Wolf Kurt James",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 19033.0,
-      "pricePerShare": 17.53,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "XYZ",
-      "issuerName": "Block, Inc.",
-      "insiderName": "Eisen Anthony Mathew",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 6000.0,
-      "pricePerShare": 82.27,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "TRDA",
-      "issuerName": "Entrada Therapeutics, Inc.",
-      "insiderName": "5AM Ventures V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1718.0,
-      "pricePerShare": 6.85,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "RCKY",
-      "issuerName": "ROCKY BRANDS, INC.",
-      "insiderName": "Winbigler Tracie A.",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 3000.0,
-      "pricePerShare": 47.4456,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "RCKY",
-      "issuerName": "ROCKY BRANDS, INC.",
-      "insiderName": "Jordan William L",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 2011.0,
-      "pricePerShare": 48.48,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "TRDA",
-      "issuerName": "Entrada Therapeutics, Inc.",
-      "insiderName": "PARMAR KUSH",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1718.0,
-      "pricePerShare": 6.85,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "ACR",
-      "issuerName": "ACRES Commercial Realty Corp.",
-      "insiderName": "Eagle Point Credit Management LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 84.0,
-      "pricePerShare": 21.8,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "RVI",
-      "issuerName": "Robinhood Ventures Fund I",
-      "insiderName": "Robinhood Markets, Inc.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 879.0,
-      "pricePerShare": 25.08,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "DCOM",
-      "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-      "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 30661.0,
-      "pricePerShare": 40.76,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "DCOM",
-      "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-      "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 5931.0,
-      "pricePerShare": 40.76,
-      "transactionDate": "2026-07-31"
-    },
-    {
-      "ticker": "DCOM",
-      "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-      "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 288.0,
-      "pricePerShare": 40.76,
-      "transactionDate": "2026-07-31"
     }
   ],
   "byTicker": {
@@ -30016,6 +30016,21 @@
           "type": "Purchase",
           "shares": 500.0,
           "pricePerShare": 19.75,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "EQBK": {
+      "issuerName": "EQUITY BANCSHARES INC",
+      "trades": [
+        {
+          "ticker": "EQBK",
+          "issuerName": "EQUITY BANCSHARES INC",
+          "insiderName": "Pass David",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 147.0,
+          "pricePerShare": 51.31,
           "transactionDate": "2026-08-17"
         }
       ]
@@ -30757,16 +30772,6 @@
           "shares": 6000.0,
           "pricePerShare": 81.52,
           "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "XYZ",
-          "issuerName": "Block, Inc.",
-          "insiderName": "Eisen Anthony Mathew",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 6000.0,
-          "pricePerShare": 82.27,
-          "transactionDate": "2026-07-31"
         }
       ]
     },
@@ -35885,6 +35890,126 @@
         }
       ]
     },
+    "SLAB": {
+      "issuerName": "SILICON LABORATORIES INC.",
+      "trades": [
+        {
+          "ticker": "SLAB",
+          "issuerName": "SILICON LABORATORIES INC.",
+          "insiderName": "CONRAD ROBERT J",
+          "title": "Sr VP and General Manager",
+          "type": "Sale",
+          "shares": 6581.0,
+          "pricePerShare": 218.21,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "ATLO": {
+      "issuerName": "AMES NATIONAL CORP",
+      "trades": [
+        {
+          "ticker": "ATLO",
+          "issuerName": "AMES NATIONAL CORP",
+          "insiderName": "Schreier Richard",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 316.0,
+          "pricePerShare": 31.6,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "ATLO",
+          "issuerName": "AMES NATIONAL CORP",
+          "insiderName": "Cassabaum Michelle R",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 140.0,
+          "pricePerShare": 30.2,
+          "transactionDate": "2026-07-31"
+        }
+      ]
+    },
+    "WMB": {
+      "issuerName": "WILLIAMS COMPANIES, INC.",
+      "trades": [
+        {
+          "ticker": "WMB",
+          "issuerName": "WILLIAMS COMPANIES, INC.",
+          "insiderName": "Wilson Terrance Lane",
+          "title": "SVP & General Counsel",
+          "type": "Sale",
+          "shares": 2800.0,
+          "pricePerShare": 74.836,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "WMB",
+          "issuerName": "WILLIAMS COMPANIES, INC.",
+          "insiderName": "Wilson Terrance Lane",
+          "title": "SVP & General Counsel",
+          "type": "Sale",
+          "shares": 10200.0,
+          "pricePerShare": 74.88,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "WMB",
+          "issuerName": "WILLIAMS COMPANIES, INC.",
+          "insiderName": "Wilson Terrance Lane",
+          "title": "SVP & General Counsel",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 70.65,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "MXF": {
+      "issuerName": "MEXICO FUND INC",
+      "trades": [
+        {
+          "ticker": "MXF",
+          "issuerName": "MEXICO FUND INC",
+          "insiderName": "Satterfield David Michael",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 689.612,
+          "pricePerShare": 21.72,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "MXF",
+          "issuerName": "MEXICO FUND INC",
+          "insiderName": "Satterfield David Michael",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 21.61,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "MXF",
+          "issuerName": "MEXICO FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 2952.0,
+          "pricePerShare": 21.41,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "MXF",
+          "issuerName": "MEXICO FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9362.0,
+          "pricePerShare": 22.19,
+          "transactionDate": "2026-08-04"
+        }
+      ]
+    },
     "BANF": {
       "issuerName": "BANCFIRST CORP /OK/",
       "trades": [
@@ -39780,31 +39905,6 @@
         }
       ]
     },
-    "MXF": {
-      "issuerName": "MEXICO FUND INC",
-      "trades": [
-        {
-          "ticker": "MXF",
-          "issuerName": "MEXICO FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 2952.0,
-          "pricePerShare": 21.41,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "MXF",
-          "issuerName": "MEXICO FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9362.0,
-          "pricePerShare": 22.19,
-          "transactionDate": "2026-08-04"
-        }
-      ]
-    },
     "TISI": {
       "issuerName": "TEAM INC",
       "trades": [
@@ -39912,6 +40012,96 @@
           "shares": 2000.0,
           "pricePerShare": 5.0,
           "transactionDate": "2026-08-13"
+        }
+      ]
+    },
+    "PGR": {
+      "issuerName": "PROGRESSIVE CORP/OH/",
+      "trades": [
+        {
+          "ticker": "PGR",
+          "issuerName": "PROGRESSIVE CORP/OH/",
+          "insiderName": "Niederst Lori A",
+          "title": "Chief Personal Lines Officer",
+          "type": "Sale",
+          "shares": 7339.0,
+          "pricePerShare": 209.29,
+          "transactionDate": "2026-08-13"
+        }
+      ]
+    },
+    "TG": {
+      "issuerName": "TREDEGAR CORP",
+      "trades": [
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1020.0,
+          "pricePerShare": 8.003,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "Gottwald James T.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1020.0,
+          "pricePerShare": 8.003,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1021.0,
+          "pricePerShare": 8.003,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 13170.0,
+          "pricePerShare": 8.073,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 13170.0,
+          "pricePerShare": 8.073,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 17148.0,
+          "pricePerShare": 8.193,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 17148.0,
+          "pricePerShare": 8.193,
+          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -40907,51 +41097,6 @@
           "shares": 350.0,
           "pricePerShare": 64.37,
           "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "TG": {
-      "issuerName": "TREDEGAR CORP",
-      "trades": [
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD JOHN D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 13170.0,
-          "pricePerShare": 8.073,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD WILLIAM M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 13170.0,
-          "pricePerShare": 8.073,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD JOHN D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 17148.0,
-          "pricePerShare": 8.193,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD WILLIAM M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 17148.0,
-          "pricePerShare": 8.193,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -47947,26 +48092,6 @@
           "shares": 10494.0,
           "pricePerShare": 7.0,
           "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "TRDA",
-          "issuerName": "Entrada Therapeutics, Inc.",
-          "insiderName": "5AM Ventures V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1718.0,
-          "pricePerShare": 6.85,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "TRDA",
-          "issuerName": "Entrada Therapeutics, Inc.",
-          "insiderName": "PARMAR KUSH",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1718.0,
-          "pricePerShare": 6.85,
-          "transactionDate": "2026-07-31"
         }
       ]
     },
@@ -56097,36 +56222,6 @@
           "shares": 178.0,
           "pricePerShare": 41.17,
           "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 30661.0,
-          "pricePerShare": 40.76,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5931.0,
-          "pricePerShare": 40.76,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "DCOM",
-          "issuerName": "Dime Commercial Bancshares, Inc. /NY/",
-          "insiderName": "BASSWOOD CAPITAL MANAGEMENT, L.L.C.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 288.0,
-          "pricePerShare": 40.76,
-          "transactionDate": "2026-07-31"
         }
       ]
     },
@@ -56752,16 +56847,6 @@
           "shares": 1015.0,
           "pricePerShare": 28.05,
           "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "RVI",
-          "issuerName": "Robinhood Ventures Fund I",
-          "insiderName": "Robinhood Markets, Inc.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 879.0,
-          "pricePerShare": 25.08,
-          "transactionDate": "2026-07-31"
         }
       ]
     },
@@ -59782,26 +59867,6 @@
           "shares": 3000.0,
           "pricePerShare": 49.73,
           "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "RCKY",
-          "issuerName": "ROCKY BRANDS, INC.",
-          "insiderName": "Winbigler Tracie A.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 47.4456,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "RCKY",
-          "issuerName": "ROCKY BRANDS, INC.",
-          "insiderName": "Jordan William L",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 2011.0,
-          "pricePerShare": 48.48,
-          "transactionDate": "2026-07-31"
         }
       ]
     },
@@ -61232,16 +61297,6 @@
           "shares": 98.0,
           "pricePerShare": 21.8,
           "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "ACR",
-          "issuerName": "ACRES Commercial Realty Corp.",
-          "insiderName": "Eagle Point Credit Management LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 84.0,
-          "pricePerShare": 21.8,
-          "transactionDate": "2026-07-31"
         }
       ]
     },
@@ -61400,16 +61455,6 @@
           "title": "Reporting Person",
           "type": "Sale",
           "shares": 192450.0,
-          "pricePerShare": 17.53,
-          "transactionDate": "2026-07-31"
-        },
-        {
-          "ticker": "PBI",
-          "issuerName": "PITNEY BOWES INC /DE/",
-          "insiderName": "Wolf Kurt James",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 19033.0,
           "pricePerShare": 17.53,
           "transactionDate": "2026-07-31"
         }
@@ -61696,21 +61741,6 @@
           "type": "Sale",
           "shares": 457.0,
           "pricePerShare": 288.31,
-          "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "WMB": {
-      "issuerName": "WILLIAMS COMPANIES, INC.",
-      "trades": [
-        {
-          "ticker": "WMB",
-          "issuerName": "WILLIAMS COMPANIES, INC.",
-          "insiderName": "Wilson Terrance Lane",
-          "title": "SVP & General Counsel",
-          "type": "Sale",
-          "shares": 2000.0,
-          "pricePerShare": 70.65,
           "transactionDate": "2026-08-03"
         }
       ]
@@ -63190,21 +63220,6 @@
         }
       ]
     },
-    "ATLO": {
-      "issuerName": "AMES NATIONAL CORP",
-      "trades": [
-        {
-          "ticker": "ATLO",
-          "issuerName": "AMES NATIONAL CORP",
-          "insiderName": "Cassabaum Michelle R",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 140.0,
-          "pricePerShare": 30.2,
-          "transactionDate": "2026-07-31"
-        }
-      ]
-    },
     "KO": {
       "issuerName": "COCA COLA CO",
       "trades": [
@@ -63493,6 +63508,7 @@
       "0000080661-26-000296",
       "0000080661-26-000298",
       "0000080661-26-000306",
+      "0000080661-26-000312",
       "0000081027-26-000003",
       "0000081027-26-000009",
       "0000081061-26-000091",
@@ -63944,6 +63960,7 @@
       "0000894189-26-022311",
       "0000894189-26-022332",
       "0000894189-26-022354",
+      "0000894189-26-022385",
       "0000895345-26-000353",
       "0000896622-26-000170",
       "0000896622-26-000172",
@@ -64830,6 +64847,8 @@
       "0000950103-26-012465",
       "0000950103-26-012466",
       "0000950103-26-012468",
+      "0000950103-26-012469",
+      "0000950103-26-012470",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65640,6 +65659,7 @@
       "0001104659-26-097738",
       "0001104659-26-097748",
       "0001104659-26-097750",
+      "0001104659-26-097760",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66016,6 +66036,11 @@
       "0001140361-26-033333",
       "0001140361-26-033336",
       "0001140361-26-033341",
+      "0001140361-26-033345",
+      "0001140361-26-033353",
+      "0001140361-26-033357",
+      "0001140361-26-033359",
+      "0001140361-26-033360",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -68006,6 +68031,22 @@
       "0001193125-26-353749",
       "0001193125-26-353752",
       "0001193125-26-353755",
+      "0001193125-26-353774",
+      "0001193125-26-353777",
+      "0001193125-26-353784",
+      "0001193125-26-353788",
+      "0001193125-26-353795",
+      "0001193125-26-353796",
+      "0001193125-26-353798",
+      "0001193125-26-353805",
+      "0001193125-26-353808",
+      "0001193125-26-353813",
+      "0001193125-26-353825",
+      "0001193125-26-353832",
+      "0001193125-26-353849",
+      "0001193125-26-353850",
+      "0001193125-26-353859",
+      "0001193125-26-353863",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -68795,6 +68836,10 @@
       "0001213900-26-090644",
       "0001213900-26-090646",
       "0001213900-26-090647",
+      "0001213900-26-090652",
+      "0001213900-26-090654",
+      "0001213900-26-090663",
+      "0001213900-26-090671",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -68931,6 +68976,7 @@
       "0001214659-26-010327",
       "0001214659-26-010332",
       "0001214659-26-010333",
+      "0001214659-26-010456",
       "0001214993-26-000004",
       "0001216055-26-000006",
       "0001216055-26-000007",
@@ -69443,6 +69489,7 @@
       "0001432353-26-000644",
       "0001432894-26-000002",
       "0001433644-26-000016",
+      "0001434609-26-000002",
       "0001435109-26-000123",
       "0001435109-26-000125",
       "0001435109-26-000128",
@@ -69687,6 +69734,8 @@
       "0001437749-26-028127",
       "0001437749-26-028128",
       "0001437749-26-028149",
+      "0001437749-26-028158",
+      "0001437749-26-028160",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001441890-26-000005",
@@ -69863,6 +69912,7 @@
       "0001464521-26-000111",
       "0001464521-26-000113",
       "0001464521-26-000115",
+      "0001466017-26-000004",
       "0001466848-26-000005",
       "0001467266-26-000008",
       "0001468327-26-000055",
@@ -70186,6 +70236,13 @@
       "0001493152-26-038641",
       "0001493152-26-038646",
       "0001493152-26-038660",
+      "0001493152-26-038697",
+      "0001493152-26-038700",
+      "0001493152-26-038706",
+      "0001493152-26-038708",
+      "0001493152-26-038712",
+      "0001493152-26-038715",
+      "0001493152-26-038717",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -70343,6 +70400,7 @@
       "0001528621-26-000832",
       "0001528621-26-000833",
       "0001528621-26-000835",
+      "0001528621-26-000837",
       "0001530038-26-000002",
       "0001530255-26-000010",
       "0001530819-26-000012",
@@ -71115,6 +71173,7 @@
       "0001628280-26-057254",
       "0001628280-26-057266",
       "0001628280-26-057291",
+      "0001628280-26-057312",
       "0001629911-26-000006",
       "0001630196-26-000002",
       "0001632531-26-000002",
@@ -71377,6 +71436,7 @@
       "0001699618-26-000007",
       "0001700266-26-000001",
       "0001703388-26-000021",
+      "0001703388-26-000022",
       "0001703841-26-000003",
       "0001704792-26-000004",
       "0001705189-26-000013",
@@ -73387,6 +73447,11 @@
       "0001839882-26-040217",
       "0001839882-26-040218",
       "0001839882-26-040219",
+      "0001839882-26-040223",
+      "0001839882-26-040224",
+      "0001839882-26-040225",
+      "0001839882-26-040226",
+      "0001839882-26-040227",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -75319,6 +75384,17 @@
       "0001918704-26-023896",
       "0001918704-26-023897",
       "0001918704-26-023898",
+      "0001918704-26-023902",
+      "0001918704-26-023903",
+      "0001918704-26-023904",
+      "0001918704-26-023905",
+      "0001918704-26-023906",
+      "0001918704-26-023907",
+      "0001918704-26-023908",
+      "0001918704-26-023909",
+      "0001918704-26-023910",
+      "0001918704-26-023911",
+      "0001918704-26-023912",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -76071,6 +76147,7 @@
       "0002122411-26-000001",
       "0002123155-26-000002",
       "0002123843-26-000008",
+      "0002123988-26-000006",
       "0002124319-26-000008",
       "0002124319-26-000010",
       "0002125050-26-000006",
