@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T11:04:44.605529+00:00",
+  "generatedAt": "2026-08-18T12:03:54.484293+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -331,6 +331,26 @@
       "type": "Sale",
       "shares": 8000.0,
       "pricePerShare": 45.6922,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "CAMT",
+      "issuerName": "CAMTEK LTD",
+      "insiderName": "Geva-Dvash Orit",
+      "title": "Vice President, HR",
+      "type": "Sale",
+      "shares": 508.0,
+      "pricePerShare": 175.0,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "REZI",
+      "issuerName": "RESIDEO TECHNOLOGIES, INC.",
+      "insiderName": "Mehta Amit Ashvin",
+      "title": "SVP, Strategy & Business Ops",
+      "type": "Purchase",
+      "shares": 10928.4,
+      "pricePerShare": 20.68,
       "transactionDate": "2026-08-17"
     },
     {
@@ -2741,6 +2761,16 @@
       "type": "Sale",
       "shares": 98.0,
       "pricePerShare": 124.08,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "ASST",
+      "issuerName": "Strive, Inc.",
+      "insiderName": "Rochard Pierre",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 15900.0,
+      "pricePerShare": 12.54,
       "transactionDate": "2026-08-14"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 7.0,
       "pricePerShare": 75.64,
       "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 3.0,
-      "pricePerShare": 77.3833,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 12.0,
-      "pricePerShare": 78.8508,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 45.0,
-      "pricePerShare": 79.8698,
-      "transactionDate": "2026-08-03"
     }
   ],
   "byTicker": {
@@ -31102,6 +31102,176 @@
           "shares": 66.0,
           "pricePerShare": 47.48,
           "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "CAMT": {
+      "issuerName": "CAMTEK LTD",
+      "trades": [
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Geva-Dvash Orit",
+          "title": "Vice President, HR",
+          "type": "Sale",
+          "shares": 508.0,
+          "pricePerShare": 175.0,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Andorn Karni Yarl",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3176.0,
+          "pricePerShare": 164.4,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Langer Ram",
+          "title": "Chief Operating Officer",
+          "type": "Sale",
+          "shares": 6387.0,
+          "pricePerShare": 172.3222,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "AMIT RAFI",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 6250.0,
+          "pricePerShare": 170.52,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Andorn Karni Yarl",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 880.0,
+          "pricePerShare": 172.7428,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Andorn Karni Yarl",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1476.0,
+          "pricePerShare": 172.1221,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Geva-Dvash Orit",
+          "title": "Vice President, HR",
+          "type": "Sale",
+          "shares": 415.0,
+          "pricePerShare": 174.0623,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Aviram Lior",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1666.0,
+          "pricePerShare": 172.73,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Aviram Lior",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1681.0,
+          "pricePerShare": 175.0,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Eisenberg Moshe",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 645.0,
+          "pricePerShare": 172.6717,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Aviram Lior",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1658.0,
+          "pricePerShare": 164.0,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Aviram Lior",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1689.0,
+          "pricePerShare": 162.0,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "CAMT",
+          "issuerName": "CAMTEK LTD",
+          "insiderName": "Eisenberg Moshe",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 3759.0,
+          "pricePerShare": 160.0561,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "REZI": {
+      "issuerName": "RESIDEO TECHNOLOGIES, INC.",
+      "trades": [
+        {
+          "ticker": "REZI",
+          "issuerName": "RESIDEO TECHNOLOGIES, INC.",
+          "insiderName": "Mehta Amit Ashvin",
+          "title": "SVP, Strategy & Business Ops",
+          "type": "Purchase",
+          "shares": 10928.4,
+          "pricePerShare": 20.68,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "REZI",
+          "issuerName": "RESIDEO TECHNOLOGIES, INC.",
+          "insiderName": "SURRAN THOMAS A",
+          "title": "Director, President and CEO",
+          "type": "Purchase",
+          "shares": 15000.0,
+          "pricePerShare": 20.46,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "REZI",
+          "issuerName": "RESIDEO TECHNOLOGIES, INC.",
+          "insiderName": "Foster Joshua Peter",
+          "title": "SVP, GC & Corp Sec",
+          "type": "Purchase",
+          "shares": 15317.0,
+          "pricePerShare": 20.58,
+          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -34057,36 +34227,6 @@
           "shares": 7.0,
           "pricePerShare": 75.64,
           "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 3.0,
-          "pricePerShare": 77.3833,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 12.0,
-          "pricePerShare": 78.8508,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 45.0,
-          "pricePerShare": 79.8698,
-          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -35535,31 +35675,6 @@
         }
       ]
     },
-    "REZI": {
-      "issuerName": "RESIDEO TECHNOLOGIES, INC.",
-      "trades": [
-        {
-          "ticker": "REZI",
-          "issuerName": "RESIDEO TECHNOLOGIES, INC.",
-          "insiderName": "SURRAN THOMAS A",
-          "title": "Director, President and CEO",
-          "type": "Purchase",
-          "shares": 15000.0,
-          "pricePerShare": 20.46,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "REZI",
-          "issuerName": "RESIDEO TECHNOLOGIES, INC.",
-          "insiderName": "Foster Joshua Peter",
-          "title": "SVP, GC & Corp Sec",
-          "type": "Purchase",
-          "shares": 15317.0,
-          "pricePerShare": 20.58,
-          "transactionDate": "2026-08-14"
-        }
-      ]
-    },
     "BORR": {
       "issuerName": "Borr Drilling Ltd",
       "trades": [
@@ -35657,131 +35772,6 @@
           "shares": 40000.0,
           "pricePerShare": 8.9,
           "transactionDate": "2026-08-13"
-        }
-      ]
-    },
-    "CAMT": {
-      "issuerName": "CAMTEK LTD",
-      "trades": [
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Andorn Karni Yarl",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3176.0,
-          "pricePerShare": 164.4,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Langer Ram",
-          "title": "Chief Operating Officer",
-          "type": "Sale",
-          "shares": 6387.0,
-          "pricePerShare": 172.3222,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "AMIT RAFI",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 6250.0,
-          "pricePerShare": 170.52,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Andorn Karni Yarl",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 880.0,
-          "pricePerShare": 172.7428,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Andorn Karni Yarl",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1476.0,
-          "pricePerShare": 172.1221,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Geva-Dvash Orit",
-          "title": "Vice President, HR",
-          "type": "Sale",
-          "shares": 415.0,
-          "pricePerShare": 174.0623,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Aviram Lior",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1666.0,
-          "pricePerShare": 172.73,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Aviram Lior",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1681.0,
-          "pricePerShare": 175.0,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Eisenberg Moshe",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 645.0,
-          "pricePerShare": 172.6717,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Aviram Lior",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1658.0,
-          "pricePerShare": 164.0,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Aviram Lior",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1689.0,
-          "pricePerShare": 162.0,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Eisenberg Moshe",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 3759.0,
-          "pricePerShare": 160.0561,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -39171,6 +39161,21 @@
           "type": "Sale",
           "shares": 1430.0,
           "pricePerShare": 10.8623,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "ASST": {
+      "issuerName": "Strive, Inc.",
+      "trades": [
+        {
+          "ticker": "ASST",
+          "issuerName": "Strive, Inc.",
+          "insiderName": "Rochard Pierre",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 15900.0,
+          "pricePerShare": 12.54,
           "transactionDate": "2026-08-14"
         }
       ]
@@ -65801,6 +65806,7 @@
       "0001104659-26-098082",
       "0001104659-26-098097",
       "0001104659-26-098101",
+      "0001104659-26-098135",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -69068,6 +69074,10 @@
       "0001213900-26-090932",
       "0001213900-26-090947",
       "0001213900-26-090958",
+      "0001213900-26-090975",
+      "0001213900-26-090977",
+      "0001213900-26-090984",
+      "0001213900-26-090988",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71482,6 +71492,7 @@
       "0001628280-26-057521",
       "0001628280-26-057522",
       "0001628280-26-057525",
+      "0001628280-26-057539",
       "0001629911-26-000006",
       "0001630196-26-000002",
       "0001632531-26-000002",
@@ -75887,6 +75898,7 @@
       "0001976408-26-000745",
       "0001976408-26-000746",
       "0001976408-26-000747",
+      "0001976408-26-000752",
       "0001976672-26-000057",
       "0001976672-26-000059",
       "0001976684-26-000011",
@@ -76600,6 +76612,7 @@
       "0002147248-26-000003",
       "0002147429-26-000003",
       "0002148131-26-000004",
+      "0002148580-26-000003",
       "0002148900-26-000005",
       "0002149159-26-000004",
       "0002149694-26-000006"
