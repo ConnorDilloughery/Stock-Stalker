@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T19:02:52.075458+00:00",
+  "generatedAt": "2026-08-18T20:01:34.955755+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -41,6 +41,16 @@
       "type": "Purchase",
       "shares": 9000.0,
       "pricePerShare": 5.54,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "TSBK",
+      "issuerName": "TIMBERLAND BANCORP INC",
+      "insiderName": "DRUGGE ROBERT A",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 2000.0,
+      "pricePerShare": 45.87,
       "transactionDate": "2026-08-18"
     },
     {
@@ -591,6 +601,46 @@
       "type": "Sale",
       "shares": 952.0,
       "pricePerShare": 300.0,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "GLBE",
+      "issuerName": "Global-E Online Ltd.",
+      "insiderName": "Debbi Nir",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 14582.0,
+      "pricePerShare": 41.179,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "MSS",
+      "issuerName": "Maison Solutions Inc.",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 20394.0,
+      "pricePerShare": 1.42,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "CIEN",
+      "issuerName": "CIENA CORP",
+      "insiderName": "Gage Brodie",
+      "title": "SVP Global Products & Supply",
+      "type": "Sale",
+      "shares": 1200.0,
+      "pricePerShare": 439.24,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "RVSB",
+      "issuerName": "RIVERVIEW BANCORP INC",
+      "insiderName": "Lam David",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 5.17,
       "transactionDate": "2026-08-17"
     },
     {
@@ -3271,6 +3321,26 @@
       "type": "Sale",
       "shares": 642.0,
       "pricePerShare": 60.35,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "MSS",
+      "issuerName": "Maison Solutions Inc.",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 134000.0,
+      "pricePerShare": 1.42,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "HURN",
+      "issuerName": "Huron Consulting Group Inc.",
+      "insiderName": "Zumwalt Debra",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 82.0,
+      "pricePerShare": 156.56,
       "transactionDate": "2026-08-14"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 63.671,
       "pricePerShare": 45.84,
       "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "FUNC",
-      "issuerName": "FIRST UNITED CORP/MD/",
-      "insiderName": "Sturm Tonya K.",
-      "title": "EVP & CFO",
-      "type": "Purchase",
-      "shares": 2.469,
-      "pricePerShare": 45.84,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "FUNC",
-      "issuerName": "FIRST UNITED CORP/MD/",
-      "insiderName": "Boal Brian R.",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 73.591,
-      "pricePerShare": 45.84,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "MTD",
-      "issuerName": "METTLER TOLEDO INTERNATIONAL INC/",
-      "insiderName": "Keller Gerry",
-      "title": "Head of Process Analytics",
-      "type": "Sale",
-      "shares": 240.0,
-      "pricePerShare": 1427.14,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "MTD",
-      "issuerName": "METTLER TOLEDO INTERNATIONAL INC/",
-      "insiderName": "Vadala Shawn",
-      "title": "Chief Financial Officer",
-      "type": "Sale",
-      "shares": 2240.0,
-      "pricePerShare": 1432.0,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "HNI",
-      "issuerName": "HNI CORP",
-      "insiderName": "Lorenger Jeffrey D",
-      "title": "Director, President & CEO",
-      "type": "Sale",
-      "shares": 35232.0,
-      "pricePerShare": 47.48,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "HNI",
-      "issuerName": "HNI CORP",
-      "insiderName": "Lorenger Jeffrey D",
-      "title": "Director, President & CEO",
-      "type": "Sale",
-      "shares": 10618.0,
-      "pricePerShare": 47.78,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "NUE",
-      "issuerName": "NUCOR CORP",
-      "insiderName": "Batterbee Thomas J.",
-      "title": "Executive Vice President",
-      "type": "Sale",
-      "shares": 4000.0,
-      "pricePerShare": 261.0156,
-      "transactionDate": "2026-08-03"
     }
   ],
   "byTicker": {
@@ -30102,6 +30102,31 @@
           "shares": 12000.0,
           "pricePerShare": 3.7883,
           "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "TSBK": {
+      "issuerName": "TIMBERLAND BANCORP INC",
+      "trades": [
+        {
+          "ticker": "TSBK",
+          "issuerName": "TIMBERLAND BANCORP INC",
+          "insiderName": "DRUGGE ROBERT A",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 45.87,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "TSBK",
+          "issuerName": "TIMBERLAND BANCORP INC",
+          "insiderName": "BRYDON DEAN J",
+          "title": "Director, CEO",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 45.24,
+          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -32077,6 +32102,176 @@
           "shares": 629.0,
           "pricePerShare": 299.6998,
           "transactionDate": "2026-08-04"
+        }
+      ]
+    },
+    "GLBE": {
+      "issuerName": "Global-E Online Ltd.",
+      "trades": [
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Debbi Nir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 14582.0,
+          "pricePerShare": 41.179,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Schlachet Amir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 16814.0,
+          "pricePerShare": 42.4102,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Schlachet Amir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 322.0,
+          "pricePerShare": 42.0734,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Schlachet Amir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100000.0,
+          "pricePerShare": 42.1955,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Tamari Shahar",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 24999.0,
+          "pricePerShare": 41.5941,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Schlachet Amir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1308.0,
+          "pricePerShare": 42.0896,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "MSS": {
+      "issuerName": "Maison Solutions Inc.",
+      "trades": [
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 20394.0,
+          "pricePerShare": 1.42,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 134000.0,
+          "pricePerShare": 1.42,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 7553.0,
+          "pricePerShare": 1.4,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 22559.0,
+          "pricePerShare": 1.42,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4329.0,
+          "pricePerShare": 1.41,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 4616.0,
+          "pricePerShare": 1.33,
+          "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "CIEN": {
+      "issuerName": "CIENA CORP",
+      "trades": [
+        {
+          "ticker": "CIEN",
+          "issuerName": "CIENA CORP",
+          "insiderName": "Gage Brodie",
+          "title": "SVP Global Products & Supply",
+          "type": "Sale",
+          "shares": 1200.0,
+          "pricePerShare": 439.24,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "RVSB": {
+      "issuerName": "RIVERVIEW BANCORP INC",
+      "trades": [
+        {
+          "ticker": "RVSB",
+          "issuerName": "RIVERVIEW BANCORP INC",
+          "insiderName": "Lam David",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 5.17,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "RVSB",
+          "issuerName": "RIVERVIEW BANCORP INC",
+          "insiderName": "Lightheart Charmaine",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 250.0,
+          "pricePerShare": 5.309,
+          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -40140,6 +40335,31 @@
         }
       ]
     },
+    "HURN": {
+      "issuerName": "Huron Consulting Group Inc.",
+      "trades": [
+        {
+          "ticker": "HURN",
+          "issuerName": "Huron Consulting Group Inc.",
+          "insiderName": "Zumwalt Debra",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 82.0,
+          "pricePerShare": 156.56,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "HURN",
+          "issuerName": "Huron Consulting Group Inc.",
+          "insiderName": "SAWYER HUGH E III",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 154.25,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
     "BANF": {
       "issuerName": "BANCFIRST CORP /OK/",
       "trades": [
@@ -41047,51 +41267,6 @@
           "shares": 42290.0,
           "pricePerShare": 71.4898,
           "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "MSS": {
-      "issuerName": "Maison Solutions Inc.",
-      "trades": [
-        {
-          "ticker": "MSS",
-          "issuerName": "Maison Solutions Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 7553.0,
-          "pricePerShare": 1.4,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "MSS",
-          "issuerName": "Maison Solutions Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 22559.0,
-          "pricePerShare": 1.42,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "MSS",
-          "issuerName": "Maison Solutions Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4329.0,
-          "pricePerShare": 1.41,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "MSS",
-          "issuerName": "Maison Solutions Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 4616.0,
-          "pricePerShare": 1.33,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -45510,21 +45685,6 @@
         }
       ]
     },
-    "RVSB": {
-      "issuerName": "RIVERVIEW BANCORP INC",
-      "trades": [
-        {
-          "ticker": "RVSB",
-          "issuerName": "RIVERVIEW BANCORP INC",
-          "insiderName": "Lightheart Charmaine",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 250.0,
-          "pricePerShare": 5.309,
-          "transactionDate": "2026-08-12"
-        }
-      ]
-    },
     "SFST": {
       "issuerName": "SOUTHERN FIRST BANCSHARES INC",
       "trades": [
@@ -45617,61 +45777,6 @@
           "shares": 468.0,
           "pricePerShare": 686.63,
           "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "GLBE": {
-      "issuerName": "Global-E Online Ltd.",
-      "trades": [
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Schlachet Amir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 16814.0,
-          "pricePerShare": 42.4102,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Schlachet Amir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 322.0,
-          "pricePerShare": 42.0734,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Schlachet Amir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100000.0,
-          "pricePerShare": 42.1955,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Tamari Shahar",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 24999.0,
-          "pricePerShare": 41.5941,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Schlachet Amir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1308.0,
-          "pricePerShare": 42.0896,
-          "transactionDate": "2026-08-05"
         }
       ]
     },
@@ -49906,21 +50011,6 @@
           "type": "Sale",
           "shares": 25000.0,
           "pricePerShare": 45.044,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "HURN": {
-      "issuerName": "Huron Consulting Group Inc.",
-      "trades": [
-        {
-          "ticker": "HURN",
-          "issuerName": "Huron Consulting Group Inc.",
-          "insiderName": "SAWYER HUGH E III",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 2000.0,
-          "pricePerShare": 154.25,
           "transactionDate": "2026-08-11"
         }
       ]
@@ -62785,21 +62875,6 @@
         }
       ]
     },
-    "TSBK": {
-      "issuerName": "TIMBERLAND BANCORP INC",
-      "trades": [
-        {
-          "ticker": "TSBK",
-          "issuerName": "TIMBERLAND BANCORP INC",
-          "insiderName": "BRYDON DEAN J",
-          "title": "Director, CEO",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 45.24,
-          "transactionDate": "2026-08-03"
-        }
-      ]
-    },
     "CHE": {
       "issuerName": "CHEMED CORP",
       "trades": [
@@ -63316,91 +63391,6 @@
           "type": "Purchase",
           "shares": 63.671,
           "pricePerShare": 45.84,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "FUNC",
-          "issuerName": "FIRST UNITED CORP/MD/",
-          "insiderName": "Sturm Tonya K.",
-          "title": "EVP & CFO",
-          "type": "Purchase",
-          "shares": 2.469,
-          "pricePerShare": 45.84,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "FUNC",
-          "issuerName": "FIRST UNITED CORP/MD/",
-          "insiderName": "Boal Brian R.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 73.591,
-          "pricePerShare": 45.84,
-          "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "MTD": {
-      "issuerName": "METTLER TOLEDO INTERNATIONAL INC/",
-      "trades": [
-        {
-          "ticker": "MTD",
-          "issuerName": "METTLER TOLEDO INTERNATIONAL INC/",
-          "insiderName": "Keller Gerry",
-          "title": "Head of Process Analytics",
-          "type": "Sale",
-          "shares": 240.0,
-          "pricePerShare": 1427.14,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "MTD",
-          "issuerName": "METTLER TOLEDO INTERNATIONAL INC/",
-          "insiderName": "Vadala Shawn",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 2240.0,
-          "pricePerShare": 1432.0,
-          "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "HNI": {
-      "issuerName": "HNI CORP",
-      "trades": [
-        {
-          "ticker": "HNI",
-          "issuerName": "HNI CORP",
-          "insiderName": "Lorenger Jeffrey D",
-          "title": "Director, President & CEO",
-          "type": "Sale",
-          "shares": 35232.0,
-          "pricePerShare": 47.48,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "HNI",
-          "issuerName": "HNI CORP",
-          "insiderName": "Lorenger Jeffrey D",
-          "title": "Director, President & CEO",
-          "type": "Sale",
-          "shares": 10618.0,
-          "pricePerShare": 47.78,
-          "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "NUE": {
-      "issuerName": "NUCOR CORP",
-      "trades": [
-        {
-          "ticker": "NUE",
-          "issuerName": "NUCOR CORP",
-          "insiderName": "Batterbee Thomas J.",
-          "title": "Executive Vice President",
-          "type": "Sale",
-          "shares": 4000.0,
-          "pricePerShare": 261.0156,
           "transactionDate": "2026-08-03"
         }
       ]
@@ -64331,6 +64321,11 @@
       "0000930413-26-002329",
       "0000930413-26-002431",
       "0000930413-26-002467",
+      "0000933094-26-000026",
+      "0000933094-26-000027",
+      "0000933094-26-000028",
+      "0000933094-26-000029",
+      "0000933094-26-000031",
       "0000935596-26-000016",
       "0000935703-26-000095",
       "0000935703-26-000097",
@@ -64369,6 +64364,10 @@
       "0000939057-26-000189",
       "0000939057-26-000190",
       "0000939057-26-000191",
+      "0000939057-26-000194",
+      "0000939057-26-000195",
+      "0000939057-26-000196",
+      "0000939057-26-000197",
       "0000939767-26-000101",
       "0000943452-26-000004",
       "0000943452-26-000005",
@@ -65065,6 +65064,15 @@
       "0000950103-26-012534",
       "0000950103-26-012535",
       "0000950103-26-012536",
+      "0000950103-26-012544",
+      "0000950103-26-012545",
+      "0000950103-26-012546",
+      "0000950103-26-012548",
+      "0000950103-26-012549",
+      "0000950103-26-012550",
+      "0000950103-26-012551",
+      "0000950103-26-012552",
+      "0000950103-26-012553",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65111,6 +65119,10 @@
       "0001014108-26-000045",
       "0001016245-26-000015",
       "0001016246-26-000004",
+      "0001016274-26-000028",
+      "0001016274-26-000029",
+      "0001016274-26-000030",
+      "0001016274-26-000032",
       "0001017475-26-000008",
       "0001017475-26-000010",
       "0001018572-26-000003",
@@ -65172,6 +65184,7 @@
       "0001040470-26-000261",
       "0001040674-26-000040",
       "0001040674-26-000047",
+      "0001040674-26-000061",
       "0001041061-26-000153",
       "0001041061-26-000155",
       "0001045450-26-000044",
@@ -65940,6 +65953,7 @@
       "0001104659-26-098288",
       "0001104659-26-098290",
       "0001104659-26-098293",
+      "0001104659-26-098317",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68464,6 +68478,16 @@
       "0001193125-26-355268",
       "0001193125-26-355276",
       "0001193125-26-355281",
+      "0001193125-26-355324",
+      "0001193125-26-355325",
+      "0001193125-26-355330",
+      "0001193125-26-355331",
+      "0001193125-26-355335",
+      "0001193125-26-355337",
+      "0001193125-26-355347",
+      "0001193125-26-355374",
+      "0001193125-26-355379",
+      "0001193125-26-355383",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -69297,6 +69321,10 @@
       "0001213900-26-091159",
       "0001213900-26-091167",
       "0001213900-26-091170",
+      "0001213900-26-091184",
+      "0001213900-26-091191",
+      "0001213900-26-091192",
+      "0001213900-26-091193",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -69441,6 +69469,8 @@
       "0001214659-26-010489",
       "0001214659-26-010490",
       "0001214659-26-010491",
+      "0001214659-26-010501",
+      "0001214659-26-010502",
       "0001214993-26-000004",
       "0001216055-26-000006",
       "0001216055-26-000007",
@@ -69663,6 +69693,7 @@
       "0001289848-26-000114",
       "0001289848-26-000122",
       "0001289848-26-000125",
+      "0001289848-26-000128",
       "0001290673-26-000003",
       "0001292208-26-000010",
       "0001292814-26-003872",
@@ -70239,6 +70270,7 @@
       "0001437749-26-028330",
       "0001437749-26-028333",
       "0001437749-26-028336",
+      "0001437749-26-028345",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001441890-26-000005",
@@ -70411,6 +70443,7 @@
       "0001460835-26-000002",
       "0001461101-26-000004",
       "0001463247-26-000012",
+      "0001463249-26-000004",
       "0001463254-26-000004",
       "0001464277-26-000003",
       "0001464423-26-000081",
@@ -70457,6 +70490,7 @@
       "0001475597-26-000198",
       "0001475597-26-000201",
       "0001475597-26-000202",
+      "0001475597-26-000203",
       "0001475856-26-000004",
       "0001475922-26-000074",
       "0001476150-26-000036",
@@ -72062,6 +72096,7 @@
       "0001712056-26-000008",
       "0001713683-26-000127",
       "0001713730-26-000009",
+      "0001713974-26-000002",
       "0001714460-26-000012",
       "0001714908-26-000007",
       "0001716837-26-000024",
@@ -72069,6 +72104,7 @@
       "0001717677-26-000009",
       "0001717718-26-000002",
       "0001719121-26-000014",
+      "0001721957-26-000003",
       "0001722154-26-000003",
       "0001722684-26-000075",
       "0001722984-26-000002",
@@ -74135,6 +74171,12 @@
       "0001839882-26-040423",
       "0001839882-26-040424",
       "0001839882-26-040425",
+      "0001839882-26-040433",
+      "0001839882-26-040434",
+      "0001839882-26-040435",
+      "0001839882-26-040436",
+      "0001839882-26-040437",
+      "0001839882-26-040438",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -76187,6 +76229,14 @@
       "0001918704-26-024088",
       "0001918704-26-024089",
       "0001918704-26-024090",
+      "0001918704-26-024127",
+      "0001918704-26-024128",
+      "0001918704-26-024129",
+      "0001918704-26-024130",
+      "0001918704-26-024131",
+      "0001918704-26-024132",
+      "0001918704-26-024133",
+      "0001918704-26-024134",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -76363,6 +76413,7 @@
       "0001998256-26-000011",
       "0001998332-26-000006",
       "0001998544-26-000006",
+      "0001998826-26-000016",
       "0001998941-26-000004",
       "0001999086-26-000021",
       "0001999371-26-015366",
@@ -76733,6 +76784,7 @@
       "0002032458-26-000022",
       "0002032661-26-000002",
       "0002033153-26-000013",
+      "0002034124-26-000007",
       "0002034144-26-000006",
       "0002034458-26-000007",
       "0002034782-26-000009",
