@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T18:04:09.165078+00:00",
+  "generatedAt": "2026-08-18T19:02:52.075458+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -21,6 +21,26 @@
       "type": "Sale",
       "shares": 489.0,
       "pricePerShare": 33.16,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "ABCL",
+      "issuerName": "AbCellera Biologics Inc.",
+      "insiderName": "Montalbano John S.",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 11.03,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "NTHI",
+      "issuerName": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+      "insiderName": "Heshmatpour Amir F",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 9000.0,
+      "pricePerShare": 5.54,
       "transactionDate": "2026-08-18"
     },
     {
@@ -491,6 +511,86 @@
       "type": "Sale",
       "shares": 3870.0,
       "pricePerShare": 50.893,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "NWPX",
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "insiderName": "MONTROSS SCOTT J",
+      "title": "President & CEO",
+      "type": "Sale",
+      "shares": 2500.0,
+      "pricePerShare": 115.1274,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "GABC",
+      "issuerName": "GERMAN AMERICAN BANCORP, INC.",
+      "insiderName": "KELLY JASON M",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 48.9067,
+      "pricePerShare": 51.1177,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "NWPX",
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "insiderName": "LARSON KEITH R",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1250.0,
+      "pricePerShare": 115.8631,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "FSLR",
+      "issuerName": "FIRST SOLAR, INC.",
+      "insiderName": "Sloan Samantha L.",
+      "title": "EVP, Corporate Affairs",
+      "type": "Sale",
+      "shares": 127.0,
+      "pricePerShare": 222.95,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "VTOL",
+      "issuerName": "Bristow Group Inc.",
+      "insiderName": "Brass Lorin L.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 210.0,
+      "pricePerShare": 46.7754,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "KN",
+      "issuerName": "Knowles Corp",
+      "insiderName": "SHAVERS CHERYL L",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 6443.0,
+      "pricePerShare": 39.27,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "KN",
+      "issuerName": "Knowles Corp",
+      "insiderName": "SHAVERS CHERYL L",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 175.0,
+      "pricePerShare": 39.28,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "WAB",
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "insiderName": "Sbrocco Gregory",
+      "title": "EVP Operations",
+      "type": "Sale",
+      "shares": 952.0,
+      "pricePerShare": 300.0,
       "transactionDate": "2026-08-17"
     },
     {
@@ -3141,6 +3241,36 @@
       "type": "Sale",
       "shares": 1000.0,
       "pricePerShare": 139.0,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "VENU",
+      "issuerName": "Venu Holding Corp",
+      "insiderName": "ROTH JAY W",
+      "title": "Director, CEO & Chairman, 10% Owner",
+      "type": "Purchase",
+      "shares": 4750.0,
+      "pricePerShare": 1.9715,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "CLH",
+      "issuerName": "CLEAN HARBORS INC",
+      "insiderName": "GERSTENBERG ERIC W",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2500.0,
+      "pricePerShare": 321.34,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "CBSH",
+      "issuerName": "COMMERCE BANCSHARES INC /MO/",
+      "insiderName": "Orf David L",
+      "title": "Exec. Vice President & CCO",
+      "type": "Sale",
+      "shares": 642.0,
+      "pricePerShare": 60.35,
       "transactionDate": "2026-08-14"
     },
     {
@@ -29872,136 +30002,6 @@
       "shares": 4000.0,
       "pricePerShare": 261.0156,
       "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "FUSB",
-      "issuerName": "FIRST US BANCSHARES, INC.",
-      "insiderName": "Pierce Staci",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 136.0,
-      "pricePerShare": 16.53,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "RVSB",
-      "issuerName": "RIVERVIEW BANCORP INC",
-      "insiderName": "Girod Jon Louis",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 1000.0,
-      "pricePerShare": 5.4075,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "LH",
-      "issuerName": "LABCORP HOLDINGS INC.",
-      "insiderName": "Wilkinson Peter J",
-      "title": "SVP, Chief Accounting Officer",
-      "type": "Sale",
-      "shares": 82.0,
-      "pricePerShare": 309.22,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "LH",
-      "issuerName": "LABCORP HOLDINGS INC.",
-      "insiderName": "Wilkinson Peter J",
-      "title": "SVP, Chief Accounting Officer",
-      "type": "Sale",
-      "shares": 1338.0,
-      "pricePerShare": 309.2311,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "VICR",
-      "issuerName": "VICOR CORP",
-      "insiderName": "Davies Philip D",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 200.0,
-      "pricePerShare": 200.055,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "VICR",
-      "issuerName": "VICOR CORP",
-      "insiderName": "Davies Philip D",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 201.62,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "VICR",
-      "issuerName": "VICOR CORP",
-      "insiderName": "Davies Philip D",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 203.91,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "VICR",
-      "issuerName": "VICOR CORP",
-      "insiderName": "Davies Philip D",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 200.0,
-      "pricePerShare": 206.42,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "VICR",
-      "issuerName": "VICOR CORP",
-      "insiderName": "Davies Philip D",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 209.42,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "VICR",
-      "issuerName": "VICOR CORP",
-      "insiderName": "Davies Philip D",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 500.0,
-      "pricePerShare": 212.536,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "VICR",
-      "issuerName": "VICOR CORP",
-      "insiderName": "Davies Philip D",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1372.0,
-      "pricePerShare": 214.0194,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "VICR",
-      "issuerName": "VICOR CORP",
-      "insiderName": "Davies Philip D",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 400.0,
-      "pricePerShare": 215.0275,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "VICR",
-      "issuerName": "VICOR CORP",
-      "insiderName": "Davies Philip D",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 216.04,
-      "transactionDate": "2026-08-03"
     }
   ],
   "byTicker": {
@@ -30042,6 +30042,66 @@
           "shares": 1198.0,
           "pricePerShare": 33.51,
           "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "ABCL": {
+      "issuerName": "AbCellera Biologics Inc.",
+      "trades": [
+        {
+          "ticker": "ABCL",
+          "issuerName": "AbCellera Biologics Inc.",
+          "insiderName": "Montalbano John S.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 11.03,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "ABCL",
+          "issuerName": "AbCellera Biologics Inc.",
+          "insiderName": "Hayden Michael R",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 46387.0,
+          "pricePerShare": 10.37,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "NTHI": {
+      "issuerName": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+      "trades": [
+        {
+          "ticker": "NTHI",
+          "issuerName": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+          "insiderName": "Heshmatpour Amir F",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 9000.0,
+          "pricePerShare": 5.54,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "NTHI",
+          "issuerName": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+          "insiderName": "Heshmatpour Amir F",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 3000.0,
+          "pricePerShare": 4.3733,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "NTHI",
+          "issuerName": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+          "insiderName": "Heshmatpour Amir F",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 12000.0,
+          "pricePerShare": 3.7883,
+          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -30327,31 +30387,6 @@
           "shares": 2034.0,
           "pricePerShare": 48.58,
           "transactionDate": "2026-08-03"
-        }
-      ]
-    },
-    "NTHI": {
-      "issuerName": "NEONC TECHNOLOGIES HOLDINGS, INC.",
-      "trades": [
-        {
-          "ticker": "NTHI",
-          "issuerName": "NEONC TECHNOLOGIES HOLDINGS, INC.",
-          "insiderName": "Heshmatpour Amir F",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 3000.0,
-          "pricePerShare": 4.3733,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "NTHI",
-          "issuerName": "NEONC TECHNOLOGIES HOLDINGS, INC.",
-          "insiderName": "Heshmatpour Amir F",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 12000.0,
-          "pricePerShare": 3.7883,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -31387,26 +31422,6 @@
           "shares": 924.0,
           "pricePerShare": 306.74,
           "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "LH",
-          "issuerName": "LABCORP HOLDINGS INC.",
-          "insiderName": "Wilkinson Peter J",
-          "title": "SVP, Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 82.0,
-          "pricePerShare": 309.22,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "LH",
-          "issuerName": "LABCORP HOLDINGS INC.",
-          "insiderName": "Wilkinson Peter J",
-          "title": "SVP, Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 1338.0,
-          "pricePerShare": 309.2311,
-          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -31862,6 +31877,206 @@
           "shares": 2000.0,
           "pricePerShare": 49.7756,
           "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "NWPX": {
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "trades": [
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "MONTROSS SCOTT J",
+          "title": "President & CEO",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 115.1274,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "LARSON KEITH R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1250.0,
+          "pricePerShare": 115.8631,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "GABC": {
+      "issuerName": "GERMAN AMERICAN BANCORP, INC.",
+      "trades": [
+        {
+          "ticker": "GABC",
+          "issuerName": "GERMAN AMERICAN BANCORP, INC.",
+          "insiderName": "KELLY JASON M",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 48.9067,
+          "pricePerShare": 51.1177,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "FSLR": {
+      "issuerName": "FIRST SOLAR, INC.",
+      "trades": [
+        {
+          "ticker": "FSLR",
+          "issuerName": "FIRST SOLAR, INC.",
+          "insiderName": "Sloan Samantha L.",
+          "title": "EVP, Corporate Affairs",
+          "type": "Sale",
+          "shares": 127.0,
+          "pricePerShare": 222.95,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "FSLR",
+          "issuerName": "FIRST SOLAR, INC.",
+          "insiderName": "Dymbort Jason E.",
+          "title": "General Counsel and Secretary",
+          "type": "Sale",
+          "shares": 3700.0,
+          "pricePerShare": 249.38,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "VTOL": {
+      "issuerName": "Bristow Group Inc.",
+      "trades": [
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 210.0,
+          "pricePerShare": 46.7754,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "KN": {
+      "issuerName": "Knowles Corp",
+      "trades": [
+        {
+          "ticker": "KN",
+          "issuerName": "Knowles Corp",
+          "insiderName": "SHAVERS CHERYL L",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 6443.0,
+          "pricePerShare": 39.27,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "KN",
+          "issuerName": "Knowles Corp",
+          "insiderName": "SHAVERS CHERYL L",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 175.0,
+          "pricePerShare": 39.28,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "WAB": {
+      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "trades": [
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Sbrocco Gregory",
+          "title": "EVP Operations",
+          "type": "Sale",
+          "shares": 952.0,
+          "pricePerShare": 300.0,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 397.0,
+          "pricePerShare": 296.1427,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 518.0,
+          "pricePerShare": 297.0532,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 194.0,
+          "pricePerShare": 298.2637,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 54.0,
+          "pricePerShare": 298.8481,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 80.0,
+          "pricePerShare": 296.4616,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 120.0,
+          "pricePerShare": 297.6759,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 334.0,
+          "pricePerShare": 298.8952,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "WAB",
+          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+          "insiderName": "Santana Rafael",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 629.0,
+          "pricePerShare": 299.6998,
+          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -39870,6 +40085,61 @@
         }
       ]
     },
+    "VENU": {
+      "issuerName": "Venu Holding Corp",
+      "trades": [
+        {
+          "ticker": "VENU",
+          "issuerName": "Venu Holding Corp",
+          "insiderName": "ROTH JAY W",
+          "title": "Director, CEO & Chairman, 10% Owner",
+          "type": "Purchase",
+          "shares": 4750.0,
+          "pricePerShare": 1.9715,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "CLH": {
+      "issuerName": "CLEAN HARBORS INC",
+      "trades": [
+        {
+          "ticker": "CLH",
+          "issuerName": "CLEAN HARBORS INC",
+          "insiderName": "GERSTENBERG ERIC W",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 321.34,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "CBSH": {
+      "issuerName": "COMMERCE BANCSHARES INC /MO/",
+      "trades": [
+        {
+          "ticker": "CBSH",
+          "issuerName": "COMMERCE BANCSHARES INC /MO/",
+          "insiderName": "Orf David L",
+          "title": "Exec. Vice President & CCO",
+          "type": "Sale",
+          "shares": 642.0,
+          "pricePerShare": 60.35,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "CBSH",
+          "issuerName": "COMMERCE BANCSHARES INC /MO/",
+          "insiderName": "Roller David L.",
+          "title": "Senior Vice President",
+          "type": "Sale",
+          "shares": 830.0,
+          "pricePerShare": 60.2766,
+          "transactionDate": "2026-08-04"
+        }
+      ]
+    },
     "BANF": {
       "issuerName": "BANCFIRST CORP /OK/",
       "trades": [
@@ -45252,16 +45522,6 @@
           "shares": 250.0,
           "pricePerShare": 5.309,
           "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "RVSB",
-          "issuerName": "RIVERVIEW BANCORP INC",
-          "insiderName": "Girod Jon Louis",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 5.4075,
-          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -46021,21 +46281,6 @@
           "type": "Sale",
           "shares": 5000.0,
           "pricePerShare": 20.279,
-          "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "ABCL": {
-      "issuerName": "AbCellera Biologics Inc.",
-      "trades": [
-        {
-          "ticker": "ABCL",
-          "issuerName": "AbCellera Biologics Inc.",
-          "insiderName": "Hayden Michael R",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 46387.0,
-          "pricePerShare": 10.37,
           "transactionDate": "2026-08-12"
         }
       ]
@@ -49356,21 +49601,6 @@
           "type": "Purchase",
           "shares": 50000.0,
           "pricePerShare": 4.15,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "FSLR": {
-      "issuerName": "FIRST SOLAR, INC.",
-      "trades": [
-        {
-          "ticker": "FSLR",
-          "issuerName": "FIRST SOLAR, INC.",
-          "insiderName": "Dymbort Jason E.",
-          "title": "General Counsel and Secretary",
-          "type": "Sale",
-          "shares": 3700.0,
-          "pricePerShare": 249.38,
           "transactionDate": "2026-08-11"
         }
       ]
@@ -60265,91 +60495,6 @@
         }
       ]
     },
-    "WAB": {
-      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-      "trades": [
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Santana Rafael",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 397.0,
-          "pricePerShare": 296.1427,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Santana Rafael",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 518.0,
-          "pricePerShare": 297.0532,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Santana Rafael",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 194.0,
-          "pricePerShare": 298.2637,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Santana Rafael",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 54.0,
-          "pricePerShare": 298.8481,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Santana Rafael",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 296.4616,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Santana Rafael",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 120.0,
-          "pricePerShare": 297.6759,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Santana Rafael",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 334.0,
-          "pricePerShare": 298.8952,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Santana Rafael",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 629.0,
-          "pricePerShare": 299.6998,
-          "transactionDate": "2026-08-04"
-        }
-      ]
-    },
     "LKFN": {
       "issuerName": "LAKELAND FINANCIAL CORP",
       "trades": [
@@ -61557,16 +61702,6 @@
           "shares": 619.0,
           "pricePerShare": 16.48,
           "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "FUSB",
-          "issuerName": "FIRST US BANCSHARES, INC.",
-          "insiderName": "Pierce Staci",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 136.0,
-          "pricePerShare": 16.53,
-          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -62231,21 +62366,6 @@
           "type": "Sale",
           "shares": 20000.0,
           "pricePerShare": 16.07,
-          "transactionDate": "2026-08-04"
-        }
-      ]
-    },
-    "CBSH": {
-      "issuerName": "COMMERCE BANCSHARES INC /MO/",
-      "trades": [
-        {
-          "ticker": "CBSH",
-          "issuerName": "COMMERCE BANCSHARES INC /MO/",
-          "insiderName": "Roller David L.",
-          "title": "Senior Vice President",
-          "type": "Sale",
-          "shares": 830.0,
-          "pricePerShare": 60.2766,
           "transactionDate": "2026-08-04"
         }
       ]
@@ -63284,101 +63404,6 @@
           "transactionDate": "2026-08-03"
         }
       ]
-    },
-    "VICR": {
-      "issuerName": "VICOR CORP",
-      "trades": [
-        {
-          "ticker": "VICR",
-          "issuerName": "VICOR CORP",
-          "insiderName": "Davies Philip D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 200.055,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "VICR",
-          "issuerName": "VICOR CORP",
-          "insiderName": "Davies Philip D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 201.62,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "VICR",
-          "issuerName": "VICOR CORP",
-          "insiderName": "Davies Philip D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 203.91,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "VICR",
-          "issuerName": "VICOR CORP",
-          "insiderName": "Davies Philip D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 206.42,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "VICR",
-          "issuerName": "VICOR CORP",
-          "insiderName": "Davies Philip D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 209.42,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "VICR",
-          "issuerName": "VICOR CORP",
-          "insiderName": "Davies Philip D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 212.536,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "VICR",
-          "issuerName": "VICOR CORP",
-          "insiderName": "Davies Philip D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1372.0,
-          "pricePerShare": 214.0194,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "VICR",
-          "issuerName": "VICOR CORP",
-          "insiderName": "Davies Philip D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 215.0275,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "VICR",
-          "issuerName": "VICOR CORP",
-          "insiderName": "Davies Philip D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 216.04,
-          "transactionDate": "2026-08-03"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63399,6 +63424,11 @@
       "0000007789-26-000205",
       "0000007789-26-000207",
       "0000007789-26-000208",
+      "0000007789-26-000209",
+      "0000007789-26-000210",
+      "0000007789-26-000211",
+      "0000007789-26-000212",
+      "0000007789-26-000213",
       "0000008818-26-000123",
       "0000008818-26-000134",
       "0000008818-26-000137",
@@ -63436,6 +63466,7 @@
       "0000022356-26-000181",
       "0000022356-26-000185",
       "0000022356-26-000192",
+      "0000022356-26-000197",
       "0000025475-26-000068",
       "0000026058-26-000030",
       "0000029915-26-000066",
@@ -65030,6 +65061,10 @@
       "0000950103-26-012523",
       "0000950103-26-012524",
       "0000950103-26-012525",
+      "0000950103-26-012533",
+      "0000950103-26-012534",
+      "0000950103-26-012535",
+      "0000950103-26-012536",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65104,6 +65139,7 @@
       "0001023731-26-000134",
       "0001024547-26-000012",
       "0001025355-26-000006",
+      "0001025835-26-000177",
       "0001028284-26-000011",
       "0001031318-26-000004",
       "0001032834-26-000006",
@@ -65898,6 +65934,12 @@
       "0001104659-26-098229",
       "0001104659-26-098231",
       "0001104659-26-098262",
+      "0001104659-26-098275",
+      "0001104659-26-098283",
+      "0001104659-26-098287",
+      "0001104659-26-098288",
+      "0001104659-26-098290",
+      "0001104659-26-098293",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68414,6 +68456,14 @@
       "0001193125-26-355187",
       "0001193125-26-355188",
       "0001193125-26-355192",
+      "0001193125-26-355238",
+      "0001193125-26-355240",
+      "0001193125-26-355247",
+      "0001193125-26-355254",
+      "0001193125-26-355257",
+      "0001193125-26-355268",
+      "0001193125-26-355276",
+      "0001193125-26-355281",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -68427,6 +68477,7 @@
       "0001196198-26-000003",
       "0001196460-26-000004",
       "0001196484-26-000014",
+      "0001196914-26-000003",
       "0001198444-26-000010",
       "0001200512-26-000016",
       "0001201007-26-000005",
@@ -68463,6 +68514,7 @@
       "0001211558-26-000014",
       "0001211558-26-000016",
       "0001211558-26-000018",
+      "0001211558-26-000020",
       "0001212774-26-000004",
       "0001213051-26-000010",
       "0001213272-26-000017",
@@ -69241,6 +69293,10 @@
       "0001213900-26-091132",
       "0001213900-26-091136",
       "0001213900-26-091137",
+      "0001213900-26-091150",
+      "0001213900-26-091159",
+      "0001213900-26-091167",
+      "0001213900-26-091170",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -69589,6 +69645,7 @@
       "0001273861-26-000005",
       "0001273878-26-000046",
       "0001274494-26-000178",
+      "0001274494-26-000180",
       "0001278521-26-000011",
       "0001278866-26-000003",
       "0001280628-26-000014",
@@ -70179,6 +70236,9 @@
       "0001437749-26-028307",
       "0001437749-26-028309",
       "0001437749-26-028320",
+      "0001437749-26-028330",
+      "0001437749-26-028333",
+      "0001437749-26-028336",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001441890-26-000005",
@@ -70721,6 +70781,7 @@
       "0001493152-26-038914",
       "0001493152-26-038958",
       "0001493152-26-038970",
+      "0001493152-26-038979",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -72134,6 +72195,7 @@
       "0001764372-26-000001",
       "0001764372-26-000002",
       "0001764372-26-000003",
+      "0001764530-26-000005",
       "0001764727-26-000008",
       "0001765729-26-000010",
       "0001766116-26-000022",
@@ -72164,6 +72226,7 @@
       "0001769628-26-000378",
       "0001769628-26-000380",
       "0001769628-26-000382",
+      "0001769976-26-000003",
       "0001770071-26-000010",
       "0001771146-26-001463",
       "0001771146-26-001465",
@@ -72571,6 +72634,7 @@
       "0001833511-26-000034",
       "0001834046-26-000008",
       "0001834164-26-000004",
+      "0001834423-26-000008",
       "0001834871-26-000011",
       "0001834902-26-000020",
       "0001834988-26-000008",
@@ -74068,6 +74132,9 @@
       "0001839882-26-040399",
       "0001839882-26-040401",
       "0001839882-26-040408",
+      "0001839882-26-040423",
+      "0001839882-26-040424",
+      "0001839882-26-040425",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -76106,6 +76173,20 @@
       "0001918704-26-024070",
       "0001918704-26-024071",
       "0001918704-26-024072",
+      "0001918704-26-024075",
+      "0001918704-26-024076",
+      "0001918704-26-024079",
+      "0001918704-26-024080",
+      "0001918704-26-024081",
+      "0001918704-26-024082",
+      "0001918704-26-024083",
+      "0001918704-26-024084",
+      "0001918704-26-024085",
+      "0001918704-26-024086",
+      "0001918704-26-024087",
+      "0001918704-26-024088",
+      "0001918704-26-024089",
+      "0001918704-26-024090",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -76842,6 +76923,7 @@
       "0002090733-26-000009",
       "0002091022-26-000010",
       "0002091730-26-000010",
+      "0002091734-26-000006",
       "0002092210-26-000015",
       "0002092575-26-000010",
       "0002093210-26-000002",
