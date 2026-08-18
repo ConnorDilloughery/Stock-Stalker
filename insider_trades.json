@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T12:03:54.484293+00:00",
+  "generatedAt": "2026-08-18T13:04:41.056305+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -351,6 +351,36 @@
       "type": "Purchase",
       "shares": 10928.4,
       "pricePerShare": 20.68,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "VAC",
+      "issuerName": "MARRIOTT VACATIONS WORLDWIDE Corp",
+      "insiderName": "Pighini Kathleen A.",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 2500.0,
+      "pricePerShare": 120.0,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "ENHA",
+      "issuerName": "Enhanced Group Inc.",
+      "insiderName": "Apeiron Investment Group Ltd.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 200000.0,
+      "pricePerShare": 1.6521,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "LH",
+      "issuerName": "LABCORP HOLDINGS INC.",
+      "insiderName": "ANDERSON KERRII B",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 3000.0,
+      "pricePerShare": 318.02,
       "transactionDate": "2026-08-17"
     },
     {
@@ -2771,6 +2801,46 @@
       "type": "Purchase",
       "shares": 15900.0,
       "pricePerShare": 12.54,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 13980.0,
+      "pricePerShare": 121.43,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 120.0,
+      "pricePerShare": 121.86,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "TG",
+      "issuerName": "TREDEGAR CORP",
+      "insiderName": "DasGupta Arijit",
+      "title": "Director, See Remarks",
+      "type": "Purchase",
+      "shares": 907.0,
+      "pricePerShare": 7.87,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "ACON",
+      "issuerName": "Aclarion, Inc.",
+      "insiderName": "Gould Gregory A",
+      "title": "CFO",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 2.45,
       "transactionDate": "2026-08-14"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 2463.0,
       "pricePerShare": 82.6744,
       "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 2500.0,
-      "pricePerShare": 83.6622,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 700.0,
-      "pricePerShare": 84.5783,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 2960.0,
-      "pricePerShare": 85.6244,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 12.0,
-      "pricePerShare": 70.56,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 3.0,
-      "pricePerShare": 72.1833,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 8.0,
-      "pricePerShare": 73.6163,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 7.0,
-      "pricePerShare": 75.64,
-      "transactionDate": "2026-08-03"
     }
   ],
   "byTicker": {
@@ -31272,6 +31272,101 @@
           "shares": 15317.0,
           "pricePerShare": 20.58,
           "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "VAC": {
+      "issuerName": "MARRIOTT VACATIONS WORLDWIDE Corp",
+      "trades": [
+        {
+          "ticker": "VAC",
+          "issuerName": "MARRIOTT VACATIONS WORLDWIDE Corp",
+          "insiderName": "Pighini Kathleen A.",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 120.0,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "ENHA": {
+      "issuerName": "Enhanced Group Inc.",
+      "trades": [
+        {
+          "ticker": "ENHA",
+          "issuerName": "Enhanced Group Inc.",
+          "insiderName": "Apeiron Investment Group Ltd.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 200000.0,
+          "pricePerShare": 1.6521,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "ENHA",
+          "issuerName": "Enhanced Group Inc.",
+          "insiderName": "Apeiron Investment Group Ltd.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 150000.0,
+          "pricePerShare": 1.9708,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "LH": {
+      "issuerName": "LABCORP HOLDINGS INC.",
+      "trades": [
+        {
+          "ticker": "LH",
+          "issuerName": "LABCORP HOLDINGS INC.",
+          "insiderName": "ANDERSON KERRII B",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 318.02,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "LH",
+          "issuerName": "LABCORP HOLDINGS INC.",
+          "insiderName": "Schechter Adam H",
+          "title": "Director, President & CEO",
+          "type": "Sale",
+          "shares": 4669.0,
+          "pricePerShare": 320.37,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "LH",
+          "issuerName": "LABCORP HOLDINGS INC.",
+          "insiderName": "Summy Amy B.",
+          "title": "EVP, Chief Marketing Officer",
+          "type": "Sale",
+          "shares": 924.0,
+          "pricePerShare": 306.74,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "LH",
+          "issuerName": "LABCORP HOLDINGS INC.",
+          "insiderName": "Wilkinson Peter J",
+          "title": "SVP, Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 82.0,
+          "pricePerShare": 309.22,
+          "transactionDate": "2026-08-03"
+        },
+        {
+          "ticker": "LH",
+          "issuerName": "LABCORP HOLDINGS INC.",
+          "insiderName": "Wilkinson Peter J",
+          "title": "SVP, Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 1338.0,
+          "pricePerShare": 309.2311,
+          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -34157,76 +34252,6 @@
           "shares": 2463.0,
           "pricePerShare": 82.6744,
           "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 2500.0,
-          "pricePerShare": 83.6622,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 700.0,
-          "pricePerShare": 84.5783,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 2960.0,
-          "pricePerShare": 85.6244,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 12.0,
-          "pricePerShare": 70.56,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 3.0,
-          "pricePerShare": 72.1833,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 8.0,
-          "pricePerShare": 73.6163,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 7.0,
-          "pricePerShare": 75.64,
-          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -34282,21 +34307,6 @@
           "shares": 20000.0,
           "pricePerShare": 27.46,
           "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "ENHA": {
-      "issuerName": "Enhanced Group Inc.",
-      "trades": [
-        {
-          "ticker": "ENHA",
-          "issuerName": "Enhanced Group Inc.",
-          "insiderName": "Apeiron Investment Group Ltd.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 150000.0,
-          "pricePerShare": 1.9708,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -39180,6 +39190,191 @@
         }
       ]
     },
+    "AFL": {
+      "issuerName": "AFLAC INC",
+      "trades": [
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13980.0,
+          "pricePerShare": 121.43,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 120.0,
+          "pricePerShare": 121.86,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13000.0,
+          "pricePerShare": 121.09,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "MOSKOWITZ JOSEPH L",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 600.0,
+          "pricePerShare": 124.1,
+          "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "TG": {
+      "issuerName": "TREDEGAR CORP",
+      "trades": [
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "DasGupta Arijit",
+          "title": "Director, See Remarks",
+          "type": "Purchase",
+          "shares": 907.0,
+          "pricePerShare": 7.87,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1020.0,
+          "pricePerShare": 8.003,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "Gottwald James T.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1020.0,
+          "pricePerShare": 8.003,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1021.0,
+          "pricePerShare": 8.003,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 13170.0,
+          "pricePerShare": 8.073,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 13170.0,
+          "pricePerShare": 8.073,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 17148.0,
+          "pricePerShare": 8.193,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 17148.0,
+          "pricePerShare": 8.193,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "ACON": {
+      "issuerName": "Aclarion, Inc.",
+      "trades": [
+        {
+          "ticker": "ACON",
+          "issuerName": "Aclarion, Inc.",
+          "insiderName": "Gould Gregory A",
+          "title": "CFO",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 2.45,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "ACON",
+          "issuerName": "Aclarion, Inc.",
+          "insiderName": "Bond Ryan",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 21122.0,
+          "pricePerShare": 2.37,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "ACON",
+          "issuerName": "Aclarion, Inc.",
+          "insiderName": "Wesemann William",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2150.0,
+          "pricePerShare": 2.34,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "ACON",
+          "issuerName": "Aclarion, Inc.",
+          "insiderName": "Neal David K",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 7500.0,
+          "pricePerShare": 2.4,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "ACON",
+          "issuerName": "Aclarion, Inc.",
+          "insiderName": "Ness Brent",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 5234.0,
+          "pricePerShare": 2.31,
+          "transactionDate": "2026-08-13"
+        }
+      ]
+    },
     "BANF": {
       "issuerName": "BANCFIRST CORP /OK/",
       "trades": [
@@ -42965,31 +43160,6 @@
         }
       ]
     },
-    "AFL": {
-      "issuerName": "AFLAC INC",
-      "trades": [
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13000.0,
-          "pricePerShare": 121.09,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "MOSKOWITZ JOSEPH L",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 600.0,
-          "pricePerShare": 124.1,
-          "transactionDate": "2026-08-10"
-        }
-      ]
-    },
     "NYAX": {
       "issuerName": "Nayax Ltd.",
       "trades": [
@@ -43001,51 +43171,6 @@
           "type": "Sale",
           "shares": 20.0,
           "pricePerShare": 52.61,
-          "transactionDate": "2026-08-13"
-        }
-      ]
-    },
-    "ACON": {
-      "issuerName": "Aclarion, Inc.",
-      "trades": [
-        {
-          "ticker": "ACON",
-          "issuerName": "Aclarion, Inc.",
-          "insiderName": "Bond Ryan",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 21122.0,
-          "pricePerShare": 2.37,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "ACON",
-          "issuerName": "Aclarion, Inc.",
-          "insiderName": "Wesemann William",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 2150.0,
-          "pricePerShare": 2.34,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "ACON",
-          "issuerName": "Aclarion, Inc.",
-          "insiderName": "Neal David K",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 7500.0,
-          "pricePerShare": 2.4,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "ACON",
-          "issuerName": "Aclarion, Inc.",
-          "insiderName": "Ness Brent",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 5234.0,
-          "pricePerShare": 2.31,
           "transactionDate": "2026-08-13"
         }
       ]
@@ -43182,81 +43307,6 @@
           "shares": 7339.0,
           "pricePerShare": 209.29,
           "transactionDate": "2026-08-13"
-        }
-      ]
-    },
-    "TG": {
-      "issuerName": "TREDEGAR CORP",
-      "trades": [
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD JOHN D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1020.0,
-          "pricePerShare": 8.003,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "Gottwald James T.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1020.0,
-          "pricePerShare": 8.003,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD WILLIAM M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1021.0,
-          "pricePerShare": 8.003,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD JOHN D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 13170.0,
-          "pricePerShare": 8.073,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD WILLIAM M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 13170.0,
-          "pricePerShare": 8.073,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD JOHN D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 17148.0,
-          "pricePerShare": 8.193,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD WILLIAM M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 17148.0,
-          "pricePerShare": 8.193,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -48557,51 +48607,6 @@
           "shares": 1000.0,
           "pricePerShare": 42.055,
           "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "LH": {
-      "issuerName": "LABCORP HOLDINGS INC.",
-      "trades": [
-        {
-          "ticker": "LH",
-          "issuerName": "LABCORP HOLDINGS INC.",
-          "insiderName": "Schechter Adam H",
-          "title": "Director, President & CEO",
-          "type": "Sale",
-          "shares": 4669.0,
-          "pricePerShare": 320.37,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "LH",
-          "issuerName": "LABCORP HOLDINGS INC.",
-          "insiderName": "Summy Amy B.",
-          "title": "EVP, Chief Marketing Officer",
-          "type": "Sale",
-          "shares": 924.0,
-          "pricePerShare": 306.74,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "LH",
-          "issuerName": "LABCORP HOLDINGS INC.",
-          "insiderName": "Wilkinson Peter J",
-          "title": "SVP, Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 82.0,
-          "pricePerShare": 309.22,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "LH",
-          "issuerName": "LABCORP HOLDINGS INC.",
-          "insiderName": "Wilkinson Peter J",
-          "title": "SVP, Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 1338.0,
-          "pricePerShare": 309.2311,
-          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -64222,6 +64227,7 @@
       "0000920148-26-000172",
       "0000920148-26-000176",
       "0000920148-26-000177",
+      "0000920148-26-000186",
       "0000921895-26-001848",
       "0000921895-26-001852",
       "0000921895-26-001917",
@@ -65807,6 +65813,7 @@
       "0001104659-26-098097",
       "0001104659-26-098101",
       "0001104659-26-098135",
+      "0001104659-26-098147",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68266,6 +68273,11 @@
       "0001193125-26-354653",
       "0001193125-26-354658",
       "0001193125-26-354675",
+      "0001193125-26-354763",
+      "0001193125-26-354766",
+      "0001193125-26-354769",
+      "0001193125-26-354786",
+      "0001193125-26-354788",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -69078,6 +69090,8 @@
       "0001213900-26-090977",
       "0001213900-26-090984",
       "0001213900-26-090988",
+      "0001213900-26-090997",
+      "0001213900-26-091005",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -69998,6 +70012,7 @@
       "0001437749-26-028236",
       "0001437749-26-028237",
       "0001437749-26-028239",
+      "0001437749-26-028259",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001441890-26-000005",
@@ -70529,6 +70544,8 @@
       "0001493152-26-038831",
       "0001493152-26-038862",
       "0001493152-26-038866",
+      "0001493152-26-038895",
+      "0001493152-26-038910",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -71493,6 +71510,7 @@
       "0001628280-26-057522",
       "0001628280-26-057525",
       "0001628280-26-057539",
+      "0001628280-26-057554",
       "0001629911-26-000006",
       "0001630196-26-000002",
       "0001632531-26-000002",
@@ -71728,6 +71746,9 @@
       "0001683168-26-006517",
       "0001683168-26-006536",
       "0001683168-26-006538",
+      "0001683168-26-006545",
+      "0001683168-26-006552",
+      "0001683168-26-006553",
       "0001687898-26-000009",
       "0001688236-26-000012",
       "0001688289-26-000018",
@@ -73993,6 +74014,7 @@
       "0001909539-26-000016",
       "0001911501-26-000006",
       "0001913953-26-000009",
+      "0001914807-26-000008",
       "0001916048-26-000009",
       "0001916473-26-000034",
       "0001917995-26-000011",
@@ -75773,6 +75795,9 @@
       "0001918704-26-023937",
       "0001918704-26-023938",
       "0001918704-26-023958",
+      "0001918704-26-023969",
+      "0001918704-26-023970",
+      "0001918704-26-023971",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -75936,6 +75961,7 @@
       "0001992104-26-000314",
       "0001992104-26-000315",
       "0001992104-26-000316",
+      "0001992394-26-000011",
       "0001993636-26-000009",
       "0001994334-26-000010",
       "0001994445-26-000006",
@@ -76607,6 +76633,7 @@
       "0002146462-26-000003",
       "0002146475-26-000002",
       "0002146717-26-000004",
+      "0002146822-26-000005",
       "0002146909-26-000004",
       "0002147247-26-000004",
       "0002147248-26-000003",
