@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T15:02:40.651329+00:00",
+  "generatedAt": "2026-08-18T16:04:33.318440+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -391,6 +391,36 @@
       "type": "Purchase",
       "shares": 27472.0,
       "pricePerShare": 3.878,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "TPL",
+      "issuerName": "Texas Pacific Land Corp",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 357.32,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "VIAV",
+      "issuerName": "VIAVI SOLUTIONS INC.",
+      "insiderName": "Black Laura A.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 71000.0,
+      "pricePerShare": 46.12,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "TER",
+      "issuerName": "TERADYNE, INC",
+      "insiderName": "Smith Gregory Stephen",
+      "title": "Director, President and CEO",
+      "type": "Sale",
+      "shares": 4000.0,
+      "pricePerShare": 425.0,
       "transactionDate": "2026-08-17"
     },
     {
@@ -2861,6 +2891,36 @@
       "type": "Purchase",
       "shares": 7500.0,
       "pricePerShare": 1.423,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "SKYH",
+      "issuerName": "Sky Harbour Group Corp",
+      "insiderName": "GESSOW ANDREW J",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 5000.0,
+      "pricePerShare": 10.85,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "PHVS",
+      "issuerName": "Pharvaris N.V.",
+      "insiderName": "Modig Berndt",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2292.0,
+      "pricePerShare": 34.7669,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "KARO",
+      "issuerName": "Karooooo Ltd.",
+      "insiderName": "Calisto Isaias Jose",
+      "title": "Director, CEO & Executive Chairman, 10% Owner",
+      "type": "Sale",
+      "shares": 978.0,
+      "pricePerShare": 63.2977,
       "transactionDate": "2026-08-14"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 1389.0,
       "pricePerShare": 54.089,
       "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "PCVX",
-      "issuerName": "Vaxcyte, Inc.",
-      "insiderName": "GUGGENHIME ANDREW",
-      "title": "PRESIDENT AND CFO",
-      "type": "Sale",
-      "shares": 6956.0,
-      "pricePerShare": 53.761,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "PCVX",
-      "issuerName": "Vaxcyte, Inc.",
-      "insiderName": "GUGGENHIME ANDREW",
-      "title": "PRESIDENT AND CFO",
-      "type": "Sale",
-      "shares": 3044.0,
-      "pricePerShare": 54.178,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "VSAT",
-      "issuerName": "VIASAT INC",
-      "insiderName": "Palmer Benjamin Edward",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2400.0,
-      "pricePerShare": 75.46,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "IBTA",
-      "issuerName": "Ibotta, Inc.",
-      "insiderName": "Leach Bryan",
-      "title": "Director, CEO AND PRESIDENT, 10% Owner",
-      "type": "Sale",
-      "shares": 14380.0,
-      "pricePerShare": 24.3943,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "IBTA",
-      "issuerName": "Ibotta, Inc.",
-      "insiderName": "Leach Bryan",
-      "title": "Director, CEO AND PRESIDENT, 10% Owner",
-      "type": "Sale",
-      "shares": 762.0,
-      "pricePerShare": 25.1652,
-      "transactionDate": "2026-08-03"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McBee Brannin",
-      "title": "Chief Development Officer",
-      "type": "Sale",
-      "shares": 730.0,
-      "pricePerShare": 80.4585,
-      "transactionDate": "2026-08-03"
     }
   ],
   "byTicker": {
@@ -31415,6 +31415,161 @@
         }
       ]
     },
+    "TPL": {
+      "issuerName": "Texas Pacific Land Corp",
+      "trades": [
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 357.32,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 357.56,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 343.02,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 353.15,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 352.62,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 345.1,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 353.28,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 355.62,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 385.95,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 392.66,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
+    "VIAV": {
+      "issuerName": "VIAVI SOLUTIONS INC.",
+      "trades": [
+        {
+          "ticker": "VIAV",
+          "issuerName": "VIAVI SOLUTIONS INC.",
+          "insiderName": "Black Laura A.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 71000.0,
+          "pricePerShare": 46.12,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "VIAV",
+          "issuerName": "VIAVI SOLUTIONS INC.",
+          "insiderName": "Solomon Joanne",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 42.92,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "VIAV",
+          "issuerName": "VIAVI SOLUTIONS INC.",
+          "insiderName": "McNab Paul",
+          "title": "EVP, Chief Mktg & Stgy Officer",
+          "type": "Sale",
+          "shares": 1595.0,
+          "pricePerShare": 37.37,
+          "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "TER": {
+      "issuerName": "TERADYNE, INC",
+      "trades": [
+        {
+          "ticker": "TER",
+          "issuerName": "TERADYNE, INC",
+          "insiderName": "Smith Gregory Stephen",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 4000.0,
+          "pricePerShare": 425.0,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
     "FMAO": {
       "issuerName": "FARMERS & MERCHANTS BANCORP INC",
       "trades": [
@@ -31457,31 +31612,6 @@
           "shares": 3000.0,
           "pricePerShare": 34.24,
           "transactionDate": "2026-08-06"
-        }
-      ]
-    },
-    "VIAV": {
-      "issuerName": "VIAVI SOLUTIONS INC.",
-      "trades": [
-        {
-          "ticker": "VIAV",
-          "issuerName": "VIAVI SOLUTIONS INC.",
-          "insiderName": "Solomon Joanne",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 10000.0,
-          "pricePerShare": 42.92,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "VIAV",
-          "issuerName": "VIAVI SOLUTIONS INC.",
-          "insiderName": "McNab Paul",
-          "title": "EVP, Chief Mktg & Stgy Officer",
-          "type": "Sale",
-          "shares": 1595.0,
-          "pricePerShare": 37.37,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -34267,16 +34397,6 @@
           "shares": 10.0,
           "pricePerShare": 93.501,
           "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McBee Brannin",
-          "title": "Chief Development Officer",
-          "type": "Sale",
-          "shares": 730.0,
-          "pricePerShare": 80.4585,
-          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -36067,101 +36187,6 @@
           "shares": 8000.0,
           "pricePerShare": 33.28,
           "transactionDate": "2026-08-14"
-        }
-      ]
-    },
-    "TPL": {
-      "issuerName": "Texas Pacific Land Corp",
-      "trades": [
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 357.56,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 343.02,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 353.15,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 352.62,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 345.1,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 353.28,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 355.62,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 385.95,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 392.66,
-          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -39380,6 +39405,151 @@
         }
       ]
     },
+    "SKYH": {
+      "issuerName": "Sky Harbour Group Corp",
+      "trades": [
+        {
+          "ticker": "SKYH",
+          "issuerName": "Sky Harbour Group Corp",
+          "insiderName": "GESSOW ANDREW J",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 10.85,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "SKYH",
+          "issuerName": "Sky Harbour Group Corp",
+          "insiderName": "BOSTON OMAHA Corp",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 360000.0,
+          "pricePerShare": 10.0,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "PHVS": {
+      "issuerName": "Pharvaris N.V.",
+      "trades": [
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Modig Berndt",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2292.0,
+          "pricePerShare": 34.7669,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "KARO": {
+      "issuerName": "Karooooo Ltd.",
+      "trades": [
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 978.0,
+          "pricePerShare": 63.2977,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 8235.0,
+          "pricePerShare": 63.5772,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 2158.0,
+          "pricePerShare": 63.0475,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 242.0,
+          "pricePerShare": 63.005,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 22549.0,
+          "pricePerShare": 63.2457,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&EC, 10% Owner",
+          "type": "Sale",
+          "shares": 12430.0,
+          "pricePerShare": 64.478,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&EC, 10% Owner",
+          "type": "Sale",
+          "shares": 18849.0,
+          "pricePerShare": 63.2888,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 33833.0,
+          "pricePerShare": 66.1396,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 25594.0,
+          "pricePerShare": 64.6035,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 20417.0,
+          "pricePerShare": 64.5101,
+          "transactionDate": "2026-08-03"
+        }
+      ]
+    },
     "BANF": {
       "issuerName": "BANCFIRST CORP /OK/",
       "trades": [
@@ -40197,101 +40367,6 @@
           "shares": 12045.0,
           "pricePerShare": 32.68,
           "transactionDate": "2026-08-13"
-        }
-      ]
-    },
-    "KARO": {
-      "issuerName": "Karooooo Ltd.",
-      "trades": [
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 8235.0,
-          "pricePerShare": 63.5772,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 2158.0,
-          "pricePerShare": 63.0475,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 242.0,
-          "pricePerShare": 63.005,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 22549.0,
-          "pricePerShare": 63.2457,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO&EC, 10% Owner",
-          "type": "Sale",
-          "shares": 12430.0,
-          "pricePerShare": 64.478,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO&EC, 10% Owner",
-          "type": "Sale",
-          "shares": 18849.0,
-          "pricePerShare": 63.2888,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO&Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 33833.0,
-          "pricePerShare": 66.1396,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO&Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 25594.0,
-          "pricePerShare": 64.6035,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 20417.0,
-          "pricePerShare": 64.5101,
-          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -49787,21 +49862,6 @@
           "shares": 7692.0,
           "pricePerShare": 54.98,
           "transactionDate": "2026-08-04"
-        }
-      ]
-    },
-    "SKYH": {
-      "issuerName": "Sky Harbour Group Corp",
-      "trades": [
-        {
-          "ticker": "SKYH",
-          "issuerName": "Sky Harbour Group Corp",
-          "insiderName": "BOSTON OMAHA Corp",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 360000.0,
-          "pricePerShare": 10.0,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -59677,26 +59737,6 @@
           "shares": 1389.0,
           "pricePerShare": 54.089,
           "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "PCVX",
-          "issuerName": "Vaxcyte, Inc.",
-          "insiderName": "GUGGENHIME ANDREW",
-          "title": "PRESIDENT AND CFO",
-          "type": "Sale",
-          "shares": 6956.0,
-          "pricePerShare": 53.761,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "PCVX",
-          "issuerName": "Vaxcyte, Inc.",
-          "insiderName": "GUGGENHIME ANDREW",
-          "title": "PRESIDENT AND CFO",
-          "type": "Sale",
-          "shares": 3044.0,
-          "pricePerShare": 54.178,
-          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -61657,26 +61697,6 @@
           "shares": 529.0,
           "pricePerShare": 37.4141,
           "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "IBTA",
-          "issuerName": "Ibotta, Inc.",
-          "insiderName": "Leach Bryan",
-          "title": "Director, CEO AND PRESIDENT, 10% Owner",
-          "type": "Sale",
-          "shares": 14380.0,
-          "pricePerShare": 24.3943,
-          "transactionDate": "2026-08-03"
-        },
-        {
-          "ticker": "IBTA",
-          "issuerName": "Ibotta, Inc.",
-          "insiderName": "Leach Bryan",
-          "title": "Director, CEO AND PRESIDENT, 10% Owner",
-          "type": "Sale",
-          "shares": 762.0,
-          "pricePerShare": 25.1652,
-          "transactionDate": "2026-08-03"
         }
       ]
     },
@@ -63359,21 +63379,6 @@
           "transactionDate": "2026-08-03"
         }
       ]
-    },
-    "VSAT": {
-      "issuerName": "VIASAT INC",
-      "trades": [
-        {
-          "ticker": "VSAT",
-          "issuerName": "VIASAT INC",
-          "insiderName": "Palmer Benjamin Edward",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2400.0,
-          "pricePerShare": 75.46,
-          "transactionDate": "2026-08-03"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63405,6 +63410,8 @@
       "0000009712-26-000103",
       "0000009712-26-000104",
       "0000009712-26-000105",
+      "0000009712-26-000108",
+      "0000009712-26-000109",
       "0000009713-26-000196",
       "0000011544-26-000041",
       "0000011544-26-000042",
@@ -63593,6 +63600,7 @@
       "0000079879-26-000264",
       "0000079879-26-000265",
       "0000079879-26-000266",
+      "0000079879-26-000267",
       "0000080424-26-000105",
       "0000080424-26-000106",
       "0000080424-26-000107",
@@ -64146,6 +64154,7 @@
       "0000902664-26-003434",
       "0000904454-26-000415",
       "0000904454-26-000425",
+      "0000904454-26-000464",
       "0000904548-26-000013",
       "0000905148-26-003390",
       "0000905148-26-003409",
@@ -64194,6 +64203,7 @@
       "0000911971-26-000051",
       "0000912093-26-000056",
       "0000912093-26-000058",
+      "0000912093-26-000060",
       "0000912282-26-000993",
       "0000912282-26-000995",
       "0000912282-26-000998",
@@ -64318,6 +64328,8 @@
       "0000939057-26-000180",
       "0000939057-26-000181",
       "0000939057-26-000183",
+      "0000939057-26-000184",
+      "0000939057-26-000185",
       "0000939767-26-000101",
       "0000943452-26-000004",
       "0000943452-26-000005",
@@ -64991,6 +65003,12 @@
       "0000950103-26-012499",
       "0000950103-26-012500",
       "0000950103-26-012501",
+      "0000950103-26-012504",
+      "0000950103-26-012507",
+      "0000950103-26-012508",
+      "0000950103-26-012509",
+      "0000950103-26-012510",
+      "0000950103-26-012511",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66258,6 +66276,8 @@
       "0001140361-26-033519",
       "0001140361-26-033522",
       "0001140361-26-033524",
+      "0001140361-26-033526",
+      "0001140361-26-033528",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -68334,6 +68354,14 @@
       "0001193125-26-354800",
       "0001193125-26-354878",
       "0001193125-26-354879",
+      "0001193125-26-354901",
+      "0001193125-26-354928",
+      "0001193125-26-354934",
+      "0001193125-26-354941",
+      "0001193125-26-354962",
+      "0001193125-26-354963",
+      "0001193125-26-354965",
+      "0001193125-26-354971",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -69149,6 +69177,7 @@
       "0001213900-26-090997",
       "0001213900-26-091005",
       "0001213900-26-091039",
+      "0001213900-26-091056",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -69569,6 +69598,7 @@
       "0001324069-26-000039",
       "0001324478-26-000004",
       "0001326598-26-000003",
+      "0001327749-26-000005",
       "0001328600-26-000002",
       "0001331210-26-000002",
       "0001331271-26-000064",
@@ -70077,6 +70107,9 @@
       "0001437749-26-028259",
       "0001437749-26-028276",
       "0001437749-26-028278",
+      "0001437749-26-028295",
+      "0001437749-26-028299",
+      "0001437749-26-028303",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001441890-26-000005",
@@ -70234,6 +70267,7 @@
       "0001445546-26-006089",
       "0001445546-26-006090",
       "0001445546-26-006091",
+      "0001445546-26-006099",
       "0001448765-26-000011",
       "0001450800-26-000006",
       "0001451455-26-000009",
@@ -70713,6 +70747,7 @@
       "0001526520-26-000155",
       "0001526520-26-000157",
       "0001526849-26-000007",
+      "0001527106-26-000005",
       "0001527541-26-000265",
       "0001527541-26-000267",
       "0001527541-26-000269",
@@ -71583,6 +71618,13 @@
       "0001628280-26-057539",
       "0001628280-26-057554",
       "0001628280-26-057557",
+      "0001628280-26-057594",
+      "0001628280-26-057595",
+      "0001628280-26-057596",
+      "0001628280-26-057597",
+      "0001628280-26-057598",
+      "0001628280-26-057599",
+      "0001628280-26-057600",
       "0001629911-26-000006",
       "0001630196-26-000002",
       "0001632531-26-000002",
@@ -72217,6 +72259,7 @@
       "0001810201-26-000008",
       "0001810239-26-000006",
       "0001810477-26-000002",
+      "0001810673-26-000004",
       "0001810680-26-000003",
       "0001811061-26-000002",
       "0001811389-26-000002",
@@ -73917,6 +73960,19 @@
       "0001839882-26-040336",
       "0001839882-26-040337",
       "0001839882-26-040339",
+      "0001839882-26-040355",
+      "0001839882-26-040357",
+      "0001839882-26-040358",
+      "0001839882-26-040362",
+      "0001839882-26-040363",
+      "0001839882-26-040368",
+      "0001839882-26-040369",
+      "0001839882-26-040370",
+      "0001839882-26-040371",
+      "0001839882-26-040373",
+      "0001839882-26-040375",
+      "0001839882-26-040376",
+      "0001839882-26-040377",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -75935,6 +75991,15 @@
       "0001918704-26-024045",
       "0001918704-26-024046",
       "0001918704-26-024047",
+      "0001918704-26-024052",
+      "0001918704-26-024053",
+      "0001918704-26-024054",
+      "0001918704-26-024055",
+      "0001918704-26-024056",
+      "0001918704-26-024057",
+      "0001918704-26-024058",
+      "0001918704-26-024059",
+      "0001918704-26-024060",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -76388,6 +76453,7 @@
       "0001999371-26-018068",
       "0001999371-26-018081",
       "0001999371-26-018097",
+      "0001999371-26-018145",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0002000276-26-000006",
@@ -76499,6 +76565,7 @@
       "0002040815-26-000018",
       "0002041211-26-000014",
       "0002041625-26-000004",
+      "0002041944-26-000005",
       "0002042934-26-000008",
       "0002043506-26-000005",
       "0002043520-26-000006",
