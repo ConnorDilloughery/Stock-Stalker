@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T14:01:40.187430+00:00",
+  "generatedAt": "2026-08-19T15:02:55.747276+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -601,6 +601,56 @@
       "type": "Sale",
       "shares": 100.0,
       "pricePerShare": 46.545,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "UFPT",
+      "issuerName": "UFP TECHNOLOGIES INC",
+      "insiderName": "Hudson Symeria",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 298.0,
+      "pricePerShare": 319.11,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "PFS",
+      "issuerName": "PROVIDENT FINANCIAL SERVICES INC",
+      "insiderName": "Giannola Vito",
+      "title": "EVP & CRBO of provident Bank",
+      "type": "Sale",
+      "shares": 20000.0,
+      "pricePerShare": 24.36,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "ATXG",
+      "issuerName": "ADDENTAX GROUP CORP.",
+      "insiderName": "HONG ZHIWANG",
+      "title": "Director, 10% Owner",
+      "type": "Purchase",
+      "shares": 218750.0,
+      "pricePerShare": 4.8,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "JOUT",
+      "issuerName": "JOHNSON OUTDOORS INC",
+      "insiderName": "Stevens Edward A",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 6250.0,
+      "pricePerShare": 47.86,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "GAIN",
+      "issuerName": "GLADSTONE INVESTMENT CORPORATION\\DE",
+      "insiderName": "Ritchie Taylor",
+      "title": "Chief Financial Officer",
+      "type": "Purchase",
+      "shares": 1500.0,
+      "pricePerShare": 16.2,
       "transactionDate": "2026-08-18"
     },
     {
@@ -2111,6 +2161,26 @@
       "type": "Sale",
       "shares": 5718.0,
       "pricePerShare": 83.192,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "TISI",
+      "issuerName": "TEAM INC",
+      "insiderName": "Lederman Evan S.",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 500.0,
+      "pricePerShare": 23.0,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "MTB",
+      "issuerName": "M&T BANK CORP",
+      "insiderName": "Taylor John R.",
+      "title": "EVP and Controller",
+      "type": "Sale",
+      "shares": 1217.0,
+      "pricePerShare": 253.84,
       "transactionDate": "2026-08-17"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 702.0,
       "pricePerShare": 235.22,
       "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "UPLD",
-      "issuerName": "Upland Software, Inc.",
-      "insiderName": "Mattox Timothy",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 1000.0,
-      "pricePerShare": 4.33,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ILMN",
-      "issuerName": "ILLUMINA, INC.",
-      "insiderName": "Meister Keith A.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 7202.0,
-      "pricePerShare": 196.74,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ILMN",
-      "issuerName": "ILLUMINA, INC.",
-      "insiderName": "Meister Keith A.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 27854.0,
-      "pricePerShare": 197.48,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ILMN",
-      "issuerName": "ILLUMINA, INC.",
-      "insiderName": "Meister Keith A.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 166501.0,
-      "pricePerShare": 198.24,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ILMN",
-      "issuerName": "ILLUMINA, INC.",
-      "insiderName": "Meister Keith A.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 35160.0,
-      "pricePerShare": 199.51,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ILMN",
-      "issuerName": "ILLUMINA, INC.",
-      "insiderName": "Meister Keith A.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 37242.0,
-      "pricePerShare": 200.65,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ILMN",
-      "issuerName": "ILLUMINA, INC.",
-      "insiderName": "Meister Keith A.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 67725.0,
-      "pricePerShare": 201.44,
-      "transactionDate": "2026-08-04"
     }
   ],
   "byTicker": {
@@ -32837,6 +32837,171 @@
           "shares": 210.0,
           "pricePerShare": 46.7754,
           "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "UFPT": {
+      "issuerName": "UFP TECHNOLOGIES INC",
+      "trades": [
+        {
+          "ticker": "UFPT",
+          "issuerName": "UFP TECHNOLOGIES INC",
+          "insiderName": "Hudson Symeria",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 298.0,
+          "pricePerShare": 319.11,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "UFPT",
+          "issuerName": "UFP TECHNOLOGIES INC",
+          "insiderName": "Hudson Symeria",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1926.0,
+          "pricePerShare": 324.58,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "UFPT",
+          "issuerName": "UFP TECHNOLOGIES INC",
+          "insiderName": "FELDMANN CYNTHIA L",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 324.26,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "UFPT",
+          "issuerName": "UFP TECHNOLOGIES INC",
+          "insiderName": "BAILLY R JEFFREY",
+          "title": "Director, Executive Chairman",
+          "type": "Sale",
+          "shares": 5771.0,
+          "pricePerShare": 315.53,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "UFPT",
+          "issuerName": "UFP TECHNOLOGIES INC",
+          "insiderName": "BAILLY R JEFFREY",
+          "title": "Director, Executive Chairman",
+          "type": "Sale",
+          "shares": 6866.0,
+          "pricePerShare": 316.58,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "UFPT",
+          "issuerName": "UFP TECHNOLOGIES INC",
+          "insiderName": "BAILLY R JEFFREY",
+          "title": "Director, Executive Chairman",
+          "type": "Sale",
+          "shares": 374.0,
+          "pricePerShare": 317.27,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "UFPT",
+          "issuerName": "UFP TECHNOLOGIES INC",
+          "insiderName": "BAILLY R JEFFREY",
+          "title": "Director, Executive Chairman",
+          "type": "Sale",
+          "shares": 542.0,
+          "pricePerShare": 315.06,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "UFPT",
+          "issuerName": "UFP TECHNOLOGIES INC",
+          "insiderName": "BAILLY R JEFFREY",
+          "title": "Director, Executive Chairman",
+          "type": "Sale",
+          "shares": 4471.0,
+          "pricePerShare": 318.21,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "UFPT",
+          "issuerName": "UFP TECHNOLOGIES INC",
+          "insiderName": "BAILLY R JEFFREY",
+          "title": "Director, Executive Chairman",
+          "type": "Sale",
+          "shares": 7877.0,
+          "pricePerShare": 318.12,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "UFPT",
+          "issuerName": "UFP TECHNOLOGIES INC",
+          "insiderName": "BAILLY R JEFFREY",
+          "title": "Director, Executive Chairman",
+          "type": "Sale",
+          "shares": 2805.0,
+          "pricePerShare": 320.05,
+          "transactionDate": "2026-08-06"
+        }
+      ]
+    },
+    "PFS": {
+      "issuerName": "PROVIDENT FINANCIAL SERVICES INC",
+      "trades": [
+        {
+          "ticker": "PFS",
+          "issuerName": "PROVIDENT FINANCIAL SERVICES INC",
+          "insiderName": "Giannola Vito",
+          "title": "EVP & CRBO of provident Bank",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 24.36,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "ATXG": {
+      "issuerName": "ADDENTAX GROUP CORP.",
+      "trades": [
+        {
+          "ticker": "ATXG",
+          "issuerName": "ADDENTAX GROUP CORP.",
+          "insiderName": "HONG ZHIWANG",
+          "title": "Director, 10% Owner",
+          "type": "Purchase",
+          "shares": 218750.0,
+          "pricePerShare": 4.8,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "JOUT": {
+      "issuerName": "JOHNSON OUTDOORS INC",
+      "trades": [
+        {
+          "ticker": "JOUT",
+          "issuerName": "JOHNSON OUTDOORS INC",
+          "insiderName": "Stevens Edward A",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 6250.0,
+          "pricePerShare": 47.86,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "GAIN": {
+      "issuerName": "GLADSTONE INVESTMENT CORPORATION\\DE",
+      "trades": [
+        {
+          "ticker": "GAIN",
+          "issuerName": "GLADSTONE INVESTMENT CORPORATION\\DE",
+          "insiderName": "Ritchie Taylor",
+          "title": "Chief Financial Officer",
+          "type": "Purchase",
+          "shares": 1500.0,
+          "pricePerShare": 16.2,
+          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -37547,6 +37712,66 @@
           "shares": 5718.0,
           "pricePerShare": 83.192,
           "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "TISI": {
+      "issuerName": "TEAM INC",
+      "trades": [
+        {
+          "ticker": "TISI",
+          "issuerName": "TEAM INC",
+          "insiderName": "Lederman Evan S.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 500.0,
+          "pricePerShare": 23.0,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "TISI",
+          "issuerName": "TEAM INC",
+          "insiderName": "McGinnis Pamela J.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 22.9,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TISI",
+          "issuerName": "TEAM INC",
+          "insiderName": "Corre Partners Management, LLC",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1604326.0,
+          "pricePerShare": 35.5,
+          "transactionDate": "2026-08-06"
+        }
+      ]
+    },
+    "MTB": {
+      "issuerName": "M&T BANK CORP",
+      "trades": [
+        {
+          "ticker": "MTB",
+          "issuerName": "M&T BANK CORP",
+          "insiderName": "Taylor John R.",
+          "title": "EVP and Controller",
+          "type": "Sale",
+          "shares": 1217.0,
+          "pricePerShare": 253.84,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "MTB",
+          "issuerName": "M&T BANK CORP",
+          "insiderName": "WALTERS KIRK W",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 9.3659,
+          "pricePerShare": 253.7724,
+          "transactionDate": "2026-08-05"
         }
       ]
     },
@@ -43465,101 +43690,6 @@
         }
       ]
     },
-    "UFPT": {
-      "issuerName": "UFP TECHNOLOGIES INC",
-      "trades": [
-        {
-          "ticker": "UFPT",
-          "issuerName": "UFP TECHNOLOGIES INC",
-          "insiderName": "Hudson Symeria",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1926.0,
-          "pricePerShare": 324.58,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "UFPT",
-          "issuerName": "UFP TECHNOLOGIES INC",
-          "insiderName": "FELDMANN CYNTHIA L",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 324.26,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "UFPT",
-          "issuerName": "UFP TECHNOLOGIES INC",
-          "insiderName": "BAILLY R JEFFREY",
-          "title": "Director, Executive Chairman",
-          "type": "Sale",
-          "shares": 5771.0,
-          "pricePerShare": 315.53,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "UFPT",
-          "issuerName": "UFP TECHNOLOGIES INC",
-          "insiderName": "BAILLY R JEFFREY",
-          "title": "Director, Executive Chairman",
-          "type": "Sale",
-          "shares": 6866.0,
-          "pricePerShare": 316.58,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "UFPT",
-          "issuerName": "UFP TECHNOLOGIES INC",
-          "insiderName": "BAILLY R JEFFREY",
-          "title": "Director, Executive Chairman",
-          "type": "Sale",
-          "shares": 374.0,
-          "pricePerShare": 317.27,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "UFPT",
-          "issuerName": "UFP TECHNOLOGIES INC",
-          "insiderName": "BAILLY R JEFFREY",
-          "title": "Director, Executive Chairman",
-          "type": "Sale",
-          "shares": 542.0,
-          "pricePerShare": 315.06,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "UFPT",
-          "issuerName": "UFP TECHNOLOGIES INC",
-          "insiderName": "BAILLY R JEFFREY",
-          "title": "Director, Executive Chairman",
-          "type": "Sale",
-          "shares": 4471.0,
-          "pricePerShare": 318.21,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "UFPT",
-          "issuerName": "UFP TECHNOLOGIES INC",
-          "insiderName": "BAILLY R JEFFREY",
-          "title": "Director, Executive Chairman",
-          "type": "Sale",
-          "shares": 7877.0,
-          "pricePerShare": 318.12,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "UFPT",
-          "issuerName": "UFP TECHNOLOGIES INC",
-          "insiderName": "BAILLY R JEFFREY",
-          "title": "Director, Executive Chairman",
-          "type": "Sale",
-          "shares": 2805.0,
-          "pricePerShare": 320.05,
-          "transactionDate": "2026-08-06"
-        }
-      ]
-    },
     "SNEX": {
       "issuerName": "StoneX Group Inc.",
       "trades": [
@@ -46312,31 +46442,6 @@
           "shares": 20.0,
           "pricePerShare": 52.61,
           "transactionDate": "2026-08-13"
-        }
-      ]
-    },
-    "TISI": {
-      "issuerName": "TEAM INC",
-      "trades": [
-        {
-          "ticker": "TISI",
-          "issuerName": "TEAM INC",
-          "insiderName": "McGinnis Pamela J.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 2000.0,
-          "pricePerShare": 22.9,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "TISI",
-          "issuerName": "TEAM INC",
-          "insiderName": "Corre Partners Management, LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1604326.0,
-          "pricePerShare": 35.5,
-          "transactionDate": "2026-08-06"
         }
       ]
     },
@@ -57407,16 +57512,6 @@
           "shares": 1000.0,
           "pricePerShare": 4.53,
           "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "UPLD",
-          "issuerName": "Upland Software, Inc.",
-          "insiderName": "Mattox Timothy",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 4.33,
-          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -61887,66 +61982,6 @@
           "shares": 2450.0,
           "pricePerShare": 203.28,
           "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ILMN",
-          "issuerName": "ILLUMINA, INC.",
-          "insiderName": "Meister Keith A.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7202.0,
-          "pricePerShare": 196.74,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "ILMN",
-          "issuerName": "ILLUMINA, INC.",
-          "insiderName": "Meister Keith A.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 27854.0,
-          "pricePerShare": 197.48,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "ILMN",
-          "issuerName": "ILLUMINA, INC.",
-          "insiderName": "Meister Keith A.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 166501.0,
-          "pricePerShare": 198.24,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "ILMN",
-          "issuerName": "ILLUMINA, INC.",
-          "insiderName": "Meister Keith A.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 35160.0,
-          "pricePerShare": 199.51,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "ILMN",
-          "issuerName": "ILLUMINA, INC.",
-          "insiderName": "Meister Keith A.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 37242.0,
-          "pricePerShare": 200.65,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "ILMN",
-          "issuerName": "ILLUMINA, INC.",
-          "insiderName": "Meister Keith A.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 67725.0,
-          "pricePerShare": 201.44,
-          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -62276,21 +62311,6 @@
           "type": "Sale",
           "shares": 500.0,
           "pricePerShare": 87.13,
-          "transactionDate": "2026-08-05"
-        }
-      ]
-    },
-    "MTB": {
-      "issuerName": "M&T BANK CORP",
-      "trades": [
-        {
-          "ticker": "MTB",
-          "issuerName": "M&T BANK CORP",
-          "insiderName": "WALTERS KIRK W",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 9.3659,
-          "pricePerShare": 253.7724,
           "transactionDate": "2026-08-05"
         }
       ]
@@ -64329,6 +64349,7 @@
       "0000939057-26-000196",
       "0000939057-26-000197",
       "0000939057-26-000200",
+      "0000939057-26-000201",
       "0000939767-26-000101",
       "0000943452-26-000004",
       "0000943452-26-000005",
@@ -65143,6 +65164,7 @@
       "0001032834-26-000006",
       "0001035145-26-000004",
       "0001035422-26-000001",
+      "0001035422-26-000005",
       "0001035986-26-000005",
       "0001037589-26-000005",
       "0001037646-26-000057",
@@ -65173,6 +65195,7 @@
       "0001040674-26-000061",
       "0001041061-26-000153",
       "0001041061-26-000155",
+      "0001042167-26-000062",
       "0001045450-26-000044",
       "0001045450-26-000045",
       "0001045463-26-000010",
@@ -65947,6 +65970,7 @@
       "0001104659-26-098600",
       "0001104659-26-098602",
       "0001104659-26-098603",
+      "0001104659-26-098631",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66361,6 +66385,11 @@
       "0001140361-26-033537",
       "0001140361-26-033637",
       "0001140361-26-033683",
+      "0001140361-26-033685",
+      "0001140361-26-033687",
+      "0001140361-26-033689",
+      "0001140361-26-033692",
+      "0001140361-26-033693",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -68525,6 +68554,8 @@
       "0001193125-26-356247",
       "0001193125-26-356251",
       "0001193125-26-356258",
+      "0001193125-26-356323",
+      "0001193125-26-356327",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -68535,6 +68566,7 @@
       "0001194948-26-000009",
       "0001194948-26-000011",
       "0001195052-26-000006",
+      "0001195052-26-000008",
       "0001196198-26-000003",
       "0001196460-26-000004",
       "0001196484-26-000014",
@@ -69375,6 +69407,9 @@
       "0001213900-26-091449",
       "0001213900-26-091451",
       "0001213900-26-091457",
+      "0001213900-26-091463",
+      "0001213900-26-091476",
+      "0001213900-26-091485",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -70504,6 +70539,8 @@
       "0001445546-26-006090",
       "0001445546-26-006091",
       "0001445546-26-006099",
+      "0001445546-26-006116",
+      "0001445546-26-006117",
       "0001448765-26-000011",
       "0001450800-26-000006",
       "0001451455-26-000009",
@@ -70907,6 +70944,7 @@
       "0001493152-26-039115",
       "0001493152-26-039124",
       "0001493152-26-039145",
+      "0001493152-26-039156",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -71915,6 +71953,7 @@
       "0001628280-26-057830",
       "0001628280-26-057850",
       "0001628280-26-057853",
+      "0001628280-26-057857",
       "0001629911-26-000006",
       "0001630196-26-000002",
       "0001632531-26-000002",
@@ -72264,6 +72303,7 @@
       "0001731363-26-000007",
       "0001731365-26-000007",
       "0001731395-26-000007",
+      "0001732510-26-000006",
       "0001732716-26-000014",
       "0001732716-26-000016",
       "0001732717-26-000021",
@@ -72271,6 +72311,7 @@
       "0001733065-26-000011",
       "0001733065-26-000013",
       "0001733126-26-000007",
+      "0001733544-26-000004",
       "0001733998-26-000129",
       "0001733998-26-000131",
       "0001733998-26-000133",
@@ -74323,6 +74364,21 @@
       "0001839882-26-040533",
       "0001839882-26-040534",
       "0001839882-26-040537",
+      "0001839882-26-040541",
+      "0001839882-26-040551",
+      "0001839882-26-040553",
+      "0001839882-26-040554",
+      "0001839882-26-040556",
+      "0001839882-26-040557",
+      "0001839882-26-040558",
+      "0001839882-26-040565",
+      "0001839882-26-040566",
+      "0001839882-26-040567",
+      "0001839882-26-040573",
+      "0001839882-26-040576",
+      "0001839882-26-040577",
+      "0001839882-26-040578",
+      "0001839882-26-040579",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -74517,6 +74573,7 @@
       "0001911501-26-000006",
       "0001913953-26-000009",
       "0001914807-26-000008",
+      "0001915814-26-000008",
       "0001916048-26-000009",
       "0001916473-26-000034",
       "0001917995-26-000011",
@@ -76398,6 +76455,16 @@
       "0001918704-26-024226",
       "0001918704-26-024227",
       "0001918704-26-024228",
+      "0001918704-26-024229",
+      "0001918704-26-024230",
+      "0001918704-26-024231",
+      "0001918704-26-024232",
+      "0001918704-26-024233",
+      "0001918704-26-024234",
+      "0001918704-26-024235",
+      "0001918704-26-024236",
+      "0001918704-26-024237",
+      "0001918704-26-024238",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -76864,6 +76931,8 @@
       "0001999371-26-018081",
       "0001999371-26-018097",
       "0001999371-26-018145",
+      "0001999371-26-018185",
+      "0001999371-26-018190",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0002000276-26-000006",
@@ -77003,6 +77072,7 @@
       "0002044800-26-000006",
       "0002045034-26-000003",
       "0002045034-26-000005",
+      "0002045064-26-000004",
       "0002045848-26-000007",
       "0002046824-26-000020",
       "0002047774-26-000007",
@@ -77156,6 +77226,7 @@
       "0002084956-26-000056",
       "0002084956-26-000058",
       "0002084956-26-000060",
+      "0002084956-26-000062",
       "0002088410-26-000008",
       "0002088549-26-000007",
       "0002088880-26-000006",
