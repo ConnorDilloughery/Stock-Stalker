@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-08-19T18:05:31.903939+00:00",
+  "generatedAt": "2026-08-19T19:04:36.338633+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "SSB",
+      "issuerName": "SouthState Bank Corp",
+      "insiderName": "MATTHEWS WILLIAM E V",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 4000.0,
+      "pricePerShare": 108.93,
+      "transactionDate": "2026-08-19"
+    },
     {
       "ticker": "SRI",
       "issuerName": "STONERIDGE INC",
@@ -731,6 +741,36 @@
       "type": "Sale",
       "shares": 5057.0,
       "pricePerShare": 106.98,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "LIN",
+      "issuerName": "LINDE PLC",
+      "insiderName": "Reynolds Paula Rosput",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 100.0,
+      "pricePerShare": 479.115,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "VZ",
+      "issuerName": "VERIZON COMMUNICATIONS INC",
+      "insiderName": "Malady Kyle",
+      "title": "EVP and Group CEO-VZ Business",
+      "type": "Sale",
+      "shares": 1100.0,
+      "pricePerShare": 48.68,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "BKKT",
+      "issuerName": "Bakkt, Inc.",
+      "insiderName": "ALFRED MICHAEL",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 296567.0,
+      "pricePerShare": 7.12,
       "transactionDate": "2026-08-18"
     },
     {
@@ -5741,6 +5781,26 @@
       "type": "Purchase",
       "shares": 11608.0,
       "pricePerShare": 2.0853,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "NUE",
+      "issuerName": "NUCOR CORP",
+      "insiderName": "Topalian Leon J",
+      "title": "Chair and CEO",
+      "type": "Sale",
+      "shares": 25898.0,
+      "pricePerShare": 268.518,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "NUE",
+      "issuerName": "NUCOR CORP",
+      "insiderName": "Topalian Leon J",
+      "title": "Chair and CEO",
+      "type": "Sale",
+      "shares": 102.0,
+      "pricePerShare": 269.29,
       "transactionDate": "2026-08-14"
     },
     {
@@ -29942,69 +30002,64 @@
       "shares": 1.0,
       "pricePerShare": 10.1887,
       "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "NMZ",
-      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-      "insiderName": "BANK OF AMERICA CORP /DE/",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 1.0,
-      "pricePerShare": 10.185,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "NMZ",
-      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-      "insiderName": "BANK OF AMERICA CORP /DE/",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 1.0,
-      "pricePerShare": 10.175,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "NMZ",
-      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-      "insiderName": "BANK OF AMERICA CORP /DE/",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 1.0,
-      "pricePerShare": 10.2412,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "NMZ",
-      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-      "insiderName": "BANK OF AMERICA CORP /DE/",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 1.0,
-      "pricePerShare": 10.3237,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "NMZ",
-      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-      "insiderName": "BANK OF AMERICA CORP /DE/",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 1.0,
-      "pricePerShare": 10.2301,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "FSS",
-      "issuerName": "FEDERAL SIGNAL CORP /DE/",
-      "insiderName": "REICHELDERFER BRENDA",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 6070.0,
-      "pricePerShare": 131.0169,
-      "transactionDate": "2026-08-04"
     }
   ],
   "byTicker": {
+    "SSB": {
+      "issuerName": "SouthState Bank Corp",
+      "trades": [
+        {
+          "ticker": "SSB",
+          "issuerName": "SouthState Bank Corp",
+          "insiderName": "MATTHEWS WILLIAM E V",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4000.0,
+          "pricePerShare": 108.93,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "SSB",
+          "issuerName": "SouthState Bank Corp",
+          "insiderName": "Brooks David R",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 18000.0,
+          "pricePerShare": 110.0,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "SSB",
+          "issuerName": "SouthState Bank Corp",
+          "insiderName": "Brooks David R",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1800.0,
+          "pricePerShare": 110.0,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "SSB",
+          "issuerName": "SouthState Bank Corp",
+          "insiderName": "Brooks David R",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 110.0,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "SSB",
+          "issuerName": "SouthState Bank Corp",
+          "insiderName": "Brooks David R",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3750.0,
+          "pricePerShare": 110.0,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
     "SRI": {
       "issuerName": "STONERIDGE INC",
       "trades": [
@@ -33381,6 +33436,51 @@
           "type": "Sale",
           "shares": 5057.0,
           "pricePerShare": 106.98,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "LIN": {
+      "issuerName": "LINDE PLC",
+      "trades": [
+        {
+          "ticker": "LIN",
+          "issuerName": "LINDE PLC",
+          "insiderName": "Reynolds Paula Rosput",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 100.0,
+          "pricePerShare": 479.115,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "VZ": {
+      "issuerName": "VERIZON COMMUNICATIONS INC",
+      "trades": [
+        {
+          "ticker": "VZ",
+          "issuerName": "VERIZON COMMUNICATIONS INC",
+          "insiderName": "Malady Kyle",
+          "title": "EVP and Group CEO-VZ Business",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 48.68,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "BKKT": {
+      "issuerName": "Bakkt, Inc.",
+      "trades": [
+        {
+          "ticker": "BKKT",
+          "issuerName": "Bakkt, Inc.",
+          "insiderName": "ALFRED MICHAEL",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 296567.0,
+          "pricePerShare": 7.12,
           "transactionDate": "2026-08-18"
         }
       ]
@@ -44631,6 +44731,31 @@
           "type": "Purchase",
           "shares": 11608.0,
           "pricePerShare": 2.0853,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "NUE": {
+      "issuerName": "NUCOR CORP",
+      "trades": [
+        {
+          "ticker": "NUE",
+          "issuerName": "NUCOR CORP",
+          "insiderName": "Topalian Leon J",
+          "title": "Chair and CEO",
+          "type": "Sale",
+          "shares": 25898.0,
+          "pricePerShare": 268.518,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "NUE",
+          "issuerName": "NUCOR CORP",
+          "insiderName": "Topalian Leon J",
+          "title": "Chair and CEO",
+          "type": "Sale",
+          "shares": 102.0,
+          "pricePerShare": 269.29,
           "transactionDate": "2026-08-14"
         }
       ]
@@ -62265,51 +62390,6 @@
         }
       ]
     },
-    "SSB": {
-      "issuerName": "SouthState Bank Corp",
-      "trades": [
-        {
-          "ticker": "SSB",
-          "issuerName": "SouthState Bank Corp",
-          "insiderName": "Brooks David R",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 18000.0,
-          "pricePerShare": 110.0,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "SSB",
-          "issuerName": "SouthState Bank Corp",
-          "insiderName": "Brooks David R",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1800.0,
-          "pricePerShare": 110.0,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "SSB",
-          "issuerName": "SouthState Bank Corp",
-          "insiderName": "Brooks David R",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1100.0,
-          "pricePerShare": 110.0,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "SSB",
-          "issuerName": "SouthState Bank Corp",
-          "insiderName": "Brooks David R",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3750.0,
-          "pricePerShare": 110.0,
-          "transactionDate": "2026-08-05"
-        }
-      ]
-    },
     "ATRC": {
       "issuerName": "AtriCure, Inc.",
       "trades": [
@@ -63227,16 +63307,6 @@
           "shares": 100.0,
           "pricePerShare": 131.05,
           "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "FSS",
-          "issuerName": "FEDERAL SIGNAL CORP /DE/",
-          "insiderName": "REICHELDERFER BRENDA",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 6070.0,
-          "pricePerShare": 131.0169,
-          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -63326,56 +63396,6 @@
           "type": "Purchase",
           "shares": 1.0,
           "pricePerShare": 10.1887,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "NMZ",
-          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-          "insiderName": "BANK OF AMERICA CORP /DE/",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 10.185,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "NMZ",
-          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-          "insiderName": "BANK OF AMERICA CORP /DE/",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 10.175,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "NMZ",
-          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-          "insiderName": "BANK OF AMERICA CORP /DE/",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1.0,
-          "pricePerShare": 10.2412,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "NMZ",
-          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-          "insiderName": "BANK OF AMERICA CORP /DE/",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1.0,
-          "pricePerShare": 10.3237,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "NMZ",
-          "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-          "insiderName": "BANK OF AMERICA CORP /DE/",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1.0,
-          "pricePerShare": 10.2301,
           "transactionDate": "2026-08-04"
         }
       ]
@@ -63597,6 +63617,7 @@
       "0000070858-26-000411",
       "0000070858-26-000439",
       "0000073309-26-000126",
+      "0000073309-26-000131",
       "0000073756-26-000141",
       "0000073756-26-000142",
       "0000074260-26-000089",
@@ -64259,6 +64280,7 @@
       "0000919574-26-005033",
       "0000919574-26-005197",
       "0000919574-26-005601",
+      "0000919574-26-005625",
       "0000920148-26-000172",
       "0000920148-26-000176",
       "0000920148-26-000177",
@@ -65112,6 +65134,8 @@
       "0000950103-26-012635",
       "0000950103-26-012636",
       "0000950103-26-012637",
+      "0000950103-26-012639",
+      "0000950103-26-012640",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66021,6 +66045,8 @@
       "0001104659-26-098690",
       "0001104659-26-098702",
       "0001104659-26-098708",
+      "0001104659-26-098729",
+      "0001104659-26-098733",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66111,6 +66137,7 @@
       "0001133228-26-011277",
       "0001133228-26-011279",
       "0001133228-26-011377",
+      "0001133228-26-011379",
       "0001133416-26-000065",
       "0001134261-26-000005",
       "0001134261-26-000007",
@@ -66447,6 +66474,7 @@
       "0001140361-26-033705",
       "0001140361-26-033708",
       "0001140361-26-033710",
+      "0001140361-26-033721",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -66566,6 +66594,7 @@
       "0001189395-26-000002",
       "0001189410-26-000008",
       "0001189422-26-000031",
+      "0001190221-26-000004",
       "0001191702-26-000001",
       "0001191702-26-000002",
       "0001192482-26-000430",
@@ -68643,6 +68672,14 @@
       "0001193125-26-356622",
       "0001193125-26-356641",
       "0001193125-26-356643",
+      "0001193125-26-356682",
+      "0001193125-26-356695",
+      "0001193125-26-356711",
+      "0001193125-26-356719",
+      "0001193125-26-356743",
+      "0001193125-26-356744",
+      "0001193125-26-356745",
+      "0001193125-26-356746",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -69505,6 +69542,9 @@
       "0001213900-26-091561",
       "0001213900-26-091563",
       "0001213900-26-091569",
+      "0001213900-26-091582",
+      "0001213900-26-091586",
+      "0001213900-26-091589",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -70162,6 +70202,7 @@
       "0001398344-26-014742",
       "0001398344-26-014798",
       "0001398344-26-014897",
+      "0001398344-26-014923",
       "0001399967-26-000002",
       "0001401336-26-000020",
       "0001402348-26-000016",
@@ -70672,6 +70713,7 @@
       "0001464521-26-000111",
       "0001464521-26-000113",
       "0001464521-26-000115",
+      "0001464631-26-000007",
       "0001466017-26-000004",
       "0001466026-26-000079",
       "0001466026-26-000081",
@@ -72065,6 +72107,9 @@
       "0001628280-26-057853",
       "0001628280-26-057857",
       "0001628280-26-057868",
+      "0001628280-26-057899",
+      "0001628280-26-057900",
+      "0001628280-26-057911",
       "0001629911-26-000006",
       "0001630196-26-000002",
       "0001632531-26-000002",
@@ -72506,6 +72551,7 @@
       "0001759234-26-000008",
       "0001760265-26-000003",
       "0001760581-26-000040",
+      "0001760581-26-000044",
       "0001762956-26-000003",
       "0001763161-26-000011",
       "0001763554-26-000010",
@@ -72945,6 +72991,7 @@
       "0001829126-26-008947",
       "0001829126-26-008962",
       "0001829126-26-009059",
+      "0001829126-26-009063",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -74531,6 +74578,11 @@
       "0001839882-26-040639",
       "0001839882-26-040650",
       "0001839882-26-040651",
+      "0001839882-26-040654",
+      "0001839882-26-040655",
+      "0001839882-26-040658",
+      "0001839882-26-040659",
+      "0001839882-26-040660",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -76643,6 +76695,10 @@
       "0001918704-26-024268",
       "0001918704-26-024269",
       "0001918704-26-024272",
+      "0001918704-26-024273",
+      "0001918704-26-024274",
+      "0001918704-26-024275",
+      "0001918704-26-024276",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
