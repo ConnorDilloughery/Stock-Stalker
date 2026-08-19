@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T11:02:56.773194+00:00",
+  "generatedAt": "2026-08-19T12:04:54.193842+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -471,6 +471,36 @@
       "type": "Sale",
       "shares": 19513.0,
       "pricePerShare": 47.07,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "EDRY",
+      "issuerName": "EuroDry Ltd.",
+      "insiderName": "Pittas Aristeidis P",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 300.0,
+      "pricePerShare": 39.5,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "EDRY",
+      "issuerName": "EuroDry Ltd.",
+      "insiderName": "Pittas Aristeidis P",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 300.0,
+      "pricePerShare": 39.5,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "EDRY",
+      "issuerName": "EuroDry Ltd.",
+      "insiderName": "Pariaros Symeon",
+      "title": "Chief Administrative Officer",
+      "type": "Sale",
+      "shares": 2700.0,
+      "pricePerShare": 42.0,
       "transactionDate": "2026-08-18"
     },
     {
@@ -5271,6 +5301,16 @@
       "type": "Sale",
       "shares": 950.0,
       "pricePerShare": 110.0,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "GRCE",
+      "issuerName": "Grace Therapeutics, Inc.",
+      "insiderName": "Opaleye Management Inc.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 11608.0,
+      "pricePerShare": 2.0853,
       "transactionDate": "2026-08-14"
     },
     {
@@ -20964,6 +21004,16 @@
       "transactionDate": "2026-08-07"
     },
     {
+      "ticker": "CCHH",
+      "issuerName": "CCH Holdings Ltd",
+      "insiderName": "Goh Kok E",
+      "title": "Director, Chairman and CEO and COO",
+      "type": "Sale",
+      "shares": 4872500.0,
+      "pricePerShare": 0.276,
+      "transactionDate": "2026-08-07"
+    },
+    {
       "ticker": "SILC",
       "issuerName": "SILICOM LTD.",
       "insiderName": "Gilad Eran",
@@ -29952,56 +30002,6 @@
       "shares": 8800.0,
       "pricePerShare": 41.5269,
       "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "PAY",
-      "issuerName": "Paymentus Holdings, Inc.",
-      "insiderName": "Kalra Sanjay",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 6200.0,
-      "pricePerShare": 42.3585,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "FNRN",
-      "issuerName": "FIRST NORTHERN COMMUNITY BANCORP",
-      "insiderName": "Schulze Mark C",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 3000.0,
-      "pricePerShare": 18.4036,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "CNXN",
-      "issuerName": "PC CONNECTION INC",
-      "insiderName": "GALLUP PATRICIA",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 3968.0,
-      "pricePerShare": 85.79,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "CNXN",
-      "issuerName": "PC CONNECTION INC",
-      "insiderName": "GALLUP PATRICIA",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 3041.0,
-      "pricePerShare": 87.01,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "CNXN",
-      "issuerName": "PC CONNECTION INC",
-      "insiderName": "GALLUP PATRICIA",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 133.0,
-      "pricePerShare": 87.47,
-      "transactionDate": "2026-08-04"
     }
   ],
   "byTicker": {
@@ -32387,6 +32387,81 @@
           "shares": 4312.0,
           "pricePerShare": 47.74,
           "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "EDRY": {
+      "issuerName": "EuroDry Ltd.",
+      "trades": [
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 300.0,
+          "pricePerShare": 39.5,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 300.0,
+          "pricePerShare": 39.5,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pariaros Symeon",
+          "title": "Chief Administrative Officer",
+          "type": "Sale",
+          "shares": 2700.0,
+          "pricePerShare": 42.0,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pariaros Symeon",
+          "title": "Chief Administrative Officer",
+          "type": "Sale",
+          "shares": 1900.0,
+          "pricePerShare": 39.98,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Karmiri Stefania",
+          "title": "Corporate Secretary",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 38.5,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 250.0,
+          "pricePerShare": 37.803,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 250.0,
+          "pricePerShare": 37.803,
+          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -43860,6 +43935,21 @@
         }
       ]
     },
+    "GRCE": {
+      "issuerName": "Grace Therapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "GRCE",
+          "issuerName": "Grace Therapeutics, Inc.",
+          "insiderName": "Opaleye Management Inc.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 11608.0,
+          "pricePerShare": 2.0853,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
     "BANF": {
       "issuerName": "BANCFIRST CORP /OK/",
       "trades": [
@@ -46907,16 +46997,6 @@
           "shares": 500.0,
           "pricePerShare": 18.321,
           "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "FNRN",
-          "issuerName": "FIRST NORTHERN COMMUNITY BANCORP",
-          "insiderName": "Schulze Mark C",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 18.4036,
-          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -47147,51 +47227,6 @@
           "shares": 158460.0,
           "pricePerShare": 19.2,
           "transactionDate": "2026-08-05"
-        }
-      ]
-    },
-    "EDRY": {
-      "issuerName": "EuroDry Ltd.",
-      "trades": [
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pariaros Symeon",
-          "title": "Chief Administrative Officer",
-          "type": "Sale",
-          "shares": 1900.0,
-          "pricePerShare": 39.98,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Karmiri Stefania",
-          "title": "Corporate Secretary",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 38.5,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 250.0,
-          "pricePerShare": 37.803,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 250.0,
-          "pricePerShare": 37.803,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -57935,6 +57970,21 @@
         }
       ]
     },
+    "CCHH": {
+      "issuerName": "CCH Holdings Ltd",
+      "trades": [
+        {
+          "ticker": "CCHH",
+          "issuerName": "CCH Holdings Ltd",
+          "insiderName": "Goh Kok E",
+          "title": "Director, Chairman and CEO and COO",
+          "type": "Sale",
+          "shares": 4872500.0,
+          "pricePerShare": 0.276,
+          "transactionDate": "2026-08-07"
+        }
+      ]
+    },
     "RBKB": {
       "issuerName": "Rhinebeck Bancorp, Inc.",
       "trades": [
@@ -61972,16 +62022,6 @@
           "shares": 8800.0,
           "pricePerShare": 41.5269,
           "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "PAY",
-          "issuerName": "Paymentus Holdings, Inc.",
-          "insiderName": "Kalra Sanjay",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6200.0,
-          "pricePerShare": 42.3585,
-          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -62017,36 +62057,6 @@
           "shares": 200.0,
           "pricePerShare": 85.82,
           "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "CNXN",
-          "issuerName": "PC CONNECTION INC",
-          "insiderName": "GALLUP PATRICIA",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3968.0,
-          "pricePerShare": 85.79,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "CNXN",
-          "issuerName": "PC CONNECTION INC",
-          "insiderName": "GALLUP PATRICIA",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3041.0,
-          "pricePerShare": 87.01,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "CNXN",
-          "issuerName": "PC CONNECTION INC",
-          "insiderName": "GALLUP PATRICIA",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 133.0,
-          "pricePerShare": 87.47,
-          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -65929,6 +65939,7 @@
       "0001104659-26-098317",
       "0001104659-26-098473",
       "0001104659-26-098538",
+      "0001104659-26-098581",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68499,6 +68510,7 @@
       "0001193125-26-356097",
       "0001193125-26-356101",
       "0001193125-26-356109",
+      "0001193125-26-356132",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -69344,6 +69356,7 @@
       "0001213900-26-091387",
       "0001213900-26-091390",
       "0001213900-26-091395",
+      "0001213900-26-091415",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -70863,6 +70876,8 @@
       "0001493152-26-039094",
       "0001493152-26-039097",
       "0001493152-26-039099",
+      "0001493152-26-039115",
+      "0001493152-26-039124",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -77165,6 +77180,7 @@
       "0002122338-26-000005",
       "0002122338-26-000006",
       "0002122342-26-000005",
+      "0002122342-26-000006",
       "0002122411-26-000001",
       "0002123155-26-000002",
       "0002123843-26-000008",
@@ -77176,6 +77192,7 @@
       "0002125533-26-000015",
       "0002126940-26-000004",
       "0002127484-26-000012",
+      "0002127484-26-000014",
       "0002127674-26-000002",
       "0002127814-26-000004",
       "0002127908-26-000004",
