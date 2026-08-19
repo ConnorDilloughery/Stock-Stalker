@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T16:03:25.955773+00:00",
+  "generatedAt": "2026-08-19T17:02:32.562345+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -681,6 +681,36 @@
       "type": "Purchase",
       "shares": 756.0,
       "pricePerShare": 2.8,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "AEIS",
+      "issuerName": "ADVANCED ENERGY INDUSTRIES INC",
+      "insiderName": "Vonne Elizabeth Karpinski",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 908.0,
+      "pricePerShare": 332.68,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "TG",
+      "issuerName": "TREDEGAR CORP",
+      "insiderName": "GOTTWALD WILLIAM M",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3472.0,
+      "pricePerShare": 8.005,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "TG",
+      "issuerName": "TREDEGAR CORP",
+      "insiderName": "Gottwald James T.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3472.0,
+      "pricePerShare": 8.005,
       "transactionDate": "2026-08-18"
     },
     {
@@ -2221,6 +2251,46 @@
       "type": "Purchase",
       "shares": 4100.0,
       "pricePerShare": 1.198,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "TG",
+      "issuerName": "TREDEGAR CORP",
+      "insiderName": "GOTTWALD WILLIAM M",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 7718.0,
+      "pricePerShare": 8.016,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "UMH",
+      "issuerName": "UMH PROPERTIES, INC.",
+      "insiderName": "Mitchell William Edward",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 64.0,
+      "pricePerShare": 15.625,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "UMH",
+      "issuerName": "UMH PROPERTIES, INC.",
+      "insiderName": "Miller Kevin S.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 64.0,
+      "pricePerShare": 15.625,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "TG",
+      "issuerName": "TREDEGAR CORP",
+      "insiderName": "Gottwald James T.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 7719.0,
+      "pricePerShare": 8.016,
       "transactionDate": "2026-08-17"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 1500.0,
       "pricePerShare": 144.78,
       "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "NEO",
-      "issuerName": "NEOGENOMICS INC",
-      "insiderName": "Aunan Greg D",
-      "title": "Chief Accounting Officer",
-      "type": "Sale",
-      "shares": 20000.0,
-      "pricePerShare": 16.07,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "YSS",
-      "issuerName": "York Space Systems Inc.",
-      "insiderName": "BlackRock Portfolio Management LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 77743.0,
-      "pricePerShare": 15.02,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "YSS",
-      "issuerName": "York Space Systems Inc.",
-      "insiderName": "BlackRock Portfolio Management LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 456310.0,
-      "pricePerShare": 15.58,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "CBSH",
-      "issuerName": "COMMERCE BANCSHARES INC /MO/",
-      "insiderName": "Roller David L.",
-      "title": "Senior Vice President",
-      "type": "Sale",
-      "shares": 830.0,
-      "pricePerShare": 60.2766,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "UMBF",
-      "issuerName": "UMB FINANCIAL CORP",
-      "insiderName": "KEMPER J MARINER",
-      "title": "Director, Chairman and CEO",
-      "type": "Sale",
-      "shares": 15062.0,
-      "pricePerShare": 148.55,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ETSY",
-      "issuerName": "ETSY INC",
-      "insiderName": "Baker Charles",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 159.0,
-      "pricePerShare": 84.94,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ETSY",
-      "issuerName": "ETSY INC",
-      "insiderName": "Baker Charles",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1053.0,
-      "pricePerShare": 85.77,
-      "transactionDate": "2026-08-04"
     }
   ],
   "byTicker": {
@@ -33207,6 +33207,146 @@
           "shares": 756.0,
           "pricePerShare": 3.06,
           "transactionDate": "2026-08-04"
+        }
+      ]
+    },
+    "AEIS": {
+      "issuerName": "ADVANCED ENERGY INDUSTRIES INC",
+      "trades": [
+        {
+          "ticker": "AEIS",
+          "issuerName": "ADVANCED ENERGY INDUSTRIES INC",
+          "insiderName": "Vonne Elizabeth Karpinski",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 908.0,
+          "pricePerShare": 332.68,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "TG": {
+      "issuerName": "TREDEGAR CORP",
+      "trades": [
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3472.0,
+          "pricePerShare": 8.005,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "Gottwald James T.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3472.0,
+          "pricePerShare": 8.005,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7718.0,
+          "pricePerShare": 8.016,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "Gottwald James T.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7719.0,
+          "pricePerShare": 8.016,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "DasGupta Arijit",
+          "title": "Director, See Remarks",
+          "type": "Purchase",
+          "shares": 907.0,
+          "pricePerShare": 7.87,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1020.0,
+          "pricePerShare": 8.003,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "Gottwald James T.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1020.0,
+          "pricePerShare": 8.003,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1021.0,
+          "pricePerShare": 8.003,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 13170.0,
+          "pricePerShare": 8.073,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 13170.0,
+          "pricePerShare": 8.073,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 17148.0,
+          "pricePerShare": 8.193,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 17148.0,
+          "pricePerShare": 8.193,
+          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -37907,6 +38047,31 @@
           "shares": 4400.0,
           "pricePerShare": 1.096,
           "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "UMH": {
+      "issuerName": "UMH PROPERTIES, INC.",
+      "trades": [
+        {
+          "ticker": "UMH",
+          "issuerName": "UMH PROPERTIES, INC.",
+          "insiderName": "Mitchell William Edward",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 64.0,
+          "pricePerShare": 15.625,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "UMH",
+          "issuerName": "UMH PROPERTIES, INC.",
+          "insiderName": "Miller Kevin S.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 64.0,
+          "pricePerShare": 15.625,
+          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -43815,91 +43980,6 @@
         }
       ]
     },
-    "TG": {
-      "issuerName": "TREDEGAR CORP",
-      "trades": [
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "DasGupta Arijit",
-          "title": "Director, See Remarks",
-          "type": "Purchase",
-          "shares": 907.0,
-          "pricePerShare": 7.87,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD JOHN D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1020.0,
-          "pricePerShare": 8.003,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "Gottwald James T.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1020.0,
-          "pricePerShare": 8.003,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD WILLIAM M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1021.0,
-          "pricePerShare": 8.003,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD JOHN D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 13170.0,
-          "pricePerShare": 8.073,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD WILLIAM M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 13170.0,
-          "pricePerShare": 8.073,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD JOHN D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 17148.0,
-          "pricePerShare": 8.193,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD WILLIAM M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 17148.0,
-          "pricePerShare": 8.193,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
     "PHVS": {
       "issuerName": "Pharvaris N.V.",
       "trades": [
@@ -44252,16 +44332,6 @@
           "shares": 642.0,
           "pricePerShare": 60.35,
           "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CBSH",
-          "issuerName": "COMMERCE BANCSHARES INC /MO/",
-          "insiderName": "Roller David L.",
-          "title": "Senior Vice President",
-          "type": "Sale",
-          "shares": 830.0,
-          "pricePerShare": 60.2766,
-          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -57027,26 +57097,6 @@
           "shares": 11884.0,
           "pricePerShare": 15.28,
           "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "YSS",
-          "issuerName": "York Space Systems Inc.",
-          "insiderName": "BlackRock Portfolio Management LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 77743.0,
-          "pricePerShare": 15.02,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "YSS",
-          "issuerName": "York Space Systems Inc.",
-          "insiderName": "BlackRock Portfolio Management LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 456310.0,
-          "pricePerShare": 15.58,
-          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -60317,16 +60367,6 @@
           "shares": 145.0,
           "pricePerShare": 147.3,
           "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "UMBF",
-          "issuerName": "UMB FINANCIAL CORP",
-          "insiderName": "KEMPER J MARINER",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 15062.0,
-          "pricePerShare": 148.55,
-          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -63329,46 +63369,6 @@
           "transactionDate": "2026-08-04"
         }
       ]
-    },
-    "NEO": {
-      "issuerName": "NEOGENOMICS INC",
-      "trades": [
-        {
-          "ticker": "NEO",
-          "issuerName": "NEOGENOMICS INC",
-          "insiderName": "Aunan Greg D",
-          "title": "Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 20000.0,
-          "pricePerShare": 16.07,
-          "transactionDate": "2026-08-04"
-        }
-      ]
-    },
-    "ETSY": {
-      "issuerName": "ETSY INC",
-      "trades": [
-        {
-          "ticker": "ETSY",
-          "issuerName": "ETSY INC",
-          "insiderName": "Baker Charles",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 159.0,
-          "pricePerShare": 84.94,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "ETSY",
-          "issuerName": "ETSY INC",
-          "insiderName": "Baker Charles",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1053.0,
-          "pricePerShare": 85.77,
-          "transactionDate": "2026-08-04"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63746,6 +63746,9 @@
       "0000320351-26-000369",
       "0000320351-26-000370",
       "0000350852-26-000068",
+      "0000352736-26-000030",
+      "0000352736-26-000031",
+      "0000352736-26-000032",
       "0000354190-26-000187",
       "0000354647-26-000112",
       "0000356171-26-000106",
@@ -63893,6 +63896,8 @@
       "0000752642-26-000091",
       "0000752642-26-000092",
       "0000752642-26-000093",
+      "0000752642-26-000094",
+      "0000752642-26-000095",
       "0000753308-26-000066",
       "0000760498-26-000047",
       "0000760498-26-000048",
@@ -65085,6 +65090,9 @@
       "0000950103-26-012624",
       "0000950103-26-012626",
       "0000950103-26-012627",
+      "0000950103-26-012628",
+      "0000950103-26-012629",
+      "0000950103-26-012630",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65323,6 +65331,10 @@
       "0001083301-26-000154",
       "0001083786-26-000012",
       "0001085612-26-000080",
+      "0001085612-26-000089",
+      "0001085612-26-000090",
+      "0001085612-26-000091",
+      "0001085612-26-000092",
       "0001090009-26-000088",
       "0001090009-26-000090",
       "0001090009-26-000092",
@@ -65984,6 +65996,8 @@
       "0001104659-26-098602",
       "0001104659-26-098603",
       "0001104659-26-098631",
+      "0001104659-26-098667",
+      "0001104659-26-098669",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66407,6 +66421,8 @@
       "0001140361-26-033699",
       "0001140361-26-033701",
       "0001140361-26-033705",
+      "0001140361-26-033708",
+      "0001140361-26-033710",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -68580,6 +68596,12 @@
       "0001193125-26-356372",
       "0001193125-26-356419",
       "0001193125-26-356425",
+      "0001193125-26-356475",
+      "0001193125-26-356487",
+      "0001193125-26-356502",
+      "0001193125-26-356522",
+      "0001193125-26-356536",
+      "0001193125-26-356547",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -69436,6 +69458,7 @@
       "0001213900-26-091485",
       "0001213900-26-091495",
       "0001213900-26-091496",
+      "0001213900-26-091531",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -70572,6 +70595,11 @@
       "0001445546-26-006099",
       "0001445546-26-006116",
       "0001445546-26-006117",
+      "0001445546-26-006122",
+      "0001445546-26-006123",
+      "0001445546-26-006124",
+      "0001445546-26-006125",
+      "0001445546-26-006126",
       "0001448765-26-000011",
       "0001450800-26-000006",
       "0001451455-26-000009",
@@ -72866,6 +72894,7 @@
       "0001829126-26-008927",
       "0001829126-26-008947",
       "0001829126-26-008962",
+      "0001829126-26-009059",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -74436,6 +74465,18 @@
       "0001839882-26-040618",
       "0001839882-26-040620",
       "0001839882-26-040621",
+      "0001839882-26-040623",
+      "0001839882-26-040625",
+      "0001839882-26-040626",
+      "0001839882-26-040629",
+      "0001839882-26-040630",
+      "0001839882-26-040631",
+      "0001839882-26-040632",
+      "0001839882-26-040633",
+      "0001839882-26-040634",
+      "0001839882-26-040635",
+      "0001839882-26-040636",
+      "0001839882-26-040637",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -76525,6 +76566,21 @@
       "0001918704-26-024239",
       "0001918704-26-024240",
       "0001918704-26-024241",
+      "0001918704-26-024246",
+      "0001918704-26-024247",
+      "0001918704-26-024248",
+      "0001918704-26-024250",
+      "0001918704-26-024252",
+      "0001918704-26-024253",
+      "0001918704-26-024254",
+      "0001918704-26-024255",
+      "0001918704-26-024256",
+      "0001918704-26-024257",
+      "0001918704-26-024258",
+      "0001918704-26-024259",
+      "0001918704-26-024260",
+      "0001918704-26-024261",
+      "0001918704-26-024262",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -76532,8 +76588,13 @@
       "0001921253-26-000004",
       "0001921640-26-000011",
       "0001922252-26-000003",
+      "0001923149-26-000006",
       "0001924613-26-000037",
       "0001924790-26-000006",
+      "0001924953-26-000010",
+      "0001924953-26-000011",
+      "0001924953-26-000012",
+      "0001924953-26-000013",
       "0001925062-26-000018",
       "0001926221-26-000006",
       "0001929185-26-000012",
@@ -77264,6 +77325,8 @@
       "0002078265-26-000338",
       "0002078265-26-000340",
       "0002078265-26-000347",
+      "0002078265-26-000348",
+      "0002078265-26-000350",
       "0002078374-26-000003",
       "0002078512-26-000002",
       "0002078651-26-000012",
