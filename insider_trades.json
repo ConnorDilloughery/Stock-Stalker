@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T13:03:08.983834+00:00",
+  "generatedAt": "2026-08-19T14:01:40.187430+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -551,6 +551,56 @@
       "type": "Purchase",
       "shares": 507.0,
       "pricePerShare": 19.5,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "HBCP",
+      "issuerName": "HOME BANCORP, INC.",
+      "insiderName": "Zollinger John J. IV",
+      "title": "SEVP, Chief Banking Officer",
+      "type": "Sale",
+      "shares": 750.0,
+      "pricePerShare": 71.68,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 18.5955,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "REPX",
+      "issuerName": "Riley Exploration Permian, Inc.",
+      "insiderName": "Riley Philip A",
+      "title": "CFO & EVP STRATEGY",
+      "type": "Sale",
+      "shares": 4000.0,
+      "pricePerShare": 37.6051,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "SKYH",
+      "issuerName": "Sky Harbour Group Corp",
+      "insiderName": "Gonzalez Francisco",
+      "title": "Chief Financial Officer",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 10.05,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "VTOL",
+      "issuerName": "Bristow Group Inc.",
+      "insiderName": "Brass Lorin L.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 100.0,
+      "pricePerShare": 46.545,
       "transactionDate": "2026-08-18"
     },
     {
@@ -2001,6 +2051,66 @@
       "type": "Sale",
       "shares": 68259.0,
       "pricePerShare": 15.44,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "AVBC",
+      "issuerName": "Avidia Bancorp, Inc.",
+      "insiderName": "Doane Thomas",
+      "title": "EVP- Human Resources",
+      "type": "Purchase",
+      "shares": 1726.0,
+      "pricePerShare": 22.31,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "VICR",
+      "issuerName": "VICOR CORP",
+      "insiderName": "Lavie Zmira",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 908.0,
+      "pricePerShare": 250.0,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 18.5239,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "GAIA",
+      "issuerName": "GAIA, INC",
+      "insiderName": "Sutherland Paul Howard",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 3420.0,
+      "pricePerShare": 1.4734,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "ALH",
+      "issuerName": "Alliance Laundry Holdings Inc.",
+      "insiderName": "Vleugels Jan Gommaar M.",
+      "title": "COO - INTERNATIONAL",
+      "type": "Sale",
+      "shares": 75000.0,
+      "pricePerShare": 24.75,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "IFF",
+      "issuerName": "INTERNATIONAL FLAVORS & FRAGRANCES INC",
+      "insiderName": "Teles de Mendonca Ana Paula",
+      "title": "President, Scent",
+      "type": "Sale",
+      "shares": 5718.0,
+      "pricePerShare": 83.192,
       "transactionDate": "2026-08-17"
     },
     {
@@ -29892,116 +30002,6 @@
       "shares": 67725.0,
       "pricePerShare": 201.44,
       "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ILMN",
-      "issuerName": "ILLUMINA, INC.",
-      "insiderName": "Meister Keith A.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 48186.0,
-      "pricePerShare": 202.43,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ILMN",
-      "issuerName": "ILLUMINA, INC.",
-      "insiderName": "Meister Keith A.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 67988.0,
-      "pricePerShare": 203.09,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "NCNO",
-      "issuerName": "nCino, Inc.",
-      "insiderName": "Orenstein Gregory",
-      "title": "CFO & Treasurer",
-      "type": "Sale",
-      "shares": 11780.0,
-      "pricePerShare": 19.218,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "NCNO",
-      "issuerName": "nCino, Inc.",
-      "insiderName": "Naude Pierre",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 4677.0,
-      "pricePerShare": 19.218,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ZM",
-      "issuerName": "Zoom Communications, Inc.",
-      "insiderName": "Subotovsky Santiago",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 40.0,
-      "pricePerShare": 97.23,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ZM",
-      "issuerName": "Zoom Communications, Inc.",
-      "insiderName": "Subotovsky Santiago",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 72.0,
-      "pricePerShare": 98.7061,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ZM",
-      "issuerName": "Zoom Communications, Inc.",
-      "insiderName": "Subotovsky Santiago",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 256.0,
-      "pricePerShare": 99.7037,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ZM",
-      "issuerName": "Zoom Communications, Inc.",
-      "insiderName": "Subotovsky Santiago",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 2660.0,
-      "pricePerShare": 100.8409,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ZM",
-      "issuerName": "Zoom Communications, Inc.",
-      "insiderName": "Subotovsky Santiago",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 4863.0,
-      "pricePerShare": 101.7579,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ZM",
-      "issuerName": "Zoom Communications, Inc.",
-      "insiderName": "Subotovsky Santiago",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 20.0,
-      "pricePerShare": 102.195,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "NCNO",
-      "issuerName": "nCino, Inc.",
-      "insiderName": "Desmond Sean",
-      "title": "Director, CEO & President",
-      "type": "Sale",
-      "shares": 28675.0,
-      "pricePerShare": 19.218,
-      "transactionDate": "2026-08-04"
     }
   ],
   "byTicker": {
@@ -32645,6 +32645,201 @@
         }
       ]
     },
+    "HBCP": {
+      "issuerName": "HOME BANCORP, INC.",
+      "trades": [
+        {
+          "ticker": "HBCP",
+          "issuerName": "HOME BANCORP, INC.",
+          "insiderName": "Zollinger John J. IV",
+          "title": "SEVP, Chief Banking Officer",
+          "type": "Sale",
+          "shares": 750.0,
+          "pricePerShare": 71.68,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "DGICA": {
+      "issuerName": "DONEGAL GROUP INC",
+      "trades": [
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.5955,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.5239,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 18000.0,
+          "pricePerShare": 19.67,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "HOFFMAN CHRISTINA MARIE",
+          "title": "Sr. VP & Chief Risk Officer",
+          "type": "Sale",
+          "shares": 18000.0,
+          "pricePerShare": 19.67,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "BIXENMAN DENNIS JOSEPH",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 11250.0,
+          "pricePerShare": 19.26,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "KING DAVID CHARLES",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 9000.0,
+          "pricePerShare": 19.33,
+          "transactionDate": "2026-08-04"
+        }
+      ]
+    },
+    "REPX": {
+      "issuerName": "Riley Exploration Permian, Inc.",
+      "trades": [
+        {
+          "ticker": "REPX",
+          "issuerName": "Riley Exploration Permian, Inc.",
+          "insiderName": "Riley Philip A",
+          "title": "CFO & EVP STRATEGY",
+          "type": "Sale",
+          "shares": 4000.0,
+          "pricePerShare": 37.6051,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "REPX",
+          "issuerName": "Riley Exploration Permian, Inc.",
+          "insiderName": "Riley Corey Neil",
+          "title": "CIO & CCO",
+          "type": "Sale",
+          "shares": 40.0,
+          "pricePerShare": 34.4,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "REPX",
+          "issuerName": "Riley Exploration Permian, Inc.",
+          "insiderName": "Riley Corey Neil",
+          "title": "CIO & CCO",
+          "type": "Sale",
+          "shares": 3460.0,
+          "pricePerShare": 35.2107,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "REPX",
+          "issuerName": "Riley Exploration Permian, Inc.",
+          "insiderName": "Riley Bobby",
+          "title": "Director, CEO",
+          "type": "Sale",
+          "shares": 3599.0,
+          "pricePerShare": 35.1832,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "REPX",
+          "issuerName": "Riley Exploration Permian, Inc.",
+          "insiderName": "Riley Bobby",
+          "title": "Director, CEO",
+          "type": "Sale",
+          "shares": 8901.0,
+          "pricePerShare": 36.1154,
+          "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "SKYH": {
+      "issuerName": "Sky Harbour Group Corp",
+      "trades": [
+        {
+          "ticker": "SKYH",
+          "issuerName": "Sky Harbour Group Corp",
+          "insiderName": "Gonzalez Francisco",
+          "title": "Chief Financial Officer",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 10.05,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "SKYH",
+          "issuerName": "Sky Harbour Group Corp",
+          "insiderName": "GESSOW ANDREW J",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 10.85,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "SKYH",
+          "issuerName": "Sky Harbour Group Corp",
+          "insiderName": "BOSTON OMAHA Corp",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 360000.0,
+          "pricePerShare": 10.0,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "VTOL": {
+      "issuerName": "Bristow Group Inc.",
+      "trades": [
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 46.545,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 210.0,
+          "pricePerShare": 46.7754,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
     "LCNB": {
       "issuerName": "LCNB CORP",
       "trades": [
@@ -34462,21 +34657,6 @@
           "shares": 3700.0,
           "pricePerShare": 249.38,
           "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "VTOL": {
-      "issuerName": "Bristow Group Inc.",
-      "trades": [
-        {
-          "ticker": "VTOL",
-          "issuerName": "Bristow Group Inc.",
-          "insiderName": "Brass Lorin L.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 210.0,
-          "pricePerShare": 46.7754,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -37262,6 +37442,111 @@
           "shares": 5234.0,
           "pricePerShare": 2.31,
           "transactionDate": "2026-08-13"
+        }
+      ]
+    },
+    "AVBC": {
+      "issuerName": "Avidia Bancorp, Inc.",
+      "trades": [
+        {
+          "ticker": "AVBC",
+          "issuerName": "Avidia Bancorp, Inc.",
+          "insiderName": "Doane Thomas",
+          "title": "EVP- Human Resources",
+          "type": "Purchase",
+          "shares": 1726.0,
+          "pricePerShare": 22.31,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "AVBC",
+          "issuerName": "Avidia Bancorp, Inc.",
+          "insiderName": "Grimaldo Joseph F",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 4655.0,
+          "pricePerShare": 21.4364,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "VICR": {
+      "issuerName": "VICOR CORP",
+      "trades": [
+        {
+          "ticker": "VICR",
+          "issuerName": "VICOR CORP",
+          "insiderName": "Lavie Zmira",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 908.0,
+          "pricePerShare": 250.0,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "GAIA": {
+      "issuerName": "GAIA, INC",
+      "trades": [
+        {
+          "ticker": "GAIA",
+          "issuerName": "GAIA, INC",
+          "insiderName": "Sutherland Paul Howard",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 3420.0,
+          "pricePerShare": 1.4734,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "GAIA",
+          "issuerName": "GAIA, INC",
+          "insiderName": "Sutherland Paul Howard",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 7500.0,
+          "pricePerShare": 1.423,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "ALH": {
+      "issuerName": "Alliance Laundry Holdings Inc.",
+      "trades": [
+        {
+          "ticker": "ALH",
+          "issuerName": "Alliance Laundry Holdings Inc.",
+          "insiderName": "Vleugels Jan Gommaar M.",
+          "title": "COO - INTERNATIONAL",
+          "type": "Sale",
+          "shares": 75000.0,
+          "pricePerShare": 24.75,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "ALH",
+          "issuerName": "Alliance Laundry Holdings Inc.",
+          "insiderName": "Nolden Dean J",
+          "title": "CHIEF FINANCIAL OFFICER",
+          "type": "Sale",
+          "shares": 15400.0,
+          "pricePerShare": 28.05,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "IFF": {
+      "issuerName": "INTERNATIONAL FLAVORS & FRAGRANCES INC",
+      "trades": [
+        {
+          "ticker": "IFF",
+          "issuerName": "INTERNATIONAL FLAVORS & FRAGRANCES INC",
+          "insiderName": "Teles de Mendonca Ana Paula",
+          "title": "President, Scent",
+          "type": "Sale",
+          "shares": 5718.0,
+          "pricePerShare": 83.192,
+          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -43421,46 +43706,6 @@
           "type": "Sale",
           "shares": 17148.0,
           "pricePerShare": 8.193,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "GAIA": {
-      "issuerName": "GAIA, INC",
-      "trades": [
-        {
-          "ticker": "GAIA",
-          "issuerName": "GAIA, INC",
-          "insiderName": "Sutherland Paul Howard",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 7500.0,
-          "pricePerShare": 1.423,
-          "transactionDate": "2026-08-14"
-        }
-      ]
-    },
-    "SKYH": {
-      "issuerName": "Sky Harbour Group Corp",
-      "trades": [
-        {
-          "ticker": "SKYH",
-          "issuerName": "Sky Harbour Group Corp",
-          "insiderName": "GESSOW ANDREW J",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 5000.0,
-          "pricePerShare": 10.85,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "SKYH",
-          "issuerName": "Sky Harbour Group Corp",
-          "insiderName": "BOSTON OMAHA Corp",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 360000.0,
-          "pricePerShare": 10.0,
           "transactionDate": "2026-08-11"
         }
       ]
@@ -50965,21 +51210,6 @@
         }
       ]
     },
-    "AVBC": {
-      "issuerName": "Avidia Bancorp, Inc.",
-      "trades": [
-        {
-          "ticker": "AVBC",
-          "issuerName": "Avidia Bancorp, Inc.",
-          "insiderName": "Grimaldo Joseph F",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 4655.0,
-          "pricePerShare": 21.4364,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
     "CIA": {
       "issuerName": "CITIZENS, INC.",
       "trades": [
@@ -54016,51 +54246,6 @@
           "type": "Sale",
           "shares": 30000.0,
           "pricePerShare": 6.16,
-          "transactionDate": "2026-08-10"
-        }
-      ]
-    },
-    "REPX": {
-      "issuerName": "Riley Exploration Permian, Inc.",
-      "trades": [
-        {
-          "ticker": "REPX",
-          "issuerName": "Riley Exploration Permian, Inc.",
-          "insiderName": "Riley Corey Neil",
-          "title": "CIO & CCO",
-          "type": "Sale",
-          "shares": 40.0,
-          "pricePerShare": 34.4,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "REPX",
-          "issuerName": "Riley Exploration Permian, Inc.",
-          "insiderName": "Riley Corey Neil",
-          "title": "CIO & CCO",
-          "type": "Sale",
-          "shares": 3460.0,
-          "pricePerShare": 35.2107,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "REPX",
-          "issuerName": "Riley Exploration Permian, Inc.",
-          "insiderName": "Riley Bobby",
-          "title": "Director, CEO",
-          "type": "Sale",
-          "shares": 3599.0,
-          "pricePerShare": 35.1832,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "REPX",
-          "issuerName": "Riley Exploration Permian, Inc.",
-          "insiderName": "Riley Bobby",
-          "title": "Director, CEO",
-          "type": "Sale",
-          "shares": 8901.0,
-          "pricePerShare": 36.1154,
           "transactionDate": "2026-08-10"
         }
       ]
@@ -59480,51 +59665,6 @@
         }
       ]
     },
-    "DGICA": {
-      "issuerName": "DONEGAL GROUP INC",
-      "trades": [
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 18000.0,
-          "pricePerShare": 19.67,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "HOFFMAN CHRISTINA MARIE",
-          "title": "Sr. VP & Chief Risk Officer",
-          "type": "Sale",
-          "shares": 18000.0,
-          "pricePerShare": 19.67,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "BIXENMAN DENNIS JOSEPH",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 11250.0,
-          "pricePerShare": 19.26,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "KING DAVID CHARLES",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 9000.0,
-          "pricePerShare": 19.33,
-          "transactionDate": "2026-08-04"
-        }
-      ]
-    },
     "FNB": {
       "issuerName": "FNB CORP/PA/",
       "trades": [
@@ -59717,66 +59857,6 @@
           "shares": 68.0,
           "pricePerShare": 102.2466,
           "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ZM",
-          "issuerName": "Zoom Communications, Inc.",
-          "insiderName": "Subotovsky Santiago",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 40.0,
-          "pricePerShare": 97.23,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "ZM",
-          "issuerName": "Zoom Communications, Inc.",
-          "insiderName": "Subotovsky Santiago",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 72.0,
-          "pricePerShare": 98.7061,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "ZM",
-          "issuerName": "Zoom Communications, Inc.",
-          "insiderName": "Subotovsky Santiago",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 256.0,
-          "pricePerShare": 99.7037,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "ZM",
-          "issuerName": "Zoom Communications, Inc.",
-          "insiderName": "Subotovsky Santiago",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 2660.0,
-          "pricePerShare": 100.8409,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "ZM",
-          "issuerName": "Zoom Communications, Inc.",
-          "insiderName": "Subotovsky Santiago",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 4863.0,
-          "pricePerShare": 101.7579,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "ZM",
-          "issuerName": "Zoom Communications, Inc.",
-          "insiderName": "Subotovsky Santiago",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 20.0,
-          "pricePerShare": 102.195,
-          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -61867,26 +61947,6 @@
           "shares": 67725.0,
           "pricePerShare": 201.44,
           "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "ILMN",
-          "issuerName": "ILLUMINA, INC.",
-          "insiderName": "Meister Keith A.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 48186.0,
-          "pricePerShare": 202.43,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "ILMN",
-          "issuerName": "ILLUMINA, INC.",
-          "insiderName": "Meister Keith A.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 67988.0,
-          "pricePerShare": 203.09,
-          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -61942,36 +62002,6 @@
           "shares": 11815.0,
           "pricePerShare": 19.53,
           "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "NCNO",
-          "issuerName": "nCino, Inc.",
-          "insiderName": "Orenstein Gregory",
-          "title": "CFO & Treasurer",
-          "type": "Sale",
-          "shares": 11780.0,
-          "pricePerShare": 19.218,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "NCNO",
-          "issuerName": "nCino, Inc.",
-          "insiderName": "Naude Pierre",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 4677.0,
-          "pricePerShare": 19.218,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "NCNO",
-          "issuerName": "nCino, Inc.",
-          "insiderName": "Desmond Sean",
-          "title": "Director, CEO & President",
-          "type": "Sale",
-          "shares": 28675.0,
-          "pricePerShare": 19.218,
-          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -62111,21 +62141,6 @@
           "type": "Sale",
           "shares": 200.0,
           "pricePerShare": 85.82,
-          "transactionDate": "2026-08-05"
-        }
-      ]
-    },
-    "ALH": {
-      "issuerName": "Alliance Laundry Holdings Inc.",
-      "trades": [
-        {
-          "ticker": "ALH",
-          "issuerName": "Alliance Laundry Holdings Inc.",
-          "insiderName": "Nolden Dean J",
-          "title": "CHIEF FINANCIAL OFFICER",
-          "type": "Sale",
-          "shares": 15400.0,
-          "pricePerShare": 28.05,
           "transactionDate": "2026-08-05"
         }
       ]
@@ -64270,6 +64285,7 @@
       "0000933094-26-000029",
       "0000933094-26-000031",
       "0000935596-26-000016",
+      "0000935596-26-000017",
       "0000935703-26-000095",
       "0000935703-26-000097",
       "0000935836-26-000372",
@@ -65035,6 +65051,7 @@
       "0000950103-26-012611",
       "0000950103-26-012615",
       "0000950103-26-012616",
+      "0000950103-26-012617",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66343,6 +66360,7 @@
       "0001140361-26-033536",
       "0001140361-26-033537",
       "0001140361-26-033637",
+      "0001140361-26-033683",
       "0001140842-26-000004",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -68503,6 +68521,10 @@
       "0001193125-26-356132",
       "0001193125-26-356215",
       "0001193125-26-356239",
+      "0001193125-26-356246",
+      "0001193125-26-356247",
+      "0001193125-26-356251",
+      "0001193125-26-356258",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -69350,6 +69372,9 @@
       "0001213900-26-091395",
       "0001213900-26-091415",
       "0001213900-26-091430",
+      "0001213900-26-091449",
+      "0001213900-26-091451",
+      "0001213900-26-091457",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -69624,6 +69649,7 @@
       "0001225208-26-007190",
       "0001225208-26-007191",
       "0001225208-26-007192",
+      "0001225208-26-007193",
       "0001225481-26-000006",
       "0001227384-26-000017",
       "0001227654-26-000042",
@@ -70058,6 +70084,7 @@
       "0001435430-26-000006",
       "0001436125-26-000007",
       "0001436425-26-000072",
+      "0001436425-26-000074",
       "0001437107-26-000077",
       "0001437224-26-000011",
       "0001437749-26-023807",
@@ -70317,6 +70344,8 @@
       "0001437749-26-028336",
       "0001437749-26-028345",
       "0001437749-26-028463",
+      "0001437749-26-028472",
+      "0001437749-26-028474",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001441890-26-000005",
@@ -70877,6 +70906,7 @@
       "0001493152-26-039099",
       "0001493152-26-039115",
       "0001493152-26-039124",
+      "0001493152-26-039145",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -71883,6 +71913,8 @@
       "0001628280-26-057826",
       "0001628280-26-057828",
       "0001628280-26-057830",
+      "0001628280-26-057850",
+      "0001628280-26-057853",
       "0001629911-26-000006",
       "0001630196-26-000002",
       "0001632531-26-000002",
@@ -74287,6 +74319,10 @@
       "0001839882-26-040437",
       "0001839882-26-040438",
       "0001839882-26-040531",
+      "0001839882-26-040532",
+      "0001839882-26-040533",
+      "0001839882-26-040534",
+      "0001839882-26-040537",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -76356,6 +76392,12 @@
       "0001918704-26-024133",
       "0001918704-26-024134",
       "0001918704-26-024222",
+      "0001918704-26-024223",
+      "0001918704-26-024224",
+      "0001918704-26-024225",
+      "0001918704-26-024226",
+      "0001918704-26-024227",
+      "0001918704-26-024228",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
