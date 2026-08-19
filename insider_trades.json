@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T17:02:32.562345+00:00",
+  "generatedAt": "2026-08-19T18:05:31.903939+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -711,6 +711,26 @@
       "type": "Sale",
       "shares": 3472.0,
       "pricePerShare": 8.005,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "TG",
+      "issuerName": "TREDEGAR CORP",
+      "insiderName": "GOTTWALD JOHN D",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3472.0,
+      "pricePerShare": 8.005,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "CHH",
+      "issuerName": "CHOICE HOTELS INTERNATIONAL INC /DE",
+      "insiderName": "JEWS WILLIAM L",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 5057.0,
+      "pricePerShare": 106.98,
       "transactionDate": "2026-08-18"
     },
     {
@@ -2291,6 +2311,36 @@
       "type": "Sale",
       "shares": 7719.0,
       "pricePerShare": 8.016,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "TG",
+      "issuerName": "TREDEGAR CORP",
+      "insiderName": "GOTTWALD JOHN D",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 7718.0,
+      "pricePerShare": 8.016,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "SONY",
+      "issuerName": "Sony Group Corp",
+      "insiderName": "Tanaka Kenji",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 20000.0,
+      "pricePerShare": 23.83,
+      "transactionDate": "2026-08-17"
+    },
+    {
+      "ticker": "NEXN",
+      "issuerName": "Nexxen International Ltd.",
+      "insiderName": "Kerstein Daniel Yosef",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 11000.0,
+      "pricePerShare": 10.38,
       "transactionDate": "2026-08-17"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 6070.0,
       "pricePerShare": 131.0169,
       "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "WAB",
-      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-      "insiderName": "Santana Rafael",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 80.0,
-      "pricePerShare": 296.4616,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "WAB",
-      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-      "insiderName": "Santana Rafael",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 120.0,
-      "pricePerShare": 297.6759,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "WAB",
-      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-      "insiderName": "Santana Rafael",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 334.0,
-      "pricePerShare": 298.8952,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "WAB",
-      "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-      "insiderName": "Santana Rafael",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 629.0,
-      "pricePerShare": 299.6998,
-      "transactionDate": "2026-08-04"
-    },
-    {
-      "ticker": "ARCB",
-      "issuerName": "ARCBEST CORP /TX/",
-      "insiderName": "MCREYNOLDS JUDY R",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1500.0,
-      "pricePerShare": 144.78,
-      "transactionDate": "2026-08-04"
     }
   ],
   "byTicker": {
@@ -33251,6 +33251,16 @@
         {
           "ticker": "TG",
           "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3472.0,
+          "pricePerShare": 8.005,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
           "insiderName": "GOTTWALD WILLIAM M",
           "title": "Reporting Person",
           "type": "Sale",
@@ -33265,6 +33275,16 @@
           "title": "Reporting Person",
           "type": "Sale",
           "shares": 7719.0,
+          "pricePerShare": 8.016,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7718.0,
           "pricePerShare": 8.016,
           "transactionDate": "2026-08-17"
         },
@@ -33347,6 +33367,21 @@
           "shares": 17148.0,
           "pricePerShare": 8.193,
           "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "CHH": {
+      "issuerName": "CHOICE HOTELS INTERNATIONAL INC /DE",
+      "trades": [
+        {
+          "ticker": "CHH",
+          "issuerName": "CHOICE HOTELS INTERNATIONAL INC /DE",
+          "insiderName": "JEWS WILLIAM L",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5057.0,
+          "pricePerShare": 106.98,
+          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -35152,46 +35187,6 @@
           "shares": 54.0,
           "pricePerShare": 298.8481,
           "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Santana Rafael",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 296.4616,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Santana Rafael",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 120.0,
-          "pricePerShare": 297.6759,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Santana Rafael",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 334.0,
-          "pricePerShare": 298.8952,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "WAB",
-          "issuerName": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "insiderName": "Santana Rafael",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 629.0,
-          "pricePerShare": 299.6998,
-          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -38071,6 +38066,76 @@
           "type": "Purchase",
           "shares": 64.0,
           "pricePerShare": 15.625,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "SONY": {
+      "issuerName": "Sony Group Corp",
+      "trades": [
+        {
+          "ticker": "SONY",
+          "issuerName": "Sony Group Corp",
+          "insiderName": "Tanaka Kenji",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 23.83,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "SONY",
+          "issuerName": "Sony Group Corp",
+          "insiderName": "Stringer Robert Adrian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 445000.0,
+          "pricePerShare": 22.49,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "SONY",
+          "issuerName": "Sony Group Corp",
+          "insiderName": "Stringer Robert Adrian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100547.0,
+          "pricePerShare": 22.49,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "SONY",
+          "issuerName": "Sony Group Corp",
+          "insiderName": "Kodera Tsuyoshi",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 17100.0,
+          "pricePerShare": 22.72,
+          "transactionDate": "2026-08-04"
+        },
+        {
+          "ticker": "SONY",
+          "issuerName": "Sony Group Corp",
+          "insiderName": "Ahuja Ravi",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15580.0,
+          "pricePerShare": 22.71,
+          "transactionDate": "2026-08-04"
+        }
+      ]
+    },
+    "NEXN": {
+      "issuerName": "Nexxen International Ltd.",
+      "trades": [
+        {
+          "ticker": "NEXN",
+          "issuerName": "Nexxen International Ltd.",
+          "insiderName": "Kerstein Daniel Yosef",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 11000.0,
+          "pricePerShare": 10.38,
           "transactionDate": "2026-08-17"
         }
       ]
@@ -56767,16 +56832,6 @@
           "shares": 3600.0,
           "pricePerShare": 139.2,
           "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "ARCB",
-          "issuerName": "ARCBEST CORP /TX/",
-          "insiderName": "MCREYNOLDS JUDY R",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1500.0,
-          "pricePerShare": 144.78,
-          "transactionDate": "2026-08-04"
         }
       ]
     },
@@ -61950,51 +62005,6 @@
         }
       ]
     },
-    "SONY": {
-      "issuerName": "Sony Group Corp",
-      "trades": [
-        {
-          "ticker": "SONY",
-          "issuerName": "Sony Group Corp",
-          "insiderName": "Stringer Robert Adrian",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 445000.0,
-          "pricePerShare": 22.49,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "SONY",
-          "issuerName": "Sony Group Corp",
-          "insiderName": "Stringer Robert Adrian",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100547.0,
-          "pricePerShare": 22.49,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "SONY",
-          "issuerName": "Sony Group Corp",
-          "insiderName": "Kodera Tsuyoshi",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 17100.0,
-          "pricePerShare": 22.72,
-          "transactionDate": "2026-08-04"
-        },
-        {
-          "ticker": "SONY",
-          "issuerName": "Sony Group Corp",
-          "insiderName": "Ahuja Ravi",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15580.0,
-          "pricePerShare": 22.71,
-          "transactionDate": "2026-08-04"
-        }
-      ]
-    },
     "ILMN": {
       "issuerName": "ILLUMINA, INC.",
       "trades": [
@@ -64095,6 +64105,7 @@
       "0000894189-26-022439",
       "0000894189-26-022440",
       "0000895345-26-000353",
+      "0000895430-26-000024",
       "0000896622-26-000170",
       "0000896622-26-000172",
       "0000896622-26-000174",
@@ -64369,6 +64380,7 @@
       "0000944148-26-000099",
       "0000944305-26-000031",
       "0000945621-26-000995",
+      "0000945621-26-001083",
       "0000947703-26-000199",
       "0000947703-26-000200",
       "0000947703-26-000201",
@@ -65093,6 +65105,13 @@
       "0000950103-26-012628",
       "0000950103-26-012629",
       "0000950103-26-012630",
+      "0000950103-26-012631",
+      "0000950103-26-012632",
+      "0000950103-26-012633",
+      "0000950103-26-012634",
+      "0000950103-26-012635",
+      "0000950103-26-012636",
+      "0000950103-26-012637",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65144,6 +65163,7 @@
       "0001014100-26-000025",
       "0001014108-26-000044",
       "0001014108-26-000045",
+      "0001014108-26-000046",
       "0001016245-26-000015",
       "0001016246-26-000004",
       "0001016274-26-000028",
@@ -65998,6 +66018,9 @@
       "0001104659-26-098631",
       "0001104659-26-098667",
       "0001104659-26-098669",
+      "0001104659-26-098690",
+      "0001104659-26-098702",
+      "0001104659-26-098708",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66087,6 +66110,7 @@
       "0001133228-26-011275",
       "0001133228-26-011277",
       "0001133228-26-011279",
+      "0001133228-26-011377",
       "0001133416-26-000065",
       "0001134261-26-000005",
       "0001134261-26-000007",
@@ -66499,6 +66523,7 @@
       "0001178913-26-004110",
       "0001178913-26-004116",
       "0001178913-26-004132",
+      "0001178913-26-004195",
       "0001181540-26-000002",
       "0001181664-26-000004",
       "0001181672-26-000004",
@@ -68602,6 +68627,22 @@
       "0001193125-26-356522",
       "0001193125-26-356536",
       "0001193125-26-356547",
+      "0001193125-26-356565",
+      "0001193125-26-356567",
+      "0001193125-26-356579",
+      "0001193125-26-356583",
+      "0001193125-26-356584",
+      "0001193125-26-356585",
+      "0001193125-26-356586",
+      "0001193125-26-356596",
+      "0001193125-26-356599",
+      "0001193125-26-356609",
+      "0001193125-26-356611",
+      "0001193125-26-356618",
+      "0001193125-26-356621",
+      "0001193125-26-356622",
+      "0001193125-26-356641",
+      "0001193125-26-356643",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -69459,6 +69500,11 @@
       "0001213900-26-091495",
       "0001213900-26-091496",
       "0001213900-26-091531",
+      "0001213900-26-091547",
+      "0001213900-26-091553",
+      "0001213900-26-091561",
+      "0001213900-26-091563",
+      "0001213900-26-091569",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -69613,6 +69659,7 @@
       "0001214659-26-010569",
       "0001214659-26-010570",
       "0001214659-26-010578",
+      "0001214659-26-010599",
       "0001214993-26-000004",
       "0001216055-26-000006",
       "0001216055-26-000007",
@@ -70435,6 +70482,7 @@
       "0001437749-26-028482",
       "0001437749-26-028485",
       "0001437749-26-028487",
+      "0001437749-26-028500",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001441890-26-000005",
@@ -71178,6 +71226,7 @@
       "0001528621-26-000833",
       "0001528621-26-000835",
       "0001528621-26-000837",
+      "0001528621-26-000841",
       "0001530038-26-000002",
       "0001530255-26-000010",
       "0001530819-26-000012",
@@ -71450,6 +71499,7 @@
       "0001596532-26-000186",
       "0001596532-26-000188",
       "0001596532-26-000190",
+      "0001597133-26-000002",
       "0001597149-26-000006",
       "0001597870-26-000004",
       "0001597870-26-000005",
@@ -74477,6 +74527,10 @@
       "0001839882-26-040635",
       "0001839882-26-040636",
       "0001839882-26-040637",
+      "0001839882-26-040638",
+      "0001839882-26-040639",
+      "0001839882-26-040650",
+      "0001839882-26-040651",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -76581,6 +76635,14 @@
       "0001918704-26-024260",
       "0001918704-26-024261",
       "0001918704-26-024262",
+      "0001918704-26-024263",
+      "0001918704-26-024264",
+      "0001918704-26-024265",
+      "0001918704-26-024266",
+      "0001918704-26-024267",
+      "0001918704-26-024268",
+      "0001918704-26-024269",
+      "0001918704-26-024272",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
