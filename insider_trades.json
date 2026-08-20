@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T15:03:10.449717+00:00",
+  "generatedAt": "2026-08-20T16:05:37.137965+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -761,6 +761,26 @@
       "type": "Purchase",
       "shares": 24102.0,
       "pricePerShare": 10.13,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "KARO",
+      "issuerName": "Karooooo Ltd.",
+      "insiderName": "Calisto Isaias Jose",
+      "title": "Director, CEO & Executive Chairman, 10% Owner",
+      "type": "Sale",
+      "shares": 1193.0,
+      "pricePerShare": 63.1333,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "DGXX",
+      "issuerName": "Digi Power X Inc.",
+      "insiderName": "Amar Michel",
+      "title": "Director, Chief Executive Officer, 10% Owner",
+      "type": "Purchase",
+      "shares": 20000.0,
+      "pricePerShare": 3.6,
       "transactionDate": "2026-08-19"
     },
     {
@@ -2861,6 +2881,16 @@
       "type": "Purchase",
       "shares": 1000.0,
       "pricePerShare": 5.07,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "KARO",
+      "issuerName": "Karooooo Ltd.",
+      "insiderName": "Calisto Isaias Jose",
+      "title": "Director, CEO & Executive Chairman, 10% Owner",
+      "type": "Sale",
+      "shares": 650.0,
+      "pricePerShare": 63.0382,
       "transactionDate": "2026-08-18"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 18320.0,
       "pricePerShare": 197.8517,
       "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "BECHTOLSHEIM ANDREAS",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 13297.0,
-      "pricePerShare": 198.8446,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "BECHTOLSHEIM ANDREAS",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 11487.0,
-      "pricePerShare": 199.7651,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "BECHTOLSHEIM ANDREAS",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 10909.0,
-      "pricePerShare": 200.8413,
-      "transactionDate": "2026-08-05"
     }
   ],
   "byTicker": {
@@ -32772,6 +32772,126 @@
           "shares": 200.0,
           "pricePerShare": 9.93,
           "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "KARO": {
+      "issuerName": "Karooooo Ltd.",
+      "trades": [
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 1193.0,
+          "pricePerShare": 63.1333,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 650.0,
+          "pricePerShare": 63.0382,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 978.0,
+          "pricePerShare": 63.2977,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 8235.0,
+          "pricePerShare": 63.5772,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO & Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 2158.0,
+          "pricePerShare": 63.0475,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 242.0,
+          "pricePerShare": 63.005,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 22549.0,
+          "pricePerShare": 63.2457,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&EC, 10% Owner",
+          "type": "Sale",
+          "shares": 12430.0,
+          "pricePerShare": 64.478,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&EC, 10% Owner",
+          "type": "Sale",
+          "shares": 18849.0,
+          "pricePerShare": 63.2888,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "KARO",
+          "issuerName": "Karooooo Ltd.",
+          "insiderName": "Calisto Isaias Jose",
+          "title": "Director, CEO&Executive Chairman, 10% Owner",
+          "type": "Sale",
+          "shares": 33833.0,
+          "pricePerShare": 66.1396,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "DGXX": {
+      "issuerName": "Digi Power X Inc.",
+      "trades": [
+        {
+          "ticker": "DGXX",
+          "issuerName": "Digi Power X Inc.",
+          "insiderName": "Amar Michel",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 20000.0,
+          "pricePerShare": 3.6,
+          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -49220,91 +49340,6 @@
         }
       ]
     },
-    "KARO": {
-      "issuerName": "Karooooo Ltd.",
-      "trades": [
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 978.0,
-          "pricePerShare": 63.2977,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 8235.0,
-          "pricePerShare": 63.5772,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 2158.0,
-          "pricePerShare": 63.0475,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 242.0,
-          "pricePerShare": 63.005,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 22549.0,
-          "pricePerShare": 63.2457,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO&EC, 10% Owner",
-          "type": "Sale",
-          "shares": 12430.0,
-          "pricePerShare": 64.478,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO&EC, 10% Owner",
-          "type": "Sale",
-          "shares": 18849.0,
-          "pricePerShare": 63.2888,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO&Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 33833.0,
-          "pricePerShare": 66.1396,
-          "transactionDate": "2026-08-05"
-        }
-      ]
-    },
     "NBIS": {
       "issuerName": "Nebius Group N.V.",
       "trades": [
@@ -54241,36 +54276,6 @@
           "type": "Sale",
           "shares": 18320.0,
           "pricePerShare": 197.8517,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "BECHTOLSHEIM ANDREAS",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13297.0,
-          "pricePerShare": 198.8446,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "BECHTOLSHEIM ANDREAS",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 11487.0,
-          "pricePerShare": 199.7651,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "BECHTOLSHEIM ANDREAS",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 10909.0,
-          "pricePerShare": 200.8413,
           "transactionDate": "2026-08-05"
         }
       ]
@@ -63608,6 +63613,7 @@
       "0000022356-26-000192",
       "0000022356-26-000197",
       "0000025475-26-000068",
+      "0000025475-26-000070",
       "0000026058-26-000030",
       "0000029915-26-000066",
       "0000029915-26-000068",
@@ -63677,6 +63683,7 @@
       "0000043920-26-000124",
       "0000047111-26-000230",
       "0000048287-26-000127",
+      "0000048287-26-000129",
       "0000051931-26-000740",
       "0000051931-26-000741",
       "0000051931-26-000742",
@@ -65339,6 +65346,9 @@
       "0000950103-26-012676",
       "0000950103-26-012677",
       "0000950103-26-012678",
+      "0000950103-26-012679",
+      "0000950103-26-012680",
+      "0000950103-26-012681",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66293,6 +66303,7 @@
       "0001104659-26-099029",
       "0001104659-26-099033",
       "0001104659-26-099044",
+      "0001104659-26-099105",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66401,6 +66412,8 @@
       "0001140019-26-000099",
       "0001140019-26-000105",
       "0001140019-26-000106",
+      "0001140019-26-000109",
+      "0001140019-26-000110",
       "0001140361-26-028844",
       "0001140361-26-028846",
       "0001140361-26-028877",
@@ -66727,6 +66740,11 @@
       "0001140361-26-033794",
       "0001140361-26-033798",
       "0001140361-26-033803",
+      "0001140361-26-033811",
+      "0001140361-26-033815",
+      "0001140361-26-033820",
+      "0001140361-26-033821",
+      "0001140361-26-033823",
       "0001140842-26-000004",
       "0001159036-26-000108",
       "0001160077-26-000003",
@@ -66841,6 +66859,7 @@
       "0001185185-26-003608",
       "0001185185-26-003609",
       "0001185185-26-003631",
+      "0001185185-26-003637",
       "0001185611-26-000005",
       "0001185829-26-000001",
       "0001186827-26-000013",
@@ -69002,6 +69021,10 @@
       "0001193125-26-358403",
       "0001193125-26-358477",
       "0001193125-26-358573",
+      "0001193125-26-358720",
+      "0001193125-26-358733",
+      "0001193125-26-358760",
+      "0001193125-26-358764",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -69883,6 +69906,8 @@
       "0001213900-26-091868",
       "0001213900-26-091884",
       "0001213900-26-091899",
+      "0001213900-26-091969",
+      "0001213900-26-091973",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -70569,6 +70594,7 @@
       "0001398344-26-014897",
       "0001398344-26-014923",
       "0001398344-26-015011",
+      "0001398344-26-015026",
       "0001399967-26-000002",
       "0001401336-26-000020",
       "0001402348-26-000016",
@@ -70612,6 +70638,13 @@
       "0001432353-26-000637",
       "0001432353-26-000641",
       "0001432353-26-000644",
+      "0001432353-26-000659",
+      "0001432353-26-000660",
+      "0001432353-26-000661",
+      "0001432353-26-000662",
+      "0001432353-26-000663",
+      "0001432353-26-000664",
+      "0001432353-26-000665",
       "0001432894-26-000002",
       "0001433644-26-000016",
       "0001434609-26-000002",
@@ -73153,6 +73186,12 @@
       "0001771146-26-001655",
       "0001771146-26-001672",
       "0001771146-26-001685",
+      "0001771146-26-001695",
+      "0001771146-26-001697",
+      "0001771146-26-001699",
+      "0001771146-26-001701",
+      "0001771146-26-001703",
+      "0001771146-26-001705",
       "0001771383-26-000003",
       "0001772233-26-000005",
       "0001772259-26-000005",
@@ -75120,6 +75159,31 @@
       "0001839882-26-040790",
       "0001839882-26-040791",
       "0001839882-26-040793",
+      "0001839882-26-040813",
+      "0001839882-26-040814",
+      "0001839882-26-040815",
+      "0001839882-26-040817",
+      "0001839882-26-040818",
+      "0001839882-26-040819",
+      "0001839882-26-040820",
+      "0001839882-26-040821",
+      "0001839882-26-040823",
+      "0001839882-26-040824",
+      "0001839882-26-040825",
+      "0001839882-26-040826",
+      "0001839882-26-040828",
+      "0001839882-26-040830",
+      "0001839882-26-040831",
+      "0001839882-26-040833",
+      "0001839882-26-040835",
+      "0001839882-26-040836",
+      "0001839882-26-040837",
+      "0001839882-26-040838",
+      "0001839882-26-040840",
+      "0001839882-26-040842",
+      "0001839882-26-040843",
+      "0001839882-26-040844",
+      "0001839882-26-040845",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -75296,6 +75360,7 @@
       "0001899338-26-000004",
       "0001899338-26-000005",
       "0001899338-26-000006",
+      "0001899338-26-000009",
       "0001899977-26-000008",
       "0001900201-26-000003",
       "0001900482-26-000003",
@@ -77272,6 +77337,9 @@
       "0001918704-26-024338",
       "0001918704-26-024339",
       "0001918704-26-024340",
+      "0001918704-26-024347",
+      "0001918704-26-024348",
+      "0001918704-26-024349",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -77765,6 +77833,7 @@
       "0001999371-26-018268",
       "0001999371-26-018270",
       "0001999371-26-018274",
+      "0001999371-26-018277",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0002000276-26-000006",
@@ -77877,6 +77946,7 @@
       "0002032458-26-000022",
       "0002032661-26-000002",
       "0002033153-26-000013",
+      "0002033633-26-000005",
       "0002034124-26-000007",
       "0002034144-26-000006",
       "0002034458-26-000007",
