@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T13:04:20.545574+00:00",
+  "generatedAt": "2026-08-20T14:02:13.678030+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -2791,6 +2791,36 @@
       "type": "Purchase",
       "shares": 6177.0,
       "pricePerShare": 39.45,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "CBL",
+      "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+      "insiderName": "Reinsmidt Kathryn A.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 17515.0,
+      "pricePerShare": 57.102,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "BWA",
+      "issuerName": "BORGWARNER INC",
+      "insiderName": "Kulikowski Amy B.",
+      "title": "VP & Chief Accounting Officer",
+      "type": "Sale",
+      "shares": 2900.0,
+      "pricePerShare": 68.6,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "ARLP",
+      "issuerName": "ALLIANCE RESOURCE PARTNERS LP",
+      "insiderName": "McDaniel Ronna R.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 69.74,
+      "pricePerShare": 25.81,
       "transactionDate": "2026-08-18"
     },
     {
@@ -8901,6 +8931,16 @@
       "type": "Sale",
       "shares": 102.0,
       "pricePerShare": 269.29,
+      "transactionDate": "2026-08-14"
+    },
+    {
+      "ticker": "GSM",
+      "issuerName": "Ferroglobe PLC",
+      "insiderName": "Garcia Cos Muntanola Beatriz",
+      "title": "CHIEF FINANCE OFFICER",
+      "type": "Sale",
+      "shares": 32292.0,
+      "pricePerShare": 4.3,
       "transactionDate": "2026-08-14"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 37355.0,
       "pricePerShare": 204.6274,
       "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "BECHTOLSHEIM ANDREAS",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 24461.0,
-      "pricePerShare": 205.9397,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "BECHTOLSHEIM ANDREAS",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 112.0,
-      "pricePerShare": 213.17,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "BECHTOLSHEIM ANDREAS",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 1585.0,
-      "pricePerShare": 209.9468,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "BECHTOLSHEIM ANDREAS",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 4636.0,
-      "pricePerShare": 208.5873,
-      "transactionDate": "2026-08-05"
     }
   ],
   "byTicker": {
@@ -37801,6 +37801,51 @@
           "type": "Purchase",
           "shares": 6177.0,
           "pricePerShare": 39.45,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "CBL": {
+      "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+      "trades": [
+        {
+          "ticker": "CBL",
+          "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+          "insiderName": "Reinsmidt Kathryn A.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 17515.0,
+          "pricePerShare": 57.102,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "BWA": {
+      "issuerName": "BORGWARNER INC",
+      "trades": [
+        {
+          "ticker": "BWA",
+          "issuerName": "BORGWARNER INC",
+          "insiderName": "Kulikowski Amy B.",
+          "title": "VP & Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 2900.0,
+          "pricePerShare": 68.6,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "ARLP": {
+      "issuerName": "ALLIANCE RESOURCE PARTNERS LP",
+      "trades": [
+        {
+          "ticker": "ARLP",
+          "issuerName": "ALLIANCE RESOURCE PARTNERS LP",
+          "insiderName": "McDaniel Ronna R.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 69.74,
+          "pricePerShare": 25.81,
           "transactionDate": "2026-08-18"
         }
       ]
@@ -49705,6 +49750,21 @@
         }
       ]
     },
+    "GSM": {
+      "issuerName": "Ferroglobe PLC",
+      "trades": [
+        {
+          "ticker": "GSM",
+          "issuerName": "Ferroglobe PLC",
+          "insiderName": "Garcia Cos Muntanola Beatriz",
+          "title": "CHIEF FINANCE OFFICER",
+          "type": "Sale",
+          "shares": 32292.0,
+          "pricePerShare": 4.3,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
     "BANF": {
       "issuerName": "BANCFIRST CORP /OK/",
       "trades": [
@@ -54206,46 +54266,6 @@
           "type": "Sale",
           "shares": 37355.0,
           "pricePerShare": 204.6274,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "BECHTOLSHEIM ANDREAS",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 24461.0,
-          "pricePerShare": 205.9397,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "BECHTOLSHEIM ANDREAS",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 112.0,
-          "pricePerShare": 213.17,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "BECHTOLSHEIM ANDREAS",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1585.0,
-          "pricePerShare": 209.9468,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "BECHTOLSHEIM ANDREAS",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4636.0,
-          "pricePerShare": 208.5873,
           "transactionDate": "2026-08-05"
         }
       ]
@@ -65311,6 +65331,7 @@
       "0000950103-26-012668",
       "0000950103-26-012669",
       "0000950103-26-012670",
+      "0000950103-26-012676",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65569,6 +65590,7 @@
       "0001081400-26-000373",
       "0001081400-26-000374",
       "0001081400-26-000375",
+      "0001081400-26-000378",
       "0001081402-26-000019",
       "0001081402-26-000021",
       "0001081402-26-000023",
@@ -66260,6 +66282,8 @@
       "0001104659-26-098868",
       "0001104659-26-098891",
       "0001104659-26-099029",
+      "0001104659-26-099033",
+      "0001104659-26-099044",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66691,6 +66715,7 @@
       "0001140361-26-033751",
       "0001140361-26-033753",
       "0001140361-26-033770",
+      "0001140361-26-033794",
       "0001140842-26-000004",
       "0001159036-26-000108",
       "0001160077-26-000003",
@@ -68956,6 +68981,10 @@
       "0001193125-26-358082",
       "0001193125-26-358101",
       "0001193125-26-358148",
+      "0001193125-26-358277",
+      "0001193125-26-358287",
+      "0001193125-26-358289",
+      "0001193125-26-358328",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70133,6 +70162,7 @@
       "0001225208-26-007221",
       "0001225208-26-007222",
       "0001225208-26-007224",
+      "0001225208-26-007226",
       "0001225481-26-000006",
       "0001227384-26-000017",
       "0001227654-26-000042",
@@ -70521,6 +70551,7 @@
       "0001398344-26-014798",
       "0001398344-26-014897",
       "0001398344-26-014923",
+      "0001398344-26-015011",
       "0001399967-26-000002",
       "0001401336-26-000020",
       "0001402348-26-000016",
@@ -71011,6 +71042,8 @@
       "0001445546-26-006125",
       "0001445546-26-006126",
       "0001445546-26-006134",
+      "0001445546-26-006135",
+      "0001445546-26-006136",
       "0001448765-26-000011",
       "0001448765-26-000013",
       "0001450800-26-000006",
@@ -71449,6 +71482,7 @@
       "0001493152-26-039321",
       "0001493152-26-039331",
       "0001493152-26-039359",
+      "0001493152-26-039399",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -71701,6 +71735,7 @@
       "0001549373-26-000012",
       "0001552781-26-000400",
       "0001552781-26-000403",
+      "0001552781-26-000455",
       "0001553153-26-000002",
       "0001554387-26-000005",
       "0001554855-26-001756",
@@ -72516,6 +72551,7 @@
       "0001628280-26-058128",
       "0001628280-26-058133",
       "0001628280-26-058135",
+      "0001628280-26-058150",
       "0001629911-26-000006",
       "0001630196-26-000002",
       "0001632531-26-000002",
@@ -72854,6 +72890,7 @@
       "0001717718-26-000002",
       "0001719121-26-000014",
       "0001720243-26-000002",
+      "0001720243-26-000003",
       "0001721957-26-000003",
       "0001722154-26-000003",
       "0001722684-26-000075",
@@ -75034,6 +75071,16 @@
       "0001839882-26-040670",
       "0001839882-26-040688",
       "0001839882-26-040726",
+      "0001839882-26-040727",
+      "0001839882-26-040729",
+      "0001839882-26-040731",
+      "0001839882-26-040732",
+      "0001839882-26-040739",
+      "0001839882-26-040742",
+      "0001839882-26-040743",
+      "0001839882-26-040744",
+      "0001839882-26-040748",
+      "0001839882-26-040749",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -77166,6 +77213,15 @@
       "0001918704-26-024307",
       "0001918704-26-024317",
       "0001918704-26-024318",
+      "0001918704-26-024319",
+      "0001918704-26-024320",
+      "0001918704-26-024321",
+      "0001918704-26-024322",
+      "0001918704-26-024323",
+      "0001918704-26-024324",
+      "0001918704-26-024325",
+      "0001918704-26-024326",
+      "0001918704-26-024327",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -77653,6 +77709,8 @@
       "0001999371-26-018185",
       "0001999371-26-018190",
       "0001999371-26-018230",
+      "0001999371-26-018257",
+      "0001999371-26-018265",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0002000276-26-000006",
@@ -77810,6 +77868,7 @@
       "0002045064-26-000004",
       "0002045848-26-000007",
       "0002046824-26-000020",
+      "0002047319-26-000002",
       "0002047774-26-000007",
       "0002050172-26-000028",
       "0002050174-26-000002",
