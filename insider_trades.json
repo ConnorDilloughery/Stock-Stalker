@@ -1,8 +1,28 @@
 {
-  "generatedAt": "2026-08-20T17:05:06.013801+00:00",
+  "generatedAt": "2026-08-20T18:03:29.744545+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "CFFI",
+      "issuerName": "C & F FINANCIAL CORP",
+      "insiderName": "DILLON LARRY G",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1000.0,
+      "pricePerShare": 86.0,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "BHRB",
+      "issuerName": "Burke & Herbert Financial Services Corp.",
+      "insiderName": "WILSON DAVID",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 35.0,
+      "pricePerShare": 70.5726,
+      "transactionDate": "2026-08-20"
+    },
     {
       "ticker": "SSB",
       "issuerName": "SouthState Bank Corp",
@@ -821,6 +841,26 @@
       "type": "Purchase",
       "shares": 1.0,
       "pricePerShare": 372.1,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "BY",
+      "issuerName": "BYLINE BANCORP, INC.",
+      "insiderName": "KISTNER WILLIAM G",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 100.0,
+      "pricePerShare": 38.3,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "BY",
+      "issuerName": "BYLINE BANCORP, INC.",
+      "insiderName": "HERSETH MARY JO S.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 300.0,
+      "pricePerShare": 38.395,
       "transactionDate": "2026-08-19"
     },
     {
@@ -29962,49 +30002,89 @@
       "shares": 38.0,
       "pricePerShare": 569.13,
       "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "TMO",
-      "issuerName": "THERMO FISHER SCIENTIFIC INC.",
-      "insiderName": "CASPER MARC N",
-      "title": "Director, Chairman & CEO",
-      "type": "Sale",
-      "shares": 40.0,
-      "pricePerShare": 569.69,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "TMO",
-      "issuerName": "THERMO FISHER SCIENTIFIC INC.",
-      "insiderName": "CASPER MARC N",
-      "title": "Director, Chairman & CEO",
-      "type": "Sale",
-      "shares": 68.0,
-      "pricePerShare": 571.5,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "TMO",
-      "issuerName": "THERMO FISHER SCIENTIFIC INC.",
-      "insiderName": "CASPER MARC N",
-      "title": "Director, Chairman & CEO",
-      "type": "Sale",
-      "shares": 216.0,
-      "pricePerShare": 573.08,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "TMO",
-      "issuerName": "THERMO FISHER SCIENTIFIC INC.",
-      "insiderName": "CASPER MARC N",
-      "title": "Director, Chairman & CEO",
-      "type": "Sale",
-      "shares": 590.0,
-      "pricePerShare": 574.03,
-      "transactionDate": "2026-08-05"
     }
   ],
   "byTicker": {
+    "CFFI": {
+      "issuerName": "C & F FINANCIAL CORP",
+      "trades": [
+        {
+          "ticker": "CFFI",
+          "issuerName": "C & F FINANCIAL CORP",
+          "insiderName": "DILLON LARRY G",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 86.0,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "CFFI",
+          "issuerName": "C & F FINANCIAL CORP",
+          "insiderName": "PEAY D ANTHONY",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 425.0,
+          "pricePerShare": 85.92,
+          "transactionDate": "2026-08-05"
+        },
+        {
+          "ticker": "CFFI",
+          "issuerName": "C & F FINANCIAL CORP",
+          "insiderName": "CHERRY THOMAS F",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 87.13,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "BHRB": {
+      "issuerName": "Burke & Herbert Financial Services Corp.",
+      "trades": [
+        {
+          "ticker": "BHRB",
+          "issuerName": "Burke & Herbert Financial Services Corp.",
+          "insiderName": "WILSON DAVID",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 35.0,
+          "pricePerShare": 70.5726,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "BHRB",
+          "issuerName": "Burke & Herbert Financial Services Corp.",
+          "insiderName": "Poillon Diane",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1200.0,
+          "pricePerShare": 73.6651,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "BHRB",
+          "issuerName": "Burke & Herbert Financial Services Corp.",
+          "insiderName": "Burke James Mason",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 73.025,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "BHRB",
+          "issuerName": "Burke & Herbert Financial Services Corp.",
+          "insiderName": "McLaughlin Shawn Patrick",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 73.25,
+          "transactionDate": "2026-08-06"
+        }
+      ]
+    },
     "SSB": {
       "issuerName": "SouthState Bank Corp",
       "trades": [
@@ -33107,6 +33187,51 @@
           "shares": 1.0,
           "pricePerShare": 385.95,
           "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "BY": {
+      "issuerName": "BYLINE BANCORP, INC.",
+      "trades": [
+        {
+          "ticker": "BY",
+          "issuerName": "BYLINE BANCORP, INC.",
+          "insiderName": "KISTNER WILLIAM G",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 100.0,
+          "pricePerShare": 38.3,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "BY",
+          "issuerName": "BYLINE BANCORP, INC.",
+          "insiderName": "HERSETH MARY JO S.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 300.0,
+          "pricePerShare": 38.395,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "BY",
+          "issuerName": "BYLINE BANCORP, INC.",
+          "insiderName": "HERENCIA ROBERTO  R",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 19750.0,
+          "pricePerShare": 39.2054,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "BY",
+          "issuerName": "BYLINE BANCORP, INC.",
+          "insiderName": "MBG INVESTORS I, L.P.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 300000.0,
+          "pricePerShare": 39.1,
+          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -51290,31 +51415,6 @@
         }
       ]
     },
-    "BY": {
-      "issuerName": "BYLINE BANCORP, INC.",
-      "trades": [
-        {
-          "ticker": "BY",
-          "issuerName": "BYLINE BANCORP, INC.",
-          "insiderName": "HERENCIA ROBERTO  R",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 19750.0,
-          "pricePerShare": 39.2054,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "BY",
-          "issuerName": "BYLINE BANCORP, INC.",
-          "insiderName": "MBG INVESTORS I, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 300000.0,
-          "pricePerShare": 39.1,
-          "transactionDate": "2026-08-07"
-        }
-      ]
-    },
     "LFST": {
       "issuerName": "LifeStance Health Group, Inc.",
       "trades": [
@@ -53617,41 +53717,6 @@
           "shares": 1506.0,
           "pricePerShare": 33.2,
           "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "BHRB": {
-      "issuerName": "Burke & Herbert Financial Services Corp.",
-      "trades": [
-        {
-          "ticker": "BHRB",
-          "issuerName": "Burke & Herbert Financial Services Corp.",
-          "insiderName": "Poillon Diane",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1200.0,
-          "pricePerShare": 73.6651,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "BHRB",
-          "issuerName": "Burke & Herbert Financial Services Corp.",
-          "insiderName": "Burke James Mason",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1500.0,
-          "pricePerShare": 73.025,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "BHRB",
-          "issuerName": "Burke & Herbert Financial Services Corp.",
-          "insiderName": "McLaughlin Shawn Patrick",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 73.25,
-          "transactionDate": "2026-08-06"
         }
       ]
     },
@@ -62167,46 +62232,6 @@
           "shares": 38.0,
           "pricePerShare": 569.13,
           "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "TMO",
-          "issuerName": "THERMO FISHER SCIENTIFIC INC.",
-          "insiderName": "CASPER MARC N",
-          "title": "Director, Chairman & CEO",
-          "type": "Sale",
-          "shares": 40.0,
-          "pricePerShare": 569.69,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "TMO",
-          "issuerName": "THERMO FISHER SCIENTIFIC INC.",
-          "insiderName": "CASPER MARC N",
-          "title": "Director, Chairman & CEO",
-          "type": "Sale",
-          "shares": 68.0,
-          "pricePerShare": 571.5,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "TMO",
-          "issuerName": "THERMO FISHER SCIENTIFIC INC.",
-          "insiderName": "CASPER MARC N",
-          "title": "Director, Chairman & CEO",
-          "type": "Sale",
-          "shares": 216.0,
-          "pricePerShare": 573.08,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "TMO",
-          "issuerName": "THERMO FISHER SCIENTIFIC INC.",
-          "insiderName": "CASPER MARC N",
-          "title": "Director, Chairman & CEO",
-          "type": "Sale",
-          "shares": 590.0,
-          "pricePerShare": 574.03,
-          "transactionDate": "2026-08-05"
         }
       ]
     },
@@ -63340,31 +63365,6 @@
         }
       ]
     },
-    "CFFI": {
-      "issuerName": "C & F FINANCIAL CORP",
-      "trades": [
-        {
-          "ticker": "CFFI",
-          "issuerName": "C & F FINANCIAL CORP",
-          "insiderName": "PEAY D ANTHONY",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 425.0,
-          "pricePerShare": 85.92,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "CFFI",
-          "issuerName": "C & F FINANCIAL CORP",
-          "insiderName": "CHERRY THOMAS F",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 87.13,
-          "transactionDate": "2026-08-05"
-        }
-      ]
-    },
     "KLTR": {
       "issuerName": "KALTURA INC",
       "trades": [
@@ -63603,7 +63603,9 @@
       "0000009712-26-000105",
       "0000009712-26-000108",
       "0000009712-26-000109",
+      "0000009712-26-000111",
       "0000009713-26-000196",
+      "0000009713-26-000198",
       "0000011544-26-000041",
       "0000011544-26-000042",
       "0000011544-26-000043",
@@ -64453,6 +64455,7 @@
       "0000912282-26-001090",
       "0000912282-26-001097",
       "0000912282-26-001130",
+      "0000912562-26-000149",
       "0000912869-26-000064",
       "0000912869-26-000066",
       "0000912869-26-000068",
@@ -64604,6 +64607,7 @@
       "0000939057-26-000200",
       "0000939057-26-000201",
       "0000939057-26-000202",
+      "0000939057-26-000203",
       "0000939767-26-000101",
       "0000943452-26-000004",
       "0000943452-26-000005",
@@ -65372,6 +65376,11 @@
       "0000950103-26-012685",
       "0000950103-26-012686",
       "0000950103-26-012687",
+      "0000950103-26-012688",
+      "0000950103-26-012689",
+      "0000950103-26-012690",
+      "0000950103-26-012691",
+      "0000950103-26-012692",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66775,6 +66784,8 @@
       "0001140361-26-033823",
       "0001140361-26-033827",
       "0001140361-26-033829",
+      "0001140361-26-033838",
+      "0001140361-26-033843",
       "0001140842-26-000004",
       "0001159036-26-000108",
       "0001160077-26-000003",
@@ -66868,6 +66879,7 @@
       "0001181945-26-000026",
       "0001182002-26-000006",
       "0001182684-26-000020",
+      "0001182944-26-000005",
       "0001182953-26-000002",
       "0001183010-26-000054",
       "0001183010-26-000055",
@@ -69060,6 +69072,14 @@
       "0001193125-26-358788",
       "0001193125-26-358811",
       "0001193125-26-358821",
+      "0001193125-26-358855",
+      "0001193125-26-358858",
+      "0001193125-26-358891",
+      "0001193125-26-358895",
+      "0001193125-26-358916",
+      "0001193125-26-358940",
+      "0001193125-26-358943",
+      "0001193125-26-358945",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -69076,6 +69096,7 @@
       "0001196484-26-000014",
       "0001196914-26-000003",
       "0001198444-26-000010",
+      "0001200507-26-000008",
       "0001200512-26-000016",
       "0001201007-26-000005",
       "0001201110-26-000007",
@@ -69103,6 +69124,7 @@
       "0001208362-26-000011",
       "0001208500-26-000004",
       "0001208842-26-000008",
+      "0001208842-26-000012",
       "0001209059-26-000006",
       "0001209364-26-000002",
       "0001209874-26-000004",
@@ -69943,6 +69965,9 @@
       "0001213900-26-091899",
       "0001213900-26-091969",
       "0001213900-26-091973",
+      "0001213900-26-092001",
+      "0001213900-26-092002",
+      "0001213900-26-092003",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71754,6 +71779,7 @@
       "0001528621-26-000842",
       "0001528621-26-000843",
       "0001528621-26-000844",
+      "0001528621-26-000845",
       "0001530038-26-000002",
       "0001530255-26-000010",
       "0001530819-26-000012",
@@ -73050,6 +73076,7 @@
       "0001738147-26-000006",
       "0001738250-26-000004",
       "0001739286-26-000004",
+      "0001739310-26-000004",
       "0001739473-26-000003",
       "0001739527-26-000005",
       "0001740393-26-000006",
@@ -73236,6 +73263,7 @@
       "0001772259-26-000005",
       "0001772603-26-000012",
       "0001772661-26-000017",
+      "0001772766-26-000004",
       "0001773399-26-000006",
       "0001773926-26-000005",
       "0001774463-26-000002",
@@ -73364,6 +73392,7 @@
       "0001812627-26-000005",
       "0001812715-26-000006",
       "0001812999-26-000006",
+      "0001813364-26-000004",
       "0001813570-26-000007",
       "0001813613-26-000006",
       "0001813761-26-000009",
@@ -73577,6 +73606,16 @@
       "0001829126-26-008962",
       "0001829126-26-009059",
       "0001829126-26-009063",
+      "0001829126-26-009121",
+      "0001829126-26-009125",
+      "0001829126-26-009128",
+      "0001829126-26-009131",
+      "0001829126-26-009132",
+      "0001829126-26-009134",
+      "0001829126-26-009136",
+      "0001829126-26-009137",
+      "0001829126-26-009138",
+      "0001829126-26-009139",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -75227,6 +75266,10 @@
       "0001839882-26-040847",
       "0001839882-26-040850",
       "0001839882-26-040852",
+      "0001839882-26-040856",
+      "0001839882-26-040862",
+      "0001839882-26-040863",
+      "0001839882-26-040864",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -77384,6 +77427,11 @@
       "0001918704-26-024348",
       "0001918704-26-024349",
       "0001918704-26-024350",
+      "0001918704-26-024351",
+      "0001918704-26-024352",
+      "0001918704-26-024354",
+      "0001918704-26-024355",
+      "0001918704-26-024356",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -78241,6 +78289,7 @@
       "0002107246-26-000012",
       "0002109337-26-000010",
       "0002109629-26-000009",
+      "0002109817-26-000012",
       "0002110304-26-000019",
       "0002110477-26-000004",
       "0002110603-26-000010",
