@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T14:02:13.678030+00:00",
+  "generatedAt": "2026-08-20T15:03:10.449717+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -731,6 +731,36 @@
       "type": "Purchase",
       "shares": 15000.0,
       "pricePerShare": 1.14,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "IBCP",
+      "issuerName": "INDEPENDENT BANK CORP /MI/",
+      "insiderName": "Kreter Kristopher",
+      "title": "First Vice Pres. & Controller",
+      "type": "Sale",
+      "shares": 300.0,
+      "pricePerShare": 37.11,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "ECAT",
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 69761.0,
+      "pricePerShare": 15.23,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "GRX",
+      "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 24102.0,
+      "pricePerShare": 10.13,
       "transactionDate": "2026-08-19"
     },
     {
@@ -2821,6 +2851,16 @@
       "type": "Purchase",
       "shares": 69.74,
       "pricePerShare": 25.81,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "RVSB",
+      "issuerName": "RIVERVIEW BANCORP INC",
+      "insiderName": "Carlson Bradley",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 5.07,
       "transactionDate": "2026-08-18"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 10909.0,
       "pricePerShare": 200.8413,
       "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "BECHTOLSHEIM ANDREAS",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 10521.0,
-      "pricePerShare": 201.5508,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "BECHTOLSHEIM ANDREAS",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 27565.0,
-      "pricePerShare": 202.9437,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "BECHTOLSHEIM ANDREAS",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 47587.0,
-      "pricePerShare": 203.7481,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "BECHTOLSHEIM ANDREAS",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 37355.0,
-      "pricePerShare": 204.6274,
-      "transactionDate": "2026-08-05"
     }
   ],
   "byTicker": {
@@ -32620,6 +32620,161 @@
         }
       ]
     },
+    "IBCP": {
+      "issuerName": "INDEPENDENT BANK CORP /MI/",
+      "trades": [
+        {
+          "ticker": "IBCP",
+          "issuerName": "INDEPENDENT BANK CORP /MI/",
+          "insiderName": "Kreter Kristopher",
+          "title": "First Vice Pres. & Controller",
+          "type": "Sale",
+          "shares": 300.0,
+          "pricePerShare": 37.11,
+          "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "ECAT": {
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "trades": [
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 69761.0,
+          "pricePerShare": 15.23,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 104309.0,
+          "pricePerShare": 15.26,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 68259.0,
+          "pricePerShare": 15.44,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 45050.0,
+          "pricePerShare": 15.51,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 190526.0,
+          "pricePerShare": 15.82,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 153689.0,
+          "pricePerShare": 15.83,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 120376.0,
+          "pricePerShare": 15.84,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 165027.0,
+          "pricePerShare": 15.67,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 134046.0,
+          "pricePerShare": 15.5,
+          "transactionDate": "2026-08-06"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 42298.0,
+          "pricePerShare": 15.46,
+          "transactionDate": "2026-08-05"
+        }
+      ]
+    },
+    "GRX": {
+      "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+      "trades": [
+        {
+          "ticker": "GRX",
+          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 24102.0,
+          "pricePerShare": 10.13,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "GRX",
+          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1203.0,
+          "pricePerShare": 9.86,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "GRX",
+          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 200.0,
+          "pricePerShare": 9.93,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
     "SRI": {
       "issuerName": "STONERIDGE INC",
       "trades": [
@@ -35107,101 +35262,6 @@
           "shares": 25000.0,
           "pricePerShare": 21.6187,
           "transactionDate": "2026-08-06"
-        }
-      ]
-    },
-    "ECAT": {
-      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-      "trades": [
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 104309.0,
-          "pricePerShare": 15.26,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 68259.0,
-          "pricePerShare": 15.44,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 45050.0,
-          "pricePerShare": 15.51,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 190526.0,
-          "pricePerShare": 15.82,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 153689.0,
-          "pricePerShare": 15.83,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 120376.0,
-          "pricePerShare": 15.84,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 165027.0,
-          "pricePerShare": 15.67,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 134046.0,
-          "pricePerShare": 15.5,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 42298.0,
-          "pricePerShare": 15.46,
-          "transactionDate": "2026-08-05"
         }
       ]
     },
@@ -37850,6 +37910,41 @@
         }
       ]
     },
+    "RVSB": {
+      "issuerName": "RIVERVIEW BANCORP INC",
+      "trades": [
+        {
+          "ticker": "RVSB",
+          "issuerName": "RIVERVIEW BANCORP INC",
+          "insiderName": "Carlson Bradley",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 5.07,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "RVSB",
+          "issuerName": "RIVERVIEW BANCORP INC",
+          "insiderName": "Lam David",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 5.17,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "RVSB",
+          "issuerName": "RIVERVIEW BANCORP INC",
+          "insiderName": "Lightheart Charmaine",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 250.0,
+          "pricePerShare": 5.309,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
     "LCNB": {
       "issuerName": "LCNB CORP",
       "trades": [
@@ -39622,31 +39717,6 @@
           "shares": 1200.0,
           "pricePerShare": 439.24,
           "transactionDate": "2026-08-17"
-        }
-      ]
-    },
-    "RVSB": {
-      "issuerName": "RIVERVIEW BANCORP INC",
-      "trades": [
-        {
-          "ticker": "RVSB",
-          "issuerName": "RIVERVIEW BANCORP INC",
-          "insiderName": "Lam David",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 5.17,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "RVSB",
-          "issuerName": "RIVERVIEW BANCORP INC",
-          "insiderName": "Lightheart Charmaine",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 250.0,
-          "pricePerShare": 5.309,
-          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -46767,31 +46837,6 @@
           "shares": 250.0,
           "pricePerShare": 20.21,
           "transactionDate": "2026-08-14"
-        }
-      ]
-    },
-    "GRX": {
-      "issuerName": "Gabelli Healthcare & WellnessRx Trust",
-      "trades": [
-        {
-          "ticker": "GRX",
-          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1203.0,
-          "pricePerShare": 9.86,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "GRX",
-          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 200.0,
-          "pricePerShare": 9.93,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -54226,46 +54271,6 @@
           "type": "Sale",
           "shares": 10909.0,
           "pricePerShare": 200.8413,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "BECHTOLSHEIM ANDREAS",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 10521.0,
-          "pricePerShare": 201.5508,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "BECHTOLSHEIM ANDREAS",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 27565.0,
-          "pricePerShare": 202.9437,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "BECHTOLSHEIM ANDREAS",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 47587.0,
-          "pricePerShare": 203.7481,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "BECHTOLSHEIM ANDREAS",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 37355.0,
-          "pricePerShare": 204.6274,
           "transactionDate": "2026-08-05"
         }
       ]
@@ -65332,6 +65337,8 @@
       "0000950103-26-012669",
       "0000950103-26-012670",
       "0000950103-26-012676",
+      "0000950103-26-012677",
+      "0000950103-26-012678",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65351,6 +65358,7 @@
       "0000950157-26-000880",
       "0000950157-26-000933",
       "0000950157-26-000934",
+      "0000950157-26-000936",
       "0001002910-26-000026",
       "0001003078-26-000088",
       "0001004434-26-000080",
@@ -65427,6 +65435,7 @@
       "0001035145-26-000004",
       "0001035422-26-000001",
       "0001035422-26-000005",
+      "0001035422-26-000006",
       "0001035986-26-000005",
       "0001037589-26-000005",
       "0001037646-26-000057",
@@ -66716,6 +66725,8 @@
       "0001140361-26-033753",
       "0001140361-26-033770",
       "0001140361-26-033794",
+      "0001140361-26-033798",
+      "0001140361-26-033803",
       "0001140842-26-000004",
       "0001159036-26-000108",
       "0001160077-26-000003",
@@ -68985,6 +68996,12 @@
       "0001193125-26-358287",
       "0001193125-26-358289",
       "0001193125-26-358328",
+      "0001193125-26-358345",
+      "0001193125-26-358361",
+      "0001193125-26-358374",
+      "0001193125-26-358403",
+      "0001193125-26-358477",
+      "0001193125-26-358573",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -71044,6 +71061,8 @@
       "0001445546-26-006134",
       "0001445546-26-006135",
       "0001445546-26-006136",
+      "0001445546-26-006149",
+      "0001445546-26-006151",
       "0001448765-26-000011",
       "0001448765-26-000013",
       "0001450800-26-000006",
@@ -71553,6 +71572,8 @@
       "0001510281-26-000270",
       "0001510281-26-000271",
       "0001510281-26-000272",
+      "0001510281-26-000273",
+      "0001510281-26-000274",
       "0001511110-26-000008",
       "0001511110-26-000010",
       "0001511194-26-000012",
@@ -71661,6 +71682,7 @@
       "0001528621-26-000837",
       "0001528621-26-000841",
       "0001528621-26-000842",
+      "0001528621-26-000843",
       "0001530038-26-000002",
       "0001530255-26-000010",
       "0001530819-26-000012",
@@ -72552,6 +72574,7 @@
       "0001628280-26-058133",
       "0001628280-26-058135",
       "0001628280-26-058150",
+      "0001629292-26-000002",
       "0001629911-26-000006",
       "0001630196-26-000002",
       "0001632531-26-000002",
@@ -73129,6 +73152,7 @@
       "0001771146-26-001651",
       "0001771146-26-001655",
       "0001771146-26-001672",
+      "0001771146-26-001685",
       "0001771383-26-000003",
       "0001772233-26-000005",
       "0001772259-26-000005",
@@ -73233,6 +73257,7 @@
       "0001801365-26-000005",
       "0001801661-26-000086",
       "0001801661-26-000088",
+      "0001801785-26-000006",
       "0001802482-26-000002",
       "0001803794-26-000003",
       "0001804674-26-000003",
@@ -75081,6 +75106,20 @@
       "0001839882-26-040744",
       "0001839882-26-040748",
       "0001839882-26-040749",
+      "0001839882-26-040753",
+      "0001839882-26-040754",
+      "0001839882-26-040758",
+      "0001839882-26-040763",
+      "0001839882-26-040772",
+      "0001839882-26-040774",
+      "0001839882-26-040776",
+      "0001839882-26-040780",
+      "0001839882-26-040782",
+      "0001839882-26-040785",
+      "0001839882-26-040788",
+      "0001839882-26-040790",
+      "0001839882-26-040791",
+      "0001839882-26-040793",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -77222,6 +77261,17 @@
       "0001918704-26-024325",
       "0001918704-26-024326",
       "0001918704-26-024327",
+      "0001918704-26-024328",
+      "0001918704-26-024329",
+      "0001918704-26-024330",
+      "0001918704-26-024333",
+      "0001918704-26-024334",
+      "0001918704-26-024335",
+      "0001918704-26-024336",
+      "0001918704-26-024337",
+      "0001918704-26-024338",
+      "0001918704-26-024339",
+      "0001918704-26-024340",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -77250,6 +77300,7 @@
       "0001932848-26-000017",
       "0001933414-26-000118",
       "0001933414-26-000120",
+      "0001933750-26-000003",
       "0001935239-26-000007",
       "0001936727-26-000006",
       "0001937010-26-000012",
@@ -77711,6 +77762,9 @@
       "0001999371-26-018230",
       "0001999371-26-018257",
       "0001999371-26-018265",
+      "0001999371-26-018268",
+      "0001999371-26-018270",
+      "0001999371-26-018274",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0002000276-26-000006",
