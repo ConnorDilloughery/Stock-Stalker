@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T12:02:05.208984+00:00",
+  "generatedAt": "2026-08-20T13:04:20.545574+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -701,6 +701,36 @@
       "type": "Purchase",
       "shares": 55000.0,
       "pricePerShare": 1.6433,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "EPR",
+      "issuerName": "EPR PROPERTIES",
+      "insiderName": "Grace Elizabeth",
+      "title": "SVP - Human Resources & Admin",
+      "type": "Sale",
+      "shares": 4200.0,
+      "pricePerShare": 60.57,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "LOOP",
+      "issuerName": "Loop Industries, Inc.",
+      "insiderName": "GEYGAN JEFFREY RICHART",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 1090.0,
+      "pricePerShare": 0.6423,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "PHIO",
+      "issuerName": "Phio Pharmaceuticals Corp.",
+      "insiderName": "Plott Ronald Todd",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 15000.0,
+      "pricePerShare": 1.14,
       "transactionDate": "2026-08-19"
     },
     {
@@ -2721,6 +2751,46 @@
       "type": "Sale",
       "shares": 686.0,
       "pricePerShare": 237.25,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 13610.0,
+      "pricePerShare": 121.91,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 590.0,
+      "pricePerShare": 122.65,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "LOOP",
+      "issuerName": "Loop Industries, Inc.",
+      "insiderName": "GEYGAN JEFFREY RICHART",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 22100.0,
+      "pricePerShare": 0.6419,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "PSUS",
+      "issuerName": "Pershing Square USA, Ltd.",
+      "insiderName": "POLSKY LISA",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 6177.0,
+      "pricePerShare": 39.45,
       "transactionDate": "2026-08-18"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 4636.0,
       "pricePerShare": 208.5873,
       "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "BECHTOLSHEIM ANDREAS",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 58978.0,
-      "pricePerShare": 207.6912,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "BECHTOLSHEIM ANDREAS",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 8500.0,
-      "pricePerShare": 206.6865,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "BECHTOLSHEIM ANDREAS",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 8151.0,
-      "pricePerShare": 196.8862,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Ullal Jayshree",
-      "title": "Director, CEO and Chairperson",
-      "type": "Sale",
-      "shares": 152860.0,
-      "pricePerShare": 197.116,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Ullal Jayshree",
-      "title": "Director, CEO and Chairperson",
-      "type": "Sale",
-      "shares": 27292.0,
-      "pricePerShare": 198.5433,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Ullal Jayshree",
-      "title": "Director, CEO and Chairperson",
-      "type": "Sale",
-      "shares": 54399.0,
-      "pricePerShare": 199.5091,
-      "transactionDate": "2026-08-05"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Ullal Jayshree",
-      "title": "Director, CEO and Chairperson",
-      "type": "Sale",
-      "shares": 17132.0,
-      "pricePerShare": 200.4263,
-      "transactionDate": "2026-08-05"
     }
   ],
   "byTicker": {
@@ -32542,6 +32542,81 @@
           "shares": 150000.0,
           "pricePerShare": 1.9708,
           "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "EPR": {
+      "issuerName": "EPR PROPERTIES",
+      "trades": [
+        {
+          "ticker": "EPR",
+          "issuerName": "EPR PROPERTIES",
+          "insiderName": "Grace Elizabeth",
+          "title": "SVP - Human Resources & Admin",
+          "type": "Sale",
+          "shares": 4200.0,
+          "pricePerShare": 60.57,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "EPR",
+          "issuerName": "EPR PROPERTIES",
+          "insiderName": "Sterneck Robin Peppe",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3403.0,
+          "pricePerShare": 61.5375,
+          "transactionDate": "2026-08-06"
+        }
+      ]
+    },
+    "LOOP": {
+      "issuerName": "Loop Industries, Inc.",
+      "trades": [
+        {
+          "ticker": "LOOP",
+          "issuerName": "Loop Industries, Inc.",
+          "insiderName": "GEYGAN JEFFREY RICHART",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1090.0,
+          "pricePerShare": 0.6423,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "LOOP",
+          "issuerName": "Loop Industries, Inc.",
+          "insiderName": "GEYGAN JEFFREY RICHART",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 22100.0,
+          "pricePerShare": 0.6419,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "PHIO": {
+      "issuerName": "Phio Pharmaceuticals Corp.",
+      "trades": [
+        {
+          "ticker": "PHIO",
+          "issuerName": "Phio Pharmaceuticals Corp.",
+          "insiderName": "Plott Ronald Todd",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 15000.0,
+          "pricePerShare": 1.14,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "PHIO",
+          "issuerName": "Phio Pharmaceuticals Corp.",
+          "insiderName": "Bitterman Robert J",
+          "title": "Director, Chairman, Pres. & CEO",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 1.06,
+          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -35975,21 +36050,6 @@
         }
       ]
     },
-    "PHIO": {
-      "issuerName": "Phio Pharmaceuticals Corp.",
-      "trades": [
-        {
-          "ticker": "PHIO",
-          "issuerName": "Phio Pharmaceuticals Corp.",
-          "insiderName": "Bitterman Robert J",
-          "title": "Director, Chairman, Pres. & CEO",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 1.06,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
     "GLBE": {
       "issuerName": "Global-E Online Ltd.",
       "trades": [
@@ -37641,6 +37701,106 @@
           "type": "Purchase",
           "shares": 1000.0,
           "pricePerShare": 3.92,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "AFL": {
+      "issuerName": "AFLAC INC",
+      "trades": [
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13610.0,
+          "pricePerShare": 121.91,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 590.0,
+          "pricePerShare": 122.65,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12690.0,
+          "pricePerShare": 121.26,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1210.0,
+          "pricePerShare": 122.11,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13980.0,
+          "pricePerShare": 121.43,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 120.0,
+          "pricePerShare": 121.86,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13000.0,
+          "pricePerShare": 121.09,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "MOSKOWITZ JOSEPH L",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 600.0,
+          "pricePerShare": 124.1,
+          "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "PSUS": {
+      "issuerName": "Pershing Square USA, Ltd.",
+      "trades": [
+        {
+          "ticker": "PSUS",
+          "issuerName": "Pershing Square USA, Ltd.",
+          "insiderName": "POLSKY LISA",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 6177.0,
+          "pricePerShare": 39.45,
           "transactionDate": "2026-08-18"
         }
       ]
@@ -41777,71 +41937,6 @@
           "shares": 5000.0,
           "pricePerShare": 29.5,
           "transactionDate": "2026-08-06"
-        }
-      ]
-    },
-    "AFL": {
-      "issuerName": "AFLAC INC",
-      "trades": [
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12690.0,
-          "pricePerShare": 121.26,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1210.0,
-          "pricePerShare": 122.11,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13980.0,
-          "pricePerShare": 121.43,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 120.0,
-          "pricePerShare": 121.86,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13000.0,
-          "pricePerShare": 121.09,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "MOSKOWITZ JOSEPH L",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 600.0,
-          "pricePerShare": 124.1,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -54152,76 +54247,6 @@
           "shares": 4636.0,
           "pricePerShare": 208.5873,
           "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "BECHTOLSHEIM ANDREAS",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 58978.0,
-          "pricePerShare": 207.6912,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "BECHTOLSHEIM ANDREAS",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 8500.0,
-          "pricePerShare": 206.6865,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "BECHTOLSHEIM ANDREAS",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 8151.0,
-          "pricePerShare": 196.8862,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Ullal Jayshree",
-          "title": "Director, CEO and Chairperson",
-          "type": "Sale",
-          "shares": 152860.0,
-          "pricePerShare": 197.116,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Ullal Jayshree",
-          "title": "Director, CEO and Chairperson",
-          "type": "Sale",
-          "shares": 27292.0,
-          "pricePerShare": 198.5433,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Ullal Jayshree",
-          "title": "Director, CEO and Chairperson",
-          "type": "Sale",
-          "shares": 54399.0,
-          "pricePerShare": 199.5091,
-          "transactionDate": "2026-08-05"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Ullal Jayshree",
-          "title": "Director, CEO and Chairperson",
-          "type": "Sale",
-          "shares": 17132.0,
-          "pricePerShare": 200.4263,
-          "transactionDate": "2026-08-05"
         }
       ]
     },
@@ -61080,21 +61105,6 @@
         }
       ]
     },
-    "EPR": {
-      "issuerName": "EPR PROPERTIES",
-      "trades": [
-        {
-          "ticker": "EPR",
-          "issuerName": "EPR PROPERTIES",
-          "insiderName": "Sterneck Robin Peppe",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3403.0,
-          "pricePerShare": 61.5375,
-          "transactionDate": "2026-08-06"
-        }
-      ]
-    },
     "TLRY": {
       "issuerName": "Tilray Brands, Inc.",
       "trades": [
@@ -63604,6 +63614,7 @@
       "0000030146-26-000353",
       "0000030146-26-000354",
       "0000030146-26-000360",
+      "0000030146-26-000362",
       "0000030697-26-000117",
       "0000030697-26-000118",
       "0000030697-26-000119",
@@ -66248,6 +66259,7 @@
       "0001104659-26-098850",
       "0001104659-26-098868",
       "0001104659-26-098891",
+      "0001104659-26-099029",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68941,6 +68953,9 @@
       "0001193125-26-357732",
       "0001193125-26-357844",
       "0001193125-26-357979",
+      "0001193125-26-358082",
+      "0001193125-26-358101",
+      "0001193125-26-358148",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -69821,6 +69836,7 @@
       "0001213900-26-091863",
       "0001213900-26-091868",
       "0001213900-26-091884",
+      "0001213900-26-091899",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -70116,6 +70132,7 @@
       "0001225208-26-007220",
       "0001225208-26-007221",
       "0001225208-26-007222",
+      "0001225208-26-007224",
       "0001225481-26-000006",
       "0001227384-26-000017",
       "0001227654-26-000042",
@@ -70993,6 +71010,7 @@
       "0001445546-26-006124",
       "0001445546-26-006125",
       "0001445546-26-006126",
+      "0001445546-26-006134",
       "0001448765-26-000011",
       "0001448765-26-000013",
       "0001450800-26-000006",
@@ -71846,6 +71864,7 @@
       "0001590264-26-000010",
       "0001590364-26-000078",
       "0001590364-26-000080",
+      "0001590558-26-000005",
       "0001590625-26-000063",
       "0001591698-26-000106",
       "0001591698-26-000107",
@@ -72495,6 +72514,8 @@
       "0001628280-26-058124",
       "0001628280-26-058125",
       "0001628280-26-058128",
+      "0001628280-26-058133",
+      "0001628280-26-058135",
       "0001629911-26-000006",
       "0001630196-26-000002",
       "0001632531-26-000002",
@@ -72751,6 +72772,7 @@
       "0001683168-26-006615",
       "0001683168-26-006618",
       "0001683168-26-006619",
+      "0001683168-26-006620",
       "0001687858-26-000003",
       "0001687898-26-000009",
       "0001688199-26-000006",
@@ -72906,6 +72928,7 @@
       "0001742046-26-000004",
       "0001742734-26-000018",
       "0001742926-26-000004",
+      "0001742926-26-000005",
       "0001742938-26-000007",
       "0001743306-26-000003",
       "0001743317-26-000003",
@@ -75010,6 +75033,7 @@
       "0001839882-26-040668",
       "0001839882-26-040670",
       "0001839882-26-040688",
+      "0001839882-26-040726",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -75188,6 +75212,7 @@
       "0001899338-26-000006",
       "0001899977-26-000008",
       "0001900201-26-000003",
+      "0001900482-26-000003",
       "0001902119-26-000003",
       "0001902610-26-000002",
       "0001902733-26-000086",
@@ -77139,6 +77164,8 @@
       "0001918704-26-024291",
       "0001918704-26-024292",
       "0001918704-26-024307",
+      "0001918704-26-024317",
+      "0001918704-26-024318",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
