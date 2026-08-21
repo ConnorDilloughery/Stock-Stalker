@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T12:03:15.022797+00:00",
+  "generatedAt": "2026-08-21T13:00:40.712241+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -511,6 +511,26 @@
       "type": "Purchase",
       "shares": 365.0,
       "pricePerShare": 5.4,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "THG",
+      "issuerName": "HANOVER INSURANCE GROUP, INC.",
+      "insiderName": "Kerrigan Dennis Francis",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 400.0,
+      "pricePerShare": 220.01,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "THG",
+      "issuerName": "HANOVER INSURANCE GROUP, INC.",
+      "insiderName": "Kerrigan Dennis Francis",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1704.0,
+      "pricePerShare": 222.97,
       "transactionDate": "2026-08-20"
     },
     {
@@ -3281,6 +3301,46 @@
       "type": "Purchase",
       "shares": 540.0,
       "pricePerShare": 5.25,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "FTLF",
+      "issuerName": "FITLIFE BRANDS, INC.",
+      "insiderName": "Pappas Shannon K.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 10.25,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "THG",
+      "issuerName": "HANOVER INSURANCE GROUP, INC.",
+      "insiderName": "Kerrigan Dennis Francis",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 4822.0,
+      "pricePerShare": 220.41,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "THG",
+      "issuerName": "HANOVER INSURANCE GROUP, INC.",
+      "insiderName": "Kerrigan Dennis Francis",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1505.0,
+      "pricePerShare": 221.73,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "THG",
+      "issuerName": "HANOVER INSURANCE GROUP, INC.",
+      "insiderName": "Kerrigan Dennis Francis",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 224.0,
+      "pricePerShare": 222.77,
       "transactionDate": "2026-08-19"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 7250.0,
       "pricePerShare": 3.0416,
       "transactionDate": "2026-08-06"
-    },
-    {
-      "ticker": "BHRB",
-      "issuerName": "Burke & Herbert Financial Services Corp.",
-      "insiderName": "McLaughlin Shawn Patrick",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 1000.0,
-      "pricePerShare": 73.25,
-      "transactionDate": "2026-08-06"
-    },
-    {
-      "ticker": "EWBC",
-      "issuerName": "EAST WEST BANCORP INC",
-      "insiderName": "KRAUSE DOUGLAS PAUL",
-      "title": "Vice Chairman",
-      "type": "Sale",
-      "shares": 10000.0,
-      "pricePerShare": 132.3715,
-      "transactionDate": "2026-08-06"
-    },
-    {
-      "ticker": "BANF",
-      "issuerName": "BANCFIRST CORP /OK/",
-      "insiderName": "RAINBOLT DAVID E",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 3000.0,
-      "pricePerShare": 115.0,
-      "transactionDate": "2026-08-06"
-    },
-    {
-      "ticker": "ATTO",
-      "issuerName": "Attovia Therapeutics, Inc.",
-      "insiderName": "Frazier Life Sciences XI, L.P.",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 588235.0,
-      "pricePerShare": 17.0,
-      "transactionDate": "2026-08-06"
-    },
-    {
-      "ticker": "NET",
-      "issuerName": "Cloudflare, Inc.",
-      "insiderName": "Ledbetter Carl",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 300.0,
-      "pricePerShare": 280.13,
-      "transactionDate": "2026-08-06"
-    },
-    {
-      "ticker": "NET",
-      "issuerName": "Cloudflare, Inc.",
-      "insiderName": "Ledbetter Carl",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 3064.0,
-      "pricePerShare": 281.442,
-      "transactionDate": "2026-08-06"
     }
   ],
   "byTicker": {
@@ -30052,16 +30052,6 @@
           "shares": 1500.0,
           "pricePerShare": 73.025,
           "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "BHRB",
-          "issuerName": "Burke & Herbert Financial Services Corp.",
-          "insiderName": "McLaughlin Shawn Patrick",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 73.25,
-          "transactionDate": "2026-08-06"
         }
       ]
     },
@@ -33181,6 +33171,61 @@
           "type": "Purchase",
           "shares": 540.0,
           "pricePerShare": 5.25,
+          "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "THG": {
+      "issuerName": "HANOVER INSURANCE GROUP, INC.",
+      "trades": [
+        {
+          "ticker": "THG",
+          "issuerName": "HANOVER INSURANCE GROUP, INC.",
+          "insiderName": "Kerrigan Dennis Francis",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 220.01,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "THG",
+          "issuerName": "HANOVER INSURANCE GROUP, INC.",
+          "insiderName": "Kerrigan Dennis Francis",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1704.0,
+          "pricePerShare": 222.97,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "THG",
+          "issuerName": "HANOVER INSURANCE GROUP, INC.",
+          "insiderName": "Kerrigan Dennis Francis",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4822.0,
+          "pricePerShare": 220.41,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "THG",
+          "issuerName": "HANOVER INSURANCE GROUP, INC.",
+          "insiderName": "Kerrigan Dennis Francis",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1505.0,
+          "pricePerShare": 221.73,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "THG",
+          "issuerName": "HANOVER INSURANCE GROUP, INC.",
+          "insiderName": "Kerrigan Dennis Francis",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 224.0,
+          "pricePerShare": 222.77,
           "transactionDate": "2026-08-19"
         }
       ]
@@ -40630,6 +40675,21 @@
         }
       ]
     },
+    "FTLF": {
+      "issuerName": "FITLIFE BRANDS, INC.",
+      "trades": [
+        {
+          "ticker": "FTLF",
+          "issuerName": "FITLIFE BRANDS, INC.",
+          "insiderName": "Pappas Shannon K.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 10.25,
+          "transactionDate": "2026-08-19"
+        }
+      ]
+    },
     "SRI": {
       "issuerName": "STONERIDGE INC",
       "trades": [
@@ -42877,26 +42937,6 @@
           "shares": 270.0,
           "pricePerShare": 314.4187,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "NET",
-          "issuerName": "Cloudflare, Inc.",
-          "insiderName": "Ledbetter Carl",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 300.0,
-          "pricePerShare": 280.13,
-          "transactionDate": "2026-08-06"
-        },
-        {
-          "ticker": "NET",
-          "issuerName": "Cloudflare, Inc.",
-          "insiderName": "Ledbetter Carl",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3064.0,
-          "pricePerShare": 281.442,
-          "transactionDate": "2026-08-06"
         }
       ]
     },
@@ -54017,16 +54057,6 @@
           "shares": 8506.0,
           "pricePerShare": 115.0,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "BANF",
-          "issuerName": "BANCFIRST CORP /OK/",
-          "insiderName": "RAINBOLT DAVID E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 115.0,
-          "transactionDate": "2026-08-06"
         }
       ]
     },
@@ -56497,16 +56527,6 @@
           "shares": 1000.0,
           "pricePerShare": 135.02,
           "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "EWBC",
-          "issuerName": "EAST WEST BANCORP INC",
-          "insiderName": "KRAUSE DOUGLAS PAUL",
-          "title": "Vice Chairman",
-          "type": "Sale",
-          "shares": 10000.0,
-          "pricePerShare": 132.3715,
-          "transactionDate": "2026-08-06"
         }
       ]
     },
@@ -63409,21 +63429,6 @@
           "transactionDate": "2026-08-06"
         }
       ]
-    },
-    "ATTO": {
-      "issuerName": "Attovia Therapeutics, Inc.",
-      "trades": [
-        {
-          "ticker": "ATTO",
-          "issuerName": "Attovia Therapeutics, Inc.",
-          "insiderName": "Frazier Life Sciences XI, L.P.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 588235.0,
-          "pricePerShare": 17.0,
-          "transactionDate": "2026-08-06"
-        }
-      ]
     }
   },
   "_meta": {
@@ -64434,6 +64439,7 @@
       "0000930413-26-002329",
       "0000930413-26-002431",
       "0000930413-26-002467",
+      "0000930413-26-002635",
       "0000933094-26-000026",
       "0000933094-26-000027",
       "0000933094-26-000028",
@@ -66713,6 +66719,7 @@
       "0001140361-26-033922",
       "0001140361-26-033928",
       "0001140361-26-033942",
+      "0001140361-26-033967",
       "0001140842-26-000004",
       "0001159036-26-000108",
       "0001160077-26-000003",
@@ -66832,6 +66839,7 @@
       "0001185185-26-003637",
       "0001185611-26-000005",
       "0001185829-26-000001",
+      "0001185992-26-000004",
       "0001186827-26-000013",
       "0001186827-26-000014",
       "0001186836-26-000008",
@@ -69050,6 +69058,9 @@
       "0001193125-26-359854",
       "0001193125-26-359855",
       "0001193125-26-359962",
+      "0001193125-26-359969",
+      "0001193125-26-359994",
+      "0001193125-26-360007",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70435,6 +70446,7 @@
       "0001307748-26-000177",
       "0001307748-26-000178",
       "0001307748-26-000179",
+      "0001309344-26-000008",
       "0001310881-26-000010",
       "0001311079-26-000003",
       "0001312596-26-000006",
@@ -70704,6 +70716,7 @@
       "0001409970-26-000169",
       "0001409970-26-000172",
       "0001411724-26-000006",
+      "0001411951-26-000004",
       "0001412408-26-000205",
       "0001413042-26-000608",
       "0001413042-26-000618",
@@ -71648,6 +71661,7 @@
       "0001493152-26-039528",
       "0001493152-26-039537",
       "0001493152-26-039553",
+      "0001493152-26-039572",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -71774,6 +71788,9 @@
       "0001527541-26-000283",
       "0001527541-26-000285",
       "0001527541-26-000287",
+      "0001527541-26-000305",
+      "0001527541-26-000307",
+      "0001527541-26-000310",
       "0001528621-26-000727",
       "0001528621-26-000729",
       "0001528621-26-000762",
@@ -72126,6 +72143,7 @@
       "0001593968-26-000173",
       "0001593968-26-000174",
       "0001594609-26-000010",
+      "0001594609-26-000012",
       "0001595335-26-000006",
       "0001596532-26-000166",
       "0001596532-26-000183",
@@ -73230,6 +73248,7 @@
       "0001754464-26-000016",
       "0001755172-26-000002",
       "0001755446-26-000006",
+      "0001755446-26-000008",
       "0001755832-26-000008",
       "0001756253-26-000006",
       "0001756274-26-000010",
@@ -73370,6 +73389,7 @@
       "0001775297-26-000011",
       "0001776004-26-000003",
       "0001776144-26-000004",
+      "0001776223-26-000006",
       "0001776485-26-000013",
       "0001776865-26-000020",
       "0001777165-26-000012",
@@ -78106,6 +78126,7 @@
       "0002009681-26-000008",
       "0002009786-26-000008",
       "0002009817-26-000006",
+      "0002009817-26-000008",
       "0002009849-26-000010",
       "0002009989-26-000019",
       "0002009989-26-000022",
@@ -78311,6 +78332,7 @@
       "0002064832-26-000274",
       "0002066890-26-000012",
       "0002067425-26-000002",
+      "0002067544-26-000002",
       "0002068228-26-000010",
       "0002068307-26-000004",
       "0002068536-26-000004",
@@ -78450,6 +78472,7 @@
       "0002104172-26-000010",
       "0002105171-26-000010",
       "0002105635-26-000006",
+      "0002105635-26-000008",
       "0002105851-26-000002",
       "0002106277-26-000002",
       "0002107246-26-000012",
