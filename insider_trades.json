@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T15:05:20.697874+00:00",
+  "generatedAt": "2026-08-21T16:05:39.551084+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -601,6 +601,36 @@
       "type": "Purchase",
       "shares": 1.0,
       "pricePerShare": 377.85,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "BCML",
+      "issuerName": "BayCom Corp",
+      "insiderName": "Laverne Robert G.",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 29.95,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "KYN",
+      "issuerName": "Kayne Anderson Energy Infrastructure Fund, Inc.",
+      "insiderName": "Walker Carita",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 3400.0,
+      "pricePerShare": 14.7015,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "VTOL",
+      "issuerName": "Bristow Group Inc.",
+      "insiderName": "Stavley Stuart",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 10218.0,
+      "pricePerShare": 46.2003,
       "transactionDate": "2026-08-20"
     },
     {
@@ -3511,6 +3541,26 @@
       "type": "Sale",
       "shares": 4080.0,
       "pricePerShare": 43.2,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "ROLR",
+      "issuerName": "High Roller Technologies, Inc.",
+      "insiderName": "Felman Adam Jonathan",
+      "title": "Chief Financial Officer",
+      "type": "Sale",
+      "shares": 3600.0,
+      "pricePerShare": 5.42,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "RAIN",
+      "issuerName": "Rain Enhancement Technologies Holdco, Inc.",
+      "insiderName": "Seidl Randy",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 110000.0,
+      "pricePerShare": 0.9475,
       "transactionDate": "2026-08-19"
     },
     {
@@ -8271,6 +8321,16 @@
       "type": "Sale",
       "shares": 32556.0,
       "pricePerShare": 1.84,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "TISI",
+      "issuerName": "TEAM INC",
+      "insiderName": "Horton Anthony R",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 2000.0,
+      "pricePerShare": 22.71,
       "transactionDate": "2026-08-18"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 963.0,
       "pricePerShare": 59.55,
       "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "CPSS",
-      "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
-      "insiderName": "Ralston Catrina Marie",
-      "title": "Sr. Vice President",
-      "type": "Sale",
-      "shares": 467.0,
-      "pricePerShare": 9.5,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "FEMY",
-      "issuerName": "FEMASYS INC",
-      "insiderName": "Mifek Jeffrey Gerald",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 3125.0,
-      "pricePerShare": 3.2,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "FEMY",
-      "issuerName": "FEMASYS INC",
-      "insiderName": "Sipos Jeremy Alexander",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 3125.0,
-      "pricePerShare": 3.2,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "FEMY",
-      "issuerName": "FEMASYS INC",
-      "insiderName": "Canning John Charles",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 4375.0,
-      "pricePerShare": 3.2,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "GLOO",
-      "issuerName": "Gloo Holdings, Inc.",
-      "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 11000.0,
-      "pricePerShare": 3.5538,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "FEMY",
-      "issuerName": "FEMASYS INC",
-      "insiderName": "Elefant Dov",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 15625.0,
-      "pricePerShare": 3.2,
-      "transactionDate": "2026-08-07"
     }
   ],
   "byTicker": {
@@ -33416,6 +33416,16 @@
         {
           "ticker": "VTOL",
           "issuerName": "Bristow Group Inc.",
+          "insiderName": "Stavley Stuart",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10218.0,
+          "pricePerShare": 46.2003,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
           "insiderName": "Brass Lorin L.",
           "title": "Reporting Person",
           "type": "Sale",
@@ -33547,6 +33557,36 @@
           "shares": 1.0,
           "pricePerShare": 353.28,
           "transactionDate": "2026-08-07"
+        }
+      ]
+    },
+    "BCML": {
+      "issuerName": "BayCom Corp",
+      "trades": [
+        {
+          "ticker": "BCML",
+          "issuerName": "BayCom Corp",
+          "insiderName": "Laverne Robert G.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 29.95,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "KYN": {
+      "issuerName": "Kayne Anderson Energy Infrastructure Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "KYN",
+          "issuerName": "Kayne Anderson Energy Infrastructure Fund, Inc.",
+          "insiderName": "Walker Carita",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 3400.0,
+          "pricePerShare": 14.7015,
+          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -34122,16 +34162,6 @@
           "shares": 4000.0,
           "pricePerShare": 3.5218,
           "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 11000.0,
-          "pricePerShare": 3.5538,
-          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -39412,6 +39442,16 @@
           "shares": 110000.0,
           "pricePerShare": 0.9475,
           "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "RAIN",
+          "issuerName": "Rain Enhancement Technologies Holdco, Inc.",
+          "insiderName": "Seidl Randy",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 110000.0,
+          "pricePerShare": 0.9475,
+          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -41091,6 +41131,21 @@
           "type": "Sale",
           "shares": 4080.0,
           "pricePerShare": 43.2,
+          "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "ROLR": {
+      "issuerName": "High Roller Technologies, Inc.",
+      "trades": [
+        {
+          "ticker": "ROLR",
+          "issuerName": "High Roller Technologies, Inc.",
+          "insiderName": "Felman Adam Jonathan",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 3600.0,
+          "pricePerShare": 5.42,
           "transactionDate": "2026-08-19"
         }
       ]
@@ -47795,6 +47850,41 @@
         }
       ]
     },
+    "TISI": {
+      "issuerName": "TEAM INC",
+      "trades": [
+        {
+          "ticker": "TISI",
+          "issuerName": "TEAM INC",
+          "insiderName": "Horton Anthony R",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 22.71,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "TISI",
+          "issuerName": "TEAM INC",
+          "insiderName": "Lederman Evan S.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 500.0,
+          "pricePerShare": 23.0,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "TISI",
+          "issuerName": "TEAM INC",
+          "insiderName": "McGinnis Pamela J.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 22.9,
+          "transactionDate": "2026-08-13"
+        }
+      ]
+    },
     "LCNB": {
       "issuerName": "LCNB CORP",
       "trades": [
@@ -49962,31 +50052,6 @@
           "shares": 5718.0,
           "pricePerShare": 83.192,
           "transactionDate": "2026-08-17"
-        }
-      ]
-    },
-    "TISI": {
-      "issuerName": "TEAM INC",
-      "trades": [
-        {
-          "ticker": "TISI",
-          "issuerName": "TEAM INC",
-          "insiderName": "Lederman Evan S.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 500.0,
-          "pricePerShare": 23.0,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "TISI",
-          "issuerName": "TEAM INC",
-          "insiderName": "McGinnis Pamela J.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 2000.0,
-          "pricePerShare": 22.9,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -57597,16 +57662,6 @@
           "shares": 916.0,
           "pricePerShare": 9.5,
           "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "CPSS",
-          "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
-          "insiderName": "Ralston Catrina Marie",
-          "title": "Sr. Vice President",
-          "type": "Sale",
-          "shares": 467.0,
-          "pricePerShare": 9.5,
-          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -63364,51 +63419,6 @@
           "transactionDate": "2026-08-07"
         }
       ]
-    },
-    "FEMY": {
-      "issuerName": "FEMASYS INC",
-      "trades": [
-        {
-          "ticker": "FEMY",
-          "issuerName": "FEMASYS INC",
-          "insiderName": "Mifek Jeffrey Gerald",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 3125.0,
-          "pricePerShare": 3.2,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "FEMY",
-          "issuerName": "FEMASYS INC",
-          "insiderName": "Sipos Jeremy Alexander",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 3125.0,
-          "pricePerShare": 3.2,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "FEMY",
-          "issuerName": "FEMASYS INC",
-          "insiderName": "Canning John Charles",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 4375.0,
-          "pricePerShare": 3.2,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "FEMY",
-          "issuerName": "FEMASYS INC",
-          "insiderName": "Elefant Dov",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 15625.0,
-          "pricePerShare": 3.2,
-          "transactionDate": "2026-08-07"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63996,6 +64006,10 @@
       "0000806180-26-000079",
       "0000807249-26-000057",
       "0000812291-26-000013",
+      "0000812797-26-000216",
+      "0000812797-26-000218",
+      "0000812797-26-000220",
+      "0000812797-26-000222",
       "0000813672-26-000085",
       "0000813672-26-000093",
       "0000813672-26-000094",
@@ -65276,6 +65290,10 @@
       "0000950103-26-012745",
       "0000950103-26-012746",
       "0000950103-26-012747",
+      "0000950103-26-012748",
+      "0000950103-26-012749",
+      "0000950103-26-012750",
+      "0000950103-26-012751",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66255,6 +66273,12 @@
       "0001104659-26-099321",
       "0001104659-26-099430",
       "0001104659-26-099445",
+      "0001104659-26-099530",
+      "0001104659-26-099552",
+      "0001104659-26-099558",
+      "0001104659-26-099559",
+      "0001104659-26-099563",
+      "0001104659-26-099568",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66715,6 +66739,8 @@
       "0001140361-26-033942",
       "0001140361-26-033967",
       "0001140361-26-033972",
+      "0001140361-26-033978",
+      "0001140361-26-033980",
       "0001140842-26-000004",
       "0001159036-26-000108",
       "0001160077-26-000003",
@@ -69064,6 +69090,9 @@
       "0001193125-26-360242",
       "0001193125-26-360245",
       "0001193125-26-360272",
+      "0001193125-26-360329",
+      "0001193125-26-360330",
+      "0001193125-26-360344",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -69998,6 +70027,11 @@
       "0001213900-26-092396",
       "0001213900-26-092427",
       "0001213900-26-092429",
+      "0001213900-26-092442",
+      "0001213900-26-092443",
+      "0001213900-26-092444",
+      "0001213900-26-092445",
+      "0001213900-26-092447",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -70320,6 +70354,7 @@
       "0001225208-26-007261",
       "0001225208-26-007262",
       "0001225208-26-007263",
+      "0001225208-26-007264",
       "0001225481-26-000006",
       "0001227384-26-000017",
       "0001227654-26-000042",
@@ -71071,6 +71106,10 @@
       "0001437749-26-028658",
       "0001437749-26-028693",
       "0001437749-26-028696",
+      "0001437749-26-028700",
+      "0001437749-26-028701",
+      "0001437749-26-028704",
+      "0001437749-26-028707",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001441890-26-000005",
@@ -71247,6 +71286,7 @@
       "0001445546-26-006302",
       "0001445546-26-006304",
       "0001445546-26-006305",
+      "0001445546-26-006315",
       "0001448765-26-000011",
       "0001448765-26-000013",
       "0001450800-26-000006",
@@ -71888,6 +71928,8 @@
       "0001528621-26-000845",
       "0001528621-26-000846",
       "0001528621-26-000847",
+      "0001528621-26-000848",
+      "0001528621-26-000849",
       "0001530038-26-000002",
       "0001530255-26-000010",
       "0001530819-26-000012",
@@ -72170,6 +72212,8 @@
       "0001592900-26-003910",
       "0001592900-26-003911",
       "0001592900-26-003912",
+      "0001592900-26-003929",
+      "0001592900-26-003932",
       "0001593040-26-000002",
       "0001593516-26-000004",
       "0001593815-26-000007",
@@ -73117,6 +73161,7 @@
       "0001699291-26-000006",
       "0001699322-26-000013",
       "0001699323-26-000002",
+      "0001699604-26-000008",
       "0001699618-26-000007",
       "0001700266-26-000001",
       "0001702455-26-000010",
@@ -73283,6 +73328,7 @@
       "0001753926-26-001456",
       "0001753926-26-001459",
       "0001753926-26-001465",
+      "0001753926-26-001575",
       "0001753958-26-000002",
       "0001754371-26-000004",
       "0001754464-26-000016",
@@ -75494,6 +75540,22 @@
       "0001839882-26-041004",
       "0001839882-26-041005",
       "0001839882-26-041006",
+      "0001839882-26-041008",
+      "0001839882-26-041009",
+      "0001839882-26-041010",
+      "0001839882-26-041011",
+      "0001839882-26-041012",
+      "0001839882-26-041014",
+      "0001839882-26-041015",
+      "0001839882-26-041020",
+      "0001839882-26-041021",
+      "0001839882-26-041026",
+      "0001839882-26-041028",
+      "0001839882-26-041029",
+      "0001839882-26-041030",
+      "0001839882-26-041031",
+      "0001839882-26-041032",
+      "0001839882-26-041033",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -77699,6 +77761,13 @@
       "0001918704-26-024430",
       "0001918704-26-024431",
       "0001918704-26-024432",
+      "0001918704-26-024433",
+      "0001918704-26-024434",
+      "0001918704-26-024435",
+      "0001918704-26-024436",
+      "0001918704-26-024437",
+      "0001918704-26-024438",
+      "0001918704-26-024439",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -77730,6 +77799,7 @@
       "0001933414-26-000120",
       "0001933750-26-000003",
       "0001935239-26-000007",
+      "0001936132-26-000001",
       "0001936727-26-000006",
       "0001937010-26-000012",
       "0001937263-26-000008",
@@ -78199,6 +78269,7 @@
       "0001999371-26-018277",
       "0001999371-26-018332",
       "0001999371-26-018349",
+      "0001999371-26-018367",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0002000276-26-000006",
