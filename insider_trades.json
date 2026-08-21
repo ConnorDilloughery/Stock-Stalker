@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T18:04:52.375727+00:00",
+  "generatedAt": "2026-08-21T19:02:21.178787+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -11,6 +11,36 @@
       "type": "Purchase",
       "shares": 1000.0,
       "pricePerShare": 2.87,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "BKV",
+      "issuerName": "BKV Corp",
+      "insiderName": "Tameron David",
+      "title": "Chief Financial Officer",
+      "type": "Sale",
+      "shares": 1500.0,
+      "pricePerShare": 25.63,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "BKV",
+      "issuerName": "BKV Corp",
+      "insiderName": "Hinojosa Javier",
+      "title": "Senior Vice President of Power",
+      "type": "Sale",
+      "shares": 12377.0,
+      "pricePerShare": 25.7294,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "JLL",
+      "issuerName": "JONES LANG LASALLE INC",
+      "insiderName": "Ulbrich Christian",
+      "title": "Director, CEO & President",
+      "type": "Sale",
+      "shares": 2000.0,
+      "pricePerShare": 386.99,
       "transactionDate": "2026-08-21"
     },
     {
@@ -711,6 +741,26 @@
       "type": "Purchase",
       "shares": 10000.0,
       "pricePerShare": 3.86,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "PRTA",
+      "issuerName": "PROTHENA CORP PUBLIC LTD CO",
+      "insiderName": "SCULLY WILLIAM P",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 50000.0,
+      "pricePerShare": 8.7886,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "ATLO",
+      "issuerName": "AMES NATIONAL CORP",
+      "insiderName": "Beals Douglas W",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 325.0,
+      "pricePerShare": 31.16,
       "transactionDate": "2026-08-20"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 76513.0,
       "pricePerShare": 175.536,
       "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "ABNB",
-      "issuerName": "Airbnb, Inc.",
-      "insiderName": "Chesky Brian",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 12087.0,
-      "pricePerShare": 176.5163,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "ABNB",
-      "issuerName": "Airbnb, Inc.",
-      "insiderName": "Chesky Brian",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 26403.0,
-      "pricePerShare": 177.516,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "ABNB",
-      "issuerName": "Airbnb, Inc.",
-      "insiderName": "Chesky Brian",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 7707.0,
-      "pricePerShare": 178.2008,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "ABNB",
-      "issuerName": "Airbnb, Inc.",
-      "insiderName": "Blecharczyk Nathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 800.0,
-      "pricePerShare": 165.155,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "ABNB",
-      "issuerName": "Airbnb, Inc.",
-      "insiderName": "Blecharczyk Nathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2723.0,
-      "pricePerShare": 166.5867,
-      "transactionDate": "2026-08-07"
     }
   ],
   "byTicker": {
@@ -30080,6 +30080,86 @@
         }
       ]
     },
+    "BKV": {
+      "issuerName": "BKV Corp",
+      "trades": [
+        {
+          "ticker": "BKV",
+          "issuerName": "BKV Corp",
+          "insiderName": "Tameron David",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 25.63,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "BKV",
+          "issuerName": "BKV Corp",
+          "insiderName": "Hinojosa Javier",
+          "title": "Senior Vice President of Power",
+          "type": "Sale",
+          "shares": 12377.0,
+          "pricePerShare": 25.7294,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "BKV",
+          "issuerName": "BKV Corp",
+          "insiderName": "Larrick Lindsay B",
+          "title": "Chief Legal and Admin Officer",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 26.1613,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "JLL": {
+      "issuerName": "JONES LANG LASALLE INC",
+      "trades": [
+        {
+          "ticker": "JLL",
+          "issuerName": "JONES LANG LASALLE INC",
+          "insiderName": "Ulbrich Christian",
+          "title": "Director, CEO & President",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 386.99,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "JLL",
+          "issuerName": "JONES LANG LASALLE INC",
+          "insiderName": "Ulbrich Christian",
+          "title": "Director, CEO & President",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 385.53,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "JLL",
+          "issuerName": "JONES LANG LASALLE INC",
+          "insiderName": "Ulbrich Christian",
+          "title": "Director, CEO & President",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 375.16,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "JLL",
+          "issuerName": "JONES LANG LASALLE INC",
+          "insiderName": "Ulbrich Christian",
+          "title": "Director, CEO & President",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 375.0,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
     "CFFI": {
       "issuerName": "C & F FINANCIAL CORP",
       "trades": [
@@ -30127,41 +30207,6 @@
           "shares": 1500.0,
           "pricePerShare": 73.025,
           "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "JLL": {
-      "issuerName": "JONES LANG LASALLE INC",
-      "trades": [
-        {
-          "ticker": "JLL",
-          "issuerName": "JONES LANG LASALLE INC",
-          "insiderName": "Ulbrich Christian",
-          "title": "Director, CEO & President",
-          "type": "Sale",
-          "shares": 2000.0,
-          "pricePerShare": 385.53,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "JLL",
-          "issuerName": "JONES LANG LASALLE INC",
-          "insiderName": "Ulbrich Christian",
-          "title": "Director, CEO & President",
-          "type": "Sale",
-          "shares": 2000.0,
-          "pricePerShare": 375.16,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "JLL",
-          "issuerName": "JONES LANG LASALLE INC",
-          "insiderName": "Ulbrich Christian",
-          "title": "Director, CEO & President",
-          "type": "Sale",
-          "shares": 2000.0,
-          "pricePerShare": 375.0,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -33797,6 +33842,66 @@
           "shares": 20000.0,
           "pricePerShare": 3.6,
           "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "PRTA": {
+      "issuerName": "PROTHENA CORP PUBLIC LTD CO",
+      "trades": [
+        {
+          "ticker": "PRTA",
+          "issuerName": "PROTHENA CORP PUBLIC LTD CO",
+          "insiderName": "SCULLY WILLIAM P",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 50000.0,
+          "pricePerShare": 8.7886,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "PRTA",
+          "issuerName": "PROTHENA CORP PUBLIC LTD CO",
+          "insiderName": "SCULLY WILLIAM P",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 34000.0,
+          "pricePerShare": 8.6192,
+          "transactionDate": "2026-08-07"
+        },
+        {
+          "ticker": "PRTA",
+          "issuerName": "PROTHENA CORP PUBLIC LTD CO",
+          "insiderName": "SCULLY WILLIAM P",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 3500.0,
+          "pricePerShare": 8.6192,
+          "transactionDate": "2026-08-07"
+        }
+      ]
+    },
+    "ATLO": {
+      "issuerName": "AMES NATIONAL CORP",
+      "trades": [
+        {
+          "ticker": "ATLO",
+          "issuerName": "AMES NATIONAL CORP",
+          "insiderName": "Beals Douglas W",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 325.0,
+          "pricePerShare": 31.16,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ATLO",
+          "issuerName": "AMES NATIONAL CORP",
+          "insiderName": "Schreier Richard",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 316.0,
+          "pricePerShare": 31.6,
+          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -51172,56 +51277,6 @@
           "shares": 76513.0,
           "pricePerShare": 175.536,
           "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "ABNB",
-          "issuerName": "Airbnb, Inc.",
-          "insiderName": "Chesky Brian",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 12087.0,
-          "pricePerShare": 176.5163,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "ABNB",
-          "issuerName": "Airbnb, Inc.",
-          "insiderName": "Chesky Brian",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 26403.0,
-          "pricePerShare": 177.516,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "ABNB",
-          "issuerName": "Airbnb, Inc.",
-          "insiderName": "Chesky Brian",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7707.0,
-          "pricePerShare": 178.2008,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "ABNB",
-          "issuerName": "Airbnb, Inc.",
-          "insiderName": "Blecharczyk Nathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 800.0,
-          "pricePerShare": 165.155,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "ABNB",
-          "issuerName": "Airbnb, Inc.",
-          "insiderName": "Blecharczyk Nathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2723.0,
-          "pricePerShare": 166.5867,
-          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -52850,21 +52905,6 @@
         }
       ]
     },
-    "BKV": {
-      "issuerName": "BKV Corp",
-      "trades": [
-        {
-          "ticker": "BKV",
-          "issuerName": "BKV Corp",
-          "insiderName": "Larrick Lindsay B",
-          "title": "Chief Legal and Admin Officer",
-          "type": "Sale",
-          "shares": 10000.0,
-          "pricePerShare": 26.1613,
-          "transactionDate": "2026-08-14"
-        }
-      ]
-    },
     "SLAB": {
       "issuerName": "SILICON LABORATORIES INC.",
       "trades": [
@@ -52876,21 +52916,6 @@
           "type": "Sale",
           "shares": 6581.0,
           "pricePerShare": 218.21,
-          "transactionDate": "2026-08-14"
-        }
-      ]
-    },
-    "ATLO": {
-      "issuerName": "AMES NATIONAL CORP",
-      "trades": [
-        {
-          "ticker": "ATLO",
-          "issuerName": "AMES NATIONAL CORP",
-          "insiderName": "Schreier Richard",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 316.0,
-          "pricePerShare": 31.6,
           "transactionDate": "2026-08-14"
         }
       ]
@@ -62660,31 +62685,6 @@
         }
       ]
     },
-    "PRTA": {
-      "issuerName": "PROTHENA CORP PUBLIC LTD CO",
-      "trades": [
-        {
-          "ticker": "PRTA",
-          "issuerName": "PROTHENA CORP PUBLIC LTD CO",
-          "insiderName": "SCULLY WILLIAM P",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 34000.0,
-          "pricePerShare": 8.6192,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "PRTA",
-          "issuerName": "PROTHENA CORP PUBLIC LTD CO",
-          "insiderName": "SCULLY WILLIAM P",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 3500.0,
-          "pricePerShare": 8.6192,
-          "transactionDate": "2026-08-07"
-        }
-      ]
-    },
     "EEFT": {
       "issuerName": "EURONET WORLDWIDE, INC.",
       "trades": [
@@ -63680,6 +63680,10 @@
       "0000080424-26-000136",
       "0000080424-26-000137",
       "0000080424-26-000138",
+      "0000080424-26-000141",
+      "0000080424-26-000142",
+      "0000080424-26-000143",
+      "0000080424-26-000144",
       "0000080661-26-000266",
       "0000080661-26-000268",
       "0000080661-26-000270",
@@ -63972,6 +63976,8 @@
       "0000745544-26-000142",
       "0000745544-26-000148",
       "0000745544-26-000149",
+      "0000745544-26-000152",
+      "0000745544-26-000154",
       "0000752642-26-000089",
       "0000752642-26-000091",
       "0000752642-26-000092",
@@ -65307,6 +65313,11 @@
       "0000950103-26-012754",
       "0000950103-26-012755",
       "0000950103-26-012756",
+      "0000950103-26-012758",
+      "0000950103-26-012759",
+      "0000950103-26-012760",
+      "0000950103-26-012761",
+      "0000950103-26-012762",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65413,6 +65424,7 @@
       "0001037646-26-000061",
       "0001037976-26-000154",
       "0001037976-26-000162",
+      "0001037976-26-000164",
       "0001040470-26-000217",
       "0001040470-26-000219",
       "0001040470-26-000221",
@@ -65442,6 +65454,7 @@
       "0001045450-26-000044",
       "0001045450-26-000045",
       "0001045463-26-000010",
+      "0001045463-26-000014",
       "0001046179-26-000453",
       "0001046179-26-000455",
       "0001046179-26-000457",
@@ -65607,6 +65620,7 @@
       "0001093557-26-000147",
       "0001094718-26-000009",
       "0001094891-26-000260",
+      "0001096906-26-001276",
       "0001100612-26-000009",
       "0001101239-26-000149",
       "0001101302-26-000148",
@@ -66878,6 +66892,7 @@
       "0001185185-26-003609",
       "0001185185-26-003631",
       "0001185185-26-003637",
+      "0001185609-26-000007",
       "0001185611-26-000005",
       "0001185829-26-000001",
       "0001185992-26-000004",
@@ -69130,6 +69145,10 @@
       "0001193125-26-360688",
       "0001193125-26-360717",
       "0001193125-26-360728",
+      "0001193125-26-360798",
+      "0001193125-26-360842",
+      "0001193125-26-360916",
+      "0001193125-26-360939",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70080,6 +70099,13 @@
       "0001213900-26-092520",
       "0001213900-26-092521",
       "0001213900-26-092523",
+      "0001213900-26-092534",
+      "0001213900-26-092535",
+      "0001213900-26-092537",
+      "0001213900-26-092542",
+      "0001213900-26-092545",
+      "0001213900-26-092550",
+      "0001213900-26-092552",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -70436,6 +70462,7 @@
       "0001232819-26-000003",
       "0001233433-26-000004",
       "0001233433-26-000006",
+      "0001234673-26-000002",
       "0001235321-26-000002",
       "0001235499-26-000008",
       "0001235502-26-000006",
@@ -71446,6 +71473,7 @@
       "0001482981-26-000180",
       "0001483558-26-000022",
       "0001484612-26-000050",
+      "0001486521-26-000009",
       "0001486806-26-000008",
       "0001488151-26-000004",
       "0001489550-26-000003",
@@ -71906,6 +71934,7 @@
       "0001525321-26-000009",
       "0001525358-26-000024",
       "0001525358-26-000025",
+      "0001525982-26-000006",
       "0001526378-26-000037",
       "0001526520-26-000153",
       "0001526520-26-000155",
@@ -72219,6 +72248,7 @@
       "0001580642-26-005478",
       "0001580642-26-005487",
       "0001580642-26-005513",
+      "0001580642-26-005516",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001582328-26-000007",
@@ -72233,6 +72263,7 @@
       "0001586648-26-000028",
       "0001586746-26-000008",
       "0001587067-26-000012",
+      "0001587482-26-000002",
       "0001588852-26-000009",
       "0001589039-26-000013",
       "0001589043-26-000013",
@@ -72314,6 +72345,7 @@
       "0001604488-26-000079",
       "0001605077-26-000008",
       "0001605182-26-000016",
+      "0001605266-26-000007",
       "0001605696-26-000001",
       "0001605696-26-000002",
       "0001605696-26-000003",
@@ -72329,6 +72361,7 @@
       "0001606498-26-000110",
       "0001606498-26-000111",
       "0001606498-26-000112",
+      "0001607095-26-000002",
       "0001607210-26-000004",
       "0001607605-26-000003",
       "0001607675-26-000005",
@@ -72924,6 +72957,9 @@
       "0001628280-26-058379",
       "0001628280-26-058381",
       "0001628280-26-058382",
+      "0001628280-26-058397",
+      "0001628280-26-058400",
+      "0001629079-26-000002",
       "0001629292-26-000002",
       "0001629911-26-000006",
       "0001630196-26-000002",
@@ -75639,6 +75675,10 @@
       "0001839882-26-041048",
       "0001839882-26-041049",
       "0001839882-26-041052",
+      "0001839882-26-041060",
+      "0001839882-26-041061",
+      "0001839882-26-041063",
+      "0001839882-26-041064",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -75775,6 +75815,7 @@
       "0001871703-26-000002",
       "0001872100-26-000003",
       "0001872274-26-000002",
+      "0001872955-26-000010",
       "0001873387-26-000002",
       "0001874566-26-000003",
       "0001875284-26-000006",
@@ -77879,6 +77920,13 @@
       "0001918704-26-024460",
       "0001918704-26-024461",
       "0001918704-26-024462",
+      "0001918704-26-024463",
+      "0001918704-26-024464",
+      "0001918704-26-024465",
+      "0001918704-26-024466",
+      "0001918704-26-024467",
+      "0001918704-26-024468",
+      "0001918704-26-024469",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -78383,6 +78431,10 @@
       "0001999371-26-018349",
       "0001999371-26-018367",
       "0001999371-26-018371",
+      "0001999371-26-018395",
+      "0001999371-26-018396",
+      "0001999371-26-018397",
+      "0001999371-26-018402",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0002000276-26-000006",
@@ -78604,6 +78656,7 @@
       "0002061361-26-000011",
       "0002061670-26-000075",
       "0002061801-26-000011",
+      "0002062044-26-000001",
       "0002062155-26-000002",
       "0002062182-26-000006",
       "0002062182-26-000008",
