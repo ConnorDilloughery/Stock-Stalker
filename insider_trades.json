@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-08-21T14:01:17.624010+00:00",
+  "generatedAt": "2026-08-21T15:05:20.697874+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "Kesslen Jay H",
+      "title": "Vice-President",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 2.87,
+      "transactionDate": "2026-08-21"
+    },
     {
       "ticker": "CFFI",
       "issuerName": "C & F FINANCIAL CORP",
@@ -571,6 +581,26 @@
       "type": "Purchase",
       "shares": 50000.0,
       "pricePerShare": 1.512,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "VTOL",
+      "issuerName": "Bristow Group Inc.",
+      "insiderName": "Brass Lorin L.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 100.0,
+      "pricePerShare": 47.05,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "TPL",
+      "issuerName": "Texas Pacific Land Corp",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 377.85,
       "transactionDate": "2026-08-20"
     },
     {
@@ -3451,6 +3481,36 @@
       "type": "Purchase",
       "shares": 9700.0,
       "pricePerShare": 18.6105,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "VTOL",
+      "issuerName": "Bristow Group Inc.",
+      "insiderName": "Brass Lorin L.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1890.0,
+      "pricePerShare": 46.5597,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "FGL",
+      "issuerName": "Founder Group Ltd",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 15329.0,
+      "pricePerShare": 0.382,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "FRME",
+      "issuerName": "FIRST MERCHANTS CORP",
+      "insiderName": "FLUHLER STEPHAN",
+      "title": "Chief Information Officer",
+      "type": "Sale",
+      "shares": 4080.0,
+      "pricePerShare": 43.2,
       "transactionDate": "2026-08-19"
     },
     {
@@ -8201,6 +8261,16 @@
       "type": "Sale",
       "shares": 132591.0,
       "pricePerShare": 49.61,
+      "transactionDate": "2026-08-18"
+    },
+    {
+      "ticker": "MSS",
+      "issuerName": "Maison Solutions Inc.",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 32556.0,
+      "pricePerShare": 1.84,
       "transactionDate": "2026-08-18"
     },
     {
@@ -29932,79 +30002,84 @@
       "shares": 15625.0,
       "pricePerShare": 3.2,
       "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "FEMY",
-      "issuerName": "FEMASYS INC",
-      "insiderName": "Lee-Sepsick Kathy",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 15625.0,
-      "pricePerShare": 3.2,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "WWR",
-      "issuerName": "WESTWATER RESOURCES, INC.",
-      "insiderName": "PAGLIARA TRACY D",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 50000.0,
-      "pricePerShare": 0.5742,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "WWR",
-      "issuerName": "WESTWATER RESOURCES, INC.",
-      "insiderName": "Anderson Karli S.",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 50000.0,
-      "pricePerShare": 0.7604,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "LB",
-      "issuerName": "LandBridge Co LLC",
-      "insiderName": "LandBridge Holdings LLC",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1250000.0,
-      "pricePerShare": 75.05,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "LB",
-      "issuerName": "LandBridge Co LLC",
-      "insiderName": "Capobianco David N",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1250000.0,
-      "pricePerShare": 75.05,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "COE",
-      "issuerName": "51Talk Online Education Group",
-      "insiderName": "Huang Jack Jiajia",
-      "title": "Director, Chief Executive Officer, 10% Owner",
-      "type": "Purchase",
-      "shares": 90480.0,
-      "pricePerShare": 19.39,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "BOTJ",
-      "issuerName": "BANK OF THE JAMES FINANCIAL GROUP INC",
-      "insiderName": "SYREK MICHAEL A",
-      "title": "President - Bank of the James",
-      "type": "Purchase",
-      "shares": 100.0,
-      "pricePerShare": 27.05,
-      "transactionDate": "2026-08-07"
     }
   ],
   "byTicker": {
+    "RCG": {
+      "issuerName": "RENN Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.87,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.8,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.8,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.9,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.99,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.96,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.0,
+          "transactionDate": "2026-08-07"
+        }
+      ]
+    },
     "CFFI": {
       "issuerName": "C & F FINANCIAL CORP",
       "trades": [
@@ -33325,6 +33400,156 @@
         }
       ]
     },
+    "VTOL": {
+      "issuerName": "Bristow Group Inc.",
+      "trades": [
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 47.05,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1890.0,
+          "pricePerShare": 46.5597,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 46.545,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 210.0,
+          "pricePerShare": 46.7754,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "TPL": {
+      "issuerName": "Texas Pacific Land Corp",
+      "trades": [
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 377.85,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 372.1,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 361.16,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 357.32,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 357.56,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 343.02,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 353.15,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 352.62,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 345.1,
+          "transactionDate": "2026-08-10"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 353.28,
+          "transactionDate": "2026-08-07"
+        }
+      ]
+    },
     "SSB": {
       "issuerName": "SouthState Bank Corp",
       "trades": [
@@ -36137,101 +36362,6 @@
           "shares": 4.0,
           "pricePerShare": 2167.8049,
           "transactionDate": "2026-08-19"
-        }
-      ]
-    },
-    "TPL": {
-      "issuerName": "Texas Pacific Land Corp",
-      "trades": [
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 372.1,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 361.16,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 357.32,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 357.56,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 343.02,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 353.15,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 352.62,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 345.1,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 353.28,
-          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -40935,6 +41065,36 @@
         }
       ]
     },
+    "FGL": {
+      "issuerName": "Founder Group Ltd",
+      "trades": [
+        {
+          "ticker": "FGL",
+          "issuerName": "Founder Group Ltd",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 15329.0,
+          "pricePerShare": 0.382,
+          "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "FRME": {
+      "issuerName": "FIRST MERCHANTS CORP",
+      "trades": [
+        {
+          "ticker": "FRME",
+          "issuerName": "FIRST MERCHANTS CORP",
+          "insiderName": "FLUHLER STEPHAN",
+          "title": "Chief Information Officer",
+          "type": "Sale",
+          "shares": 4080.0,
+          "pricePerShare": 43.2,
+          "transactionDate": "2026-08-19"
+        }
+      ]
+    },
     "SRI": {
       "issuerName": "STONERIDGE INC",
       "trades": [
@@ -42015,31 +42175,6 @@
         }
       ]
     },
-    "VTOL": {
-      "issuerName": "Bristow Group Inc.",
-      "trades": [
-        {
-          "ticker": "VTOL",
-          "issuerName": "Bristow Group Inc.",
-          "insiderName": "Brass Lorin L.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 46.545,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "VTOL",
-          "issuerName": "Bristow Group Inc.",
-          "insiderName": "Brass Lorin L.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 210.0,
-          "pricePerShare": 46.7754,
-          "transactionDate": "2026-08-17"
-        }
-      ]
-    },
     "UFPT": {
       "issuerName": "UFP TECHNOLOGIES INC",
       "trades": [
@@ -42197,71 +42332,6 @@
           "shares": 1880.0,
           "pricePerShare": 126.43,
           "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "RCG": {
-      "issuerName": "RENN Fund, Inc.",
-      "trades": [
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.8,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.8,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.9,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.99,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.96,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.0,
-          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -47650,6 +47720,81 @@
         }
       ]
     },
+    "MSS": {
+      "issuerName": "Maison Solutions Inc.",
+      "trades": [
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 32556.0,
+          "pricePerShare": 1.84,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 20394.0,
+          "pricePerShare": 1.42,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 134000.0,
+          "pricePerShare": 1.42,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 7553.0,
+          "pricePerShare": 1.4,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 22559.0,
+          "pricePerShare": 1.42,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4329.0,
+          "pricePerShare": 1.41,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "MSS",
+          "issuerName": "Maison Solutions Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 4616.0,
+          "pricePerShare": 1.33,
+          "transactionDate": "2026-08-10"
+        }
+      ]
+    },
     "LCNB": {
       "issuerName": "LCNB CORP",
       "trades": [
@@ -49017,71 +49162,6 @@
           "shares": 952.0,
           "pricePerShare": 300.0,
           "transactionDate": "2026-08-17"
-        }
-      ]
-    },
-    "MSS": {
-      "issuerName": "Maison Solutions Inc.",
-      "trades": [
-        {
-          "ticker": "MSS",
-          "issuerName": "Maison Solutions Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 20394.0,
-          "pricePerShare": 1.42,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "MSS",
-          "issuerName": "Maison Solutions Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 134000.0,
-          "pricePerShare": 1.42,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "MSS",
-          "issuerName": "Maison Solutions Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 7553.0,
-          "pricePerShare": 1.4,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "MSS",
-          "issuerName": "Maison Solutions Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 22559.0,
-          "pricePerShare": 1.42,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "MSS",
-          "issuerName": "Maison Solutions Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4329.0,
-          "pricePerShare": 1.41,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "MSS",
-          "issuerName": "Maison Solutions Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 4616.0,
-          "pricePerShare": 1.33,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -56437,16 +56517,6 @@
           "shares": 199980.0,
           "pricePerShare": 19.72,
           "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "COE",
-          "issuerName": "51Talk Online Education Group",
-          "insiderName": "Huang Jack Jiajia",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 90480.0,
-          "pricePerShare": 19.39,
-          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -61127,26 +61197,6 @@
           "shares": 48000.0,
           "pricePerShare": 0.6477,
           "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "WWR",
-          "issuerName": "WESTWATER RESOURCES, INC.",
-          "insiderName": "PAGLIARA TRACY D",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 50000.0,
-          "pricePerShare": 0.5742,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "WWR",
-          "issuerName": "WESTWATER RESOURCES, INC.",
-          "insiderName": "Anderson Karli S.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 50000.0,
-          "pricePerShare": 0.7604,
-          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -63357,56 +63407,6 @@
           "shares": 15625.0,
           "pricePerShare": 3.2,
           "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "FEMY",
-          "issuerName": "FEMASYS INC",
-          "insiderName": "Lee-Sepsick Kathy",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 15625.0,
-          "pricePerShare": 3.2,
-          "transactionDate": "2026-08-07"
-        }
-      ]
-    },
-    "LB": {
-      "issuerName": "LandBridge Co LLC",
-      "trades": [
-        {
-          "ticker": "LB",
-          "issuerName": "LandBridge Co LLC",
-          "insiderName": "LandBridge Holdings LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1250000.0,
-          "pricePerShare": 75.05,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "LB",
-          "issuerName": "LandBridge Co LLC",
-          "insiderName": "Capobianco David N",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1250000.0,
-          "pricePerShare": 75.05,
-          "transactionDate": "2026-08-07"
-        }
-      ]
-    },
-    "BOTJ": {
-      "issuerName": "BANK OF THE JAMES FINANCIAL GROUP INC",
-      "trades": [
-        {
-          "ticker": "BOTJ",
-          "issuerName": "BANK OF THE JAMES FINANCIAL GROUP INC",
-          "insiderName": "SYREK MICHAEL A",
-          "title": "President - Bank of the James",
-          "type": "Purchase",
-          "shares": 100.0,
-          "pricePerShare": 27.05,
-          "transactionDate": "2026-08-07"
         }
       ]
     }
@@ -64168,6 +64168,8 @@
       "0000894189-26-022600",
       "0000894189-26-022601",
       "0000894189-26-022602",
+      "0000894189-26-022631",
+      "0000894189-26-022632",
       "0000895345-26-000353",
       "0000895430-26-000024",
       "0000896622-26-000170",
@@ -65268,6 +65270,12 @@
       "0000950103-26-012727",
       "0000950103-26-012729",
       "0000950103-26-012738",
+      "0000950103-26-012742",
+      "0000950103-26-012743",
+      "0000950103-26-012744",
+      "0000950103-26-012745",
+      "0000950103-26-012746",
+      "0000950103-26-012747",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -69052,6 +69060,10 @@
       "0001193125-26-360109",
       "0001193125-26-360126",
       "0001193125-26-360128",
+      "0001193125-26-360237",
+      "0001193125-26-360242",
+      "0001193125-26-360245",
+      "0001193125-26-360272",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -69984,6 +69996,8 @@
       "0001213900-26-092394",
       "0001213900-26-092395",
       "0001213900-26-092396",
+      "0001213900-26-092427",
+      "0001213900-26-092429",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71055,6 +71069,8 @@
       "0001437749-26-028655",
       "0001437749-26-028657",
       "0001437749-26-028658",
+      "0001437749-26-028693",
+      "0001437749-26-028696",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001441890-26-000005",
@@ -71304,6 +71320,8 @@
       "0001475597-26-000201",
       "0001475597-26-000202",
       "0001475597-26-000203",
+      "0001475597-26-000209",
+      "0001475597-26-000210",
       "0001475856-26-000004",
       "0001475922-26-000074",
       "0001476150-26-000036",
@@ -72210,6 +72228,7 @@
       "0001607776-26-000014",
       "0001608311-26-000005",
       "0001608347-26-000013",
+      "0001608347-26-000018",
       "0001608511-26-000015",
       "0001609711-26-000094",
       "0001609711-26-000096",
@@ -73765,6 +73784,9 @@
       "0001829126-26-009140",
       "0001829126-26-009142",
       "0001829126-26-009144",
+      "0001829126-26-009201",
+      "0001829126-26-009202",
+      "0001829126-26-009203",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -75448,6 +75470,30 @@
       "0001839882-26-040953",
       "0001839882-26-040954",
       "0001839882-26-040957",
+      "0001839882-26-040980",
+      "0001839882-26-040981",
+      "0001839882-26-040982",
+      "0001839882-26-040984",
+      "0001839882-26-040985",
+      "0001839882-26-040986",
+      "0001839882-26-040987",
+      "0001839882-26-040988",
+      "0001839882-26-040989",
+      "0001839882-26-040990",
+      "0001839882-26-040991",
+      "0001839882-26-040992",
+      "0001839882-26-040994",
+      "0001839882-26-040995",
+      "0001839882-26-040996",
+      "0001839882-26-040997",
+      "0001839882-26-040998",
+      "0001839882-26-040999",
+      "0001839882-26-041000",
+      "0001839882-26-041001",
+      "0001839882-26-041003",
+      "0001839882-26-041004",
+      "0001839882-26-041005",
+      "0001839882-26-041006",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -77640,6 +77686,19 @@
       "0001918704-26-024411",
       "0001918704-26-024412",
       "0001918704-26-024413",
+      "0001918704-26-024420",
+      "0001918704-26-024421",
+      "0001918704-26-024422",
+      "0001918704-26-024423",
+      "0001918704-26-024424",
+      "0001918704-26-024425",
+      "0001918704-26-024426",
+      "0001918704-26-024427",
+      "0001918704-26-024428",
+      "0001918704-26-024429",
+      "0001918704-26-024430",
+      "0001918704-26-024431",
+      "0001918704-26-024432",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
