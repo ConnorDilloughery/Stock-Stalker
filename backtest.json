@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T02:00:05.673133+00:00",
+  "generatedAt": "2026-08-23T02:04:57.819042+00:00",
   "benchmark": "SPY",
   "horizons": [
     7,
@@ -9,7 +9,7 @@
     365
   ],
   "source": "Undercurrent's own signals (value / radar / early-mover), tracked forward vs SPY from each signal's first day \u2014 forward-only, not retroactive.",
-  "count": 1091,
+  "count": 1128,
   "entries": [
     {
       "ticker": "TCOM",
@@ -1437,6 +1437,11 @@
           "stockRet": -9.53,
           "spyRet": 1.1,
           "excess": -10.63
+        },
+        "30": {
+          "stockRet": 1.09,
+          "spyRet": 3.63,
+          "excess": -2.54
         }
       },
       "spyEntry": 738.93
@@ -1456,6 +1461,11 @@
           "stockRet": 1.52,
           "spyRet": 1.1,
           "excess": 0.42
+        },
+        "30": {
+          "stockRet": 6.06,
+          "spyRet": 3.63,
+          "excess": 2.43
         }
       },
       "spyEntry": 738.93
@@ -1475,6 +1485,11 @@
           "stockRet": 7.73,
           "spyRet": 1.1,
           "excess": 6.63
+        },
+        "30": {
+          "stockRet": 5.22,
+          "spyRet": 3.63,
+          "excess": 1.59
         }
       },
       "spyEntry": 738.93
@@ -1494,6 +1509,11 @@
           "stockRet": 7.24,
           "spyRet": 1.1,
           "excess": 6.14
+        },
+        "30": {
+          "stockRet": 4.04,
+          "spyRet": 3.63,
+          "excess": 0.41
         }
       },
       "spyEntry": 738.93
@@ -1513,6 +1533,11 @@
           "stockRet": 0.86,
           "spyRet": 1.1,
           "excess": -0.24
+        },
+        "30": {
+          "stockRet": -1.72,
+          "spyRet": 3.63,
+          "excess": -5.35
         }
       },
       "spyEntry": 738.93
@@ -1532,6 +1557,11 @@
           "stockRet": 0.31,
           "spyRet": 1.1,
           "excess": -0.79
+        },
+        "30": {
+          "stockRet": -2.06,
+          "spyRet": 3.63,
+          "excess": -5.69
         }
       },
       "spyEntry": 738.93
@@ -1570,6 +1600,11 @@
           "stockRet": 0.28,
           "spyRet": 1.1,
           "excess": -0.82
+        },
+        "30": {
+          "stockRet": 1.77,
+          "spyRet": 3.63,
+          "excess": -1.86
         }
       },
       "spyEntry": 738.93
@@ -1589,6 +1624,11 @@
           "stockRet": -0.08,
           "spyRet": 1.1,
           "excess": -1.18
+        },
+        "30": {
+          "stockRet": -1.31,
+          "spyRet": 3.63,
+          "excess": -4.94
         }
       },
       "spyEntry": 738.93
@@ -1608,6 +1648,11 @@
           "stockRet": 0.56,
           "spyRet": 1.1,
           "excess": -0.54
+        },
+        "30": {
+          "stockRet": 0.12,
+          "spyRet": 3.63,
+          "excess": -3.51
         }
       },
       "spyEntry": 738.93
@@ -1627,6 +1672,11 @@
           "stockRet": 0.32,
           "spyRet": 1.1,
           "excess": -0.78
+        },
+        "30": {
+          "stockRet": 0.36,
+          "spyRet": 3.63,
+          "excess": -3.27
         }
       },
       "spyEntry": 738.93
@@ -1646,6 +1696,11 @@
           "stockRet": 1.57,
           "spyRet": 1.1,
           "excess": 0.47
+        },
+        "30": {
+          "stockRet": 0.88,
+          "spyRet": 3.63,
+          "excess": -2.75
         }
       },
       "spyEntry": 738.93
@@ -1665,6 +1720,11 @@
           "stockRet": 1.3,
           "spyRet": 1.1,
           "excess": 0.2
+        },
+        "30": {
+          "stockRet": 0.17,
+          "spyRet": 3.63,
+          "excess": -3.46
         }
       },
       "spyEntry": 738.93
@@ -1684,6 +1744,11 @@
           "stockRet": 0.05,
           "spyRet": 1.1,
           "excess": -1.05
+        },
+        "30": {
+          "stockRet": 2.16,
+          "spyRet": 3.63,
+          "excess": -1.47
         }
       },
       "spyEntry": 738.93
@@ -1703,6 +1768,11 @@
           "stockRet": 0.49,
           "spyRet": 1.1,
           "excess": -0.61
+        },
+        "30": {
+          "stockRet": -0.38,
+          "spyRet": 3.63,
+          "excess": -4.01
         }
       },
       "spyEntry": 738.93
@@ -1722,6 +1792,11 @@
           "stockRet": 2.33,
           "spyRet": 1.1,
           "excess": 1.23
+        },
+        "30": {
+          "stockRet": 4.43,
+          "spyRet": 3.63,
+          "excess": 0.8
         }
       },
       "spyEntry": 738.93
@@ -7567,9 +7642,9 @@
       "spyEntry": 757.67,
       "score": 75.0,
       "detail": "6 signals",
-      "currentPrice": 132.39,
-      "currentDate": "2026-08-20",
-      "returnPct": -5.46,
+      "currentPrice": 134.82,
+      "currentDate": "2026-08-21",
+      "returnPct": -3.73,
       "horizons": {
         "7": {
           "stockRet": 1.89,
@@ -16177,7 +16252,13 @@
       "currentPrice": 31.01,
       "currentDate": "2026-08-21",
       "returnPct": 8.43,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 8.43,
+          "spyRet": -1.37,
+          "excess": 9.8
+        }
+      }
     },
     {
       "ticker": "NRDS",
@@ -16190,7 +16271,13 @@
       "currentPrice": 9.88,
       "currentDate": "2026-08-21",
       "returnPct": 0.41,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 0.41,
+          "spyRet": -1.37,
+          "excess": 1.78
+        }
+      }
     },
     {
       "ticker": "TGLS",
@@ -16203,7 +16290,13 @@
       "currentPrice": 41.03,
       "currentDate": "2026-08-21",
       "returnPct": -1.94,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -1.94,
+          "spyRet": -1.37,
+          "excess": -0.57
+        }
+      }
     },
     {
       "ticker": "PXED",
@@ -16216,7 +16309,13 @@
       "currentPrice": 28.38,
       "currentDate": "2026-08-21",
       "returnPct": 4.38,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 4.38,
+          "spyRet": -1.37,
+          "excess": 5.75
+        }
+      }
     },
     {
       "ticker": "PLNT",
@@ -16229,7 +16328,13 @@
       "currentPrice": 54.2,
       "currentDate": "2026-08-21",
       "returnPct": 7.63,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 7.63,
+          "spyRet": -1.37,
+          "excess": 9.0
+        }
+      }
     },
     {
       "ticker": "PAAS",
@@ -16242,7 +16347,13 @@
       "currentPrice": 53.07,
       "currentDate": "2026-08-21",
       "returnPct": 11.91,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 11.91,
+          "spyRet": -1.37,
+          "excess": 13.28
+        }
+      }
     },
     {
       "ticker": "SPIR",
@@ -16255,7 +16366,13 @@
       "currentPrice": 13.94,
       "currentDate": "2026-08-21",
       "returnPct": -0.07,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -0.07,
+          "spyRet": -1.37,
+          "excess": 1.3
+        }
+      }
     },
     {
       "ticker": "SMPL",
@@ -16268,7 +16385,13 @@
       "currentPrice": 10.88,
       "currentDate": "2026-08-21",
       "returnPct": -3.8,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -3.8,
+          "spyRet": -1.37,
+          "excess": -2.43
+        }
+      }
     },
     {
       "ticker": "TASK",
@@ -16281,7 +16404,13 @@
       "currentPrice": 8.0,
       "currentDate": "2026-08-21",
       "returnPct": 6.67,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 6.67,
+          "spyRet": -1.37,
+          "excess": 8.04
+        }
+      }
     },
     {
       "ticker": "PGY",
@@ -16294,7 +16423,13 @@
       "currentPrice": 21.68,
       "currentDate": "2026-08-21",
       "returnPct": 0.56,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 0.56,
+          "spyRet": -1.37,
+          "excess": 1.93
+        }
+      }
     },
     {
       "ticker": "NATR",
@@ -16307,7 +16442,13 @@
       "currentPrice": 14.34,
       "currentDate": "2026-08-21",
       "returnPct": -5.16,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -5.16,
+          "spyRet": -1.37,
+          "excess": -3.79
+        }
+      }
     },
     {
       "ticker": "PEGA",
@@ -16320,7 +16461,13 @@
       "currentPrice": 33.56,
       "currentDate": "2026-08-21",
       "returnPct": 3.84,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 3.84,
+          "spyRet": -1.37,
+          "excess": 5.21
+        }
+      }
     },
     {
       "ticker": "ROOT",
@@ -16333,7 +16480,13 @@
       "currentPrice": 55.79,
       "currentDate": "2026-08-21",
       "returnPct": 8.44,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 8.44,
+          "spyRet": -1.37,
+          "excess": 9.81
+        }
+      }
     },
     {
       "ticker": "SFM",
@@ -16346,7 +16499,13 @@
       "currentPrice": 81.08,
       "currentDate": "2026-08-21",
       "returnPct": -1.72,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -1.72,
+          "spyRet": -1.37,
+          "excess": -0.35
+        }
+      }
     },
     {
       "ticker": "NKE",
@@ -16359,7 +16518,13 @@
       "currentPrice": 40.76,
       "currentDate": "2026-08-21",
       "returnPct": 0.07,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 0.07,
+          "spyRet": -1.37,
+          "excess": 1.44
+        }
+      }
     },
     {
       "ticker": "TMDX",
@@ -16372,7 +16537,13 @@
       "currentPrice": 94.77,
       "currentDate": "2026-08-21",
       "returnPct": 6.99,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 6.99,
+          "spyRet": -1.37,
+          "excess": 8.36
+        }
+      }
     },
     {
       "ticker": "OLLI",
@@ -16385,7 +16556,13 @@
       "currentPrice": 76.07,
       "currentDate": "2026-08-21",
       "returnPct": -0.55,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -0.55,
+          "spyRet": -1.37,
+          "excess": 0.82
+        }
+      }
     },
     {
       "ticker": "OPRX",
@@ -16398,7 +16575,13 @@
       "currentPrice": 7.71,
       "currentDate": "2026-08-21",
       "returnPct": -11.58,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -11.58,
+          "spyRet": -1.37,
+          "excess": -10.21
+        }
+      }
     },
     {
       "ticker": "NATR",
@@ -16411,7 +16594,13 @@
       "currentPrice": 14.34,
       "currentDate": "2026-08-21",
       "returnPct": -5.16,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -5.16,
+          "spyRet": -1.37,
+          "excess": -3.79
+        }
+      }
     },
     {
       "ticker": "ATTO",
@@ -16424,7 +16613,13 @@
       "currentPrice": 20.8,
       "currentDate": "2026-08-21",
       "returnPct": 4.73,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 4.73,
+          "spyRet": -1.37,
+          "excess": 6.1
+        }
+      }
     },
     {
       "ticker": "ABCL",
@@ -16437,7 +16632,13 @@
       "currentPrice": 11.32,
       "currentDate": "2026-08-21",
       "returnPct": -0.53,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -0.53,
+          "spyRet": -1.37,
+          "excess": 0.84
+        }
+      }
     },
     {
       "ticker": "KRNY",
@@ -16450,7 +16651,13 @@
       "currentPrice": 9.73,
       "currentDate": "2026-08-21",
       "returnPct": 1.14,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 1.14,
+          "spyRet": -1.37,
+          "excess": 2.51
+        }
+      }
     },
     {
       "ticker": "GOOD",
@@ -16463,7 +16670,13 @@
       "currentPrice": 12.91,
       "currentDate": "2026-08-21",
       "returnPct": -0.15,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -0.15,
+          "spyRet": -1.37,
+          "excess": 1.22
+        }
+      }
     },
     {
       "ticker": "PANW",
@@ -16476,7 +16689,13 @@
       "currentPrice": 357.87,
       "currentDate": "2026-08-21",
       "returnPct": -6.87,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -6.87,
+          "spyRet": -1.37,
+          "excess": -5.5
+        }
+      }
     },
     {
       "ticker": "CRWD",
@@ -16489,7 +16708,13 @@
       "currentPrice": 191.95,
       "currentDate": "2026-08-21",
       "returnPct": -11.52,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -11.52,
+          "spyRet": -1.37,
+          "excess": -10.15
+        }
+      }
     },
     {
       "ticker": "NET",
@@ -16502,7 +16727,13 @@
       "currentPrice": 293.14,
       "currentDate": "2026-08-21",
       "returnPct": -7.17,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -7.17,
+          "spyRet": -1.37,
+          "excess": -5.8
+        }
+      }
     },
     {
       "ticker": "STX",
@@ -16515,7 +16746,13 @@
       "currentPrice": 850.0,
       "currentDate": "2026-08-21",
       "returnPct": -12.68,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -12.68,
+          "spyRet": -1.37,
+          "excess": -11.31
+        }
+      }
     },
     {
       "ticker": "BDL",
@@ -16528,7 +16765,13 @@
       "currentPrice": 48.12,
       "currentDate": "2026-08-21",
       "returnPct": -0.78,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -0.78,
+          "spyRet": -1.37,
+          "excess": 0.59
+        }
+      }
     },
     {
       "ticker": "MANU",
@@ -16541,7 +16784,13 @@
       "currentPrice": 23.75,
       "currentDate": "2026-08-21",
       "returnPct": -1.82,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -1.82,
+          "spyRet": -1.37,
+          "excess": -0.45
+        }
+      }
     },
     {
       "ticker": "OSCR",
@@ -16554,7 +16803,13 @@
       "currentPrice": 32.04,
       "currentDate": "2026-08-21",
       "returnPct": -2.2,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -2.2,
+          "spyRet": -1.37,
+          "excess": -0.83
+        }
+      }
     },
     {
       "ticker": "NAT",
@@ -16567,7 +16822,13 @@
       "currentPrice": 6.97,
       "currentDate": "2026-08-21",
       "returnPct": 3.87,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 3.87,
+          "spyRet": -1.37,
+          "excess": 5.24
+        }
+      }
     },
     {
       "ticker": "PWR",
@@ -16580,7 +16841,13 @@
       "currentPrice": 639.34,
       "currentDate": "2026-08-21",
       "returnPct": -6.77,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -6.77,
+          "spyRet": -1.37,
+          "excess": -5.4
+        }
+      }
     },
     {
       "ticker": "TALK",
@@ -16606,7 +16873,13 @@
       "currentPrice": 54.5,
       "currentDate": "2026-08-21",
       "returnPct": 1.98,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 1.98,
+          "spyRet": -1.37,
+          "excess": 3.35
+        }
+      }
     },
     {
       "ticker": "RGA",
@@ -16619,7 +16892,13 @@
       "currentPrice": 243.13,
       "currentDate": "2026-08-21",
       "returnPct": -2.53,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -2.53,
+          "spyRet": -1.37,
+          "excess": -1.16
+        }
+      }
     },
     {
       "ticker": "MMS",
@@ -19480,41 +19759,522 @@
       "currentDate": "2026-08-21",
       "returnPct": 2.95,
       "horizons": {}
+    },
+    {
+      "ticker": "IAG",
+      "signalType": "value",
+      "entryDate": "2026-08-23",
+      "entryPrice": 21.14,
+      "spyEntry": 765.72,
+      "score": 96,
+      "detail": "BUY",
+      "currentPrice": 21.14,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "ELA",
+      "signalType": "value",
+      "entryDate": "2026-08-23",
+      "entryPrice": 14.13,
+      "spyEntry": 765.72,
+      "score": 85,
+      "detail": "BUY",
+      "currentPrice": 14.13,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "FURY",
+      "signalType": "value",
+      "entryDate": "2026-08-23",
+      "entryPrice": 0.6796,
+      "spyEntry": 765.72,
+      "score": 85,
+      "detail": "BUY",
+      "currentPrice": 0.6796,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "HCKT",
+      "signalType": "value",
+      "entryDate": "2026-08-23",
+      "entryPrice": 11.08,
+      "spyEntry": 765.72,
+      "score": 84,
+      "detail": "BUY",
+      "currentPrice": 11.08,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "INSP",
+      "signalType": "value",
+      "entryDate": "2026-08-23",
+      "entryPrice": 62.36,
+      "spyEntry": 765.72,
+      "score": 83,
+      "detail": "ACCUMULATE",
+      "currentPrice": 62.36,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "FTLF",
+      "signalType": "value",
+      "entryDate": "2026-08-23",
+      "entryPrice": 10.02,
+      "spyEntry": 765.72,
+      "score": 79,
+      "detail": "BUY",
+      "currentPrice": 10.02,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "EPAM",
+      "signalType": "value",
+      "entryDate": "2026-08-23",
+      "entryPrice": 110.34,
+      "spyEntry": 765.72,
+      "score": 79,
+      "detail": "BUY",
+      "currentPrice": 110.34,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "IDR",
+      "signalType": "value",
+      "entryDate": "2026-08-23",
+      "entryPrice": 32.67,
+      "spyEntry": 765.72,
+      "score": 78,
+      "detail": "ACCUMULATE",
+      "currentPrice": 32.67,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "HDSN",
+      "signalType": "value",
+      "entryDate": "2026-08-23",
+      "entryPrice": 5.63,
+      "spyEntry": 765.72,
+      "score": 78,
+      "detail": "BUY",
+      "currentPrice": 5.63,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "MZTI",
+      "signalType": "value",
+      "entryDate": "2026-08-23",
+      "entryPrice": 111.63,
+      "spyEntry": 765.72,
+      "score": 77,
+      "detail": "BUY",
+      "currentPrice": 111.63,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "LIF",
+      "signalType": "value",
+      "entryDate": "2026-08-23",
+      "entryPrice": 44.66,
+      "spyEntry": 765.72,
+      "score": 76,
+      "detail": "ACCUMULATE",
+      "currentPrice": 44.66,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "GBFH",
+      "signalType": "value",
+      "entryDate": "2026-08-23",
+      "entryPrice": 21.21,
+      "spyEntry": 765.72,
+      "score": 75,
+      "detail": "BUY",
+      "currentPrice": 21.21,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "ERII",
+      "signalType": "value",
+      "entryDate": "2026-08-23",
+      "entryPrice": 7.9,
+      "spyEntry": 765.72,
+      "score": 73,
+      "detail": "BUY",
+      "currentPrice": 7.9,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "INTU",
+      "signalType": "value",
+      "entryDate": "2026-08-23",
+      "entryPrice": 367,
+      "spyEntry": 765.72,
+      "score": 68,
+      "detail": "BUY",
+      "currentPrice": 367.0,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "FTLF",
+      "signalType": "radar",
+      "entryDate": "2026-08-23",
+      "entryPrice": 10.02,
+      "spyEntry": 765.72,
+      "score": 47.5,
+      "detail": "2 signals",
+      "currentPrice": 10.02,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "NMM",
+      "signalType": "radar",
+      "entryDate": "2026-08-23",
+      "entryPrice": 88.78,
+      "spyEntry": 765.72,
+      "score": 33.0,
+      "detail": "2 signals",
+      "currentPrice": 88.78,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "TRST",
+      "signalType": "radar",
+      "entryDate": "2026-08-23",
+      "entryPrice": 56.83,
+      "spyEntry": 765.72,
+      "score": 31.6,
+      "detail": "2 signals",
+      "currentPrice": 56.83,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "FCNCA",
+      "signalType": "radar",
+      "entryDate": "2026-08-23",
+      "entryPrice": 2183.54,
+      "spyEntry": 765.72,
+      "score": 31.6,
+      "detail": "2 signals",
+      "currentPrice": 2183.54,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "LB",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 89.71,
+      "spyEntry": 765.72,
+      "score": 75.0,
+      "detail": "6 signals",
+      "currentPrice": 89.71,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "CXW",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 34.01,
+      "spyEntry": 765.72,
+      "score": 75.0,
+      "detail": "6 signals",
+      "currentPrice": 34.01,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "TEI",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 6.85,
+      "spyEntry": 765.72,
+      "score": 73.0,
+      "detail": "6 signals",
+      "currentPrice": 6.85,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "DE",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 647.47,
+      "spyEntry": 765.72,
+      "score": 69.0,
+      "detail": "6 signals",
+      "currentPrice": 647.47,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "ASIC",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 25.84,
+      "spyEntry": 765.72,
+      "score": 69.0,
+      "detail": "6 signals",
+      "currentPrice": 25.84,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "SXC",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 9.69,
+      "spyEntry": 765.72,
+      "score": 69.0,
+      "detail": "5 signals",
+      "currentPrice": 9.69,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "RHI",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 44.75,
+      "spyEntry": 765.72,
+      "score": 69.0,
+      "detail": "5 signals",
+      "currentPrice": 44.75,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "NHC",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 233.4,
+      "spyEntry": 765.72,
+      "score": 69.0,
+      "detail": "5 signals",
+      "currentPrice": 233.4,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "SJM",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 124.32,
+      "spyEntry": 765.72,
+      "score": 67.0,
+      "detail": "5 signals",
+      "currentPrice": 124.32,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "GEO",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 32.71,
+      "spyEntry": 765.72,
+      "score": 65.0,
+      "detail": "5 signals",
+      "currentPrice": 32.71,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "DK",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 71.47,
+      "spyEntry": 765.72,
+      "score": 65.0,
+      "detail": "5 signals",
+      "currentPrice": 71.47,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "PHVS",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 36.27,
+      "spyEntry": 765.72,
+      "score": 65.0,
+      "detail": "5 signals",
+      "currentPrice": 36.27,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "XOM",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 165.11,
+      "spyEntry": 765.72,
+      "score": 63.0,
+      "detail": "5 signals",
+      "currentPrice": 165.11,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "JNJ",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 270.24,
+      "spyEntry": 765.72,
+      "score": 63.0,
+      "detail": "5 signals",
+      "currentPrice": 270.24,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "IBKR",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 93.87,
+      "spyEntry": 765.72,
+      "score": 63.0,
+      "detail": "5 signals",
+      "currentPrice": 93.87,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "BMY",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 67.01,
+      "spyEntry": 765.72,
+      "score": 63.0,
+      "detail": "5 signals",
+      "currentPrice": 67.01,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "GPN",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 93.49,
+      "spyEntry": 765.72,
+      "score": 63.0,
+      "detail": "5 signals",
+      "currentPrice": 93.49,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "NSC",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 350.72,
+      "spyEntry": 765.72,
+      "score": 63.0,
+      "detail": "5 signals",
+      "currentPrice": 350.72,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "KRP",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-23",
+      "entryPrice": 15.4,
+      "spyEntry": 765.72,
+      "score": 63.0,
+      "detail": "5 signals",
+      "currentPrice": 15.4,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
     }
   ],
   "stats": {
     "value": {
       "7": {
-        "count": 441,
-        "beatRate": 59.4,
-        "avgExcess": 2.68,
-        "avgReturn": 4.05,
-        "avgSpy": 1.37
+        "count": 459,
+        "beatRate": 59.9,
+        "avgExcess": 2.71,
+        "avgReturn": 3.97,
+        "avgSpy": 1.26
       },
       "30": {
-        "count": 58,
-        "beatRate": 36.2,
-        "avgExcess": -2.57,
-        "avgReturn": 1.13,
-        "avgSpy": 3.7
+        "count": 73,
+        "beatRate": 34.2,
+        "avgExcess": -2.51,
+        "avgReturn": 1.18,
+        "avgSpy": 3.69
       }
     },
     "radar": {
       "7": {
-        "count": 146,
-        "beatRate": 50.7,
-        "avgExcess": 0.46,
-        "avgReturn": 1.62,
-        "avgSpy": 1.16
+        "count": 151,
+        "beatRate": 51.7,
+        "avgExcess": 0.49,
+        "avgReturn": 1.57,
+        "avgSpy": 1.08
       }
     },
     "earlymover": {
       "7": {
-        "count": 246,
-        "beatRate": 42.7,
-        "avgExcess": -1.51,
-        "avgReturn": -0.83,
-        "avgSpy": 0.68
+        "count": 257,
+        "beatRate": 42.0,
+        "avgExcess": -1.57,
+        "avgReturn": -0.98,
+        "avgSpy": 0.59
       }
     }
   },
@@ -19526,53 +20286,64 @@
       "ANET|radar",
       "APH|radar",
       "ARLP|radar",
+      "ASIC|earlymover",
       "ATCH|value",
       "ATLO|radar",
       "BIIB|earlymover",
+      "BMY|earlymover",
       "BRBR|value",
       "BRIA|value",
       "BYRN|value",
-      "CART|earlymover",
       "CB|radar",
       "CLDT|earlymover",
       "CODI|radar",
       "CON|earlymover",
-      "CRT|earlymover",
+      "CXW|earlymover",
       "CYTK|radar",
-      "DCTH|earlymover",
+      "DE|earlymover",
       "DGICA|radar",
       "DKL|radar",
+      "DK|earlymover",
       "DUK|radar",
       "ECOR|radar",
       "ECO|earlymover",
+      "ELA|value",
       "ENHA|radar",
-      "ETB|earlymover",
+      "EPAM|value",
+      "ERII|value",
       "ETV|earlymover",
       "ET|earlymover",
-      "FRO|earlymover",
-      "GABC|radar",
-      "GAIN|radar",
-      "GNK|earlymover",
+      "FCNCA|radar",
+      "FTLF|radar",
+      "FTLF|value",
+      "FURY|value",
+      "GBFH|value",
+      "GEO|earlymover",
+      "GPN|earlymover",
       "GRX|radar",
-      "HLX|earlymover",
+      "HCKT|value",
+      "HDSN|value",
       "HQY|radar",
-      "IDYA|earlymover",
-      "INCY|earlymover",
+      "IAG|value",
+      "IBKR|earlymover",
+      "IDR|value",
+      "INSP|value",
+      "INTU|value",
       "JBI|value",
-      "JLL|earlymover",
+      "JNJ|earlymover",
       "KGC|value",
-      "LFST|earlymover",
+      "KRP|earlymover",
+      "LB|earlymover",
       "LFVN|value",
       "LIEN|radar",
+      "LIF|value",
       "LLY|earlymover",
       "LMB|value",
-      "LQDT|earlymover",
       "LRN|value",
       "LTH|radar",
       "MBGL|radar",
       "MCRB|value",
       "MFP|radar",
-      "MLAB|earlymover",
       "MLAB|radar",
       "MLCI|radar",
       "MMS|value",
@@ -19582,13 +20353,15 @@
       "MS|radar",
       "MTDR|radar",
       "MXF|radar",
+      "MZTI|value",
       "NAGE|value",
       "NATR|radar",
       "NATR|value",
-      "NAT|earlymover",
+      "NHC|earlymover",
       "NKE|value",
+      "NMM|radar",
       "NRDS|value",
-      "NVDA|earlymover",
+      "NSC|earlymover",
       "NVDA|radar",
       "OGC|value",
       "OLLI|value",
@@ -19596,31 +20369,31 @@
       "ONON|radar",
       "ONON|value",
       "OPRX|value",
-      "OVLY|radar",
       "PAAS|value",
       "PANW|radar",
-      "PBT|earlymover",
       "PEGA|value",
       "PGY|value",
+      "PHVS|earlymover",
       "PLAB|value",
       "PLNT|value",
       "PSIX|value",
-      "RMBI|radar",
+      "RHI|earlymover",
       "ROLR|value",
       "ROOT|value",
       "RSSS|value",
-      "SBLK|earlymover",
       "SCCO|earlymover",
       "SCZM|value",
       "SFM|value",
-      "SHC|earlymover",
-      "SLS|earlymover",
+      "SJM|earlymover",
       "SMPL|value",
       "SPIR|value",
+      "SXC|earlymover",
       "TASK|value",
+      "TEI|earlymover",
       "TGLS|value",
       "TOUR|value",
       "TRAK|value",
+      "TRST|radar",
       "TSSI|value",
       "TTD|value",
       "TXO|radar",
@@ -19636,6 +20409,7 @@
       "WLDN|value",
       "XOMAO|value",
       "XOMAP|value",
+      "XOM|earlymover",
       "XRN|radar",
       "XTNT|value",
       "ZETA|earlymover",
