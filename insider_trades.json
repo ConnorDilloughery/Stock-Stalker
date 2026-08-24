@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-08-24T10:01:15.647755+00:00",
+  "generatedAt": "2026-08-24T11:04:49.057760+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "BABA",
+      "issuerName": "Alibaba Group Holding Ltd",
+      "insiderName": "Wu Yongming",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 350000.0,
+      "pricePerShare": 14.24,
+      "transactionDate": "2026-08-24"
+    },
     {
       "ticker": "RCG",
       "issuerName": "RENN Fund, Inc.",
@@ -551,6 +561,16 @@
       "type": "Sale",
       "shares": 136379.0,
       "pricePerShare": 3.4968,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "YQ",
+      "issuerName": "17 Education & Technology Group Inc.",
+      "insiderName": "Liu Chang",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 846.0,
+      "pricePerShare": 2.457,
       "transactionDate": "2026-08-21"
     },
     {
@@ -2551,6 +2571,16 @@
       "type": "Sale",
       "shares": 8023.0,
       "pricePerShare": 16.0,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "KEYS",
+      "issuerName": "Keysight Technologies, Inc.",
+      "insiderName": "Estrada Ingrid A",
+      "title": "SVP",
+      "type": "Sale",
+      "shares": 2000.0,
+      "pricePerShare": 314.66,
       "transactionDate": "2026-08-20"
     },
     {
@@ -29972,39 +30002,24 @@
       "shares": 200.0,
       "pricePerShare": 317.965,
       "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Sheena Jonathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 318.63,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Sheena Jonathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 489.0,
-      "pricePerShare": 320.9,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "NMM",
-      "issuerName": "Navios Maritime Partners L.P.",
-      "insiderName": "Frangou Angeliki",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 1054.0,
-      "pricePerShare": 78.938,
-      "transactionDate": "2026-08-07"
     }
   ],
   "byTicker": {
+    "BABA": {
+      "issuerName": "Alibaba Group Holding Ltd",
+      "trades": [
+        {
+          "ticker": "BABA",
+          "issuerName": "Alibaba Group Holding Ltd",
+          "insiderName": "Wu Yongming",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 350000.0,
+          "pricePerShare": 14.24,
+          "transactionDate": "2026-08-24"
+        }
+      ]
+    },
     "RCG": {
       "issuerName": "RENN Fund, Inc.",
       "trades": [
@@ -33557,6 +33572,41 @@
           "shares": 234304.0,
           "pricePerShare": 3.5299,
           "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "YQ": {
+      "issuerName": "17 Education & Technology Group Inc.",
+      "trades": [
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 846.0,
+          "pricePerShare": 2.457,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 853.0,
+          "pricePerShare": 2.4085,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 3295.0,
+          "pricePerShare": 2.4395,
+          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -40681,6 +40731,21 @@
           "type": "Sale",
           "shares": 8023.0,
           "pricePerShare": 16.0,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "KEYS": {
+      "issuerName": "Keysight Technologies, Inc.",
+      "trades": [
+        {
+          "ticker": "KEYS",
+          "issuerName": "Keysight Technologies, Inc.",
+          "insiderName": "Estrada Ingrid A",
+          "title": "SVP",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 314.66,
           "transactionDate": "2026-08-20"
         }
       ]
@@ -56270,31 +56335,6 @@
         }
       ]
     },
-    "YQ": {
-      "issuerName": "17 Education & Technology Group Inc.",
-      "trades": [
-        {
-          "ticker": "YQ",
-          "issuerName": "17 Education & Technology Group Inc.",
-          "insiderName": "Liu Chang",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 853.0,
-          "pricePerShare": 2.4085,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "YQ",
-          "issuerName": "17 Education & Technology Group Inc.",
-          "insiderName": "Liu Chang",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 3295.0,
-          "pricePerShare": 2.4395,
-          "transactionDate": "2026-08-10"
-        }
-      ]
-    },
     "MTDR": {
       "issuerName": "Matador Resources Co",
       "trades": [
@@ -58177,16 +58217,6 @@
           "shares": 1050.0,
           "pricePerShare": 79.0902,
           "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "NMM",
-          "issuerName": "Navios Maritime Partners L.P.",
-          "insiderName": "Frangou Angeliki",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 1054.0,
-          "pricePerShare": 78.938,
-          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -63066,26 +63096,6 @@
           "type": "Sale",
           "shares": 200.0,
           "pricePerShare": 317.965,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Sheena Jonathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 318.63,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Sheena Jonathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 489.0,
-          "pricePerShare": 320.9,
           "transactionDate": "2026-08-07"
         }
       ]
@@ -69216,6 +69226,10 @@
       "0001193125-26-361512",
       "0001193125-26-361604",
       "0001193125-26-361608",
+      "0001193125-26-361706",
+      "0001193125-26-361708",
+      "0001193125-26-361709",
+      "0001193125-26-361711",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70180,6 +70194,8 @@
       "0001213900-26-092707",
       "0001213900-26-092708",
       "0001213900-26-092777",
+      "0001213900-26-092781",
+      "0001213900-26-092783",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71293,6 +71309,7 @@
       "0001437749-26-028757",
       "0001437749-26-028758",
       "0001437749-26-028761",
+      "0001437749-26-028768",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -72536,6 +72553,7 @@
       "0001616707-26-000158",
       "0001620586-26-000009",
       "0001620715-26-000010",
+      "0001621346-26-000006",
       "0001622769-26-000006",
       "0001623632-26-001024",
       "0001623632-26-001064",
@@ -78144,6 +78162,7 @@
       "0001918704-26-024487",
       "0001918704-26-024488",
       "0001918704-26-024500",
+      "0001918704-26-024513",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
