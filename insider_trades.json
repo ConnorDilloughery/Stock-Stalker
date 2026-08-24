@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T12:03:19.991252+00:00",
+  "generatedAt": "2026-08-24T13:01:05.797594+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -11,6 +11,16 @@
       "type": "Purchase",
       "shares": 350000.0,
       "pricePerShare": 14.24,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "BABA",
+      "issuerName": "Alibaba Group Holding Ltd",
+      "insiderName": "Tsai Joseph C",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 720000.0,
+      "pricePerShare": 14.29,
       "transactionDate": "2026-08-24"
     },
     {
@@ -601,6 +611,56 @@
       "type": "Purchase",
       "shares": 1100.0,
       "pricePerShare": 147.47,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "QXL",
+      "issuerName": "QUANTUM X LABS INC.",
+      "insiderName": "Yoresh Eliyahu",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 4500.0,
+      "pricePerShare": 4.77,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "DHT",
+      "issuerName": "DHT Holdings, Inc.",
+      "insiderName": "Eglin Jon Stephen",
+      "title": "Chartering & Operations",
+      "type": "Sale",
+      "shares": 25000.0,
+      "pricePerShare": 20.35,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "DHT",
+      "issuerName": "DHT Holdings, Inc.",
+      "insiderName": "Rossini Sophie",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 33000.0,
+      "pricePerShare": 20.04,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "BULL",
+      "issuerName": "Webull Corp",
+      "insiderName": "James Benjamin Worthy",
+      "title": "Director, General Counsel",
+      "type": "Sale",
+      "shares": 50273.0,
+      "pricePerShare": 9.0163,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "MHH",
+      "issuerName": "Mastech Digital, Inc.",
+      "insiderName": "SHAW STEVEN A",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 5000.0,
+      "pricePerShare": 7.47,
       "transactionDate": "2026-08-21"
     },
     {
@@ -2631,6 +2691,16 @@
       "type": "Purchase",
       "shares": 7000.0,
       "pricePerShare": 5.29,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "MYO",
+      "issuerName": "MYOMO, INC.",
+      "insiderName": "Kovelman Harry",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 17500.0,
+      "pricePerShare": 1.7331,
       "transactionDate": "2026-08-20"
     },
     {
@@ -6181,6 +6251,16 @@
       "type": "Sale",
       "shares": 234304.0,
       "pricePerShare": 3.5299,
+      "transactionDate": "2026-08-19"
+    },
+    {
+      "ticker": "HLMN",
+      "issuerName": "Hillman Solutions Corp.",
+      "insiderName": "Parker Aaron Jerrod",
+      "title": "Chief People Offic.",
+      "type": "Sale",
+      "shares": 17381.0,
+      "pricePerShare": 8.57,
       "transactionDate": "2026-08-19"
     },
     {
@@ -29922,86 +30002,6 @@
       "shares": 5000.0,
       "pricePerShare": 12.3077,
       "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "SVV",
-      "issuerName": "Savers Value Village, Inc.",
-      "insiderName": "Walsh Mark T.",
-      "title": "Director, CEO & Director",
-      "type": "Sale",
-      "shares": 13062.0,
-      "pricePerShare": 11.6641,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "SVV",
-      "issuerName": "Savers Value Village, Inc.",
-      "insiderName": "Walsh Mark T.",
-      "title": "Director, CEO & Director",
-      "type": "Sale",
-      "shares": 36938.0,
-      "pricePerShare": 12.3846,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "SVV",
-      "issuerName": "Savers Value Village, Inc.",
-      "insiderName": "Walsh Mark T.",
-      "title": "Director, CEO & Director",
-      "type": "Sale",
-      "shares": 13036.0,
-      "pricePerShare": 11.6716,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "SVV",
-      "issuerName": "Savers Value Village, Inc.",
-      "insiderName": "Walsh Mark T.",
-      "title": "Director, CEO & Director",
-      "type": "Sale",
-      "shares": 36964.0,
-      "pricePerShare": 12.383,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Rabinowitz Matthew",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2000.0,
-      "pricePerShare": 320.9,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Sheena Jonathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 308.4,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Sheena Jonathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 400.0,
-      "pricePerShare": 310.225,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Sheena Jonathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 400.0,
-      "pricePerShare": 311.8788,
-      "transactionDate": "2026-08-07"
     }
   ],
   "byTicker": {
@@ -30016,6 +30016,16 @@
           "type": "Purchase",
           "shares": 350000.0,
           "pricePerShare": 14.24,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "BABA",
+          "issuerName": "Alibaba Group Holding Ltd",
+          "insiderName": "Tsai Joseph C",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 720000.0,
+          "pricePerShare": 14.29,
           "transactionDate": "2026-08-24"
         }
       ]
@@ -33626,6 +33636,26 @@
         {
           "ticker": "DHT",
           "issuerName": "DHT Holdings, Inc.",
+          "insiderName": "Eglin Jon Stephen",
+          "title": "Chartering & Operations",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 20.35,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "DHT",
+          "issuerName": "DHT Holdings, Inc.",
+          "insiderName": "Rossini Sophie",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 33000.0,
+          "pricePerShare": 20.04,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "DHT",
+          "issuerName": "DHT Holdings, Inc.",
           "insiderName": "Halvorsen Laila Cecilie",
           "title": "Chief Financial Officer",
           "type": "Sale",
@@ -33681,6 +33711,51 @@
           "type": "Purchase",
           "shares": 1100.0,
           "pricePerShare": 147.47,
+          "transactionDate": "2026-08-21"
+        }
+      ]
+    },
+    "QXL": {
+      "issuerName": "QUANTUM X LABS INC.",
+      "trades": [
+        {
+          "ticker": "QXL",
+          "issuerName": "QUANTUM X LABS INC.",
+          "insiderName": "Yoresh Eliyahu",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 4500.0,
+          "pricePerShare": 4.77,
+          "transactionDate": "2026-08-21"
+        }
+      ]
+    },
+    "BULL": {
+      "issuerName": "Webull Corp",
+      "trades": [
+        {
+          "ticker": "BULL",
+          "issuerName": "Webull Corp",
+          "insiderName": "James Benjamin Worthy",
+          "title": "Director, General Counsel",
+          "type": "Sale",
+          "shares": 50273.0,
+          "pricePerShare": 9.0163,
+          "transactionDate": "2026-08-21"
+        }
+      ]
+    },
+    "MHH": {
+      "issuerName": "Mastech Digital, Inc.",
+      "trades": [
+        {
+          "ticker": "MHH",
+          "issuerName": "Mastech Digital, Inc.",
+          "insiderName": "SHAW STEVEN A",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 7.47,
           "transactionDate": "2026-08-21"
         }
       ]
@@ -37890,6 +37965,16 @@
           "title": "Reporting Person",
           "type": "Sale",
           "shares": 17250.0,
+          "pricePerShare": 1.7331,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "MYO",
+          "issuerName": "MYOMO, INC.",
+          "insiderName": "Kovelman Harry",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 17500.0,
           "pricePerShare": 1.7331,
           "transactionDate": "2026-08-20"
         }
@@ -47561,6 +47646,21 @@
           "type": "Sale",
           "shares": 7939153.0,
           "pricePerShare": null,
+          "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "HLMN": {
+      "issuerName": "Hillman Solutions Corp.",
+      "trades": [
+        {
+          "ticker": "HLMN",
+          "issuerName": "Hillman Solutions Corp.",
+          "insiderName": "Parker Aaron Jerrod",
+          "title": "Chief People Offic.",
+          "type": "Sale",
+          "shares": 17381.0,
+          "pricePerShare": 8.57,
           "transactionDate": "2026-08-19"
         }
       ]
@@ -63072,46 +63172,6 @@
           "shares": 6000.0,
           "pricePerShare": 325.3237,
           "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Rabinowitz Matthew",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2000.0,
-          "pricePerShare": 320.9,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Sheena Jonathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 308.4,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Sheena Jonathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 310.225,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Sheena Jonathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 311.8788,
-          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -63356,46 +63416,6 @@
           "type": "Sale",
           "shares": 5000.0,
           "pricePerShare": 12.3077,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "SVV",
-          "issuerName": "Savers Value Village, Inc.",
-          "insiderName": "Walsh Mark T.",
-          "title": "Director, CEO & Director",
-          "type": "Sale",
-          "shares": 13062.0,
-          "pricePerShare": 11.6641,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "SVV",
-          "issuerName": "Savers Value Village, Inc.",
-          "insiderName": "Walsh Mark T.",
-          "title": "Director, CEO & Director",
-          "type": "Sale",
-          "shares": 36938.0,
-          "pricePerShare": 12.3846,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "SVV",
-          "issuerName": "Savers Value Village, Inc.",
-          "insiderName": "Walsh Mark T.",
-          "title": "Director, CEO & Director",
-          "type": "Sale",
-          "shares": 13036.0,
-          "pricePerShare": 11.6716,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "SVV",
-          "issuerName": "Savers Value Village, Inc.",
-          "insiderName": "Walsh Mark T.",
-          "title": "Director, CEO & Director",
-          "type": "Sale",
-          "shares": 36964.0,
-          "pricePerShare": 12.383,
           "transactionDate": "2026-08-07"
         }
       ]
@@ -66313,6 +66333,8 @@
       "0001104659-26-099733",
       "0001104659-26-099798",
       "0001104659-26-099945",
+      "0001104659-26-100036",
+      "0001104659-26-100039",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -69250,6 +69272,11 @@
       "0001193125-26-361846",
       "0001193125-26-361848",
       "0001193125-26-361850",
+      "0001193125-26-361870",
+      "0001193125-26-361875",
+      "0001193125-26-361885",
+      "0001193125-26-361902",
+      "0001193125-26-361925",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70216,6 +70243,8 @@
       "0001213900-26-092777",
       "0001213900-26-092781",
       "0001213900-26-092783",
+      "0001213900-26-092819",
+      "0001213900-26-092821",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -70760,6 +70789,8 @@
       "0001331284-26-000011",
       "0001331284-26-000012",
       "0001331284-26-000016",
+      "0001331284-26-000017",
+      "0001331284-26-000018",
       "0001332349-26-000059",
       "0001333280-26-000016",
       "0001334330-26-000002",
@@ -71986,6 +72017,7 @@
       "0001493152-26-039749",
       "0001493152-26-039753",
       "0001493152-26-039784",
+      "0001493152-26-039791",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -73978,6 +74010,7 @@
       "0001821268-26-000145",
       "0001821737-26-000010",
       "0001821737-26-000011",
+      "0001822492-26-000139",
       "0001822516-26-000004",
       "0001822928-26-000074",
       "0001822928-26-000075",
@@ -78186,6 +78219,8 @@
       "0001918704-26-024488",
       "0001918704-26-024500",
       "0001918704-26-024513",
+      "0001918704-26-024514",
+      "0001918704-26-024515",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -78702,6 +78737,7 @@
       "0001999371-26-018402",
       "0001999371-26-018417",
       "0001999371-26-018494",
+      "0001999371-26-018497",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0002000276-26-000006",
@@ -79064,6 +79100,7 @@
       "0002092210-26-000015",
       "0002092575-26-000010",
       "0002092596-26-000002",
+      "0002092820-26-000002",
       "0002092936-26-000004",
       "0002093210-26-000002",
       "0002094759-26-000002",
