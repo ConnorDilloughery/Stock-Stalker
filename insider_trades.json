@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:01:05.797594+00:00",
+  "generatedAt": "2026-08-24T14:01:22.557168+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -661,6 +661,56 @@
       "type": "Purchase",
       "shares": 5000.0,
       "pricePerShare": 7.47,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "CHE",
+      "issuerName": "CHEMED CORP",
+      "insiderName": "LEE SPENCER S",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1000.0,
+      "pricePerShare": 541.04,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "CHE",
+      "issuerName": "CHEMED CORP",
+      "insiderName": "MCNAMARA KEVIN J",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2000.0,
+      "pricePerShare": 541.16,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "ECF",
+      "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 5742.0,
+      "pricePerShare": 12.53,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "IDAI",
+      "issuerName": "T Stamp Inc",
+      "insiderName": "Genner Gareth Neville",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 3.21,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "GRX",
+      "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 7087.0,
+      "pricePerShare": 10.13,
       "transactionDate": "2026-08-21"
     },
     {
@@ -2701,6 +2751,36 @@
       "type": "Sale",
       "shares": 17500.0,
       "pricePerShare": 1.7331,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "GF",
+      "issuerName": "NEW GERMANY FUND INC",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 300.0,
+      "pricePerShare": 11.2,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "ECF",
+      "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1547.0,
+      "pricePerShare": 12.52,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "ECAT",
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 30239.0,
+      "pricePerShare": 15.14,
       "transactionDate": "2026-08-20"
     },
     {
@@ -29922,86 +30002,6 @@
       "shares": 211302.0,
       "pricePerShare": 17.7444,
       "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "SVV",
-      "issuerName": "Savers Value Village, Inc.",
-      "insiderName": "Medway Richard A.",
-      "title": "General Counsel",
-      "type": "Sale",
-      "shares": 15000.0,
-      "pricePerShare": 11.48,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "SVV",
-      "issuerName": "Savers Value Village, Inc.",
-      "insiderName": "Medway Richard A.",
-      "title": "General Counsel",
-      "type": "Sale",
-      "shares": 15000.0,
-      "pricePerShare": 11.98,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "SVV",
-      "issuerName": "Savers Value Village, Inc.",
-      "insiderName": "Medway Richard A.",
-      "title": "General Counsel",
-      "type": "Sale",
-      "shares": 15000.0,
-      "pricePerShare": 12.48,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "SVV",
-      "issuerName": "Savers Value Village, Inc.",
-      "insiderName": "Geisser Melinda L.",
-      "title": "Chief People Services Officer",
-      "type": "Sale",
-      "shares": 15000.0,
-      "pricePerShare": 11.48,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "SVV",
-      "issuerName": "Savers Value Village, Inc.",
-      "insiderName": "Geisser Melinda L.",
-      "title": "Chief People Services Officer",
-      "type": "Sale",
-      "shares": 15000.0,
-      "pricePerShare": 11.98,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "SVV",
-      "issuerName": "Savers Value Village, Inc.",
-      "insiderName": "Geisser Melinda L.",
-      "title": "Chief People Services Officer",
-      "type": "Sale",
-      "shares": 20000.0,
-      "pricePerShare": 12.48,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "SVV",
-      "issuerName": "Savers Value Village, Inc.",
-      "insiderName": "Maher Michael W",
-      "title": "CFO & Treasurer",
-      "type": "Sale",
-      "shares": 44742.0,
-      "pricePerShare": 12.3347,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "SVV",
-      "issuerName": "Savers Value Village, Inc.",
-      "insiderName": "Maher Michael W",
-      "title": "CFO & Treasurer",
-      "type": "Sale",
-      "shares": 5000.0,
-      "pricePerShare": 12.3077,
-      "transactionDate": "2026-08-07"
     }
   ],
   "byTicker": {
@@ -33760,59 +33760,69 @@
         }
       ]
     },
-    "CFFI": {
-      "issuerName": "C & F FINANCIAL CORP",
+    "CHE": {
+      "issuerName": "CHEMED CORP",
       "trades": [
         {
-          "ticker": "CFFI",
-          "issuerName": "C & F FINANCIAL CORP",
-          "insiderName": "DILLON LARRY G",
+          "ticker": "CHE",
+          "issuerName": "CHEMED CORP",
+          "insiderName": "LEE SPENCER S",
           "title": "Reporting Person",
           "type": "Sale",
           "shares": 1000.0,
-          "pricePerShare": 86.0,
-          "transactionDate": "2026-08-20"
+          "pricePerShare": 541.04,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "CHE",
+          "issuerName": "CHEMED CORP",
+          "insiderName": "MCNAMARA KEVIN J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 541.16,
+          "transactionDate": "2026-08-21"
         }
       ]
     },
-    "BHRB": {
-      "issuerName": "Burke & Herbert Financial Services Corp.",
+    "ECF": {
+      "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
       "trades": [
         {
-          "ticker": "BHRB",
-          "issuerName": "Burke & Herbert Financial Services Corp.",
-          "insiderName": "WILSON DAVID",
-          "title": "Director",
+          "ticker": "ECF",
+          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
           "type": "Purchase",
-          "shares": 35.0,
-          "pricePerShare": 70.5726,
+          "shares": 5742.0,
+          "pricePerShare": 12.53,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "ECF",
+          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1547.0,
+          "pricePerShare": 12.52,
           "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "BHRB",
-          "issuerName": "Burke & Herbert Financial Services Corp.",
-          "insiderName": "Poillon Diane",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1200.0,
-          "pricePerShare": 73.6651,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "BHRB",
-          "issuerName": "Burke & Herbert Financial Services Corp.",
-          "insiderName": "Burke James Mason",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1500.0,
-          "pricePerShare": 73.025,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
     "IDAI": {
       "issuerName": "T Stamp Inc",
       "trades": [
+        {
+          "ticker": "IDAI",
+          "issuerName": "T Stamp Inc",
+          "insiderName": "Genner Gareth Neville",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 3.21,
+          "transactionDate": "2026-08-21"
+        },
         {
           "ticker": "IDAI",
           "issuerName": "T Stamp Inc",
@@ -33872,6 +33882,101 @@
           "shares": 2000.0,
           "pricePerShare": 2.52,
           "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "GRX": {
+      "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+      "trades": [
+        {
+          "ticker": "GRX",
+          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 7087.0,
+          "pricePerShare": 10.13,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "GRX",
+          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 24102.0,
+          "pricePerShare": 10.13,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "GRX",
+          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1203.0,
+          "pricePerShare": 9.86,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "GRX",
+          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 200.0,
+          "pricePerShare": 9.93,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "CFFI": {
+      "issuerName": "C & F FINANCIAL CORP",
+      "trades": [
+        {
+          "ticker": "CFFI",
+          "issuerName": "C & F FINANCIAL CORP",
+          "insiderName": "DILLON LARRY G",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 86.0,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "BHRB": {
+      "issuerName": "Burke & Herbert Financial Services Corp.",
+      "trades": [
+        {
+          "ticker": "BHRB",
+          "issuerName": "Burke & Herbert Financial Services Corp.",
+          "insiderName": "WILSON DAVID",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 35.0,
+          "pricePerShare": 70.5726,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "BHRB",
+          "issuerName": "Burke & Herbert Financial Services Corp.",
+          "insiderName": "Poillon Diane",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1200.0,
+          "pricePerShare": 73.6651,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "BHRB",
+          "issuerName": "Burke & Herbert Financial Services Corp.",
+          "insiderName": "Burke James Mason",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 73.025,
+          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -40915,6 +41020,116 @@
         }
       ]
     },
+    "GF": {
+      "issuerName": "NEW GERMANY FUND INC",
+      "trades": [
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 300.0,
+          "pricePerShare": 11.2,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 4758.0,
+          "pricePerShare": 11.59,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "ECAT": {
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "trades": [
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 30239.0,
+          "pricePerShare": 15.14,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 69761.0,
+          "pricePerShare": 15.23,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 104309.0,
+          "pricePerShare": 15.26,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 68259.0,
+          "pricePerShare": 15.44,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 45050.0,
+          "pricePerShare": 15.51,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 190526.0,
+          "pricePerShare": 15.82,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 153689.0,
+          "pricePerShare": 15.83,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 120376.0,
+          "pricePerShare": 15.84,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
     "SSB": {
       "issuerName": "SouthState Bank Corp",
       "trades": [
@@ -42912,116 +43127,6 @@
           "shares": 300.0,
           "pricePerShare": 37.11,
           "transactionDate": "2026-08-19"
-        }
-      ]
-    },
-    "ECAT": {
-      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-      "trades": [
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 69761.0,
-          "pricePerShare": 15.23,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 104309.0,
-          "pricePerShare": 15.26,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 68259.0,
-          "pricePerShare": 15.44,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 45050.0,
-          "pricePerShare": 15.51,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 190526.0,
-          "pricePerShare": 15.82,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 153689.0,
-          "pricePerShare": 15.83,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 120376.0,
-          "pricePerShare": 15.84,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "GRX": {
-      "issuerName": "Gabelli Healthcare & WellnessRx Trust",
-      "trades": [
-        {
-          "ticker": "GRX",
-          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 24102.0,
-          "pricePerShare": 10.13,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "GRX",
-          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1203.0,
-          "pricePerShare": 9.86,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "GRX",
-          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 200.0,
-          "pricePerShare": 9.93,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -61090,21 +61195,6 @@
         }
       ]
     },
-    "GF": {
-      "issuerName": "NEW GERMANY FUND INC",
-      "trades": [
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 4758.0,
-          "pricePerShare": 11.59,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
     "TOST": {
       "issuerName": "Toast, Inc.",
       "trades": [
@@ -63334,91 +63424,6 @@
           "transactionDate": "2026-08-07"
         }
       ]
-    },
-    "SVV": {
-      "issuerName": "Savers Value Village, Inc.",
-      "trades": [
-        {
-          "ticker": "SVV",
-          "issuerName": "Savers Value Village, Inc.",
-          "insiderName": "Medway Richard A.",
-          "title": "General Counsel",
-          "type": "Sale",
-          "shares": 15000.0,
-          "pricePerShare": 11.48,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "SVV",
-          "issuerName": "Savers Value Village, Inc.",
-          "insiderName": "Medway Richard A.",
-          "title": "General Counsel",
-          "type": "Sale",
-          "shares": 15000.0,
-          "pricePerShare": 11.98,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "SVV",
-          "issuerName": "Savers Value Village, Inc.",
-          "insiderName": "Medway Richard A.",
-          "title": "General Counsel",
-          "type": "Sale",
-          "shares": 15000.0,
-          "pricePerShare": 12.48,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "SVV",
-          "issuerName": "Savers Value Village, Inc.",
-          "insiderName": "Geisser Melinda L.",
-          "title": "Chief People Services Officer",
-          "type": "Sale",
-          "shares": 15000.0,
-          "pricePerShare": 11.48,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "SVV",
-          "issuerName": "Savers Value Village, Inc.",
-          "insiderName": "Geisser Melinda L.",
-          "title": "Chief People Services Officer",
-          "type": "Sale",
-          "shares": 15000.0,
-          "pricePerShare": 11.98,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "SVV",
-          "issuerName": "Savers Value Village, Inc.",
-          "insiderName": "Geisser Melinda L.",
-          "title": "Chief People Services Officer",
-          "type": "Sale",
-          "shares": 20000.0,
-          "pricePerShare": 12.48,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "SVV",
-          "issuerName": "Savers Value Village, Inc.",
-          "insiderName": "Maher Michael W",
-          "title": "CFO & Treasurer",
-          "type": "Sale",
-          "shares": 44742.0,
-          "pricePerShare": 12.3347,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "SVV",
-          "issuerName": "Savers Value Village, Inc.",
-          "insiderName": "Maher Michael W",
-          "title": "CFO & Treasurer",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 12.3077,
-          "transactionDate": "2026-08-07"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63967,6 +63972,7 @@
       "0000731766-26-000199",
       "0000731802-26-000104",
       "0000739421-26-000068",
+      "0000741313-26-000110",
       "0000744822-26-000071",
       "0000744822-26-000075",
       "0000744822-26-000076",
@@ -64522,6 +64528,8 @@
       "0000939057-26-000202",
       "0000939057-26-000203",
       "0000939767-26-000101",
+      "0000940420-26-000019",
+      "0000940420-26-000021",
       "0000943452-26-000004",
       "0000943452-26-000005",
       "0000943452-26-000007",
@@ -65399,6 +65407,12 @@
       "0001016274-26-000032",
       "0001017475-26-000008",
       "0001017475-26-000010",
+      "0001017963-26-000031",
+      "0001017963-26-000033",
+      "0001017963-26-000035",
+      "0001017963-26-000037",
+      "0001017963-26-000039",
+      "0001017963-26-000041",
       "0001018572-26-000003",
       "0001018572-26-000004",
       "0001018572-26-000005",
@@ -66824,6 +66838,7 @@
       "0001140361-26-034061",
       "0001140361-26-034066",
       "0001140361-26-034070",
+      "0001140361-26-034105",
       "0001140842-26-000004",
       "0001145197-26-000172",
       "0001159036-26-000108",
@@ -69277,6 +69292,15 @@
       "0001193125-26-361885",
       "0001193125-26-361902",
       "0001193125-26-361925",
+      "0001193125-26-362081",
+      "0001193125-26-362100",
+      "0001193125-26-362111",
+      "0001193125-26-362113",
+      "0001193125-26-362126",
+      "0001193125-26-362130",
+      "0001193125-26-362133",
+      "0001193125-26-362136",
+      "0001193125-26-362146",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70245,6 +70269,11 @@
       "0001213900-26-092783",
       "0001213900-26-092819",
       "0001213900-26-092821",
+      "0001213900-26-092830",
+      "0001213900-26-092832",
+      "0001213900-26-092833",
+      "0001213900-26-092834",
+      "0001213900-26-092849",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71068,6 +71097,7 @@
       "0001435109-26-000132",
       "0001435109-26-000133",
       "0001435109-26-000134",
+      "0001435109-26-000137",
       "0001435430-26-000006",
       "0001436125-26-000007",
       "0001436425-26-000072",
@@ -71541,6 +71571,7 @@
       "0001445546-26-006305",
       "0001445546-26-006315",
       "0001445546-26-006316",
+      "0001445546-26-006330",
       "0001448765-26-000011",
       "0001448765-26-000013",
       "0001450800-26-000006",
@@ -72092,6 +72123,10 @@
       "0001510281-26-000272",
       "0001510281-26-000273",
       "0001510281-26-000274",
+      "0001510281-26-000275",
+      "0001510281-26-000276",
+      "0001510281-26-000277",
+      "0001510281-26-000278",
       "0001511110-26-000008",
       "0001511110-26-000010",
       "0001511194-26-000012",
@@ -72294,6 +72329,7 @@
       "0001552781-26-000400",
       "0001552781-26-000403",
       "0001552781-26-000455",
+      "0001552781-26-000460",
       "0001553153-26-000002",
       "0001554387-26-000005",
       "0001554855-26-001756",
@@ -73191,6 +73227,7 @@
       "0001628280-26-058503",
       "0001628280-26-058506",
       "0001628280-26-058507",
+      "0001628280-26-058528",
       "0001629079-26-000002",
       "0001629292-26-000002",
       "0001629911-26-000006",
@@ -75943,6 +75980,11 @@
       "0001839882-26-041077",
       "0001839882-26-041078",
       "0001839882-26-041079",
+      "0001839882-26-041112",
+      "0001839882-26-041113",
+      "0001839882-26-041114",
+      "0001839882-26-041115",
+      "0001839882-26-041119",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -76164,6 +76206,7 @@
       "0001909068-26-000018",
       "0001909539-26-000016",
       "0001910573-26-000006",
+      "0001910573-26-000011",
       "0001911066-26-000099",
       "0001911501-26-000006",
       "0001913953-26-000009",
@@ -78221,6 +78264,17 @@
       "0001918704-26-024513",
       "0001918704-26-024514",
       "0001918704-26-024515",
+      "0001918704-26-024516",
+      "0001918704-26-024517",
+      "0001918704-26-024518",
+      "0001918704-26-024519",
+      "0001918704-26-024520",
+      "0001918704-26-024521",
+      "0001918704-26-024522",
+      "0001918704-26-024523",
+      "0001918704-26-024524",
+      "0001918704-26-024527",
+      "0001918704-26-024528",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -78738,6 +78792,8 @@
       "0001999371-26-018417",
       "0001999371-26-018494",
       "0001999371-26-018497",
+      "0001999371-26-018501",
+      "0001999371-26-018503",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0002000276-26-000006",
