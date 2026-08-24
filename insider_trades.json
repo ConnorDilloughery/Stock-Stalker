@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T11:04:49.057760+00:00",
+  "generatedAt": "2026-08-24T12:03:19.991252+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -571,6 +571,36 @@
       "type": "Purchase",
       "shares": 846.0,
       "pricePerShare": 2.457,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "DHT",
+      "issuerName": "DHT Holdings, Inc.",
+      "insiderName": "Edvardsen Svenn Magne",
+      "title": "Technical Director",
+      "type": "Sale",
+      "shares": 341007.0,
+      "pricePerShare": 20.29,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "ALLT",
+      "issuerName": "Allot Ltd.",
+      "insiderName": "Grossman Boaz",
+      "title": "Senior Vice President R&D",
+      "type": "Sale",
+      "shares": 6000.0,
+      "pricePerShare": 7.45,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "PODD",
+      "issuerName": "INSULET CORP",
+      "insiderName": "McEvoy Ashley",
+      "title": "Director, President and CEO",
+      "type": "Purchase",
+      "shares": 1100.0,
+      "pricePerShare": 147.47,
       "transactionDate": "2026-08-21"
     },
     {
@@ -2581,6 +2611,26 @@
       "type": "Sale",
       "shares": 2000.0,
       "pricePerShare": 314.66,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "TNXP",
+      "issuerName": "Tonix Pharmaceuticals Holding Corp.",
+      "insiderName": "BAGGER RICHARD H",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 12.6,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "SCOR",
+      "issuerName": "COMSCORE, INC.",
+      "insiderName": "Kline David",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 7000.0,
+      "pricePerShare": 5.29,
       "transactionDate": "2026-08-20"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 400.0,
       "pricePerShare": 311.8788,
       "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Sheena Jonathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 900.0,
-      "pricePerShare": 313.0672,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Sheena Jonathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 850.0,
-      "pricePerShare": 314.2517,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Sheena Jonathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 600.0,
-      "pricePerShare": 315.3175,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Sheena Jonathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 5111.0,
-      "pricePerShare": 316.6118,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Sheena Jonathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 200.0,
-      "pricePerShare": 317.965,
-      "transactionDate": "2026-08-07"
     }
   ],
   "byTicker": {
@@ -33610,6 +33610,81 @@
         }
       ]
     },
+    "DHT": {
+      "issuerName": "DHT Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "DHT",
+          "issuerName": "DHT Holdings, Inc.",
+          "insiderName": "Edvardsen Svenn Magne",
+          "title": "Technical Director",
+          "type": "Sale",
+          "shares": 341007.0,
+          "pricePerShare": 20.29,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "DHT",
+          "issuerName": "DHT Holdings, Inc.",
+          "insiderName": "Halvorsen Laila Cecilie",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 50000.0,
+          "pricePerShare": 20.0,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "DHT",
+          "issuerName": "DHT Holdings, Inc.",
+          "insiderName": "Eglin Jon Stephen",
+          "title": "Chartering & Operations",
+          "type": "Sale",
+          "shares": 50000.0,
+          "pricePerShare": 19.99,
+          "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "ALLT": {
+      "issuerName": "Allot Ltd.",
+      "trades": [
+        {
+          "ticker": "ALLT",
+          "issuerName": "Allot Ltd.",
+          "insiderName": "Grossman Boaz",
+          "title": "Senior Vice President R&D",
+          "type": "Sale",
+          "shares": 6000.0,
+          "pricePerShare": 7.45,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "ALLT",
+          "issuerName": "Allot Ltd.",
+          "insiderName": "Groner Gili",
+          "title": "Chief Human Resources Officer",
+          "type": "Sale",
+          "shares": 26666.0,
+          "pricePerShare": 7.8582,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "PODD": {
+      "issuerName": "INSULET CORP",
+      "trades": [
+        {
+          "ticker": "PODD",
+          "issuerName": "INSULET CORP",
+          "insiderName": "McEvoy Ashley",
+          "title": "Director, President and CEO",
+          "type": "Purchase",
+          "shares": 1100.0,
+          "pricePerShare": 147.47,
+          "transactionDate": "2026-08-21"
+        }
+      ]
+    },
     "CFFI": {
       "issuerName": "C & F FINANCIAL CORP",
       "trades": [
@@ -35142,31 +35217,6 @@
           "shares": 5363.0,
           "pricePerShare": 194.48,
           "transactionDate": "2026-08-20"
-        }
-      ]
-    },
-    "DHT": {
-      "issuerName": "DHT Holdings, Inc.",
-      "trades": [
-        {
-          "ticker": "DHT",
-          "issuerName": "DHT Holdings, Inc.",
-          "insiderName": "Halvorsen Laila Cecilie",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 50000.0,
-          "pricePerShare": 20.0,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "DHT",
-          "issuerName": "DHT Holdings, Inc.",
-          "insiderName": "Eglin Jon Stephen",
-          "title": "Chartering & Operations",
-          "type": "Sale",
-          "shares": 50000.0,
-          "pricePerShare": 19.99,
-          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -40746,6 +40796,36 @@
           "type": "Sale",
           "shares": 2000.0,
           "pricePerShare": 314.66,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "TNXP": {
+      "issuerName": "Tonix Pharmaceuticals Holding Corp.",
+      "trades": [
+        {
+          "ticker": "TNXP",
+          "issuerName": "Tonix Pharmaceuticals Holding Corp.",
+          "insiderName": "BAGGER RICHARD H",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 12.6,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "SCOR": {
+      "issuerName": "COMSCORE, INC.",
+      "trades": [
+        {
+          "ticker": "SCOR",
+          "issuerName": "COMSCORE, INC.",
+          "insiderName": "Kline David",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 7000.0,
+          "pricePerShare": 5.29,
           "transactionDate": "2026-08-20"
         }
       ]
@@ -48227,21 +48307,6 @@
           "shares": 250.0,
           "pricePerShare": 37.803,
           "transactionDate": "2026-08-10"
-        }
-      ]
-    },
-    "ALLT": {
-      "issuerName": "Allot Ltd.",
-      "trades": [
-        {
-          "ticker": "ALLT",
-          "issuerName": "Allot Ltd.",
-          "insiderName": "Groner Gili",
-          "title": "Chief Human Resources Officer",
-          "type": "Sale",
-          "shares": 26666.0,
-          "pricePerShare": 7.8582,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -63047,56 +63112,6 @@
           "shares": 400.0,
           "pricePerShare": 311.8788,
           "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Sheena Jonathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 900.0,
-          "pricePerShare": 313.0672,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Sheena Jonathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 850.0,
-          "pricePerShare": 314.2517,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Sheena Jonathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 600.0,
-          "pricePerShare": 315.3175,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Sheena Jonathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5111.0,
-          "pricePerShare": 316.6118,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Sheena Jonathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 317.965,
-          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -66297,6 +66312,7 @@
       "0001104659-26-099729",
       "0001104659-26-099733",
       "0001104659-26-099798",
+      "0001104659-26-099945",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66787,6 +66803,7 @@
       "0001140361-26-034066",
       "0001140361-26-034070",
       "0001140842-26-000004",
+      "0001145197-26-000172",
       "0001159036-26-000108",
       "0001160077-26-000003",
       "0001160077-26-000008",
@@ -69230,6 +69247,9 @@
       "0001193125-26-361708",
       "0001193125-26-361709",
       "0001193125-26-361711",
+      "0001193125-26-361846",
+      "0001193125-26-361848",
+      "0001193125-26-361850",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70739,6 +70759,7 @@
       "0001331284-26-000007",
       "0001331284-26-000011",
       "0001331284-26-000012",
+      "0001331284-26-000016",
       "0001332349-26-000059",
       "0001333280-26-000016",
       "0001334330-26-000002",
@@ -71964,6 +71985,7 @@
       "0001493152-26-039746",
       "0001493152-26-039749",
       "0001493152-26-039753",
+      "0001493152-26-039784",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -75932,6 +75954,7 @@
       "0001851564-26-000030",
       "0001851564-26-000032",
       "0001851564-26-000034",
+      "0001851666-26-000004",
       "0001851763-26-000010",
       "0001852009-26-000004",
       "0001852010-26-000006",
@@ -78317,6 +78340,7 @@
       "0001976408-26-000747",
       "0001976408-26-000752",
       "0001976408-26-000755",
+      "0001976408-26-000761",
       "0001976672-26-000057",
       "0001976672-26-000059",
       "0001976684-26-000011",
@@ -78677,6 +78701,7 @@
       "0001999371-26-018397",
       "0001999371-26-018402",
       "0001999371-26-018417",
+      "0001999371-26-018494",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0002000276-26-000006",
