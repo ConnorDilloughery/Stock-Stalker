@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T15:02:47.725423+00:00",
+  "generatedAt": "2026-08-24T16:04:40.344797+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -711,6 +711,26 @@
       "type": "Purchase",
       "shares": 7087.0,
       "pricePerShare": 10.13,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "ZIM",
+      "issuerName": "ZIM Integrated Shipping Services Ltd.",
+      "insiderName": "Glickman Eli",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 20748.0,
+      "pricePerShare": 28.2205,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "ZIM",
+      "issuerName": "ZIM Integrated Shipping Services Ltd.",
+      "insiderName": "Glickman Eli",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 233473.0,
+      "pricePerShare": 28.2205,
       "transactionDate": "2026-08-21"
     },
     {
@@ -2861,6 +2881,36 @@
       "type": "Purchase",
       "shares": 2000.0,
       "pricePerShare": 5.6,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 9621.0,
+      "pricePerShare": 116.45,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 3479.0,
+      "pricePerShare": 117.03,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "SFST",
+      "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+      "insiderName": "CUBBAGE LEIGHTON M",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 800.0,
+      "pricePerShare": 63.0183,
       "transactionDate": "2026-08-20"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 104091.0,
       "pricePerShare": 107.96,
       "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "DNTH",
-      "issuerName": "Dianthus Therapeutics, Inc. /DE/",
-      "insiderName": "Garcia Marino",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 21909.0,
-      "pricePerShare": 108.72,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "CHRD",
-      "issuerName": "Chord Energy Corp",
-      "insiderName": "Brooks Douglas E",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 8000.0,
-      "pricePerShare": 133.14,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "BOX",
-      "issuerName": "BOX INC",
-      "insiderName": "Nottebohm Olivia",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 5834.0,
-      "pricePerShare": 32.312,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "CCB",
-      "issuerName": "COASTAL FINANCIAL CORP",
-      "insiderName": "Adams Christopher D",
-      "title": "Director, Executive Chair",
-      "type": "Purchase",
-      "shares": 290.0,
-      "pricePerShare": 45.15,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "MORN",
-      "issuerName": "Morningstar, Inc.",
-      "insiderName": "Mansueto Joseph D",
-      "title": "Director, Executive Chairman, 10% Owner",
-      "type": "Sale",
-      "shares": 166.0,
-      "pricePerShare": 196.1643,
-      "transactionDate": "2026-08-07"
     }
   ],
   "byTicker": {
@@ -33927,6 +33927,31 @@
           "shares": 200.0,
           "pricePerShare": 9.93,
           "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "ZIM": {
+      "issuerName": "ZIM Integrated Shipping Services Ltd.",
+      "trades": [
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Glickman Eli",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 20748.0,
+          "pricePerShare": 28.2205,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Glickman Eli",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 233473.0,
+          "pricePerShare": 28.2205,
+          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -41210,6 +41235,226 @@
         }
       ]
     },
+    "AFL": {
+      "issuerName": "AFLAC INC",
+      "trades": [
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 9621.0,
+          "pricePerShare": 116.45,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 3479.0,
+          "pricePerShare": 117.03,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 9353.0,
+          "pricePerShare": 116.62,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1529.0,
+          "pricePerShare": 117.29,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 980.0,
+          "pricePerShare": 118.59,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 798.0,
+          "pricePerShare": 119.6,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 40.0,
+          "pricePerShare": 120.14,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13610.0,
+          "pricePerShare": 121.91,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 590.0,
+          "pricePerShare": 122.65,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12690.0,
+          "pricePerShare": 121.26,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1210.0,
+          "pricePerShare": 122.11,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13980.0,
+          "pricePerShare": 121.43,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 120.0,
+          "pricePerShare": 121.86,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13000.0,
+          "pricePerShare": 121.09,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "MOSKOWITZ JOSEPH L",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 600.0,
+          "pricePerShare": 124.1,
+          "transactionDate": "2026-08-10"
+        }
+      ]
+    },
+    "SFST": {
+      "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+      "trades": [
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "CUBBAGE LEIGHTON M",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 800.0,
+          "pricePerShare": 63.0183,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "SEAVER R ARTHUR JR",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 63.0,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "SEAVER R ARTHUR JR",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 63.5,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "SEAVER R ARTHUR JR",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 6000.0,
+          "pricePerShare": 64.0,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "SEAVER R ARTHUR JR",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 64.0,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "SEAVER R ARTHUR JR",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 4500.0,
+          "pricePerShare": 63.75,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
     "SSB": {
       "issuerName": "SouthState Bank Corp",
       "trades": [
@@ -41296,16 +41541,6 @@
           "type": "Sale",
           "shares": 104091.0,
           "pricePerShare": 107.96,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "DNTH",
-          "issuerName": "Dianthus Therapeutics, Inc. /DE/",
-          "insiderName": "Garcia Marino",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 21909.0,
-          "pricePerShare": 108.72,
           "transactionDate": "2026-08-07"
         }
       ]
@@ -46807,141 +47042,6 @@
           "shares": 1000.0,
           "pricePerShare": 10.25,
           "transactionDate": "2026-08-19"
-        }
-      ]
-    },
-    "AFL": {
-      "issuerName": "AFLAC INC",
-      "trades": [
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 9353.0,
-          "pricePerShare": 116.62,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1529.0,
-          "pricePerShare": 117.29,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 980.0,
-          "pricePerShare": 118.59,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 798.0,
-          "pricePerShare": 119.6,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 40.0,
-          "pricePerShare": 120.14,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13610.0,
-          "pricePerShare": 121.91,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 590.0,
-          "pricePerShare": 122.65,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12690.0,
-          "pricePerShare": 121.26,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1210.0,
-          "pricePerShare": 122.11,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13980.0,
-          "pricePerShare": 121.43,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 120.0,
-          "pricePerShare": 121.86,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13000.0,
-          "pricePerShare": 121.09,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "MOSKOWITZ JOSEPH L",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 600.0,
-          "pricePerShare": 124.1,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -53867,16 +53967,6 @@
           "shares": 7250.0,
           "pricePerShare": 201.8441,
           "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "MORN",
-          "issuerName": "Morningstar, Inc.",
-          "insiderName": "Mansueto Joseph D",
-          "title": "Director, Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 166.0,
-          "pricePerShare": 196.1643,
-          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -58700,61 +58790,6 @@
         }
       ]
     },
-    "SFST": {
-      "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-      "trades": [
-        {
-          "ticker": "SFST",
-          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-          "insiderName": "SEAVER R ARTHUR JR",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 63.0,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "SFST",
-          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-          "insiderName": "SEAVER R ARTHUR JR",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 63.5,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "SFST",
-          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-          "insiderName": "SEAVER R ARTHUR JR",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 6000.0,
-          "pricePerShare": 64.0,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "SFST",
-          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-          "insiderName": "SEAVER R ARTHUR JR",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 64.0,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "SFST",
-          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-          "insiderName": "SEAVER R ARTHUR JR",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 4500.0,
-          "pricePerShare": 63.75,
-          "transactionDate": "2026-08-12"
-        }
-      ]
-    },
     "CRESY": {
       "issuerName": "CRESUD INC",
       "trades": [
@@ -63394,51 +63429,6 @@
           "transactionDate": "2026-08-07"
         }
       ]
-    },
-    "CHRD": {
-      "issuerName": "Chord Energy Corp",
-      "trades": [
-        {
-          "ticker": "CHRD",
-          "issuerName": "Chord Energy Corp",
-          "insiderName": "Brooks Douglas E",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 8000.0,
-          "pricePerShare": 133.14,
-          "transactionDate": "2026-08-07"
-        }
-      ]
-    },
-    "BOX": {
-      "issuerName": "BOX INC",
-      "trades": [
-        {
-          "ticker": "BOX",
-          "issuerName": "BOX INC",
-          "insiderName": "Nottebohm Olivia",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5834.0,
-          "pricePerShare": 32.312,
-          "transactionDate": "2026-08-07"
-        }
-      ]
-    },
-    "CCB": {
-      "issuerName": "COASTAL FINANCIAL CORP",
-      "trades": [
-        {
-          "ticker": "CCB",
-          "issuerName": "COASTAL FINANCIAL CORP",
-          "insiderName": "Adams Christopher D",
-          "title": "Director, Executive Chair",
-          "type": "Purchase",
-          "shares": 290.0,
-          "pricePerShare": 45.15,
-          "transactionDate": "2026-08-07"
-        }
-      ]
     }
   },
   "_meta": {
@@ -65363,6 +65353,10 @@
       "0000950103-26-012765",
       "0000950103-26-012766",
       "0000950103-26-012776",
+      "0000950103-26-012779",
+      "0000950103-26-012780",
+      "0000950103-26-012781",
+      "0000950103-26-012782",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65664,6 +65658,7 @@
       "0001090009-26-000090",
       "0001090009-26-000092",
       "0001090009-26-000094",
+      "0001090009-26-000096",
       "0001090012-26-000108",
       "0001090155-26-000004",
       "0001090355-26-000007",
@@ -66373,6 +66368,7 @@
       "0001104659-26-100036",
       "0001104659-26-100039",
       "0001104659-26-100152",
+      "0001104659-26-100190",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66867,6 +66863,9 @@
       "0001140361-26-034120",
       "0001140361-26-034122",
       "0001140361-26-034124",
+      "0001140361-26-034131",
+      "0001140361-26-034134",
+      "0001140361-26-034136",
       "0001140842-26-000004",
       "0001145197-26-000172",
       "0001159036-26-000108",
@@ -69369,6 +69368,68 @@
       "0001193125-26-362310",
       "0001193125-26-362311",
       "0001193125-26-362313",
+      "0001193125-26-362578",
+      "0001193125-26-362579",
+      "0001193125-26-362583",
+      "0001193125-26-362584",
+      "0001193125-26-362585",
+      "0001193125-26-362586",
+      "0001193125-26-362587",
+      "0001193125-26-362588",
+      "0001193125-26-362589",
+      "0001193125-26-362590",
+      "0001193125-26-362591",
+      "0001193125-26-362592",
+      "0001193125-26-362593",
+      "0001193125-26-362594",
+      "0001193125-26-362595",
+      "0001193125-26-362596",
+      "0001193125-26-362597",
+      "0001193125-26-362598",
+      "0001193125-26-362599",
+      "0001193125-26-362600",
+      "0001193125-26-362601",
+      "0001193125-26-362602",
+      "0001193125-26-362603",
+      "0001193125-26-362604",
+      "0001193125-26-362605",
+      "0001193125-26-362606",
+      "0001193125-26-362607",
+      "0001193125-26-362608",
+      "0001193125-26-362609",
+      "0001193125-26-362610",
+      "0001193125-26-362611",
+      "0001193125-26-362612",
+      "0001193125-26-362613",
+      "0001193125-26-362614",
+      "0001193125-26-362615",
+      "0001193125-26-362616",
+      "0001193125-26-362617",
+      "0001193125-26-362618",
+      "0001193125-26-362619",
+      "0001193125-26-362620",
+      "0001193125-26-362621",
+      "0001193125-26-362622",
+      "0001193125-26-362624",
+      "0001193125-26-362625",
+      "0001193125-26-362626",
+      "0001193125-26-362627",
+      "0001193125-26-362628",
+      "0001193125-26-362629",
+      "0001193125-26-362630",
+      "0001193125-26-362631",
+      "0001193125-26-362632",
+      "0001193125-26-362633",
+      "0001193125-26-362634",
+      "0001193125-26-362635",
+      "0001193125-26-362636",
+      "0001193125-26-362637",
+      "0001193125-26-362638",
+      "0001193125-26-362639",
+      "0001193125-26-362640",
+      "0001193125-26-362642",
+      "0001193125-26-362643",
+      "0001193125-26-362644",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70342,6 +70403,8 @@
       "0001213900-26-092833",
       "0001213900-26-092834",
       "0001213900-26-092849",
+      "0001213900-26-092898",
+      "0001213900-26-092903",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -70523,6 +70586,7 @@
       "0001214659-26-010748",
       "0001214659-26-010752",
       "0001214659-26-010755",
+      "0001214659-26-010758",
       "0001214993-26-000004",
       "0001216055-26-000006",
       "0001216055-26-000007",
@@ -76060,6 +76124,11 @@
       "0001839882-26-041139",
       "0001839882-26-041141",
       "0001839882-26-041143",
+      "0001839882-26-041157",
+      "0001839882-26-041158",
+      "0001839882-26-041159",
+      "0001839882-26-041160",
+      "0001839882-26-041161",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -78363,6 +78432,7 @@
       "0001918704-26-024544",
       "0001918704-26-024545",
       "0001918704-26-024546",
+      "0001918704-26-024552",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -78382,6 +78452,7 @@
       "0001924953-26-000013",
       "0001925062-26-000018",
       "0001926221-26-000006",
+      "0001928584-26-000008",
       "0001929185-26-000012",
       "0001929980-26-000436",
       "0001930862-26-000011",
@@ -78518,6 +78589,7 @@
       "0001976408-26-000752",
       "0001976408-26-000755",
       "0001976408-26-000761",
+      "0001976408-26-000763",
       "0001976672-26-000057",
       "0001976672-26-000059",
       "0001976684-26-000011",
@@ -78566,6 +78638,11 @@
       "0001992104-26-000314",
       "0001992104-26-000315",
       "0001992104-26-000316",
+      "0001992104-26-000328",
+      "0001992104-26-000329",
+      "0001992104-26-000330",
+      "0001992104-26-000331",
+      "0001992104-26-000332",
       "0001992394-26-000011",
       "0001993636-26-000009",
       "0001994334-26-000010",
@@ -78883,6 +78960,7 @@
       "0001999371-26-018501",
       "0001999371-26-018503",
       "0001999371-26-018524",
+      "0001999371-26-018529",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0002000276-26-000006",
