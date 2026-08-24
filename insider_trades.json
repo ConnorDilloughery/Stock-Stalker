@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T17:02:42.464588+00:00",
+  "generatedAt": "2026-08-24T18:04:38.471965+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -21,6 +21,16 @@
       "type": "Purchase",
       "shares": 720000.0,
       "pricePerShare": 14.29,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "EXOD",
+      "issuerName": "Exodus Movement, Inc.",
+      "insiderName": "Olivera Matias",
+      "title": "Chief Technology Officer",
+      "type": "Sale",
+      "shares": 2835.0,
+      "pricePerShare": 7.68,
       "transactionDate": "2026-08-24"
     },
     {
@@ -741,6 +751,26 @@
       "type": "Sale",
       "shares": 9487.0,
       "pricePerShare": 135.15,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "EXOD",
+      "issuerName": "Exodus Movement, Inc.",
+      "insiderName": "Olivera Matias",
+      "title": "Chief Technology Officer",
+      "type": "Sale",
+      "shares": 2835.0,
+      "pricePerShare": 7.81,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 2.87,
       "transactionDate": "2026-08-21"
     },
     {
@@ -2971,6 +3001,26 @@
       "type": "Purchase",
       "shares": 1900.0,
       "pricePerShare": 21.96,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "PGR",
+      "issuerName": "PROGRESSIVE CORP/OH/",
+      "insiderName": "Broz Steven",
+      "title": "Chief Information Officer",
+      "type": "Sale",
+      "shares": 1225.0,
+      "pricePerShare": 219.4,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "GFS",
+      "issuerName": "GLOBALFOUNDRIES Inc.",
+      "insiderName": "Azar Samak L",
+      "title": "Chief Legal Officer",
+      "type": "Sale",
+      "shares": 335.0,
+      "pricePerShare": 48.38,
       "transactionDate": "2026-08-20"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 3000.0,
       "pricePerShare": 34.08,
       "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "SOPH",
-      "issuerName": "SOPHiA GENETICS SA",
-      "insiderName": "Xu Zhenyu",
-      "title": "Chief Scientific Officer",
-      "type": "Sale",
-      "shares": 7000.0,
-      "pricePerShare": 7.0217,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "SOPH",
-      "issuerName": "SOPHiA GENETICS SA",
-      "insiderName": "Xu Zhenyu",
-      "title": "Chief Scientific Officer",
-      "type": "Sale",
-      "shares": 10000.0,
-      "pricePerShare": 7.4759,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "AGYS",
-      "issuerName": "AGILYSYS INC",
-      "insiderName": "SRINIVASAN RAMESH",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 25000.0,
-      "pricePerShare": 108.15,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "PEBK",
-      "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
-      "insiderName": "Abernethy Robert C. JR",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 950.0,
-      "pricePerShare": 42.3278,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "PWP",
-      "issuerName": "Perella Weinberg Partners",
-      "insiderName": "Bednar Andrew",
-      "title": "Director, Chairman and CEO",
-      "type": "Sale",
-      "shares": 77753.0,
-      "pricePerShare": 17.41,
-      "transactionDate": "2026-08-07"
     }
   ],
   "byTicker": {
@@ -30030,6 +30030,61 @@
         }
       ]
     },
+    "EXOD": {
+      "issuerName": "Exodus Movement, Inc.",
+      "trades": [
+        {
+          "ticker": "EXOD",
+          "issuerName": "Exodus Movement, Inc.",
+          "insiderName": "Olivera Matias",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 2835.0,
+          "pricePerShare": 7.68,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "EXOD",
+          "issuerName": "Exodus Movement, Inc.",
+          "insiderName": "Olivera Matias",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 2835.0,
+          "pricePerShare": 7.81,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "EXOD",
+          "issuerName": "Exodus Movement, Inc.",
+          "insiderName": "Olivera Matias",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 2835.0,
+          "pricePerShare": 7.73,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "EXOD",
+          "issuerName": "Exodus Movement, Inc.",
+          "insiderName": "Olivera Matias",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 2835.0,
+          "pricePerShare": 7.0319,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "EXOD",
+          "issuerName": "Exodus Movement, Inc.",
+          "insiderName": "Gernetzke James",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 4894.0,
+          "pricePerShare": 6.91,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
     "RCG": {
       "issuerName": "RENN Fund, Inc.",
       "trades": [
@@ -30040,6 +30095,16 @@
           "title": "Vice-President",
           "type": "Purchase",
           "shares": 1000.0,
+          "pricePerShare": 2.87,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
           "pricePerShare": 2.87,
           "transactionDate": "2026-08-21"
         },
@@ -30227,26 +30292,6 @@
           "shares": 10000.0,
           "pricePerShare": 7.9427,
           "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "SOPH",
-          "issuerName": "SOPHiA GENETICS SA",
-          "insiderName": "Xu Zhenyu",
-          "title": "Chief Scientific Officer",
-          "type": "Sale",
-          "shares": 7000.0,
-          "pricePerShare": 7.0217,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "SOPH",
-          "issuerName": "SOPHiA GENETICS SA",
-          "insiderName": "Xu Zhenyu",
-          "title": "Chief Scientific Officer",
-          "type": "Sale",
-          "shares": 10000.0,
-          "pricePerShare": 7.4759,
-          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -34017,41 +34062,6 @@
           "shares": 1500.0,
           "pricePerShare": 73.025,
           "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "EXOD": {
-      "issuerName": "Exodus Movement, Inc.",
-      "trades": [
-        {
-          "ticker": "EXOD",
-          "issuerName": "Exodus Movement, Inc.",
-          "insiderName": "Olivera Matias",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 2835.0,
-          "pricePerShare": 7.73,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "EXOD",
-          "issuerName": "Exodus Movement, Inc.",
-          "insiderName": "Olivera Matias",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 2835.0,
-          "pricePerShare": 7.0319,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "EXOD",
-          "issuerName": "Exodus Movement, Inc.",
-          "insiderName": "Gernetzke James",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 4894.0,
-          "pricePerShare": 6.91,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -41620,6 +41630,66 @@
         }
       ]
     },
+    "PGR": {
+      "issuerName": "PROGRESSIVE CORP/OH/",
+      "trades": [
+        {
+          "ticker": "PGR",
+          "issuerName": "PROGRESSIVE CORP/OH/",
+          "insiderName": "Broz Steven",
+          "title": "Chief Information Officer",
+          "type": "Sale",
+          "shares": 1225.0,
+          "pricePerShare": 219.4,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "PGR",
+          "issuerName": "PROGRESSIVE CORP/OH/",
+          "insiderName": "Niederst Lori A",
+          "title": "Chief Personal Lines Officer",
+          "type": "Sale",
+          "shares": 7339.0,
+          "pricePerShare": 209.29,
+          "transactionDate": "2026-08-13"
+        }
+      ]
+    },
+    "GFS": {
+      "issuerName": "GLOBALFOUNDRIES Inc.",
+      "trades": [
+        {
+          "ticker": "GFS",
+          "issuerName": "GLOBALFOUNDRIES Inc.",
+          "insiderName": "Azar Samak L",
+          "title": "Chief Legal Officer",
+          "type": "Sale",
+          "shares": 335.0,
+          "pricePerShare": 48.38,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "GFS",
+          "issuerName": "GLOBALFOUNDRIES Inc.",
+          "insiderName": "Raman Pradheepa",
+          "title": "Chief People Officer",
+          "type": "Sale",
+          "shares": 6760.0,
+          "pricePerShare": 51.12,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "GFS",
+          "issuerName": "GLOBALFOUNDRIES Inc.",
+          "insiderName": "Azar Samak L",
+          "title": "Chief Legal Officer",
+          "type": "Sale",
+          "shares": 335.0,
+          "pricePerShare": 52.62,
+          "transactionDate": "2026-08-13"
+        }
+      ]
+    },
     "SSB": {
       "issuerName": "SouthState Bank Corp",
       "trades": [
@@ -49177,16 +49247,6 @@
           "shares": 8400.0,
           "pricePerShare": 114.06,
           "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "AGYS",
-          "issuerName": "AGILYSYS INC",
-          "insiderName": "SRINIVASAN RAMESH",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 25000.0,
-          "pricePerShare": 108.15,
-          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -49707,31 +49767,6 @@
           "shares": 100.0,
           "pricePerShare": 7.355,
           "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "GFS": {
-      "issuerName": "GLOBALFOUNDRIES Inc.",
-      "trades": [
-        {
-          "ticker": "GFS",
-          "issuerName": "GLOBALFOUNDRIES Inc.",
-          "insiderName": "Raman Pradheepa",
-          "title": "Chief People Officer",
-          "type": "Sale",
-          "shares": 6760.0,
-          "pricePerShare": 51.12,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "GFS",
-          "issuerName": "GLOBALFOUNDRIES Inc.",
-          "insiderName": "Azar Samak L",
-          "title": "Chief Legal Officer",
-          "type": "Sale",
-          "shares": 335.0,
-          "pricePerShare": 52.62,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -57910,21 +57945,6 @@
         }
       ]
     },
-    "PGR": {
-      "issuerName": "PROGRESSIVE CORP/OH/",
-      "trades": [
-        {
-          "ticker": "PGR",
-          "issuerName": "PROGRESSIVE CORP/OH/",
-          "insiderName": "Niederst Lori A",
-          "title": "Chief Personal Lines Officer",
-          "type": "Sale",
-          "shares": 7339.0,
-          "pricePerShare": 209.29,
-          "transactionDate": "2026-08-13"
-        }
-      ]
-    },
     "SYF": {
       "issuerName": "Synchrony Financial",
       "trades": [
@@ -63404,36 +63424,6 @@
           "transactionDate": "2026-08-07"
         }
       ]
-    },
-    "PEBK": {
-      "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
-      "trades": [
-        {
-          "ticker": "PEBK",
-          "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
-          "insiderName": "Abernethy Robert C. JR",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 950.0,
-          "pricePerShare": 42.3278,
-          "transactionDate": "2026-08-07"
-        }
-      ]
-    },
-    "PWP": {
-      "issuerName": "Perella Weinberg Partners",
-      "trades": [
-        {
-          "ticker": "PWP",
-          "issuerName": "Perella Weinberg Partners",
-          "insiderName": "Bednar Andrew",
-          "title": "Director, Chairman and CEO",
-          "type": "Sale",
-          "shares": 77753.0,
-          "pricePerShare": 17.41,
-          "transactionDate": "2026-08-07"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63717,6 +63707,7 @@
       "0000080661-26-000298",
       "0000080661-26-000306",
       "0000080661-26-000312",
+      "0000080661-26-000317",
       "0000081027-26-000003",
       "0000081027-26-000009",
       "0000081061-26-000091",
@@ -65370,6 +65361,9 @@
       "0000950103-26-012784",
       "0000950103-26-012785",
       "0000950103-26-012786",
+      "0000950103-26-012788",
+      "0000950103-26-012789",
+      "0000950103-26-012790",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66881,6 +66875,10 @@
       "0001140361-26-034136",
       "0001140361-26-034144",
       "0001140361-26-034146",
+      "0001140361-26-034152",
+      "0001140361-26-034155",
+      "0001140361-26-034162",
+      "0001140361-26-034165",
       "0001140842-26-000004",
       "0001145197-26-000172",
       "0001159036-26-000108",
@@ -69463,6 +69461,39 @@
       "0001193125-26-362746",
       "0001193125-26-362749",
       "0001193125-26-362752",
+      "0001193125-26-362816",
+      "0001193125-26-362820",
+      "0001193125-26-362821",
+      "0001193125-26-362822",
+      "0001193125-26-362823",
+      "0001193125-26-362824",
+      "0001193125-26-362825",
+      "0001193125-26-362826",
+      "0001193125-26-362827",
+      "0001193125-26-362828",
+      "0001193125-26-362861",
+      "0001193125-26-362862",
+      "0001193125-26-362863",
+      "0001193125-26-362864",
+      "0001193125-26-362865",
+      "0001193125-26-362866",
+      "0001193125-26-362867",
+      "0001193125-26-362868",
+      "0001193125-26-362869",
+      "0001193125-26-362882",
+      "0001193125-26-362885",
+      "0001193125-26-362932",
+      "0001193125-26-362933",
+      "0001193125-26-362934",
+      "0001193125-26-362935",
+      "0001193125-26-362936",
+      "0001193125-26-362937",
+      "0001193125-26-362938",
+      "0001193125-26-362939",
+      "0001193125-26-362940",
+      "0001193125-26-362941",
+      "0001193125-26-362942",
+      "0001193125-26-362943",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70446,6 +70477,7 @@
       "0001213900-26-092924",
       "0001213900-26-092927",
       "0001213900-26-092930",
+      "0001213900-26-092950",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -70792,6 +70824,14 @@
       "0001225208-26-007262",
       "0001225208-26-007263",
       "0001225208-26-007264",
+      "0001225208-26-007295",
+      "0001225208-26-007297",
+      "0001225208-26-007298",
+      "0001225208-26-007299",
+      "0001225208-26-007300",
+      "0001225208-26-007301",
+      "0001225208-26-007302",
+      "0001225208-26-007303",
       "0001225481-26-000006",
       "0001227384-26-000017",
       "0001227654-26-000042",
@@ -71568,6 +71608,8 @@
       "0001437749-26-028758",
       "0001437749-26-028761",
       "0001437749-26-028768",
+      "0001437749-26-028787",
+      "0001437749-26-028788",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -72225,6 +72267,9 @@
       "0001493152-26-039753",
       "0001493152-26-039784",
       "0001493152-26-039791",
+      "0001493152-26-039816",
+      "0001493152-26-039827",
+      "0001493152-26-039831",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -73405,6 +73450,7 @@
       "0001628280-26-058506",
       "0001628280-26-058507",
       "0001628280-26-058528",
+      "0001628280-26-058580",
       "0001629079-26-000002",
       "0001629292-26-000002",
       "0001629911-26-000006",
@@ -73547,6 +73593,8 @@
       "0001655589-26-001151",
       "0001655589-26-001154",
       "0001655589-26-001159",
+      "0001655589-26-001174",
+      "0001655589-26-001175",
       "0001656109-26-000006",
       "0001656846-26-000007",
       "0001657787-26-000002",
@@ -73743,6 +73791,7 @@
       "0001707073-26-000006",
       "0001707744-26-000019",
       "0001708062-26-000010",
+      "0001709048-26-000221",
       "0001709352-26-000008",
       "0001709430-26-000008",
       "0001709934-26-000015",
@@ -76184,6 +76233,7 @@
       "0001839882-26-041173",
       "0001839882-26-041174",
       "0001839882-26-041175",
+      "0001839882-26-041182",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -78490,6 +78540,14 @@
       "0001918704-26-024552",
       "0001918704-26-024553",
       "0001918704-26-024554",
+      "0001918704-26-024556",
+      "0001918704-26-024559",
+      "0001918704-26-024560",
+      "0001918704-26-024561",
+      "0001918704-26-024562",
+      "0001918704-26-024563",
+      "0001918704-26-024564",
+      "0001918704-26-024565",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -79022,6 +79080,7 @@
       "0001999371-26-018529",
       "0001999371-26-018533",
       "0001999371-26-018536",
+      "0001999371-26-018542",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0002000276-26-000006",
@@ -79237,6 +79296,7 @@
       "0002058897-26-000258",
       "0002058897-26-000260",
       "0002058897-26-000267",
+      "0002058897-26-000290",
       "0002059222-26-000003",
       "0002059696-26-000006",
       "0002059795-26-000011",
@@ -79304,6 +79364,11 @@
       "0002071844-26-001030",
       "0002071844-26-001033",
       "0002071844-26-001116",
+      "0002071844-26-001120",
+      "0002071844-26-001121",
+      "0002071844-26-001122",
+      "0002071844-26-001123",
+      "0002071844-26-001124",
       "0002071948-26-000005",
       "0002073587-26-000026",
       "0002073590-26-000026",
