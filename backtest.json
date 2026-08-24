@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T02:04:57.819042+00:00",
+  "generatedAt": "2026-08-24T02:01:14.245288+00:00",
   "benchmark": "SPY",
   "horizons": [
     7,
@@ -9,7 +9,7 @@
     365
   ],
   "source": "Undercurrent's own signals (value / radar / early-mover), tracked forward vs SPY from each signal's first day \u2014 forward-only, not retroactive.",
-  "count": 1128,
+  "count": 1153,
   "entries": [
     {
       "ticker": "TCOM",
@@ -16911,7 +16911,13 @@
       "currentPrice": 58.22,
       "currentDate": "2026-08-21",
       "returnPct": 5.32,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 5.32,
+          "spyRet": -1.37,
+          "excess": 6.69
+        }
+      }
     },
     {
       "ticker": "LRN",
@@ -16924,7 +16930,13 @@
       "currentPrice": 84.36,
       "currentDate": "2026-08-21",
       "returnPct": 1.2,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 1.2,
+          "spyRet": -1.37,
+          "excess": 2.57
+        }
+      }
     },
     {
       "ticker": "KGC",
@@ -16937,7 +16949,13 @@
       "currentPrice": 32.76,
       "currentDate": "2026-08-21",
       "returnPct": 19.96,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 19.96,
+          "spyRet": -1.37,
+          "excess": 21.33
+        }
+      }
     },
     {
       "ticker": "IAG",
@@ -16950,7 +16968,13 @@
       "currentPrice": 21.14,
       "currentDate": "2026-08-21",
       "returnPct": 15.52,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 15.52,
+          "spyRet": -1.37,
+          "excess": 16.89
+        }
+      }
     },
     {
       "ticker": "LFVN",
@@ -16963,7 +16987,13 @@
       "currentPrice": 6.69,
       "currentDate": "2026-08-21",
       "returnPct": 1.83,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 1.83,
+          "spyRet": -1.37,
+          "excess": 3.2
+        }
+      }
     },
     {
       "ticker": "MNY",
@@ -16976,7 +17006,13 @@
       "currentPrice": 0.89,
       "currentDate": "2026-08-21",
       "returnPct": -2.2,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -2.2,
+          "spyRet": -1.37,
+          "excess": -0.83
+        }
+      }
     },
     {
       "ticker": "HCKT",
@@ -16989,7 +17025,13 @@
       "currentPrice": 11.08,
       "currentDate": "2026-08-21",
       "returnPct": 3.94,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 3.94,
+          "spyRet": -1.37,
+          "excess": 5.31
+        }
+      }
     },
     {
       "ticker": "IDR",
@@ -17002,7 +17044,13 @@
       "currentPrice": 32.67,
       "currentDate": "2026-08-21",
       "returnPct": 2.45,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 2.45,
+          "spyRet": -1.37,
+          "excess": 3.82
+        }
+      }
     },
     {
       "ticker": "HDSN",
@@ -17015,7 +17063,13 @@
       "currentPrice": 5.63,
       "currentDate": "2026-08-21",
       "returnPct": -0.71,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -0.71,
+          "spyRet": -1.37,
+          "excess": 0.66
+        }
+      }
     },
     {
       "ticker": "JBI",
@@ -17028,7 +17082,13 @@
       "currentPrice": 5.11,
       "currentDate": "2026-08-21",
       "returnPct": 0.0,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 0.0,
+          "spyRet": -1.37,
+          "excess": 1.37
+        }
+      }
     },
     {
       "ticker": "INTU",
@@ -17041,7 +17101,13 @@
       "currentPrice": 367.0,
       "currentDate": "2026-08-21",
       "returnPct": 6.17,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 6.17,
+          "spyRet": -1.37,
+          "excess": 7.54
+        }
+      }
     },
     {
       "ticker": "USEA",
@@ -17054,7 +17120,13 @@
       "currentPrice": 2.765,
       "currentDate": "2026-08-21",
       "returnPct": 2.41,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 2.41,
+          "spyRet": -1.37,
+          "excess": 3.78
+        }
+      }
     },
     {
       "ticker": "GRX",
@@ -17067,7 +17139,13 @@
       "currentPrice": 10.14,
       "currentDate": "2026-08-21",
       "returnPct": 2.22,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 2.22,
+          "spyRet": -1.37,
+          "excess": 3.59
+        }
+      }
     },
     {
       "ticker": "CCNE",
@@ -17080,7 +17158,13 @@
       "currentPrice": 33.84,
       "currentDate": "2026-08-21",
       "returnPct": -3.15,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -3.15,
+          "spyRet": -1.37,
+          "excess": -1.78
+        }
+      }
     },
     {
       "ticker": "ATLO",
@@ -17093,7 +17177,13 @@
       "currentPrice": 31.76,
       "currentDate": "2026-08-21",
       "returnPct": 0.51,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 0.51,
+          "spyRet": -1.37,
+          "excess": 1.88
+        }
+      }
     },
     {
       "ticker": "LARK",
@@ -17106,7 +17196,13 @@
       "currentPrice": 32.21,
       "currentDate": "2026-08-21",
       "returnPct": 0.06,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": 0.06,
+          "spyRet": -1.37,
+          "excess": 1.43
+        }
+      }
     },
     {
       "ticker": "FDBC",
@@ -17119,7 +17215,13 @@
       "currentPrice": 53.63,
       "currentDate": "2026-08-21",
       "returnPct": -3.79,
-      "horizons": {}
+      "horizons": {
+        "7": {
+          "stockRet": -3.79,
+          "spyRet": -1.37,
+          "excess": -2.42
+        }
+      }
     },
     {
       "ticker": "CMCL",
@@ -20240,16 +20342,341 @@
       "currentDate": "2026-08-21",
       "returnPct": 0.0,
       "horizons": {}
+    },
+    {
+      "ticker": "CENX",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 43.92,
+      "spyEntry": 765.72,
+      "score": 99,
+      "detail": "BUY",
+      "currentPrice": 43.92,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "AMSC",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 30.01,
+      "spyEntry": 765.72,
+      "score": 96,
+      "detail": "BUY",
+      "currentPrice": 30.01,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "AA",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 51.85,
+      "spyEntry": 765.72,
+      "score": 96,
+      "detail": "BUY",
+      "currentPrice": 51.85,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "AGI",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 37.86,
+      "spyEntry": 765.72,
+      "score": 95,
+      "detail": "BUY",
+      "currentPrice": 37.86,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "ADMA",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 9.84,
+      "spyEntry": 765.72,
+      "score": 95,
+      "detail": "BUY",
+      "currentPrice": 9.84,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "BBW",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 38.89,
+      "spyEntry": 765.72,
+      "score": 92,
+      "detail": "BUY",
+      "currentPrice": 38.89,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "AEM",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 216.06,
+      "spyEntry": 765.72,
+      "score": 92,
+      "detail": "BUY",
+      "currentPrice": 216.06,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "AMTD",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 0.8035,
+      "spyEntry": 765.72,
+      "score": 90,
+      "detail": "BUY",
+      "currentPrice": 0.8035,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "BODI",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 6.37,
+      "spyEntry": 765.72,
+      "score": 89,
+      "detail": "BUY",
+      "currentPrice": 6.37,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "DCBO",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 24.69,
+      "spyEntry": 765.72,
+      "score": 84,
+      "detail": "BUY",
+      "currentPrice": 24.69,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "AMSF",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 26.01,
+      "spyEntry": 765.72,
+      "score": 84,
+      "detail": "BUY",
+      "currentPrice": 26.01,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "CCB",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 46.275,
+      "spyEntry": 765.72,
+      "score": 82,
+      "detail": "BUY",
+      "currentPrice": 46.275,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "AISP",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 2.15,
+      "spyEntry": 765.72,
+      "score": 80,
+      "detail": "BUY",
+      "currentPrice": 2.15,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "DUOL",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 146.13,
+      "spyEntry": 765.72,
+      "score": 79,
+      "detail": "ACCUMULATE",
+      "currentPrice": 146.13,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "APP",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 305.77,
+      "spyEntry": 765.72,
+      "score": 71,
+      "detail": "ACCUMULATE",
+      "currentPrice": 305.77,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "DWSN",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 3.41,
+      "spyEntry": 765.72,
+      "score": 71,
+      "detail": "ACCUMULATE",
+      "currentPrice": 3.41,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "CDNL",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 43.5,
+      "spyEntry": 765.72,
+      "score": 71,
+      "detail": "ACCUMULATE",
+      "currentPrice": 43.5,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "BSX",
+      "signalType": "value",
+      "entryDate": "2026-08-24",
+      "entryPrice": 50.37,
+      "spyEntry": 765.72,
+      "score": 70,
+      "detail": "ACCUMULATE",
+      "currentPrice": 50.37,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "CDNL",
+      "signalType": "radar",
+      "entryDate": "2026-08-24",
+      "entryPrice": 43.5,
+      "spyEntry": 765.72,
+      "score": 60.1,
+      "detail": "2 signals",
+      "currentPrice": 43.5,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "CCB",
+      "signalType": "radar",
+      "entryDate": "2026-08-24",
+      "entryPrice": 46.275,
+      "spyEntry": 765.72,
+      "score": 47.8,
+      "detail": "2 signals",
+      "currentPrice": 46.275,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "BAER",
+      "signalType": "radar",
+      "entryDate": "2026-08-24",
+      "entryPrice": 1.22,
+      "spyEntry": 765.72,
+      "score": 35.9,
+      "detail": "2 signals",
+      "currentPrice": 1.22,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "RMBI",
+      "signalType": "radar",
+      "entryDate": "2026-08-24",
+      "entryPrice": 15.83,
+      "spyEntry": 765.72,
+      "score": 31.6,
+      "detail": "2 signals",
+      "currentPrice": 15.83,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "CTNM",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-24",
+      "entryPrice": 17.19,
+      "spyEntry": 765.72,
+      "score": 65.0,
+      "detail": "5 signals",
+      "currentPrice": 17.19,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "BDSX",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-24",
+      "entryPrice": 26.63,
+      "spyEntry": 765.72,
+      "score": 65.0,
+      "detail": "5 signals",
+      "currentPrice": 26.63,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
+    },
+    {
+      "ticker": "SAIC",
+      "signalType": "earlymover",
+      "entryDate": "2026-08-24",
+      "entryPrice": 128.04,
+      "spyEntry": 765.72,
+      "score": 63.0,
+      "detail": "5 signals",
+      "currentPrice": 128.04,
+      "currentDate": "2026-08-21",
+      "returnPct": 0.0,
+      "horizons": {}
     }
   ],
   "stats": {
     "value": {
       "7": {
-        "count": 459,
-        "beatRate": 59.9,
-        "avgExcess": 2.71,
-        "avgReturn": 3.97,
-        "avgSpy": 1.26
+        "count": 470,
+        "beatRate": 60.6,
+        "avgExcess": 2.79,
+        "avgReturn": 3.99,
+        "avgSpy": 1.2
       },
       "30": {
         "count": 73,
@@ -20261,51 +20688,73 @@
     },
     "radar": {
       "7": {
-        "count": 151,
-        "beatRate": 51.7,
-        "avgExcess": 0.49,
-        "avgReturn": 1.57,
-        "avgSpy": 1.08
+        "count": 156,
+        "beatRate": 52.6,
+        "avgExcess": 0.53,
+        "avgReturn": 1.53,
+        "avgSpy": 1.0
       }
     },
     "earlymover": {
       "7": {
-        "count": 257,
-        "beatRate": 42.0,
+        "count": 258,
+        "beatRate": 41.9,
         "avgExcess": -1.57,
-        "avgReturn": -0.98,
+        "avgReturn": -0.99,
         "avgSpy": 0.59
       }
     }
   },
   "_meta": {
     "activeKeys": [
+      "AA|value",
       "ABCL|radar",
+      "ADMA|value",
+      "AEM|value",
+      "AGI|value",
+      "AISP|value",
       "AMBP|earlymover",
+      "AMSC|value",
+      "AMSF|value",
+      "AMTD|value",
       "AMZN|radar",
       "ANET|radar",
       "APH|radar",
+      "APP|value",
       "ARLP|radar",
       "ASIC|earlymover",
       "ATCH|value",
       "ATLO|radar",
+      "BAER|radar",
+      "BBW|value",
+      "BDSX|earlymover",
       "BIIB|earlymover",
       "BMY|earlymover",
+      "BODI|value",
       "BRBR|value",
       "BRIA|value",
+      "BSX|value",
       "BYRN|value",
       "CB|radar",
+      "CCB|radar",
+      "CCB|value",
+      "CDNL|radar",
+      "CDNL|value",
+      "CENX|value",
       "CLDT|earlymover",
       "CODI|radar",
       "CON|earlymover",
+      "CTNM|earlymover",
       "CXW|earlymover",
       "CYTK|radar",
+      "DCBO|value",
       "DE|earlymover",
       "DGICA|radar",
       "DKL|radar",
       "DK|earlymover",
       "DUK|radar",
-      "ECOR|radar",
+      "DUOL|value",
+      "DWSN|value",
       "ECO|earlymover",
       "ELA|value",
       "ENHA|radar",
@@ -20313,7 +20762,6 @@
       "ERII|value",
       "ETV|earlymover",
       "ET|earlymover",
-      "FCNCA|radar",
       "FTLF|radar",
       "FTLF|value",
       "FURY|value",
@@ -20330,7 +20778,6 @@
       "INSP|value",
       "INTU|value",
       "JBI|value",
-      "JNJ|earlymover",
       "KGC|value",
       "KRP|earlymover",
       "LB|earlymover",
@@ -20373,18 +20820,18 @@
       "PANW|radar",
       "PEGA|value",
       "PGY|value",
-      "PHVS|earlymover",
       "PLAB|value",
       "PLNT|value",
       "PSIX|value",
       "RHI|earlymover",
+      "RMBI|radar",
       "ROLR|value",
       "ROOT|value",
       "RSSS|value",
+      "SAIC|earlymover",
       "SCCO|earlymover",
       "SCZM|value",
       "SFM|value",
-      "SJM|earlymover",
       "SMPL|value",
       "SPIR|value",
       "SXC|earlymover",
@@ -20393,7 +20840,6 @@
       "TGLS|value",
       "TOUR|value",
       "TRAK|value",
-      "TRST|radar",
       "TSSI|value",
       "TTD|value",
       "TXO|radar",
@@ -20403,7 +20849,6 @@
       "UPWK|value",
       "UWMC|value",
       "VFF|value",
-      "VLTO|radar",
       "WDC|value",
       "WDH|value",
       "WLDN|value",
