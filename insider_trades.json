@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T16:04:40.344797+00:00",
+  "generatedAt": "2026-08-24T17:02:42.464588+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -731,6 +731,16 @@
       "type": "Sale",
       "shares": 233473.0,
       "pricePerShare": 28.2205,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "COP",
+      "issuerName": "CONOCOPHILLIPS",
+      "insiderName": "LUNDQUIST ANDREW D",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 9487.0,
+      "pricePerShare": 135.15,
       "transactionDate": "2026-08-21"
     },
     {
@@ -2911,6 +2921,56 @@
       "type": "Sale",
       "shares": 800.0,
       "pricePerShare": 63.0183,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "RELL",
+      "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+      "insiderName": "Halverson Kenneth",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1500.0,
+      "pricePerShare": 17.4696,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "RVSB",
+      "issuerName": "RIVERVIEW BANCORP INC",
+      "insiderName": "Benke Robert",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 5.05,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "insiderName": "Whaley Susan Street",
+      "title": "Chief Legal Officer & Secy",
+      "type": "Sale",
+      "shares": 2238.0,
+      "pricePerShare": 143.79,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "insiderName": "Pritchard Marc S.",
+      "title": "Chief Brand Officer",
+      "type": "Sale",
+      "shares": 4030.0,
+      "pricePerShare": 143.79,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "MATW",
+      "issuerName": "MATTHEWS INTERNATIONAL CORP",
+      "insiderName": "Nauman J Michael",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1900.0,
+      "pricePerShare": 21.96,
       "transactionDate": "2026-08-20"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 77753.0,
       "pricePerShare": 17.41,
       "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "DNTH",
-      "issuerName": "Dianthus Therapeutics, Inc. /DE/",
-      "insiderName": "Garcia Marino",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 10384.0,
-      "pricePerShare": 107.49,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "DNTH",
-      "issuerName": "Dianthus Therapeutics, Inc. /DE/",
-      "insiderName": "Garcia Marino",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 23907.0,
-      "pricePerShare": 108.05,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "DNTH",
-      "issuerName": "Dianthus Therapeutics, Inc. /DE/",
-      "insiderName": "Garcia Marino",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2373.0,
-      "pricePerShare": 109.1,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "DNTH",
-      "issuerName": "Dianthus Therapeutics, Inc. /DE/",
-      "insiderName": "Garcia Marino",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2536.0,
-      "pricePerShare": 110.02,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "DNTH",
-      "issuerName": "Dianthus Therapeutics, Inc. /DE/",
-      "insiderName": "Garcia Marino",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 800.0,
-      "pricePerShare": 110.76,
-      "transactionDate": "2026-08-07"
-    },
-    {
-      "ticker": "DNTH",
-      "issuerName": "Dianthus Therapeutics, Inc. /DE/",
-      "insiderName": "Garcia Marino",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 104091.0,
-      "pricePerShare": 107.96,
-      "transactionDate": "2026-08-07"
     }
   ],
   "byTicker": {
@@ -33951,6 +33951,21 @@
           "type": "Sale",
           "shares": 233473.0,
           "pricePerShare": 28.2205,
+          "transactionDate": "2026-08-21"
+        }
+      ]
+    },
+    "COP": {
+      "issuerName": "CONOCOPHILLIPS",
+      "trades": [
+        {
+          "ticker": "COP",
+          "issuerName": "CONOCOPHILLIPS",
+          "insiderName": "LUNDQUIST ANDREW D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 9487.0,
+          "pricePerShare": 135.15,
           "transactionDate": "2026-08-21"
         }
       ]
@@ -41455,6 +41470,156 @@
         }
       ]
     },
+    "RELL": {
+      "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+      "trades": [
+        {
+          "ticker": "RELL",
+          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+          "insiderName": "Halverson Kenneth",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 17.4696,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "RELL",
+          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
+          "insiderName": "Benham James",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3020.0,
+          "pricePerShare": 17.99,
+          "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "RVSB": {
+      "issuerName": "RIVERVIEW BANCORP INC",
+      "trades": [
+        {
+          "ticker": "RVSB",
+          "issuerName": "RIVERVIEW BANCORP INC",
+          "insiderName": "Benke Robert",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 5.05,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "RVSB",
+          "issuerName": "RIVERVIEW BANCORP INC",
+          "insiderName": "Carlson Bradley",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 5.07,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "RVSB",
+          "issuerName": "RIVERVIEW BANCORP INC",
+          "insiderName": "Lam David",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 5.17,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "RVSB",
+          "issuerName": "RIVERVIEW BANCORP INC",
+          "insiderName": "Lightheart Charmaine",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 250.0,
+          "pricePerShare": 5.309,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "PG": {
+      "issuerName": "PROCTER & GAMBLE Co",
+      "trades": [
+        {
+          "ticker": "PG",
+          "issuerName": "PROCTER & GAMBLE Co",
+          "insiderName": "Whaley Susan Street",
+          "title": "Chief Legal Officer & Secy",
+          "type": "Sale",
+          "shares": 2238.0,
+          "pricePerShare": 143.79,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "PG",
+          "issuerName": "PROCTER & GAMBLE Co",
+          "insiderName": "Pritchard Marc S.",
+          "title": "Chief Brand Officer",
+          "type": "Sale",
+          "shares": 4030.0,
+          "pricePerShare": 143.79,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "PG",
+          "issuerName": "PROCTER & GAMBLE Co",
+          "insiderName": "Whaley Susan Street",
+          "title": "Chief Legal Officer & Secy",
+          "type": "Sale",
+          "shares": 8644.0,
+          "pricePerShare": 144.0,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "MATW": {
+      "issuerName": "MATTHEWS INTERNATIONAL CORP",
+      "trades": [
+        {
+          "ticker": "MATW",
+          "issuerName": "MATTHEWS INTERNATIONAL CORP",
+          "insiderName": "Nauman J Michael",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1900.0,
+          "pricePerShare": 21.96,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "MATW",
+          "issuerName": "MATTHEWS INTERNATIONAL CORP",
+          "insiderName": "Nauman J Michael",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 100.0,
+          "pricePerShare": 21.98,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "MATW",
+          "issuerName": "MATTHEWS INTERNATIONAL CORP",
+          "insiderName": "Richards Aleta W.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 3000.0,
+          "pricePerShare": 23.06,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "MATW",
+          "issuerName": "MATTHEWS INTERNATIONAL CORP",
+          "insiderName": "Nauman J Michael",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 22.97,
+          "transactionDate": "2026-08-10"
+        }
+      ]
+    },
     "SSB": {
       "issuerName": "SouthState Bank Corp",
       "trades": [
@@ -41482,66 +41647,6 @@
           "shares": 2778.0,
           "pricePerShare": 117.55,
           "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "DNTH",
-          "issuerName": "Dianthus Therapeutics, Inc. /DE/",
-          "insiderName": "Garcia Marino",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 10384.0,
-          "pricePerShare": 107.49,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "DNTH",
-          "issuerName": "Dianthus Therapeutics, Inc. /DE/",
-          "insiderName": "Garcia Marino",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 23907.0,
-          "pricePerShare": 108.05,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "DNTH",
-          "issuerName": "Dianthus Therapeutics, Inc. /DE/",
-          "insiderName": "Garcia Marino",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2373.0,
-          "pricePerShare": 109.1,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "DNTH",
-          "issuerName": "Dianthus Therapeutics, Inc. /DE/",
-          "insiderName": "Garcia Marino",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2536.0,
-          "pricePerShare": 110.02,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "DNTH",
-          "issuerName": "Dianthus Therapeutics, Inc. /DE/",
-          "insiderName": "Garcia Marino",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 800.0,
-          "pricePerShare": 110.76,
-          "transactionDate": "2026-08-07"
-        },
-        {
-          "ticker": "DNTH",
-          "issuerName": "Dianthus Therapeutics, Inc. /DE/",
-          "insiderName": "Garcia Marino",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 104091.0,
-          "pricePerShare": 107.96,
-          "transactionDate": "2026-08-07"
         }
       ]
     },
@@ -43747,41 +43852,6 @@
           "shares": 962.0,
           "pricePerShare": 0.457,
           "transactionDate": "2026-08-17"
-        }
-      ]
-    },
-    "MATW": {
-      "issuerName": "MATTHEWS INTERNATIONAL CORP",
-      "trades": [
-        {
-          "ticker": "MATW",
-          "issuerName": "MATTHEWS INTERNATIONAL CORP",
-          "insiderName": "Nauman J Michael",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 100.0,
-          "pricePerShare": 21.98,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "MATW",
-          "issuerName": "MATTHEWS INTERNATIONAL CORP",
-          "insiderName": "Richards Aleta W.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 3000.0,
-          "pricePerShare": 23.06,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "MATW",
-          "issuerName": "MATTHEWS INTERNATIONAL CORP",
-          "insiderName": "Nauman J Michael",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 2000.0,
-          "pricePerShare": 22.97,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -47045,21 +47115,6 @@
         }
       ]
     },
-    "RELL": {
-      "issuerName": "RICHARDSON ELECTRONICS, LTD.",
-      "trades": [
-        {
-          "ticker": "RELL",
-          "issuerName": "RICHARDSON ELECTRONICS, LTD.",
-          "insiderName": "Benham James",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3020.0,
-          "pricePerShare": 17.99,
-          "transactionDate": "2026-08-19"
-        }
-      ]
-    },
     "FGL": {
       "issuerName": "Founder Group Ltd",
       "trades": [
@@ -49630,41 +49685,6 @@
         }
       ]
     },
-    "RVSB": {
-      "issuerName": "RIVERVIEW BANCORP INC",
-      "trades": [
-        {
-          "ticker": "RVSB",
-          "issuerName": "RIVERVIEW BANCORP INC",
-          "insiderName": "Carlson Bradley",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 5.07,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "RVSB",
-          "issuerName": "RIVERVIEW BANCORP INC",
-          "insiderName": "Lam David",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 5.17,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "RVSB",
-          "issuerName": "RIVERVIEW BANCORP INC",
-          "insiderName": "Lightheart Charmaine",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 250.0,
-          "pricePerShare": 5.309,
-          "transactionDate": "2026-08-12"
-        }
-      ]
-    },
     "PML": {
       "issuerName": "PIMCO MUNICIPAL INCOME FUND II",
       "trades": [
@@ -49786,21 +49806,6 @@
           "type": "Sale",
           "shares": 314.0,
           "pricePerShare": 85.56,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "PG": {
-      "issuerName": "PROCTER & GAMBLE Co",
-      "trades": [
-        {
-          "ticker": "PG",
-          "issuerName": "PROCTER & GAMBLE Co",
-          "insiderName": "Whaley Susan Street",
-          "title": "Chief Legal Officer & Secy",
-          "type": "Sale",
-          "shares": 8644.0,
-          "pricePerShare": 144.0,
           "transactionDate": "2026-08-18"
         }
       ]
@@ -63557,6 +63562,7 @@
       "0000038009-26-000048",
       "0000038009-26-000050",
       "0000038009-26-000055",
+      "0000038009-26-000059",
       "0000038777-26-000191",
       "0000043920-26-000105",
       "0000043920-26-000107",
@@ -63619,6 +63625,7 @@
       "0000063296-26-000082",
       "0000063296-26-000084",
       "0000063296-26-000086",
+      "0000063296-26-000088",
       "0000063754-26-000284",
       "0000063754-26-000286",
       "0000063754-26-000288",
@@ -63691,6 +63698,8 @@
       "0000080424-26-000142",
       "0000080424-26-000143",
       "0000080424-26-000144",
+      "0000080424-26-000146",
+      "0000080424-26-000147",
       "0000080661-26-000266",
       "0000080661-26-000268",
       "0000080661-26-000270",
@@ -65357,6 +65366,10 @@
       "0000950103-26-012780",
       "0000950103-26-012781",
       "0000950103-26-012782",
+      "0000950103-26-012783",
+      "0000950103-26-012784",
+      "0000950103-26-012785",
+      "0000950103-26-012786",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66866,6 +66879,8 @@
       "0001140361-26-034131",
       "0001140361-26-034134",
       "0001140361-26-034136",
+      "0001140361-26-034144",
+      "0001140361-26-034146",
       "0001140842-26-000004",
       "0001145197-26-000172",
       "0001159036-26-000108",
@@ -69430,6 +69445,24 @@
       "0001193125-26-362642",
       "0001193125-26-362643",
       "0001193125-26-362644",
+      "0001193125-26-362686",
+      "0001193125-26-362687",
+      "0001193125-26-362704",
+      "0001193125-26-362709",
+      "0001193125-26-362713",
+      "0001193125-26-362716",
+      "0001193125-26-362719",
+      "0001193125-26-362731",
+      "0001193125-26-362733",
+      "0001193125-26-362734",
+      "0001193125-26-362735",
+      "0001193125-26-362736",
+      "0001193125-26-362737",
+      "0001193125-26-362738",
+      "0001193125-26-362739",
+      "0001193125-26-362746",
+      "0001193125-26-362749",
+      "0001193125-26-362752",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70405,6 +70438,14 @@
       "0001213900-26-092849",
       "0001213900-26-092898",
       "0001213900-26-092903",
+      "0001213900-26-092915",
+      "0001213900-26-092916",
+      "0001213900-26-092917",
+      "0001213900-26-092918",
+      "0001213900-26-092920",
+      "0001213900-26-092924",
+      "0001213900-26-092927",
+      "0001213900-26-092930",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -70587,6 +70628,7 @@
       "0001214659-26-010752",
       "0001214659-26-010755",
       "0001214659-26-010758",
+      "0001214659-26-010759",
       "0001214993-26-000004",
       "0001216055-26-000006",
       "0001216055-26-000007",
@@ -70832,6 +70874,7 @@
       "0001254781-26-000022",
       "0001258248-26-000013",
       "0001258394-26-000014",
+      "0001260190-26-000004",
       "0001261778-26-000007",
       "0001262290-26-000015",
       "0001263136-26-000012",
@@ -72381,6 +72424,7 @@
       "0001528621-26-000847",
       "0001528621-26-000848",
       "0001528621-26-000849",
+      "0001528621-26-000859",
       "0001530038-26-000002",
       "0001530255-26-000010",
       "0001530819-26-000012",
@@ -73683,6 +73727,8 @@
       "0001703841-26-000003",
       "0001704720-26-000155",
       "0001704792-26-000004",
+      "0001705119-26-000007",
+      "0001705119-26-000009",
       "0001705189-26-000013",
       "0001705407-26-000008",
       "0001705419-26-000004",
@@ -73734,6 +73780,7 @@
       "0001725985-26-000004",
       "0001726283-26-000004",
       "0001726591-26-000011",
+      "0001727227-26-000004",
       "0001727396-26-000007",
       "0001727396-26-000009",
       "0001727440-26-000003",
@@ -76129,6 +76176,14 @@
       "0001839882-26-041159",
       "0001839882-26-041160",
       "0001839882-26-041161",
+      "0001839882-26-041166",
+      "0001839882-26-041167",
+      "0001839882-26-041169",
+      "0001839882-26-041171",
+      "0001839882-26-041172",
+      "0001839882-26-041173",
+      "0001839882-26-041174",
+      "0001839882-26-041175",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -78433,6 +78488,8 @@
       "0001918704-26-024545",
       "0001918704-26-024546",
       "0001918704-26-024552",
+      "0001918704-26-024553",
+      "0001918704-26-024554",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -78462,6 +78519,7 @@
       "0001932651-26-000003",
       "0001932682-26-000012",
       "0001932848-26-000017",
+      "0001932878-26-000002",
       "0001933414-26-000118",
       "0001933414-26-000120",
       "0001933750-26-000003",
@@ -78628,6 +78686,7 @@
       "0001989421-26-000008",
       "0001989913-26-000008",
       "0001990865-26-000009",
+      "0001991703-26-000004",
       "0001992104-26-000301",
       "0001992104-26-000303",
       "0001992104-26-000304",
@@ -78961,6 +79020,8 @@
       "0001999371-26-018503",
       "0001999371-26-018524",
       "0001999371-26-018529",
+      "0001999371-26-018533",
+      "0001999371-26-018536",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0002000276-26-000006",
@@ -79137,6 +79198,8 @@
       "0002047319-26-000002",
       "0002047429-26-000012",
       "0002047774-26-000007",
+      "0002048260-26-000002",
+      "0002049774-26-000004",
       "0002050172-26-000028",
       "0002050174-26-000002",
       "0002050978-26-000006",
@@ -79414,7 +79477,11 @@
       "0002129321-26-000011",
       "0002130384-26-000004",
       "0002130394-26-000019",
+      "0002130454-26-000004",
+      "0002130460-26-000004",
+      "0002130557-26-000004",
       "0002131351-26-000010",
+      "0002131529-26-000004",
       "0002133255-26-000016",
       "0002133572-26-000004",
       "0002134547-26-000003",
