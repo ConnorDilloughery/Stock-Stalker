@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T15:05:28.724433+00:00",
+  "generatedAt": "2026-08-25T16:05:44.757263+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -601,6 +601,26 @@
       "type": "Sale",
       "shares": 66500.0,
       "pricePerShare": 15.34,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "NGL",
+      "issuerName": "NGL Energy Partners LP",
+      "insiderName": "RAYMOND JOHN T",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 25500.0,
+      "pricePerShare": 16.2237,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "JBS",
+      "issuerName": "JBS N.V.",
+      "insiderName": "Cavalcanti Guilherme Perboyre",
+      "title": "Global CFO and IRO",
+      "type": "Sale",
+      "shares": 183501.0,
+      "pricePerShare": 13.85,
       "transactionDate": "2026-08-24"
     },
     {
@@ -2291,6 +2311,26 @@
       "type": "Sale",
       "shares": 80.0,
       "pricePerShare": 117.07,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "EL",
+      "issuerName": "ESTEE LAUDER COMPANIES INC",
+      "insiderName": "La Lande Rashida",
+      "title": "Exec VP & General Counsel",
+      "type": "Sale",
+      "shares": 5564.0,
+      "pricePerShare": 99.55,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "NGL",
+      "issuerName": "NGL Energy Partners LP",
+      "insiderName": "RAYMOND JOHN T",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1126.0,
+      "pricePerShare": 16.25,
       "transactionDate": "2026-08-21"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 961.0,
       "pricePerShare": 114.79,
       "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 31.0,
-      "pricePerShare": 115.59,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "AUDC",
-      "issuerName": "AUDIOCODES LTD",
-      "insiderName": "Aldema Lior",
-      "title": "EVP and Chief Business Officer",
-      "type": "Sale",
-      "shares": 2812.0,
-      "pricePerShare": 9.9799,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "VIAV",
-      "issuerName": "VIAVI SOLUTIONS INC.",
-      "insiderName": "McNab Paul",
-      "title": "EVP, Chief Mktg & Stgy Officer",
-      "type": "Sale",
-      "shares": 1595.0,
-      "pricePerShare": 37.37,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "SMG",
-      "issuerName": "SCOTTS MIRACLE-GRO CO",
-      "insiderName": "Kingdon Mark D",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 831.0,
-      "pricePerShare": 61.645,
-      "transactionDate": "2026-08-10"
     }
   ],
   "byTicker": {
@@ -32997,16 +32997,6 @@
           "shares": 961.0,
           "pricePerShare": 114.79,
           "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 31.0,
-          "pricePerShare": 115.59,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -33742,6 +33732,46 @@
           "shares": 120376.0,
           "pricePerShare": 15.84,
           "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "NGL": {
+      "issuerName": "NGL Energy Partners LP",
+      "trades": [
+        {
+          "ticker": "NGL",
+          "issuerName": "NGL Energy Partners LP",
+          "insiderName": "RAYMOND JOHN T",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 25500.0,
+          "pricePerShare": 16.2237,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "NGL",
+          "issuerName": "NGL Energy Partners LP",
+          "insiderName": "RAYMOND JOHN T",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1126.0,
+          "pricePerShare": 16.25,
+          "transactionDate": "2026-08-21"
+        }
+      ]
+    },
+    "JBS": {
+      "issuerName": "JBS N.V.",
+      "trades": [
+        {
+          "ticker": "JBS",
+          "issuerName": "JBS N.V.",
+          "insiderName": "Cavalcanti Guilherme Perboyre",
+          "title": "Global CFO and IRO",
+          "type": "Sale",
+          "shares": 183501.0,
+          "pricePerShare": 13.85,
+          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -41817,6 +41847,21 @@
           "shares": 13000.0,
           "pricePerShare": 121.09,
           "transactionDate": "2026-08-13"
+        }
+      ]
+    },
+    "EL": {
+      "issuerName": "ESTEE LAUDER COMPANIES INC",
+      "trades": [
+        {
+          "ticker": "EL",
+          "issuerName": "ESTEE LAUDER COMPANIES INC",
+          "insiderName": "La Lande Rashida",
+          "title": "Exec VP & General Counsel",
+          "type": "Sale",
+          "shares": 5564.0,
+          "pricePerShare": 99.55,
+          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -54597,16 +54642,6 @@
           "shares": 10000.0,
           "pricePerShare": 42.92,
           "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "VIAV",
-          "issuerName": "VIAVI SOLUTIONS INC.",
-          "insiderName": "McNab Paul",
-          "title": "EVP, Chief Mktg & Stgy Officer",
-          "type": "Sale",
-          "shares": 1595.0,
-          "pricePerShare": 37.37,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -63327,31 +63362,6 @@
           "shares": 1875.0,
           "pricePerShare": 9.9906,
           "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "AUDC",
-          "issuerName": "AUDIOCODES LTD",
-          "insiderName": "Aldema Lior",
-          "title": "EVP and Chief Business Officer",
-          "type": "Sale",
-          "shares": 2812.0,
-          "pricePerShare": 9.9799,
-          "transactionDate": "2026-08-10"
-        }
-      ]
-    },
-    "SMG": {
-      "issuerName": "SCOTTS MIRACLE-GRO CO",
-      "trades": [
-        {
-          "ticker": "SMG",
-          "issuerName": "SCOTTS MIRACLE-GRO CO",
-          "insiderName": "Kingdon Mark D",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 831.0,
-          "pricePerShare": 61.645,
-          "transactionDate": "2026-08-10"
         }
       ]
     }
@@ -63554,6 +63564,21 @@
       "0000058492-26-000456",
       "0000058492-26-000457",
       "0000058492-26-000458",
+      "0000058492-26-000475",
+      "0000058492-26-000476",
+      "0000058492-26-000477",
+      "0000058492-26-000478",
+      "0000058492-26-000479",
+      "0000058492-26-000480",
+      "0000058492-26-000481",
+      "0000058492-26-000482",
+      "0000058492-26-000483",
+      "0000058492-26-000484",
+      "0000058492-26-000485",
+      "0000058492-26-000486",
+      "0000058492-26-000487",
+      "0000058492-26-000488",
+      "0000058492-26-000489",
       "0000062709-26-000204",
       "0000063296-26-000082",
       "0000063296-26-000084",
@@ -63743,6 +63768,9 @@
       "0000225322-26-000199",
       "0000225997-26-000271",
       "0000310354-26-000043",
+      "0000310354-26-000062",
+      "0000310354-26-000064",
+      "0000310354-26-000066",
       "0000311094-26-000054",
       "0000311094-26-000056",
       "0000313143-26-000099",
@@ -65368,6 +65396,8 @@
       "0000950103-26-012825",
       "0000950103-26-012826",
       "0000950103-26-012827",
+      "0000950103-26-012828",
+      "0000950103-26-012829",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66421,6 +66451,7 @@
       "0001104659-26-100556",
       "0001104659-26-100600",
       "0001104659-26-100610",
+      "0001104659-26-100641",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66949,6 +66980,8 @@
       "0001140361-26-034181",
       "0001140361-26-034238",
       "0001140361-26-034239",
+      "0001140361-26-034271",
+      "0001140361-26-034273",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -67074,6 +67107,7 @@
       "0001185611-26-000005",
       "0001185829-26-000001",
       "0001185992-26-000004",
+      "0001186173-26-000001",
       "0001186827-26-000013",
       "0001186827-26-000014",
       "0001186836-26-000008",
@@ -69620,6 +69654,8 @@
       "0001193125-26-364404",
       "0001193125-26-364407",
       "0001193125-26-364429",
+      "0001193125-26-364461",
+      "0001193125-26-364519",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70647,6 +70683,7 @@
       "0001213900-26-093358",
       "0001213900-26-093359",
       "0001213900-26-093361",
+      "0001213900-26-093370",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -70831,6 +70868,7 @@
       "0001214659-26-010758",
       "0001214659-26-010759",
       "0001214659-26-010782",
+      "0001214659-26-010802",
       "0001214993-26-000004",
       "0001216055-26-000006",
       "0001216055-26-000007",
@@ -71823,6 +71861,7 @@
       "0001437749-26-028850",
       "0001437749-26-028853",
       "0001437749-26-028856",
+      "0001437749-26-028884",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -72962,6 +73001,8 @@
       "0001580642-26-005487",
       "0001580642-26-005513",
       "0001580642-26-005516",
+      "0001580642-26-005615",
+      "0001580642-26-005616",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -73753,6 +73794,7 @@
       "0001628280-26-058760",
       "0001628280-26-058762",
       "0001628280-26-058766",
+      "0001628280-26-058803",
       "0001629079-26-000002",
       "0001629111-26-000010",
       "0001629292-26-000002",
@@ -74795,6 +74837,7 @@
       "0001829126-26-009201",
       "0001829126-26-009202",
       "0001829126-26-009203",
+      "0001829126-26-009291",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -76588,6 +76631,13 @@
       "0001839882-26-041287",
       "0001839882-26-041288",
       "0001839882-26-041302",
+      "0001839882-26-041319",
+      "0001839882-26-041320",
+      "0001839882-26-041322",
+      "0001839882-26-041323",
+      "0001839882-26-041325",
+      "0001839882-26-041327",
+      "0001839882-26-041328",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -78951,6 +79001,18 @@
       "0001918704-26-024648",
       "0001918704-26-024649",
       "0001918704-26-024650",
+      "0001918704-26-024651",
+      "0001918704-26-024652",
+      "0001918704-26-024653",
+      "0001918704-26-024654",
+      "0001918704-26-024655",
+      "0001918704-26-024656",
+      "0001918704-26-024657",
+      "0001918704-26-024658",
+      "0001918704-26-024659",
+      "0001918704-26-024660",
+      "0001918704-26-024661",
+      "0001918704-26-024662",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -79818,6 +79880,7 @@
       "0002076289-26-000007",
       "0002076327-26-000006",
       "0002076715-26-000005",
+      "0002077096-26-000235",
       "0002077291-26-000002",
       "0002077810-26-000271",
       "0002077810-26-000272",
