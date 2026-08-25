@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T17:02:40.436322+00:00",
+  "generatedAt": "2026-08-25T18:01:24.328852+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -621,6 +621,46 @@
       "type": "Sale",
       "shares": 183501.0,
       "pricePerShare": 13.85,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "SBLK",
+      "issuerName": "Star Bulk Carriers Corp.",
+      "insiderName": "Zagari Raffaele",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 50000.0,
+      "pricePerShare": 30.7,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "TPL",
+      "issuerName": "Texas Pacific Land Corp",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 377.39,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 2.95,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "RBA",
+      "issuerName": "RB GLOBAL INC.",
+      "insiderName": "Harford Chloe",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 1200.0,
+      "pricePerShare": 83.74,
       "transactionDate": "2026-08-24"
     },
     {
@@ -2331,6 +2371,36 @@
       "type": "Purchase",
       "shares": 1126.0,
       "pricePerShare": 16.25,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "EDRY",
+      "issuerName": "EuroDry Ltd.",
+      "insiderName": "Pittas Aristeidis P",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 250.0,
+      "pricePerShare": 44.5587,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "EDRY",
+      "issuerName": "EuroDry Ltd.",
+      "insiderName": "Pittas Aristeidis P",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 250.0,
+      "pricePerShare": 44.5587,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "BCML",
+      "issuerName": "BayCom Corp",
+      "insiderName": "Laverne Robert G.",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 29.85,
       "transactionDate": "2026-08-21"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 56948.0,
       "pricePerShare": 56.83,
       "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "AUDC",
-      "issuerName": "AUDIOCODES LTD",
-      "insiderName": "Baruch Niran",
-      "title": "Chief Financial Officer",
-      "type": "Sale",
-      "shares": 1875.0,
-      "pricePerShare": 9.9906,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "YQ",
-      "issuerName": "17 Education & Technology Group Inc.",
-      "insiderName": "Liu Chang",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 3295.0,
-      "pricePerShare": 2.4395,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 7285.0,
-      "pricePerShare": 114.17,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 12397.0,
-      "pricePerShare": 114.81,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 318.0,
-      "pricePerShare": 115.62,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 508.0,
-      "pricePerShare": 114.12,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 961.0,
-      "pricePerShare": 114.79,
-      "transactionDate": "2026-08-10"
     }
   ],
   "byTicker": {
@@ -32947,56 +32947,6 @@
           "shares": 6292.0,
           "pricePerShare": 131.21,
           "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7285.0,
-          "pricePerShare": 114.17,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 12397.0,
-          "pricePerShare": 114.81,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 318.0,
-          "pricePerShare": 115.62,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 508.0,
-          "pricePerShare": 114.12,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 961.0,
-          "pricePerShare": 114.79,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -33775,9 +33725,139 @@
         }
       ]
     },
+    "SBLK": {
+      "issuerName": "Star Bulk Carriers Corp.",
+      "trades": [
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Zagari Raffaele",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 50000.0,
+          "pricePerShare": 30.7,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Plakantonaki Charis",
+          "title": "Chief Strategy Officer",
+          "type": "Sale",
+          "shares": 10825.0,
+          "pricePerShare": 29.8201,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "TPL": {
+      "issuerName": "Texas Pacific Land Corp",
+      "trades": [
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 377.39,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 377.85,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 372.1,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 361.16,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 357.32,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 357.56,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 343.02,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 353.15,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 352.62,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
     "RCG": {
       "issuerName": "RENN Fund, Inc.",
       "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-24"
+        },
         {
           "ticker": "RCG",
           "issuerName": "RENN Fund, Inc.",
@@ -33847,6 +33927,21 @@
           "shares": 756.0,
           "pricePerShare": 2.99,
           "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "RBA": {
+      "issuerName": "RB GLOBAL INC.",
+      "trades": [
+        {
+          "ticker": "RBA",
+          "issuerName": "RB GLOBAL INC.",
+          "insiderName": "Harford Chloe",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1200.0,
+          "pricePerShare": 83.74,
+          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -37322,16 +37417,6 @@
           "shares": 853.0,
           "pricePerShare": 2.4085,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "YQ",
-          "issuerName": "17 Education & Technology Group Inc.",
-          "insiderName": "Liu Chang",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 3295.0,
-          "pricePerShare": 2.4395,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -41865,6 +41950,106 @@
         }
       ]
     },
+    "EDRY": {
+      "issuerName": "EuroDry Ltd.",
+      "trades": [
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 250.0,
+          "pricePerShare": 44.5587,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 250.0,
+          "pricePerShare": 44.5587,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 300.0,
+          "pricePerShare": 39.5,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 300.0,
+          "pricePerShare": 39.5,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pariaros Symeon",
+          "title": "Chief Administrative Officer",
+          "type": "Sale",
+          "shares": 2700.0,
+          "pricePerShare": 42.0,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pariaros Symeon",
+          "title": "Chief Administrative Officer",
+          "type": "Sale",
+          "shares": 1900.0,
+          "pricePerShare": 39.98,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Karmiri Stefania",
+          "title": "Corporate Secretary",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 38.5,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "BCML": {
+      "issuerName": "BayCom Corp",
+      "trades": [
+        {
+          "ticker": "BCML",
+          "issuerName": "BayCom Corp",
+          "insiderName": "Laverne Robert G.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 29.85,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "BCML",
+          "issuerName": "BayCom Corp",
+          "insiderName": "Laverne Robert G.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 29.95,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
     "CFFI": {
       "issuerName": "C & F FINANCIAL CORP",
       "trades": [
@@ -43297,106 +43482,6 @@
           "shares": 210.0,
           "pricePerShare": 46.7754,
           "transactionDate": "2026-08-17"
-        }
-      ]
-    },
-    "TPL": {
-      "issuerName": "Texas Pacific Land Corp",
-      "trades": [
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 377.85,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 372.1,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 361.16,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 357.32,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 357.56,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 343.02,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 353.15,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 352.62,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "BCML": {
-      "issuerName": "BayCom Corp",
-      "trades": [
-        {
-          "ticker": "BCML",
-          "issuerName": "BayCom Corp",
-          "insiderName": "Laverne Robert G.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 29.95,
-          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -51805,61 +51890,6 @@
         }
       ]
     },
-    "EDRY": {
-      "issuerName": "EuroDry Ltd.",
-      "trades": [
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 300.0,
-          "pricePerShare": 39.5,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 300.0,
-          "pricePerShare": 39.5,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pariaros Symeon",
-          "title": "Chief Administrative Officer",
-          "type": "Sale",
-          "shares": 2700.0,
-          "pricePerShare": 42.0,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pariaros Symeon",
-          "title": "Chief Administrative Officer",
-          "type": "Sale",
-          "shares": 1900.0,
-          "pricePerShare": 39.98,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Karmiri Stefania",
-          "title": "Corporate Secretary",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 38.5,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
     "PDX": {
       "issuerName": "PIMCO Dynamic Income Strategy Fund",
       "trades": [
@@ -55316,21 +55346,6 @@
           "type": "Sale",
           "shares": 1707.0,
           "pricePerShare": 66.2776,
-          "transactionDate": "2026-08-17"
-        }
-      ]
-    },
-    "SBLK": {
-      "issuerName": "Star Bulk Carriers Corp.",
-      "trades": [
-        {
-          "ticker": "SBLK",
-          "issuerName": "Star Bulk Carriers Corp.",
-          "insiderName": "Plakantonaki Charis",
-          "title": "Chief Strategy Officer",
-          "type": "Sale",
-          "shares": 10825.0,
-          "pricePerShare": 29.8201,
           "transactionDate": "2026-08-17"
         }
       ]
@@ -63349,21 +63364,6 @@
           "transactionDate": "2026-08-10"
         }
       ]
-    },
-    "AUDC": {
-      "issuerName": "AUDIOCODES LTD",
-      "trades": [
-        {
-          "ticker": "AUDC",
-          "issuerName": "AUDIOCODES LTD",
-          "insiderName": "Baruch Niran",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 1875.0,
-          "pricePerShare": 9.9906,
-          "transactionDate": "2026-08-10"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63588,6 +63588,8 @@
       "0000063754-26-000286",
       "0000063754-26-000288",
       "0000063754-26-000294",
+      "0000063754-26-000296",
+      "0000063754-26-000298",
       "0000067887-26-000028",
       "0000070502-26-000497",
       "0000070502-26-000499",
@@ -63826,6 +63828,7 @@
       "0000354190-26-000187",
       "0000354190-26-000195",
       "0000354647-26-000112",
+      "0000354647-26-000114",
       "0000356171-26-000106",
       "0000701347-26-000070",
       "0000702149-26-000044",
@@ -64116,6 +64119,7 @@
       "0000884546-26-000386",
       "0000884546-26-000388",
       "0000884546-26-000390",
+      "0000884590-26-000001",
       "0000885590-26-000101",
       "0000886982-26-000298",
       "0000886982-26-000310",
@@ -65404,6 +65408,11 @@
       "0000950103-26-012832",
       "0000950103-26-012833",
       "0000950103-26-012834",
+      "0000950103-26-012835",
+      "0000950103-26-012836",
+      "0000950103-26-012837",
+      "0000950103-26-012838",
+      "0000950103-26-012839",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65645,6 +65654,7 @@
       "0001072613-26-000710",
       "0001072613-26-000711",
       "0001072613-26-000712",
+      "0001073894-26-000001",
       "0001075736-26-000071",
       "0001075736-26-000074",
       "0001075736-26-000075",
@@ -66996,6 +67006,7 @@
       "0001140361-26-034239",
       "0001140361-26-034271",
       "0001140361-26-034273",
+      "0001140361-26-034288",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -69673,6 +69684,12 @@
       "0001193125-26-364589",
       "0001193125-26-364630",
       "0001193125-26-364632",
+      "0001193125-26-364682",
+      "0001193125-26-364692",
+      "0001193125-26-364702",
+      "0001193125-26-364713",
+      "0001193125-26-364722",
+      "0001193125-26-364723",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70702,6 +70719,9 @@
       "0001213900-26-093361",
       "0001213900-26-093370",
       "0001213900-26-093410",
+      "0001213900-26-093436",
+      "0001213900-26-093437",
+      "0001213900-26-093442",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71880,6 +71900,9 @@
       "0001437749-26-028853",
       "0001437749-26-028856",
       "0001437749-26-028884",
+      "0001437749-26-028889",
+      "0001437749-26-028892",
+      "0001437749-26-028893",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -72870,6 +72893,7 @@
       "0001558259-26-000020",
       "0001559334-26-000006",
       "0001559334-26-000010",
+      "0001559495-26-000060",
       "0001560409-26-000008",
       "0001561100-26-000004",
       "0001561100-26-000005",
@@ -74259,6 +74283,7 @@
       "0001737840-26-000020",
       "0001738147-26-000006",
       "0001738250-26-000004",
+      "0001738341-26-000008",
       "0001739286-26-000004",
       "0001739310-26-000004",
       "0001739473-26-000003",
@@ -74856,6 +74881,7 @@
       "0001829126-26-009202",
       "0001829126-26-009203",
       "0001829126-26-009291",
+      "0001829126-26-009294",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -76673,6 +76699,24 @@
       "0001839882-26-041358",
       "0001839882-26-041359",
       "0001839882-26-041361",
+      "0001839882-26-041365",
+      "0001839882-26-041366",
+      "0001839882-26-041367",
+      "0001839882-26-041368",
+      "0001839882-26-041369",
+      "0001839882-26-041370",
+      "0001839882-26-041371",
+      "0001839882-26-041372",
+      "0001839882-26-041373",
+      "0001839882-26-041374",
+      "0001839882-26-041375",
+      "0001839882-26-041376",
+      "0001839882-26-041377",
+      "0001839882-26-041378",
+      "0001839882-26-041379",
+      "0001839882-26-041380",
+      "0001839882-26-041381",
+      "0001839882-26-041382",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -79081,6 +79125,17 @@
       "0001918704-26-024698",
       "0001918704-26-024699",
       "0001918704-26-024700",
+      "0001918704-26-024701",
+      "0001918704-26-024702",
+      "0001918704-26-024703",
+      "0001918704-26-024704",
+      "0001918704-26-024705",
+      "0001918704-26-024706",
+      "0001918704-26-024707",
+      "0001918704-26-024708",
+      "0001918704-26-024709",
+      "0001918704-26-024710",
+      "0001918704-26-024711",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -79118,6 +79173,7 @@
       "0001936132-26-000001",
       "0001936727-26-000006",
       "0001937010-26-000012",
+      "0001937214-26-000002",
       "0001937263-26-000008",
       "0001937263-26-000010",
       "0001939403-26-000002",
@@ -79160,6 +79216,7 @@
       "0001961104-26-000012",
       "0001961877-26-000041",
       "0001961877-26-000043",
+      "0001962136-26-000001",
       "0001962329-26-000057",
       "0001962729-26-000004",
       "0001962926-26-000007",
@@ -79244,6 +79301,7 @@
       "0001976408-26-000763",
       "0001976672-26-000057",
       "0001976672-26-000059",
+      "0001976672-26-000062",
       "0001976684-26-000011",
       "0001976685-26-000017",
       "0001977249-26-000111",
@@ -79625,6 +79683,8 @@
       "0001999371-26-018605",
       "0001999371-26-018607",
       "0001999371-26-018617",
+      "0001999371-26-018627",
+      "0001999371-26-018638",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0001999852-26-000003",
@@ -79641,6 +79701,7 @@
       "0002004299-26-000008",
       "0002004306-26-000004",
       "0002004397-26-000006",
+      "0002005037-26-000012",
       "0002005790-26-000024",
       "0002006416-26-000013",
       "0002006495-26-000012",
@@ -80093,6 +80154,7 @@
       "0002126940-26-000004",
       "0002127484-26-000012",
       "0002127484-26-000014",
+      "0002127484-26-000015",
       "0002127674-26-000002",
       "0002127814-26-000004",
       "0002127908-26-000004",
