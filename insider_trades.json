@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T01:02:37.340218+00:00",
+  "generatedAt": "2026-08-25T02:02:27.004348+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -271,6 +271,26 @@
       "type": "Sale",
       "shares": 13974.0,
       "pricePerShare": 9.5673,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "PRE",
+      "issuerName": "Prenetics Global Ltd",
+      "insiderName": "Yeung Danny Sheng Wu",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 6000.0,
+      "pricePerShare": 20.9,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "PRE",
+      "issuerName": "Prenetics Global Ltd",
+      "insiderName": "Yeung Danny Sheng Wu",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 11181.0,
+      "pricePerShare": 21.4,
       "transactionDate": "2026-08-24"
     },
     {
@@ -1761,6 +1781,26 @@
       "type": "Sale",
       "shares": 1250.0,
       "pricePerShare": 174.29,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "FLD",
+      "issuerName": "Fold Holdings, Inc.",
+      "insiderName": "Reeves William Brian Poppic",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 10045.0,
+      "pricePerShare": 0.488,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "VENU",
+      "issuerName": "Venu Holding Corp",
+      "insiderName": "ROTH JAY W",
+      "title": "Director, CEO & Chairman, 10% Owner",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 1.9176,
       "transactionDate": "2026-08-21"
     },
     {
@@ -5231,6 +5271,26 @@
       "type": "Sale",
       "shares": 500.0,
       "pricePerShare": 176.302,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "PRE",
+      "issuerName": "Prenetics Global Ltd",
+      "insiderName": "Yeung Danny Sheng Wu",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 7500.0,
+      "pricePerShare": 18.31,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "FLD",
+      "issuerName": "Fold Holdings, Inc.",
+      "insiderName": "Reeves William Brian Poppic",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 8911.0,
+      "pricePerShare": 0.476,
       "transactionDate": "2026-08-20"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 13595.0,
       "pricePerShare": 99.35,
       "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "P",
-      "issuerName": "Everpure, Inc.",
-      "insiderName": "Colgrove John",
-      "title": "Director, Chief Visionary Officer",
-      "type": "Sale",
-      "shares": 2100.0,
-      "pricePerShare": 100.48,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "P",
-      "issuerName": "Everpure, Inc.",
-      "insiderName": "Colgrove John",
-      "title": "Director, Chief Visionary Officer",
-      "type": "Sale",
-      "shares": 1100.0,
-      "pricePerShare": 101.59,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "ISRG",
-      "issuerName": "INTUITIVE SURGICAL INC",
-      "insiderName": "Ladd Amy L",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 400.0,
-      "pricePerShare": 379.0,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "SN",
-      "issuerName": "SharkNinja, Inc.",
-      "insiderName": "Shah Neil B.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 18721.0,
-      "pricePerShare": 184.58,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "SN",
-      "issuerName": "SharkNinja, Inc.",
-      "insiderName": "Shah Neil B.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 155.0,
-      "pricePerShare": 185.0,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "SN",
-      "issuerName": "SharkNinja, Inc.",
-      "insiderName": "Shah Neil B.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1457.0,
-      "pricePerShare": 186.12,
-      "transactionDate": "2026-08-10"
     }
   ],
   "byTicker": {
@@ -31282,6 +31282,41 @@
           "shares": 8462.0,
           "pricePerShare": 9.8518,
           "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "PRE": {
+      "issuerName": "Prenetics Global Ltd",
+      "trades": [
+        {
+          "ticker": "PRE",
+          "issuerName": "Prenetics Global Ltd",
+          "insiderName": "Yeung Danny Sheng Wu",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 6000.0,
+          "pricePerShare": 20.9,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "PRE",
+          "issuerName": "Prenetics Global Ltd",
+          "insiderName": "Yeung Danny Sheng Wu",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 11181.0,
+          "pricePerShare": 21.4,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "PRE",
+          "issuerName": "Prenetics Global Ltd",
+          "insiderName": "Yeung Danny Sheng Wu",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 7500.0,
+          "pricePerShare": 18.31,
+          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -32633,16 +32668,6 @@
           "issuerName": "INTUITIVE SURGICAL INC",
           "insiderName": "LOEB GARY",
           "title": "EVP & Chief Legal and Complian",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 379.0,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "ISRG",
-          "issuerName": "INTUITIVE SURGICAL INC",
-          "insiderName": "Ladd Amy L",
-          "title": "Director",
           "type": "Sale",
           "shares": 400.0,
           "pricePerShare": 379.0,
@@ -38982,6 +39007,136 @@
           "shares": 1509.0,
           "pricePerShare": 175.8424,
           "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "FLD": {
+      "issuerName": "Fold Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "FLD",
+          "issuerName": "Fold Holdings, Inc.",
+          "insiderName": "Reeves William Brian Poppic",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10045.0,
+          "pricePerShare": 0.488,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "FLD",
+          "issuerName": "Fold Holdings, Inc.",
+          "insiderName": "Reeves William Brian Poppic",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8911.0,
+          "pricePerShare": 0.476,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "FLD",
+          "issuerName": "Fold Holdings, Inc.",
+          "insiderName": "Reeves William Brian Poppic",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 9480.0,
+          "pricePerShare": 0.452,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "FLD",
+          "issuerName": "Fold Holdings, Inc.",
+          "insiderName": "Reeves William Brian Poppic",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 9619.0,
+          "pricePerShare": 0.451,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "FLD",
+          "issuerName": "Fold Holdings, Inc.",
+          "insiderName": "Repass Wolfe",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 959.0,
+          "pricePerShare": 0.451,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "FLD",
+          "issuerName": "Fold Holdings, Inc.",
+          "insiderName": "Repass Wolfe",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1918.0,
+          "pricePerShare": 0.451,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "FLD",
+          "issuerName": "Fold Holdings, Inc.",
+          "insiderName": "Dickman Thomas J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1922.0,
+          "pricePerShare": 0.457,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "FLD",
+          "issuerName": "Fold Holdings, Inc.",
+          "insiderName": "Dickman Thomas J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 962.0,
+          "pricePerShare": 0.457,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "VENU": {
+      "issuerName": "Venu Holding Corp",
+      "trades": [
+        {
+          "ticker": "VENU",
+          "issuerName": "Venu Holding Corp",
+          "insiderName": "ROTH JAY W",
+          "title": "Director, CEO & Chairman, 10% Owner",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 1.9176,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "VENU",
+          "issuerName": "Venu Holding Corp",
+          "insiderName": "ROTH JAY W",
+          "title": "Director, CEO & Chairman, 10% Owner",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 1.8852,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "VENU",
+          "issuerName": "Venu Holding Corp",
+          "insiderName": "ROTH JAY W",
+          "title": "Director, CEO & Chairman, 10% Owner",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 1.8399,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "VENU",
+          "issuerName": "Venu Holding Corp",
+          "insiderName": "ROTH JAY W",
+          "title": "Director, CEO & Chairman, 10% Owner",
+          "type": "Purchase",
+          "shares": 4750.0,
+          "pricePerShare": 1.9715,
+          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -48205,71 +48360,6 @@
         }
       ]
     },
-    "FLD": {
-      "issuerName": "Fold Holdings, Inc.",
-      "trades": [
-        {
-          "ticker": "FLD",
-          "issuerName": "Fold Holdings, Inc.",
-          "insiderName": "Reeves William Brian Poppic",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 9480.0,
-          "pricePerShare": 0.452,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "FLD",
-          "issuerName": "Fold Holdings, Inc.",
-          "insiderName": "Reeves William Brian Poppic",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 9619.0,
-          "pricePerShare": 0.451,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "FLD",
-          "issuerName": "Fold Holdings, Inc.",
-          "insiderName": "Repass Wolfe",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 959.0,
-          "pricePerShare": 0.451,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "FLD",
-          "issuerName": "Fold Holdings, Inc.",
-          "insiderName": "Repass Wolfe",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1918.0,
-          "pricePerShare": 0.451,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "FLD",
-          "issuerName": "Fold Holdings, Inc.",
-          "insiderName": "Dickman Thomas J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1922.0,
-          "pricePerShare": 0.457,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "FLD",
-          "issuerName": "Fold Holdings, Inc.",
-          "insiderName": "Dickman Thomas J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 962.0,
-          "pricePerShare": 0.457,
-          "transactionDate": "2026-08-17"
-        }
-      ]
-    },
     "MGEE": {
       "issuerName": "MGE ENERGY INC",
       "trades": [
@@ -49857,41 +49947,6 @@
           "shares": 995.0,
           "pricePerShare": 5.55,
           "transactionDate": "2026-08-13"
-        }
-      ]
-    },
-    "VENU": {
-      "issuerName": "Venu Holding Corp",
-      "trades": [
-        {
-          "ticker": "VENU",
-          "issuerName": "Venu Holding Corp",
-          "insiderName": "ROTH JAY W",
-          "title": "Director, CEO & Chairman, 10% Owner",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 1.8852,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "VENU",
-          "issuerName": "Venu Holding Corp",
-          "insiderName": "ROTH JAY W",
-          "title": "Director, CEO & Chairman, 10% Owner",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 1.8399,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "VENU",
-          "issuerName": "Venu Holding Corp",
-          "insiderName": "ROTH JAY W",
-          "title": "Director, CEO & Chairman, 10% Owner",
-          "type": "Purchase",
-          "shares": 4750.0,
-          "pricePerShare": 1.9715,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -63332,61 +63387,6 @@
           "shares": 13595.0,
           "pricePerShare": 99.35,
           "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "P",
-          "issuerName": "Everpure, Inc.",
-          "insiderName": "Colgrove John",
-          "title": "Director, Chief Visionary Officer",
-          "type": "Sale",
-          "shares": 2100.0,
-          "pricePerShare": 100.48,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "P",
-          "issuerName": "Everpure, Inc.",
-          "insiderName": "Colgrove John",
-          "title": "Director, Chief Visionary Officer",
-          "type": "Sale",
-          "shares": 1100.0,
-          "pricePerShare": 101.59,
-          "transactionDate": "2026-08-10"
-        }
-      ]
-    },
-    "SN": {
-      "issuerName": "SharkNinja, Inc.",
-      "trades": [
-        {
-          "ticker": "SN",
-          "issuerName": "SharkNinja, Inc.",
-          "insiderName": "Shah Neil B.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 18721.0,
-          "pricePerShare": 184.58,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "SN",
-          "issuerName": "SharkNinja, Inc.",
-          "insiderName": "Shah Neil B.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 155.0,
-          "pricePerShare": 185.0,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "SN",
-          "issuerName": "SharkNinja, Inc.",
-          "insiderName": "Shah Neil B.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1457.0,
-          "pricePerShare": 186.12,
-          "transactionDate": "2026-08-10"
         }
       ]
     }
@@ -64060,6 +64060,23 @@
       "0000827060-26-000033",
       "0000829224-26-000133",
       "0000832480-26-000025",
+      "0000832988-26-000203",
+      "0000832988-26-000204",
+      "0000832988-26-000205",
+      "0000832988-26-000206",
+      "0000832988-26-000207",
+      "0000832988-26-000208",
+      "0000832988-26-000209",
+      "0000832988-26-000210",
+      "0000832988-26-000211",
+      "0000832988-26-000212",
+      "0000832988-26-000213",
+      "0000832988-26-000214",
+      "0000832988-26-000215",
+      "0000832988-26-000216",
+      "0000832988-26-000217",
+      "0000832988-26-000218",
+      "0000832988-26-000219",
       "0000833444-26-000089",
       "0000833444-26-000091",
       "0000833640-26-000127",
@@ -65480,6 +65497,7 @@
       "0001035422-26-000001",
       "0001035422-26-000005",
       "0001035422-26-000006",
+      "0001035422-26-000007",
       "0001035986-26-000005",
       "0001037589-26-000005",
       "0001037646-26-000057",
@@ -69593,6 +69611,7 @@
       "0001193125-26-363913",
       "0001193125-26-363930",
       "0001193125-26-363943",
+      "0001193125-26-363956",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70590,6 +70609,7 @@
       "0001213900-26-093106",
       "0001213900-26-093174",
       "0001213900-26-093175",
+      "0001213900-26-093204",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71425,6 +71445,8 @@
       "0001417341-26-000002",
       "0001419945-26-000057",
       "0001419945-26-000059",
+      "0001419945-26-000061",
+      "0001419945-26-000062",
       "0001421517-26-000073",
       "0001421517-26-000075",
       "0001422283-26-000002",
@@ -72434,6 +72456,7 @@
       "0001493152-26-039831",
       "0001493152-26-039925",
       "0001493152-26-039933",
+      "0001493152-26-039935",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -73664,6 +73687,11 @@
       "0001628280-26-058747",
       "0001628280-26-058749",
       "0001628280-26-058751",
+      "0001628280-26-058753",
+      "0001628280-26-058755",
+      "0001628280-26-058757",
+      "0001628280-26-058760",
+      "0001628280-26-058762",
       "0001629079-26-000002",
       "0001629111-26-000010",
       "0001629292-26-000002",
@@ -79708,6 +79736,7 @@
       "0002080588-26-000005",
       "0002081396-26-000008",
       "0002081627-26-000013",
+      "0002082900-26-000006",
       "0002083068-26-000004",
       "0002083206-26-000007",
       "0002083595-26-000006",
