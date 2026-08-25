@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T18:01:24.328852+00:00",
+  "generatedAt": "2026-08-25T19:04:37.003120+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -2401,6 +2401,16 @@
       "type": "Purchase",
       "shares": 1000.0,
       "pricePerShare": 29.85,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "AMR",
+      "issuerName": "Alpha Metallurgical Resources, Inc.",
+      "insiderName": "Gorzynski Michael",
+      "title": "Director, 10% Owner",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 208.9169,
       "transactionDate": "2026-08-21"
     },
     {
@@ -29992,16 +30002,6 @@
       "shares": 35000.0,
       "pricePerShare": 175.433,
       "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "EDU",
-      "issuerName": "New Oriental Education & Technology Group Inc.",
-      "insiderName": "Zhou Chenggang",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 56948.0,
-      "pricePerShare": 56.83,
-      "transactionDate": "2026-08-10"
     }
   ],
   "byTicker": {
@@ -42050,6 +42050,81 @@
         }
       ]
     },
+    "AMR": {
+      "issuerName": "Alpha Metallurgical Resources, Inc.",
+      "trades": [
+        {
+          "ticker": "AMR",
+          "issuerName": "Alpha Metallurgical Resources, Inc.",
+          "insiderName": "Gorzynski Michael",
+          "title": "Director, 10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 208.9169,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "AMR",
+          "issuerName": "Alpha Metallurgical Resources, Inc.",
+          "insiderName": "Courtis Kenneth S.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 333.0,
+          "pricePerShare": 189.84,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "AMR",
+          "issuerName": "Alpha Metallurgical Resources, Inc.",
+          "insiderName": "Courtis Kenneth S.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 943.0,
+          "pricePerShare": 190.77,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "AMR",
+          "issuerName": "Alpha Metallurgical Resources, Inc.",
+          "insiderName": "Courtis Kenneth S.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1151.0,
+          "pricePerShare": 192.09,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "AMR",
+          "issuerName": "Alpha Metallurgical Resources, Inc.",
+          "insiderName": "Courtis Kenneth S.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1234.0,
+          "pricePerShare": 192.8,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "AMR",
+          "issuerName": "Alpha Metallurgical Resources, Inc.",
+          "insiderName": "Courtis Kenneth S.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 5976.0,
+          "pricePerShare": 193.68,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "AMR",
+          "issuerName": "Alpha Metallurgical Resources, Inc.",
+          "insiderName": "Courtis Kenneth S.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 5363.0,
+          "pricePerShare": 194.48,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
     "CFFI": {
       "issuerName": "C & F FINANCIAL CORP",
       "trades": [
@@ -43222,71 +43297,6 @@
           "shares": 946.0,
           "pricePerShare": 3.39,
           "transactionDate": "2026-08-19"
-        }
-      ]
-    },
-    "AMR": {
-      "issuerName": "Alpha Metallurgical Resources, Inc.",
-      "trades": [
-        {
-          "ticker": "AMR",
-          "issuerName": "Alpha Metallurgical Resources, Inc.",
-          "insiderName": "Courtis Kenneth S.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 333.0,
-          "pricePerShare": 189.84,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AMR",
-          "issuerName": "Alpha Metallurgical Resources, Inc.",
-          "insiderName": "Courtis Kenneth S.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 943.0,
-          "pricePerShare": 190.77,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AMR",
-          "issuerName": "Alpha Metallurgical Resources, Inc.",
-          "insiderName": "Courtis Kenneth S.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1151.0,
-          "pricePerShare": 192.09,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AMR",
-          "issuerName": "Alpha Metallurgical Resources, Inc.",
-          "insiderName": "Courtis Kenneth S.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1234.0,
-          "pricePerShare": 192.8,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AMR",
-          "issuerName": "Alpha Metallurgical Resources, Inc.",
-          "insiderName": "Courtis Kenneth S.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 5976.0,
-          "pricePerShare": 193.68,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AMR",
-          "issuerName": "Alpha Metallurgical Resources, Inc.",
-          "insiderName": "Courtis Kenneth S.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 5363.0,
-          "pricePerShare": 194.48,
-          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -63349,21 +63359,6 @@
           "transactionDate": "2026-08-10"
         }
       ]
-    },
-    "EDU": {
-      "issuerName": "New Oriental Education & Technology Group Inc.",
-      "trades": [
-        {
-          "ticker": "EDU",
-          "issuerName": "New Oriental Education & Technology Group Inc.",
-          "insiderName": "Zhou Chenggang",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 56948.0,
-          "pricePerShare": 56.83,
-          "transactionDate": "2026-08-10"
-        }
-      ]
     }
   },
   "_meta": {
@@ -64285,6 +64280,8 @@
       "0000898432-26-000567",
       "0000898432-26-000573",
       "0000898432-26-000590",
+      "0000898745-26-000842",
+      "0000898745-26-000843",
       "0000899051-26-000123",
       "0000899140-26-000726",
       "0000899140-26-000735",
@@ -64450,6 +64447,7 @@
       "0000921895-26-002203",
       "0000921895-26-002204",
       "0000921895-26-002230",
+      "0000921895-26-002305",
       "0000922147-26-000010",
       "0000922147-26-000012",
       "0000922147-26-000016",
@@ -65413,6 +65411,8 @@
       "0000950103-26-012837",
       "0000950103-26-012838",
       "0000950103-26-012839",
+      "0000950103-26-012843",
+      "0000950103-26-012844",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -69690,6 +69690,12 @@
       "0001193125-26-364713",
       "0001193125-26-364722",
       "0001193125-26-364723",
+      "0001193125-26-364755",
+      "0001193125-26-364769",
+      "0001193125-26-364771",
+      "0001193125-26-364792",
+      "0001193125-26-364794",
+      "0001193125-26-364824",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70722,6 +70728,9 @@
       "0001213900-26-093436",
       "0001213900-26-093437",
       "0001213900-26-093442",
+      "0001213900-26-093458",
+      "0001213900-26-093460",
+      "0001213900-26-093461",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -70907,6 +70916,8 @@
       "0001214659-26-010759",
       "0001214659-26-010782",
       "0001214659-26-010802",
+      "0001214659-26-010824",
+      "0001214659-26-010825",
       "0001214993-26-000004",
       "0001216055-26-000006",
       "0001216055-26-000007",
@@ -73837,6 +73848,7 @@
       "0001628280-26-058762",
       "0001628280-26-058766",
       "0001628280-26-058803",
+      "0001628280-26-058831",
       "0001629079-26-000002",
       "0001629111-26-000010",
       "0001629292-26-000002",
@@ -74244,8 +74256,10 @@
       "0001729840-26-000026",
       "0001729859-26-000040",
       "0001729859-26-000044",
+      "0001729859-26-000046",
       "0001729897-26-000038",
       "0001729897-26-000042",
+      "0001729897-26-000044",
       "0001730131-26-000003",
       "0001730226-26-000006",
       "0001730877-26-000006",
@@ -74882,6 +74896,7 @@
       "0001829126-26-009203",
       "0001829126-26-009291",
       "0001829126-26-009294",
+      "0001829126-26-009298",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -76717,6 +76732,20 @@
       "0001839882-26-041380",
       "0001839882-26-041381",
       "0001839882-26-041382",
+      "0001839882-26-041394",
+      "0001839882-26-041395",
+      "0001839882-26-041398",
+      "0001839882-26-041399",
+      "0001839882-26-041400",
+      "0001839882-26-041401",
+      "0001839882-26-041402",
+      "0001839882-26-041403",
+      "0001839882-26-041405",
+      "0001839882-26-041406",
+      "0001839882-26-041407",
+      "0001839882-26-041408",
+      "0001839882-26-041409",
+      "0001839882-26-041410",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -76804,6 +76833,7 @@
       "0001857843-26-000024",
       "0001857896-26-000006",
       "0001858189-26-000007",
+      "0001858668-26-000008",
       "0001858936-26-000002",
       "0001858936-26-000004",
       "0001859182-26-000006",
@@ -76861,6 +76891,7 @@
       "0001869579-26-000006",
       "0001869579-26-000007",
       "0001870473-26-000024",
+      "0001870473-26-000026",
       "0001870488-26-000002",
       "0001870837-26-000003",
       "0001870974-26-000008",
@@ -79136,6 +79167,13 @@
       "0001918704-26-024709",
       "0001918704-26-024710",
       "0001918704-26-024711",
+      "0001918704-26-024718",
+      "0001918704-26-024719",
+      "0001918704-26-024720",
+      "0001918704-26-024721",
+      "0001918704-26-024724",
+      "0001918704-26-024725",
+      "0001918704-26-024726",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -79685,6 +79723,7 @@
       "0001999371-26-018617",
       "0001999371-26-018627",
       "0001999371-26-018638",
+      "0001999371-26-018646",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0001999852-26-000003",
@@ -79771,6 +79810,7 @@
       "0002021854-26-000022",
       "0002022654-26-000002",
       "0002023255-26-000007",
+      "0002023454-26-000006",
       "0002023657-26-000005",
       "0002023806-26-000007",
       "0002024096-26-000013",
@@ -80036,6 +80076,7 @@
       "0002080588-26-000005",
       "0002081396-26-000008",
       "0002081627-26-000013",
+      "0002081727-26-000004",
       "0002082900-26-000006",
       "0002083068-26-000004",
       "0002083206-26-000007",
@@ -80055,6 +80096,7 @@
       "0002086163-26-000008",
       "0002088410-26-000008",
       "0002088549-26-000007",
+      "0002088869-26-000001",
       "0002088880-26-000006",
       "0002089263-26-000012",
       "0002089263-26-000014",
