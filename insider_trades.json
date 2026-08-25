@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T19:04:37.003120+00:00",
+  "generatedAt": "2026-08-25T20:02:03.530210+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -31,6 +31,16 @@
       "type": "Purchase",
       "shares": 14000.0,
       "pricePerShare": 9.72,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "AMRZ",
+      "issuerName": "Amrize Ltd",
+      "insiderName": "Forrest Nollaig",
+      "title": "Chief Mktg & Corp Affairs Off",
+      "type": "Purchase",
+      "shares": 1500.0,
+      "pricePerShare": 44.15,
       "transactionDate": "2026-08-25"
     },
     {
@@ -661,6 +671,16 @@
       "type": "Purchase",
       "shares": 1200.0,
       "pricePerShare": 83.74,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "NWPX",
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "insiderName": "MONTROSS SCOTT J",
+      "title": "President & CEO",
+      "type": "Sale",
+      "shares": 2500.0,
+      "pricePerShare": 109.3674,
       "transactionDate": "2026-08-24"
     },
     {
@@ -2411,6 +2431,26 @@
       "type": "Purchase",
       "shares": 10000.0,
       "pricePerShare": 208.9169,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "CDTG",
+      "issuerName": "CDT Environmental Technology Investment Holdings Ltd",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 2052.0,
+      "pricePerShare": 1.36,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "PAM",
+      "issuerName": "Pampa Energy Inc.",
+      "insiderName": "Mindlin Marcos Marcelo",
+      "title": "Director, 10% Owner",
+      "type": "Purchase",
+      "shares": 675000.0,
+      "pricePerShare": 3.376,
       "transactionDate": "2026-08-21"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 13072.0,
       "pricePerShare": 15.78,
       "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "NATR",
-      "issuerName": "NATURES SUNSHINE PRODUCTS INC",
-      "insiderName": "PRESCOTT GROUP CAPITAL MANAGEMENT, L.L.C.",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 10000.0,
-      "pricePerShare": 16.01,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "LTGO",
-      "issuerName": "Latigo Biotherapeutics, Inc.",
-      "insiderName": "Foresite Capital Management V, LLC",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 140000.0,
-      "pricePerShare": 18.0,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "SCHW",
-      "issuerName": "SCHWAB CHARLES CORP",
-      "insiderName": "Murtagh Nigel J",
-      "title": "Chief Risk Officer",
-      "type": "Sale",
-      "shares": 24778.0,
-      "pricePerShare": 109.0086,
-      "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "BPOP",
-      "issuerName": "POPULAR, INC.",
-      "insiderName": "FERRER JAVIER D.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 35000.0,
-      "pricePerShare": 175.433,
-      "transactionDate": "2026-08-10"
     }
   ],
   "byTicker": {
@@ -30097,6 +30097,81 @@
           "shares": 14000.0,
           "pricePerShare": 9.72,
           "transactionDate": "2026-08-25"
+        }
+      ]
+    },
+    "AMRZ": {
+      "issuerName": "Amrize Ltd",
+      "trades": [
+        {
+          "ticker": "AMRZ",
+          "issuerName": "Amrize Ltd",
+          "insiderName": "Forrest Nollaig",
+          "title": "Chief Mktg & Corp Affairs Off",
+          "type": "Purchase",
+          "shares": 1500.0,
+          "pricePerShare": 44.15,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "AMRZ",
+          "issuerName": "Amrize Ltd",
+          "insiderName": "Poletti Samuel Jonas",
+          "title": "Chief Strategy & M&A Officer",
+          "type": "Purchase",
+          "shares": 2510.0,
+          "pricePerShare": 46.92,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "AMRZ",
+          "issuerName": "Amrize Ltd",
+          "insiderName": "Clark Stephen S",
+          "title": "Chief People Officer",
+          "type": "Purchase",
+          "shares": 5260.0,
+          "pricePerShare": 47.31,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "AMRZ",
+          "issuerName": "Amrize Ltd",
+          "insiderName": "Brouwer Roald",
+          "title": "Chief Technology Officer",
+          "type": "Purchase",
+          "shares": 1500.0,
+          "pricePerShare": 46.36,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "AMRZ",
+          "issuerName": "Amrize Ltd",
+          "insiderName": "Gross Mario",
+          "title": "Chief Supply Chain Officer",
+          "type": "Purchase",
+          "shares": 3200.0,
+          "pricePerShare": 46.62,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "AMRZ",
+          "issuerName": "Amrize Ltd",
+          "insiderName": "Gross Mario",
+          "title": "Chief Supply Chain Officer",
+          "type": "Purchase",
+          "shares": 368.0,
+          "pricePerShare": 46.38,
+          "transactionDate": "2026-08-11"
+        },
+        {
+          "ticker": "AMRZ",
+          "issuerName": "Amrize Ltd",
+          "insiderName": "Hill Jaime",
+          "title": "President, Building Materials",
+          "type": "Purchase",
+          "shares": 1500.0,
+          "pricePerShare": 47.12,
+          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -33942,6 +34017,41 @@
           "shares": 1200.0,
           "pricePerShare": 83.74,
           "transactionDate": "2026-08-24"
+        }
+      ]
+    },
+    "NWPX": {
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "trades": [
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "MONTROSS SCOTT J",
+          "title": "President & CEO",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 109.3674,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "MONTROSS SCOTT J",
+          "title": "President & CEO",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 115.1274,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "LARSON KEITH R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1250.0,
+          "pricePerShare": 115.8631,
+          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -42122,6 +42232,36 @@
           "shares": 5363.0,
           "pricePerShare": 194.48,
           "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "CDTG": {
+      "issuerName": "CDT Environmental Technology Investment Holdings Ltd",
+      "trades": [
+        {
+          "ticker": "CDTG",
+          "issuerName": "CDT Environmental Technology Investment Holdings Ltd",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2052.0,
+          "pricePerShare": 1.36,
+          "transactionDate": "2026-08-21"
+        }
+      ]
+    },
+    "PAM": {
+      "issuerName": "Pampa Energy Inc.",
+      "trades": [
+        {
+          "ticker": "PAM",
+          "issuerName": "Pampa Energy Inc.",
+          "insiderName": "Mindlin Marcos Marcelo",
+          "title": "Director, 10% Owner",
+          "type": "Purchase",
+          "shares": 675000.0,
+          "pricePerShare": 3.376,
+          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -54715,71 +54855,6 @@
         }
       ]
     },
-    "AMRZ": {
-      "issuerName": "Amrize Ltd",
-      "trades": [
-        {
-          "ticker": "AMRZ",
-          "issuerName": "Amrize Ltd",
-          "insiderName": "Poletti Samuel Jonas",
-          "title": "Chief Strategy & M&A Officer",
-          "type": "Purchase",
-          "shares": 2510.0,
-          "pricePerShare": 46.92,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "AMRZ",
-          "issuerName": "Amrize Ltd",
-          "insiderName": "Clark Stephen S",
-          "title": "Chief People Officer",
-          "type": "Purchase",
-          "shares": 5260.0,
-          "pricePerShare": 47.31,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "AMRZ",
-          "issuerName": "Amrize Ltd",
-          "insiderName": "Brouwer Roald",
-          "title": "Chief Technology Officer",
-          "type": "Purchase",
-          "shares": 1500.0,
-          "pricePerShare": 46.36,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "AMRZ",
-          "issuerName": "Amrize Ltd",
-          "insiderName": "Gross Mario",
-          "title": "Chief Supply Chain Officer",
-          "type": "Purchase",
-          "shares": 3200.0,
-          "pricePerShare": 46.62,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "AMRZ",
-          "issuerName": "Amrize Ltd",
-          "insiderName": "Gross Mario",
-          "title": "Chief Supply Chain Officer",
-          "type": "Purchase",
-          "shares": 368.0,
-          "pricePerShare": 46.38,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "AMRZ",
-          "issuerName": "Amrize Ltd",
-          "insiderName": "Hill Jaime",
-          "title": "President, Building Materials",
-          "type": "Purchase",
-          "shares": 1500.0,
-          "pricePerShare": 47.12,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
     "BCDA": {
       "issuerName": "BioCardia, Inc.",
       "trades": [
@@ -54935,31 +55010,6 @@
         }
       ]
     },
-    "NWPX": {
-      "issuerName": "NWPX Infrastructure, Inc.",
-      "trades": [
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "MONTROSS SCOTT J",
-          "title": "President & CEO",
-          "type": "Sale",
-          "shares": 2500.0,
-          "pricePerShare": 115.1274,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "LARSON KEITH R",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1250.0,
-          "pricePerShare": 115.8631,
-          "transactionDate": "2026-08-17"
-        }
-      ]
-    },
     "GABC": {
       "issuerName": "GERMAN AMERICAN BANCORP, INC.",
       "trades": [
@@ -55107,16 +55157,6 @@
           "shares": 46445.0,
           "pricePerShare": 107.7773,
           "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Murtagh Nigel J",
-          "title": "Chief Risk Officer",
-          "type": "Sale",
-          "shares": 24778.0,
-          "pricePerShare": 109.0086,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -63272,16 +63312,6 @@
           "shares": 140000.0,
           "pricePerShare": 18.0,
           "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "LTGO",
-          "issuerName": "Latigo Biotherapeutics, Inc.",
-          "insiderName": "Foresite Capital Management V, LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 140000.0,
-          "pricePerShare": 18.0,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -63331,31 +63361,6 @@
           "type": "Purchase",
           "shares": 13072.0,
           "pricePerShare": 15.78,
-          "transactionDate": "2026-08-10"
-        },
-        {
-          "ticker": "NATR",
-          "issuerName": "NATURES SUNSHINE PRODUCTS INC",
-          "insiderName": "PRESCOTT GROUP CAPITAL MANAGEMENT, L.L.C.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 16.01,
-          "transactionDate": "2026-08-10"
-        }
-      ]
-    },
-    "BPOP": {
-      "issuerName": "POPULAR, INC.",
-      "trades": [
-        {
-          "ticker": "BPOP",
-          "issuerName": "POPULAR, INC.",
-          "insiderName": "FERRER JAVIER D.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 35000.0,
-          "pricePerShare": 175.433,
           "transactionDate": "2026-08-10"
         }
       ]
@@ -63768,6 +63773,9 @@
       "0000310354-26-000062",
       "0000310354-26-000064",
       "0000310354-26-000066",
+      "0000310354-26-000068",
+      "0000310354-26-000070",
+      "0000310354-26-000072",
       "0000311094-26-000054",
       "0000311094-26-000056",
       "0000313143-26-000099",
@@ -64228,6 +64236,10 @@
       "0000894189-26-022632",
       "0000894189-26-022658",
       "0000894189-26-022722",
+      "0000894189-26-023474",
+      "0000894189-26-023479",
+      "0000894189-26-023480",
+      "0000894189-26-023481",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895430-26-000024",
@@ -65413,6 +65425,11 @@
       "0000950103-26-012839",
       "0000950103-26-012843",
       "0000950103-26-012844",
+      "0000950103-26-012848",
+      "0000950103-26-012849",
+      "0000950103-26-012850",
+      "0000950103-26-012851",
+      "0000950103-26-012852",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65735,6 +65752,8 @@
       "0001094718-26-000009",
       "0001094891-26-000260",
       "0001096906-26-001276",
+      "0001096906-26-001293",
+      "0001096906-26-001294",
       "0001100612-26-000009",
       "0001101225-26-000008",
       "0001101225-26-000010",
@@ -66476,6 +66495,8 @@
       "0001104659-26-100697",
       "0001104659-26-100707",
       "0001104659-26-100712",
+      "0001104659-26-100771",
+      "0001104659-26-100774",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -69696,6 +69717,21 @@
       "0001193125-26-364792",
       "0001193125-26-364794",
       "0001193125-26-364824",
+      "0001193125-26-365006",
+      "0001193125-26-365020",
+      "0001193125-26-365028",
+      "0001193125-26-365033",
+      "0001193125-26-365042",
+      "0001193125-26-365043",
+      "0001193125-26-365045",
+      "0001193125-26-365049",
+      "0001193125-26-365052",
+      "0001193125-26-365054",
+      "0001193125-26-365057",
+      "0001193125-26-365068",
+      "0001193125-26-365071",
+      "0001193125-26-365077",
+      "0001193125-26-365084",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70731,6 +70767,10 @@
       "0001213900-26-093458",
       "0001213900-26-093460",
       "0001213900-26-093461",
+      "0001213900-26-093482",
+      "0001213900-26-093491",
+      "0001213900-26-093496",
+      "0001213900-26-093498",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71914,6 +71954,7 @@
       "0001437749-26-028889",
       "0001437749-26-028892",
       "0001437749-26-028893",
+      "0001437749-26-028907",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -72183,6 +72224,7 @@
       "0001475597-26-000209",
       "0001475597-26-000210",
       "0001475597-26-000211",
+      "0001475597-26-000214",
       "0001475856-26-000004",
       "0001475922-26-000074",
       "0001476150-26-000036",
@@ -73056,6 +73098,7 @@
       "0001580642-26-005516",
       "0001580642-26-005615",
       "0001580642-26-005616",
+      "0001580642-26-005636",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -73064,6 +73107,7 @@
       "0001582328-26-000011",
       "0001582328-26-000012",
       "0001582473-26-000008",
+      "0001584218-26-000010",
       "0001585521-26-000111",
       "0001585521-26-000113",
       "0001585521-26-000115",
@@ -76746,6 +76790,12 @@
       "0001839882-26-041408",
       "0001839882-26-041409",
       "0001839882-26-041410",
+      "0001839882-26-041417",
+      "0001839882-26-041418",
+      "0001839882-26-041419",
+      "0001839882-26-041420",
+      "0001839882-26-041421",
+      "0001839882-26-041422",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -79174,6 +79224,14 @@
       "0001918704-26-024724",
       "0001918704-26-024725",
       "0001918704-26-024726",
+      "0001918704-26-024739",
+      "0001918704-26-024740",
+      "0001918704-26-024741",
+      "0001918704-26-024742",
+      "0001918704-26-024744",
+      "0001918704-26-024748",
+      "0001918704-26-024749",
+      "0001918704-26-024751",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -79372,6 +79430,7 @@
       "0001987164-26-000011",
       "0001987724-26-000004",
       "0001988277-26-000003",
+      "0001988855-26-000011",
       "0001988976-26-000006",
       "0001988976-26-000008",
       "0001989065-26-000010",
@@ -79724,6 +79783,8 @@
       "0001999371-26-018627",
       "0001999371-26-018638",
       "0001999371-26-018646",
+      "0001999371-26-018651",
+      "0001999371-26-018655",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0001999852-26-000003",
@@ -79809,6 +79870,7 @@
       "0002021356-26-000009",
       "0002021854-26-000022",
       "0002022654-26-000002",
+      "0002022936-26-000013",
       "0002023255-26-000007",
       "0002023454-26-000006",
       "0002023657-26-000005",
@@ -79875,6 +79937,7 @@
       "0002035875-26-000006",
       "0002035959-26-000005",
       "0002035989-26-000069",
+      "0002035989-26-000071",
       "0002036536-26-000010",
       "0002037071-26-000001",
       "0002037266-26-000006",
