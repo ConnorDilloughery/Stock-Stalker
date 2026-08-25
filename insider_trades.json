@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T12:04:56.059492+00:00",
+  "generatedAt": "2026-08-25T13:03:28.302188+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -491,6 +491,16 @@
       "type": "Sale",
       "shares": 20.0,
       "pricePerShare": 19.5,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "IDAI",
+      "issuerName": "T Stamp Inc",
+      "insiderName": "Genner Gareth Neville",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 2000.0,
+      "pricePerShare": 3.21,
       "transactionDate": "2026-08-24"
     },
     {
@@ -29992,16 +30002,6 @@
       "shares": 50000.0,
       "pricePerShare": 3.9926,
       "transactionDate": "2026-08-10"
-    },
-    {
-      "ticker": "UFPT",
-      "issuerName": "UFP TECHNOLOGIES INC",
-      "insiderName": "BAILLY R JEFFREY",
-      "title": "Director, Executive Chairman",
-      "type": "Sale",
-      "shares": 5771.0,
-      "pricePerShare": 315.53,
-      "transactionDate": "2026-08-10"
     }
   ],
   "byTicker": {
@@ -33237,6 +33237,91 @@
           "shares": 1150.0,
           "pricePerShare": 19.3,
           "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "IDAI": {
+      "issuerName": "T Stamp Inc",
+      "trades": [
+        {
+          "ticker": "IDAI",
+          "issuerName": "T Stamp Inc",
+          "insiderName": "Genner Gareth Neville",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 3.21,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "IDAI",
+          "issuerName": "T Stamp Inc",
+          "insiderName": "Genner Gareth Neville",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 3.21,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "IDAI",
+          "issuerName": "T Stamp Inc",
+          "insiderName": "Genner Gareth Neville",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 800.0,
+          "pricePerShare": 3.09,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "IDAI",
+          "issuerName": "T Stamp Inc",
+          "insiderName": "Potts Charles Edward",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 627.0,
+          "pricePerShare": 3.19,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "IDAI",
+          "issuerName": "T Stamp Inc",
+          "insiderName": "Francis Andrew Scott",
+          "title": "Chief Technology Officer",
+          "type": "Purchase",
+          "shares": 1600.0,
+          "pricePerShare": 3.1,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "IDAI",
+          "issuerName": "T Stamp Inc",
+          "insiderName": "Genner Gareth Neville",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 4000.0,
+          "pricePerShare": 2.46,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "IDAI",
+          "issuerName": "T Stamp Inc",
+          "insiderName": "Genner Gareth Neville",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 500.0,
+          "pricePerShare": 2.53,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "IDAI",
+          "issuerName": "T Stamp Inc",
+          "insiderName": "Genner Gareth Neville",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 2.52,
+          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -36997,81 +37082,6 @@
           "shares": 1547.0,
           "pricePerShare": 12.52,
           "transactionDate": "2026-08-20"
-        }
-      ]
-    },
-    "IDAI": {
-      "issuerName": "T Stamp Inc",
-      "trades": [
-        {
-          "ticker": "IDAI",
-          "issuerName": "T Stamp Inc",
-          "insiderName": "Genner Gareth Neville",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 3.21,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "IDAI",
-          "issuerName": "T Stamp Inc",
-          "insiderName": "Genner Gareth Neville",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 800.0,
-          "pricePerShare": 3.09,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "IDAI",
-          "issuerName": "T Stamp Inc",
-          "insiderName": "Potts Charles Edward",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 627.0,
-          "pricePerShare": 3.19,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "IDAI",
-          "issuerName": "T Stamp Inc",
-          "insiderName": "Francis Andrew Scott",
-          "title": "Chief Technology Officer",
-          "type": "Purchase",
-          "shares": 1600.0,
-          "pricePerShare": 3.1,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "IDAI",
-          "issuerName": "T Stamp Inc",
-          "insiderName": "Genner Gareth Neville",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 4000.0,
-          "pricePerShare": 2.46,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "IDAI",
-          "issuerName": "T Stamp Inc",
-          "insiderName": "Genner Gareth Neville",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 500.0,
-          "pricePerShare": 2.53,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "IDAI",
-          "issuerName": "T Stamp Inc",
-          "insiderName": "Genner Gareth Neville",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 2000.0,
-          "pricePerShare": 2.52,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -51627,16 +51637,6 @@
           "shares": 1000.0,
           "pricePerShare": 324.26,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "UFPT",
-          "issuerName": "UFP TECHNOLOGIES INC",
-          "insiderName": "BAILLY R JEFFREY",
-          "title": "Director, Executive Chairman",
-          "type": "Sale",
-          "shares": 5771.0,
-          "pricePerShare": 315.53,
-          "transactionDate": "2026-08-10"
         }
       ]
     },
@@ -65570,6 +65570,9 @@
       "0001056168-26-000004",
       "0001056903-26-000065",
       "0001058090-26-000073",
+      "0001058090-26-000075",
+      "0001058090-26-000077",
+      "0001058090-26-000079",
       "0001059244-26-000009",
       "0001060391-26-000268",
       "0001060391-26-000277",
@@ -66413,6 +66416,9 @@
       "0001104659-26-100544",
       "0001104659-26-100551",
       "0001104659-26-100552",
+      "0001104659-26-100553",
+      "0001104659-26-100555",
+      "0001104659-26-100556",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -69604,6 +69610,8 @@
       "0001193125-26-364066",
       "0001193125-26-364067",
       "0001193125-26-364117",
+      "0001193125-26-364217",
+      "0001193125-26-364240",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72458,6 +72466,10 @@
       "0001493152-26-039933",
       "0001493152-26-039935",
       "0001493152-26-039953",
+      "0001493152-26-039971",
+      "0001493152-26-039972",
+      "0001493152-26-039973",
+      "0001493152-26-039974",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -74267,6 +74279,7 @@
       "0001769628-26-000402",
       "0001769628-26-000404",
       "0001769628-26-000406",
+      "0001769793-26-000011",
       "0001769976-26-000003",
       "0001770071-26-000010",
       "0001771146-26-001463",
@@ -76749,6 +76762,7 @@
       "0001909539-26-000016",
       "0001910573-26-000006",
       "0001910573-26-000011",
+      "0001910573-26-000013",
       "0001911066-26-000099",
       "0001911501-26-000006",
       "0001913953-26-000009",
@@ -78853,6 +78867,11 @@
       "0001918704-26-024579",
       "0001918704-26-024580",
       "0001918704-26-024598",
+      "0001918704-26-024618",
+      "0001918704-26-024619",
+      "0001918704-26-024620",
+      "0001918704-26-024621",
+      "0001918704-26-024622",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
