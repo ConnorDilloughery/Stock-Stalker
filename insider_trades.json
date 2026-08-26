@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T17:05:01.368210+00:00",
+  "generatedAt": "2026-08-26T18:02:11.276252+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -451,6 +451,26 @@
       "type": "Purchase",
       "shares": 1000.0,
       "pricePerShare": 2.93,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "SBLK",
+      "issuerName": "Star Bulk Carriers Corp.",
+      "insiderName": "Zagari Raffaele",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 50000.0,
+      "pricePerShare": 31.2,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "ITRI",
+      "issuerName": "ITRON, INC.",
+      "insiderName": "Reeves Donald L. III",
+      "title": "SVP, Outcomes",
+      "type": "Sale",
+      "shares": 283.0,
+      "pricePerShare": 99.99,
       "transactionDate": "2026-08-25"
     },
     {
@@ -29982,26 +30002,6 @@
       "shares": 590.0,
       "pricePerShare": 164.47,
       "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "ICLR",
-      "issuerName": "ICON PLC",
-      "insiderName": "Murphy Ronan Martin",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 67.0,
-      "pricePerShare": 165.51,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "ICLR",
-      "issuerName": "ICON PLC",
-      "insiderName": "McCague Eugene Pacelli",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 88.0,
-      "pricePerShare": 162.72,
-      "transactionDate": "2026-08-11"
     }
   ],
   "byTicker": {
@@ -31397,6 +31397,136 @@
           "shares": 1100.0,
           "pricePerShare": 48.68,
           "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "SBLK": {
+      "issuerName": "Star Bulk Carriers Corp.",
+      "trades": [
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Zagari Raffaele",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 50000.0,
+          "pricePerShare": 31.2,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Zagari Raffaele",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 50000.0,
+          "pricePerShare": 30.7,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Plakantonaki Charis",
+          "title": "Chief Strategy Officer",
+          "type": "Sale",
+          "shares": 10825.0,
+          "pricePerShare": 29.8201,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "ITRI": {
+      "issuerName": "ITRON, INC.",
+      "trades": [
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Reeves Donald L. III",
+          "title": "SVP, Outcomes",
+          "type": "Sale",
+          "shares": 283.0,
+          "pricePerShare": 99.99,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Reeves Donald L. III",
+          "title": "SVP, Outcomes",
+          "type": "Sale",
+          "shares": 247.0,
+          "pricePerShare": 98.87,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Ware Christopher E.",
+          "title": "SVP, GC & Corp. Secretary",
+          "type": "Sale",
+          "shares": 195.0,
+          "pricePerShare": 97.8259,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Pulatie-Hahn Laurie Ann",
+          "title": "SVP, HR",
+          "type": "Sale",
+          "shares": 187.0,
+          "pricePerShare": 97.8259,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Patrick Justin K",
+          "title": "SVP, Device Solutions",
+          "type": "Sale",
+          "shares": 212.0,
+          "pricePerShare": 97.8259,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Marcolini John F.",
+          "title": "SVP, Networked Solutions",
+          "type": "Sale",
+          "shares": 275.0,
+          "pricePerShare": 97.8259,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Deitrich Thomas",
+          "title": "Director, President & CEO",
+          "type": "Sale",
+          "shares": 783.0,
+          "pricePerShare": 97.8259,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Hooper Joan S",
+          "title": "SVP & CFO",
+          "type": "Sale",
+          "shares": 365.0,
+          "pricePerShare": 97.8259,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Hooper Joan S",
+          "title": "SVP & CFO",
+          "type": "Sale",
+          "shares": 4041.0,
+          "pricePerShare": 98.95,
+          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -34507,31 +34637,6 @@
           "shares": 183501.0,
           "pricePerShare": 13.85,
           "transactionDate": "2026-08-24"
-        }
-      ]
-    },
-    "SBLK": {
-      "issuerName": "Star Bulk Carriers Corp.",
-      "trades": [
-        {
-          "ticker": "SBLK",
-          "issuerName": "Star Bulk Carriers Corp.",
-          "insiderName": "Zagari Raffaele",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 50000.0,
-          "pricePerShare": 30.7,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "SBLK",
-          "issuerName": "Star Bulk Carriers Corp.",
-          "insiderName": "Plakantonaki Charis",
-          "title": "Chief Strategy Officer",
-          "type": "Sale",
-          "shares": 10825.0,
-          "pricePerShare": 29.8201,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -39407,91 +39512,6 @@
           "shares": 9487.0,
           "pricePerShare": 135.15,
           "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "ITRI": {
-      "issuerName": "ITRON, INC.",
-      "trades": [
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Reeves Donald L. III",
-          "title": "SVP, Outcomes",
-          "type": "Sale",
-          "shares": 247.0,
-          "pricePerShare": 98.87,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Ware Christopher E.",
-          "title": "SVP, GC & Corp. Secretary",
-          "type": "Sale",
-          "shares": 195.0,
-          "pricePerShare": 97.8259,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Pulatie-Hahn Laurie Ann",
-          "title": "SVP, HR",
-          "type": "Sale",
-          "shares": 187.0,
-          "pricePerShare": 97.8259,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Patrick Justin K",
-          "title": "SVP, Device Solutions",
-          "type": "Sale",
-          "shares": 212.0,
-          "pricePerShare": 97.8259,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Marcolini John F.",
-          "title": "SVP, Networked Solutions",
-          "type": "Sale",
-          "shares": 275.0,
-          "pricePerShare": 97.8259,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Deitrich Thomas",
-          "title": "Director, President & CEO",
-          "type": "Sale",
-          "shares": 783.0,
-          "pricePerShare": 97.8259,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Hooper Joan S",
-          "title": "SVP & CFO",
-          "type": "Sale",
-          "shares": 365.0,
-          "pricePerShare": 97.8259,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Hooper Joan S",
-          "title": "SVP & CFO",
-          "type": "Sale",
-          "shares": 4041.0,
-          "pricePerShare": 98.95,
-          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -63292,26 +63312,6 @@
           "shares": 590.0,
           "pricePerShare": 164.47,
           "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "ICLR",
-          "issuerName": "ICON PLC",
-          "insiderName": "Murphy Ronan Martin",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 67.0,
-          "pricePerShare": 165.51,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "ICLR",
-          "issuerName": "ICON PLC",
-          "insiderName": "McCague Eugene Pacelli",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 88.0,
-          "pricePerShare": 162.72,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -64009,6 +64009,7 @@
       "0000780571-26-000188",
       "0000780571-26-000194",
       "0000780571-26-000196",
+      "0000780571-26-000214",
       "0000784977-26-000048",
       "0000785161-26-000190",
       "0000785161-26-000191",
@@ -65460,6 +65461,8 @@
       "0000950103-26-012897",
       "0000950103-26-012899",
       "0000950103-26-012900",
+      "0000950103-26-012901",
+      "0000950103-26-012902",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65770,6 +65773,12 @@
       "0001081400-26-000422",
       "0001081400-26-000424",
       "0001081400-26-000427",
+      "0001081400-26-000429",
+      "0001081400-26-000431",
+      "0001081400-26-000433",
+      "0001081400-26-000435",
+      "0001081400-26-000437",
+      "0001081400-26-000439",
       "0001081402-26-000019",
       "0001081402-26-000021",
       "0001081402-26-000023",
@@ -66569,6 +66578,8 @@
       "0001104659-26-100998",
       "0001104659-26-101062",
       "0001104659-26-101198",
+      "0001104659-26-101309",
+      "0001104659-26-101310",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -69883,6 +69894,17 @@
       "0001193125-26-366646",
       "0001193125-26-366650",
       "0001193125-26-366655",
+      "0001193125-26-366665",
+      "0001193125-26-366677",
+      "0001193125-26-366682",
+      "0001193125-26-366683",
+      "0001193125-26-366949",
+      "0001193125-26-366969",
+      "0001193125-26-367099",
+      "0001193125-26-367102",
+      "0001193125-26-367106",
+      "0001193125-26-367118",
+      "0001193125-26-367121",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70952,6 +70974,11 @@
       "0001213900-26-093841",
       "0001213900-26-093842",
       "0001213900-26-093843",
+      "0001213900-26-093859",
+      "0001213900-26-093863",
+      "0001213900-26-093867",
+      "0001213900-26-093871",
+      "0001213900-26-093872",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71794,6 +71821,7 @@
       "0001405955-26-000007",
       "0001405955-26-000009",
       "0001408736-26-000007",
+      "0001408736-26-000008",
       "0001408749-26-000010",
       "0001409460-26-000011",
       "0001409722-26-000012",
@@ -73360,6 +73388,7 @@
       "0001580642-26-005636",
       "0001580642-26-005663",
       "0001580642-26-005664",
+      "0001580642-26-005669",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -74172,6 +74201,12 @@
       "0001628280-26-058986",
       "0001628280-26-058987",
       "0001628280-26-058994",
+      "0001628280-26-059023",
+      "0001628280-26-059026",
+      "0001628280-26-059028",
+      "0001628280-26-059031",
+      "0001628280-26-059034",
+      "0001628280-26-059037",
       "0001629079-26-000002",
       "0001629111-26-000010",
       "0001629292-26-000002",
@@ -74454,6 +74489,8 @@
       "0001683168-26-006620",
       "0001683168-26-006637",
       "0001683168-26-006638",
+      "0001683168-26-006727",
+      "0001683168-26-006729",
       "0001687112-26-000016",
       "0001687130-26-000013",
       "0001687132-26-000024",
@@ -74548,6 +74585,7 @@
       "0001713974-26-000002",
       "0001714460-26-000012",
       "0001714460-26-000013",
+      "0001714460-26-000014",
       "0001714908-26-000007",
       "0001716837-26-000024",
       "0001716951-26-000043",
@@ -75237,6 +75275,9 @@
       "0001829126-26-009294",
       "0001829126-26-009298",
       "0001829126-26-009342",
+      "0001829126-26-009345",
+      "0001829126-26-009348",
+      "0001829126-26-009352",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -77132,6 +77173,13 @@
       "0001839882-26-041583",
       "0001839882-26-041585",
       "0001839882-26-041586",
+      "0001839882-26-041587",
+      "0001839882-26-041589",
+      "0001839882-26-041591",
+      "0001839882-26-041592",
+      "0001839882-26-041593",
+      "0001839882-26-041604",
+      "0001839882-26-041605",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -79677,6 +79725,19 @@
       "0001918704-26-024899",
       "0001918704-26-024900",
       "0001918704-26-024901",
+      "0001918704-26-024902",
+      "0001918704-26-024903",
+      "0001918704-26-024904",
+      "0001918704-26-024905",
+      "0001918704-26-024906",
+      "0001918704-26-024907",
+      "0001918704-26-024908",
+      "0001918704-26-024909",
+      "0001918704-26-024910",
+      "0001918704-26-024911",
+      "0001918704-26-024912",
+      "0001918704-26-024913",
+      "0001918704-26-024914",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -80260,6 +80321,7 @@
       "0002004306-26-000004",
       "0002004397-26-000006",
       "0002005037-26-000012",
+      "0002005037-26-000013",
       "0002005790-26-000024",
       "0002005814-26-000002",
       "0002006416-26-000013",
