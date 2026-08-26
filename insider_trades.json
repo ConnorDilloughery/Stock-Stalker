@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T14:02:10.613077+00:00",
+  "generatedAt": "2026-08-26T15:06:02.346131+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -311,6 +311,46 @@
       "type": "Sale",
       "shares": 5000.0,
       "pricePerShare": 102.255,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "MBC",
+      "issuerName": "MasterBrand, Inc.",
+      "insiderName": "Young Mark A.",
+      "title": "VP, Chief Accounting Officer",
+      "type": "Sale",
+      "shares": 3057.0,
+      "pricePerShare": 9.15,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "MBC",
+      "issuerName": "MasterBrand, Inc.",
+      "insiderName": "Young Mark A.",
+      "title": "VP, Chief Accounting Officer",
+      "type": "Sale",
+      "shares": 2943.0,
+      "pricePerShare": 9.15,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "AMRZ",
+      "issuerName": "Amrize Ltd",
+      "insiderName": "Singleton Denise R",
+      "title": "Chief Legal Officer & Corp Sec",
+      "type": "Purchase",
+      "shares": 3500.0,
+      "pricePerShare": 44.115,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "TPL",
+      "issuerName": "Texas Pacific Land Corp",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 372.58,
       "transactionDate": "2026-08-25"
     },
     {
@@ -1471,6 +1511,16 @@
       "type": "Sale",
       "shares": 400.0,
       "pricePerShare": 50.0075,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "EDRY",
+      "issuerName": "EuroDry Ltd.",
+      "insiderName": "Karmiri Stefania",
+      "title": "Corporate Secretary",
+      "type": "Sale",
+      "shares": 350.0,
+      "pricePerShare": 45.35,
       "transactionDate": "2026-08-24"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 5000.0,
       "pricePerShare": 1.25,
       "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "ALL",
-      "issuerName": "ALLSTATE CORP",
-      "insiderName": "Rizzo Mario",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 43398.0,
-      "pricePerShare": 264.1665,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "ALL",
-      "issuerName": "ALLSTATE CORP",
-      "insiderName": "Rizzo Mario",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 12827.0,
-      "pricePerShare": 265.5505,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "GLIBK",
-      "issuerName": "Liberty Capital Corp/NV",
-      "insiderName": "MALONE JOHN C",
-      "title": "Director, 10% Owner",
-      "type": "Purchase",
-      "shares": 68800.0,
-      "pricePerShare": 25.2246,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "KOP",
-      "issuerName": "Koppers Holdings Inc.",
-      "insiderName": "Sullivan James A.",
-      "title": "President and CTO",
-      "type": "Sale",
-      "shares": 7500.0,
-      "pricePerShare": 50.0,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "VIA",
-      "issuerName": "Via Transportation, Inc.",
-      "insiderName": "Peres Nechemia Jacob",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 10080.0,
-      "pricePerShare": 24.7391,
-      "transactionDate": "2026-08-11"
     }
   ],
   "byTicker": {
@@ -30111,6 +30111,16 @@
           "type": "Purchase",
           "shares": 1500.0,
           "pricePerShare": 44.15,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "AMRZ",
+          "issuerName": "Amrize Ltd",
+          "insiderName": "Singleton Denise R",
+          "title": "Chief Legal Officer & Corp Sec",
+          "type": "Purchase",
+          "shares": 3500.0,
+          "pricePerShare": 44.115,
           "transactionDate": "2026-08-25"
         },
         {
@@ -31101,6 +31111,136 @@
           "type": "Sale",
           "shares": 4300.0,
           "pricePerShare": 102.6919,
+          "transactionDate": "2026-08-11"
+        }
+      ]
+    },
+    "MBC": {
+      "issuerName": "MasterBrand, Inc.",
+      "trades": [
+        {
+          "ticker": "MBC",
+          "issuerName": "MasterBrand, Inc.",
+          "insiderName": "Young Mark A.",
+          "title": "VP, Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 3057.0,
+          "pricePerShare": 9.15,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "MBC",
+          "issuerName": "MasterBrand, Inc.",
+          "insiderName": "Young Mark A.",
+          "title": "VP, Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 2943.0,
+          "pricePerShare": 9.15,
+          "transactionDate": "2026-08-25"
+        }
+      ]
+    },
+    "TPL": {
+      "issuerName": "Texas Pacific Land Corp",
+      "trades": [
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 372.58,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 377.39,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 377.85,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 372.1,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 361.16,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 357.32,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 357.56,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 343.02,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 353.15,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 352.62,
           "transactionDate": "2026-08-11"
         }
       ]
@@ -34280,101 +34420,6 @@
         }
       ]
     },
-    "TPL": {
-      "issuerName": "Texas Pacific Land Corp",
-      "trades": [
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 377.39,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 377.85,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 372.1,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 361.16,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 357.32,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 357.56,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 343.02,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 353.15,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 352.62,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
     "RBA": {
       "issuerName": "RB GLOBAL INC.",
       "trades": [
@@ -35407,6 +35452,91 @@
           "shares": 400.0,
           "pricePerShare": 50.0075,
           "transactionDate": "2026-08-24"
+        }
+      ]
+    },
+    "EDRY": {
+      "issuerName": "EuroDry Ltd.",
+      "trades": [
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Karmiri Stefania",
+          "title": "Corporate Secretary",
+          "type": "Sale",
+          "shares": 350.0,
+          "pricePerShare": 45.35,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 250.0,
+          "pricePerShare": 44.5587,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 250.0,
+          "pricePerShare": 44.5587,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 300.0,
+          "pricePerShare": 39.5,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 300.0,
+          "pricePerShare": 39.5,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pariaros Symeon",
+          "title": "Chief Administrative Officer",
+          "type": "Sale",
+          "shares": 2700.0,
+          "pricePerShare": 42.0,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Pariaros Symeon",
+          "title": "Chief Administrative Officer",
+          "type": "Sale",
+          "shares": 1900.0,
+          "pricePerShare": 39.98,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "EDRY",
+          "issuerName": "EuroDry Ltd.",
+          "insiderName": "Karmiri Stefania",
+          "title": "Corporate Secretary",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 38.5,
+          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -43092,81 +43222,6 @@
           "shares": 5564.0,
           "pricePerShare": 99.55,
           "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "EDRY": {
-      "issuerName": "EuroDry Ltd.",
-      "trades": [
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 250.0,
-          "pricePerShare": 44.5587,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 250.0,
-          "pricePerShare": 44.5587,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 300.0,
-          "pricePerShare": 39.5,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 300.0,
-          "pricePerShare": 39.5,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pariaros Symeon",
-          "title": "Chief Administrative Officer",
-          "type": "Sale",
-          "shares": 2700.0,
-          "pricePerShare": 42.0,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pariaros Symeon",
-          "title": "Chief Administrative Officer",
-          "type": "Sale",
-          "shares": 1900.0,
-          "pricePerShare": 39.98,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Karmiri Stefania",
-          "title": "Corporate Secretary",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 38.5,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -61682,16 +61737,6 @@
           "shares": 66702.0,
           "pricePerShare": 25.5708,
           "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "GLIBK",
-          "issuerName": "Liberty Capital Corp/NV",
-          "insiderName": "MALONE JOHN C",
-          "title": "Director, 10% Owner",
-          "type": "Purchase",
-          "shares": 68800.0,
-          "pricePerShare": 25.2246,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -63311,61 +63356,6 @@
           "type": "Sale",
           "shares": 34239.0,
           "pricePerShare": 148.52,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "ALL": {
-      "issuerName": "ALLSTATE CORP",
-      "trades": [
-        {
-          "ticker": "ALL",
-          "issuerName": "ALLSTATE CORP",
-          "insiderName": "Rizzo Mario",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 43398.0,
-          "pricePerShare": 264.1665,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "ALL",
-          "issuerName": "ALLSTATE CORP",
-          "insiderName": "Rizzo Mario",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 12827.0,
-          "pricePerShare": 265.5505,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "KOP": {
-      "issuerName": "Koppers Holdings Inc.",
-      "trades": [
-        {
-          "ticker": "KOP",
-          "issuerName": "Koppers Holdings Inc.",
-          "insiderName": "Sullivan James A.",
-          "title": "President and CTO",
-          "type": "Sale",
-          "shares": 7500.0,
-          "pricePerShare": 50.0,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "VIA": {
-      "issuerName": "Via Transportation, Inc.",
-      "trades": [
-        {
-          "ticker": "VIA",
-          "issuerName": "Via Transportation, Inc.",
-          "insiderName": "Peres Nechemia Jacob",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 10080.0,
-          "pricePerShare": 24.7391,
           "transactionDate": "2026-08-11"
         }
       ]
@@ -65463,6 +65453,10 @@
       "0000950103-26-012875",
       "0000950103-26-012889",
       "0000950103-26-012890",
+      "0000950103-26-012891",
+      "0000950103-26-012892",
+      "0000950103-26-012893",
+      "0000950103-26-012894",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -69864,6 +69858,7 @@
       "0001193125-26-366114",
       "0001193125-26-366115",
       "0001193125-26-366116",
+      "0001193125-26-366139",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70925,6 +70920,9 @@
       "0001213900-26-093723",
       "0001213900-26-093740",
       "0001213900-26-093749",
+      "0001213900-26-093794",
+      "0001213900-26-093796",
+      "0001213900-26-093805",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -72126,6 +72124,7 @@
       "0001437749-26-028951",
       "0001437749-26-028957",
       "0001437749-26-028959",
+      "0001437749-26-028960",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -72952,6 +72951,7 @@
       "0001523212-26-000002",
       "0001523231-26-000002",
       "0001523672-26-000007",
+      "0001524595-26-000005",
       "0001525177-26-000010",
       "0001525321-26-000008",
       "0001525321-26-000009",
@@ -73044,6 +73044,23 @@
       "0001528621-26-000848",
       "0001528621-26-000849",
       "0001528621-26-000859",
+      "0001528621-26-000884",
+      "0001528621-26-000885",
+      "0001528621-26-000886",
+      "0001528621-26-000887",
+      "0001528621-26-000888",
+      "0001528621-26-000889",
+      "0001528621-26-000890",
+      "0001528621-26-000891",
+      "0001528621-26-000892",
+      "0001528621-26-000893",
+      "0001528621-26-000894",
+      "0001528621-26-000895",
+      "0001528621-26-000896",
+      "0001528621-26-000897",
+      "0001528621-26-000898",
+      "0001528621-26-000899",
+      "0001528621-26-000900",
       "0001530038-26-000002",
       "0001530255-26-000010",
       "0001530819-26-000012",
@@ -73491,6 +73508,9 @@
       "0001623632-26-001189",
       "0001623632-26-001238",
       "0001623632-26-001239",
+      "0001623632-26-001244",
+      "0001623632-26-001245",
+      "0001623632-26-001246",
       "0001624067-26-000002",
       "0001624067-26-000004",
       "0001624067-26-000006",
@@ -75166,6 +75186,7 @@
       "0001829126-26-009291",
       "0001829126-26-009294",
       "0001829126-26-009298",
+      "0001829126-26-009342",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -77026,6 +77047,14 @@
       "0001839882-26-041474",
       "0001839882-26-041476",
       "0001839882-26-041480",
+      "0001839882-26-041491",
+      "0001839882-26-041498",
+      "0001839882-26-041501",
+      "0001839882-26-041503",
+      "0001839882-26-041514",
+      "0001839882-26-041518",
+      "0001839882-26-041519",
+      "0001839882-26-041521",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -79514,6 +79543,28 @@
       "0001918704-26-024829",
       "0001918704-26-024830",
       "0001918704-26-024831",
+      "0001918704-26-024835",
+      "0001918704-26-024836",
+      "0001918704-26-024837",
+      "0001918704-26-024838",
+      "0001918704-26-024839",
+      "0001918704-26-024840",
+      "0001918704-26-024841",
+      "0001918704-26-024842",
+      "0001918704-26-024843",
+      "0001918704-26-024844",
+      "0001918704-26-024845",
+      "0001918704-26-024846",
+      "0001918704-26-024847",
+      "0001918704-26-024848",
+      "0001918704-26-024849",
+      "0001918704-26-024850",
+      "0001918704-26-024851",
+      "0001918704-26-024852",
+      "0001918704-26-024853",
+      "0001918704-26-024854",
+      "0001918704-26-024855",
+      "0001918704-26-024856",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -79561,6 +79612,7 @@
       "0001940272-26-000013",
       "0001940272-26-000017",
       "0001941034-26-000008",
+      "0001941365-26-000077",
       "0001941739-26-000006",
       "0001942639-26-000003",
       "0001944970-26-000021",
@@ -80076,6 +80128,7 @@
       "0001999371-26-018655",
       "0001999371-26-018701",
       "0001999371-26-018703",
+      "0001999371-26-018708",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0001999852-26-000003",
@@ -80546,6 +80599,7 @@
       "0002122040-26-000003",
       "0002122338-26-000005",
       "0002122338-26-000006",
+      "0002122338-26-000007",
       "0002122342-26-000005",
       "0002122342-26-000006",
       "0002122411-26-000001",
