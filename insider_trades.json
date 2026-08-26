@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T01:04:59.465004+00:00",
+  "generatedAt": "2026-08-26T02:01:22.038274+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -4201,6 +4201,46 @@
       "type": "Sale",
       "shares": 6774.0,
       "pricePerShare": 46.57,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "AUPH",
+      "issuerName": "Aurinia Pharmaceuticals Inc.",
+      "insiderName": "Robertson Stephen P.",
+      "title": "Chief Legal Officer",
+      "type": "Sale",
+      "shares": 20975.0,
+      "pricePerShare": 16.97,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "ALSN",
+      "issuerName": "Allison Transmission Holdings Inc",
+      "insiderName": "Graziosi David S.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 13100.0,
+      "pricePerShare": 132.4362,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "ALSN",
+      "issuerName": "Allison Transmission Holdings Inc",
+      "insiderName": "Graziosi David S.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 9050.0,
+      "pricePerShare": 133.2116,
+      "transactionDate": "2026-08-21"
+    },
+    {
+      "ticker": "ALSN",
+      "issuerName": "Allison Transmission Holdings Inc",
+      "insiderName": "Graziosi David S.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 4558.0,
+      "pricePerShare": 134.0479,
       "transactionDate": "2026-08-21"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 16217.0,
       "pricePerShare": 24.1181,
       "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "AEVA",
-      "issuerName": "Aeva Technologies, Inc.",
-      "insiderName": "Dardashti Soroush Salehian",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 14297.0,
-      "pricePerShare": 24.5399,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "TBCH",
-      "issuerName": "Turtle Beach Corp",
-      "insiderName": "DC VGA LLC",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 140000.0,
-      "pricePerShare": 12.6709,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "GCT",
-      "issuerName": "GigaCloud Technology Inc",
-      "insiderName": "WAN XIN",
-      "title": "Chief Technology Officer",
-      "type": "Sale",
-      "shares": 32372.0,
-      "pricePerShare": 50.55,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "GCT",
-      "issuerName": "GigaCloud Technology Inc",
-      "insiderName": "WAN XIN",
-      "title": "Chief Technology Officer",
-      "type": "Sale",
-      "shares": 27628.0,
-      "pricePerShare": 51.4,
-      "transactionDate": "2026-08-11"
     }
   ],
   "byTicker": {
@@ -44660,6 +44660,56 @@
         }
       ]
     },
+    "AUPH": {
+      "issuerName": "Aurinia Pharmaceuticals Inc.",
+      "trades": [
+        {
+          "ticker": "AUPH",
+          "issuerName": "Aurinia Pharmaceuticals Inc.",
+          "insiderName": "Robertson Stephen P.",
+          "title": "Chief Legal Officer",
+          "type": "Sale",
+          "shares": 20975.0,
+          "pricePerShare": 16.97,
+          "transactionDate": "2026-08-21"
+        }
+      ]
+    },
+    "ALSN": {
+      "issuerName": "Allison Transmission Holdings Inc",
+      "trades": [
+        {
+          "ticker": "ALSN",
+          "issuerName": "Allison Transmission Holdings Inc",
+          "insiderName": "Graziosi David S.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 13100.0,
+          "pricePerShare": 132.4362,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "ALSN",
+          "issuerName": "Allison Transmission Holdings Inc",
+          "insiderName": "Graziosi David S.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 9050.0,
+          "pricePerShare": 133.2116,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "ALSN",
+          "issuerName": "Allison Transmission Holdings Inc",
+          "insiderName": "Graziosi David S.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4558.0,
+          "pricePerShare": 134.0479,
+          "transactionDate": "2026-08-21"
+        }
+      ]
+    },
     "CFFI": {
       "issuerName": "C & F FINANCIAL CORP",
       "trades": [
@@ -54777,16 +54827,6 @@
           "shares": 16217.0,
           "pricePerShare": 24.1181,
           "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "AEVA",
-          "issuerName": "Aeva Technologies, Inc.",
-          "insiderName": "Dardashti Soroush Salehian",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 14297.0,
-          "pricePerShare": 24.5399,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -61447,26 +61487,6 @@
           "shares": 10000.0,
           "pricePerShare": 53.0,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "GCT",
-          "issuerName": "GigaCloud Technology Inc",
-          "insiderName": "WAN XIN",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 32372.0,
-          "pricePerShare": 50.55,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "GCT",
-          "issuerName": "GigaCloud Technology Inc",
-          "insiderName": "WAN XIN",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 27628.0,
-          "pricePerShare": 51.4,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -61662,16 +61682,6 @@
           "shares": 5671.0,
           "pricePerShare": 13.0,
           "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "TBCH",
-          "issuerName": "Turtle Beach Corp",
-          "insiderName": "DC VGA LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 140000.0,
-          "pricePerShare": 12.6709,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -69795,6 +69805,10 @@
       "0001193125-26-365628",
       "0001193125-26-365658",
       "0001193125-26-365660",
+      "0001193125-26-365668",
+      "0001193125-26-365671",
+      "0001193125-26-365673",
+      "0001193125-26-365675",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70838,6 +70852,8 @@
       "0001213900-26-093601",
       "0001213900-26-093661",
       "0001213900-26-093665",
+      "0001213900-26-093684",
+      "0001213900-26-093698",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -75102,6 +75118,7 @@
       "0001834988-26-000008",
       "0001835544-26-000022",
       "0001837478-26-000017",
+      "0001837798-26-000013",
       "0001837872-26-000002",
       "0001837910-26-000004",
       "0001838315-26-000004",
@@ -77148,6 +77165,13 @@
       "0001903115-26-000003",
       "0001903596-26-000292",
       "0001903596-26-000304",
+      "0001903596-26-000318",
+      "0001903596-26-000319",
+      "0001903596-26-000320",
+      "0001903596-26-000321",
+      "0001903596-26-000322",
+      "0001903596-26-000323",
+      "0001903596-26-000324",
       "0001903739-26-000013",
       "0001904829-26-000008",
       "0001904915-26-000010",
