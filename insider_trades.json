@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T11:02:53.492417+00:00",
+  "generatedAt": "2026-08-26T12:02:11.770290+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -251,6 +251,16 @@
       "type": "Sale",
       "shares": 53848.0,
       "pricePerShare": 8.8324,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "FTCI",
+      "issuerName": "FTC Solar, Inc.",
+      "insiderName": "Carroll Anthony",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 24745.0,
+      "pricePerShare": 2.08,
       "transactionDate": "2026-08-25"
     },
     {
@@ -1331,6 +1341,46 @@
       "type": "Sale",
       "shares": 11470.0,
       "pricePerShare": 5.55,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "ZIM",
+      "issuerName": "ZIM Integrated Shipping Services Ltd.",
+      "insiderName": "Yochai Nissim",
+      "title": "EVP ZIM USA President",
+      "type": "Sale",
+      "shares": 7535.0,
+      "pricePerShare": 28.8305,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "ZIM",
+      "issuerName": "ZIM Integrated Shipping Services Ltd.",
+      "insiderName": "Ben-Amram Eyal",
+      "title": "EVP Chief Information Officer",
+      "type": "Sale",
+      "shares": 4000.0,
+      "pricePerShare": 28.57,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "ZIM",
+      "issuerName": "ZIM Integrated Shipping Services Ltd.",
+      "insiderName": "Destriau Xavier",
+      "title": "EVP Chief Finance Officer",
+      "type": "Sale",
+      "shares": 12084.0,
+      "pricePerShare": 28.8,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "MAIA",
+      "issuerName": "MAIA Biotechnology, Inc.",
+      "insiderName": "Guerrero Ramiro",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1794.0,
+      "pricePerShare": 1.33,
       "transactionDate": "2026-08-24"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 2100.0,
       "pricePerShare": 118.13,
       "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "SUJA",
-      "issuerName": "SUJA LIFE, INC.",
-      "insiderName": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 108440.0,
-      "pricePerShare": 6.09,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1181.0,
-      "pricePerShare": 220.15,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1356.0,
-      "pricePerShare": 220.85,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 3377.0,
-      "pricePerShare": 221.95,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1948.0,
-      "pricePerShare": 223.04,
-      "transactionDate": "2026-08-11"
     }
   ],
   "byTicker": {
@@ -30547,16 +30547,6 @@
           "shares": 111929.0,
           "pricePerShare": 6.13,
           "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "SUJA",
-          "issuerName": "SUJA LIFE, INC.",
-          "insiderName": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 108440.0,
-          "pricePerShare": 6.09,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -30882,6 +30872,21 @@
           "shares": 50273.0,
           "pricePerShare": 9.0163,
           "transactionDate": "2026-08-21"
+        }
+      ]
+    },
+    "FTCI": {
+      "issuerName": "FTC Solar, Inc.",
+      "trades": [
+        {
+          "ticker": "FTCI",
+          "issuerName": "FTC Solar, Inc.",
+          "insiderName": "Carroll Anthony",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 24745.0,
+          "pricePerShare": 2.08,
+          "transactionDate": "2026-08-25"
         }
       ]
     },
@@ -35225,6 +35230,76 @@
         }
       ]
     },
+    "ZIM": {
+      "issuerName": "ZIM Integrated Shipping Services Ltd.",
+      "trades": [
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Yochai Nissim",
+          "title": "EVP ZIM USA President",
+          "type": "Sale",
+          "shares": 7535.0,
+          "pricePerShare": 28.8305,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Ben-Amram Eyal",
+          "title": "EVP Chief Information Officer",
+          "type": "Sale",
+          "shares": 4000.0,
+          "pricePerShare": 28.57,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Destriau Xavier",
+          "title": "EVP Chief Finance Officer",
+          "type": "Sale",
+          "shares": 12084.0,
+          "pricePerShare": 28.8,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Glickman Eli",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 20748.0,
+          "pricePerShare": 28.2205,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Glickman Eli",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 233473.0,
+          "pricePerShare": 28.2205,
+          "transactionDate": "2026-08-21"
+        }
+      ]
+    },
+    "MAIA": {
+      "issuerName": "MAIA Biotechnology, Inc.",
+      "trades": [
+        {
+          "ticker": "MAIA",
+          "issuerName": "MAIA Biotechnology, Inc.",
+          "insiderName": "Guerrero Ramiro",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1794.0,
+          "pricePerShare": 1.33,
+          "transactionDate": "2026-08-24"
+        }
+      ]
+    },
     "BKV": {
       "issuerName": "BKV Corp",
       "trades": [
@@ -38872,31 +38947,6 @@
           "shares": 1203.0,
           "pricePerShare": 9.86,
           "transactionDate": "2026-08-14"
-        }
-      ]
-    },
-    "ZIM": {
-      "issuerName": "ZIM Integrated Shipping Services Ltd.",
-      "trades": [
-        {
-          "ticker": "ZIM",
-          "issuerName": "ZIM Integrated Shipping Services Ltd.",
-          "insiderName": "Glickman Eli",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 20748.0,
-          "pricePerShare": 28.2205,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ZIM",
-          "issuerName": "ZIM Integrated Shipping Services Ltd.",
-          "insiderName": "Glickman Eli",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 233473.0,
-          "pricePerShare": 28.2205,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -47272,46 +47322,6 @@
           "shares": 80.0,
           "pricePerShare": 224.67,
           "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1181.0,
-          "pricePerShare": 220.15,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1356.0,
-          "pricePerShare": 220.85,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3377.0,
-          "pricePerShare": 221.95,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1948.0,
-          "pricePerShare": 223.04,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -65754,6 +65764,9 @@
       "0001081400-26-000374",
       "0001081400-26-000375",
       "0001081400-26-000378",
+      "0001081400-26-000409",
+      "0001081400-26-000410",
+      "0001081400-26-000412",
       "0001081402-26-000019",
       "0001081402-26-000021",
       "0001081402-26-000023",
@@ -66550,6 +66563,7 @@
       "0001104659-26-100980",
       "0001104659-26-100989",
       "0001104659-26-100998",
+      "0001104659-26-101062",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -69835,6 +69849,8 @@
       "0001193125-26-365671",
       "0001193125-26-365673",
       "0001193125-26-365675",
+      "0001193125-26-365902",
+      "0001193125-26-365940",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70893,6 +70909,7 @@
       "0001213900-26-093699",
       "0001213900-26-093703",
       "0001213900-26-093704",
+      "0001213900-26-093723",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71082,6 +71099,7 @@
       "0001214659-26-010825",
       "0001214659-26-010852",
       "0001214659-26-010853",
+      "0001214659-26-010859",
       "0001214993-26-000004",
       "0001216055-26-000006",
       "0001216055-26-000007",
@@ -72802,6 +72820,7 @@
       "0001493152-26-040131",
       "0001493152-26-040133",
       "0001493152-26-040135",
+      "0001493152-26-040164",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -74060,6 +74079,8 @@
       "0001628280-26-058967",
       "0001628280-26-058969",
       "0001628280-26-058970",
+      "0001628280-26-058986",
+      "0001628280-26-058987",
       "0001629079-26-000002",
       "0001629111-26-000010",
       "0001629292-26-000002",
@@ -77148,6 +77169,7 @@
       "0001877346-26-000021",
       "0001877747-26-000003",
       "0001878127-26-000006",
+      "0001878313-26-000079",
       "0001878376-26-000003",
       "0001879101-26-000022",
       "0001880224-26-000002",
@@ -79607,6 +79629,9 @@
       "0001976408-26-000755",
       "0001976408-26-000761",
       "0001976408-26-000763",
+      "0001976408-26-000770",
+      "0001976408-26-000771",
+      "0001976408-26-000772",
       "0001976672-26-000057",
       "0001976672-26-000059",
       "0001976672-26-000062",
