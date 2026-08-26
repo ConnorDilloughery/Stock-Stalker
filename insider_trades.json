@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T12:02:11.770290+00:00",
+  "generatedAt": "2026-08-26T13:01:09.730142+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -261,6 +261,26 @@
       "type": "Purchase",
       "shares": 24745.0,
       "pricePerShare": 2.08,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "CVM",
+      "issuerName": "CEL SCI CORP",
+      "insiderName": "KERSTEN GEERT R",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 100000.0,
+      "pricePerShare": 1.38,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "PRE",
+      "issuerName": "Prenetics Global Ltd",
+      "insiderName": "Rosin Brian J",
+      "title": "CFO of IM8 (US) LLC",
+      "type": "Purchase",
+      "shares": 5100.0,
+      "pricePerShare": 22.8,
       "transactionDate": "2026-08-25"
     },
     {
@@ -1381,6 +1401,26 @@
       "type": "Purchase",
       "shares": 1794.0,
       "pricePerShare": 1.33,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "BPOP",
+      "issuerName": "POPULAR, INC.",
+      "insiderName": "Rodriguez Adorno Denissa",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 600.0,
+      "pricePerShare": 168.786,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "PRE",
+      "issuerName": "Prenetics Global Ltd",
+      "insiderName": "Rosin Brian J",
+      "title": "CFO of IM8 (US) LLC",
+      "type": "Purchase",
+      "shares": 18000.0,
+      "pricePerShare": 21.19,
       "transactionDate": "2026-08-24"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 57140.0,
       "pricePerShare": 51.5103,
       "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "KNTK",
-      "issuerName": "Kinetik Holdings Inc.",
-      "insiderName": "ISQ Global Fund II GP LLC",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 90376.0,
-      "pricePerShare": 52.3589,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "SGMT",
-      "issuerName": "Sagimet Biosciences Inc.",
-      "insiderName": "Kemble George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 20206.0,
-      "pricePerShare": 9.9548,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "ACDC",
-      "issuerName": "ProFrac Holding Corp.",
-      "insiderName": "Wilks Dan H.",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 202331.0,
-      "pricePerShare": 5.443,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "FMX",
-      "issuerName": "MEXICAN ECONOMIC DEVELOPMENT INC",
-      "insiderName": "KAHN MICHAEL DAVID",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 2100.0,
-      "pricePerShare": 118.13,
-      "transactionDate": "2026-08-11"
     }
   ],
   "byTicker": {
@@ -30887,6 +30887,76 @@
           "shares": 24745.0,
           "pricePerShare": 2.08,
           "transactionDate": "2026-08-25"
+        }
+      ]
+    },
+    "CVM": {
+      "issuerName": "CEL SCI CORP",
+      "trades": [
+        {
+          "ticker": "CVM",
+          "issuerName": "CEL SCI CORP",
+          "insiderName": "KERSTEN GEERT R",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 100000.0,
+          "pricePerShare": 1.38,
+          "transactionDate": "2026-08-25"
+        }
+      ]
+    },
+    "PRE": {
+      "issuerName": "Prenetics Global Ltd",
+      "trades": [
+        {
+          "ticker": "PRE",
+          "issuerName": "Prenetics Global Ltd",
+          "insiderName": "Rosin Brian J",
+          "title": "CFO of IM8 (US) LLC",
+          "type": "Purchase",
+          "shares": 5100.0,
+          "pricePerShare": 22.8,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "PRE",
+          "issuerName": "Prenetics Global Ltd",
+          "insiderName": "Yeung Danny Sheng Wu",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 6000.0,
+          "pricePerShare": 20.9,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "PRE",
+          "issuerName": "Prenetics Global Ltd",
+          "insiderName": "Yeung Danny Sheng Wu",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 11181.0,
+          "pricePerShare": 21.4,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "PRE",
+          "issuerName": "Prenetics Global Ltd",
+          "insiderName": "Rosin Brian J",
+          "title": "CFO of IM8 (US) LLC",
+          "type": "Purchase",
+          "shares": 18000.0,
+          "pricePerShare": 21.19,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "PRE",
+          "issuerName": "Prenetics Global Ltd",
+          "insiderName": "Yeung Danny Sheng Wu",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 7500.0,
+          "pricePerShare": 18.31,
+          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -32017,41 +32087,6 @@
           "shares": 22392.0,
           "pricePerShare": 9.8729,
           "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "PRE": {
-      "issuerName": "Prenetics Global Ltd",
-      "trades": [
-        {
-          "ticker": "PRE",
-          "issuerName": "Prenetics Global Ltd",
-          "insiderName": "Yeung Danny Sheng Wu",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 6000.0,
-          "pricePerShare": 20.9,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "PRE",
-          "issuerName": "Prenetics Global Ltd",
-          "insiderName": "Yeung Danny Sheng Wu",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 11181.0,
-          "pricePerShare": 21.4,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "PRE",
-          "issuerName": "Prenetics Global Ltd",
-          "insiderName": "Yeung Danny Sheng Wu",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 7500.0,
-          "pricePerShare": 18.31,
-          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -35296,6 +35331,21 @@
           "type": "Purchase",
           "shares": 1794.0,
           "pricePerShare": 1.33,
+          "transactionDate": "2026-08-24"
+        }
+      ]
+    },
+    "BPOP": {
+      "issuerName": "POPULAR, INC.",
+      "trades": [
+        {
+          "ticker": "BPOP",
+          "issuerName": "POPULAR, INC.",
+          "insiderName": "Rodriguez Adorno Denissa",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 600.0,
+          "pricePerShare": 168.786,
           "transactionDate": "2026-08-24"
         }
       ]
@@ -43481,16 +43531,6 @@
           "type": "Sale",
           "shares": 57140.0,
           "pricePerShare": 51.5103,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "KNTK",
-          "issuerName": "Kinetik Holdings Inc.",
-          "insiderName": "ISQ Global Fund II GP LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 90376.0,
-          "pricePerShare": 52.3589,
           "transactionDate": "2026-08-11"
         }
       ]
@@ -63329,51 +63369,6 @@
           "transactionDate": "2026-08-11"
         }
       ]
-    },
-    "SGMT": {
-      "issuerName": "Sagimet Biosciences Inc.",
-      "trades": [
-        {
-          "ticker": "SGMT",
-          "issuerName": "Sagimet Biosciences Inc.",
-          "insiderName": "Kemble George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 20206.0,
-          "pricePerShare": 9.9548,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "ACDC": {
-      "issuerName": "ProFrac Holding Corp.",
-      "trades": [
-        {
-          "ticker": "ACDC",
-          "issuerName": "ProFrac Holding Corp.",
-          "insiderName": "Wilks Dan H.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 202331.0,
-          "pricePerShare": 5.443,
-          "transactionDate": "2026-08-11"
-        }
-      ]
-    },
-    "FMX": {
-      "issuerName": "MEXICAN ECONOMIC DEVELOPMENT INC",
-      "trades": [
-        {
-          "ticker": "FMX",
-          "issuerName": "MEXICAN ECONOMIC DEVELOPMENT INC",
-          "insiderName": "KAHN MICHAEL DAVID",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 2100.0,
-          "pricePerShare": 118.13,
-          "transactionDate": "2026-08-11"
-        }
-      ]
     }
   },
   "_meta": {
@@ -65767,6 +65762,10 @@
       "0001081400-26-000409",
       "0001081400-26-000410",
       "0001081400-26-000412",
+      "0001081400-26-000414",
+      "0001081400-26-000415",
+      "0001081400-26-000416",
+      "0001081400-26-000417",
       "0001081402-26-000019",
       "0001081402-26-000021",
       "0001081402-26-000023",
@@ -69851,6 +69850,8 @@
       "0001193125-26-365675",
       "0001193125-26-365902",
       "0001193125-26-365940",
+      "0001193125-26-365982",
+      "0001193125-26-366001",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70910,6 +70911,8 @@
       "0001213900-26-093703",
       "0001213900-26-093704",
       "0001213900-26-093723",
+      "0001213900-26-093740",
+      "0001213900-26-093749",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71100,6 +71103,7 @@
       "0001214659-26-010852",
       "0001214659-26-010853",
       "0001214659-26-010859",
+      "0001214659-26-010863",
       "0001214993-26-000004",
       "0001216055-26-000006",
       "0001216055-26-000007",
@@ -71315,6 +71319,7 @@
       "0001235499-26-000008",
       "0001235502-26-000006",
       "0001236030-26-000007",
+      "0001236030-26-000008",
       "0001236215-26-000004",
       "0001237678-26-000010",
       "0001238028-26-000004",
@@ -74081,6 +74086,7 @@
       "0001628280-26-058970",
       "0001628280-26-058986",
       "0001628280-26-058987",
+      "0001628280-26-058994",
       "0001629079-26-000002",
       "0001629111-26-000010",
       "0001629292-26-000002",
@@ -74416,6 +74422,7 @@
       "0001703388-26-000021",
       "0001703388-26-000022",
       "0001703841-26-000003",
+      "0001704635-26-000010",
       "0001704720-26-000155",
       "0001704792-26-000004",
       "0001705119-26-000007",
@@ -79463,6 +79470,8 @@
       "0001918704-26-024807",
       "0001918704-26-024808",
       "0001918704-26-024809",
+      "0001918704-26-024810",
+      "0001918704-26-024811",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
