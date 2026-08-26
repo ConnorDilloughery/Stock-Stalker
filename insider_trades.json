@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T16:02:20.345130+00:00",
+  "generatedAt": "2026-08-26T17:05:01.368210+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -411,6 +411,46 @@
       "type": "Purchase",
       "shares": 144.0,
       "pricePerShare": 66.01,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "SYNA",
+      "issuerName": "SYNAPTICS Inc",
+      "insiderName": "Gupta Vikram",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 2300.0,
+      "pricePerShare": 94.06,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "SYNA",
+      "issuerName": "SYNAPTICS Inc",
+      "insiderName": "Gupta Vikram",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 1977.0,
+      "pricePerShare": 95.0,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "VZ",
+      "issuerName": "VERIZON COMMUNICATIONS INC",
+      "insiderName": "Malady Kyle",
+      "title": "EVP and Group CEO-VZ Business",
+      "type": "Sale",
+      "shares": 1100.0,
+      "pricePerShare": 50.06,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "Kesslen Jay H",
+      "title": "Vice-President",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 2.93,
       "transactionDate": "2026-08-25"
     },
     {
@@ -1601,6 +1641,16 @@
       "type": "Purchase",
       "shares": 118.0,
       "pricePerShare": 11.9996,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "CRESY",
+      "issuerName": "CRESUD INC",
+      "insiderName": "Elsztain Fernando Adrian",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 10000.0,
+      "pricePerShare": 1.05,
       "transactionDate": "2026-08-24"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 88.0,
       "pricePerShare": 162.72,
       "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "ICLR",
-      "issuerName": "ICON PLC",
-      "insiderName": "McCague Eugene Pacelli",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 96.0,
-      "pricePerShare": 163.77,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "ICLR",
-      "issuerName": "ICON PLC",
-      "insiderName": "McCague Eugene Pacelli",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 590.0,
-      "pricePerShare": 164.47,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "ICLR",
-      "issuerName": "ICON PLC",
-      "insiderName": "McCague Eugene Pacelli",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 67.0,
-      "pricePerShare": 165.51,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "MATX",
-      "issuerName": "Matson, Inc.",
-      "insiderName": "Sullivan John Warren",
-      "title": "Senior Vice President",
-      "type": "Sale",
-      "shares": 1917.0,
-      "pricePerShare": 208.49,
-      "transactionDate": "2026-08-11"
-    },
-    {
-      "ticker": "MATX",
-      "issuerName": "Matson, Inc.",
-      "insiderName": "Tungul Jennifer C.",
-      "title": "Senior Vice President",
-      "type": "Sale",
-      "shares": 402.0,
-      "pricePerShare": 208.49,
-      "transactionDate": "2026-08-11"
     }
   ],
   "byTicker": {
@@ -30986,6 +30986,16 @@
         {
           "ticker": "RCG",
           "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.93,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
           "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
           "title": "10% Owner",
           "type": "Purchase",
@@ -31310,6 +31320,86 @@
         }
       ]
     },
+    "SYNA": {
+      "issuerName": "SYNAPTICS Inc",
+      "trades": [
+        {
+          "ticker": "SYNA",
+          "issuerName": "SYNAPTICS Inc",
+          "insiderName": "Gupta Vikram",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 2300.0,
+          "pricePerShare": 94.06,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "SYNA",
+          "issuerName": "SYNAPTICS Inc",
+          "insiderName": "Gupta Vikram",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 1977.0,
+          "pricePerShare": 95.0,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "SYNA",
+          "issuerName": "SYNAPTICS Inc",
+          "insiderName": "Song Esther",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 177.0,
+          "pricePerShare": 102.73,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "SYNA",
+          "issuerName": "SYNAPTICS Inc",
+          "insiderName": "Song Esther",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 96.0,
+          "pricePerShare": 103.55,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "SYNA",
+          "issuerName": "SYNAPTICS Inc",
+          "insiderName": "Song Esther",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 164.0,
+          "pricePerShare": 104.78,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "VZ": {
+      "issuerName": "VERIZON COMMUNICATIONS INC",
+      "trades": [
+        {
+          "ticker": "VZ",
+          "issuerName": "VERIZON COMMUNICATIONS INC",
+          "insiderName": "Malady Kyle",
+          "title": "EVP and Group CEO-VZ Business",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 50.06,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "VZ",
+          "issuerName": "VERIZON COMMUNICATIONS INC",
+          "insiderName": "Malady Kyle",
+          "title": "EVP and Group CEO-VZ Business",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 48.68,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
     "EXOD": {
       "issuerName": "Exodus Movement, Inc.",
       "trades": [
@@ -31617,26 +31707,6 @@
           "shares": 1961.0,
           "pricePerShare": 217.0,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "MATX",
-          "issuerName": "Matson, Inc.",
-          "insiderName": "Sullivan John Warren",
-          "title": "Senior Vice President",
-          "type": "Sale",
-          "shares": 1917.0,
-          "pricePerShare": 208.49,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "MATX",
-          "issuerName": "Matson, Inc.",
-          "insiderName": "Tungul Jennifer C.",
-          "title": "Senior Vice President",
-          "type": "Sale",
-          "shares": 402.0,
-          "pricePerShare": 208.49,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -35647,6 +35717,31 @@
           "shares": 799.0,
           "pricePerShare": 11.6576,
           "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "CRESY": {
+      "issuerName": "CRESUD INC",
+      "trades": [
+        {
+          "ticker": "CRESY",
+          "issuerName": "CRESUD INC",
+          "insiderName": "Elsztain Fernando Adrian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 1.05,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "CRESY",
+          "issuerName": "CRESUD INC",
+          "insiderName": "Elsztain Fernando Adrian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 1.06,
+          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -53960,21 +54055,6 @@
         }
       ]
     },
-    "VZ": {
-      "issuerName": "VERIZON COMMUNICATIONS INC",
-      "trades": [
-        {
-          "ticker": "VZ",
-          "issuerName": "VERIZON COMMUNICATIONS INC",
-          "insiderName": "Malady Kyle",
-          "title": "EVP and Group CEO-VZ Business",
-          "type": "Sale",
-          "shares": 1100.0,
-          "pricePerShare": 48.68,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
     "BKKT": {
       "issuerName": "Bakkt, Inc.",
       "trades": [
@@ -54167,41 +54247,6 @@
           "shares": 40.0,
           "pricePerShare": 409.69,
           "transactionDate": "2026-08-13"
-        }
-      ]
-    },
-    "SYNA": {
-      "issuerName": "SYNAPTICS Inc",
-      "trades": [
-        {
-          "ticker": "SYNA",
-          "issuerName": "SYNAPTICS Inc",
-          "insiderName": "Song Esther",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 177.0,
-          "pricePerShare": 102.73,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "SYNA",
-          "issuerName": "SYNAPTICS Inc",
-          "insiderName": "Song Esther",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 96.0,
-          "pricePerShare": 103.55,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "SYNA",
-          "issuerName": "SYNAPTICS Inc",
-          "insiderName": "Song Esther",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 164.0,
-          "pricePerShare": 104.78,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -62035,21 +62080,6 @@
         }
       ]
     },
-    "CRESY": {
-      "issuerName": "CRESUD INC",
-      "trades": [
-        {
-          "ticker": "CRESY",
-          "issuerName": "CRESUD INC",
-          "insiderName": "Elsztain Fernando Adrian",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 10000.0,
-          "pricePerShare": 1.06,
-          "transactionDate": "2026-08-12"
-        }
-      ]
-    },
     "TDY": {
       "issuerName": "TELEDYNE TECHNOLOGIES INC",
       "trades": [
@@ -63282,36 +63312,6 @@
           "shares": 88.0,
           "pricePerShare": 162.72,
           "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "ICLR",
-          "issuerName": "ICON PLC",
-          "insiderName": "McCague Eugene Pacelli",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 96.0,
-          "pricePerShare": 163.77,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "ICLR",
-          "issuerName": "ICON PLC",
-          "insiderName": "McCague Eugene Pacelli",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 590.0,
-          "pricePerShare": 164.47,
-          "transactionDate": "2026-08-11"
-        },
-        {
-          "ticker": "ICLR",
-          "issuerName": "ICON PLC",
-          "insiderName": "McCague Eugene Pacelli",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 67.0,
-          "pricePerShare": 165.51,
-          "transactionDate": "2026-08-11"
         }
       ]
     },
@@ -63713,6 +63713,9 @@
       "0000100334-26-000065",
       "0000100334-26-000067",
       "0000100334-26-000069",
+      "0000100334-26-000078",
+      "0000100334-26-000080",
+      "0000100334-26-000082",
       "0000100517-26-000142",
       "0000100517-26-000155",
       "0000100517-26-000156",
@@ -65455,6 +65458,8 @@
       "0000950103-26-012895",
       "0000950103-26-012896",
       "0000950103-26-012897",
+      "0000950103-26-012899",
+      "0000950103-26-012900",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65560,6 +65565,7 @@
       "0001030471-26-000009",
       "0001031318-26-000004",
       "0001032834-26-000006",
+      "0001034957-26-000055",
       "0001035145-26-000004",
       "0001035422-26-000001",
       "0001035422-26-000005",
@@ -65761,6 +65767,9 @@
       "0001081400-26-000415",
       "0001081400-26-000416",
       "0001081400-26-000417",
+      "0001081400-26-000422",
+      "0001081400-26-000424",
+      "0001081400-26-000427",
       "0001081402-26-000019",
       "0001081402-26-000021",
       "0001081402-26-000023",
@@ -69861,6 +69870,19 @@
       "0001193125-26-366471",
       "0001193125-26-366484",
       "0001193125-26-366486",
+      "0001193125-26-366546",
+      "0001193125-26-366569",
+      "0001193125-26-366612",
+      "0001193125-26-366622",
+      "0001193125-26-366626",
+      "0001193125-26-366636",
+      "0001193125-26-366640",
+      "0001193125-26-366643",
+      "0001193125-26-366644",
+      "0001193125-26-366645",
+      "0001193125-26-366646",
+      "0001193125-26-366650",
+      "0001193125-26-366655",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70927,6 +70949,9 @@
       "0001213900-26-093805",
       "0001213900-26-093817",
       "0001213900-26-093824",
+      "0001213900-26-093841",
+      "0001213900-26-093842",
+      "0001213900-26-093843",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71119,6 +71144,7 @@
       "0001214659-26-010859",
       "0001214659-26-010863",
       "0001214659-26-010872",
+      "0001214659-26-010873",
       "0001214993-26-000004",
       "0001216055-26-000006",
       "0001216055-26-000007",
@@ -71420,6 +71446,7 @@
       "0001283661-26-000014",
       "0001284309-26-000021",
       "0001284309-26-000023",
+      "0001286090-26-000009",
       "0001286202-26-000006",
       "0001286737-26-000002",
       "0001287510-26-000007",
@@ -71490,6 +71517,12 @@
       "0001314152-26-000142",
       "0001314152-26-000143",
       "0001314152-26-000144",
+      "0001314152-26-000167",
+      "0001314152-26-000168",
+      "0001314152-26-000169",
+      "0001314152-26-000170",
+      "0001314152-26-000171",
+      "0001314152-26-000172",
       "0001315098-26-000153",
       "0001315758-26-000015",
       "0001315758-26-000017",
@@ -72131,6 +72164,7 @@
       "0001437749-26-028959",
       "0001437749-26-028960",
       "0001437749-26-028964",
+      "0001437749-26-028968",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -72321,6 +72355,10 @@
       "0001445546-26-006349",
       "0001445546-26-006350",
       "0001445546-26-006382",
+      "0001445546-26-006409",
+      "0001445546-26-006410",
+      "0001445546-26-006411",
+      "0001445546-26-006412",
       "0001448765-26-000011",
       "0001448765-26-000013",
       "0001450800-26-000006",
@@ -72437,6 +72475,7 @@
       "0001482551-26-000004",
       "0001482981-26-000180",
       "0001483558-26-000022",
+      "0001483728-26-000002",
       "0001484612-26-000050",
       "0001484729-26-000005",
       "0001484792-26-000002",
@@ -72877,6 +72916,7 @@
       "0001504699-26-000005",
       "0001504988-26-000012",
       "0001505300-26-000008",
+      "0001505398-26-000009",
       "0001505732-26-000100",
       "0001505732-26-000108",
       "0001505744-26-000013",
@@ -74666,6 +74706,7 @@
       "0001760265-26-000003",
       "0001760581-26-000040",
       "0001760581-26-000044",
+      "0001760581-26-000046",
       "0001762956-26-000003",
       "0001763161-26-000011",
       "0001763554-26-000010",
@@ -77077,6 +77118,20 @@
       "0001839882-26-041546",
       "0001839882-26-041548",
       "0001839882-26-041549",
+      "0001839882-26-041571",
+      "0001839882-26-041572",
+      "0001839882-26-041573",
+      "0001839882-26-041574",
+      "0001839882-26-041575",
+      "0001839882-26-041576",
+      "0001839882-26-041577",
+      "0001839882-26-041578",
+      "0001839882-26-041579",
+      "0001839882-26-041581",
+      "0001839882-26-041582",
+      "0001839882-26-041583",
+      "0001839882-26-041585",
+      "0001839882-26-041586",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -79614,6 +79669,14 @@
       "0001918704-26-024884",
       "0001918704-26-024886",
       "0001918704-26-024887",
+      "0001918704-26-024894",
+      "0001918704-26-024895",
+      "0001918704-26-024896",
+      "0001918704-26-024897",
+      "0001918704-26-024898",
+      "0001918704-26-024899",
+      "0001918704-26-024900",
+      "0001918704-26-024901",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -79812,6 +79875,7 @@
       "0001984186-26-000006",
       "0001984784-26-000020",
       "0001984784-26-000024",
+      "0001984784-26-000028",
       "0001985704-26-000011",
       "0001986157-26-000016",
       "0001987058-26-000003",
