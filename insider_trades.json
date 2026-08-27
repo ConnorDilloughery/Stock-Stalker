@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T12:03:48.575962+00:00",
+  "generatedAt": "2026-08-27T13:04:51.850980+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -461,6 +461,46 @@
       "type": "Purchase",
       "shares": 20000.0,
       "pricePerShare": 5.26,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "SMWB",
+      "issuerName": "SIMILARWEB LTD.",
+      "insiderName": "Offer Or",
+      "title": "Chief Executive Officer",
+      "type": "Sale",
+      "shares": 164817.0,
+      "pricePerShare": 9.0006,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "SMWB",
+      "issuerName": "SIMILARWEB LTD.",
+      "insiderName": "Offer Or",
+      "title": "Chief Executive Officer",
+      "type": "Sale",
+      "shares": 39302.0,
+      "pricePerShare": 9.0121,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "SMWB",
+      "issuerName": "SIMILARWEB LTD.",
+      "insiderName": "Offer Or",
+      "title": "Chief Executive Officer",
+      "type": "Sale",
+      "shares": 39000.0,
+      "pricePerShare": 9.0043,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "SMWB",
+      "issuerName": "SIMILARWEB LTD.",
+      "insiderName": "Offer Or",
+      "title": "Chief Executive Officer",
+      "type": "Sale",
+      "shares": 140008.0,
+      "pricePerShare": 9.0054,
       "transactionDate": "2026-08-26"
     },
     {
@@ -1771,6 +1811,26 @@
       "type": "Sale",
       "shares": 50000.0,
       "pricePerShare": 30.46,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 12066.0,
+      "pricePerShare": 116.44,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 634.0,
+      "pricePerShare": 117.37,
       "transactionDate": "2026-08-25"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 22559.0,
       "pricePerShare": 1.42,
       "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "PFSA",
-      "issuerName": "Profusa, Inc.",
-      "insiderName": "HRT FINANCIAL LP",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 5585.0,
-      "pricePerShare": 0.964,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "TRST",
-      "issuerName": "TRUSTCO BANK CORP N Y",
-      "insiderName": "McCormick Lauren Ann",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 103.0,
-      "pricePerShare": 56.51,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "CPSS",
-      "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
-      "insiderName": "Ralston Catrina Marie",
-      "title": "Sr. Vice President",
-      "type": "Sale",
-      "shares": 3617.0,
-      "pricePerShare": 9.5,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "HMN",
-      "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
-      "insiderName": "Reece Henry Wade",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1359.0,
-      "pricePerShare": 51.522,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "HMN",
-      "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
-      "insiderName": "BRADLEY THOMAS A",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 5000.0,
-      "pricePerShare": 51.7246,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "PAYS",
-      "issuerName": "Paysign, Inc.",
-      "insiderName": "Baker Jeffery Bradford",
-      "title": "Chief Financial Officer",
-      "type": "Sale",
-      "shares": 35000.0,
-      "pricePerShare": 12.6182,
-      "transactionDate": "2026-08-12"
     }
   ],
   "byTicker": {
@@ -32865,6 +32865,111 @@
         }
       ]
     },
+    "SMWB": {
+      "issuerName": "SIMILARWEB LTD.",
+      "trades": [
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 164817.0,
+          "pricePerShare": 9.0006,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 39302.0,
+          "pricePerShare": 9.0121,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 39000.0,
+          "pricePerShare": 9.0043,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 140008.0,
+          "pricePerShare": 9.0054,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 59992.0,
+          "pricePerShare": 8.9006,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 75000.0,
+          "pricePerShare": 8.852,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 228500.0,
+          "pricePerShare": 8.8215,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 200000.0,
+          "pricePerShare": 8.7864,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 106105.0,
+          "pricePerShare": 8.75,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 40000.0,
+          "pricePerShare": 8.9,
+          "transactionDate": "2026-08-13"
+        }
+      ]
+    },
     "BABA": {
       "issuerName": "Alibaba Group Holding Ltd",
       "trades": [
@@ -35297,6 +35402,191 @@
           "shares": 50000.0,
           "pricePerShare": 30.46,
           "transactionDate": "2026-08-25"
+        }
+      ]
+    },
+    "AFL": {
+      "issuerName": "AFLAC INC",
+      "trades": [
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12066.0,
+          "pricePerShare": 116.44,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 634.0,
+          "pricePerShare": 117.37,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12820.0,
+          "pricePerShare": 116.28,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 80.0,
+          "pricePerShare": 117.07,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 9621.0,
+          "pricePerShare": 116.45,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 3479.0,
+          "pricePerShare": 117.03,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 9353.0,
+          "pricePerShare": 116.62,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1529.0,
+          "pricePerShare": 117.29,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 980.0,
+          "pricePerShare": 118.59,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 798.0,
+          "pricePerShare": 119.6,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 40.0,
+          "pricePerShare": 120.14,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13610.0,
+          "pricePerShare": 121.91,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 590.0,
+          "pricePerShare": 122.65,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12690.0,
+          "pricePerShare": 121.26,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1210.0,
+          "pricePerShare": 122.11,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13980.0,
+          "pricePerShare": 121.43,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 120.0,
+          "pricePerShare": 121.86,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13000.0,
+          "pricePerShare": 121.09,
+          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -47232,171 +47522,6 @@
           "shares": 2871.0,
           "pricePerShare": 15.0028,
           "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "AFL": {
-      "issuerName": "AFLAC INC",
-      "trades": [
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12820.0,
-          "pricePerShare": 116.28,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 117.07,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 9621.0,
-          "pricePerShare": 116.45,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 3479.0,
-          "pricePerShare": 117.03,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 9353.0,
-          "pricePerShare": 116.62,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1529.0,
-          "pricePerShare": 117.29,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 980.0,
-          "pricePerShare": 118.59,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 798.0,
-          "pricePerShare": 119.6,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 40.0,
-          "pricePerShare": 120.14,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13610.0,
-          "pricePerShare": 121.91,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 590.0,
-          "pricePerShare": 122.65,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12690.0,
-          "pricePerShare": 121.26,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1210.0,
-          "pricePerShare": 122.11,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13980.0,
-          "pricePerShare": 121.43,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 120.0,
-          "pricePerShare": 121.86,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13000.0,
-          "pricePerShare": 121.09,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -59725,71 +59850,6 @@
         }
       ]
     },
-    "SMWB": {
-      "issuerName": "SIMILARWEB LTD.",
-      "trades": [
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 59992.0,
-          "pricePerShare": 8.9006,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 75000.0,
-          "pricePerShare": 8.852,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 228500.0,
-          "pricePerShare": 8.8215,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 200000.0,
-          "pricePerShare": 8.7864,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 106105.0,
-          "pricePerShare": 8.75,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 40000.0,
-          "pricePerShare": 8.9,
-          "transactionDate": "2026-08-13"
-        }
-      ]
-    },
     "ACCS": {
       "issuerName": "ACCESS Newswire Inc.",
       "trades": [
@@ -61787,16 +61847,6 @@
           "shares": 42411.0,
           "pricePerShare": 0.888,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "PFSA",
-          "issuerName": "Profusa, Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 5585.0,
-          "pricePerShare": 0.964,
-          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -63359,76 +63409,6 @@
           "transactionDate": "2026-08-12"
         }
       ]
-    },
-    "TRST": {
-      "issuerName": "TRUSTCO BANK CORP N Y",
-      "trades": [
-        {
-          "ticker": "TRST",
-          "issuerName": "TRUSTCO BANK CORP N Y",
-          "insiderName": "McCormick Lauren Ann",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 103.0,
-          "pricePerShare": 56.51,
-          "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "CPSS": {
-      "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
-      "trades": [
-        {
-          "ticker": "CPSS",
-          "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
-          "insiderName": "Ralston Catrina Marie",
-          "title": "Sr. Vice President",
-          "type": "Sale",
-          "shares": 3617.0,
-          "pricePerShare": 9.5,
-          "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "HMN": {
-      "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
-      "trades": [
-        {
-          "ticker": "HMN",
-          "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
-          "insiderName": "Reece Henry Wade",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1359.0,
-          "pricePerShare": 51.522,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "HMN",
-          "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
-          "insiderName": "BRADLEY THOMAS A",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 51.7246,
-          "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "PAYS": {
-      "issuerName": "Paysign, Inc.",
-      "trades": [
-        {
-          "ticker": "PAYS",
-          "issuerName": "Paysign, Inc.",
-          "insiderName": "Baker Jeffery Bradford",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 35000.0,
-          "pricePerShare": 12.6182,
-          "transactionDate": "2026-08-12"
-        }
-      ]
     }
   },
   "_meta": {
@@ -64525,6 +64505,8 @@
       "0000912938-26-000758",
       "0000912938-26-000760",
       "0000912938-26-000774",
+      "0000912938-26-000806",
+      "0000912938-26-000808",
       "0000914190-26-000108",
       "0000917677-26-000304",
       "0000918697-26-000011",
@@ -66722,6 +66704,9 @@
       "0001104659-26-101782",
       "0001104659-26-101925",
       "0001104659-26-102028",
+      "0001104659-26-102032",
+      "0001104659-26-102057",
+      "0001104659-26-102170",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -70175,6 +70160,11 @@
       "0001193125-26-369552",
       "0001193125-26-369553",
       "0001193125-26-369589",
+      "0001193125-26-369639",
+      "0001193125-26-369641",
+      "0001193125-26-369642",
+      "0001193125-26-369643",
+      "0001193125-26-369646",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -71272,6 +71262,7 @@
       "0001213900-26-094101",
       "0001213900-26-094102",
       "0001213900-26-094106",
+      "0001213900-26-094129",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -73253,6 +73244,7 @@
       "0001493152-26-040276",
       "0001493152-26-040281",
       "0001493152-26-040316",
+      "0001493152-26-040334",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -80171,6 +80163,7 @@
       "0001918704-26-024932",
       "0001918704-26-024962",
       "0001918704-26-024963",
+      "0001918704-26-024975",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -80342,6 +80335,7 @@
       "0001976408-26-000771",
       "0001976408-26-000772",
       "0001976408-26-000776",
+      "0001976408-26-000777",
       "0001976672-26-000057",
       "0001976672-26-000059",
       "0001976672-26-000062",
@@ -80743,6 +80737,16 @@
       "0001999371-26-018740",
       "0001999371-26-018754",
       "0001999371-26-018756",
+      "0001999371-26-018841",
+      "0001999371-26-018843",
+      "0001999371-26-018845",
+      "0001999371-26-018847",
+      "0001999371-26-018849",
+      "0001999371-26-018851",
+      "0001999371-26-018853",
+      "0001999371-26-018855",
+      "0001999371-26-018857",
+      "0001999371-26-018859",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0001999852-26-000003",
