@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T19:02:07.898072+00:00",
+  "generatedAt": "2026-08-27T20:01:55.265866+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -591,6 +591,16 @@
       "type": "Purchase",
       "shares": 16.0,
       "pricePerShare": 62.08,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "IMTX",
+      "issuerName": "Immatics N.V.",
+      "insiderName": "PERCEPTIVE ADVISORS LLC",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 863060.0,
+      "pricePerShare": 8.69,
       "transactionDate": "2026-08-26"
     },
     {
@@ -2001,6 +2011,36 @@
       "type": "Sale",
       "shares": 350.0,
       "pricePerShare": 63.0502,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "TG",
+      "issuerName": "TREDEGAR CORP",
+      "insiderName": "GOTTWALD JOHN D",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 13.0,
+      "pricePerShare": 8.0,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "TG",
+      "issuerName": "TREDEGAR CORP",
+      "insiderName": "GOTTWALD WILLIAM M",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 14.0,
+      "pricePerShare": 8.0,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "TG",
+      "issuerName": "TREDEGAR CORP",
+      "insiderName": "Gottwald James T.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 14.0,
+      "pricePerShare": 8.0,
       "transactionDate": "2026-08-25"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 25000.0,
       "pricePerShare": 14.4303,
       "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "LTC",
-      "issuerName": "LTC PROPERTIES INC",
-      "insiderName": "Gruber David L",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 500.0,
-      "pricePerShare": 38.3,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "XRN",
-      "issuerName": "Chiron Real Estate Inc.",
-      "insiderName": "Roseth Aaron Robert",
-      "title": "Director, COO",
-      "type": "Purchase",
-      "shares": 13500.0,
-      "pricePerShare": 36.73,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "ARQT",
-      "issuerName": "Arcutis Biotherapeutics, Inc.",
-      "insiderName": "Burnett Patrick",
-      "title": "See Remarks",
-      "type": "Sale",
-      "shares": 6700.0,
-      "pricePerShare": 26.0847,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "GLXY",
-      "issuerName": "Galaxy Digital Inc.",
-      "insiderName": "DEASON DOUGLAS R",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 12000.0,
-      "pricePerShare": 21.536,
-      "transactionDate": "2026-08-12"
     }
   ],
   "byTicker": {
@@ -33410,6 +33410,21 @@
         }
       ]
     },
+    "IMTX": {
+      "issuerName": "Immatics N.V.",
+      "trades": [
+        {
+          "ticker": "IMTX",
+          "issuerName": "Immatics N.V.",
+          "insiderName": "PERCEPTIVE ADVISORS LLC",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 863060.0,
+          "pricePerShare": 8.69,
+          "transactionDate": "2026-08-26"
+        }
+      ]
+    },
     "BABA": {
       "issuerName": "Alibaba Group Holding Ltd",
       "trades": [
@@ -36046,6 +36061,181 @@
           "type": "Sale",
           "shares": 4500.0,
           "pricePerShare": 63.75,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "TG": {
+      "issuerName": "TREDEGAR CORP",
+      "trades": [
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 13.0,
+          "pricePerShare": 8.0,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 14.0,
+          "pricePerShare": 8.0,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "Gottwald James T.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 14.0,
+          "pricePerShare": 8.0,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4318.0,
+          "pricePerShare": 8.118,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4318.0,
+          "pricePerShare": 8.118,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3472.0,
+          "pricePerShare": 8.005,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "Gottwald James T.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3472.0,
+          "pricePerShare": 8.005,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3472.0,
+          "pricePerShare": 8.005,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7718.0,
+          "pricePerShare": 8.016,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "Gottwald James T.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7719.0,
+          "pricePerShare": 8.016,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7718.0,
+          "pricePerShare": 8.016,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "DasGupta Arijit",
+          "title": "Director, See Remarks",
+          "type": "Purchase",
+          "shares": 907.0,
+          "pricePerShare": 7.87,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1020.0,
+          "pricePerShare": 8.003,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "Gottwald James T.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1020.0,
+          "pricePerShare": 8.003,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1021.0,
+          "pricePerShare": 8.003,
+          "transactionDate": "2026-08-13"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD JOHN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 13170.0,
+          "pricePerShare": 8.073,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "TG",
+          "issuerName": "TREDEGAR CORP",
+          "insiderName": "GOTTWALD WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 13170.0,
+          "pricePerShare": 8.073,
           "transactionDate": "2026-08-12"
         }
       ]
@@ -54600,151 +54790,6 @@
         }
       ]
     },
-    "TG": {
-      "issuerName": "TREDEGAR CORP",
-      "trades": [
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD WILLIAM M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4318.0,
-          "pricePerShare": 8.118,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD JOHN D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4318.0,
-          "pricePerShare": 8.118,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD WILLIAM M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3472.0,
-          "pricePerShare": 8.005,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "Gottwald James T.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3472.0,
-          "pricePerShare": 8.005,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD JOHN D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3472.0,
-          "pricePerShare": 8.005,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD WILLIAM M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7718.0,
-          "pricePerShare": 8.016,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "Gottwald James T.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7719.0,
-          "pricePerShare": 8.016,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD JOHN D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7718.0,
-          "pricePerShare": 8.016,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "DasGupta Arijit",
-          "title": "Director, See Remarks",
-          "type": "Purchase",
-          "shares": 907.0,
-          "pricePerShare": 7.87,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD JOHN D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1020.0,
-          "pricePerShare": 8.003,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "Gottwald James T.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1020.0,
-          "pricePerShare": 8.003,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD WILLIAM M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1021.0,
-          "pricePerShare": 8.003,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD JOHN D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 13170.0,
-          "pricePerShare": 8.073,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "GOTTWALD WILLIAM M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 13170.0,
-          "pricePerShare": 8.073,
-          "transactionDate": "2026-08-12"
-        }
-      ]
-    },
     "REFI": {
       "issuerName": "Chicago Atlantic Real Estate Finance, Inc.",
       "trades": [
@@ -58982,16 +59027,6 @@
           "shares": 4730.0,
           "pricePerShare": 26.1807,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "ARQT",
-          "issuerName": "Arcutis Biotherapeutics, Inc.",
-          "insiderName": "Burnett Patrick",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 6700.0,
-          "pricePerShare": 26.0847,
-          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -63354,51 +63389,6 @@
           "transactionDate": "2026-08-12"
         }
       ]
-    },
-    "LTC": {
-      "issuerName": "LTC PROPERTIES INC",
-      "trades": [
-        {
-          "ticker": "LTC",
-          "issuerName": "LTC PROPERTIES INC",
-          "insiderName": "Gruber David L",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 500.0,
-          "pricePerShare": 38.3,
-          "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "XRN": {
-      "issuerName": "Chiron Real Estate Inc.",
-      "trades": [
-        {
-          "ticker": "XRN",
-          "issuerName": "Chiron Real Estate Inc.",
-          "insiderName": "Roseth Aaron Robert",
-          "title": "Director, COO",
-          "type": "Purchase",
-          "shares": 13500.0,
-          "pricePerShare": 36.73,
-          "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "GLXY": {
-      "issuerName": "Galaxy Digital Inc.",
-      "trades": [
-        {
-          "ticker": "GLXY",
-          "issuerName": "Galaxy Digital Inc.",
-          "insiderName": "DEASON DOUGLAS R",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 12000.0,
-          "pricePerShare": 21.536,
-          "transactionDate": "2026-08-12"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63675,6 +63665,7 @@
       "0000070502-26-000567",
       "0000070502-26-000569",
       "0000070502-26-000572",
+      "0000070502-26-000585",
       "0000070858-26-000359",
       "0000070858-26-000368",
       "0000070858-26-000409",
@@ -63809,6 +63800,8 @@
       "0000108985-26-000066",
       "0000108985-26-000072",
       "0000108985-26-000076",
+      "0000108985-26-000079",
+      "0000108985-26-000080",
       "0000109380-26-000104",
       "0000109380-26-000105",
       "0000200406-26-000148",
@@ -64073,6 +64066,7 @@
       "0000763744-26-000065",
       "0000765207-26-000100",
       "0000773674-26-000024",
+      "0000776867-26-000049",
       "0000779152-26-000046",
       "0000779152-26-000047",
       "0000779152-26-000048",
@@ -64332,6 +64326,7 @@
       "0000894189-26-023966",
       "0000894189-26-023967",
       "0000894189-26-023974",
+      "0000894189-26-024032",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895430-26-000024",
@@ -65614,6 +65609,9 @@
       "0000950103-26-012987",
       "0000950103-26-012988",
       "0000950103-26-012989",
+      "0000950103-26-012994",
+      "0000950103-26-012995",
+      "0000950103-26-012996",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66779,6 +66777,9 @@
       "0001104659-26-102323",
       "0001104659-26-102326",
       "0001104659-26-102391",
+      "0001104659-26-102417",
+      "0001104659-26-102419",
+      "0001104659-26-102420",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -70278,6 +70279,18 @@
       "0001193125-26-371045",
       "0001193125-26-371050",
       "0001193125-26-371062",
+      "0001193125-26-371166",
+      "0001193125-26-371175",
+      "0001193125-26-371182",
+      "0001193125-26-371203",
+      "0001193125-26-371219",
+      "0001193125-26-371222",
+      "0001193125-26-371223",
+      "0001193125-26-371224",
+      "0001193125-26-371225",
+      "0001193125-26-371233",
+      "0001193125-26-371235",
+      "0001193125-26-371237",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -71388,6 +71401,9 @@
       "0001213900-26-094262",
       "0001213900-26-094293",
       "0001213900-26-094294",
+      "0001213900-26-094357",
+      "0001213900-26-094359",
+      "0001213900-26-094361",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -72117,6 +72133,7 @@
       "0001390383-26-000006",
       "0001390383-26-000008",
       "0001391679-26-000004",
+      "0001391679-26-000006",
       "0001392116-26-000010",
       "0001392116-26-000011",
       "0001392116-26-000012",
@@ -75864,6 +75881,7 @@
       "0001838360-26-000007",
       "0001838733-26-000028",
       "0001838841-26-000002",
+      "0001839414-26-000002",
       "0001839477-26-000014",
       "0001839882-26-035407",
       "0001839882-26-035409",
@@ -77781,6 +77799,23 @@
       "0001839882-26-041916",
       "0001839882-26-041921",
       "0001839882-26-041923",
+      "0001839882-26-041945",
+      "0001839882-26-041946",
+      "0001839882-26-041947",
+      "0001839882-26-041948",
+      "0001839882-26-041949",
+      "0001839882-26-041950",
+      "0001839882-26-041951",
+      "0001839882-26-041952",
+      "0001839882-26-041953",
+      "0001839882-26-041954",
+      "0001839882-26-041957",
+      "0001839882-26-041961",
+      "0001839882-26-041967",
+      "0001839882-26-041972",
+      "0001839882-26-041973",
+      "0001839882-26-041975",
+      "0001839882-26-041976",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -80443,6 +80478,13 @@
       "0001918704-26-025127",
       "0001918704-26-025128",
       "0001918704-26-025129",
+      "0001918704-26-025139",
+      "0001918704-26-025140",
+      "0001918704-26-025141",
+      "0001918704-26-025142",
+      "0001918704-26-025143",
+      "0001918704-26-025146",
+      "0001918704-26-025147",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
