@@ -1,8 +1,28 @@
 {
-  "generatedAt": "2026-08-27T16:05:03.775900+00:00",
+  "generatedAt": "2026-08-27T17:04:06.697361+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "EXOD",
+      "issuerName": "Exodus Movement, Inc.",
+      "insiderName": "Olivera Matias",
+      "title": "Chief Technology Officer",
+      "type": "Sale",
+      "shares": 2835.0,
+      "pricePerShare": 8.52,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "MLI",
+      "issuerName": "MUELLER INDUSTRIES INC",
+      "insiderName": "GOLDMAN SCOTT JAY",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 2000.0,
+      "pricePerShare": 64.08,
+      "transactionDate": "2026-08-27"
+    },
     {
       "ticker": "AAT",
       "issuerName": "American Assets Trust, Inc.",
@@ -531,6 +551,16 @@
       "type": "Purchase",
       "shares": 756.0,
       "pricePerShare": 2.95,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "EXOD",
+      "issuerName": "Exodus Movement, Inc.",
+      "insiderName": "Olivera Matias",
+      "title": "Chief Technology Officer",
+      "type": "Sale",
+      "shares": 2835.0,
+      "pricePerShare": 8.35,
       "transactionDate": "2026-08-26"
     },
     {
@@ -1911,6 +1941,16 @@
       "type": "Sale",
       "shares": 1000.0,
       "pricePerShare": 51.4,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "EXOD",
+      "issuerName": "Exodus Movement, Inc.",
+      "insiderName": "Olivera Matias",
+      "title": "Chief Technology Officer",
+      "type": "Sale",
+      "shares": 2835.0,
+      "pricePerShare": 8.4,
       "transactionDate": "2026-08-25"
     },
     {
@@ -29962,49 +30002,109 @@
       "shares": 1506.0,
       "pricePerShare": 33.2,
       "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "BHRB",
-      "issuerName": "Burke & Herbert Financial Services Corp.",
-      "insiderName": "Poillon Diane",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 1200.0,
-      "pricePerShare": 73.6651,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "CYD",
-      "issuerName": "CHINA YUCHAI INTERNATIONAL LTD",
-      "insiderName": "Loo Choon Sen",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 13134.0,
-      "pricePerShare": 46.9494,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "CYD",
-      "issuerName": "CHINA YUCHAI INTERNATIONAL LTD",
-      "insiderName": "Loo Choon Sen",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 66.0,
-      "pricePerShare": 47.48,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "KARO",
-      "issuerName": "Karooooo Ltd.",
-      "insiderName": "Calisto Isaias Jose",
-      "title": "Director, CEO & Executive Chairman, 10% Owner",
-      "type": "Sale",
-      "shares": 2158.0,
-      "pricePerShare": 63.0475,
-      "transactionDate": "2026-08-12"
     }
   ],
   "byTicker": {
+    "EXOD": {
+      "issuerName": "Exodus Movement, Inc.",
+      "trades": [
+        {
+          "ticker": "EXOD",
+          "issuerName": "Exodus Movement, Inc.",
+          "insiderName": "Olivera Matias",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 2835.0,
+          "pricePerShare": 8.52,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "EXOD",
+          "issuerName": "Exodus Movement, Inc.",
+          "insiderName": "Olivera Matias",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 2835.0,
+          "pricePerShare": 8.35,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "EXOD",
+          "issuerName": "Exodus Movement, Inc.",
+          "insiderName": "Olivera Matias",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 2835.0,
+          "pricePerShare": 8.4,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "EXOD",
+          "issuerName": "Exodus Movement, Inc.",
+          "insiderName": "Olivera Matias",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 2835.0,
+          "pricePerShare": 7.68,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "EXOD",
+          "issuerName": "Exodus Movement, Inc.",
+          "insiderName": "Olivera Matias",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 2835.0,
+          "pricePerShare": 7.81,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "EXOD",
+          "issuerName": "Exodus Movement, Inc.",
+          "insiderName": "Olivera Matias",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 2835.0,
+          "pricePerShare": 7.73,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "EXOD",
+          "issuerName": "Exodus Movement, Inc.",
+          "insiderName": "Olivera Matias",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 2835.0,
+          "pricePerShare": 7.0319,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "EXOD",
+          "issuerName": "Exodus Movement, Inc.",
+          "insiderName": "Gernetzke James",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 4894.0,
+          "pricePerShare": 6.91,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "MLI": {
+      "issuerName": "MUELLER INDUSTRIES INC",
+      "trades": [
+        {
+          "ticker": "MLI",
+          "issuerName": "MUELLER INDUSTRIES INC",
+          "insiderName": "GOLDMAN SCOTT JAY",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 64.08,
+          "transactionDate": "2026-08-27"
+        }
+      ]
+    },
     "AAT": {
       "issuerName": "American Assets Trust, Inc.",
       "trades": [
@@ -35747,61 +35847,6 @@
           "shares": 1900.0,
           "pricePerShare": 39.98,
           "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "EXOD": {
-      "issuerName": "Exodus Movement, Inc.",
-      "trades": [
-        {
-          "ticker": "EXOD",
-          "issuerName": "Exodus Movement, Inc.",
-          "insiderName": "Olivera Matias",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 2835.0,
-          "pricePerShare": 7.68,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "EXOD",
-          "issuerName": "Exodus Movement, Inc.",
-          "insiderName": "Olivera Matias",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 2835.0,
-          "pricePerShare": 7.81,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "EXOD",
-          "issuerName": "Exodus Movement, Inc.",
-          "insiderName": "Olivera Matias",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 2835.0,
-          "pricePerShare": 7.73,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "EXOD",
-          "issuerName": "Exodus Movement, Inc.",
-          "insiderName": "Olivera Matias",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 2835.0,
-          "pricePerShare": 7.0319,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "EXOD",
-          "issuerName": "Exodus Movement, Inc.",
-          "insiderName": "Gernetzke James",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 4894.0,
-          "pricePerShare": 6.91,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -48947,16 +48992,6 @@
           "shares": 35.0,
           "pricePerShare": 70.5726,
           "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "BHRB",
-          "issuerName": "Burke & Herbert Financial Services Corp.",
-          "insiderName": "Poillon Diane",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1200.0,
-          "pricePerShare": 73.6651,
-          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -53187,16 +53222,6 @@
           "shares": 8235.0,
           "pricePerShare": 63.5772,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "KARO",
-          "issuerName": "Karooooo Ltd.",
-          "insiderName": "Calisto Isaias Jose",
-          "title": "Director, CEO & Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 2158.0,
-          "pricePerShare": 63.0475,
-          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -57712,26 +57737,6 @@
           "shares": 8000.0,
           "pricePerShare": 45.6922,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "CYD",
-          "issuerName": "CHINA YUCHAI INTERNATIONAL LTD",
-          "insiderName": "Loo Choon Sen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 13134.0,
-          "pricePerShare": 46.9494,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "CYD",
-          "issuerName": "CHINA YUCHAI INTERNATIONAL LTD",
-          "insiderName": "Loo Choon Sen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 66.0,
-          "pricePerShare": 47.48,
-          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -64181,6 +64186,8 @@
       "0000857005-26-000003",
       "0000857490-26-000485",
       "0000862084-26-000116",
+      "0000866273-26-000043",
+      "0000866273-26-000044",
       "0000874238-26-000105",
       "0000874716-26-000117",
       "0000874716-26-000125",
@@ -64316,6 +64323,9 @@
       "0000894189-26-023480",
       "0000894189-26-023481",
       "0000894189-26-023875",
+      "0000894189-26-023964",
+      "0000894189-26-023966",
+      "0000894189-26-023967",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895430-26-000024",
@@ -64370,6 +64380,8 @@
       "0000898432-26-000590",
       "0000898745-26-000842",
       "0000898745-26-000843",
+      "0000898745-26-000853",
+      "0000898745-26-000854",
       "0000899051-26-000123",
       "0000899140-26-000726",
       "0000899140-26-000735",
@@ -65583,6 +65595,10 @@
       "0000950103-26-012973",
       "0000950103-26-012974",
       "0000950103-26-012975",
+      "0000950103-26-012979",
+      "0000950103-26-012980",
+      "0000950103-26-012981",
+      "0000950103-26-012982",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66732,6 +66748,18 @@
       "0001104659-26-102257",
       "0001104659-26-102261",
       "0001104659-26-102264",
+      "0001104659-26-102290",
+      "0001104659-26-102291",
+      "0001104659-26-102292",
+      "0001104659-26-102294",
+      "0001104659-26-102296",
+      "0001104659-26-102298",
+      "0001104659-26-102300",
+      "0001104659-26-102301",
+      "0001104659-26-102302",
+      "0001104659-26-102303",
+      "0001104659-26-102309",
+      "0001104659-26-102311",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66933,6 +66961,7 @@
       "0001137360-26-000748",
       "0001137360-26-000759",
       "0001137360-26-000761",
+      "0001137360-26-000803",
       "0001137789-26-000173",
       "0001140019-26-000099",
       "0001140019-26-000105",
@@ -67334,6 +67363,8 @@
       "0001140361-26-034569",
       "0001140361-26-034570",
       "0001140361-26-034573",
+      "0001140361-26-034587",
+      "0001140361-26-034599",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -70197,6 +70228,12 @@
       "0001193125-26-369646",
       "0001193125-26-370198",
       "0001193125-26-370360",
+      "0001193125-26-370436",
+      "0001193125-26-370457",
+      "0001193125-26-370606",
+      "0001193125-26-370613",
+      "0001193125-26-370654",
+      "0001193125-26-370680",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70214,6 +70251,7 @@
       "0001196460-26-000004",
       "0001196484-26-000014",
       "0001196914-26-000003",
+      "0001196963-26-000002",
       "0001198444-26-000010",
       "0001199835-26-000310",
       "0001199835-26-000312",
@@ -71302,6 +71340,8 @@
       "0001213900-26-094230",
       "0001213900-26-094237",
       "0001213900-26-094243",
+      "0001213900-26-094253",
+      "0001213900-26-094262",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -72026,6 +72066,7 @@
       "0001385849-26-000034",
       "0001388191-26-000002",
       "0001389250-26-000004",
+      "0001389308-26-000005",
       "0001390378-26-000008",
       "0001390383-26-000006",
       "0001390383-26-000008",
@@ -72167,6 +72208,9 @@
       "0001398344-26-015384",
       "0001398344-26-015389",
       "0001398344-26-015665",
+      "0001398344-26-015729",
+      "0001398344-26-015731",
+      "0001398344-26-015733",
       "0001399967-26-000002",
       "0001401336-26-000020",
       "0001402348-26-000016",
@@ -72208,6 +72252,7 @@
       "0001419945-26-000067",
       "0001421517-26-000073",
       "0001421517-26-000075",
+      "0001422094-26-000006",
       "0001422283-26-000002",
       "0001423238-26-000008",
       "0001427531-26-000005",
@@ -72752,6 +72797,8 @@
       "0001445546-26-006410",
       "0001445546-26-006411",
       "0001445546-26-006412",
+      "0001445546-26-006422",
+      "0001445546-26-006423",
       "0001448765-26-000011",
       "0001448765-26-000013",
       "0001450800-26-000006",
@@ -73515,6 +73562,8 @@
       "0001528621-26-000898",
       "0001528621-26-000899",
       "0001528621-26-000900",
+      "0001528621-26-000903",
+      "0001528621-26-000904",
       "0001530038-26-000002",
       "0001530255-26-000010",
       "0001530819-26-000012",
@@ -74609,6 +74658,7 @@
       "0001628280-26-059173",
       "0001628280-26-059181",
       "0001628280-26-059185",
+      "0001628280-26-059222",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -77645,6 +77695,14 @@
       "0001839882-26-041843",
       "0001839882-26-041844",
       "0001839882-26-041848",
+      "0001839882-26-041854",
+      "0001839882-26-041855",
+      "0001839882-26-041859",
+      "0001839882-26-041861",
+      "0001839882-26-041868",
+      "0001839882-26-041869",
+      "0001839882-26-041872",
+      "0001839882-26-041873",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -80268,6 +80326,22 @@
       "0001918704-26-025072",
       "0001918704-26-025073",
       "0001918704-26-025074",
+      "0001918704-26-025077",
+      "0001918704-26-025078",
+      "0001918704-26-025079",
+      "0001918704-26-025080",
+      "0001918704-26-025081",
+      "0001918704-26-025083",
+      "0001918704-26-025084",
+      "0001918704-26-025085",
+      "0001918704-26-025086",
+      "0001918704-26-025087",
+      "0001918704-26-025088",
+      "0001918704-26-025089",
+      "0001918704-26-025090",
+      "0001918704-26-025091",
+      "0001918704-26-025092",
+      "0001918704-26-025094",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
