@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T20:01:55.265866+00:00",
+  "generatedAt": "2026-08-27T21:04:09.750115+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -601,6 +601,26 @@
       "type": "Purchase",
       "shares": 863060.0,
       "pricePerShare": 8.69,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "XELB",
+      "issuerName": "XCel Brands, Inc.",
+      "insiderName": "D LOREN ROBERT W",
+      "title": "Director, CEO and Chairman, 10% Owner",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 0.955,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "HD",
+      "issuerName": "HOME DEPOT, INC.",
+      "insiderName": "Rowe Michael F.",
+      "title": "EVP, Pro",
+      "type": "Sale",
+      "shares": 710.0,
+      "pricePerShare": 336.76,
       "transactionDate": "2026-08-26"
     },
     {
@@ -2041,6 +2061,66 @@
       "type": "Sale",
       "shares": 14.0,
       "pricePerShare": 8.0,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "GEN",
+      "issuerName": "Gen Digital Inc.",
+      "insiderName": "Vlcek Ondrej",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 152358.0,
+      "pricePerShare": 29.0001,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "AMAT",
+      "issuerName": "APPLIED MATERIALS INC /DE",
+      "insiderName": "Hill Brice",
+      "title": "SVP, CFO",
+      "type": "Sale",
+      "shares": 7500.0,
+      "pricePerShare": 479.2501,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "EVER",
+      "issuerName": "EverQuote, Inc.",
+      "insiderName": "Brainard David",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1097.0,
+      "pricePerShare": 26.47,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "EVER",
+      "issuerName": "EverQuote, Inc.",
+      "insiderName": "Ayotte Jon",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1436.0,
+      "pricePerShare": 26.47,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "EVER",
+      "issuerName": "EverQuote, Inc.",
+      "insiderName": "Shields John L.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2550.0,
+      "pricePerShare": 26.3,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "EVER",
+      "issuerName": "EverQuote, Inc.",
+      "insiderName": "Shields John L.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 576.0,
+      "pricePerShare": 26.81,
       "transactionDate": "2026-08-25"
     },
     {
@@ -29922,86 +30002,6 @@
       "shares": 3704.0,
       "pricePerShare": 163.4141,
       "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "GH",
-      "issuerName": "Guardant Health, Inc.",
-      "insiderName": "Monroe Terilyn J.",
-      "title": "Chief People Officer",
-      "type": "Sale",
-      "shares": 9934.0,
-      "pricePerShare": 164.2712,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "GH",
-      "issuerName": "Guardant Health, Inc.",
-      "insiderName": "Monroe Terilyn J.",
-      "title": "Chief People Officer",
-      "type": "Sale",
-      "shares": 19014.0,
-      "pricePerShare": 165.1578,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "GH",
-      "issuerName": "Guardant Health, Inc.",
-      "insiderName": "Monroe Terilyn J.",
-      "title": "Chief People Officer",
-      "type": "Sale",
-      "shares": 13248.0,
-      "pricePerShare": 166.1069,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "GH",
-      "issuerName": "Guardant Health, Inc.",
-      "insiderName": "Monroe Terilyn J.",
-      "title": "Chief People Officer",
-      "type": "Sale",
-      "shares": 400.0,
-      "pricePerShare": 167.9188,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "AIG",
-      "issuerName": "AMERICAN INTERNATIONAL GROUP, INC.",
-      "insiderName": "Zaffino Peter",
-      "title": "Director, Executive Chair",
-      "type": "Sale",
-      "shares": 200000.0,
-      "pricePerShare": 76.4714,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "WVE",
-      "issuerName": "Wave Life Sciences, Inc.",
-      "insiderName": "Rawcliffe Adrian",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 12700.0,
-      "pricePerShare": 5.29,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "SCHW",
-      "issuerName": "SCHWAB CHARLES CORP",
-      "insiderName": "Schwab Charles R.",
-      "title": "Director, Co-Chairman",
-      "type": "Sale",
-      "shares": 46410.0,
-      "pricePerShare": 108.176,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "TXO",
-      "issuerName": "TXO Partners, L.P.",
-      "insiderName": "SIMPSON BOB R",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 25000.0,
-      "pricePerShare": 14.4303,
-      "transactionDate": "2026-08-12"
     }
   ],
   "byTicker": {
@@ -33425,6 +33425,36 @@
         }
       ]
     },
+    "XELB": {
+      "issuerName": "XCel Brands, Inc.",
+      "trades": [
+        {
+          "ticker": "XELB",
+          "issuerName": "XCel Brands, Inc.",
+          "insiderName": "D LOREN ROBERT W",
+          "title": "Director, CEO and Chairman, 10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 0.955,
+          "transactionDate": "2026-08-26"
+        }
+      ]
+    },
+    "HD": {
+      "issuerName": "HOME DEPOT, INC.",
+      "trades": [
+        {
+          "ticker": "HD",
+          "issuerName": "HOME DEPOT, INC.",
+          "insiderName": "Rowe Michael F.",
+          "title": "EVP, Pro",
+          "type": "Sale",
+          "shares": 710.0,
+          "pricePerShare": 336.76,
+          "transactionDate": "2026-08-26"
+        }
+      ]
+    },
     "BABA": {
       "issuerName": "Alibaba Group Holding Ltd",
       "trades": [
@@ -36237,6 +36267,111 @@
           "shares": 13170.0,
           "pricePerShare": 8.073,
           "transactionDate": "2026-08-12"
+        }
+      ]
+    },
+    "GEN": {
+      "issuerName": "Gen Digital Inc.",
+      "trades": [
+        {
+          "ticker": "GEN",
+          "issuerName": "Gen Digital Inc.",
+          "insiderName": "Vlcek Ondrej",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 152358.0,
+          "pricePerShare": 29.0001,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "GEN",
+          "issuerName": "Gen Digital Inc.",
+          "insiderName": "Vlcek Ondrej",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 47462.0,
+          "pricePerShare": 29.0002,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "GEN",
+          "issuerName": "Gen Digital Inc.",
+          "insiderName": "Witteveen Travis Michael",
+          "title": "Head of Products and Portfolio",
+          "type": "Sale",
+          "shares": 440.0,
+          "pricePerShare": 28.06,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "AMAT": {
+      "issuerName": "APPLIED MATERIALS INC /DE",
+      "trades": [
+        {
+          "ticker": "AMAT",
+          "issuerName": "APPLIED MATERIALS INC /DE",
+          "insiderName": "Hill Brice",
+          "title": "SVP, CFO",
+          "type": "Sale",
+          "shares": 7500.0,
+          "pricePerShare": 479.2501,
+          "transactionDate": "2026-08-25"
+        }
+      ]
+    },
+    "EVER": {
+      "issuerName": "EverQuote, Inc.",
+      "trades": [
+        {
+          "ticker": "EVER",
+          "issuerName": "EverQuote, Inc.",
+          "insiderName": "Brainard David",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1097.0,
+          "pricePerShare": 26.47,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "EVER",
+          "issuerName": "EverQuote, Inc.",
+          "insiderName": "Ayotte Jon",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1436.0,
+          "pricePerShare": 26.47,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "EVER",
+          "issuerName": "EverQuote, Inc.",
+          "insiderName": "Shields John L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2550.0,
+          "pricePerShare": 26.3,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "EVER",
+          "issuerName": "EverQuote, Inc.",
+          "insiderName": "Shields John L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 576.0,
+          "pricePerShare": 26.81,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "EVER",
+          "issuerName": "EverQuote, Inc.",
+          "insiderName": "Neble George R",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2456.0,
+          "pricePerShare": 24.64,
+          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -39402,16 +39537,6 @@
           "shares": 2198.0,
           "pricePerShare": 110.0,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Schwab Charles R.",
-          "title": "Director, Co-Chairman",
-          "type": "Sale",
-          "shares": 46410.0,
-          "pricePerShare": 108.176,
-          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -48470,31 +48595,6 @@
         }
       ]
     },
-    "GEN": {
-      "issuerName": "Gen Digital Inc.",
-      "trades": [
-        {
-          "ticker": "GEN",
-          "issuerName": "Gen Digital Inc.",
-          "insiderName": "Vlcek Ondrej",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 47462.0,
-          "pricePerShare": 29.0002,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "GEN",
-          "issuerName": "Gen Digital Inc.",
-          "insiderName": "Witteveen Travis Michael",
-          "title": "Head of Products and Portfolio",
-          "type": "Sale",
-          "shares": 440.0,
-          "pricePerShare": 28.06,
-          "transactionDate": "2026-08-17"
-        }
-      ]
-    },
     "ANET": {
       "issuerName": "Arista Networks, Inc.",
       "trades": [
@@ -55021,21 +55121,6 @@
           "type": "Sale",
           "shares": 200.0,
           "pricePerShare": 30.75,
-          "transactionDate": "2026-08-19"
-        }
-      ]
-    },
-    "EVER": {
-      "issuerName": "EverQuote, Inc.",
-      "trades": [
-        {
-          "ticker": "EVER",
-          "issuerName": "EverQuote, Inc.",
-          "insiderName": "Neble George R",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2456.0,
-          "pricePerShare": 24.64,
           "transactionDate": "2026-08-19"
         }
       ]
@@ -61782,16 +61867,6 @@
           "shares": 200.0,
           "pricePerShare": 76.89,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "AIG",
-          "issuerName": "AMERICAN INTERNATIONAL GROUP, INC.",
-          "insiderName": "Zaffino Peter",
-          "title": "Director, Executive Chair",
-          "type": "Sale",
-          "shares": 200000.0,
-          "pricePerShare": 76.4714,
-          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -61822,16 +61897,6 @@
           "shares": 125000.0,
           "pricePerShare": 14.3183,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "TXO",
-          "issuerName": "TXO Partners, L.P.",
-          "insiderName": "SIMPSON BOB R",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 25000.0,
-          "pricePerShare": 14.4303,
-          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -63332,61 +63397,6 @@
           "shares": 3704.0,
           "pricePerShare": 163.4141,
           "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "GH",
-          "issuerName": "Guardant Health, Inc.",
-          "insiderName": "Monroe Terilyn J.",
-          "title": "Chief People Officer",
-          "type": "Sale",
-          "shares": 9934.0,
-          "pricePerShare": 164.2712,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "GH",
-          "issuerName": "Guardant Health, Inc.",
-          "insiderName": "Monroe Terilyn J.",
-          "title": "Chief People Officer",
-          "type": "Sale",
-          "shares": 19014.0,
-          "pricePerShare": 165.1578,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "GH",
-          "issuerName": "Guardant Health, Inc.",
-          "insiderName": "Monroe Terilyn J.",
-          "title": "Chief People Officer",
-          "type": "Sale",
-          "shares": 13248.0,
-          "pricePerShare": 166.1069,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "GH",
-          "issuerName": "Guardant Health, Inc.",
-          "insiderName": "Monroe Terilyn J.",
-          "title": "Chief People Officer",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 167.9188,
-          "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "WVE": {
-      "issuerName": "Wave Life Sciences, Inc.",
-      "trades": [
-        {
-          "ticker": "WVE",
-          "issuerName": "Wave Life Sciences, Inc.",
-          "insiderName": "Rawcliffe Adrian",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 12700.0,
-          "pricePerShare": 5.29,
-          "transactionDate": "2026-08-12"
         }
       ]
     }
@@ -63899,6 +63909,7 @@
       "0000354190-26-000199",
       "0000354647-26-000112",
       "0000354647-26-000114",
+      "0000354950-26-000156",
       "0000356171-26-000106",
       "0000701347-26-000070",
       "0000702149-26-000044",
@@ -64180,6 +64191,7 @@
       "0000842517-26-000186",
       "0000845775-26-000038",
       "0000849399-26-000040",
+      "0000849399-26-000042",
       "0000851520-26-000094",
       "0000851520-26-000096",
       "0000857005-26-000003",
@@ -65612,6 +65624,11 @@
       "0000950103-26-012994",
       "0000950103-26-012995",
       "0000950103-26-012996",
+      "0000950103-26-013013",
+      "0000950103-26-013014",
+      "0000950103-26-013015",
+      "0000950103-26-013016",
+      "0000950103-26-013017",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66780,6 +66797,8 @@
       "0001104659-26-102417",
       "0001104659-26-102419",
       "0001104659-26-102420",
+      "0001104659-26-102490",
+      "0001104659-26-102492",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66906,6 +66925,66 @@
       "0001114446-26-006036",
       "0001114446-26-006037",
       "0001114446-26-006038",
+      "0001114446-26-006103",
+      "0001114446-26-006104",
+      "0001114446-26-006105",
+      "0001114446-26-006106",
+      "0001114446-26-006107",
+      "0001114446-26-006108",
+      "0001114446-26-006109",
+      "0001114446-26-006110",
+      "0001114446-26-006111",
+      "0001114446-26-006112",
+      "0001114446-26-006113",
+      "0001114446-26-006114",
+      "0001114446-26-006115",
+      "0001114446-26-006116",
+      "0001114446-26-006117",
+      "0001114446-26-006118",
+      "0001114446-26-006119",
+      "0001114446-26-006120",
+      "0001114446-26-006121",
+      "0001114446-26-006122",
+      "0001114446-26-006123",
+      "0001114446-26-006124",
+      "0001114446-26-006125",
+      "0001114446-26-006126",
+      "0001114446-26-006127",
+      "0001114446-26-006128",
+      "0001114446-26-006129",
+      "0001114446-26-006130",
+      "0001114446-26-006131",
+      "0001114446-26-006132",
+      "0001114446-26-006133",
+      "0001114446-26-006134",
+      "0001114446-26-006135",
+      "0001114446-26-006136",
+      "0001114446-26-006137",
+      "0001114446-26-006138",
+      "0001114446-26-006139",
+      "0001114446-26-006140",
+      "0001114446-26-006141",
+      "0001114446-26-006142",
+      "0001114446-26-006143",
+      "0001114446-26-006144",
+      "0001114446-26-006145",
+      "0001114446-26-006146",
+      "0001114446-26-006147",
+      "0001114446-26-006148",
+      "0001114446-26-006149",
+      "0001114446-26-006150",
+      "0001114446-26-006151",
+      "0001114446-26-006152",
+      "0001114446-26-006153",
+      "0001114446-26-006154",
+      "0001114446-26-006155",
+      "0001114446-26-006156",
+      "0001114446-26-006157",
+      "0001114446-26-006158",
+      "0001114446-26-006159",
+      "0001114446-26-006160",
+      "0001114446-26-006161",
+      "0001114446-26-006162",
       "0001120545-26-000004",
       "0001123292-26-001022",
       "0001123292-26-001026",
@@ -70291,6 +70370,10 @@
       "0001193125-26-371233",
       "0001193125-26-371235",
       "0001193125-26-371237",
+      "0001193125-26-371501",
+      "0001193125-26-371502",
+      "0001193125-26-371503",
+      "0001193125-26-371504",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74728,6 +74811,7 @@
       "0001628280-26-059181",
       "0001628280-26-059185",
       "0001628280-26-059222",
+      "0001628280-26-059277",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -75838,6 +75922,7 @@
       "0001829126-26-009416",
       "0001829126-26-009417",
       "0001829126-26-009418",
+      "0001829126-26-009429",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -80485,6 +80570,9 @@
       "0001918704-26-025143",
       "0001918704-26-025146",
       "0001918704-26-025147",
+      "0001918704-26-025169",
+      "0001918704-26-025170",
+      "0001918704-26-025171",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -80523,6 +80611,7 @@
       "0001936006-26-000022",
       "0001936132-26-000001",
       "0001936727-26-000006",
+      "0001936727-26-000012",
       "0001937010-26-000012",
       "0001937214-26-000002",
       "0001937263-26-000008",
@@ -81082,6 +81171,7 @@
       "0002001474-26-000006",
       "0002001557-26-000156",
       "0002002093-26-000010",
+      "0002002763-26-000012",
       "0002004135-26-000004",
       "0002004222-26-000006",
       "0002004239-26-000011",
@@ -81467,6 +81557,7 @@
       "0002089263-26-000014",
       "0002089362-26-000016",
       "0002089872-26-000002",
+      "0002089872-26-000007",
       "0002090083-26-000016",
       "0002090083-26-000018",
       "0002090083-26-000020",
@@ -81553,6 +81644,7 @@
       "0002119291-26-000004",
       "0002120008-26-000006",
       "0002120298-26-000002",
+      "0002120458-26-000002",
       "0002120714-26-000004",
       "0002120865-26-000007",
       "0002121472-26-000003",
