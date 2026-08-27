@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T11:04:48.317358+00:00",
+  "generatedAt": "2026-08-27T12:03:48.575962+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -441,6 +441,26 @@
       "type": "Sale",
       "shares": 298.0,
       "pricePerShare": 121.02,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "CHD",
+      "issuerName": "CHURCH & DWIGHT CO INC /DE/",
+      "insiderName": "Linares Carlos G.",
+      "title": "EVP Chief Tech&Global New Prod",
+      "type": "Sale",
+      "shares": 15375.0,
+      "pricePerShare": 103.0,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "SCOR",
+      "issuerName": "COMSCORE, INC.",
+      "insiderName": "McLaughlin Matthew F.",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 20000.0,
+      "pricePerShare": 5.26,
       "transactionDate": "2026-08-26"
     },
     {
@@ -1721,6 +1741,36 @@
       "type": "Sale",
       "shares": 137.0,
       "pricePerShare": 123.17,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "VTOL",
+      "issuerName": "Bristow Group Inc.",
+      "insiderName": "Brass Lorin L.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 200.0,
+      "pricePerShare": 46.545,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "JHX",
+      "issuerName": "James Hardie Industries plc",
+      "insiderName": "Skelly Jonathan",
+      "title": "Pres. James Hardie NA",
+      "type": "Sale",
+      "shares": 15000.0,
+      "pricePerShare": 30.45,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "JHX",
+      "issuerName": "James Hardie Industries plc",
+      "insiderName": "Skelly Jonathan",
+      "title": "Pres. James Hardie NA",
+      "type": "Sale",
+      "shares": 50000.0,
+      "pricePerShare": 30.46,
       "transactionDate": "2026-08-25"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 35000.0,
       "pricePerShare": 12.6182,
       "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "RSKD",
-      "issuerName": "RISKIFIED LTD.",
-      "insiderName": "Dotcheva Aglika",
-      "title": "Chief Financial Officer",
-      "type": "Sale",
-      "shares": 180000.0,
-      "pricePerShare": 5.95,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "RSKD",
-      "issuerName": "RISKIFIED LTD.",
-      "insiderName": "Feldman Assaf",
-      "title": "Director, Chief Strategy Officer - Tech, 10% Owner",
-      "type": "Sale",
-      "shares": 450000.0,
-      "pricePerShare": 6.0077,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "EWTX",
-      "issuerName": "Edgewise Therapeutics, Inc.",
-      "insiderName": "Donovan Joanne M.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2839.0,
-      "pricePerShare": 43.784,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "EWTX",
-      "issuerName": "Edgewise Therapeutics, Inc.",
-      "insiderName": "Donovan Joanne M.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2779.0,
-      "pricePerShare": 43.7073,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "EWTX",
-      "issuerName": "Edgewise Therapeutics, Inc.",
-      "insiderName": "Donovan Joanne M.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 104.0,
-      "pricePerShare": 44.4253,
-      "transactionDate": "2026-08-12"
     }
   ],
   "byTicker": {
@@ -32805,6 +32805,66 @@
         }
       ]
     },
+    "CHD": {
+      "issuerName": "CHURCH & DWIGHT CO INC /DE/",
+      "trades": [
+        {
+          "ticker": "CHD",
+          "issuerName": "CHURCH & DWIGHT CO INC /DE/",
+          "insiderName": "Linares Carlos G.",
+          "title": "EVP Chief Tech&Global New Prod",
+          "type": "Sale",
+          "shares": 15375.0,
+          "pricePerShare": 103.0,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "CHD",
+          "issuerName": "CHURCH & DWIGHT CO INC /DE/",
+          "insiderName": "Hemsey Rene",
+          "title": "EVP, Chief HR Officer",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 102.255,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "CHD",
+          "issuerName": "CHURCH & DWIGHT CO INC /DE/",
+          "insiderName": "Linares Carlos G.",
+          "title": "EVP Chief Tech&Global New Prod",
+          "type": "Sale",
+          "shares": 15375.0,
+          "pricePerShare": 102.0,
+          "transactionDate": "2026-08-24"
+        }
+      ]
+    },
+    "SCOR": {
+      "issuerName": "COMSCORE, INC.",
+      "trades": [
+        {
+          "ticker": "SCOR",
+          "issuerName": "COMSCORE, INC.",
+          "insiderName": "McLaughlin Matthew F.",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 20000.0,
+          "pricePerShare": 5.26,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "SCOR",
+          "issuerName": "COMSCORE, INC.",
+          "insiderName": "Kline David",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 7000.0,
+          "pricePerShare": 5.29,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
     "BABA": {
       "issuerName": "Alibaba Group Holding Ltd",
       "trades": [
@@ -33842,31 +33902,6 @@
           "shares": 10000.0,
           "pricePerShare": 111.8203,
           "transactionDate": "2026-08-25"
-        }
-      ]
-    },
-    "CHD": {
-      "issuerName": "CHURCH & DWIGHT CO INC /DE/",
-      "trades": [
-        {
-          "ticker": "CHD",
-          "issuerName": "CHURCH & DWIGHT CO INC /DE/",
-          "insiderName": "Hemsey Rene",
-          "title": "EVP, Chief HR Officer",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 102.255,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "CHD",
-          "issuerName": "CHURCH & DWIGHT CO INC /DE/",
-          "insiderName": "Linares Carlos G.",
-          "title": "EVP Chief Tech&Global New Prod",
-          "type": "Sale",
-          "shares": 15375.0,
-          "pricePerShare": 102.0,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -35172,6 +35207,96 @@
           "shares": 962.0,
           "pricePerShare": 0.457,
           "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "VTOL": {
+      "issuerName": "Bristow Group Inc.",
+      "trades": [
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 46.545,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 47.05,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Stavley Stuart",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10218.0,
+          "pricePerShare": 46.2003,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1890.0,
+          "pricePerShare": 46.5597,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 46.545,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 210.0,
+          "pricePerShare": 46.7754,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "JHX": {
+      "issuerName": "James Hardie Industries plc",
+      "trades": [
+        {
+          "ticker": "JHX",
+          "issuerName": "James Hardie Industries plc",
+          "insiderName": "Skelly Jonathan",
+          "title": "Pres. James Hardie NA",
+          "type": "Sale",
+          "shares": 15000.0,
+          "pricePerShare": 30.45,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "JHX",
+          "issuerName": "James Hardie Industries plc",
+          "insiderName": "Skelly Jonathan",
+          "title": "Pres. James Hardie NA",
+          "type": "Sale",
+          "shares": 50000.0,
+          "pricePerShare": 30.46,
+          "transactionDate": "2026-08-25"
         }
       ]
     },
@@ -49650,61 +49775,6 @@
         }
       ]
     },
-    "VTOL": {
-      "issuerName": "Bristow Group Inc.",
-      "trades": [
-        {
-          "ticker": "VTOL",
-          "issuerName": "Bristow Group Inc.",
-          "insiderName": "Brass Lorin L.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 47.05,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "VTOL",
-          "issuerName": "Bristow Group Inc.",
-          "insiderName": "Stavley Stuart",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 10218.0,
-          "pricePerShare": 46.2003,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "VTOL",
-          "issuerName": "Bristow Group Inc.",
-          "insiderName": "Brass Lorin L.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1890.0,
-          "pricePerShare": 46.5597,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "VTOL",
-          "issuerName": "Bristow Group Inc.",
-          "insiderName": "Brass Lorin L.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 46.545,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "VTOL",
-          "issuerName": "Bristow Group Inc.",
-          "insiderName": "Brass Lorin L.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 210.0,
-          "pricePerShare": 46.7754,
-          "transactionDate": "2026-08-17"
-        }
-      ]
-    },
     "KYN": {
       "issuerName": "Kayne Anderson Energy Infrastructure Fund, Inc.",
       "trades": [
@@ -51067,26 +51137,6 @@
           "shares": 206096.0,
           "pricePerShare": 6.5428,
           "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "RSKD",
-          "issuerName": "RISKIFIED LTD.",
-          "insiderName": "Dotcheva Aglika",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 180000.0,
-          "pricePerShare": 5.95,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "RSKD",
-          "issuerName": "RISKIFIED LTD.",
-          "insiderName": "Feldman Assaf",
-          "title": "Director, Chief Strategy Officer - Tech, 10% Owner",
-          "type": "Sale",
-          "shares": 450000.0,
-          "pricePerShare": 6.0077,
-          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -51166,21 +51216,6 @@
           "type": "Purchase",
           "shares": 1000.0,
           "pricePerShare": 12.6,
-          "transactionDate": "2026-08-20"
-        }
-      ]
-    },
-    "SCOR": {
-      "issuerName": "COMSCORE, INC.",
-      "trades": [
-        {
-          "ticker": "SCOR",
-          "issuerName": "COMSCORE, INC.",
-          "insiderName": "Kline David",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 7000.0,
-          "pricePerShare": 5.29,
           "transactionDate": "2026-08-20"
         }
       ]
@@ -61862,36 +61897,6 @@
           "shares": 2919.0,
           "pricePerShare": 43.4065,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "EWTX",
-          "issuerName": "Edgewise Therapeutics, Inc.",
-          "insiderName": "Donovan Joanne M.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2839.0,
-          "pricePerShare": 43.784,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "EWTX",
-          "issuerName": "Edgewise Therapeutics, Inc.",
-          "insiderName": "Donovan Joanne M.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2779.0,
-          "pricePerShare": 43.7073,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "EWTX",
-          "issuerName": "Edgewise Therapeutics, Inc.",
-          "insiderName": "Donovan Joanne M.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 104.0,
-          "pricePerShare": 44.4253,
-          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -63886,6 +63891,7 @@
       "0000313927-26-000300",
       "0000313927-26-000302",
       "0000313927-26-000304",
+      "0000313927-26-000307",
       "0000314984-26-000032",
       "0000318154-26-000129",
       "0000318154-26-000130",
@@ -66715,6 +66721,7 @@
       "0001104659-26-101780",
       "0001104659-26-101782",
       "0001104659-26-101925",
+      "0001104659-26-102028",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -70161,6 +70168,13 @@
       "0001193125-26-369456",
       "0001193125-26-369457",
       "0001193125-26-369458",
+      "0001193125-26-369548",
+      "0001193125-26-369549",
+      "0001193125-26-369550",
+      "0001193125-26-369551",
+      "0001193125-26-369552",
+      "0001193125-26-369553",
+      "0001193125-26-369589",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74557,6 +74571,9 @@
       "0001628280-26-059155",
       "0001628280-26-059156",
       "0001628280-26-059160",
+      "0001628280-26-059173",
+      "0001628280-26-059181",
+      "0001628280-26-059185",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -77627,6 +77644,7 @@
       "0001853109-26-000002",
       "0001853529-26-000002",
       "0001853529-26-000003",
+      "0001853874-26-000012",
       "0001855767-26-000017",
       "0001855837-26-000012",
       "0001855880-26-000014",
@@ -80323,6 +80341,7 @@
       "0001976408-26-000770",
       "0001976408-26-000771",
       "0001976408-26-000772",
+      "0001976408-26-000776",
       "0001976672-26-000057",
       "0001976672-26-000059",
       "0001976672-26-000062",
