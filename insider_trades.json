@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T17:04:06.697361+00:00",
+  "generatedAt": "2026-08-27T18:02:59.841210+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -561,6 +561,16 @@
       "type": "Sale",
       "shares": 2835.0,
       "pricePerShare": 8.35,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 9508.0,
+      "pricePerShare": 19.1069,
       "transactionDate": "2026-08-26"
     },
     {
@@ -1951,6 +1961,26 @@
       "type": "Sale",
       "shares": 2835.0,
       "pricePerShare": 8.4,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 18.9981,
+      "transactionDate": "2026-08-25"
+    },
+    {
+      "ticker": "SFST",
+      "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+      "insiderName": "CUBBAGE LEIGHTON M",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 350.0,
+      "pricePerShare": 63.0502,
       "transactionDate": "2026-08-25"
     },
     {
@@ -4131,6 +4161,16 @@
       "type": "Sale",
       "shares": 27688.0,
       "pricePerShare": 69.01,
+      "transactionDate": "2026-08-24"
+    },
+    {
+      "ticker": "SFST",
+      "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+      "insiderName": "CUBBAGE LEIGHTON M",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 400.0,
+      "pricePerShare": 63.0,
       "transactionDate": "2026-08-24"
     },
     {
@@ -10601,6 +10641,16 @@
       "type": "Sale",
       "shares": 188500.0,
       "pricePerShare": 2.7798,
+      "transactionDate": "2026-08-20"
+    },
+    {
+      "ticker": "AUGO",
+      "issuerName": "Aura Minerals Inc.",
+      "insiderName": "Sousa Mauad Bruno",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 125000.0,
+      "pricePerShare": 86.0,
       "transactionDate": "2026-08-20"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 223.0,
       "pricePerShare": 180.57,
       "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "BLTE",
-      "issuerName": "BELITE BIO, INC",
-      "insiderName": "Lin Yu-Hsin",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 142.0,
-      "pricePerShare": 180.0,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "BLTE",
-      "issuerName": "BELITE BIO, INC",
-      "insiderName": "Lin Yu-Hsin",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 223.0,
-      "pricePerShare": 180.57,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "SMFG",
-      "issuerName": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
-      "insiderName": "Anchi Kazuyuki",
-      "title": "Director, Sr. Mg. Corp. EO & Group CFO",
-      "type": "Sale",
-      "shares": 4000.0,
-      "pricePerShare": 42.47,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "MTDR",
-      "issuerName": "Matador Resources Co",
-      "insiderName": "Foran Joseph Wm",
-      "title": "Director, Chairman and CEO",
-      "type": "Purchase",
-      "shares": 10000.0,
-      "pricePerShare": 52.16,
-      "transactionDate": "2026-08-12"
-    },
-    {
-      "ticker": "VVV",
-      "issuerName": "VALVOLINE INC",
-      "insiderName": "Denny Jordan M.",
-      "title": "Chief Accounting Officer",
-      "type": "Purchase",
-      "shares": 1506.0,
-      "pricePerShare": 33.2,
-      "transactionDate": "2026-08-12"
     }
   ],
   "byTicker": {
@@ -33295,6 +33295,91 @@
         }
       ]
     },
+    "DGICA": {
+      "issuerName": "DONEGAL GROUP INC",
+      "trades": [
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9508.0,
+          "pricePerShare": 19.1069,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.9981,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.0647,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.6757,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9815.0,
+          "pricePerShare": 18.6585,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9700.0,
+          "pricePerShare": 18.6105,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.5955,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.5239,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
     "BABA": {
       "issuerName": "Alibaba Group Holding Ltd",
       "trades": [
@@ -35850,6 +35935,91 @@
         }
       ]
     },
+    "SFST": {
+      "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+      "trades": [
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "CUBBAGE LEIGHTON M",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 350.0,
+          "pricePerShare": 63.0502,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "CUBBAGE LEIGHTON M",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 63.0,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "CUBBAGE LEIGHTON M",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 800.0,
+          "pricePerShare": 63.0183,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "SEAVER R ARTHUR JR",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 63.0,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "SEAVER R ARTHUR JR",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 63.5,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "SEAVER R ARTHUR JR",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 6000.0,
+          "pricePerShare": 64.0,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "SEAVER R ARTHUR JR",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 64.0,
+          "transactionDate": "2026-08-12"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "SEAVER R ARTHUR JR",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 4500.0,
+          "pricePerShare": 63.75,
+          "transactionDate": "2026-08-12"
+        }
+      ]
+    },
     "WSBC": {
       "issuerName": "WESBANCO INC",
       "trades": [
@@ -37112,71 +37282,6 @@
           "shares": 2000.0,
           "pricePerShare": 2.52,
           "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "DGICA": {
-      "issuerName": "DONEGAL GROUP INC",
-      "trades": [
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.0647,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.6757,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9815.0,
-          "pricePerShare": 18.6585,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9700.0,
-          "pricePerShare": 18.6105,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.5955,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.5239,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -47918,6 +48023,16 @@
           "issuerName": "Aura Minerals Inc.",
           "insiderName": "Sousa Mauad Bruno",
           "title": "Director",
+          "type": "Sale",
+          "shares": 125000.0,
+          "pricePerShare": 86.0,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "AUGO",
+          "issuerName": "Aura Minerals Inc.",
+          "insiderName": "Sousa Mauad Bruno",
+          "title": "Director",
           "type": "Purchase",
           "shares": 11000.0,
           "pricePerShare": 78.93,
@@ -51522,71 +51637,6 @@
           "shares": 2000.0,
           "pricePerShare": 5.6,
           "transactionDate": "2026-08-20"
-        }
-      ]
-    },
-    "SFST": {
-      "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-      "trades": [
-        {
-          "ticker": "SFST",
-          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-          "insiderName": "CUBBAGE LEIGHTON M",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 800.0,
-          "pricePerShare": 63.0183,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "SFST",
-          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-          "insiderName": "SEAVER R ARTHUR JR",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 63.0,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "SFST",
-          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-          "insiderName": "SEAVER R ARTHUR JR",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 63.5,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "SFST",
-          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-          "insiderName": "SEAVER R ARTHUR JR",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 6000.0,
-          "pricePerShare": 64.0,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "SFST",
-          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-          "insiderName": "SEAVER R ARTHUR JR",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 64.0,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "SFST",
-          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-          "insiderName": "SEAVER R ARTHUR JR",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 4500.0,
-          "pricePerShare": 63.75,
-          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -61747,16 +61797,6 @@
           "shares": 5000.0,
           "pricePerShare": 51.44,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "MTDR",
-          "issuerName": "Matador Resources Co",
-          "insiderName": "Foran Joseph Wm",
-          "title": "Director, Chairman and CEO",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 52.16,
-          "transactionDate": "2026-08-12"
         }
       ]
     },
@@ -63352,56 +63392,6 @@
           "shares": 223.0,
           "pricePerShare": 180.57,
           "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "BLTE",
-          "issuerName": "BELITE BIO, INC",
-          "insiderName": "Lin Yu-Hsin",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 142.0,
-          "pricePerShare": 180.0,
-          "transactionDate": "2026-08-12"
-        },
-        {
-          "ticker": "BLTE",
-          "issuerName": "BELITE BIO, INC",
-          "insiderName": "Lin Yu-Hsin",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 223.0,
-          "pricePerShare": 180.57,
-          "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "SMFG": {
-      "issuerName": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
-      "trades": [
-        {
-          "ticker": "SMFG",
-          "issuerName": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
-          "insiderName": "Anchi Kazuyuki",
-          "title": "Director, Sr. Mg. Corp. EO & Group CFO",
-          "type": "Sale",
-          "shares": 4000.0,
-          "pricePerShare": 42.47,
-          "transactionDate": "2026-08-12"
-        }
-      ]
-    },
-    "VVV": {
-      "issuerName": "VALVOLINE INC",
-      "trades": [
-        {
-          "ticker": "VVV",
-          "issuerName": "VALVOLINE INC",
-          "insiderName": "Denny Jordan M.",
-          "title": "Chief Accounting Officer",
-          "type": "Purchase",
-          "shares": 1506.0,
-          "pricePerShare": 33.2,
-          "transactionDate": "2026-08-12"
         }
       ]
     }
@@ -64326,6 +64316,7 @@
       "0000894189-26-023964",
       "0000894189-26-023966",
       "0000894189-26-023967",
+      "0000894189-26-023974",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895430-26-000024",
@@ -64399,6 +64390,7 @@
       "0000899140-26-000947",
       "0000900043-26-000085",
       "0000900043-26-000087",
+      "0000900533-26-000004",
       "0000902162-26-000012",
       "0000902664-26-003205",
       "0000902664-26-003254",
@@ -64631,6 +64623,7 @@
       "0000935596-26-000017",
       "0000935596-26-000018",
       "0000935596-26-000019",
+      "0000935596-26-000020",
       "0000935703-26-000095",
       "0000935703-26-000097",
       "0000935836-26-000372",
@@ -65599,6 +65592,11 @@
       "0000950103-26-012980",
       "0000950103-26-012981",
       "0000950103-26-012982",
+      "0000950103-26-012983",
+      "0000950103-26-012984",
+      "0000950103-26-012985",
+      "0000950103-26-012986",
+      "0000950103-26-012987",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65940,6 +65938,7 @@
       "0001090009-26-000092",
       "0001090009-26-000094",
       "0001090009-26-000096",
+      "0001090009-26-000098",
       "0001090012-26-000108",
       "0001090155-26-000004",
       "0001090355-26-000007",
@@ -66760,6 +66759,8 @@
       "0001104659-26-102303",
       "0001104659-26-102309",
       "0001104659-26-102311",
+      "0001104659-26-102323",
+      "0001104659-26-102326",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -66962,6 +66963,7 @@
       "0001137360-26-000759",
       "0001137360-26-000761",
       "0001137360-26-000803",
+      "0001137360-26-000804",
       "0001137789-26-000173",
       "0001140019-26-000099",
       "0001140019-26-000105",
@@ -70234,6 +70236,19 @@
       "0001193125-26-370613",
       "0001193125-26-370654",
       "0001193125-26-370680",
+      "0001193125-26-370715",
+      "0001193125-26-370725",
+      "0001193125-26-370731",
+      "0001193125-26-370737",
+      "0001193125-26-370746",
+      "0001193125-26-370757",
+      "0001193125-26-370771",
+      "0001193125-26-370773",
+      "0001193125-26-370799",
+      "0001193125-26-370828",
+      "0001193125-26-370837",
+      "0001193125-26-370854",
+      "0001193125-26-370856",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -71342,6 +71357,8 @@
       "0001213900-26-094243",
       "0001213900-26-094253",
       "0001213900-26-094262",
+      "0001213900-26-094293",
+      "0001213900-26-094294",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -72240,6 +72257,7 @@
       "0001413042-26-000630",
       "0001413042-26-000650",
       "0001413042-26-000651",
+      "0001413042-26-000715",
       "0001415666-26-000008",
       "0001417341-26-000002",
       "0001419945-26-000057",
@@ -72603,6 +72621,7 @@
       "0001437749-26-029048",
       "0001437749-26-029076",
       "0001437749-26-029078",
+      "0001437749-26-029086",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -72799,6 +72818,8 @@
       "0001445546-26-006412",
       "0001445546-26-006422",
       "0001445546-26-006423",
+      "0001445546-26-006424",
+      "0001445546-26-006425",
       "0001448765-26-000011",
       "0001448765-26-000013",
       "0001450800-26-000006",
@@ -73885,6 +73906,7 @@
       "0001592900-26-003932",
       "0001592900-26-003937",
       "0001592900-26-003938",
+      "0001592900-26-004182",
       "0001592970-26-000012",
       "0001593040-26-000002",
       "0001593516-26-000004",
@@ -77703,6 +77725,12 @@
       "0001839882-26-041869",
       "0001839882-26-041872",
       "0001839882-26-041873",
+      "0001839882-26-041877",
+      "0001839882-26-041882",
+      "0001839882-26-041883",
+      "0001839882-26-041884",
+      "0001839882-26-041890",
+      "0001839882-26-041898",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -80342,6 +80370,19 @@
       "0001918704-26-025091",
       "0001918704-26-025092",
       "0001918704-26-025094",
+      "0001918704-26-025095",
+      "0001918704-26-025096",
+      "0001918704-26-025097",
+      "0001918704-26-025098",
+      "0001918704-26-025099",
+      "0001918704-26-025100",
+      "0001918704-26-025101",
+      "0001918704-26-025103",
+      "0001918704-26-025104",
+      "0001918704-26-025105",
+      "0001918704-26-025107",
+      "0001918704-26-025108",
+      "0001918704-26-025109",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -80925,6 +80966,8 @@
       "0001999371-26-018855",
       "0001999371-26-018857",
       "0001999371-26-018859",
+      "0001999371-26-018934",
+      "0001999371-26-018939",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0001999852-26-000003",
@@ -81399,6 +81442,7 @@
       "0002117905-26-000018",
       "0002117905-26-000020",
       "0002117905-26-000021",
+      "0002117905-26-000023",
       "0002119220-26-000004",
       "0002119238-26-000005",
       "0002119288-26-000005",
