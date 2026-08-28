@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T14:01:34.338851+00:00",
+  "generatedAt": "2026-08-28T15:05:05.626948+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -331,6 +331,76 @@
       "type": "Sale",
       "shares": 1096.0,
       "pricePerShare": 44.64,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "Kesslen Jay H",
+      "title": "Vice-President",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 2.95,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 2.94,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "ECF",
+      "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 3900.0,
+      "pricePerShare": 12.49,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "GRX",
+      "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 4340.0,
+      "pricePerShare": 10.05,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "ECAT",
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 92174.0,
+      "pricePerShare": 15.52,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "NSSC",
+      "issuerName": "NAPCO SECURITY TECHNOLOGIES, INC",
+      "insiderName": "SOLOWAY RICHARD",
+      "title": "Director, Founder and Executive Chairman",
+      "type": "Sale",
+      "shares": 379529.0,
+      "pricePerShare": 34.5,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "NSSC",
+      "issuerName": "NAPCO SECURITY TECHNOLOGIES, INC",
+      "insiderName": "Soloway Donna Anne",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 20962.0,
+      "pricePerShare": 34.62,
       "transactionDate": "2026-08-27"
     },
     {
@@ -1391,6 +1461,26 @@
       "type": "Sale",
       "shares": 30000.0,
       "pricePerShare": 44.2613,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "NSSC",
+      "issuerName": "NAPCO SECURITY TECHNOLOGIES, INC",
+      "insiderName": "SOLOWAY RICHARD",
+      "title": "Director, Founder and Executive Chairman",
+      "type": "Sale",
+      "shares": 95471.0,
+      "pricePerShare": 35.93,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "NSSC",
+      "issuerName": "NAPCO SECURITY TECHNOLOGIES, INC",
+      "insiderName": "Soloway Donna Anne",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 28000.0,
+      "pricePerShare": 35.98,
       "transactionDate": "2026-08-26"
     },
     {
@@ -29912,96 +30002,6 @@
       "shares": 620.0,
       "pricePerShare": 21.1,
       "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "WSBF",
-      "issuerName": "Waterstone Financial, Inc.",
-      "insiderName": "Gordon Ryan J",
-      "title": "EVP/Chief Credit Officer",
-      "type": "Sale",
-      "shares": 1300.0,
-      "pricePerShare": 21.11,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "WSBF",
-      "issuerName": "Waterstone Financial, Inc.",
-      "insiderName": "Gordon Ryan J",
-      "title": "EVP/Chief Credit Officer",
-      "type": "Sale",
-      "shares": 6237.0,
-      "pricePerShare": 21.145,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "LMT",
-      "issuerName": "LOCKHEED MARTIN CORP",
-      "insiderName": "Donovan John",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 120.0,
-      "pricePerShare": 0.0,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "LMT",
-      "issuerName": "LOCKHEED MARTIN CORP",
-      "insiderName": "Donovan John",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 204.0,
-      "pricePerShare": 0.0,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "LMT",
-      "issuerName": "LOCKHEED MARTIN CORP",
-      "insiderName": "Donovan John",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 212.0,
-      "pricePerShare": 0.0,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "LMT",
-      "issuerName": "LOCKHEED MARTIN CORP",
-      "insiderName": "Donovan John",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 469.0,
-      "pricePerShare": 0.0,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "LMT",
-      "issuerName": "LOCKHEED MARTIN CORP",
-      "insiderName": "Donovan John",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 631.0,
-      "pricePerShare": 0.0,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "LMT",
-      "issuerName": "LOCKHEED MARTIN CORP",
-      "insiderName": "Donovan John",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 1742.0,
-      "pricePerShare": 0.0,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "EXPE",
-      "issuerName": "Expedia Group, Inc.",
-      "insiderName": "Jacobson Craig A",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 3133.0,
-      "pricePerShare": 328.519,
-      "transactionDate": "2026-08-13"
     }
   ],
   "byTicker": {
@@ -32077,6 +32077,331 @@
           "shares": 1096.0,
           "pricePerShare": 44.64,
           "transactionDate": "2026-08-27"
+        }
+      ]
+    },
+    "RCG": {
+      "issuerName": "RENN Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.94,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.93,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.87,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.87,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.8,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.8,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "ECF": {
+      "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "trades": [
+        {
+          "ticker": "ECF",
+          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 3900.0,
+          "pricePerShare": 12.49,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "ECF",
+          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 5742.0,
+          "pricePerShare": 12.53,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "ECF",
+          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1547.0,
+          "pricePerShare": 12.52,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "GRX": {
+      "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+      "trades": [
+        {
+          "ticker": "GRX",
+          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 4340.0,
+          "pricePerShare": 10.05,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "GRX",
+          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 7087.0,
+          "pricePerShare": 10.13,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "GRX",
+          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 24102.0,
+          "pricePerShare": 10.13,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "GRX",
+          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1203.0,
+          "pricePerShare": 9.86,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "ECAT": {
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "trades": [
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 92174.0,
+          "pricePerShare": 15.52,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 66500.0,
+          "pricePerShare": 15.34,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 30239.0,
+          "pricePerShare": 15.14,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 69761.0,
+          "pricePerShare": 15.23,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 104309.0,
+          "pricePerShare": 15.26,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 68259.0,
+          "pricePerShare": 15.44,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 45050.0,
+          "pricePerShare": 15.51,
+          "transactionDate": "2026-08-14"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 190526.0,
+          "pricePerShare": 15.82,
+          "transactionDate": "2026-08-13"
+        }
+      ]
+    },
+    "NSSC": {
+      "issuerName": "NAPCO SECURITY TECHNOLOGIES, INC",
+      "trades": [
+        {
+          "ticker": "NSSC",
+          "issuerName": "NAPCO SECURITY TECHNOLOGIES, INC",
+          "insiderName": "SOLOWAY RICHARD",
+          "title": "Director, Founder and Executive Chairman",
+          "type": "Sale",
+          "shares": 379529.0,
+          "pricePerShare": 34.5,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "NSSC",
+          "issuerName": "NAPCO SECURITY TECHNOLOGIES, INC",
+          "insiderName": "Soloway Donna Anne",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 20962.0,
+          "pricePerShare": 34.62,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "NSSC",
+          "issuerName": "NAPCO SECURITY TECHNOLOGIES, INC",
+          "insiderName": "SOLOWAY RICHARD",
+          "title": "Director, Founder and Executive Chairman",
+          "type": "Sale",
+          "shares": 95471.0,
+          "pricePerShare": 35.93,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "NSSC",
+          "issuerName": "NAPCO SECURITY TECHNOLOGIES, INC",
+          "insiderName": "Soloway Donna Anne",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 28000.0,
+          "pricePerShare": 35.98,
+          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -34732,101 +35057,6 @@
           "shares": 1.0,
           "pricePerShare": 343.02,
           "transactionDate": "2026-08-13"
-        }
-      ]
-    },
-    "RCG": {
-      "issuerName": "RENN Fund, Inc.",
-      "trades": [
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "Kesslen Jay H",
-          "title": "Vice-President",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 2.93,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "Kesslen Jay H",
-          "title": "Vice-President",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 2.87,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.87,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.8,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.8,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -42140,81 +42370,6 @@
         }
       ]
     },
-    "ECAT": {
-      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-      "trades": [
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 66500.0,
-          "pricePerShare": 15.34,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 30239.0,
-          "pricePerShare": 15.14,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 69761.0,
-          "pricePerShare": 15.23,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 104309.0,
-          "pricePerShare": 15.26,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 68259.0,
-          "pricePerShare": 15.44,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 45050.0,
-          "pricePerShare": 15.51,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 190526.0,
-          "pricePerShare": 15.82,
-          "transactionDate": "2026-08-13"
-        }
-      ]
-    },
     "NGL": {
       "issuerName": "NGL Energy Partners LP",
       "trades": [
@@ -47027,66 +47182,6 @@
           "shares": 2000.0,
           "pricePerShare": 541.16,
           "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "ECF": {
-      "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
-      "trades": [
-        {
-          "ticker": "ECF",
-          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 5742.0,
-          "pricePerShare": 12.53,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ECF",
-          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1547.0,
-          "pricePerShare": 12.52,
-          "transactionDate": "2026-08-20"
-        }
-      ]
-    },
-    "GRX": {
-      "issuerName": "Gabelli Healthcare & WellnessRx Trust",
-      "trades": [
-        {
-          "ticker": "GRX",
-          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 7087.0,
-          "pricePerShare": 10.13,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "GRX",
-          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 24102.0,
-          "pricePerShare": 10.13,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "GRX",
-          "issuerName": "Gabelli Healthcare & WellnessRx Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1203.0,
-          "pricePerShare": 9.86,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -58067,16 +58162,6 @@
           "shares": 2810.0,
           "pricePerShare": 323.65,
           "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "EXPE",
-          "issuerName": "Expedia Group, Inc.",
-          "insiderName": "Jacobson Craig A",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3133.0,
-          "pricePerShare": 328.519,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -63297,91 +63382,6 @@
           "shares": 620.0,
           "pricePerShare": 21.1,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "WSBF",
-          "issuerName": "Waterstone Financial, Inc.",
-          "insiderName": "Gordon Ryan J",
-          "title": "EVP/Chief Credit Officer",
-          "type": "Sale",
-          "shares": 1300.0,
-          "pricePerShare": 21.11,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "WSBF",
-          "issuerName": "Waterstone Financial, Inc.",
-          "insiderName": "Gordon Ryan J",
-          "title": "EVP/Chief Credit Officer",
-          "type": "Sale",
-          "shares": 6237.0,
-          "pricePerShare": 21.145,
-          "transactionDate": "2026-08-13"
-        }
-      ]
-    },
-    "LMT": {
-      "issuerName": "LOCKHEED MARTIN CORP",
-      "trades": [
-        {
-          "ticker": "LMT",
-          "issuerName": "LOCKHEED MARTIN CORP",
-          "insiderName": "Donovan John",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 120.0,
-          "pricePerShare": 0.0,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "LMT",
-          "issuerName": "LOCKHEED MARTIN CORP",
-          "insiderName": "Donovan John",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 204.0,
-          "pricePerShare": 0.0,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "LMT",
-          "issuerName": "LOCKHEED MARTIN CORP",
-          "insiderName": "Donovan John",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 212.0,
-          "pricePerShare": 0.0,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "LMT",
-          "issuerName": "LOCKHEED MARTIN CORP",
-          "insiderName": "Donovan John",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 469.0,
-          "pricePerShare": 0.0,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "LMT",
-          "issuerName": "LOCKHEED MARTIN CORP",
-          "insiderName": "Donovan John",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 631.0,
-          "pricePerShare": 0.0,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "LMT",
-          "issuerName": "LOCKHEED MARTIN CORP",
-          "insiderName": "Donovan John",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1742.0,
-          "pricePerShare": 0.0,
-          "transactionDate": "2026-08-13"
         }
       ]
     }
@@ -63458,6 +63458,7 @@
       "0000025475-26-000072",
       "0000025475-26-000076",
       "0000026058-26-000030",
+      "0000029644-26-000073",
       "0000029915-26-000066",
       "0000029915-26-000068",
       "0000029915-26-000072",
@@ -63498,6 +63499,7 @@
       "0000030146-26-000391",
       "0000030146-26-000392",
       "0000030146-26-000394",
+      "0000030146-26-000397",
       "0000030697-26-000117",
       "0000030697-26-000118",
       "0000030697-26-000119",
@@ -63517,7 +63519,15 @@
       "0000035315-26-000416",
       "0000035315-26-000417",
       "0000035315-26-000470",
+      "0000035315-26-000495",
+      "0000035315-26-000496",
+      "0000035315-26-000497",
+      "0000035315-26-000498",
+      "0000035315-26-000499",
       "0000035348-26-000119",
+      "0000035348-26-000122",
+      "0000035348-26-000123",
+      "0000035348-26-000124",
       "0000036146-26-000087",
       "0000036405-26-000386",
       "0000038009-26-000043",
@@ -64614,6 +64624,7 @@
       "0000929638-26-003183",
       "0000929638-26-003189",
       "0000929638-26-003265",
+      "0000929638-26-003269",
       "0000930413-26-002107",
       "0000930413-26-002108",
       "0000930413-26-002187",
@@ -65632,6 +65643,9 @@
       "0000950103-26-013041",
       "0000950103-26-013042",
       "0000950103-26-013043",
+      "0000950103-26-013047",
+      "0000950103-26-013048",
+      "0000950103-26-013049",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65777,6 +65791,7 @@
       "0001040674-26-000040",
       "0001040674-26-000047",
       "0001040674-26-000061",
+      "0001040674-26-000072",
       "0001041061-26-000153",
       "0001041061-26-000155",
       "0001041061-26-000167",
@@ -67488,6 +67503,7 @@
       "0001140361-26-034793",
       "0001140361-26-034796",
       "0001140361-26-034797",
+      "0001140361-26-034810",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -70506,6 +70522,9 @@
       "0001193125-26-372367",
       "0001193125-26-372379",
       "0001193125-26-372389",
+      "0001193125-26-372865",
+      "0001193125-26-372881",
+      "0001193125-26-372882",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -71631,6 +71650,11 @@
       "0001213900-26-094622",
       "0001213900-26-094694",
       "0001213900-26-094708",
+      "0001213900-26-094742",
+      "0001213900-26-094761",
+      "0001213900-26-094768",
+      "0001213900-26-094770",
+      "0001213900-26-094772",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71828,6 +71852,8 @@
       "0001214659-26-010931",
       "0001214659-26-010932",
       "0001214659-26-010945",
+      "0001214659-26-011019",
+      "0001214659-26-011020",
       "0001214993-26-000004",
       "0001216055-26-000006",
       "0001216055-26-000007",
@@ -72104,6 +72130,7 @@
       "0001249970-26-000009",
       "0001250536-26-000017",
       "0001253886-26-000008",
+      "0001254037-26-000004",
       "0001254781-26-000021",
       "0001254781-26-000022",
       "0001257774-26-000004",
@@ -72560,6 +72587,7 @@
       "0001413042-26-000651",
       "0001413042-26-000715",
       "0001415666-26-000008",
+      "0001416646-26-000002",
       "0001417341-26-000002",
       "0001419945-26-000057",
       "0001419945-26-000059",
@@ -72928,6 +72956,8 @@
       "0001437749-26-029119",
       "0001437749-26-029120",
       "0001437749-26-029121",
+      "0001437749-26-029139",
+      "0001437749-26-029140",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -73767,6 +73797,9 @@
       "0001510281-26-000277",
       "0001510281-26-000278",
       "0001510281-26-000279",
+      "0001510281-26-000281",
+      "0001510281-26-000282",
+      "0001510281-26-000283",
       "0001511110-26-000008",
       "0001511110-26-000010",
       "0001511194-26-000012",
@@ -74178,6 +74211,7 @@
       "0001580642-26-005663",
       "0001580642-26-005664",
       "0001580642-26-005669",
+      "0001580642-26-005746",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -78160,6 +78194,22 @@
       "0001839882-26-042068",
       "0001839882-26-042072",
       "0001839882-26-042075",
+      "0001839882-26-042092",
+      "0001839882-26-042097",
+      "0001839882-26-042099",
+      "0001839882-26-042100",
+      "0001839882-26-042102",
+      "0001839882-26-042103",
+      "0001839882-26-042107",
+      "0001839882-26-042111",
+      "0001839882-26-042112",
+      "0001839882-26-042113",
+      "0001839882-26-042114",
+      "0001839882-26-042116",
+      "0001839882-26-042118",
+      "0001839882-26-042119",
+      "0001839882-26-042122",
+      "0001839882-26-042124",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -80868,6 +80918,18 @@
       "0001918704-26-025246",
       "0001918704-26-025247",
       "0001918704-26-025248",
+      "0001918704-26-025266",
+      "0001918704-26-025267",
+      "0001918704-26-025268",
+      "0001918704-26-025269",
+      "0001918704-26-025270",
+      "0001918704-26-025271",
+      "0001918704-26-025272",
+      "0001918704-26-025273",
+      "0001918704-26-025274",
+      "0001918704-26-025275",
+      "0001918704-26-025276",
+      "0001918704-26-025277",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -81482,6 +81544,7 @@
       "0001999371-26-019059",
       "0001999371-26-019062",
       "0001999371-26-019064",
+      "0001999371-26-019073",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0001999852-26-000003",
