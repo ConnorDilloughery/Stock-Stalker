@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T11:03:56.936476+00:00",
+  "generatedAt": "2026-08-28T12:04:10.314197+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -1341,6 +1341,26 @@
       "type": "Purchase",
       "shares": 9216.0,
       "pricePerShare": 2.1622,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "KLAR",
+      "issuerName": "Klarna Group plc",
+      "insiderName": "Siemiatkowski Sebastian",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 692506.0,
+      "pricePerShare": 14.3669,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "MTDR",
+      "issuerName": "Matador Resources Co",
+      "insiderName": "Foran Joseph Wm",
+      "title": "Director, Chairman and CEO",
+      "type": "Purchase",
+      "shares": 555.0,
+      "pricePerShare": 54.49,
       "transactionDate": "2026-08-26"
     },
     {
@@ -29982,26 +30002,6 @@
       "shares": 132532.0,
       "pricePerShare": 9.23,
       "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "GTE",
-      "issuerName": "GRAN TIERRA ENERGY INC.",
-      "insiderName": "Equinox Partners Investment Management LLC",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 33818.0,
-      "pricePerShare": 9.23,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "GTE",
-      "issuerName": "GRAN TIERRA ENERGY INC.",
-      "insiderName": "Equinox Partners Investment Management LLC",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 28197.0,
-      "pricePerShare": 9.23,
-      "transactionDate": "2026-08-13"
     }
   ],
   "byTicker": {
@@ -35731,6 +35731,46 @@
           "type": "Purchase",
           "shares": 853.0,
           "pricePerShare": 2.4085,
+          "transactionDate": "2026-08-13"
+        }
+      ]
+    },
+    "KLAR": {
+      "issuerName": "Klarna Group plc",
+      "trades": [
+        {
+          "ticker": "KLAR",
+          "issuerName": "Klarna Group plc",
+          "insiderName": "Siemiatkowski Sebastian",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 692506.0,
+          "pricePerShare": 14.3669,
+          "transactionDate": "2026-08-26"
+        }
+      ]
+    },
+    "MTDR": {
+      "issuerName": "Matador Resources Co",
+      "trades": [
+        {
+          "ticker": "MTDR",
+          "issuerName": "Matador Resources Co",
+          "insiderName": "Foran Joseph Wm",
+          "title": "Director, Chairman and CEO",
+          "type": "Purchase",
+          "shares": 555.0,
+          "pricePerShare": 54.49,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "MTDR",
+          "issuerName": "Matador Resources Co",
+          "insiderName": "Foran Joseph Wm",
+          "title": "Director, Chairman and CEO",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 51.44,
           "transactionDate": "2026-08-13"
         }
       ]
@@ -61387,26 +61427,6 @@
           "shares": 132532.0,
           "pricePerShare": 9.23,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "GTE",
-          "issuerName": "GRAN TIERRA ENERGY INC.",
-          "insiderName": "Equinox Partners Investment Management LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 33818.0,
-          "pricePerShare": 9.23,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "GTE",
-          "issuerName": "GRAN TIERRA ENERGY INC.",
-          "insiderName": "Equinox Partners Investment Management LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 28197.0,
-          "pricePerShare": 9.23,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -62636,21 +62656,6 @@
           "type": "Purchase",
           "shares": 26223.0,
           "pricePerShare": 2.9147,
-          "transactionDate": "2026-08-13"
-        }
-      ]
-    },
-    "MTDR": {
-      "issuerName": "Matador Resources Co",
-      "trades": [
-        {
-          "ticker": "MTDR",
-          "issuerName": "Matador Resources Co",
-          "insiderName": "Foran Joseph Wm",
-          "title": "Director, Chairman and CEO",
-          "type": "Purchase",
-          "shares": 5000.0,
-          "pricePerShare": 51.44,
           "transactionDate": "2026-08-13"
         }
       ]
@@ -70474,6 +70479,7 @@
       "0001193125-26-372188",
       "0001193125-26-372189",
       "0001193125-26-372190",
+      "0001193125-26-372221",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73914,6 +73920,7 @@
       "0001540652-26-000011",
       "0001540655-26-000015",
       "0001540655-26-000018",
+      "0001540655-26-000024",
       "0001541300-26-000021",
       "0001542447-26-000083",
       "0001542447-26-000092",
@@ -81381,6 +81388,7 @@
       "0001999371-26-018934",
       "0001999371-26-018939",
       "0001999371-26-018958",
+      "0001999371-26-019014",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0001999852-26-000003",
@@ -81811,6 +81819,7 @@
       "0002096532-26-000002",
       "0002097042-26-000004",
       "0002097042-26-000005",
+      "0002097107-26-000004",
       "0002097345-26-000012",
       "0002097390-26-000008",
       "0002097504-26-000004",
