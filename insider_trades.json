@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T18:02:44.415820+00:00",
+  "generatedAt": "2026-08-28T20:05:08.863660+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -491,6 +491,36 @@
       "type": "Sale",
       "shares": 91931.0,
       "pricePerShare": 18.915,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "LOB",
+      "issuerName": "Live Oak Bancshares, Inc.",
+      "insiderName": "MAHAN JAMES S III",
+      "title": "Director, Chief Executive Officer, 10% Owner",
+      "type": "Sale",
+      "shares": 10000.0,
+      "pricePerShare": 39.659,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "MDWD",
+      "issuerName": "MediWound Ltd.",
+      "insiderName": "Hess Shmuel",
+      "title": "COO & Chief Commercial Officer",
+      "type": "Sale",
+      "shares": 1979.0,
+      "pricePerShare": 12.72,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "MDWD",
+      "issuerName": "MediWound Ltd.",
+      "insiderName": "Hess Shmuel",
+      "title": "COO & Chief Commercial Officer",
+      "type": "Sale",
+      "shares": 1979.0,
+      "pricePerShare": 13.126,
       "transactionDate": "2026-08-27"
     },
     {
@@ -1661,6 +1691,36 @@
       "type": "Sale",
       "shares": 25539.0,
       "pricePerShare": 18.9948,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "LOB",
+      "issuerName": "Live Oak Bancshares, Inc.",
+      "insiderName": "MAHAN JAMES S III",
+      "title": "Director, Chief Executive Officer, 10% Owner",
+      "type": "Sale",
+      "shares": 10000.0,
+      "pricePerShare": 39.9878,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "MDWD",
+      "issuerName": "MediWound Ltd.",
+      "insiderName": "Hess Shmuel",
+      "title": "COO & Chief Commercial Officer",
+      "type": "Sale",
+      "shares": 1865.0,
+      "pricePerShare": 13.0,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "FRHC",
+      "issuerName": "Freedom Holding Corp.",
+      "insiderName": "Kim Valeriy",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 5000.0,
+      "pricePerShare": 169.31,
       "transactionDate": "2026-08-26"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 5234.0,
       "pricePerShare": 2.31,
       "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "ECAT",
-      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-      "insiderName": "Saba Capital Management, L.P.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 190526.0,
-      "pricePerShare": 15.82,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "MXF",
-      "issuerName": "MEXICO FUND INC",
-      "insiderName": "Saba Capital Management, L.P.",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 2952.0,
-      "pricePerShare": 21.41,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "TISI",
-      "issuerName": "TEAM INC",
-      "insiderName": "McGinnis Pamela J.",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 2000.0,
-      "pricePerShare": 22.9,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "MLAB",
-      "issuerName": "MESA LABORATORIES INC /CO/",
-      "insiderName": "Kadia Siddhartha",
-      "title": "President and CEO",
-      "type": "Purchase",
-      "shares": 7093.0,
-      "pricePerShare": 112.8,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "MLAB",
-      "issuerName": "MESA LABORATORIES INC /CO/",
-      "insiderName": "Tripeny R Tony",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 900.0,
-      "pricePerShare": 113.69,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "FAST",
-      "issuerName": "FASTENAL CO",
-      "insiderName": "Papenfuss Donnalee Kathleen",
-      "title": "EVP-Strategy and Communication",
-      "type": "Sale",
-      "shares": 1364.0,
-      "pricePerShare": 51.4165,
-      "transactionDate": "2026-08-13"
     }
   ],
   "byTicker": {
@@ -32347,16 +32347,6 @@
           "shares": 45050.0,
           "pricePerShare": 15.51,
           "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 190526.0,
-          "pricePerShare": 15.82,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -32722,6 +32712,66 @@
           "shares": 18553.0,
           "pricePerShare": 18.3962,
           "transactionDate": "2026-08-18"
+        }
+      ]
+    },
+    "LOB": {
+      "issuerName": "Live Oak Bancshares, Inc.",
+      "trades": [
+        {
+          "ticker": "LOB",
+          "issuerName": "Live Oak Bancshares, Inc.",
+          "insiderName": "MAHAN JAMES S III",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 39.659,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "LOB",
+          "issuerName": "Live Oak Bancshares, Inc.",
+          "insiderName": "MAHAN JAMES S III",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 39.9878,
+          "transactionDate": "2026-08-26"
+        }
+      ]
+    },
+    "MDWD": {
+      "issuerName": "MediWound Ltd.",
+      "trades": [
+        {
+          "ticker": "MDWD",
+          "issuerName": "MediWound Ltd.",
+          "insiderName": "Hess Shmuel",
+          "title": "COO & Chief Commercial Officer",
+          "type": "Sale",
+          "shares": 1979.0,
+          "pricePerShare": 12.72,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "MDWD",
+          "issuerName": "MediWound Ltd.",
+          "insiderName": "Hess Shmuel",
+          "title": "COO & Chief Commercial Officer",
+          "type": "Sale",
+          "shares": 1979.0,
+          "pricePerShare": 13.126,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "MDWD",
+          "issuerName": "MediWound Ltd.",
+          "insiderName": "Hess Shmuel",
+          "title": "COO & Chief Commercial Officer",
+          "type": "Sale",
+          "shares": 1865.0,
+          "pricePerShare": 13.0,
+          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -36477,6 +36527,61 @@
           "shares": 5153.0,
           "pricePerShare": 77.62,
           "transactionDate": "2026-08-26"
+        }
+      ]
+    },
+    "FRHC": {
+      "issuerName": "Freedom Holding Corp.",
+      "trades": [
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Kim Valeriy",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 169.31,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Ler Evgeny",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 157.5,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Ler Evgeny",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 14400.0,
+          "pricePerShare": 158.27,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Ler Evgeny",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2600.0,
+          "pricePerShare": 159.49,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Ler Evgeny",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 160.0,
+          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -42722,16 +42827,6 @@
           "shares": 500.0,
           "pricePerShare": 23.0,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "TISI",
-          "issuerName": "TEAM INC",
-          "insiderName": "McGinnis Pamela J.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 2000.0,
-          "pricePerShare": 22.9,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -43147,16 +43242,6 @@
           "shares": 1.0,
           "pricePerShare": 21.61,
           "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "MXF",
-          "issuerName": "MEXICO FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 2952.0,
-          "pricePerShare": 21.41,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -56635,51 +56720,6 @@
         }
       ]
     },
-    "FRHC": {
-      "issuerName": "Freedom Holding Corp.",
-      "trades": [
-        {
-          "ticker": "FRHC",
-          "issuerName": "Freedom Holding Corp.",
-          "insiderName": "Ler Evgeny",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 157.5,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "FRHC",
-          "issuerName": "Freedom Holding Corp.",
-          "insiderName": "Ler Evgeny",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 14400.0,
-          "pricePerShare": 158.27,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "FRHC",
-          "issuerName": "Freedom Holding Corp.",
-          "insiderName": "Ler Evgeny",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2600.0,
-          "pricePerShare": 159.49,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "FRHC",
-          "issuerName": "Freedom Holding Corp.",
-          "insiderName": "Ler Evgeny",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2500.0,
-          "pricePerShare": 160.0,
-          "transactionDate": "2026-08-19"
-        }
-      ]
-    },
     "BRZE": {
       "issuerName": "Braze, Inc.",
       "trades": [
@@ -63329,46 +63369,6 @@
           "transactionDate": "2026-08-13"
         }
       ]
-    },
-    "MLAB": {
-      "issuerName": "MESA LABORATORIES INC /CO/",
-      "trades": [
-        {
-          "ticker": "MLAB",
-          "issuerName": "MESA LABORATORIES INC /CO/",
-          "insiderName": "Kadia Siddhartha",
-          "title": "President and CEO",
-          "type": "Purchase",
-          "shares": 7093.0,
-          "pricePerShare": 112.8,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "MLAB",
-          "issuerName": "MESA LABORATORIES INC /CO/",
-          "insiderName": "Tripeny R Tony",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 900.0,
-          "pricePerShare": 113.69,
-          "transactionDate": "2026-08-13"
-        }
-      ]
-    },
-    "FAST": {
-      "issuerName": "FASTENAL CO",
-      "trades": [
-        {
-          "ticker": "FAST",
-          "issuerName": "FASTENAL CO",
-          "insiderName": "Papenfuss Donnalee Kathleen",
-          "title": "EVP-Strategy and Communication",
-          "type": "Sale",
-          "shares": 1364.0,
-          "pricePerShare": 51.4165,
-          "transactionDate": "2026-08-13"
-        }
-      ]
     }
   },
   "_meta": {
@@ -64625,6 +64625,7 @@
       "0000929638-26-003189",
       "0000929638-26-003265",
       "0000929638-26-003269",
+      "0000929638-26-003282",
       "0000930413-26-002107",
       "0000930413-26-002108",
       "0000930413-26-002187",
@@ -65660,6 +65661,10 @@
       "0000950103-26-013065",
       "0000950103-26-013066",
       "0000950103-26-013067",
+      "0000950103-26-013101",
+      "0000950103-26-013102",
+      "0000950103-26-013103",
+      "0000950103-26-013104",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65776,6 +65781,7 @@
       "0001035422-26-000006",
       "0001035422-26-000007",
       "0001035986-26-000005",
+      "0001036743-26-000033",
       "0001037589-26-000005",
       "0001037646-26-000057",
       "0001037646-26-000059",
@@ -66848,6 +66854,7 @@
       "0001104659-26-103062",
       "0001104659-26-103064",
       "0001104659-26-103081",
+      "0001104659-26-103179",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -67546,6 +67553,7 @@
       "0001162044-26-000708",
       "0001166003-26-000076",
       "0001166152-26-000010",
+      "0001166334-26-000008",
       "0001167691-26-000004",
       "0001167691-26-000009",
       "0001167691-26-000010",
@@ -67623,6 +67631,7 @@
       "0001178913-26-004195",
       "0001178913-26-004198",
       "0001178913-26-004259",
+      "0001178913-26-004299",
       "0001179684-26-000013",
       "0001180008-26-000012",
       "0001180017-26-000016",
@@ -70574,6 +70583,11 @@
       "0001193125-26-373710",
       "0001193125-26-373712",
       "0001193125-26-373744",
+      "0001193125-26-374269",
+      "0001193125-26-374273",
+      "0001193125-26-374280",
+      "0001193125-26-374282",
+      "0001193125-26-374296",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -71724,6 +71738,7 @@
       "0001213900-26-094917",
       "0001213900-26-094921",
       "0001213900-26-094929",
+      "0001213900-26-095014",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71927,6 +71942,29 @@
       "0001214659-26-011026",
       "0001214659-26-011027",
       "0001214659-26-011031",
+      "0001214659-26-011052",
+      "0001214659-26-011053",
+      "0001214659-26-011054",
+      "0001214659-26-011055",
+      "0001214659-26-011056",
+      "0001214659-26-011057",
+      "0001214659-26-011058",
+      "0001214659-26-011059",
+      "0001214659-26-011060",
+      "0001214659-26-011061",
+      "0001214659-26-011062",
+      "0001214659-26-011063",
+      "0001214659-26-011064",
+      "0001214659-26-011065",
+      "0001214659-26-011066",
+      "0001214659-26-011067",
+      "0001214659-26-011068",
+      "0001214659-26-011069",
+      "0001214659-26-011070",
+      "0001214659-26-011071",
+      "0001214659-26-011072",
+      "0001214659-26-011073",
+      "0001214659-26-011074",
       "0001214993-26-000004",
       "0001216055-26-000006",
       "0001216055-26-000007",
@@ -72403,6 +72441,7 @@
       "0001351997-26-000004",
       "0001352573-26-000012",
       "0001353531-26-000008",
+      "0001353649-26-000004",
       "0001354756-26-000009",
       "0001354986-26-000012",
       "0001357615-26-000163",
@@ -73034,6 +73073,7 @@
       "0001437749-26-029139",
       "0001437749-26-029140",
       "0001437749-26-029145",
+      "0001437749-26-029175",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -74192,6 +74232,7 @@
       "0001575202-26-000011",
       "0001575872-26-000566",
       "0001575872-26-000615",
+      "0001575872-26-000624",
       "0001576059-26-000002",
       "0001576068-26-000004",
       "0001576182-26-000004",
@@ -78315,6 +78356,18 @@
       "0001839882-26-042252",
       "0001839882-26-042253",
       "0001839882-26-042256",
+      "0001839882-26-042404",
+      "0001839882-26-042405",
+      "0001839882-26-042406",
+      "0001839882-26-042408",
+      "0001839882-26-042410",
+      "0001839882-26-042412",
+      "0001839882-26-042413",
+      "0001839882-26-042414",
+      "0001839882-26-042415",
+      "0001839882-26-042416",
+      "0001839882-26-042418",
+      "0001839882-26-042419",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -81089,6 +81142,20 @@
       "0001918704-26-025353",
       "0001918704-26-025357",
       "0001918704-26-025358",
+      "0001918704-26-025485",
+      "0001918704-26-025486",
+      "0001918704-26-025487",
+      "0001918704-26-025488",
+      "0001918704-26-025489",
+      "0001918704-26-025490",
+      "0001918704-26-025491",
+      "0001918704-26-025492",
+      "0001918704-26-025493",
+      "0001918704-26-025494",
+      "0001918704-26-025495",
+      "0001918704-26-025496",
+      "0001918704-26-025497",
+      "0001918704-26-025498",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
