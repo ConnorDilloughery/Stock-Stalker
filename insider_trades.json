@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T15:05:05.626948+00:00",
+  "generatedAt": "2026-08-28T16:01:19.306568+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -401,6 +401,46 @@
       "type": "Sale",
       "shares": 20962.0,
       "pricePerShare": 34.62,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "NGL",
+      "issuerName": "NGL Energy Partners LP",
+      "insiderName": "COLLINGSWORTH JAMES M",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 2289.0,
+      "pricePerShare": 17.0,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "LCNB",
+      "issuerName": "LCNB CORP",
+      "insiderName": "Meilstrup Eric J",
+      "title": "Director, CEO",
+      "type": "Purchase",
+      "shares": 400.0,
+      "pricePerShare": 19.3415,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "ESEA",
+      "issuerName": "EUROSEAS LTD.",
+      "insiderName": "Pittas Aristeidis P",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 375.0,
+      "pricePerShare": 75.8645,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "ESEA",
+      "issuerName": "EUROSEAS LTD.",
+      "insiderName": "Pittas Aristeidis P",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 375.0,
+      "pricePerShare": 75.8645,
       "transactionDate": "2026-08-27"
     },
     {
@@ -1481,6 +1521,16 @@
       "type": "Sale",
       "shares": 28000.0,
       "pricePerShare": 35.98,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "FFBC",
+      "issuerName": "FIRST FINANCIAL BANCORP /OH/",
+      "insiderName": "OBRIEN THOMAS MURRAY",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 16088.0,
+      "pricePerShare": 32.77,
       "transactionDate": "2026-08-26"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 5456.0,
       "pricePerShare": 80.0,
       "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "APTV",
-      "issuerName": "Aptiv PLC",
-      "insiderName": "Agnevall Hakan",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 4100.0,
-      "pricePerShare": 48.581,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "PCTY",
-      "issuerName": "Paylocity Holding Corp",
-      "insiderName": "Scutt Joshua",
-      "title": "SVP Chief Revenue Officer",
-      "type": "Sale",
-      "shares": 118.0,
-      "pricePerShare": 144.64,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "CENT",
-      "issuerName": "CENTRAL GARDEN & PET CO",
-      "insiderName": "BROWN WILLIAM E",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 3900.0,
-      "pricePerShare": 39.0,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "CUBI",
-      "issuerName": "Customers Bancorp, Inc.",
-      "insiderName": "Allon Andrea R.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 10000.0,
-      "pricePerShare": 82.81,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "WSBF",
-      "issuerName": "Waterstone Financial, Inc.",
-      "insiderName": "Gordon Ryan J",
-      "title": "EVP/Chief Credit Officer",
-      "type": "Sale",
-      "shares": 620.0,
-      "pricePerShare": 21.1,
-      "transactionDate": "2026-08-13"
     }
   ],
   "byTicker": {
@@ -32402,6 +32402,91 @@
           "shares": 28000.0,
           "pricePerShare": 35.98,
           "transactionDate": "2026-08-26"
+        }
+      ]
+    },
+    "NGL": {
+      "issuerName": "NGL Energy Partners LP",
+      "trades": [
+        {
+          "ticker": "NGL",
+          "issuerName": "NGL Energy Partners LP",
+          "insiderName": "COLLINGSWORTH JAMES M",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2289.0,
+          "pricePerShare": 17.0,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "NGL",
+          "issuerName": "NGL Energy Partners LP",
+          "insiderName": "RAYMOND JOHN T",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 25500.0,
+          "pricePerShare": 16.2237,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "NGL",
+          "issuerName": "NGL Energy Partners LP",
+          "insiderName": "RAYMOND JOHN T",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1126.0,
+          "pricePerShare": 16.25,
+          "transactionDate": "2026-08-21"
+        }
+      ]
+    },
+    "LCNB": {
+      "issuerName": "LCNB CORP",
+      "trades": [
+        {
+          "ticker": "LCNB",
+          "issuerName": "LCNB CORP",
+          "insiderName": "Meilstrup Eric J",
+          "title": "Director, CEO",
+          "type": "Purchase",
+          "shares": 400.0,
+          "pricePerShare": 19.3415,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "LCNB",
+          "issuerName": "LCNB CORP",
+          "insiderName": "Haines Robert C II",
+          "title": "President",
+          "type": "Purchase",
+          "shares": 500.0,
+          "pricePerShare": 19.75,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "ESEA": {
+      "issuerName": "EUROSEAS LTD.",
+      "trades": [
+        {
+          "ticker": "ESEA",
+          "issuerName": "EUROSEAS LTD.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 375.0,
+          "pricePerShare": 75.8645,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "ESEA",
+          "issuerName": "EUROSEAS LTD.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 375.0,
+          "pricePerShare": 75.8645,
+          "transactionDate": "2026-08-27"
         }
       ]
     },
@@ -36041,6 +36126,21 @@
           "type": "Sale",
           "shares": 30000.0,
           "pricePerShare": 44.2613,
+          "transactionDate": "2026-08-26"
+        }
+      ]
+    },
+    "FFBC": {
+      "issuerName": "FIRST FINANCIAL BANCORP /OH/",
+      "trades": [
+        {
+          "ticker": "FFBC",
+          "issuerName": "FIRST FINANCIAL BANCORP /OH/",
+          "insiderName": "OBRIEN THOMAS MURRAY",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 16088.0,
+          "pricePerShare": 32.77,
           "transactionDate": "2026-08-26"
         }
       ]
@@ -42367,31 +42467,6 @@
           "shares": 500.0,
           "pricePerShare": 55.244,
           "transactionDate": "2026-08-24"
-        }
-      ]
-    },
-    "NGL": {
-      "issuerName": "NGL Energy Partners LP",
-      "trades": [
-        {
-          "ticker": "NGL",
-          "issuerName": "NGL Energy Partners LP",
-          "insiderName": "RAYMOND JOHN T",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 25500.0,
-          "pricePerShare": 16.2237,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "NGL",
-          "issuerName": "NGL Energy Partners LP",
-          "insiderName": "RAYMOND JOHN T",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1126.0,
-          "pricePerShare": 16.25,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -52432,16 +52507,6 @@
           "shares": 83.0,
           "pricePerShare": 153.06,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "PCTY",
-          "issuerName": "Paylocity Holding Corp",
-          "insiderName": "Scutt Joshua",
-          "title": "SVP Chief Revenue Officer",
-          "type": "Sale",
-          "shares": 118.0,
-          "pricePerShare": 144.64,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -58805,21 +58870,6 @@
         }
       ]
     },
-    "LCNB": {
-      "issuerName": "LCNB CORP",
-      "trades": [
-        {
-          "ticker": "LCNB",
-          "issuerName": "LCNB CORP",
-          "insiderName": "Haines Robert C II",
-          "title": "President",
-          "type": "Purchase",
-          "shares": 500.0,
-          "pricePerShare": 19.75,
-          "transactionDate": "2026-08-17"
-        }
-      ]
-    },
     "HGBL": {
       "issuerName": "Heritage Global Inc.",
       "trades": [
@@ -63324,66 +63374,6 @@
           "transactionDate": "2026-08-13"
         }
       ]
-    },
-    "APTV": {
-      "issuerName": "Aptiv PLC",
-      "trades": [
-        {
-          "ticker": "APTV",
-          "issuerName": "Aptiv PLC",
-          "insiderName": "Agnevall Hakan",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 4100.0,
-          "pricePerShare": 48.581,
-          "transactionDate": "2026-08-13"
-        }
-      ]
-    },
-    "CENT": {
-      "issuerName": "CENTRAL GARDEN & PET CO",
-      "trades": [
-        {
-          "ticker": "CENT",
-          "issuerName": "CENTRAL GARDEN & PET CO",
-          "insiderName": "BROWN WILLIAM E",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3900.0,
-          "pricePerShare": 39.0,
-          "transactionDate": "2026-08-13"
-        }
-      ]
-    },
-    "CUBI": {
-      "issuerName": "Customers Bancorp, Inc.",
-      "trades": [
-        {
-          "ticker": "CUBI",
-          "issuerName": "Customers Bancorp, Inc.",
-          "insiderName": "Allon Andrea R.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 10000.0,
-          "pricePerShare": 82.81,
-          "transactionDate": "2026-08-13"
-        }
-      ]
-    },
-    "WSBF": {
-      "issuerName": "Waterstone Financial, Inc.",
-      "trades": [
-        {
-          "ticker": "WSBF",
-          "issuerName": "Waterstone Financial, Inc.",
-          "insiderName": "Gordon Ryan J",
-          "title": "EVP/Chief Credit Officer",
-          "type": "Sale",
-          "shares": 620.0,
-          "pricePerShare": 21.1,
-          "transactionDate": "2026-08-13"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63921,6 +63911,7 @@
       "0000707605-26-000052",
       "0000708955-26-000136",
       "0000708955-26-000141",
+      "0000708955-26-000146",
       "0000711377-26-000013",
       "0000711377-26-000014",
       "0000711377-26-000015",
@@ -64342,6 +64333,10 @@
       "0000894189-26-023967",
       "0000894189-26-023974",
       "0000894189-26-024032",
+      "0000894189-26-024116",
+      "0000894189-26-024120",
+      "0000894189-26-024125",
+      "0000894189-26-024127",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -65646,6 +65641,8 @@
       "0000950103-26-013047",
       "0000950103-26-013048",
       "0000950103-26-013049",
+      "0000950103-26-013053",
+      "0000950103-26-013054",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -67504,6 +67501,7 @@
       "0001140361-26-034796",
       "0001140361-26-034797",
       "0001140361-26-034810",
+      "0001140361-26-034818",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -70525,6 +70523,15 @@
       "0001193125-26-372865",
       "0001193125-26-372881",
       "0001193125-26-372882",
+      "0001193125-26-373066",
+      "0001193125-26-373097",
+      "0001193125-26-373119",
+      "0001193125-26-373120",
+      "0001193125-26-373121",
+      "0001193125-26-373122",
+      "0001193125-26-373123",
+      "0001193125-26-373124",
+      "0001193125-26-373145",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -70567,6 +70574,7 @@
       "0001205703-26-000025",
       "0001206264-26-000101",
       "0001206399-26-000007",
+      "0001206714-26-000013",
       "0001206774-26-000365",
       "0001206774-26-000416",
       "0001206774-26-000437",
@@ -71655,6 +71663,14 @@
       "0001213900-26-094768",
       "0001213900-26-094770",
       "0001213900-26-094772",
+      "0001213900-26-094811",
+      "0001213900-26-094812",
+      "0001213900-26-094813",
+      "0001213900-26-094816",
+      "0001213900-26-094819",
+      "0001213900-26-094820",
+      "0001213900-26-094821",
+      "0001213900-26-094823",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71854,6 +71870,9 @@
       "0001214659-26-010945",
       "0001214659-26-011019",
       "0001214659-26-011020",
+      "0001214659-26-011025",
+      "0001214659-26-011026",
+      "0001214659-26-011027",
       "0001214993-26-000004",
       "0001216055-26-000006",
       "0001216055-26-000007",
@@ -72958,6 +72977,7 @@
       "0001437749-26-029121",
       "0001437749-26-029139",
       "0001437749-26-029140",
+      "0001437749-26-029145",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -74212,6 +74232,8 @@
       "0001580642-26-005664",
       "0001580642-26-005669",
       "0001580642-26-005746",
+      "0001580642-26-005751",
+      "0001580642-26-005754",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -76208,6 +76230,7 @@
       "0001829126-26-009417",
       "0001829126-26-009418",
       "0001829126-26-009429",
+      "0001829126-26-009470",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -78210,6 +78233,13 @@
       "0001839882-26-042119",
       "0001839882-26-042122",
       "0001839882-26-042124",
+      "0001839882-26-042153",
+      "0001839882-26-042154",
+      "0001839882-26-042156",
+      "0001839882-26-042157",
+      "0001839882-26-042168",
+      "0001839882-26-042172",
+      "0001839882-26-042173",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -80930,6 +80960,31 @@
       "0001918704-26-025275",
       "0001918704-26-025276",
       "0001918704-26-025277",
+      "0001918704-26-025291",
+      "0001918704-26-025292",
+      "0001918704-26-025293",
+      "0001918704-26-025294",
+      "0001918704-26-025295",
+      "0001918704-26-025296",
+      "0001918704-26-025297",
+      "0001918704-26-025298",
+      "0001918704-26-025299",
+      "0001918704-26-025300",
+      "0001918704-26-025301",
+      "0001918704-26-025302",
+      "0001918704-26-025303",
+      "0001918704-26-025304",
+      "0001918704-26-025305",
+      "0001918704-26-025306",
+      "0001918704-26-025307",
+      "0001918704-26-025308",
+      "0001918704-26-025309",
+      "0001918704-26-025310",
+      "0001918704-26-025311",
+      "0001918704-26-025312",
+      "0001918704-26-025317",
+      "0001918704-26-025318",
+      "0001918704-26-025319",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -81545,6 +81600,8 @@
       "0001999371-26-019062",
       "0001999371-26-019064",
       "0001999371-26-019073",
+      "0001999371-26-019099",
+      "0001999371-26-019100",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0001999852-26-000003",
@@ -82071,6 +82128,7 @@
       "0002127484-26-000014",
       "0002127484-26-000015",
       "0002127484-26-000016",
+      "0002127484-26-000017",
       "0002127674-26-000002",
       "0002127814-26-000004",
       "0002127908-26-000004",
