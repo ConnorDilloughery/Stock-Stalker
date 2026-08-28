@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T16:01:19.306568+00:00",
+  "generatedAt": "2026-08-28T17:04:18.723696+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -441,6 +441,26 @@
       "type": "Purchase",
       "shares": 375.0,
       "pricePerShare": 75.8645,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "HNI",
+      "issuerName": "HNI CORP",
+      "insiderName": "Lorenger Jeffrey D",
+      "title": "Director, President & CEO",
+      "type": "Sale",
+      "shares": 27131.0,
+      "pricePerShare": 50.0901,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "HNI",
+      "issuerName": "HNI CORP",
+      "insiderName": "Lorenger Jeffrey D",
+      "title": "Director, President & CEO",
+      "type": "Sale",
+      "shares": 12445.0,
+      "pricePerShare": 50.0878,
       "transactionDate": "2026-08-27"
     },
     {
@@ -1531,6 +1551,46 @@
       "type": "Sale",
       "shares": 16088.0,
       "pricePerShare": 32.77,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "MED",
+      "issuerName": "MEDIFAST INC",
+      "insiderName": "Kiai Parsa",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 41975.0,
+      "pricePerShare": 12.2632,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "MED",
+      "issuerName": "MEDIFAST INC",
+      "insiderName": "Kiai Parsa",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1175.0,
+      "pricePerShare": 12.2632,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "HNI",
+      "issuerName": "HNI CORP",
+      "insiderName": "Lorenger Jeffrey D",
+      "title": "Director, President & CEO",
+      "type": "Sale",
+      "shares": 4671.0,
+      "pricePerShare": 50.0496,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "HNI",
+      "issuerName": "HNI CORP",
+      "insiderName": "Lorenger Jeffrey D",
+      "title": "Director, President & CEO",
+      "type": "Sale",
+      "shares": 2837.0,
+      "pricePerShare": 50.0831,
       "transactionDate": "2026-08-26"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 5000.0,
       "pricePerShare": 6.0,
       "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "GFS",
-      "issuerName": "GLOBALFOUNDRIES Inc.",
-      "insiderName": "Azar Samak L",
-      "title": "Chief Legal Officer",
-      "type": "Sale",
-      "shares": 335.0,
-      "pricePerShare": 52.62,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "PCTY",
-      "issuerName": "Paylocity Holding Corp",
-      "insiderName": "Sarowitz Steven I",
-      "title": "Director, 10% Owner",
-      "type": "Sale",
-      "shares": 4066.0,
-      "pricePerShare": 150.63,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "PCTY",
-      "issuerName": "Paylocity Holding Corp",
-      "insiderName": "Sarowitz Steven I",
-      "title": "Director, 10% Owner",
-      "type": "Sale",
-      "shares": 5659.0,
-      "pricePerShare": 151.54,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "PCTY",
-      "issuerName": "Paylocity Holding Corp",
-      "insiderName": "Sarowitz Steven I",
-      "title": "Director, 10% Owner",
-      "type": "Sale",
-      "shares": 5299.0,
-      "pricePerShare": 152.53,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "PCTY",
-      "issuerName": "Paylocity Holding Corp",
-      "insiderName": "Sarowitz Steven I",
-      "title": "Director, 10% Owner",
-      "type": "Sale",
-      "shares": 83.0,
-      "pricePerShare": 153.06,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "SYF",
-      "issuerName": "Synchrony Financial",
-      "insiderName": "Casellas Alberto",
-      "title": "See remarks",
-      "type": "Sale",
-      "shares": 5456.0,
-      "pricePerShare": 80.0,
-      "transactionDate": "2026-08-13"
     }
   ],
   "byTicker": {
@@ -32487,6 +32487,71 @@
           "shares": 375.0,
           "pricePerShare": 75.8645,
           "transactionDate": "2026-08-27"
+        }
+      ]
+    },
+    "HNI": {
+      "issuerName": "HNI CORP",
+      "trades": [
+        {
+          "ticker": "HNI",
+          "issuerName": "HNI CORP",
+          "insiderName": "Lorenger Jeffrey D",
+          "title": "Director, President & CEO",
+          "type": "Sale",
+          "shares": 27131.0,
+          "pricePerShare": 50.0901,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "HNI",
+          "issuerName": "HNI CORP",
+          "insiderName": "Lorenger Jeffrey D",
+          "title": "Director, President & CEO",
+          "type": "Sale",
+          "shares": 12445.0,
+          "pricePerShare": 50.0878,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "HNI",
+          "issuerName": "HNI CORP",
+          "insiderName": "Lorenger Jeffrey D",
+          "title": "Director, President & CEO",
+          "type": "Sale",
+          "shares": 4671.0,
+          "pricePerShare": 50.0496,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "HNI",
+          "issuerName": "HNI CORP",
+          "insiderName": "Lorenger Jeffrey D",
+          "title": "Director, President & CEO",
+          "type": "Sale",
+          "shares": 2837.0,
+          "pricePerShare": 50.0831,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "HNI",
+          "issuerName": "HNI CORP",
+          "insiderName": "Lorenger Jeffrey D",
+          "title": "Director, President & CEO",
+          "type": "Sale",
+          "shares": 300.0,
+          "pricePerShare": 50.0067,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "HNI",
+          "issuerName": "HNI CORP",
+          "insiderName": "Lorenger Jeffrey D",
+          "title": "Director, President & CEO",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 50.0075,
+          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -36142,6 +36207,91 @@
           "shares": 16088.0,
           "pricePerShare": 32.77,
           "transactionDate": "2026-08-26"
+        }
+      ]
+    },
+    "MED": {
+      "issuerName": "MEDIFAST INC",
+      "trades": [
+        {
+          "ticker": "MED",
+          "issuerName": "MEDIFAST INC",
+          "insiderName": "Kiai Parsa",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 41975.0,
+          "pricePerShare": 12.2632,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "MED",
+          "issuerName": "MEDIFAST INC",
+          "insiderName": "Kiai Parsa",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1175.0,
+          "pricePerShare": 12.2632,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "MED",
+          "issuerName": "MEDIFAST INC",
+          "insiderName": "Kiai Parsa",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 4211.0,
+          "pricePerShare": 11.9996,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "MED",
+          "issuerName": "MEDIFAST INC",
+          "insiderName": "Kiai Parsa",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 118.0,
+          "pricePerShare": 11.9996,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "MED",
+          "issuerName": "MEDIFAST INC",
+          "insiderName": "Kiai Parsa",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 41975.0,
+          "pricePerShare": 11.6037,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "MED",
+          "issuerName": "MEDIFAST INC",
+          "insiderName": "Kiai Parsa",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1175.0,
+          "pricePerShare": 11.6037,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "MED",
+          "issuerName": "MEDIFAST INC",
+          "insiderName": "Kiai Parsa",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 28538.0,
+          "pricePerShare": 11.6576,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "MED",
+          "issuerName": "MEDIFAST INC",
+          "insiderName": "Kiai Parsa",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 799.0,
+          "pricePerShare": 11.6576,
+          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -43317,96 +43467,6 @@
           "shares": 600.0,
           "pricePerShare": 168.786,
           "transactionDate": "2026-08-24"
-        }
-      ]
-    },
-    "HNI": {
-      "issuerName": "HNI CORP",
-      "trades": [
-        {
-          "ticker": "HNI",
-          "issuerName": "HNI CORP",
-          "insiderName": "Lorenger Jeffrey D",
-          "title": "Director, President & CEO",
-          "type": "Sale",
-          "shares": 300.0,
-          "pricePerShare": 50.0067,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "HNI",
-          "issuerName": "HNI CORP",
-          "insiderName": "Lorenger Jeffrey D",
-          "title": "Director, President & CEO",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 50.0075,
-          "transactionDate": "2026-08-24"
-        }
-      ]
-    },
-    "MED": {
-      "issuerName": "MEDIFAST INC",
-      "trades": [
-        {
-          "ticker": "MED",
-          "issuerName": "MEDIFAST INC",
-          "insiderName": "Kiai Parsa",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 4211.0,
-          "pricePerShare": 11.9996,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "MED",
-          "issuerName": "MEDIFAST INC",
-          "insiderName": "Kiai Parsa",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 118.0,
-          "pricePerShare": 11.9996,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "MED",
-          "issuerName": "MEDIFAST INC",
-          "insiderName": "Kiai Parsa",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 41975.0,
-          "pricePerShare": 11.6037,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "MED",
-          "issuerName": "MEDIFAST INC",
-          "insiderName": "Kiai Parsa",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1175.0,
-          "pricePerShare": 11.6037,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "MED",
-          "issuerName": "MEDIFAST INC",
-          "insiderName": "Kiai Parsa",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 28538.0,
-          "pricePerShare": 11.6576,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "MED",
-          "issuerName": "MEDIFAST INC",
-          "insiderName": "Kiai Parsa",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 799.0,
-          "pricePerShare": 11.6576,
-          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -52467,46 +52527,6 @@
           "shares": 21.0,
           "pricePerShare": 154.13,
           "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "PCTY",
-          "issuerName": "Paylocity Holding Corp",
-          "insiderName": "Sarowitz Steven I",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 4066.0,
-          "pricePerShare": 150.63,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "PCTY",
-          "issuerName": "Paylocity Holding Corp",
-          "insiderName": "Sarowitz Steven I",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 5659.0,
-          "pricePerShare": 151.54,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "PCTY",
-          "issuerName": "Paylocity Holding Corp",
-          "insiderName": "Sarowitz Steven I",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 5299.0,
-          "pricePerShare": 152.53,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "PCTY",
-          "issuerName": "Paylocity Holding Corp",
-          "insiderName": "Sarowitz Steven I",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 83.0,
-          "pricePerShare": 153.06,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -53822,16 +53842,6 @@
           "shares": 6760.0,
           "pricePerShare": 51.12,
           "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "GFS",
-          "issuerName": "GLOBALFOUNDRIES Inc.",
-          "insiderName": "Azar Samak L",
-          "title": "Chief Legal Officer",
-          "type": "Sale",
-          "shares": 335.0,
-          "pricePerShare": 52.62,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -63359,21 +63369,6 @@
           "transactionDate": "2026-08-13"
         }
       ]
-    },
-    "SYF": {
-      "issuerName": "Synchrony Financial",
-      "trades": [
-        {
-          "ticker": "SYF",
-          "issuerName": "Synchrony Financial",
-          "insiderName": "Casellas Alberto",
-          "title": "See remarks",
-          "type": "Sale",
-          "shares": 5456.0,
-          "pricePerShare": 80.0,
-          "transactionDate": "2026-08-13"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63542,6 +63537,7 @@
       "0000048287-26-000127",
       "0000048287-26-000129",
       "0000048287-26-000131",
+      "0000048287-26-000133",
       "0000051931-26-000740",
       "0000051931-26-000741",
       "0000051931-26-000742",
@@ -64337,6 +64333,10 @@
       "0000894189-26-024120",
       "0000894189-26-024125",
       "0000894189-26-024127",
+      "0000894189-26-024143",
+      "0000894189-26-024144",
+      "0000894189-26-024145",
+      "0000894189-26-024146",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -65643,6 +65643,8 @@
       "0000950103-26-013049",
       "0000950103-26-013053",
       "0000950103-26-013054",
+      "0000950103-26-013056",
+      "0000950103-26-013057",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66825,6 +66827,11 @@
       "0001104659-26-102668",
       "0001104659-26-102894",
       "0001104659-26-102900",
+      "0001104659-26-103047",
+      "0001104659-26-103049",
+      "0001104659-26-103058",
+      "0001104659-26-103062",
+      "0001104659-26-103064",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -67502,6 +67509,7 @@
       "0001140361-26-034797",
       "0001140361-26-034810",
       "0001140361-26-034818",
+      "0001140361-26-034820",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -70532,6 +70540,15 @@
       "0001193125-26-373123",
       "0001193125-26-373124",
       "0001193125-26-373145",
+      "0001193125-26-373172",
+      "0001193125-26-373207",
+      "0001193125-26-373215",
+      "0001193125-26-373263",
+      "0001193125-26-373341",
+      "0001193125-26-373416",
+      "0001193125-26-373417",
+      "0001193125-26-373429",
+      "0001193125-26-373462",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -71671,6 +71688,13 @@
       "0001213900-26-094820",
       "0001213900-26-094821",
       "0001213900-26-094823",
+      "0001213900-26-094838",
+      "0001213900-26-094841",
+      "0001213900-26-094846",
+      "0001213900-26-094847",
+      "0001213900-26-094848",
+      "0001213900-26-094851",
+      "0001213900-26-094862",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -71873,6 +71897,7 @@
       "0001214659-26-011025",
       "0001214659-26-011026",
       "0001214659-26-011027",
+      "0001214659-26-011031",
       "0001214993-26-000004",
       "0001216055-26-000006",
       "0001216055-26-000007",
@@ -73181,6 +73206,7 @@
       "0001445546-26-006428",
       "0001445546-26-006429",
       "0001445546-26-006430",
+      "0001445546-26-006445",
       "0001448765-26-000011",
       "0001448765-26-000013",
       "0001450800-26-000006",
@@ -76231,6 +76257,9 @@
       "0001829126-26-009418",
       "0001829126-26-009429",
       "0001829126-26-009470",
+      "0001829126-26-009472",
+      "0001829126-26-009473",
+      "0001829126-26-009475",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -78240,6 +78269,15 @@
       "0001839882-26-042168",
       "0001839882-26-042172",
       "0001839882-26-042173",
+      "0001839882-26-042183",
+      "0001839882-26-042184",
+      "0001839882-26-042187",
+      "0001839882-26-042189",
+      "0001839882-26-042190",
+      "0001839882-26-042208",
+      "0001839882-26-042214",
+      "0001839882-26-042217",
+      "0001839882-26-042218",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -80985,6 +81023,24 @@
       "0001918704-26-025317",
       "0001918704-26-025318",
       "0001918704-26-025319",
+      "0001918704-26-025321",
+      "0001918704-26-025322",
+      "0001918704-26-025323",
+      "0001918704-26-025326",
+      "0001918704-26-025329",
+      "0001918704-26-025330",
+      "0001918704-26-025331",
+      "0001918704-26-025332",
+      "0001918704-26-025333",
+      "0001918704-26-025334",
+      "0001918704-26-025335",
+      "0001918704-26-025336",
+      "0001918704-26-025337",
+      "0001918704-26-025338",
+      "0001918704-26-025339",
+      "0001918704-26-025340",
+      "0001918704-26-025341",
+      "0001918704-26-025342",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -81602,6 +81658,7 @@
       "0001999371-26-019073",
       "0001999371-26-019099",
       "0001999371-26-019100",
+      "0001999371-26-019104",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0001999852-26-000003",
