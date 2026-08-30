@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-30T11:10:42.168214+00:00",
+  "generatedAt": "2026-08-30T11:37:42.726192+00:00",
   "source": "U.S. Senate (efdsearch.senate.gov) + U.S. House (disclosures-clerk.house.gov) + President Trump's PTRs (whitehouse.gov)",
-  "count": 4495,
+  "count": 4497,
   "trades": [
     {
       "politician": "Morrison, Kelly Louise",
@@ -5000,6 +5000,34 @@
       "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034479.pdf",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034479.pdf",
       "source": "house"
+    },
+    {
+      "politician": "Donald J. Trump",
+      "office": "President",
+      "transactionDate": null,
+      "filedDate": "04/20/2026",
+      "owner": null,
+      "ticker": "MSFT",
+      "assetName": null,
+      "type": "Purchase",
+      "amountRange": "$15,001 - $50,000",
+      "sourceId": "5222a7c9279310c6",
+      "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/04/President-Donald-J.-Trump-Periodic-Transaction-Report-4.20.26.pdf",
+      "source": "president"
+    },
+    {
+      "politician": "Donald J. Trump",
+      "office": "President",
+      "transactionDate": null,
+      "filedDate": "04/20/2026",
+      "owner": null,
+      "ticker": "BA",
+      "assetName": null,
+      "type": null,
+      "amountRange": "$250,004 - $500,000",
+      "sourceId": "5222a7c9279310c6",
+      "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/04/President-Donald-J.-Trump-Periodic-Transaction-Report-4.20.26.pdf",
+      "source": "president"
     },
     {
       "politician": "Delaney, April McClain",
@@ -87215,6 +87243,38 @@
       },
       "tradeCount": 4
     },
+    "Donald J. Trump": {
+      "office": "President",
+      "tickers": {
+        "MSFT": {
+          "trades": [
+            {
+              "transactionDate": null,
+              "filedDate": "04/20/2026",
+              "type": "Purchase",
+              "amountRange": "$15,001 - $50,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Purchase",
+          "lastDate": "04/20/2026"
+        },
+        "BA": {
+          "trades": [
+            {
+              "transactionDate": null,
+              "filedDate": "04/20/2026",
+              "type": null,
+              "amountRange": "$250,004 - $500,000",
+              "owner": null
+            }
+          ],
+          "lastAction": null,
+          "lastDate": "04/20/2026"
+        }
+      },
+      "tradeCount": 2
+    },
     "Fletcher, Elizabeth": {
       "office": "TX07",
       "tickers": {
@@ -110975,6 +111035,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026647.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026650.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026658.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026666.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026684.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026695.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026696.pdf",
@@ -111008,6 +111069,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027845.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027846.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027855.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027867.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027876.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027879.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027885.pdf",
@@ -111112,6 +111174,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030295.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030296.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030307.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030311.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030312.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030313.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030316.pdf",
@@ -111246,6 +111309,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030929.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030930.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030932.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030933.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030944.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030946.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030952.pdf",
@@ -111384,6 +111448,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033666.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033667.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033670.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033684.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033691.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033694.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033699.pdf",
@@ -111436,6 +111501,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221276.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221285.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221287.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221297.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221302.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221310.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115546.pdf",
@@ -111567,6 +111633,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034144.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034155.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034156.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034158.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034159.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034160.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034167.pdf",
@@ -111819,7 +111886,9 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116290.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116292.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116308.pdf",
-      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116311.pdf"
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116311.pdf",
+      "https://www.whitehouse.gov/wp-content/uploads/2026/04/President-Donald-J.-Trump-Periodic-Transaction-Report-4.20.26.pdf",
+      "https://www.whitehouse.gov/wp-content/uploads/2026/05/President-Donald-J.-Trump-Periodic-Transaction-Report-05.08.26-2.pdf"
     ],
     "lastFiledDateSenate": null
   }
