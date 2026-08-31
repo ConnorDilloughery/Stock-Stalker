@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T11:04:40.019319+00:00",
+  "generatedAt": "2026-08-31T12:00:59.422781+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -271,6 +271,16 @@
       "type": "Sale",
       "shares": 2000.0,
       "pricePerShare": 120.07,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "SCOR",
+      "issuerName": "COMSCORE, INC.",
+      "insiderName": "LIVEK WILLIAM PAUL",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 20000.0,
+      "pricePerShare": 5.23,
       "transactionDate": "2026-08-28"
     },
     {
@@ -1231,6 +1241,26 @@
       "type": "Sale",
       "shares": 28.0,
       "pricePerShare": 118.97,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "TNXP",
+      "issuerName": "Tonix Pharmaceuticals Holding Corp.",
+      "insiderName": "LEDERMAN SETH",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 2000.0,
+      "pricePerShare": 13.79,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "MTDR",
+      "issuerName": "Matador Resources Co",
+      "insiderName": "Calvert Christopher P",
+      "title": "EVP and CFO",
+      "type": "Purchase",
+      "shares": 2500.0,
+      "pricePerShare": 56.64,
       "transactionDate": "2026-08-27"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 60.0,
       "pricePerShare": 201.82,
       "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "APPF",
-      "issuerName": "APPFOLIO INC",
-      "insiderName": "DUCA MAURICE J",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 90.0,
-      "pricePerShare": 204.08,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "APPF",
-      "issuerName": "APPFOLIO INC",
-      "insiderName": "DUCA MAURICE J",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 150.0,
-      "pricePerShare": 204.88,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "APPF",
-      "issuerName": "APPFOLIO INC",
-      "insiderName": "DUCA MAURICE J",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 165.0,
-      "pricePerShare": 206.1,
-      "transactionDate": "2026-08-13"
     }
   ],
   "byTicker": {
@@ -31677,6 +31677,41 @@
           "shares": 98.0,
           "pricePerShare": 124.08,
           "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "SCOR": {
+      "issuerName": "COMSCORE, INC.",
+      "trades": [
+        {
+          "ticker": "SCOR",
+          "issuerName": "COMSCORE, INC.",
+          "insiderName": "LIVEK WILLIAM PAUL",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 20000.0,
+          "pricePerShare": 5.23,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "SCOR",
+          "issuerName": "COMSCORE, INC.",
+          "insiderName": "McLaughlin Matthew F.",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 20000.0,
+          "pricePerShare": 5.26,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "SCOR",
+          "issuerName": "COMSCORE, INC.",
+          "insiderName": "Kline David",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 7000.0,
+          "pricePerShare": 5.29,
+          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -35175,6 +35210,66 @@
         }
       ]
     },
+    "TNXP": {
+      "issuerName": "Tonix Pharmaceuticals Holding Corp.",
+      "trades": [
+        {
+          "ticker": "TNXP",
+          "issuerName": "Tonix Pharmaceuticals Holding Corp.",
+          "insiderName": "LEDERMAN SETH",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 13.79,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "TNXP",
+          "issuerName": "Tonix Pharmaceuticals Holding Corp.",
+          "insiderName": "BAGGER RICHARD H",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 12.6,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "MTDR": {
+      "issuerName": "Matador Resources Co",
+      "trades": [
+        {
+          "ticker": "MTDR",
+          "issuerName": "Matador Resources Co",
+          "insiderName": "Calvert Christopher P",
+          "title": "EVP and CFO",
+          "type": "Purchase",
+          "shares": 2500.0,
+          "pricePerShare": 56.64,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "MTDR",
+          "issuerName": "Matador Resources Co",
+          "insiderName": "Foran Joseph Wm",
+          "title": "Director, Chairman and CEO",
+          "type": "Purchase",
+          "shares": 555.0,
+          "pricePerShare": 54.49,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "MTDR",
+          "issuerName": "Matador Resources Co",
+          "insiderName": "Foran Joseph Wm",
+          "title": "Director, Chairman and CEO",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 51.44,
+          "transactionDate": "2026-08-13"
+        }
+      ]
+    },
     "AAT": {
       "issuerName": "American Assets Trust, Inc.",
       "trades": [
@@ -36252,31 +36347,6 @@
           "shares": 15375.0,
           "pricePerShare": 102.0,
           "transactionDate": "2026-08-24"
-        }
-      ]
-    },
-    "SCOR": {
-      "issuerName": "COMSCORE, INC.",
-      "trades": [
-        {
-          "ticker": "SCOR",
-          "issuerName": "COMSCORE, INC.",
-          "insiderName": "McLaughlin Matthew F.",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 20000.0,
-          "pricePerShare": 5.26,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "SCOR",
-          "issuerName": "COMSCORE, INC.",
-          "insiderName": "Kline David",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 7000.0,
-          "pricePerShare": 5.29,
-          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -37497,31 +37567,6 @@
           "shares": 692506.0,
           "pricePerShare": 14.3669,
           "transactionDate": "2026-08-26"
-        }
-      ]
-    },
-    "MTDR": {
-      "issuerName": "Matador Resources Co",
-      "trades": [
-        {
-          "ticker": "MTDR",
-          "issuerName": "Matador Resources Co",
-          "insiderName": "Foran Joseph Wm",
-          "title": "Director, Chairman and CEO",
-          "type": "Purchase",
-          "shares": 555.0,
-          "pricePerShare": 54.49,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "MTDR",
-          "issuerName": "Matador Resources Co",
-          "insiderName": "Foran Joseph Wm",
-          "title": "Director, Chairman and CEO",
-          "type": "Purchase",
-          "shares": 5000.0,
-          "pricePerShare": 51.44,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -49932,36 +49977,6 @@
           "shares": 60.0,
           "pricePerShare": 201.82,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "APPF",
-          "issuerName": "APPFOLIO INC",
-          "insiderName": "DUCA MAURICE J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 90.0,
-          "pricePerShare": 204.08,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "APPF",
-          "issuerName": "APPFOLIO INC",
-          "insiderName": "DUCA MAURICE J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 150.0,
-          "pricePerShare": 204.88,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "APPF",
-          "issuerName": "APPFOLIO INC",
-          "insiderName": "DUCA MAURICE J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 165.0,
-          "pricePerShare": 206.1,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -54691,21 +54706,6 @@
           "type": "Sale",
           "shares": 8023.0,
           "pricePerShare": 16.0,
-          "transactionDate": "2026-08-20"
-        }
-      ]
-    },
-    "TNXP": {
-      "issuerName": "Tonix Pharmaceuticals Holding Corp.",
-      "trades": [
-        {
-          "ticker": "TNXP",
-          "issuerName": "Tonix Pharmaceuticals Holding Corp.",
-          "insiderName": "BAGGER RICHARD H",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 12.6,
           "transactionDate": "2026-08-20"
         }
       ]
@@ -63674,6 +63674,7 @@
       "0000051931-26-000831",
       "0000052848-26-000831",
       "0000052848-26-000832",
+      "0000053808-26-000013",
       "0000058492-26-000420",
       "0000058492-26-000421",
       "0000058492-26-000422",
@@ -64221,6 +64222,7 @@
       "0000813672-26-000098",
       "0000817720-26-000065",
       "0000819793-26-000055",
+      "0000819940-26-000012",
       "0000821026-26-000110",
       "0000821026-26-000112",
       "0000821026-26-000114",
@@ -71984,6 +71986,14 @@
       "0001213900-26-095293",
       "0001213900-26-095303",
       "0001213900-26-095332",
+      "0001213900-26-095349",
+      "0001213900-26-095351",
+      "0001213900-26-095353",
+      "0001213900-26-095355",
+      "0001213900-26-095369",
+      "0001213900-26-095371",
+      "0001213900-26-095372",
+      "0001213900-26-095373",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -72710,6 +72720,7 @@
       "0001354986-26-000012",
       "0001357615-26-000163",
       "0001357615-26-000174",
+      "0001358507-26-000003",
       "0001359771-26-000002",
       "0001361091-26-000017",
       "0001361091-26-000019",
@@ -73603,12 +73614,14 @@
       "0001464521-26-000135",
       "0001464521-26-000137",
       "0001464521-26-000139",
+      "0001464551-26-000006",
       "0001464631-26-000007",
       "0001464633-26-000004",
       "0001465391-26-000030",
       "0001466017-26-000004",
       "0001466026-26-000079",
       "0001466026-26-000081",
+      "0001466605-26-000007",
       "0001466848-26-000005",
       "0001467266-26-000008",
       "0001468308-26-000028",
@@ -74122,6 +74135,7 @@
       "0001493152-26-040638",
       "0001493152-26-040662",
       "0001493152-26-040671",
+      "0001493152-26-040736",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -74502,6 +74516,7 @@
       "0001563458-26-000012",
       "0001563458-26-000014",
       "0001564533-26-000011",
+      "0001564633-26-000002",
       "0001564675-26-000004",
       "0001565249-26-000008",
       "0001566083-26-000006",
@@ -74662,6 +74677,7 @@
       "0001590364-26-000080",
       "0001590558-26-000005",
       "0001590625-26-000063",
+      "0001591556-26-000010",
       "0001591698-26-000106",
       "0001591698-26-000107",
       "0001591698-26-000108",
@@ -81629,6 +81645,7 @@
       "0001971617-26-000010",
       "0001971797-26-000010",
       "0001973103-26-000007",
+      "0001973456-26-000007",
       "0001973495-26-000004",
       "0001973495-26-000005",
       "0001973495-26-000006",
@@ -82138,6 +82155,9 @@
       "0001999371-26-019211",
       "0001999371-26-019227",
       "0001999371-26-019228",
+      "0001999371-26-019251",
+      "0001999371-26-019253",
+      "0001999371-26-019255",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0001999852-26-000003",
@@ -82222,6 +82242,7 @@
       "0002019143-26-000017",
       "0002019369-26-000007",
       "0002019976-26-000009",
+      "0002020286-26-000008",
       "0002020287-26-000002",
       "0002020969-26-000006",
       "0002021233-26-000012",
