@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-08-31T16:05:18.982186+00:00",
+  "generatedAt": "2026-08-31T17:04:43.632212+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "SRTS",
+      "issuerName": "Sensus Healthcare, Inc.",
+      "insiderName": "Sachetta Eric",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 27304.0,
+      "pricePerShare": 3.538,
+      "transactionDate": "2026-08-31"
+    },
     {
       "ticker": "SHMD",
       "issuerName": "SCHMID Group N.V.",
@@ -341,6 +351,36 @@
       "type": "Purchase",
       "shares": 1.0,
       "pricePerShare": 364.42,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "SRTS",
+      "issuerName": "Sensus Healthcare, Inc.",
+      "insiderName": "Sachetta Eric",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 37537.0,
+      "pricePerShare": 3.437,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 2.95,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "KLTR",
+      "issuerName": "KALTURA INC",
+      "insiderName": "Manor Eyal",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 993.0,
+      "pricePerShare": 1.5953,
       "transactionDate": "2026-08-28"
     },
     {
@@ -1421,6 +1461,16 @@
       "type": "Sale",
       "shares": 946.0,
       "pricePerShare": 15.4287,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "KLTR",
+      "issuerName": "KALTURA INC",
+      "insiderName": "Manor Eyal",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 20795.0,
+      "pricePerShare": 1.5836,
       "transactionDate": "2026-08-27"
     },
     {
@@ -29952,59 +30002,54 @@
       "shares": 78.0,
       "pricePerShare": 203.7933,
       "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "MORN",
-      "issuerName": "Morningstar, Inc.",
-      "insiderName": "Mansueto Joseph D",
-      "title": "Director, Executive Chairman, 10% Owner",
-      "type": "Sale",
-      "shares": 52.0,
-      "pricePerShare": 205.6575,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "MORN",
-      "issuerName": "Morningstar, Inc.",
-      "insiderName": "Mansueto Joseph D",
-      "title": "Director, Executive Chairman, 10% Owner",
-      "type": "Sale",
-      "shares": 178.0,
-      "pricePerShare": 206.784,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "XYZ",
-      "issuerName": "Block, Inc.",
-      "insiderName": "Eisen Anthony Mathew",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 6000.0,
-      "pricePerShare": 79.16,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "BY",
-      "issuerName": "BYLINE BANCORP, INC.",
-      "insiderName": "HERENCIA ROBERTO  R",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 19750.0,
-      "pricePerShare": 39.2054,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "CXW",
-      "issuerName": "CoreCivic, Inc.",
-      "insiderName": "Grande Anthony L",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 801.0,
-      "pricePerShare": 34.0,
-      "transactionDate": "2026-08-13"
     }
   ],
   "byTicker": {
+    "SRTS": {
+      "issuerName": "Sensus Healthcare, Inc.",
+      "trades": [
+        {
+          "ticker": "SRTS",
+          "issuerName": "Sensus Healthcare, Inc.",
+          "insiderName": "Sachetta Eric",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 27304.0,
+          "pricePerShare": 3.538,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "SRTS",
+          "issuerName": "Sensus Healthcare, Inc.",
+          "insiderName": "Sachetta Eric",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 37537.0,
+          "pricePerShare": 3.437,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "SRTS",
+          "issuerName": "Sensus Healthcare, Inc.",
+          "insiderName": "Sachetta Eric",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 34697.0,
+          "pricePerShare": 3.254,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "SRTS",
+          "issuerName": "Sensus Healthcare, Inc.",
+          "insiderName": "Sardano Joseph C",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 20000.0,
+          "pricePerShare": 3.0243,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
     "SHMD": {
       "issuerName": "SCHMID Group N.V.",
       "trades": [
@@ -32045,6 +32090,156 @@
         }
       ]
     },
+    "RCG": {
+      "issuerName": "RENN Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.94,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.93,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.87,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.87,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.8,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.8,
+          "transactionDate": "2026-08-14"
+        }
+      ]
+    },
+    "KLTR": {
+      "issuerName": "KALTURA INC",
+      "trades": [
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Manor Eyal",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 993.0,
+          "pricePerShare": 1.5953,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Manor Eyal",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 20795.0,
+          "pricePerShare": 1.5836,
+          "transactionDate": "2026-08-27"
+        }
+      ]
+    },
     "EXOD": {
       "issuerName": "Exodus Movement, Inc.",
       "trades": [
@@ -32752,16 +32947,6 @@
           "shares": 6000.0,
           "pricePerShare": 82.87,
           "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "XYZ",
-          "issuerName": "Block, Inc.",
-          "insiderName": "Eisen Anthony Mathew",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 6000.0,
-          "pricePerShare": 79.16,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -34107,121 +34292,6 @@
           "shares": 1096.0,
           "pricePerShare": 44.64,
           "transactionDate": "2026-08-27"
-        }
-      ]
-    },
-    "RCG": {
-      "issuerName": "RENN Fund, Inc.",
-      "trades": [
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "Kesslen Jay H",
-          "title": "Vice-President",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.94,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "Kesslen Jay H",
-          "title": "Vice-President",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 2.93,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "Kesslen Jay H",
-          "title": "Vice-President",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 2.87,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.87,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.8,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.8,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -36455,16 +36525,6 @@
           "title": "Reporting Person",
           "type": "Sale",
           "shares": 7100.0,
-          "pricePerShare": 34.0,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "CXW",
-          "issuerName": "CoreCivic, Inc.",
-          "insiderName": "Grande Anthony L",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 801.0,
           "pricePerShare": 34.0,
           "transactionDate": "2026-08-13"
         }
@@ -44427,31 +44487,6 @@
           "shares": 4900.0,
           "pricePerShare": 5.56,
           "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "SRTS": {
-      "issuerName": "Sensus Healthcare, Inc.",
-      "trades": [
-        {
-          "ticker": "SRTS",
-          "issuerName": "Sensus Healthcare, Inc.",
-          "insiderName": "Sachetta Eric",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 34697.0,
-          "pricePerShare": 3.254,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "SRTS",
-          "issuerName": "Sensus Healthcare, Inc.",
-          "insiderName": "Sardano Joseph C",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 20000.0,
-          "pricePerShare": 3.0243,
-          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -56442,16 +56477,6 @@
           "shares": 300.0,
           "pricePerShare": 38.395,
           "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "BY",
-          "issuerName": "BYLINE BANCORP, INC.",
-          "insiderName": "HERENCIA ROBERTO  R",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 19750.0,
-          "pricePerShare": 39.2054,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -61227,26 +61252,6 @@
           "shares": 78.0,
           "pricePerShare": 203.7933,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "MORN",
-          "issuerName": "Morningstar, Inc.",
-          "insiderName": "Mansueto Joseph D",
-          "title": "Director, Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 52.0,
-          "pricePerShare": 205.6575,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "MORN",
-          "issuerName": "Morningstar, Inc.",
-          "insiderName": "Mansueto Joseph D",
-          "title": "Director, Executive Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 178.0,
-          "pricePerShare": 206.784,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -65844,6 +65849,10 @@
       "0000950103-26-013216",
       "0000950103-26-013217",
       "0000950103-26-013219",
+      "0000950103-26-013222",
+      "0000950103-26-013223",
+      "0000950103-26-013224",
+      "0000950103-26-013225",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -67059,6 +67068,9 @@
       "0001104659-26-103576",
       "0001104659-26-103579",
       "0001104659-26-103686",
+      "0001104659-26-103724",
+      "0001104659-26-103731",
+      "0001104659-26-103735",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -70875,6 +70887,17 @@
       "0001193125-26-376030",
       "0001193125-26-376033",
       "0001193125-26-376038",
+      "0001193125-26-376079",
+      "0001193125-26-376085",
+      "0001193125-26-376091",
+      "0001193125-26-376106",
+      "0001193125-26-376116",
+      "0001193125-26-376132",
+      "0001193125-26-376164",
+      "0001193125-26-376186",
+      "0001193125-26-376188",
+      "0001193125-26-376189",
+      "0001193125-26-376193",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72068,6 +72091,19 @@
       "0001213900-26-095454",
       "0001213900-26-095459",
       "0001213900-26-095497",
+      "0001213900-26-095572",
+      "0001213900-26-095573",
+      "0001213900-26-095574",
+      "0001213900-26-095576",
+      "0001213900-26-095577",
+      "0001213900-26-095578",
+      "0001213900-26-095579",
+      "0001213900-26-095582",
+      "0001213900-26-095584",
+      "0001213900-26-095589",
+      "0001213900-26-095591",
+      "0001213900-26-095594",
+      "0001213900-26-095596",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -72308,6 +72344,7 @@
       "0001214659-26-011111",
       "0001214659-26-011121",
       "0001214659-26-011158",
+      "0001214659-26-011176",
       "0001214993-26-000004",
       "0001215315-26-000038",
       "0001216055-26-000006",
@@ -72496,6 +72533,7 @@
       "0001225208-26-007350",
       "0001225208-26-007379",
       "0001225208-26-007381",
+      "0001225208-26-007389",
       "0001225481-26-000006",
       "0001225817-26-000008",
       "0001227384-26-000017",
@@ -73454,6 +73492,7 @@
       "0001437749-26-029253",
       "0001437749-26-029257",
       "0001437749-26-029258",
+      "0001437749-26-029279",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -73664,6 +73703,7 @@
       "0001445546-26-006458",
       "0001445546-26-006460",
       "0001445546-26-006461",
+      "0001445546-26-006464",
       "0001448765-26-000011",
       "0001448765-26-000013",
       "0001450800-26-000006",
@@ -75601,6 +75641,7 @@
       "0001628280-26-059454",
       "0001628280-26-059472",
       "0001628280-26-059480",
+      "0001628280-26-059510",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -78849,6 +78890,25 @@
       "0001839882-26-042642",
       "0001839882-26-042643",
       "0001839882-26-042646",
+      "0001839882-26-042666",
+      "0001839882-26-042669",
+      "0001839882-26-042671",
+      "0001839882-26-042672",
+      "0001839882-26-042673",
+      "0001839882-26-042674",
+      "0001839882-26-042675",
+      "0001839882-26-042677",
+      "0001839882-26-042678",
+      "0001839882-26-042679",
+      "0001839882-26-042682",
+      "0001839882-26-042683",
+      "0001839882-26-042686",
+      "0001839882-26-042688",
+      "0001839882-26-042690",
+      "0001839882-26-042692",
+      "0001839882-26-042695",
+      "0001839882-26-042698",
+      "0001839882-26-042703",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -81695,6 +81755,13 @@
       "0001918704-26-025663",
       "0001918704-26-025664",
       "0001918704-26-025665",
+      "0001918704-26-025668",
+      "0001918704-26-025669",
+      "0001918704-26-025670",
+      "0001918704-26-025671",
+      "0001918704-26-025672",
+      "0001918704-26-025673",
+      "0001918704-26-025674",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -82344,6 +82411,9 @@
       "0001999371-26-019279",
       "0001999371-26-019286",
       "0001999371-26-019294",
+      "0001999371-26-019311",
+      "0001999371-26-019313",
+      "0001999371-26-019316",
       "0001999525-26-000002",
       "0001999598-26-000010",
       "0001999852-26-000003",
@@ -82786,6 +82856,7 @@
       "0002097042-26-000005",
       "0002097107-26-000004",
       "0002097345-26-000012",
+      "0002097345-26-000016",
       "0002097390-26-000008",
       "0002097504-26-000004",
       "0002097955-26-000004",
