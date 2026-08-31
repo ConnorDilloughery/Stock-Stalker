@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T12:00:59.422781+00:00",
+  "generatedAt": "2026-08-31T13:04:07.282125+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -281,6 +281,26 @@
       "type": "Purchase",
       "shares": 20000.0,
       "pricePerShare": 5.23,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "CTEV",
+      "issuerName": "Claritev Corp",
+      "insiderName": "Dalton Travis",
+      "title": "Director, Pres., CEO & Executive Chair",
+      "type": "Purchase",
+      "shares": 1950.0,
+      "pricePerShare": 38.4823,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "MDRR",
+      "issuerName": "Medalist Diversified, Inc.",
+      "insiderName": "Winn Charles Brent Jr.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 3.0,
+      "pricePerShare": 12.0,
       "transactionDate": "2026-08-28"
     },
     {
@@ -1261,6 +1281,36 @@
       "type": "Purchase",
       "shares": 2500.0,
       "pricePerShare": 56.64,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "MTD",
+      "issuerName": "METTLER TOLEDO INTERNATIONAL INC/",
+      "insiderName": "Kaltenbach Patrick",
+      "title": "President and CEO",
+      "type": "Sale",
+      "shares": 942.0,
+      "pricePerShare": 1425.0,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "CTEV",
+      "issuerName": "Claritev Corp",
+      "insiderName": "Dalton Travis",
+      "title": "Director, Pres., CEO & Executive Chair",
+      "type": "Purchase",
+      "shares": 4500.0,
+      "pricePerShare": 38.8052,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "MDRR",
+      "issuerName": "Medalist Diversified, Inc.",
+      "insiderName": "Winn Charles Brent Jr.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 250.0,
+      "pricePerShare": 12.0,
       "transactionDate": "2026-08-27"
     },
     {
@@ -2911,6 +2961,16 @@
       "type": "Sale",
       "shares": 2000.0,
       "pricePerShare": 1.5581,
+      "transactionDate": "2026-08-26"
+    },
+    {
+      "ticker": "MDRR",
+      "issuerName": "Medalist Diversified, Inc.",
+      "insiderName": "Winn Charles Brent Jr.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 6.0,
+      "pricePerShare": 11.5,
       "transactionDate": "2026-08-26"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 5000.0,
       "pricePerShare": 2.905,
       "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "JCTC",
-      "issuerName": "JEWETT CAMERON TRADING CO LTD",
-      "insiderName": "AJB Investment Fund II, LP",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 457.0,
-      "pricePerShare": 2.905,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "APPF",
-      "issuerName": "APPFOLIO INC",
-      "insiderName": "DUCA MAURICE J",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 315.0,
-      "pricePerShare": 196.28,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "APPF",
-      "issuerName": "APPFOLIO INC",
-      "insiderName": "DUCA MAURICE J",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 164.0,
-      "pricePerShare": 197.29,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "APPF",
-      "issuerName": "APPFOLIO INC",
-      "insiderName": "DUCA MAURICE J",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 134.0,
-      "pricePerShare": 198.37,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "APPF",
-      "issuerName": "APPFOLIO INC",
-      "insiderName": "DUCA MAURICE J",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 15.0,
-      "pricePerShare": 199.81,
-      "transactionDate": "2026-08-13"
-    },
-    {
-      "ticker": "APPF",
-      "issuerName": "APPFOLIO INC",
-      "insiderName": "DUCA MAURICE J",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 60.0,
-      "pricePerShare": 201.82,
-      "transactionDate": "2026-08-13"
     }
   ],
   "byTicker": {
@@ -31712,6 +31712,86 @@
           "shares": 7000.0,
           "pricePerShare": 5.29,
           "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "CTEV": {
+      "issuerName": "Claritev Corp",
+      "trades": [
+        {
+          "ticker": "CTEV",
+          "issuerName": "Claritev Corp",
+          "insiderName": "Dalton Travis",
+          "title": "Director, Pres., CEO & Executive Chair",
+          "type": "Purchase",
+          "shares": 1950.0,
+          "pricePerShare": 38.4823,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "CTEV",
+          "issuerName": "Claritev Corp",
+          "insiderName": "Dalton Travis",
+          "title": "Director, Pres., CEO & Executive Chair",
+          "type": "Purchase",
+          "shares": 4500.0,
+          "pricePerShare": 38.8052,
+          "transactionDate": "2026-08-27"
+        }
+      ]
+    },
+    "MDRR": {
+      "issuerName": "Medalist Diversified, Inc.",
+      "trades": [
+        {
+          "ticker": "MDRR",
+          "issuerName": "Medalist Diversified, Inc.",
+          "insiderName": "Winn Charles Brent Jr.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 3.0,
+          "pricePerShare": 12.0,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "MDRR",
+          "issuerName": "Medalist Diversified, Inc.",
+          "insiderName": "Winn Charles Brent Jr.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 250.0,
+          "pricePerShare": 12.0,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "MDRR",
+          "issuerName": "Medalist Diversified, Inc.",
+          "insiderName": "Winn Charles Brent Jr.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 6.0,
+          "pricePerShare": 11.5,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "MDRR",
+          "issuerName": "Medalist Diversified, Inc.",
+          "insiderName": "Winn Charles Brent Jr.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 3.0,
+          "pricePerShare": 11.5,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "MDRR",
+          "issuerName": "Medalist Diversified, Inc.",
+          "insiderName": "Winn Charles Brent Jr.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 72.0,
+          "pricePerShare": 11.5,
+          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -34957,16 +35037,6 @@
           "shares": 5000.0,
           "pricePerShare": 2.905,
           "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "JCTC",
-          "issuerName": "JEWETT CAMERON TRADING CO LTD",
-          "insiderName": "AJB Investment Fund II, LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 457.0,
-          "pricePerShare": 2.905,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -35267,6 +35337,21 @@
           "shares": 5000.0,
           "pricePerShare": 51.44,
           "transactionDate": "2026-08-13"
+        }
+      ]
+    },
+    "MTD": {
+      "issuerName": "METTLER TOLEDO INTERNATIONAL INC/",
+      "trades": [
+        {
+          "ticker": "MTD",
+          "issuerName": "METTLER TOLEDO INTERNATIONAL INC/",
+          "insiderName": "Kaltenbach Patrick",
+          "title": "President and CEO",
+          "type": "Sale",
+          "shares": 942.0,
+          "pricePerShare": 1425.0,
+          "transactionDate": "2026-08-27"
         }
       ]
     },
@@ -49927,56 +50012,6 @@
           "shares": 52.0,
           "pricePerShare": 199.05,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "APPF",
-          "issuerName": "APPFOLIO INC",
-          "insiderName": "DUCA MAURICE J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 315.0,
-          "pricePerShare": 196.28,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "APPF",
-          "issuerName": "APPFOLIO INC",
-          "insiderName": "DUCA MAURICE J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 164.0,
-          "pricePerShare": 197.29,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "APPF",
-          "issuerName": "APPFOLIO INC",
-          "insiderName": "DUCA MAURICE J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 134.0,
-          "pricePerShare": 198.37,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "APPF",
-          "issuerName": "APPFOLIO INC",
-          "insiderName": "DUCA MAURICE J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15.0,
-          "pricePerShare": 199.81,
-          "transactionDate": "2026-08-13"
-        },
-        {
-          "ticker": "APPF",
-          "issuerName": "APPFOLIO INC",
-          "insiderName": "DUCA MAURICE J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 60.0,
-          "pricePerShare": 201.82,
-          "transactionDate": "2026-08-13"
         }
       ]
     },
@@ -53082,31 +53117,6 @@
           "shares": 151253.0,
           "pricePerShare": 51.0049,
           "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "MDRR": {
-      "issuerName": "Medalist Diversified, Inc.",
-      "trades": [
-        {
-          "ticker": "MDRR",
-          "issuerName": "Medalist Diversified, Inc.",
-          "insiderName": "Winn Charles Brent Jr.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 3.0,
-          "pricePerShare": 11.5,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "MDRR",
-          "issuerName": "Medalist Diversified, Inc.",
-          "insiderName": "Winn Charles Brent Jr.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 72.0,
-          "pricePerShare": 11.5,
-          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -64776,6 +64786,8 @@
       "0000930413-26-002431",
       "0000930413-26-002467",
       "0000930413-26-002635",
+      "0000930413-26-002781",
+      "0000930413-26-002782",
       "0000932781-26-000045",
       "0000933094-26-000026",
       "0000933094-26-000027",
@@ -65808,6 +65820,7 @@
       "0000950103-26-013201",
       "0000950103-26-013212",
       "0000950103-26-013213",
+      "0000950103-26-013214",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -65929,6 +65942,7 @@
       "0001037646-26-000057",
       "0001037646-26-000059",
       "0001037646-26-000061",
+      "0001037646-26-000065",
       "0001037976-26-000154",
       "0001037976-26-000162",
       "0001037976-26-000164",
@@ -67019,6 +67033,8 @@
       "0001104659-26-103401",
       "0001104659-26-103402",
       "0001104659-26-103418",
+      "0001104659-26-103576",
+      "0001104659-26-103579",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -70810,6 +70826,8 @@
       "0001193125-26-375298",
       "0001193125-26-375300",
       "0001193125-26-375301",
+      "0001193125-26-375540",
+      "0001193125-26-375543",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -71994,6 +72012,7 @@
       "0001213900-26-095371",
       "0001213900-26-095372",
       "0001213900-26-095373",
+      "0001213900-26-095396",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74136,6 +74155,7 @@
       "0001493152-26-040662",
       "0001493152-26-040671",
       "0001493152-26-040736",
+      "0001493152-26-040745",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -74859,6 +74879,7 @@
       "0001623632-26-001244",
       "0001623632-26-001245",
       "0001623632-26-001246",
+      "0001623632-26-001362",
       "0001624067-26-000002",
       "0001624067-26-000004",
       "0001624067-26-000006",
@@ -75506,6 +75527,7 @@
       "0001628280-26-059452",
       "0001628280-26-059453",
       "0001628280-26-059454",
+      "0001628280-26-059472",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -76387,6 +76409,7 @@
       "0001807571-26-000007",
       "0001807641-26-000007",
       "0001808471-26-000013",
+      "0001808471-26-000015",
       "0001808766-26-000010",
       "0001808968-26-000017",
       "0001809519-26-000163",
@@ -81518,6 +81541,10 @@
       "0001918704-26-025557",
       "0001918704-26-025565",
       "0001918704-26-025566",
+      "0001918704-26-025577",
+      "0001918704-26-025578",
+      "0001918704-26-025579",
+      "0001918704-26-025580",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
