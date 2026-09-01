@@ -1,8 +1,28 @@
 {
-  "generatedAt": "2026-09-01T20:05:33.482452+00:00",
+  "generatedAt": "2026-09-01T21:02:16.342101+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "LUCK",
+      "issuerName": "Lucky Strike Entertainment Corp",
+      "insiderName": "Young John Alan",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 614.0,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "CYTK",
+      "issuerName": "CYTOKINETICS INC",
+      "insiderName": "PARSHALL B LYNNE",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 5000.0,
+      "pricePerShare": 71.48,
+      "transactionDate": "2026-09-01"
+    },
     {
       "ticker": "SRTS",
       "issuerName": "Sensus Healthcare, Inc.",
@@ -351,6 +371,26 @@
       "type": "Sale",
       "shares": 24777.0,
       "pricePerShare": 37.5,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "LUCK",
+      "issuerName": "Lucky Strike Entertainment Corp",
+      "insiderName": "Young John Alan",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 400.0,
+      "pricePerShare": 6.25,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "WULF",
+      "issuerName": "TERAWULF INC.",
+      "insiderName": "Carter Walter E.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 130626.0,
+      "pricePerShare": 15.141,
       "transactionDate": "2026-08-31"
     },
     {
@@ -1431,6 +1471,46 @@
       "type": "Sale",
       "shares": 9250.0,
       "pricePerShare": 372.787,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "LUCK",
+      "issuerName": "Lucky Strike Entertainment Corp",
+      "insiderName": "Young John Alan",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 2800.0,
+      "pricePerShare": 6.23,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "LUCK",
+      "issuerName": "Lucky Strike Entertainment Corp",
+      "insiderName": "MATHRANI SANDEEP",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 9350.0,
+      "pricePerShare": 6.4125,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "FLXS",
+      "issuerName": "FLEXSTEEL INDUSTRIES INC",
+      "insiderName": "Creekmuir William S.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 3100.0,
+      "pricePerShare": 81.8538,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "SFST",
+      "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+      "insiderName": "CUBBAGE LEIGHTON M",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 400.0,
+      "pricePerShare": 63.0,
       "transactionDate": "2026-08-28"
     },
     {
@@ -29922,89 +30002,89 @@
       "shares": 96490.0,
       "pricePerShare": 66.3468,
       "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "KNTK",
-      "issuerName": "Kinetik Holdings Inc.",
-      "insiderName": "ISQ Global Fund II GP LLC",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 10689.0,
-      "pricePerShare": 52.5592,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "KNTK",
-      "issuerName": "Kinetik Holdings Inc.",
-      "insiderName": "ISQ Global Fund II GP LLC",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 101098.0,
-      "pricePerShare": 53.5723,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "KNTK",
-      "issuerName": "Kinetik Holdings Inc.",
-      "insiderName": "ISQ Global Fund II GP LLC",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 373.0,
-      "pricePerShare": 54.0939,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "MOBI",
-      "issuerName": "Mobia Medical, Inc.",
-      "insiderName": "Tansey Casey M",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 15721.0,
-      "pricePerShare": 11.65,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "MOBI",
-      "issuerName": "Mobia Medical, Inc.",
-      "insiderName": "Tansey Casey M",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 100.0,
-      "pricePerShare": 12.53,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "MAX",
-      "issuerName": "MediaAlpha, Inc.",
-      "insiderName": "Yeh Kuanling Amy",
-      "title": "Chief Technology Officer",
-      "type": "Sale",
-      "shares": 12000.0,
-      "pricePerShare": 13.5514,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "AIRO",
-      "issuerName": "AIRO Group Holdings, Inc.",
-      "insiderName": "Uczekaj John",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 15457.0,
-      "pricePerShare": 9.6135,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "AIRO",
-      "issuerName": "AIRO Group Holdings, Inc.",
-      "insiderName": "Uczekaj John",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1430.0,
-      "pricePerShare": 10.8623,
-      "transactionDate": "2026-08-14"
     }
   ],
   "byTicker": {
+    "LUCK": {
+      "issuerName": "Lucky Strike Entertainment Corp",
+      "trades": [
+        {
+          "ticker": "LUCK",
+          "issuerName": "Lucky Strike Entertainment Corp",
+          "insiderName": "Young John Alan",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 614.0,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "LUCK",
+          "issuerName": "Lucky Strike Entertainment Corp",
+          "insiderName": "Young John Alan",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 400.0,
+          "pricePerShare": 6.25,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "LUCK",
+          "issuerName": "Lucky Strike Entertainment Corp",
+          "insiderName": "Young John Alan",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2800.0,
+          "pricePerShare": 6.23,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "LUCK",
+          "issuerName": "Lucky Strike Entertainment Corp",
+          "insiderName": "MATHRANI SANDEEP",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 9350.0,
+          "pricePerShare": 6.4125,
+          "transactionDate": "2026-08-28"
+        }
+      ]
+    },
+    "CYTK": {
+      "issuerName": "CYTOKINETICS INC",
+      "trades": [
+        {
+          "ticker": "CYTK",
+          "issuerName": "CYTOKINETICS INC",
+          "insiderName": "PARSHALL B LYNNE",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 71.48,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "CYTK",
+          "issuerName": "CYTOKINETICS INC",
+          "insiderName": "Callos Andrew",
+          "title": "EVP, Chief Commercial Officer",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 70.24,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "CYTK",
+          "issuerName": "CYTOKINETICS INC",
+          "insiderName": "Blum Robert I",
+          "title": "Director, President & CEO",
+          "type": "Sale",
+          "shares": 7500.0,
+          "pricePerShare": 70.24,
+          "transactionDate": "2026-08-31"
+        }
+      ]
+    },
     "SRTS": {
       "issuerName": "Sensus Healthcare, Inc.",
       "trades": [
@@ -30102,31 +30182,6 @@
           "shares": 10000.0,
           "pricePerShare": 42.92,
           "transactionDate": "2026-08-14"
-        }
-      ]
-    },
-    "CYTK": {
-      "issuerName": "CYTOKINETICS INC",
-      "trades": [
-        {
-          "ticker": "CYTK",
-          "issuerName": "CYTOKINETICS INC",
-          "insiderName": "Callos Andrew",
-          "title": "EVP, Chief Commercial Officer",
-          "type": "Sale",
-          "shares": 10000.0,
-          "pricePerShare": 70.24,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "CYTK",
-          "issuerName": "CYTOKINETICS INC",
-          "insiderName": "Blum Robert I",
-          "title": "Director, President & CEO",
-          "type": "Sale",
-          "shares": 7500.0,
-          "pricePerShare": 70.24,
-          "transactionDate": "2026-08-31"
         }
       ]
     },
@@ -31212,6 +31267,31 @@
           "shares": 24777.0,
           "pricePerShare": 37.5,
           "transactionDate": "2026-08-31"
+        }
+      ]
+    },
+    "WULF": {
+      "issuerName": "TERAWULF INC.",
+      "trades": [
+        {
+          "ticker": "WULF",
+          "issuerName": "TERAWULF INC.",
+          "insiderName": "Carter Walter E.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 130626.0,
+          "pricePerShare": 15.141,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "WULF",
+          "issuerName": "TERAWULF INC.",
+          "insiderName": "Prager Paul B.",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 137500.0,
+          "pricePerShare": 17.0593,
+          "transactionDate": "2026-08-27"
         }
       ]
     },
@@ -35170,6 +35250,66 @@
         }
       ]
     },
+    "FLXS": {
+      "issuerName": "FLEXSTEEL INDUSTRIES INC",
+      "trades": [
+        {
+          "ticker": "FLXS",
+          "issuerName": "FLEXSTEEL INDUSTRIES INC",
+          "insiderName": "Creekmuir William S.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3100.0,
+          "pricePerShare": 81.8538,
+          "transactionDate": "2026-08-28"
+        }
+      ]
+    },
+    "SFST": {
+      "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+      "trades": [
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "CUBBAGE LEIGHTON M",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 63.0,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "CUBBAGE LEIGHTON M",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 350.0,
+          "pricePerShare": 63.0502,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "CUBBAGE LEIGHTON M",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 63.0,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "CUBBAGE LEIGHTON M",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 800.0,
+          "pricePerShare": 63.0183,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
     "EXOD": {
       "issuerName": "Exodus Movement, Inc.",
       "trades": [
@@ -38275,21 +38415,6 @@
         }
       ]
     },
-    "WULF": {
-      "issuerName": "TERAWULF INC.",
-      "trades": [
-        {
-          "ticker": "WULF",
-          "issuerName": "TERAWULF INC.",
-          "insiderName": "Prager Paul B.",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 137500.0,
-          "pricePerShare": 17.0593,
-          "transactionDate": "2026-08-27"
-        }
-      ]
-    },
     "NYAX": {
       "issuerName": "Nayax Ltd.",
       "trades": [
@@ -39342,16 +39467,6 @@
           "shares": 13000.0,
           "pricePerShare": 12.7634,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Yeh Kuanling Amy",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 12000.0,
-          "pricePerShare": 13.5514,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -41607,36 +41722,6 @@
           "shares": 287.0,
           "pricePerShare": 53.1115,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "KNTK",
-          "issuerName": "Kinetik Holdings Inc.",
-          "insiderName": "ISQ Global Fund II GP LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 10689.0,
-          "pricePerShare": 52.5592,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "KNTK",
-          "issuerName": "Kinetik Holdings Inc.",
-          "insiderName": "ISQ Global Fund II GP LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 101098.0,
-          "pricePerShare": 53.5723,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "KNTK",
-          "issuerName": "Kinetik Holdings Inc.",
-          "insiderName": "ISQ Global Fund II GP LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 373.0,
-          "pricePerShare": 54.0939,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -44572,41 +44657,6 @@
           "shares": 2700.0,
           "pricePerShare": 42.0,
           "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "SFST": {
-      "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-      "trades": [
-        {
-          "ticker": "SFST",
-          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-          "insiderName": "CUBBAGE LEIGHTON M",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 350.0,
-          "pricePerShare": 63.0502,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "SFST",
-          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-          "insiderName": "CUBBAGE LEIGHTON M",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 63.0,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "SFST",
-          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
-          "insiderName": "CUBBAGE LEIGHTON M",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 800.0,
-          "pricePerShare": 63.0183,
-          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -60672,26 +60722,6 @@
           "shares": 17166.0,
           "pricePerShare": 11.8509,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "MOBI",
-          "issuerName": "Mobia Medical, Inc.",
-          "insiderName": "Tansey Casey M",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 15721.0,
-          "pricePerShare": 11.65,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "MOBI",
-          "issuerName": "Mobia Medical, Inc.",
-          "insiderName": "Tansey Casey M",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 100.0,
-          "pricePerShare": 12.53,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -63464,31 +63494,6 @@
           "transactionDate": "2026-08-14"
         }
       ]
-    },
-    "AIRO": {
-      "issuerName": "AIRO Group Holdings, Inc.",
-      "trades": [
-        {
-          "ticker": "AIRO",
-          "issuerName": "AIRO Group Holdings, Inc.",
-          "insiderName": "Uczekaj John",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15457.0,
-          "pricePerShare": 9.6135,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "AIRO",
-          "issuerName": "AIRO Group Holdings, Inc.",
-          "insiderName": "Uczekaj John",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1430.0,
-          "pricePerShare": 10.8623,
-          "transactionDate": "2026-08-14"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63640,6 +63645,8 @@
       "0000036146-26-000087",
       "0000036405-26-000386",
       "0000037472-26-000078",
+      "0000037472-26-000081",
+      "0000037472-26-000083",
       "0000038009-26-000043",
       "0000038009-26-000045",
       "0000038009-26-000048",
@@ -65936,6 +65943,7 @@
       "0000950103-26-013348",
       "0000950103-26-013349",
       "0000950103-26-013356",
+      "0000950103-26-013372",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66168,6 +66176,7 @@
       "0001061272-26-000002",
       "0001061983-26-000089",
       "0001061983-26-000090",
+      "0001061983-26-000091",
       "0001062993-26-004233",
       "0001062993-26-004525",
       "0001062993-26-004538",
@@ -66300,6 +66309,7 @@
       "0001090009-26-000094",
       "0001090009-26-000096",
       "0001090009-26-000098",
+      "0001090009-26-000100",
       "0001090012-26-000108",
       "0001090155-26-000004",
       "0001090355-26-000007",
@@ -66330,6 +66340,7 @@
       "0001102993-26-000118",
       "0001102993-26-000119",
       "0001102993-26-000120",
+      "0001102993-26-000152",
       "0001104657-26-000045",
       "0001104659-26-084764",
       "0001104659-26-084765",
@@ -67186,6 +67197,9 @@
       "0001104659-26-104288",
       "0001104659-26-104290",
       "0001104659-26-104294",
+      "0001104659-26-104354",
+      "0001104659-26-104355",
+      "0001104659-26-104356",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -71169,6 +71183,18 @@
       "0001193125-26-378362",
       "0001193125-26-378369",
       "0001193125-26-378370",
+      "0001193125-26-378545",
+      "0001193125-26-378546",
+      "0001193125-26-378548",
+      "0001193125-26-378549",
+      "0001193125-26-378550",
+      "0001193125-26-378560",
+      "0001193125-26-378561",
+      "0001193125-26-378562",
+      "0001193125-26-378566",
+      "0001193125-26-378567",
+      "0001193125-26-378584",
+      "0001193125-26-378588",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -71217,6 +71243,7 @@
       "0001206774-26-000365",
       "0001206774-26-000416",
       "0001206774-26-000437",
+      "0001206774-26-000509",
       "0001206878-26-000003",
       "0001207433-26-000018",
       "0001207622-26-000005",
@@ -72445,6 +72472,10 @@
       "0001213900-26-096078",
       "0001213900-26-096168",
       "0001213900-26-096169",
+      "0001213900-26-096265",
+      "0001213900-26-096266",
+      "0001213900-26-096267",
+      "0001213900-26-096268",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74690,6 +74721,7 @@
       "0001493152-26-040906",
       "0001493152-26-040933",
       "0001493152-26-041002",
+      "0001493152-26-041046",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -74933,6 +74965,21 @@
       "0001528621-26-000900",
       "0001528621-26-000903",
       "0001528621-26-000904",
+      "0001528621-26-000907",
+      "0001528621-26-000908",
+      "0001528621-26-000909",
+      "0001528621-26-000910",
+      "0001528621-26-000911",
+      "0001528621-26-000912",
+      "0001528621-26-000913",
+      "0001528621-26-000914",
+      "0001528621-26-000915",
+      "0001528621-26-000916",
+      "0001528621-26-000917",
+      "0001528621-26-000918",
+      "0001528621-26-000919",
+      "0001528621-26-000920",
+      "0001528621-26-000921",
       "0001530038-26-000002",
       "0001530255-26-000010",
       "0001530819-26-000012",
@@ -75212,6 +75259,7 @@
       "0001580642-26-005825",
       "0001580642-26-005834",
       "0001580642-26-005866",
+      "0001580642-26-005875",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -76103,6 +76151,14 @@
       "0001628280-26-059682",
       "0001628280-26-059708",
       "0001628280-26-059786",
+      "0001628280-26-059882",
+      "0001628280-26-059883",
+      "0001628280-26-059884",
+      "0001628280-26-059885",
+      "0001628280-26-059897",
+      "0001628280-26-059898",
+      "0001628280-26-059899",
+      "0001628280-26-059900",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -79555,6 +79611,8 @@
       "0001839882-26-043337",
       "0001839882-26-043339",
       "0001839882-26-043343",
+      "0001839882-26-043394",
+      "0001839882-26-043395",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -82580,6 +82638,15 @@
       "0001918704-26-025999",
       "0001918704-26-026000",
       "0001918704-26-026001",
+      "0001918704-26-026022",
+      "0001918704-26-026023",
+      "0001918704-26-026024",
+      "0001918704-26-026025",
+      "0001918704-26-026026",
+      "0001918704-26-026027",
+      "0001918704-26-026028",
+      "0001918704-26-026030",
+      "0001918704-26-026032",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -83596,6 +83663,7 @@
       "0002071844-26-001131",
       "0002071844-26-001139",
       "0002071844-26-001148",
+      "0002071844-26-001167",
       "0002071948-26-000005",
       "0002073586-26-000014",
       "0002073587-26-000026",
