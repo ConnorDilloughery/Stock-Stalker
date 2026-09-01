@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T01:03:54.636210+00:00",
+  "generatedAt": "2026-09-01T02:02:30.496637+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -251,6 +251,16 @@
       "type": "Sale",
       "shares": 12000.0,
       "pricePerShare": 12.18,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "ODD",
+      "issuerName": "Oddity Tech Ltd",
+      "insiderName": "Drucker Mann Lindsay",
+      "title": "Global Chief Financial Officer",
+      "type": "Sale",
+      "shares": 12286.0,
+      "pricePerShare": 14.27,
       "transactionDate": "2026-08-31"
     },
     {
@@ -1131,6 +1141,36 @@
       "type": "Sale",
       "shares": 40.0,
       "pricePerShare": 221.68,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "XENE",
+      "issuerName": "Xenon Pharmaceuticals Inc.",
+      "insiderName": "KENNEY CHRISTOPHER JOHN",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 6368.0,
+      "pricePerShare": 60.1673,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "XENE",
+      "issuerName": "Xenon Pharmaceuticals Inc.",
+      "insiderName": "KENNEY CHRISTOPHER JOHN",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 700.0,
+      "pricePerShare": 60.9766,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "ODD",
+      "issuerName": "Oddity Tech Ltd",
+      "insiderName": "Drucker Mann Lindsay",
+      "title": "Global Chief Financial Officer",
+      "type": "Sale",
+      "shares": 21571.0,
+      "pricePerShare": 15.14,
       "transactionDate": "2026-08-28"
     },
     {
@@ -2881,6 +2921,26 @@
       "type": "Sale",
       "shares": 7900.0,
       "pricePerShare": 85.01,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "ODD",
+      "issuerName": "Oddity Tech Ltd",
+      "insiderName": "Drucker Mann Lindsay",
+      "title": "Global Chief Financial Officer",
+      "type": "Sale",
+      "shares": 5503.0,
+      "pricePerShare": 15.0,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "GO",
+      "issuerName": "Grocery Outlet Holding Corp.",
+      "insiderName": "Jaros Carey F.",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 15000.0,
+      "pricePerShare": 11.7,
       "transactionDate": "2026-08-27"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 2500.0,
       "pricePerShare": 321.34,
       "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CBSH",
-      "issuerName": "COMMERCE BANCSHARES INC /MO/",
-      "insiderName": "Orf David L",
-      "title": "Exec. Vice President & CCO",
-      "type": "Sale",
-      "shares": 642.0,
-      "pricePerShare": 60.35,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "MSS",
-      "issuerName": "Maison Solutions Inc.",
-      "insiderName": "HRT FINANCIAL LP",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 134000.0,
-      "pricePerShare": 1.42,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "HURN",
-      "issuerName": "Huron Consulting Group Inc.",
-      "insiderName": "Zumwalt Debra",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 82.0,
-      "pricePerShare": 156.56,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "LIFE",
-      "issuerName": "Ethos Technologies Inc.",
-      "insiderName": "Kucharski Brandt Walter",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 73665.0,
-      "pricePerShare": 34.9,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "LIFE",
-      "issuerName": "Ethos Technologies Inc.",
-      "insiderName": "Kucharski Brandt Walter",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 3771.0,
-      "pricePerShare": 35.44,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CHEF",
-      "issuerName": "Chefs' Warehouse, Inc.",
-      "insiderName": "Aldous Alexandros",
-      "title": "General Counsel",
-      "type": "Sale",
-      "shares": 6172.0,
-      "pricePerShare": 113.1901,
-      "transactionDate": "2026-08-14"
     }
   ],
   "byTicker": {
@@ -30841,6 +30841,41 @@
           "type": "Sale",
           "shares": 75000.0,
           "pricePerShare": 11.78,
+          "transactionDate": "2026-08-27"
+        }
+      ]
+    },
+    "ODD": {
+      "issuerName": "Oddity Tech Ltd",
+      "trades": [
+        {
+          "ticker": "ODD",
+          "issuerName": "Oddity Tech Ltd",
+          "insiderName": "Drucker Mann Lindsay",
+          "title": "Global Chief Financial Officer",
+          "type": "Sale",
+          "shares": 12286.0,
+          "pricePerShare": 14.27,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "ODD",
+          "issuerName": "Oddity Tech Ltd",
+          "insiderName": "Drucker Mann Lindsay",
+          "title": "Global Chief Financial Officer",
+          "type": "Sale",
+          "shares": 21571.0,
+          "pricePerShare": 15.14,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "ODD",
+          "issuerName": "Oddity Tech Ltd",
+          "insiderName": "Drucker Mann Lindsay",
+          "title": "Global Chief Financial Officer",
+          "type": "Sale",
+          "shares": 5503.0,
+          "pricePerShare": 15.0,
           "transactionDate": "2026-08-27"
         }
       ]
@@ -34257,6 +34292,31 @@
           "shares": 1000.0,
           "pricePerShare": 6.2,
           "transactionDate": "2026-08-26"
+        }
+      ]
+    },
+    "XENE": {
+      "issuerName": "Xenon Pharmaceuticals Inc.",
+      "trades": [
+        {
+          "ticker": "XENE",
+          "issuerName": "Xenon Pharmaceuticals Inc.",
+          "insiderName": "KENNEY CHRISTOPHER JOHN",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6368.0,
+          "pricePerShare": 60.1673,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "XENE",
+          "issuerName": "Xenon Pharmaceuticals Inc.",
+          "insiderName": "KENNEY CHRISTOPHER JOHN",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 700.0,
+          "pricePerShare": 60.9766,
+          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -38672,6 +38732,31 @@
           "shares": 7900.0,
           "pricePerShare": 85.01,
           "transactionDate": "2026-08-27"
+        }
+      ]
+    },
+    "GO": {
+      "issuerName": "Grocery Outlet Holding Corp.",
+      "trades": [
+        {
+          "ticker": "GO",
+          "issuerName": "Grocery Outlet Holding Corp.",
+          "insiderName": "Jaros Carey F.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 15000.0,
+          "pricePerShare": 11.7,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "GO",
+          "issuerName": "Grocery Outlet Holding Corp.",
+          "insiderName": "Miller Paul Blaine",
+          "title": "See Remarks",
+          "type": "Purchase",
+          "shares": 8000.0,
+          "pricePerShare": 10.9,
+          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -48872,26 +48957,6 @@
           "shares": 1467.0,
           "pricePerShare": 34.49,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "LIFE",
-          "issuerName": "Ethos Technologies Inc.",
-          "insiderName": "Kucharski Brandt Walter",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 73665.0,
-          "pricePerShare": 34.9,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "LIFE",
-          "issuerName": "Ethos Technologies Inc.",
-          "insiderName": "Kucharski Brandt Walter",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3771.0,
-          "pricePerShare": 35.44,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -55825,21 +55890,6 @@
         }
       ]
     },
-    "GO": {
-      "issuerName": "Grocery Outlet Holding Corp.",
-      "trades": [
-        {
-          "ticker": "GO",
-          "issuerName": "Grocery Outlet Holding Corp.",
-          "insiderName": "Miller Paul Blaine",
-          "title": "See Remarks",
-          "type": "Purchase",
-          "shares": 8000.0,
-          "pricePerShare": 10.9,
-          "transactionDate": "2026-08-20"
-        }
-      ]
-    },
     "RSKD": {
       "issuerName": "RISKIFIED LTD.",
       "trades": [
@@ -60477,16 +60527,6 @@
           "shares": 20394.0,
           "pricePerShare": 1.42,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "MSS",
-          "issuerName": "Maison Solutions Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 134000.0,
-          "pricePerShare": 1.42,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -63426,51 +63466,6 @@
           "type": "Sale",
           "shares": 2500.0,
           "pricePerShare": 321.34,
-          "transactionDate": "2026-08-14"
-        }
-      ]
-    },
-    "CBSH": {
-      "issuerName": "COMMERCE BANCSHARES INC /MO/",
-      "trades": [
-        {
-          "ticker": "CBSH",
-          "issuerName": "COMMERCE BANCSHARES INC /MO/",
-          "insiderName": "Orf David L",
-          "title": "Exec. Vice President & CCO",
-          "type": "Sale",
-          "shares": 642.0,
-          "pricePerShare": 60.35,
-          "transactionDate": "2026-08-14"
-        }
-      ]
-    },
-    "HURN": {
-      "issuerName": "Huron Consulting Group Inc.",
-      "trades": [
-        {
-          "ticker": "HURN",
-          "issuerName": "Huron Consulting Group Inc.",
-          "insiderName": "Zumwalt Debra",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 82.0,
-          "pricePerShare": 156.56,
-          "transactionDate": "2026-08-14"
-        }
-      ]
-    },
-    "CHEF": {
-      "issuerName": "Chefs' Warehouse, Inc.",
-      "trades": [
-        {
-          "ticker": "CHEF",
-          "issuerName": "Chefs' Warehouse, Inc.",
-          "insiderName": "Aldous Alexandros",
-          "title": "General Counsel",
-          "type": "Sale",
-          "shares": 6172.0,
-          "pricePerShare": 113.1901,
           "transactionDate": "2026-08-14"
         }
       ]
@@ -67102,6 +67097,7 @@
       "0001104659-26-103932",
       "0001104659-26-103968",
       "0001104659-26-103998",
+      "0001104659-26-104012",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -71002,6 +70998,8 @@
       "0001193125-26-377253",
       "0001193125-26-377271",
       "0001193125-26-377276",
+      "0001193125-26-377301",
+      "0001193125-26-377309",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -76856,6 +76854,7 @@
       "0001822928-26-000075",
       "0001823013-26-000006",
       "0001823197-26-000001",
+      "0001823561-26-000003",
       "0001823573-26-000002",
       "0001823608-26-000180",
       "0001823608-26-000184",
@@ -79459,6 +79458,8 @@
       "0001903596-26-000322",
       "0001903596-26-000323",
       "0001903596-26-000324",
+      "0001903596-26-000337",
+      "0001903596-26-000338",
       "0001903739-26-000013",
       "0001904829-26-000008",
       "0001904915-26-000010",
