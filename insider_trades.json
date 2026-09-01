@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T19:03:09.202610+00:00",
+  "generatedAt": "2026-09-01T20:05:33.482452+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -331,6 +331,26 @@
       "type": "Purchase",
       "shares": 105.0,
       "pricePerShare": 13.76,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "VIVS",
+      "issuerName": "VivoSim Labs, INC.",
+      "insiderName": "Lialin Tony Serge",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 0.2804,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "HAL",
+      "issuerName": "HALLIBURTON CO",
+      "insiderName": "Carre Eric",
+      "title": "EVP & Chief Financial Officer",
+      "type": "Sale",
+      "shares": 24777.0,
+      "pricePerShare": 37.5,
       "transactionDate": "2026-08-31"
     },
     {
@@ -1341,6 +1361,76 @@
       "type": "Purchase",
       "shares": 200.0,
       "pricePerShare": 16.56,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "PCTY",
+      "issuerName": "Paylocity Holding Corp",
+      "insiderName": "Sarowitz Steven I",
+      "title": "Director, 10% Owner",
+      "type": "Sale",
+      "shares": 1210.0,
+      "pricePerShare": 158.12,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "PCTY",
+      "issuerName": "Paylocity Holding Corp",
+      "insiderName": "Sarowitz Steven I",
+      "title": "Director, 10% Owner",
+      "type": "Sale",
+      "shares": 3885.0,
+      "pricePerShare": 158.69,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "PCTY",
+      "issuerName": "Paylocity Holding Corp",
+      "insiderName": "Sarowitz Steven I",
+      "title": "Director, 10% Owner",
+      "type": "Sale",
+      "shares": 5.0,
+      "pricePerShare": 159.36,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "SANM",
+      "issuerName": "SANMINA CORP",
+      "insiderName": "Johnson Susan A",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 120.0,
+      "pricePerShare": 202.69,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "FRHC",
+      "issuerName": "Freedom Holding Corp.",
+      "insiderName": "Yerdessov Azamat",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1500.0,
+      "pricePerShare": 175.0,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "FRHC",
+      "issuerName": "Freedom Holding Corp.",
+      "insiderName": "Yerdessov Azamat",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1500.0,
+      "pricePerShare": 171.6,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "TYL",
+      "issuerName": "TYLER TECHNOLOGIES INC",
+      "insiderName": "MOORE H LYNN JR",
+      "title": "Director, President and CEO",
+      "type": "Sale",
+      "shares": 9250.0,
+      "pricePerShare": 372.787,
       "transactionDate": "2026-08-28"
     },
     {
@@ -29912,96 +30002,6 @@
       "shares": 1430.0,
       "pricePerShare": 10.8623,
       "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "LWAY",
-      "issuerName": "Lifeway Foods, Inc.",
-      "insiderName": "Divisadero Street Capital Management, LP",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 15000.0,
-      "pricePerShare": 24.6901,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Heng Chen Seng",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 19138.0,
-      "pricePerShare": 122.26,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Heng Chen Seng",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 764.0,
-      "pricePerShare": 123.29,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Heng Chen Seng",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 98.0,
-      "pricePerShare": 124.08,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "ASST",
-      "issuerName": "Strive, Inc.",
-      "insiderName": "Rochard Pierre",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 15900.0,
-      "pricePerShare": 12.54,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "AFL",
-      "issuerName": "AFLAC INC",
-      "insiderName": "Japan Post Holdings Co., Ltd.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 13980.0,
-      "pricePerShare": 121.43,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "AFL",
-      "issuerName": "AFLAC INC",
-      "insiderName": "Japan Post Holdings Co., Ltd.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 120.0,
-      "pricePerShare": 121.86,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "TG",
-      "issuerName": "TREDEGAR CORP",
-      "insiderName": "DasGupta Arijit",
-      "title": "Director, See Remarks",
-      "type": "Purchase",
-      "shares": 907.0,
-      "pricePerShare": 7.87,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "ACON",
-      "issuerName": "Aclarion, Inc.",
-      "insiderName": "Gould Gregory A",
-      "title": "CFO",
-      "type": "Purchase",
-      "shares": 10000.0,
-      "pricePerShare": 2.45,
-      "transactionDate": "2026-08-14"
     }
   ],
   "byTicker": {
@@ -31181,6 +31181,36 @@
           "type": "Purchase",
           "shares": 105.0,
           "pricePerShare": 13.76,
+          "transactionDate": "2026-08-31"
+        }
+      ]
+    },
+    "VIVS": {
+      "issuerName": "VivoSim Labs, INC.",
+      "trades": [
+        {
+          "ticker": "VIVS",
+          "issuerName": "VivoSim Labs, INC.",
+          "insiderName": "Lialin Tony Serge",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 0.2804,
+          "transactionDate": "2026-08-31"
+        }
+      ]
+    },
+    "HAL": {
+      "issuerName": "HALLIBURTON CO",
+      "trades": [
+        {
+          "ticker": "HAL",
+          "issuerName": "HALLIBURTON CO",
+          "insiderName": "Carre Eric",
+          "title": "EVP & Chief Financial Officer",
+          "type": "Sale",
+          "shares": 24777.0,
+          "pricePerShare": 37.5,
           "transactionDate": "2026-08-31"
         }
       ]
@@ -32811,36 +32841,6 @@
           "type": "Sale",
           "shares": 1079.0,
           "pricePerShare": 124.64,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Heng Chen Seng",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 19138.0,
-          "pricePerShare": 122.26,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Heng Chen Seng",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 764.0,
-          "pricePerShare": 123.29,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Heng Chen Seng",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 98.0,
-          "pricePerShare": 124.08,
           "transactionDate": "2026-08-14"
         }
       ]
@@ -34777,26 +34777,6 @@
           "shares": 1210.0,
           "pricePerShare": 122.11,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13980.0,
-          "pricePerShare": 121.43,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 120.0,
-          "pricePerShare": 121.86,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -34946,6 +34926,246 @@
           "type": "Purchase",
           "shares": 48.0,
           "pricePerShare": 16.36,
+          "transactionDate": "2026-08-24"
+        }
+      ]
+    },
+    "PCTY": {
+      "issuerName": "Paylocity Holding Corp",
+      "trades": [
+        {
+          "ticker": "PCTY",
+          "issuerName": "Paylocity Holding Corp",
+          "insiderName": "Sarowitz Steven I",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 1210.0,
+          "pricePerShare": 158.12,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "PCTY",
+          "issuerName": "Paylocity Holding Corp",
+          "insiderName": "Sarowitz Steven I",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 3885.0,
+          "pricePerShare": 158.69,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "PCTY",
+          "issuerName": "Paylocity Holding Corp",
+          "insiderName": "Sarowitz Steven I",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 5.0,
+          "pricePerShare": 159.36,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "PCTY",
+          "issuerName": "Paylocity Holding Corp",
+          "insiderName": "Sarowitz Steven I",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 1399.0,
+          "pricePerShare": 150.63,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "PCTY",
+          "issuerName": "Paylocity Holding Corp",
+          "insiderName": "Sarowitz Steven I",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 635.0,
+          "pricePerShare": 151.44,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "PCTY",
+          "issuerName": "Paylocity Holding Corp",
+          "insiderName": "Sarowitz Steven I",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 2513.0,
+          "pricePerShare": 152.81,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "PCTY",
+          "issuerName": "Paylocity Holding Corp",
+          "insiderName": "Sarowitz Steven I",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 2092.0,
+          "pricePerShare": 153.42,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "PCTY",
+          "issuerName": "Paylocity Holding Corp",
+          "insiderName": "Sarowitz Steven I",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 21.0,
+          "pricePerShare": 154.13,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "SANM": {
+      "issuerName": "SANMINA CORP",
+      "trades": [
+        {
+          "ticker": "SANM",
+          "issuerName": "SANMINA CORP",
+          "insiderName": "Johnson Susan A",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 120.0,
+          "pricePerShare": 202.69,
+          "transactionDate": "2026-08-28"
+        }
+      ]
+    },
+    "FRHC": {
+      "issuerName": "Freedom Holding Corp.",
+      "trades": [
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Yerdessov Azamat",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 175.0,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Yerdessov Azamat",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 171.6,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Kim Valeriy",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 169.31,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Ler Evgeny",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 157.5,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Ler Evgeny",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 14400.0,
+          "pricePerShare": 158.27,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Ler Evgeny",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2600.0,
+          "pricePerShare": 159.49,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Ler Evgeny",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 160.0,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Ler Evgeny",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 157.5,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Ler Evgeny",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 14400.0,
+          "pricePerShare": 158.27,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Ler Evgeny",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2600.0,
+          "pricePerShare": 159.49,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "FRHC",
+          "issuerName": "Freedom Holding Corp.",
+          "insiderName": "Ler Evgeny",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 160.0,
+          "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "TYL": {
+      "issuerName": "TYLER TECHNOLOGIES INC",
+      "trades": [
+        {
+          "ticker": "TYL",
+          "issuerName": "TYLER TECHNOLOGIES INC",
+          "insiderName": "MOORE H LYNN JR",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 9250.0,
+          "pricePerShare": 372.787,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "TYL",
+          "issuerName": "TYLER TECHNOLOGIES INC",
+          "insiderName": "Puckett Jeffrey David",
+          "title": "Chief Operating Officer",
+          "type": "Sale",
+          "shares": 8500.0,
+          "pricePerShare": 356.435,
           "transactionDate": "2026-08-24"
         }
       ]
@@ -40865,101 +41085,6 @@
         }
       ]
     },
-    "FRHC": {
-      "issuerName": "Freedom Holding Corp.",
-      "trades": [
-        {
-          "ticker": "FRHC",
-          "issuerName": "Freedom Holding Corp.",
-          "insiderName": "Kim Valeriy",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 169.31,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "FRHC",
-          "issuerName": "Freedom Holding Corp.",
-          "insiderName": "Ler Evgeny",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 157.5,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "FRHC",
-          "issuerName": "Freedom Holding Corp.",
-          "insiderName": "Ler Evgeny",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 14400.0,
-          "pricePerShare": 158.27,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "FRHC",
-          "issuerName": "Freedom Holding Corp.",
-          "insiderName": "Ler Evgeny",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2600.0,
-          "pricePerShare": 159.49,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "FRHC",
-          "issuerName": "Freedom Holding Corp.",
-          "insiderName": "Ler Evgeny",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2500.0,
-          "pricePerShare": 160.0,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "FRHC",
-          "issuerName": "Freedom Holding Corp.",
-          "insiderName": "Ler Evgeny",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 157.5,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "FRHC",
-          "issuerName": "Freedom Holding Corp.",
-          "insiderName": "Ler Evgeny",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 14400.0,
-          "pricePerShare": 158.27,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "FRHC",
-          "issuerName": "Freedom Holding Corp.",
-          "insiderName": "Ler Evgeny",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2600.0,
-          "pricePerShare": 159.49,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "FRHC",
-          "issuerName": "Freedom Holding Corp.",
-          "insiderName": "Ler Evgeny",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2500.0,
-          "pricePerShare": 160.0,
-          "transactionDate": "2026-08-19"
-        }
-      ]
-    },
     "ETSY": {
       "issuerName": "ETSY INC",
       "trades": [
@@ -44597,16 +44722,6 @@
           "shares": 7718.0,
           "pricePerShare": 8.016,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "TG",
-          "issuerName": "TREDEGAR CORP",
-          "insiderName": "DasGupta Arijit",
-          "title": "Director, See Remarks",
-          "type": "Purchase",
-          "shares": 907.0,
-          "pricePerShare": 7.87,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -47786,21 +47901,6 @@
           "type": "Purchase",
           "shares": 14830.1521,
           "pricePerShare": 33.715,
-          "transactionDate": "2026-08-24"
-        }
-      ]
-    },
-    "TYL": {
-      "issuerName": "TYLER TECHNOLOGIES INC",
-      "trades": [
-        {
-          "ticker": "TYL",
-          "issuerName": "TYLER TECHNOLOGIES INC",
-          "insiderName": "Puckett Jeffrey David",
-          "title": "Chief Operating Officer",
-          "type": "Sale",
-          "shares": 8500.0,
-          "pricePerShare": 356.435,
           "transactionDate": "2026-08-24"
         }
       ]
@@ -55660,61 +55760,6 @@
         }
       ]
     },
-    "PCTY": {
-      "issuerName": "Paylocity Holding Corp",
-      "trades": [
-        {
-          "ticker": "PCTY",
-          "issuerName": "Paylocity Holding Corp",
-          "insiderName": "Sarowitz Steven I",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 1399.0,
-          "pricePerShare": 150.63,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "PCTY",
-          "issuerName": "Paylocity Holding Corp",
-          "insiderName": "Sarowitz Steven I",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 635.0,
-          "pricePerShare": 151.44,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "PCTY",
-          "issuerName": "Paylocity Holding Corp",
-          "insiderName": "Sarowitz Steven I",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 2513.0,
-          "pricePerShare": 152.81,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "PCTY",
-          "issuerName": "Paylocity Holding Corp",
-          "insiderName": "Sarowitz Steven I",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 2092.0,
-          "pricePerShare": 153.42,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "PCTY",
-          "issuerName": "Paylocity Holding Corp",
-          "insiderName": "Sarowitz Steven I",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 21.0,
-          "pricePerShare": 154.13,
-          "transactionDate": "2026-08-20"
-        }
-      ]
-    },
     "HL": {
       "issuerName": "HECLA MINING CO/DE/",
       "trades": [
@@ -61067,16 +61112,6 @@
           "shares": 31.0,
           "pricePerShare": 26.5,
           "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "LWAY",
-          "issuerName": "Lifeway Foods, Inc.",
-          "insiderName": "Divisadero Street Capital Management, LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 15000.0,
-          "pricePerShare": 24.6901,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -61612,16 +61647,6 @@
           "shares": 5857.0,
           "pricePerShare": 2.73,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "ACON",
-          "issuerName": "Aclarion, Inc.",
-          "insiderName": "Gould Gregory A",
-          "title": "CFO",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 2.45,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -63464,21 +63489,6 @@
           "transactionDate": "2026-08-14"
         }
       ]
-    },
-    "ASST": {
-      "issuerName": "Strive, Inc.",
-      "trades": [
-        {
-          "ticker": "ASST",
-          "issuerName": "Strive, Inc.",
-          "insiderName": "Rochard Pierre",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 15900.0,
-          "pricePerShare": 12.54,
-          "transactionDate": "2026-08-14"
-        }
-      ]
     }
   },
   "_meta": {
@@ -64824,6 +64834,7 @@
       "0000929638-26-003269",
       "0000929638-26-003282",
       "0000929638-26-003399",
+      "0000929638-26-003407",
       "0000930413-26-002107",
       "0000930413-26-002108",
       "0000930413-26-002187",
@@ -65924,6 +65935,7 @@
       "0000950103-26-013347",
       "0000950103-26-013348",
       "0000950103-26-013349",
+      "0000950103-26-013356",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -67171,6 +67183,9 @@
       "0001104659-26-104186",
       "0001104659-26-104187",
       "0001104659-26-104188",
+      "0001104659-26-104288",
+      "0001104659-26-104290",
+      "0001104659-26-104294",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -67899,6 +67914,7 @@
       "0001140361-26-035262",
       "0001140361-26-035263",
       "0001140361-26-035280",
+      "0001140361-26-035307",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -71137,6 +71153,22 @@
       "0001193125-26-378210",
       "0001193125-26-378215",
       "0001193125-26-378227",
+      "0001193125-26-378285",
+      "0001193125-26-378310",
+      "0001193125-26-378311",
+      "0001193125-26-378317",
+      "0001193125-26-378328",
+      "0001193125-26-378330",
+      "0001193125-26-378342",
+      "0001193125-26-378343",
+      "0001193125-26-378344",
+      "0001193125-26-378346",
+      "0001193125-26-378355",
+      "0001193125-26-378358",
+      "0001193125-26-378361",
+      "0001193125-26-378362",
+      "0001193125-26-378369",
+      "0001193125-26-378370",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72882,6 +72914,7 @@
       "0001225208-26-007405",
       "0001225208-26-007408",
       "0001225208-26-007416",
+      "0001225208-26-007480",
       "0001225481-26-000006",
       "0001225817-26-000008",
       "0001227384-26-000017",
@@ -72970,6 +73003,7 @@
       "0001244373-26-000004",
       "0001244563-26-000006",
       "0001246460-26-000005",
+      "0001246476-26-000006",
       "0001246479-26-000002",
       "0001248294-26-000005",
       "0001248768-26-000006",
@@ -73867,6 +73901,7 @@
       "0001437749-26-029356",
       "0001437749-26-029357",
       "0001437749-26-029374",
+      "0001437749-26-029397",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -74654,6 +74689,7 @@
       "0001493152-26-040905",
       "0001493152-26-040906",
       "0001493152-26-040933",
+      "0001493152-26-041002",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -75284,6 +75320,7 @@
       "0001597870-26-000004",
       "0001597870-26-000005",
       "0001597870-26-000007",
+      "0001597870-26-000013",
       "0001598091-26-000005",
       "0001598549-26-000002",
       "0001598549-26-000005",
@@ -76065,6 +76102,7 @@
       "0001628280-26-059681",
       "0001628280-26-059682",
       "0001628280-26-059708",
+      "0001628280-26-059786",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -76280,6 +76318,7 @@
       "0001673356-26-000008",
       "0001673358-26-000129",
       "0001673358-26-000131",
+      "0001673421-26-000014",
       "0001673528-26-000014",
       "0001674260-26-000004",
       "0001674314-26-000005",
@@ -79496,6 +79535,26 @@
       "0001839882-26-043256",
       "0001839882-26-043257",
       "0001839882-26-043258",
+      "0001839882-26-043294",
+      "0001839882-26-043296",
+      "0001839882-26-043297",
+      "0001839882-26-043298",
+      "0001839882-26-043302",
+      "0001839882-26-043304",
+      "0001839882-26-043309",
+      "0001839882-26-043312",
+      "0001839882-26-043313",
+      "0001839882-26-043315",
+      "0001839882-26-043316",
+      "0001839882-26-043318",
+      "0001839882-26-043319",
+      "0001839882-26-043320",
+      "0001839882-26-043321",
+      "0001839882-26-043333",
+      "0001839882-26-043336",
+      "0001839882-26-043337",
+      "0001839882-26-043339",
+      "0001839882-26-043343",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -82517,6 +82576,10 @@
       "0001918704-26-025986",
       "0001918704-26-025987",
       "0001918704-26-025988",
+      "0001918704-26-025998",
+      "0001918704-26-025999",
+      "0001918704-26-026000",
+      "0001918704-26-026001",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -83553,6 +83616,7 @@
       "0002075006-26-000006",
       "0002075052-26-000004",
       "0002075110-26-000006",
+      "0002075198-26-000003",
       "0002075654-26-000002",
       "0002076000-26-000012",
       "0002076289-26-000007",
@@ -83757,6 +83821,7 @@
       "0002128786-26-000004",
       "0002129321-26-000011",
       "0002130035-26-000002",
+      "0002130035-26-000003",
       "0002130384-26-000004",
       "0002130394-26-000019",
       "0002130454-26-000004",
