@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T10:03:27.338045+00:00",
+  "generatedAt": "2026-09-01T11:00:40.720817+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -1171,6 +1171,36 @@
       "type": "Sale",
       "shares": 21571.0,
       "pricePerShare": 15.14,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "AVR",
+      "issuerName": "Anteris Technologies Global Corp.",
+      "insiderName": "L1 Capital Pty Ltd",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 7800.0,
+      "pricePerShare": 8.83,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "SE",
+      "issuerName": "Sea Ltd",
+      "insiderName": "Li Xiaodong",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 5164.0,
+      "pricePerShare": 120.43,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "YQ",
+      "issuerName": "17 Education & Technology Group Inc.",
+      "insiderName": "Liu Chang",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 4001.0,
+      "pricePerShare": 2.1074,
       "transactionDate": "2026-08-28"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 1000.0,
       "pricePerShare": 134.0,
       "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "AEHR",
-      "issuerName": "AEHR TEST SYSTEMS",
-      "insiderName": "ROGERS VERNON",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1000.0,
-      "pricePerShare": 139.0,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "VENU",
-      "issuerName": "Venu Holding Corp",
-      "insiderName": "ROTH JAY W",
-      "title": "Director, CEO & Chairman, 10% Owner",
-      "type": "Purchase",
-      "shares": 4750.0,
-      "pricePerShare": 1.9715,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CLH",
-      "issuerName": "CLEAN HARBORS INC",
-      "insiderName": "GERSTENBERG ERIC W",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2500.0,
-      "pricePerShare": 321.34,
-      "transactionDate": "2026-08-14"
     }
   ],
   "byTicker": {
@@ -31416,6 +31416,16 @@
           "type": "Sale",
           "shares": 2000.0,
           "pricePerShare": 120.07,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "SE",
+          "issuerName": "Sea Ltd",
+          "insiderName": "Li Xiaodong",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5164.0,
+          "pricePerShare": 120.43,
           "transactionDate": "2026-08-28"
         },
         {
@@ -34317,6 +34327,56 @@
           "shares": 700.0,
           "pricePerShare": 60.9766,
           "transactionDate": "2026-08-28"
+        }
+      ]
+    },
+    "AVR": {
+      "issuerName": "Anteris Technologies Global Corp.",
+      "trades": [
+        {
+          "ticker": "AVR",
+          "issuerName": "Anteris Technologies Global Corp.",
+          "insiderName": "L1 Capital Pty Ltd",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 7800.0,
+          "pricePerShare": 8.83,
+          "transactionDate": "2026-08-28"
+        }
+      ]
+    },
+    "YQ": {
+      "issuerName": "17 Education & Technology Group Inc.",
+      "trades": [
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 4001.0,
+          "pricePerShare": 2.1074,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 9216.0,
+          "pricePerShare": 2.1622,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 846.0,
+          "pricePerShare": 2.457,
+          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -40467,31 +40527,6 @@
           "shares": 1000.0,
           "pricePerShare": 179.5186,
           "transactionDate": "2026-08-26"
-        }
-      ]
-    },
-    "YQ": {
-      "issuerName": "17 Education & Technology Group Inc.",
-      "trades": [
-        {
-          "ticker": "YQ",
-          "issuerName": "17 Education & Technology Group Inc.",
-          "insiderName": "Liu Chang",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 9216.0,
-          "pricePerShare": 2.1622,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "YQ",
-          "issuerName": "17 Education & Technology Group Inc.",
-          "insiderName": "Liu Chang",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 846.0,
-          "pricePerShare": 2.457,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -53487,16 +53522,6 @@
           "shares": 1000.0,
           "pricePerShare": 1.8399,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "VENU",
-          "issuerName": "Venu Holding Corp",
-          "insiderName": "ROTH JAY W",
-          "title": "Director, CEO & Chairman, 10% Owner",
-          "type": "Purchase",
-          "shares": 4750.0,
-          "pricePerShare": 1.9715,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -61117,16 +61142,6 @@
           "shares": 1000.0,
           "pricePerShare": 134.0,
           "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "AEHR",
-          "issuerName": "AEHR TEST SYSTEMS",
-          "insiderName": "ROGERS VERNON",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 139.0,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -63451,21 +63466,6 @@
           "type": "Sale",
           "shares": 25000.0,
           "pricePerShare": 11.51,
-          "transactionDate": "2026-08-14"
-        }
-      ]
-    },
-    "CLH": {
-      "issuerName": "CLEAN HARBORS INC",
-      "trades": [
-        {
-          "ticker": "CLH",
-          "issuerName": "CLEAN HARBORS INC",
-          "insiderName": "GERSTENBERG ERIC W",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2500.0,
-          "pricePerShare": 321.34,
           "transactionDate": "2026-08-14"
         }
       ]
@@ -65867,6 +65867,10 @@
       "0000950103-26-013273",
       "0000950103-26-013274",
       "0000950103-26-013275",
+      "0000950103-26-013288",
+      "0000950103-26-013289",
+      "0000950103-26-013290",
+      "0000950103-26-013291",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -67098,6 +67102,10 @@
       "0001104659-26-103968",
       "0001104659-26-103998",
       "0001104659-26-104012",
+      "0001104659-26-104020",
+      "0001104659-26-104070",
+      "0001104659-26-104083",
+      "0001104659-26-104104",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -67811,6 +67819,8 @@
       "0001140361-26-035105",
       "0001140361-26-035125",
       "0001140361-26-035126",
+      "0001140361-26-035139",
+      "0001140361-26-035141",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -67913,6 +67923,8 @@
       "0001178913-26-004198",
       "0001178913-26-004259",
       "0001178913-26-004299",
+      "0001178913-26-004365",
+      "0001178913-26-004367",
       "0001179684-26-000013",
       "0001180008-26-000012",
       "0001180017-26-000016",
@@ -70998,8 +71010,14 @@
       "0001193125-26-377253",
       "0001193125-26-377271",
       "0001193125-26-377276",
+      "0001193125-26-377291",
       "0001193125-26-377301",
       "0001193125-26-377309",
+      "0001193125-26-377431",
+      "0001193125-26-377433",
+      "0001193125-26-377435",
+      "0001193125-26-377436",
+      "0001193125-26-377477",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72233,6 +72251,30 @@
       "0001213900-26-095809",
       "0001213900-26-095812",
       "0001213900-26-095848",
+      "0001213900-26-095892",
+      "0001213900-26-095893",
+      "0001213900-26-095894",
+      "0001213900-26-095899",
+      "0001213900-26-095900",
+      "0001213900-26-095901",
+      "0001213900-26-095902",
+      "0001213900-26-095903",
+      "0001213900-26-095904",
+      "0001213900-26-095905",
+      "0001213900-26-095906",
+      "0001213900-26-095907",
+      "0001213900-26-095914",
+      "0001213900-26-095915",
+      "0001213900-26-095917",
+      "0001213900-26-095918",
+      "0001213900-26-095919",
+      "0001213900-26-095920",
+      "0001213900-26-095921",
+      "0001213900-26-095922",
+      "0001213900-26-095923",
+      "0001213900-26-095924",
+      "0001213900-26-095926",
+      "0001213900-26-095928",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -76816,6 +76858,7 @@
       "0001817646-26-000017",
       "0001817646-26-000019",
       "0001817646-26-000020",
+      "0001817646-26-000026",
       "0001818383-26-000190",
       "0001818383-26-000191",
       "0001818383-26-000193",
@@ -77068,6 +77111,7 @@
       "0001829126-26-009551",
       "0001829126-26-009553",
       "0001829126-26-009555",
+      "0001829126-26-009562",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -82115,6 +82159,15 @@
       "0001918704-26-025757",
       "0001918704-26-025758",
       "0001918704-26-025760",
+      "0001918704-26-025778",
+      "0001918704-26-025779",
+      "0001918704-26-025780",
+      "0001918704-26-025781",
+      "0001918704-26-025782",
+      "0001918704-26-025783",
+      "0001918704-26-025784",
+      "0001918704-26-025785",
+      "0001918704-26-025786",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
