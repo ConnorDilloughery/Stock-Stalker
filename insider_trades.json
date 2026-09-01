@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T11:00:40.720817+00:00",
+  "generatedAt": "2026-09-01T12:04:07.065722+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -261,6 +261,16 @@
       "type": "Sale",
       "shares": 12286.0,
       "pricePerShare": 14.27,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "CZFS",
+      "issuerName": "CITIZENS FINANCIAL SERVICES INC",
+      "insiderName": "Guillaume Stephen J",
+      "title": "SENIOR VICE PRESIDENT",
+      "type": "Purchase",
+      "shares": 24.0,
+      "pricePerShare": 76.32,
       "transactionDate": "2026-08-31"
     },
     {
@@ -1201,6 +1211,16 @@
       "type": "Purchase",
       "shares": 4001.0,
       "pricePerShare": 2.1074,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "FTCI",
+      "issuerName": "FTC Solar, Inc.",
+      "insiderName": "SADASIVAM SHAKER",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 101083.0,
+      "pricePerShare": 2.69,
       "transactionDate": "2026-08-28"
     },
     {
@@ -29982,26 +30002,6 @@
       "shares": 196.0,
       "pricePerShare": 277.86,
       "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "FNWB",
-      "issuerName": "First Northwest Bancorp",
-      "insiderName": "Behar Dana D.",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 25000.0,
-      "pricePerShare": 11.51,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "AEHR",
-      "issuerName": "AEHR TEST SYSTEMS",
-      "insiderName": "ROGERS VERNON",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1000.0,
-      "pricePerShare": 134.0,
-      "transactionDate": "2026-08-14"
     }
   ],
   "byTicker": {
@@ -30877,6 +30877,21 @@
           "shares": 5503.0,
           "pricePerShare": 15.0,
           "transactionDate": "2026-08-27"
+        }
+      ]
+    },
+    "CZFS": {
+      "issuerName": "CITIZENS FINANCIAL SERVICES INC",
+      "trades": [
+        {
+          "ticker": "CZFS",
+          "issuerName": "CITIZENS FINANCIAL SERVICES INC",
+          "insiderName": "Guillaume Stephen J",
+          "title": "SENIOR VICE PRESIDENT",
+          "type": "Purchase",
+          "shares": 24.0,
+          "pricePerShare": 76.32,
+          "transactionDate": "2026-08-31"
         }
       ]
     },
@@ -34377,6 +34392,41 @@
           "shares": 846.0,
           "pricePerShare": 2.457,
           "transactionDate": "2026-08-21"
+        }
+      ]
+    },
+    "FTCI": {
+      "issuerName": "FTC Solar, Inc.",
+      "trades": [
+        {
+          "ticker": "FTCI",
+          "issuerName": "FTC Solar, Inc.",
+          "insiderName": "SADASIVAM SHAKER",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 101083.0,
+          "pricePerShare": 2.69,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "FTCI",
+          "issuerName": "FTC Solar, Inc.",
+          "insiderName": "SADASIVAM SHAKER",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 39583.0,
+          "pricePerShare": 2.35,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "FTCI",
+          "issuerName": "FTC Solar, Inc.",
+          "insiderName": "Carroll Anthony",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 24745.0,
+          "pricePerShare": 2.08,
+          "transactionDate": "2026-08-25"
         }
       ]
     },
@@ -38212,31 +38262,6 @@
           "shares": 690.0,
           "pricePerShare": 22.705,
           "transactionDate": "2026-08-27"
-        }
-      ]
-    },
-    "FTCI": {
-      "issuerName": "FTC Solar, Inc.",
-      "trades": [
-        {
-          "ticker": "FTCI",
-          "issuerName": "FTC Solar, Inc.",
-          "insiderName": "SADASIVAM SHAKER",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 39583.0,
-          "pricePerShare": 2.35,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "FTCI",
-          "issuerName": "FTC Solar, Inc.",
-          "insiderName": "Carroll Anthony",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 24745.0,
-          "pricePerShare": 2.08,
-          "transactionDate": "2026-08-25"
         }
       ]
     },
@@ -61132,16 +61157,6 @@
           "shares": 5973.0,
           "pricePerShare": 140.0,
           "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "AEHR",
-          "issuerName": "AEHR TEST SYSTEMS",
-          "insiderName": "ROGERS VERNON",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 134.0,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -63454,21 +63469,6 @@
           "transactionDate": "2026-08-14"
         }
       ]
-    },
-    "FNWB": {
-      "issuerName": "First Northwest Bancorp",
-      "trades": [
-        {
-          "ticker": "FNWB",
-          "issuerName": "First Northwest Bancorp",
-          "insiderName": "Behar Dana D.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 25000.0,
-          "pricePerShare": 11.51,
-          "transactionDate": "2026-08-14"
-        }
-      ]
     }
   },
   "_meta": {
@@ -64162,6 +64162,7 @@
       "0000731766-26-000199",
       "0000731802-26-000104",
       "0000739421-26-000068",
+      "0000739421-26-000073",
       "0000741313-26-000110",
       "0000744822-26-000071",
       "0000744822-26-000075",
@@ -71018,6 +71019,9 @@
       "0001193125-26-377435",
       "0001193125-26-377436",
       "0001193125-26-377477",
+      "0001193125-26-377500",
+      "0001193125-26-377549",
+      "0001193125-26-377575",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72275,6 +72279,13 @@
       "0001213900-26-095924",
       "0001213900-26-095926",
       "0001213900-26-095928",
+      "0001213900-26-095960",
+      "0001213900-26-095961",
+      "0001213900-26-095962",
+      "0001213900-26-095963",
+      "0001213900-26-095964",
+      "0001213900-26-095965",
+      "0001213900-26-095972",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -79246,6 +79257,7 @@
       "0001839882-26-042878",
       "0001839882-26-042879",
       "0001839882-26-042881",
+      "0001839882-26-042941",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
