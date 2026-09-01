@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T14:02:04.846742+00:00",
+  "generatedAt": "2026-09-01T15:02:14.412138+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -281,6 +281,16 @@
       "type": "Sale",
       "shares": 500.0,
       "pricePerShare": 240.87,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "ECAT",
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 129839.0,
+      "pricePerShare": 15.38,
       "transactionDate": "2026-08-31"
     },
     {
@@ -1251,6 +1261,36 @@
       "type": "Purchase",
       "shares": 3000.0,
       "pricePerShare": 22.13,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "ECAT",
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 174103.0,
+      "pricePerShare": 15.43,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "ECF",
+      "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1200.0,
+      "pricePerShare": 12.47,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "BWA",
+      "issuerName": "BORGWARNER INC",
+      "insiderName": "Hanley Michael S",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 5000.0,
+      "pricePerShare": 65.51,
       "transactionDate": "2026-08-28"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 100.0,
       "pricePerShare": 258.55,
       "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "NBIS",
-      "issuerName": "Nebius Group N.V.",
-      "insiderName": "Boynton John Wilson IV",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 200.0,
-      "pricePerShare": 263.51,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "NBIS",
-      "issuerName": "Nebius Group N.V.",
-      "insiderName": "Boynton John Wilson IV",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 400.0,
-      "pricePerShare": 264.75,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "NBIS",
-      "issuerName": "Nebius Group N.V.",
-      "insiderName": "Boynton John Wilson IV",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 496.0,
-      "pricePerShare": 266.78,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "NBIS",
-      "issuerName": "Nebius Group N.V.",
-      "insiderName": "Boynton John Wilson IV",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 404.0,
-      "pricePerShare": 267.87,
-      "transactionDate": "2026-08-14"
     }
   ],
   "byTicker": {
@@ -30907,6 +30907,101 @@
           "shares": 500.0,
           "pricePerShare": 240.87,
           "transactionDate": "2026-08-31"
+        }
+      ]
+    },
+    "ECAT": {
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "trades": [
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 129839.0,
+          "pricePerShare": 15.38,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 174103.0,
+          "pricePerShare": 15.43,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 92174.0,
+          "pricePerShare": 15.52,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 66500.0,
+          "pricePerShare": 15.34,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 30239.0,
+          "pricePerShare": 15.14,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 69761.0,
+          "pricePerShare": 15.23,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 104309.0,
+          "pricePerShare": 15.26,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 68259.0,
+          "pricePerShare": 15.44,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 45050.0,
+          "pricePerShare": 15.51,
+          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -34695,6 +34790,76 @@
         }
       ]
     },
+    "ECF": {
+      "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "trades": [
+        {
+          "ticker": "ECF",
+          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1200.0,
+          "pricePerShare": 12.47,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "ECF",
+          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 3900.0,
+          "pricePerShare": 12.49,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "ECF",
+          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 5742.0,
+          "pricePerShare": 12.53,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "ECF",
+          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1547.0,
+          "pricePerShare": 12.52,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "BWA": {
+      "issuerName": "BORGWARNER INC",
+      "trades": [
+        {
+          "ticker": "BWA",
+          "issuerName": "BORGWARNER INC",
+          "insiderName": "Hanley Michael S",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 65.51,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "BWA",
+          "issuerName": "BORGWARNER INC",
+          "insiderName": "Kulikowski Amy B.",
+          "title": "VP & Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 2900.0,
+          "pricePerShare": 68.6,
+          "transactionDate": "2026-08-18"
+        }
+      ]
+    },
     "EXOD": {
       "issuerName": "Exodus Movement, Inc.",
       "trades": [
@@ -36695,41 +36860,6 @@
         }
       ]
     },
-    "ECF": {
-      "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
-      "trades": [
-        {
-          "ticker": "ECF",
-          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 3900.0,
-          "pricePerShare": 12.49,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "ECF",
-          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 5742.0,
-          "pricePerShare": 12.53,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ECF",
-          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1547.0,
-          "pricePerShare": 12.52,
-          "transactionDate": "2026-08-20"
-        }
-      ]
-    },
     "GRX": {
       "issuerName": "Gabelli Healthcare & WellnessRx Trust",
       "trades": [
@@ -36771,81 +36901,6 @@
           "type": "Purchase",
           "shares": 1203.0,
           "pricePerShare": 9.86,
-          "transactionDate": "2026-08-14"
-        }
-      ]
-    },
-    "ECAT": {
-      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-      "trades": [
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 92174.0,
-          "pricePerShare": 15.52,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 66500.0,
-          "pricePerShare": 15.34,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 30239.0,
-          "pricePerShare": 15.14,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 69761.0,
-          "pricePerShare": 15.23,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 104309.0,
-          "pricePerShare": 15.26,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 68259.0,
-          "pricePerShare": 15.44,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 45050.0,
-          "pricePerShare": 15.51,
           "transactionDate": "2026-08-14"
         }
       ]
@@ -59940,21 +59995,6 @@
         }
       ]
     },
-    "BWA": {
-      "issuerName": "BORGWARNER INC",
-      "trades": [
-        {
-          "ticker": "BWA",
-          "issuerName": "BORGWARNER INC",
-          "insiderName": "Kulikowski Amy B.",
-          "title": "VP & Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 2900.0,
-          "pricePerShare": 68.6,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
     "ARLP": {
       "issuerName": "ALLIANCE RESOURCE PARTNERS LP",
       "trades": [
@@ -63432,46 +63472,6 @@
           "shares": 100.0,
           "pricePerShare": 258.55,
           "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "NBIS",
-          "issuerName": "Nebius Group N.V.",
-          "insiderName": "Boynton John Wilson IV",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 263.51,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "NBIS",
-          "issuerName": "Nebius Group N.V.",
-          "insiderName": "Boynton John Wilson IV",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 264.75,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "NBIS",
-          "issuerName": "Nebius Group N.V.",
-          "insiderName": "Boynton John Wilson IV",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 496.0,
-          "pricePerShare": 266.78,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "NBIS",
-          "issuerName": "Nebius Group N.V.",
-          "insiderName": "Boynton John Wilson IV",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 404.0,
-          "pricePerShare": 267.87,
-          "transactionDate": "2026-08-14"
         }
       ]
     }
@@ -65882,6 +65882,9 @@
       "0000950103-26-013290",
       "0000950103-26-013291",
       "0000950103-26-013298",
+      "0000950103-26-013305",
+      "0000950103-26-013306",
+      "0000950103-26-013307",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -67836,6 +67839,9 @@
       "0001140361-26-035126",
       "0001140361-26-035139",
       "0001140361-26-035141",
+      "0001140361-26-035209",
+      "0001140361-26-035215",
+      "0001140361-26-035216",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -67906,6 +67912,8 @@
       "0001174947-26-000802",
       "0001174947-26-000821",
       "0001174947-26-000823",
+      "0001174947-26-000829",
+      "0001174947-26-000831",
       "0001176368-26-000005",
       "0001177264-26-000012",
       "0001178032-26-000008",
@@ -71054,6 +71062,9 @@
       "0001193125-26-377724",
       "0001193125-26-377733",
       "0001193125-26-377744",
+      "0001193125-26-377804",
+      "0001193125-26-377806",
+      "0001193125-26-377808",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72323,6 +72334,9 @@
       "0001213900-26-095999",
       "0001213900-26-096001",
       "0001213900-26-096016",
+      "0001213900-26-096051",
+      "0001213900-26-096053",
+      "0001213900-26-096058",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -72776,6 +72790,7 @@
       "0001225208-26-007404",
       "0001225208-26-007405",
       "0001225208-26-007408",
+      "0001225208-26-007416",
       "0001225481-26-000006",
       "0001225817-26-000008",
       "0001227384-26-000017",
@@ -74634,6 +74649,8 @@
       "0001510281-26-000281",
       "0001510281-26-000282",
       "0001510281-26-000283",
+      "0001510281-26-000284",
+      "0001510281-26-000285",
       "0001511110-26-000008",
       "0001511110-26-000010",
       "0001511194-26-000012",
@@ -79312,6 +79329,37 @@
       "0001839882-26-042964",
       "0001839882-26-042965",
       "0001839882-26-042966",
+      "0001839882-26-042997",
+      "0001839882-26-042999",
+      "0001839882-26-043000",
+      "0001839882-26-043001",
+      "0001839882-26-043003",
+      "0001839882-26-043004",
+      "0001839882-26-043005",
+      "0001839882-26-043006",
+      "0001839882-26-043007",
+      "0001839882-26-043008",
+      "0001839882-26-043009",
+      "0001839882-26-043010",
+      "0001839882-26-043011",
+      "0001839882-26-043012",
+      "0001839882-26-043013",
+      "0001839882-26-043014",
+      "0001839882-26-043015",
+      "0001839882-26-043016",
+      "0001839882-26-043017",
+      "0001839882-26-043018",
+      "0001839882-26-043019",
+      "0001839882-26-043021",
+      "0001839882-26-043023",
+      "0001839882-26-043024",
+      "0001839882-26-043025",
+      "0001839882-26-043028",
+      "0001839882-26-043030",
+      "0001839882-26-043031",
+      "0001839882-26-043035",
+      "0001839882-26-043037",
+      "0001839882-26-043038",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -82260,6 +82308,29 @@
       "0001918704-26-025818",
       "0001918704-26-025819",
       "0001918704-26-025820",
+      "0001918704-26-025833",
+      "0001918704-26-025834",
+      "0001918704-26-025835",
+      "0001918704-26-025836",
+      "0001918704-26-025837",
+      "0001918704-26-025838",
+      "0001918704-26-025839",
+      "0001918704-26-025840",
+      "0001918704-26-025841",
+      "0001918704-26-025842",
+      "0001918704-26-025843",
+      "0001918704-26-025844",
+      "0001918704-26-025845",
+      "0001918704-26-025848",
+      "0001918704-26-025849",
+      "0001918704-26-025850",
+      "0001918704-26-025851",
+      "0001918704-26-025852",
+      "0001918704-26-025853",
+      "0001918704-26-025854",
+      "0001918704-26-025855",
+      "0001918704-26-025856",
+      "0001918704-26-025857",
       "0001920475-26-000014",
       "0001920481-26-000010",
       "0001920484-26-000007",
@@ -82510,6 +82581,10 @@
       "0001992104-26-000332",
       "0001992104-26-000348",
       "0001992104-26-000349",
+      "0001992104-26-000361",
+      "0001992104-26-000362",
+      "0001992104-26-000363",
+      "0001992104-26-000364",
       "0001992394-26-000011",
       "0001993636-26-000009",
       "0001994334-26-000010",
