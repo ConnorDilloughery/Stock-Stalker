@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T18:05:25.741833+00:00",
+  "generatedAt": "2026-09-02T19:05:43.094730+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -671,6 +671,36 @@
       "type": "Sale",
       "shares": 300.0,
       "pricePerShare": 250.96,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "PEG",
+      "issuerName": "PUBLIC SERVICE ENTERPRISE GROUP INC",
+      "insiderName": "LaRossa Ralph A",
+      "title": "Director, Chair, President and CEO",
+      "type": "Sale",
+      "shares": 2083.0,
+      "pricePerShare": 73.4564,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "ZNB",
+      "issuerName": "Zeta Network Group",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 2307.0,
+      "pricePerShare": 1.61,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "PGR",
+      "issuerName": "PROGRESSIVE CORP/OH/",
+      "insiderName": "Griffith Susan Patricia",
+      "title": "Director, President and CEO",
+      "type": "Sale",
+      "shares": 37338.0,
+      "pricePerShare": 219.5,
       "transactionDate": "2026-09-01"
     },
     {
@@ -1681,6 +1711,26 @@
       "type": "Sale",
       "shares": 5646.0,
       "pricePerShare": 4.15,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "ZNB",
+      "issuerName": "Zeta Network Group",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1295.0,
+      "pricePerShare": 1.68,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "PAM",
+      "issuerName": "Pampa Energy Inc.",
+      "insiderName": "Mindlin Marcos Marcelo",
+      "title": "Director, 10% Owner",
+      "type": "Purchase",
+      "shares": 500000.0,
+      "pricePerShare": 3.44,
       "transactionDate": "2026-08-31"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 4919.0,
       "pricePerShare": 109.99,
       "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 553.0,
-      "pricePerShare": 110.0,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 84544.0,
-      "pricePerShare": 108.48,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 16807.0,
-      "pricePerShare": 109.99,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 1887.0,
-      "pricePerShare": 110.0,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 1146.0,
-      "pricePerShare": 108.48,
-      "transactionDate": "2026-08-14"
     }
   ],
   "byTicker": {
@@ -33640,6 +33640,71 @@
         }
       ]
     },
+    "PEG": {
+      "issuerName": "PUBLIC SERVICE ENTERPRISE GROUP INC",
+      "trades": [
+        {
+          "ticker": "PEG",
+          "issuerName": "PUBLIC SERVICE ENTERPRISE GROUP INC",
+          "insiderName": "LaRossa Ralph A",
+          "title": "Director, Chair, President and CEO",
+          "type": "Sale",
+          "shares": 2083.0,
+          "pricePerShare": 73.4564,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "ZNB": {
+      "issuerName": "Zeta Network Group",
+      "trades": [
+        {
+          "ticker": "ZNB",
+          "issuerName": "Zeta Network Group",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2307.0,
+          "pricePerShare": 1.61,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "ZNB",
+          "issuerName": "Zeta Network Group",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1295.0,
+          "pricePerShare": 1.68,
+          "transactionDate": "2026-08-31"
+        }
+      ]
+    },
+    "PGR": {
+      "issuerName": "PROGRESSIVE CORP/OH/",
+      "trades": [
+        {
+          "ticker": "PGR",
+          "issuerName": "PROGRESSIVE CORP/OH/",
+          "insiderName": "Griffith Susan Patricia",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 37338.0,
+          "pricePerShare": 219.5,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "PGR",
+          "issuerName": "PROGRESSIVE CORP/OH/",
+          "insiderName": "Broz Steven",
+          "title": "Chief Information Officer",
+          "type": "Sale",
+          "shares": 1225.0,
+          "pricePerShare": 219.4,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
     "SRTS": {
       "issuerName": "Sensus Healthcare, Inc.",
       "trades": [
@@ -35867,6 +35932,31 @@
           "shares": 5646.0,
           "pricePerShare": 4.15,
           "transactionDate": "2026-08-31"
+        }
+      ]
+    },
+    "PAM": {
+      "issuerName": "Pampa Energy Inc.",
+      "trades": [
+        {
+          "ticker": "PAM",
+          "issuerName": "Pampa Energy Inc.",
+          "insiderName": "Mindlin Marcos Marcelo",
+          "title": "Director, 10% Owner",
+          "type": "Purchase",
+          "shares": 500000.0,
+          "pricePerShare": 3.44,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "PAM",
+          "issuerName": "Pampa Energy Inc.",
+          "insiderName": "Mindlin Marcos Marcelo",
+          "title": "Director, 10% Owner",
+          "type": "Purchase",
+          "shares": 675000.0,
+          "pricePerShare": 3.376,
+          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -45551,56 +45641,6 @@
           "type": "Sale",
           "shares": 4919.0,
           "pricePerShare": 109.99,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 553.0,
-          "pricePerShare": 110.0,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 84544.0,
-          "pricePerShare": 108.48,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 16807.0,
-          "pricePerShare": 109.99,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1887.0,
-          "pricePerShare": 110.0,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1146.0,
-          "pricePerShare": 108.48,
           "transactionDate": "2026-08-14"
         }
       ]
@@ -55565,21 +55605,6 @@
         }
       ]
     },
-    "PAM": {
-      "issuerName": "Pampa Energy Inc.",
-      "trades": [
-        {
-          "ticker": "PAM",
-          "issuerName": "Pampa Energy Inc.",
-          "insiderName": "Mindlin Marcos Marcelo",
-          "title": "Director, 10% Owner",
-          "type": "Purchase",
-          "shares": 675000.0,
-          "pricePerShare": 3.376,
-          "transactionDate": "2026-08-21"
-        }
-      ]
-    },
     "AMZN": {
       "issuerName": "AMAZON COM INC",
       "trades": [
@@ -57832,21 +57857,6 @@
           "shares": 100.0,
           "pricePerShare": 21.98,
           "transactionDate": "2026-08-19"
-        }
-      ]
-    },
-    "PGR": {
-      "issuerName": "PROGRESSIVE CORP/OH/",
-      "trades": [
-        {
-          "ticker": "PGR",
-          "issuerName": "PROGRESSIVE CORP/OH/",
-          "insiderName": "Broz Steven",
-          "title": "Chief Information Officer",
-          "type": "Sale",
-          "shares": 1225.0,
-          "pricePerShare": 219.4,
-          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -63883,6 +63893,7 @@
       "0000080661-26-000306",
       "0000080661-26-000312",
       "0000080661-26-000317",
+      "0000080661-26-000319",
       "0000081027-26-000003",
       "0000081027-26-000009",
       "0000081061-26-000091",
@@ -63942,6 +63953,8 @@
       "0000103379-26-000120",
       "0000104918-26-000061",
       "0000104918-26-000062",
+      "0000104918-26-000070",
+      "0000104918-26-000071",
       "0000105563-26-000298",
       "0000105634-26-000117",
       "0000105634-26-000119",
@@ -64039,6 +64052,7 @@
       "0000318300-26-000185",
       "0000318300-26-000189",
       "0000318300-26-000197",
+      "0000318300-26-000199",
       "0000320187-26-000116",
       "0000320335-26-000206",
       "0000320335-26-000210",
@@ -65983,6 +65997,10 @@
       "0000950103-26-013444",
       "0000950103-26-013446",
       "0000950103-26-013447",
+      "0000950103-26-013461",
+      "0000950103-26-013462",
+      "0000950103-26-013463",
+      "0000950103-26-013464",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66104,6 +66122,7 @@
       "0001035422-26-000005",
       "0001035422-26-000006",
       "0001035422-26-000007",
+      "0001035422-26-000009",
       "0001035986-26-000005",
       "0001036743-26-000033",
       "0001037589-26-000005",
@@ -67276,6 +67295,14 @@
       "0001104659-26-104591",
       "0001104659-26-104608",
       "0001104659-26-104632",
+      "0001104659-26-104647",
+      "0001104659-26-104648",
+      "0001104659-26-104651",
+      "0001104659-26-104654",
+      "0001104659-26-104655",
+      "0001104659-26-104678",
+      "0001104659-26-104679",
+      "0001104659-26-104683",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68022,6 +68049,7 @@
       "0001140361-26-035450",
       "0001140361-26-035454",
       "0001140361-26-035456",
+      "0001140361-26-035478",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -71345,6 +71373,17 @@
       "0001193125-26-379864",
       "0001193125-26-379871",
       "0001193125-26-379897",
+      "0001193125-26-379961",
+      "0001193125-26-379966",
+      "0001193125-26-379969",
+      "0001193125-26-379971",
+      "0001193125-26-379974",
+      "0001193125-26-379984",
+      "0001193125-26-379991",
+      "0001193125-26-379998",
+      "0001193125-26-379999",
+      "0001193125-26-380000",
+      "0001193125-26-380001",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72644,6 +72683,10 @@
       "0001213900-26-096574",
       "0001213900-26-096580",
       "0001213900-26-096607",
+      "0001213900-26-096631",
+      "0001213900-26-096632",
+      "0001213900-26-096635",
+      "0001213900-26-096637",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -73133,6 +73176,7 @@
       "0001225208-26-007518",
       "0001225208-26-007520",
       "0001225208-26-007522",
+      "0001225208-26-007524",
       "0001225481-26-000006",
       "0001225817-26-000008",
       "0001227384-26-000017",
@@ -74144,6 +74188,9 @@
       "0001437749-26-029458",
       "0001437749-26-029464",
       "0001437749-26-029466",
+      "0001437749-26-029494",
+      "0001437749-26-029497",
+      "0001437749-26-029501",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -74461,6 +74508,7 @@
       "0001475597-26-000211",
       "0001475597-26-000214",
       "0001475597-26-000219",
+      "0001475597-26-000228",
       "0001475856-26-000004",
       "0001475922-26-000074",
       "0001476150-26-000036",
@@ -75505,6 +75553,12 @@
       "0001580642-26-005907",
       "0001580642-26-005910",
       "0001580642-26-005911",
+      "0001580642-26-005915",
+      "0001580642-26-005916",
+      "0001580642-26-005917",
+      "0001580642-26-005918",
+      "0001580642-26-005919",
+      "0001580642-26-005920",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -79981,6 +80035,10 @@
       "0001839882-26-043693",
       "0001839882-26-043695",
       "0001839882-26-043696",
+      "0001839882-26-043705",
+      "0001839882-26-043709",
+      "0001839882-26-043710",
+      "0001839882-26-043711",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -83116,6 +83174,19 @@
       "0001918704-26-026225",
       "0001918704-26-026226",
       "0001918704-26-026227",
+      "0001918704-26-026232",
+      "0001918704-26-026233",
+      "0001918704-26-026234",
+      "0001918704-26-026235",
+      "0001918704-26-026236",
+      "0001918704-26-026237",
+      "0001918704-26-026238",
+      "0001918704-26-026239",
+      "0001918704-26-026240",
+      "0001918704-26-026241",
+      "0001918704-26-026242",
+      "0001918704-26-026243",
+      "0001918704-26-026244",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -83915,6 +83986,7 @@
       "0002021854-26-000022",
       "0002022654-26-000002",
       "0002022936-26-000013",
+      "0002022936-26-000016",
       "0002023157-26-000005",
       "0002023255-26-000007",
       "0002023454-26-000006",
@@ -84168,6 +84240,13 @@
       "0002071844-26-001139",
       "0002071844-26-001148",
       "0002071844-26-001167",
+      "0002071844-26-001182",
+      "0002071844-26-001183",
+      "0002071844-26-001184",
+      "0002071844-26-001185",
+      "0002071844-26-001186",
+      "0002071844-26-001188",
+      "0002071844-26-001189",
       "0002071948-26-000005",
       "0002073586-26-000014",
       "0002073587-26-000026",
