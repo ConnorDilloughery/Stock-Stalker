@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T19:05:43.094730+00:00",
+  "generatedAt": "2026-09-02T20:02:16.802437+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -701,6 +701,26 @@
       "type": "Sale",
       "shares": 37338.0,
       "pricePerShare": 219.5,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "COR",
+      "issuerName": "Cencora, Inc.",
+      "insiderName": "Krikorian Lazarus",
+      "title": "SVP & Chief Accounting Officer",
+      "type": "Sale",
+      "shares": 985.0,
+      "pricePerShare": 325.97,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "HGBL",
+      "issuerName": "Heritage Global Inc.",
+      "insiderName": "Sklar James Edward",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2500.0,
+      "pricePerShare": 1.27,
       "transactionDate": "2026-09-01"
     },
     {
@@ -3211,6 +3231,26 @@
       "type": "Sale",
       "shares": 500.0,
       "pricePerShare": 940.95,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "BSBR",
+      "issuerName": "Banco Santander (Brasil) S.A.",
+      "insiderName": "da Silva Marcos Jose Maia",
+      "title": "Officer w/o Specific Desig",
+      "type": "Purchase",
+      "shares": 79.0,
+      "pricePerShare": 5.76,
+      "transactionDate": "2026-08-28"
+    },
+    {
+      "ticker": "BSBR",
+      "issuerName": "Banco Santander (Brasil) S.A.",
+      "insiderName": "da Silva Marcos Jose Maia",
+      "title": "Officer w/o Specific Desig",
+      "type": "Sale",
+      "shares": 7474.0,
+      "pricePerShare": 5.74,
       "transactionDate": "2026-08-28"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 24708.0,
       "pricePerShare": 108.48,
       "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 4912.0,
-      "pricePerShare": 109.99,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 552.0,
-      "pricePerShare": 110.0,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 24743.0,
-      "pricePerShare": 108.48,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 4919.0,
-      "pricePerShare": 109.99,
-      "transactionDate": "2026-08-14"
     }
   ],
   "byTicker": {
@@ -33702,6 +33702,46 @@
           "shares": 1225.0,
           "pricePerShare": 219.4,
           "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "COR": {
+      "issuerName": "Cencora, Inc.",
+      "trades": [
+        {
+          "ticker": "COR",
+          "issuerName": "Cencora, Inc.",
+          "insiderName": "Krikorian Lazarus",
+          "title": "SVP & Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 985.0,
+          "pricePerShare": 325.97,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "HGBL": {
+      "issuerName": "Heritage Global Inc.",
+      "trades": [
+        {
+          "ticker": "HGBL",
+          "issuerName": "Heritage Global Inc.",
+          "insiderName": "Sklar James Edward",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 1.27,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "HGBL",
+          "issuerName": "Heritage Global Inc.",
+          "insiderName": "Dove Nicholas Kirk",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 60000.0,
+          "pricePerShare": 1.099,
+          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -39760,6 +39800,31 @@
         }
       ]
     },
+    "BSBR": {
+      "issuerName": "Banco Santander (Brasil) S.A.",
+      "trades": [
+        {
+          "ticker": "BSBR",
+          "issuerName": "Banco Santander (Brasil) S.A.",
+          "insiderName": "da Silva Marcos Jose Maia",
+          "title": "Officer w/o Specific Desig",
+          "type": "Purchase",
+          "shares": 79.0,
+          "pricePerShare": 5.76,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "BSBR",
+          "issuerName": "Banco Santander (Brasil) S.A.",
+          "insiderName": "da Silva Marcos Jose Maia",
+          "title": "Officer w/o Specific Desig",
+          "type": "Sale",
+          "shares": 7474.0,
+          "pricePerShare": 5.74,
+          "transactionDate": "2026-08-28"
+        }
+      ]
+    },
     "EXOD": {
       "issuerName": "Exodus Movement, Inc.",
       "trades": [
@@ -45601,46 +45666,6 @@
           "type": "Sale",
           "shares": 24708.0,
           "pricePerShare": 108.48,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4912.0,
-          "pricePerShare": 109.99,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 552.0,
-          "pricePerShare": 110.0,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 24743.0,
-          "pricePerShare": 108.48,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4919.0,
-          "pricePerShare": 109.99,
           "transactionDate": "2026-08-14"
         }
       ]
@@ -61930,21 +61955,6 @@
         }
       ]
     },
-    "HGBL": {
-      "issuerName": "Heritage Global Inc.",
-      "trades": [
-        {
-          "ticker": "HGBL",
-          "issuerName": "Heritage Global Inc.",
-          "insiderName": "Dove Nicholas Kirk",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 60000.0,
-          "pricePerShare": 1.099,
-          "transactionDate": "2026-08-17"
-        }
-      ]
-    },
     "ISBA": {
       "issuerName": "ISABELLA BANK CORP",
       "trades": [
@@ -63777,6 +63787,8 @@
       "0000063754-26-000294",
       "0000063754-26-000296",
       "0000063754-26-000298",
+      "0000065984-26-000301",
+      "0000065984-26-000303",
       "0000067887-26-000028",
       "0000070502-26-000497",
       "0000070502-26-000499",
@@ -63923,6 +63935,7 @@
       "0000093410-26-000181",
       "0000093410-26-000183",
       "0000093751-26-000393",
+      "0000093751-26-000575",
       "0000094049-26-000116",
       "0000097745-26-000146",
       "0000097745-26-000150",
@@ -66001,6 +66014,7 @@
       "0000950103-26-013462",
       "0000950103-26-013463",
       "0000950103-26-013464",
+      "0000950103-26-013478",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -68219,6 +68233,7 @@
       "0001189242-26-000037",
       "0001189242-26-000039",
       "0001189242-26-000041",
+      "0001189242-26-000043",
       "0001189278-26-000002",
       "0001189394-26-000008",
       "0001189395-26-000002",
@@ -71384,6 +71399,24 @@
       "0001193125-26-379999",
       "0001193125-26-380000",
       "0001193125-26-380001",
+      "0001193125-26-380133",
+      "0001193125-26-380135",
+      "0001193125-26-380136",
+      "0001193125-26-380138",
+      "0001193125-26-380139",
+      "0001193125-26-380140",
+      "0001193125-26-380141",
+      "0001193125-26-380142",
+      "0001193125-26-380143",
+      "0001193125-26-380144",
+      "0001193125-26-380145",
+      "0001193125-26-380146",
+      "0001193125-26-380147",
+      "0001193125-26-380148",
+      "0001193125-26-380149",
+      "0001193125-26-380151",
+      "0001193125-26-380152",
+      "0001193125-26-380153",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72687,6 +72720,12 @@
       "0001213900-26-096632",
       "0001213900-26-096635",
       "0001213900-26-096637",
+      "0001213900-26-096683",
+      "0001213900-26-096684",
+      "0001213900-26-096685",
+      "0001213900-26-096686",
+      "0001213900-26-096687",
+      "0001213900-26-096688",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -73374,6 +73413,7 @@
       "0001292814-26-004430",
       "0001292814-26-004432",
       "0001292814-26-004434",
+      "0001292814-26-004452",
       "0001293167-26-000004",
       "0001293171-26-000012",
       "0001294280-26-000005",
@@ -75792,6 +75832,7 @@
       "0001626260-26-000014",
       "0001626850-26-000001",
       "0001627301-26-000003",
+      "0001627534-26-000004",
       "0001627893-26-000012",
       "0001628280-26-048733",
       "0001628280-26-048734",
@@ -76470,6 +76511,15 @@
       "0001628280-26-059984",
       "0001628280-26-059986",
       "0001628280-26-059988",
+      "0001628280-26-060072",
+      "0001628280-26-060073",
+      "0001628280-26-060074",
+      "0001628280-26-060075",
+      "0001628280-26-060077",
+      "0001628280-26-060078",
+      "0001628280-26-060079",
+      "0001628280-26-060080",
+      "0001628280-26-060081",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -80039,6 +80089,14 @@
       "0001839882-26-043709",
       "0001839882-26-043710",
       "0001839882-26-043711",
+      "0001839882-26-043758",
+      "0001839882-26-043759",
+      "0001839882-26-043760",
+      "0001839882-26-043761",
+      "0001839882-26-043762",
+      "0001839882-26-043763",
+      "0001839882-26-043764",
+      "0001839882-26-043765",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -83187,6 +83245,10 @@
       "0001918704-26-026242",
       "0001918704-26-026243",
       "0001918704-26-026244",
+      "0001918704-26-026285",
+      "0001918704-26-026286",
+      "0001918704-26-026287",
+      "0001918704-26-026288",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -84181,6 +84243,7 @@
       "0002063228-26-000013",
       "0002063228-26-000015",
       "0002063236-26-000012",
+      "0002063861-26-000010",
       "0002063923-26-000004",
       "0002064348-26-000003",
       "0002064832-26-000274",
