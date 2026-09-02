@@ -1,8 +1,38 @@
 {
-  "generatedAt": "2026-09-02T17:02:19.073023+00:00",
+  "generatedAt": "2026-09-02T18:05:25.741833+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "AVA",
+      "issuerName": "AVISTA CORP",
+      "insiderName": "DiLuciano Joshua D",
+      "title": "Vice President",
+      "type": "Sale",
+      "shares": 818.0,
+      "pricePerShare": 37.2521,
+      "transactionDate": "2026-09-02"
+    },
+    {
+      "ticker": "AVA",
+      "issuerName": "AVISTA CORP",
+      "insiderName": "DiLuciano Joshua D",
+      "title": "Vice President",
+      "type": "Sale",
+      "shares": 3857.0,
+      "pricePerShare": 37.2378,
+      "transactionDate": "2026-09-02"
+    },
+    {
+      "ticker": "PEBK",
+      "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
+      "insiderName": "ABERNETHY JAMES S",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 43.5,
+      "transactionDate": "2026-09-02"
+    },
     {
       "ticker": "LUCK",
       "issuerName": "Lucky Strike Entertainment Corp",
@@ -1641,6 +1671,16 @@
       "type": "Sale",
       "shares": 1227.0,
       "pricePerShare": 110.581,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "UONEK",
+      "issuerName": "URBAN ONE, INC.",
+      "insiderName": "Levingston Lemuel Deon",
+      "title": "Co-President, Audio Division",
+      "type": "Sale",
+      "shares": 5646.0,
+      "pricePerShare": 4.15,
       "transactionDate": "2026-08-31"
     },
     {
@@ -29962,49 +30002,59 @@
       "shares": 1146.0,
       "pricePerShare": 108.48,
       "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 228.0,
-      "pricePerShare": 109.99,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 26.0,
-      "pricePerShare": 110.0,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 33922.0,
-      "pricePerShare": 108.48,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 6743.0,
-      "pricePerShare": 109.99,
-      "transactionDate": "2026-08-14"
     }
   ],
   "byTicker": {
+    "AVA": {
+      "issuerName": "AVISTA CORP",
+      "trades": [
+        {
+          "ticker": "AVA",
+          "issuerName": "AVISTA CORP",
+          "insiderName": "DiLuciano Joshua D",
+          "title": "Vice President",
+          "type": "Sale",
+          "shares": 818.0,
+          "pricePerShare": 37.2521,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "AVA",
+          "issuerName": "AVISTA CORP",
+          "insiderName": "DiLuciano Joshua D",
+          "title": "Vice President",
+          "type": "Sale",
+          "shares": 3857.0,
+          "pricePerShare": 37.2378,
+          "transactionDate": "2026-09-02"
+        }
+      ]
+    },
+    "PEBK": {
+      "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
+      "trades": [
+        {
+          "ticker": "PEBK",
+          "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
+          "insiderName": "ABERNETHY JAMES S",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 43.5,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "PEBK",
+          "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
+          "insiderName": "Abernethy Robert C. JR",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1200.0,
+          "pricePerShare": 43.13,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
     "LUCK": {
       "issuerName": "Lucky Strike Entertainment Corp",
       "trades": [
@@ -30096,21 +30146,6 @@
           "type": "Sale",
           "shares": 15000.0,
           "pricePerShare": 5.8644,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "PEBK": {
-      "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
-      "trades": [
-        {
-          "ticker": "PEBK",
-          "issuerName": "PEOPLES BANCORP OF NORTH CAROLINA INC",
-          "insiderName": "Abernethy Robert C. JR",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1200.0,
-          "pricePerShare": 43.13,
           "transactionDate": "2026-09-01"
         }
       ]
@@ -35817,6 +35852,21 @@
           "shares": 1250.0,
           "pricePerShare": 115.8631,
           "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "UONEK": {
+      "issuerName": "URBAN ONE, INC.",
+      "trades": [
+        {
+          "ticker": "UONEK",
+          "issuerName": "URBAN ONE, INC.",
+          "insiderName": "Levingston Lemuel Deon",
+          "title": "Co-President, Audio Division",
+          "type": "Sale",
+          "shares": 5646.0,
+          "pricePerShare": 4.15,
+          "transactionDate": "2026-08-31"
         }
       ]
     },
@@ -45551,46 +45601,6 @@
           "type": "Sale",
           "shares": 1146.0,
           "pricePerShare": 108.48,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 228.0,
-          "pricePerShare": 109.99,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 26.0,
-          "pricePerShare": 110.0,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 33922.0,
-          "pricePerShare": 108.48,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 6743.0,
-          "pricePerShare": 109.99,
           "transactionDate": "2026-08-14"
         }
       ]
@@ -63930,6 +63940,8 @@
       "0000101382-26-000176",
       "0000103379-26-000117",
       "0000103379-26-000120",
+      "0000104918-26-000061",
+      "0000104918-26-000062",
       "0000105563-26-000298",
       "0000105634-26-000117",
       "0000105634-26-000119",
@@ -64255,6 +64267,7 @@
       "0000804328-26-000093",
       "0000806180-26-000069",
       "0000806180-26-000079",
+      "0000806968-26-000054",
       "0000807249-26-000057",
       "0000812291-26-000013",
       "0000812797-26-000216",
@@ -64529,6 +64542,8 @@
       "0000894189-26-024983",
       "0000894189-26-024984",
       "0000894189-26-024990",
+      "0000894189-26-025002",
+      "0000894189-26-025003",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -67260,6 +67275,7 @@
       "0001104659-26-104590",
       "0001104659-26-104591",
       "0001104659-26-104608",
+      "0001104659-26-104632",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -67516,6 +67532,7 @@
       "0001133228-26-012012",
       "0001133228-26-012014",
       "0001133228-26-012016",
+      "0001133228-26-012111",
       "0001133416-26-000065",
       "0001134261-26-000005",
       "0001134261-26-000007",
@@ -67533,6 +67550,7 @@
       "0001137360-26-000803",
       "0001137360-26-000804",
       "0001137360-26-000843",
+      "0001137774-26-000193",
       "0001137789-26-000173",
       "0001140019-26-000099",
       "0001140019-26-000105",
@@ -71324,6 +71342,9 @@
       "0001193125-26-379748",
       "0001193125-26-379771",
       "0001193125-26-379789",
+      "0001193125-26-379864",
+      "0001193125-26-379871",
+      "0001193125-26-379897",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72622,6 +72643,7 @@
       "0001213900-26-096553",
       "0001213900-26-096574",
       "0001213900-26-096580",
+      "0001213900-26-096607",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -73297,6 +73319,17 @@
       "0001292814-26-004334",
       "0001292814-26-004336",
       "0001292814-26-004338",
+      "0001292814-26-004414",
+      "0001292814-26-004416",
+      "0001292814-26-004418",
+      "0001292814-26-004420",
+      "0001292814-26-004422",
+      "0001292814-26-004424",
+      "0001292814-26-004426",
+      "0001292814-26-004428",
+      "0001292814-26-004430",
+      "0001292814-26-004432",
+      "0001292814-26-004434",
       "0001293167-26-000004",
       "0001293171-26-000012",
       "0001294280-26-000005",
@@ -75469,6 +75502,9 @@
       "0001580642-26-005834",
       "0001580642-26-005866",
       "0001580642-26-005875",
+      "0001580642-26-005907",
+      "0001580642-26-005910",
+      "0001580642-26-005911",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -76520,6 +76556,7 @@
       "0001654954-26-007823",
       "0001654954-26-007824",
       "0001654954-26-008057",
+      "0001654954-26-008093",
       "0001655400-26-000007",
       "0001655589-26-000970",
       "0001655589-26-000971",
@@ -79921,6 +79958,29 @@
       "0001839882-26-043655",
       "0001839882-26-043656",
       "0001839882-26-043659",
+      "0001839882-26-043672",
+      "0001839882-26-043674",
+      "0001839882-26-043675",
+      "0001839882-26-043676",
+      "0001839882-26-043677",
+      "0001839882-26-043678",
+      "0001839882-26-043679",
+      "0001839882-26-043680",
+      "0001839882-26-043681",
+      "0001839882-26-043682",
+      "0001839882-26-043683",
+      "0001839882-26-043684",
+      "0001839882-26-043685",
+      "0001839882-26-043686",
+      "0001839882-26-043687",
+      "0001839882-26-043688",
+      "0001839882-26-043689",
+      "0001839882-26-043690",
+      "0001839882-26-043691",
+      "0001839882-26-043692",
+      "0001839882-26-043693",
+      "0001839882-26-043695",
+      "0001839882-26-043696",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -83053,6 +83113,9 @@
       "0001918704-26-026199",
       "0001918704-26-026200",
       "0001918704-26-026201",
+      "0001918704-26-026225",
+      "0001918704-26-026226",
+      "0001918704-26-026227",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -84236,6 +84299,7 @@
       "0002104052-26-000134",
       "0002104172-26-000010",
       "0002104631-26-000016",
+      "0002104954-26-000002",
       "0002105171-26-000010",
       "0002105635-26-000006",
       "0002105635-26-000008",
