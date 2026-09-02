@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T15:05:21.566211+00:00",
+  "generatedAt": "2026-09-02T16:06:06.838231+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -591,6 +591,36 @@
       "type": "Sale",
       "shares": 456.0,
       "pricePerShare": 95.0,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "NBIS",
+      "issuerName": "Nebius Group N.V.",
+      "insiderName": "Alonso Sanchez Maria del Dado",
+      "title": "CFO",
+      "type": "Sale",
+      "shares": 470.0,
+      "pricePerShare": 196.0,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "UBSI",
+      "issuerName": "UNITED BANKSHARES INC/WV",
+      "insiderName": "NESSELROAD MARK R",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 3200.0,
+      "pricePerShare": 46.42,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "FSLR",
+      "issuerName": "FIRST SOLAR, INC.",
+      "insiderName": "Gloeckler Markus",
+      "title": "Chief Technology Officer",
+      "type": "Sale",
+      "shares": 800.0,
+      "pricePerShare": 200.0,
       "transactionDate": "2026-09-01"
     },
     {
@@ -1571,6 +1601,26 @@
       "type": "Purchase",
       "shares": 456.0,
       "pricePerShare": 59.89,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "NWPX",
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "insiderName": "LARSON KEITH R",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1172.0,
+      "pricePerShare": 110.0398,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "NWPX",
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "insiderName": "MONTROSS SCOTT J",
+      "title": "President & CEO",
+      "type": "Sale",
+      "shares": 1227.0,
+      "pricePerShare": 110.581,
       "transactionDate": "2026-08-31"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 36168.0,
       "pricePerShare": 108.48,
       "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 7190.0,
-      "pricePerShare": 109.99,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 808.0,
-      "pricePerShare": 110.0,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 3763.0,
-      "pricePerShare": 108.48,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 748.0,
-      "pricePerShare": 109.99,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "Magnetar Financial LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 84.0,
-      "pricePerShare": 110.0,
-      "transactionDate": "2026-08-14"
     }
   ],
   "byTicker": {
@@ -33500,6 +33500,61 @@
         }
       ]
     },
+    "NBIS": {
+      "issuerName": "Nebius Group N.V.",
+      "trades": [
+        {
+          "ticker": "NBIS",
+          "issuerName": "Nebius Group N.V.",
+          "insiderName": "Alonso Sanchez Maria del Dado",
+          "title": "CFO",
+          "type": "Sale",
+          "shares": 470.0,
+          "pricePerShare": 196.0,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "UBSI": {
+      "issuerName": "UNITED BANKSHARES INC/WV",
+      "trades": [
+        {
+          "ticker": "UBSI",
+          "issuerName": "UNITED BANKSHARES INC/WV",
+          "insiderName": "NESSELROAD MARK R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3200.0,
+          "pricePerShare": 46.42,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "FSLR": {
+      "issuerName": "FIRST SOLAR, INC.",
+      "trades": [
+        {
+          "ticker": "FSLR",
+          "issuerName": "FIRST SOLAR, INC.",
+          "insiderName": "Gloeckler Markus",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 800.0,
+          "pricePerShare": 200.0,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "FSLR",
+          "issuerName": "FIRST SOLAR, INC.",
+          "insiderName": "Sloan Samantha L.",
+          "title": "EVP, Corporate Affairs",
+          "type": "Sale",
+          "shares": 127.0,
+          "pricePerShare": 222.95,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
     "SRTS": {
       "issuerName": "Sensus Healthcare, Inc.",
       "trades": [
@@ -35656,6 +35711,61 @@
           "type": "Sale",
           "shares": 1210.0,
           "pricePerShare": 122.11,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "NWPX": {
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "trades": [
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "LARSON KEITH R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1172.0,
+          "pricePerShare": 110.0398,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "MONTROSS SCOTT J",
+          "title": "President & CEO",
+          "type": "Sale",
+          "shares": 1227.0,
+          "pricePerShare": 110.581,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "MONTROSS SCOTT J",
+          "title": "President & CEO",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 109.3674,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "MONTROSS SCOTT J",
+          "title": "President & CEO",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 115.1274,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "LARSON KEITH R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1250.0,
+          "pricePerShare": 115.8631,
           "transactionDate": "2026-08-17"
         }
       ]
@@ -45452,56 +45562,6 @@
           "shares": 36168.0,
           "pricePerShare": 108.48,
           "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 7190.0,
-          "pricePerShare": 109.99,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 808.0,
-          "pricePerShare": 110.0,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 3763.0,
-          "pricePerShare": 108.48,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 748.0,
-          "pricePerShare": 109.99,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "Magnetar Financial LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 84.0,
-          "pricePerShare": 110.0,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -49392,41 +49452,6 @@
           "shares": 1200.0,
           "pricePerShare": 83.74,
           "transactionDate": "2026-08-24"
-        }
-      ]
-    },
-    "NWPX": {
-      "issuerName": "NWPX Infrastructure, Inc.",
-      "trades": [
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "MONTROSS SCOTT J",
-          "title": "President & CEO",
-          "type": "Sale",
-          "shares": 2500.0,
-          "pricePerShare": 109.3674,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "MONTROSS SCOTT J",
-          "title": "President & CEO",
-          "type": "Sale",
-          "shares": 2500.0,
-          "pricePerShare": 115.1274,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "LARSON KEITH R",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1250.0,
-          "pricePerShare": 115.8631,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -62345,21 +62370,6 @@
         }
       ]
     },
-    "FSLR": {
-      "issuerName": "FIRST SOLAR, INC.",
-      "trades": [
-        {
-          "ticker": "FSLR",
-          "issuerName": "FIRST SOLAR, INC.",
-          "insiderName": "Sloan Samantha L.",
-          "title": "EVP, Corporate Affairs",
-          "type": "Sale",
-          "shares": 127.0,
-          "pricePerShare": 222.95,
-          "transactionDate": "2026-08-17"
-        }
-      ]
-    },
     "KN": {
       "issuerName": "Knowles Corp",
       "trades": [
@@ -65947,6 +65957,8 @@
       "0000950103-26-013435",
       "0000950103-26-013436",
       "0000950103-26-013437",
+      "0000950103-26-013443",
+      "0000950103-26-013444",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -67235,6 +67247,8 @@
       "0001104659-26-104422",
       "0001104659-26-104505",
       "0001104659-26-104514",
+      "0001104659-26-104590",
+      "0001104659-26-104591",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -67507,6 +67521,7 @@
       "0001137360-26-000761",
       "0001137360-26-000803",
       "0001137360-26-000804",
+      "0001137360-26-000843",
       "0001137789-26-000173",
       "0001140019-26-000099",
       "0001140019-26-000105",
@@ -67973,6 +67988,9 @@
       "0001140361-26-035427",
       "0001140361-26-035431",
       "0001140361-26-035433",
+      "0001140361-26-035446",
+      "0001140361-26-035448",
+      "0001140361-26-035450",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -71284,6 +71302,11 @@
       "0001193125-26-379550",
       "0001193125-26-379556",
       "0001193125-26-379566",
+      "0001193125-26-379588",
+      "0001193125-26-379655",
+      "0001193125-26-379656",
+      "0001193125-26-379663",
+      "0001193125-26-379664",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72576,6 +72599,9 @@
       "0001213900-26-096491",
       "0001213900-26-096495",
       "0001213900-26-096498",
+      "0001213900-26-096546",
+      "0001213900-26-096552",
+      "0001213900-26-096553",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -73063,6 +73089,7 @@
       "0001225208-26-007517",
       "0001225208-26-007518",
       "0001225208-26-007520",
+      "0001225208-26-007522",
       "0001225481-26-000006",
       "0001225817-26-000008",
       "0001227384-26-000017",
@@ -73206,6 +73233,7 @@
       "0001274139-26-000004",
       "0001274494-26-000178",
       "0001274494-26-000180",
+      "0001274494-26-000182",
       "0001274737-26-000054",
       "0001274737-26-000056",
       "0001275668-26-000004",
@@ -74060,6 +74088,8 @@
       "0001437749-26-029374",
       "0001437749-26-029397",
       "0001437749-26-029458",
+      "0001437749-26-029464",
+      "0001437749-26-029466",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -74871,6 +74901,7 @@
       "0001493152-26-041163",
       "0001493152-26-041167",
       "0001493152-26-041175",
+      "0001493152-26-041179",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -74976,6 +75007,7 @@
       "0001513845-26-000088",
       "0001513845-26-000090",
       "0001513845-26-000092",
+      "0001513845-26-000094",
       "0001513957-26-000002",
       "0001514114-26-000013",
       "0001514225-26-000010",
@@ -76685,6 +76717,7 @@
       "0001689252-26-000002",
       "0001689252-26-000004",
       "0001689411-26-000015",
+      "0001689606-26-000004",
       "0001689926-26-000003",
       "0001690209-26-000003",
       "0001690867-26-000004",
@@ -77237,6 +77270,7 @@
       "0001797578-26-000014",
       "0001798004-26-000002",
       "0001798757-26-000007",
+      "0001798992-26-000004",
       "0001799211-26-000014",
       "0001799461-26-000003",
       "0001799461-26-000005",
@@ -77269,6 +77303,7 @@
       "0001808471-26-000015",
       "0001808471-26-000017",
       "0001808766-26-000010",
+      "0001808903-26-000004",
       "0001808968-26-000017",
       "0001809519-26-000163",
       "0001809519-26-000165",
@@ -79829,6 +79864,30 @@
       "0001839882-26-043555",
       "0001839882-26-043558",
       "0001839882-26-043559",
+      "0001839882-26-043577",
+      "0001839882-26-043580",
+      "0001839882-26-043581",
+      "0001839882-26-043582",
+      "0001839882-26-043583",
+      "0001839882-26-043584",
+      "0001839882-26-043585",
+      "0001839882-26-043586",
+      "0001839882-26-043587",
+      "0001839882-26-043588",
+      "0001839882-26-043591",
+      "0001839882-26-043592",
+      "0001839882-26-043593",
+      "0001839882-26-043596",
+      "0001839882-26-043597",
+      "0001839882-26-043598",
+      "0001839882-26-043599",
+      "0001839882-26-043601",
+      "0001839882-26-043607",
+      "0001839882-26-043608",
+      "0001839882-26-043611",
+      "0001839882-26-043618",
+      "0001839882-26-043619",
+      "0001839882-26-043620",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -82927,6 +82986,17 @@
       "0001918704-26-026154",
       "0001918704-26-026155",
       "0001918704-26-026156",
+      "0001918704-26-026163",
+      "0001918704-26-026164",
+      "0001918704-26-026165",
+      "0001918704-26-026166",
+      "0001918704-26-026167",
+      "0001918704-26-026168",
+      "0001918704-26-026169",
+      "0001918704-26-026170",
+      "0001918704-26-026171",
+      "0001918704-26-026172",
+      "0001918704-26-026173",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -83621,6 +83691,8 @@
       "0001999371-26-019477",
       "0001999371-26-019513",
       "0001999371-26-019514",
+      "0001999371-26-019562",
+      "0001999371-26-019564",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -83737,6 +83809,7 @@
       "0002024813-26-000010",
       "0002025268-26-000006",
       "0002025289-26-000005",
+      "0002025977-26-000006",
       "0002027006-26-000024",
       "0002027966-26-000002",
       "0002028272-26-000003",
