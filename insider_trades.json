@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T12:05:05.167457+00:00",
+  "generatedAt": "2026-09-02T13:05:23.259579+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -391,6 +391,46 @@
       "type": "Sale",
       "shares": 204.0,
       "pricePerShare": 114.39,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "EMPD",
+      "issuerName": "Empery Digital Inc.",
+      "insiderName": "Empery Asset Management, LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 500000.0,
+      "pricePerShare": 3.5862,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "AUDC",
+      "issuerName": "AUDIOCODES LTD",
+      "insiderName": "Simon Zehava",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 27000.0,
+      "pricePerShare": 9.9075,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "VTOL",
+      "issuerName": "Bristow Group Inc.",
+      "insiderName": "Truelove Brian D.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3500.0,
+      "pricePerShare": 45.8703,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 9257.0,
+      "pricePerShare": 19.1675,
       "transactionDate": "2026-09-01"
     },
     {
@@ -1291,6 +1331,36 @@
       "type": "Sale",
       "shares": 18.0,
       "pricePerShare": 117.58,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 12700.0,
+      "pricePerShare": 116.0,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "AUDC",
+      "issuerName": "AUDIOCODES LTD",
+      "insiderName": "Simon Zehava",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 6000.0,
+      "pricePerShare": 10.0331,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 19.1765,
       "transactionDate": "2026-08-31"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 21000.0,
       "pricePerShare": 4.75,
       "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "FOCL",
-      "issuerName": "EDAP TMS SA",
-      "insiderName": "Shah Sanket",
-      "title": "General Counsel & Corp Sec",
-      "type": "Purchase",
-      "shares": 5000.0,
-      "pricePerShare": 4.75,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "RICK",
-      "issuerName": "RCI HOSPITALITY HOLDINGS, INC.",
-      "insiderName": "LANGAN ERIC SCOTT",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 1630.0,
-      "pricePerShare": 30.8,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "REZI",
-      "issuerName": "RESIDEO TECHNOLOGIES, INC.",
-      "insiderName": "SURRAN THOMAS A",
-      "title": "Director, President and CEO",
-      "type": "Purchase",
-      "shares": 15000.0,
-      "pricePerShare": 20.46,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "BORR",
-      "issuerName": "Borr Drilling Ltd",
-      "insiderName": "Troim Tor Olav",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 500000.0,
-      "pricePerShare": 4.3868,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "SMWB",
-      "issuerName": "SIMILARWEB LTD.",
-      "insiderName": "Offer Or",
-      "title": "Chief Executive Officer",
-      "type": "Sale",
-      "shares": 59992.0,
-      "pricePerShare": 8.9006,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "SMWB",
-      "issuerName": "SIMILARWEB LTD.",
-      "insiderName": "Offer Or",
-      "title": "Chief Executive Officer",
-      "type": "Sale",
-      "shares": 75000.0,
-      "pricePerShare": 8.852,
-      "transactionDate": "2026-08-14"
-    },
-    {
-      "ticker": "CAMT",
-      "issuerName": "CAMTEK LTD",
-      "insiderName": "Andorn Karni Yarl",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 3176.0,
-      "pricePerShare": 164.4,
-      "transactionDate": "2026-08-14"
     }
   ],
   "byTicker": {
@@ -33085,6 +33085,246 @@
         }
       ]
     },
+    "EMPD": {
+      "issuerName": "Empery Digital Inc.",
+      "trades": [
+        {
+          "ticker": "EMPD",
+          "issuerName": "Empery Digital Inc.",
+          "insiderName": "Empery Asset Management, LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 500000.0,
+          "pricePerShare": 3.5862,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "AUDC": {
+      "issuerName": "AUDIOCODES LTD",
+      "trades": [
+        {
+          "ticker": "AUDC",
+          "issuerName": "AUDIOCODES LTD",
+          "insiderName": "Simon Zehava",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 27000.0,
+          "pricePerShare": 9.9075,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "AUDC",
+          "issuerName": "AUDIOCODES LTD",
+          "insiderName": "Simon Zehava",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 6000.0,
+          "pricePerShare": 10.0331,
+          "transactionDate": "2026-08-31"
+        }
+      ]
+    },
+    "VTOL": {
+      "issuerName": "Bristow Group Inc.",
+      "trades": [
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Truelove Brian D.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3500.0,
+          "pricePerShare": 45.8703,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 46.545,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 47.05,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Stavley Stuart",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10218.0,
+          "pricePerShare": 46.2003,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1890.0,
+          "pricePerShare": 46.5597,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 46.545,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "VTOL",
+          "issuerName": "Bristow Group Inc.",
+          "insiderName": "Brass Lorin L.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 210.0,
+          "pricePerShare": 46.7754,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "DGICA": {
+      "issuerName": "DONEGAL GROUP INC",
+      "trades": [
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9257.0,
+          "pricePerShare": 19.1675,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.1765,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.1946,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.9504,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9508.0,
+          "pricePerShare": 19.1069,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.9981,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.0647,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.6757,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9815.0,
+          "pricePerShare": 18.6585,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9700.0,
+          "pricePerShare": 18.6105,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.5955,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.5239,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
     "SRTS": {
       "issuerName": "Sensus Healthcare, Inc.",
       "trades": [
@@ -35050,6 +35290,201 @@
         }
       ]
     },
+    "AFL": {
+      "issuerName": "AFLAC INC",
+      "trades": [
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12700.0,
+          "pricePerShare": 116.0,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13000.0,
+          "pricePerShare": 116.52,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12260.0,
+          "pricePerShare": 116.65,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 440.0,
+          "pricePerShare": 117.25,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12066.0,
+          "pricePerShare": 116.44,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 634.0,
+          "pricePerShare": 117.37,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12820.0,
+          "pricePerShare": 116.28,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 80.0,
+          "pricePerShare": 117.07,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 9621.0,
+          "pricePerShare": 116.45,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 3479.0,
+          "pricePerShare": 117.03,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 9353.0,
+          "pricePerShare": 116.62,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1529.0,
+          "pricePerShare": 117.29,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 980.0,
+          "pricePerShare": 118.59,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 798.0,
+          "pricePerShare": 119.6,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 40.0,
+          "pricePerShare": 120.14,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13610.0,
+          "pricePerShare": 121.91,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 590.0,
+          "pricePerShare": 122.65,
+          "transactionDate": "2026-08-18"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12690.0,
+          "pricePerShare": 121.26,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1210.0,
+          "pricePerShare": 122.11,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
     "SHMD": {
       "issuerName": "SCHMID Group N.V.",
       "trades": [
@@ -35557,111 +35992,6 @@
           "shares": 50000.0,
           "pricePerShare": 0.8077,
           "transactionDate": "2026-08-28"
-        }
-      ]
-    },
-    "DGICA": {
-      "issuerName": "DONEGAL GROUP INC",
-      "trades": [
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.1946,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.9504,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9508.0,
-          "pricePerShare": 19.1069,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.9981,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.0647,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.6757,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9815.0,
-          "pricePerShare": 18.6585,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9700.0,
-          "pricePerShare": 18.6105,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.5955,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.5239,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -37127,191 +37457,6 @@
           "shares": 24745.0,
           "pricePerShare": 2.08,
           "transactionDate": "2026-08-25"
-        }
-      ]
-    },
-    "AFL": {
-      "issuerName": "AFLAC INC",
-      "trades": [
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13000.0,
-          "pricePerShare": 116.52,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12260.0,
-          "pricePerShare": 116.65,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 440.0,
-          "pricePerShare": 117.25,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12066.0,
-          "pricePerShare": 116.44,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 634.0,
-          "pricePerShare": 117.37,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12820.0,
-          "pricePerShare": 116.28,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 117.07,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 9621.0,
-          "pricePerShare": 116.45,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 3479.0,
-          "pricePerShare": 117.03,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 9353.0,
-          "pricePerShare": 116.62,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1529.0,
-          "pricePerShare": 117.29,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 980.0,
-          "pricePerShare": 118.59,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 798.0,
-          "pricePerShare": 119.6,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 40.0,
-          "pricePerShare": 120.14,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13610.0,
-          "pricePerShare": 121.91,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 590.0,
-          "pricePerShare": 122.65,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12690.0,
-          "pricePerShare": 121.26,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1210.0,
-          "pricePerShare": 122.11,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -42862,26 +43007,6 @@
           "shares": 140008.0,
           "pricePerShare": 9.0054,
           "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 59992.0,
-          "pricePerShare": 8.9006,
-          "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 75000.0,
-          "pricePerShare": 8.852,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -45382,16 +45507,6 @@
           "shares": 200000.0,
           "pricePerShare": 4.3731,
           "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Troim Tor Olav",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 500000.0,
-          "pricePerShare": 4.3868,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -46886,71 +47001,6 @@
           "type": "Sale",
           "shares": 962.0,
           "pricePerShare": 0.457,
-          "transactionDate": "2026-08-17"
-        }
-      ]
-    },
-    "VTOL": {
-      "issuerName": "Bristow Group Inc.",
-      "trades": [
-        {
-          "ticker": "VTOL",
-          "issuerName": "Bristow Group Inc.",
-          "insiderName": "Brass Lorin L.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 46.545,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "VTOL",
-          "issuerName": "Bristow Group Inc.",
-          "insiderName": "Brass Lorin L.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 47.05,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "VTOL",
-          "issuerName": "Bristow Group Inc.",
-          "insiderName": "Stavley Stuart",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 10218.0,
-          "pricePerShare": 46.2003,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "VTOL",
-          "issuerName": "Bristow Group Inc.",
-          "insiderName": "Brass Lorin L.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1890.0,
-          "pricePerShare": 46.5597,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "VTOL",
-          "issuerName": "Bristow Group Inc.",
-          "insiderName": "Brass Lorin L.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 46.545,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "VTOL",
-          "issuerName": "Bristow Group Inc.",
-          "insiderName": "Brass Lorin L.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 210.0,
-          "pricePerShare": 46.7754,
           "transactionDate": "2026-08-17"
         }
       ]
@@ -62072,16 +62122,6 @@
           "shares": 508.0,
           "pricePerShare": 175.0,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "CAMT",
-          "issuerName": "CAMTEK LTD",
-          "insiderName": "Andorn Karni Yarl",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3176.0,
-          "pricePerShare": 164.4,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -62097,16 +62137,6 @@
           "shares": 10928.4,
           "pricePerShare": 20.68,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "REZI",
-          "issuerName": "RESIDEO TECHNOLOGIES, INC.",
-          "insiderName": "SURRAN THOMAS A",
-          "title": "Director, President and CEO",
-          "type": "Purchase",
-          "shares": 15000.0,
-          "pricePerShare": 20.46,
-          "transactionDate": "2026-08-14"
         }
       ]
     },
@@ -63412,31 +63442,6 @@
           "shares": 21000.0,
           "pricePerShare": 4.75,
           "transactionDate": "2026-08-14"
-        },
-        {
-          "ticker": "FOCL",
-          "issuerName": "EDAP TMS SA",
-          "insiderName": "Shah Sanket",
-          "title": "General Counsel & Corp Sec",
-          "type": "Purchase",
-          "shares": 5000.0,
-          "pricePerShare": 4.75,
-          "transactionDate": "2026-08-14"
-        }
-      ]
-    },
-    "RICK": {
-      "issuerName": "RCI HOSPITALITY HOLDINGS, INC.",
-      "trades": [
-        {
-          "ticker": "RICK",
-          "issuerName": "RCI HOSPITALITY HOLDINGS, INC.",
-          "insiderName": "LANGAN ERIC SCOTT",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1630.0,
-          "pricePerShare": 30.8,
-          "transactionDate": "2026-08-14"
         }
       ]
     }
@@ -64723,6 +64728,8 @@
       "0000912938-26-000827",
       "0000912938-26-000828",
       "0000912938-26-000829",
+      "0000912938-26-000840",
+      "0000912938-26-000841",
       "0000914190-26-000108",
       "0000917677-26-000304",
       "0000918697-26-000011",
@@ -64839,6 +64846,7 @@
       "0000935596-26-000019",
       "0000935596-26-000020",
       "0000935596-26-000021",
+      "0000935596-26-000022",
       "0000935703-26-000095",
       "0000935703-26-000097",
       "0000935836-26-000372",
@@ -67198,6 +67206,8 @@
       "0001104659-26-104404",
       "0001104659-26-104405",
       "0001104659-26-104422",
+      "0001104659-26-104505",
+      "0001104659-26-104514",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -71234,6 +71244,9 @@
       "0001193125-26-379288",
       "0001193125-26-379297",
       "0001193125-26-379365",
+      "0001193125-26-379409",
+      "0001193125-26-379437",
+      "0001193125-26-379440",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74796,6 +74809,8 @@
       "0001493152-26-041133",
       "0001493152-26-041135",
       "0001493152-26-041137",
+      "0001493152-26-041159",
+      "0001493152-26-041163",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -76589,6 +76604,7 @@
       "0001683168-26-006839",
       "0001683168-26-006840",
       "0001683168-26-006841",
+      "0001683168-26-006871",
       "0001684532-26-000009",
       "0001687112-26-000016",
       "0001687130-26-000013",
@@ -79724,6 +79740,7 @@
       "0001839882-26-043343",
       "0001839882-26-043394",
       "0001839882-26-043395",
+      "0001839882-26-043477",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -82769,6 +82786,10 @@
       "0001918704-26-026065",
       "0001918704-26-026068",
       "0001918704-26-026069",
+      "0001918704-26-026070",
+      "0001918704-26-026071",
+      "0001918704-26-026072",
+      "0001918704-26-026075",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -82969,6 +82990,7 @@
       "0001976408-26-000777",
       "0001976408-26-000787",
       "0001976408-26-000788",
+      "0001976408-26-000798",
       "0001976672-26-000057",
       "0001976672-26-000059",
       "0001976672-26-000062",
@@ -83772,6 +83794,7 @@
       "0002069377-26-000002",
       "0002069860-26-000010",
       "0002070264-26-000008",
+      "0002070402-26-000005",
       "0002070403-26-000013",
       "0002070849-26-000044",
       "0002070849-26-000052",
