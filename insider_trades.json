@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-09-03T15:01:24.139967+00:00",
+  "generatedAt": "2026-09-03T16:04:08.258414+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "HFWA",
+      "issuerName": "HERITAGE FINANCIAL CORP /WA/",
+      "insiderName": "CHARNESKI BRIAN",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 13675.0,
+      "pricePerShare": 29.184,
+      "transactionDate": "2026-09-03"
+    },
     {
       "ticker": "AVA",
       "issuerName": "AVISTA CORP",
@@ -741,6 +751,16 @@
       "type": "Sale",
       "shares": 3000.0,
       "pricePerShare": 45.07,
+      "transactionDate": "2026-09-02"
+    },
+    {
+      "ticker": "CFND",
+      "issuerName": "C1 Fund Inc.",
+      "insiderName": "Kidwai Najamul Hasan",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 2850.0,
+      "pricePerShare": 2.81,
       "transactionDate": "2026-09-02"
     },
     {
@@ -2531,6 +2551,16 @@
       "type": "Sale",
       "shares": 1012.0,
       "pricePerShare": 232.421,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "HMN",
+      "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
+      "insiderName": "ZURAITIS MARITA",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 7500.0,
+      "pricePerShare": 50.99,
       "transactionDate": "2026-09-01"
     },
     {
@@ -29972,39 +30002,24 @@
       "shares": 890.0,
       "pricePerShare": 196.98,
       "transactionDate": "2026-08-17"
-    },
-    {
-      "ticker": "APPF",
-      "issuerName": "APPFOLIO INC",
-      "insiderName": "DUCA MAURICE J",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 263.0,
-      "pricePerShare": 198.37,
-      "transactionDate": "2026-08-17"
-    },
-    {
-      "ticker": "APPF",
-      "issuerName": "APPFOLIO INC",
-      "insiderName": "DUCA MAURICE J",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 52.0,
-      "pricePerShare": 199.05,
-      "transactionDate": "2026-08-17"
-    },
-    {
-      "ticker": "ROIV",
-      "issuerName": "Roivant Sciences Ltd.",
-      "insiderName": "Sukhatme Mayukh",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 284707.0,
-      "pricePerShare": 36.25,
-      "transactionDate": "2026-08-17"
     }
   ],
   "byTicker": {
+    "HFWA": {
+      "issuerName": "HERITAGE FINANCIAL CORP /WA/",
+      "trades": [
+        {
+          "ticker": "HFWA",
+          "issuerName": "HERITAGE FINANCIAL CORP /WA/",
+          "insiderName": "CHARNESKI BRIAN",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 13675.0,
+          "pricePerShare": 29.184,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
     "AVA": {
       "issuerName": "AVISTA CORP",
       "trades": [
@@ -31912,6 +31927,21 @@
           "shares": 1096.0,
           "pricePerShare": 44.64,
           "transactionDate": "2026-08-27"
+        }
+      ]
+    },
+    "CFND": {
+      "issuerName": "C1 Fund Inc.",
+      "trades": [
+        {
+          "ticker": "CFND",
+          "issuerName": "C1 Fund Inc.",
+          "insiderName": "Kidwai Najamul Hasan",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 2850.0,
+          "pricePerShare": 2.81,
+          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -37785,6 +37815,21 @@
         }
       ]
     },
+    "HMN": {
+      "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
+      "trades": [
+        {
+          "ticker": "HMN",
+          "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
+          "insiderName": "ZURAITIS MARITA",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7500.0,
+          "pricePerShare": 50.99,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
     "SRTS": {
       "issuerName": "Sensus Healthcare, Inc.",
       "trades": [
@@ -42792,16 +42837,6 @@
           "shares": 31801.0,
           "pricePerShare": 37.18,
           "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "ROIV",
-          "issuerName": "Roivant Sciences Ltd.",
-          "insiderName": "Sukhatme Mayukh",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 284707.0,
-          "pricePerShare": 36.25,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -56257,26 +56292,6 @@
           "shares": 890.0,
           "pricePerShare": 196.98,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "APPF",
-          "issuerName": "APPFOLIO INC",
-          "insiderName": "DUCA MAURICE J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 263.0,
-          "pricePerShare": 198.37,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "APPF",
-          "issuerName": "APPFOLIO INC",
-          "insiderName": "DUCA MAURICE J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 52.0,
-          "pricePerShare": 199.05,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -66026,6 +66041,7 @@
       "0000950103-26-013531",
       "0000950103-26-013532",
       "0000950103-26-013537",
+      "0000950103-26-013542",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -67351,6 +67367,8 @@
       "0001104659-26-104963",
       "0001104659-26-104971",
       "0001104659-26-104972",
+      "0001104659-26-104981",
+      "0001104659-26-104986",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -71531,6 +71549,8 @@
       "0001193125-26-381219",
       "0001193125-26-381263",
       "0001193125-26-381280",
+      "0001193125-26-381351",
+      "0001193125-26-381367",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72868,6 +72888,10 @@
       "0001213900-26-097001",
       "0001213900-26-097002",
       "0001213900-26-097005",
+      "0001213900-26-097035",
+      "0001213900-26-097045",
+      "0001213900-26-097050",
+      "0001213900-26-097058",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -73148,6 +73172,7 @@
       "0001214659-26-011384",
       "0001214659-26-011385",
       "0001214659-26-011392",
+      "0001214659-26-011395",
       "0001214993-26-000004",
       "0001215315-26-000038",
       "0001216055-26-000006",
@@ -74634,6 +74659,14 @@
       "0001445546-26-006492",
       "0001445546-26-006493",
       "0001445546-26-006494",
+      "0001445546-26-006501",
+      "0001445546-26-006502",
+      "0001445546-26-006503",
+      "0001445546-26-006504",
+      "0001445546-26-006505",
+      "0001445546-26-006506",
+      "0001445546-26-006507",
+      "0001445546-26-006508",
       "0001446066-26-000008",
       "0001448765-26-000011",
       "0001448765-26-000013",
@@ -76756,6 +76789,7 @@
       "0001628280-26-060248",
       "0001628280-26-060250",
       "0001628280-26-060268",
+      "0001628280-26-060287",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -80403,6 +80437,20 @@
       "0001839882-26-043965",
       "0001839882-26-043967",
       "0001839882-26-043970",
+      "0001839882-26-043992",
+      "0001839882-26-043993",
+      "0001839882-26-043994",
+      "0001839882-26-043995",
+      "0001839882-26-043996",
+      "0001839882-26-043997",
+      "0001839882-26-043998",
+      "0001839882-26-043999",
+      "0001839882-26-044000",
+      "0001839882-26-044001",
+      "0001839882-26-044002",
+      "0001839882-26-044003",
+      "0001839882-26-044004",
+      "0001839882-26-044007",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -83599,6 +83647,30 @@
       "0001918704-26-026417",
       "0001918704-26-026418",
       "0001918704-26-026419",
+      "0001918704-26-026444",
+      "0001918704-26-026445",
+      "0001918704-26-026446",
+      "0001918704-26-026447",
+      "0001918704-26-026448",
+      "0001918704-26-026449",
+      "0001918704-26-026450",
+      "0001918704-26-026451",
+      "0001918704-26-026452",
+      "0001918704-26-026453",
+      "0001918704-26-026454",
+      "0001918704-26-026455",
+      "0001918704-26-026456",
+      "0001918704-26-026457",
+      "0001918704-26-026458",
+      "0001918704-26-026459",
+      "0001918704-26-026460",
+      "0001918704-26-026461",
+      "0001918704-26-026462",
+      "0001918704-26-026463",
+      "0001918704-26-026464",
+      "0001918704-26-026465",
+      "0001918704-26-026466",
+      "0001918704-26-026469",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
