@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T09:04:58.770615+00:00",
+  "generatedAt": "2026-09-03T13:05:01.821238+00:00",
   "source": "U.S. Senate (efdsearch.senate.gov) + U.S. House (disclosures-clerk.house.gov) + President Trump's PTRs (whitehouse.gov)",
   "count": 5000,
   "trades": [
@@ -71,6 +71,20 @@
       "amountRange": "$1,001 - $15,000",
       "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf",
+      "source": "house"
+    },
+    {
+      "politician": "McGuire, John J Mr III.",
+      "office": "VA05",
+      "transactionDate": "08/18/2026",
+      "filedDate": null,
+      "owner": null,
+      "ticker": "NVDA",
+      "assetName": null,
+      "type": "Purchase",
+      "amountRange": "$1,001 - $15,000",
+      "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035367.pdf",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035367.pdf",
       "source": "house"
     },
     {
@@ -1961,6 +1975,20 @@
       "amountRange": "$15,001 - $50,000",
       "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf",
+      "source": "house"
+    },
+    {
+      "politician": "Rulli, Michael",
+      "office": "OH06",
+      "transactionDate": "08/07/2026",
+      "filedDate": null,
+      "owner": null,
+      "ticker": "EQIX",
+      "assetName": null,
+      "type": "Purchase",
+      "amountRange": "$1,001 - $15,000",
+      "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035365.pdf",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035365.pdf",
       "source": "house"
     },
     {
@@ -69974,34 +70002,6 @@
       "sourceId": "ef342f99b8958a74",
       "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/06/President-Donald-J.-Trump-Periodic-Transaction-Report-0.6.25.26-2.pdf",
       "source": "president"
-    },
-    {
-      "politician": "Donald J. Trump",
-      "office": "President",
-      "transactionDate": null,
-      "filedDate": null,
-      "owner": null,
-      "ticker": "UNH",
-      "assetName": null,
-      "type": "Purchase",
-      "amountRange": "$15,001 - $50,000",
-      "sourceId": "ef342f99b8958a74",
-      "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/06/President-Donald-J.-Trump-Periodic-Transaction-Report-0.6.25.26-2.pdf",
-      "source": "president"
-    },
-    {
-      "politician": "Donald J. Trump",
-      "office": "President",
-      "transactionDate": null,
-      "filedDate": null,
-      "owner": null,
-      "ticker": "VRTX",
-      "assetName": null,
-      "type": "Purchase",
-      "amountRange": "$1,001 - $15,000",
-      "sourceId": "ef342f99b8958a74",
-      "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/06/President-Donald-J.-Trump-Periodic-Transaction-Report-0.6.25.26-2.pdf",
-      "source": "president"
     }
   ],
   "politicians": {
@@ -70512,6 +70512,51 @@
         }
       },
       "tradeCount": 40
+    },
+    "McGuire, John J Mr III.": {
+      "office": "VA05",
+      "tickers": {
+        "NVDA": {
+          "trades": [
+            {
+              "transactionDate": "08/18/2026",
+              "filedDate": null,
+              "type": "Purchase",
+              "amountRange": "$1,001 - $15,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Purchase",
+          "lastDate": "08/18/2026"
+        },
+        "PANW": {
+          "trades": [
+            {
+              "transactionDate": "07/31/2026",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$1,001 - $15,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "07/31/2026"
+        },
+        "BLK": {
+          "trades": [
+            {
+              "transactionDate": "07/10/2026",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$1,001 - $15,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "07/10/2026"
+        }
+      },
+      "tradeCount": 3
     },
     "Donald J. Trump": {
       "office": "President",
@@ -73083,13 +73128,6 @@
               "type": "Sale",
               "amountRange": "$1,001 - $15,000",
               "owner": null
-            },
-            {
-              "transactionDate": null,
-              "filedDate": null,
-              "type": "Purchase",
-              "amountRange": "$1,001 - $15,000",
-              "owner": null
             }
           ],
           "lastAction": "Purchase",
@@ -74221,13 +74259,6 @@
               "type": null,
               "amountRange": "$1,001 - $5,000,000",
               "owner": null
-            },
-            {
-              "transactionDate": null,
-              "filedDate": null,
-              "type": "Purchase",
-              "amountRange": "$15,001 - $50,000",
-              "owner": null
             }
           ],
           "lastAction": "Purchase",
@@ -74494,7 +74525,7 @@
           "lastDate": null
         }
       },
-      "tradeCount": 491
+      "tradeCount": 489
     },
     "Morrison, Kelly Louise": {
       "office": "MN03",
@@ -75757,6 +75788,19 @@
     "Rulli, Michael": {
       "office": "OH06",
       "tickers": {
+        "EQIX": {
+          "trades": [
+            {
+              "transactionDate": "08/07/2026",
+              "filedDate": null,
+              "type": "Purchase",
+              "amountRange": "$1,001 - $15,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Purchase",
+          "lastDate": "08/07/2026"
+        },
         "CCI": {
           "trades": [
             {
@@ -75948,7 +75992,7 @@
           "lastDate": "12/12/2024"
         }
       },
-      "tradeCount": 16
+      "tradeCount": 17
     },
     "Delaney, April McClain": {
       "office": "MD06",
@@ -77541,38 +77585,6 @@
         }
       },
       "tradeCount": 188
-    },
-    "McGuire, John J Mr III.": {
-      "office": "VA05",
-      "tickers": {
-        "PANW": {
-          "trades": [
-            {
-              "transactionDate": "07/31/2026",
-              "filedDate": null,
-              "type": "Sale",
-              "amountRange": "$1,001 - $15,000",
-              "owner": null
-            }
-          ],
-          "lastAction": "Sale",
-          "lastDate": "07/31/2026"
-        },
-        "BLK": {
-          "trades": [
-            {
-              "transactionDate": "07/10/2026",
-              "filedDate": null,
-              "type": "Sale",
-              "amountRange": "$1,001 - $15,000",
-              "owner": null
-            }
-          ],
-          "lastAction": "Sale",
-          "lastDate": "07/10/2026"
-        }
-      },
-      "tradeCount": 2
     },
     "McCormick, Richard Dean Dr": {
       "office": "GA06",
@@ -123020,8 +123032,11 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035293.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035309.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035345.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035349.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035350.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035365.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035367.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221321.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221322.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221326.pdf",
