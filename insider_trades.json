@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T18:04:16.071380+00:00",
+  "generatedAt": "2026-09-03T19:03:03.626878+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -851,6 +851,26 @@
       "type": "Sale",
       "shares": 82500.0,
       "pricePerShare": 25.9707,
+      "transactionDate": "2026-09-02"
+    },
+    {
+      "ticker": "NWPX",
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "insiderName": "LARSON KEITH R",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 74.0,
+      "pricePerShare": 110.2597,
+      "transactionDate": "2026-09-02"
+    },
+    {
+      "ticker": "TRST",
+      "issuerName": "TRUSTCO BANK CORP N Y",
+      "insiderName": "McCormick Lauren Ann",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 436.0,
+      "pricePerShare": 57.34,
       "transactionDate": "2026-09-02"
     },
     {
@@ -2761,6 +2781,56 @@
       "type": "Sale",
       "shares": 1800.0,
       "pricePerShare": 81.238,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "CRVL",
+      "issuerName": "CORVEL CORP",
+      "insiderName": "JESSUP R JUDD",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 4023.0,
+      "pricePerShare": 70.07,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "VICR",
+      "issuerName": "VICOR CORP",
+      "insiderName": "Davies Philip D",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1173.0,
+      "pricePerShare": 176.5922,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "VICR",
+      "issuerName": "VICOR CORP",
+      "insiderName": "Davies Philip D",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1100.0,
+      "pricePerShare": 177.6312,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "VICR",
+      "issuerName": "VICOR CORP",
+      "insiderName": "Davies Philip D",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 700.0,
+      "pricePerShare": 178.66,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "VICR",
+      "issuerName": "VICOR CORP",
+      "insiderName": "Davies Philip D",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 100.0,
+      "pricePerShare": 184.85,
       "transactionDate": "2026-09-01"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 1000.0,
       "pricePerShare": 111.3301,
       "transactionDate": "2026-08-17"
-    },
-    {
-      "ticker": "ALXO",
-      "issuerName": "ALX ONCOLOGY HOLDINGS INC",
-      "insiderName": "Lettmann Jason",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2230.0,
-      "pricePerShare": 1.93,
-      "transactionDate": "2026-08-17"
-    },
-    {
-      "ticker": "AUGO",
-      "issuerName": "Aura Minerals Inc.",
-      "insiderName": "Sousa Mauad Bruno",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 11000.0,
-      "pricePerShare": 78.93,
-      "transactionDate": "2026-08-17"
-    },
-    {
-      "ticker": "ALXO",
-      "issuerName": "ALX ONCOLOGY HOLDINGS INC",
-      "insiderName": "Wong Shelly",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 573.0,
-      "pricePerShare": 1.93,
-      "transactionDate": "2026-08-17"
-    },
-    {
-      "ticker": "QNST",
-      "issuerName": "QUINSTREET, INC",
-      "insiderName": "Ahmed Asmau",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 10000.0,
-      "pricePerShare": 20.3,
-      "transactionDate": "2026-08-17"
-    },
-    {
-      "ticker": "HAYW",
-      "issuerName": "Hayward Holdings, Inc.",
-      "insiderName": "Canning Susan M.",
-      "title": "SVP, CLO, Corporate Secretary",
-      "type": "Sale",
-      "shares": 3500.0,
-      "pricePerShare": 15.06,
-      "transactionDate": "2026-08-17"
-    },
-    {
-      "ticker": "EVCM",
-      "issuerName": "EverCommerce Inc.",
-      "insiderName": "Siurek Ryan H",
-      "title": "Chief Financial Officer",
-      "type": "Sale",
-      "shares": 16812.0,
-      "pricePerShare": 10.2067,
-      "transactionDate": "2026-08-17"
-    },
-    {
-      "ticker": "FRPH",
-      "issuerName": "FRP HOLDINGS, INC.",
-      "insiderName": "BAKER JOHN D II",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 957.0,
-      "pricePerShare": 21.9687,
-      "transactionDate": "2026-08-17"
     }
   ],
   "byTicker": {
@@ -32105,6 +32105,86 @@
         }
       ]
     },
+    "NWPX": {
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "trades": [
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "LARSON KEITH R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 74.0,
+          "pricePerShare": 110.2597,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "LARSON KEITH R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1172.0,
+          "pricePerShare": 110.0398,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "MONTROSS SCOTT J",
+          "title": "President & CEO",
+          "type": "Sale",
+          "shares": 1227.0,
+          "pricePerShare": 110.581,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "MONTROSS SCOTT J",
+          "title": "President & CEO",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 109.3674,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "MONTROSS SCOTT J",
+          "title": "President & CEO",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 115.1274,
+          "transactionDate": "2026-08-17"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "LARSON KEITH R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1250.0,
+          "pricePerShare": 115.8631,
+          "transactionDate": "2026-08-17"
+        }
+      ]
+    },
+    "TRST": {
+      "issuerName": "TRUSTCO BANK CORP N Y",
+      "trades": [
+        {
+          "ticker": "TRST",
+          "issuerName": "TRUSTCO BANK CORP N Y",
+          "insiderName": "McCormick Lauren Ann",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 436.0,
+          "pricePerShare": 57.34,
+          "transactionDate": "2026-09-02"
+        }
+      ]
+    },
     "LUCK": {
       "issuerName": "Lucky Strike Entertainment Corp",
       "trades": [
@@ -32592,16 +32672,6 @@
           "shares": 9845.0,
           "pricePerShare": 9.9922,
           "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "EVCM",
-          "issuerName": "EverCommerce Inc.",
-          "insiderName": "Siurek Ryan H",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 16812.0,
-          "pricePerShare": 10.2067,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -35947,16 +36017,6 @@
           "shares": 50000.0,
           "pricePerShare": 13.8485,
           "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "HAYW",
-          "issuerName": "Hayward Holdings, Inc.",
-          "insiderName": "Canning Susan M.",
-          "title": "SVP, CLO, Corporate Secretary",
-          "type": "Sale",
-          "shares": 3500.0,
-          "pricePerShare": 15.06,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -38140,6 +38200,76 @@
         }
       ]
     },
+    "CRVL": {
+      "issuerName": "CORVEL CORP",
+      "trades": [
+        {
+          "ticker": "CRVL",
+          "issuerName": "CORVEL CORP",
+          "insiderName": "JESSUP R JUDD",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 4023.0,
+          "pricePerShare": 70.07,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "CRVL",
+          "issuerName": "CORVEL CORP",
+          "insiderName": "Yoss Jennifer",
+          "title": "Vice President of Accounting",
+          "type": "Sale",
+          "shares": 2100.0,
+          "pricePerShare": 70.915,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "VICR": {
+      "issuerName": "VICOR CORP",
+      "trades": [
+        {
+          "ticker": "VICR",
+          "issuerName": "VICOR CORP",
+          "insiderName": "Davies Philip D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1173.0,
+          "pricePerShare": 176.5922,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "VICR",
+          "issuerName": "VICOR CORP",
+          "insiderName": "Davies Philip D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 177.6312,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "VICR",
+          "issuerName": "VICOR CORP",
+          "insiderName": "Davies Philip D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 700.0,
+          "pricePerShare": 178.66,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "VICR",
+          "issuerName": "VICOR CORP",
+          "insiderName": "Davies Philip D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 184.85,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
     "SRTS": {
       "issuerName": "Sensus Healthcare, Inc.",
       "trades": [
@@ -39880,61 +40010,6 @@
         }
       ]
     },
-    "NWPX": {
-      "issuerName": "NWPX Infrastructure, Inc.",
-      "trades": [
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "LARSON KEITH R",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1172.0,
-          "pricePerShare": 110.0398,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "MONTROSS SCOTT J",
-          "title": "President & CEO",
-          "type": "Sale",
-          "shares": 1227.0,
-          "pricePerShare": 110.581,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "MONTROSS SCOTT J",
-          "title": "President & CEO",
-          "type": "Sale",
-          "shares": 2500.0,
-          "pricePerShare": 109.3674,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "MONTROSS SCOTT J",
-          "title": "President & CEO",
-          "type": "Sale",
-          "shares": 2500.0,
-          "pricePerShare": 115.1274,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "LARSON KEITH R",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1250.0,
-          "pricePerShare": 115.8631,
-          "transactionDate": "2026-08-17"
-        }
-      ]
-    },
     "UONEK": {
       "issuerName": "URBAN ONE, INC.",
       "trades": [
@@ -40317,16 +40392,6 @@
           "shares": 125000.0,
           "pricePerShare": 86.0,
           "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AUGO",
-          "issuerName": "Aura Minerals Inc.",
-          "insiderName": "Sousa Mauad Bruno",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 11000.0,
-          "pricePerShare": 78.93,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -59435,21 +59500,6 @@
         }
       ]
     },
-    "CRVL": {
-      "issuerName": "CORVEL CORP",
-      "trades": [
-        {
-          "ticker": "CRVL",
-          "issuerName": "CORVEL CORP",
-          "insiderName": "Yoss Jennifer",
-          "title": "Vice President of Accounting",
-          "type": "Sale",
-          "shares": 2100.0,
-          "pricePerShare": 70.915,
-          "transactionDate": "2026-08-20"
-        }
-      ]
-    },
     "PKG": {
       "issuerName": "PACKAGING CORP OF AMERICA",
       "trades": [
@@ -61667,16 +61717,6 @@
           "shares": 11704.0,
           "pricePerShare": 20.44,
           "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "QNST",
-          "issuerName": "QUINSTREET, INC",
-          "insiderName": "Ahmed Asmau",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 10000.0,
-          "pricePerShare": 20.3,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -61692,16 +61732,6 @@
           "shares": 8189.0,
           "pricePerShare": 21.97,
           "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "FRPH",
-          "issuerName": "FRP HOLDINGS, INC.",
-          "insiderName": "BAKER JOHN D II",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 957.0,
-          "pricePerShare": 21.9687,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -63454,31 +63484,6 @@
           "transactionDate": "2026-08-17"
         }
       ]
-    },
-    "ALXO": {
-      "issuerName": "ALX ONCOLOGY HOLDINGS INC",
-      "trades": [
-        {
-          "ticker": "ALXO",
-          "issuerName": "ALX ONCOLOGY HOLDINGS INC",
-          "insiderName": "Lettmann Jason",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2230.0,
-          "pricePerShare": 1.93,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "ALXO",
-          "issuerName": "ALX ONCOLOGY HOLDINGS INC",
-          "insiderName": "Wong Shelly",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 573.0,
-          "pricePerShare": 1.93,
-          "transactionDate": "2026-08-17"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63557,6 +63562,7 @@
       "0000025475-26-000070",
       "0000025475-26-000072",
       "0000025475-26-000076",
+      "0000025475-26-000078",
       "0000026058-26-000030",
       "0000027996-26-000119",
       "0000029644-26-000073",
@@ -63806,6 +63812,7 @@
       "0000070502-26-000589",
       "0000070502-26-000597",
       "0000070502-26-000599",
+      "0000070502-26-000601",
       "0000070858-26-000359",
       "0000070858-26-000368",
       "0000070858-26-000409",
@@ -64080,6 +64087,7 @@
       "0000706863-26-000075",
       "0000707179-26-000047",
       "0000707179-26-000048",
+      "0000707179-26-000059",
       "0000707605-26-000050",
       "0000707605-26-000052",
       "0000708955-26-000136",
@@ -66051,6 +66059,8 @@
       "0000950103-26-013544",
       "0000950103-26-013545",
       "0000950103-26-013546",
+      "0000950103-26-013549",
+      "0000950103-26-013550",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -67378,6 +67388,7 @@
       "0001104659-26-104972",
       "0001104659-26-104981",
       "0001104659-26-104986",
+      "0001104659-26-105037",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68132,6 +68143,7 @@
       "0001140361-26-035539",
       "0001140361-26-035547",
       "0001140361-26-035553",
+      "0001140361-26-035560",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -71566,6 +71578,14 @@
       "0001193125-26-381426",
       "0001193125-26-381514",
       "0001193125-26-381567",
+      "0001193125-26-381653",
+      "0001193125-26-381669",
+      "0001193125-26-381670",
+      "0001193125-26-381677",
+      "0001193125-26-381697",
+      "0001193125-26-381698",
+      "0001193125-26-381699",
+      "0001193125-26-381739",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -71587,6 +71607,7 @@
       "0001196963-26-000002",
       "0001198444-26-000010",
       "0001198872-26-000009",
+      "0001199696-26-000006",
       "0001199835-26-000310",
       "0001199835-26-000312",
       "0001199835-26-000314",
@@ -71605,6 +71626,7 @@
       "0001204034-26-000021",
       "0001204034-26-000023",
       "0001204612-26-000004",
+      "0001204612-26-000008",
       "0001204816-26-000026",
       "0001204816-26-000028",
       "0001204816-26-000040",
@@ -72911,6 +72933,9 @@
       "0001213900-26-097078",
       "0001213900-26-097079",
       "0001213900-26-097081",
+      "0001213900-26-097127",
+      "0001213900-26-097133",
+      "0001213900-26-097145",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74012,6 +74037,7 @@
       "0001398344-26-016245",
       "0001398344-26-016327",
       "0001398344-26-016472",
+      "0001398344-26-016529",
       "0001399967-26-000002",
       "0001401257-26-000064",
       "0001401336-26-000020",
@@ -74463,6 +74489,7 @@
       "0001437749-26-029547",
       "0001437749-26-029558",
       "0001437749-26-029565",
+      "0001437749-26-029587",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -75583,6 +75610,7 @@
       "0001528621-26-000919",
       "0001528621-26-000920",
       "0001528621-26-000921",
+      "0001528621-26-000922",
       "0001529306-26-000005",
       "0001530038-26-000002",
       "0001530255-26-000010",
@@ -75742,6 +75770,7 @@
       "0001568982-26-000004",
       "0001569789-26-000012",
       "0001569880-26-000012",
+      "0001570337-26-000014",
       "0001570465-26-000004",
       "0001570465-26-000005",
       "0001570465-26-000006",
@@ -76823,6 +76852,14 @@
       "0001628280-26-060287",
       "0001628280-26-060294",
       "0001628280-26-060295",
+      "0001628280-26-060319",
+      "0001628280-26-060320",
+      "0001628280-26-060321",
+      "0001628280-26-060322",
+      "0001628280-26-060323",
+      "0001628280-26-060324",
+      "0001628280-26-060325",
+      "0001628280-26-060339",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -80509,6 +80546,22 @@
       "0001839882-26-044056",
       "0001839882-26-044057",
       "0001839882-26-044058",
+      "0001839882-26-044067",
+      "0001839882-26-044068",
+      "0001839882-26-044069",
+      "0001839882-26-044070",
+      "0001839882-26-044071",
+      "0001839882-26-044072",
+      "0001839882-26-044073",
+      "0001839882-26-044074",
+      "0001839882-26-044075",
+      "0001839882-26-044076",
+      "0001839882-26-044077",
+      "0001839882-26-044078",
+      "0001839882-26-044079",
+      "0001839882-26-044080",
+      "0001839882-26-044081",
+      "0001839882-26-044082",
       "0001840244-26-000015",
       "0001840599-26-000003",
       "0001840706-26-000265",
@@ -83758,6 +83811,13 @@
       "0001918704-26-026542",
       "0001918704-26-026545",
       "0001918704-26-026546",
+      "0001918704-26-026547",
+      "0001918704-26-026548",
+      "0001918704-26-026549",
+      "0001918704-26-026552",
+      "0001918704-26-026553",
+      "0001918704-26-026556",
+      "0001918704-26-026557",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -84651,6 +84711,7 @@
       "0002035989-26-000078",
       "0002036536-26-000010",
       "0002037071-26-000001",
+      "0002037071-26-000003",
       "0002037266-26-000006",
       "0002037312-26-000003",
       "0002037321-26-000003",
