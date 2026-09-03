@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T10:05:09.960663+00:00",
+  "generatedAt": "2026-09-03T11:02:16.384316+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -491,6 +491,16 @@
       "type": "Sale",
       "shares": 2041.0,
       "pricePerShare": 6.96,
+      "transactionDate": "2026-09-02"
+    },
+    {
+      "ticker": "YQ",
+      "issuerName": "17 Education & Technology Group Inc.",
+      "insiderName": "Liu Chang",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 9055.0,
+      "pricePerShare": 2.1887,
       "transactionDate": "2026-09-02"
     },
     {
@@ -2081,6 +2091,26 @@
       "type": "Sale",
       "shares": 3177.0,
       "pricePerShare": 109.0425,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "ESEA",
+      "issuerName": "EUROSEAS LTD.",
+      "insiderName": "Pariaros Symeon",
+      "title": "Chief Administrative Officer",
+      "type": "Sale",
+      "shares": 950.0,
+      "pricePerShare": 79.0,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "AIIR",
+      "issuerName": "AIR Global PLC",
+      "insiderName": "Lotfy Bassem",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 50.0,
+      "pricePerShare": 7.5,
       "transactionDate": "2026-09-01"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 13686.0,
       "pricePerShare": 119.63,
       "transactionDate": "2026-08-17"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 16115.0,
-      "pricePerShare": 120.44,
-      "transactionDate": "2026-08-17"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 199.0,
-      "pricePerShare": 121.19,
-      "transactionDate": "2026-08-17"
-    },
-    {
-      "ticker": "AFL",
-      "issuerName": "AFLAC INC",
-      "insiderName": "Japan Post Holdings Co., Ltd.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 12690.0,
-      "pricePerShare": 121.26,
-      "transactionDate": "2026-08-17"
     }
   ],
   "byTicker": {
@@ -31092,6 +31092,51 @@
           "shares": 2041.0,
           "pricePerShare": 6.96,
           "transactionDate": "2026-09-02"
+        }
+      ]
+    },
+    "YQ": {
+      "issuerName": "17 Education & Technology Group Inc.",
+      "trades": [
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 9055.0,
+          "pricePerShare": 2.1887,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 4001.0,
+          "pricePerShare": 2.1074,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 9216.0,
+          "pricePerShare": 2.1622,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "YQ",
+          "issuerName": "17 Education & Technology Group Inc.",
+          "insiderName": "Liu Chang",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 846.0,
+          "pricePerShare": 2.457,
+          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -33947,26 +33992,6 @@
           "shares": 13686.0,
           "pricePerShare": 119.63,
           "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 16115.0,
-          "pricePerShare": 120.44,
-          "transactionDate": "2026-08-17"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 199.0,
-          "pricePerShare": 121.19,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -36670,6 +36695,56 @@
         }
       ]
     },
+    "ESEA": {
+      "issuerName": "EUROSEAS LTD.",
+      "trades": [
+        {
+          "ticker": "ESEA",
+          "issuerName": "EUROSEAS LTD.",
+          "insiderName": "Pariaros Symeon",
+          "title": "Chief Administrative Officer",
+          "type": "Sale",
+          "shares": 950.0,
+          "pricePerShare": 79.0,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "ESEA",
+          "issuerName": "EUROSEAS LTD.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 375.0,
+          "pricePerShare": 75.8645,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "ESEA",
+          "issuerName": "EUROSEAS LTD.",
+          "insiderName": "Pittas Aristeidis P",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 375.0,
+          "pricePerShare": 75.8645,
+          "transactionDate": "2026-08-27"
+        }
+      ]
+    },
+    "AIIR": {
+      "issuerName": "AIR Global PLC",
+      "trades": [
+        {
+          "ticker": "AIIR",
+          "issuerName": "AIR Global PLC",
+          "insiderName": "Lotfy Bassem",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 50.0,
+          "pricePerShare": 7.5,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
     "SRTS": {
       "issuerName": "Sensus Healthcare, Inc.",
       "trades": [
@@ -38717,16 +38792,6 @@
           "shares": 590.0,
           "pricePerShare": 122.65,
           "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12690.0,
-          "pricePerShare": 121.26,
-          "transactionDate": "2026-08-17"
         }
       ]
     },
@@ -40417,41 +40482,6 @@
           "shares": 7800.0,
           "pricePerShare": 8.83,
           "transactionDate": "2026-08-28"
-        }
-      ]
-    },
-    "YQ": {
-      "issuerName": "17 Education & Technology Group Inc.",
-      "trades": [
-        {
-          "ticker": "YQ",
-          "issuerName": "17 Education & Technology Group Inc.",
-          "insiderName": "Liu Chang",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 4001.0,
-          "pricePerShare": 2.1074,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "YQ",
-          "issuerName": "17 Education & Technology Group Inc.",
-          "insiderName": "Liu Chang",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 9216.0,
-          "pricePerShare": 2.1622,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "YQ",
-          "issuerName": "17 Education & Technology Group Inc.",
-          "insiderName": "Liu Chang",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 846.0,
-          "pricePerShare": 2.457,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -43257,31 +43287,6 @@
           "shares": 500.0,
           "pricePerShare": 19.75,
           "transactionDate": "2026-08-17"
-        }
-      ]
-    },
-    "ESEA": {
-      "issuerName": "EUROSEAS LTD.",
-      "trades": [
-        {
-          "ticker": "ESEA",
-          "issuerName": "EUROSEAS LTD.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 375.0,
-          "pricePerShare": 75.8645,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "ESEA",
-          "issuerName": "EUROSEAS LTD.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 375.0,
-          "pricePerShare": 75.8645,
-          "transactionDate": "2026-08-27"
         }
       ]
     },
@@ -71459,6 +71464,23 @@
       "0001193125-26-380711",
       "0001193125-26-380713",
       "0001193125-26-380714",
+      "0001193125-26-380881",
+      "0001193125-26-380882",
+      "0001193125-26-380913",
+      "0001193125-26-380914",
+      "0001193125-26-380918",
+      "0001193125-26-380919",
+      "0001193125-26-380922",
+      "0001193125-26-380923",
+      "0001193125-26-380928",
+      "0001193125-26-380929",
+      "0001193125-26-380938",
+      "0001193125-26-380939",
+      "0001193125-26-380942",
+      "0001193125-26-380943",
+      "0001193125-26-380960",
+      "0001193125-26-380997",
+      "0001193125-26-381001",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72784,6 +72806,9 @@
       "0001213900-26-096874",
       "0001213900-26-096878",
       "0001213900-26-096885",
+      "0001213900-26-096902",
+      "0001213900-26-096911",
+      "0001213900-26-096914",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -75151,6 +75176,8 @@
       "0001493152-26-041284",
       "0001493152-26-041285",
       "0001493152-26-041290",
+      "0001493152-26-041300",
+      "0001493152-26-041301",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -75173,6 +75200,7 @@
       "0001494794-26-000008",
       "0001495594-26-000005",
       "0001495791-26-000005",
+      "0001495791-26-000009",
       "0001496862-26-000006",
       "0001497570-26-000013",
       "0001498270-26-000010",
@@ -76877,6 +76905,7 @@
       "0001673356-26-000008",
       "0001673358-26-000129",
       "0001673358-26-000131",
+      "0001673358-26-000133",
       "0001673421-26-000014",
       "0001673528-26-000014",
       "0001674260-26-000004",
@@ -77319,6 +77348,7 @@
       "0001764372-26-000003",
       "0001764530-26-000005",
       "0001764727-26-000008",
+      "0001765056-26-000003",
       "0001765114-26-000012",
       "0001765729-26-000010",
       "0001766116-26-000022",
@@ -80436,6 +80466,7 @@
       "0001871703-26-000002",
       "0001872100-26-000003",
       "0001872111-26-000007",
+      "0001872111-26-000011",
       "0001872274-26-000002",
       "0001872886-26-000009",
       "0001872955-26-000010",
@@ -83493,6 +83524,7 @@
       "0001945031-26-000013",
       "0001945228-26-000005",
       "0001945691-26-000008",
+      "0001946085-26-000008",
       "0001946411-26-000006",
       "0001946411-26-000007",
       "0001946684-26-000013",
@@ -84345,6 +84377,7 @@
       "0002044416-26-000008",
       "0002044800-26-000006",
       "0002044927-26-000005",
+      "0002044927-26-000009",
       "0002045034-26-000003",
       "0002045034-26-000005",
       "0002045064-26-000004",
@@ -84711,6 +84744,7 @@
       "0002122338-26-000007",
       "0002122342-26-000005",
       "0002122342-26-000006",
+      "0002122342-26-000008",
       "0002122411-26-000001",
       "0002122771-26-000003",
       "0002122855-26-000006",
