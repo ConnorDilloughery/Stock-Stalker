@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T19:00:54.933802+00:00",
+  "generatedAt": "2026-09-04T20:03:05.865691+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -521,6 +521,46 @@
       "type": "Purchase",
       "shares": 412.0,
       "pricePerShare": 16.4,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "OPFI",
+      "issuerName": "OppFi Inc.",
+      "insiderName": "Schwartz Todd G.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 3450.0,
+      "pricePerShare": 7.3348,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "PDD",
+      "issuerName": "PDD Holdings Inc.",
+      "insiderName": "Kam Anthony Ping Leung",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1705.0,
+      "pricePerShare": 82.2,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "ACTG",
+      "issuerName": "ACACIA RESEARCH CORP",
+      "insiderName": "OCONNELL MAUREEN",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 12466.0,
+      "pricePerShare": 4.57,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "TFSL",
+      "issuerName": "TFS Financial CORP",
+      "insiderName": "WEIL MEREDITH S",
+      "title": "Director, Chief Financial Officer",
+      "type": "Sale",
+      "shares": 5861.0,
+      "pricePerShare": 17.53,
       "transactionDate": "2026-09-03"
     },
     {
@@ -2461,6 +2501,26 @@
       "type": "Sale",
       "shares": 6510.0,
       "pricePerShare": 27.265,
+      "transactionDate": "2026-09-02"
+    },
+    {
+      "ticker": "ACTG",
+      "issuerName": "ACACIA RESEARCH CORP",
+      "insiderName": "OCONNELL MAUREEN",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 20534.0,
+      "pricePerShare": 4.63,
+      "transactionDate": "2026-09-02"
+    },
+    {
+      "ticker": "MSCI",
+      "issuerName": "MSCI Inc.",
+      "insiderName": "Taneja Rajat",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1786.0,
+      "pricePerShare": 560.0,
       "transactionDate": "2026-09-02"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 2000.0,
       "pricePerShare": 2.52,
       "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "ZD",
-      "issuerName": "ZIFF DAVIS, INC.",
-      "insiderName": "KRETZMER W BRIAN",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2513.0,
-      "pricePerShare": 55.31,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "WW",
-      "issuerName": "WW INTERNATIONAL, INC.",
-      "insiderName": "Sjoqvist Nikolaj H",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 7235.0,
-      "pricePerShare": 13.84,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "FLD",
-      "issuerName": "Fold Holdings, Inc.",
-      "insiderName": "Reeves William Brian Poppic",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 9619.0,
-      "pricePerShare": 0.451,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "OLED",
-      "issuerName": "UNIVERSAL DISPLAY CORP \\PA\\",
-      "insiderName": "LACERTE LAWRENCE",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 4653.0,
-      "pricePerShare": 84.94,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "OLED",
-      "issuerName": "UNIVERSAL DISPLAY CORP \\PA\\",
-      "insiderName": "LACERTE LAWRENCE",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 314.0,
-      "pricePerShare": 85.56,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "insiderName": "Whaley Susan Street",
-      "title": "Chief Legal Officer & Secy",
-      "type": "Sale",
-      "shares": 8644.0,
-      "pricePerShare": 144.0,
-      "transactionDate": "2026-08-18"
     }
   ],
   "byTicker": {
@@ -32852,6 +32852,116 @@
           "shares": 412.0,
           "pricePerShare": 16.4,
           "transactionDate": "2026-09-03"
+        }
+      ]
+    },
+    "OPFI": {
+      "issuerName": "OppFi Inc.",
+      "trades": [
+        {
+          "ticker": "OPFI",
+          "issuerName": "OppFi Inc.",
+          "insiderName": "Schwartz Todd G.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 3450.0,
+          "pricePerShare": 7.3348,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "OPFI",
+          "issuerName": "OppFi Inc.",
+          "insiderName": "Schwartz Todd G.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 3550.0,
+          "pricePerShare": 6.9133,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "OPFI",
+          "issuerName": "OppFi Inc.",
+          "insiderName": "Schwartz Todd G.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 3475.0,
+          "pricePerShare": 7.1455,
+          "transactionDate": "2026-08-24"
+        }
+      ]
+    },
+    "PDD": {
+      "issuerName": "PDD Holdings Inc.",
+      "trades": [
+        {
+          "ticker": "PDD",
+          "issuerName": "PDD Holdings Inc.",
+          "insiderName": "Kam Anthony Ping Leung",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1705.0,
+          "pricePerShare": 82.2,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
+    "ACTG": {
+      "issuerName": "ACACIA RESEARCH CORP",
+      "trades": [
+        {
+          "ticker": "ACTG",
+          "issuerName": "ACACIA RESEARCH CORP",
+          "insiderName": "OCONNELL MAUREEN",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 12466.0,
+          "pricePerShare": 4.57,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "ACTG",
+          "issuerName": "ACACIA RESEARCH CORP",
+          "insiderName": "OCONNELL MAUREEN",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 20534.0,
+          "pricePerShare": 4.63,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "ACTG",
+          "issuerName": "ACACIA RESEARCH CORP",
+          "insiderName": "OCONNELL MAUREEN",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 4.6,
+          "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "TFSL": {
+      "issuerName": "TFS Financial CORP",
+      "trades": [
+        {
+          "ticker": "TFSL",
+          "issuerName": "TFS Financial CORP",
+          "insiderName": "WEIL MEREDITH S",
+          "title": "Director, Chief Financial Officer",
+          "type": "Sale",
+          "shares": 5861.0,
+          "pricePerShare": 17.53,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "TFSL",
+          "issuerName": "TFS Financial CORP",
+          "insiderName": "WEIL MEREDITH S",
+          "title": "Director, Chief Financial Officer",
+          "type": "Sale",
+          "shares": 600.0,
+          "pricePerShare": 18.0,
+          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -36502,16 +36612,6 @@
           "shares": 9480.0,
           "pricePerShare": 0.452,
           "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "FLD",
-          "issuerName": "Fold Holdings, Inc.",
-          "insiderName": "Reeves William Brian Poppic",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 9619.0,
-          "pricePerShare": 0.451,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -36982,6 +37082,21 @@
           "shares": 2000.0,
           "pricePerShare": 26.87,
           "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "MSCI": {
+      "issuerName": "MSCI Inc.",
+      "trades": [
+        {
+          "ticker": "MSCI",
+          "issuerName": "MSCI Inc.",
+          "insiderName": "Taneja Rajat",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1786.0,
+          "pricePerShare": 560.0,
+          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -39622,31 +39737,6 @@
           "shares": 3535.0,
           "pricePerShare": 193.43,
           "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "OPFI": {
-      "issuerName": "OppFi Inc.",
-      "trades": [
-        {
-          "ticker": "OPFI",
-          "issuerName": "OppFi Inc.",
-          "insiderName": "Schwartz Todd G.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 3550.0,
-          "pricePerShare": 6.9133,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "OPFI",
-          "issuerName": "OppFi Inc.",
-          "insiderName": "Schwartz Todd G.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 3475.0,
-          "pricePerShare": 7.1455,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -46132,21 +46222,6 @@
           "shares": 907.0,
           "pricePerShare": 42.86,
           "transactionDate": "2026-08-25"
-        }
-      ]
-    },
-    "TFSL": {
-      "issuerName": "TFS Financial CORP",
-      "trades": [
-        {
-          "ticker": "TFSL",
-          "issuerName": "TFS Financial CORP",
-          "insiderName": "WEIL MEREDITH S",
-          "title": "Director, Chief Financial Officer",
-          "type": "Sale",
-          "shares": 600.0,
-          "pricePerShare": 18.0,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -57492,16 +57567,6 @@
           "shares": 3053.0,
           "pricePerShare": 143.79,
           "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "PG",
-          "issuerName": "PROCTER & GAMBLE Co",
-          "insiderName": "Whaley Susan Street",
-          "title": "Chief Legal Officer & Secy",
-          "type": "Sale",
-          "shares": 8644.0,
-          "pricePerShare": 144.0,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -62260,21 +62325,6 @@
         }
       ]
     },
-    "ACTG": {
-      "issuerName": "ACACIA RESEARCH CORP",
-      "trades": [
-        {
-          "ticker": "ACTG",
-          "issuerName": "ACACIA RESEARCH CORP",
-          "insiderName": "OCONNELL MAUREEN",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 10000.0,
-          "pricePerShare": 4.6,
-          "transactionDate": "2026-08-19"
-        }
-      ]
-    },
     "CX": {
       "issuerName": "CEMEX SAB DE CV",
       "trades": [
@@ -63499,61 +63549,6 @@
           "transactionDate": "2026-08-18"
         }
       ]
-    },
-    "ZD": {
-      "issuerName": "ZIFF DAVIS, INC.",
-      "trades": [
-        {
-          "ticker": "ZD",
-          "issuerName": "ZIFF DAVIS, INC.",
-          "insiderName": "KRETZMER W BRIAN",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2513.0,
-          "pricePerShare": 55.31,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "WW": {
-      "issuerName": "WW INTERNATIONAL, INC.",
-      "trades": [
-        {
-          "ticker": "WW",
-          "issuerName": "WW INTERNATIONAL, INC.",
-          "insiderName": "Sjoqvist Nikolaj H",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 7235.0,
-          "pricePerShare": 13.84,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "OLED": {
-      "issuerName": "UNIVERSAL DISPLAY CORP \\PA\\",
-      "trades": [
-        {
-          "ticker": "OLED",
-          "issuerName": "UNIVERSAL DISPLAY CORP \\PA\\",
-          "insiderName": "LACERTE LAWRENCE",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4653.0,
-          "pricePerShare": 84.94,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "OLED",
-          "issuerName": "UNIVERSAL DISPLAY CORP \\PA\\",
-          "insiderName": "LACERTE LAWRENCE",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 314.0,
-          "pricePerShare": 85.56,
-          "transactionDate": "2026-08-18"
-        }
-      ]
     }
   },
   "_meta": {
@@ -64003,6 +63998,7 @@
       "0000093410-26-000183",
       "0000093751-26-000393",
       "0000093751-26-000575",
+      "0000093751-26-000577",
       "0000094049-26-000116",
       "0000097745-26-000146",
       "0000097745-26-000150",
@@ -64817,6 +64813,7 @@
       "0000905148-26-003960",
       "0000905148-26-004009",
       "0000905148-26-004066",
+      "0000905148-26-004082",
       "0000906107-26-000049",
       "0000906107-26-000050",
       "0000906107-26-000051",
@@ -65055,6 +65052,7 @@
       "0000930413-26-002635",
       "0000930413-26-002781",
       "0000930413-26-002782",
+      "0000931148-26-000077",
       "0000932781-26-000045",
       "0000933094-26-000026",
       "0000933094-26-000027",
@@ -66190,6 +66188,15 @@
       "0000950103-26-013602",
       "0000950103-26-013603",
       "0000950103-26-013605",
+      "0000950103-26-013607",
+      "0000950103-26-013608",
+      "0000950103-26-013609",
+      "0000950103-26-013610",
+      "0000950103-26-013611",
+      "0000950103-26-013612",
+      "0000950103-26-013613",
+      "0000950103-26-013614",
+      "0000950103-26-013615",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -67568,6 +67575,12 @@
       "0001104659-26-105361",
       "0001104659-26-105362",
       "0001104659-26-105400",
+      "0001104659-26-105466",
+      "0001104659-26-105467",
+      "0001104659-26-105481",
+      "0001104659-26-105483",
+      "0001104659-26-105484",
+      "0001104659-26-105486",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -67590,6 +67603,7 @@
       "0001110499-26-000003",
       "0001110803-26-000169",
       "0001111318-26-000009",
+      "0001111318-26-000012",
       "0001111565-26-000009",
       "0001111928-26-000157",
       "0001114357-26-000027",
@@ -68340,6 +68354,7 @@
       "0001140361-26-035702",
       "0001140361-26-035736",
       "0001140361-26-035779",
+      "0001140361-26-035786",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -71865,6 +71880,11 @@
       "0001193125-26-383469",
       "0001193125-26-383470",
       "0001193125-26-383485",
+      "0001193125-26-383552",
+      "0001193125-26-383569",
+      "0001193125-26-383572",
+      "0001193125-26-383587",
+      "0001193125-26-383592",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73248,6 +73268,9 @@
       "0001213900-26-097588",
       "0001213900-26-097589",
       "0001213900-26-097599",
+      "0001213900-26-097618",
+      "0001213900-26-097633",
+      "0001213900-26-097650",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -73546,6 +73569,12 @@
       "0001214659-26-011419",
       "0001214659-26-011420",
       "0001214659-26-011444",
+      "0001214659-26-011448",
+      "0001214659-26-011449",
+      "0001214659-26-011451",
+      "0001214659-26-011452",
+      "0001214659-26-011453",
+      "0001214659-26-011454",
       "0001214993-26-000004",
       "0001215135-26-000012",
       "0001215315-26-000038",
@@ -73779,6 +73808,7 @@
       "0001225208-26-007680",
       "0001225208-26-007681",
       "0001225208-26-007682",
+      "0001225208-26-007684",
       "0001225481-26-000006",
       "0001225817-26-000008",
       "0001227384-26-000017",
@@ -74146,6 +74176,7 @@
       "0001361091-26-000017",
       "0001361091-26-000019",
       "0001361096-26-000005",
+      "0001362674-26-000004",
       "0001363249-26-000058",
       "0001363249-26-000063",
       "0001363249-26-000064",
@@ -74205,6 +74236,7 @@
       "0001385613-26-000116",
       "0001385613-26-000119",
       "0001385613-26-000121",
+      "0001385613-26-000127",
       "0001385849-26-000030",
       "0001385849-26-000031",
       "0001385849-26-000032",
@@ -74391,6 +74423,7 @@
       "0001398344-26-016542",
       "0001398344-26-016645",
       "0001398344-26-016661",
+      "0001398344-26-016712",
       "0001399967-26-000002",
       "0001401257-26-000064",
       "0001401336-26-000020",
@@ -74441,6 +74474,7 @@
       "0001415666-26-000008",
       "0001416646-26-000002",
       "0001417341-26-000002",
+      "0001419425-26-000007",
       "0001419945-26-000057",
       "0001419945-26-000059",
       "0001419945-26-000061",
@@ -75720,6 +75754,7 @@
       "0001493152-26-041402",
       "0001493152-26-041436",
       "0001493152-26-041442",
+      "0001493152-26-041526",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -76002,12 +76037,14 @@
       "0001530255-26-000010",
       "0001530819-26-000012",
       "0001530997-26-000010",
+      "0001530997-26-000012",
       "0001531183-26-000018",
       "0001531352-26-000009",
       "0001532010-26-000003",
       "0001532218-26-000016",
       "0001532388-26-000004",
       "0001532431-26-000014",
+      "0001532601-26-000007",
       "0001533568-26-000012",
       "0001534574-26-000014",
       "0001534701-26-000026",
@@ -76311,6 +76348,7 @@
       "0001580642-26-006044",
       "0001580642-26-006057",
       "0001580642-26-006060",
+      "0001580642-26-006064",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -77821,6 +77859,7 @@
       "0001726283-26-000004",
       "0001726591-26-000011",
       "0001727004-26-000010",
+      "0001727074-26-000131",
       "0001727227-26-000004",
       "0001727396-26-000007",
       "0001727396-26-000009",
@@ -78014,6 +78053,7 @@
       "0001767033-26-000010",
       "0001767258-26-000068",
       "0001767603-26-000012",
+      "0001767612-26-000003",
       "0001767659-26-000017",
       "0001767799-26-000003",
       "0001769052-26-000009",
@@ -78648,6 +78688,8 @@
       "0001829126-26-009753",
       "0001829126-26-009754",
       "0001829126-26-009757",
+      "0001829126-26-009771",
+      "0001829126-26-009772",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -81103,6 +81145,11 @@
       "0001839882-26-044269",
       "0001839882-26-044270",
       "0001839882-26-044271",
+      "0001839882-26-044273",
+      "0001839882-26-044274",
+      "0001839882-26-044277",
+      "0001839882-26-044278",
+      "0001839882-26-044280",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840599-26-000003",
@@ -84439,6 +84486,14 @@
       "0001918704-26-026691",
       "0001918704-26-026692",
       "0001918704-26-026693",
+      "0001918704-26-026698",
+      "0001918704-26-026699",
+      "0001918704-26-026700",
+      "0001918704-26-026701",
+      "0001918704-26-026702",
+      "0001918704-26-026703",
+      "0001918704-26-026704",
+      "0001918704-26-026705",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -85184,6 +85239,8 @@
       "0001999371-26-019920",
       "0001999371-26-019922",
       "0001999371-26-019924",
+      "0001999371-26-019931",
+      "0001999371-26-019939",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
