@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T18:05:05.024240+00:00",
+  "generatedAt": "2026-09-04T19:00:54.933802+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -11,6 +11,16 @@
       "type": "Sale",
       "shares": 15000.0,
       "pricePerShare": 0.7846,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "LPA",
+      "issuerName": "Logistic Properties of the Americas",
+      "insiderName": "Marquina Javier",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1760.0,
+      "pricePerShare": 3.08,
       "transactionDate": "2026-09-04"
     },
     {
@@ -491,6 +501,26 @@
       "type": "Purchase",
       "shares": 20.0,
       "pricePerShare": 11.68,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "AORT",
+      "issuerName": "ARTIVION, INC.",
+      "insiderName": "GREEN ANDREW M",
+      "title": "SVP, Regulatory and Quality",
+      "type": "Sale",
+      "shares": 1493.0,
+      "pricePerShare": 26.016,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "FUSB",
+      "issuerName": "FIRST US BANCSHARES, INC.",
+      "insiderName": "FIELD Robert C",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 412.0,
+      "pricePerShare": 16.4,
       "transactionDate": "2026-09-03"
     },
     {
@@ -2421,6 +2451,16 @@
       "type": "Purchase",
       "shares": 2000.0,
       "pricePerShare": 27.15,
+      "transactionDate": "2026-09-02"
+    },
+    {
+      "ticker": "AORT",
+      "issuerName": "ARTIVION, INC.",
+      "insiderName": "GREEN ANDREW M",
+      "title": "SVP, Regulatory and Quality",
+      "type": "Sale",
+      "shares": 6510.0,
+      "pricePerShare": 27.265,
       "transactionDate": "2026-09-02"
     },
     {
@@ -5921,6 +5961,16 @@
       "type": "Purchase",
       "shares": 2000.0,
       "pricePerShare": 26.87,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "LPA",
+      "issuerName": "Logistic Properties of the Americas",
+      "insiderName": "Marquina Javier",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1800.0,
+      "pricePerShare": 3.09,
       "transactionDate": "2026-09-01"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 8644.0,
       "pricePerShare": 144.0,
       "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "SUJA",
-      "issuerName": "SUJA LIFE, INC.",
-      "insiderName": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 189300.0,
-      "pricePerShare": 6.73,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "SKYE",
-      "issuerName": "Skye Bioscience, Inc.",
-      "insiderName": "Schwab Andrew J.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 45090.0,
-      "pricePerShare": 0.38,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "SKYE",
-      "issuerName": "Skye Bioscience, Inc.",
-      "insiderName": "Schwab Andrew J.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1830.0,
-      "pricePerShare": 0.38,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "SKYE",
-      "issuerName": "Skye Bioscience, Inc.",
-      "insiderName": "Schwab Andrew J.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 253080.0,
-      "pricePerShare": 0.38,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "SKYE",
-      "issuerName": "Skye Bioscience, Inc.",
-      "insiderName": "5AM Partners VII, LLC",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 45090.0,
-      "pricePerShare": 0.38,
-      "transactionDate": "2026-08-18"
     }
   ],
   "byTicker": {
@@ -30017,6 +30017,61 @@
           "shares": 15000.0,
           "pricePerShare": 0.7846,
           "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "LPA": {
+      "issuerName": "Logistic Properties of the Americas",
+      "trades": [
+        {
+          "ticker": "LPA",
+          "issuerName": "Logistic Properties of the Americas",
+          "insiderName": "Marquina Javier",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1760.0,
+          "pricePerShare": 3.08,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "LPA",
+          "issuerName": "Logistic Properties of the Americas",
+          "insiderName": "Marquina Javier",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1800.0,
+          "pricePerShare": 3.09,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "LPA",
+          "issuerName": "Logistic Properties of the Americas",
+          "insiderName": "McDonald Thomas",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 1821.0,
+          "pricePerShare": 3.2538,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "LPA",
+          "issuerName": "Logistic Properties of the Americas",
+          "insiderName": "McDonald Thomas",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 3.25,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LPA",
+          "issuerName": "Logistic Properties of the Americas",
+          "insiderName": "McDonald Thomas",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 2955.0,
+          "pricePerShare": 3.2644,
+          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -32746,6 +32801,56 @@
           "type": "Purchase",
           "shares": 20.0,
           "pricePerShare": 11.68,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
+    "AORT": {
+      "issuerName": "ARTIVION, INC.",
+      "trades": [
+        {
+          "ticker": "AORT",
+          "issuerName": "ARTIVION, INC.",
+          "insiderName": "GREEN ANDREW M",
+          "title": "SVP, Regulatory and Quality",
+          "type": "Sale",
+          "shares": 1493.0,
+          "pricePerShare": 26.016,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "AORT",
+          "issuerName": "ARTIVION, INC.",
+          "insiderName": "GREEN ANDREW M",
+          "title": "SVP, Regulatory and Quality",
+          "type": "Sale",
+          "shares": 6510.0,
+          "pricePerShare": 27.265,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "AORT",
+          "issuerName": "ARTIVION, INC.",
+          "insiderName": "Mackin James P",
+          "title": "President & CEO",
+          "type": "Sale",
+          "shares": 70000.0,
+          "pricePerShare": 28.955,
+          "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "FUSB": {
+      "issuerName": "FIRST US BANCSHARES, INC.",
+      "trades": [
+        {
+          "ticker": "FUSB",
+          "issuerName": "FIRST US BANCSHARES, INC.",
+          "insiderName": "FIELD Robert C",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 412.0,
+          "pricePerShare": 16.4,
           "transactionDate": "2026-09-03"
         }
       ]
@@ -45727,16 +45832,6 @@
           "shares": 189300.0,
           "pricePerShare": 7.11,
           "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "SUJA",
-          "issuerName": "SUJA LIFE, INC.",
-          "insiderName": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 189300.0,
-          "pricePerShare": 6.73,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -50302,41 +50397,6 @@
           "shares": 22298.0,
           "pricePerShare": 34.0,
           "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "LPA": {
-      "issuerName": "Logistic Properties of the Americas",
-      "trades": [
-        {
-          "ticker": "LPA",
-          "issuerName": "Logistic Properties of the Americas",
-          "insiderName": "McDonald Thomas",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 1821.0,
-          "pricePerShare": 3.2538,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "LPA",
-          "issuerName": "Logistic Properties of the Americas",
-          "insiderName": "McDonald Thomas",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 3.25,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LPA",
-          "issuerName": "Logistic Properties of the Americas",
-          "insiderName": "McDonald Thomas",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 2955.0,
-          "pricePerShare": 3.2644,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -59402,46 +59462,6 @@
           "shares": 57476.0,
           "pricePerShare": 0.35,
           "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "SKYE",
-          "issuerName": "Skye Bioscience, Inc.",
-          "insiderName": "Schwab Andrew J.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 45090.0,
-          "pricePerShare": 0.38,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "SKYE",
-          "issuerName": "Skye Bioscience, Inc.",
-          "insiderName": "Schwab Andrew J.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1830.0,
-          "pricePerShare": 0.38,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "SKYE",
-          "issuerName": "Skye Bioscience, Inc.",
-          "insiderName": "Schwab Andrew J.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 253080.0,
-          "pricePerShare": 0.38,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "SKYE",
-          "issuerName": "Skye Bioscience, Inc.",
-          "insiderName": "5AM Partners VII, LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 45090.0,
-          "pricePerShare": 0.38,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -61746,21 +61766,6 @@
           "type": "Purchase",
           "shares": 300.0,
           "pricePerShare": 38.395,
-          "transactionDate": "2026-08-19"
-        }
-      ]
-    },
-    "AORT": {
-      "issuerName": "ARTIVION, INC.",
-      "trades": [
-        {
-          "ticker": "AORT",
-          "issuerName": "ARTIVION, INC.",
-          "insiderName": "Mackin James P",
-          "title": "President & CEO",
-          "type": "Sale",
-          "shares": 70000.0,
-          "pricePerShare": 28.955,
           "transactionDate": "2026-08-19"
         }
       ]
@@ -66182,6 +66187,9 @@
       "0000950103-26-013589",
       "0000950103-26-013599",
       "0000950103-26-013600",
+      "0000950103-26-013602",
+      "0000950103-26-013603",
+      "0000950103-26-013605",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -68331,6 +68339,7 @@
       "0001140361-26-035677",
       "0001140361-26-035702",
       "0001140361-26-035736",
+      "0001140361-26-035779",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -71844,6 +71853,18 @@
       "0001193125-26-383385",
       "0001193125-26-383388",
       "0001193125-26-383389",
+      "0001193125-26-383399",
+      "0001193125-26-383407",
+      "0001193125-26-383411",
+      "0001193125-26-383413",
+      "0001193125-26-383453",
+      "0001193125-26-383460",
+      "0001193125-26-383464",
+      "0001193125-26-383467",
+      "0001193125-26-383468",
+      "0001193125-26-383469",
+      "0001193125-26-383470",
+      "0001193125-26-383485",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73224,6 +73245,9 @@
       "0001213900-26-097568",
       "0001213900-26-097570",
       "0001213900-26-097578",
+      "0001213900-26-097588",
+      "0001213900-26-097589",
+      "0001213900-26-097599",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -73521,6 +73545,7 @@
       "0001214659-26-011418",
       "0001214659-26-011419",
       "0001214659-26-011420",
+      "0001214659-26-011444",
       "0001214993-26-000004",
       "0001215135-26-000012",
       "0001215315-26-000038",
@@ -76284,6 +76309,8 @@
       "0001580642-26-006009",
       "0001580642-26-006037",
       "0001580642-26-006044",
+      "0001580642-26-006057",
+      "0001580642-26-006060",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -77261,6 +77288,10 @@
       "0001628280-26-060610",
       "0001628280-26-060616",
       "0001628280-26-060618",
+      "0001628280-26-060667",
+      "0001628280-26-060685",
+      "0001628280-26-060687",
+      "0001628280-26-060690",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -81057,6 +81088,21 @@
       "0001839882-26-044247",
       "0001839882-26-044250",
       "0001839882-26-044251",
+      "0001839882-26-044256",
+      "0001839882-26-044257",
+      "0001839882-26-044258",
+      "0001839882-26-044259",
+      "0001839882-26-044260",
+      "0001839882-26-044262",
+      "0001839882-26-044263",
+      "0001839882-26-044264",
+      "0001839882-26-044265",
+      "0001839882-26-044266",
+      "0001839882-26-044267",
+      "0001839882-26-044268",
+      "0001839882-26-044269",
+      "0001839882-26-044270",
+      "0001839882-26-044271",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840599-26-000003",
@@ -84380,6 +84426,19 @@
       "0001918704-26-026678",
       "0001918704-26-026679",
       "0001918704-26-026680",
+      "0001918704-26-026681",
+      "0001918704-26-026682",
+      "0001918704-26-026683",
+      "0001918704-26-026684",
+      "0001918704-26-026685",
+      "0001918704-26-026686",
+      "0001918704-26-026687",
+      "0001918704-26-026688",
+      "0001918704-26-026689",
+      "0001918704-26-026690",
+      "0001918704-26-026691",
+      "0001918704-26-026692",
+      "0001918704-26-026693",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -84679,6 +84738,7 @@
       "0001995565-26-000003",
       "0001996255-26-000004",
       "0001997711-26-000147",
+      "0001997711-26-000149",
       "0001998242-26-000004",
       "0001998256-26-000009",
       "0001998256-26-000011",
@@ -85121,6 +85181,9 @@
       "0001999371-26-019903",
       "0001999371-26-019906",
       "0001999371-26-019910",
+      "0001999371-26-019920",
+      "0001999371-26-019922",
+      "0001999371-26-019924",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -85700,6 +85763,7 @@
       "0002114067-26-000004",
       "0002114197-26-000007",
       "0002114274-26-000004",
+      "0002114304-26-000001",
       "0002114309-26-000007",
       "0002114888-26-000013",
       "0002114987-26-000002",
