@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T16:03:05.568390+00:00",
+  "generatedAt": "2026-09-04T17:02:50.272615+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -391,6 +391,76 @@
       "type": "Sale",
       "shares": 2000.0,
       "pricePerShare": 36.11,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "SO",
+      "issuerName": "SOUTHERN CO",
+      "insiderName": "Kim Matthew M.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1400.0,
+      "pricePerShare": 88.87,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "SO",
+      "issuerName": "SOUTHERN CO",
+      "insiderName": "Sena Peter P III",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 4266.0,
+      "pricePerShare": 88.59,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "ITRI",
+      "issuerName": "ITRON, INC.",
+      "insiderName": "Patrick Justin K",
+      "title": "SVP, Device Solutions",
+      "type": "Sale",
+      "shares": 7883.0,
+      "pricePerShare": 97.36,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "ITRI",
+      "issuerName": "ITRON, INC.",
+      "insiderName": "Patrick Justin K",
+      "title": "SVP, Device Solutions",
+      "type": "Sale",
+      "shares": 593.0,
+      "pricePerShare": 97.36,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "ITRI",
+      "issuerName": "ITRON, INC.",
+      "insiderName": "Patrick Justin K",
+      "title": "SVP, Device Solutions",
+      "type": "Sale",
+      "shares": 581.0,
+      "pricePerShare": 97.36,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "ITRI",
+      "issuerName": "ITRON, INC.",
+      "insiderName": "Patrick Justin K",
+      "title": "SVP, Device Solutions",
+      "type": "Sale",
+      "shares": 1153.0,
+      "pricePerShare": 97.36,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 2.95,
       "transactionDate": "2026-09-03"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 13967.0,
       "pricePerShare": 32.2128,
       "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "CHYM",
-      "issuerName": "Chime Financial, Inc.",
-      "insiderName": "DST Global Advisors Ltd",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 16877.0,
-      "pricePerShare": 32.2128,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "CHYM",
-      "issuerName": "Chime Financial, Inc.",
-      "insiderName": "DST Global Advisors Ltd",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 49018.0,
-      "pricePerShare": 32.2128,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "CHYM",
-      "issuerName": "Chime Financial, Inc.",
-      "insiderName": "DST Global Advisors Ltd",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 25489.0,
-      "pricePerShare": 32.2128,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "CHYM",
-      "issuerName": "Chime Financial, Inc.",
-      "insiderName": "DST Global Advisors Ltd",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 3309.0,
-      "pricePerShare": 32.2128,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "CLPR",
-      "issuerName": "Clipper Realty Inc.",
-      "insiderName": "Levinson Sam",
-      "title": "Director, 10% Owner",
-      "type": "Purchase",
-      "shares": 86983.0,
-      "pricePerShare": 3.1485,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "EXPE",
-      "issuerName": "Expedia Group, Inc.",
-      "insiderName": "Soliday Lance A",
-      "title": "SVP & Chief Accounting Officer",
-      "type": "Sale",
-      "shares": 2810.0,
-      "pricePerShare": 323.65,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "CHYM",
-      "issuerName": "Chime Financial, Inc.",
-      "insiderName": "DST Global Advisors Ltd",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 161949.0,
-      "pricePerShare": 32.2128,
-      "transactionDate": "2026-08-18"
     }
   ],
   "byTicker": {
@@ -32367,6 +32367,311 @@
           "shares": 1124.0,
           "pricePerShare": 36.0,
           "transactionDate": "2026-09-02"
+        }
+      ]
+    },
+    "SO": {
+      "issuerName": "SOUTHERN CO",
+      "trades": [
+        {
+          "ticker": "SO",
+          "issuerName": "SOUTHERN CO",
+          "insiderName": "Kim Matthew M.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1400.0,
+          "pricePerShare": 88.87,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "SO",
+          "issuerName": "SOUTHERN CO",
+          "insiderName": "Sena Peter P III",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4266.0,
+          "pricePerShare": 88.59,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "SO",
+          "issuerName": "SOUTHERN CO",
+          "insiderName": "Kim Matthew M.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 88.45,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "ITRI": {
+      "issuerName": "ITRON, INC.",
+      "trades": [
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Patrick Justin K",
+          "title": "SVP, Device Solutions",
+          "type": "Sale",
+          "shares": 7883.0,
+          "pricePerShare": 97.36,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Patrick Justin K",
+          "title": "SVP, Device Solutions",
+          "type": "Sale",
+          "shares": 593.0,
+          "pricePerShare": 97.36,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Patrick Justin K",
+          "title": "SVP, Device Solutions",
+          "type": "Sale",
+          "shares": 581.0,
+          "pricePerShare": 97.36,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Patrick Justin K",
+          "title": "SVP, Device Solutions",
+          "type": "Sale",
+          "shares": 1153.0,
+          "pricePerShare": 97.36,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Reeves Donald L. III",
+          "title": "SVP, Outcomes",
+          "type": "Sale",
+          "shares": 283.0,
+          "pricePerShare": 99.99,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Reeves Donald L. III",
+          "title": "SVP, Outcomes",
+          "type": "Sale",
+          "shares": 247.0,
+          "pricePerShare": 98.87,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Ware Christopher E.",
+          "title": "SVP, GC & Corp. Secretary",
+          "type": "Sale",
+          "shares": 195.0,
+          "pricePerShare": 97.8259,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Pulatie-Hahn Laurie Ann",
+          "title": "SVP, HR",
+          "type": "Sale",
+          "shares": 187.0,
+          "pricePerShare": 97.8259,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Patrick Justin K",
+          "title": "SVP, Device Solutions",
+          "type": "Sale",
+          "shares": 212.0,
+          "pricePerShare": 97.8259,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Marcolini John F.",
+          "title": "SVP, Networked Solutions",
+          "type": "Sale",
+          "shares": 275.0,
+          "pricePerShare": 97.8259,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Deitrich Thomas",
+          "title": "Director, President & CEO",
+          "type": "Sale",
+          "shares": 783.0,
+          "pricePerShare": 97.8259,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Hooper Joan S",
+          "title": "SVP & CFO",
+          "type": "Sale",
+          "shares": 365.0,
+          "pricePerShare": 97.8259,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "ITRI",
+          "issuerName": "ITRON, INC.",
+          "insiderName": "Hooper Joan S",
+          "title": "SVP & CFO",
+          "type": "Sale",
+          "shares": 4041.0,
+          "pricePerShare": 98.95,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "RCG": {
+      "issuerName": "RENN Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.94,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.93,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.87,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.87,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.8,
+          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -40340,21 +40645,6 @@
         }
       ]
     },
-    "SO": {
-      "issuerName": "SOUTHERN CO",
-      "trades": [
-        {
-          "ticker": "SO",
-          "issuerName": "SOUTHERN CO",
-          "insiderName": "Kim Matthew M.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 88.45,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
     "SSM": {
       "issuerName": "Sono Group N.V.",
       "trades": [
@@ -42367,56 +42657,6 @@
           "shares": 13967.0,
           "pricePerShare": 32.2128,
           "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "DST Global Advisors Ltd",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 16877.0,
-          "pricePerShare": 32.2128,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "DST Global Advisors Ltd",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 49018.0,
-          "pricePerShare": 32.2128,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "DST Global Advisors Ltd",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 25489.0,
-          "pricePerShare": 32.2128,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "DST Global Advisors Ltd",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3309.0,
-          "pricePerShare": 32.2128,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "DST Global Advisors Ltd",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 161949.0,
-          "pricePerShare": 32.2128,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -43972,131 +44212,6 @@
           "shares": 500.0,
           "pricePerShare": 240.87,
           "transactionDate": "2026-08-31"
-        }
-      ]
-    },
-    "RCG": {
-      "issuerName": "RENN Fund, Inc.",
-      "trades": [
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "Kesslen Jay H",
-          "title": "Vice-President",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.94,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "Kesslen Jay H",
-          "title": "Vice-President",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 2.93,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "Kesslen Jay H",
-          "title": "Vice-President",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 2.87,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.87,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.8,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -52345,101 +52460,6 @@
         }
       ]
     },
-    "ITRI": {
-      "issuerName": "ITRON, INC.",
-      "trades": [
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Reeves Donald L. III",
-          "title": "SVP, Outcomes",
-          "type": "Sale",
-          "shares": 283.0,
-          "pricePerShare": 99.99,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Reeves Donald L. III",
-          "title": "SVP, Outcomes",
-          "type": "Sale",
-          "shares": 247.0,
-          "pricePerShare": 98.87,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Ware Christopher E.",
-          "title": "SVP, GC & Corp. Secretary",
-          "type": "Sale",
-          "shares": 195.0,
-          "pricePerShare": 97.8259,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Pulatie-Hahn Laurie Ann",
-          "title": "SVP, HR",
-          "type": "Sale",
-          "shares": 187.0,
-          "pricePerShare": 97.8259,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Patrick Justin K",
-          "title": "SVP, Device Solutions",
-          "type": "Sale",
-          "shares": 212.0,
-          "pricePerShare": 97.8259,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Marcolini John F.",
-          "title": "SVP, Networked Solutions",
-          "type": "Sale",
-          "shares": 275.0,
-          "pricePerShare": 97.8259,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Deitrich Thomas",
-          "title": "Director, President & CEO",
-          "type": "Sale",
-          "shares": 783.0,
-          "pricePerShare": 97.8259,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Hooper Joan S",
-          "title": "SVP & CFO",
-          "type": "Sale",
-          "shares": 365.0,
-          "pricePerShare": 97.8259,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Hooper Joan S",
-          "title": "SVP & CFO",
-          "type": "Sale",
-          "shares": 4041.0,
-          "pricePerShare": 98.95,
-          "transactionDate": "2026-08-20"
-        }
-      ]
-    },
     "RAPP": {
       "issuerName": "Rapport Therapeutics, Inc.",
       "trades": [
@@ -59432,16 +59452,6 @@
           "shares": 9260.0,
           "pricePerShare": 3.142,
           "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "CLPR",
-          "issuerName": "Clipper Realty Inc.",
-          "insiderName": "Levinson Sam",
-          "title": "Director, 10% Owner",
-          "type": "Purchase",
-          "shares": 86983.0,
-          "pricePerShare": 3.1485,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -63524,21 +63534,6 @@
           "transactionDate": "2026-08-18"
         }
       ]
-    },
-    "EXPE": {
-      "issuerName": "Expedia Group, Inc.",
-      "trades": [
-        {
-          "ticker": "EXPE",
-          "issuerName": "Expedia Group, Inc.",
-          "insiderName": "Soliday Lance A",
-          "title": "SVP & Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 2810.0,
-          "pricePerShare": 323.65,
-          "transactionDate": "2026-08-18"
-        }
-      ]
     }
   },
   "_meta": {
@@ -64347,6 +64342,7 @@
       "0000780571-26-000194",
       "0000780571-26-000196",
       "0000780571-26-000214",
+      "0000780571-26-000216",
       "0000784977-26-000048",
       "0000785161-26-000190",
       "0000785161-26-000191",
@@ -66160,6 +66156,8 @@
       "0000950103-26-013562",
       "0000950103-26-013563",
       "0000950103-26-013589",
+      "0000950103-26-013599",
+      "0000950103-26-013600",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66326,6 +66324,7 @@
       "0001040674-26-000047",
       "0001040674-26-000061",
       "0001040674-26-000072",
+      "0001040674-26-000105",
       "0001041061-26-000153",
       "0001041061-26-000155",
       "0001041061-26-000167",
@@ -68305,6 +68304,7 @@
       "0001140361-26-035651",
       "0001140361-26-035677",
       "0001140361-26-035702",
+      "0001140361-26-035736",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -68366,6 +68366,7 @@
       "0001174610-26-000547",
       "0001174610-26-000556",
       "0001174610-26-000557",
+      "0001174610-26-000562",
       "0001174850-26-000159",
       "0001174850-26-000162",
       "0001174947-26-000721",
@@ -71802,6 +71803,14 @@
       "0001193125-26-382966",
       "0001193125-26-383051",
       "0001193125-26-383190",
+      "0001193125-26-383200",
+      "0001193125-26-383256",
+      "0001193125-26-383260",
+      "0001193125-26-383284",
+      "0001193125-26-383299",
+      "0001193125-26-383300",
+      "0001193125-26-383301",
+      "0001193125-26-383302",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73705,6 +73714,9 @@
       "0001225208-26-007642",
       "0001225208-26-007643",
       "0001225208-26-007644",
+      "0001225208-26-007680",
+      "0001225208-26-007681",
+      "0001225208-26-007682",
       "0001225481-26-000006",
       "0001225817-26-000008",
       "0001227384-26-000017",
@@ -74315,6 +74327,8 @@
       "0001398344-26-016537",
       "0001398344-26-016540",
       "0001398344-26-016542",
+      "0001398344-26-016645",
+      "0001398344-26-016661",
       "0001399967-26-000002",
       "0001401257-26-000064",
       "0001401336-26-000020",
@@ -74779,6 +74793,7 @@
       "0001437749-26-029633",
       "0001437749-26-029649",
       "0001437749-26-029670",
+      "0001437749-26-029683",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -75916,6 +75931,7 @@
       "0001528621-26-000921",
       "0001528621-26-000922",
       "0001528621-26-000924",
+      "0001528621-26-000925",
       "0001529306-26-000005",
       "0001530038-26-000002",
       "0001530255-26-000010",
@@ -76226,6 +76242,8 @@
       "0001580642-26-005950",
       "0001580642-26-006008",
       "0001580642-26-006009",
+      "0001580642-26-006037",
+      "0001580642-26-006044",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -77837,6 +77855,7 @@
       "0001749355-26-000006",
       "0001749623-26-000003",
       "0001750052-26-000040",
+      "0001750155-26-000121",
       "0001750705-26-000008",
       "0001750913-26-000003",
       "0001751719-26-000008",
@@ -80985,6 +81004,11 @@
       "0001839882-26-044201",
       "0001839882-26-044203",
       "0001839882-26-044204",
+      "0001839882-26-044241",
+      "0001839882-26-044242",
+      "0001839882-26-044243",
+      "0001839882-26-044244",
+      "0001839882-26-044247",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840599-26-000003",
@@ -84284,6 +84308,17 @@
       "0001918704-26-026620",
       "0001918704-26-026621",
       "0001918704-26-026622",
+      "0001918704-26-026654",
+      "0001918704-26-026655",
+      "0001918704-26-026656",
+      "0001918704-26-026657",
+      "0001918704-26-026660",
+      "0001918704-26-026661",
+      "0001918704-26-026662",
+      "0001918704-26-026663",
+      "0001918704-26-026664",
+      "0001918704-26-026665",
+      "0001918704-26-026666",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -85019,6 +85054,8 @@
       "0001999371-26-019854",
       "0001999371-26-019856",
       "0001999371-26-019858",
+      "0001999371-26-019881",
+      "0001999371-26-019888",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
