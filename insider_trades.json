@@ -1,8 +1,28 @@
 {
-  "generatedAt": "2026-09-04T17:02:50.272615+00:00",
+  "generatedAt": "2026-09-04T18:05:05.024240+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "INTZ",
+      "issuerName": "INTRUSION INC",
+      "insiderName": "Hinchcliffe Dion",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 15000.0,
+      "pricePerShare": 0.7846,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "NEGG",
+      "issuerName": "Newegg Commerce, Inc.",
+      "insiderName": "CHANG FRED FACHING",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3582.0,
+      "pricePerShare": 16.4,
+      "transactionDate": "2026-09-03-05:00"
+    },
     {
       "ticker": "HFWA",
       "issuerName": "HERITAGE FINANCIAL CORP /WA/",
@@ -462,6 +482,26 @@
       "shares": 756.0,
       "pricePerShare": 2.95,
       "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "CLBK",
+      "issuerName": "Columbia Financial, Inc./MD/",
+      "insiderName": "Holland Noel R.",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 20.0,
+      "pricePerShare": 11.68,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "NEGG",
+      "issuerName": "Newegg Commerce, Inc.",
+      "insiderName": "CHANG FRED FACHING",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 23582.0,
+      "pricePerShare": 16.77,
+      "transactionDate": "2026-09-02-05:00"
     },
     {
       "ticker": "AVA",
@@ -2362,6 +2402,36 @@
       "shares": 13500.0,
       "pricePerShare": 117.19,
       "transactionDate": "2026-09-02"
+    },
+    {
+      "ticker": "GROV",
+      "issuerName": "Grove Collaborative Holdings, Inc.",
+      "insiderName": "Landesberg Stuart",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 5384.0,
+      "pricePerShare": 1.0293,
+      "transactionDate": "2026-09-02"
+    },
+    {
+      "ticker": "SMID",
+      "issuerName": "SMITH MIDLAND CORP",
+      "insiderName": "Smith Matthew I",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 2000.0,
+      "pricePerShare": 27.15,
+      "transactionDate": "2026-09-02"
+    },
+    {
+      "ticker": "NEGG",
+      "issuerName": "Newegg Commerce, Inc.",
+      "insiderName": "CHANG FRED FACHING",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3582.0,
+      "pricePerShare": 15.873,
+      "transactionDate": "2026-09-01-05:00"
     },
     {
       "ticker": "LUCK",
@@ -5841,6 +5911,16 @@
       "type": "Sale",
       "shares": 1698.0,
       "pricePerShare": 320.99,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "SMID",
+      "issuerName": "SMITH MIDLAND CORP",
+      "insiderName": "SMITH ASHLEY B",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 2000.0,
+      "pricePerShare": 26.87,
       "transactionDate": "2026-09-01"
     },
     {
@@ -29922,89 +30002,69 @@
       "shares": 45090.0,
       "pricePerShare": 0.38,
       "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "SKYE",
-      "issuerName": "Skye Bioscience, Inc.",
-      "insiderName": "5AM Partners VII, LLC",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1830.0,
-      "pricePerShare": 0.38,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "SKYE",
-      "issuerName": "Skye Bioscience, Inc.",
-      "insiderName": "5AM Partners VII, LLC",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 253080.0,
-      "pricePerShare": 0.38,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "HTFL",
-      "issuerName": "Heartflow, Inc.",
-      "insiderName": "Farquhar John C.M.",
-      "title": "Director, Chief Executive Officer",
-      "type": "Sale",
-      "shares": 32676.0,
-      "pricePerShare": 45.0,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "ADPT",
-      "issuerName": "Adaptive Biotechnologies Corp",
-      "insiderName": "HERSHBERG ROBERT",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 15000.0,
-      "pricePerShare": 24.39,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "ADPT",
-      "issuerName": "Adaptive Biotechnologies Corp",
-      "insiderName": "HERSHBERG ROBERT",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 15664.0,
-      "pricePerShare": 24.41,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "CHYM",
-      "issuerName": "Chime Financial, Inc.",
-      "insiderName": "DST Global Advisors Ltd",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 161949.0,
-      "pricePerShare": 32.2128,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "CHYM",
-      "issuerName": "Chime Financial, Inc.",
-      "insiderName": "DST Global Advisors Ltd",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 83203.0,
-      "pricePerShare": 32.2128,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "CHYM",
-      "issuerName": "Chime Financial, Inc.",
-      "insiderName": "DST Global Advisors Ltd",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 13967.0,
-      "pricePerShare": 32.2128,
-      "transactionDate": "2026-08-18"
     }
   ],
   "byTicker": {
+    "INTZ": {
+      "issuerName": "INTRUSION INC",
+      "trades": [
+        {
+          "ticker": "INTZ",
+          "issuerName": "INTRUSION INC",
+          "insiderName": "Hinchcliffe Dion",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 15000.0,
+          "pricePerShare": 0.7846,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "NEGG": {
+      "issuerName": "Newegg Commerce, Inc.",
+      "trades": [
+        {
+          "ticker": "NEGG",
+          "issuerName": "Newegg Commerce, Inc.",
+          "insiderName": "CHANG FRED FACHING",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3582.0,
+          "pricePerShare": 16.4,
+          "transactionDate": "2026-09-03-05:00"
+        },
+        {
+          "ticker": "NEGG",
+          "issuerName": "Newegg Commerce, Inc.",
+          "insiderName": "CHANG FRED FACHING",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 23582.0,
+          "pricePerShare": 16.77,
+          "transactionDate": "2026-09-02-05:00"
+        },
+        {
+          "ticker": "NEGG",
+          "issuerName": "Newegg Commerce, Inc.",
+          "insiderName": "CHANG FRED FACHING",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3582.0,
+          "pricePerShare": 15.873,
+          "transactionDate": "2026-09-01-05:00"
+        },
+        {
+          "ticker": "NEGG",
+          "issuerName": "Newegg Commerce, Inc.",
+          "insiderName": "Chen Michael",
+          "title": "Chief Legal Officer",
+          "type": "Sale",
+          "shares": 67.0,
+          "pricePerShare": 16.28,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
     "HFWA": {
       "issuerName": "HERITAGE FINANCIAL CORP /WA/",
       "trades": [
@@ -32675,6 +32735,21 @@
         }
       ]
     },
+    "CLBK": {
+      "issuerName": "Columbia Financial, Inc./MD/",
+      "trades": [
+        {
+          "ticker": "CLBK",
+          "issuerName": "Columbia Financial, Inc./MD/",
+          "insiderName": "Holland Noel R.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 20.0,
+          "pricePerShare": 11.68,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
     "AVA": {
       "issuerName": "AVISTA CORP",
       "trades": [
@@ -33191,6 +33266,16 @@
           "type": "Purchase",
           "shares": 15200.0,
           "pricePerShare": 1.0761,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "GROV",
+          "issuerName": "Grove Collaborative Holdings, Inc.",
+          "insiderName": "Landesberg Stuart",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 5384.0,
+          "pricePerShare": 1.0293,
           "transactionDate": "2026-09-02"
         },
         {
@@ -36770,6 +36855,31 @@
         }
       ]
     },
+    "SMID": {
+      "issuerName": "SMITH MIDLAND CORP",
+      "trades": [
+        {
+          "ticker": "SMID",
+          "issuerName": "SMITH MIDLAND CORP",
+          "insiderName": "Smith Matthew I",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 27.15,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "SMID",
+          "issuerName": "SMITH MIDLAND CORP",
+          "insiderName": "SMITH ASHLEY B",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 26.87,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
     "LUCK": {
       "issuerName": "Lucky Strike Entertainment Corp",
       "trades": [
@@ -39271,21 +39381,6 @@
           "type": "Sale",
           "shares": 600.0,
           "pricePerShare": 1525.6,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "NEGG": {
-      "issuerName": "Newegg Commerce, Inc.",
-      "trades": [
-        {
-          "ticker": "NEGG",
-          "issuerName": "Newegg Commerce, Inc.",
-          "insiderName": "Chen Michael",
-          "title": "Chief Legal Officer",
-          "type": "Sale",
-          "shares": 67.0,
-          "pricePerShare": 16.28,
           "transactionDate": "2026-09-01"
         }
       ]
@@ -42627,36 +42722,6 @@
           "shares": 2662.0,
           "pricePerShare": 33.1139,
           "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "DST Global Advisors Ltd",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 161949.0,
-          "pricePerShare": 32.2128,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "DST Global Advisors Ltd",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 83203.0,
-          "pricePerShare": 32.2128,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "DST Global Advisors Ltd",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 13967.0,
-          "pricePerShare": 32.2128,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -51412,26 +51477,6 @@
           "shares": 9615.0,
           "pricePerShare": 26.0,
           "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "ADPT",
-          "issuerName": "Adaptive Biotechnologies Corp",
-          "insiderName": "HERSHBERG ROBERT",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 15000.0,
-          "pricePerShare": 24.39,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "ADPT",
-          "issuerName": "Adaptive Biotechnologies Corp",
-          "insiderName": "HERSHBERG ROBERT",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 15664.0,
-          "pricePerShare": 24.41,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -58617,16 +58662,6 @@
           "shares": 27230.0,
           "pricePerShare": 50.0,
           "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "HTFL",
-          "issuerName": "Heartflow, Inc.",
-          "insiderName": "Farquhar John C.M.",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 32676.0,
-          "pricePerShare": 45.0,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -59405,26 +59440,6 @@
           "title": "Reporting Person",
           "type": "Sale",
           "shares": 45090.0,
-          "pricePerShare": 0.38,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "SKYE",
-          "issuerName": "Skye Bioscience, Inc.",
-          "insiderName": "5AM Partners VII, LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1830.0,
-          "pricePerShare": 0.38,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "SKYE",
-          "issuerName": "Skye Bioscience, Inc.",
-          "insiderName": "5AM Partners VII, LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 253080.0,
           "pricePerShare": 0.38,
           "transactionDate": "2026-08-18"
         }
@@ -63866,6 +63881,10 @@
       "0000070502-26-000597",
       "0000070502-26-000599",
       "0000070502-26-000601",
+      "0000070502-26-000603",
+      "0000070502-26-000605",
+      "0000070502-26-000607",
+      "0000070502-26-000609",
       "0000070858-26-000359",
       "0000070858-26-000368",
       "0000070858-26-000409",
@@ -64392,6 +64411,9 @@
       "0000821581-26-000117",
       "0000821581-26-000118",
       "0000821581-26-000119",
+      "0000825063-26-000009",
+      "0000825063-26-000010",
+      "0000825063-26-000011",
       "0000826675-26-000084",
       "0000826734-26-000076",
       "0000826734-26-000097",
@@ -64660,6 +64682,7 @@
       "0000894189-26-025002",
       "0000894189-26-025003",
       "0000894189-26-025016",
+      "0000894189-26-025029",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -64938,6 +64961,7 @@
       "0000919574-26-006116",
       "0000919574-26-006137",
       "0000919574-26-006165",
+      "0000919574-26-006190",
       "0000920148-26-000172",
       "0000920148-26-000176",
       "0000920148-26-000177",
@@ -67817,6 +67841,8 @@
       "0001137360-26-000804",
       "0001137360-26-000843",
       "0001137360-26-000849",
+      "0001137360-26-000853",
+      "0001137360-26-000855",
       "0001137774-26-000193",
       "0001137789-26-000173",
       "0001137789-26-000196",
@@ -71811,6 +71837,13 @@
       "0001193125-26-383300",
       "0001193125-26-383301",
       "0001193125-26-383302",
+      "0001193125-26-383335",
+      "0001193125-26-383343",
+      "0001193125-26-383381",
+      "0001193125-26-383384",
+      "0001193125-26-383385",
+      "0001193125-26-383388",
+      "0001193125-26-383389",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73187,6 +73220,10 @@
       "0001213900-26-097494",
       "0001213900-26-097495",
       "0001213900-26-097496",
+      "0001213900-26-097556",
+      "0001213900-26-097568",
+      "0001213900-26-097570",
+      "0001213900-26-097578",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -75032,6 +75069,8 @@
       "0001445546-26-006516",
       "0001445546-26-006517",
       "0001445546-26-006526",
+      "0001445546-26-006548",
+      "0001445546-26-006549",
       "0001446066-26-000008",
       "0001448765-26-000011",
       "0001448765-26-000013",
@@ -75163,6 +75202,7 @@
       "0001477932-26-005130",
       "0001477932-26-005199",
       "0001477932-26-005399",
+      "0001477932-26-005422",
       "0001478669-26-000015",
       "0001478916-26-000015",
       "0001479079-26-000035",
@@ -77373,6 +77413,9 @@
       "0001654954-26-008093",
       "0001654954-26-008101",
       "0001654954-26-008104",
+      "0001654954-26-008126",
+      "0001654954-26-008127",
+      "0001654954-26-008138",
       "0001655400-26-000007",
       "0001655589-26-000970",
       "0001655589-26-000971",
@@ -77596,6 +77639,7 @@
       "0001683168-26-006928",
       "0001683168-26-006934",
       "0001683168-26-006936",
+      "0001683168-26-006953",
       "0001684532-26-000009",
       "0001684532-26-000013",
       "0001686308-26-000005",
@@ -77700,6 +77744,7 @@
       "0001709954-26-000012",
       "0001710094-26-000002",
       "0001710306-26-000003",
+      "0001710607-26-000225",
       "0001711462-26-000011",
       "0001711968-26-000018",
       "0001711968-26-000021",
@@ -77758,6 +77803,7 @@
       "0001729835-26-000011",
       "0001729840-26-000024",
       "0001729840-26-000026",
+      "0001729840-26-000030",
       "0001729859-26-000040",
       "0001729859-26-000044",
       "0001729859-26-000046",
@@ -81009,6 +81055,8 @@
       "0001839882-26-044243",
       "0001839882-26-044244",
       "0001839882-26-044247",
+      "0001839882-26-044250",
+      "0001839882-26-044251",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840599-26-000003",
@@ -81017,6 +81065,7 @@
       "0001840706-26-000292",
       "0001840706-26-000293",
       "0001841761-26-000092",
+      "0001841761-26-000094",
       "0001841794-26-000075",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -84319,6 +84368,18 @@
       "0001918704-26-026664",
       "0001918704-26-026665",
       "0001918704-26-026666",
+      "0001918704-26-026667",
+      "0001918704-26-026668",
+      "0001918704-26-026669",
+      "0001918704-26-026672",
+      "0001918704-26-026673",
+      "0001918704-26-026674",
+      "0001918704-26-026675",
+      "0001918704-26-026676",
+      "0001918704-26-026677",
+      "0001918704-26-026678",
+      "0001918704-26-026679",
+      "0001918704-26-026680",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -84578,6 +84639,7 @@
       "0001989065-26-000010",
       "0001989210-26-000017",
       "0001989421-26-000008",
+      "0001989421-26-000010",
       "0001989648-26-000014",
       "0001989913-26-000008",
       "0001990865-26-000009",
@@ -85056,6 +85118,9 @@
       "0001999371-26-019858",
       "0001999371-26-019881",
       "0001999371-26-019888",
+      "0001999371-26-019903",
+      "0001999371-26-019906",
+      "0001999371-26-019910",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
