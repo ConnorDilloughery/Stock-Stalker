@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-09-05T01:00:26.431685+00:00",
+  "generatedAt": "2026-09-05T02:05:38.348808+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "ASPI",
+      "issuerName": "ASP Isotopes Inc.",
+      "insiderName": "Mann Paul Elliot",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 83759.0,
+      "pricePerShare": 4.1,
+      "transactionDate": "2026-09-04-05:00"
+    },
     {
       "ticker": "INTZ",
       "issuerName": "INTRUSION INC",
@@ -744,6 +754,26 @@
       "transactionDate": "2026-09-04"
     },
     {
+      "ticker": "RXT",
+      "issuerName": "Rackspace Technology, Inc.",
+      "insiderName": "Kandiah Gajakarnan Vibushanan",
+      "title": "Director, Chief Executive Officer",
+      "type": "Sale",
+      "shares": 498728.0,
+      "pricePerShare": 3.21,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "ENOV",
+      "issuerName": "Enovis CORP",
+      "insiderName": "McDonald Damien",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 13035.0,
+      "pricePerShare": 19.15,
+      "transactionDate": "2026-09-04"
+    },
+    {
       "ticker": "NEGG",
       "issuerName": "Newegg Commerce, Inc.",
       "insiderName": "CHANG FRED FACHING",
@@ -751,6 +781,16 @@
       "type": "Sale",
       "shares": 3582.0,
       "pricePerShare": 16.4,
+      "transactionDate": "2026-09-03-05:00"
+    },
+    {
+      "ticker": "ASPI",
+      "issuerName": "ASP Isotopes Inc.",
+      "insiderName": "Mann Paul Elliot",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 83758.0,
+      "pricePerShare": 3.92,
       "transactionDate": "2026-09-03-05:00"
     },
     {
@@ -1714,6 +1754,36 @@
       "transactionDate": "2026-09-03"
     },
     {
+      "ticker": "BCDA",
+      "issuerName": "BioCardia, Inc.",
+      "insiderName": "Altman Peter",
+      "title": "Director, President and CEO",
+      "type": "Purchase",
+      "shares": 800.0,
+      "pricePerShare": 1.09,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "DFTX",
+      "issuerName": "Definium Therapeutics, Inc.",
+      "insiderName": "Barrow Robert",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 19023.0,
+      "pricePerShare": 37.94,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "ENOV",
+      "issuerName": "Enovis CORP",
+      "insiderName": "Engert Oliver",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 5140.0,
+      "pricePerShare": 19.46,
+      "transactionDate": "2026-09-03"
+    },
+    {
       "ticker": "NEGG",
       "issuerName": "Newegg Commerce, Inc.",
       "insiderName": "CHANG FRED FACHING",
@@ -1721,6 +1791,36 @@
       "type": "Sale",
       "shares": 23582.0,
       "pricePerShare": 16.77,
+      "transactionDate": "2026-09-02-05:00"
+    },
+    {
+      "ticker": "ASPI",
+      "issuerName": "ASP Isotopes Inc.",
+      "insiderName": "Ainscow Donald George",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 23678.0,
+      "pricePerShare": 3.89,
+      "transactionDate": "2026-09-02-05:00"
+    },
+    {
+      "ticker": "ASPI",
+      "issuerName": "ASP Isotopes Inc.",
+      "insiderName": "Ainscow Robert",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 25000.0,
+      "pricePerShare": 3.905,
+      "transactionDate": "2026-09-02-05:00"
+    },
+    {
+      "ticker": "ASPI",
+      "issuerName": "ASP Isotopes Inc.",
+      "insiderName": "Mann Paul Elliot",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 83758.0,
+      "pricePerShare": 3.91,
       "transactionDate": "2026-09-02-05:00"
     },
     {
@@ -4121,6 +4221,26 @@
       "type": "Sale",
       "shares": 105108.0,
       "pricePerShare": 9.0385,
+      "transactionDate": "2026-09-02"
+    },
+    {
+      "ticker": "LILA",
+      "issuerName": "Liberty Latin America Ltd.",
+      "insiderName": "DE ANGOITIA ALFONSO",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 313104.0,
+      "pricePerShare": 20.9511,
+      "transactionDate": "2026-09-02"
+    },
+    {
+      "ticker": "ENOV",
+      "issuerName": "Enovis CORP",
+      "insiderName": "Engert Oliver",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 2458.0,
+      "pricePerShare": 20.32,
       "transactionDate": "2026-09-02"
     },
     {
@@ -7644,6 +7764,16 @@
       "transactionDate": "2026-09-01"
     },
     {
+      "ticker": "LILA",
+      "issuerName": "Liberty Latin America Ltd.",
+      "insiderName": "DE ANGOITIA ALFONSO",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 17596.0,
+      "pricePerShare": 20.649,
+      "transactionDate": "2026-09-01"
+    },
+    {
       "ticker": "SRTS",
       "issuerName": "Sensus Healthcare, Inc.",
       "insiderName": "Sachetta Eric",
@@ -9171,6 +9301,16 @@
       "type": "Sale",
       "shares": 78145.0,
       "pricePerShare": 3.143,
+      "transactionDate": "2026-08-31"
+    },
+    {
+      "ticker": "LILA",
+      "issuerName": "Liberty Latin America Ltd.",
+      "insiderName": "DE ANGOITIA ALFONSO",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 145490.0,
+      "pricePerShare": 20.9999,
       "transactionDate": "2026-08-31"
     },
     {
@@ -29862,149 +30002,64 @@
       "shares": 19513.0,
       "pricePerShare": 47.07,
       "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "EDRY",
-      "issuerName": "EuroDry Ltd.",
-      "insiderName": "Pittas Aristeidis P",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 300.0,
-      "pricePerShare": 39.5,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "EDRY",
-      "issuerName": "EuroDry Ltd.",
-      "insiderName": "Pittas Aristeidis P",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 300.0,
-      "pricePerShare": 39.5,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "EDRY",
-      "issuerName": "EuroDry Ltd.",
-      "insiderName": "Pariaros Symeon",
-      "title": "Chief Administrative Officer",
-      "type": "Sale",
-      "shares": 2700.0,
-      "pricePerShare": 42.0,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "ALLT",
-      "issuerName": "Allot Ltd.",
-      "insiderName": "Groner Gili",
-      "title": "Chief Human Resources Officer",
-      "type": "Sale",
-      "shares": 26666.0,
-      "pricePerShare": 7.8582,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "PDX",
-      "issuerName": "PIMCO Dynamic Income Strategy Fund",
-      "insiderName": "Saba Capital Management, L.P.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 13396.0,
-      "pricePerShare": 21.77,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "ECAT",
-      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-      "insiderName": "Saba Capital Management, L.P.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 104309.0,
-      "pricePerShare": 15.26,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "NVRI",
-      "issuerName": "Enviri Corp",
-      "insiderName": "Minan Peter Francis",
-      "title": "Executive Vice President & CFO",
-      "type": "Purchase",
-      "shares": 2439.0,
-      "pricePerShare": 20.43,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "NVRI",
-      "issuerName": "Enviri Corp",
-      "insiderName": "Minan Peter Francis",
-      "title": "Executive Vice President & CFO",
-      "type": "Purchase",
-      "shares": 507.0,
-      "pricePerShare": 19.5,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "HBCP",
-      "issuerName": "HOME BANCORP, INC.",
-      "insiderName": "Zollinger John J. IV",
-      "title": "SEVP, Chief Banking Officer",
-      "type": "Sale",
-      "shares": 750.0,
-      "pricePerShare": 71.68,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "DGICA",
-      "issuerName": "DONEGAL GROUP INC",
-      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 10000.0,
-      "pricePerShare": 18.5955,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "REPX",
-      "issuerName": "Riley Exploration Permian, Inc.",
-      "insiderName": "Riley Philip A",
-      "title": "CFO & EVP STRATEGY",
-      "type": "Sale",
-      "shares": 4000.0,
-      "pricePerShare": 37.6051,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "SKYH",
-      "issuerName": "Sky Harbour Group Corp",
-      "insiderName": "Gonzalez Francisco",
-      "title": "Chief Financial Officer",
-      "type": "Purchase",
-      "shares": 1000.0,
-      "pricePerShare": 10.05,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "VTOL",
-      "issuerName": "Bristow Group Inc.",
-      "insiderName": "Brass Lorin L.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 46.545,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "UFPT",
-      "issuerName": "UFP TECHNOLOGIES INC",
-      "insiderName": "Hudson Symeria",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 298.0,
-      "pricePerShare": 319.11,
-      "transactionDate": "2026-08-18"
     }
   ],
   "byTicker": {
+    "ASPI": {
+      "issuerName": "ASP Isotopes Inc.",
+      "trades": [
+        {
+          "ticker": "ASPI",
+          "issuerName": "ASP Isotopes Inc.",
+          "insiderName": "Mann Paul Elliot",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 83759.0,
+          "pricePerShare": 4.1,
+          "transactionDate": "2026-09-04-05:00"
+        },
+        {
+          "ticker": "ASPI",
+          "issuerName": "ASP Isotopes Inc.",
+          "insiderName": "Mann Paul Elliot",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 83758.0,
+          "pricePerShare": 3.92,
+          "transactionDate": "2026-09-03-05:00"
+        },
+        {
+          "ticker": "ASPI",
+          "issuerName": "ASP Isotopes Inc.",
+          "insiderName": "Ainscow Donald George",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 23678.0,
+          "pricePerShare": 3.89,
+          "transactionDate": "2026-09-02-05:00"
+        },
+        {
+          "ticker": "ASPI",
+          "issuerName": "ASP Isotopes Inc.",
+          "insiderName": "Ainscow Robert",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 3.905,
+          "transactionDate": "2026-09-02-05:00"
+        },
+        {
+          "ticker": "ASPI",
+          "issuerName": "ASP Isotopes Inc.",
+          "insiderName": "Mann Paul Elliot",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 83758.0,
+          "pricePerShare": 3.91,
+          "transactionDate": "2026-09-02-05:00"
+        }
+      ]
+    },
     "INTZ": {
       "issuerName": "INTRUSION INC",
       "trades": [
@@ -32135,6 +32190,86 @@
         }
       ]
     },
+    "RXT": {
+      "issuerName": "Rackspace Technology, Inc.",
+      "trades": [
+        {
+          "ticker": "RXT",
+          "issuerName": "Rackspace Technology, Inc.",
+          "insiderName": "Kandiah Gajakarnan Vibushanan",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 498728.0,
+          "pricePerShare": 3.21,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "RXT",
+          "issuerName": "Rackspace Technology, Inc.",
+          "insiderName": "Marino Mark A.",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 51373.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "RXT",
+          "issuerName": "Rackspace Technology, Inc.",
+          "insiderName": "SINHA DHARMENDRA KUMAR",
+          "title": "EVP, President, Public Cloud",
+          "type": "Sale",
+          "shares": 107002.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "RXT",
+          "issuerName": "Rackspace Technology, Inc.",
+          "insiderName": "Kandiah Gajakarnan Vibushanan",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 8258.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-02"
+        }
+      ]
+    },
+    "ENOV": {
+      "issuerName": "Enovis CORP",
+      "trades": [
+        {
+          "ticker": "ENOV",
+          "issuerName": "Enovis CORP",
+          "insiderName": "McDonald Damien",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 13035.0,
+          "pricePerShare": 19.15,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "ENOV",
+          "issuerName": "Enovis CORP",
+          "insiderName": "Engert Oliver",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 5140.0,
+          "pricePerShare": 19.46,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "ENOV",
+          "issuerName": "Enovis CORP",
+          "insiderName": "Engert Oliver",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 2458.0,
+          "pricePerShare": 20.32,
+          "transactionDate": "2026-09-02"
+        }
+      ]
+    },
     "NEGG": {
       "issuerName": "Newegg Commerce, Inc.",
       "trades": [
@@ -32547,16 +32682,6 @@
           "shares": 1890.0,
           "pricePerShare": 46.5597,
           "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "VTOL",
-          "issuerName": "Bristow Group Inc.",
-          "insiderName": "Brass Lorin L.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 46.545,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -34337,16 +34462,6 @@
           "shares": 9700.0,
           "pricePerShare": 18.6105,
           "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.5955,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -36490,6 +36605,36 @@
         }
       ]
     },
+    "BCDA": {
+      "issuerName": "BioCardia, Inc.",
+      "trades": [
+        {
+          "ticker": "BCDA",
+          "issuerName": "BioCardia, Inc.",
+          "insiderName": "Altman Peter",
+          "title": "Director, President and CEO",
+          "type": "Purchase",
+          "shares": 800.0,
+          "pricePerShare": 1.09,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
+    "DFTX": {
+      "issuerName": "Definium Therapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "DFTX",
+          "issuerName": "Definium Therapeutics, Inc.",
+          "insiderName": "Barrow Robert",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 19023.0,
+          "pricePerShare": 37.94,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
     "AVA": {
       "issuerName": "AVISTA CORP",
       "trades": [
@@ -37445,41 +37590,6 @@
         }
       ]
     },
-    "RXT": {
-      "issuerName": "Rackspace Technology, Inc.",
-      "trades": [
-        {
-          "ticker": "RXT",
-          "issuerName": "Rackspace Technology, Inc.",
-          "insiderName": "Marino Mark A.",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 51373.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "RXT",
-          "issuerName": "Rackspace Technology, Inc.",
-          "insiderName": "SINHA DHARMENDRA KUMAR",
-          "title": "EVP, President, Public Cloud",
-          "type": "Sale",
-          "shares": 107002.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "RXT",
-          "issuerName": "Rackspace Technology, Inc.",
-          "insiderName": "Kandiah Gajakarnan Vibushanan",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 8258.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-02"
-        }
-      ]
-    },
     "RXST": {
       "issuerName": "RxSight, Inc.",
       "trades": [
@@ -38172,16 +38282,6 @@
           "shares": 69761.0,
           "pricePerShare": 15.23,
           "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 104309.0,
-          "pricePerShare": 15.26,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -41175,6 +41275,61 @@
         }
       ]
     },
+    "LILA": {
+      "issuerName": "Liberty Latin America Ltd.",
+      "trades": [
+        {
+          "ticker": "LILA",
+          "issuerName": "Liberty Latin America Ltd.",
+          "insiderName": "DE ANGOITIA ALFONSO",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 313104.0,
+          "pricePerShare": 20.9511,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "LILA",
+          "issuerName": "Liberty Latin America Ltd.",
+          "insiderName": "MALONE JOHN C",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 69454.0,
+          "pricePerShare": 8.4993,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "LILA",
+          "issuerName": "Liberty Latin America Ltd.",
+          "insiderName": "DE ANGOITIA ALFONSO",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 17596.0,
+          "pricePerShare": 20.649,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "LILA",
+          "issuerName": "Liberty Latin America Ltd.",
+          "insiderName": "DE ANGOITIA ALFONSO",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 145490.0,
+          "pricePerShare": 20.9999,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "LILA",
+          "issuerName": "Liberty Latin America Ltd.",
+          "insiderName": "MALONE JOHN C",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 51832.0,
+          "pricePerShare": 8.4773,
+          "transactionDate": "2026-08-28"
+        }
+      ]
+    },
     "LUCK": {
       "issuerName": "Lucky Strike Entertainment Corp",
       "trades": [
@@ -41442,31 +41597,6 @@
           "shares": 1478426.0,
           "pricePerShare": null,
           "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "LILA": {
-      "issuerName": "Liberty Latin America Ltd.",
-      "trades": [
-        {
-          "ticker": "LILA",
-          "issuerName": "Liberty Latin America Ltd.",
-          "insiderName": "MALONE JOHN C",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 69454.0,
-          "pricePerShare": 8.4993,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "LILA",
-          "issuerName": "Liberty Latin America Ltd.",
-          "insiderName": "MALONE JOHN C",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 51832.0,
-          "pricePerShare": 8.4773,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -54857,36 +54987,6 @@
           "shares": 250.0,
           "pricePerShare": 44.5587,
           "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 300.0,
-          "pricePerShare": 39.5,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 300.0,
-          "pricePerShare": 39.5,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pariaros Symeon",
-          "title": "Chief Administrative Officer",
-          "type": "Sale",
-          "shares": 2700.0,
-          "pricePerShare": 42.0,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -55147,16 +55247,6 @@
           "shares": 3350.0,
           "pricePerShare": 305.07,
           "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "UFPT",
-          "issuerName": "UFP TECHNOLOGIES INC",
-          "insiderName": "Hudson Symeria",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 298.0,
-          "pricePerShare": 319.11,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -58407,16 +58497,6 @@
           "shares": 6000.0,
           "pricePerShare": 7.45,
           "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ALLT",
-          "issuerName": "Allot Ltd.",
-          "insiderName": "Groner Gili",
-          "title": "Chief Human Resources Officer",
-          "type": "Sale",
-          "shares": 26666.0,
-          "pricePerShare": 7.8582,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -63461,91 +63541,6 @@
           "type": "Sale",
           "shares": 19513.0,
           "pricePerShare": 47.07,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "PDX": {
-      "issuerName": "PIMCO Dynamic Income Strategy Fund",
-      "trades": [
-        {
-          "ticker": "PDX",
-          "issuerName": "PIMCO Dynamic Income Strategy Fund",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13396.0,
-          "pricePerShare": 21.77,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "NVRI": {
-      "issuerName": "Enviri Corp",
-      "trades": [
-        {
-          "ticker": "NVRI",
-          "issuerName": "Enviri Corp",
-          "insiderName": "Minan Peter Francis",
-          "title": "Executive Vice President & CFO",
-          "type": "Purchase",
-          "shares": 2439.0,
-          "pricePerShare": 20.43,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "NVRI",
-          "issuerName": "Enviri Corp",
-          "insiderName": "Minan Peter Francis",
-          "title": "Executive Vice President & CFO",
-          "type": "Purchase",
-          "shares": 507.0,
-          "pricePerShare": 19.5,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "HBCP": {
-      "issuerName": "HOME BANCORP, INC.",
-      "trades": [
-        {
-          "ticker": "HBCP",
-          "issuerName": "HOME BANCORP, INC.",
-          "insiderName": "Zollinger John J. IV",
-          "title": "SEVP, Chief Banking Officer",
-          "type": "Sale",
-          "shares": 750.0,
-          "pricePerShare": 71.68,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "REPX": {
-      "issuerName": "Riley Exploration Permian, Inc.",
-      "trades": [
-        {
-          "ticker": "REPX",
-          "issuerName": "Riley Exploration Permian, Inc.",
-          "insiderName": "Riley Philip A",
-          "title": "CFO & EVP STRATEGY",
-          "type": "Sale",
-          "shares": 4000.0,
-          "pricePerShare": 37.6051,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "SKYH": {
-      "issuerName": "Sky Harbour Group Corp",
-      "trades": [
-        {
-          "ticker": "SKYH",
-          "issuerName": "Sky Harbour Group Corp",
-          "insiderName": "Gonzalez Francisco",
-          "title": "Chief Financial Officer",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 10.05,
           "transactionDate": "2026-08-18"
         }
       ]
@@ -71964,6 +71959,9 @@
       "0001193125-26-383924",
       "0001193125-26-383976",
       "0001193125-26-383979",
+      "0001193125-26-384027",
+      "0001193125-26-384028",
+      "0001193125-26-384042",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74010,6 +74008,7 @@
       "0001258563-26-000002",
       "0001258693-26-000017",
       "0001259094-26-000005",
+      "0001259094-26-000007",
       "0001260190-26-000004",
       "0001261149-26-000002",
       "0001261149-26-000004",
@@ -74986,6 +74985,7 @@
       "0001437749-26-029670",
       "0001437749-26-029683",
       "0001437749-26-029724",
+      "0001437749-26-029732",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -75363,6 +75363,9 @@
       "0001477932-26-005199",
       "0001477932-26-005399",
       "0001477932-26-005422",
+      "0001477932-26-005430",
+      "0001477932-26-005431",
+      "0001477932-26-005432",
       "0001478669-26-000015",
       "0001478916-26-000015",
       "0001479079-26-000035",
@@ -75863,6 +75866,8 @@
       "0001493152-26-041622",
       "0001493152-26-041624",
       "0001493152-26-041632",
+      "0001493152-26-041637",
+      "0001493152-26-041638",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -77849,6 +77854,7 @@
       "0001683168-26-006985",
       "0001684532-26-000009",
       "0001684532-26-000013",
+      "0001684713-26-000003",
       "0001686308-26-000005",
       "0001687112-26-000016",
       "0001687130-26-000013",
@@ -77995,6 +78001,7 @@
       "0001723433-26-000032",
       "0001724161-26-000008",
       "0001724169-26-000035",
+      "0001724519-26-000010",
       "0001724873-26-000005",
       "0001725078-26-000007",
       "0001725092-26-000013",
