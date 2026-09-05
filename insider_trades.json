@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T00:03:50.885932+00:00",
+  "generatedAt": "2026-09-05T01:00:26.431685+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -1701,6 +1701,16 @@
       "type": "Sale",
       "shares": 600.0,
       "pricePerShare": 214.75,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "OUT",
+      "issuerName": "OUTFRONT Media Inc.",
+      "insiderName": "Bonanni Mark Emilio",
+      "title": "EVP, CRO, Commercial",
+      "type": "Sale",
+      "shares": 3385.0,
+      "pricePerShare": 29.82,
       "transactionDate": "2026-09-03"
     },
     {
@@ -29992,16 +30002,6 @@
       "shares": 298.0,
       "pricePerShare": 319.11,
       "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "PFS",
-      "issuerName": "PROVIDENT FINANCIAL SERVICES INC",
-      "insiderName": "Giannola Vito",
-      "title": "EVP & CRBO of provident Bank",
-      "type": "Sale",
-      "shares": 20000.0,
-      "pricePerShare": 24.36,
-      "transactionDate": "2026-08-18"
     }
   ],
   "byTicker": {
@@ -36472,6 +36472,21 @@
           "shares": 40.0,
           "pricePerShare": 213.65,
           "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "OUT": {
+      "issuerName": "OUTFRONT Media Inc.",
+      "trades": [
+        {
+          "ticker": "OUT",
+          "issuerName": "OUTFRONT Media Inc.",
+          "insiderName": "Bonanni Mark Emilio",
+          "title": "EVP, CRO, Commercial",
+          "type": "Sale",
+          "shares": 3385.0,
+          "pricePerShare": 29.82,
+          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -63534,21 +63549,6 @@
           "transactionDate": "2026-08-18"
         }
       ]
-    },
-    "PFS": {
-      "issuerName": "PROVIDENT FINANCIAL SERVICES INC",
-      "trades": [
-        {
-          "ticker": "PFS",
-          "issuerName": "PROVIDENT FINANCIAL SERVICES INC",
-          "insiderName": "Giannola Vito",
-          "title": "EVP & CRBO of provident Bank",
-          "type": "Sale",
-          "shares": 20000.0,
-          "pricePerShare": 24.36,
-          "transactionDate": "2026-08-18"
-        }
-      ]
     }
   },
   "_meta": {
@@ -75862,6 +75862,7 @@
       "0001493152-26-041620",
       "0001493152-26-041622",
       "0001493152-26-041624",
+      "0001493152-26-041632",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -85826,6 +85827,7 @@
       "0002075052-26-000004",
       "0002075110-26-000006",
       "0002075198-26-000003",
+      "0002075251-26-000006",
       "0002075654-26-000002",
       "0002075661-26-000002",
       "0002075704-26-000032",
