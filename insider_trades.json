@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T16:04:11.015730+00:00",
+  "generatedAt": "2026-09-08T17:03:07.328968+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -961,6 +961,36 @@
       "type": "Sale",
       "shares": 10471.0,
       "pricePerShare": 10.3863,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "TPL",
+      "issuerName": "Texas Pacific Land Corp",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 360.03,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "CZNC",
+      "issuerName": "CITIZENS & NORTHERN CORP",
+      "insiderName": "Pellegrino Frank G",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 178.0,
+      "pricePerShare": 26.1662,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "CZNC",
+      "issuerName": "CITIZENS & NORTHERN CORP",
+      "insiderName": "Shattuck Katherine W",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 8.0,
+      "pricePerShare": 26.1662,
       "transactionDate": "2026-09-04"
     },
     {
@@ -2081,6 +2111,16 @@
       "type": "Sale",
       "shares": 5011.0,
       "pricePerShare": 10.3395,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "RARE",
+      "issuerName": "Ultragenyx Pharmaceutical Inc.",
+      "insiderName": "Huizenga Theodore Alan",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 161.0,
+      "pricePerShare": 13.99,
       "transactionDate": "2026-09-03"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 1500.0,
       "pricePerShare": 50.8625,
       "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "RNG",
-      "issuerName": "RingCentral, Inc.",
-      "insiderName": "Agarwal Vaibhav",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1688.0,
-      "pricePerShare": 65.502,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "BGDE",
-      "issuerName": "Big Digital Energy, Inc.",
-      "insiderName": "Endeavor Blockchain, LLC",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 16000.0,
-      "pricePerShare": 6.73,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "BETA",
-      "issuerName": "BETA Technologies, Inc.",
-      "insiderName": "Clark Kyle",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 30000.0,
-      "pricePerShare": 26.0563,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "ROIV",
-      "issuerName": "Roivant Sciences Ltd.",
-      "insiderName": "Sukhatme Mayukh",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 105141.0,
-      "pricePerShare": 36.59,
-      "transactionDate": "2026-08-18"
     }
   ],
   "byTicker": {
@@ -33052,6 +33052,116 @@
           "shares": 5011.0,
           "pricePerShare": 10.3395,
           "transactionDate": "2026-09-03"
+        }
+      ]
+    },
+    "TPL": {
+      "issuerName": "Texas Pacific Land Corp",
+      "trades": [
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 360.03,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 363.2,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 364.42,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 375.0,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 372.58,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 377.39,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 377.85,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 372.1,
+          "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "CZNC": {
+      "issuerName": "CITIZENS & NORTHERN CORP",
+      "trades": [
+        {
+          "ticker": "CZNC",
+          "issuerName": "CITIZENS & NORTHERN CORP",
+          "insiderName": "Pellegrino Frank G",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 178.0,
+          "pricePerShare": 26.1662,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "CZNC",
+          "issuerName": "CITIZENS & NORTHERN CORP",
+          "insiderName": "Shattuck Katherine W",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 8.0,
+          "pricePerShare": 26.1662,
+          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -37550,6 +37660,21 @@
         }
       ]
     },
+    "RARE": {
+      "issuerName": "Ultragenyx Pharmaceutical Inc.",
+      "trades": [
+        {
+          "ticker": "RARE",
+          "issuerName": "Ultragenyx Pharmaceutical Inc.",
+          "insiderName": "Huizenga Theodore Alan",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 161.0,
+          "pricePerShare": 13.99,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
     "AVA": {
       "issuerName": "AVISTA CORP",
       "trades": [
@@ -39002,81 +39127,6 @@
           "shares": 4850.0,
           "pricePerShare": 9.3701,
           "transactionDate": "2026-09-02"
-        }
-      ]
-    },
-    "TPL": {
-      "issuerName": "Texas Pacific Land Corp",
-      "trades": [
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 363.2,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 364.42,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 375.0,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 372.58,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 377.39,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 377.85,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 372.1,
-          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -50492,16 +50542,6 @@
           "shares": 172899.0,
           "pricePerShare": 37.17,
           "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "ROIV",
-          "issuerName": "Roivant Sciences Ltd.",
-          "insiderName": "Sukhatme Mayukh",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 105141.0,
-          "pricePerShare": 36.59,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -51957,16 +51997,6 @@
           "shares": 2098.0,
           "pricePerShare": 7.09,
           "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "BGDE",
-          "issuerName": "Big Digital Energy, Inc.",
-          "insiderName": "Endeavor Blockchain, LLC",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 16000.0,
-          "pricePerShare": 6.73,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -54382,16 +54412,6 @@
           "shares": 675.0,
           "pricePerShare": 67.45,
           "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "RNG",
-          "issuerName": "RingCentral, Inc.",
-          "insiderName": "Agarwal Vaibhav",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1688.0,
-          "pricePerShare": 65.502,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -63529,21 +63549,6 @@
           "transactionDate": "2026-08-18"
         }
       ]
-    },
-    "BETA": {
-      "issuerName": "BETA Technologies, Inc.",
-      "trades": [
-        {
-          "ticker": "BETA",
-          "issuerName": "BETA Technologies, Inc.",
-          "insiderName": "Clark Kyle",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 30000.0,
-          "pricePerShare": 26.0563,
-          "transactionDate": "2026-08-18"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63671,6 +63676,8 @@
       "0000030146-26-000403",
       "0000030146-26-000404",
       "0000030146-26-000405",
+      "0000030146-26-000407",
+      "0000030146-26-000408",
       "0000030697-26-000117",
       "0000030697-26-000118",
       "0000030697-26-000119",
@@ -66240,6 +66247,9 @@
       "0000950103-26-013647",
       "0000950103-26-013648",
       "0000950103-26-013651",
+      "0000950103-26-013652",
+      "0000950103-26-013655",
+      "0000950103-26-013656",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -68449,6 +68459,7 @@
       "0001140361-26-035878",
       "0001140361-26-035880",
       "0001140361-26-035882",
+      "0001140361-26-035885",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -72041,6 +72052,12 @@
       "0001193125-26-384664",
       "0001193125-26-384668",
       "0001193125-26-384673",
+      "0001193125-26-384698",
+      "0001193125-26-384707",
+      "0001193125-26-384852",
+      "0001193125-26-384878",
+      "0001193125-26-384905",
+      "0001193125-26-384908",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73444,6 +73461,7 @@
       "0001213900-26-097903",
       "0001213900-26-097909",
       "0001213900-26-097918",
+      "0001213900-26-097938",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -73750,6 +73768,7 @@
       "0001214659-26-011454",
       "0001214659-26-011460",
       "0001214659-26-011461",
+      "0001214659-26-011467",
       "0001214993-26-000004",
       "0001215135-26-000012",
       "0001215315-26-000038",
@@ -75086,6 +75105,7 @@
       "0001437749-26-029754",
       "0001437749-26-029756",
       "0001437749-26-029770",
+      "0001437749-26-029777",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -76267,6 +76287,7 @@
       "0001528621-26-000924",
       "0001528621-26-000925",
       "0001528621-26-000926",
+      "0001528621-26-000927",
       "0001529306-26-000005",
       "0001530038-26-000002",
       "0001530255-26-000010",
@@ -76603,6 +76624,7 @@
       "0001580642-26-006126",
       "0001580642-26-006128",
       "0001580642-26-006129",
+      "0001580642-26-006142",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -77831,6 +77853,7 @@
       "0001666134-26-000103",
       "0001666600-26-000004",
       "0001666669-26-000009",
+      "0001667211-26-000026",
       "0001667422-26-000033",
       "0001667422-26-000036",
       "0001668161-26-000012",
@@ -78989,6 +79012,9 @@
       "0001829126-26-009784",
       "0001829126-26-009789",
       "0001829126-26-009834",
+      "0001829126-26-009857",
+      "0001829126-26-009858",
+      "0001829126-26-009867",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -81494,6 +81520,20 @@
       "0001839882-26-044382",
       "0001839882-26-044383",
       "0001839882-26-044385",
+      "0001839882-26-044388",
+      "0001839882-26-044389",
+      "0001839882-26-044390",
+      "0001839882-26-044391",
+      "0001839882-26-044392",
+      "0001839882-26-044393",
+      "0001839882-26-044394",
+      "0001839882-26-044395",
+      "0001839882-26-044396",
+      "0001839882-26-044397",
+      "0001839882-26-044398",
+      "0001839882-26-044399",
+      "0001839882-26-044401",
+      "0001839882-26-044405",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840599-26-000003",
@@ -81670,6 +81710,7 @@
       "0001869579-26-000007",
       "0001870473-26-000024",
       "0001870473-26-000026",
+      "0001870473-26-000028",
       "0001870488-26-000002",
       "0001870837-26-000003",
       "0001870974-26-000008",
@@ -84889,6 +84930,12 @@
       "0001918704-26-026754",
       "0001918704-26-026755",
       "0001918704-26-026756",
+      "0001918704-26-026757",
+      "0001918704-26-026758",
+      "0001918704-26-026759",
+      "0001918704-26-026760",
+      "0001918704-26-026761",
+      "0001918704-26-026762",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -85656,6 +85703,7 @@
       "0001999371-26-020019",
       "0001999371-26-020028",
       "0001999371-26-020033",
+      "0001999371-26-020068",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
