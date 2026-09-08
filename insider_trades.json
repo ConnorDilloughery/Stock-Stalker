@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T17:03:07.328968+00:00",
+  "generatedAt": "2026-09-08T18:02:26.189213+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -991,6 +991,26 @@
       "type": "Purchase",
       "shares": 8.0,
       "pricePerShare": 26.1662,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "GRNT",
+      "issuerName": "Granite Ridge Resources, Inc.",
+      "insiderName": "Kettler Ronald Kyle",
+      "title": "Chief Financial Officer",
+      "type": "Purchase",
+      "shares": 6000.0,
+      "pricePerShare": 5.05,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "TNON",
+      "issuerName": "Tenon Medical, Inc.",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 1506.0,
+      "pricePerShare": 3.7,
       "transactionDate": "2026-09-04"
     },
     {
@@ -2121,6 +2141,36 @@
       "type": "Sale",
       "shares": 161.0,
       "pricePerShare": 13.99,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "CBL",
+      "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+      "insiderName": "Curry Jeffery V.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 681.0,
+      "pricePerShare": 55.1004,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "TNON",
+      "issuerName": "Tenon Medical, Inc.",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1658.0,
+      "pricePerShare": 3.98,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "DXYZ",
+      "issuerName": "Destiny Tech100 Inc.",
+      "insiderName": "Prasad Sohail",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 9760.0,
+      "pricePerShare": 32.14,
       "transactionDate": "2026-09-03"
     },
     {
@@ -4591,6 +4641,16 @@
       "type": "Purchase",
       "shares": 33000.0,
       "pricePerShare": 3.05,
+      "transactionDate": "2026-09-02"
+    },
+    {
+      "ticker": "DXYZ",
+      "issuerName": "Destiny Tech100 Inc.",
+      "insiderName": "Prasad Sohail",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 13240.0,
+      "pricePerShare": 31.53,
       "transactionDate": "2026-09-02"
     },
     {
@@ -8121,6 +8181,16 @@
       "type": "Purchase",
       "shares": 17596.0,
       "pricePerShare": 20.649,
+      "transactionDate": "2026-09-01"
+    },
+    {
+      "ticker": "DXYZ",
+      "issuerName": "Destiny Tech100 Inc.",
+      "insiderName": "Prasad Sohail",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 33000.0,
+      "pricePerShare": 31.4,
       "transactionDate": "2026-09-01"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 10000.0,
       "pricePerShare": 11.03,
       "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "NTHI",
-      "issuerName": "NEONC TECHNOLOGIES HOLDINGS, INC.",
-      "insiderName": "Heshmatpour Amir F",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 9000.0,
-      "pricePerShare": 5.54,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "TSBK",
-      "issuerName": "TIMBERLAND BANCORP INC",
-      "insiderName": "DRUGGE ROBERT A",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 2000.0,
-      "pricePerShare": 45.87,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "QNST",
-      "issuerName": "QUINSTREET, INC",
-      "insiderName": "Wong Gregory",
-      "title": "CFO",
-      "type": "Sale",
-      "shares": 11704.0,
-      "pricePerShare": 20.44,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "EVCM",
-      "issuerName": "EverCommerce Inc.",
-      "insiderName": "Remer Eric Richard",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 19274.0,
-      "pricePerShare": 10.0206,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "EVCM",
-      "issuerName": "EverCommerce Inc.",
-      "insiderName": "Remer Eric Richard",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 9845.0,
-      "pricePerShare": 9.9922,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "FRPH",
-      "issuerName": "FRP HOLDINGS, INC.",
-      "insiderName": "BAKER JOHN D II",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 8189.0,
-      "pricePerShare": 21.97,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "NWN",
-      "issuerName": "Northwest Natural Holding Co",
-      "insiderName": "ANDERSON DAVID HUGO",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1500.0,
-      "pricePerShare": 50.8625,
-      "transactionDate": "2026-08-18"
     }
   ],
   "byTicker": {
@@ -30877,26 +30877,6 @@
           "shares": 11558.0,
           "pricePerShare": 10.1725,
           "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "EVCM",
-          "issuerName": "EverCommerce Inc.",
-          "insiderName": "Remer Eric Richard",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 19274.0,
-          "pricePerShare": 10.0206,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "EVCM",
-          "issuerName": "EverCommerce Inc.",
-          "insiderName": "Remer Eric Richard",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 9845.0,
-          "pricePerShare": 9.9922,
-          "transactionDate": "2026-08-18"
         }
       ]
     },
@@ -33162,6 +33142,66 @@
           "shares": 8.0,
           "pricePerShare": 26.1662,
           "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "GRNT": {
+      "issuerName": "Granite Ridge Resources, Inc.",
+      "trades": [
+        {
+          "ticker": "GRNT",
+          "issuerName": "Granite Ridge Resources, Inc.",
+          "insiderName": "Kettler Ronald Kyle",
+          "title": "Chief Financial Officer",
+          "type": "Purchase",
+          "shares": 6000.0,
+          "pricePerShare": 5.05,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "TNON": {
+      "issuerName": "Tenon Medical, Inc.",
+      "trades": [
+        {
+          "ticker": "TNON",
+          "issuerName": "Tenon Medical, Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1506.0,
+          "pricePerShare": 3.7,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "TNON",
+          "issuerName": "Tenon Medical, Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1658.0,
+          "pricePerShare": 3.98,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "TNON",
+          "issuerName": "Tenon Medical, Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 450.0,
+          "pricePerShare": 4.53,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "TNON",
+          "issuerName": "Tenon Medical, Inc.",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1790.0,
+          "pricePerShare": 4.57,
+          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -37675,6 +37715,56 @@
         }
       ]
     },
+    "CBL": {
+      "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+      "trades": [
+        {
+          "ticker": "CBL",
+          "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+          "insiderName": "Curry Jeffery V.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 681.0,
+          "pricePerShare": 55.1004,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
+    "DXYZ": {
+      "issuerName": "Destiny Tech100 Inc.",
+      "trades": [
+        {
+          "ticker": "DXYZ",
+          "issuerName": "Destiny Tech100 Inc.",
+          "insiderName": "Prasad Sohail",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 9760.0,
+          "pricePerShare": 32.14,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "DXYZ",
+          "issuerName": "Destiny Tech100 Inc.",
+          "insiderName": "Prasad Sohail",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 13240.0,
+          "pricePerShare": 31.53,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "DXYZ",
+          "issuerName": "Destiny Tech100 Inc.",
+          "insiderName": "Prasad Sohail",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 33000.0,
+          "pricePerShare": 31.4,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
     "AVA": {
       "issuerName": "AVISTA CORP",
       "trades": [
@@ -39727,31 +39817,6 @@
           "shares": 3531.0,
           "pricePerShare": 42.4274,
           "transactionDate": "2026-09-02"
-        }
-      ]
-    },
-    "TNON": {
-      "issuerName": "Tenon Medical, Inc.",
-      "trades": [
-        {
-          "ticker": "TNON",
-          "issuerName": "Tenon Medical, Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 450.0,
-          "pricePerShare": 4.53,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "TNON",
-          "issuerName": "Tenon Medical, Inc.",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1790.0,
-          "pricePerShare": 4.57,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -63474,81 +63539,6 @@
           "transactionDate": "2026-08-18"
         }
       ]
-    },
-    "NTHI": {
-      "issuerName": "NEONC TECHNOLOGIES HOLDINGS, INC.",
-      "trades": [
-        {
-          "ticker": "NTHI",
-          "issuerName": "NEONC TECHNOLOGIES HOLDINGS, INC.",
-          "insiderName": "Heshmatpour Amir F",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 9000.0,
-          "pricePerShare": 5.54,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "TSBK": {
-      "issuerName": "TIMBERLAND BANCORP INC",
-      "trades": [
-        {
-          "ticker": "TSBK",
-          "issuerName": "TIMBERLAND BANCORP INC",
-          "insiderName": "DRUGGE ROBERT A",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 2000.0,
-          "pricePerShare": 45.87,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "QNST": {
-      "issuerName": "QUINSTREET, INC",
-      "trades": [
-        {
-          "ticker": "QNST",
-          "issuerName": "QUINSTREET, INC",
-          "insiderName": "Wong Gregory",
-          "title": "CFO",
-          "type": "Sale",
-          "shares": 11704.0,
-          "pricePerShare": 20.44,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "FRPH": {
-      "issuerName": "FRP HOLDINGS, INC.",
-      "trades": [
-        {
-          "ticker": "FRPH",
-          "issuerName": "FRP HOLDINGS, INC.",
-          "insiderName": "BAKER JOHN D II",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 8189.0,
-          "pricePerShare": 21.97,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "NWN": {
-      "issuerName": "Northwest Natural Holding Co",
-      "trades": [
-        {
-          "ticker": "NWN",
-          "issuerName": "Northwest Natural Holding Co",
-          "insiderName": "ANDERSON DAVID HUGO",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1500.0,
-          "pricePerShare": 50.8625,
-          "transactionDate": "2026-08-18"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63678,6 +63668,7 @@
       "0000030146-26-000405",
       "0000030146-26-000407",
       "0000030146-26-000408",
+      "0000030146-26-000409",
       "0000030697-26-000117",
       "0000030697-26-000118",
       "0000030697-26-000119",
@@ -64746,6 +64737,7 @@
       "0000897069-26-001768",
       "0000897069-26-001770",
       "0000897069-26-001772",
+      "0000897077-26-000098",
       "0000897101-26-000338",
       "0000898243-26-000015",
       "0000898243-26-000017",
@@ -65086,6 +65078,7 @@
       "0000930413-26-002635",
       "0000930413-26-002781",
       "0000930413-26-002782",
+      "0000930413-26-002847",
       "0000931148-26-000077",
       "0000932781-26-000045",
       "0000932781-26-000047",
@@ -65176,6 +65169,7 @@
       "0000945621-26-000995",
       "0000945621-26-001083",
       "0000945621-26-001114",
+      "0000945621-26-001118",
       "0000947703-26-000199",
       "0000947703-26-000200",
       "0000947703-26-000201",
@@ -72058,6 +72052,9 @@
       "0001193125-26-384878",
       "0001193125-26-384905",
       "0001193125-26-384908",
+      "0001193125-26-384938",
+      "0001193125-26-384946",
+      "0001193125-26-384965",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73462,6 +73459,9 @@
       "0001213900-26-097909",
       "0001213900-26-097918",
       "0001213900-26-097938",
+      "0001213900-26-097945",
+      "0001213900-26-097949",
+      "0001213900-26-097950",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74005,6 +74005,7 @@
       "0001225208-26-007684",
       "0001225208-26-007686",
       "0001225208-26-007690",
+      "0001225208-26-007692",
       "0001225481-26-000006",
       "0001225817-26-000008",
       "0001227384-26-000017",
@@ -75462,6 +75463,7 @@
       "0001475597-26-000219",
       "0001475597-26-000228",
       "0001475597-26-000230",
+      "0001475597-26-000234",
       "0001475856-26-000004",
       "0001475922-26-000074",
       "0001476150-26-000036",
@@ -76625,6 +76627,8 @@
       "0001580642-26-006128",
       "0001580642-26-006129",
       "0001580642-26-006142",
+      "0001580642-26-006144",
+      "0001580642-26-006149",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -77621,6 +77625,7 @@
       "0001628280-26-060784",
       "0001628280-26-060814",
       "0001628280-26-060833",
+      "0001628280-26-060851",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -81534,6 +81539,29 @@
       "0001839882-26-044399",
       "0001839882-26-044401",
       "0001839882-26-044405",
+      "0001839882-26-044418",
+      "0001839882-26-044419",
+      "0001839882-26-044420",
+      "0001839882-26-044423",
+      "0001839882-26-044424",
+      "0001839882-26-044425",
+      "0001839882-26-044426",
+      "0001839882-26-044427",
+      "0001839882-26-044428",
+      "0001839882-26-044429",
+      "0001839882-26-044430",
+      "0001839882-26-044431",
+      "0001839882-26-044432",
+      "0001839882-26-044433",
+      "0001839882-26-044436",
+      "0001839882-26-044437",
+      "0001839882-26-044438",
+      "0001839882-26-044439",
+      "0001839882-26-044441",
+      "0001839882-26-044442",
+      "0001839882-26-044443",
+      "0001839882-26-044444",
+      "0001839882-26-044445",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840599-26-000003",
@@ -84936,6 +84964,18 @@
       "0001918704-26-026760",
       "0001918704-26-026761",
       "0001918704-26-026762",
+      "0001918704-26-026765",
+      "0001918704-26-026766",
+      "0001918704-26-026767",
+      "0001918704-26-026768",
+      "0001918704-26-026769",
+      "0001918704-26-026770",
+      "0001918704-26-026771",
+      "0001918704-26-026772",
+      "0001918704-26-026773",
+      "0001918704-26-026774",
+      "0001918704-26-026777",
+      "0001918704-26-026778",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -85704,6 +85744,8 @@
       "0001999371-26-020028",
       "0001999371-26-020033",
       "0001999371-26-020068",
+      "0001999371-26-020082",
+      "0001999371-26-020085",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
