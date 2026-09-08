@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T19:02:52.931491+00:00",
+  "generatedAt": "2026-09-08T20:03:23.838429+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -1101,6 +1101,96 @@
       "type": "Sale",
       "shares": 1112.0,
       "pricePerShare": 2.34,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "HSY",
+      "issuerName": "HERSHEY CO",
+      "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 8657.0,
+      "pricePerShare": 173.4583,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "HSY",
+      "issuerName": "HERSHEY CO",
+      "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 1343.0,
+      "pricePerShare": 174.3274,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "MSTR",
+      "issuerName": "Strategy Inc",
+      "insiderName": "Chow Thomas C.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 106.0,
+      "pricePerShare": 138.75,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "GLW",
+      "issuerName": "CORNING INC /NY",
+      "insiderName": "Gullo Michelle L",
+      "title": "Senior Vice President & CHRO",
+      "type": "Sale",
+      "shares": 9874.0,
+      "pricePerShare": 152.2902,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "YDES",
+      "issuerName": "YD Bio Ltd",
+      "insiderName": "Shen Ethan PhD",
+      "title": "Director, CEO",
+      "type": "Purchase",
+      "shares": 18378.0,
+      "pricePerShare": 3.67,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "TONX",
+      "issuerName": "TON Strategy Co",
+      "insiderName": "Rivard Bill John",
+      "title": "Chief Accounting Officer",
+      "type": "Sale",
+      "shares": 12500.0,
+      "pricePerShare": 3.3003,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "TSN",
+      "issuerName": "TYSON FOODS, INC.",
+      "insiderName": "Schomburger Jeffrey K",
+      "title": "Director, President & CEO Elect",
+      "type": "Purchase",
+      "shares": 19450.0,
+      "pricePerShare": 51.497,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "KMT",
+      "issuerName": "KENNAMETAL INC",
+      "insiderName": "HARSHMAN RICHARD J",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 5000.0,
+      "pricePerShare": 30.21,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "KMT",
+      "issuerName": "KENNAMETAL INC",
+      "insiderName": "Keating Michelle R",
+      "title": "Vice President",
+      "type": "Sale",
+      "shares": 20000.0,
+      "pricePerShare": 30.536,
       "transactionDate": "2026-09-04"
     },
     {
@@ -2281,6 +2371,56 @@
       "type": "Sale",
       "shares": 9777.0,
       "pricePerShare": 55.5179,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "HSY",
+      "issuerName": "HERSHEY CO",
+      "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 1666.0,
+      "pricePerShare": 172.45,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "HSY",
+      "issuerName": "HERSHEY CO",
+      "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 1263.0,
+      "pricePerShare": 173.4968,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "HSY",
+      "issuerName": "HERSHEY CO",
+      "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 1848.0,
+      "pricePerShare": 174.6319,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "HSY",
+      "issuerName": "HERSHEY CO",
+      "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 4525.0,
+      "pricePerShare": 175.3361,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "HSY",
+      "issuerName": "HERSHEY CO",
+      "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 698.0,
+      "pricePerShare": 176.1624,
       "transactionDate": "2026-09-03"
     },
     {
@@ -29862,146 +30002,6 @@
       "shares": 1000.0,
       "pricePerShare": 7.57,
       "transactionDate": "2026-08-19"
-    },
-    {
-      "ticker": "ILMN",
-      "issuerName": "ILLUMINA, INC.",
-      "insiderName": "Meister Keith A.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 19884.0,
-      "pricePerShare": 202.37,
-      "transactionDate": "2026-08-19"
-    },
-    {
-      "ticker": "ILMN",
-      "issuerName": "ILLUMINA, INC.",
-      "insiderName": "Meister Keith A.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 57544.0,
-      "pricePerShare": 203.16,
-      "transactionDate": "2026-08-19"
-    },
-    {
-      "ticker": "ILMN",
-      "issuerName": "ILLUMINA, INC.",
-      "insiderName": "Meister Keith A.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 4759.0,
-      "pricePerShare": 204.16,
-      "transactionDate": "2026-08-19"
-    },
-    {
-      "ticker": "ILMN",
-      "issuerName": "ILLUMINA, INC.",
-      "insiderName": "Meister Keith A.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 12813.0,
-      "pricePerShare": 205.0,
-      "transactionDate": "2026-08-19"
-    },
-    {
-      "ticker": "INFQ",
-      "issuerName": "Infleqtion, Inc.",
-      "insiderName": "MAVERICK CAPITAL LTD",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 33405.0,
-      "pricePerShare": 12.6226,
-      "transactionDate": "2026-08-19"
-    },
-    {
-      "ticker": "AEON",
-      "issuerName": "AEON Biopharma, Inc.",
-      "insiderName": "LYNCH TIMOTHY P",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 1150000.0,
-      "pricePerShare": 0.2117,
-      "transactionDate": "2026-08-19"
-    },
-    {
-      "ticker": "ROIV",
-      "issuerName": "Roivant Sciences Ltd.",
-      "insiderName": "Sukhatme Mayukh",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 172899.0,
-      "pricePerShare": 37.17,
-      "transactionDate": "2026-08-19"
-    },
-    {
-      "ticker": "RSKD",
-      "issuerName": "RISKIFIED LTD.",
-      "insiderName": "Shachar Erez",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 139884.0,
-      "pricePerShare": 6.1052,
-      "transactionDate": "2026-08-19"
-    },
-    {
-      "ticker": "MWH",
-      "issuerName": "SOLV Energy, Inc.",
-      "insiderName": "SOLV Energy Management Holdings LP",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1329803.0,
-      "pricePerShare": null,
-      "transactionDate": "2026-08-19"
-    },
-    {
-      "ticker": "MWH",
-      "issuerName": "SOLV Energy, Inc.",
-      "insiderName": "AMERICAN SECURITIES LLC",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 7939153.0,
-      "pricePerShare": null,
-      "transactionDate": "2026-08-19"
-    },
-    {
-      "ticker": "MWH",
-      "issuerName": "SOLV Energy, Inc.",
-      "insiderName": "AMERICAN SECURITIES LLC",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 7939153.0,
-      "pricePerShare": null,
-      "transactionDate": "2026-08-19"
-    },
-    {
-      "ticker": "GDRX",
-      "issuerName": "GoodRx Holdings, Inc.",
-      "insiderName": "FRANCISCO PARTNERS IV, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 237671.0,
-      "pricePerShare": 3.5299,
-      "transactionDate": "2026-08-19"
-    },
-    {
-      "ticker": "GDRX",
-      "issuerName": "GoodRx Holdings, Inc.",
-      "insiderName": "FRANCISCO PARTNERS IV, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 234304.0,
-      "pricePerShare": 3.5299,
-      "transactionDate": "2026-08-19"
-    },
-    {
-      "ticker": "HLMN",
-      "issuerName": "Hillman Solutions Corp.",
-      "insiderName": "Parker Aaron Jerrod",
-      "title": "Chief People Offic.",
-      "type": "Sale",
-      "shares": 17381.0,
-      "pricePerShare": 8.57,
-      "transactionDate": "2026-08-19"
     }
   ],
   "byTicker": {
@@ -31527,46 +31527,6 @@
           "shares": 9348.0,
           "pricePerShare": 219.82,
           "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ILMN",
-          "issuerName": "ILLUMINA, INC.",
-          "insiderName": "Meister Keith A.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 19884.0,
-          "pricePerShare": 202.37,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "ILMN",
-          "issuerName": "ILLUMINA, INC.",
-          "insiderName": "Meister Keith A.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 57544.0,
-          "pricePerShare": 203.16,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "ILMN",
-          "issuerName": "ILLUMINA, INC.",
-          "insiderName": "Meister Keith A.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4759.0,
-          "pricePerShare": 204.16,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "ILMN",
-          "issuerName": "ILLUMINA, INC.",
-          "insiderName": "Meister Keith A.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 12813.0,
-          "pricePerShare": 205.0,
-          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -33311,6 +33271,341 @@
           "type": "Sale",
           "shares": 1365.0,
           "pricePerShare": 219.9,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "HSY": {
+      "issuerName": "HERSHEY CO",
+      "trades": [
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 8657.0,
+          "pricePerShare": 173.4583,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1343.0,
+          "pricePerShare": 174.3274,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1666.0,
+          "pricePerShare": 172.45,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1263.0,
+          "pricePerShare": 173.4968,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1848.0,
+          "pricePerShare": 174.6319,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4525.0,
+          "pricePerShare": 175.3361,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 698.0,
+          "pricePerShare": 176.1624,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1478.0,
+          "pricePerShare": 175.5103,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 977.0,
+          "pricePerShare": 176.6149,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 5509.0,
+          "pricePerShare": 177.3829,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1680.0,
+          "pricePerShare": 178.5792,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 356.0,
+          "pricePerShare": 179.0858,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 267.0,
+          "pricePerShare": 175.9481,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4463.0,
+          "pricePerShare": 176.1848,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2986.0,
+          "pricePerShare": 177.5537,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2264.0,
+          "pricePerShare": 178.3361,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 20.0,
+          "pricePerShare": 179.08,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1677.0,
+          "pricePerShare": 175.7694,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 7149.0,
+          "pricePerShare": 176.3437,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1052.0,
+          "pricePerShare": 177.1827,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "HSY",
+          "issuerName": "HERSHEY CO",
+          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 122.0,
+          "pricePerShare": 178.1843,
+          "transactionDate": "2026-08-31"
+        }
+      ]
+    },
+    "MSTR": {
+      "issuerName": "Strategy Inc",
+      "trades": [
+        {
+          "ticker": "MSTR",
+          "issuerName": "Strategy Inc",
+          "insiderName": "Chow Thomas C.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 106.0,
+          "pricePerShare": 138.75,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "MSTR",
+          "issuerName": "Strategy Inc",
+          "insiderName": "Patten Jarrod M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 925.0,
+          "pricePerShare": 129.0,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "MSTR",
+          "issuerName": "Strategy Inc",
+          "insiderName": "Patten Jarrod M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 925.0,
+          "pricePerShare": 131.0,
+          "transactionDate": "2026-08-27"
+        }
+      ]
+    },
+    "GLW": {
+      "issuerName": "CORNING INC /NY",
+      "trades": [
+        {
+          "ticker": "GLW",
+          "issuerName": "CORNING INC /NY",
+          "insiderName": "Gullo Michelle L",
+          "title": "Senior Vice President & CHRO",
+          "type": "Sale",
+          "shares": 9874.0,
+          "pricePerShare": 152.2902,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "YDES": {
+      "issuerName": "YD Bio Ltd",
+      "trades": [
+        {
+          "ticker": "YDES",
+          "issuerName": "YD Bio Ltd",
+          "insiderName": "Shen Ethan PhD",
+          "title": "Director, CEO",
+          "type": "Purchase",
+          "shares": 18378.0,
+          "pricePerShare": 3.67,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "TONX": {
+      "issuerName": "TON Strategy Co",
+      "trades": [
+        {
+          "ticker": "TONX",
+          "issuerName": "TON Strategy Co",
+          "insiderName": "Rivard Bill John",
+          "title": "Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 12500.0,
+          "pricePerShare": 3.3003,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "TSN": {
+      "issuerName": "TYSON FOODS, INC.",
+      "trades": [
+        {
+          "ticker": "TSN",
+          "issuerName": "TYSON FOODS, INC.",
+          "insiderName": "Schomburger Jeffrey K",
+          "title": "Director, President & CEO Elect",
+          "type": "Purchase",
+          "shares": 19450.0,
+          "pricePerShare": 51.497,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "KMT": {
+      "issuerName": "KENNAMETAL INC",
+      "trades": [
+        {
+          "ticker": "KMT",
+          "issuerName": "KENNAMETAL INC",
+          "insiderName": "HARSHMAN RICHARD J",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 30.21,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "KMT",
+          "issuerName": "KENNAMETAL INC",
+          "insiderName": "Keating Michelle R",
+          "title": "Vice President",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 30.536,
           "transactionDate": "2026-09-04"
         }
       ]
@@ -37992,151 +38287,6 @@
           "shares": 1200.0,
           "pricePerShare": 43.13,
           "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "HSY": {
-      "issuerName": "HERSHEY CO",
-      "trades": [
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1478.0,
-          "pricePerShare": 175.5103,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 977.0,
-          "pricePerShare": 176.6149,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 5509.0,
-          "pricePerShare": 177.3829,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1680.0,
-          "pricePerShare": 178.5792,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 356.0,
-          "pricePerShare": 179.0858,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 267.0,
-          "pricePerShare": 175.9481,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4463.0,
-          "pricePerShare": 176.1848,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2986.0,
-          "pricePerShare": 177.5537,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2264.0,
-          "pricePerShare": 178.3361,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 20.0,
-          "pricePerShare": 179.08,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1677.0,
-          "pricePerShare": 175.7694,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 7149.0,
-          "pricePerShare": 176.3437,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1052.0,
-          "pricePerShare": 177.1827,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 122.0,
-          "pricePerShare": 178.1843,
-          "transactionDate": "2026-08-31"
         }
       ]
     },
@@ -50737,16 +50887,6 @@
           "shares": 17519.0,
           "pricePerShare": 37.3,
           "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ROIV",
-          "issuerName": "Roivant Sciences Ltd.",
-          "insiderName": "Sukhatme Mayukh",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 172899.0,
-          "pricePerShare": 37.17,
-          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -52235,31 +52375,6 @@
         }
       ]
     },
-    "MSTR": {
-      "issuerName": "Strategy Inc",
-      "trades": [
-        {
-          "ticker": "MSTR",
-          "issuerName": "Strategy Inc",
-          "insiderName": "Patten Jarrod M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 925.0,
-          "pricePerShare": 129.0,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "MSTR",
-          "issuerName": "Strategy Inc",
-          "insiderName": "Patten Jarrod M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 925.0,
-          "pricePerShare": 131.0,
-          "transactionDate": "2026-08-27"
-        }
-      ]
-    },
     "NCNO": {
       "issuerName": "nCino, Inc.",
       "trades": [
@@ -53212,26 +53327,6 @@
           "shares": 213844.0,
           "pricePerShare": 3.5205,
           "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "GDRX",
-          "issuerName": "GoodRx Holdings, Inc.",
-          "insiderName": "FRANCISCO PARTNERS IV, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 237671.0,
-          "pricePerShare": 3.5299,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "GDRX",
-          "issuerName": "GoodRx Holdings, Inc.",
-          "insiderName": "FRANCISCO PARTNERS IV, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 234304.0,
-          "pricePerShare": 3.5299,
-          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -58457,16 +58552,6 @@
           "shares": 164824.0,
           "pricePerShare": 13.02,
           "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "INFQ",
-          "issuerName": "Infleqtion, Inc.",
-          "insiderName": "MAVERICK CAPITAL LTD",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 33405.0,
-          "pricePerShare": 12.6226,
-          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -61812,16 +61897,6 @@
           "shares": 157200.0,
           "pricePerShare": 5.9506,
           "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "RSKD",
-          "issuerName": "RISKIFIED LTD.",
-          "insiderName": "Shachar Erez",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 139884.0,
-          "pricePerShare": 6.1052,
-          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -63469,71 +63544,6 @@
           "transactionDate": "2026-08-19"
         }
       ]
-    },
-    "AEON": {
-      "issuerName": "AEON Biopharma, Inc.",
-      "trades": [
-        {
-          "ticker": "AEON",
-          "issuerName": "AEON Biopharma, Inc.",
-          "insiderName": "LYNCH TIMOTHY P",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 1150000.0,
-          "pricePerShare": 0.2117,
-          "transactionDate": "2026-08-19"
-        }
-      ]
-    },
-    "MWH": {
-      "issuerName": "SOLV Energy, Inc.",
-      "trades": [
-        {
-          "ticker": "MWH",
-          "issuerName": "SOLV Energy, Inc.",
-          "insiderName": "SOLV Energy Management Holdings LP",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1329803.0,
-          "pricePerShare": null,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "MWH",
-          "issuerName": "SOLV Energy, Inc.",
-          "insiderName": "AMERICAN SECURITIES LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7939153.0,
-          "pricePerShare": null,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "MWH",
-          "issuerName": "SOLV Energy, Inc.",
-          "insiderName": "AMERICAN SECURITIES LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7939153.0,
-          "pricePerShare": null,
-          "transactionDate": "2026-08-19"
-        }
-      ]
-    },
-    "HLMN": {
-      "issuerName": "Hillman Solutions Corp.",
-      "trades": [
-        {
-          "ticker": "HLMN",
-          "issuerName": "Hillman Solutions Corp.",
-          "insiderName": "Parker Aaron Jerrod",
-          "title": "Chief People Offic.",
-          "type": "Sale",
-          "shares": 17381.0,
-          "pricePerShare": 8.57,
-          "transactionDate": "2026-08-19"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63581,6 +63591,8 @@
       "0000009712-26-000108",
       "0000009712-26-000109",
       "0000009712-26-000111",
+      "0000009712-26-000114",
+      "0000009712-26-000115",
       "0000009713-26-000196",
       "0000009713-26-000198",
       "0000011544-26-000041",
@@ -63609,6 +63621,7 @@
       "0000022356-26-000185",
       "0000022356-26-000192",
       "0000022356-26-000197",
+      "0000024741-26-000259",
       "0000025475-26-000068",
       "0000025475-26-000070",
       "0000025475-26-000072",
@@ -63623,6 +63636,7 @@
       "0000029915-26-000077",
       "0000029915-26-000079",
       "0000029915-26-000081",
+      "0000029915-26-000085",
       "0000030146-26-000307",
       "0000030146-26-000308",
       "0000030146-26-000309",
@@ -64326,6 +64340,7 @@
       "0000732726-26-000032",
       "0000739421-26-000068",
       "0000739421-26-000073",
+      "0000739421-26-000074",
       "0000741313-26-000110",
       "0000744822-26-000071",
       "0000744822-26-000075",
@@ -66243,6 +66258,8 @@
       "0000950103-26-013656",
       "0000950103-26-013659",
       "0000950103-26-013660",
+      "0000950103-26-013661",
+      "0000950103-26-013662",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66259,6 +66276,7 @@
       "0000950142-26-002436",
       "0000950142-26-002448",
       "0000950142-26-002485",
+      "0000950142-26-002512",
       "0000950157-26-000824",
       "0000950157-26-000871",
       "0000950157-26-000873",
@@ -67656,6 +67674,7 @@
       "0001104659-26-105754",
       "0001104659-26-105768",
       "0001104659-26-105856",
+      "0001104659-26-105888",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -67865,6 +67884,7 @@
       "0001123292-26-001219",
       "0001123360-26-000088",
       "0001126328-26-000180",
+      "0001126328-26-000182",
       "0001128480-26-000004",
       "0001128483-26-000012",
       "0001133228-26-010642",
@@ -68607,6 +68627,7 @@
       "0001185185-26-003695",
       "0001185185-26-003713",
       "0001185185-26-003833",
+      "0001185185-26-003873",
       "0001185609-26-000007",
       "0001185611-26-000005",
       "0001185829-26-000001",
@@ -72060,6 +72081,12 @@
       "0001193125-26-384992",
       "0001193125-26-384993",
       "0001193125-26-385045",
+      "0001193125-26-385114",
+      "0001193125-26-385132",
+      "0001193125-26-385166",
+      "0001193125-26-385170",
+      "0001193125-26-385173",
+      "0001193125-26-385183",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72087,6 +72114,7 @@
       "0001199835-26-000314",
       "0001199835-26-000316",
       "0001200244-26-000005",
+      "0001200244-26-000006",
       "0001200507-26-000008",
       "0001200507-26-000012",
       "0001200512-26-000016",
@@ -73473,6 +73501,10 @@
       "0001213900-26-097988",
       "0001213900-26-097991",
       "0001213900-26-097998",
+      "0001213900-26-098013",
+      "0001213900-26-098015",
+      "0001213900-26-098022",
+      "0001213900-26-098030",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -73780,6 +73812,9 @@
       "0001214659-26-011460",
       "0001214659-26-011461",
       "0001214659-26-011467",
+      "0001214659-26-011472",
+      "0001214659-26-011473",
+      "0001214659-26-011474",
       "0001214993-26-000004",
       "0001215135-26-000012",
       "0001215315-26-000038",
@@ -74694,6 +74729,7 @@
       "0001413042-26-000650",
       "0001413042-26-000651",
       "0001413042-26-000715",
+      "0001413042-26-000753",
       "0001415666-26-000008",
       "0001416646-26-000002",
       "0001417341-26-000002",
@@ -75120,6 +75156,7 @@
       "0001437749-26-029756",
       "0001437749-26-029770",
       "0001437749-26-029777",
+      "0001437749-26-029814",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -76020,6 +76057,8 @@
       "0001493152-26-041718",
       "0001493152-26-041727",
       "0001493152-26-041730",
+      "0001493152-26-041763",
+      "0001493152-26-041764",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -76308,6 +76347,7 @@
       "0001528621-26-000927",
       "0001529306-26-000005",
       "0001530038-26-000002",
+      "0001530038-26-000004",
       "0001530255-26-000010",
       "0001530819-26-000012",
       "0001530997-26-000010",
@@ -77646,6 +77686,8 @@
       "0001628280-26-060814",
       "0001628280-26-060833",
       "0001628280-26-060851",
+      "0001628280-26-060888",
+      "0001628280-26-060893",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -79044,6 +79086,7 @@
       "0001829126-26-009857",
       "0001829126-26-009858",
       "0001829126-26-009867",
+      "0001829126-26-009877",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -81596,6 +81639,10 @@
       "0001839882-26-044454",
       "0001839882-26-044455",
       "0001839882-26-044456",
+      "0001839882-26-044457",
+      "0001839882-26-044459",
+      "0001839882-26-044460",
+      "0001839882-26-044461",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840599-26-000003",
@@ -85011,6 +85058,16 @@
       "0001918704-26-026777",
       "0001918704-26-026778",
       "0001918704-26-026779",
+      "0001918704-26-026782",
+      "0001918704-26-026783",
+      "0001918704-26-026784",
+      "0001918704-26-026785",
+      "0001918704-26-026786",
+      "0001918704-26-026787",
+      "0001918704-26-026788",
+      "0001918704-26-026789",
+      "0001918704-26-026790",
+      "0001918704-26-026791",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -85782,6 +85839,7 @@
       "0001999371-26-020068",
       "0001999371-26-020082",
       "0001999371-26-020085",
+      "0001999371-26-020116",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -86224,6 +86282,7 @@
       "0002078265-26-000350",
       "0002078265-26-000357",
       "0002078265-26-000360",
+      "0002078265-26-000367",
       "0002078339-26-000012",
       "0002078374-26-000003",
       "0002078512-26-000002",
@@ -86521,6 +86580,7 @@
       "0002149159-26-000004",
       "0002149626-26-000005",
       "0002149694-26-000006",
+      "0002150055-26-000004",
       "0002150553-26-000005",
       "0002150553-26-000007",
       "0002150553-26-000009",
