@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T13:04:02.290636+00:00",
+  "generatedAt": "2026-09-08T14:00:59.565486+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -881,6 +881,36 @@
       "type": "Sale",
       "shares": 100.0,
       "pricePerShare": 200.0,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "ECF",
+      "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 6800.0,
+      "pricePerShare": 12.36,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "WTS",
+      "issuerName": "WATTS WATER TECHNOLOGIES INC",
+      "insiderName": "Melhem Elie",
+      "title": "President- APAC, M. East, Afr.",
+      "type": "Sale",
+      "shares": 1096.0,
+      "pricePerShare": 359.55,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "DRS",
+      "issuerName": "Leonardo DRS, Inc.",
+      "insiderName": "Dorfman Mark",
+      "title": "EVP, GC and Secretary",
+      "type": "Sale",
+      "shares": 7471.0,
+      "pricePerShare": 37.01,
       "transactionDate": "2026-09-04"
     },
     {
@@ -1921,6 +1951,46 @@
       "type": "Purchase",
       "shares": 10000.0,
       "pricePerShare": 4.79,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "ECF",
+      "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 5000.0,
+      "pricePerShare": 12.25,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "HMN",
+      "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
+      "insiderName": "Carley Donald M",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2054.0,
+      "pricePerShare": 52.281,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "HMN",
+      "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
+      "insiderName": "Hines Perry G.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3237.0,
+      "pricePerShare": 52.22,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "GF",
+      "issuerName": "NEW GERMANY FUND INC",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 3721.0,
+      "pricePerShare": 11.56,
       "transactionDate": "2026-09-03"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 1366.0,
       "pricePerShare": 909.43,
       "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "TNK",
-      "issuerName": "TEEKAY TANKERS LTD.",
-      "insiderName": "Locke Simon Heidi",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 741.0,
-      "pricePerShare": 90.0,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "STOK",
-      "issuerName": "Stoke Therapeutics, Inc.",
-      "insiderName": "Ticho Barry",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 4525.0,
-      "pricePerShare": 32.0072,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "STOK",
-      "issuerName": "Stoke Therapeutics, Inc.",
-      "insiderName": "Ticho Barry",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 242.0,
-      "pricePerShare": 32.4681,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "STOK",
-      "issuerName": "Stoke Therapeutics, Inc.",
-      "insiderName": "Kaye Edward M. MD",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 11930.0,
-      "pricePerShare": 32.0072,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "STOK",
-      "issuerName": "Stoke Therapeutics, Inc.",
-      "insiderName": "Kaye Edward M. MD",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 637.0,
-      "pricePerShare": 32.4681,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "STOK",
-      "issuerName": "Stoke Therapeutics, Inc.",
-      "insiderName": "Allan Jonathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2716.0,
-      "pricePerShare": 32.0072,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "STOK",
-      "issuerName": "Stoke Therapeutics, Inc.",
-      "insiderName": "Allan Jonathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 145.0,
-      "pricePerShare": 32.4681,
-      "transactionDate": "2026-08-18"
     }
   ],
   "byTicker": {
@@ -32562,6 +32562,141 @@
           "shares": 400.0,
           "pricePerShare": 217.5,
           "transactionDate": "2026-08-31"
+        }
+      ]
+    },
+    "ECF": {
+      "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "trades": [
+        {
+          "ticker": "ECF",
+          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 6800.0,
+          "pricePerShare": 12.36,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "ECF",
+          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 12.25,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "ECF",
+          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1200.0,
+          "pricePerShare": 12.47,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "ECF",
+          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 3900.0,
+          "pricePerShare": 12.49,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "ECF",
+          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 5742.0,
+          "pricePerShare": 12.53,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "ECF",
+          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1547.0,
+          "pricePerShare": 12.52,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "WTS": {
+      "issuerName": "WATTS WATER TECHNOLOGIES INC",
+      "trades": [
+        {
+          "ticker": "WTS",
+          "issuerName": "WATTS WATER TECHNOLOGIES INC",
+          "insiderName": "Melhem Elie",
+          "title": "President- APAC, M. East, Afr.",
+          "type": "Sale",
+          "shares": 1096.0,
+          "pricePerShare": 359.55,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "WTS",
+          "issuerName": "WATTS WATER TECHNOLOGIES INC",
+          "insiderName": "Noonan Joseph T",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 918.0,
+          "pricePerShare": 352.62,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "WTS",
+          "issuerName": "WATTS WATER TECHNOLOGIES INC",
+          "insiderName": "Noonan Joseph T",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1266.0,
+          "pricePerShare": 354.62,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "WTS",
+          "issuerName": "WATTS WATER TECHNOLOGIES INC",
+          "insiderName": "Noonan Joseph T",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1466.0,
+          "pricePerShare": 353.63,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "DRS": {
+      "issuerName": "Leonardo DRS, Inc.",
+      "trades": [
+        {
+          "ticker": "DRS",
+          "issuerName": "Leonardo DRS, Inc.",
+          "insiderName": "Dorfman Mark",
+          "title": "EVP, GC and Secretary",
+          "type": "Sale",
+          "shares": 7471.0,
+          "pricePerShare": 37.01,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "DRS",
+          "issuerName": "Leonardo DRS, Inc.",
+          "insiderName": "Dippold Michael",
+          "title": "EVP and CFO",
+          "type": "Sale",
+          "shares": 20317.0,
+          "pricePerShare": 37.18,
+          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -37060,6 +37195,86 @@
         }
       ]
     },
+    "HMN": {
+      "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
+      "trades": [
+        {
+          "ticker": "HMN",
+          "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
+          "insiderName": "Carley Donald M",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2054.0,
+          "pricePerShare": 52.281,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "HMN",
+          "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
+          "insiderName": "Hines Perry G.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3237.0,
+          "pricePerShare": 52.22,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "HMN",
+          "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
+          "insiderName": "ZURAITIS MARITA",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 7500.0,
+          "pricePerShare": 50.99,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "GF": {
+      "issuerName": "NEW GERMANY FUND INC",
+      "trades": [
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 3721.0,
+          "pricePerShare": 11.56,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 11.48,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 905.0,
+          "pricePerShare": 11.4,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 300.0,
+          "pricePerShare": 11.2,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
     "AVA": {
       "issuerName": "AVISTA CORP",
       "trades": [
@@ -38587,41 +38802,6 @@
           "shares": 1.0,
           "pricePerShare": 372.1,
           "transactionDate": "2026-08-19"
-        }
-      ]
-    },
-    "GF": {
-      "issuerName": "NEW GERMANY FUND INC",
-      "trades": [
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 2000.0,
-          "pricePerShare": 11.48,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 905.0,
-          "pricePerShare": 11.4,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 300.0,
-          "pricePerShare": 11.2,
-          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -40795,21 +40975,6 @@
         }
       ]
     },
-    "DRS": {
-      "issuerName": "Leonardo DRS, Inc.",
-      "trades": [
-        {
-          "ticker": "DRS",
-          "issuerName": "Leonardo DRS, Inc.",
-          "insiderName": "Dippold Michael",
-          "title": "EVP and CFO",
-          "type": "Sale",
-          "shares": 20317.0,
-          "pricePerShare": 37.18,
-          "transactionDate": "2026-09-02"
-        }
-      ]
-    },
     "ATRC": {
       "issuerName": "AtriCure, Inc.",
       "trades": [
@@ -42670,41 +42835,6 @@
         }
       ]
     },
-    "WTS": {
-      "issuerName": "WATTS WATER TECHNOLOGIES INC",
-      "trades": [
-        {
-          "ticker": "WTS",
-          "issuerName": "WATTS WATER TECHNOLOGIES INC",
-          "insiderName": "Noonan Joseph T",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 918.0,
-          "pricePerShare": 352.62,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "WTS",
-          "issuerName": "WATTS WATER TECHNOLOGIES INC",
-          "insiderName": "Noonan Joseph T",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1266.0,
-          "pricePerShare": 354.62,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "WTS",
-          "issuerName": "WATTS WATER TECHNOLOGIES INC",
-          "insiderName": "Noonan Joseph T",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1466.0,
-          "pricePerShare": 353.63,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
     "VST": {
       "issuerName": "Vistra Corp.",
       "trades": [
@@ -44132,21 +44262,6 @@
           "shares": 2000.0,
           "pricePerShare": 235.161,
           "transactionDate": "2026-08-31"
-        }
-      ]
-    },
-    "HMN": {
-      "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
-      "trades": [
-        {
-          "ticker": "HMN",
-          "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
-          "insiderName": "ZURAITIS MARITA",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7500.0,
-          "pricePerShare": 50.99,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -49692,51 +49807,6 @@
           "shares": 4625.0,
           "pricePerShare": 21.64,
           "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "ECF": {
-      "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
-      "trades": [
-        {
-          "ticker": "ECF",
-          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1200.0,
-          "pricePerShare": 12.47,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "ECF",
-          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 3900.0,
-          "pricePerShare": 12.49,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "ECF",
-          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 5742.0,
-          "pricePerShare": 12.53,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ECF",
-          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1547.0,
-          "pricePerShare": 12.52,
-          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -63472,81 +63542,6 @@
           "shares": 6375.0,
           "pricePerShare": 89.28,
           "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "TNK",
-          "issuerName": "TEEKAY TANKERS LTD.",
-          "insiderName": "Locke Simon Heidi",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 741.0,
-          "pricePerShare": 90.0,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "STOK": {
-      "issuerName": "Stoke Therapeutics, Inc.",
-      "trades": [
-        {
-          "ticker": "STOK",
-          "issuerName": "Stoke Therapeutics, Inc.",
-          "insiderName": "Ticho Barry",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4525.0,
-          "pricePerShare": 32.0072,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "STOK",
-          "issuerName": "Stoke Therapeutics, Inc.",
-          "insiderName": "Ticho Barry",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 242.0,
-          "pricePerShare": 32.4681,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "STOK",
-          "issuerName": "Stoke Therapeutics, Inc.",
-          "insiderName": "Kaye Edward M. MD",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 11930.0,
-          "pricePerShare": 32.0072,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "STOK",
-          "issuerName": "Stoke Therapeutics, Inc.",
-          "insiderName": "Kaye Edward M. MD",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 637.0,
-          "pricePerShare": 32.4681,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "STOK",
-          "issuerName": "Stoke Therapeutics, Inc.",
-          "insiderName": "Allan Jonathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2716.0,
-          "pricePerShare": 32.0072,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "STOK",
-          "issuerName": "Stoke Therapeutics, Inc.",
-          "insiderName": "Allan Jonathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 145.0,
-          "pricePerShare": 32.4681,
-          "transactionDate": "2026-08-18"
         }
       ]
     }
@@ -63775,6 +63770,8 @@
       "0000051931-26-000874",
       "0000051931-26-000882",
       "0000051931-26-000884",
+      "0000051931-26-000889",
+      "0000051931-26-000891",
       "0000052848-26-000831",
       "0000052848-26-000832",
       "0000053808-26-000013",
@@ -64001,6 +63998,7 @@
       "0000093751-26-000575",
       "0000093751-26-000577",
       "0000094049-26-000116",
+      "0000097216-26-000132",
       "0000097745-26-000146",
       "0000097745-26-000150",
       "0000100334-26-000052",
@@ -66233,6 +66231,7 @@
       "0000950103-26-013638",
       "0000950103-26-013640",
       "0000950103-26-013643",
+      "0000950103-26-013644",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -67640,6 +67639,8 @@
       "0001104659-26-105711",
       "0001104659-26-105712",
       "0001104659-26-105721",
+      "0001104659-26-105724",
+      "0001104659-26-105742",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68431,6 +68432,8 @@
       "0001140361-26-035811",
       "0001140361-26-035816",
       "0001140361-26-035849",
+      "0001140361-26-035865",
+      "0001140361-26-035869",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -72013,6 +72016,10 @@
       "0001193125-26-384466",
       "0001193125-26-384467",
       "0001193125-26-384468",
+      "0001193125-26-384490",
+      "0001193125-26-384494",
+      "0001193125-26-384507",
+      "0001193125-26-384512",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73407,6 +73414,11 @@
       "0001213900-26-097820",
       "0001213900-26-097829",
       "0001213900-26-097830",
+      "0001213900-26-097872",
+      "0001213900-26-097873",
+      "0001213900-26-097874",
+      "0001213900-26-097875",
+      "0001213900-26-097882",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -73711,6 +73723,8 @@
       "0001214659-26-011452",
       "0001214659-26-011453",
       "0001214659-26-011454",
+      "0001214659-26-011460",
+      "0001214659-26-011461",
       "0001214993-26-000004",
       "0001215135-26-000012",
       "0001215315-26-000038",
@@ -73946,6 +73960,7 @@
       "0001225208-26-007682",
       "0001225208-26-007684",
       "0001225208-26-007686",
+      "0001225208-26-007690",
       "0001225481-26-000006",
       "0001225817-26-000008",
       "0001227384-26-000017",
@@ -75930,6 +75945,7 @@
       "0001493152-26-041642",
       "0001493152-26-041676",
       "0001493152-26-041677",
+      "0001493152-26-041718",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -76029,6 +76045,8 @@
       "0001510281-26-000285",
       "0001510281-26-000286",
       "0001510281-26-000287",
+      "0001510281-26-000288",
+      "0001510281-26-000289",
       "0001511110-26-000008",
       "0001511110-26-000010",
       "0001511194-26-000012",
@@ -81385,6 +81403,10 @@
       "0001839882-26-044277",
       "0001839882-26-044278",
       "0001839882-26-044280",
+      "0001839882-26-044307",
+      "0001839882-26-044308",
+      "0001839882-26-044314",
+      "0001839882-26-044315",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840599-26-000003",
@@ -81422,6 +81444,7 @@
       "0001849122-26-000015",
       "0001849122-26-000017",
       "0001849124-26-000003",
+      "0001849648-26-000012",
       "0001849658-26-000012",
       "0001849820-26-000114",
       "0001849820-26-000115",
@@ -84739,6 +84762,14 @@
       "0001918704-26-026713",
       "0001918704-26-026715",
       "0001918704-26-026716",
+      "0001918704-26-026717",
+      "0001918704-26-026718",
+      "0001918704-26-026719",
+      "0001918704-26-026720",
+      "0001918704-26-026721",
+      "0001918704-26-026722",
+      "0001918704-26-026723",
+      "0001918704-26-026724",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -85505,6 +85536,7 @@
       "0001999371-26-020016",
       "0001999371-26-020019",
       "0001999371-26-020028",
+      "0001999371-26-020033",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -85768,6 +85800,7 @@
       "0002052896-26-000001",
       "0002052994-26-000003",
       "0002053424-26-000018",
+      "0002053424-26-000020",
       "0002053817-26-000003",
       "0002055817-26-000003",
       "0002056381-26-000004",
