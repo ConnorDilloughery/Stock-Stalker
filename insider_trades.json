@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T10:01:02.182144+00:00",
+  "generatedAt": "2026-09-08T11:00:50.594966+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -771,6 +771,16 @@
       "type": "Purchase",
       "shares": 13035.0,
       "pricePerShare": 19.15,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "GLBE",
+      "issuerName": "Global-E Online Ltd.",
+      "insiderName": "Debbi Nir",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 228.0,
+      "pricePerShare": 39.211,
       "transactionDate": "2026-09-04"
     },
     {
@@ -1781,6 +1791,16 @@
       "type": "Purchase",
       "shares": 5140.0,
       "pricePerShare": 19.46,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "GLBE",
+      "issuerName": "Global-E Online Ltd.",
+      "insiderName": "Tamari Shahar",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 24999.0,
+      "pricePerShare": 38.4135,
       "transactionDate": "2026-09-03"
     },
     {
@@ -29982,26 +30002,6 @@
       "shares": 3344.0,
       "pricePerShare": 47.14,
       "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "YUMC",
-      "issuerName": "Yum China Holdings, Inc.",
-      "insiderName": "HUANG Duoduo (Howard)",
-      "title": "Chief Supply Chain Officer",
-      "type": "Sale",
-      "shares": 1239.0,
-      "pricePerShare": 47.14,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "YUMC",
-      "issuerName": "Yum China Holdings, Inc.",
-      "insiderName": "HUANG Duoduo (Howard)",
-      "title": "Chief Supply Chain Officer",
-      "type": "Sale",
-      "shares": 19513.0,
-      "pricePerShare": 47.07,
-      "transactionDate": "2026-08-18"
     }
   ],
   "byTicker": {
@@ -32267,6 +32267,51 @@
           "shares": 2458.0,
           "pricePerShare": 20.32,
           "transactionDate": "2026-09-02"
+        }
+      ]
+    },
+    "GLBE": {
+      "issuerName": "Global-E Online Ltd.",
+      "trades": [
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Debbi Nir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 228.0,
+          "pricePerShare": 39.211,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Tamari Shahar",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 24999.0,
+          "pricePerShare": 38.4135,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Debbi Nir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8332.0,
+          "pricePerShare": 37.2251,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Tamari Shahar",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 24999.0,
+          "pricePerShare": 41.6291,
+          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -43777,31 +43822,6 @@
           "shares": 8000.0,
           "pricePerShare": 6.93,
           "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "GLBE": {
-      "issuerName": "Global-E Online Ltd.",
-      "trades": [
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Debbi Nir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 8332.0,
-          "pricePerShare": 37.2251,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Tamari Shahar",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 24999.0,
-          "pricePerShare": 41.6291,
-          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -63522,26 +63542,6 @@
           "shares": 3344.0,
           "pricePerShare": 47.14,
           "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "YUMC",
-          "issuerName": "Yum China Holdings, Inc.",
-          "insiderName": "HUANG Duoduo (Howard)",
-          "title": "Chief Supply Chain Officer",
-          "type": "Sale",
-          "shares": 1239.0,
-          "pricePerShare": 47.14,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "YUMC",
-          "issuerName": "Yum China Holdings, Inc.",
-          "insiderName": "HUANG Duoduo (Howard)",
-          "title": "Chief Supply Chain Officer",
-          "type": "Sale",
-          "shares": 19513.0,
-          "pricePerShare": 47.07,
-          "transactionDate": "2026-08-18"
         }
       ]
     }
@@ -66224,6 +66224,9 @@
       "0000950103-26-013629",
       "0000950103-26-013630",
       "0000950103-26-013632",
+      "0000950103-26-013635",
+      "0000950103-26-013638",
+      "0000950103-26-013640",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -67613,6 +67616,8 @@
       "0001104659-26-105484",
       "0001104659-26-105486",
       "0001104659-26-105529",
+      "0001104659-26-105625",
+      "0001104659-26-105629",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -67887,6 +67892,7 @@
       "0001133228-26-012259",
       "0001133228-26-012260",
       "0001133228-26-012264",
+      "0001133228-26-012348",
       "0001133416-26-000065",
       "0001134261-26-000005",
       "0001134261-26-000007",
@@ -71959,9 +71965,19 @@
       "0001193125-26-383924",
       "0001193125-26-383976",
       "0001193125-26-383979",
+      "0001193125-26-384000",
       "0001193125-26-384027",
       "0001193125-26-384028",
       "0001193125-26-384042",
+      "0001193125-26-384273",
+      "0001193125-26-384276",
+      "0001193125-26-384280",
+      "0001193125-26-384286",
+      "0001193125-26-384292",
+      "0001193125-26-384300",
+      "0001193125-26-384342",
+      "0001193125-26-384343",
+      "0001193125-26-384350",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73352,6 +73368,8 @@
       "0001213900-26-097720",
       "0001213900-26-097730",
       "0001213900-26-097731",
+      "0001213900-26-097801",
+      "0001213900-26-097820",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -75868,6 +75886,9 @@
       "0001493152-26-041632",
       "0001493152-26-041637",
       "0001493152-26-041638",
+      "0001493152-26-041642",
+      "0001493152-26-041676",
+      "0001493152-26-041677",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -76247,6 +76268,7 @@
       "0001552781-26-000403",
       "0001552781-26-000455",
       "0001552781-26-000460",
+      "0001552781-26-000469",
       "0001553153-26-000002",
       "0001554387-26-000005",
       "0001554855-26-001756",
@@ -78513,6 +78535,7 @@
       "0001804609-26-000007",
       "0001804674-26-000003",
       "0001805526-26-000065",
+      "0001805526-26-000096",
       "0001805688-26-000014",
       "0001806784-26-000003",
       "0001806954-26-000009",
@@ -78854,6 +78877,7 @@
       "0001829126-26-009757",
       "0001829126-26-009771",
       "0001829126-26-009772",
+      "0001829126-26-009784",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
