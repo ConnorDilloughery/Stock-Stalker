@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T12:00:36.982224+00:00",
+  "generatedAt": "2026-09-08T13:04:02.290636+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -851,6 +851,36 @@
       "type": "Purchase",
       "shares": 15675.0,
       "pricePerShare": 76.4425,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "DHT",
+      "issuerName": "DHT Holdings, Inc.",
+      "insiderName": "Eglin Jon Stephen",
+      "title": "Chartering & Operations",
+      "type": "Sale",
+      "shares": 25000.0,
+      "pricePerShare": 21.0,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "NTST",
+      "issuerName": "NETSTREIT Corp.",
+      "insiderName": "Donlan Daniel P",
+      "title": "CFO and Treasurer",
+      "type": "Purchase",
+      "shares": 1200.0,
+      "pricePerShare": 20.12,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "SCCO",
+      "issuerName": "SOUTHERN COPPER CORP/",
+      "insiderName": "PALOMINO BONILLA LUIS MIGUEL",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 100.0,
+      "pricePerShare": 200.0,
       "transactionDate": "2026-09-04"
     },
     {
@@ -1871,6 +1901,26 @@
       "type": "Sale",
       "shares": 24999.0,
       "pricePerShare": 38.4135,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 20000.0,
+      "pricePerShare": 118.49,
+      "transactionDate": "2026-09-03"
+    },
+    {
+      "ticker": "OBIO",
+      "issuerName": "Orchestra BioMed Holdings, Inc.",
+      "insiderName": "Hochman David P",
+      "title": "Director, See Remarks",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 4.79,
       "transactionDate": "2026-09-03"
     },
     {
@@ -12701,6 +12751,16 @@
       "type": "Purchase",
       "shares": 1.0,
       "pricePerShare": 5.0,
+      "transactionDate": "2026-08-27"
+    },
+    {
+      "ticker": "NMTC",
+      "issuerName": "NEUROONE MEDICAL TECHNOLOGIES Corp",
+      "insiderName": "Wambeke David J.",
+      "title": "Chief Business Officer",
+      "type": "Purchase",
+      "shares": 33333.0,
+      "pricePerShare": 2.01,
       "transactionDate": "2026-08-27"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 145.0,
       "pricePerShare": 32.4681,
       "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "IVVD",
-      "issuerName": "Invivyd, Inc.",
-      "insiderName": "Lee Timothy Edward",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 18425.0,
-      "pricePerShare": 0.8429,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "IVVD",
-      "issuerName": "Invivyd, Inc.",
-      "insiderName": "Green Julie",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 18425.0,
-      "pricePerShare": 0.8429,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "IVVD",
-      "issuerName": "Invivyd, Inc.",
-      "insiderName": "Duke William E.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 18425.0,
-      "pricePerShare": 0.8429,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "IVVD",
-      "issuerName": "Invivyd, Inc.",
-      "insiderName": "Andersen Jill",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 30706.0,
-      "pricePerShare": 0.8429,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "IVVD",
-      "issuerName": "Invivyd, Inc.",
-      "insiderName": "Allen Robert D. III",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 17043.0,
-      "pricePerShare": 0.8429,
-      "transactionDate": "2026-08-18"
-    },
-    {
-      "ticker": "MGTX",
-      "issuerName": "MeiraGTx Holdings plc",
-      "insiderName": "Forbes Alexandria",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 62000.0,
-      "pricePerShare": 13.86,
-      "transactionDate": "2026-08-18"
     }
   ],
   "byTicker": {
@@ -32457,6 +32457,111 @@
           "shares": 15675.0,
           "pricePerShare": 76.4425,
           "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "DHT": {
+      "issuerName": "DHT Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "DHT",
+          "issuerName": "DHT Holdings, Inc.",
+          "insiderName": "Eglin Jon Stephen",
+          "title": "Chartering & Operations",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 21.0,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "DHT",
+          "issuerName": "DHT Holdings, Inc.",
+          "insiderName": "Edvardsen Svenn Magne",
+          "title": "Technical Director",
+          "type": "Sale",
+          "shares": 341007.0,
+          "pricePerShare": 20.29,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "DHT",
+          "issuerName": "DHT Holdings, Inc.",
+          "insiderName": "Eglin Jon Stephen",
+          "title": "Chartering & Operations",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 20.35,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "DHT",
+          "issuerName": "DHT Holdings, Inc.",
+          "insiderName": "Rossini Sophie",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 33000.0,
+          "pricePerShare": 20.04,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "DHT",
+          "issuerName": "DHT Holdings, Inc.",
+          "insiderName": "Halvorsen Laila Cecilie",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 50000.0,
+          "pricePerShare": 20.0,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "DHT",
+          "issuerName": "DHT Holdings, Inc.",
+          "insiderName": "Eglin Jon Stephen",
+          "title": "Chartering & Operations",
+          "type": "Sale",
+          "shares": 50000.0,
+          "pricePerShare": 19.99,
+          "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "NTST": {
+      "issuerName": "NETSTREIT Corp.",
+      "trades": [
+        {
+          "ticker": "NTST",
+          "issuerName": "NETSTREIT Corp.",
+          "insiderName": "Donlan Daniel P",
+          "title": "CFO and Treasurer",
+          "type": "Purchase",
+          "shares": 1200.0,
+          "pricePerShare": 20.12,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "SCCO": {
+      "issuerName": "SOUTHERN COPPER CORP/",
+      "trades": [
+        {
+          "ticker": "SCCO",
+          "issuerName": "SOUTHERN COPPER CORP/",
+          "insiderName": "PALOMINO BONILLA LUIS MIGUEL",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 200.0,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "SCCO",
+          "issuerName": "SOUTHERN COPPER CORP/",
+          "insiderName": "PALOMINO BONILLA LUIS MIGUEL",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 217.5,
+          "transactionDate": "2026-08-31"
         }
       ]
     },
@@ -36745,6 +36850,216 @@
         }
       ]
     },
+    "AFL": {
+      "issuerName": "AFLAC INC",
+      "trades": [
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 118.49,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13500.0,
+          "pricePerShare": 117.19,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 8670.0,
+          "pricePerShare": 115.65,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4130.0,
+          "pricePerShare": 116.01,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12700.0,
+          "pricePerShare": 116.0,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13000.0,
+          "pricePerShare": 116.52,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12260.0,
+          "pricePerShare": 116.65,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 440.0,
+          "pricePerShare": 117.25,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12066.0,
+          "pricePerShare": 116.44,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 634.0,
+          "pricePerShare": 117.37,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12820.0,
+          "pricePerShare": 116.28,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 80.0,
+          "pricePerShare": 117.07,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 9621.0,
+          "pricePerShare": 116.45,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 3479.0,
+          "pricePerShare": 117.03,
+          "transactionDate": "2026-08-20"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 9353.0,
+          "pricePerShare": 116.62,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1529.0,
+          "pricePerShare": 117.29,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 980.0,
+          "pricePerShare": 118.59,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 798.0,
+          "pricePerShare": 119.6,
+          "transactionDate": "2026-08-19"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 40.0,
+          "pricePerShare": 120.14,
+          "transactionDate": "2026-08-19"
+        }
+      ]
+    },
+    "OBIO": {
+      "issuerName": "Orchestra BioMed Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "OBIO",
+          "issuerName": "Orchestra BioMed Holdings, Inc.",
+          "insiderName": "Hochman David P",
+          "title": "Director, See Remarks",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 4.79,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
     "AVA": {
       "issuerName": "AVISTA CORP",
       "trades": [
@@ -40567,191 +40882,6 @@
           "shares": 22527.0,
           "pricePerShare": 274.74,
           "transactionDate": "2026-09-02"
-        }
-      ]
-    },
-    "AFL": {
-      "issuerName": "AFLAC INC",
-      "trades": [
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13500.0,
-          "pricePerShare": 117.19,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 8670.0,
-          "pricePerShare": 115.65,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4130.0,
-          "pricePerShare": 116.01,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12700.0,
-          "pricePerShare": 116.0,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13000.0,
-          "pricePerShare": 116.52,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12260.0,
-          "pricePerShare": 116.65,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 440.0,
-          "pricePerShare": 117.25,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12066.0,
-          "pricePerShare": 116.44,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 634.0,
-          "pricePerShare": 117.37,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12820.0,
-          "pricePerShare": 116.28,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 117.07,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 9621.0,
-          "pricePerShare": 116.45,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 3479.0,
-          "pricePerShare": 117.03,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 9353.0,
-          "pricePerShare": 116.62,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1529.0,
-          "pricePerShare": 117.29,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 980.0,
-          "pricePerShare": 118.59,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 798.0,
-          "pricePerShare": 119.6,
-          "transactionDate": "2026-08-19"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 40.0,
-          "pricePerShare": 120.14,
-          "transactionDate": "2026-08-19"
         }
       ]
     },
@@ -47335,21 +47465,6 @@
         }
       ]
     },
-    "SCCO": {
-      "issuerName": "SOUTHERN COPPER CORP/",
-      "trades": [
-        {
-          "ticker": "SCCO",
-          "issuerName": "SOUTHERN COPPER CORP/",
-          "insiderName": "PALOMINO BONILLA LUIS MIGUEL",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 217.5,
-          "transactionDate": "2026-08-31"
-        }
-      ]
-    },
     "ELA": {
       "issuerName": "Envela Corp",
       "trades": [
@@ -52367,6 +52482,21 @@
           "shares": 8000.0,
           "pricePerShare": 10.9,
           "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "NMTC": {
+      "issuerName": "NEUROONE MEDICAL TECHNOLOGIES Corp",
+      "trades": [
+        {
+          "ticker": "NMTC",
+          "issuerName": "NEUROONE MEDICAL TECHNOLOGIES Corp",
+          "insiderName": "Wambeke David J.",
+          "title": "Chief Business Officer",
+          "type": "Purchase",
+          "shares": 33333.0,
+          "pricePerShare": 2.01,
+          "transactionDate": "2026-08-27"
         }
       ]
     },
@@ -58465,61 +58595,6 @@
         }
       ]
     },
-    "DHT": {
-      "issuerName": "DHT Holdings, Inc.",
-      "trades": [
-        {
-          "ticker": "DHT",
-          "issuerName": "DHT Holdings, Inc.",
-          "insiderName": "Edvardsen Svenn Magne",
-          "title": "Technical Director",
-          "type": "Sale",
-          "shares": 341007.0,
-          "pricePerShare": 20.29,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "DHT",
-          "issuerName": "DHT Holdings, Inc.",
-          "insiderName": "Eglin Jon Stephen",
-          "title": "Chartering & Operations",
-          "type": "Sale",
-          "shares": 25000.0,
-          "pricePerShare": 20.35,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "DHT",
-          "issuerName": "DHT Holdings, Inc.",
-          "insiderName": "Rossini Sophie",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 33000.0,
-          "pricePerShare": 20.04,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "DHT",
-          "issuerName": "DHT Holdings, Inc.",
-          "insiderName": "Halvorsen Laila Cecilie",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 50000.0,
-          "pricePerShare": 20.0,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "DHT",
-          "issuerName": "DHT Holdings, Inc.",
-          "insiderName": "Eglin Jon Stephen",
-          "title": "Chartering & Operations",
-          "type": "Sale",
-          "shares": 50000.0,
-          "pricePerShare": 19.99,
-          "transactionDate": "2026-08-19"
-        }
-      ]
-    },
     "ALLT": {
       "issuerName": "Allot Ltd.",
       "trades": [
@@ -63474,76 +63549,6 @@
           "transactionDate": "2026-08-18"
         }
       ]
-    },
-    "IVVD": {
-      "issuerName": "Invivyd, Inc.",
-      "trades": [
-        {
-          "ticker": "IVVD",
-          "issuerName": "Invivyd, Inc.",
-          "insiderName": "Lee Timothy Edward",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 18425.0,
-          "pricePerShare": 0.8429,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "IVVD",
-          "issuerName": "Invivyd, Inc.",
-          "insiderName": "Green Julie",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 18425.0,
-          "pricePerShare": 0.8429,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "IVVD",
-          "issuerName": "Invivyd, Inc.",
-          "insiderName": "Duke William E.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 18425.0,
-          "pricePerShare": 0.8429,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "IVVD",
-          "issuerName": "Invivyd, Inc.",
-          "insiderName": "Andersen Jill",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 30706.0,
-          "pricePerShare": 0.8429,
-          "transactionDate": "2026-08-18"
-        },
-        {
-          "ticker": "IVVD",
-          "issuerName": "Invivyd, Inc.",
-          "insiderName": "Allen Robert D. III",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 17043.0,
-          "pricePerShare": 0.8429,
-          "transactionDate": "2026-08-18"
-        }
-      ]
-    },
-    "MGTX": {
-      "issuerName": "MeiraGTx Holdings plc",
-      "trades": [
-        {
-          "ticker": "MGTX",
-          "issuerName": "MeiraGTx Holdings plc",
-          "insiderName": "Forbes Alexandria",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 62000.0,
-          "pricePerShare": 13.86,
-          "transactionDate": "2026-08-18"
-        }
-      ]
     }
   },
   "_meta": {
@@ -67622,6 +67627,19 @@
       "0001104659-26-105652",
       "0001104659-26-105653",
       "0001104659-26-105655",
+      "0001104659-26-105690",
+      "0001104659-26-105691",
+      "0001104659-26-105693",
+      "0001104659-26-105694",
+      "0001104659-26-105705",
+      "0001104659-26-105706",
+      "0001104659-26-105707",
+      "0001104659-26-105708",
+      "0001104659-26-105709",
+      "0001104659-26-105710",
+      "0001104659-26-105711",
+      "0001104659-26-105712",
+      "0001104659-26-105721",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -71985,6 +72003,16 @@
       "0001193125-26-384350",
       "0001193125-26-384391",
       "0001193125-26-384399",
+      "0001193125-26-384406",
+      "0001193125-26-384408",
+      "0001193125-26-384435",
+      "0001193125-26-384441",
+      "0001193125-26-384461",
+      "0001193125-26-384463",
+      "0001193125-26-384465",
+      "0001193125-26-384466",
+      "0001193125-26-384467",
+      "0001193125-26-384468",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74094,6 +74122,7 @@
       "0001284309-26-000021",
       "0001284309-26-000023",
       "0001284489-26-000032",
+      "0001284489-26-000037",
       "0001286090-26-000009",
       "0001286202-26-000006",
       "0001286737-26-000002",
@@ -74242,6 +74271,7 @@
       "0001331284-26-000016",
       "0001331284-26-000017",
       "0001331284-26-000018",
+      "0001331284-26-000019",
       "0001332349-26-000059",
       "0001333280-26-000016",
       "0001334330-26-000002",
@@ -75014,6 +75044,7 @@
       "0001437749-26-029724",
       "0001437749-26-029732",
       "0001437749-26-029754",
+      "0001437749-26-029756",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -75927,6 +75958,8 @@
       "0001498270-26-000010",
       "0001499832-26-000035",
       "0001499832-26-000036",
+      "0001500435-26-000041",
+      "0001500435-26-000042",
       "0001501578-26-000007",
       "0001501808-26-000010",
       "0001503584-26-000010",
@@ -76279,6 +76312,7 @@
       "0001552781-26-000455",
       "0001552781-26-000460",
       "0001552781-26-000469",
+      "0001552781-26-000473",
       "0001553153-26-000002",
       "0001554387-26-000005",
       "0001554855-26-001756",
@@ -77500,6 +77534,7 @@
       "0001628280-26-060781",
       "0001628280-26-060783",
       "0001628280-26-060784",
+      "0001628280-26-060814",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -84864,6 +84899,7 @@
       "0001971511-26-000004",
       "0001971617-26-000010",
       "0001971797-26-000010",
+      "0001971798-26-000005",
       "0001973103-26-000007",
       "0001973456-26-000007",
       "0001973495-26-000004",
@@ -85465,6 +85501,10 @@
       "0001999371-26-019983",
       "0001999371-26-019984",
       "0001999371-26-020002",
+      "0001999371-26-020014",
+      "0001999371-26-020016",
+      "0001999371-26-020019",
+      "0001999371-26-020028",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
