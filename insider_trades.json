@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T15:01:21.032732+00:00",
+  "generatedAt": "2026-09-09T16:03:31.987334+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -461,6 +461,76 @@
       "type": "Purchase",
       "shares": 283.0,
       "pricePerShare": 66.98,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 19.1358,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "NYAX",
+      "issuerName": "Nayax Ltd.",
+      "insiderName": "Tepper Oren",
+      "title": "CRO",
+      "type": "Sale",
+      "shares": 65.0,
+      "pricePerShare": 51.81,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "ZIM",
+      "issuerName": "ZIM Integrated Shipping Services Ltd.",
+      "insiderName": "Elimelech Arik",
+      "title": "EVP HR & Organization",
+      "type": "Sale",
+      "shares": 458.0,
+      "pricePerShare": 29.9863,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "ZIM",
+      "issuerName": "ZIM Integrated Shipping Services Ltd.",
+      "insiderName": "Tiran Assaf",
+      "title": "EVP Cross Suez & Atlantic BU",
+      "type": "Sale",
+      "shares": 2312.0,
+      "pricePerShare": 30.2063,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "ZIM",
+      "issuerName": "ZIM Integrated Shipping Services Ltd.",
+      "insiderName": "Dotan Saar",
+      "title": "EVP Countries & BD",
+      "type": "Sale",
+      "shares": 2890.0,
+      "pricePerShare": 30.3,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "ZIM",
+      "issuerName": "ZIM Integrated Shipping Services Ltd.",
+      "insiderName": "Dotan Saar",
+      "title": "EVP Countries & BD",
+      "type": "Sale",
+      "shares": 800.0,
+      "pricePerShare": 30.4,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "PHVS",
+      "issuerName": "Pharvaris N.V.",
+      "insiderName": "Lu Peng",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 15000.0,
+      "pricePerShare": 40.6756,
       "transactionDate": "2026-09-08"
     },
     {
@@ -2441,6 +2511,16 @@
       "type": "Purchase",
       "shares": 42.0,
       "pricePerShare": 273.94,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 6368.0,
+      "pricePerShare": 19.3916,
       "transactionDate": "2026-09-04"
     },
     {
@@ -29922,86 +30002,6 @@
       "shares": 818.0,
       "pricePerShare": 186.9698,
       "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Duda Kenneth",
-      "title": "Director, President and CTO",
-      "type": "Sale",
-      "shares": 3875.0,
-      "pricePerShare": 184.3297,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Duda Kenneth",
-      "title": "Director, President and CTO",
-      "type": "Sale",
-      "shares": 5308.0,
-      "pricePerShare": 185.1821,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Duda Kenneth",
-      "title": "Director, President and CTO",
-      "type": "Sale",
-      "shares": 6063.0,
-      "pricePerShare": 186.1257,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Duda Kenneth",
-      "title": "Director, President and CTO",
-      "type": "Sale",
-      "shares": 754.0,
-      "pricePerShare": 186.9698,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Duda Kenneth",
-      "title": "Director, President and CTO",
-      "type": "Sale",
-      "shares": 2422.0,
-      "pricePerShare": 184.3297,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Duda Kenneth",
-      "title": "Director, President and CTO",
-      "type": "Sale",
-      "shares": 3317.0,
-      "pricePerShare": 185.1821,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Duda Kenneth",
-      "title": "Director, President and CTO",
-      "type": "Sale",
-      "shares": 3789.0,
-      "pricePerShare": 186.1257,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Duda Kenneth",
-      "title": "Director, President and CTO",
-      "type": "Sale",
-      "shares": 472.0,
-      "pricePerShare": 186.9698,
-      "transactionDate": "2026-08-20"
     }
   ],
   "byTicker": {
@@ -31967,6 +31967,346 @@
           "shares": 1.0,
           "pricePerShare": 377.85,
           "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "DGICA": {
+      "issuerName": "DONEGAL GROUP INC",
+      "trades": [
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.1358,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 6368.0,
+          "pricePerShare": 19.3916,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "HUBER BARRY CRAIG",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 4500.0,
+          "pricePerShare": 19.4304,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "VIOZZI VINCENT ANTHONY",
+          "title": "Sr. VP & Chief Inv Officer",
+          "type": "Sale",
+          "shares": 2282.0,
+          "pricePerShare": 19.5,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9595.0,
+          "pricePerShare": 19.5346,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.4334,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9257.0,
+          "pricePerShare": 19.1675,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.1765,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.1946,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.9504,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9508.0,
+          "pricePerShare": 19.1069,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.9981,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.0647,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.6757,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9815.0,
+          "pricePerShare": 18.6585,
+          "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "NYAX": {
+      "issuerName": "Nayax Ltd.",
+      "trades": [
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Tepper Oren",
+          "title": "CRO",
+          "type": "Sale",
+          "shares": 65.0,
+          "pricePerShare": 51.81,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Greenberg Aaron Samuel",
+          "title": "CSO",
+          "type": "Sale",
+          "shares": 77.0,
+          "pricePerShare": 52.31,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Furman Carly Lisanne",
+          "title": "CEO NAYX North America",
+          "type": "Sale",
+          "shares": 96.0,
+          "pricePerShare": 52.31,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Sever Michal",
+          "title": "CMO",
+          "type": "Sale",
+          "shares": 34.0,
+          "pricePerShare": 52.31,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Manor Sagit",
+          "title": "CFO",
+          "type": "Sale",
+          "shares": 123.0,
+          "pricePerShare": 52.3864,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Sever Michal",
+          "title": "CMO",
+          "type": "Sale",
+          "shares": 38.0,
+          "pricePerShare": 52.98,
+          "transactionDate": "2026-08-27"
+        }
+      ]
+    },
+    "ZIM": {
+      "issuerName": "ZIM Integrated Shipping Services Ltd.",
+      "trades": [
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Elimelech Arik",
+          "title": "EVP HR & Organization",
+          "type": "Sale",
+          "shares": 458.0,
+          "pricePerShare": 29.9863,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Tiran Assaf",
+          "title": "EVP Cross Suez & Atlantic BU",
+          "type": "Sale",
+          "shares": 2312.0,
+          "pricePerShare": 30.2063,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Dotan Saar",
+          "title": "EVP Countries & BD",
+          "type": "Sale",
+          "shares": 2890.0,
+          "pricePerShare": 30.3,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Dotan Saar",
+          "title": "EVP Countries & BD",
+          "type": "Sale",
+          "shares": 800.0,
+          "pricePerShare": 30.4,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Meyer-Gloeckner Birger Johannes",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1531.0,
+          "pricePerShare": 28.5,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Yochai Nissim",
+          "title": "EVP ZIM USA President",
+          "type": "Sale",
+          "shares": 7535.0,
+          "pricePerShare": 28.8305,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Ben-Amram Eyal",
+          "title": "EVP Chief Information Officer",
+          "type": "Sale",
+          "shares": 4000.0,
+          "pricePerShare": 28.57,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Destriau Xavier",
+          "title": "EVP Chief Finance Officer",
+          "type": "Sale",
+          "shares": 12084.0,
+          "pricePerShare": 28.8,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Glickman Eli",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 20748.0,
+          "pricePerShare": 28.2205,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Glickman Eli",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 233473.0,
+          "pricePerShare": 28.2205,
+          "transactionDate": "2026-08-21"
+        }
+      ]
+    },
+    "PHVS": {
+      "issuerName": "Pharvaris N.V.",
+      "trades": [
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Lu Peng",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15000.0,
+          "pricePerShare": 40.6756,
+          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -34392,126 +34732,6 @@
           "shares": 8332.0,
           "pricePerShare": 37.2251,
           "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "NYAX": {
-      "issuerName": "Nayax Ltd.",
-      "trades": [
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Greenberg Aaron Samuel",
-          "title": "CSO",
-          "type": "Sale",
-          "shares": 77.0,
-          "pricePerShare": 52.31,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Furman Carly Lisanne",
-          "title": "CEO NAYX North America",
-          "type": "Sale",
-          "shares": 96.0,
-          "pricePerShare": 52.31,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Sever Michal",
-          "title": "CMO",
-          "type": "Sale",
-          "shares": 34.0,
-          "pricePerShare": 52.31,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Manor Sagit",
-          "title": "CFO",
-          "type": "Sale",
-          "shares": 123.0,
-          "pricePerShare": 52.3864,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Sever Michal",
-          "title": "CMO",
-          "type": "Sale",
-          "shares": 38.0,
-          "pricePerShare": 52.98,
-          "transactionDate": "2026-08-27"
-        }
-      ]
-    },
-    "ZIM": {
-      "issuerName": "ZIM Integrated Shipping Services Ltd.",
-      "trades": [
-        {
-          "ticker": "ZIM",
-          "issuerName": "ZIM Integrated Shipping Services Ltd.",
-          "insiderName": "Meyer-Gloeckner Birger Johannes",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1531.0,
-          "pricePerShare": 28.5,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "ZIM",
-          "issuerName": "ZIM Integrated Shipping Services Ltd.",
-          "insiderName": "Yochai Nissim",
-          "title": "EVP ZIM USA President",
-          "type": "Sale",
-          "shares": 7535.0,
-          "pricePerShare": 28.8305,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "ZIM",
-          "issuerName": "ZIM Integrated Shipping Services Ltd.",
-          "insiderName": "Ben-Amram Eyal",
-          "title": "EVP Chief Information Officer",
-          "type": "Sale",
-          "shares": 4000.0,
-          "pricePerShare": 28.57,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "ZIM",
-          "issuerName": "ZIM Integrated Shipping Services Ltd.",
-          "insiderName": "Destriau Xavier",
-          "title": "EVP Chief Finance Officer",
-          "type": "Sale",
-          "shares": 12084.0,
-          "pricePerShare": 28.8,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "ZIM",
-          "issuerName": "ZIM Integrated Shipping Services Ltd.",
-          "insiderName": "Glickman Eli",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 20748.0,
-          "pricePerShare": 28.2205,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ZIM",
-          "issuerName": "ZIM Integrated Shipping Services Ltd.",
-          "insiderName": "Glickman Eli",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 233473.0,
-          "pricePerShare": 28.2205,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -38546,141 +38766,6 @@
           "type": "Sale",
           "shares": 364.0,
           "pricePerShare": 119.0,
-          "transactionDate": "2026-08-20"
-        }
-      ]
-    },
-    "DGICA": {
-      "issuerName": "DONEGAL GROUP INC",
-      "trades": [
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "HUBER BARRY CRAIG",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 4500.0,
-          "pricePerShare": 19.4304,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "VIOZZI VINCENT ANTHONY",
-          "title": "Sr. VP & Chief Inv Officer",
-          "type": "Sale",
-          "shares": 2282.0,
-          "pricePerShare": 19.5,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9595.0,
-          "pricePerShare": 19.5346,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.4334,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9257.0,
-          "pricePerShare": 19.1675,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.1765,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.1946,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.9504,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9508.0,
-          "pricePerShare": 19.1069,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.9981,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.0647,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.6757,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9815.0,
-          "pricePerShare": 18.6585,
           "transactionDate": "2026-08-20"
         }
       ]
@@ -55542,86 +55627,6 @@
           "shares": 818.0,
           "pricePerShare": 186.9698,
           "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Duda Kenneth",
-          "title": "Director, President and CTO",
-          "type": "Sale",
-          "shares": 3875.0,
-          "pricePerShare": 184.3297,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Duda Kenneth",
-          "title": "Director, President and CTO",
-          "type": "Sale",
-          "shares": 5308.0,
-          "pricePerShare": 185.1821,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Duda Kenneth",
-          "title": "Director, President and CTO",
-          "type": "Sale",
-          "shares": 6063.0,
-          "pricePerShare": 186.1257,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Duda Kenneth",
-          "title": "Director, President and CTO",
-          "type": "Sale",
-          "shares": 754.0,
-          "pricePerShare": 186.9698,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Duda Kenneth",
-          "title": "Director, President and CTO",
-          "type": "Sale",
-          "shares": 2422.0,
-          "pricePerShare": 184.3297,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Duda Kenneth",
-          "title": "Director, President and CTO",
-          "type": "Sale",
-          "shares": 3317.0,
-          "pricePerShare": 185.1821,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Duda Kenneth",
-          "title": "Director, President and CTO",
-          "type": "Sale",
-          "shares": 3789.0,
-          "pricePerShare": 186.1257,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Duda Kenneth",
-          "title": "Director, President and CTO",
-          "type": "Sale",
-          "shares": 472.0,
-          "pricePerShare": 186.9698,
-          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -64555,6 +64560,7 @@
       "0000894189-26-025016",
       "0000894189-26-025029",
       "0000894189-26-025039",
+      "0000894189-26-025065",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -64960,6 +64966,7 @@
       "0000935596-26-000021",
       "0000935596-26-000022",
       "0000935596-26-000023",
+      "0000935596-26-000024",
       "0000935703-26-000095",
       "0000935703-26-000097",
       "0000935836-26-000372",
@@ -66128,6 +66135,10 @@
       "0000950103-26-013693",
       "0000950103-26-013694",
       "0000950103-26-013695",
+      "0000950103-26-013697",
+      "0000950103-26-013698",
+      "0000950103-26-013699",
+      "0000950103-26-013700",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -68400,6 +68411,8 @@
       "0001140361-26-035993",
       "0001140361-26-035996",
       "0001140361-26-036002",
+      "0001140361-26-036004",
+      "0001140361-26-036009",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -72069,6 +72082,13 @@
       "0001193125-26-385973",
       "0001193125-26-385976",
       "0001193125-26-385985",
+      "0001193125-26-386082",
+      "0001193125-26-386083",
+      "0001193125-26-386088",
+      "0001193125-26-386096",
+      "0001193125-26-386098",
+      "0001193125-26-386114",
+      "0001193125-26-386121",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73806,6 +73826,7 @@
       "0001214659-26-011474",
       "0001214659-26-011483",
       "0001214659-26-011488",
+      "0001214659-26-011499",
       "0001214993-26-000004",
       "0001215135-26-000012",
       "0001215315-26-000038",
@@ -74690,6 +74711,7 @@
       "0001398344-26-016788",
       "0001398344-26-016790",
       "0001398344-26-016791",
+      "0001398344-26-016818",
       "0001399967-26-000002",
       "0001401257-26-000064",
       "0001401336-26-000020",
@@ -76099,6 +76121,7 @@
       "0001493152-26-041847",
       "0001493152-26-041849",
       "0001493152-26-041909",
+      "0001493152-26-041922",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -76746,6 +76769,7 @@
       "0001580642-26-006185",
       "0001580642-26-006189",
       "0001580642-26-006190",
+      "0001580642-26-006205",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -81765,6 +81789,25 @@
       "0001839882-26-044526",
       "0001839882-26-044533",
       "0001839882-26-044540",
+      "0001839882-26-044550",
+      "0001839882-26-044553",
+      "0001839882-26-044554",
+      "0001839882-26-044555",
+      "0001839882-26-044556",
+      "0001839882-26-044557",
+      "0001839882-26-044558",
+      "0001839882-26-044559",
+      "0001839882-26-044561",
+      "0001839882-26-044562",
+      "0001839882-26-044563",
+      "0001839882-26-044564",
+      "0001839882-26-044565",
+      "0001839882-26-044566",
+      "0001839882-26-044567",
+      "0001839882-26-044571",
+      "0001839882-26-044572",
+      "0001839882-26-044573",
+      "0001839882-26-044574",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840599-26-000003",
@@ -85252,6 +85295,24 @@
       "0001918704-26-026875",
       "0001918704-26-026876",
       "0001918704-26-026877",
+      "0001918704-26-026886",
+      "0001918704-26-026887",
+      "0001918704-26-026888",
+      "0001918704-26-026889",
+      "0001918704-26-026890",
+      "0001918704-26-026891",
+      "0001918704-26-026892",
+      "0001918704-26-026893",
+      "0001918704-26-026894",
+      "0001918704-26-026895",
+      "0001918704-26-026896",
+      "0001918704-26-026897",
+      "0001918704-26-026898",
+      "0001918704-26-026899",
+      "0001918704-26-026902",
+      "0001918704-26-026905",
+      "0001918704-26-026906",
+      "0001918704-26-026907",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -85483,6 +85544,10 @@
       "0001976408-26-000805",
       "0001976408-26-000806",
       "0001976408-26-000813",
+      "0001976408-26-000814",
+      "0001976408-26-000815",
+      "0001976408-26-000816",
+      "0001976408-26-000817",
       "0001976672-26-000057",
       "0001976672-26-000059",
       "0001976672-26-000062",
