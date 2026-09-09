@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-09-09T17:01:39.720449+00:00",
+  "generatedAt": "2026-09-09T18:05:53.170618+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "AVBH",
+      "issuerName": "Avidbank Holdings, Inc.",
+      "insiderName": "ROSINUS MIKE",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1500.0,
+      "pricePerShare": 31.45,
+      "transactionDate": "2026-09-09"
+    },
     {
       "ticker": "GWRE",
       "issuerName": "Guidewire Software, Inc.",
@@ -571,6 +581,26 @@
       "type": "Sale",
       "shares": 4000.0,
       "pricePerShare": 46.86,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "GOLD",
+      "issuerName": "Gold.com, Inc.",
+      "insiderName": "Aquilino Brian",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 6667.0,
+      "pricePerShare": 47.0164,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "VZ",
+      "issuerName": "VERIZON COMMUNICATIONS INC",
+      "insiderName": "Malady Kyle",
+      "title": "EVP and Group CEO-VZ Business",
+      "type": "Sale",
+      "shares": 1100.0,
+      "pricePerShare": 49.98,
       "transactionDate": "2026-09-08"
     },
     {
@@ -29972,39 +30002,24 @@
       "shares": 190130.0,
       "pricePerShare": 11.5,
       "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "AVAH",
-      "issuerName": "Aveanna Healthcare Holdings, Inc.",
-      "insiderName": "VIGANO PAUL R",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 10112125.0,
-      "pricePerShare": 11.5,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "AVAH",
-      "issuerName": "Aveanna Healthcare Holdings, Inc.",
-      "insiderName": "VIGANO PAUL R",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 957918.0,
-      "pricePerShare": 11.5,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "AVAH",
-      "issuerName": "Aveanna Healthcare Holdings, Inc.",
-      "insiderName": "VIGANO PAUL R",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1813795.0,
-      "pricePerShare": 11.5,
-      "transactionDate": "2026-08-20"
     }
   ],
   "byTicker": {
+    "AVBH": {
+      "issuerName": "Avidbank Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "AVBH",
+          "issuerName": "Avidbank Holdings, Inc.",
+          "insiderName": "ROSINUS MIKE",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 31.45,
+          "transactionDate": "2026-09-09"
+        }
+      ]
+    },
     "GWRE": {
       "issuerName": "Guidewire Software, Inc.",
       "trades": [
@@ -32367,6 +32382,51 @@
           "shares": 4000.0,
           "pricePerShare": 46.86,
           "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "GOLD",
+          "issuerName": "Gold.com, Inc.",
+          "insiderName": "Aquilino Brian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6667.0,
+          "pricePerShare": 47.0164,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "VZ": {
+      "issuerName": "VERIZON COMMUNICATIONS INC",
+      "trades": [
+        {
+          "ticker": "VZ",
+          "issuerName": "VERIZON COMMUNICATIONS INC",
+          "insiderName": "Malady Kyle",
+          "title": "EVP and Group CEO-VZ Business",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 49.98,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "VZ",
+          "issuerName": "VERIZON COMMUNICATIONS INC",
+          "insiderName": "Malady Kyle",
+          "title": "EVP and Group CEO-VZ Business",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 50.5,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "VZ",
+          "issuerName": "VERIZON COMMUNICATIONS INC",
+          "insiderName": "Malady Kyle",
+          "title": "EVP and Group CEO-VZ Business",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 50.06,
+          "transactionDate": "2026-08-25"
         }
       ]
     },
@@ -48525,31 +48585,6 @@
         }
       ]
     },
-    "VZ": {
-      "issuerName": "VERIZON COMMUNICATIONS INC",
-      "trades": [
-        {
-          "ticker": "VZ",
-          "issuerName": "VERIZON COMMUNICATIONS INC",
-          "insiderName": "Malady Kyle",
-          "title": "EVP and Group CEO-VZ Business",
-          "type": "Sale",
-          "shares": 1100.0,
-          "pricePerShare": 50.5,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "VZ",
-          "issuerName": "VERIZON COMMUNICATIONS INC",
-          "insiderName": "Malady Kyle",
-          "title": "EVP and Group CEO-VZ Business",
-          "type": "Sale",
-          "shares": 1100.0,
-          "pricePerShare": 50.06,
-          "transactionDate": "2026-08-25"
-        }
-      ]
-    },
     "MKSI": {
       "issuerName": "MKS INC",
       "trades": [
@@ -61507,36 +61542,6 @@
           "shares": 190130.0,
           "pricePerShare": 11.5,
           "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AVAH",
-          "issuerName": "Aveanna Healthcare Holdings, Inc.",
-          "insiderName": "VIGANO PAUL R",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 10112125.0,
-          "pricePerShare": 11.5,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AVAH",
-          "issuerName": "Aveanna Healthcare Holdings, Inc.",
-          "insiderName": "VIGANO PAUL R",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 957918.0,
-          "pricePerShare": 11.5,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AVAH",
-          "issuerName": "Aveanna Healthcare Holdings, Inc.",
-          "insiderName": "VIGANO PAUL R",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1813795.0,
-          "pricePerShare": 11.5,
-          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -63712,6 +63717,10 @@
       "0000063754-26-000296",
       "0000063754-26-000298",
       "0000063754-26-000307",
+      "0000063754-26-000309",
+      "0000063754-26-000311",
+      "0000063754-26-000313",
+      "0000063754-26-000315",
       "0000065984-26-000301",
       "0000065984-26-000303",
       "0000066740-26-000274",
@@ -66165,6 +66174,15 @@
       "0000950103-26-013698",
       "0000950103-26-013699",
       "0000950103-26-013700",
+      "0000950103-26-013702",
+      "0000950103-26-013703",
+      "0000950103-26-013704",
+      "0000950103-26-013705",
+      "0000950103-26-013706",
+      "0000950103-26-013707",
+      "0000950103-26-013708",
+      "0000950103-26-013709",
+      "0000950103-26-013710",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -68446,6 +68464,7 @@
       "0001140361-26-036009",
       "0001140361-26-036012",
       "0001140361-26-036014",
+      "0001140361-26-036023",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -72123,6 +72142,8 @@
       "0001193125-26-386114",
       "0001193125-26-386121",
       "0001193125-26-386151",
+      "0001193125-26-386230",
+      "0001193125-26-386248",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73548,6 +73569,11 @@
       "0001213900-26-098239",
       "0001213900-26-098256",
       "0001213900-26-098258",
+      "0001213900-26-098313",
+      "0001213900-26-098314",
+      "0001213900-26-098322",
+      "0001213900-26-098324",
+      "0001213900-26-098329",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -75238,6 +75264,7 @@
       "0001437749-26-029934",
       "0001437749-26-029936",
       "0001437749-26-029947",
+      "0001437749-26-029952",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -76463,6 +76490,7 @@
       "0001528621-26-000925",
       "0001528621-26-000926",
       "0001528621-26-000927",
+      "0001528621-26-000930",
       "0001529306-26-000005",
       "0001530038-26-000002",
       "0001530038-26-000004",
@@ -76814,6 +76842,7 @@
       "0001580642-26-006189",
       "0001580642-26-006190",
       "0001580642-26-006205",
+      "0001580642-26-006212",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -78571,6 +78600,7 @@
       "0001760581-26-000044",
       "0001760581-26-000046",
       "0001760581-26-000050",
+      "0001760581-26-000052",
       "0001760864-26-000003",
       "0001760943-26-000008",
       "0001761862-26-000013",
@@ -78910,6 +78940,7 @@
       "0001805526-26-000065",
       "0001805526-26-000096",
       "0001805688-26-000014",
+      "0001806388-26-000003",
       "0001806784-26-000003",
       "0001806954-26-000009",
       "0001807459-26-000020",
@@ -81876,6 +81907,10 @@
       "0001839882-26-044597",
       "0001839882-26-044598",
       "0001839882-26-044599",
+      "0001839882-26-044610",
+      "0001839882-26-044622",
+      "0001839882-26-044623",
+      "0001839882-26-044624",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840599-26-000003",
@@ -85398,6 +85433,37 @@
       "0001918704-26-026921",
       "0001918704-26-026922",
       "0001918704-26-026923",
+      "0001918704-26-026937",
+      "0001918704-26-026938",
+      "0001918704-26-026939",
+      "0001918704-26-026940",
+      "0001918704-26-026941",
+      "0001918704-26-026942",
+      "0001918704-26-026943",
+      "0001918704-26-026944",
+      "0001918704-26-026945",
+      "0001918704-26-026946",
+      "0001918704-26-026947",
+      "0001918704-26-026948",
+      "0001918704-26-026949",
+      "0001918704-26-026950",
+      "0001918704-26-026951",
+      "0001918704-26-026952",
+      "0001918704-26-026953",
+      "0001918704-26-026954",
+      "0001918704-26-026955",
+      "0001918704-26-026956",
+      "0001918704-26-026957",
+      "0001918704-26-026958",
+      "0001918704-26-026959",
+      "0001918704-26-026960",
+      "0001918704-26-026961",
+      "0001918704-26-026962",
+      "0001918704-26-026963",
+      "0001918704-26-026964",
+      "0001918704-26-026965",
+      "0001918704-26-026966",
+      "0001918704-26-026967",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
