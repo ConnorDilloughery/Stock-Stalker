@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T16:03:31.987334+00:00",
+  "generatedAt": "2026-09-09T17:01:39.720449+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -531,6 +531,46 @@
       "type": "Sale",
       "shares": 15000.0,
       "pricePerShare": 40.6756,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "TTC",
+      "issuerName": "TORO CO",
+      "insiderName": "Funk Edric C",
+      "title": "Director, President & COO",
+      "type": "Sale",
+      "shares": 145.0,
+      "pricePerShare": 94.36,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "AEP",
+      "issuerName": "AMERICAN ELECTRIC POWER CO INC",
+      "insiderName": "Dixon Kate",
+      "title": "Controller, CAO",
+      "type": "Sale",
+      "shares": 2000.0,
+      "pricePerShare": 125.0,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "GBAB",
+      "issuerName": "Guggenheim Taxable Municipal Bond & Investment Grade Debt Trust",
+      "insiderName": "Li Allen",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 13.59,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "GOLD",
+      "issuerName": "Gold.com, Inc.",
+      "insiderName": "MELTZER CAROL",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 4000.0,
+      "pricePerShare": 46.86,
       "transactionDate": "2026-09-08"
     },
     {
@@ -2521,6 +2561,26 @@
       "type": "Purchase",
       "shares": 6368.0,
       "pricePerShare": 19.3916,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "IVZ",
+      "issuerName": "Invesco Ltd.",
+      "insiderName": "DUKES LAURA ALLISON",
+      "title": "Chief Financial Officer",
+      "type": "Sale",
+      "shares": 31075.0,
+      "pricePerShare": 33.1629,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "CFFI",
+      "issuerName": "C & F FINANCIAL CORP",
+      "insiderName": "Crone S Dustin",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 900.0,
+      "pricePerShare": 94.41,
       "transactionDate": "2026-09-04"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 1813795.0,
       "pricePerShare": 11.5,
       "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "AVAH",
-      "issuerName": "Aveanna Healthcare Holdings, Inc.",
-      "insiderName": "VIGANO PAUL R",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1426034.0,
-      "pricePerShare": 11.5,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "AVAH",
-      "issuerName": "Aveanna Healthcare Holdings, Inc.",
-      "insiderName": "VIGANO PAUL R",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 190130.0,
-      "pricePerShare": 11.5,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Duda Kenneth",
-      "title": "Director, President and CTO",
-      "type": "Sale",
-      "shares": 4197.0,
-      "pricePerShare": 184.3297,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Duda Kenneth",
-      "title": "Director, President and CTO",
-      "type": "Sale",
-      "shares": 5750.0,
-      "pricePerShare": 185.1821,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Duda Kenneth",
-      "title": "Director, President and CTO",
-      "type": "Sale",
-      "shares": 6568.0,
-      "pricePerShare": 186.1257,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "ANET",
-      "issuerName": "Arista Networks, Inc.",
-      "insiderName": "Duda Kenneth",
-      "title": "Director, President and CTO",
-      "type": "Sale",
-      "shares": 818.0,
-      "pricePerShare": 186.9698,
-      "transactionDate": "2026-08-20"
     }
   ],
   "byTicker": {
@@ -32306,6 +32306,66 @@
           "type": "Sale",
           "shares": 15000.0,
           "pricePerShare": 40.6756,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "TTC": {
+      "issuerName": "TORO CO",
+      "trades": [
+        {
+          "ticker": "TTC",
+          "issuerName": "TORO CO",
+          "insiderName": "Funk Edric C",
+          "title": "Director, President & COO",
+          "type": "Sale",
+          "shares": 145.0,
+          "pricePerShare": 94.36,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "AEP": {
+      "issuerName": "AMERICAN ELECTRIC POWER CO INC",
+      "trades": [
+        {
+          "ticker": "AEP",
+          "issuerName": "AMERICAN ELECTRIC POWER CO INC",
+          "insiderName": "Dixon Kate",
+          "title": "Controller, CAO",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 125.0,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "GBAB": {
+      "issuerName": "Guggenheim Taxable Municipal Bond & Investment Grade Debt Trust",
+      "trades": [
+        {
+          "ticker": "GBAB",
+          "issuerName": "Guggenheim Taxable Municipal Bond & Investment Grade Debt Trust",
+          "insiderName": "Li Allen",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 13.59,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "GOLD": {
+      "issuerName": "Gold.com, Inc.",
+      "trades": [
+        {
+          "ticker": "GOLD",
+          "issuerName": "Gold.com, Inc.",
+          "insiderName": "MELTZER CAROL",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4000.0,
+          "pricePerShare": 46.86,
           "transactionDate": "2026-09-08"
         }
       ]
@@ -35206,6 +35266,16 @@
         {
           "ticker": "CFFI",
           "issuerName": "C & F FINANCIAL CORP",
+          "insiderName": "Crone S Dustin",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 900.0,
+          "pricePerShare": 94.41,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "CFFI",
+          "issuerName": "C & F FINANCIAL CORP",
           "insiderName": "DILLON LARRY G",
           "title": "Reporting Person",
           "type": "Sale",
@@ -36992,6 +37062,21 @@
           "shares": 2300.0,
           "pricePerShare": 306.126,
           "transactionDate": "2026-08-24"
+        }
+      ]
+    },
+    "IVZ": {
+      "issuerName": "Invesco Ltd.",
+      "trades": [
+        {
+          "ticker": "IVZ",
+          "issuerName": "Invesco Ltd.",
+          "insiderName": "DUKES LAURA ALLISON",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 31075.0,
+          "pricePerShare": 33.1629,
+          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -55587,46 +55672,6 @@
           "shares": 213.0,
           "pricePerShare": 188.692,
           "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Duda Kenneth",
-          "title": "Director, President and CTO",
-          "type": "Sale",
-          "shares": 4197.0,
-          "pricePerShare": 184.3297,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Duda Kenneth",
-          "title": "Director, President and CTO",
-          "type": "Sale",
-          "shares": 5750.0,
-          "pricePerShare": 185.1821,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Duda Kenneth",
-          "title": "Director, President and CTO",
-          "type": "Sale",
-          "shares": 6568.0,
-          "pricePerShare": 186.1257,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "ANET",
-          "issuerName": "Arista Networks, Inc.",
-          "insiderName": "Duda Kenneth",
-          "title": "Director, President and CTO",
-          "type": "Sale",
-          "shares": 818.0,
-          "pricePerShare": 186.9698,
-          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -61492,26 +61537,6 @@
           "shares": 1813795.0,
           "pricePerShare": 11.5,
           "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AVAH",
-          "issuerName": "Aveanna Healthcare Holdings, Inc.",
-          "insiderName": "VIGANO PAUL R",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1426034.0,
-          "pricePerShare": 11.5,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AVAH",
-          "issuerName": "Aveanna Healthcare Holdings, Inc.",
-          "insiderName": "VIGANO PAUL R",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 190130.0,
-          "pricePerShare": 11.5,
-          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -64037,6 +64062,7 @@
       "0000708955-26-000141",
       "0000708955-26-000146",
       "0000708955-26-000147",
+      "0000708955-26-000149",
       "0000711377-26-000013",
       "0000711377-26-000014",
       "0000711377-26-000015",
@@ -67605,6 +67631,11 @@
       "0001104659-26-106152",
       "0001104659-26-106155",
       "0001104659-26-106186",
+      "0001104659-26-106218",
+      "0001104659-26-106223",
+      "0001104659-26-106228",
+      "0001104659-26-106231",
+      "0001104659-26-106235",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68413,6 +68444,8 @@
       "0001140361-26-036002",
       "0001140361-26-036004",
       "0001140361-26-036009",
+      "0001140361-26-036012",
+      "0001140361-26-036014",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -72089,6 +72122,7 @@
       "0001193125-26-386098",
       "0001193125-26-386114",
       "0001193125-26-386121",
+      "0001193125-26-386151",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74156,6 +74190,7 @@
       "0001242654-26-000013",
       "0001242654-26-000014",
       "0001242654-26-000015",
+      "0001242686-26-000004",
       "0001243160-26-000002",
       "0001243160-26-000004",
       "0001244203-26-000004",
@@ -75202,6 +75237,7 @@
       "0001437749-26-029932",
       "0001437749-26-029934",
       "0001437749-26-029936",
+      "0001437749-26-029947",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -75455,6 +75491,12 @@
       "0001445546-26-006670",
       "0001445546-26-006671",
       "0001445546-26-006672",
+      "0001445546-26-006681",
+      "0001445546-26-006682",
+      "0001445546-26-006684",
+      "0001445546-26-006685",
+      "0001445546-26-006686",
+      "0001445546-26-006687",
       "0001446066-26-000008",
       "0001448765-26-000011",
       "0001448765-26-000013",
@@ -75487,6 +75529,7 @@
       "0001461101-26-000004",
       "0001463247-26-000012",
       "0001463249-26-000004",
+      "0001463249-26-000008",
       "0001463254-26-000004",
       "0001464277-26-000003",
       "0001464423-26-000081",
@@ -76187,6 +76230,7 @@
       "0001506973-26-000003",
       "0001507133-26-000003",
       "0001507473-26-000007",
+      "0001509318-26-000005",
       "0001509409-26-000010",
       "0001509975-26-000005",
       "0001510025-26-000024",
@@ -76897,6 +76941,7 @@
       "0001601099-26-000043",
       "0001601099-26-000047",
       "0001601099-26-000049",
+      "0001601269-26-000006",
       "0001601818-26-000012",
       "0001601830-26-000103",
       "0001602273-26-000013",
@@ -77788,6 +77833,8 @@
       "0001628280-26-061032",
       "0001628280-26-061033",
       "0001628280-26-061034",
+      "0001628280-26-061067",
+      "0001628280-26-061069",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -78038,6 +78085,7 @@
       "0001673358-26-000133",
       "0001673421-26-000014",
       "0001673528-26-000014",
+      "0001674244-26-000010",
       "0001674260-26-000004",
       "0001674314-26-000005",
       "0001674332-26-000007",
@@ -78357,12 +78405,15 @@
       "0001729840-26-000024",
       "0001729840-26-000026",
       "0001729840-26-000030",
+      "0001729840-26-000032",
       "0001729859-26-000040",
       "0001729859-26-000044",
       "0001729859-26-000046",
+      "0001729859-26-000050",
       "0001729897-26-000038",
       "0001729897-26-000042",
       "0001729897-26-000044",
+      "0001729897-26-000048",
       "0001730131-26-000003",
       "0001730226-26-000006",
       "0001730877-26-000006",
@@ -81808,6 +81859,23 @@
       "0001839882-26-044572",
       "0001839882-26-044573",
       "0001839882-26-044574",
+      "0001839882-26-044577",
+      "0001839882-26-044578",
+      "0001839882-26-044583",
+      "0001839882-26-044584",
+      "0001839882-26-044585",
+      "0001839882-26-044586",
+      "0001839882-26-044587",
+      "0001839882-26-044588",
+      "0001839882-26-044589",
+      "0001839882-26-044590",
+      "0001839882-26-044591",
+      "0001839882-26-044592",
+      "0001839882-26-044594",
+      "0001839882-26-044596",
+      "0001839882-26-044597",
+      "0001839882-26-044598",
+      "0001839882-26-044599",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840599-26-000003",
@@ -82038,6 +82106,7 @@
       "0001885455-26-000008",
       "0001886367-26-000023",
       "0001886368-26-000002",
+      "0001886484-26-000009",
       "0001886794-26-000008",
       "0001886794-26-000010",
       "0001887601-26-000006",
@@ -85313,6 +85382,22 @@
       "0001918704-26-026905",
       "0001918704-26-026906",
       "0001918704-26-026907",
+      "0001918704-26-026908",
+      "0001918704-26-026909",
+      "0001918704-26-026910",
+      "0001918704-26-026911",
+      "0001918704-26-026912",
+      "0001918704-26-026913",
+      "0001918704-26-026914",
+      "0001918704-26-026915",
+      "0001918704-26-026916",
+      "0001918704-26-026917",
+      "0001918704-26-026918",
+      "0001918704-26-026919",
+      "0001918704-26-026920",
+      "0001918704-26-026921",
+      "0001918704-26-026922",
+      "0001918704-26-026923",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -85588,6 +85673,7 @@
       "0001987164-26-000011",
       "0001987188-26-000009",
       "0001987724-26-000004",
+      "0001987910-26-000008",
       "0001988277-26-000003",
       "0001988855-26-000011",
       "0001988976-26-000006",
