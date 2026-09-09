@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T11:05:21.490669+00:00",
+  "generatedAt": "2026-09-09T12:03:18.255374+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -2211,6 +2211,16 @@
       "type": "Sale",
       "shares": 4804.0,
       "pricePerShare": 282.87,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "BCG",
+      "issuerName": "Binah Capital Group, Inc.",
+      "insiderName": "Gould Craig",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 3000.0,
+      "pricePerShare": 1.3,
       "transactionDate": "2026-09-04"
     },
     {
@@ -29992,16 +30002,6 @@
       "shares": 921.0,
       "pricePerShare": 33.5431,
       "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "CHYM",
-      "issuerName": "Chime Financial, Inc.",
-      "insiderName": "DST Global Advisors Ltd",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 17158.0,
-      "pricePerShare": 32.9873,
-      "transactionDate": "2026-08-20"
     }
   ],
   "byTicker": {
@@ -36192,6 +36192,21 @@
           "shares": 2100.0,
           "pricePerShare": 70.915,
           "transactionDate": "2026-08-20"
+        }
+      ]
+    },
+    "BCG": {
+      "issuerName": "Binah Capital Group, Inc.",
+      "trades": [
+        {
+          "ticker": "BCG",
+          "issuerName": "Binah Capital Group, Inc.",
+          "insiderName": "Gould Craig",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 3000.0,
+          "pricePerShare": 1.3,
+          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -50106,16 +50121,6 @@
           "type": "Sale",
           "shares": 921.0,
           "pricePerShare": 33.5431,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "DST Global Advisors Ltd",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 17158.0,
-          "pricePerShare": 32.9873,
           "transactionDate": "2026-08-20"
         }
       ]
@@ -67570,6 +67575,7 @@
       "0001104659-26-106109",
       "0001104659-26-106110",
       "0001104659-26-106115",
+      "0001104659-26-106127",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -72032,6 +72038,7 @@
       "0001193125-26-385836",
       "0001193125-26-385839",
       "0001193125-26-385848",
+      "0001193125-26-385902",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73765,6 +73772,7 @@
       "0001214659-26-011473",
       "0001214659-26-011474",
       "0001214659-26-011483",
+      "0001214659-26-011488",
       "0001214993-26-000004",
       "0001215135-26-000012",
       "0001215315-26-000038",
@@ -85883,6 +85891,7 @@
       "0001999371-26-020082",
       "0001999371-26-020085",
       "0001999371-26-020116",
+      "0001999371-26-020168",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
