@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T18:05:53.170618+00:00",
+  "generatedAt": "2026-09-09T19:02:09.861772+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -601,6 +601,46 @@
       "type": "Sale",
       "shares": 1100.0,
       "pricePerShare": 49.98,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "SEI",
+      "issuerName": "Solaris Energy Infrastructure, Inc.",
+      "insiderName": "TEAGUE AJ",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 3900.0,
+      "pricePerShare": 64.21,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "SEI",
+      "issuerName": "Solaris Energy Infrastructure, Inc.",
+      "insiderName": "TEAGUE AJ",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 3900.0,
+      "pricePerShare": 64.25,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "URGN",
+      "issuerName": "UroGen Pharma Ltd.",
+      "insiderName": "Schoenberg Mark",
+      "title": "Chief Medical Officer",
+      "type": "Sale",
+      "shares": 871.0,
+      "pricePerShare": 42.92,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "URGN",
+      "issuerName": "UroGen Pharma Ltd.",
+      "insiderName": "Smith Jason Drew",
+      "title": "General Counsel",
+      "type": "Sale",
+      "shares": 1519.0,
+      "pricePerShare": 42.54,
       "transactionDate": "2026-09-08"
     },
     {
@@ -2611,6 +2651,16 @@
       "type": "Sale",
       "shares": 900.0,
       "pricePerShare": 94.41,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "GROV",
+      "issuerName": "Grove Collaborative Holdings, Inc.",
+      "insiderName": "Landesberg Stuart",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 241.0,
+      "pricePerShare": 1.03,
       "transactionDate": "2026-09-04"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 11286.0,
       "pricePerShare": 18.0032,
       "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "AVAH",
-      "issuerName": "Aveanna Healthcare Holdings, Inc.",
-      "insiderName": "WILLIAMS ROBERT M JR",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 10112125.0,
-      "pricePerShare": 11.5,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "AVAH",
-      "issuerName": "Aveanna Healthcare Holdings, Inc.",
-      "insiderName": "WILLIAMS ROBERT M JR",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 957918.0,
-      "pricePerShare": 11.5,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "AVAH",
-      "issuerName": "Aveanna Healthcare Holdings, Inc.",
-      "insiderName": "WILLIAMS ROBERT M JR",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1813795.0,
-      "pricePerShare": 11.5,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "AVAH",
-      "issuerName": "Aveanna Healthcare Holdings, Inc.",
-      "insiderName": "WILLIAMS ROBERT M JR",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1426034.0,
-      "pricePerShare": 11.5,
-      "transactionDate": "2026-08-20"
-    },
-    {
-      "ticker": "AVAH",
-      "issuerName": "Aveanna Healthcare Holdings, Inc.",
-      "insiderName": "WILLIAMS ROBERT M JR",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 190130.0,
-      "pricePerShare": 11.5,
-      "transactionDate": "2026-08-20"
     }
   ],
   "byTicker": {
@@ -32427,6 +32427,56 @@
           "shares": 1100.0,
           "pricePerShare": 50.06,
           "transactionDate": "2026-08-25"
+        }
+      ]
+    },
+    "SEI": {
+      "issuerName": "Solaris Energy Infrastructure, Inc.",
+      "trades": [
+        {
+          "ticker": "SEI",
+          "issuerName": "Solaris Energy Infrastructure, Inc.",
+          "insiderName": "TEAGUE AJ",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 3900.0,
+          "pricePerShare": 64.21,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "SEI",
+          "issuerName": "Solaris Energy Infrastructure, Inc.",
+          "insiderName": "TEAGUE AJ",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 3900.0,
+          "pricePerShare": 64.25,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "URGN": {
+      "issuerName": "UroGen Pharma Ltd.",
+      "trades": [
+        {
+          "ticker": "URGN",
+          "issuerName": "UroGen Pharma Ltd.",
+          "insiderName": "Schoenberg Mark",
+          "title": "Chief Medical Officer",
+          "type": "Sale",
+          "shares": 871.0,
+          "pricePerShare": 42.92,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "URGN",
+          "issuerName": "UroGen Pharma Ltd.",
+          "insiderName": "Smith Jason Drew",
+          "title": "General Counsel",
+          "type": "Sale",
+          "shares": 1519.0,
+          "pricePerShare": 42.54,
+          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -37137,6 +37187,51 @@
           "shares": 31075.0,
           "pricePerShare": 33.1629,
           "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "GROV": {
+      "issuerName": "Grove Collaborative Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "GROV",
+          "issuerName": "Grove Collaborative Holdings, Inc.",
+          "insiderName": "Landesberg Stuart",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 241.0,
+          "pricePerShare": 1.03,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "GROV",
+          "issuerName": "Grove Collaborative Holdings, Inc.",
+          "insiderName": "Karp Jason H.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 15200.0,
+          "pricePerShare": 1.0761,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "GROV",
+          "issuerName": "Grove Collaborative Holdings, Inc.",
+          "insiderName": "Landesberg Stuart",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 5384.0,
+          "pricePerShare": 1.0293,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "GROV",
+          "issuerName": "Grove Collaborative Holdings, Inc.",
+          "insiderName": "Karp Jason H.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 55000.0,
+          "pricePerShare": 1.0278,
+          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -43762,41 +43857,6 @@
           "shares": 12218.0,
           "pricePerShare": 2.5812,
           "transactionDate": "2026-09-02"
-        }
-      ]
-    },
-    "GROV": {
-      "issuerName": "Grove Collaborative Holdings, Inc.",
-      "trades": [
-        {
-          "ticker": "GROV",
-          "issuerName": "Grove Collaborative Holdings, Inc.",
-          "insiderName": "Karp Jason H.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 15200.0,
-          "pricePerShare": 1.0761,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "GROV",
-          "issuerName": "Grove Collaborative Holdings, Inc.",
-          "insiderName": "Landesberg Stuart",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 5384.0,
-          "pricePerShare": 1.0293,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "GROV",
-          "issuerName": "Grove Collaborative Holdings, Inc.",
-          "insiderName": "Karp Jason H.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 55000.0,
-          "pricePerShare": 1.0278,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -61492,56 +61552,6 @@
           "shares": 1426034.0,
           "pricePerShare": 11.5,
           "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AVAH",
-          "issuerName": "Aveanna Healthcare Holdings, Inc.",
-          "insiderName": "WILLIAMS ROBERT M JR",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 10112125.0,
-          "pricePerShare": 11.5,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AVAH",
-          "issuerName": "Aveanna Healthcare Holdings, Inc.",
-          "insiderName": "WILLIAMS ROBERT M JR",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 957918.0,
-          "pricePerShare": 11.5,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AVAH",
-          "issuerName": "Aveanna Healthcare Holdings, Inc.",
-          "insiderName": "WILLIAMS ROBERT M JR",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1813795.0,
-          "pricePerShare": 11.5,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AVAH",
-          "issuerName": "Aveanna Healthcare Holdings, Inc.",
-          "insiderName": "WILLIAMS ROBERT M JR",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1426034.0,
-          "pricePerShare": 11.5,
-          "transactionDate": "2026-08-20"
-        },
-        {
-          "ticker": "AVAH",
-          "issuerName": "Aveanna Healthcare Holdings, Inc.",
-          "insiderName": "WILLIAMS ROBERT M JR",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 190130.0,
-          "pricePerShare": 11.5,
-          "transactionDate": "2026-08-20"
         }
       ]
     },
@@ -66183,6 +66193,9 @@
       "0000950103-26-013708",
       "0000950103-26-013709",
       "0000950103-26-013710",
+      "0000950103-26-013711",
+      "0000950103-26-013712",
+      "0000950103-26-013713",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66361,6 +66374,7 @@
       "0001041061-26-000155",
       "0001041061-26-000167",
       "0001042167-26-000062",
+      "0001042167-26-000065",
       "0001045450-26-000044",
       "0001045450-26-000045",
       "0001045463-26-000010",
@@ -67654,6 +67668,8 @@
       "0001104659-26-106228",
       "0001104659-26-106231",
       "0001104659-26-106235",
+      "0001104659-26-106255",
+      "0001104659-26-106267",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68465,6 +68481,8 @@
       "0001140361-26-036012",
       "0001140361-26-036014",
       "0001140361-26-036023",
+      "0001140361-26-036031",
+      "0001140361-26-036033",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -72144,6 +72162,13 @@
       "0001193125-26-386151",
       "0001193125-26-386230",
       "0001193125-26-386248",
+      "0001193125-26-386277",
+      "0001193125-26-386284",
+      "0001193125-26-386293",
+      "0001193125-26-386320",
+      "0001193125-26-386330",
+      "0001193125-26-386336",
+      "0001193125-26-386344",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73574,6 +73599,11 @@
       "0001213900-26-098322",
       "0001213900-26-098324",
       "0001213900-26-098329",
+      "0001213900-26-098335",
+      "0001213900-26-098336",
+      "0001213900-26-098346",
+      "0001213900-26-098347",
+      "0001213900-26-098350",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -73887,6 +73917,7 @@
       "0001214659-26-011483",
       "0001214659-26-011488",
       "0001214659-26-011499",
+      "0001214659-26-011516",
       "0001214993-26-000004",
       "0001215135-26-000012",
       "0001215315-26-000038",
@@ -74773,6 +74804,7 @@
       "0001398344-26-016790",
       "0001398344-26-016791",
       "0001398344-26-016818",
+      "0001398344-26-016827",
       "0001399967-26-000002",
       "0001401257-26-000064",
       "0001401336-26-000020",
@@ -75265,6 +75297,8 @@
       "0001437749-26-029936",
       "0001437749-26-029947",
       "0001437749-26-029952",
+      "0001437749-26-029963",
+      "0001437749-26-029965",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -76915,6 +76949,7 @@
       "0001592900-26-004182",
       "0001592900-26-004203",
       "0001592900-26-004217",
+      "0001592900-26-004219",
       "0001592970-26-000012",
       "0001593040-26-000002",
       "0001593516-26-000004",
@@ -77864,6 +77899,7 @@
       "0001628280-26-061034",
       "0001628280-26-061067",
       "0001628280-26-061069",
+      "0001628280-26-061096",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -81911,6 +81947,19 @@
       "0001839882-26-044622",
       "0001839882-26-044623",
       "0001839882-26-044624",
+      "0001839882-26-044630",
+      "0001839882-26-044631",
+      "0001839882-26-044632",
+      "0001839882-26-044633",
+      "0001839882-26-044634",
+      "0001839882-26-044637",
+      "0001839882-26-044639",
+      "0001839882-26-044640",
+      "0001839882-26-044641",
+      "0001839882-26-044642",
+      "0001839882-26-044643",
+      "0001839882-26-044644",
+      "0001839882-26-044645",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840599-26-000003",
@@ -81920,6 +81969,7 @@
       "0001840706-26-000293",
       "0001841761-26-000092",
       "0001841761-26-000094",
+      "0001841761-26-000096",
       "0001841794-26-000075",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -85464,6 +85514,22 @@
       "0001918704-26-026965",
       "0001918704-26-026966",
       "0001918704-26-026967",
+      "0001918704-26-026968",
+      "0001918704-26-026969",
+      "0001918704-26-026970",
+      "0001918704-26-026971",
+      "0001918704-26-026972",
+      "0001918704-26-026973",
+      "0001918704-26-026974",
+      "0001918704-26-026975",
+      "0001918704-26-026976",
+      "0001918704-26-026977",
+      "0001918704-26-026978",
+      "0001918704-26-026979",
+      "0001918704-26-026980",
+      "0001918704-26-026981",
+      "0001918704-26-026982",
+      "0001918704-26-026983",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -86429,6 +86495,7 @@
       "0002033153-26-000013",
       "0002033633-26-000005",
       "0002034019-26-000005",
+      "0002034071-26-000004",
       "0002034124-26-000007",
       "0002034144-26-000006",
       "0002034148-26-000007",
