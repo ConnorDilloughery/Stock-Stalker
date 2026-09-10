@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T14:05:23.641290+00:00",
+  "generatedAt": "2026-09-10T15:40:07.706289+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -341,6 +341,36 @@
       "type": "Purchase",
       "shares": 500.0,
       "pricePerShare": 1.55,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "FUSB",
+      "issuerName": "FIRST US BANCSHARES, INC.",
+      "insiderName": "FIELD Robert C",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 877.0,
+      "pricePerShare": 16.47,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "TPL",
+      "issuerName": "Texas Pacific Land Corp",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 378.57,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "ATLO",
+      "issuerName": "AMES NATIONAL CORP",
+      "insiderName": "Baker Jeffery C",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 300.0,
+      "pricePerShare": 31.88,
       "transactionDate": "2026-09-09"
     },
     {
@@ -1911,6 +1941,16 @@
       "type": "Sale",
       "shares": 2100.0,
       "pricePerShare": 116.11,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "FUSB",
+      "issuerName": "FIRST US BANCSHARES, INC.",
+      "insiderName": "FIELD Robert C",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 284.0,
+      "pricePerShare": 16.47,
       "transactionDate": "2026-09-08"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 823.0,
       "pricePerShare": 960.41,
       "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MU",
-      "issuerName": "MICRON TECHNOLOGY INC",
-      "insiderName": "MEHROTRA SANJAY",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1586.0,
-      "pricePerShare": 961.58,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MU",
-      "issuerName": "MICRON TECHNOLOGY INC",
-      "insiderName": "MEHROTRA SANJAY",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 4305.0,
-      "pricePerShare": 962.84,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MU",
-      "issuerName": "MICRON TECHNOLOGY INC",
-      "insiderName": "MEHROTRA SANJAY",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 4227.0,
-      "pricePerShare": 963.84,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MU",
-      "issuerName": "MICRON TECHNOLOGY INC",
-      "insiderName": "MEHROTRA SANJAY",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 3434.0,
-      "pricePerShare": 964.67,
-      "transactionDate": "2026-08-21"
     }
   ],
   "byTicker": {
@@ -31632,6 +31632,141 @@
           "shares": 2500.0,
           "pricePerShare": 1.455,
           "transactionDate": "2026-08-21"
+        }
+      ]
+    },
+    "FUSB": {
+      "issuerName": "FIRST US BANCSHARES, INC.",
+      "trades": [
+        {
+          "ticker": "FUSB",
+          "issuerName": "FIRST US BANCSHARES, INC.",
+          "insiderName": "FIELD Robert C",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 877.0,
+          "pricePerShare": 16.47,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "FUSB",
+          "issuerName": "FIRST US BANCSHARES, INC.",
+          "insiderName": "FIELD Robert C",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 284.0,
+          "pricePerShare": 16.47,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "FUSB",
+          "issuerName": "FIRST US BANCSHARES, INC.",
+          "insiderName": "FIELD Robert C",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 412.0,
+          "pricePerShare": 16.4,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
+    "TPL": {
+      "issuerName": "Texas Pacific Land Corp",
+      "trades": [
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 378.57,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 375.1,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 360.03,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 363.2,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 364.42,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 375.0,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 372.58,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 377.39,
+          "transactionDate": "2026-08-24"
+        }
+      ]
+    },
+    "ATLO": {
+      "issuerName": "AMES NATIONAL CORP",
+      "trades": [
+        {
+          "ticker": "ATLO",
+          "issuerName": "AMES NATIONAL CORP",
+          "insiderName": "Baker Jeffery C",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 300.0,
+          "pricePerShare": 31.88,
+          "transactionDate": "2026-09-09"
         }
       ]
     },
@@ -33417,81 +33552,6 @@
           "shares": 21000.0,
           "pricePerShare": 19.11,
           "transactionDate": "2026-09-08"
-        }
-      ]
-    },
-    "TPL": {
-      "issuerName": "Texas Pacific Land Corp",
-      "trades": [
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 375.1,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 360.03,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 363.2,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 364.42,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 375.0,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 372.58,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 377.39,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -46002,21 +46062,6 @@
           "shares": 6510.0,
           "pricePerShare": 27.265,
           "transactionDate": "2026-09-02"
-        }
-      ]
-    },
-    "FUSB": {
-      "issuerName": "FIRST US BANCSHARES, INC.",
-      "trades": [
-        {
-          "ticker": "FUSB",
-          "issuerName": "FIRST US BANCSHARES, INC.",
-          "insiderName": "FIELD Robert C",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 412.0,
-          "pricePerShare": 16.4,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -63342,46 +63387,6 @@
           "shares": 823.0,
           "pricePerShare": 960.41,
           "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MU",
-          "issuerName": "MICRON TECHNOLOGY INC",
-          "insiderName": "MEHROTRA SANJAY",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1586.0,
-          "pricePerShare": 961.58,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MU",
-          "issuerName": "MICRON TECHNOLOGY INC",
-          "insiderName": "MEHROTRA SANJAY",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4305.0,
-          "pricePerShare": 962.84,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MU",
-          "issuerName": "MICRON TECHNOLOGY INC",
-          "insiderName": "MEHROTRA SANJAY",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4227.0,
-          "pricePerShare": 963.84,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MU",
-          "issuerName": "MICRON TECHNOLOGY INC",
-          "insiderName": "MEHROTRA SANJAY",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3434.0,
-          "pricePerShare": 964.67,
-          "transactionDate": "2026-08-21"
         }
       ]
     }
@@ -63739,6 +63744,8 @@
       "0000070502-26-000605",
       "0000070502-26-000607",
       "0000070502-26-000609",
+      "0000070502-26-000613",
+      "0000070502-26-000615",
       "0000070858-26-000359",
       "0000070858-26-000368",
       "0000070858-26-000409",
@@ -66182,6 +66189,11 @@
       "0000950103-26-013733",
       "0000950103-26-013745",
       "0000950103-26-013746",
+      "0000950103-26-013749",
+      "0000950103-26-013750",
+      "0000950103-26-013751",
+      "0000950103-26-013752",
+      "0000950103-26-013753",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66290,6 +66302,7 @@
       "0001019155-26-000388",
       "0001019155-26-000393",
       "0001019155-26-000416",
+      "0001019155-26-000435",
       "0001019966-26-000004",
       "0001021330-26-000085",
       "0001021882-26-000648",
@@ -67679,6 +67692,7 @@
       "0001104659-26-106571",
       "0001104659-26-106578",
       "0001104659-26-106585",
+      "0001104659-26-106599",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68622,6 +68636,7 @@
       "0001178913-26-004365",
       "0001178913-26-004367",
       "0001178913-26-004405",
+      "0001178913-26-004485",
       "0001179684-26-000013",
       "0001180008-26-000012",
       "0001180017-26-000016",
@@ -72254,6 +72269,8 @@
       "0001193125-26-387402",
       "0001193125-26-387409",
       "0001193125-26-387412",
+      "0001193125-26-387499",
+      "0001193125-26-387512",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73721,6 +73738,10 @@
       "0001213900-26-098613",
       "0001213900-26-098614",
       "0001213900-26-098615",
+      "0001213900-26-098634",
+      "0001213900-26-098638",
+      "0001213900-26-098641",
+      "0001213900-26-098642",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74051,6 +74072,7 @@
       "0001214659-26-011537",
       "0001214659-26-011538",
       "0001214659-26-011541",
+      "0001214659-26-011543",
       "0001214993-26-000004",
       "0001215135-26-000012",
       "0001215315-26-000038",
@@ -75462,6 +75484,7 @@
       "0001437749-26-029965",
       "0001437749-26-030003",
       "0001437749-26-030019",
+      "0001437749-26-030032",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -76709,6 +76732,7 @@
       "0001528621-26-000926",
       "0001528621-26-000927",
       "0001528621-26-000930",
+      "0001528621-26-000931",
       "0001529306-26-000005",
       "0001530038-26-000002",
       "0001530038-26-000004",
@@ -78113,6 +78137,7 @@
       "0001628280-26-061225",
       "0001628280-26-061235",
       "0001628280-26-061237",
+      "0001628280-26-061255",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -82241,6 +82266,17 @@
       "0001839882-26-044763",
       "0001839882-26-044765",
       "0001839882-26-044767",
+      "0001839882-26-044788",
+      "0001839882-26-044789",
+      "0001839882-26-044790",
+      "0001839882-26-044807",
+      "0001839882-26-044817",
+      "0001839882-26-044821",
+      "0001839882-26-044822",
+      "0001839882-26-044823",
+      "0001839882-26-044824",
+      "0001839882-26-044826",
+      "0001839882-26-044827",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -82574,6 +82610,7 @@
       "0001916048-26-000009",
       "0001916473-26-000034",
       "0001917389-26-000012",
+      "0001917933-26-000002",
       "0001917995-26-000011",
       "0001918084-26-000007",
       "0001918704-26-020489",
@@ -85855,6 +85892,31 @@
       "0001918704-26-027063",
       "0001918704-26-027064",
       "0001918704-26-027065",
+      "0001918704-26-027075",
+      "0001918704-26-027076",
+      "0001918704-26-027077",
+      "0001918704-26-027078",
+      "0001918704-26-027079",
+      "0001918704-26-027080",
+      "0001918704-26-027081",
+      "0001918704-26-027082",
+      "0001918704-26-027083",
+      "0001918704-26-027084",
+      "0001918704-26-027085",
+      "0001918704-26-027086",
+      "0001918704-26-027087",
+      "0001918704-26-027088",
+      "0001918704-26-027089",
+      "0001918704-26-027090",
+      "0001918704-26-027091",
+      "0001918704-26-027092",
+      "0001918704-26-027093",
+      "0001918704-26-027094",
+      "0001918704-26-027095",
+      "0001918704-26-027096",
+      "0001918704-26-027097",
+      "0001918704-26-027098",
+      "0001918704-26-027099",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -86664,6 +86726,7 @@
       "0001999371-26-020263",
       "0001999371-26-020267",
       "0001999371-26-020271",
+      "0001999371-26-020280",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
