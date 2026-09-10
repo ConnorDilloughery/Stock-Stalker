@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T11:00:43.703936+00:00",
+  "generatedAt": "2026-09-10T12:03:17.414760+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -261,6 +261,26 @@
       "type": "Purchase",
       "shares": 1737.0,
       "pricePerShare": 1.0,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "GRCE",
+      "issuerName": "Grace Therapeutics, Inc.",
+      "insiderName": "Kohli Prashant",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 100000.0,
+      "pricePerShare": 2.14,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "GLXY",
+      "issuerName": "Galaxy Digital Inc.",
+      "insiderName": "Friedrich Matthew W.",
+      "title": "Chief Legal Officer",
+      "type": "Sale",
+      "shares": 4993.0,
+      "pricePerShare": 27.03,
       "transactionDate": "2026-09-09"
     },
     {
@@ -29982,26 +30002,6 @@
       "shares": 1354.0,
       "pricePerShare": 983.11,
       "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MU",
-      "issuerName": "MICRON TECHNOLOGY INC",
-      "insiderName": "MEHROTRA SANJAY",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 637.0,
-      "pricePerShare": 984.12,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MU",
-      "issuerName": "MICRON TECHNOLOGY INC",
-      "insiderName": "MEHROTRA SANJAY",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 84.0,
-      "pricePerShare": 985.4,
-      "transactionDate": "2026-08-21"
     }
   ],
   "byTicker": {
@@ -31332,6 +31332,36 @@
           "shares": 5219.0,
           "pricePerShare": 1.0,
           "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "GRCE": {
+      "issuerName": "Grace Therapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "GRCE",
+          "issuerName": "Grace Therapeutics, Inc.",
+          "insiderName": "Kohli Prashant",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 100000.0,
+          "pricePerShare": 2.14,
+          "transactionDate": "2026-09-09"
+        }
+      ]
+    },
+    "GLXY": {
+      "issuerName": "Galaxy Digital Inc.",
+      "trades": [
+        {
+          "ticker": "GLXY",
+          "issuerName": "Galaxy Digital Inc.",
+          "insiderName": "Friedrich Matthew W.",
+          "title": "Chief Legal Officer",
+          "type": "Sale",
+          "shares": 4993.0,
+          "pricePerShare": 27.03,
+          "transactionDate": "2026-09-09"
         }
       ]
     },
@@ -63337,26 +63367,6 @@
           "shares": 1354.0,
           "pricePerShare": 983.11,
           "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MU",
-          "issuerName": "MICRON TECHNOLOGY INC",
-          "insiderName": "MEHROTRA SANJAY",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 637.0,
-          "pricePerShare": 984.12,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MU",
-          "issuerName": "MICRON TECHNOLOGY INC",
-          "insiderName": "MEHROTRA SANJAY",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 84.0,
-          "pricePerShare": 985.4,
-          "transactionDate": "2026-08-21"
         }
       ]
     }
@@ -68466,6 +68476,7 @@
       "0001140361-26-036091",
       "0001140361-26-036101",
       "0001140361-26-036103",
+      "0001140361-26-036125",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -75401,6 +75412,7 @@
       "0001437749-26-029963",
       "0001437749-26-029965",
       "0001437749-26-030003",
+      "0001437749-26-030019",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -78043,6 +78055,8 @@
       "0001628280-26-061196",
       "0001628280-26-061198",
       "0001628280-26-061206",
+      "0001628280-26-061222",
+      "0001628280-26-061225",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -78530,6 +78544,7 @@
       "0001706137-26-000011",
       "0001706137-26-000012",
       "0001706137-26-000016",
+      "0001706614-26-000004",
       "0001706903-26-000006",
       "0001707073-26-000006",
       "0001707073-26-000008",
@@ -86552,6 +86567,7 @@
       "0001999371-26-020168",
       "0001999371-26-020178",
       "0001999371-26-020181",
+      "0001999371-26-020263",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
