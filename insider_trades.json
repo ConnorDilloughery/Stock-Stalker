@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T21:04:16.782417+00:00",
+  "generatedAt": "2026-09-10T22:03:30.290634+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -31,6 +31,36 @@
       "type": "Sale",
       "shares": 1000.0,
       "pricePerShare": 140.15,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "GME",
+      "issuerName": "GameStop Corp.",
+      "insiderName": "Cohen Ryan",
+      "title": "Director, President, CEO and Chairman",
+      "type": "Purchase",
+      "shares": 1000000.0,
+      "pricePerShare": 20.3759,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "O",
+      "issuerName": "REALTY INCOME CORP",
+      "insiderName": "McLaughlin Gregory",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 3475.0,
+      "pricePerShare": 60.1502,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "LITE",
+      "issuerName": "Lumentum Holdings Inc.",
+      "insiderName": "Wupen Yuen",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 961.44,
       "transactionDate": "2026-09-10"
     },
     {
@@ -561,6 +591,186 @@
       "type": "Sale",
       "shares": 5500.0,
       "pricePerShare": 24.3,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "NPWR",
+      "issuerName": "Net Power Inc.",
+      "insiderName": "8 Rivers Capital, LLC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 150000.0,
+      "pricePerShare": 1.8405,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "NPWR",
+      "issuerName": "Net Power Inc.",
+      "insiderName": "NPEH, LLC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 150000.0,
+      "pricePerShare": 1.8405,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "KDP",
+      "issuerName": "Keurig Dr Pepper Inc.",
+      "insiderName": "DeNooyer Mary Beth",
+      "title": "Chief Human Resources Officer",
+      "type": "Sale",
+      "shares": 12000.0,
+      "pricePerShare": 32.3,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "VGNT",
+      "issuerName": "Versigent PLC",
+      "insiderName": "CLARK KEVIN P",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 57508.0,
+      "pricePerShare": 45.49,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "VGNT",
+      "issuerName": "Versigent PLC",
+      "insiderName": "CLARK KEVIN P",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 16517.0,
+      "pricePerShare": 46.27,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "VGNT",
+      "issuerName": "Versigent PLC",
+      "insiderName": "CLARK KEVIN P",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 105.0,
+      "pricePerShare": 47.08,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "NKE",
+      "issuerName": "NIKE, Inc.",
+      "insiderName": "McCartney Philip",
+      "title": "EVP: CHIEF INN,PROD&DSG OFCR",
+      "type": "Sale",
+      "shares": 2559.0,
+      "pricePerShare": 37.59,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "ESTC",
+      "issuerName": "Elastic N.V.",
+      "insiderName": "Kulkarni Ashutosh",
+      "title": "Director, Chief Executive Officer",
+      "type": "Sale",
+      "shares": 29227.0,
+      "pricePerShare": 87.78,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "ESTC",
+      "issuerName": "Elastic N.V.",
+      "insiderName": "Bone Jane E",
+      "title": "GVP & CAO",
+      "type": "Sale",
+      "shares": 1542.0,
+      "pricePerShare": 87.78,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "LITE",
+      "issuerName": "Lumentum Holdings Inc.",
+      "insiderName": "Wupen Yuen",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 978.54,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "NKE",
+      "issuerName": "NIKE, Inc.",
+      "insiderName": "Leinwand Robert",
+      "title": "EVP: Chief Legal Officer",
+      "type": "Sale",
+      "shares": 3646.0,
+      "pricePerShare": 37.59,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "ESTC",
+      "issuerName": "Elastic N.V.",
+      "insiderName": "Herzog Carolyn",
+      "title": "Chief Legal Officer",
+      "type": "Sale",
+      "shares": 5485.0,
+      "pricePerShare": 87.78,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "ESTC",
+      "issuerName": "Elastic N.V.",
+      "insiderName": "Dodds Mark Eugene",
+      "title": "Chief Revenue Officer",
+      "type": "Sale",
+      "shares": 9673.0,
+      "pricePerShare": 87.78,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "ESTC",
+      "issuerName": "Elastic N.V.",
+      "insiderName": "Welihinda Navam",
+      "title": "Chief Financial Officer",
+      "type": "Sale",
+      "shares": 8961.0,
+      "pricePerShare": 87.78,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "NKE",
+      "issuerName": "NIKE, Inc.",
+      "insiderName": "Alagirisamy Venkatesh",
+      "title": "EVP: CHIEF OPERATING OFFICER",
+      "type": "Sale",
+      "shares": 3671.0,
+      "pricePerShare": 37.59,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "TPR",
+      "issuerName": "TAPESTRY, INC.",
+      "insiderName": "Kulikowsky Denise",
+      "title": "Chief People Officer",
+      "type": "Sale",
+      "shares": 2191.0,
+      "pricePerShare": 115.4,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "TPR",
+      "issuerName": "TAPESTRY, INC.",
+      "insiderName": "Kulikowsky Denise",
+      "title": "Chief People Officer",
+      "type": "Sale",
+      "shares": 3619.0,
+      "pricePerShare": 115.36,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "LUNR",
+      "issuerName": "Intuitive Machines, Inc.",
+      "insiderName": "Ghaffarian Kamal Seyed",
+      "title": "Director, 10% Owner",
+      "type": "Sale",
+      "shares": 1698.0,
+      "pricePerShare": 16.0029,
       "transactionDate": "2026-09-09"
     },
     {
@@ -2561,6 +2771,256 @@
       "type": "Sale",
       "shares": 197.0,
       "pricePerShare": 513.3808,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "NPWR",
+      "issuerName": "Net Power Inc.",
+      "insiderName": "8 Rivers Capital, LLC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 100000.0,
+      "pricePerShare": 1.9352,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "NPWR",
+      "issuerName": "Net Power Inc.",
+      "insiderName": "NPEH, LLC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 100000.0,
+      "pricePerShare": 1.9352,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "RXRX",
+      "issuerName": "RECURSION PHARMACEUTICALS, INC.",
+      "insiderName": "Khan Najat",
+      "title": "Director, CEO and President",
+      "type": "Sale",
+      "shares": 22408.0,
+      "pricePerShare": 3.5176,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "RVMD",
+      "issuerName": "Revolution Medicines, Inc.",
+      "insiderName": "Kim Lorence H.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 706.0,
+      "pricePerShare": 206.6049,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "RVMD",
+      "issuerName": "Revolution Medicines, Inc.",
+      "insiderName": "Kim Lorence H.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 999.0,
+      "pricePerShare": 207.3321,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "RVMD",
+      "issuerName": "Revolution Medicines, Inc.",
+      "insiderName": "Kim Lorence H.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3587.0,
+      "pricePerShare": 208.5534,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "RVMD",
+      "issuerName": "Revolution Medicines, Inc.",
+      "insiderName": "Kim Lorence H.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2853.0,
+      "pricePerShare": 209.56,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "RVMD",
+      "issuerName": "Revolution Medicines, Inc.",
+      "insiderName": "Kim Lorence H.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 4730.0,
+      "pricePerShare": 210.5028,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "RVMD",
+      "issuerName": "Revolution Medicines, Inc.",
+      "insiderName": "Kim Lorence H.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3844.0,
+      "pricePerShare": 211.3588,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "RVMD",
+      "issuerName": "Revolution Medicines, Inc.",
+      "insiderName": "Kim Lorence H.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 371.0,
+      "pricePerShare": 212.2693,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "BRN",
+      "issuerName": "BARNWELL INDUSTRIES INC",
+      "insiderName": "Horowitz Joshua",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 10478.0,
+      "pricePerShare": 0.996,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "KDP",
+      "issuerName": "Keurig Dr Pepper Inc.",
+      "insiderName": "DeNooyer Mary Beth",
+      "title": "Chief Human Resources Officer",
+      "type": "Sale",
+      "shares": 12000.0,
+      "pricePerShare": 32.55,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "VGNT",
+      "issuerName": "Versigent PLC",
+      "insiderName": "CLARK KEVIN P",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 38271.0,
+      "pricePerShare": 47.85,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "VGNT",
+      "issuerName": "Versigent PLC",
+      "insiderName": "CLARK KEVIN P",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 9034.0,
+      "pricePerShare": 48.5,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "VGNT",
+      "issuerName": "Versigent PLC",
+      "insiderName": "CLARK KEVIN P",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1287.0,
+      "pricePerShare": 49.67,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "ZM",
+      "issuerName": "Zoom Communications, Inc.",
+      "insiderName": "Subotovsky Santiago",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1792.0,
+      "pricePerShare": 96.4766,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "ZM",
+      "issuerName": "Zoom Communications, Inc.",
+      "insiderName": "Subotovsky Santiago",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 845.0,
+      "pricePerShare": 96.9451,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "WST",
+      "issuerName": "WEST PHARMACEUTICAL SERVICES INC",
+      "insiderName": "Favorite Annette F",
+      "title": "Sr. VP & Chief HR Officer",
+      "type": "Sale",
+      "shares": 2817.0,
+      "pricePerShare": 340.81,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "WST",
+      "issuerName": "WEST PHARMACEUTICAL SERVICES INC",
+      "insiderName": "Favorite Annette F",
+      "title": "Sr. VP & Chief HR Officer",
+      "type": "Sale",
+      "shares": 2818.0,
+      "pricePerShare": 340.81,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "WST",
+      "issuerName": "WEST PHARMACEUTICAL SERVICES INC",
+      "insiderName": "Favorite Annette F",
+      "title": "Sr. VP & Chief HR Officer",
+      "type": "Sale",
+      "shares": 2500.0,
+      "pricePerShare": 340.81,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "LITE",
+      "issuerName": "Lumentum Holdings Inc.",
+      "insiderName": "Wupen Yuen",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 895.99,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "ARQ",
+      "issuerName": "Arq, Inc.",
+      "insiderName": "Steinmetz Shimon",
+      "title": "Chief Financial Officer",
+      "type": "Purchase",
+      "shares": 1098.0,
+      "pricePerShare": 2.3396,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "ARQ",
+      "issuerName": "Arq, Inc.",
+      "insiderName": "Steinmetz Shimon",
+      "title": "Chief Financial Officer",
+      "type": "Purchase",
+      "shares": 1874.0,
+      "pricePerShare": 2.3393,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "LUNR",
+      "issuerName": "Intuitive Machines, Inc.",
+      "insiderName": "Ghaffarian Kamal Seyed",
+      "title": "Director, 10% Owner",
+      "type": "Sale",
+      "shares": 93105.0,
+      "pricePerShare": 15.3913,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "LUNR",
+      "issuerName": "Intuitive Machines, Inc.",
+      "insiderName": "Ghaffarian Kamal Seyed",
+      "title": "Director, 10% Owner",
+      "type": "Sale",
+      "shares": 1501.0,
+      "pricePerShare": 15.7573,
       "transactionDate": "2026-09-08"
     },
     {
@@ -29542,466 +30002,6 @@
       "shares": 1250.0,
       "pricePerShare": 174.29,
       "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "FLD",
-      "issuerName": "Fold Holdings, Inc.",
-      "insiderName": "Reeves William Brian Poppic",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 10045.0,
-      "pricePerShare": 0.488,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "VENU",
-      "issuerName": "Venu Holding Corp",
-      "insiderName": "ROTH JAY W",
-      "title": "Director, CEO & Chairman, 10% Owner",
-      "type": "Purchase",
-      "shares": 1000.0,
-      "pricePerShare": 1.9176,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 3820.0,
-      "pricePerShare": 116.87,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 14747.0,
-      "pricePerShare": 117.9,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1433.0,
-      "pricePerShare": 118.35,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 223.0,
-      "pricePerShare": 116.79,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1046.0,
-      "pricePerShare": 117.83,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 231.0,
-      "pricePerShare": 118.26,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "KEYS",
-      "issuerName": "Keysight Technologies, Inc.",
-      "insiderName": "NYE JEAN MCCLUNG",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 3000.0,
-      "pricePerShare": 319.22,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "PODC",
-      "issuerName": "PodcastOne, Inc.",
-      "insiderName": "MERRIMAN D JONATHAN",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 15700.0,
-      "pricePerShare": 2.75,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "DGICA",
-      "issuerName": "DONEGAL GROUP INC",
-      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 10000.0,
-      "pricePerShare": 18.6757,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "EPSN",
-      "issuerName": "Epsilon Energy Ltd.",
-      "insiderName": "Stabell Jason",
-      "title": "Director, Chief Executive Officer",
-      "type": "Purchase",
-      "shares": 4900.0,
-      "pricePerShare": 5.56,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "GAIA",
-      "issuerName": "GAIA, INC",
-      "insiderName": "Sutherland Paul Howard",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 2500.0,
-      "pricePerShare": 1.455,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "PMA",
-      "issuerName": "Ming Shing Group Holdings Ltd",
-      "insiderName": "Lam Chi Ming",
-      "title": "Director, 10% Owner",
-      "type": "Sale",
-      "shares": 100000.0,
-      "pricePerShare": 1.3195,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "TISI",
-      "issuerName": "TEAM INC",
-      "insiderName": "Roeder Clinton William",
-      "title": "Chief Financial Officer",
-      "type": "Purchase",
-      "shares": 8000.0,
-      "pricePerShare": 22.9,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "TISI",
-      "issuerName": "TEAM INC",
-      "insiderName": "Roeder Clinton William",
-      "title": "Chief Financial Officer",
-      "type": "Purchase",
-      "shares": 1000.0,
-      "pricePerShare": 22.84,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "TISI",
-      "issuerName": "TEAM INC",
-      "insiderName": "Horton Anthony R",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 2000.0,
-      "pricePerShare": 23.15,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "DRTS",
-      "issuerName": "Alpha Tau Medical Ltd.",
-      "insiderName": "Levy Raphi",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2871.0,
-      "pricePerShare": 15.0028,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "AFL",
-      "issuerName": "AFLAC INC",
-      "insiderName": "Japan Post Holdings Co., Ltd.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 12820.0,
-      "pricePerShare": 116.28,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "AFL",
-      "issuerName": "AFLAC INC",
-      "insiderName": "Japan Post Holdings Co., Ltd.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 80.0,
-      "pricePerShare": 117.07,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "EL",
-      "issuerName": "ESTEE LAUDER COMPANIES INC",
-      "insiderName": "La Lande Rashida",
-      "title": "Exec VP & General Counsel",
-      "type": "Sale",
-      "shares": 5564.0,
-      "pricePerShare": 99.55,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "NGL",
-      "issuerName": "NGL Energy Partners LP",
-      "insiderName": "RAYMOND JOHN T",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 1126.0,
-      "pricePerShare": 16.25,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "EDRY",
-      "issuerName": "EuroDry Ltd.",
-      "insiderName": "Pittas Aristeidis P",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 250.0,
-      "pricePerShare": 44.5587,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "EDRY",
-      "issuerName": "EuroDry Ltd.",
-      "insiderName": "Pittas Aristeidis P",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 250.0,
-      "pricePerShare": 44.5587,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "BCML",
-      "issuerName": "BayCom Corp",
-      "insiderName": "Laverne Robert G.",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 1000.0,
-      "pricePerShare": 29.85,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "AMR",
-      "issuerName": "Alpha Metallurgical Resources, Inc.",
-      "insiderName": "Gorzynski Michael",
-      "title": "Director, 10% Owner",
-      "type": "Purchase",
-      "shares": 10000.0,
-      "pricePerShare": 208.9169,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "CDTG",
-      "issuerName": "CDT Environmental Technology Investment Holdings Ltd",
-      "insiderName": "HRT FINANCIAL LP",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 2052.0,
-      "pricePerShare": 1.36,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "PAM",
-      "issuerName": "Pampa Energy Inc.",
-      "insiderName": "Mindlin Marcos Marcelo",
-      "title": "Director, 10% Owner",
-      "type": "Purchase",
-      "shares": 675000.0,
-      "pricePerShare": 3.376,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "insiderName": "Garman Matthew S",
-      "title": "CEO Amazon Web Services",
-      "type": "Sale",
-      "shares": 2159.0,
-      "pricePerShare": 257.5954,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "insiderName": "Garman Matthew S",
-      "title": "CEO Amazon Web Services",
-      "type": "Sale",
-      "shares": 5191.0,
-      "pricePerShare": 258.6595,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "insiderName": "Garman Matthew S",
-      "title": "CEO Amazon Web Services",
-      "type": "Sale",
-      "shares": 5240.0,
-      "pricePerShare": 259.5702,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "insiderName": "Garman Matthew S",
-      "title": "CEO Amazon Web Services",
-      "type": "Sale",
-      "shares": 1951.0,
-      "pricePerShare": 260.3396,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "FIG",
-      "issuerName": "Figma, Inc.",
-      "insiderName": "Herb Tyler",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1840.0,
-      "pricePerShare": 27.14,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "insiderName": "Herrington Douglas J",
-      "title": "CEO Worldwide Amazon Stores",
-      "type": "Sale",
-      "shares": 1825.0,
-      "pricePerShare": 257.7656,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "insiderName": "Herrington Douglas J",
-      "title": "CEO Worldwide Amazon Stores",
-      "type": "Sale",
-      "shares": 2125.0,
-      "pricePerShare": 258.5805,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "insiderName": "Herrington Douglas J",
-      "title": "CEO Worldwide Amazon Stores",
-      "type": "Sale",
-      "shares": 2412.0,
-      "pricePerShare": 260.3251,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MRCY",
-      "issuerName": "MERCURY SYSTEMS INC",
-      "insiderName": "Ratner Steven",
-      "title": "EVP, CHRO",
-      "type": "Sale",
-      "shares": 356.0,
-      "pricePerShare": 91.36,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MRCY",
-      "issuerName": "MERCURY SYSTEMS INC",
-      "insiderName": "KUPINSKY STUART",
-      "title": "EVP, CLO & Corp Sec",
-      "type": "Sale",
-      "shares": 1000.0,
-      "pricePerShare": 95.23,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MRCY",
-      "issuerName": "MERCURY SYSTEMS INC",
-      "insiderName": "Ballhaus William L",
-      "title": "Director, Chairman, President & CEO",
-      "type": "Sale",
-      "shares": 64796.0,
-      "pricePerShare": 92.404,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MRCY",
-      "issuerName": "MERCURY SYSTEMS INC",
-      "insiderName": "Ballhaus William L",
-      "title": "Director, Chairman, President & CEO",
-      "type": "Sale",
-      "shares": 204.0,
-      "pricePerShare": 93.508,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "AUGO",
-      "issuerName": "Aura Minerals Inc.",
-      "insiderName": "Sousa Mauad Bruno",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 222652.0,
-      "pricePerShare": 88.11,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "SMHI",
-      "issuerName": "SEACOR Marine Holdings Inc.",
-      "insiderName": "Everett Andrew H II",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 200.0,
-      "pricePerShare": 10.0,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "OMER",
-      "issuerName": "OMEROS CORP",
-      "insiderName": "Borges David J.",
-      "title": "VP, Finance & CAO",
-      "type": "Sale",
-      "shares": 10000.0,
-      "pricePerShare": 18.95,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "SMHI",
-      "issuerName": "SEACOR Marine Holdings Inc.",
-      "insiderName": "Llorca Jesus",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 401.0,
-      "pricePerShare": 10.0,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "KNTK",
-      "issuerName": "Kinetik Holdings Inc.",
-      "insiderName": "ISQ Global Fund II GP LLC",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 6963.0,
-      "pricePerShare": 55.1654,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "HTFL",
-      "issuerName": "Heartflow, Inc.",
-      "insiderName": "Farquhar John C.M.",
-      "title": "Director, Chief Executive Officer",
-      "type": "Sale",
-      "shares": 27230.0,
-      "pricePerShare": 50.0,
-      "transactionDate": "2026-08-21"
     }
   ],
   "byTicker": {
@@ -30067,6 +30067,531 @@
           "shares": 1000.0,
           "pricePerShare": 140.15,
           "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "GME": {
+      "issuerName": "GameStop Corp.",
+      "trades": [
+        {
+          "ticker": "GME",
+          "issuerName": "GameStop Corp.",
+          "insiderName": "Cohen Ryan",
+          "title": "Director, President, CEO and Chairman",
+          "type": "Purchase",
+          "shares": 1000000.0,
+          "pricePerShare": 20.3759,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "GME",
+          "issuerName": "GameStop Corp.",
+          "insiderName": "Grube James",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 10255.0,
+          "pricePerShare": 19.12,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "GME",
+          "issuerName": "GameStop Corp.",
+          "insiderName": "Cheng Lawrence",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 55000.0,
+          "pricePerShare": 18.7992,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "O": {
+      "issuerName": "REALTY INCOME CORP",
+      "trades": [
+        {
+          "ticker": "O",
+          "issuerName": "REALTY INCOME CORP",
+          "insiderName": "McLaughlin Gregory",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3475.0,
+          "pricePerShare": 60.1502,
+          "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "LITE": {
+      "issuerName": "Lumentum Holdings Inc.",
+      "trades": [
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 961.44,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 978.54,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 895.99,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 901.04,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 895.0,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 940.95,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "HURLSTON MICHAEL E.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 548.0,
+          "pricePerShare": 958.66,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 958.66,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 882.15,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 856.645,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 360.0,
+          "pricePerShare": 842.2161,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1213.0,
+          "pricePerShare": 843.6014,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1053.0,
+          "pricePerShare": 844.6082,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 631.0,
+          "pricePerShare": 845.6299,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2073.0,
+          "pricePerShare": 846.4448,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2121.0,
+          "pricePerShare": 847.516,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1102.0,
+          "pricePerShare": 848.6576,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1528.0,
+          "pricePerShare": 849.7055,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3017.0,
+          "pricePerShare": 850.6556,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4426.0,
+          "pricePerShare": 851.6762,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3711.0,
+          "pricePerShare": 852.6005,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2465.0,
+          "pricePerShare": 853.6179,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3486.0,
+          "pricePerShare": 854.8859,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 800.0,
+          "pricePerShare": 855.8411,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4676.0,
+          "pricePerShare": 856.7089,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3511.0,
+          "pricePerShare": 857.95,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 188.0,
+          "pricePerShare": 858.8163,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Retort Vincent",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2302.0,
+          "pricePerShare": 860.052,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 205.0,
+          "pricePerShare": 842.3932,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 280.0,
+          "pricePerShare": 843.6821,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 360.0,
+          "pricePerShare": 844.6617,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 570.0,
+          "pricePerShare": 845.959,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 456.0,
+          "pricePerShare": 847.0044,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 491.0,
+          "pricePerShare": 847.9411,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 600.0,
+          "pricePerShare": 849.1433,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 600.0,
+          "pricePerShare": 850.4378,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 970.0,
+          "pricePerShare": 851.3098,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1998.0,
+          "pricePerShare": 852.3285,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 851.0,
+          "pricePerShare": 853.5373,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1080.0,
+          "pricePerShare": 854.8428,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 273.0,
+          "pricePerShare": 855.8929,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1679.0,
+          "pricePerShare": 856.698,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 815.0,
+          "pricePerShare": 857.9592,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 40.0,
+          "pricePerShare": 858.64,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Kim Jae",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 732.0,
+          "pricePerShare": 860.0367,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 824.24,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 898.15,
+          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -30950,31 +31475,6 @@
         }
       ]
     },
-    "GME": {
-      "issuerName": "GameStop Corp.",
-      "trades": [
-        {
-          "ticker": "GME",
-          "issuerName": "GameStop Corp.",
-          "insiderName": "Grube James",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 10255.0,
-          "pricePerShare": 19.12,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "GME",
-          "issuerName": "GameStop Corp.",
-          "insiderName": "Cheng Lawrence",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 55000.0,
-          "pricePerShare": 18.7992,
-          "transactionDate": "2026-09-08"
-        }
-      ]
-    },
     "CCAP": {
       "issuerName": "Crescent Capital BDC, Inc.",
       "trades": [
@@ -31397,6 +31897,16 @@
           "shares": 5219.0,
           "pricePerShare": 1.0,
           "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "BRN",
+          "issuerName": "BARNWELL INDUSTRIES INC",
+          "insiderName": "Horowitz Joshua",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 10478.0,
+          "pricePerShare": 0.996,
+          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -31687,16 +32197,6 @@
           "shares": 1000.0,
           "pricePerShare": 1.67,
           "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "GAIA",
-          "issuerName": "GAIA, INC",
-          "insiderName": "Sutherland Paul Howard",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 2500.0,
-          "pricePerShare": 1.455,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -32517,6 +33017,451 @@
           "shares": 25000.0,
           "pricePerShare": 26.15,
           "transactionDate": "2026-08-25"
+        }
+      ]
+    },
+    "NPWR": {
+      "issuerName": "Net Power Inc.",
+      "trades": [
+        {
+          "ticker": "NPWR",
+          "issuerName": "Net Power Inc.",
+          "insiderName": "8 Rivers Capital, LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 150000.0,
+          "pricePerShare": 1.8405,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "NPWR",
+          "issuerName": "Net Power Inc.",
+          "insiderName": "NPEH, LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 150000.0,
+          "pricePerShare": 1.8405,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "NPWR",
+          "issuerName": "Net Power Inc.",
+          "insiderName": "8 Rivers Capital, LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 100000.0,
+          "pricePerShare": 1.9352,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "NPWR",
+          "issuerName": "Net Power Inc.",
+          "insiderName": "NPEH, LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 100000.0,
+          "pricePerShare": 1.9352,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "NPWR",
+          "issuerName": "Net Power Inc.",
+          "insiderName": "8 Rivers Capital, LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 41350.0,
+          "pricePerShare": 1.9124,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "NPWR",
+          "issuerName": "Net Power Inc.",
+          "insiderName": "8 Rivers Capital, LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 201550.0,
+          "pricePerShare": 1.9065,
+          "transactionDate": "2026-08-25"
+        }
+      ]
+    },
+    "KDP": {
+      "issuerName": "Keurig Dr Pepper Inc.",
+      "trades": [
+        {
+          "ticker": "KDP",
+          "issuerName": "Keurig Dr Pepper Inc.",
+          "insiderName": "DeNooyer Mary Beth",
+          "title": "Chief Human Resources Officer",
+          "type": "Sale",
+          "shares": 12000.0,
+          "pricePerShare": 32.3,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "KDP",
+          "issuerName": "Keurig Dr Pepper Inc.",
+          "insiderName": "DeNooyer Mary Beth",
+          "title": "Chief Human Resources Officer",
+          "type": "Sale",
+          "shares": 12000.0,
+          "pricePerShare": 32.55,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "KDP",
+          "issuerName": "Keurig Dr Pepper Inc.",
+          "insiderName": "Stephens Angela A.",
+          "title": "Senior VP & Controller",
+          "type": "Sale",
+          "shares": 9500.0,
+          "pricePerShare": 32.7,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "KDP",
+          "issuerName": "Keurig Dr Pepper Inc.",
+          "insiderName": "Alt Aaron E",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 7862.0,
+          "pricePerShare": 31.83,
+          "transactionDate": "2026-08-25"
+        }
+      ]
+    },
+    "VGNT": {
+      "issuerName": "Versigent PLC",
+      "trades": [
+        {
+          "ticker": "VGNT",
+          "issuerName": "Versigent PLC",
+          "insiderName": "CLARK KEVIN P",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 57508.0,
+          "pricePerShare": 45.49,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "VGNT",
+          "issuerName": "Versigent PLC",
+          "insiderName": "CLARK KEVIN P",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 16517.0,
+          "pricePerShare": 46.27,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "VGNT",
+          "issuerName": "Versigent PLC",
+          "insiderName": "CLARK KEVIN P",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 105.0,
+          "pricePerShare": 47.08,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "VGNT",
+          "issuerName": "Versigent PLC",
+          "insiderName": "CLARK KEVIN P",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 38271.0,
+          "pricePerShare": 47.85,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "VGNT",
+          "issuerName": "Versigent PLC",
+          "insiderName": "CLARK KEVIN P",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 9034.0,
+          "pricePerShare": 48.5,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "VGNT",
+          "issuerName": "Versigent PLC",
+          "insiderName": "CLARK KEVIN P",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1287.0,
+          "pricePerShare": 49.67,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "NKE": {
+      "issuerName": "NIKE, Inc.",
+      "trades": [
+        {
+          "ticker": "NKE",
+          "issuerName": "NIKE, Inc.",
+          "insiderName": "McCartney Philip",
+          "title": "EVP: CHIEF INN,PROD&DSG OFCR",
+          "type": "Sale",
+          "shares": 2559.0,
+          "pricePerShare": 37.59,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "NKE",
+          "issuerName": "NIKE, Inc.",
+          "insiderName": "Leinwand Robert",
+          "title": "EVP: Chief Legal Officer",
+          "type": "Sale",
+          "shares": 3646.0,
+          "pricePerShare": 37.59,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "NKE",
+          "issuerName": "NIKE, Inc.",
+          "insiderName": "Alagirisamy Venkatesh",
+          "title": "EVP: CHIEF OPERATING OFFICER",
+          "type": "Sale",
+          "shares": 3671.0,
+          "pricePerShare": 37.59,
+          "transactionDate": "2026-09-09"
+        }
+      ]
+    },
+    "ESTC": {
+      "issuerName": "Elastic N.V.",
+      "trades": [
+        {
+          "ticker": "ESTC",
+          "issuerName": "Elastic N.V.",
+          "insiderName": "Kulkarni Ashutosh",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 29227.0,
+          "pricePerShare": 87.78,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "ESTC",
+          "issuerName": "Elastic N.V.",
+          "insiderName": "Bone Jane E",
+          "title": "GVP & CAO",
+          "type": "Sale",
+          "shares": 1542.0,
+          "pricePerShare": 87.78,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "ESTC",
+          "issuerName": "Elastic N.V.",
+          "insiderName": "Herzog Carolyn",
+          "title": "Chief Legal Officer",
+          "type": "Sale",
+          "shares": 5485.0,
+          "pricePerShare": 87.78,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "ESTC",
+          "issuerName": "Elastic N.V.",
+          "insiderName": "Dodds Mark Eugene",
+          "title": "Chief Revenue Officer",
+          "type": "Sale",
+          "shares": 9673.0,
+          "pricePerShare": 87.78,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "ESTC",
+          "issuerName": "Elastic N.V.",
+          "insiderName": "Welihinda Navam",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 8961.0,
+          "pricePerShare": 87.78,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "ESTC",
+          "issuerName": "Elastic N.V.",
+          "insiderName": "Banon Shay",
+          "title": "Director, Chief Technology Officer",
+          "type": "Sale",
+          "shares": 97199.0,
+          "pricePerShare": 89.71,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "ESTC",
+          "issuerName": "Elastic N.V.",
+          "insiderName": "Banon Shay",
+          "title": "Director, Chief Technology Officer",
+          "type": "Sale",
+          "shares": 42456.0,
+          "pricePerShare": 90.69,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "ESTC",
+          "issuerName": "Elastic N.V.",
+          "insiderName": "Banon Shay",
+          "title": "Director, Chief Technology Officer",
+          "type": "Sale",
+          "shares": 25516.0,
+          "pricePerShare": 91.67,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "ESTC",
+          "issuerName": "Elastic N.V.",
+          "insiderName": "Bone Jane E",
+          "title": "GVP & CAO",
+          "type": "Sale",
+          "shares": 4176.0,
+          "pricePerShare": 93.48,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "ESTC",
+          "issuerName": "Elastic N.V.",
+          "insiderName": "Herzog Carolyn",
+          "title": "Chief Legal Officer",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 93.67,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "ESTC",
+          "issuerName": "Elastic N.V.",
+          "insiderName": "Banon Shay",
+          "title": "Director, Chief Technology Officer",
+          "type": "Sale",
+          "shares": 97599.0,
+          "pricePerShare": 92.48,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "ESTC",
+          "issuerName": "Elastic N.V.",
+          "insiderName": "Banon Shay",
+          "title": "Director, Chief Technology Officer",
+          "type": "Sale",
+          "shares": 13528.0,
+          "pricePerShare": 93.47,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "ESTC",
+          "issuerName": "Elastic N.V.",
+          "insiderName": "Banon Shay",
+          "title": "Director, Chief Technology Officer",
+          "type": "Sale",
+          "shares": 108423.0,
+          "pricePerShare": 96.17,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "ESTC",
+          "issuerName": "Elastic N.V.",
+          "insiderName": "Banon Shay",
+          "title": "Director, Chief Technology Officer",
+          "type": "Sale",
+          "shares": 87423.0,
+          "pricePerShare": 96.77,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "ESTC",
+          "issuerName": "Elastic N.V.",
+          "insiderName": "Banon Shay",
+          "title": "Director, Chief Technology Officer",
+          "type": "Sale",
+          "shares": 4154.0,
+          "pricePerShare": 97.75,
+          "transactionDate": "2026-08-31"
+        }
+      ]
+    },
+    "TPR": {
+      "issuerName": "TAPESTRY, INC.",
+      "trades": [
+        {
+          "ticker": "TPR",
+          "issuerName": "TAPESTRY, INC.",
+          "insiderName": "Kulikowsky Denise",
+          "title": "Chief People Officer",
+          "type": "Sale",
+          "shares": 2191.0,
+          "pricePerShare": 115.4,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "TPR",
+          "issuerName": "TAPESTRY, INC.",
+          "insiderName": "Kulikowsky Denise",
+          "title": "Chief People Officer",
+          "type": "Sale",
+          "shares": 3619.0,
+          "pricePerShare": 115.36,
+          "transactionDate": "2026-09-09"
+        }
+      ]
+    },
+    "LUNR": {
+      "issuerName": "Intuitive Machines, Inc.",
+      "trades": [
+        {
+          "ticker": "LUNR",
+          "issuerName": "Intuitive Machines, Inc.",
+          "insiderName": "Ghaffarian Kamal Seyed",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 1698.0,
+          "pricePerShare": 16.0029,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "LUNR",
+          "issuerName": "Intuitive Machines, Inc.",
+          "insiderName": "Ghaffarian Kamal Seyed",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 93105.0,
+          "pricePerShare": 15.3913,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "LUNR",
+          "issuerName": "Intuitive Machines, Inc.",
+          "insiderName": "Ghaffarian Kamal Seyed",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 1501.0,
+          "pricePerShare": 15.7573,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "LUNR",
+          "issuerName": "Intuitive Machines, Inc.",
+          "insiderName": "Ghaffarian Kamal Seyed",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 139772.0,
+          "pricePerShare": 16.8612,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "LUNR",
+          "issuerName": "Intuitive Machines, Inc.",
+          "insiderName": "Ghaffarian Kamal Seyed",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 2137.0,
+          "pricePerShare": 17.68,
+          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -34262,16 +35207,6 @@
           "shares": 10000.0,
           "pricePerShare": 19.0647,
           "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.6757,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -37367,26 +38302,6 @@
           "shares": 634.0,
           "pricePerShare": 117.37,
           "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12820.0,
-          "pricePerShare": 116.28,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 117.07,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -37997,6 +38912,231 @@
           "shares": 197.0,
           "pricePerShare": 513.3808,
           "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "RXRX": {
+      "issuerName": "RECURSION PHARMACEUTICALS, INC.",
+      "trades": [
+        {
+          "ticker": "RXRX",
+          "issuerName": "RECURSION PHARMACEUTICALS, INC.",
+          "insiderName": "Khan Najat",
+          "title": "Director, CEO and President",
+          "type": "Sale",
+          "shares": 22408.0,
+          "pricePerShare": 3.5176,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "RXRX",
+          "issuerName": "RECURSION PHARMACEUTICALS, INC.",
+          "insiderName": "Borgeson Blake",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 30000.0,
+          "pricePerShare": 3.34,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "RVMD": {
+      "issuerName": "Revolution Medicines, Inc.",
+      "trades": [
+        {
+          "ticker": "RVMD",
+          "issuerName": "Revolution Medicines, Inc.",
+          "insiderName": "Kim Lorence H.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 706.0,
+          "pricePerShare": 206.6049,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "RVMD",
+          "issuerName": "Revolution Medicines, Inc.",
+          "insiderName": "Kim Lorence H.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 999.0,
+          "pricePerShare": 207.3321,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "RVMD",
+          "issuerName": "Revolution Medicines, Inc.",
+          "insiderName": "Kim Lorence H.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3587.0,
+          "pricePerShare": 208.5534,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "RVMD",
+          "issuerName": "Revolution Medicines, Inc.",
+          "insiderName": "Kim Lorence H.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2853.0,
+          "pricePerShare": 209.56,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "RVMD",
+          "issuerName": "Revolution Medicines, Inc.",
+          "insiderName": "Kim Lorence H.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4730.0,
+          "pricePerShare": 210.5028,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "RVMD",
+          "issuerName": "Revolution Medicines, Inc.",
+          "insiderName": "Kim Lorence H.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3844.0,
+          "pricePerShare": 211.3588,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "RVMD",
+          "issuerName": "Revolution Medicines, Inc.",
+          "insiderName": "Kim Lorence H.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 371.0,
+          "pricePerShare": 212.2693,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "ZM": {
+      "issuerName": "Zoom Communications, Inc.",
+      "trades": [
+        {
+          "ticker": "ZM",
+          "issuerName": "Zoom Communications, Inc.",
+          "insiderName": "Subotovsky Santiago",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1792.0,
+          "pricePerShare": 96.4766,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "ZM",
+          "issuerName": "Zoom Communications, Inc.",
+          "insiderName": "Subotovsky Santiago",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 845.0,
+          "pricePerShare": 96.9451,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "WST": {
+      "issuerName": "WEST PHARMACEUTICAL SERVICES INC",
+      "trades": [
+        {
+          "ticker": "WST",
+          "issuerName": "WEST PHARMACEUTICAL SERVICES INC",
+          "insiderName": "Favorite Annette F",
+          "title": "Sr. VP & Chief HR Officer",
+          "type": "Sale",
+          "shares": 2817.0,
+          "pricePerShare": 340.81,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "WST",
+          "issuerName": "WEST PHARMACEUTICAL SERVICES INC",
+          "insiderName": "Favorite Annette F",
+          "title": "Sr. VP & Chief HR Officer",
+          "type": "Sale",
+          "shares": 2818.0,
+          "pricePerShare": 340.81,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "WST",
+          "issuerName": "WEST PHARMACEUTICAL SERVICES INC",
+          "insiderName": "Favorite Annette F",
+          "title": "Sr. VP & Chief HR Officer",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 340.81,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "ARQ": {
+      "issuerName": "Arq, Inc.",
+      "trades": [
+        {
+          "ticker": "ARQ",
+          "issuerName": "Arq, Inc.",
+          "insiderName": "Steinmetz Shimon",
+          "title": "Chief Financial Officer",
+          "type": "Purchase",
+          "shares": 1098.0,
+          "pricePerShare": 2.3396,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "ARQ",
+          "issuerName": "Arq, Inc.",
+          "insiderName": "Steinmetz Shimon",
+          "title": "Chief Financial Officer",
+          "type": "Purchase",
+          "shares": 1874.0,
+          "pricePerShare": 2.3393,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "ARQ",
+          "issuerName": "Arq, Inc.",
+          "insiderName": "Steinmetz Shimon",
+          "title": "Chief Financial Officer",
+          "type": "Purchase",
+          "shares": 1402.0,
+          "pricePerShare": 2.2889,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "ARQ",
+          "issuerName": "Arq, Inc.",
+          "insiderName": "Steinmetz Shimon",
+          "title": "Chief Financial Officer",
+          "type": "Purchase",
+          "shares": 4356.0,
+          "pricePerShare": 2.2737,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "ARQ",
+          "issuerName": "Arq, Inc.",
+          "insiderName": "Steinmetz Shimon",
+          "title": "Chief Financial Officer",
+          "type": "Purchase",
+          "shares": 7500.0,
+          "pricePerShare": 2.2178,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "ARQ",
+          "issuerName": "Arq, Inc.",
+          "insiderName": "Steinmetz Shimon",
+          "title": "Chief Financial Officer",
+          "type": "Purchase",
+          "shares": 8770.0,
+          "pricePerShare": 2.2251,
+          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -42310,51 +43450,6 @@
         }
       ]
     },
-    "ARQ": {
-      "issuerName": "Arq, Inc.",
-      "trades": [
-        {
-          "ticker": "ARQ",
-          "issuerName": "Arq, Inc.",
-          "insiderName": "Steinmetz Shimon",
-          "title": "Chief Financial Officer",
-          "type": "Purchase",
-          "shares": 1402.0,
-          "pricePerShare": 2.2889,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "ARQ",
-          "issuerName": "Arq, Inc.",
-          "insiderName": "Steinmetz Shimon",
-          "title": "Chief Financial Officer",
-          "type": "Purchase",
-          "shares": 4356.0,
-          "pricePerShare": 2.2737,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "ARQ",
-          "issuerName": "Arq, Inc.",
-          "insiderName": "Steinmetz Shimon",
-          "title": "Chief Financial Officer",
-          "type": "Purchase",
-          "shares": 7500.0,
-          "pricePerShare": 2.2178,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "ARQ",
-          "issuerName": "Arq, Inc.",
-          "insiderName": "Steinmetz Shimon",
-          "title": "Chief Financial Officer",
-          "type": "Purchase",
-          "shares": 8770.0,
-          "pricePerShare": 2.2251,
-          "transactionDate": "2026-09-03"
-        }
-      ]
-    },
     "SBUX": {
       "issuerName": "STARBUCKS CORP",
       "trades": [
@@ -46652,66 +47747,6 @@
           "shares": 473.0,
           "pricePerShare": 116.6,
           "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3820.0,
-          "pricePerShare": 116.87,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 14747.0,
-          "pricePerShare": 117.9,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1433.0,
-          "pricePerShare": 118.35,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 223.0,
-          "pricePerShare": 116.79,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1046.0,
-          "pricePerShare": 117.83,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 231.0,
-          "pricePerShare": 118.26,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -47115,31 +48150,6 @@
         }
       ]
     },
-    "KDP": {
-      "issuerName": "Keurig Dr Pepper Inc.",
-      "trades": [
-        {
-          "ticker": "KDP",
-          "issuerName": "Keurig Dr Pepper Inc.",
-          "insiderName": "Stephens Angela A.",
-          "title": "Senior VP & Controller",
-          "type": "Sale",
-          "shares": 9500.0,
-          "pricePerShare": 32.7,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "KDP",
-          "issuerName": "Keurig Dr Pepper Inc.",
-          "insiderName": "Alt Aaron E",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 7862.0,
-          "pricePerShare": 31.83,
-          "transactionDate": "2026-08-25"
-        }
-      ]
-    },
     "FNKO": {
       "issuerName": "Funko, Inc.",
       "trades": [
@@ -47212,16 +48222,6 @@
           "shares": 5876.0,
           "pricePerShare": 50.6,
           "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "HTFL",
-          "issuerName": "Heartflow, Inc.",
-          "insiderName": "Farquhar John C.M.",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 27230.0,
-          "pricePerShare": 50.0,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -47512,36 +48512,6 @@
           "shares": 2000.0,
           "pricePerShare": 22.9,
           "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "TISI",
-          "issuerName": "TEAM INC",
-          "insiderName": "Roeder Clinton William",
-          "title": "Chief Financial Officer",
-          "type": "Purchase",
-          "shares": 8000.0,
-          "pricePerShare": 22.9,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "TISI",
-          "issuerName": "TEAM INC",
-          "insiderName": "Roeder Clinton William",
-          "title": "Chief Financial Officer",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 22.84,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "TISI",
-          "issuerName": "TEAM INC",
-          "insiderName": "Horton Anthony R",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 2000.0,
-          "pricePerShare": 23.15,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -48167,46 +49137,6 @@
           "shares": 2738.0,
           "pricePerShare": 90.6,
           "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "MRCY",
-          "issuerName": "MERCURY SYSTEMS INC",
-          "insiderName": "Ratner Steven",
-          "title": "EVP, CHRO",
-          "type": "Sale",
-          "shares": 356.0,
-          "pricePerShare": 91.36,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MRCY",
-          "issuerName": "MERCURY SYSTEMS INC",
-          "insiderName": "KUPINSKY STUART",
-          "title": "EVP, CLO & Corp Sec",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 95.23,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MRCY",
-          "issuerName": "MERCURY SYSTEMS INC",
-          "insiderName": "Ballhaus William L",
-          "title": "Director, Chairman, President & CEO",
-          "type": "Sale",
-          "shares": 64796.0,
-          "pricePerShare": 92.404,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MRCY",
-          "issuerName": "MERCURY SYSTEMS INC",
-          "insiderName": "Ballhaus William L",
-          "title": "Director, Chairman, President & CEO",
-          "type": "Sale",
-          "shares": 204.0,
-          "pricePerShare": 93.508,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -48446,111 +49376,6 @@
           "type": "Purchase",
           "shares": 753.0,
           "pricePerShare": 63.25,
-          "transactionDate": "2026-08-31"
-        }
-      ]
-    },
-    "ESTC": {
-      "issuerName": "Elastic N.V.",
-      "trades": [
-        {
-          "ticker": "ESTC",
-          "issuerName": "Elastic N.V.",
-          "insiderName": "Banon Shay",
-          "title": "Director, Chief Technology Officer",
-          "type": "Sale",
-          "shares": 97199.0,
-          "pricePerShare": 89.71,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "ESTC",
-          "issuerName": "Elastic N.V.",
-          "insiderName": "Banon Shay",
-          "title": "Director, Chief Technology Officer",
-          "type": "Sale",
-          "shares": 42456.0,
-          "pricePerShare": 90.69,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "ESTC",
-          "issuerName": "Elastic N.V.",
-          "insiderName": "Banon Shay",
-          "title": "Director, Chief Technology Officer",
-          "type": "Sale",
-          "shares": 25516.0,
-          "pricePerShare": 91.67,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "ESTC",
-          "issuerName": "Elastic N.V.",
-          "insiderName": "Bone Jane E",
-          "title": "GVP & CAO",
-          "type": "Sale",
-          "shares": 4176.0,
-          "pricePerShare": 93.48,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "ESTC",
-          "issuerName": "Elastic N.V.",
-          "insiderName": "Herzog Carolyn",
-          "title": "Chief Legal Officer",
-          "type": "Sale",
-          "shares": 10000.0,
-          "pricePerShare": 93.67,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "ESTC",
-          "issuerName": "Elastic N.V.",
-          "insiderName": "Banon Shay",
-          "title": "Director, Chief Technology Officer",
-          "type": "Sale",
-          "shares": 97599.0,
-          "pricePerShare": 92.48,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "ESTC",
-          "issuerName": "Elastic N.V.",
-          "insiderName": "Banon Shay",
-          "title": "Director, Chief Technology Officer",
-          "type": "Sale",
-          "shares": 13528.0,
-          "pricePerShare": 93.47,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "ESTC",
-          "issuerName": "Elastic N.V.",
-          "insiderName": "Banon Shay",
-          "title": "Director, Chief Technology Officer",
-          "type": "Sale",
-          "shares": 108423.0,
-          "pricePerShare": 96.17,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "ESTC",
-          "issuerName": "Elastic N.V.",
-          "insiderName": "Banon Shay",
-          "title": "Director, Chief Technology Officer",
-          "type": "Sale",
-          "shares": 87423.0,
-          "pricePerShare": 96.77,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "ESTC",
-          "issuerName": "Elastic N.V.",
-          "insiderName": "Banon Shay",
-          "title": "Director, Chief Technology Officer",
-          "type": "Sale",
-          "shares": 4154.0,
-          "pricePerShare": 97.75,
           "transactionDate": "2026-08-31"
         }
       ]
@@ -50682,16 +51507,6 @@
           "shares": 8905.0,
           "pricePerShare": 0.478,
           "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "FLD",
-          "issuerName": "Fold Holdings, Inc.",
-          "insiderName": "Reeves William Brian Poppic",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 10045.0,
-          "pricePerShare": 0.488,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -51815,451 +52630,6 @@
         }
       ]
     },
-    "LITE": {
-      "issuerName": "Lumentum Holdings Inc.",
-      "trades": [
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Wupen Yuen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 901.04,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Wupen Yuen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 895.0,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Wupen Yuen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 940.95,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "HURLSTON MICHAEL E.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 548.0,
-          "pricePerShare": 958.66,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Wupen Yuen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 958.66,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Wupen Yuen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 882.15,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Wupen Yuen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 856.645,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 360.0,
-          "pricePerShare": 842.2161,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1213.0,
-          "pricePerShare": 843.6014,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1053.0,
-          "pricePerShare": 844.6082,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 631.0,
-          "pricePerShare": 845.6299,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2073.0,
-          "pricePerShare": 846.4448,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2121.0,
-          "pricePerShare": 847.516,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1102.0,
-          "pricePerShare": 848.6576,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1528.0,
-          "pricePerShare": 849.7055,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3017.0,
-          "pricePerShare": 850.6556,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4426.0,
-          "pricePerShare": 851.6762,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3711.0,
-          "pricePerShare": 852.6005,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2465.0,
-          "pricePerShare": 853.6179,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3486.0,
-          "pricePerShare": 854.8859,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 800.0,
-          "pricePerShare": 855.8411,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4676.0,
-          "pricePerShare": 856.7089,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3511.0,
-          "pricePerShare": 857.95,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 188.0,
-          "pricePerShare": 858.8163,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Retort Vincent",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2302.0,
-          "pricePerShare": 860.052,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 205.0,
-          "pricePerShare": 842.3932,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 280.0,
-          "pricePerShare": 843.6821,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 360.0,
-          "pricePerShare": 844.6617,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 570.0,
-          "pricePerShare": 845.959,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 456.0,
-          "pricePerShare": 847.0044,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 491.0,
-          "pricePerShare": 847.9411,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 600.0,
-          "pricePerShare": 849.1433,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 600.0,
-          "pricePerShare": 850.4378,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 970.0,
-          "pricePerShare": 851.3098,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1998.0,
-          "pricePerShare": 852.3285,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 851.0,
-          "pricePerShare": 853.5373,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1080.0,
-          "pricePerShare": 854.8428,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 273.0,
-          "pricePerShare": 855.8929,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1679.0,
-          "pricePerShare": 856.698,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 815.0,
-          "pricePerShare": 857.9592,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 40.0,
-          "pricePerShare": 858.64,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Kim Jae",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 732.0,
-          "pricePerShare": 860.0367,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Wupen Yuen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 824.24,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Wupen Yuen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 898.15,
-          "transactionDate": "2026-08-21"
-        }
-      ]
-    },
     "AHR": {
       "issuerName": "American Healthcare REIT, Inc.",
       "trades": [
@@ -53036,21 +53406,6 @@
           "type": "Sale",
           "shares": 50000.0,
           "pricePerShare": 13.8485,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "RXRX": {
-      "issuerName": "RECURSION PHARMACEUTICALS, INC.",
-      "trades": [
-        {
-          "ticker": "RXRX",
-          "issuerName": "RECURSION PHARMACEUTICALS, INC.",
-          "insiderName": "Borgeson Blake",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 30000.0,
-          "pricePerShare": 3.34,
           "transactionDate": "2026-09-01"
         }
       ]
@@ -55707,16 +56062,6 @@
           "shares": 500000.0,
           "pricePerShare": 3.44,
           "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "PAM",
-          "issuerName": "Pampa Energy Inc.",
-          "insiderName": "Mindlin Marcos Marcelo",
-          "title": "Director, 10% Owner",
-          "type": "Purchase",
-          "shares": 675000.0,
-          "pricePerShare": 3.376,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -55877,16 +56222,6 @@
           "shares": 2100.0,
           "pricePerShare": 1.9048,
           "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "VENU",
-          "issuerName": "Venu Holding Corp",
-          "insiderName": "ROTH JAY W",
-          "title": "Director, CEO & Chairman, 10% Owner",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 1.9176,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -56022,16 +56357,6 @@
           "shares": 103589.0,
           "pricePerShare": 87.4672,
           "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "AUGO",
-          "issuerName": "Aura Minerals Inc.",
-          "insiderName": "Sousa Mauad Bruno",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 222652.0,
-          "pricePerShare": 88.11,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -57757,16 +58082,6 @@
           "shares": 25500.0,
           "pricePerShare": 16.2237,
           "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "NGL",
-          "issuerName": "NGL Energy Partners LP",
-          "insiderName": "RAYMOND JOHN T",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1126.0,
-          "pricePerShare": 16.25,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -59295,31 +59610,6 @@
         }
       ]
     },
-    "NPWR": {
-      "issuerName": "Net Power Inc.",
-      "trades": [
-        {
-          "ticker": "NPWR",
-          "issuerName": "Net Power Inc.",
-          "insiderName": "8 Rivers Capital, LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 41350.0,
-          "pricePerShare": 1.9124,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "NPWR",
-          "issuerName": "Net Power Inc.",
-          "insiderName": "8 Rivers Capital, LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 201550.0,
-          "pricePerShare": 1.9065,
-          "transactionDate": "2026-08-25"
-        }
-      ]
-    },
     "RVI": {
       "issuerName": "Robinhood Ventures Fund I",
       "trades": [
@@ -59897,16 +60187,6 @@
           "shares": 76260.0,
           "pricePerShare": 55.2753,
           "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "KNTK",
-          "issuerName": "Kinetik Holdings Inc.",
-          "insiderName": "ISQ Global Fund II GP LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6963.0,
-          "pricePerShare": 55.1654,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -60937,26 +61217,6 @@
           "shares": 350.0,
           "pricePerShare": 45.35,
           "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 250.0,
-          "pricePerShare": 44.5587,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "EDRY",
-          "issuerName": "EuroDry Ltd.",
-          "insiderName": "Pittas Aristeidis P",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 250.0,
-          "pricePerShare": 44.5587,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -61752,16 +62012,6 @@
           "shares": 21413.0,
           "pricePerShare": 5.626,
           "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "EPSN",
-          "issuerName": "Epsilon Energy Ltd.",
-          "insiderName": "Stabell Jason",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 4900.0,
-          "pricePerShare": 5.56,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -61952,16 +62202,6 @@
           "shares": 906.0,
           "pricePerShare": 19.1,
           "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "OMER",
-          "issuerName": "OMEROS CORP",
-          "insiderName": "Borges David J.",
-          "title": "VP, Finance & CAO",
-          "type": "Sale",
-          "shares": 10000.0,
-          "pricePerShare": 18.95,
-          "transactionDate": "2026-08-21"
         }
       ]
     },
@@ -62266,31 +62506,6 @@
           "type": "Sale",
           "shares": 10000.0,
           "pricePerShare": 31.3389,
-          "transactionDate": "2026-08-24"
-        }
-      ]
-    },
-    "LUNR": {
-      "issuerName": "Intuitive Machines, Inc.",
-      "trades": [
-        {
-          "ticker": "LUNR",
-          "issuerName": "Intuitive Machines, Inc.",
-          "insiderName": "Ghaffarian Kamal Seyed",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 139772.0,
-          "pricePerShare": 16.8612,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "LUNR",
-          "issuerName": "Intuitive Machines, Inc.",
-          "insiderName": "Ghaffarian Kamal Seyed",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 2137.0,
-          "pricePerShare": 17.68,
           "transactionDate": "2026-08-24"
         }
       ]
@@ -63204,241 +63419,6 @@
           "transactionDate": "2026-08-21"
         }
       ]
-    },
-    "KEYS": {
-      "issuerName": "Keysight Technologies, Inc.",
-      "trades": [
-        {
-          "ticker": "KEYS",
-          "issuerName": "Keysight Technologies, Inc.",
-          "insiderName": "NYE JEAN MCCLUNG",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 319.22,
-          "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "PODC": {
-      "issuerName": "PodcastOne, Inc.",
-      "trades": [
-        {
-          "ticker": "PODC",
-          "issuerName": "PodcastOne, Inc.",
-          "insiderName": "MERRIMAN D JONATHAN",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 15700.0,
-          "pricePerShare": 2.75,
-          "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "PMA": {
-      "issuerName": "Ming Shing Group Holdings Ltd",
-      "trades": [
-        {
-          "ticker": "PMA",
-          "issuerName": "Ming Shing Group Holdings Ltd",
-          "insiderName": "Lam Chi Ming",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 100000.0,
-          "pricePerShare": 1.3195,
-          "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "DRTS": {
-      "issuerName": "Alpha Tau Medical Ltd.",
-      "trades": [
-        {
-          "ticker": "DRTS",
-          "issuerName": "Alpha Tau Medical Ltd.",
-          "insiderName": "Levy Raphi",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2871.0,
-          "pricePerShare": 15.0028,
-          "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "EL": {
-      "issuerName": "ESTEE LAUDER COMPANIES INC",
-      "trades": [
-        {
-          "ticker": "EL",
-          "issuerName": "ESTEE LAUDER COMPANIES INC",
-          "insiderName": "La Lande Rashida",
-          "title": "Exec VP & General Counsel",
-          "type": "Sale",
-          "shares": 5564.0,
-          "pricePerShare": 99.55,
-          "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "BCML": {
-      "issuerName": "BayCom Corp",
-      "trades": [
-        {
-          "ticker": "BCML",
-          "issuerName": "BayCom Corp",
-          "insiderName": "Laverne Robert G.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 29.85,
-          "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "AMR": {
-      "issuerName": "Alpha Metallurgical Resources, Inc.",
-      "trades": [
-        {
-          "ticker": "AMR",
-          "issuerName": "Alpha Metallurgical Resources, Inc.",
-          "insiderName": "Gorzynski Michael",
-          "title": "Director, 10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 208.9169,
-          "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "CDTG": {
-      "issuerName": "CDT Environmental Technology Investment Holdings Ltd",
-      "trades": [
-        {
-          "ticker": "CDTG",
-          "issuerName": "CDT Environmental Technology Investment Holdings Ltd",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2052.0,
-          "pricePerShare": 1.36,
-          "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "AMZN": {
-      "issuerName": "AMAZON COM INC",
-      "trades": [
-        {
-          "ticker": "AMZN",
-          "issuerName": "AMAZON COM INC",
-          "insiderName": "Garman Matthew S",
-          "title": "CEO Amazon Web Services",
-          "type": "Sale",
-          "shares": 2159.0,
-          "pricePerShare": 257.5954,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "AMZN",
-          "issuerName": "AMAZON COM INC",
-          "insiderName": "Garman Matthew S",
-          "title": "CEO Amazon Web Services",
-          "type": "Sale",
-          "shares": 5191.0,
-          "pricePerShare": 258.6595,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "AMZN",
-          "issuerName": "AMAZON COM INC",
-          "insiderName": "Garman Matthew S",
-          "title": "CEO Amazon Web Services",
-          "type": "Sale",
-          "shares": 5240.0,
-          "pricePerShare": 259.5702,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "AMZN",
-          "issuerName": "AMAZON COM INC",
-          "insiderName": "Garman Matthew S",
-          "title": "CEO Amazon Web Services",
-          "type": "Sale",
-          "shares": 1951.0,
-          "pricePerShare": 260.3396,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "AMZN",
-          "issuerName": "AMAZON COM INC",
-          "insiderName": "Herrington Douglas J",
-          "title": "CEO Worldwide Amazon Stores",
-          "type": "Sale",
-          "shares": 1825.0,
-          "pricePerShare": 257.7656,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "AMZN",
-          "issuerName": "AMAZON COM INC",
-          "insiderName": "Herrington Douglas J",
-          "title": "CEO Worldwide Amazon Stores",
-          "type": "Sale",
-          "shares": 2125.0,
-          "pricePerShare": 258.5805,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "AMZN",
-          "issuerName": "AMAZON COM INC",
-          "insiderName": "Herrington Douglas J",
-          "title": "CEO Worldwide Amazon Stores",
-          "type": "Sale",
-          "shares": 2412.0,
-          "pricePerShare": 260.3251,
-          "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "FIG": {
-      "issuerName": "Figma, Inc.",
-      "trades": [
-        {
-          "ticker": "FIG",
-          "issuerName": "Figma, Inc.",
-          "insiderName": "Herb Tyler",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1840.0,
-          "pricePerShare": 27.14,
-          "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "SMHI": {
-      "issuerName": "SEACOR Marine Holdings Inc.",
-      "trades": [
-        {
-          "ticker": "SMHI",
-          "issuerName": "SEACOR Marine Holdings Inc.",
-          "insiderName": "Everett Andrew H II",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 10.0,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "SMHI",
-          "issuerName": "SEACOR Marine Holdings Inc.",
-          "insiderName": "Llorca Jesus",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 401.0,
-          "pricePerShare": 10.0,
-          "transactionDate": "2026-08-21"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63962,6 +63942,7 @@
       "0000105634-26-000121",
       "0000105634-26-000123",
       "0000105770-26-000104",
+      "0000105770-26-000108",
       "0000106444-26-000397",
       "0000108985-26-000066",
       "0000108985-26-000072",
@@ -64069,6 +64050,11 @@
       "0000320187-26-000135",
       "0000320187-26-000137",
       "0000320187-26-000139",
+      "0000320187-26-000159",
+      "0000320187-26-000161",
+      "0000320187-26-000163",
+      "0000320187-26-000165",
+      "0000320187-26-000167",
       "0000320335-26-000206",
       "0000320335-26-000210",
       "0000320351-26-000369",
@@ -64494,6 +64480,7 @@
       "0000890926-26-000138",
       "0000890926-26-000140",
       "0000890926-26-000144",
+      "0000890926-26-000146",
       "0000891014-26-000181",
       "0000891103-26-000134",
       "0000891103-26-000136",
@@ -64985,6 +64972,7 @@
       "0000921895-26-002491",
       "0000921895-26-002492",
       "0000921895-26-002505",
+      "0000921895-26-002531",
       "0000922147-26-000010",
       "0000922147-26-000012",
       "0000922147-26-000016",
@@ -65148,6 +65136,7 @@
       "0000945621-26-001114",
       "0000945621-26-001118",
       "0000945621-26-001136",
+      "0000946673-26-000190",
       "0000947703-26-000199",
       "0000947703-26-000200",
       "0000947703-26-000201",
@@ -66281,6 +66270,7 @@
       "0000950103-26-013766",
       "0000950103-26-013767",
       "0000950103-26-013775",
+      "0000950103-26-013786",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -67795,6 +67785,9 @@
       "0001104659-26-106748",
       "0001104659-26-106750",
       "0001104659-26-106752",
+      "0001104659-26-106783",
+      "0001104659-26-106786",
+      "0001104659-26-106788",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68007,11 +68000,17 @@
       "0001123292-26-001217",
       "0001123292-26-001218",
       "0001123292-26-001219",
+      "0001123292-26-001278",
+      "0001123292-26-001279",
+      "0001123292-26-001280",
+      "0001123292-26-001281",
+      "0001123292-26-001282",
       "0001123360-26-000088",
       "0001126328-26-000180",
       "0001126328-26-000182",
       "0001128480-26-000004",
       "0001128483-26-000012",
+      "0001129136-26-000002",
       "0001133228-26-010642",
       "0001133228-26-010644",
       "0001133228-26-010646",
@@ -68631,6 +68630,7 @@
       "0001140361-26-036169",
       "0001140361-26-036178",
       "0001140361-26-036180",
+      "0001140361-26-036220",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -72432,6 +72432,14 @@
       "0001193125-26-387987",
       "0001193125-26-387992",
       "0001193125-26-388008",
+      "0001193125-26-388107",
+      "0001193125-26-388113",
+      "0001193125-26-388136",
+      "0001193125-26-388142",
+      "0001193125-26-388144",
+      "0001193125-26-388146",
+      "0001193125-26-388150",
+      "0001193125-26-388156",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73917,6 +73925,8 @@
       "0001213900-26-098774",
       "0001213900-26-098775",
       "0001213900-26-098834",
+      "0001213900-26-098883",
+      "0001213900-26-098884",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74498,6 +74508,7 @@
       "0001225208-26-007710",
       "0001225208-26-007712",
       "0001225208-26-007729",
+      "0001225208-26-007731",
       "0001225481-26-000006",
       "0001225817-26-000008",
       "0001227384-26-000017",
@@ -74687,6 +74698,7 @@
       "0001280263-26-000060",
       "0001280263-26-000061",
       "0001280263-26-000062",
+      "0001280263-26-000065",
       "0001280628-26-000014",
       "0001281535-26-000012",
       "0001282304-26-000001",
@@ -75185,6 +75197,7 @@
       "0001401336-26-000020",
       "0001402348-26-000016",
       "0001402348-26-000017",
+      "0001403051-26-000006",
       "0001403161-26-000112",
       "0001403246-26-000003",
       "0001403373-26-000007",
@@ -75959,6 +75972,7 @@
       "0001451693-26-000017",
       "0001451763-26-000012",
       "0001451809-26-000064",
+      "0001452429-26-000005",
       "0001452681-26-000033",
       "0001452681-26-000035",
       "0001452681-26-000037",
@@ -76127,6 +76141,7 @@
       "0001489550-26-000006",
       "0001489550-26-000007",
       "0001489550-26-000008",
+      "0001489550-26-000010",
       "0001490754-26-000004",
       "0001490925-26-000003",
       "0001491567-26-000008",
@@ -76774,6 +76789,7 @@
       "0001515156-26-000123",
       "0001515156-26-000125",
       "0001515156-26-000127",
+      "0001515156-26-000129",
       "0001517413-26-000203",
       "0001517413-26-000226",
       "0001517413-26-000260",
@@ -77323,11 +77339,13 @@
       "0001585521-26-000111",
       "0001585521-26-000113",
       "0001585521-26-000115",
+      "0001585521-26-000133",
       "0001585799-26-000004",
       "0001586648-26-000028",
       "0001586746-26-000008",
       "0001587067-26-000012",
       "0001587482-26-000002",
+      "0001587484-26-000004",
       "0001587872-26-000002",
       "0001588852-26-000009",
       "0001589039-26-000013",
@@ -77341,6 +77359,7 @@
       "0001590364-26-000082",
       "0001590558-26-000005",
       "0001590625-26-000063",
+      "0001591430-26-000002",
       "0001591556-26-000010",
       "0001591698-26-000106",
       "0001591698-26-000107",
@@ -77444,6 +77463,7 @@
       "0001601269-26-000006",
       "0001601818-26-000012",
       "0001601830-26-000103",
+      "0001601830-26-000105",
       "0001602273-26-000013",
       "0001602724-26-000004",
       "0001603923-26-000096",
@@ -78371,6 +78391,7 @@
       "0001629292-26-000002",
       "0001629911-26-000006",
       "0001630196-26-000002",
+      "0001631325-26-000002",
       "0001632531-26-000002",
       "0001633877-26-000008",
       "0001634117-26-000081",
@@ -79850,6 +79871,7 @@
       "0001829126-26-009986",
       "0001829126-26-009987",
       "0001829126-26-009988",
+      "0001829126-26-010000",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -82891,6 +82913,7 @@
       "0001909068-26-000018",
       "0001909327-26-000010",
       "0001909539-26-000016",
+      "0001910507-26-000002",
       "0001910573-26-000006",
       "0001910573-26-000011",
       "0001910573-26-000013",
@@ -86259,6 +86282,9 @@
       "0001918704-26-027176",
       "0001918704-26-027177",
       "0001918704-26-027178",
+      "0001918704-26-027186",
+      "0001918704-26-027189",
+      "0001918704-26-027190",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -87118,6 +87144,7 @@
       "0002008217-26-000003",
       "0002008415-26-000003",
       "0002008482-26-000002",
+      "0002008967-26-000013",
       "0002009110-26-000007",
       "0002009679-26-000008",
       "0002009681-26-000008",
