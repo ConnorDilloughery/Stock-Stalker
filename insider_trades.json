@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T16:01:58.951474+00:00",
+  "generatedAt": "2026-09-10T17:04:21.765204+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -11,6 +11,16 @@
       "type": "Purchase",
       "shares": 5100.0,
       "pricePerShare": 0.68,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "UBER",
+      "issuerName": "Uber Technologies, Inc",
+      "insiderName": "KHOSROWSHAHI DARA",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 141000.0,
+      "pricePerShare": 70.9642,
       "transactionDate": "2026-09-10"
     },
     {
@@ -381,6 +391,16 @@
       "type": "Purchase",
       "shares": 300.0,
       "pricePerShare": 31.88,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "FRST",
+      "issuerName": "Primis Financial Corp.",
+      "insiderName": "Johnson Eric Alan",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 1565.0,
+      "pricePerShare": 15.95,
       "transactionDate": "2026-09-09"
     },
     {
@@ -5811,6 +5831,16 @@
       "type": "Sale",
       "shares": 315.0,
       "pricePerShare": 529.16,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "DCI",
+      "issuerName": "DONALDSON Co INC",
+      "insiderName": "Carpenter Tod E.",
+      "title": "Director, Chairman, President and CEO",
+      "type": "Sale",
+      "shares": 31968.0,
+      "pricePerShare": 91.1,
       "transactionDate": "2026-09-04"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 3089.0,
       "pricePerShare": 3.8569,
       "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "ARDX",
-      "issuerName": "ARDELYX, INC.",
-      "insiderName": "Williams Laura A",
-      "title": "Chief Patient Officer",
-      "type": "Sale",
-      "shares": 2430.0,
-      "pricePerShare": 3.8569,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "ARDX",
-      "issuerName": "ARDELYX, INC.",
-      "insiderName": "Williams Laura A",
-      "title": "Chief Patient Officer",
-      "type": "Sale",
-      "shares": 1734.0,
-      "pricePerShare": 3.8569,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MU",
-      "issuerName": "MICRON TECHNOLOGY INC",
-      "insiderName": "MEHROTRA SANJAY",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 144.0,
-      "pricePerShare": 959.14,
-      "transactionDate": "2026-08-21"
     }
   ],
   "byTicker": {
@@ -30017,6 +30017,41 @@
           "shares": 5100.0,
           "pricePerShare": 0.68,
           "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "UBER": {
+      "issuerName": "Uber Technologies, Inc",
+      "trades": [
+        {
+          "ticker": "UBER",
+          "issuerName": "Uber Technologies, Inc",
+          "insiderName": "KHOSROWSHAHI DARA",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 141000.0,
+          "pricePerShare": 70.9642,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "UBER",
+          "issuerName": "Uber Technologies, Inc",
+          "insiderName": "Macdonald Andrew",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 54325.0,
+          "pricePerShare": 75.6526,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "UBER",
+          "issuerName": "Uber Technologies, Inc",
+          "insiderName": "Macdonald Andrew",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 15675.0,
+          "pricePerShare": 76.4425,
+          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -31782,6 +31817,41 @@
           "shares": 300.0,
           "pricePerShare": 31.88,
           "transactionDate": "2026-09-09"
+        }
+      ]
+    },
+    "FRST": {
+      "issuerName": "Primis Financial Corp.",
+      "trades": [
+        {
+          "ticker": "FRST",
+          "issuerName": "Primis Financial Corp.",
+          "insiderName": "Johnson Eric Alan",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1565.0,
+          "pricePerShare": 15.95,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "FRST",
+          "issuerName": "Primis Financial Corp.",
+          "insiderName": "Weichert Margaret M",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 100.0,
+          "pricePerShare": 15.75,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "FRST",
+          "issuerName": "Primis Financial Corp.",
+          "insiderName": "Johnson Eric Alan",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1280.0,
+          "pricePerShare": 15.6,
+          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -39135,31 +39205,6 @@
         }
       ]
     },
-    "UBER": {
-      "issuerName": "Uber Technologies, Inc",
-      "trades": [
-        {
-          "ticker": "UBER",
-          "issuerName": "Uber Technologies, Inc",
-          "insiderName": "Macdonald Andrew",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 54325.0,
-          "pricePerShare": 75.6526,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "UBER",
-          "issuerName": "Uber Technologies, Inc",
-          "insiderName": "Macdonald Andrew",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 15675.0,
-          "pricePerShare": 76.4425,
-          "transactionDate": "2026-09-04"
-        }
-      ]
-    },
     "DHT": {
       "issuerName": "DHT Holdings, Inc.",
       "trades": [
@@ -44257,6 +44302,21 @@
           "shares": 11340.0,
           "pricePerShare": 513.12,
           "transactionDate": "2026-09-03"
+        }
+      ]
+    },
+    "DCI": {
+      "issuerName": "DONALDSON Co INC",
+      "trades": [
+        {
+          "ticker": "DCI",
+          "issuerName": "DONALDSON Co INC",
+          "insiderName": "Carpenter Tod E.",
+          "title": "Director, Chairman, President and CEO",
+          "type": "Sale",
+          "shares": 31968.0,
+          "pricePerShare": 91.1,
+          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -52842,31 +52902,6 @@
           "shares": 125000.0,
           "pricePerShare": 9.46,
           "transactionDate": "2026-08-26"
-        }
-      ]
-    },
-    "FRST": {
-      "issuerName": "Primis Financial Corp.",
-      "trades": [
-        {
-          "ticker": "FRST",
-          "issuerName": "Primis Financial Corp.",
-          "insiderName": "Weichert Margaret M",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 100.0,
-          "pricePerShare": 15.75,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "FRST",
-          "issuerName": "Primis Financial Corp.",
-          "insiderName": "Johnson Eric Alan",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 1280.0,
-          "pricePerShare": 15.6,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -63357,41 +63392,6 @@
           "shares": 3089.0,
           "pricePerShare": 3.8569,
           "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ARDX",
-          "issuerName": "ARDELYX, INC.",
-          "insiderName": "Williams Laura A",
-          "title": "Chief Patient Officer",
-          "type": "Sale",
-          "shares": 2430.0,
-          "pricePerShare": 3.8569,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ARDX",
-          "issuerName": "ARDELYX, INC.",
-          "insiderName": "Williams Laura A",
-          "title": "Chief Patient Officer",
-          "type": "Sale",
-          "shares": 1734.0,
-          "pricePerShare": 3.8569,
-          "transactionDate": "2026-08-21"
-        }
-      ]
-    },
-    "MU": {
-      "issuerName": "MICRON TECHNOLOGY INC",
-      "trades": [
-        {
-          "ticker": "MU",
-          "issuerName": "MICRON TECHNOLOGY INC",
-          "insiderName": "MEHROTRA SANJAY",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 144.0,
-          "pricePerShare": 959.14,
-          "transactionDate": "2026-08-21"
         }
       ]
     }
@@ -63482,6 +63482,7 @@
       "0000026058-26-000030",
       "0000027996-26-000119",
       "0000029644-26-000073",
+      "0000029644-26-000077",
       "0000029915-26-000066",
       "0000029915-26-000068",
       "0000029915-26-000072",
@@ -66199,6 +66200,8 @@
       "0000950103-26-013751",
       "0000950103-26-013752",
       "0000950103-26-013753",
+      "0000950103-26-013754",
+      "0000950103-26-013755",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -67699,6 +67702,11 @@
       "0001104659-26-106585",
       "0001104659-26-106599",
       "0001104659-26-106610",
+      "0001104659-26-106618",
+      "0001104659-26-106620",
+      "0001104659-26-106623",
+      "0001104659-26-106631",
+      "0001104659-26-106634",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68524,6 +68532,10 @@
       "0001140361-26-036125",
       "0001140361-26-036130",
       "0001140361-26-036132",
+      "0001140361-26-036140",
+      "0001140361-26-036143",
+      "0001140361-26-036144",
+      "0001140361-26-036147",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -68591,6 +68603,9 @@
       "0001174610-26-000556",
       "0001174610-26-000557",
       "0001174610-26-000562",
+      "0001174610-26-000568",
+      "0001174610-26-000569",
+      "0001174610-26-000570",
       "0001174850-26-000159",
       "0001174850-26-000162",
       "0001174947-26-000721",
@@ -68668,6 +68683,7 @@
       "0001183010-26-000057",
       "0001183429-26-000003",
       "0001184176-26-000002",
+      "0001184237-26-000008",
       "0001184592-26-000005",
       "0001184728-26-000006",
       "0001184754-26-000010",
@@ -72283,6 +72299,9 @@
       "0001193125-26-387532",
       "0001193125-26-387538",
       "0001193125-26-387539",
+      "0001193125-26-387554",
+      "0001193125-26-387558",
+      "0001193125-26-387586",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73755,6 +73774,7 @@
       "0001213900-26-098641",
       "0001213900-26-098642",
       "0001213900-26-098655",
+      "0001213900-26-098656",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74087,6 +74107,7 @@
       "0001214659-26-011541",
       "0001214659-26-011543",
       "0001214659-26-011544",
+      "0001214659-26-011545",
       "0001214993-26-000004",
       "0001215135-26-000012",
       "0001215315-26-000038",
@@ -74774,6 +74795,7 @@
       "0001375323-26-000010",
       "0001375800-26-000005",
       "0001375909-26-000011",
+      "0001376474-26-000609",
       "0001378072-26-000002",
       "0001379041-26-000070",
       "0001379041-26-000071",
@@ -75499,6 +75521,7 @@
       "0001437749-26-030003",
       "0001437749-26-030019",
       "0001437749-26-030032",
+      "0001437749-26-030035",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -76853,6 +76876,7 @@
       "0001548280-26-000012",
       "0001548280-26-000014",
       "0001549373-26-000012",
+      "0001550030-26-000006",
       "0001550220-26-000002",
       "0001552781-26-000400",
       "0001552781-26-000403",
@@ -77111,6 +77135,7 @@
       "0001580642-26-006218",
       "0001580642-26-006233",
       "0001580642-26-006234",
+      "0001580642-26-006237",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -77184,6 +77209,8 @@
       "0001592900-26-004203",
       "0001592900-26-004217",
       "0001592900-26-004219",
+      "0001592900-26-004226",
+      "0001592900-26-004227",
       "0001592970-26-000012",
       "0001593040-26-000002",
       "0001593516-26-000004",
@@ -79617,6 +79644,13 @@
       "0001829126-26-009930",
       "0001829126-26-009931",
       "0001829126-26-009932",
+      "0001829126-26-009982",
+      "0001829126-26-009983",
+      "0001829126-26-009984",
+      "0001829126-26-009985",
+      "0001829126-26-009986",
+      "0001829126-26-009987",
+      "0001829126-26-009988",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -82299,6 +82333,21 @@
       "0001839882-26-044841",
       "0001839882-26-044842",
       "0001839882-26-044843",
+      "0001839882-26-044844",
+      "0001839882-26-044845",
+      "0001839882-26-044846",
+      "0001839882-26-044847",
+      "0001839882-26-044849",
+      "0001839882-26-044850",
+      "0001839882-26-044851",
+      "0001839882-26-044853",
+      "0001839882-26-044855",
+      "0001839882-26-044858",
+      "0001839882-26-044859",
+      "0001839882-26-044860",
+      "0001839882-26-044861",
+      "0001839882-26-044862",
+      "0001839882-26-044863",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -85942,6 +85991,18 @@
       "0001918704-26-027100",
       "0001918704-26-027101",
       "0001918704-26-027102",
+      "0001918704-26-027111",
+      "0001918704-26-027112",
+      "0001918704-26-027115",
+      "0001918704-26-027116",
+      "0001918704-26-027118",
+      "0001918704-26-027120",
+      "0001918704-26-027121",
+      "0001918704-26-027122",
+      "0001918704-26-027123",
+      "0001918704-26-027124",
+      "0001918704-26-027125",
+      "0001918704-26-027126",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -86752,6 +86813,8 @@
       "0001999371-26-020267",
       "0001999371-26-020271",
       "0001999371-26-020280",
+      "0001999371-26-020286",
+      "0001999371-26-020290",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
