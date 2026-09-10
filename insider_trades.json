@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T18:03:29.197977+00:00",
+  "generatedAt": "2026-09-10T19:01:11.641618+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -2071,6 +2071,36 @@
       "type": "Sale",
       "shares": 111.0,
       "pricePerShare": 891.45,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "NWPX",
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "insiderName": "Wilkins Aaron",
+      "title": "CFO",
+      "type": "Sale",
+      "shares": 1500.0,
+      "pricePerShare": 106.52,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "NWPX",
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "insiderName": "LARSON KEITH R",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1000.0,
+      "pricePerShare": 105.8688,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "NWPX",
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "insiderName": "ROMAN RICHARD A",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 4000.0,
+      "pricePerShare": 105.7192,
       "transactionDate": "2026-09-08"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 1110.0,
       "pricePerShare": 3.8569,
       "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "ARDX",
-      "issuerName": "ARDELYX, INC.",
-      "insiderName": "Bishop John E",
-      "title": "See Remarks",
-      "type": "Sale",
-      "shares": 17281.0,
-      "pricePerShare": 3.8569,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "ARDX",
-      "issuerName": "ARDELYX, INC.",
-      "insiderName": "Bishop John E",
-      "title": "See Remarks",
-      "type": "Sale",
-      "shares": 2469.0,
-      "pricePerShare": 3.8569,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "ARDX",
-      "issuerName": "ARDELYX, INC.",
-      "insiderName": "Brady James Parker",
-      "title": "Chief Human Resources Officer",
-      "type": "Sale",
-      "shares": 1976.0,
-      "pricePerShare": 3.8569,
-      "transactionDate": "2026-08-21"
     }
   ],
   "byTicker": {
@@ -37162,6 +37162,81 @@
           "shares": 111.0,
           "pricePerShare": 891.45,
           "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "NWPX": {
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "trades": [
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "Wilkins Aaron",
+          "title": "CFO",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 106.52,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "LARSON KEITH R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 105.8688,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "ROMAN RICHARD A",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 4000.0,
+          "pricePerShare": 105.7192,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "LARSON KEITH R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 74.0,
+          "pricePerShare": 110.2597,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "LARSON KEITH R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1172.0,
+          "pricePerShare": 110.0398,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "MONTROSS SCOTT J",
+          "title": "President & CEO",
+          "type": "Sale",
+          "shares": 1227.0,
+          "pricePerShare": 110.581,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "MONTROSS SCOTT J",
+          "title": "President & CEO",
+          "type": "Sale",
+          "shares": 2500.0,
+          "pricePerShare": 109.3674,
+          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -48652,51 +48727,6 @@
           "shares": 82500.0,
           "pricePerShare": 25.9707,
           "transactionDate": "2026-09-02"
-        }
-      ]
-    },
-    "NWPX": {
-      "issuerName": "NWPX Infrastructure, Inc.",
-      "trades": [
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "LARSON KEITH R",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 74.0,
-          "pricePerShare": 110.2597,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "LARSON KEITH R",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1172.0,
-          "pricePerShare": 110.0398,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "MONTROSS SCOTT J",
-          "title": "President & CEO",
-          "type": "Sale",
-          "shares": 1227.0,
-          "pricePerShare": 110.581,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "MONTROSS SCOTT J",
-          "title": "President & CEO",
-          "type": "Sale",
-          "shares": 2500.0,
-          "pricePerShare": 109.3674,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -63372,36 +63402,6 @@
           "shares": 1110.0,
           "pricePerShare": 3.8569,
           "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ARDX",
-          "issuerName": "ARDELYX, INC.",
-          "insiderName": "Bishop John E",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 17281.0,
-          "pricePerShare": 3.8569,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ARDX",
-          "issuerName": "ARDELYX, INC.",
-          "insiderName": "Bishop John E",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 2469.0,
-          "pricePerShare": 3.8569,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ARDX",
-          "issuerName": "ARDELYX, INC.",
-          "insiderName": "Brady James Parker",
-          "title": "Chief Human Resources Officer",
-          "type": "Sale",
-          "shares": 1976.0,
-          "pricePerShare": 3.8569,
-          "transactionDate": "2026-08-21"
         }
       ]
     }
@@ -63828,6 +63828,12 @@
       "0000080424-26-000156",
       "0000080424-26-000157",
       "0000080424-26-000158",
+      "0000080424-26-000161",
+      "0000080424-26-000162",
+      "0000080424-26-000163",
+      "0000080424-26-000164",
+      "0000080424-26-000165",
+      "0000080424-26-000166",
       "0000080661-26-000266",
       "0000080661-26-000268",
       "0000080661-26-000270",
@@ -64289,6 +64295,10 @@
       "0000806180-26-000079",
       "0000806968-26-000054",
       "0000807249-26-000057",
+      "0000809593-26-000064",
+      "0000809593-26-000066",
+      "0000809593-26-000068",
+      "0000809593-26-000070",
       "0000812291-26-000013",
       "0000812797-26-000216",
       "0000812797-26-000218",
@@ -64792,6 +64802,7 @@
       "0000908834-26-000388",
       "0000908834-26-000392",
       "0000909061-26-000002",
+      "0000909759-26-000010",
       "0000910606-26-000064",
       "0000910606-26-000065",
       "0000910606-26-000066",
@@ -66215,6 +66226,7 @@
       "0000950103-26-013755",
       "0000950103-26-013756",
       "0000950103-26-013757",
+      "0000950103-26-013758",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66251,6 +66263,7 @@
       "0001003078-26-000088",
       "0001003839-26-000003",
       "0001004155-26-000018",
+      "0001004155-26-000022",
       "0001004434-26-000080",
       "0001005817-26-000108",
       "0001005817-26-000109",
@@ -67721,6 +67734,7 @@
       "0001104659-26-106631",
       "0001104659-26-106634",
       "0001104659-26-106652",
+      "0001104659-26-106666",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68551,6 +68565,9 @@
       "0001140361-26-036143",
       "0001140361-26-036144",
       "0001140361-26-036147",
+      "0001140361-26-036167",
+      "0001140361-26-036168",
+      "0001140361-26-036169",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -72323,6 +72340,15 @@
       "0001193125-26-387645",
       "0001193125-26-387646",
       "0001193125-26-387647",
+      "0001193125-26-387674",
+      "0001193125-26-387681",
+      "0001193125-26-387683",
+      "0001193125-26-387687",
+      "0001193125-26-387689",
+      "0001193125-26-387697",
+      "0001193125-26-387707",
+      "0001193125-26-387709",
+      "0001193125-26-387732",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73799,6 +73825,9 @@
       "0001213900-26-098687",
       "0001213900-26-098698",
       "0001213900-26-098699",
+      "0001213900-26-098706",
+      "0001213900-26-098709",
+      "0001213900-26-098712",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74132,6 +74161,7 @@
       "0001214659-26-011543",
       "0001214659-26-011544",
       "0001214659-26-011545",
+      "0001214659-26-011553",
       "0001214993-26-000004",
       "0001215135-26-000012",
       "0001215315-26-000038",
@@ -75046,6 +75076,7 @@
       "0001398344-26-016827",
       "0001398344-26-016830",
       "0001398344-26-016839",
+      "0001398344-26-016852",
       "0001399967-26-000002",
       "0001401257-26-000064",
       "0001401336-26-000020",
@@ -75550,6 +75581,9 @@
       "0001437749-26-030032",
       "0001437749-26-030035",
       "0001437749-26-030042",
+      "0001437749-26-030051",
+      "0001437749-26-030054",
+      "0001437749-26-030056",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -78209,6 +78243,7 @@
       "0001628280-26-061235",
       "0001628280-26-061237",
       "0001628280-26-061255",
+      "0001628280-26-061284",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -82392,6 +82427,19 @@
       "0001839882-26-044873",
       "0001839882-26-044874",
       "0001839882-26-044875",
+      "0001839882-26-044878",
+      "0001839882-26-044879",
+      "0001839882-26-044881",
+      "0001839882-26-044882",
+      "0001839882-26-044883",
+      "0001839882-26-044884",
+      "0001839882-26-044885",
+      "0001839882-26-044886",
+      "0001839882-26-044887",
+      "0001839882-26-044888",
+      "0001839882-26-044889",
+      "0001839882-26-044890",
+      "0001839882-26-044891",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -86062,6 +86110,13 @@
       "0001918704-26-027139",
       "0001918704-26-027140",
       "0001918704-26-027142",
+      "0001918704-26-027144",
+      "0001918704-26-027145",
+      "0001918704-26-027146",
+      "0001918704-26-027147",
+      "0001918704-26-027148",
+      "0001918704-26-027149",
+      "0001918704-26-027150",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -86315,6 +86370,7 @@
       "0001976672-26-000059",
       "0001976672-26-000062",
       "0001976672-26-000065",
+      "0001976672-26-000067",
       "0001976684-26-000011",
       "0001976685-26-000017",
       "0001977249-26-000111",
@@ -86875,6 +86931,7 @@
       "0001999371-26-020280",
       "0001999371-26-020286",
       "0001999371-26-020290",
+      "0001999371-26-020302",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
