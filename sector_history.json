@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-09T01:09:27.089262+00:00",
+  "generatedAt": "2026-09-10T01:06:49.815424+00:00",
   "source": "Nasdaq public chart API (api.nasdaq.com) \u2014 sector-representative SPDR ETFs, plus sub-industry SPDR ETFs within each sector",
   "sectors": {
     "Technology": {
       "ticker": "XLK",
       "latestPrice": 187.87,
-      "latestDate": "2026-09-08",
+      "latestDate": "2026-09-09",
       "changes": {
-        "oneDay": 0.32,
-        "oneWeek": 2.3,
-        "oneMonth": -0.05,
-        "threeMonth": 3.93,
-        "oneYear": 41.88,
-        "fiveYear": 137.52,
+        "oneDay": 0.0,
+        "oneWeek": 2.33,
+        "oneMonth": 0.83,
+        "threeMonth": 6.36,
+        "oneYear": 41.61,
+        "fiveYear": 139.89,
         "ytd": 30.49
       },
       "quarterly": [
@@ -344,16 +344,16 @@
       "subsectors": {
         "Semiconductors": {
           "ticker": "XSD",
-          "latestPrice": 495.98,
-          "latestDate": "2026-09-08",
+          "latestPrice": 495.65,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": 0.92,
-            "oneWeek": 4.87,
-            "oneMonth": -8.94,
-            "threeMonth": -14.1,
-            "oneYear": 69.12,
-            "fiveYear": 144.07,
-            "ytd": 54.22
+            "oneDay": -0.07,
+            "oneWeek": 3.89,
+            "oneMonth": -5.66,
+            "threeMonth": -11.0,
+            "oneYear": 68.5,
+            "fiveYear": 142.98,
+            "ytd": 54.12
           },
           "quarterly": [
             {
@@ -662,22 +662,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 495.98
+              "close": 495.65
             }
           ]
         },
         "Software": {
           "ticker": "XSW",
-          "latestPrice": 197.88,
-          "latestDate": "2026-09-08",
+          "latestPrice": 194.3,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -2.52,
-            "oneWeek": -2.76,
-            "oneMonth": 1.08,
-            "threeMonth": 19.4,
-            "oneYear": 2.26,
-            "fiveYear": 11.07,
-            "ytd": 5.74
+            "oneDay": -1.81,
+            "oneWeek": -3.79,
+            "oneMonth": -1.48,
+            "threeMonth": 18.79,
+            "oneYear": -0.22,
+            "fiveYear": 10.2,
+            "ytd": 3.83
           },
           "quarterly": [
             {
@@ -922,22 +922,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 197.88
+              "close": 194.3
             }
           ]
         },
         "Internet": {
           "ticker": "FDN",
-          "latestPrice": 287.61,
-          "latestDate": "2026-09-08",
+          "latestPrice": 287.93,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -1.12,
-            "oneWeek": 0.16,
-            "oneMonth": -0.61,
-            "threeMonth": 7.47,
-            "oneYear": 2.0,
-            "fiveYear": 15.31,
-            "ytd": 6.85
+            "oneDay": 0.11,
+            "oneWeek": 0.19,
+            "oneMonth": -1.77,
+            "threeMonth": 9.55,
+            "oneYear": 1.03,
+            "fiveYear": 16.4,
+            "ytd": 6.97
           },
           "quarterly": [
             {
@@ -1262,22 +1262,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 287.61
+              "close": 287.93
             }
           ]
         },
         "Telecom": {
           "ticker": "XTL",
-          "latestPrice": 210.74,
-          "latestDate": "2026-09-08",
+          "latestPrice": 207.36,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": 1.09,
-            "oneWeek": 2.05,
-            "oneMonth": -2.07,
-            "threeMonth": -4.6,
-            "oneYear": 55.41,
-            "fiveYear": 107.44,
-            "ytd": 37.54
+            "oneDay": -1.6,
+            "oneWeek": -0.63,
+            "oneMonth": -3.48,
+            "threeMonth": -6.1,
+            "oneYear": 52.08,
+            "fiveYear": 107.02,
+            "ytd": 35.33
           },
           "quarterly": [
             {
@@ -1530,22 +1530,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 210.74
+              "close": 207.36
             }
           ]
         },
         "Cybersecurity": {
           "ticker": "CIBR",
-          "latestPrice": 94.01,
-          "latestDate": "2026-09-08",
+          "latestPrice": 94.48,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -0.61,
-            "oneWeek": -2.28,
-            "oneMonth": -3.92,
-            "threeMonth": 11.47,
-            "oneYear": 25.83,
-            "fiveYear": 82.4,
-            "ytd": 31.57
+            "oneDay": 0.5,
+            "oneWeek": 1.0,
+            "oneMonth": -6.08,
+            "threeMonth": 13.49,
+            "oneYear": 26.72,
+            "fiveYear": 85.8,
+            "ytd": 32.23
           },
           "quarterly": [
             {
@@ -1726,22 +1726,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 94.01
+              "close": 94.48
             }
           ]
         },
         "Cloud Computing": {
           "ticker": "SKYY",
-          "latestPrice": 159.62,
-          "latestDate": "2026-09-08",
+          "latestPrice": 158.14,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -1.2,
-            "oneWeek": -0.68,
-            "oneMonth": 2.21,
-            "threeMonth": 17.11,
-            "oneYear": 21.57,
-            "fiveYear": 44.23,
-            "ytd": 22.71
+            "oneDay": -0.93,
+            "oneWeek": -0.73,
+            "oneMonth": -1.64,
+            "threeMonth": 18.34,
+            "oneYear": 19.41,
+            "fiveYear": 44.14,
+            "ytd": 21.57
           },
           "quarterly": [
             {
@@ -1986,22 +1986,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 159.62
+              "close": 158.14
             }
           ]
         },
         "Robotics & AI": {
           "ticker": "BOTZ",
-          "latestPrice": 35.61,
-          "latestDate": "2026-09-08",
+          "latestPrice": 35.18,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -0.95,
-            "oneWeek": 1.31,
-            "oneMonth": -5.32,
-            "threeMonth": -5.34,
-            "oneYear": 4.4,
+            "oneDay": -1.21,
+            "oneWeek": -0.03,
+            "oneMonth": -5.99,
+            "threeMonth": -2.92,
+            "oneYear": 4.02,
             "fiveYear": -8.48,
-            "ytd": -1.71
+            "ytd": -2.9
           },
           "quarterly": [
             {
@@ -2166,7 +2166,7 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 35.61
+              "close": 35.18
             }
           ]
         }
@@ -2174,16 +2174,16 @@
     },
     "Healthcare": {
       "ticker": "XLV",
-      "latestPrice": 167.13,
-      "latestDate": "2026-09-08",
+      "latestPrice": 166.58,
+      "latestDate": "2026-09-09",
       "changes": {
-        "oneDay": -2.52,
-        "oneWeek": -2.64,
-        "oneMonth": 0.88,
-        "threeMonth": 8.13,
-        "oneYear": 21.24,
-        "fiveYear": 24.33,
-        "ytd": 7.97
+        "oneDay": -0.33,
+        "oneWeek": -3.68,
+        "oneMonth": -1.1,
+        "threeMonth": 8.98,
+        "oneYear": 20.2,
+        "fiveYear": 25.07,
+        "ytd": 7.61
       },
       "quarterly": [
         {
@@ -2508,22 +2508,22 @@
         },
         {
           "quarter": "2026-Q3",
-          "close": 167.13
+          "close": 166.58
         }
       ],
       "subsectors": {
         "Biotech": {
           "ticker": "XBI",
-          "latestPrice": 161.93,
-          "latestDate": "2026-09-08",
+          "latestPrice": 159.38,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -1.15,
-            "oneWeek": -0.9,
-            "oneMonth": 2.9,
-            "threeMonth": 23.25,
-            "oneYear": 71.48,
-            "fiveYear": 21.92,
-            "ytd": 32.81
+            "oneDay": -1.57,
+            "oneWeek": -3.62,
+            "oneMonth": 0.85,
+            "threeMonth": 23.69,
+            "oneYear": 67.8,
+            "fiveYear": 21.0,
+            "ytd": 30.71
           },
           "quarterly": [
             {
@@ -2832,22 +2832,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 161.93
+              "close": 159.38
             }
           ]
         },
         "Pharmaceuticals": {
           "ticker": "XPH",
-          "latestPrice": 70.38,
-          "latestDate": "2026-09-08",
+          "latestPrice": 69.32,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -0.78,
-            "oneWeek": 0.4,
-            "oneMonth": -0.2,
-            "threeMonth": 20.74,
-            "oneYear": 47.86,
-            "fiveYear": 45.71,
-            "ytd": 25.66
+            "oneDay": -1.51,
+            "oneWeek": -3.01,
+            "oneMonth": -1.13,
+            "threeMonth": 18.78,
+            "oneYear": 45.42,
+            "fiveYear": 44.15,
+            "ytd": 23.76
           },
           "quarterly": [
             {
@@ -3156,22 +3156,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 70.38
+              "close": 69.32
             }
           ]
         },
         "Health Care Services": {
           "ticker": "XHS",
-          "latestPrice": 135.2798,
-          "latestDate": "2026-09-08",
+          "latestPrice": 135.7293,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -0.24,
-            "oneWeek": 0.45,
-            "oneMonth": -0.06,
-            "threeMonth": 12.88,
-            "oneYear": 35.55,
-            "fiveYear": 21.74,
-            "ytd": 26.6
+            "oneDay": 0.33,
+            "oneWeek": 0.1,
+            "oneMonth": -0.69,
+            "threeMonth": 12.94,
+            "oneYear": 36.41,
+            "fiveYear": 23.94,
+            "ytd": 27.02
           },
           "quarterly": [
             {
@@ -3416,22 +3416,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 135.28
+              "close": 135.73
             }
           ]
         },
         "Health Care Equipment": {
           "ticker": "XHE",
-          "latestPrice": 92.32,
-          "latestDate": "2026-09-08",
+          "latestPrice": 91.4062,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -2.0,
-            "oneWeek": -1.76,
-            "oneMonth": -0.61,
-            "threeMonth": 11.08,
-            "oneYear": 11.98,
-            "fiveYear": -29.91,
-            "ytd": 4.64
+            "oneDay": -0.99,
+            "oneWeek": -3.37,
+            "oneMonth": -2.97,
+            "threeMonth": 12.03,
+            "oneYear": 10.88,
+            "fiveYear": -29.96,
+            "ytd": 3.6
           },
           "quarterly": [
             {
@@ -3684,22 +3684,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 92.32
+              "close": 91.41
             }
           ]
         },
         "Medical Devices": {
           "ticker": "IHI",
-          "latestPrice": 51.74,
-          "latestDate": "2026-09-08",
+          "latestPrice": 51.48,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -3.52,
-            "oneWeek": -4.7,
-            "oneMonth": -4.85,
-            "threeMonth": 1.57,
-            "oneYear": -17.26,
-            "fiveYear": -22.24,
-            "ytd": -16.75
+            "oneDay": -0.5,
+            "oneWeek": -5.4,
+            "oneMonth": -7.16,
+            "threeMonth": 3.54,
+            "oneYear": -17.61,
+            "fiveYear": -22.09,
+            "ytd": -17.17
           },
           "quarterly": [
             {
@@ -4024,22 +4024,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 51.74
+              "close": 51.48
             }
           ]
         },
         "Biotech (Large Cap)": {
           "ticker": "IBB",
-          "latestPrice": 207.33,
-          "latestDate": "2026-09-08",
+          "latestPrice": 205.49,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -2.17,
-            "oneWeek": -1.66,
-            "oneMonth": 4.87,
-            "threeMonth": 22.42,
-            "oneYear": 45.79,
-            "fiveYear": 19.24,
-            "ytd": 22.85
+            "oneDay": -0.89,
+            "oneWeek": -3.89,
+            "oneMonth": 2.73,
+            "threeMonth": 23.84,
+            "oneYear": 43.76,
+            "fiveYear": 18.62,
+            "ytd": 21.76
           },
           "quarterly": [
             {
@@ -4364,22 +4364,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 207.33
+              "close": 205.49
             }
           ]
         },
         "Genomics": {
           "ticker": "ARKG",
-          "latestPrice": 46.85,
-          "latestDate": "2026-09-08",
+          "latestPrice": 46.31,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -0.62,
-            "oneWeek": 0.02,
-            "oneMonth": 8.85,
-            "threeMonth": 39.6,
-            "oneYear": 83.87,
-            "fiveYear": -44.43,
-            "ytd": 61.72
+            "oneDay": -1.15,
+            "oneWeek": -1.78,
+            "oneMonth": 4.51,
+            "threeMonth": 40.97,
+            "oneYear": 80.83,
+            "fiveYear": -44.7,
+            "ytd": 59.86
           },
           "quarterly": [
             {
@@ -4572,7 +4572,7 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 46.85
+              "close": 46.31
             }
           ]
         }
@@ -4580,16 +4580,16 @@
     },
     "Industrials": {
       "ticker": "XLI",
-      "latestPrice": 174.42,
-      "latestDate": "2026-09-08",
+      "latestPrice": 171.79,
+      "latestDate": "2026-09-09",
       "changes": {
-        "oneDay": -0.48,
-        "oneWeek": 0.98,
-        "oneMonth": -5.81,
-        "threeMonth": -0.67,
-        "oneYear": 15.3,
-        "fiveYear": 70.3,
-        "ytd": 12.44
+        "oneDay": -1.51,
+        "oneWeek": -0.57,
+        "oneMonth": -6.94,
+        "threeMonth": 1.26,
+        "oneYear": 14.34,
+        "fiveYear": 68.49,
+        "ytd": 10.75
       },
       "quarterly": [
         {
@@ -4914,22 +4914,22 @@
         },
         {
           "quarter": "2026-Q3",
-          "close": 174.42
+          "close": 171.79
         }
       ],
       "subsectors": {
         "Aerospace & Defense": {
           "ticker": "XAR",
-          "latestPrice": 253.27,
-          "latestDate": "2026-09-08",
+          "latestPrice": 246.7,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": 0.14,
-            "oneWeek": 0.49,
-            "oneMonth": -11.7,
-            "threeMonth": -7.36,
-            "oneYear": 16.22,
-            "fiveYear": 111.69,
-            "ytd": 4.99
+            "oneDay": -2.59,
+            "oneWeek": -1.4,
+            "oneMonth": -14.43,
+            "threeMonth": -7.51,
+            "oneYear": 14.48,
+            "fiveYear": 108.29,
+            "ytd": 2.26
           },
           "quarterly": [
             {
@@ -5174,22 +5174,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 253.27
+              "close": 246.7
             }
           ]
         },
         "Transportation": {
           "ticker": "XTN",
-          "latestPrice": 103.77,
-          "latestDate": "2026-09-08",
+          "latestPrice": 102.16,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -1.66,
-            "oneWeek": 1.03,
-            "oneMonth": -7.69,
-            "threeMonth": -10.17,
-            "oneYear": 21.07,
-            "fiveYear": 21.57,
-            "ytd": 13.57
+            "oneDay": -1.55,
+            "oneWeek": -1.18,
+            "oneMonth": -7.42,
+            "threeMonth": -8.77,
+            "oneYear": 20.32,
+            "fiveYear": 19.79,
+            "ytd": 11.81
           },
           "quarterly": [
             {
@@ -5442,22 +5442,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 103.77
+              "close": 102.16
             }
           ]
         },
         "Airlines": {
           "ticker": "JETS",
-          "latestPrice": 28.27,
-          "latestDate": "2026-09-08",
+          "latestPrice": 28.02,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -1.84,
-            "oneWeek": 1.36,
-            "oneMonth": -13.12,
-            "threeMonth": -1.02,
-            "oneYear": 8.19,
-            "fiveYear": 23.07,
-            "ytd": 0.71
+            "oneDay": -0.88,
+            "oneWeek": -1.09,
+            "oneMonth": -10.88,
+            "threeMonth": 2.83,
+            "oneYear": 8.73,
+            "fiveYear": 26.1,
+            "ytd": -0.18
           },
           "quarterly": [
             {
@@ -5642,22 +5642,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 28.27
+              "close": 28.02
             }
           ]
         },
         "Infrastructure": {
           "ticker": "PAVE",
-          "latestPrice": 54.81,
-          "latestDate": "2026-09-08",
+          "latestPrice": 54.19,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -0.63,
-            "oneWeek": 1.65,
-            "oneMonth": -6.61,
-            "threeMonth": -4.13,
-            "oneYear": 17.62,
-            "fiveYear": 105.74,
-            "ytd": 14.69
+            "oneDay": -1.13,
+            "oneWeek": -0.17,
+            "oneMonth": -7.05,
+            "threeMonth": -2.01,
+            "oneYear": 17.86,
+            "fiveYear": 104.11,
+            "ytd": 13.39
           },
           "quarterly": [
             {
@@ -5814,22 +5814,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 54.81
+              "close": 54.19
             }
           ]
         },
         "Robotics & Automation": {
           "ticker": "ROBO",
-          "latestPrice": 79.65,
-          "latestDate": "2026-09-08",
+          "latestPrice": 79.05,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -1.14,
-            "oneWeek": 0.99,
-            "oneMonth": -5.67,
-            "threeMonth": -4.02,
-            "oneYear": 23.09,
-            "fiveYear": 14.69,
-            "ytd": 14.92
+            "oneDay": -0.75,
+            "oneWeek": 0.24,
+            "oneMonth": -5.28,
+            "threeMonth": -0.57,
+            "oneYear": 22.94,
+            "fiveYear": 14.45,
+            "ytd": 14.05
           },
           "quarterly": [
             {
@@ -6038,7 +6038,7 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 79.65
+              "close": 79.05
             }
           ]
         }
@@ -6046,16 +6046,16 @@
     },
     "Energy": {
       "ticker": "XLE",
-      "latestPrice": 64.77,
-      "latestDate": "2026-09-08",
+      "latestPrice": 65.31,
+      "latestDate": "2026-09-09",
       "changes": {
-        "oneDay": 1.11,
-        "oneWeek": 0.0,
-        "oneMonth": 12.64,
-        "threeMonth": 12.86,
-        "oneYear": 48.62,
-        "fiveYear": 170.95,
-        "ytd": 44.87
+        "oneDay": 0.83,
+        "oneWeek": 0.32,
+        "oneMonth": 8.52,
+        "threeMonth": 12.12,
+        "oneYear": 49.14,
+        "fiveYear": 173.32,
+        "ytd": 46.07
       },
       "quarterly": [
         {
@@ -6380,22 +6380,22 @@
         },
         {
           "quarter": "2026-Q3",
-          "close": 64.77
+          "close": 65.31
         }
       ],
       "subsectors": {
         "Oil & Gas E&P": {
           "ticker": "XOP",
-          "latestPrice": 193.91,
-          "latestDate": "2026-09-08",
+          "latestPrice": 195.01,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": 1.68,
-            "oneWeek": 0.62,
-            "oneMonth": 16.53,
-            "threeMonth": 18.2,
-            "oneYear": 50.68,
-            "fiveYear": 129.89,
-            "ytd": 53.58
+            "oneDay": 0.57,
+            "oneWeek": 0.96,
+            "oneMonth": 10.85,
+            "threeMonth": 16.08,
+            "oneYear": 51.14,
+            "fiveYear": 133.07,
+            "ytd": 54.45
           },
           "quarterly": [
             {
@@ -6704,22 +6704,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 193.91
+              "close": 195.01
             }
           ]
         },
         "Oil & Gas Equipment & Services": {
           "ticker": "XES",
-          "latestPrice": 123.12,
-          "latestDate": "2026-09-08",
+          "latestPrice": 123.34,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": 0.63,
-            "oneWeek": 0.53,
-            "oneMonth": 8.64,
-            "threeMonth": 2.13,
-            "oneYear": 76.9,
-            "fiveYear": 144.14,
-            "ytd": 50.2
+            "oneDay": 0.18,
+            "oneWeek": -1.43,
+            "oneMonth": 2.83,
+            "threeMonth": 1.13,
+            "oneYear": 78.57,
+            "fiveYear": 143.71,
+            "ytd": 50.47
           },
           "quarterly": [
             {
@@ -7028,22 +7028,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 123.12
+              "close": 123.34
             }
           ]
         },
         "MLP / Midstream": {
           "ticker": "AMLP",
-          "latestPrice": 55.97,
-          "latestDate": "2026-09-08",
+          "latestPrice": 56.19,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": 0.45,
-            "oneWeek": 0.2,
-            "oneMonth": 2.96,
-            "threeMonth": 7.37,
-            "oneYear": 17.91,
-            "fiveYear": 70.43,
-            "ytd": 19.03
+            "oneDay": 0.39,
+            "oneWeek": 0.72,
+            "oneMonth": 2.07,
+            "threeMonth": 6.48,
+            "oneYear": 17.95,
+            "fiveYear": 73.0,
+            "ytd": 19.5
           },
           "quarterly": [
             {
@@ -7304,22 +7304,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 55.97
+              "close": 56.19
             }
           ]
         },
         "Uranium": {
           "ticker": "URA",
-          "latestPrice": 47.5,
-          "latestDate": "2026-09-08",
+          "latestPrice": 46.86,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": 3.13,
-            "oneWeek": 8.1,
-            "oneMonth": 5.77,
-            "threeMonth": 7.66,
-            "oneYear": 14.38,
-            "fiveYear": 95.15,
-            "ytd": 11.16
+            "oneDay": -1.35,
+            "oneWeek": 5.73,
+            "oneMonth": 5.59,
+            "threeMonth": 10.65,
+            "oneYear": 11.65,
+            "fiveYear": 77.9,
+            "ytd": 9.67
           },
           "quarterly": [
             {
@@ -7576,22 +7576,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 47.5
+              "close": 46.86
             }
           ]
         },
         "Solar": {
           "ticker": "TAN",
-          "latestPrice": 49.13,
-          "latestDate": "2026-09-08",
+          "latestPrice": 47.74,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": 2.27,
-            "oneWeek": 4.84,
-            "oneMonth": -6.86,
-            "threeMonth": -20.54,
-            "oneYear": 13.39,
-            "fiveYear": -41.78,
-            "ytd": 0.02
+            "oneDay": -2.83,
+            "oneWeek": 0.99,
+            "oneMonth": -7.94,
+            "threeMonth": -19.3,
+            "oneYear": 13.75,
+            "fiveYear": -42.71,
+            "ytd": -2.81
           },
           "quarterly": [
             {
@@ -7888,22 +7888,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 49.13
+              "close": 47.74
             }
           ]
         },
         "Clean Energy": {
           "ticker": "ICLN",
-          "latestPrice": 18.31,
-          "latestDate": "2026-09-08",
+          "latestPrice": 18.01,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": 3.04,
-            "oneWeek": 6.21,
-            "oneMonth": 0.05,
-            "threeMonth": -11.25,
-            "oneYear": 25.67,
-            "fiveYear": -20.15,
-            "ytd": 11.44
+            "oneDay": -1.64,
+            "oneWeek": 3.68,
+            "oneMonth": -0.39,
+            "threeMonth": -9.32,
+            "oneYear": 25.16,
+            "fiveYear": -20.2,
+            "ytd": 9.62
           },
           "quarterly": [
             {
@@ -8200,22 +8200,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 18.31
+              "close": 18.01
             }
           ]
         },
         "Natural Gas": {
           "ticker": "FCG",
-          "latestPrice": 31.76,
-          "latestDate": "2026-09-08",
+          "latestPrice": 31.87,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": 1.05,
-            "oneWeek": -0.31,
-            "oneMonth": 11.95,
-            "threeMonth": 11.56,
-            "oneYear": 37.73,
-            "fiveYear": 119.94,
-            "ytd": 35.67
+            "oneDay": 0.35,
+            "oneWeek": -0.25,
+            "oneMonth": 6.91,
+            "threeMonth": 9.26,
+            "oneYear": 38.69,
+            "fiveYear": 122.4,
+            "ytd": 36.14
           },
           "quarterly": [
             {
@@ -8528,7 +8528,7 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 31.76
+              "close": 31.87
             }
           ]
         }
@@ -8536,16 +8536,16 @@
     },
     "Consumer": {
       "ticker": "XLY",
-      "latestPrice": 113.99,
-      "latestDate": "2026-09-08",
+      "latestPrice": 112.46,
+      "latestDate": "2026-09-09",
       "changes": {
-        "oneDay": -0.8,
-        "oneWeek": -0.52,
-        "oneMonth": -4.9,
-        "threeMonth": -1.62,
-        "oneYear": -3.41,
-        "fiveYear": 23.88,
-        "ytd": -4.54
+        "oneDay": -1.34,
+        "oneWeek": -2.09,
+        "oneMonth": -6.02,
+        "threeMonth": -0.91,
+        "oneYear": -4.57,
+        "fiveYear": 22.97,
+        "ytd": -5.82
       },
       "quarterly": [
         {
@@ -8870,22 +8870,22 @@
         },
         {
           "quarter": "2026-Q3",
-          "close": 113.99
+          "close": 112.46
         }
       ],
       "subsectors": {
         "Retail": {
           "ticker": "XRT",
-          "latestPrice": 85.7,
-          "latestDate": "2026-09-08",
+          "latestPrice": 84.3,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -2.16,
-            "oneWeek": -0.26,
-            "oneMonth": -5.64,
-            "threeMonth": 1.03,
-            "oneYear": -1.99,
-            "fiveYear": -9.07,
-            "ytd": 0.48
+            "oneDay": -1.63,
+            "oneWeek": -2.41,
+            "oneMonth": -6.94,
+            "threeMonth": -0.81,
+            "oneYear": -2.78,
+            "fiveYear": -9.21,
+            "ytd": -1.16
           },
           "quarterly": [
             {
@@ -9194,22 +9194,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 85.7
+              "close": 84.3
             }
           ]
         },
         "Homebuilders": {
           "ticker": "XHB",
-          "latestPrice": 100.75,
-          "latestDate": "2026-09-08",
+          "latestPrice": 99.23,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -2.42,
-            "oneWeek": 0.19,
-            "oneMonth": -9.07,
-            "threeMonth": -5.86,
-            "oneYear": -15.75,
-            "fiveYear": 31.08,
-            "ytd": -2.15
+            "oneDay": -1.51,
+            "oneWeek": -1.92,
+            "oneMonth": -8.32,
+            "threeMonth": -4.11,
+            "oneYear": -14.51,
+            "fiveYear": 29.56,
+            "ytd": -3.62
           },
           "quarterly": [
             {
@@ -9518,22 +9518,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 100.75
+              "close": 99.23
             }
           ]
         },
         "Online Retail": {
           "ticker": "IBUY",
-          "latestPrice": 69.45,
-          "latestDate": "2026-09-08",
+          "latestPrice": 67.9362,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -3.1,
-            "oneWeek": -2.65,
-            "oneMonth": -6.88,
-            "threeMonth": 4.51,
-            "oneYear": -8.07,
-            "fiveYear": -39.72,
-            "ytd": -6.7
+            "oneDay": -2.18,
+            "oneWeek": -5.61,
+            "oneMonth": -8.62,
+            "threeMonth": 3.69,
+            "oneYear": -10.33,
+            "fiveYear": -40.69,
+            "ytd": -8.73
           },
           "quarterly": [
             {
@@ -9702,22 +9702,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 69.45
+              "close": 67.94
             }
           ]
         },
         "Leisure & Entertainment": {
           "ticker": "PEJ",
-          "latestPrice": 63.77,
-          "latestDate": "2026-09-08",
+          "latestPrice": 62.86,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -1.57,
-            "oneWeek": -1.36,
-            "oneMonth": -5.5,
-            "threeMonth": -0.11,
-            "oneYear": 6.5,
-            "fiveYear": 29.9,
-            "ytd": 3.98
+            "oneDay": -1.43,
+            "oneWeek": -3.63,
+            "oneMonth": -6.3,
+            "threeMonth": -1.05,
+            "oneYear": 5.21,
+            "fiveYear": 29.42,
+            "ytd": 2.49
           },
           "quarterly": [
             {
@@ -10042,22 +10042,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 63.77
+              "close": 62.86
             }
           ]
         },
         "Autos & Future Vehicles": {
           "ticker": "CARZ",
-          "latestPrice": 107.5775,
-          "latestDate": "2026-09-08",
+          "latestPrice": 107.5565,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": 1.12,
-            "oneWeek": 3.35,
-            "oneMonth": -0.05,
-            "threeMonth": -3.55,
-            "oneYear": 58.69,
-            "fiveYear": 81.29,
-            "ytd": 38.09
+            "oneDay": -0.02,
+            "oneWeek": 3.07,
+            "oneMonth": 0.42,
+            "threeMonth": -0.6,
+            "oneYear": 58.41,
+            "fiveYear": 83.2,
+            "ytd": 38.06
           },
           "quarterly": [
             {
@@ -10306,22 +10306,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 107.58
+              "close": 107.56
             }
           ]
         },
         "Sports Betting & iGaming": {
           "ticker": "BETZ",
-          "latestPrice": 19.3065,
-          "latestDate": "2026-09-08",
+          "latestPrice": 19.221,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -0.32,
-            "oneWeek": 1.4,
-            "oneMonth": 1.29,
-            "threeMonth": -0.97,
-            "oneYear": -22.25,
-            "fiveYear": -38.86,
-            "ytd": -7.98
+            "oneDay": -0.44,
+            "oneWeek": 0.27,
+            "oneMonth": 0.95,
+            "threeMonth": -3.64,
+            "oneYear": -23.11,
+            "fiveYear": -38.3,
+            "ytd": -8.38
           },
           "quarterly": [
             {
@@ -10426,7 +10426,7 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 19.31
+              "close": 19.22
             }
           ]
         }
@@ -10434,16 +10434,16 @@
     },
     "Financials": {
       "ticker": "XLF",
-      "latestPrice": 57.3,
-      "latestDate": "2026-09-08",
+      "latestPrice": 57.06,
+      "latestDate": "2026-09-09",
       "changes": {
-        "oneDay": -1.38,
-        "oneWeek": 0.17,
-        "oneMonth": -0.52,
-        "threeMonth": 9.23,
-        "oneYear": 7.89,
-        "fiveYear": 51.35,
-        "ytd": 4.62
+        "oneDay": -0.42,
+        "oneWeek": -1.04,
+        "oneMonth": -1.3,
+        "threeMonth": 9.25,
+        "oneYear": 6.97,
+        "fiveYear": 51.84,
+        "ytd": 4.18
       },
       "quarterly": [
         {
@@ -10768,22 +10768,22 @@
         },
         {
           "quarter": "2026-Q3",
-          "close": 57.3
+          "close": 57.06
         }
       ],
       "subsectors": {
         "Regional Banks": {
           "ticker": "KRE",
-          "latestPrice": 74.31,
-          "latestDate": "2026-09-08",
+          "latestPrice": 73.45,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -1.28,
-            "oneWeek": 2.33,
-            "oneMonth": -2.49,
-            "threeMonth": 4.31,
-            "oneYear": 13.42,
-            "fiveYear": 15.46,
-            "ytd": 14.66
+            "oneDay": -1.16,
+            "oneWeek": -1.06,
+            "oneMonth": -3.39,
+            "threeMonth": 2.53,
+            "oneYear": 13.26,
+            "fiveYear": 15.51,
+            "ytd": 13.33
           },
           "quarterly": [
             {
@@ -11092,22 +11092,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 74.31
+              "close": 73.45
             }
           ]
         },
         "Insurance": {
           "ticker": "KIE",
-          "latestPrice": 62.52,
-          "latestDate": "2026-09-08",
+          "latestPrice": 62.08,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -2.16,
-            "oneWeek": -0.87,
-            "oneMonth": -3.16,
-            "threeMonth": 9.8,
-            "oneYear": 5.88,
-            "fiveYear": 60.55,
-            "ytd": 3.94
+            "oneDay": -0.7,
+            "oneWeek": -2.42,
+            "oneMonth": -2.8,
+            "threeMonth": 6.89,
+            "oneYear": 5.7,
+            "fiveYear": 61.12,
+            "ytd": 3.21
           },
           "quarterly": [
             {
@@ -11416,22 +11416,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 62.52
+              "close": 62.08
             }
           ]
         },
         "Capital Markets": {
           "ticker": "KCE",
-          "latestPrice": 168.3,
-          "latestDate": "2026-09-08",
+          "latestPrice": 165.8534,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -1.53,
-            "oneWeek": 0.53,
-            "oneMonth": 2.86,
-            "threeMonth": 10.57,
-            "oneYear": 9.29,
-            "fiveYear": 70.95,
-            "ytd": 12.25
+            "oneDay": -1.45,
+            "oneWeek": -0.52,
+            "oneMonth": 1.4,
+            "threeMonth": 10.4,
+            "oneYear": 7.7,
+            "fiveYear": 69.61,
+            "ytd": 10.62
           },
           "quarterly": [
             {
@@ -11740,22 +11740,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 168.3
+              "close": 165.85
             }
           ]
         },
         "Broker-Dealers": {
           "ticker": "IAI",
-          "latestPrice": 193.29,
-          "latestDate": "2026-09-08",
+          "latestPrice": 191.63,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -1.61,
-            "oneWeek": 0.99,
-            "oneMonth": 2.68,
-            "threeMonth": 7.28,
-            "oneYear": 11.21,
-            "fiveYear": 78.89,
-            "ytd": 7.76
+            "oneDay": -0.86,
+            "oneWeek": 0.42,
+            "oneMonth": 1.81,
+            "threeMonth": 7.16,
+            "oneYear": 9.1,
+            "fiveYear": 78.39,
+            "ytd": 6.84
           },
           "quarterly": [
             {
@@ -12080,22 +12080,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 193.29
+              "close": 191.63
             }
           ]
         },
         "Banks": {
           "ticker": "KBWB",
-          "latestPrice": 96.62,
-          "latestDate": "2026-09-08",
+          "latestPrice": 96.37,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -1.05,
-            "oneWeek": 2.06,
-            "oneMonth": -1.01,
-            "threeMonth": 7.13,
-            "oneYear": 26.3,
-            "fiveYear": 48.69,
-            "ytd": 14.63
+            "oneDay": -0.26,
+            "oneWeek": 0.22,
+            "oneMonth": -1.53,
+            "threeMonth": 7.86,
+            "oneYear": 24.86,
+            "fiveYear": 49.41,
+            "ytd": 14.33
           },
           "quarterly": [
             {
@@ -12336,22 +12336,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 96.62
+              "close": 96.37
             }
           ]
         },
         "Financial Services": {
           "ticker": "IYG",
-          "latestPrice": 96.77,
-          "latestDate": "2026-09-08",
+          "latestPrice": 96.44,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -1.22,
-            "oneWeek": 0.51,
-            "oneMonth": -0.07,
-            "threeMonth": 8.98,
-            "oneYear": 9.58,
-            "fiveYear": 53.49,
-            "ytd": 4.9
+            "oneDay": -0.34,
+            "oneWeek": -0.62,
+            "oneMonth": -0.89,
+            "threeMonth": 9.44,
+            "oneYear": 8.58,
+            "fiveYear": 54.19,
+            "ytd": 4.54
           },
           "quarterly": [
             {
@@ -12676,22 +12676,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 96.77
+              "close": 96.44
             }
           ]
         },
         "FinTech": {
           "ticker": "FINX",
-          "latestPrice": 26.7,
-          "latestDate": "2026-09-08",
+          "latestPrice": 26.05,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -2.73,
-            "oneWeek": 1.71,
-            "oneMonth": 2.6,
-            "threeMonth": 12.14,
-            "oneYear": -20.91,
-            "fiveYear": -48.2,
-            "ytd": -9.28
+            "oneDay": -2.43,
+            "oneWeek": -2.81,
+            "oneMonth": 0.17,
+            "threeMonth": 11.64,
+            "oneYear": -23.56,
+            "fiveYear": -48.92,
+            "ytd": -11.48
           },
           "quarterly": [
             {
@@ -12856,7 +12856,7 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 26.7
+              "close": 26.05
             }
           ]
         }
@@ -12864,16 +12864,16 @@
     },
     "Materials": {
       "ticker": "XLB",
-      "latestPrice": 51.94,
-      "latestDate": "2026-09-08",
+      "latestPrice": 51.39,
+      "latestDate": "2026-09-09",
       "changes": {
-        "oneDay": -0.95,
-        "oneWeek": -0.25,
-        "oneMonth": -1.74,
-        "threeMonth": 2.3,
-        "oneYear": 12.86,
-        "fiveYear": 23.62,
-        "ytd": 14.53
+        "oneDay": -1.06,
+        "oneWeek": -2.95,
+        "oneMonth": -3.37,
+        "threeMonth": 3.61,
+        "oneYear": 13.52,
+        "fiveYear": 22.34,
+        "ytd": 13.32
       },
       "quarterly": [
         {
@@ -13198,22 +13198,22 @@
         },
         {
           "quarter": "2026-Q3",
-          "close": 51.94
+          "close": 51.39
         }
       ],
       "subsectors": {
         "Metals & Mining": {
           "ticker": "XME",
-          "latestPrice": 119.95,
-          "latestDate": "2026-09-08",
+          "latestPrice": 119.19,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": 1.12,
-            "oneWeek": 3.61,
-            "oneMonth": 3.64,
-            "threeMonth": 3.32,
-            "oneYear": 42.66,
-            "fiveYear": 170.89,
-            "ytd": 15.77
+            "oneDay": -0.63,
+            "oneWeek": -0.23,
+            "oneMonth": 1.4,
+            "threeMonth": 6.01,
+            "oneYear": 42.98,
+            "fiveYear": 166.64,
+            "ytd": 15.04
           },
           "quarterly": [
             {
@@ -13522,22 +13522,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 119.95
+              "close": 119.19
             }
           ]
         },
         "Gold Miners": {
           "ticker": "GDX",
-          "latestPrice": 98.41,
-          "latestDate": "2026-09-08",
+          "latestPrice": 99.47,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -0.86,
-            "oneWeek": 3.95,
-            "oneMonth": 9.48,
-            "threeMonth": 26.83,
-            "oneYear": 46.36,
-            "fiveYear": 207.92,
-            "ytd": 14.74
+            "oneDay": 1.08,
+            "oneWeek": 1.88,
+            "oneMonth": 9.92,
+            "threeMonth": 34.76,
+            "oneYear": 48.8,
+            "fiveYear": 215.78,
+            "ytd": 15.97
           },
           "quarterly": [
             {
@@ -13862,22 +13862,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 98.41
+              "close": 99.47
             }
           ]
         },
         "Steel": {
           "ticker": "SLX",
-          "latestPrice": 111.19,
-          "latestDate": "2026-09-08",
+          "latestPrice": 111.1,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": 0.18,
-            "oneWeek": 2.63,
-            "oneMonth": 1.06,
-            "threeMonth": 4.49,
-            "oneYear": 55.54,
-            "fiveYear": 81.98,
-            "ytd": 31.03
+            "oneDay": -0.08,
+            "oneWeek": 0.76,
+            "oneMonth": 0.93,
+            "threeMonth": 6.61,
+            "oneYear": 58.24,
+            "fiveYear": 81.89,
+            "ytd": 30.92
           },
           "quarterly": [
             {
@@ -14198,22 +14198,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 111.19
+              "close": 111.1
             }
           ]
         },
         "Lithium & Battery Tech": {
           "ticker": "LIT",
-          "latestPrice": 73.79,
-          "latestDate": "2026-09-08",
+          "latestPrice": 73.77,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -0.53,
-            "oneWeek": -1.23,
-            "oneMonth": -0.3,
-            "threeMonth": -6.13,
-            "oneYear": 43.14,
-            "fiveYear": -13.02,
-            "ytd": 13.77
+            "oneDay": -0.03,
+            "oneWeek": -0.66,
+            "oneMonth": -1.3,
+            "threeMonth": -3.62,
+            "oneYear": 48.46,
+            "fiveYear": -13.34,
+            "ytd": 13.74
           },
           "quarterly": [
             {
@@ -14474,22 +14474,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 73.79
+              "close": 73.77
             }
           ]
         },
         "Copper Miners": {
           "ticker": "COPX",
-          "latestPrice": 94.38,
-          "latestDate": "2026-09-08",
+          "latestPrice": 95.27,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": 4.1,
-            "oneWeek": 5.76,
-            "oneMonth": 7.21,
-            "threeMonth": 17.77,
-            "oneYear": 83.55,
-            "fiveYear": 158.43,
-            "ytd": 31.47
+            "oneDay": 0.94,
+            "oneWeek": 5.97,
+            "oneMonth": 6.44,
+            "threeMonth": 23.01,
+            "oneYear": 85.24,
+            "fiveYear": 156.03,
+            "ytd": 32.71
           },
           "quarterly": [
             {
@@ -14754,22 +14754,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 94.38
+              "close": 95.27
             }
           ]
         },
         "Agribusiness": {
           "ticker": "MOO",
-          "latestPrice": 87.58,
-          "latestDate": "2026-09-08",
+          "latestPrice": 87.69,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -0.28,
-            "oneWeek": 0.17,
-            "oneMonth": 7.99,
-            "threeMonth": 12.47,
-            "oneYear": 17.13,
-            "fiveYear": -5.09,
-            "ytd": 20.32
+            "oneDay": 0.13,
+            "oneWeek": -1.31,
+            "oneMonth": 7.57,
+            "threeMonth": 13.56,
+            "oneYear": 17.91,
+            "fiveYear": -5.12,
+            "ytd": 20.47
           },
           "quarterly": [
             {
@@ -15078,22 +15078,22 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 87.58
+              "close": 87.69
             }
           ]
         },
         "Timber": {
           "ticker": "WOOD",
-          "latestPrice": 71.371,
-          "latestDate": "2026-09-08",
+          "latestPrice": 70.9691,
+          "latestDate": "2026-09-09",
           "changes": {
-            "oneDay": -0.5,
-            "oneWeek": 0.17,
-            "oneMonth": -2.96,
-            "threeMonth": 6.59,
-            "oneYear": -6.37,
-            "fiveYear": -20.53,
-            "ytd": -0.89
+            "oneDay": -0.56,
+            "oneWeek": -0.38,
+            "oneMonth": -3.03,
+            "threeMonth": 7.79,
+            "oneYear": -5.93,
+            "fiveYear": -20.72,
+            "ytd": -1.45
           },
           "quarterly": [
             {
@@ -15390,7 +15390,7 @@
             },
             {
               "quarter": "2026-Q3",
-              "close": 71.37
+              "close": 70.97
             }
           ]
         }
