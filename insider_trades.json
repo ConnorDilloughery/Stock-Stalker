@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T12:03:17.414760+00:00",
+  "generatedAt": "2026-09-10T13:05:13.095802+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -281,6 +281,26 @@
       "type": "Sale",
       "shares": 4993.0,
       "pricePerShare": 27.03,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "KLTR",
+      "issuerName": "KALTURA INC",
+      "insiderName": "Azaria Eynav",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 10078.0,
+      "pricePerShare": 1.4801,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "TLS",
+      "issuerName": "TELOS CORP",
+      "insiderName": "Bendza Gary Mark",
+      "title": "EVP, CFO",
+      "type": "Sale",
+      "shares": 200000.0,
+      "pricePerShare": 4.55,
       "transactionDate": "2026-09-09"
     },
     {
@@ -1761,6 +1781,26 @@
       "type": "Purchase",
       "shares": 5219.0,
       "pricePerShare": 1.0,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "SCCO",
+      "issuerName": "SOUTHERN COPPER CORP/",
+      "insiderName": "PALOMINO BONILLA LUIS MIGUEL",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 100.0,
+      "pricePerShare": 210.0,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "KLTR",
+      "issuerName": "KALTURA INC",
+      "insiderName": "Azaria Eynav",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 12341.0,
+      "pricePerShare": 1.4875,
       "transactionDate": "2026-09-08"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 664.0,
       "pricePerShare": 978.02,
       "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MU",
-      "issuerName": "MICRON TECHNOLOGY INC",
-      "insiderName": "MEHROTRA SANJAY",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1091.0,
-      "pricePerShare": 979.2,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MU",
-      "issuerName": "MICRON TECHNOLOGY INC",
-      "insiderName": "MEHROTRA SANJAY",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 458.0,
-      "pricePerShare": 980.0,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MU",
-      "issuerName": "MICRON TECHNOLOGY INC",
-      "insiderName": "MEHROTRA SANJAY",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 716.0,
-      "pricePerShare": 981.92,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MU",
-      "issuerName": "MICRON TECHNOLOGY INC",
-      "insiderName": "MEHROTRA SANJAY",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1354.0,
-      "pricePerShare": 983.11,
-      "transactionDate": "2026-08-21"
     }
   ],
   "byTicker": {
@@ -31362,6 +31362,116 @@
           "shares": 4993.0,
           "pricePerShare": 27.03,
           "transactionDate": "2026-09-09"
+        }
+      ]
+    },
+    "KLTR": {
+      "issuerName": "KALTURA INC",
+      "trades": [
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 10078.0,
+          "pricePerShare": 1.4801,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 12341.0,
+          "pricePerShare": 1.4875,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 8176.0,
+          "pricePerShare": 1.5087,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 9866.0,
+          "pricePerShare": 1.5318,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 7816.0,
+          "pricePerShare": 1.5136,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 4328.0,
+          "pricePerShare": 1.5427,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Manor Eyal",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 993.0,
+          "pricePerShare": 1.5953,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Manor Eyal",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 20795.0,
+          "pricePerShare": 1.5836,
+          "transactionDate": "2026-08-27"
+        }
+      ]
+    },
+    "TLS": {
+      "issuerName": "TELOS CORP",
+      "trades": [
+        {
+          "ticker": "TLS",
+          "issuerName": "TELOS CORP",
+          "insiderName": "Bendza Gary Mark",
+          "title": "EVP, CFO",
+          "type": "Sale",
+          "shares": 200000.0,
+          "pricePerShare": 4.55,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "TLS",
+          "issuerName": "TELOS CORP",
+          "insiderName": "Robbins Edward Hutchinson Jr.",
+          "title": "EVP, General Counsel",
+          "type": "Sale",
+          "shares": 62398.0,
+          "pricePerShare": 4.73,
+          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -36235,6 +36345,41 @@
         }
       ]
     },
+    "SCCO": {
+      "issuerName": "SOUTHERN COPPER CORP/",
+      "trades": [
+        {
+          "ticker": "SCCO",
+          "issuerName": "SOUTHERN COPPER CORP/",
+          "insiderName": "PALOMINO BONILLA LUIS MIGUEL",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 210.0,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "SCCO",
+          "issuerName": "SOUTHERN COPPER CORP/",
+          "insiderName": "PALOMINO BONILLA LUIS MIGUEL",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 200.0,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "SCCO",
+          "issuerName": "SOUTHERN COPPER CORP/",
+          "insiderName": "PALOMINO BONILLA LUIS MIGUEL",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 217.5,
+          "transactionDate": "2026-08-31"
+        }
+      ]
+    },
     "TSM": {
       "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
       "trades": [
@@ -38600,31 +38745,6 @@
         }
       ]
     },
-    "SCCO": {
-      "issuerName": "SOUTHERN COPPER CORP/",
-      "trades": [
-        {
-          "ticker": "SCCO",
-          "issuerName": "SOUTHERN COPPER CORP/",
-          "insiderName": "PALOMINO BONILLA LUIS MIGUEL",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 200.0,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "SCCO",
-          "issuerName": "SOUTHERN COPPER CORP/",
-          "insiderName": "PALOMINO BONILLA LUIS MIGUEL",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 217.5,
-          "transactionDate": "2026-08-31"
-        }
-      ]
-    },
     "ECF": {
       "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
       "trades": [
@@ -38747,71 +38867,6 @@
           "shares": 20317.0,
           "pricePerShare": 37.18,
           "transactionDate": "2026-09-02"
-        }
-      ]
-    },
-    "KLTR": {
-      "issuerName": "KALTURA INC",
-      "trades": [
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 8176.0,
-          "pricePerShare": 1.5087,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 9866.0,
-          "pricePerShare": 1.5318,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 7816.0,
-          "pricePerShare": 1.5136,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 4328.0,
-          "pricePerShare": 1.5427,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Manor Eyal",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 993.0,
-          "pricePerShare": 1.5953,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Manor Eyal",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 20795.0,
-          "pricePerShare": 1.5836,
-          "transactionDate": "2026-08-27"
         }
       ]
     },
@@ -47162,21 +47217,6 @@
           "shares": 1200.0,
           "pricePerShare": 43.13,
           "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "TLS": {
-      "issuerName": "TELOS CORP",
-      "trades": [
-        {
-          "ticker": "TLS",
-          "issuerName": "TELOS CORP",
-          "insiderName": "Robbins Edward Hutchinson Jr.",
-          "title": "EVP, General Counsel",
-          "type": "Sale",
-          "shares": 62398.0,
-          "pricePerShare": 4.73,
-          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -63327,46 +63367,6 @@
           "shares": 664.0,
           "pricePerShare": 978.02,
           "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MU",
-          "issuerName": "MICRON TECHNOLOGY INC",
-          "insiderName": "MEHROTRA SANJAY",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1091.0,
-          "pricePerShare": 979.2,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MU",
-          "issuerName": "MICRON TECHNOLOGY INC",
-          "insiderName": "MEHROTRA SANJAY",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 458.0,
-          "pricePerShare": 980.0,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MU",
-          "issuerName": "MICRON TECHNOLOGY INC",
-          "insiderName": "MEHROTRA SANJAY",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 716.0,
-          "pricePerShare": 981.92,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MU",
-          "issuerName": "MICRON TECHNOLOGY INC",
-          "insiderName": "MEHROTRA SANJAY",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1354.0,
-          "pricePerShare": 983.11,
-          "transactionDate": "2026-08-21"
         }
       ]
     }
@@ -63436,6 +63436,7 @@
       "0000014930-26-000104",
       "0000014930-26-000105",
       "0000014930-26-000106",
+      "0000017313-26-000140",
       "0000020430-26-000035",
       "0000020430-26-000040",
       "0000021344-26-000154",
@@ -66163,6 +66164,8 @@
       "0000950103-26-013715",
       "0000950103-26-013716",
       "0000950103-26-013733",
+      "0000950103-26-013745",
+      "0000950103-26-013746",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -66617,6 +66620,7 @@
       "0001090155-26-000004",
       "0001090355-26-000007",
       "0001090394-26-000005",
+      "0001090872-26-000067",
       "0001091482-26-000010",
       "0001093557-26-000137",
       "0001093557-26-000147",
@@ -72216,6 +72220,10 @@
       "0001193125-26-386878",
       "0001193125-26-386880",
       "0001193125-26-386887",
+      "0001193125-26-387307",
+      "0001193125-26-387352",
+      "0001193125-26-387354",
+      "0001193125-26-387360",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73676,6 +73684,7 @@
       "0001213900-26-098564",
       "0001213900-26-098567",
       "0001213900-26-098568",
+      "0001213900-26-098594",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74440,6 +74449,7 @@
       "0001284323-26-000002",
       "0001284489-26-000032",
       "0001284489-26-000037",
+      "0001284489-26-000038",
       "0001286090-26-000009",
       "0001286202-26-000006",
       "0001286334-26-000005",
@@ -78057,6 +78067,8 @@
       "0001628280-26-061206",
       "0001628280-26-061222",
       "0001628280-26-061225",
+      "0001628280-26-061235",
+      "0001628280-26-061237",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -78449,6 +78461,7 @@
       "0001683168-26-007020",
       "0001683168-26-007027",
       "0001683168-26-007039",
+      "0001683168-26-007042",
       "0001684532-26-000009",
       "0001684532-26-000013",
       "0001684713-26-000003",
@@ -85768,6 +85781,12 @@
       "0001918704-26-027000",
       "0001918704-26-027002",
       "0001918704-26-027036",
+      "0001918704-26-027039",
+      "0001918704-26-027040",
+      "0001918704-26-027041",
+      "0001918704-26-027042",
+      "0001918704-26-027043",
+      "0001918704-26-027044",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -86009,6 +86028,9 @@
       "0001976408-26-000815",
       "0001976408-26-000816",
       "0001976408-26-000817",
+      "0001976408-26-000821",
+      "0001976408-26-000822",
+      "0001976408-26-000825",
       "0001976672-26-000057",
       "0001976672-26-000059",
       "0001976672-26-000062",
@@ -86568,6 +86590,8 @@
       "0001999371-26-020178",
       "0001999371-26-020181",
       "0001999371-26-020263",
+      "0001999371-26-020267",
+      "0001999371-26-020271",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -87364,7 +87388,8 @@
       "0002151421-26-000004",
       "0002151661-26-000004",
       "0002152432-26-000004",
-      "0002153871-26-000002"
+      "0002153871-26-000002",
+      "0002154525-26-000006"
     ]
   }
 }
