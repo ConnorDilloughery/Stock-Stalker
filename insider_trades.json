@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T10:01:27.226923+00:00",
+  "generatedAt": "2026-09-10T11:00:43.703936+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -251,6 +251,16 @@
       "type": "Purchase",
       "shares": 99342.0,
       "pricePerShare": 1.6043,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "BRN",
+      "issuerName": "BARNWELL INDUSTRIES INC",
+      "insiderName": "Patman Philip F Jr",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 1737.0,
+      "pricePerShare": 1.0,
       "transactionDate": "2026-09-09"
     },
     {
@@ -1711,6 +1721,26 @@
       "type": "Sale",
       "shares": 56023.0,
       "pricePerShare": 17.8131,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "RMD",
+      "issuerName": "RESMED INC",
+      "insiderName": "Farrell Michael J.",
+      "title": "Director, Chairman and CEO",
+      "type": "Sale",
+      "shares": 4991.0,
+      "pricePerShare": 222.4385,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "BRN",
+      "issuerName": "BARNWELL INDUSTRIES INC",
+      "insiderName": "Patman Philip F Jr",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 5219.0,
+      "pricePerShare": 1.0,
       "transactionDate": "2026-09-08"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 84.0,
       "pricePerShare": 985.4,
       "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MU",
-      "issuerName": "MICRON TECHNOLOGY INC",
-      "insiderName": "MEHROTRA SANJAY",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 341.0,
-      "pricePerShare": 986.24,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MU",
-      "issuerName": "MICRON TECHNOLOGY INC",
-      "insiderName": "MEHROTRA SANJAY",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 351.0,
-      "pricePerShare": 988.1,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "MU",
-      "issuerName": "MICRON TECHNOLOGY INC",
-      "insiderName": "MEHROTRA SANJAY",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 258.0,
-      "pricePerShare": 989.59,
-      "transactionDate": "2026-08-21"
     }
   ],
   "byTicker": {
@@ -31307,6 +31307,31 @@
           "shares": 21034.0,
           "pricePerShare": 1.6116,
           "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "BRN": {
+      "issuerName": "BARNWELL INDUSTRIES INC",
+      "trades": [
+        {
+          "ticker": "BRN",
+          "issuerName": "BARNWELL INDUSTRIES INC",
+          "insiderName": "Patman Philip F Jr",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1737.0,
+          "pricePerShare": 1.0,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "BRN",
+          "issuerName": "BARNWELL INDUSTRIES INC",
+          "insiderName": "Patman Philip F Jr",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 5219.0,
+          "pricePerShare": 1.0,
+          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -36152,6 +36177,31 @@
           "shares": 137500.0,
           "pricePerShare": 17.0593,
           "transactionDate": "2026-08-27"
+        }
+      ]
+    },
+    "RMD": {
+      "issuerName": "RESMED INC",
+      "trades": [
+        {
+          "ticker": "RMD",
+          "issuerName": "RESMED INC",
+          "insiderName": "Farrell Michael J.",
+          "title": "Director, Chairman and CEO",
+          "type": "Sale",
+          "shares": 4991.0,
+          "pricePerShare": 222.4385,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "RMD",
+          "issuerName": "RESMED INC",
+          "insiderName": "FARRELL PETER C",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 970.0,
+          "pricePerShare": 234.73,
+          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -49667,21 +49717,6 @@
           "shares": 2281.0,
           "pricePerShare": 115.6118,
           "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "RMD": {
-      "issuerName": "RESMED INC",
-      "trades": [
-        {
-          "ticker": "RMD",
-          "issuerName": "RESMED INC",
-          "insiderName": "FARRELL PETER C",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 970.0,
-          "pricePerShare": 234.73,
-          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -63322,36 +63357,6 @@
           "shares": 84.0,
           "pricePerShare": 985.4,
           "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MU",
-          "issuerName": "MICRON TECHNOLOGY INC",
-          "insiderName": "MEHROTRA SANJAY",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 341.0,
-          "pricePerShare": 986.24,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MU",
-          "issuerName": "MICRON TECHNOLOGY INC",
-          "insiderName": "MEHROTRA SANJAY",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 351.0,
-          "pricePerShare": 988.1,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "MU",
-          "issuerName": "MICRON TECHNOLOGY INC",
-          "insiderName": "MEHROTRA SANJAY",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 258.0,
-          "pricePerShare": 989.59,
-          "transactionDate": "2026-08-21"
         }
       ]
     }
@@ -64779,6 +64784,8 @@
       "0000912282-26-001207",
       "0000912282-26-001219",
       "0000912282-26-001254",
+      "0000912282-26-001256",
+      "0000912282-26-001257",
       "0000912562-26-000149",
       "0000912593-26-000252",
       "0000912869-26-000064",
@@ -65022,6 +65029,7 @@
       "0000943819-26-000040",
       "0000943819-26-000043",
       "0000943819-26-000050",
+      "0000943819-26-000052",
       "0000944075-26-000061",
       "0000944075-26-000068",
       "0000944075-26-000069",
@@ -66167,6 +66175,7 @@
       "0000950142-26-002520",
       "0000950142-26-002521",
       "0000950142-26-002530",
+      "0000950142-26-002533",
       "0000950157-26-000824",
       "0000950157-26-000871",
       "0000950157-26-000873",
@@ -67635,6 +67644,7 @@
       "0001104659-26-106432",
       "0001104659-26-106441",
       "0001104659-26-106442",
+      "0001104659-26-106463",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68454,6 +68464,8 @@
       "0001140361-26-036089",
       "0001140361-26-036090",
       "0001140361-26-036091",
+      "0001140361-26-036101",
+      "0001140361-26-036103",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -73643,7 +73655,16 @@
       "0001213900-26-098460",
       "0001213900-26-098464",
       "0001213900-26-098533",
+      "0001213900-26-098534",
+      "0001213900-26-098538",
       "0001213900-26-098544",
+      "0001213900-26-098550",
+      "0001213900-26-098551",
+      "0001213900-26-098554",
+      "0001213900-26-098561",
+      "0001213900-26-098564",
+      "0001213900-26-098567",
+      "0001213900-26-098568",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -76318,6 +76339,8 @@
       "0001493152-26-042006",
       "0001493152-26-042008",
       "0001493152-26-042023",
+      "0001493152-26-042061",
+      "0001493152-26-042064",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -85729,6 +85752,7 @@
       "0001918704-26-026998",
       "0001918704-26-027000",
       "0001918704-26-027002",
+      "0001918704-26-027036",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -86056,6 +86080,7 @@
       "0001993636-26-000009",
       "0001994334-26-000010",
       "0001994334-26-000012",
+      "0001994334-26-000013",
       "0001994445-26-000006",
       "0001994955-26-000007",
       "0001995218-26-000015",
