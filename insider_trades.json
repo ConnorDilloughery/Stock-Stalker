@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T17:04:21.765204+00:00",
+  "generatedAt": "2026-09-10T18:03:29.197977+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -401,6 +401,66 @@
       "type": "Purchase",
       "shares": 1565.0,
       "pricePerShare": 15.95,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "IVZ",
+      "issuerName": "Invesco Ltd.",
+      "insiderName": "Butcher Stephanie",
+      "title": "Senior Managing Director",
+      "type": "Sale",
+      "shares": 45095.0,
+      "pricePerShare": 32.2825,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "GOLD",
+      "issuerName": "Gold.com, Inc.",
+      "insiderName": "ROBERTS GREGORY N",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 22835.0,
+      "pricePerShare": 49.4066,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "GOLD",
+      "issuerName": "Gold.com, Inc.",
+      "insiderName": "ROBERTS GREGORY N",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2165.0,
+      "pricePerShare": 48.9098,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 2.95,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "LRCX",
+      "issuerName": "LAM RESEARCH CORP",
+      "insiderName": "ARCHER TIMOTHY",
+      "title": "President and CEO",
+      "type": "Sale",
+      "shares": 30000.0,
+      "pricePerShare": 319.26,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "LRCX",
+      "issuerName": "LAM RESEARCH CORP",
+      "insiderName": "Mayer Bethany",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 9557.0,
+      "pricePerShare": 314.74,
       "transactionDate": "2026-09-09"
     },
     {
@@ -1981,6 +2041,36 @@
       "type": "Purchase",
       "shares": 284.0,
       "pricePerShare": 16.47,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "GOLD",
+      "issuerName": "Gold.com, Inc.",
+      "insiderName": "ROBERTS GREGORY N",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 15000.0,
+      "pricePerShare": 46.864,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 2.95,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "MCK",
+      "issuerName": "MCKESSON CORP",
+      "insiderName": "Rutledge Napoleon B JR",
+      "title": "SVP, Controller & CAO",
+      "type": "Sale",
+      "shares": 111.0,
+      "pricePerShare": 891.45,
       "transactionDate": "2026-09-08"
     },
     {
@@ -29912,96 +30002,6 @@
       "shares": 1976.0,
       "pricePerShare": 3.8569,
       "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "ARDX",
-      "issuerName": "ARDELYX, INC.",
-      "insiderName": "Brady James Parker",
-      "title": "Chief Human Resources Officer",
-      "type": "Sale",
-      "shares": 13160.0,
-      "pricePerShare": 3.8569,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "ARDX",
-      "issuerName": "ARDELYX, INC.",
-      "insiderName": "Foster Eric Duane",
-      "title": "Chief Commercial Officer",
-      "type": "Sale",
-      "shares": 2598.0,
-      "pricePerShare": 3.8569,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "ARDX",
-      "issuerName": "ARDELYX, INC.",
-      "insiderName": "Foster Eric Duane",
-      "title": "Chief Commercial Officer",
-      "type": "Sale",
-      "shares": 3389.0,
-      "pricePerShare": 3.8569,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "ARDX",
-      "issuerName": "ARDELYX, INC.",
-      "insiderName": "Foster Eric Duane",
-      "title": "Chief Commercial Officer",
-      "type": "Sale",
-      "shares": 2575.0,
-      "pricePerShare": 3.8569,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "ARDX",
-      "issuerName": "ARDELYX, INC.",
-      "insiderName": "Kelliher Mike",
-      "title": "Chief Business Officer",
-      "type": "Sale",
-      "shares": 3104.0,
-      "pricePerShare": 3.8569,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "ARDX",
-      "issuerName": "ARDELYX, INC.",
-      "insiderName": "Kelliher Mike",
-      "title": "Chief Business Officer",
-      "type": "Sale",
-      "shares": 2652.0,
-      "pricePerShare": 3.8569,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "ARDX",
-      "issuerName": "ARDELYX, INC.",
-      "insiderName": "Kelliher Mike",
-      "title": "Chief Business Officer",
-      "type": "Sale",
-      "shares": 2002.0,
-      "pricePerShare": 3.8569,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "ARDX",
-      "issuerName": "ARDELYX, INC.",
-      "insiderName": "Williams Laura A",
-      "title": "Chief Patient Officer",
-      "type": "Sale",
-      "shares": 3486.0,
-      "pricePerShare": 3.8569,
-      "transactionDate": "2026-08-21"
-    },
-    {
-      "ticker": "ARDX",
-      "issuerName": "ARDELYX, INC.",
-      "insiderName": "Williams Laura A",
-      "title": "Chief Patient Officer",
-      "type": "Sale",
-      "shares": 3089.0,
-      "pricePerShare": 3.8569,
-      "transactionDate": "2026-08-21"
     }
   ],
   "byTicker": {
@@ -31852,6 +31852,256 @@
           "shares": 1280.0,
           "pricePerShare": 15.6,
           "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "IVZ": {
+      "issuerName": "Invesco Ltd.",
+      "trades": [
+        {
+          "ticker": "IVZ",
+          "issuerName": "Invesco Ltd.",
+          "insiderName": "Butcher Stephanie",
+          "title": "Senior Managing Director",
+          "type": "Sale",
+          "shares": 45095.0,
+          "pricePerShare": 32.2825,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "IVZ",
+          "issuerName": "Invesco Ltd.",
+          "insiderName": "DUKES LAURA ALLISON",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 31075.0,
+          "pricePerShare": 33.1629,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "GOLD": {
+      "issuerName": "Gold.com, Inc.",
+      "trades": [
+        {
+          "ticker": "GOLD",
+          "issuerName": "Gold.com, Inc.",
+          "insiderName": "ROBERTS GREGORY N",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 22835.0,
+          "pricePerShare": 49.4066,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "GOLD",
+          "issuerName": "Gold.com, Inc.",
+          "insiderName": "ROBERTS GREGORY N",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2165.0,
+          "pricePerShare": 48.9098,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "GOLD",
+          "issuerName": "Gold.com, Inc.",
+          "insiderName": "MELTZER CAROL",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4000.0,
+          "pricePerShare": 46.86,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "GOLD",
+          "issuerName": "Gold.com, Inc.",
+          "insiderName": "Aquilino Brian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6667.0,
+          "pricePerShare": 47.0164,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "GOLD",
+          "issuerName": "Gold.com, Inc.",
+          "insiderName": "ROBERTS GREGORY N",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15000.0,
+          "pricePerShare": 46.864,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "RCG": {
+      "issuerName": "RENN Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.9,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.94,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.93,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-24"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.87,
+          "transactionDate": "2026-08-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.87,
+          "transactionDate": "2026-08-21"
+        }
+      ]
+    },
+    "LRCX": {
+      "issuerName": "LAM RESEARCH CORP",
+      "trades": [
+        {
+          "ticker": "LRCX",
+          "issuerName": "LAM RESEARCH CORP",
+          "insiderName": "ARCHER TIMOTHY",
+          "title": "President and CEO",
+          "type": "Sale",
+          "shares": 30000.0,
+          "pricePerShare": 319.26,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "LRCX",
+          "issuerName": "LAM RESEARCH CORP",
+          "insiderName": "Mayer Bethany",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 9557.0,
+          "pricePerShare": 314.74,
+          "transactionDate": "2026-09-09"
         }
       ]
     },
@@ -34011,31 +34261,6 @@
           "type": "Purchase",
           "shares": 1000.0,
           "pricePerShare": 13.59,
-          "transactionDate": "2026-09-08"
-        }
-      ]
-    },
-    "GOLD": {
-      "issuerName": "Gold.com, Inc.",
-      "trades": [
-        {
-          "ticker": "GOLD",
-          "issuerName": "Gold.com, Inc.",
-          "insiderName": "MELTZER CAROL",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4000.0,
-          "pricePerShare": 46.86,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "GOLD",
-          "issuerName": "Gold.com, Inc.",
-          "insiderName": "Aquilino Brian",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6667.0,
-          "pricePerShare": 47.0164,
           "transactionDate": "2026-09-08"
         }
       ]
@@ -36925,6 +37150,21 @@
         }
       ]
     },
+    "MCK": {
+      "issuerName": "MCKESSON CORP",
+      "trades": [
+        {
+          "ticker": "MCK",
+          "issuerName": "MCKESSON CORP",
+          "insiderName": "Rutledge Napoleon B JR",
+          "title": "SVP, Controller & CAO",
+          "type": "Sale",
+          "shares": 111.0,
+          "pricePerShare": 891.45,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
     "TSM": {
       "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
       "trades": [
@@ -39390,131 +39630,6 @@
         }
       ]
     },
-    "RCG": {
-      "issuerName": "RENN Fund, Inc.",
-      "trades": [
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.9,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "Kesslen Jay H",
-          "title": "Vice-President",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.94,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "Kesslen Jay H",
-          "title": "Vice-President",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 2.93,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "Kesslen Jay H",
-          "title": "Vice-President",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 2.87,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.87,
-          "transactionDate": "2026-08-21"
-        }
-      ]
-    },
     "CFFI": {
       "issuerName": "C & F FINANCIAL CORP",
       "trades": [
@@ -40872,21 +40987,6 @@
           "shares": 2300.0,
           "pricePerShare": 306.126,
           "transactionDate": "2026-08-24"
-        }
-      ]
-    },
-    "IVZ": {
-      "issuerName": "Invesco Ltd.",
-      "trades": [
-        {
-          "ticker": "IVZ",
-          "issuerName": "Invesco Ltd.",
-          "insiderName": "DUKES LAURA ALLISON",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 31075.0,
-          "pricePerShare": 33.1629,
-          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -63302,96 +63402,6 @@
           "shares": 1976.0,
           "pricePerShare": 3.8569,
           "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ARDX",
-          "issuerName": "ARDELYX, INC.",
-          "insiderName": "Brady James Parker",
-          "title": "Chief Human Resources Officer",
-          "type": "Sale",
-          "shares": 13160.0,
-          "pricePerShare": 3.8569,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ARDX",
-          "issuerName": "ARDELYX, INC.",
-          "insiderName": "Foster Eric Duane",
-          "title": "Chief Commercial Officer",
-          "type": "Sale",
-          "shares": 2598.0,
-          "pricePerShare": 3.8569,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ARDX",
-          "issuerName": "ARDELYX, INC.",
-          "insiderName": "Foster Eric Duane",
-          "title": "Chief Commercial Officer",
-          "type": "Sale",
-          "shares": 3389.0,
-          "pricePerShare": 3.8569,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ARDX",
-          "issuerName": "ARDELYX, INC.",
-          "insiderName": "Foster Eric Duane",
-          "title": "Chief Commercial Officer",
-          "type": "Sale",
-          "shares": 2575.0,
-          "pricePerShare": 3.8569,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ARDX",
-          "issuerName": "ARDELYX, INC.",
-          "insiderName": "Kelliher Mike",
-          "title": "Chief Business Officer",
-          "type": "Sale",
-          "shares": 3104.0,
-          "pricePerShare": 3.8569,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ARDX",
-          "issuerName": "ARDELYX, INC.",
-          "insiderName": "Kelliher Mike",
-          "title": "Chief Business Officer",
-          "type": "Sale",
-          "shares": 2652.0,
-          "pricePerShare": 3.8569,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ARDX",
-          "issuerName": "ARDELYX, INC.",
-          "insiderName": "Kelliher Mike",
-          "title": "Chief Business Officer",
-          "type": "Sale",
-          "shares": 2002.0,
-          "pricePerShare": 3.8569,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ARDX",
-          "issuerName": "ARDELYX, INC.",
-          "insiderName": "Williams Laura A",
-          "title": "Chief Patient Officer",
-          "type": "Sale",
-          "shares": 3486.0,
-          "pricePerShare": 3.8569,
-          "transactionDate": "2026-08-21"
-        },
-        {
-          "ticker": "ARDX",
-          "issuerName": "ARDELYX, INC.",
-          "insiderName": "Williams Laura A",
-          "title": "Chief Patient Officer",
-          "type": "Sale",
-          "shares": 3089.0,
-          "pricePerShare": 3.8569,
-          "transactionDate": "2026-08-21"
         }
       ]
     }
@@ -64940,6 +64950,7 @@
       "0000925997-26-000075",
       "0000925999-26-000090",
       "0000925999-26-000091",
+      "0000927653-26-000249",
       "0000927730-26-000532",
       "0000927730-26-000533",
       "0000927730-26-000534",
@@ -66202,6 +66213,8 @@
       "0000950103-26-013753",
       "0000950103-26-013754",
       "0000950103-26-013755",
+      "0000950103-26-013756",
+      "0000950103-26-013757",
       "0000950130-26-000195",
       "0000950142-26-002131",
       "0000950142-26-002132",
@@ -67707,10 +67720,12 @@
       "0001104659-26-106623",
       "0001104659-26-106631",
       "0001104659-26-106634",
+      "0001104659-26-106652",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
       "0001106578-26-000109",
+      "0001108038-26-000004",
       "0001108205-26-000116",
       "0001108524-26-000154",
       "0001108524-26-000156",
@@ -72302,6 +72317,12 @@
       "0001193125-26-387554",
       "0001193125-26-387558",
       "0001193125-26-387586",
+      "0001193125-26-387610",
+      "0001193125-26-387628",
+      "0001193125-26-387639",
+      "0001193125-26-387645",
+      "0001193125-26-387646",
+      "0001193125-26-387647",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73775,6 +73796,9 @@
       "0001213900-26-098642",
       "0001213900-26-098655",
       "0001213900-26-098656",
+      "0001213900-26-098687",
+      "0001213900-26-098698",
+      "0001213900-26-098699",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74679,6 +74703,7 @@
       "0001324069-26-000035",
       "0001324069-26-000037",
       "0001324069-26-000039",
+      "0001324222-26-000001",
       "0001324478-26-000004",
       "0001325533-26-000006",
       "0001325533-26-000007",
@@ -74725,6 +74750,7 @@
       "0001341985-26-000004",
       "0001342916-26-000050",
       "0001343600-26-000011",
+      "0001343600-26-000013",
       "0001344017-26-000004",
       "0001345943-26-000010",
       "0001347688-26-000004",
@@ -75033,6 +75059,7 @@
       "0001404771-26-000002",
       "0001405444-26-000006",
       "0001405635-26-000010",
+      "0001405693-26-000011",
       "0001405955-26-000007",
       "0001405955-26-000009",
       "0001408736-26-000007",
@@ -75522,6 +75549,7 @@
       "0001437749-26-030019",
       "0001437749-26-030032",
       "0001437749-26-030035",
+      "0001437749-26-030042",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -76770,6 +76798,8 @@
       "0001528621-26-000927",
       "0001528621-26-000930",
       "0001528621-26-000931",
+      "0001528621-26-000932",
+      "0001528621-26-000933",
       "0001529306-26-000005",
       "0001530038-26-000002",
       "0001530038-26-000004",
@@ -79072,6 +79102,12 @@
       "0001771146-26-001743",
       "0001771146-26-001785",
       "0001771146-26-001789",
+      "0001771146-26-001793",
+      "0001771146-26-001795",
+      "0001771146-26-001797",
+      "0001771146-26-001799",
+      "0001771146-26-001801",
+      "0001771146-26-001803",
       "0001771383-26-000003",
       "0001771814-26-000005",
       "0001771961-26-000006",
@@ -82348,6 +82384,14 @@
       "0001839882-26-044861",
       "0001839882-26-044862",
       "0001839882-26-044863",
+      "0001839882-26-044864",
+      "0001839882-26-044865",
+      "0001839882-26-044866",
+      "0001839882-26-044867",
+      "0001839882-26-044872",
+      "0001839882-26-044873",
+      "0001839882-26-044874",
+      "0001839882-26-044875",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -86003,6 +86047,21 @@
       "0001918704-26-027124",
       "0001918704-26-027125",
       "0001918704-26-027126",
+      "0001918704-26-027127",
+      "0001918704-26-027128",
+      "0001918704-26-027129",
+      "0001918704-26-027130",
+      "0001918704-26-027131",
+      "0001918704-26-027132",
+      "0001918704-26-027133",
+      "0001918704-26-027134",
+      "0001918704-26-027135",
+      "0001918704-26-027136",
+      "0001918704-26-027137",
+      "0001918704-26-027138",
+      "0001918704-26-027139",
+      "0001918704-26-027140",
+      "0001918704-26-027142",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -86144,6 +86203,7 @@
       "0001965926-26-000010",
       "0001965927-26-000007",
       "0001965929-26-000007",
+      "0001965994-26-000006",
       "0001966530-26-000012",
       "0001966716-26-000012",
       "0001966812-26-000003",
