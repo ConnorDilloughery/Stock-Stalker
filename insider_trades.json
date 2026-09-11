@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T01:05:12.855558+00:00",
+  "generatedAt": "2026-09-11T02:05:07.373602+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -251,6 +251,16 @@
       "type": "Sale",
       "shares": 720.0,
       "pricePerShare": 75.27,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "PTGX",
+      "issuerName": "Protagonist Therapeutics, Inc",
+      "insiderName": "PATEL DINESH V PH D",
+      "title": "Director, President and CEO",
+      "type": "Sale",
+      "shares": 7278.0,
+      "pricePerShare": 144.1,
       "transactionDate": "2026-09-10"
     },
     {
@@ -1412,6 +1422,36 @@
       "shares": 720.0,
       "pricePerShare": 76.26,
       "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "PAYS",
+      "issuerName": "Paysign, Inc.",
+      "insiderName": "Ngo Michael C",
+      "title": "Chief Innovation Officer",
+      "type": "Sale",
+      "shares": 79925.0,
+      "pricePerShare": 12.74,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "PTGX",
+      "issuerName": "Protagonist Therapeutics, Inc",
+      "insiderName": "PATEL DINESH V PH D",
+      "title": "Director, President and CEO",
+      "type": "Sale",
+      "shares": 63548.0,
+      "pricePerShare": 146.18,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "ASPI",
+      "issuerName": "ASP Isotopes Inc.",
+      "insiderName": "Ainscow Robert",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 8438.0,
+      "pricePerShare": 4.292,
+      "transactionDate": "2026-09-08-05:00"
     },
     {
       "ticker": "GWRE",
@@ -5771,6 +5811,26 @@
       "type": "Sale",
       "shares": 273.0,
       "pricePerShare": 104.95,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "PAYS",
+      "issuerName": "Paysign, Inc.",
+      "insiderName": "Ngo Michael C",
+      "title": "Chief Innovation Officer",
+      "type": "Sale",
+      "shares": 70075.0,
+      "pricePerShare": 12.8494,
+      "transactionDate": "2026-09-08"
+    },
+    {
+      "ticker": "PTGX",
+      "issuerName": "Protagonist Therapeutics, Inc",
+      "insiderName": "PATEL DINESH V PH D",
+      "title": "Director, President and CEO",
+      "type": "Sale",
+      "shares": 54174.0,
+      "pricePerShare": 145.87,
       "transactionDate": "2026-09-08"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 155008.0,
       "pricePerShare": 44.03,
       "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "LASR",
-      "issuerName": "NLIGHT, INC.",
-      "insiderName": "Keeney Scott H",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 25039.0,
-      "pricePerShare": 44.79,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "LASR",
-      "issuerName": "NLIGHT, INC.",
-      "insiderName": "Keeney Scott H",
-      "title": "Director, President and CEO",
-      "type": "Sale",
-      "shares": 1703.0,
-      "pricePerShare": 45.92,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "HUT",
-      "issuerName": "Hut 8 Corp.",
-      "insiderName": "Glennan Sean Joseph",
-      "title": "Chief Financial Officer",
-      "type": "Sale",
-      "shares": 5807.0,
-      "pricePerShare": 78.7,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "HUT",
-      "issuerName": "Hut 8 Corp.",
-      "insiderName": "Glennan Sean Joseph",
-      "title": "Chief Financial Officer",
-      "type": "Sale",
-      "shares": 638.0,
-      "pricePerShare": 79.33,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "SUJA",
-      "issuerName": "SUJA LIFE, INC.",
-      "insiderName": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 233624.0,
-      "pricePerShare": 8.84,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "ARCO",
-      "issuerName": "Arcos Dorados Holdings Inc.",
-      "insiderName": "Hernandez Artigas Carlos",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 15274.0,
-      "pricePerShare": 8.15,
-      "transactionDate": "2026-08-24"
     }
   ],
   "byTicker": {
@@ -31607,6 +31607,41 @@
           "shares": 720.0,
           "pricePerShare": 76.26,
           "transactionDate": "2026-09-09"
+        }
+      ]
+    },
+    "PTGX": {
+      "issuerName": "Protagonist Therapeutics, Inc",
+      "trades": [
+        {
+          "ticker": "PTGX",
+          "issuerName": "Protagonist Therapeutics, Inc",
+          "insiderName": "PATEL DINESH V PH D",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 7278.0,
+          "pricePerShare": 144.1,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "PTGX",
+          "issuerName": "Protagonist Therapeutics, Inc",
+          "insiderName": "PATEL DINESH V PH D",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 63548.0,
+          "pricePerShare": 146.18,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "PTGX",
+          "issuerName": "Protagonist Therapeutics, Inc",
+          "insiderName": "PATEL DINESH V PH D",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 54174.0,
+          "pricePerShare": 145.87,
+          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -34492,26 +34527,6 @@
           "shares": 155008.0,
           "pricePerShare": 44.03,
           "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "LASR",
-          "issuerName": "NLIGHT, INC.",
-          "insiderName": "Keeney Scott H",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 25039.0,
-          "pricePerShare": 44.79,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "LASR",
-          "issuerName": "NLIGHT, INC.",
-          "insiderName": "Keeney Scott H",
-          "title": "Director, President and CEO",
-          "type": "Sale",
-          "shares": 1703.0,
-          "pricePerShare": 45.92,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -35145,6 +35160,96 @@
         }
       ]
     },
+    "PAYS": {
+      "issuerName": "Paysign, Inc.",
+      "trades": [
+        {
+          "ticker": "PAYS",
+          "issuerName": "Paysign, Inc.",
+          "insiderName": "Ngo Michael C",
+          "title": "Chief Innovation Officer",
+          "type": "Sale",
+          "shares": 79925.0,
+          "pricePerShare": 12.74,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "PAYS",
+          "issuerName": "Paysign, Inc.",
+          "insiderName": "Ngo Michael C",
+          "title": "Chief Innovation Officer",
+          "type": "Sale",
+          "shares": 70075.0,
+          "pricePerShare": 12.8494,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "ASPI": {
+      "issuerName": "ASP Isotopes Inc.",
+      "trades": [
+        {
+          "ticker": "ASPI",
+          "issuerName": "ASP Isotopes Inc.",
+          "insiderName": "Ainscow Robert",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8438.0,
+          "pricePerShare": 4.292,
+          "transactionDate": "2026-09-08-05:00"
+        },
+        {
+          "ticker": "ASPI",
+          "issuerName": "ASP Isotopes Inc.",
+          "insiderName": "Mann Paul Elliot",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 83759.0,
+          "pricePerShare": 4.1,
+          "transactionDate": "2026-09-04-05:00"
+        },
+        {
+          "ticker": "ASPI",
+          "issuerName": "ASP Isotopes Inc.",
+          "insiderName": "Mann Paul Elliot",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 83758.0,
+          "pricePerShare": 3.92,
+          "transactionDate": "2026-09-03-05:00"
+        },
+        {
+          "ticker": "ASPI",
+          "issuerName": "ASP Isotopes Inc.",
+          "insiderName": "Ainscow Donald George",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 23678.0,
+          "pricePerShare": 3.89,
+          "transactionDate": "2026-09-02-05:00"
+        },
+        {
+          "ticker": "ASPI",
+          "issuerName": "ASP Isotopes Inc.",
+          "insiderName": "Ainscow Robert",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 3.905,
+          "transactionDate": "2026-09-02-05:00"
+        },
+        {
+          "ticker": "ASPI",
+          "issuerName": "ASP Isotopes Inc.",
+          "insiderName": "Mann Paul Elliot",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 83758.0,
+          "pricePerShare": 3.91,
+          "transactionDate": "2026-09-02-05:00"
+        }
+      ]
+    },
     "GWRE": {
       "issuerName": "Guidewire Software, Inc.",
       "trades": [
@@ -35687,16 +35792,6 @@
           "shares": 233624.0,
           "pricePerShare": 9.21,
           "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "SUJA",
-          "issuerName": "SUJA LIFE, INC.",
-          "insiderName": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 233624.0,
-          "pricePerShare": 8.84,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -45452,61 +45547,6 @@
           "shares": 41.0,
           "pricePerShare": 51.9,
           "transactionDate": "2026-09-05"
-        }
-      ]
-    },
-    "ASPI": {
-      "issuerName": "ASP Isotopes Inc.",
-      "trades": [
-        {
-          "ticker": "ASPI",
-          "issuerName": "ASP Isotopes Inc.",
-          "insiderName": "Mann Paul Elliot",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 83759.0,
-          "pricePerShare": 4.1,
-          "transactionDate": "2026-09-04-05:00"
-        },
-        {
-          "ticker": "ASPI",
-          "issuerName": "ASP Isotopes Inc.",
-          "insiderName": "Mann Paul Elliot",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 83758.0,
-          "pricePerShare": 3.92,
-          "transactionDate": "2026-09-03-05:00"
-        },
-        {
-          "ticker": "ASPI",
-          "issuerName": "ASP Isotopes Inc.",
-          "insiderName": "Ainscow Donald George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 23678.0,
-          "pricePerShare": 3.89,
-          "transactionDate": "2026-09-02-05:00"
-        },
-        {
-          "ticker": "ASPI",
-          "issuerName": "ASP Isotopes Inc.",
-          "insiderName": "Ainscow Robert",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 25000.0,
-          "pricePerShare": 3.905,
-          "transactionDate": "2026-09-02-05:00"
-        },
-        {
-          "ticker": "ASPI",
-          "issuerName": "ASP Isotopes Inc.",
-          "insiderName": "Mann Paul Elliot",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 83758.0,
-          "pricePerShare": 3.91,
-          "transactionDate": "2026-09-02-05:00"
         }
       ]
     },
@@ -61722,16 +61762,6 @@
           "shares": 14500.0,
           "pricePerShare": 8.056,
           "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "ARCO",
-          "issuerName": "Arcos Dorados Holdings Inc.",
-          "insiderName": "Hernandez Artigas Carlos",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 15274.0,
-          "pricePerShare": 8.15,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -63226,31 +63256,6 @@
           "type": "Purchase",
           "shares": 3450.0,
           "pricePerShare": 14.335,
-          "transactionDate": "2026-08-24"
-        }
-      ]
-    },
-    "HUT": {
-      "issuerName": "Hut 8 Corp.",
-      "trades": [
-        {
-          "ticker": "HUT",
-          "issuerName": "Hut 8 Corp.",
-          "insiderName": "Glennan Sean Joseph",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 5807.0,
-          "pricePerShare": 78.7,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "HUT",
-          "issuerName": "Hut 8 Corp.",
-          "insiderName": "Glennan Sean Joseph",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 638.0,
-          "pricePerShare": 79.33,
           "transactionDate": "2026-08-24"
         }
       ]
@@ -67642,6 +67647,7 @@
       "0001104659-26-106783",
       "0001104659-26-106786",
       "0001104659-26-106788",
+      "0001104659-26-106831",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -76013,6 +76019,7 @@
       "0001477932-26-005466",
       "0001477932-26-005472",
       "0001477932-26-005473",
+      "0001477932-26-005524",
       "0001478669-26-000015",
       "0001478916-26-000015",
       "0001479079-26-000035",
@@ -78695,6 +78702,7 @@
       "0001683168-26-007027",
       "0001683168-26-007039",
       "0001683168-26-007042",
+      "0001683168-26-007071",
       "0001684532-26-000009",
       "0001684532-26-000013",
       "0001684713-26-000003",
