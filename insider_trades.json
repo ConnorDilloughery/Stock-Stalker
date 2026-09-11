@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T13:05:24.144452+00:00",
+  "generatedAt": "2026-09-11T14:03:17.467832+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -551,6 +551,16 @@
       "type": "Sale",
       "shares": 302369.0,
       "pricePerShare": 21.01,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "KMT",
+      "issuerName": "KENNAMETAL INC",
+      "insiderName": "Chowbey Sanjay",
+      "title": "President and CEO",
+      "type": "Purchase",
+      "shares": 7000.0,
+      "pricePerShare": 29.1,
       "transactionDate": "2026-09-10"
     },
     {
@@ -1971,6 +1981,26 @@
       "type": "Sale",
       "shares": 50000.0,
       "pricePerShare": 53.1178,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "HIPO",
+      "issuerName": "Hippo Holdings Inc.",
+      "insiderName": "McCathron Richard",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 5000.0,
+      "pricePerShare": 32.23,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "MGEE",
+      "issuerName": "MGE ENERGY INC",
+      "insiderName": "Berbee James G",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 274.7418,
+      "pricePerShare": 77.35,
       "transactionDate": "2026-09-09"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 9064.0,
       "pricePerShare": 115.97,
       "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 6077.0,
-      "pricePerShare": 116.61,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 357.0,
-      "pricePerShare": 114.97,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 670.0,
-      "pricePerShare": 115.96,
-      "transactionDate": "2026-08-24"
     }
   ],
   "byTicker": {
@@ -33027,36 +33027,6 @@
           "shares": 9064.0,
           "pricePerShare": 115.97,
           "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6077.0,
-          "pricePerShare": 116.61,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 357.0,
-          "pricePerShare": 114.97,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 670.0,
-          "pricePerShare": 115.96,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -33407,6 +33377,41 @@
           "shares": 16300.0,
           "pricePerShare": 24.74,
           "transactionDate": "2026-08-25"
+        }
+      ]
+    },
+    "KMT": {
+      "issuerName": "KENNAMETAL INC",
+      "trades": [
+        {
+          "ticker": "KMT",
+          "issuerName": "KENNAMETAL INC",
+          "insiderName": "Chowbey Sanjay",
+          "title": "President and CEO",
+          "type": "Purchase",
+          "shares": 7000.0,
+          "pricePerShare": 29.1,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "KMT",
+          "issuerName": "KENNAMETAL INC",
+          "insiderName": "HARSHMAN RICHARD J",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 30.21,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "KMT",
+          "issuerName": "KENNAMETAL INC",
+          "insiderName": "Keating Michelle R",
+          "title": "Vice President",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 30.536,
+          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -36972,6 +36977,36 @@
           "shares": 9189.0,
           "pricePerShare": null,
           "transactionDate": "2026-08-31"
+        }
+      ]
+    },
+    "HIPO": {
+      "issuerName": "Hippo Holdings Inc.",
+      "trades": [
+        {
+          "ticker": "HIPO",
+          "issuerName": "Hippo Holdings Inc.",
+          "insiderName": "McCathron Richard",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 32.23,
+          "transactionDate": "2026-09-09"
+        }
+      ]
+    },
+    "MGEE": {
+      "issuerName": "MGE ENERGY INC",
+      "trades": [
+        {
+          "ticker": "MGEE",
+          "issuerName": "MGE ENERGY INC",
+          "insiderName": "Berbee James G",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 274.7418,
+          "pricePerShare": 77.35,
+          "transactionDate": "2026-09-09"
         }
       ]
     },
@@ -49236,31 +49271,6 @@
           "type": "Purchase",
           "shares": 19450.0,
           "pricePerShare": 51.497,
-          "transactionDate": "2026-09-04"
-        }
-      ]
-    },
-    "KMT": {
-      "issuerName": "KENNAMETAL INC",
-      "trades": [
-        {
-          "ticker": "KMT",
-          "issuerName": "KENNAMETAL INC",
-          "insiderName": "HARSHMAN RICHARD J",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 5000.0,
-          "pricePerShare": 30.21,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "KMT",
-          "issuerName": "KENNAMETAL INC",
-          "insiderName": "Keating Michelle R",
-          "title": "Vice President",
-          "type": "Sale",
-          "shares": 20000.0,
-          "pricePerShare": 30.536,
           "transactionDate": "2026-09-04"
         }
       ]
@@ -64053,6 +64063,8 @@
       "0000745544-26-000149",
       "0000745544-26-000152",
       "0000745544-26-000154",
+      "0000745544-26-000158",
+      "0000745544-26-000160",
       "0000749330-26-000012",
       "0000752642-26-000089",
       "0000752642-26-000091",
@@ -68462,6 +68474,8 @@
       "0001140361-26-036239",
       "0001140361-26-036246",
       "0001140361-26-036271",
+      "0001140361-26-036289",
+      "0001140361-26-036295",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -72318,6 +72332,8 @@
       "0001193125-26-388663",
       "0001193125-26-388664",
       "0001193125-26-388667",
+      "0001193125-26-388712",
+      "0001193125-26-388717",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72386,6 +72402,7 @@
       "0001207622-26-000005",
       "0001207928-26-000009",
       "0001207969-26-000004",
+      "0001208109-26-000007",
       "0001208362-26-000011",
       "0001208500-26-000004",
       "0001208842-26-000008",
@@ -73816,6 +73833,9 @@
       "0001213900-26-098973",
       "0001213900-26-098988",
       "0001213900-26-098991",
+      "0001213900-26-099004",
+      "0001213900-26-099017",
+      "0001213900-26-099020",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74657,6 +74677,7 @@
       "0001292814-26-004498",
       "0001293167-26-000004",
       "0001293171-26-000012",
+      "0001294172-26-000019",
       "0001294280-26-000005",
       "0001294735-26-000004",
       "0001295727-26-000002",
@@ -77041,6 +77062,7 @@
       "0001562577-26-000322",
       "0001562577-26-000323",
       "0001562577-26-000324",
+      "0001562577-26-000330",
       "0001562800-26-000006",
       "0001563284-26-000004",
       "0001563411-26-000194",
@@ -78508,6 +78530,7 @@
       "0001655589-26-001182",
       "0001655589-26-001187",
       "0001655589-26-001199",
+      "0001655589-26-001251",
       "0001656109-26-000006",
       "0001656846-26-000007",
       "0001657787-26-000002",
@@ -79093,6 +79116,7 @@
       "0001767612-26-000003",
       "0001767659-26-000017",
       "0001767799-26-000003",
+      "0001768773-26-000010",
       "0001769052-26-000009",
       "0001769190-26-000001",
       "0001769208-26-000004",
@@ -79299,6 +79323,7 @@
       "0001782170-26-000079",
       "0001782170-26-000081",
       "0001782435-26-000001",
+      "0001782435-26-000003",
       "0001783108-26-000026",
       "0001783108-26-000028",
       "0001783507-26-000011",
@@ -82528,6 +82553,15 @@
       "0001839882-26-044891",
       "0001839882-26-044899",
       "0001839882-26-044901",
+      "0001839882-26-044961",
+      "0001839882-26-044963",
+      "0001839882-26-044964",
+      "0001839882-26-044965",
+      "0001839882-26-044966",
+      "0001839882-26-044967",
+      "0001839882-26-044969",
+      "0001839882-26-044970",
+      "0001839882-26-044977",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -86226,6 +86260,20 @@
       "0001918704-26-027190",
       "0001918704-26-027197",
       "0001918704-26-027198",
+      "0001918704-26-027199",
+      "0001918704-26-027200",
+      "0001918704-26-027201",
+      "0001918704-26-027202",
+      "0001918704-26-027203",
+      "0001918704-26-027204",
+      "0001918704-26-027205",
+      "0001918704-26-027206",
+      "0001918704-26-027207",
+      "0001918704-26-027208",
+      "0001918704-26-027209",
+      "0001918704-26-027210",
+      "0001918704-26-027211",
+      "0001918704-26-027212",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -86485,6 +86533,7 @@
       "0001976672-26-000062",
       "0001976672-26-000065",
       "0001976672-26-000067",
+      "0001976672-26-000069",
       "0001976684-26-000011",
       "0001976685-26-000017",
       "0001977249-26-000111",
@@ -87052,6 +87101,10 @@
       "0001999371-26-020350",
       "0001999371-26-020352",
       "0001999371-26-020354",
+      "0001999371-26-020361",
+      "0001999371-26-020362",
+      "0001999371-26-020364",
+      "0001999371-26-020366",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
