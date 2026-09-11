@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T19:05:59.781969+00:00",
+  "generatedAt": "2026-09-11T20:02:53.777030+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -21,6 +21,16 @@
       "type": "Sale",
       "shares": 1000.0,
       "pricePerShare": 31.25,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "BBGI",
+      "issuerName": "BEASLEY BROADCAST GROUP INC",
+      "insiderName": "Greening Shaun Peter",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 378.0,
+      "pricePerShare": 15.78,
       "transactionDate": "2026-09-11"
     },
     {
@@ -631,6 +641,26 @@
       "type": "Purchase",
       "shares": 1884.0,
       "pricePerShare": 1.0499,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "BZ",
+      "issuerName": "Kanzhun Ltd",
+      "insiderName": "Chen Xu",
+      "title": "Director, Chief Marketing Officer",
+      "type": "Sale",
+      "shares": 200000.0,
+      "pricePerShare": 8.15,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "TK",
+      "issuerName": "TEEKAY CORP LTD",
+      "insiderName": "Locke Simon Heidi",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 11585.0,
+      "pricePerShare": 14.0802,
       "transactionDate": "2026-09-10"
     },
     {
@@ -2131,6 +2161,16 @@
       "type": "Purchase",
       "shares": 1500.0,
       "pricePerShare": 67.62,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "DC",
+      "issuerName": "Dakota Gold Corp.",
+      "insiderName": "CAMPBELL SHAWN",
+      "title": "CHIEF DEVELOPMENT OFFICER",
+      "type": "Sale",
+      "shares": 1906.0,
+      "pricePerShare": 6.0301,
       "transactionDate": "2026-09-09"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 250.0,
       "pricePerShare": 14.75,
       "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "WDC",
-      "issuerName": "WESTERN DIGITAL CORP",
-      "insiderName": "Tregillis Cynthia L",
-      "title": "Chief Legal Officer & Corp Sec",
-      "type": "Sale",
-      "shares": 684.0,
-      "pricePerShare": 446.17,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "GWRE",
-      "issuerName": "Guidewire Software, Inc.",
-      "insiderName": "Rosenbaum Michael George",
-      "title": "Director, Chief Executive Officer",
-      "type": "Sale",
-      "shares": 1200.0,
-      "pricePerShare": 187.82,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "GLOO",
-      "issuerName": "Gloo Holdings, Inc.",
-      "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 479.0,
-      "pricePerShare": 3.4413,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "WLFC",
-      "issuerName": "WILLIS LEASE FINANCE CORP",
-      "insiderName": "WILLIS CHARLES F IV",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 3016.0,
-      "pricePerShare": 54.5876,
-      "transactionDate": "2026-08-24"
     }
   ],
   "byTicker": {
@@ -30031,6 +30031,21 @@
           "type": "Sale",
           "shares": 1000.0,
           "pricePerShare": 31.25,
+          "transactionDate": "2026-09-11"
+        }
+      ]
+    },
+    "BBGI": {
+      "issuerName": "BEASLEY BROADCAST GROUP INC",
+      "trades": [
+        {
+          "ticker": "BBGI",
+          "issuerName": "BEASLEY BROADCAST GROUP INC",
+          "insiderName": "Greening Shaun Peter",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 378.0,
+          "pricePerShare": 15.78,
           "transactionDate": "2026-09-11"
         }
       ]
@@ -30742,16 +30757,6 @@
           "shares": 1721.0,
           "pricePerShare": 3.3488,
           "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 479.0,
-          "pricePerShare": 3.4413,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -33707,6 +33712,36 @@
           "shares": 55000.0,
           "pricePerShare": 1.0278,
           "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "BZ": {
+      "issuerName": "Kanzhun Ltd",
+      "trades": [
+        {
+          "ticker": "BZ",
+          "issuerName": "Kanzhun Ltd",
+          "insiderName": "Chen Xu",
+          "title": "Director, Chief Marketing Officer",
+          "type": "Sale",
+          "shares": 200000.0,
+          "pricePerShare": 8.15,
+          "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "TK": {
+      "issuerName": "TEEKAY CORP LTD",
+      "trades": [
+        {
+          "ticker": "TK",
+          "issuerName": "TEEKAY CORP LTD",
+          "insiderName": "Locke Simon Heidi",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 11585.0,
+          "pricePerShare": 14.0802,
+          "transactionDate": "2026-09-10"
         }
       ]
     },
@@ -37260,6 +37295,21 @@
         }
       ]
     },
+    "DC": {
+      "issuerName": "Dakota Gold Corp.",
+      "trades": [
+        {
+          "ticker": "DC",
+          "issuerName": "Dakota Gold Corp.",
+          "insiderName": "CAMPBELL SHAWN",
+          "title": "CHIEF DEVELOPMENT OFFICER",
+          "type": "Sale",
+          "shares": 1906.0,
+          "pricePerShare": 6.0301,
+          "transactionDate": "2026-09-09"
+        }
+      ]
+    },
     "ASPI": {
       "issuerName": "ASP Isotopes Inc.",
       "trades": [
@@ -37347,16 +37397,6 @@
           "shares": 1800.0,
           "pricePerShare": 188.46,
           "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "GWRE",
-          "issuerName": "Guidewire Software, Inc.",
-          "insiderName": "Rosenbaum Michael George",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 1200.0,
-          "pricePerShare": 187.82,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -60027,16 +60067,6 @@
           "shares": 476.0,
           "pricePerShare": 450.78,
           "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "WDC",
-          "issuerName": "WESTERN DIGITAL CORP",
-          "insiderName": "Tregillis Cynthia L",
-          "title": "Chief Legal Officer & Corp Sec",
-          "type": "Sale",
-          "shares": 684.0,
-          "pricePerShare": 446.17,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -63209,21 +63239,6 @@
           "transactionDate": "2026-08-24"
         }
       ]
-    },
-    "WLFC": {
-      "issuerName": "WILLIS LEASE FINANCE CORP",
-      "trades": [
-        {
-          "ticker": "WLFC",
-          "issuerName": "WILLIS LEASE FINANCE CORP",
-          "insiderName": "WILLIS CHARLES F IV",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3016.0,
-          "pricePerShare": 54.5876,
-          "transactionDate": "2026-08-24"
-        }
-      ]
     }
   },
   "_meta": {
@@ -64671,6 +64686,7 @@
       "0000910606-26-000066",
       "0000910606-26-000067",
       "0000911971-26-000051",
+      "0000911971-26-000055",
       "0000912093-26-000056",
       "0000912093-26-000058",
       "0000912093-26-000060",
@@ -66128,6 +66144,15 @@
       "0000950103-26-013822",
       "0000950103-26-013823",
       "0000950103-26-013831",
+      "0000950103-26-013836",
+      "0000950103-26-013837",
+      "0000950103-26-013838",
+      "0000950103-26-013839",
+      "0000950103-26-013840",
+      "0000950103-26-013841",
+      "0000950103-26-013842",
+      "0000950103-26-013843",
+      "0000950103-26-013844",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -67667,6 +67692,9 @@
       "0001104659-26-107003",
       "0001104659-26-107006",
       "0001104659-26-107007",
+      "0001104659-26-107035",
+      "0001104659-26-107049",
+      "0001104659-26-107050",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -72424,6 +72452,11 @@
       "0001193125-26-389150",
       "0001193125-26-389156",
       "0001193125-26-389161",
+      "0001193125-26-389183",
+      "0001193125-26-389194",
+      "0001193125-26-389222",
+      "0001193125-26-389225",
+      "0001193125-26-389242",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73945,6 +73978,8 @@
       "0001213900-26-099184",
       "0001213900-26-099192",
       "0001213900-26-099195",
+      "0001213900-26-099218",
+      "0001213900-26-099219",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74289,6 +74324,8 @@
       "0001214659-26-011593",
       "0001214659-26-011598",
       "0001214659-26-011601",
+      "0001214659-26-011609",
+      "0001214659-26-011611",
       "0001214993-26-000004",
       "0001215135-26-000012",
       "0001215315-26-000038",
@@ -74537,6 +74574,7 @@
       "0001225208-26-007733",
       "0001225208-26-007734",
       "0001225208-26-007735",
+      "0001225208-26-007760",
       "0001225481-26-000006",
       "0001225817-26-000008",
       "0001227384-26-000017",
@@ -75229,6 +75267,10 @@
       "0001398344-26-016852",
       "0001398344-26-016889",
       "0001398344-26-016894",
+      "0001398344-26-016896",
+      "0001398344-26-016899",
+      "0001398344-26-016900",
+      "0001398344-26-016902",
       "0001399967-26-000002",
       "0001401257-26-000064",
       "0001401336-26-000020",
@@ -76027,6 +76069,7 @@
       "0001445546-26-006751",
       "0001445546-26-006753",
       "0001445546-26-006755",
+      "0001445546-26-006757",
       "0001446066-26-000008",
       "0001448765-26-000011",
       "0001448765-26-000013",
@@ -78480,6 +78523,7 @@
       "0001628280-26-061448",
       "0001628280-26-061489",
       "0001628280-26-061512",
+      "0001628280-26-061534",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -82786,6 +82830,15 @@
       "0001839882-26-045132",
       "0001839882-26-045133",
       "0001839882-26-045134",
+      "0001839882-26-045138",
+      "0001839882-26-045139",
+      "0001839882-26-045140",
+      "0001839882-26-045142",
+      "0001839882-26-045144",
+      "0001839882-26-045158",
+      "0001839882-26-045161",
+      "0001839882-26-045162",
+      "0001839882-26-045163",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -86570,6 +86623,20 @@
       "0001918704-26-027307",
       "0001918704-26-027308",
       "0001918704-26-027309",
+      "0001918704-26-027312",
+      "0001918704-26-027313",
+      "0001918704-26-027314",
+      "0001918704-26-027315",
+      "0001918704-26-027316",
+      "0001918704-26-027317",
+      "0001918704-26-027318",
+      "0001918704-26-027319",
+      "0001918704-26-027320",
+      "0001918704-26-027321",
+      "0001918704-26-027322",
+      "0001918704-26-027323",
+      "0001918704-26-027324",
+      "0001918704-26-027325",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -87411,6 +87478,7 @@
       "0001999371-26-020393",
       "0001999371-26-020395",
       "0001999371-26-020407",
+      "0001999371-26-020422",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -87853,6 +87921,8 @@
       "0002071844-26-001215",
       "0002071844-26-001216",
       "0002071844-26-001218",
+      "0002071844-26-001221",
+      "0002071844-26-001224",
       "0002071948-26-000005",
       "0002071953-26-000007",
       "0002072270-26-000013",
