@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-09-11T17:06:00.522254+00:00",
+  "generatedAt": "2026-09-11T18:01:37.773866+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "BFC",
+      "issuerName": "Bank First Corp",
+      "insiderName": "Van Sistine Peter J.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1848.0,
+      "pricePerShare": 155.57,
+      "transactionDate": "2026-09-11"
+    },
     {
       "ticker": "IRIX",
       "issuerName": "IRIDEX CORP",
@@ -601,6 +611,16 @@
       "type": "Purchase",
       "shares": 600.0,
       "pricePerShare": 5.446,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "GROV",
+      "issuerName": "Grove Collaborative Holdings, Inc.",
+      "insiderName": "Landesberg Stuart",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1884.0,
+      "pricePerShare": 1.0499,
       "transactionDate": "2026-09-10"
     },
     {
@@ -2071,6 +2091,26 @@
       "type": "Sale",
       "shares": 8000.0,
       "pricePerShare": 37.5495,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "ZNB",
+      "issuerName": "Zeta Network Group",
+      "insiderName": "HRT FINANCIAL LP",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 1686.0,
+      "pricePerShare": 1.57,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "GROV",
+      "issuerName": "Grove Collaborative Holdings, Inc.",
+      "insiderName": "Landesberg Stuart",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 2943.0,
+      "pricePerShare": 1.0499,
       "transactionDate": "2026-09-09"
     },
     {
@@ -29962,49 +30002,24 @@
       "shares": 107374.0,
       "pricePerShare": 1.7542,
       "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "NXT",
-      "issuerName": "Nextpower Inc.",
-      "insiderName": "Blunden Julia",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 3692.0,
-      "pricePerShare": 84.101,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "XYZ",
-      "issuerName": "Block, Inc.",
-      "insiderName": "Eisen Anthony Mathew",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 6000.0,
-      "pricePerShare": 81.48,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "XYZ",
-      "issuerName": "Block, Inc.",
-      "insiderName": "Jennings Owen Britton",
-      "title": "Business Lead",
-      "type": "Sale",
-      "shares": 1317.0,
-      "pricePerShare": 81.48,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "XYZ",
-      "issuerName": "Block, Inc.",
-      "insiderName": "Grassadonia Brian",
-      "title": "Ecosystem Lead",
-      "type": "Sale",
-      "shares": 3830.0,
-      "pricePerShare": 81.88,
-      "transactionDate": "2026-08-24"
     }
   ],
   "byTicker": {
+    "BFC": {
+      "issuerName": "Bank First Corp",
+      "trades": [
+        {
+          "ticker": "BFC",
+          "issuerName": "Bank First Corp",
+          "insiderName": "Van Sistine Peter J.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1848.0,
+          "pricePerShare": 155.57,
+          "transactionDate": "2026-09-11"
+        }
+      ]
+    },
     "IRIX": {
       "issuerName": "IRIDEX CORP",
       "trades": [
@@ -30847,36 +30862,6 @@
           "shares": 6000.0,
           "pricePerShare": 81.81,
           "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "XYZ",
-          "issuerName": "Block, Inc.",
-          "insiderName": "Eisen Anthony Mathew",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 6000.0,
-          "pricePerShare": 81.48,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "XYZ",
-          "issuerName": "Block, Inc.",
-          "insiderName": "Jennings Owen Britton",
-          "title": "Business Lead",
-          "type": "Sale",
-          "shares": 1317.0,
-          "pricePerShare": 81.48,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "XYZ",
-          "issuerName": "Block, Inc.",
-          "insiderName": "Grassadonia Brian",
-          "title": "Ecosystem Lead",
-          "type": "Sale",
-          "shares": 3830.0,
-          "pricePerShare": 81.88,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -33642,6 +33627,71 @@
           "shares": 9350.0,
           "pricePerShare": 6.4125,
           "transactionDate": "2026-08-28"
+        }
+      ]
+    },
+    "GROV": {
+      "issuerName": "Grove Collaborative Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "GROV",
+          "issuerName": "Grove Collaborative Holdings, Inc.",
+          "insiderName": "Landesberg Stuart",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1884.0,
+          "pricePerShare": 1.0499,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "GROV",
+          "issuerName": "Grove Collaborative Holdings, Inc.",
+          "insiderName": "Landesberg Stuart",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2943.0,
+          "pricePerShare": 1.0499,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "GROV",
+          "issuerName": "Grove Collaborative Holdings, Inc.",
+          "insiderName": "Landesberg Stuart",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 241.0,
+          "pricePerShare": 1.03,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "GROV",
+          "issuerName": "Grove Collaborative Holdings, Inc.",
+          "insiderName": "Karp Jason H.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 15200.0,
+          "pricePerShare": 1.0761,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "GROV",
+          "issuerName": "Grove Collaborative Holdings, Inc.",
+          "insiderName": "Landesberg Stuart",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 5384.0,
+          "pricePerShare": 1.0293,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "GROV",
+          "issuerName": "Grove Collaborative Holdings, Inc.",
+          "insiderName": "Karp Jason H.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 55000.0,
+          "pricePerShare": 1.0278,
+          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -37142,6 +37192,41 @@
           "shares": 15000.0,
           "pricePerShare": 40.6756,
           "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "ZNB": {
+      "issuerName": "Zeta Network Group",
+      "trades": [
+        {
+          "ticker": "ZNB",
+          "issuerName": "Zeta Network Group",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1686.0,
+          "pricePerShare": 1.57,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "ZNB",
+          "issuerName": "Zeta Network Group",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2307.0,
+          "pricePerShare": 1.61,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "ZNB",
+          "issuerName": "Zeta Network Group",
+          "insiderName": "HRT FINANCIAL LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1295.0,
+          "pricePerShare": 1.68,
+          "transactionDate": "2026-08-31"
         }
       ]
     },
@@ -50135,51 +50220,6 @@
         }
       ]
     },
-    "GROV": {
-      "issuerName": "Grove Collaborative Holdings, Inc.",
-      "trades": [
-        {
-          "ticker": "GROV",
-          "issuerName": "Grove Collaborative Holdings, Inc.",
-          "insiderName": "Landesberg Stuart",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 241.0,
-          "pricePerShare": 1.03,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "GROV",
-          "issuerName": "Grove Collaborative Holdings, Inc.",
-          "insiderName": "Karp Jason H.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 15200.0,
-          "pricePerShare": 1.0761,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "GROV",
-          "issuerName": "Grove Collaborative Holdings, Inc.",
-          "insiderName": "Landesberg Stuart",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 5384.0,
-          "pricePerShare": 1.0293,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "GROV",
-          "issuerName": "Grove Collaborative Holdings, Inc.",
-          "insiderName": "Karp Jason H.",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 55000.0,
-          "pricePerShare": 1.0278,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
     "IDXX": {
       "issuerName": "IDEXX LABORATORIES INC /DE",
       "trades": [
@@ -56027,31 +56067,6 @@
           "shares": 2083.0,
           "pricePerShare": 73.4564,
           "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "ZNB": {
-      "issuerName": "Zeta Network Group",
-      "trades": [
-        {
-          "ticker": "ZNB",
-          "issuerName": "Zeta Network Group",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2307.0,
-          "pricePerShare": 1.61,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "ZNB",
-          "issuerName": "Zeta Network Group",
-          "insiderName": "HRT FINANCIAL LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1295.0,
-          "pricePerShare": 1.68,
-          "transactionDate": "2026-08-31"
         }
       ]
     },
@@ -63199,21 +63214,6 @@
           "transactionDate": "2026-08-24"
         }
       ]
-    },
-    "NXT": {
-      "issuerName": "Nextpower Inc.",
-      "trades": [
-        {
-          "ticker": "NXT",
-          "issuerName": "Nextpower Inc.",
-          "insiderName": "Blunden Julia",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3692.0,
-          "pricePerShare": 84.101,
-          "transactionDate": "2026-08-24"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63299,6 +63299,7 @@
       "0000025475-26-000072",
       "0000025475-26-000076",
       "0000025475-26-000078",
+      "0000025475-26-000080",
       "0000026058-26-000030",
       "0000027996-26-000119",
       "0000029644-26-000073",
@@ -63574,6 +63575,7 @@
       "0000070502-26-000609",
       "0000070502-26-000613",
       "0000070502-26-000615",
+      "0000070502-26-000617",
       "0000070858-26-000359",
       "0000070858-26-000368",
       "0000070858-26-000409",
@@ -63948,6 +63950,9 @@
       "0000724004-26-000089",
       "0000724004-26-000090",
       "0000724004-26-000091",
+      "0000724004-26-000092",
+      "0000724004-26-000093",
+      "0000724004-26-000094",
       "0000724910-26-000004",
       "0000724910-26-000006",
       "0000724910-26-000007",
@@ -67645,6 +67650,8 @@
       "0001104659-26-106909",
       "0001104659-26-106913",
       "0001104659-26-106949",
+      "0001104659-26-106986",
+      "0001104659-26-106992",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68503,6 +68510,8 @@
       "0001140361-26-036307",
       "0001140361-26-036309",
       "0001140361-26-036320",
+      "0001140361-26-036329",
+      "0001140361-26-036332",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -72388,6 +72397,7 @@
       "0001193125-26-388913",
       "0001193125-26-388914",
       "0001193125-26-388931",
+      "0001193125-26-389003",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73896,6 +73906,16 @@
       "0001213900-26-099077",
       "0001213900-26-099079",
       "0001213900-26-099088",
+      "0001213900-26-099132",
+      "0001213900-26-099135",
+      "0001213900-26-099137",
+      "0001213900-26-099140",
+      "0001213900-26-099141",
+      "0001213900-26-099142",
+      "0001213900-26-099148",
+      "0001213900-26-099151",
+      "0001213900-26-099155",
+      "0001213900-26-099160",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74605,6 +74625,7 @@
       "0001249970-26-000009",
       "0001250536-26-000017",
       "0001251824-26-000009",
+      "0001251987-26-000008",
       "0001253820-26-000009",
       "0001253820-26-000011",
       "0001253886-26-000008",
@@ -75959,6 +75980,16 @@
       "0001445546-26-006714",
       "0001445546-26-006721",
       "0001445546-26-006722",
+      "0001445546-26-006723",
+      "0001445546-26-006724",
+      "0001445546-26-006725",
+      "0001445546-26-006726",
+      "0001445546-26-006727",
+      "0001445546-26-006728",
+      "0001445546-26-006729",
+      "0001445546-26-006731",
+      "0001445546-26-006733",
+      "0001445546-26-006735",
       "0001446066-26-000008",
       "0001448765-26-000011",
       "0001448765-26-000013",
@@ -76076,6 +76107,7 @@
       "0001475597-26-000228",
       "0001475597-26-000230",
       "0001475597-26-000234",
+      "0001475597-26-000239",
       "0001475856-26-000004",
       "0001475922-26-000074",
       "0001476150-26-000036",
@@ -79917,6 +79949,8 @@
       "0001829126-26-010000",
       "0001829126-26-010018",
       "0001829126-26-010019",
+      "0001829126-26-010034",
+      "0001829126-26-010035",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -82687,6 +82721,19 @@
       "0001839882-26-045080",
       "0001839882-26-045081",
       "0001839882-26-045083",
+      "0001839882-26-045093",
+      "0001839882-26-045094",
+      "0001839882-26-045095",
+      "0001839882-26-045096",
+      "0001839882-26-045097",
+      "0001839882-26-045098",
+      "0001839882-26-045099",
+      "0001839882-26-045100",
+      "0001839882-26-045101",
+      "0001839882-26-045102",
+      "0001839882-26-045103",
+      "0001839882-26-045104",
+      "0001839882-26-045105",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -82699,6 +82746,7 @@
       "0001841761-26-000092",
       "0001841761-26-000094",
       "0001841761-26-000096",
+      "0001841761-26-000098",
       "0001841794-26-000075",
       "0001841901-26-000010",
       "0001842720-26-000009",
@@ -86448,6 +86496,17 @@
       "0001918704-26-027269",
       "0001918704-26-027270",
       "0001918704-26-027271",
+      "0001918704-26-027280",
+      "0001918704-26-027281",
+      "0001918704-26-027282",
+      "0001918704-26-027283",
+      "0001918704-26-027284",
+      "0001918704-26-027285",
+      "0001918704-26-027286",
+      "0001918704-26-027287",
+      "0001918704-26-027288",
+      "0001918704-26-027289",
+      "0001918704-26-027290",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -87286,6 +87345,7 @@
       "0001999371-26-020391",
       "0001999371-26-020393",
       "0001999371-26-020395",
+      "0001999371-26-020407",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
