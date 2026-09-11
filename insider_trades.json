@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T15:01:56.377763+00:00",
+  "generatedAt": "2026-09-11T16:02:20.042721+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -571,6 +571,16 @@
       "type": "Sale",
       "shares": 3247.0,
       "pricePerShare": 79.46,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "TPL",
+      "issuerName": "Texas Pacific Land Corp",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 366.18,
       "transactionDate": "2026-09-10"
     },
     {
@@ -2011,6 +2021,16 @@
       "type": "Purchase",
       "shares": 274.7418,
       "pricePerShare": 77.35,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "KMDA",
+      "issuerName": "KAMADA LTD",
+      "insiderName": "Tsur David",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 175.0,
+      "pricePerShare": 8.26,
       "transactionDate": "2026-09-09"
     },
     {
@@ -6404,6 +6424,16 @@
       "transactionDate": "2026-09-08"
     },
     {
+      "ticker": "KMDA",
+      "issuerName": "KAMADA LTD",
+      "insiderName": "Tsur David",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 162760.0,
+      "pricePerShare": 8.26,
+      "transactionDate": "2026-09-08"
+    },
+    {
       "ticker": "TSM",
       "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
       "insiderName": "Wu Yi-Huang",
@@ -6641,6 +6671,16 @@
       "type": "Purchase",
       "shares": 56.0,
       "pricePerShare": 76.2,
+      "transactionDate": "2026-09-07"
+    },
+    {
+      "ticker": "KMDA",
+      "issuerName": "KAMADA LTD",
+      "insiderName": "Tsur David",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 14238.0,
+      "pricePerShare": 8.28,
       "transactionDate": "2026-09-07"
     },
     {
@@ -10261,6 +10301,16 @@
       "type": "Sale",
       "shares": 31968.0,
       "pricePerShare": 91.1,
+      "transactionDate": "2026-09-04"
+    },
+    {
+      "ticker": "OSBC",
+      "issuerName": "OLD SECOND BANCORP INC",
+      "insiderName": "COLLINS GARY S",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 5000.0,
+      "pricePerShare": 25.705,
       "transactionDate": "2026-09-04"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 681.0,
       "pricePerShare": 22.62,
       "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "EVCM",
-      "issuerName": "EverCommerce Inc.",
-      "insiderName": "Remer Eric Richard",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 13974.0,
-      "pricePerShare": 9.5673,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "PRE",
-      "issuerName": "Prenetics Global Ltd",
-      "insiderName": "Yeung Danny Sheng Wu",
-      "title": "Director, Chief Executive Officer",
-      "type": "Purchase",
-      "shares": 6000.0,
-      "pricePerShare": 20.9,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "PRE",
-      "issuerName": "Prenetics Global Ltd",
-      "insiderName": "Yeung Danny Sheng Wu",
-      "title": "Director, Chief Executive Officer",
-      "type": "Purchase",
-      "shares": 11181.0,
-      "pricePerShare": 21.4,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "AIAI",
-      "issuerName": "AIAI Holdings Corp",
-      "insiderName": "Carlton Charles Craig",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 8250.0,
-      "pricePerShare": 6.09,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 4859.0,
-      "pricePerShare": 114.98,
-      "transactionDate": "2026-08-24"
     }
   ],
   "byTicker": {
@@ -33007,16 +33007,6 @@
           "shares": 137.0,
           "pricePerShare": 123.17,
           "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4859.0,
-          "pricePerShare": 114.98,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -33417,6 +33407,91 @@
           "shares": 3247.0,
           "pricePerShare": 79.46,
           "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "TPL": {
+      "issuerName": "Texas Pacific Land Corp",
+      "trades": [
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 366.18,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 378.57,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 375.1,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 360.03,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 363.2,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 364.42,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 375.0,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 372.58,
+          "transactionDate": "2026-08-25"
         }
       ]
     },
@@ -34867,81 +34942,6 @@
           "shares": 412.0,
           "pricePerShare": 16.4,
           "transactionDate": "2026-09-03"
-        }
-      ]
-    },
-    "TPL": {
-      "issuerName": "Texas Pacific Land Corp",
-      "trades": [
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 378.57,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 375.1,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 360.03,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 363.2,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 364.42,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 375.0,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 372.58,
-          "transactionDate": "2026-08-25"
         }
       ]
     },
@@ -37012,6 +37012,41 @@
           "shares": 274.7418,
           "pricePerShare": 77.35,
           "transactionDate": "2026-09-09"
+        }
+      ]
+    },
+    "KMDA": {
+      "issuerName": "KAMADA LTD",
+      "trades": [
+        {
+          "ticker": "KMDA",
+          "issuerName": "KAMADA LTD",
+          "insiderName": "Tsur David",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 175.0,
+          "pricePerShare": 8.26,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "KMDA",
+          "issuerName": "KAMADA LTD",
+          "insiderName": "Tsur David",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 162760.0,
+          "pricePerShare": 8.26,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "KMDA",
+          "issuerName": "KAMADA LTD",
+          "insiderName": "Tsur David",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 14238.0,
+          "pricePerShare": 8.28,
+          "transactionDate": "2026-09-07"
         }
       ]
     },
@@ -47697,16 +47732,6 @@
           "shares": 11568.0,
           "pricePerShare": 9.0898,
           "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "EVCM",
-          "issuerName": "EverCommerce Inc.",
-          "insiderName": "Remer Eric Richard",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 13974.0,
-          "pricePerShare": 9.5673,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -50780,6 +50805,41 @@
         }
       ]
     },
+    "OSBC": {
+      "issuerName": "OLD SECOND BANCORP INC",
+      "trades": [
+        {
+          "ticker": "OSBC",
+          "issuerName": "OLD SECOND BANCORP INC",
+          "insiderName": "COLLINS GARY S",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 25.705,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "OSBC",
+          "issuerName": "OLD SECOND BANCORP INC",
+          "insiderName": "MCLEAN HUGH H",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 25.727,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "OSBC",
+          "issuerName": "OLD SECOND BANCORP INC",
+          "insiderName": "Campbell Darin Patrick",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 24000.0,
+          "pricePerShare": 25.533,
+          "transactionDate": "2026-09-02"
+        }
+      ]
+    },
     "HFWA": {
       "issuerName": "HERITAGE FINANCIAL CORP /WA/",
       "trades": [
@@ -51017,31 +51077,6 @@
           "shares": 8796.0,
           "pricePerShare": 83.1164,
           "transactionDate": "2026-08-25"
-        }
-      ]
-    },
-    "OSBC": {
-      "issuerName": "OLD SECOND BANCORP INC",
-      "trades": [
-        {
-          "ticker": "OSBC",
-          "issuerName": "OLD SECOND BANCORP INC",
-          "insiderName": "MCLEAN HUGH H",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 25000.0,
-          "pricePerShare": 25.727,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "OSBC",
-          "issuerName": "OLD SECOND BANCORP INC",
-          "insiderName": "Campbell Darin Patrick",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 24000.0,
-          "pricePerShare": 25.533,
-          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -62127,26 +62162,6 @@
           "shares": 5100.0,
           "pricePerShare": 22.8,
           "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "PRE",
-          "issuerName": "Prenetics Global Ltd",
-          "insiderName": "Yeung Danny Sheng Wu",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 6000.0,
-          "pricePerShare": 20.9,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "PRE",
-          "issuerName": "Prenetics Global Ltd",
-          "insiderName": "Yeung Danny Sheng Wu",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 11181.0,
-          "pricePerShare": 21.4,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -63204,21 +63219,6 @@
           "transactionDate": "2026-08-24"
         }
       ]
-    },
-    "AIAI": {
-      "issuerName": "AIAI Holdings Corp",
-      "trades": [
-        {
-          "ticker": "AIAI",
-          "issuerName": "AIAI Holdings Corp",
-          "insiderName": "Carlton Charles Craig",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 8250.0,
-          "pricePerShare": 6.09,
-          "transactionDate": "2026-08-24"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63689,6 +63689,7 @@
       "0000088053-26-000564",
       "0000088053-26-000596",
       "0000088053-26-000624",
+      "0000088053-26-000742",
       "0000091419-26-000081",
       "0000091440-26-000146",
       "0000091440-26-000148",
@@ -64290,6 +64291,7 @@
       "0000886982-26-000522",
       "0000887340-26-000097",
       "0000887340-26-000099",
+      "0000890339-26-000010",
       "0000890926-26-000138",
       "0000890926-26-000140",
       "0000890926-26-000144",
@@ -64455,6 +64457,8 @@
       "0000894189-26-025039",
       "0000894189-26-025065",
       "0000894189-26-025087",
+      "0000894189-26-025150",
+      "0000894189-26-025151",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -66104,6 +66108,11 @@
       "0000950103-26-013813",
       "0000950103-26-013814",
       "0000950103-26-013815",
+      "0000950103-26-013817",
+      "0000950103-26-013818",
+      "0000950103-26-013819",
+      "0000950103-26-013820",
+      "0000950103-26-013821",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -66565,6 +66574,7 @@
       "0001090009-26-000100",
       "0001090012-26-000108",
       "0001090155-26-000004",
+      "0001090155-26-000017",
       "0001090355-26-000007",
       "0001090394-26-000005",
       "0001090872-26-000067",
@@ -66580,6 +66590,7 @@
       "0001096906-26-001304",
       "0001096906-26-001305",
       "0001096906-26-001306",
+      "0001099692-26-000014",
       "0001100612-26-000009",
       "0001101225-26-000008",
       "0001101225-26-000010",
@@ -68646,6 +68657,7 @@
       "0001184728-26-000006",
       "0001184754-26-000010",
       "0001184764-26-000004",
+      "0001184766-26-000020",
       "0001185185-26-003152",
       "0001185185-26-003264",
       "0001185185-26-003268",
@@ -72362,6 +72374,14 @@
       "0001193125-26-388753",
       "0001193125-26-388779",
       "0001193125-26-388790",
+      "0001193125-26-388820",
+      "0001193125-26-388831",
+      "0001193125-26-388833",
+      "0001193125-26-388841",
+      "0001193125-26-388844",
+      "0001193125-26-388847",
+      "0001193125-26-388850",
+      "0001193125-26-388858",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73866,6 +73886,7 @@
       "0001213900-26-099017",
       "0001213900-26-099020",
       "0001213900-26-099029",
+      "0001213900-26-099060",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -75657,6 +75678,7 @@
       "0001437749-26-030061",
       "0001437749-26-030092",
       "0001437749-26-030121",
+      "0001437749-26-030130",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -75917,6 +75939,11 @@
       "0001445546-26-006685",
       "0001445546-26-006686",
       "0001445546-26-006687",
+      "0001445546-26-006710",
+      "0001445546-26-006711",
+      "0001445546-26-006712",
+      "0001445546-26-006713",
+      "0001445546-26-006714",
       "0001446066-26-000008",
       "0001448765-26-000011",
       "0001448765-26-000013",
@@ -76608,6 +76635,8 @@
       "0001493152-26-042298",
       "0001493152-26-042302",
       "0001493152-26-042311",
+      "0001493152-26-042324",
+      "0001493152-26-042326",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -79868,6 +79897,8 @@
       "0001829126-26-009987",
       "0001829126-26-009988",
       "0001829126-26-010000",
+      "0001829126-26-010018",
+      "0001829126-26-010019",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -82612,6 +82643,13 @@
       "0001839882-26-045019",
       "0001839882-26-045024",
       "0001839882-26-045025",
+      "0001839882-26-045040",
+      "0001839882-26-045044",
+      "0001839882-26-045048",
+      "0001839882-26-045049",
+      "0001839882-26-045050",
+      "0001839882-26-045052",
+      "0001839882-26-045056",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -86341,6 +86379,23 @@
       "0001918704-26-027230",
       "0001918704-26-027231",
       "0001918704-26-027232",
+      "0001918704-26-027235",
+      "0001918704-26-027236",
+      "0001918704-26-027237",
+      "0001918704-26-027239",
+      "0001918704-26-027241",
+      "0001918704-26-027242",
+      "0001918704-26-027243",
+      "0001918704-26-027244",
+      "0001918704-26-027245",
+      "0001918704-26-027246",
+      "0001918704-26-027247",
+      "0001918704-26-027248",
+      "0001918704-26-027249",
+      "0001918704-26-027250",
+      "0001918704-26-027251",
+      "0001918704-26-027252",
+      "0001918704-26-027253",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -87173,6 +87228,10 @@
       "0001999371-26-020364",
       "0001999371-26-020366",
       "0001999371-26-020370",
+      "0001999371-26-020387",
+      "0001999371-26-020389",
+      "0001999371-26-020391",
+      "0001999371-26-020393",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -87605,6 +87664,15 @@
       "0002071844-26-001191",
       "0002071844-26-001193",
       "0002071844-26-001195",
+      "0002071844-26-001208",
+      "0002071844-26-001209",
+      "0002071844-26-001210",
+      "0002071844-26-001211",
+      "0002071844-26-001212",
+      "0002071844-26-001213",
+      "0002071844-26-001214",
+      "0002071844-26-001215",
+      "0002071844-26-001216",
       "0002071948-26-000005",
       "0002071953-26-000007",
       "0002072270-26-000013",
