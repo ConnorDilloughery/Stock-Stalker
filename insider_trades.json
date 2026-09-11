@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T12:03:54.078329+00:00",
+  "generatedAt": "2026-09-11T13:05:24.144452+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -491,6 +491,66 @@
       "type": "Sale",
       "shares": 255.0,
       "pricePerShare": 108.5,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 19.1262,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "RGCO",
+      "issuerName": "RGC RESOURCES INC",
+      "insiderName": "Nester Paul W",
+      "title": "Director, President & CEO",
+      "type": "Purchase",
+      "shares": 500.0,
+      "pricePerShare": 21.3,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "LPG",
+      "issuerName": "DORIAN LPG LTD.",
+      "insiderName": "Young Theodore B.",
+      "title": "Chief Financial Officer",
+      "type": "Sale",
+      "shares": 11919.0,
+      "pricePerShare": 54.5,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "LPG",
+      "issuerName": "DORIAN LPG LTD.",
+      "insiderName": "Hadjipateras Alexander C.",
+      "title": "Chief Operating Officer",
+      "type": "Sale",
+      "shares": 5000.0,
+      "pricePerShare": 54.13,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "KIDS",
+      "issuerName": "ORTHOPEDIATRICS CORP",
+      "insiderName": "Squadron Capital LLC",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 302369.0,
+      "pricePerShare": 21.01,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "KIDS",
+      "issuerName": "ORTHOPEDIATRICS CORP",
+      "insiderName": "Pritzker Jennifer N.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 302369.0,
+      "pricePerShare": 21.01,
       "transactionDate": "2026-09-10"
     },
     {
@@ -1871,6 +1931,46 @@
       "type": "Sale",
       "shares": 6750.0,
       "pricePerShare": null,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "BAWEL DAVID BENJAMIN",
+      "title": "SVP & CHIEF ACCOUNTING OFFICER",
+      "type": "Sale",
+      "shares": 8326.0,
+      "pricePerShare": 19.278,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 5143.0,
+      "pricePerShare": 18.8881,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 8326.0,
+      "pricePerShare": 19.278,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "LPG",
+      "issuerName": "DORIAN LPG LTD.",
+      "insiderName": "Hansen Tim Truels",
+      "title": "Chief Commercial Officer",
+      "type": "Sale",
+      "shares": 50000.0,
+      "pricePerShare": 53.1178,
       "transactionDate": "2026-09-09"
     },
     {
@@ -29902,106 +30002,6 @@
       "shares": 670.0,
       "pricePerShare": 115.96,
       "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 473.0,
-      "pricePerShare": 116.6,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "PHI",
-      "issuerName": "PLDT Inc.",
-      "insiderName": "Pangilinan Manuel Velez",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 200.0,
-      "pricePerShare": 19.29,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "PHI",
-      "issuerName": "PLDT Inc.",
-      "insiderName": "Pangilinan Manuel Velez",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 50.0,
-      "pricePerShare": 19.3,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "PHI",
-      "issuerName": "PLDT Inc.",
-      "insiderName": "Pangilinan Manuel Velez",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 350.0,
-      "pricePerShare": 19.32,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "PHI",
-      "issuerName": "PLDT Inc.",
-      "insiderName": "Pangilinan Manuel Velez",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 300.0,
-      "pricePerShare": 19.33,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "PHI",
-      "issuerName": "PLDT Inc.",
-      "insiderName": "Pangilinan Manuel Velez",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 260.0,
-      "pricePerShare": 19.35,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "PHI",
-      "issuerName": "PLDT Inc.",
-      "insiderName": "Pangilinan Manuel Velez",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 120.0,
-      "pricePerShare": 19.37,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "PHI",
-      "issuerName": "PLDT Inc.",
-      "insiderName": "Pangilinan Manuel Velez",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 60.0,
-      "pricePerShare": 19.38,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "PHI",
-      "issuerName": "PLDT Inc.",
-      "insiderName": "Pangilinan Manuel Velez",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 540.0,
-      "pricePerShare": 19.4,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "PHI",
-      "issuerName": "PLDT Inc.",
-      "insiderName": "Pangilinan Manuel Velez",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 60.0,
-      "pricePerShare": 19.43,
-      "transactionDate": "2026-08-24"
     }
   ],
   "byTicker": {
@@ -31872,96 +31872,6 @@
           "shares": 160.0,
           "pricePerShare": 18.3,
           "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "PHI",
-          "issuerName": "PLDT Inc.",
-          "insiderName": "Pangilinan Manuel Velez",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 19.29,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "PHI",
-          "issuerName": "PLDT Inc.",
-          "insiderName": "Pangilinan Manuel Velez",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 50.0,
-          "pricePerShare": 19.3,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "PHI",
-          "issuerName": "PLDT Inc.",
-          "insiderName": "Pangilinan Manuel Velez",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 350.0,
-          "pricePerShare": 19.32,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "PHI",
-          "issuerName": "PLDT Inc.",
-          "insiderName": "Pangilinan Manuel Velez",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 300.0,
-          "pricePerShare": 19.33,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "PHI",
-          "issuerName": "PLDT Inc.",
-          "insiderName": "Pangilinan Manuel Velez",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 260.0,
-          "pricePerShare": 19.35,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "PHI",
-          "issuerName": "PLDT Inc.",
-          "insiderName": "Pangilinan Manuel Velez",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 120.0,
-          "pricePerShare": 19.37,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "PHI",
-          "issuerName": "PLDT Inc.",
-          "insiderName": "Pangilinan Manuel Velez",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 60.0,
-          "pricePerShare": 19.38,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "PHI",
-          "issuerName": "PLDT Inc.",
-          "insiderName": "Pangilinan Manuel Velez",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 540.0,
-          "pricePerShare": 19.4,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "PHI",
-          "issuerName": "PLDT Inc.",
-          "insiderName": "Pangilinan Manuel Velez",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 60.0,
-          "pricePerShare": 19.43,
-          "transactionDate": "2026-08-24"
         }
       ]
     },
@@ -33147,16 +33057,356 @@
           "shares": 670.0,
           "pricePerShare": 115.96,
           "transactionDate": "2026-08-24"
+        }
+      ]
+    },
+    "DGICA": {
+      "issuerName": "DONEGAL GROUP INC",
+      "trades": [
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.1262,
+          "transactionDate": "2026-09-10"
         },
         {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "BAWEL DAVID BENJAMIN",
+          "title": "SVP & CHIEF ACCOUNTING OFFICER",
+          "type": "Sale",
+          "shares": 8326.0,
+          "pricePerShare": 19.278,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 5143.0,
+          "pricePerShare": 18.8881,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 8326.0,
+          "pricePerShare": 19.278,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.1358,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 6368.0,
+          "pricePerShare": 19.3916,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "HUBER BARRY CRAIG",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 4500.0,
+          "pricePerShare": 19.4304,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "VIOZZI VINCENT ANTHONY",
+          "title": "Sr. VP & Chief Inv Officer",
+          "type": "Sale",
+          "shares": 2282.0,
+          "pricePerShare": 19.5,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9595.0,
+          "pricePerShare": 19.5346,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.4334,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9257.0,
+          "pricePerShare": 19.1675,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.1765,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.1946,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.9504,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9508.0,
+          "pricePerShare": 19.1069,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.9981,
+          "transactionDate": "2026-08-25"
+        }
+      ]
+    },
+    "RGCO": {
+      "issuerName": "RGC RESOURCES INC",
+      "trades": [
+        {
+          "ticker": "RGCO",
+          "issuerName": "RGC RESOURCES INC",
+          "insiderName": "Nester Paul W",
+          "title": "Director, President & CEO",
+          "type": "Purchase",
+          "shares": 500.0,
+          "pricePerShare": 21.3,
+          "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "LPG": {
+      "issuerName": "DORIAN LPG LTD.",
+      "trades": [
+        {
+          "ticker": "LPG",
+          "issuerName": "DORIAN LPG LTD.",
+          "insiderName": "Young Theodore B.",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 11919.0,
+          "pricePerShare": 54.5,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "LPG",
+          "issuerName": "DORIAN LPG LTD.",
+          "insiderName": "Hadjipateras Alexander C.",
+          "title": "Chief Operating Officer",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 54.13,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "LPG",
+          "issuerName": "DORIAN LPG LTD.",
+          "insiderName": "Young Theodore B.",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 54.008,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "LPG",
+          "issuerName": "DORIAN LPG LTD.",
+          "insiderName": "Hansen Tim Truels",
+          "title": "Chief Commercial Officer",
+          "type": "Sale",
+          "shares": 50000.0,
+          "pricePerShare": 53.1178,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "LPG",
+          "issuerName": "DORIAN LPG LTD.",
+          "insiderName": "Young Theodore B.",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 9081.0,
+          "pricePerShare": 53.247,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "KIDS": {
+      "issuerName": "ORTHOPEDIATRICS CORP",
+      "trades": [
+        {
+          "ticker": "KIDS",
+          "issuerName": "ORTHOPEDIATRICS CORP",
+          "insiderName": "Squadron Capital LLC",
           "title": "Reporting Person",
           "type": "Sale",
-          "shares": 473.0,
-          "pricePerShare": 116.6,
-          "transactionDate": "2026-08-24"
+          "shares": 302369.0,
+          "pricePerShare": 21.01,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "KIDS",
+          "issuerName": "ORTHOPEDIATRICS CORP",
+          "insiderName": "Pritzker Jennifer N.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 302369.0,
+          "pricePerShare": 21.01,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "KIDS",
+          "issuerName": "ORTHOPEDIATRICS CORP",
+          "insiderName": "Squadron Capital LLC",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 22500.0,
+          "pricePerShare": 23.35,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "KIDS",
+          "issuerName": "ORTHOPEDIATRICS CORP",
+          "insiderName": "Squadron Capital LLC",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10131.0,
+          "pricePerShare": 23.1,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "KIDS",
+          "issuerName": "ORTHOPEDIATRICS CORP",
+          "insiderName": "Pritzker Jennifer N.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10131.0,
+          "pricePerShare": 23.1,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "KIDS",
+          "issuerName": "ORTHOPEDIATRICS CORP",
+          "insiderName": "Squadron Capital LLC",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 326700.0,
+          "pricePerShare": 23.04,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "KIDS",
+          "issuerName": "ORTHOPEDIATRICS CORP",
+          "insiderName": "Pritzker Jennifer N.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 326700.0,
+          "pricePerShare": 23.04,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "KIDS",
+          "issuerName": "ORTHOPEDIATRICS CORP",
+          "insiderName": "Pritzker Jennifer N.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 18000.0,
+          "pricePerShare": 24.28,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "KIDS",
+          "issuerName": "ORTHOPEDIATRICS CORP",
+          "insiderName": "Squadron Capital LLC",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 18000.0,
+          "pricePerShare": 24.28,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "KIDS",
+          "issuerName": "ORTHOPEDIATRICS CORP",
+          "insiderName": "Pritzker Jennifer N.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 16300.0,
+          "pricePerShare": 24.74,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "KIDS",
+          "issuerName": "ORTHOPEDIATRICS CORP",
+          "insiderName": "Squadron Capital LLC",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 16300.0,
+          "pricePerShare": 24.74,
+          "transactionDate": "2026-08-25"
         }
       ]
     },
@@ -33826,31 +34076,6 @@
           "type": "Sale",
           "shares": 37000.0,
           "pricePerShare": 99.2032,
-          "transactionDate": "2026-09-08"
-        }
-      ]
-    },
-    "LPG": {
-      "issuerName": "DORIAN LPG LTD.",
-      "trades": [
-        {
-          "ticker": "LPG",
-          "issuerName": "DORIAN LPG LTD.",
-          "insiderName": "Young Theodore B.",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 54.008,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "LPG",
-          "issuerName": "DORIAN LPG LTD.",
-          "insiderName": "Young Theodore B.",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 9081.0,
-          "pricePerShare": 53.247,
           "transactionDate": "2026-09-08"
         }
       ]
@@ -38292,131 +38517,6 @@
           "shares": 21000.0,
           "pricePerShare": 19.11,
           "transactionDate": "2026-09-08"
-        }
-      ]
-    },
-    "DGICA": {
-      "issuerName": "DONEGAL GROUP INC",
-      "trades": [
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.1358,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 6368.0,
-          "pricePerShare": 19.3916,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "HUBER BARRY CRAIG",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 4500.0,
-          "pricePerShare": 19.4304,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "VIOZZI VINCENT ANTHONY",
-          "title": "Sr. VP & Chief Inv Officer",
-          "type": "Sale",
-          "shares": 2282.0,
-          "pricePerShare": 19.5,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9595.0,
-          "pricePerShare": 19.5346,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.4334,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9257.0,
-          "pricePerShare": 19.1675,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.1765,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.1946,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.9504,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9508.0,
-          "pricePerShare": 19.1069,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.9981,
-          "transactionDate": "2026-08-25"
         }
       ]
     },
@@ -54695,101 +54795,6 @@
         }
       ]
     },
-    "KIDS": {
-      "issuerName": "ORTHOPEDIATRICS CORP",
-      "trades": [
-        {
-          "ticker": "KIDS",
-          "issuerName": "ORTHOPEDIATRICS CORP",
-          "insiderName": "Squadron Capital LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 22500.0,
-          "pricePerShare": 23.35,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "KIDS",
-          "issuerName": "ORTHOPEDIATRICS CORP",
-          "insiderName": "Squadron Capital LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 10131.0,
-          "pricePerShare": 23.1,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "KIDS",
-          "issuerName": "ORTHOPEDIATRICS CORP",
-          "insiderName": "Pritzker Jennifer N.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 10131.0,
-          "pricePerShare": 23.1,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "KIDS",
-          "issuerName": "ORTHOPEDIATRICS CORP",
-          "insiderName": "Squadron Capital LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 326700.0,
-          "pricePerShare": 23.04,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "KIDS",
-          "issuerName": "ORTHOPEDIATRICS CORP",
-          "insiderName": "Pritzker Jennifer N.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 326700.0,
-          "pricePerShare": 23.04,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "KIDS",
-          "issuerName": "ORTHOPEDIATRICS CORP",
-          "insiderName": "Pritzker Jennifer N.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 18000.0,
-          "pricePerShare": 24.28,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "KIDS",
-          "issuerName": "ORTHOPEDIATRICS CORP",
-          "insiderName": "Squadron Capital LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 18000.0,
-          "pricePerShare": 24.28,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "KIDS",
-          "issuerName": "ORTHOPEDIATRICS CORP",
-          "insiderName": "Pritzker Jennifer N.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 16300.0,
-          "pricePerShare": 24.74,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "KIDS",
-          "issuerName": "ORTHOPEDIATRICS CORP",
-          "insiderName": "Squadron Capital LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 16300.0,
-          "pricePerShare": 24.74,
-          "transactionDate": "2026-08-25"
-        }
-      ]
-    },
     "HDSN": {
       "issuerName": "HUDSON TECHNOLOGIES INC /NY",
       "trades": [
@@ -63336,6 +63341,8 @@
       "0000030146-26-000407",
       "0000030146-26-000408",
       "0000030146-26-000409",
+      "0000030146-26-000411",
+      "0000030146-26-000412",
       "0000030697-26-000117",
       "0000030697-26-000118",
       "0000030697-26-000119",
@@ -64204,6 +64211,7 @@
       "0000836687-26-000228",
       "0000836687-26-000231",
       "0000836906-26-000362",
+      "0000836906-26-000484",
       "0000836982-26-000018",
       "0000837276-26-000080",
       "0000837276-26-000095",
@@ -64669,6 +64677,9 @@
       "0000912282-26-001256",
       "0000912282-26-001257",
       "0000912282-26-001260",
+      "0000912282-26-001261",
+      "0000912282-26-001263",
+      "0000912282-26-001264",
       "0000912562-26-000149",
       "0000912593-26-000252",
       "0000912869-26-000064",
@@ -64735,6 +64746,9 @@
       "0000919574-26-006190",
       "0000919574-26-006217",
       "0000919574-26-006221",
+      "0000919574-26-006248",
+      "0000919574-26-006249",
+      "0000919574-26-006250",
       "0000920148-26-000172",
       "0000920148-26-000176",
       "0000920148-26-000177",
@@ -64831,6 +64845,7 @@
       "0000930413-26-002781",
       "0000930413-26-002782",
       "0000930413-26-002847",
+      "0000930413-26-002870",
       "0000931148-26-000077",
       "0000932781-26-000045",
       "0000932781-26-000047",
@@ -64848,6 +64863,7 @@
       "0000935596-26-000022",
       "0000935596-26-000023",
       "0000935596-26-000024",
+      "0000935596-26-000025",
       "0000935703-26-000095",
       "0000935703-26-000097",
       "0000935836-26-000372",
@@ -67596,6 +67612,8 @@
       "0001104659-26-106838",
       "0001104659-26-106840",
       "0001104659-26-106881",
+      "0001104659-26-106909",
+      "0001104659-26-106913",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -72296,6 +72314,10 @@
       "0001193125-26-388579",
       "0001193125-26-388604",
       "0001193125-26-388615",
+      "0001193125-26-388662",
+      "0001193125-26-388663",
+      "0001193125-26-388664",
+      "0001193125-26-388667",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73792,6 +73814,8 @@
       "0001213900-26-098969",
       "0001213900-26-098970",
       "0001213900-26-098973",
+      "0001213900-26-098988",
+      "0001213900-26-098991",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -75578,6 +75602,7 @@
       "0001437749-26-030056",
       "0001437749-26-030061",
       "0001437749-26-030092",
+      "0001437749-26-030121",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -76528,6 +76553,7 @@
       "0001493152-26-042260",
       "0001493152-26-042298",
       "0001493152-26-042302",
+      "0001493152-26-042311",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -78816,6 +78842,7 @@
       "0001714908-26-000007",
       "0001715472-26-000009",
       "0001716048-26-000001",
+      "0001716751-26-000008",
       "0001716837-26-000024",
       "0001716837-26-000026",
       "0001716951-26-000043",
@@ -78889,6 +78916,7 @@
       "0001731122-26-001201",
       "0001731122-26-001202",
       "0001731122-26-001203",
+      "0001731122-26-001223",
       "0001731363-26-000007",
       "0001731365-26-000007",
       "0001731395-26-000007",
@@ -82703,6 +82731,7 @@
       "0001872274-26-000002",
       "0001872886-26-000009",
       "0001872955-26-000010",
+      "0001873011-26-000008",
       "0001873387-26-000002",
       "0001874566-26-000003",
       "0001875284-26-000006",
@@ -86196,6 +86225,7 @@
       "0001918704-26-027189",
       "0001918704-26-027190",
       "0001918704-26-027197",
+      "0001918704-26-027198",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -87019,6 +87049,9 @@
       "0001999371-26-020328",
       "0001999371-26-020330",
       "0001999371-26-020345",
+      "0001999371-26-020350",
+      "0001999371-26-020352",
+      "0001999371-26-020354",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -87198,6 +87231,7 @@
       "0002031596-26-000006",
       "0002031695-26-000011",
       "0002031697-26-000006",
+      "0002031998-26-000006",
       "0002032126-26-000010",
       "0002032190-26-000003",
       "0002032322-26-000006",
@@ -87255,6 +87289,7 @@
       "0002041211-26-000014",
       "0002041625-26-000004",
       "0002041944-26-000005",
+      "0002041944-26-000006",
       "0002042007-26-000002",
       "0002042056-26-000008",
       "0002042934-26-000008",
