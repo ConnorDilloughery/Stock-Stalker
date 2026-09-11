@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T16:02:20.042721+00:00",
+  "generatedAt": "2026-09-11T17:06:00.522254+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -581,6 +581,26 @@
       "type": "Purchase",
       "shares": 1.0,
       "pricePerShare": 366.18,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 2.94,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "LUCK",
+      "issuerName": "Lucky Strike Entertainment Corp",
+      "insiderName": "Bass Robert J",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 600.0,
+      "pricePerShare": 5.446,
       "transactionDate": "2026-09-10"
     },
     {
@@ -2031,6 +2051,26 @@
       "type": "Sale",
       "shares": 175.0,
       "pricePerShare": 8.26,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "BRID",
+      "issuerName": "BRIDGFORD FOODS CORP",
+      "insiderName": "Bridgford Allan Jr.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 466.0,
+      "pricePerShare": 5.83,
+      "transactionDate": "2026-09-09"
+    },
+    {
+      "ticker": "PHVS",
+      "issuerName": "Pharvaris N.V.",
+      "insiderName": "Glassman Robert",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 8000.0,
+      "pricePerShare": 37.5495,
       "transactionDate": "2026-09-09"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 3830.0,
       "pricePerShare": 81.88,
       "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "XYZ",
-      "issuerName": "Block, Inc.",
-      "insiderName": "Grassadonia Brian",
-      "title": "Ecosystem Lead",
-      "type": "Sale",
-      "shares": 4343.0,
-      "pricePerShare": 82.9,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "XYZ",
-      "issuerName": "Block, Inc.",
-      "insiderName": "Ahuja Amrita",
-      "title": "CFO & COO",
-      "type": "Sale",
-      "shares": 4636.0,
-      "pricePerShare": 81.91,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "XYZ",
-      "issuerName": "Block, Inc.",
-      "insiderName": "Ahuja Amrita",
-      "title": "CFO & COO",
-      "type": "Sale",
-      "shares": 4875.0,
-      "pricePerShare": 82.92,
-      "transactionDate": "2026-08-24"
-    },
-    {
-      "ticker": "SI",
-      "issuerName": "SHOULDER INNOVATIONS, INC.",
-      "insiderName": "Gilde Healthcare Holding B.V.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 681.0,
-      "pricePerShare": 22.62,
-      "transactionDate": "2026-08-24"
     }
   ],
   "byTicker": {
@@ -30876,36 +30876,6 @@
           "type": "Sale",
           "shares": 3830.0,
           "pricePerShare": 81.88,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "XYZ",
-          "issuerName": "Block, Inc.",
-          "insiderName": "Grassadonia Brian",
-          "title": "Ecosystem Lead",
-          "type": "Sale",
-          "shares": 4343.0,
-          "pricePerShare": 82.9,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "XYZ",
-          "issuerName": "Block, Inc.",
-          "insiderName": "Ahuja Amrita",
-          "title": "CFO & COO",
-          "type": "Sale",
-          "shares": 4636.0,
-          "pricePerShare": 81.91,
-          "transactionDate": "2026-08-24"
-        },
-        {
-          "ticker": "XYZ",
-          "issuerName": "Block, Inc.",
-          "insiderName": "Ahuja Amrita",
-          "title": "CFO & COO",
-          "type": "Sale",
-          "shares": 4875.0,
-          "pricePerShare": 82.92,
           "transactionDate": "2026-08-24"
         }
       ]
@@ -33495,6 +33465,186 @@
         }
       ]
     },
+    "RCG": {
+      "issuerName": "RENN Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.94,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.9,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.94,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-26"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-08-25"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "Kesslen Jay H",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 2.93,
+          "transactionDate": "2026-08-25"
+        }
+      ]
+    },
+    "LUCK": {
+      "issuerName": "Lucky Strike Entertainment Corp",
+      "trades": [
+        {
+          "ticker": "LUCK",
+          "issuerName": "Lucky Strike Entertainment Corp",
+          "insiderName": "Bass Robert J",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 600.0,
+          "pricePerShare": 5.446,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "LUCK",
+          "issuerName": "Lucky Strike Entertainment Corp",
+          "insiderName": "Young John Alan",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 614.0,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "LUCK",
+          "issuerName": "Lucky Strike Entertainment Corp",
+          "insiderName": "Young John Alan",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 400.0,
+          "pricePerShare": 6.25,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "LUCK",
+          "issuerName": "Lucky Strike Entertainment Corp",
+          "insiderName": "Young John Alan",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2800.0,
+          "pricePerShare": 6.23,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "LUCK",
+          "issuerName": "Lucky Strike Entertainment Corp",
+          "insiderName": "MATHRANI SANDEEP",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 9350.0,
+          "pricePerShare": 6.4125,
+          "transactionDate": "2026-08-28"
+        }
+      ]
+    },
     "AVBH": {
       "issuerName": "Avidbank Holdings, Inc.",
       "trades": [
@@ -35072,121 +35222,6 @@
           "shares": 15000.0,
           "pricePerShare": 46.864,
           "transactionDate": "2026-09-08"
-        }
-      ]
-    },
-    "RCG": {
-      "issuerName": "RENN Fund, Inc.",
-      "trades": [
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.9,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "Kesslen Jay H",
-          "title": "Vice-President",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.94,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "Kesslen Jay H",
-          "title": "Vice-President",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 2.93,
-          "transactionDate": "2026-08-25"
         }
       ]
     },
@@ -37050,6 +37085,66 @@
         }
       ]
     },
+    "BRID": {
+      "issuerName": "BRIDGFORD FOODS CORP",
+      "trades": [
+        {
+          "ticker": "BRID",
+          "issuerName": "BRIDGFORD FOODS CORP",
+          "insiderName": "Bridgford Allan Jr.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 466.0,
+          "pricePerShare": 5.83,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "BRID",
+          "issuerName": "BRIDGFORD FOODS CORP",
+          "insiderName": "Bridgford Baron",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 473.0,
+          "pricePerShare": 6.15,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "BRID",
+          "issuerName": "BRIDGFORD FOODS CORP",
+          "insiderName": "Bridgford Allan Jr.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 6.2,
+          "transactionDate": "2026-08-26"
+        }
+      ]
+    },
+    "PHVS": {
+      "issuerName": "Pharvaris N.V.",
+      "trades": [
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Glassman Robert",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8000.0,
+          "pricePerShare": 37.5495,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Lu Peng",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15000.0,
+          "pricePerShare": 40.6756,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
     "ASPI": {
       "issuerName": "ASP Isotopes Inc.",
       "trades": [
@@ -38712,21 +38807,6 @@
           "shares": 1531.0,
           "pricePerShare": 28.5,
           "transactionDate": "2026-09-04"
-        }
-      ]
-    },
-    "PHVS": {
-      "issuerName": "Pharvaris N.V.",
-      "trades": [
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Lu Peng",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15000.0,
-          "pricePerShare": 40.6756,
-          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -55185,51 +55265,6 @@
         }
       ]
     },
-    "LUCK": {
-      "issuerName": "Lucky Strike Entertainment Corp",
-      "trades": [
-        {
-          "ticker": "LUCK",
-          "issuerName": "Lucky Strike Entertainment Corp",
-          "insiderName": "Young John Alan",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 614.0,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "LUCK",
-          "issuerName": "Lucky Strike Entertainment Corp",
-          "insiderName": "Young John Alan",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 400.0,
-          "pricePerShare": 6.25,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "LUCK",
-          "issuerName": "Lucky Strike Entertainment Corp",
-          "insiderName": "Young John Alan",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 2800.0,
-          "pricePerShare": 6.23,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "LUCK",
-          "issuerName": "Lucky Strike Entertainment Corp",
-          "insiderName": "MATHRANI SANDEEP",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 9350.0,
-          "pricePerShare": 6.4125,
-          "transactionDate": "2026-08-28"
-        }
-      ]
-    },
     "CYTK": {
       "issuerName": "CYTOKINETICS INC",
       "trades": [
@@ -59210,31 +59245,6 @@
         }
       ]
     },
-    "BRID": {
-      "issuerName": "BRIDGFORD FOODS CORP",
-      "trades": [
-        {
-          "ticker": "BRID",
-          "issuerName": "BRIDGFORD FOODS CORP",
-          "insiderName": "Bridgford Baron",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 473.0,
-          "pricePerShare": 6.15,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "BRID",
-          "issuerName": "BRIDGFORD FOODS CORP",
-          "insiderName": "Bridgford Allan Jr.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 6.2,
-          "transactionDate": "2026-08-26"
-        }
-      ]
-    },
     "XENE": {
       "issuerName": "Xenon Pharmaceuticals Inc.",
       "trades": [
@@ -63204,21 +63214,6 @@
           "transactionDate": "2026-08-24"
         }
       ]
-    },
-    "SI": {
-      "issuerName": "SHOULDER INNOVATIONS, INC.",
-      "trades": [
-        {
-          "ticker": "SI",
-          "issuerName": "SHOULDER INNOVATIONS, INC.",
-          "insiderName": "Gilde Healthcare Holding B.V.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 681.0,
-          "pricePerShare": 22.62,
-          "transactionDate": "2026-08-24"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63690,6 +63685,7 @@
       "0000088053-26-000596",
       "0000088053-26-000624",
       "0000088053-26-000742",
+      "0000088053-26-000744",
       "0000091419-26-000081",
       "0000091440-26-000146",
       "0000091440-26-000148",
@@ -66113,6 +66109,8 @@
       "0000950103-26-013819",
       "0000950103-26-013820",
       "0000950103-26-013821",
+      "0000950103-26-013822",
+      "0000950103-26-013823",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -68504,6 +68502,7 @@
       "0001140361-26-036306",
       "0001140361-26-036307",
       "0001140361-26-036309",
+      "0001140361-26-036320",
       "0001140842-26-000004",
       "0001142618-26-000005",
       "0001145197-26-000172",
@@ -72382,6 +72381,13 @@
       "0001193125-26-388847",
       "0001193125-26-388850",
       "0001193125-26-388858",
+      "0001193125-26-388883",
+      "0001193125-26-388886",
+      "0001193125-26-388896",
+      "0001193125-26-388909",
+      "0001193125-26-388913",
+      "0001193125-26-388914",
+      "0001193125-26-388931",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -73887,6 +73893,9 @@
       "0001213900-26-099020",
       "0001213900-26-099029",
       "0001213900-26-099060",
+      "0001213900-26-099077",
+      "0001213900-26-099079",
+      "0001213900-26-099088",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74229,6 +74238,8 @@
       "0001214659-26-011588",
       "0001214659-26-011591",
       "0001214659-26-011593",
+      "0001214659-26-011598",
+      "0001214659-26-011601",
       "0001214993-26-000004",
       "0001215135-26-000012",
       "0001215315-26-000038",
@@ -75165,6 +75176,7 @@
       "0001398344-26-016830",
       "0001398344-26-016839",
       "0001398344-26-016852",
+      "0001398344-26-016889",
       "0001399967-26-000002",
       "0001401257-26-000064",
       "0001401336-26-000020",
@@ -75679,6 +75691,7 @@
       "0001437749-26-030092",
       "0001437749-26-030121",
       "0001437749-26-030130",
+      "0001437749-26-030136",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -75944,6 +75957,8 @@
       "0001445546-26-006712",
       "0001445546-26-006713",
       "0001445546-26-006714",
+      "0001445546-26-006721",
+      "0001445546-26-006722",
       "0001446066-26-000008",
       "0001448765-26-000011",
       "0001448765-26-000013",
@@ -76637,6 +76652,8 @@
       "0001493152-26-042311",
       "0001493152-26-042324",
       "0001493152-26-042326",
+      "0001493152-26-042331",
+      "0001493152-26-042340",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -78391,6 +78408,7 @@
       "0001628280-26-061435",
       "0001628280-26-061444",
       "0001628280-26-061448",
+      "0001628280-26-061489",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -82650,6 +82668,25 @@
       "0001839882-26-045050",
       "0001839882-26-045052",
       "0001839882-26-045056",
+      "0001839882-26-045062",
+      "0001839882-26-045063",
+      "0001839882-26-045064",
+      "0001839882-26-045066",
+      "0001839882-26-045067",
+      "0001839882-26-045068",
+      "0001839882-26-045069",
+      "0001839882-26-045070",
+      "0001839882-26-045071",
+      "0001839882-26-045072",
+      "0001839882-26-045073",
+      "0001839882-26-045074",
+      "0001839882-26-045075",
+      "0001839882-26-045076",
+      "0001839882-26-045077",
+      "0001839882-26-045078",
+      "0001839882-26-045080",
+      "0001839882-26-045081",
+      "0001839882-26-045083",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -86396,6 +86433,21 @@
       "0001918704-26-027251",
       "0001918704-26-027252",
       "0001918704-26-027253",
+      "0001918704-26-027257",
+      "0001918704-26-027258",
+      "0001918704-26-027259",
+      "0001918704-26-027260",
+      "0001918704-26-027261",
+      "0001918704-26-027262",
+      "0001918704-26-027263",
+      "0001918704-26-027264",
+      "0001918704-26-027265",
+      "0001918704-26-027266",
+      "0001918704-26-027267",
+      "0001918704-26-027268",
+      "0001918704-26-027269",
+      "0001918704-26-027270",
+      "0001918704-26-027271",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -86708,6 +86760,7 @@
       "0001990865-26-000009",
       "0001990905-26-000004",
       "0001990997-26-000013",
+      "0001991005-26-000004",
       "0001991536-26-000011",
       "0001991569-26-000008",
       "0001991703-26-000004",
@@ -87232,6 +87285,7 @@
       "0001999371-26-020389",
       "0001999371-26-020391",
       "0001999371-26-020393",
+      "0001999371-26-020395",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -87673,6 +87727,7 @@
       "0002071844-26-001214",
       "0002071844-26-001215",
       "0002071844-26-001216",
+      "0002071844-26-001218",
       "0002071948-26-000005",
       "0002071953-26-000007",
       "0002072270-26-000013",
