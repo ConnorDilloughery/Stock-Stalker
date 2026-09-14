@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T18:02:53.600365+00:00",
+  "generatedAt": "2026-09-14T19:01:56.380725+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -801,6 +801,16 @@
       "type": "Sale",
       "shares": 21000.0,
       "pricePerShare": 19.226,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "NMAX",
+      "issuerName": "Newsmax Inc.",
+      "insiderName": "CONYERS INVESTMENTS LLC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 288.5,
+      "pricePerShare": 11.7,
       "transactionDate": "2026-09-11"
     },
     {
@@ -2131,6 +2141,36 @@
       "type": "Sale",
       "shares": 10000.0,
       "pricePerShare": 45.8338,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "UGP",
+      "issuerName": "ULTRAPAR HOLDINGS INC",
+      "insiderName": "Rabelo Pedro Guedes",
+      "title": "Financial Officer Ipiranga",
+      "type": "Sale",
+      "shares": 30000.0,
+      "pricePerShare": 7.58,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "UGP",
+      "issuerName": "ULTRAPAR HOLDINGS INC",
+      "insiderName": "Linden Leonardo Remiao",
+      "title": "CEO Ipiranga",
+      "type": "Sale",
+      "shares": 60000.0,
+      "pricePerShare": 7.57,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "NMAX",
+      "issuerName": "Newsmax Inc.",
+      "insiderName": "CONYERS INVESTMENTS LLC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 24448.0,
+      "pricePerShare": 11.03,
       "transactionDate": "2026-09-10"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 910.0,
       "pricePerShare": 33.91,
       "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "BABA",
-      "issuerName": "Alibaba Group Holding Ltd",
-      "insiderName": "Tsai Joseph C",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 720000.0,
-      "pricePerShare": 14.47,
-      "transactionDate": "2026-08-25"
-    },
-    {
-      "ticker": "BORR",
-      "issuerName": "Borr Drilling Ltd",
-      "insiderName": "Troim Tor Olav",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 200000.0,
-      "pricePerShare": 4.3731,
-      "transactionDate": "2026-08-25"
-    },
-    {
-      "ticker": "GRML",
-      "issuerName": "Greenland Mines Ltd",
-      "insiderName": "LeBlanc Jeff",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 14000.0,
-      "pricePerShare": 9.72,
-      "transactionDate": "2026-08-25"
-    },
-    {
-      "ticker": "AMRZ",
-      "issuerName": "Amrize Ltd",
-      "insiderName": "Forrest Nollaig",
-      "title": "Chief Mktg & Corp Affairs Off",
-      "type": "Purchase",
-      "shares": 1500.0,
-      "pricePerShare": 44.15,
-      "transactionDate": "2026-08-25"
     }
   ],
   "byTicker": {
@@ -32427,6 +32427,61 @@
           "shares": 9508.0,
           "pricePerShare": 19.1069,
           "transactionDate": "2026-08-26"
+        }
+      ]
+    },
+    "NMAX": {
+      "issuerName": "Newsmax Inc.",
+      "trades": [
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 288.5,
+          "pricePerShare": 11.7,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 24448.0,
+          "pricePerShare": 11.03,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 49600.0,
+          "pricePerShare": 11.074,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 53500.0,
+          "pricePerShare": 11.0308,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13350.0,
+          "pricePerShare": 11.0393,
+          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -37622,6 +37677,41 @@
           "shares": 15000.0,
           "pricePerShare": 46.864,
           "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "UGP": {
+      "issuerName": "ULTRAPAR HOLDINGS INC",
+      "trades": [
+        {
+          "ticker": "UGP",
+          "issuerName": "ULTRAPAR HOLDINGS INC",
+          "insiderName": "Rabelo Pedro Guedes",
+          "title": "Financial Officer Ipiranga",
+          "type": "Sale",
+          "shares": 30000.0,
+          "pricePerShare": 7.58,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "UGP",
+          "issuerName": "ULTRAPAR HOLDINGS INC",
+          "insiderName": "Linden Leonardo Remiao",
+          "title": "CEO Ipiranga",
+          "type": "Sale",
+          "shares": 60000.0,
+          "pricePerShare": 7.57,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "UGP",
+          "issuerName": "ULTRAPAR HOLDINGS INC",
+          "insiderName": "Amaral Decio de Sampaio",
+          "title": "CEO Hidrovias",
+          "type": "Sale",
+          "shares": 8000.0,
+          "pricePerShare": 6.93,
+          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -53445,41 +53535,6 @@
         }
       ]
     },
-    "NMAX": {
-      "issuerName": "Newsmax Inc.",
-      "trades": [
-        {
-          "ticker": "NMAX",
-          "issuerName": "Newsmax Inc.",
-          "insiderName": "CONYERS INVESTMENTS LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 49600.0,
-          "pricePerShare": 11.074,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "NMAX",
-          "issuerName": "Newsmax Inc.",
-          "insiderName": "CONYERS INVESTMENTS LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 53500.0,
-          "pricePerShare": 11.0308,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "NMAX",
-          "issuerName": "Newsmax Inc.",
-          "insiderName": "CONYERS INVESTMENTS LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13350.0,
-          "pricePerShare": 11.0393,
-          "transactionDate": "2026-08-28"
-        }
-      ]
-    },
     "NNE": {
       "issuerName": "Nano Nuclear Energy Inc.",
       "trades": [
@@ -53947,16 +54002,6 @@
           "shares": 10538.0,
           "pricePerShare": 4.8005,
           "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Troim Tor Olav",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 200000.0,
-          "pricePerShare": 4.3731,
-          "transactionDate": "2026-08-25"
         }
       ]
     },
@@ -55612,16 +55657,6 @@
           "shares": 4150.0,
           "pricePerShare": 45.02,
           "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "AMRZ",
-          "issuerName": "Amrize Ltd",
-          "insiderName": "Forrest Nollaig",
-          "title": "Chief Mktg & Corp Affairs Off",
-          "type": "Purchase",
-          "shares": 1500.0,
-          "pricePerShare": 44.15,
-          "transactionDate": "2026-08-25"
         }
       ]
     },
@@ -58586,21 +58621,6 @@
           "type": "Sale",
           "shares": 6000.0,
           "pricePerShare": 3.75,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "UGP": {
-      "issuerName": "ULTRAPAR HOLDINGS INC",
-      "trades": [
-        {
-          "ticker": "UGP",
-          "issuerName": "ULTRAPAR HOLDINGS INC",
-          "insiderName": "Amaral Decio de Sampaio",
-          "title": "CEO Hidrovias",
-          "type": "Sale",
-          "shares": 8000.0,
-          "pricePerShare": 6.93,
           "transactionDate": "2026-09-01"
         }
       ]
@@ -63204,36 +63224,6 @@
           "transactionDate": "2026-08-26"
         }
       ]
-    },
-    "BABA": {
-      "issuerName": "Alibaba Group Holding Ltd",
-      "trades": [
-        {
-          "ticker": "BABA",
-          "issuerName": "Alibaba Group Holding Ltd",
-          "insiderName": "Tsai Joseph C",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 720000.0,
-          "pricePerShare": 14.47,
-          "transactionDate": "2026-08-25"
-        }
-      ]
-    },
-    "GRML": {
-      "issuerName": "Greenland Mines Ltd",
-      "trades": [
-        {
-          "ticker": "GRML",
-          "issuerName": "Greenland Mines Ltd",
-          "insiderName": "LeBlanc Jeff",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 14000.0,
-          "pricePerShare": 9.72,
-          "transactionDate": "2026-08-25"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63640,6 +63630,13 @@
       "0000079879-26-000272",
       "0000079879-26-000273",
       "0000079879-26-000274",
+      "0000079879-26-000283",
+      "0000079879-26-000284",
+      "0000079879-26-000285",
+      "0000079879-26-000286",
+      "0000079879-26-000287",
+      "0000079879-26-000288",
+      "0000079879-26-000289",
       "0000080019-26-000016",
       "0000080424-26-000105",
       "0000080424-26-000106",
@@ -66197,6 +66194,11 @@
       "0000950103-26-013887",
       "0000950103-26-013888",
       "0000950103-26-013889",
+      "0000950103-26-013891",
+      "0000950103-26-013892",
+      "0000950103-26-013893",
+      "0000950103-26-013894",
+      "0000950103-26-013895",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -67771,6 +67773,9 @@
       "0001104659-26-107426",
       "0001104659-26-107430",
       "0001104659-26-107431",
+      "0001104659-26-107445",
+      "0001104659-26-107446",
+      "0001104659-26-107457",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68122,6 +68127,9 @@
       "0001140019-26-000126",
       "0001140019-26-000128",
       "0001140019-26-000133",
+      "0001140019-26-000137",
+      "0001140019-26-000138",
+      "0001140019-26-000139",
       "0001140361-26-028844",
       "0001140361-26-028846",
       "0001140361-26-028877",
@@ -72653,6 +72661,11 @@
       "0001193125-26-390237",
       "0001193125-26-390242",
       "0001193125-26-390260",
+      "0001193125-26-390323",
+      "0001193125-26-390329",
+      "0001193125-26-390334",
+      "0001193125-26-390337",
+      "0001193125-26-390362",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74211,6 +74224,12 @@
       "0001213900-26-099614",
       "0001213900-26-099625",
       "0001213900-26-099627",
+      "0001213900-26-099640",
+      "0001213900-26-099642",
+      "0001213900-26-099651",
+      "0001213900-26-099654",
+      "0001213900-26-099655",
+      "0001213900-26-099658",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -75085,6 +75104,8 @@
       "0001292814-26-004472",
       "0001292814-26-004498",
       "0001292814-26-004536",
+      "0001292814-26-004542",
+      "0001292814-26-004544",
       "0001293167-26-000004",
       "0001293171-26-000012",
       "0001294172-26-000019",
@@ -75534,6 +75555,7 @@
       "0001398344-26-016900",
       "0001398344-26-016902",
       "0001398344-26-016951",
+      "0001398344-26-016968",
       "0001399967-26-000002",
       "0001401257-26-000064",
       "0001401336-26-000020",
@@ -77176,6 +77198,7 @@
       "0001513030-26-000004",
       "0001513030-26-000005",
       "0001513030-26-000006",
+      "0001513030-26-000007",
       "0001513723-26-000008",
       "0001513845-26-000088",
       "0001513845-26-000090",
@@ -78861,6 +78884,9 @@
       "0001628280-26-061764",
       "0001628280-26-061765",
       "0001628280-26-061771",
+      "0001628280-26-061802",
+      "0001628280-26-061804",
+      "0001628280-26-061806",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -79094,6 +79120,7 @@
       "0001663507-26-000010",
       "0001663507-26-000012",
       "0001663577-26-000238",
+      "0001663577-26-000271",
       "0001664281-26-000002",
       "0001664281-26-000004",
       "0001664367-26-000004",
@@ -83252,6 +83279,14 @@
       "0001839882-26-045348",
       "0001839882-26-045349",
       "0001839882-26-045350",
+      "0001839882-26-045354",
+      "0001839882-26-045355",
+      "0001839882-26-045356",
+      "0001839882-26-045357",
+      "0001839882-26-045358",
+      "0001839882-26-045360",
+      "0001839882-26-045361",
+      "0001839882-26-045362",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -87119,6 +87154,23 @@
       "0001918704-26-027441",
       "0001918704-26-027442",
       "0001918704-26-027443",
+      "0001918704-26-027445",
+      "0001918704-26-027446",
+      "0001918704-26-027447",
+      "0001918704-26-027448",
+      "0001918704-26-027449",
+      "0001918704-26-027450",
+      "0001918704-26-027451",
+      "0001918704-26-027452",
+      "0001918704-26-027453",
+      "0001918704-26-027454",
+      "0001918704-26-027455",
+      "0001918704-26-027456",
+      "0001918704-26-027457",
+      "0001918704-26-027458",
+      "0001918704-26-027459",
+      "0001918704-26-027460",
+      "0001918704-26-027461",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -87978,6 +88030,7 @@
       "0001999371-26-020440",
       "0001999371-26-020450",
       "0001999371-26-020457",
+      "0001999371-26-020481",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -88487,6 +88540,8 @@
       "0002078265-26-000374",
       "0002078265-26-000375",
       "0002078265-26-000376",
+      "0002078265-26-000378",
+      "0002078265-26-000379",
       "0002078339-26-000012",
       "0002078374-26-000003",
       "0002078512-26-000002",
