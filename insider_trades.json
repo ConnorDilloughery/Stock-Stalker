@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T16:05:41.737514+00:00",
+  "generatedAt": "2026-09-14T18:02:53.600365+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -751,6 +751,56 @@
       "type": "Purchase",
       "shares": 2000.0,
       "pricePerShare": 4.94,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "IVZ",
+      "issuerName": "Invesco Ltd.",
+      "insiderName": "WOOD PHOEBE A",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 3000.0,
+      "pricePerShare": 32.44,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "FIBK",
+      "issuerName": "FIRST INTERSTATE BANCSYSTEM INC",
+      "insiderName": "Scott Jonathan R",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 16929.0,
+      "pricePerShare": 37.03,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 9725.0,
+      "pricePerShare": 19.254,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 45000.0,
+      "pricePerShare": 19.226,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "DGICA",
+      "issuerName": "DONEGAL GROUP INC",
+      "insiderName": "MILLER JEFFREY DEAN",
+      "title": "EVP & Chief Financial Officer",
+      "type": "Sale",
+      "shares": 21000.0,
+      "pricePerShare": 19.226,
       "transactionDate": "2026-09-11"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 1500.0,
       "pricePerShare": 44.15,
       "transactionDate": "2026-08-25"
-    },
-    {
-      "ticker": "PFGC",
-      "issuerName": "Performance Food Group Co",
-      "insiderName": "DAVIS ERIKA T",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1320.0,
-      "pricePerShare": 105.29,
-      "transactionDate": "2026-08-25"
-    },
-    {
-      "ticker": "PFGC",
-      "issuerName": "Performance Food Group Co",
-      "insiderName": "Bulmer Donald S.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1353.0,
-      "pricePerShare": 105.29,
-      "transactionDate": "2026-08-25"
-    },
-    {
-      "ticker": "PFGC",
-      "issuerName": "Performance Food Group Co",
-      "insiderName": "KING A BRENT",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1320.0,
-      "pricePerShare": 105.29,
-      "transactionDate": "2026-08-25"
-    },
-    {
-      "ticker": "JOBY",
-      "issuerName": "Joby Aviation, Inc.",
-      "insiderName": "Bowles Gregory",
-      "title": "Chief Policy Officer",
-      "type": "Sale",
-      "shares": 4575.0,
-      "pricePerShare": 7.23,
-      "transactionDate": "2026-08-25"
-    },
-    {
-      "ticker": "ECOR",
-      "issuerName": "electroCore, Inc.",
-      "insiderName": "Lev Joshua S.",
-      "title": "CFO and Interim President",
-      "type": "Sale",
-      "shares": 3000.0,
-      "pricePerShare": 9.36,
-      "transactionDate": "2026-08-25"
     }
   ],
   "byTicker": {
@@ -32192,6 +32192,241 @@
           "shares": 2000.0,
           "pricePerShare": 4.94,
           "transactionDate": "2026-09-11"
+        }
+      ]
+    },
+    "IVZ": {
+      "issuerName": "Invesco Ltd.",
+      "trades": [
+        {
+          "ticker": "IVZ",
+          "issuerName": "Invesco Ltd.",
+          "insiderName": "WOOD PHOEBE A",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 32.44,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "IVZ",
+          "issuerName": "Invesco Ltd.",
+          "insiderName": "Butcher Stephanie",
+          "title": "Senior Managing Director",
+          "type": "Sale",
+          "shares": 45095.0,
+          "pricePerShare": 32.2825,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "IVZ",
+          "issuerName": "Invesco Ltd.",
+          "insiderName": "DUKES LAURA ALLISON",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 31075.0,
+          "pricePerShare": 33.1629,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "FIBK": {
+      "issuerName": "FIRST INTERSTATE BANCSYSTEM INC",
+      "trades": [
+        {
+          "ticker": "FIBK",
+          "issuerName": "FIRST INTERSTATE BANCSYSTEM INC",
+          "insiderName": "Scott Jonathan R",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 16929.0,
+          "pricePerShare": 37.03,
+          "transactionDate": "2026-09-11"
+        }
+      ]
+    },
+    "DGICA": {
+      "issuerName": "DONEGAL GROUP INC",
+      "trades": [
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9725.0,
+          "pricePerShare": 19.254,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 45000.0,
+          "pricePerShare": 19.226,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "MILLER JEFFREY DEAN",
+          "title": "EVP & Chief Financial Officer",
+          "type": "Sale",
+          "shares": 21000.0,
+          "pricePerShare": 19.226,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.1262,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "BAWEL DAVID BENJAMIN",
+          "title": "SVP & CHIEF ACCOUNTING OFFICER",
+          "type": "Sale",
+          "shares": 8326.0,
+          "pricePerShare": 19.278,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 5143.0,
+          "pricePerShare": 18.8881,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 8326.0,
+          "pricePerShare": 19.278,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.1358,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 6368.0,
+          "pricePerShare": 19.3916,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "HUBER BARRY CRAIG",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 4500.0,
+          "pricePerShare": 19.4304,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "VIOZZI VINCENT ANTHONY",
+          "title": "Sr. VP & Chief Inv Officer",
+          "type": "Sale",
+          "shares": 2282.0,
+          "pricePerShare": 19.5,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9595.0,
+          "pricePerShare": 19.5346,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.4334,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9257.0,
+          "pricePerShare": 19.1675,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.1765,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 19.1946,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 18.9504,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "DGICA",
+          "issuerName": "DONEGAL GROUP INC",
+          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 9508.0,
+          "pricePerShare": 19.1069,
+          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -34481,161 +34716,6 @@
           "type": "Sale",
           "shares": 298.0,
           "pricePerShare": 121.02,
-          "transactionDate": "2026-08-26"
-        }
-      ]
-    },
-    "DGICA": {
-      "issuerName": "DONEGAL GROUP INC",
-      "trades": [
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.1262,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "BAWEL DAVID BENJAMIN",
-          "title": "SVP & CHIEF ACCOUNTING OFFICER",
-          "type": "Sale",
-          "shares": 8326.0,
-          "pricePerShare": 19.278,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 5143.0,
-          "pricePerShare": 18.8881,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 8326.0,
-          "pricePerShare": 19.278,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.1358,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 6368.0,
-          "pricePerShare": 19.3916,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "HUBER BARRY CRAIG",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 4500.0,
-          "pricePerShare": 19.4304,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "VIOZZI VINCENT ANTHONY",
-          "title": "Sr. VP & Chief Inv Officer",
-          "type": "Sale",
-          "shares": 2282.0,
-          "pricePerShare": 19.5,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9595.0,
-          "pricePerShare": 19.5346,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.4334,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9257.0,
-          "pricePerShare": 19.1675,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.1765,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.1946,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 18.9504,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9508.0,
-          "pricePerShare": 19.1069,
           "transactionDate": "2026-08-26"
         }
       ]
@@ -38762,31 +38842,6 @@
           "shares": 1280.0,
           "pricePerShare": 15.6,
           "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "IVZ": {
-      "issuerName": "Invesco Ltd.",
-      "trades": [
-        {
-          "ticker": "IVZ",
-          "issuerName": "Invesco Ltd.",
-          "insiderName": "Butcher Stephanie",
-          "title": "Senior Managing Director",
-          "type": "Sale",
-          "shares": 45095.0,
-          "pricePerShare": 32.2825,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "IVZ",
-          "issuerName": "Invesco Ltd.",
-          "insiderName": "DUKES LAURA ALLISON",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 31075.0,
-          "pricePerShare": 33.1629,
-          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -58152,36 +58207,6 @@
           "shares": 100.0,
           "pricePerShare": 99.75,
           "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "PFGC",
-          "issuerName": "Performance Food Group Co",
-          "insiderName": "DAVIS ERIKA T",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1320.0,
-          "pricePerShare": 105.29,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "PFGC",
-          "issuerName": "Performance Food Group Co",
-          "insiderName": "Bulmer Donald S.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1353.0,
-          "pricePerShare": 105.29,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "PFGC",
-          "issuerName": "Performance Food Group Co",
-          "insiderName": "KING A BRENT",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1320.0,
-          "pricePerShare": 105.29,
-          "transactionDate": "2026-08-25"
         }
       ]
     },
@@ -63209,36 +63234,6 @@
           "transactionDate": "2026-08-25"
         }
       ]
-    },
-    "JOBY": {
-      "issuerName": "Joby Aviation, Inc.",
-      "trades": [
-        {
-          "ticker": "JOBY",
-          "issuerName": "Joby Aviation, Inc.",
-          "insiderName": "Bowles Gregory",
-          "title": "Chief Policy Officer",
-          "type": "Sale",
-          "shares": 4575.0,
-          "pricePerShare": 7.23,
-          "transactionDate": "2026-08-25"
-        }
-      ]
-    },
-    "ECOR": {
-      "issuerName": "electroCore, Inc.",
-      "trades": [
-        {
-          "ticker": "ECOR",
-          "issuerName": "electroCore, Inc.",
-          "insiderName": "Lev Joshua S.",
-          "title": "CFO and Interim President",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 9.36,
-          "transactionDate": "2026-08-25"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63605,6 +63600,13 @@
       "0000070502-26-000621",
       "0000070502-26-000623",
       "0000070502-26-000625",
+      "0000070502-26-000643",
+      "0000070502-26-000645",
+      "0000070502-26-000647",
+      "0000070502-26-000649",
+      "0000070502-26-000651",
+      "0000070502-26-000653",
+      "0000070502-26-000655",
       "0000070858-26-000359",
       "0000070858-26-000368",
       "0000070858-26-000409",
@@ -64501,6 +64503,7 @@
       "0000894189-26-025150",
       "0000894189-26-025151",
       "0000894189-26-025187",
+      "0000894189-26-025199",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -64936,6 +64939,7 @@
       "0000935596-26-000023",
       "0000935596-26-000024",
       "0000935596-26-000025",
+      "0000935596-26-000026",
       "0000935703-26-000095",
       "0000935703-26-000097",
       "0000935836-26-000372",
@@ -66189,6 +66193,10 @@
       "0000950103-26-013875",
       "0000950103-26-013876",
       "0000950103-26-013877",
+      "0000950103-26-013886",
+      "0000950103-26-013887",
+      "0000950103-26-013888",
+      "0000950103-26-013889",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -67752,6 +67760,17 @@
       "0001104659-26-107224",
       "0001104659-26-107303",
       "0001104659-26-107334",
+      "0001104659-26-107416",
+      "0001104659-26-107417",
+      "0001104659-26-107418",
+      "0001104659-26-107419",
+      "0001104659-26-107421",
+      "0001104659-26-107422",
+      "0001104659-26-107424",
+      "0001104659-26-107425",
+      "0001104659-26-107426",
+      "0001104659-26-107430",
+      "0001104659-26-107431",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68666,6 +68685,8 @@
       "0001140361-26-036437",
       "0001140361-26-036441",
       "0001140361-26-036442",
+      "0001140361-26-036460",
+      "0001140361-26-036463",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -72624,6 +72645,14 @@
       "0001193125-26-390020",
       "0001193125-26-390021",
       "0001193125-26-390061",
+      "0001193125-26-390171",
+      "0001193125-26-390182",
+      "0001193125-26-390218",
+      "0001193125-26-390228",
+      "0001193125-26-390231",
+      "0001193125-26-390237",
+      "0001193125-26-390242",
+      "0001193125-26-390260",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72643,6 +72672,7 @@
       "0001196484-26-000014",
       "0001196914-26-000003",
       "0001196963-26-000002",
+      "0001197233-26-000004",
       "0001198444-26-000010",
       "0001198872-26-000009",
       "0001199696-26-000006",
@@ -74177,6 +74207,10 @@
       "0001213900-26-099560",
       "0001213900-26-099563",
       "0001213900-26-099568",
+      "0001213900-26-099608",
+      "0001213900-26-099614",
+      "0001213900-26-099625",
+      "0001213900-26-099627",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74532,6 +74566,7 @@
       "0001214659-26-011637",
       "0001214659-26-011648",
       "0001214659-26-011650",
+      "0001214736-26-000002",
       "0001214993-26-000004",
       "0001215135-26-000012",
       "0001215315-26-000038",
@@ -74791,6 +74826,8 @@
       "0001225208-26-007783",
       "0001225208-26-007786",
       "0001225208-26-007787",
+      "0001225208-26-007790",
+      "0001225208-26-007791",
       "0001225481-26-000006",
       "0001225817-26-000008",
       "0001227384-26-000017",
@@ -75146,6 +75183,7 @@
       "0001325533-26-000010",
       "0001326598-26-000003",
       "0001327749-26-000005",
+      "0001327749-26-000006",
       "0001328600-26-000002",
       "0001329154-26-000003",
       "0001331210-26-000002",
@@ -76019,6 +76057,7 @@
       "0001437749-26-030226",
       "0001437749-26-030247",
       "0001437749-26-030248",
+      "0001437749-26-030276",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -77008,6 +77047,7 @@
       "0001493152-26-042512",
       "0001493152-26-042518",
       "0001493152-26-042521",
+      "0001493152-26-042536",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -77704,6 +77744,8 @@
       "0001580642-26-006233",
       "0001580642-26-006234",
       "0001580642-26-006237",
+      "0001580642-26-006278",
+      "0001580642-26-006279",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -77785,6 +77827,7 @@
       "0001592900-26-004219",
       "0001592900-26-004226",
       "0001592900-26-004227",
+      "0001592900-26-004230",
       "0001592970-26-000012",
       "0001593040-26-000002",
       "0001593516-26-000004",
@@ -83195,6 +83238,20 @@
       "0001839882-26-045289",
       "0001839882-26-045290",
       "0001839882-26-045292",
+      "0001839882-26-045335",
+      "0001839882-26-045336",
+      "0001839882-26-045337",
+      "0001839882-26-045338",
+      "0001839882-26-045339",
+      "0001839882-26-045340",
+      "0001839882-26-045342",
+      "0001839882-26-045344",
+      "0001839882-26-045345",
+      "0001839882-26-045346",
+      "0001839882-26-045347",
+      "0001839882-26-045348",
+      "0001839882-26-045349",
+      "0001839882-26-045350",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -87054,6 +87111,14 @@
       "0001918704-26-027424",
       "0001918704-26-027425",
       "0001918704-26-027426",
+      "0001918704-26-027436",
+      "0001918704-26-027437",
+      "0001918704-26-027438",
+      "0001918704-26-027439",
+      "0001918704-26-027440",
+      "0001918704-26-027441",
+      "0001918704-26-027442",
+      "0001918704-26-027443",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
