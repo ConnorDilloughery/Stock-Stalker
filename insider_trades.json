@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T20:03:32.088877+00:00",
+  "generatedAt": "2026-09-14T21:01:22.417611+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -31,6 +31,26 @@
       "type": "Purchase",
       "shares": 790.0,
       "pricePerShare": 25.43,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "ALTO",
+      "issuerName": "Alto Ingredients, Inc.",
+      "insiderName": "NATHAN GILBERT E",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 3.9299,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "DLHC",
+      "issuerName": "DLH Holdings Corp.",
+      "insiderName": "Mink Brook Asset Management LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 730.0,
+      "pricePerShare": 3.8423,
       "transactionDate": "2026-09-14"
     },
     {
@@ -821,6 +841,106 @@
       "type": "Sale",
       "shares": 288.5,
       "pricePerShare": 11.7,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "DLHC",
+      "issuerName": "DLH Holdings Corp.",
+      "insiderName": "Mink Brook Asset Management LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 492.0,
+      "pricePerShare": 3.9358,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "CHYM",
+      "issuerName": "Chime Financial, Inc.",
+      "insiderName": "Marshall Cynthia",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 20000.0,
+      "pricePerShare": 33.0933,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "ULTA",
+      "issuerName": "Ulta Beauty, Inc.",
+      "insiderName": "Nagler Lorna",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 600.0,
+      "pricePerShare": 537.3126,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "BKSY",
+      "issuerName": "BlackSky Technology Inc.",
+      "insiderName": "O'Toole Brian E",
+      "title": "Director, CEO and President",
+      "type": "Sale",
+      "shares": 56280.0,
+      "pricePerShare": 20.95,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "BKSY",
+      "issuerName": "BlackSky Technology Inc.",
+      "insiderName": "Dubois Henry Edward",
+      "title": "Chief Financial Officer",
+      "type": "Sale",
+      "shares": 15225.0,
+      "pricePerShare": 20.95,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "BKSY",
+      "issuerName": "BlackSky Technology Inc.",
+      "insiderName": "Lin Christiana L",
+      "title": "General Counsel & CAO",
+      "type": "Sale",
+      "shares": 13052.0,
+      "pricePerShare": 20.95,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "ECL",
+      "issuerName": "ECOLAB INC.",
+      "insiderName": "Green Eric Mark",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 3370.0,
+      "pricePerShare": 276.577,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "ECL",
+      "issuerName": "ECOLAB INC.",
+      "insiderName": "Green Eric Mark",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 320.0,
+      "pricePerShare": 277.291,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "CRBG",
+      "issuerName": "Corebridge Financial, Inc.",
+      "insiderName": "Ditillo David",
+      "title": "Chief Information Officer",
+      "type": "Sale",
+      "shares": 8736.0,
+      "pricePerShare": 35.0,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "NTAP",
+      "issuerName": "NetApp, Inc.",
+      "insiderName": "NEVENS THOMAS MICHAEL",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 5940.0,
+      "pricePerShare": 195.21,
       "transactionDate": "2026-09-11"
     },
     {
@@ -2301,6 +2421,156 @@
       "type": "Sale",
       "shares": 1440.0,
       "pricePerShare": 13.89,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "IBTA",
+      "issuerName": "Ibotta, Inc.",
+      "insiderName": "Swanson Luke Roy",
+      "title": "CHIEF TECHNOLOGY OFFICER",
+      "type": "Sale",
+      "shares": 20100.0,
+      "pricePerShare": 40.0426,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "IBTA",
+      "issuerName": "Ibotta, Inc.",
+      "insiderName": "Swanson Luke Roy",
+      "title": "CHIEF TECHNOLOGY OFFICER",
+      "type": "Sale",
+      "shares": 16500.0,
+      "pricePerShare": 40.0744,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "IBTA",
+      "issuerName": "Ibotta, Inc.",
+      "insiderName": "Swanson Luke Roy",
+      "title": "CHIEF TECHNOLOGY OFFICER",
+      "type": "Sale",
+      "shares": 3600.0,
+      "pricePerShare": 39.9,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "NHC",
+      "issuerName": "NATIONAL HEALTHCARE CORP",
+      "insiderName": "McCreary Josh A",
+      "title": "Senior VP & General Counsel",
+      "type": "Sale",
+      "shares": 571.0,
+      "pricePerShare": 222.7342,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "NHC",
+      "issuerName": "NATIONAL HEALTHCARE CORP",
+      "insiderName": "McCreary Josh A",
+      "title": "Senior VP & General Counsel",
+      "type": "Sale",
+      "shares": 789.0,
+      "pricePerShare": 223.778,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "NHC",
+      "issuerName": "NATIONAL HEALTHCARE CORP",
+      "insiderName": "McCreary Josh A",
+      "title": "Senior VP & General Counsel",
+      "type": "Sale",
+      "shares": 1291.0,
+      "pricePerShare": 225.087,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "NHC",
+      "issuerName": "NATIONAL HEALTHCARE CORP",
+      "insiderName": "McCreary Josh A",
+      "title": "Senior VP & General Counsel",
+      "type": "Sale",
+      "shares": 68.0,
+      "pricePerShare": 225.5863,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "HOOD",
+      "issuerName": "Robinhood Markets, Inc.",
+      "insiderName": "Bhatt Baiju",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 2400.0,
+      "pricePerShare": 112.7717,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "HOOD",
+      "issuerName": "Robinhood Markets, Inc.",
+      "insiderName": "Bhatt Baiju",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 15984.0,
+      "pricePerShare": 113.7372,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "HOOD",
+      "issuerName": "Robinhood Markets, Inc.",
+      "insiderName": "Bhatt Baiju",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 18889.0,
+      "pricePerShare": 114.5114,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "HOOD",
+      "issuerName": "Robinhood Markets, Inc.",
+      "insiderName": "Bhatt Baiju",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 6000.0,
+      "pricePerShare": 115.5387,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "HOOD",
+      "issuerName": "Robinhood Markets, Inc.",
+      "insiderName": "Bhatt Baiju",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 100.0,
+      "pricePerShare": 116.26,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "BRFH",
+      "issuerName": "BARFRESH FOOD GROUP INC.",
+      "insiderName": "Roger Lisa",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 6127.0,
+      "pricePerShare": 1.22,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "FLNT",
+      "issuerName": "Fluent, Inc.",
+      "insiderName": "Graff David Allen",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 25000.0,
+      "pricePerShare": 3.0,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "INGM",
+      "issuerName": "Ingram Micro Holding Corp",
+      "insiderName": "PLATINUM EQUITY, LLC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 13125000.0,
+      "pricePerShare": 27.188,
       "transactionDate": "2026-09-10"
     },
     {
@@ -29732,276 +30002,6 @@
       "shares": 209.0,
       "pricePerShare": 2.9,
       "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "KNTK",
-      "issuerName": "Kinetik Holdings Inc.",
-      "insiderName": "ISQ Global Fund II GP LLC",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 76260.0,
-      "pricePerShare": 55.2753,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "CPSS",
-      "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
-      "insiderName": "BRADLEY CHARLES E JR",
-      "title": "Director, CEO, 10% Owner",
-      "type": "Sale",
-      "shares": 125000.0,
-      "pricePerShare": 9.46,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "STUB",
-      "issuerName": "StubHub Holdings, Inc.",
-      "insiderName": "Streams Mark",
-      "title": "Director, See Remarks",
-      "type": "Sale",
-      "shares": 2530.0,
-      "pricePerShare": 6.88,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "MGNI",
-      "issuerName": "MAGNITE, INC.",
-      "insiderName": "Harden Sarah Patricia",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 30550.0,
-      "pricePerShare": 23.31,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "BATL",
-      "issuerName": "BATTALION OIL CORP",
-      "insiderName": "ROGERS WILLIAM D",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 70000.0,
-      "pricePerShare": 1.3024,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "BATL",
-      "issuerName": "BATTALION OIL CORP",
-      "insiderName": "Mayer Walter R",
-      "title": "SVP, General Counsel",
-      "type": "Sale",
-      "shares": 6479.0,
-      "pricePerShare": 1.302,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "SUJA",
-      "issuerName": "SUJA LIFE, INC.",
-      "insiderName": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 233624.0,
-      "pricePerShare": 9.59,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "PLBY",
-      "issuerName": "Playboy, Inc.",
-      "insiderName": "Edmonds Tracey E",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 16558.0,
-      "pricePerShare": 1.211,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "PLSE",
-      "issuerName": "PULSE BIOSCIENCES, INC.",
-      "insiderName": "Teplitsky Liane Rae",
-      "title": "Chief Operating Officer",
-      "type": "Purchase",
-      "shares": 1036.0,
-      "pricePerShare": 48.235,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "TXG",
-      "issuerName": "10x Genomics, Inc.",
-      "insiderName": "Saxonov Serge",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 3500.0,
-      "pricePerShare": 63.0229,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "TXG",
-      "issuerName": "10x Genomics, Inc.",
-      "insiderName": "Saxonov Serge",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 6494.0,
-      "pricePerShare": 63.9768,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "TXG",
-      "issuerName": "10x Genomics, Inc.",
-      "insiderName": "Saxonov Serge",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 492.0,
-      "pricePerShare": 64.7465,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "LTH",
-      "issuerName": "Life Time Group Holdings, Inc.",
-      "insiderName": "DANHAKL JOHN G",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2879154.0,
-      "pricePerShare": 43.8,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "LTH",
-      "issuerName": "Life Time Group Holdings, Inc.",
-      "insiderName": "Green LTF Holdings II LP",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2826651.0,
-      "pricePerShare": 43.8,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "LTH",
-      "issuerName": "Life Time Group Holdings, Inc.",
-      "insiderName": "Green LTF Holdings II LP",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 4788.0,
-      "pricePerShare": 43.8,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "LTH",
-      "issuerName": "Life Time Group Holdings, Inc.",
-      "insiderName": "Green LTF Holdings II LP",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 47715.0,
-      "pricePerShare": 43.8,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "LTH",
-      "issuerName": "Life Time Group Holdings, Inc.",
-      "insiderName": "Galashan John Kristofer",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2879154.0,
-      "pricePerShare": 43.8,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "GSL",
-      "issuerName": "Global Ship Lease, Inc.",
-      "insiderName": "Psaropoulos Anastasios",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1670.0,
-      "pricePerShare": 45.03,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "PGEN",
-      "issuerName": "PRECIGEN, INC.",
-      "insiderName": "KINDLER JEFFREY B",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 185000.0,
-      "pricePerShare": 7.44,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "MNPR",
-      "issuerName": "Monopar Therapeutics",
-      "insiderName": "Tsuchimoto Kim R",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 485.0,
-      "pricePerShare": 108.83,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "MNPR",
-      "issuerName": "Monopar Therapeutics",
-      "insiderName": "Tsuchimoto Kim R",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 615.0,
-      "pricePerShare": 109.56,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "MNPR",
-      "issuerName": "Monopar Therapeutics",
-      "insiderName": "Tsuchimoto Kim R",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 700.0,
-      "pricePerShare": 110.65,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "MNPR",
-      "issuerName": "Monopar Therapeutics",
-      "insiderName": "Tsuchimoto Kim R",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 1098.0,
-      "pricePerShare": 111.84,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "MNPR",
-      "issuerName": "Monopar Therapeutics",
-      "insiderName": "Tsuchimoto Kim R",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 602.0,
-      "pricePerShare": 112.93,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "MNPR",
-      "issuerName": "Monopar Therapeutics",
-      "insiderName": "Tsuchimoto Kim R",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 590.0,
-      "pricePerShare": 113.84,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McVeety Kristen J",
-      "title": "GC and Secretary",
-      "type": "Sale",
-      "shares": 724.0,
-      "pricePerShare": 87.3888,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "CRWV",
-      "issuerName": "CoreWeave, Inc.",
-      "insiderName": "McVeety Kristen J",
-      "title": "GC and Secretary",
-      "type": "Sale",
-      "shares": 1144.0,
-      "pricePerShare": 88.1822,
-      "transactionDate": "2026-08-26"
     }
   ],
   "byTicker": {
@@ -30057,6 +30057,46 @@
           "shares": 790.0,
           "pricePerShare": 25.43,
           "transactionDate": "2026-09-14"
+        }
+      ]
+    },
+    "ALTO": {
+      "issuerName": "Alto Ingredients, Inc.",
+      "trades": [
+        {
+          "ticker": "ALTO",
+          "issuerName": "Alto Ingredients, Inc.",
+          "insiderName": "NATHAN GILBERT E",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 3.9299,
+          "transactionDate": "2026-09-14"
+        }
+      ]
+    },
+    "DLHC": {
+      "issuerName": "DLH Holdings Corp.",
+      "trades": [
+        {
+          "ticker": "DLHC",
+          "issuerName": "DLH Holdings Corp.",
+          "insiderName": "Mink Brook Asset Management LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 730.0,
+          "pricePerShare": 3.8423,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "DLHC",
+          "issuerName": "DLH Holdings Corp.",
+          "insiderName": "Mink Brook Asset Management LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 492.0,
+          "pricePerShare": 3.9358,
+          "transactionDate": "2026-09-11"
         }
       ]
     },
@@ -30742,56 +30782,6 @@
           "shares": 18729.0,
           "pricePerShare": 42.0395,
           "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "LTH",
-          "issuerName": "Life Time Group Holdings, Inc.",
-          "insiderName": "DANHAKL JOHN G",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2879154.0,
-          "pricePerShare": 43.8,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "LTH",
-          "issuerName": "Life Time Group Holdings, Inc.",
-          "insiderName": "Green LTF Holdings II LP",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2826651.0,
-          "pricePerShare": 43.8,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "LTH",
-          "issuerName": "Life Time Group Holdings, Inc.",
-          "insiderName": "Green LTF Holdings II LP",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4788.0,
-          "pricePerShare": 43.8,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "LTH",
-          "issuerName": "Life Time Group Holdings, Inc.",
-          "insiderName": "Green LTF Holdings II LP",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 47715.0,
-          "pricePerShare": 43.8,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "LTH",
-          "issuerName": "Life Time Group Holdings, Inc.",
-          "insiderName": "Galashan John Kristofer",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2879154.0,
-          "pricePerShare": 43.8,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -32500,6 +32490,206 @@
         }
       ]
     },
+    "CHYM": {
+      "issuerName": "Chime Financial, Inc.",
+      "trades": [
+        {
+          "ticker": "CHYM",
+          "issuerName": "Chime Financial, Inc.",
+          "insiderName": "Marshall Cynthia",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 33.0933,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "CHYM",
+          "issuerName": "Chime Financial, Inc.",
+          "insiderName": "King Ryan A",
+          "title": "Director, Co-Founder",
+          "type": "Sale",
+          "shares": 42421.0,
+          "pricePerShare": 35.1476,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "CHYM",
+          "issuerName": "Chime Financial, Inc.",
+          "insiderName": "Asmerom Amine",
+          "title": "Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 32.5428,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "CHYM",
+          "issuerName": "Chime Financial, Inc.",
+          "insiderName": "Asmerom Amine",
+          "title": "Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 9505.0,
+          "pricePerShare": 33.3615,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "CHYM",
+          "issuerName": "Chime Financial, Inc.",
+          "insiderName": "Britt Christopher R",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 166546.0,
+          "pricePerShare": 31.9084,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "CHYM",
+          "issuerName": "Chime Financial, Inc.",
+          "insiderName": "Britt Christopher R",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 33454.0,
+          "pricePerShare": 32.6656,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "CHYM",
+          "issuerName": "Chime Financial, Inc.",
+          "insiderName": "Britt Christopher R",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 11382.0,
+          "pricePerShare": 34.0,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "CHYM",
+          "issuerName": "Chime Financial, Inc.",
+          "insiderName": "Britt Christopher R",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 88618.0,
+          "pricePerShare": 34.0295,
+          "transactionDate": "2026-08-28"
+        }
+      ]
+    },
+    "ULTA": {
+      "issuerName": "Ulta Beauty, Inc.",
+      "trades": [
+        {
+          "ticker": "ULTA",
+          "issuerName": "Ulta Beauty, Inc.",
+          "insiderName": "Nagler Lorna",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 600.0,
+          "pricePerShare": 537.3126,
+          "transactionDate": "2026-09-11"
+        }
+      ]
+    },
+    "BKSY": {
+      "issuerName": "BlackSky Technology Inc.",
+      "trades": [
+        {
+          "ticker": "BKSY",
+          "issuerName": "BlackSky Technology Inc.",
+          "insiderName": "O'Toole Brian E",
+          "title": "Director, CEO and President",
+          "type": "Sale",
+          "shares": 56280.0,
+          "pricePerShare": 20.95,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "BKSY",
+          "issuerName": "BlackSky Technology Inc.",
+          "insiderName": "Dubois Henry Edward",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 15225.0,
+          "pricePerShare": 20.95,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "BKSY",
+          "issuerName": "BlackSky Technology Inc.",
+          "insiderName": "Lin Christiana L",
+          "title": "General Counsel & CAO",
+          "type": "Sale",
+          "shares": 13052.0,
+          "pricePerShare": 20.95,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "BKSY",
+          "issuerName": "BlackSky Technology Inc.",
+          "insiderName": "Dubois Henry Edward",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 4000.0,
+          "pricePerShare": 23.78,
+          "transactionDate": "2026-08-28"
+        }
+      ]
+    },
+    "ECL": {
+      "issuerName": "ECOLAB INC.",
+      "trades": [
+        {
+          "ticker": "ECL",
+          "issuerName": "ECOLAB INC.",
+          "insiderName": "Green Eric Mark",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 3370.0,
+          "pricePerShare": 276.577,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "ECL",
+          "issuerName": "ECOLAB INC.",
+          "insiderName": "Green Eric Mark",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 320.0,
+          "pricePerShare": 277.291,
+          "transactionDate": "2026-09-11"
+        }
+      ]
+    },
+    "CRBG": {
+      "issuerName": "Corebridge Financial, Inc.",
+      "trades": [
+        {
+          "ticker": "CRBG",
+          "issuerName": "Corebridge Financial, Inc.",
+          "insiderName": "Ditillo David",
+          "title": "Chief Information Officer",
+          "type": "Sale",
+          "shares": 8736.0,
+          "pricePerShare": 35.0,
+          "transactionDate": "2026-09-11"
+        }
+      ]
+    },
+    "NTAP": {
+      "issuerName": "NetApp, Inc.",
+      "trades": [
+        {
+          "ticker": "NTAP",
+          "issuerName": "NetApp, Inc.",
+          "insiderName": "NEVENS THOMAS MICHAEL",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5940.0,
+          "pricePerShare": 195.21,
+          "transactionDate": "2026-09-11"
+        }
+      ]
+    },
     "UBER": {
       "issuerName": "Uber Technologies, Inc",
       "trades": [
@@ -33312,16 +33502,6 @@
           "shares": 58383.0,
           "pricePerShare": 55.1434,
           "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "KNTK",
-          "issuerName": "Kinetik Holdings Inc.",
-          "insiderName": "ISQ Global Fund II GP LLC",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 76260.0,
-          "pricePerShare": 55.2753,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -37865,6 +38045,266 @@
         }
       ]
     },
+    "IBTA": {
+      "issuerName": "Ibotta, Inc.",
+      "trades": [
+        {
+          "ticker": "IBTA",
+          "issuerName": "Ibotta, Inc.",
+          "insiderName": "Swanson Luke Roy",
+          "title": "CHIEF TECHNOLOGY OFFICER",
+          "type": "Sale",
+          "shares": 20100.0,
+          "pricePerShare": 40.0426,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "IBTA",
+          "issuerName": "Ibotta, Inc.",
+          "insiderName": "Swanson Luke Roy",
+          "title": "CHIEF TECHNOLOGY OFFICER",
+          "type": "Sale",
+          "shares": 16500.0,
+          "pricePerShare": 40.0744,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "IBTA",
+          "issuerName": "Ibotta, Inc.",
+          "insiderName": "Swanson Luke Roy",
+          "title": "CHIEF TECHNOLOGY OFFICER",
+          "type": "Sale",
+          "shares": 3600.0,
+          "pricePerShare": 39.9,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "IBTA",
+          "issuerName": "Ibotta, Inc.",
+          "insiderName": "Daspit Marisa",
+          "title": "CHIEF PEOPLE OFFICER",
+          "type": "Sale",
+          "shares": 1779.0,
+          "pricePerShare": 37.2462,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "IBTA",
+          "issuerName": "Ibotta, Inc.",
+          "insiderName": "Daspit Marisa",
+          "title": "CHIEF PEOPLE OFFICER",
+          "type": "Sale",
+          "shares": 1177.0,
+          "pricePerShare": 37.7777,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "IBTA",
+          "issuerName": "Ibotta, Inc.",
+          "insiderName": "Swanson Luke Roy",
+          "title": "CHIEF TECHNOLOGY OFFICER",
+          "type": "Sale",
+          "shares": 2858.0,
+          "pricePerShare": 36.6223,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "IBTA",
+          "issuerName": "Ibotta, Inc.",
+          "insiderName": "Swanson Luke Roy",
+          "title": "CHIEF TECHNOLOGY OFFICER",
+          "type": "Sale",
+          "shares": 3082.0,
+          "pricePerShare": 37.2813,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "IBTA",
+          "issuerName": "Ibotta, Inc.",
+          "insiderName": "Swanson Luke Roy",
+          "title": "CHIEF TECHNOLOGY OFFICER",
+          "type": "Sale",
+          "shares": 2858.0,
+          "pricePerShare": 36.629,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "IBTA",
+          "issuerName": "Ibotta, Inc.",
+          "insiderName": "Swanson Luke Roy",
+          "title": "CHIEF TECHNOLOGY OFFICER",
+          "type": "Sale",
+          "shares": 3082.0,
+          "pricePerShare": 37.2962,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "IBTA",
+          "issuerName": "Ibotta, Inc.",
+          "insiderName": "Daspit Marisa",
+          "title": "CHIEF PEOPLE OFFICER",
+          "type": "Sale",
+          "shares": 802.0,
+          "pricePerShare": 36.6617,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "IBTA",
+          "issuerName": "Ibotta, Inc.",
+          "insiderName": "Daspit Marisa",
+          "title": "CHIEF PEOPLE OFFICER",
+          "type": "Sale",
+          "shares": 910.0,
+          "pricePerShare": 37.309,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "NHC": {
+      "issuerName": "NATIONAL HEALTHCARE CORP",
+      "trades": [
+        {
+          "ticker": "NHC",
+          "issuerName": "NATIONAL HEALTHCARE CORP",
+          "insiderName": "McCreary Josh A",
+          "title": "Senior VP & General Counsel",
+          "type": "Sale",
+          "shares": 571.0,
+          "pricePerShare": 222.7342,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "NHC",
+          "issuerName": "NATIONAL HEALTHCARE CORP",
+          "insiderName": "McCreary Josh A",
+          "title": "Senior VP & General Counsel",
+          "type": "Sale",
+          "shares": 789.0,
+          "pricePerShare": 223.778,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "NHC",
+          "issuerName": "NATIONAL HEALTHCARE CORP",
+          "insiderName": "McCreary Josh A",
+          "title": "Senior VP & General Counsel",
+          "type": "Sale",
+          "shares": 1291.0,
+          "pricePerShare": 225.087,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "NHC",
+          "issuerName": "NATIONAL HEALTHCARE CORP",
+          "insiderName": "McCreary Josh A",
+          "title": "Senior VP & General Counsel",
+          "type": "Sale",
+          "shares": 68.0,
+          "pricePerShare": 225.5863,
+          "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "HOOD": {
+      "issuerName": "Robinhood Markets, Inc.",
+      "trades": [
+        {
+          "ticker": "HOOD",
+          "issuerName": "Robinhood Markets, Inc.",
+          "insiderName": "Bhatt Baiju",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 2400.0,
+          "pricePerShare": 112.7717,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "HOOD",
+          "issuerName": "Robinhood Markets, Inc.",
+          "insiderName": "Bhatt Baiju",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 15984.0,
+          "pricePerShare": 113.7372,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "HOOD",
+          "issuerName": "Robinhood Markets, Inc.",
+          "insiderName": "Bhatt Baiju",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 18889.0,
+          "pricePerShare": 114.5114,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "HOOD",
+          "issuerName": "Robinhood Markets, Inc.",
+          "insiderName": "Bhatt Baiju",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 6000.0,
+          "pricePerShare": 115.5387,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "HOOD",
+          "issuerName": "Robinhood Markets, Inc.",
+          "insiderName": "Bhatt Baiju",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 116.26,
+          "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "BRFH": {
+      "issuerName": "BARFRESH FOOD GROUP INC.",
+      "trades": [
+        {
+          "ticker": "BRFH",
+          "issuerName": "BARFRESH FOOD GROUP INC.",
+          "insiderName": "Roger Lisa",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6127.0,
+          "pricePerShare": 1.22,
+          "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "FLNT": {
+      "issuerName": "Fluent, Inc.",
+      "trades": [
+        {
+          "ticker": "FLNT",
+          "issuerName": "Fluent, Inc.",
+          "insiderName": "Graff David Allen",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 3.0,
+          "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "INGM": {
+      "issuerName": "Ingram Micro Holding Corp",
+      "trades": [
+        {
+          "ticker": "INGM",
+          "issuerName": "Ingram Micro Holding Corp",
+          "insiderName": "PLATINUM EQUITY, LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13125000.0,
+          "pricePerShare": 27.188,
+          "transactionDate": "2026-09-10"
+        }
+      ]
+    },
     "AVBH": {
       "issuerName": "Avidbank Holdings, Inc.",
       "trades": [
@@ -39527,81 +39967,6 @@
           "shares": 135.0,
           "pricePerShare": 7.245,
           "transactionDate": "2026-08-27"
-        }
-      ]
-    },
-    "CHYM": {
-      "issuerName": "Chime Financial, Inc.",
-      "trades": [
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "King Ryan A",
-          "title": "Director, Co-Founder",
-          "type": "Sale",
-          "shares": 42421.0,
-          "pricePerShare": 35.1476,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "Asmerom Amine",
-          "title": "Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 10000.0,
-          "pricePerShare": 32.5428,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "Asmerom Amine",
-          "title": "Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 9505.0,
-          "pricePerShare": 33.3615,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "Britt Christopher R",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 166546.0,
-          "pricePerShare": 31.9084,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "Britt Christopher R",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 33454.0,
-          "pricePerShare": 32.6656,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "Britt Christopher R",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 11382.0,
-          "pricePerShare": 34.0,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "CHYM",
-          "issuerName": "Chime Financial, Inc.",
-          "insiderName": "Britt Christopher R",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 88618.0,
-          "pricePerShare": 34.0295,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -46257,16 +46622,6 @@
           "shares": 233624.0,
           "pricePerShare": 9.12,
           "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "SUJA",
-          "issuerName": "SUJA LIFE, INC.",
-          "insiderName": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 233624.0,
-          "pricePerShare": 9.59,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -49972,26 +50327,6 @@
           "shares": 3271.0,
           "pricePerShare": 82.5396,
           "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McVeety Kristen J",
-          "title": "GC and Secretary",
-          "type": "Sale",
-          "shares": 724.0,
-          "pricePerShare": 87.3888,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "CRWV",
-          "issuerName": "CoreWeave, Inc.",
-          "insiderName": "McVeety Kristen J",
-          "title": "GC and Secretary",
-          "type": "Sale",
-          "shares": 1144.0,
-          "pricePerShare": 88.1822,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -50951,16 +51286,6 @@
           "type": "Sale",
           "shares": 85973.0,
           "pricePerShare": 6.8607,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "STUB",
-          "issuerName": "StubHub Holdings, Inc.",
-          "insiderName": "Streams Mark",
-          "title": "Director, See Remarks",
-          "type": "Sale",
-          "shares": 2530.0,
-          "pricePerShare": 6.88,
           "transactionDate": "2026-08-26"
         }
       ]
@@ -53092,16 +53417,6 @@
           "shares": 4283.0,
           "pricePerShare": 1.1775,
           "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "PLBY",
-          "issuerName": "Playboy, Inc.",
-          "insiderName": "Edmonds Tracey E",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 16558.0,
-          "pricePerShare": 1.211,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -55047,36 +55362,6 @@
           "shares": 6174.0,
           "pricePerShare": 62.6066,
           "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "TXG",
-          "issuerName": "10x Genomics, Inc.",
-          "insiderName": "Saxonov Serge",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3500.0,
-          "pricePerShare": 63.0229,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "TXG",
-          "issuerName": "10x Genomics, Inc.",
-          "insiderName": "Saxonov Serge",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6494.0,
-          "pricePerShare": 63.9768,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "TXG",
-          "issuerName": "10x Genomics, Inc.",
-          "insiderName": "Saxonov Serge",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 492.0,
-          "pricePerShare": 64.7465,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -56197,16 +56482,6 @@
           "shares": 18436.0,
           "pricePerShare": 24.0,
           "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "MGNI",
-          "issuerName": "MAGNITE, INC.",
-          "insiderName": "Harden Sarah Patricia",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 30550.0,
-          "pricePerShare": 23.31,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -56382,91 +56657,6 @@
           "shares": 1000.0,
           "pricePerShare": 62.315,
           "transactionDate": "2026-09-02"
-        }
-      ]
-    },
-    "IBTA": {
-      "issuerName": "Ibotta, Inc.",
-      "trades": [
-        {
-          "ticker": "IBTA",
-          "issuerName": "Ibotta, Inc.",
-          "insiderName": "Daspit Marisa",
-          "title": "CHIEF PEOPLE OFFICER",
-          "type": "Sale",
-          "shares": 1779.0,
-          "pricePerShare": 37.2462,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "IBTA",
-          "issuerName": "Ibotta, Inc.",
-          "insiderName": "Daspit Marisa",
-          "title": "CHIEF PEOPLE OFFICER",
-          "type": "Sale",
-          "shares": 1177.0,
-          "pricePerShare": 37.7777,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "IBTA",
-          "issuerName": "Ibotta, Inc.",
-          "insiderName": "Swanson Luke Roy",
-          "title": "CHIEF TECHNOLOGY OFFICER",
-          "type": "Sale",
-          "shares": 2858.0,
-          "pricePerShare": 36.6223,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "IBTA",
-          "issuerName": "Ibotta, Inc.",
-          "insiderName": "Swanson Luke Roy",
-          "title": "CHIEF TECHNOLOGY OFFICER",
-          "type": "Sale",
-          "shares": 3082.0,
-          "pricePerShare": 37.2813,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "IBTA",
-          "issuerName": "Ibotta, Inc.",
-          "insiderName": "Swanson Luke Roy",
-          "title": "CHIEF TECHNOLOGY OFFICER",
-          "type": "Sale",
-          "shares": 2858.0,
-          "pricePerShare": 36.629,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "IBTA",
-          "issuerName": "Ibotta, Inc.",
-          "insiderName": "Swanson Luke Roy",
-          "title": "CHIEF TECHNOLOGY OFFICER",
-          "type": "Sale",
-          "shares": 3082.0,
-          "pricePerShare": 37.2962,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "IBTA",
-          "issuerName": "Ibotta, Inc.",
-          "insiderName": "Daspit Marisa",
-          "title": "CHIEF PEOPLE OFFICER",
-          "type": "Sale",
-          "shares": 802.0,
-          "pricePerShare": 36.6617,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "IBTA",
-          "issuerName": "Ibotta, Inc.",
-          "insiderName": "Daspit Marisa",
-          "title": "CHIEF PEOPLE OFFICER",
-          "type": "Sale",
-          "shares": 910.0,
-          "pricePerShare": 37.309,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -58537,16 +58727,6 @@
           "shares": 1034.0,
           "pricePerShare": 48.35,
           "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "PLSE",
-          "issuerName": "PULSE BIOSCIENCES, INC.",
-          "insiderName": "Teplitsky Liane Rae",
-          "title": "Chief Operating Officer",
-          "type": "Purchase",
-          "shares": 1036.0,
-          "pricePerShare": 48.235,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -58782,16 +58962,6 @@
           "shares": 7500.0,
           "pricePerShare": 9.31,
           "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "CPSS",
-          "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
-          "insiderName": "BRADLEY CHARLES E JR",
-          "title": "Director, CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 125000.0,
-          "pricePerShare": 9.46,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -60940,21 +61110,6 @@
         }
       ]
     },
-    "BKSY": {
-      "issuerName": "BlackSky Technology Inc.",
-      "trades": [
-        {
-          "ticker": "BKSY",
-          "issuerName": "BlackSky Technology Inc.",
-          "insiderName": "Dubois Henry Edward",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 4000.0,
-          "pricePerShare": 23.78,
-          "transactionDate": "2026-08-28"
-        }
-      ]
-    },
     "GOOGL": {
       "issuerName": "Alphabet Inc.",
       "trades": [
@@ -62222,26 +62377,6 @@
           "shares": 14400.0,
           "pricePerShare": 1.31,
           "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "BATL",
-          "issuerName": "BATTALION OIL CORP",
-          "insiderName": "ROGERS WILLIAM D",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 70000.0,
-          "pricePerShare": 1.3024,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "BATL",
-          "issuerName": "BATTALION OIL CORP",
-          "insiderName": "Mayer Walter R",
-          "title": "SVP, General Counsel",
-          "type": "Sale",
-          "shares": 6479.0,
-          "pricePerShare": 1.302,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -62296,16 +62431,6 @@
           "type": "Sale",
           "shares": 30000.0,
           "pricePerShare": 44.2613,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "GSL",
-          "issuerName": "Global Ship Lease, Inc.",
-          "insiderName": "Psaropoulos Anastasios",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1670.0,
-          "pricePerShare": 45.03,
           "transactionDate": "2026-08-26"
         }
       ]
@@ -63027,66 +63152,6 @@
           "shares": 1.0,
           "pricePerShare": 111.26,
           "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "MNPR",
-          "issuerName": "Monopar Therapeutics",
-          "insiderName": "Tsuchimoto Kim R",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 485.0,
-          "pricePerShare": 108.83,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "MNPR",
-          "issuerName": "Monopar Therapeutics",
-          "insiderName": "Tsuchimoto Kim R",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 615.0,
-          "pricePerShare": 109.56,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "MNPR",
-          "issuerName": "Monopar Therapeutics",
-          "insiderName": "Tsuchimoto Kim R",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 700.0,
-          "pricePerShare": 110.65,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "MNPR",
-          "issuerName": "Monopar Therapeutics",
-          "insiderName": "Tsuchimoto Kim R",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1098.0,
-          "pricePerShare": 111.84,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "MNPR",
-          "issuerName": "Monopar Therapeutics",
-          "insiderName": "Tsuchimoto Kim R",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 602.0,
-          "pricePerShare": 112.93,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "MNPR",
-          "issuerName": "Monopar Therapeutics",
-          "insiderName": "Tsuchimoto Kim R",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 590.0,
-          "pricePerShare": 113.84,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -63216,21 +63281,6 @@
           "type": "Sale",
           "shares": 9615.0,
           "pricePerShare": 26.0,
-          "transactionDate": "2026-08-26"
-        }
-      ]
-    },
-    "PGEN": {
-      "issuerName": "PRECIGEN, INC.",
-      "trades": [
-        {
-          "ticker": "PGEN",
-          "issuerName": "PRECIGEN, INC.",
-          "insiderName": "KINDLER JEFFREY B",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 185000.0,
-          "pricePerShare": 7.44,
           "transactionDate": "2026-08-26"
         }
       ]
@@ -64554,6 +64604,7 @@
       "0000897069-26-001770",
       "0000897069-26-001772",
       "0000897069-26-001774",
+      "0000897069-26-001776",
       "0000897077-26-000098",
       "0000897101-26-000338",
       "0000898243-26-000015",
@@ -64900,6 +64951,8 @@
       "0000929638-26-003412",
       "0000929638-26-003466",
       "0000929638-26-003494",
+      "0000929638-26-003525",
+      "0000929638-26-003526",
       "0000930413-26-002107",
       "0000930413-26-002108",
       "0000930413-26-002187",
@@ -66244,6 +66297,7 @@
       "0000950142-26-002521",
       "0000950142-26-002530",
       "0000950142-26-002533",
+      "0000950142-26-002545",
       "0000950157-26-000824",
       "0000950157-26-000871",
       "0000950157-26-000873",
@@ -67802,6 +67856,11 @@
       "0001104659-26-107479",
       "0001104659-26-107481",
       "0001104659-26-107483",
+      "0001104659-26-107514",
+      "0001104659-26-107516",
+      "0001104659-26-107518",
+      "0001104659-26-107519",
+      "0001104659-26-107521",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68033,6 +68092,10 @@
       "0001114446-26-006549",
       "0001114446-26-006550",
       "0001114446-26-006551",
+      "0001114446-26-006553",
+      "0001114446-26-006554",
+      "0001114446-26-006555",
+      "0001114446-26-006556",
       "0001116233-26-000003",
       "0001120545-26-000004",
       "0001123292-26-001022",
@@ -72706,6 +72769,8 @@
       "0001193125-26-390508",
       "0001193125-26-390509",
       "0001193125-26-390510",
+      "0001193125-26-390659",
+      "0001193125-26-390663",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74276,6 +74341,9 @@
       "0001213900-26-099688",
       "0001213900-26-099692",
       "0001213900-26-099694",
+      "0001213900-26-099741",
+      "0001213900-26-099743",
+      "0001213900-26-099752",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -74638,6 +74706,7 @@
       "0001214659-26-011660",
       "0001214659-26-011661",
       "0001214659-26-011662",
+      "0001214659-26-011667",
       "0001214736-26-000002",
       "0001214993-26-000004",
       "0001215135-26-000012",
@@ -74650,6 +74719,7 @@
       "0001216725-26-000012",
       "0001217074-26-000006",
       "0001217081-26-000005",
+      "0001217124-26-000009",
       "0001217147-26-000002",
       "0001217160-26-000064",
       "0001217160-26-000067",
@@ -74900,6 +74970,8 @@
       "0001225208-26-007787",
       "0001225208-26-007790",
       "0001225208-26-007791",
+      "0001225208-26-007795",
+      "0001225208-26-007796",
       "0001225481-26-000006",
       "0001225817-26-000008",
       "0001227384-26-000017",
@@ -75111,6 +75183,7 @@
       "0001286202-26-000006",
       "0001286334-26-000005",
       "0001286737-26-000002",
+      "0001287032-26-000283",
       "0001287040-26-000012",
       "0001287510-26-000007",
       "0001287727-26-000004",
@@ -75312,6 +75385,7 @@
       "0001349330-26-000005",
       "0001349628-26-000003",
       "0001349983-26-000005",
+      "0001349983-26-000009",
       "0001350103-26-000005",
       "0001350761-26-000002",
       "0001351997-26-000004",
@@ -75611,6 +75685,8 @@
       "0001398344-26-016951",
       "0001398344-26-016968",
       "0001399967-26-000002",
+      "0001400954-26-000009",
+      "0001400956-26-000011",
       "0001401257-26-000064",
       "0001401336-26-000020",
       "0001402348-26-000016",
@@ -76134,6 +76210,8 @@
       "0001437749-26-030247",
       "0001437749-26-030248",
       "0001437749-26-030276",
+      "0001437749-26-030332",
+      "0001437749-26-030334",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -76539,6 +76617,7 @@
       "0001475597-26-000239",
       "0001475856-26-000004",
       "0001475922-26-000074",
+      "0001475922-26-000076",
       "0001476150-26-000036",
       "0001476150-26-000041",
       "0001476150-26-000043",
@@ -77124,6 +77203,7 @@
       "0001493152-26-042518",
       "0001493152-26-042521",
       "0001493152-26-042536",
+      "0001493152-26-042589",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -77492,6 +77572,7 @@
       "0001539497-26-002267",
       "0001539497-26-002280",
       "0001539497-26-002324",
+      "0001539497-26-002507",
       "0001539796-26-000019",
       "0001539838-26-000139",
       "0001539838-26-000147",
@@ -78941,6 +79022,11 @@
       "0001628280-26-061802",
       "0001628280-26-061804",
       "0001628280-26-061806",
+      "0001628280-26-061855",
+      "0001628280-26-061858",
+      "0001628280-26-061859",
+      "0001628280-26-061864",
+      "0001628280-26-061865",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -79407,6 +79493,7 @@
       "0001697851-26-000015",
       "0001697904-26-000007",
       "0001697936-26-000002",
+      "0001698040-26-000006",
       "0001698998-26-000004",
       "0001699291-26-000006",
       "0001699291-26-000008",
@@ -79674,6 +79761,7 @@
       "0001753159-26-000018",
       "0001753234-26-000006",
       "0001753516-26-000006",
+      "0001753539-26-000145",
       "0001753926-26-001207",
       "0001753926-26-001209",
       "0001753926-26-001217",
@@ -80026,6 +80114,7 @@
       "0001791187-26-000008",
       "0001791477-26-000001",
       "0001791816-26-000023",
+      "0001791883-26-000003",
       "0001791946-26-000004",
       "0001792236-26-000002",
       "0001792380-26-000002",
@@ -80115,6 +80204,7 @@
       "0001808968-26-000017",
       "0001809519-26-000163",
       "0001809519-26-000165",
+      "0001809523-26-000012",
       "0001810019-26-000103",
       "0001810019-26-000104",
       "0001810019-26-000105",
@@ -80191,6 +80281,7 @@
       "0001819848-26-000444",
       "0001820263-26-000010",
       "0001820447-26-000004",
+      "0001820725-26-000006",
       "0001820885-26-000016",
       "0001820885-26-000018",
       "0001820885-26-000020",
@@ -83357,6 +83448,7 @@
       "0001839882-26-045384",
       "0001839882-26-045385",
       "0001839882-26-045386",
+      "0001839882-26-045394",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -83523,6 +83615,7 @@
       "0001865200-26-000083",
       "0001865418-26-000007",
       "0001865418-26-000010",
+      "0001865965-26-000008",
       "0001866018-26-000017",
       "0001866018-26-000020",
       "0001866161-26-000004",
@@ -83551,6 +83644,7 @@
       "0001870473-26-000028",
       "0001870488-26-000002",
       "0001870837-26-000003",
+      "0001870914-26-000025",
       "0001870974-26-000008",
       "0001870987-26-000023",
       "0001871423-26-000010",
@@ -83582,6 +83676,7 @@
       "0001878313-26-000084",
       "0001878366-26-000026",
       "0001878376-26-000003",
+      "0001878918-26-000003",
       "0001879101-26-000022",
       "0001879101-26-000024",
       "0001879974-26-000010",
@@ -83680,6 +83775,7 @@
       "0001905272-26-000012",
       "0001905272-26-000014",
       "0001905272-26-000016",
+      "0001905960-26-000003",
       "0001907705-26-000015",
       "0001908422-26-000017",
       "0001908561-26-000012",
@@ -87246,6 +87342,10 @@
       "0001918704-26-027466",
       "0001918704-26-027467",
       "0001918704-26-027468",
+      "0001918704-26-027493",
+      "0001918704-26-027494",
+      "0001918704-26-027495",
+      "0001918704-26-027496",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -87262,6 +87362,7 @@
       "0001923149-26-000006",
       "0001923149-26-000008",
       "0001923149-26-000010",
+      "0001923231-26-000009",
       "0001924412-26-000004",
       "0001924613-26-000037",
       "0001924613-26-000039",
@@ -88798,6 +88899,7 @@
       "0002117905-26-000031",
       "0002117905-26-000032",
       "0002117905-26-000033",
+      "0002117905-26-000034",
       "0002118015-26-000004",
       "0002119220-26-000004",
       "0002119238-26-000005",
