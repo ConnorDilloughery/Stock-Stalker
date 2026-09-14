@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T21:01:22.417611+00:00",
+  "generatedAt": "2026-09-14T22:02:52.078104+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -51,6 +51,16 @@
       "type": "Purchase",
       "shares": 730.0,
       "pricePerShare": 3.8423,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "SGHC",
+      "issuerName": "Super Group (SGHC) Ltd",
+      "insiderName": "Ben David Alon",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 23300.0,
+      "pricePerShare": 13.79,
       "transactionDate": "2026-09-14"
     },
     {
@@ -941,6 +951,56 @@
       "type": "Sale",
       "shares": 5940.0,
       "pricePerShare": 195.21,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "EGHT",
+      "issuerName": "8X8 INC /DE/",
+      "insiderName": "Burton Andrew F.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 107085.0,
+      "pricePerShare": 1.8139,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "CHYM",
+      "issuerName": "Chime Financial, Inc.",
+      "insiderName": "Feuille James",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 97308.0,
+      "pricePerShare": 33.0286,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "CHYM",
+      "issuerName": "Chime Financial, Inc.",
+      "insiderName": "Feuille James",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 161090.0,
+      "pricePerShare": 32.8897,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "ATRC",
+      "issuerName": "AtriCure, Inc.",
+      "insiderName": "GROVES REGINA E",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 5313.0,
+      "pricePerShare": 54.22,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "HG",
+      "issuerName": "Hamilton Insurance Group, Ltd.",
+      "insiderName": "Duffin Timothy James",
+      "title": "Chief Underwriting Officer",
+      "type": "Sale",
+      "shares": 28500.0,
+      "pricePerShare": 34.6871,
       "transactionDate": "2026-09-11"
     },
     {
@@ -2571,6 +2631,36 @@
       "type": "Sale",
       "shares": 13125000.0,
       "pricePerShare": 27.188,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "PGNY",
+      "issuerName": "Progyny, Inc.",
+      "insiderName": "GORDON KEVIN K",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 11500.0,
+      "pricePerShare": 27.9442,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "CHYM",
+      "issuerName": "Chime Financial, Inc.",
+      "insiderName": "Feuille James",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 93492.0,
+      "pricePerShare": 33.1476,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "HG",
+      "issuerName": "Hamilton Insurance Group, Ltd.",
+      "insiderName": "Duffin Timothy James",
+      "title": "Chief Underwriting Officer",
+      "type": "Sale",
+      "shares": 28500.0,
+      "pricePerShare": 34.5327,
       "transactionDate": "2026-09-10"
     },
     {
@@ -29912,96 +30002,6 @@
       "shares": 375.0,
       "pricePerShare": 34.07,
       "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "SNOW",
-      "issuerName": "Snowflake Inc.",
-      "insiderName": "Dageville Benoit",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 50000.0,
-      "pricePerShare": 309.44,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "IHT",
-      "issuerName": "INNSUITES HOSPITALITY TRUST",
-      "insiderName": "WIRTH JAMES F",
-      "title": "President & CEO, 10% Owner",
-      "type": "Sale",
-      "shares": 25000.0,
-      "pricePerShare": 33000.0,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "ABNB",
-      "issuerName": "Airbnb, Inc.",
-      "insiderName": "Blecharczyk Nathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 11860.0,
-      "pricePerShare": 190.2381,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "ABNB",
-      "issuerName": "Airbnb, Inc.",
-      "insiderName": "Blecharczyk Nathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 7199.0,
-      "pricePerShare": 191.4281,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "ABNB",
-      "issuerName": "Airbnb, Inc.",
-      "insiderName": "Blecharczyk Nathan",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 600.0,
-      "pricePerShare": 192.1608,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "PTCT",
-      "issuerName": "PTC THERAPEUTICS, INC.",
-      "insiderName": "SCHMERTZLER MICHAEL",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 6874.0,
-      "pricePerShare": 72.74,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "PTCT",
-      "issuerName": "PTC THERAPEUTICS, INC.",
-      "insiderName": "SCHMERTZLER MICHAEL",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 5626.0,
-      "pricePerShare": 73.18,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "AMBQ",
-      "issuerName": "Ambiq Micro, Inc.",
-      "insiderName": "Hanson Scott McLean",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 27500.0,
-      "pricePerShare": 59.5807,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "JCTC",
-      "issuerName": "JEWETT CAMERON TRADING CO LTD",
-      "insiderName": "AJB Investment Fund II, LP",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 209.0,
-      "pricePerShare": 2.9,
-      "transactionDate": "2026-08-26"
     }
   ],
   "byTicker": {
@@ -30097,6 +30097,21 @@
           "shares": 492.0,
           "pricePerShare": 3.9358,
           "transactionDate": "2026-09-11"
+        }
+      ]
+    },
+    "SGHC": {
+      "issuerName": "Super Group (SGHC) Ltd",
+      "trades": [
+        {
+          "ticker": "SGHC",
+          "issuerName": "Super Group (SGHC) Ltd",
+          "insiderName": "Ben David Alon",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 23300.0,
+          "pricePerShare": 13.79,
+          "transactionDate": "2026-09-14"
         }
       ]
     },
@@ -32506,6 +32521,36 @@
         {
           "ticker": "CHYM",
           "issuerName": "Chime Financial, Inc.",
+          "insiderName": "Feuille James",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 97308.0,
+          "pricePerShare": 33.0286,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "CHYM",
+          "issuerName": "Chime Financial, Inc.",
+          "insiderName": "Feuille James",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 161090.0,
+          "pricePerShare": 32.8897,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "CHYM",
+          "issuerName": "Chime Financial, Inc.",
+          "insiderName": "Feuille James",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 93492.0,
+          "pricePerShare": 33.1476,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "CHYM",
+          "issuerName": "Chime Financial, Inc.",
           "insiderName": "King Ryan A",
           "title": "Director, Co-Founder",
           "type": "Sale",
@@ -32687,6 +32732,91 @@
           "shares": 5940.0,
           "pricePerShare": 195.21,
           "transactionDate": "2026-09-11"
+        }
+      ]
+    },
+    "EGHT": {
+      "issuerName": "8X8 INC /DE/",
+      "trades": [
+        {
+          "ticker": "EGHT",
+          "issuerName": "8X8 INC /DE/",
+          "insiderName": "Burton Andrew F.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 107085.0,
+          "pricePerShare": 1.8139,
+          "transactionDate": "2026-09-11"
+        }
+      ]
+    },
+    "ATRC": {
+      "issuerName": "AtriCure, Inc.",
+      "trades": [
+        {
+          "ticker": "ATRC",
+          "issuerName": "AtriCure, Inc.",
+          "insiderName": "GROVES REGINA E",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 5313.0,
+          "pricePerShare": 54.22,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "ATRC",
+          "issuerName": "AtriCure, Inc.",
+          "insiderName": "Privitera Salvatore",
+          "title": "Chief Technical Officer",
+          "type": "Sale",
+          "shares": 3657.0,
+          "pricePerShare": 55.0,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "ATRC",
+          "issuerName": "AtriCure, Inc.",
+          "insiderName": "Privitera Salvatore",
+          "title": "Chief Technical Officer",
+          "type": "Sale",
+          "shares": 7763.0,
+          "pricePerShare": 52.5,
+          "transactionDate": "2026-09-02"
+        }
+      ]
+    },
+    "HG": {
+      "issuerName": "Hamilton Insurance Group, Ltd.",
+      "trades": [
+        {
+          "ticker": "HG",
+          "issuerName": "Hamilton Insurance Group, Ltd.",
+          "insiderName": "Duffin Timothy James",
+          "title": "Chief Underwriting Officer",
+          "type": "Sale",
+          "shares": 28500.0,
+          "pricePerShare": 34.6871,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "HG",
+          "issuerName": "Hamilton Insurance Group, Ltd.",
+          "insiderName": "Duffin Timothy James",
+          "title": "Chief Underwriting Officer",
+          "type": "Sale",
+          "shares": 28500.0,
+          "pricePerShare": 34.5327,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "HG",
+          "issuerName": "Hamilton Insurance Group, Ltd.",
+          "insiderName": "BROWN DAVID A",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 50000.0,
+          "pricePerShare": 36.1243,
+          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -38305,6 +38435,21 @@
         }
       ]
     },
+    "PGNY": {
+      "issuerName": "Progyny, Inc.",
+      "trades": [
+        {
+          "ticker": "PGNY",
+          "issuerName": "Progyny, Inc.",
+          "insiderName": "GORDON KEVIN K",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 11500.0,
+          "pricePerShare": 27.9442,
+          "transactionDate": "2026-09-10"
+        }
+      ]
+    },
     "AVBH": {
       "issuerName": "Avidbank Holdings, Inc.",
       "trades": [
@@ -40407,16 +40552,6 @@
           "shares": 34005.0,
           "pricePerShare": 353.871,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "SNOW",
-          "issuerName": "Snowflake Inc.",
-          "insiderName": "Dageville Benoit",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 50000.0,
-          "pricePerShare": 309.44,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -48900,31 +49035,6 @@
         }
       ]
     },
-    "ATRC": {
-      "issuerName": "AtriCure, Inc.",
-      "trades": [
-        {
-          "ticker": "ATRC",
-          "issuerName": "AtriCure, Inc.",
-          "insiderName": "Privitera Salvatore",
-          "title": "Chief Technical Officer",
-          "type": "Sale",
-          "shares": 3657.0,
-          "pricePerShare": 55.0,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "ATRC",
-          "issuerName": "AtriCure, Inc.",
-          "insiderName": "Privitera Salvatore",
-          "title": "Chief Technical Officer",
-          "type": "Sale",
-          "shares": 7763.0,
-          "pricePerShare": 52.5,
-          "transactionDate": "2026-09-02"
-        }
-      ]
-    },
     "MCK": {
       "issuerName": "MCKESSON CORP",
       "trades": [
@@ -55365,21 +55475,6 @@
         }
       ]
     },
-    "HG": {
-      "issuerName": "Hamilton Insurance Group, Ltd.",
-      "trades": [
-        {
-          "ticker": "HG",
-          "issuerName": "Hamilton Insurance Group, Ltd.",
-          "insiderName": "BROWN DAVID A",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 50000.0,
-          "pricePerShare": 36.1243,
-          "transactionDate": "2026-09-03"
-        }
-      ]
-    },
     "LGND": {
       "issuerName": "LIGAND PHARMACEUTICALS INC",
       "trades": [
@@ -60252,36 +60347,6 @@
           "shares": 11945.0,
           "pricePerShare": 191.2004,
           "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "ABNB",
-          "issuerName": "Airbnb, Inc.",
-          "insiderName": "Blecharczyk Nathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 11860.0,
-          "pricePerShare": 190.2381,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "ABNB",
-          "issuerName": "Airbnb, Inc.",
-          "insiderName": "Blecharczyk Nathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7199.0,
-          "pricePerShare": 191.4281,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "ABNB",
-          "issuerName": "Airbnb, Inc.",
-          "insiderName": "Blecharczyk Nathan",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 600.0,
-          "pricePerShare": 192.1608,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -61182,16 +61247,6 @@
           "shares": 25000.0,
           "pricePerShare": 32102.45,
           "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "IHT",
-          "issuerName": "INNSUITES HOSPITALITY TRUST",
-          "insiderName": "WIRTH JAMES F",
-          "title": "President & CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 25000.0,
-          "pricePerShare": 33000.0,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -62267,26 +62322,6 @@
           "shares": 610.0,
           "pricePerShare": 72.22,
           "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "PTCT",
-          "issuerName": "PTC THERAPEUTICS, INC.",
-          "insiderName": "SCHMERTZLER MICHAEL",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6874.0,
-          "pricePerShare": 72.74,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "PTCT",
-          "issuerName": "PTC THERAPEUTICS, INC.",
-          "insiderName": "SCHMERTZLER MICHAEL",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5626.0,
-          "pricePerShare": 73.18,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -62312,16 +62347,6 @@
           "shares": 4910.0,
           "pricePerShare": 60.321,
           "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "AMBQ",
-          "issuerName": "Ambiq Micro, Inc.",
-          "insiderName": "Hanson Scott McLean",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 27500.0,
-          "pricePerShare": 59.5807,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -62337,16 +62362,6 @@
           "shares": 2327.0,
           "pricePerShare": 2.9,
           "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "JCTC",
-          "issuerName": "JEWETT CAMERON TRADING CO LTD",
-          "insiderName": "AJB Investment Fund II, LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 209.0,
-          "pricePerShare": 2.9,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -64220,6 +64235,7 @@
       "0000789019-26-000206",
       "0000789019-26-000207",
       "0000789019-26-000208",
+      "0000789570-26-000077",
       "0000790359-26-000059",
       "0000790359-26-000060",
       "0000792394-26-000046",
@@ -64710,6 +64726,17 @@
       "0000905148-26-004111",
       "0000905148-26-004136",
       "0000905148-26-004141",
+      "0000905148-26-004181",
+      "0000905148-26-004182",
+      "0000905148-26-004183",
+      "0000905148-26-004184",
+      "0000905148-26-004185",
+      "0000905148-26-004186",
+      "0000905148-26-004187",
+      "0000905148-26-004188",
+      "0000905148-26-004189",
+      "0000905148-26-004190",
+      "0000905148-26-004191",
       "0000906107-26-000049",
       "0000906107-26-000050",
       "0000906107-26-000051",
@@ -66335,6 +66362,7 @@
       "0001011438-26-000460",
       "0001011438-26-000482",
       "0001011438-26-000483",
+      "0001011438-26-000569",
       "0001012975-26-000796",
       "0001012975-26-000802",
       "0001012975-26-000803",
@@ -66405,6 +66433,7 @@
       "0001023731-26-000122",
       "0001023731-26-000124",
       "0001023731-26-000134",
+      "0001023731-26-000151",
       "0001024547-26-000012",
       "0001025355-26-000006",
       "0001025835-26-000177",
@@ -67861,6 +67890,14 @@
       "0001104659-26-107518",
       "0001104659-26-107519",
       "0001104659-26-107521",
+      "0001104659-26-107570",
+      "0001104659-26-107573",
+      "0001104659-26-107575",
+      "0001104659-26-107576",
+      "0001104659-26-107577",
+      "0001104659-26-107579",
+      "0001104659-26-107580",
+      "0001104659-26-107581",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68203,6 +68240,7 @@
       "0001137360-26-000855",
       "0001137360-26-000872",
       "0001137774-26-000193",
+      "0001137774-26-000204",
       "0001137789-26-000173",
       "0001137789-26-000196",
       "0001137789-26-000197",
@@ -72771,6 +72809,9 @@
       "0001193125-26-390510",
       "0001193125-26-390659",
       "0001193125-26-390663",
+      "0001193125-26-390837",
+      "0001193125-26-390839",
+      "0001193125-26-390840",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74972,6 +75013,8 @@
       "0001225208-26-007791",
       "0001225208-26-007795",
       "0001225208-26-007796",
+      "0001225208-26-007809",
+      "0001225208-26-007810",
       "0001225481-26-000006",
       "0001225817-26-000008",
       "0001227384-26-000017",
@@ -75307,6 +75350,7 @@
       "0001317406-26-000004",
       "0001317498-26-000011",
       "0001317945-26-000011",
+      "0001318214-26-000006",
       "0001318285-26-000017",
       "0001318349-26-000015",
       "0001318349-26-000017",
@@ -75757,6 +75801,7 @@
       "0001422283-26-000002",
       "0001422978-26-000016",
       "0001423238-26-000008",
+      "0001424543-26-000008",
       "0001427531-26-000005",
       "0001428849-26-000011",
       "0001429897-26-000004",
@@ -75799,6 +75844,7 @@
       "0001435430-26-000006",
       "0001435648-26-000031",
       "0001436125-26-000007",
+      "0001436125-26-000009",
       "0001436126-26-000096",
       "0001436425-26-000072",
       "0001436425-26-000074",
@@ -76215,6 +76261,7 @@
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
+      "0001441386-26-000007",
       "0001441619-26-000007",
       "0001441890-26-000005",
       "0001443483-26-000004",
@@ -77204,6 +77251,7 @@
       "0001493152-26-042521",
       "0001493152-26-042536",
       "0001493152-26-042589",
+      "0001493152-26-042620",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -77637,6 +77685,7 @@
       "0001549373-26-000012",
       "0001550030-26-000006",
       "0001550220-26-000002",
+      "0001551306-26-000152",
       "0001552781-26-000400",
       "0001552781-26-000403",
       "0001552781-26-000455",
@@ -77735,6 +77784,7 @@
       "0001573338-26-000015",
       "0001573338-26-000016",
       "0001573338-26-000017",
+      "0001573449-26-000007",
       "0001573461-26-000004",
       "0001573461-26-000005",
       "0001573516-26-000174",
@@ -78170,6 +78220,7 @@
       "0001624067-26-000006",
       "0001624067-26-000008",
       "0001624651-26-000041",
+      "0001625057-26-000006",
       "0001625641-26-000156",
       "0001626201-26-000018",
       "0001626201-26-000019",
@@ -79165,6 +79216,7 @@
       "0001653558-26-000114",
       "0001653558-26-000116",
       "0001653558-26-000118",
+      "0001653877-26-000006",
       "0001654733-26-000010",
       "0001654770-26-000002",
       "0001654954-26-006801",
@@ -79253,6 +79305,7 @@
       "0001662962-26-000002",
       "0001662962-26-000004",
       "0001662982-26-000002",
+      "0001662991-26-000156",
       "0001663095-26-000005",
       "0001663307-26-000010",
       "0001663307-26-000012",
@@ -79279,6 +79332,7 @@
       "0001669866-26-000010",
       "0001669918-26-000003",
       "0001670021-26-000004",
+      "0001671688-26-000008",
       "0001672659-26-000036",
       "0001672688-26-000129",
       "0001672688-26-000138",
@@ -79299,6 +79353,7 @@
       "0001675644-26-000085",
       "0001675948-26-000005",
       "0001675948-26-000006",
+      "0001676220-26-000007",
       "0001676421-26-000002",
       "0001677703-26-000106",
       "0001677721-26-000014",
@@ -79312,6 +79367,7 @@
       "0001680691-26-000003",
       "0001680767-26-000007",
       "0001680979-26-000008",
+      "0001681150-26-000008",
       "0001681329-26-000006",
       "0001682852-26-000161",
       "0001682852-26-000163",
@@ -79546,6 +79602,7 @@
       "0001708636-26-000004",
       "0001709048-26-000221",
       "0001709164-26-000161",
+      "0001709183-26-000008",
       "0001709352-26-000008",
       "0001709430-26-000008",
       "0001709934-26-000015",
@@ -83703,6 +83760,7 @@
       "0001886794-26-000008",
       "0001886794-26-000010",
       "0001886794-26-000012",
+      "0001887446-26-000010",
       "0001887601-26-000006",
       "0001888679-26-000003",
       "0001888935-26-000015",
@@ -83727,6 +83785,7 @@
       "0001895111-26-000015",
       "0001895111-26-000017",
       "0001895148-26-000015",
+      "0001895148-26-000016",
       "0001896086-26-000010",
       "0001896086-26-000012",
       "0001896086-26-000014",
@@ -87391,6 +87450,7 @@
       "0001932848-26-000017",
       "0001932848-26-000019",
       "0001932878-26-000002",
+      "0001932967-26-000007",
       "0001933414-26-000118",
       "0001933414-26-000120",
       "0001933750-26-000003",
@@ -88374,6 +88434,7 @@
       "0002028403-26-000014",
       "0002028977-26-000015",
       "0002028977-26-000017",
+      "0002029059-26-000010",
       "0002029118-26-000104",
       "0002029760-26-000001",
       "0002029760-26-000003",
@@ -88777,6 +88838,7 @@
       "0002088869-26-000001",
       "0002088880-26-000006",
       "0002088887-26-000007",
+      "0002089073-26-000008",
       "0002089263-26-000012",
       "0002089263-26-000014",
       "0002089362-26-000016",
@@ -88788,7 +88850,9 @@
       "0002090083-26-000021",
       "0002090733-26-000009",
       "0002091022-26-000010",
+      "0002091404-26-000008",
       "0002091730-26-000010",
+      "0002091730-26-000013",
       "0002091734-26-000006",
       "0002092210-26-000015",
       "0002092575-26-000010",
@@ -88800,6 +88864,7 @@
       "0002093121-26-000005",
       "0002093167-26-000009",
       "0002093210-26-000002",
+      "0002094343-26-000008",
       "0002094623-26-000002",
       "0002094759-26-000002",
       "0002094859-26-000002",
