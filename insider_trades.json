@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T12:02:13.254646+00:00",
+  "generatedAt": "2026-09-14T13:01:32.225730+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -611,6 +611,26 @@
       "type": "Purchase",
       "shares": 1000.0,
       "pricePerShare": 10.08,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "HIT",
+      "issuerName": "Health In Tech, Inc.",
+      "insiderName": "Hasan Zain Syed",
+      "title": "Chief Growth Officer",
+      "type": "Sale",
+      "shares": 11667.0,
+      "pricePerShare": 0.92,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "HLMN",
+      "issuerName": "Hillman Solutions Corp.",
+      "insiderName": "Kraft Robert O.",
+      "title": "CFO and Treasurer",
+      "type": "Purchase",
+      "shares": 35500.0,
+      "pricePerShare": 7.0,
       "transactionDate": "2026-09-11"
     },
     {
@@ -1831,6 +1851,26 @@
       "type": "Purchase",
       "shares": 10000.0,
       "pricePerShare": 0.78,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 11765.0,
+      "pricePerShare": 114.21,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 1535.0,
+      "pricePerShare": 115.16,
       "transactionDate": "2026-09-10"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 5000.0,
       "pricePerShare": 102.255,
       "transactionDate": "2026-08-25"
-    },
-    {
-      "ticker": "MBC",
-      "issuerName": "MasterBrand, Inc.",
-      "insiderName": "Young Mark A.",
-      "title": "VP, Chief Accounting Officer",
-      "type": "Sale",
-      "shares": 3057.0,
-      "pricePerShare": 9.15,
-      "transactionDate": "2026-08-25"
-    },
-    {
-      "ticker": "MBC",
-      "issuerName": "MasterBrand, Inc.",
-      "insiderName": "Young Mark A.",
-      "title": "VP, Chief Accounting Officer",
-      "type": "Sale",
-      "shares": 2943.0,
-      "pricePerShare": 9.15,
-      "transactionDate": "2026-08-25"
-    },
-    {
-      "ticker": "AMRZ",
-      "issuerName": "Amrize Ltd",
-      "insiderName": "Singleton Denise R",
-      "title": "Chief Legal Officer & Corp Sec",
-      "type": "Purchase",
-      "shares": 3500.0,
-      "pricePerShare": 44.115,
-      "transactionDate": "2026-08-25"
-    },
-    {
-      "ticker": "TPL",
-      "issuerName": "Texas Pacific Land Corp",
-      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 1.0,
-      "pricePerShare": 372.58,
-      "transactionDate": "2026-08-25"
     }
   ],
   "byTicker": {
@@ -31426,6 +31426,16 @@
         {
           "ticker": "HIT",
           "issuerName": "Health In Tech, Inc.",
+          "insiderName": "Hasan Zain Syed",
+          "title": "Chief Growth Officer",
+          "type": "Sale",
+          "shares": 11667.0,
+          "pricePerShare": 0.92,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "HIT",
+          "issuerName": "Health In Tech, Inc.",
           "insiderName": "Hayes Timothy",
           "title": "Director",
           "type": "Sale",
@@ -31507,6 +31517,31 @@
           "shares": 1000.0,
           "pricePerShare": 10.08,
           "transactionDate": "2026-09-11"
+        }
+      ]
+    },
+    "HLMN": {
+      "issuerName": "Hillman Solutions Corp.",
+      "trades": [
+        {
+          "ticker": "HLMN",
+          "issuerName": "Hillman Solutions Corp.",
+          "insiderName": "Kraft Robert O.",
+          "title": "CFO and Treasurer",
+          "type": "Purchase",
+          "shares": 35500.0,
+          "pricePerShare": 7.0,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "HLMN",
+          "issuerName": "Hillman Solutions Corp.",
+          "insiderName": "Kitzberger Amanda",
+          "title": "Chief Leg. Offic. & Secretary",
+          "type": "Sale",
+          "shares": 13750.0,
+          "pricePerShare": 7.25,
+          "transactionDate": "2026-09-09"
         }
       ]
     },
@@ -34237,16 +34272,6 @@
           "shares": 1.0,
           "pricePerShare": 375.0,
           "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 372.58,
-          "transactionDate": "2026-08-25"
         }
       ]
     },
@@ -36815,6 +36840,151 @@
         }
       ]
     },
+    "AFL": {
+      "issuerName": "AFLAC INC",
+      "trades": [
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 11765.0,
+          "pricePerShare": 114.21,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1535.0,
+          "pricePerShare": 115.16,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 11500.0,
+          "pricePerShare": 115.32,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2100.0,
+          "pricePerShare": 116.11,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 14850.0,
+          "pricePerShare": 117.46,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 150.0,
+          "pricePerShare": 118.17,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 118.49,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13500.0,
+          "pricePerShare": 117.19,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 8670.0,
+          "pricePerShare": 115.65,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4130.0,
+          "pricePerShare": 116.01,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12700.0,
+          "pricePerShare": 116.0,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13000.0,
+          "pricePerShare": 116.52,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12260.0,
+          "pricePerShare": 116.65,
+          "transactionDate": "2026-08-27"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 440.0,
+          "pricePerShare": 117.25,
+          "transactionDate": "2026-08-27"
+        }
+      ]
+    },
     "AVBH": {
       "issuerName": "Avidbank Holdings, Inc.",
       "trades": [
@@ -38392,21 +38562,6 @@
           "shares": 4749.0,
           "pricePerShare": 73.48,
           "transactionDate": "2026-09-08"
-        }
-      ]
-    },
-    "HLMN": {
-      "issuerName": "Hillman Solutions Corp.",
-      "trades": [
-        {
-          "ticker": "HLMN",
-          "issuerName": "Hillman Solutions Corp.",
-          "insiderName": "Kitzberger Amanda",
-          "title": "Chief Leg. Offic. & Secretary",
-          "type": "Sale",
-          "shares": 13750.0,
-          "pricePerShare": 7.25,
-          "transactionDate": "2026-09-09"
         }
       ]
     },
@@ -47830,131 +47985,6 @@
         }
       ]
     },
-    "AFL": {
-      "issuerName": "AFLAC INC",
-      "trades": [
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 11500.0,
-          "pricePerShare": 115.32,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2100.0,
-          "pricePerShare": 116.11,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 14850.0,
-          "pricePerShare": 117.46,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 150.0,
-          "pricePerShare": 118.17,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 20000.0,
-          "pricePerShare": 118.49,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13500.0,
-          "pricePerShare": 117.19,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 8670.0,
-          "pricePerShare": 115.65,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4130.0,
-          "pricePerShare": 116.01,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12700.0,
-          "pricePerShare": 116.0,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13000.0,
-          "pricePerShare": 116.52,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12260.0,
-          "pricePerShare": 116.65,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 440.0,
-          "pricePerShare": 117.25,
-          "transactionDate": "2026-08-27"
-        }
-      ]
-    },
     "MCK": {
       "issuerName": "MCKESSON CORP",
       "trades": [
@@ -55336,16 +55366,6 @@
           "type": "Purchase",
           "shares": 1500.0,
           "pricePerShare": 44.15,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "AMRZ",
-          "issuerName": "Amrize Ltd",
-          "insiderName": "Singleton Denise R",
-          "title": "Chief Legal Officer & Corp Sec",
-          "type": "Purchase",
-          "shares": 3500.0,
-          "pricePerShare": 44.115,
           "transactionDate": "2026-08-25"
         }
       ]
@@ -63219,31 +63239,6 @@
           "transactionDate": "2026-08-25"
         }
       ]
-    },
-    "MBC": {
-      "issuerName": "MasterBrand, Inc.",
-      "trades": [
-        {
-          "ticker": "MBC",
-          "issuerName": "MasterBrand, Inc.",
-          "insiderName": "Young Mark A.",
-          "title": "VP, Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 3057.0,
-          "pricePerShare": 9.15,
-          "transactionDate": "2026-08-25"
-        },
-        {
-          "ticker": "MBC",
-          "issuerName": "MasterBrand, Inc.",
-          "insiderName": "Young Mark A.",
-          "title": "VP, Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 2943.0,
-          "pricePerShare": 9.15,
-          "transactionDate": "2026-08-25"
-        }
-      ]
     }
   },
   "_meta": {
@@ -66178,6 +66173,10 @@
       "0000950103-26-013853",
       "0000950103-26-013860",
       "0000950103-26-013863",
+      "0000950103-26-013870",
+      "0000950103-26-013871",
+      "0000950103-26-013872",
+      "0000950103-26-013873",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -67734,6 +67733,7 @@
       "0001104659-26-107178",
       "0001104659-26-107179",
       "0001104659-26-107224",
+      "0001104659-26-107303",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -72582,6 +72582,11 @@
       "0001193125-26-389782",
       "0001193125-26-389786",
       "0001193125-26-389787",
+      "0001193125-26-389887",
+      "0001193125-26-389888",
+      "0001193125-26-389889",
+      "0001193125-26-389890",
+      "0001193125-26-389892",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74121,6 +74126,8 @@
       "0001213900-26-099455",
       "0001213900-26-099456",
       "0001213900-26-099457",
+      "0001213900-26-099464",
+      "0001213900-26-099471",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -77383,6 +77390,7 @@
       "0001557288-26-000012",
       "0001558242-26-000020",
       "0001558259-26-000020",
+      "0001558592-26-000012",
       "0001559334-26-000006",
       "0001559334-26-000010",
       "0001559495-26-000060",
@@ -78716,6 +78724,14 @@
       "0001628280-26-061626",
       "0001628280-26-061673",
       "0001628280-26-061674",
+      "0001628280-26-061685",
+      "0001628280-26-061691",
+      "0001628280-26-061692",
+      "0001628280-26-061693",
+      "0001628280-26-061694",
+      "0001628280-26-061697",
+      "0001628280-26-061698",
+      "0001628280-26-061699",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -83054,6 +83070,8 @@
       "0001839882-26-045187",
       "0001839882-26-045188",
       "0001839882-26-045189",
+      "0001839882-26-045210",
+      "0001839882-26-045211",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -86859,6 +86877,10 @@
       "0001918704-26-027335",
       "0001918704-26-027336",
       "0001918704-26-027339",
+      "0001918704-26-027347",
+      "0001918704-26-027348",
+      "0001918704-26-027349",
+      "0001918704-26-027350",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
