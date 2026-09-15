@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T18:04:47.111411+00:00",
+  "generatedAt": "2026-09-15T19:06:13.605717+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -731,6 +731,26 @@
       "type": "Purchase",
       "shares": 756.0,
       "pricePerShare": 3.05,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "BELFB",
+      "issuerName": "BEL FUSE INC /NJ",
+      "insiderName": "Vellucci Vincent",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1000.0,
+      "pricePerShare": 235.15,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "BRID",
+      "issuerName": "BRIDGFORD FOODS CORP",
+      "insiderName": "Bridgford Allan Jr.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 13.0,
+      "pricePerShare": 5.95,
       "transactionDate": "2026-09-14"
     },
     {
@@ -2111,6 +2131,16 @@
       "type": "Sale",
       "shares": 1500.0,
       "pricePerShare": 48.405,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "PHVS",
+      "issuerName": "Pharvaris N.V.",
+      "insiderName": "Lu Peng",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 15000.0,
+      "pricePerShare": 40.1298,
       "transactionDate": "2026-09-11"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 120.0,
       "pricePerShare": 218.34,
       "transactionDate": "2026-08-27"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 480.0,
-      "pricePerShare": 219.39,
-      "transactionDate": "2026-08-27"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 320.0,
-      "pricePerShare": 220.61,
-      "transactionDate": "2026-08-27"
-    },
-    {
-      "ticker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "insiderName": "Kurtz George",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 760.0,
-      "pricePerShare": 221.58,
-      "transactionDate": "2026-08-27"
     }
   ],
   "byTicker": {
@@ -32397,6 +32397,56 @@
           "shares": 756.0,
           "pricePerShare": 2.94,
           "transactionDate": "2026-08-27"
+        }
+      ]
+    },
+    "BELFB": {
+      "issuerName": "BEL FUSE INC /NJ",
+      "trades": [
+        {
+          "ticker": "BELFB",
+          "issuerName": "BEL FUSE INC /NJ",
+          "insiderName": "Vellucci Vincent",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 235.15,
+          "transactionDate": "2026-09-14"
+        }
+      ]
+    },
+    "BRID": {
+      "issuerName": "BRIDGFORD FOODS CORP",
+      "trades": [
+        {
+          "ticker": "BRID",
+          "issuerName": "BRIDGFORD FOODS CORP",
+          "insiderName": "Bridgford Allan Jr.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 13.0,
+          "pricePerShare": 5.95,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "BRID",
+          "issuerName": "BRIDGFORD FOODS CORP",
+          "insiderName": "Bridgford Allan Jr.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 466.0,
+          "pricePerShare": 5.83,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "BRID",
+          "issuerName": "BRIDGFORD FOODS CORP",
+          "insiderName": "Bridgford Baron",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 473.0,
+          "pricePerShare": 6.15,
+          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -35537,6 +35587,41 @@
           "shares": 600.0,
           "pricePerShare": 18.0,
           "transactionDate": "2026-08-28"
+        }
+      ]
+    },
+    "PHVS": {
+      "issuerName": "Pharvaris N.V.",
+      "trades": [
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Lu Peng",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15000.0,
+          "pricePerShare": 40.1298,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Glassman Robert",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8000.0,
+          "pricePerShare": 37.5495,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Lu Peng",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15000.0,
+          "pricePerShare": 40.6756,
+          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -39052,36 +39137,6 @@
           "shares": 120.0,
           "pricePerShare": 218.34,
           "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 480.0,
-          "pricePerShare": 219.39,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 320.0,
-          "pricePerShare": 220.61,
-          "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "CRWD",
-          "issuerName": "CrowdStrike Holdings, Inc.",
-          "insiderName": "Kurtz George",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 760.0,
-          "pricePerShare": 221.58,
-          "transactionDate": "2026-08-27"
         }
       ]
     },
@@ -42447,56 +42502,6 @@
           "shares": 14238.0,
           "pricePerShare": 8.28,
           "transactionDate": "2026-09-07"
-        }
-      ]
-    },
-    "BRID": {
-      "issuerName": "BRIDGFORD FOODS CORP",
-      "trades": [
-        {
-          "ticker": "BRID",
-          "issuerName": "BRIDGFORD FOODS CORP",
-          "insiderName": "Bridgford Allan Jr.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 466.0,
-          "pricePerShare": 5.83,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "BRID",
-          "issuerName": "BRIDGFORD FOODS CORP",
-          "insiderName": "Bridgford Baron",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 473.0,
-          "pricePerShare": 6.15,
-          "transactionDate": "2026-08-28"
-        }
-      ]
-    },
-    "PHVS": {
-      "issuerName": "Pharvaris N.V.",
-      "trades": [
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Glassman Robert",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 8000.0,
-          "pricePerShare": 37.5495,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Lu Peng",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15000.0,
-          "pricePerShare": 40.6756,
-          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -64597,6 +64602,7 @@
       "0000894189-26-025187",
       "0000894189-26-025199",
       "0000894189-26-025209",
+      "0000894189-26-025222",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -66341,6 +66347,13 @@
       "0000950103-26-013962",
       "0000950103-26-013963",
       "0000950103-26-013964",
+      "0000950103-26-013965",
+      "0000950103-26-013966",
+      "0000950103-26-013967",
+      "0000950103-26-013968",
+      "0000950103-26-013969",
+      "0000950103-26-013970",
+      "0000950103-26-013971",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -68295,6 +68308,7 @@
       "0001133228-26-012264",
       "0001133228-26-012348",
       "0001133228-26-012487",
+      "0001133228-26-012507",
       "0001133416-26-000065",
       "0001134261-26-000005",
       "0001134261-26-000007",
@@ -68909,6 +68923,8 @@
       "0001140361-26-036600",
       "0001140361-26-036602",
       "0001140361-26-036604",
+      "0001140361-26-036627",
+      "0001140361-26-036631",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -72941,6 +72957,16 @@
       "0001193125-26-391647",
       "0001193125-26-391664",
       "0001193125-26-391688",
+      "0001193125-26-391734",
+      "0001193125-26-391735",
+      "0001193125-26-391740",
+      "0001193125-26-391750",
+      "0001193125-26-391751",
+      "0001193125-26-391752",
+      "0001193125-26-391753",
+      "0001193125-26-391763",
+      "0001193125-26-391768",
+      "0001193125-26-391779",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74534,6 +74560,11 @@
       "0001213900-26-100048",
       "0001213900-26-100050",
       "0001213900-26-100053",
+      "0001213900-26-100079",
+      "0001213900-26-100082",
+      "0001213900-26-100083",
+      "0001213900-26-100084",
+      "0001213900-26-100085",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -76450,6 +76481,7 @@
       "0001437749-26-030420",
       "0001437749-26-030424",
       "0001437749-26-030425",
+      "0001437749-26-030431",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -77464,6 +77496,7 @@
       "0001493152-26-042644",
       "0001493152-26-042650",
       "0001493152-26-042669",
+      "0001493152-26-042729",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -78173,6 +78206,7 @@
       "0001580642-26-006237",
       "0001580642-26-006278",
       "0001580642-26-006279",
+      "0001580642-26-006307",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -78255,6 +78289,7 @@
       "0001592900-26-004226",
       "0001592900-26-004227",
       "0001592900-26-004230",
+      "0001592900-26-004240",
       "0001592970-26-000012",
       "0001593040-26-000002",
       "0001593516-26-000004",
@@ -83821,6 +83856,25 @@
       "0001839882-26-045594",
       "0001839882-26-045595",
       "0001839882-26-045596",
+      "0001839882-26-045607",
+      "0001839882-26-045609",
+      "0001839882-26-045610",
+      "0001839882-26-045613",
+      "0001839882-26-045614",
+      "0001839882-26-045615",
+      "0001839882-26-045616",
+      "0001839882-26-045617",
+      "0001839882-26-045618",
+      "0001839882-26-045619",
+      "0001839882-26-045620",
+      "0001839882-26-045621",
+      "0001839882-26-045622",
+      "0001839882-26-045623",
+      "0001839882-26-045624",
+      "0001839882-26-045625",
+      "0001839882-26-045626",
+      "0001839882-26-045627",
+      "0001839882-26-045628",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -87830,6 +87884,16 @@
       "0001918704-26-027663",
       "0001918704-26-027664",
       "0001918704-26-027665",
+      "0001918704-26-027670",
+      "0001918704-26-027671",
+      "0001918704-26-027672",
+      "0001918704-26-027673",
+      "0001918704-26-027674",
+      "0001918704-26-027675",
+      "0001918704-26-027676",
+      "0001918704-26-027677",
+      "0001918704-26-027678",
+      "0001918704-26-027679",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
