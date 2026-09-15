@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-09-15T13:01:56.392691+00:00",
+  "generatedAt": "2026-09-15T14:03:10.278738+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "PMA",
+      "issuerName": "PMA Graphene Technology Group Inc.",
+      "insiderName": "Lam Chi Ming",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 99114.0,
+      "pricePerShare": 1.3002,
+      "transactionDate": "2026-09-15"
+    },
     {
       "ticker": "FINS",
       "issuerName": "Angel Oak Financial Strategies Income Term Trust",
@@ -1971,6 +1981,16 @@
       "type": "Purchase",
       "shares": 75581.0,
       "pricePerShare": 1.29,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "GAIA",
+      "issuerName": "GAIA, INC",
+      "insiderName": "Sutherland Paul Howard",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 3500.0,
+      "pricePerShare": 1.3707,
       "transactionDate": "2026-09-11"
     },
     {
@@ -29982,29 +30002,24 @@
       "shares": 1.0,
       "pricePerShare": 5.0,
       "transactionDate": "2026-08-27"
-    },
-    {
-      "ticker": "NMTC",
-      "issuerName": "NEUROONE MEDICAL TECHNOLOGIES Corp",
-      "insiderName": "Wambeke David J.",
-      "title": "Chief Business Officer",
-      "type": "Purchase",
-      "shares": 33333.0,
-      "pricePerShare": 2.01,
-      "transactionDate": "2026-08-27"
-    },
-    {
-      "ticker": "GWAV",
-      "issuerName": "Greenwave Technology Solutions, Inc.",
-      "insiderName": "Meeks Danny",
-      "title": "Director, Chief Executive Officer, 10% Owner",
-      "type": "Purchase",
-      "shares": 2152853.0,
-      "pricePerShare": 3.716,
-      "transactionDate": "2026-08-27"
     }
   ],
   "byTicker": {
+    "PMA": {
+      "issuerName": "PMA Graphene Technology Group Inc.",
+      "trades": [
+        {
+          "ticker": "PMA",
+          "issuerName": "PMA Graphene Technology Group Inc.",
+          "insiderName": "Lam Chi Ming",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 99114.0,
+          "pricePerShare": 1.3002,
+          "transactionDate": "2026-09-15"
+        }
+      ]
+    },
     "FINS": {
       "issuerName": "Angel Oak Financial Strategies Income Term Trust",
       "trades": [
@@ -35212,6 +35227,41 @@
           "shares": 75581.0,
           "pricePerShare": 1.29,
           "transactionDate": "2026-09-11"
+        }
+      ]
+    },
+    "GAIA": {
+      "issuerName": "GAIA, INC",
+      "trades": [
+        {
+          "ticker": "GAIA",
+          "issuerName": "GAIA, INC",
+          "insiderName": "Sutherland Paul Howard",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 3500.0,
+          "pricePerShare": 1.3707,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "GAIA",
+          "issuerName": "GAIA, INC",
+          "insiderName": "Sutherland Paul Howard",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 500.0,
+          "pricePerShare": 1.55,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "GAIA",
+          "issuerName": "GAIA, INC",
+          "insiderName": "Sutherland Paul Howard",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 1.67,
+          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -41012,31 +41062,6 @@
           "shares": 905.0,
           "pricePerShare": 11.4,
           "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "GAIA": {
-      "issuerName": "GAIA, INC",
-      "trades": [
-        {
-          "ticker": "GAIA",
-          "issuerName": "GAIA, INC",
-          "insiderName": "Sutherland Paul Howard",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 500.0,
-          "pricePerShare": 1.55,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "GAIA",
-          "issuerName": "GAIA, INC",
-          "insiderName": "Sutherland Paul Howard",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 1.67,
-          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -63279,36 +63304,6 @@
           "transactionDate": "2026-08-27"
         }
       ]
-    },
-    "NMTC": {
-      "issuerName": "NEUROONE MEDICAL TECHNOLOGIES Corp",
-      "trades": [
-        {
-          "ticker": "NMTC",
-          "issuerName": "NEUROONE MEDICAL TECHNOLOGIES Corp",
-          "insiderName": "Wambeke David J.",
-          "title": "Chief Business Officer",
-          "type": "Purchase",
-          "shares": 33333.0,
-          "pricePerShare": 2.01,
-          "transactionDate": "2026-08-27"
-        }
-      ]
-    },
-    "GWAV": {
-      "issuerName": "Greenwave Technology Solutions, Inc.",
-      "trades": [
-        {
-          "ticker": "GWAV",
-          "issuerName": "Greenwave Technology Solutions, Inc.",
-          "insiderName": "Meeks Danny",
-          "title": "Director, Chief Executive Officer, 10% Owner",
-          "type": "Purchase",
-          "shares": 2152853.0,
-          "pricePerShare": 3.716,
-          "transactionDate": "2026-08-27"
-        }
-      ]
     }
   },
   "_meta": {
@@ -65023,6 +65018,9 @@
       "0000930413-26-002875",
       "0000930413-26-002876",
       "0000930413-26-002888",
+      "0000930413-26-002892",
+      "0000930413-26-002893",
+      "0000930413-26-002894",
       "0000931148-26-000077",
       "0000932781-26-000045",
       "0000932781-26-000047",
@@ -66318,6 +66316,9 @@
       "0000950103-26-013946",
       "0000950103-26-013947",
       "0000950103-26-013948",
+      "0000950103-26-013949",
+      "0000950103-26-013950",
+      "0000950103-26-013951",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -67937,6 +67938,8 @@
       "0001104659-26-107717",
       "0001104659-26-107724",
       "0001104659-26-107732",
+      "0001104659-26-107735",
+      "0001104659-26-107743",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68863,6 +68866,8 @@
       "0001140361-26-036463",
       "0001140361-26-036486",
       "0001140361-26-036535",
+      "0001140361-26-036577",
+      "0001140361-26-036579",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -68886,6 +68891,7 @@
       "0001162044-26-000706",
       "0001162044-26-000707",
       "0001162044-26-000708",
+      "0001162044-26-000807",
       "0001163739-26-000056",
       "0001166003-26-000076",
       "0001166152-26-000010",
@@ -72877,6 +72883,10 @@
       "0001193125-26-391323",
       "0001193125-26-391375",
       "0001193125-26-391384",
+      "0001193125-26-391414",
+      "0001193125-26-391420",
+      "0001193125-26-391421",
+      "0001193125-26-391437",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -72948,6 +72958,7 @@
       "0001207928-26-000009",
       "0001207969-26-000004",
       "0001208109-26-000007",
+      "0001208109-26-000008",
       "0001208362-26-000011",
       "0001208500-26-000004",
       "0001208842-26-000008",
@@ -74457,6 +74468,7 @@
       "0001213900-26-099861",
       "0001213900-26-099868",
       "0001213900-26-099887",
+      "0001213900-26-099915",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -75362,6 +75374,8 @@
       "0001292814-26-004536",
       "0001292814-26-004542",
       "0001292814-26-004544",
+      "0001292814-26-004558",
+      "0001292814-26-004560",
       "0001293167-26-000004",
       "0001293171-26-000012",
       "0001294172-26-000019",
@@ -76643,6 +76657,13 @@
       "0001445546-26-006755",
       "0001445546-26-006757",
       "0001445546-26-006766",
+      "0001445546-26-006791",
+      "0001445546-26-006792",
+      "0001445546-26-006793",
+      "0001445546-26-006794",
+      "0001445546-26-006795",
+      "0001445546-26-006796",
+      "0001445546-26-006797",
       "0001446066-26-000008",
       "0001448765-26-000011",
       "0001448765-26-000013",
@@ -83649,6 +83670,12 @@
       "0001839882-26-045385",
       "0001839882-26-045386",
       "0001839882-26-045394",
+      "0001839882-26-045427",
+      "0001839882-26-045431",
+      "0001839882-26-045432",
+      "0001839882-26-045433",
+      "0001839882-26-045435",
+      "0001839882-26-045441",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -87557,6 +87584,17 @@
       "0001918704-26-027533",
       "0001918704-26-027536",
       "0001918704-26-027537",
+      "0001918704-26-027538",
+      "0001918704-26-027539",
+      "0001918704-26-027540",
+      "0001918704-26-027541",
+      "0001918704-26-027542",
+      "0001918704-26-027543",
+      "0001918704-26-027544",
+      "0001918704-26-027545",
+      "0001918704-26-027546",
+      "0001918704-26-027547",
+      "0001918704-26-027548",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -88427,6 +88465,7 @@
       "0001999371-26-020514",
       "0001999371-26-020517",
       "0001999371-26-020520",
+      "0001999371-26-020526",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -88594,6 +88633,7 @@
       "0002028374-26-000003",
       "0002028403-26-000013",
       "0002028403-26-000014",
+      "0002028403-26-000017",
       "0002028977-26-000015",
       "0002028977-26-000017",
       "0002029059-26-000010",
@@ -88945,6 +88985,7 @@
       "0002078265-26-000376",
       "0002078265-26-000378",
       "0002078265-26-000379",
+      "0002078265-26-000380",
       "0002078339-26-000012",
       "0002078374-26-000003",
       "0002078512-26-000002",
