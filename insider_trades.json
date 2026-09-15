@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T11:02:58.993823+00:00",
+  "generatedAt": "2026-09-15T12:02:53.991265+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -591,6 +591,26 @@
       "type": "Sale",
       "shares": 251882.0,
       "pricePerShare": 12.2,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "NNOX",
+      "issuerName": "Nano-X Imaging Ltd.",
+      "insiderName": "Suesskind Dan S",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 30000.0,
+      "pricePerShare": 0.76,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "NNOX",
+      "issuerName": "Nano-X Imaging Ltd.",
+      "insiderName": "Suesskind Dan S",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 30000.0,
+      "pricePerShare": 0.75,
       "transactionDate": "2026-09-14"
     },
     {
@@ -1881,6 +1901,26 @@
       "type": "Sale",
       "shares": 1200.0,
       "pricePerShare": 108.72,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "UAVS",
+      "issuerName": "AgEagle Aerial Systems Inc.",
+      "insiderName": "Begley Grant A",
+      "title": "Director, Chairman of the Board",
+      "type": "Purchase",
+      "shares": 5000.0,
+      "pricePerShare": 0.98,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "UAVS",
+      "issuerName": "AgEagle Aerial Systems Inc.",
+      "insiderName": "Klavon Brent",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 5050.0,
+      "pricePerShare": 0.99,
       "transactionDate": "2026-09-11"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 1240.0,
       "pricePerShare": 91.465,
       "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "ICFI",
-      "issuerName": "ICF International, Inc.",
-      "insiderName": "Ostria Sergio J",
-      "title": "Executive Vice President",
-      "type": "Sale",
-      "shares": 2000.0,
-      "pricePerShare": 88.5915,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "NPB",
-      "issuerName": "NORTHPOINTE BANCSHARES INC",
-      "insiderName": "Williams Charles Alan",
-      "title": "Director, CHAIRMAN & CEO, 10% Owner",
-      "type": "Purchase",
-      "shares": 48312.0,
-      "pricePerShare": 16.9457,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "GSAT",
-      "issuerName": "Globalstar, Inc.",
-      "insiderName": "Lynch James F",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 110000.0,
-      "pricePerShare": 81.7763,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "AMRZ",
-      "issuerName": "Amrize Ltd",
-      "insiderName": "Sanche Jacques Wolf",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 4150.0,
-      "pricePerShare": 45.02,
-      "transactionDate": "2026-08-26"
     }
   ],
   "byTicker": {
@@ -31817,6 +31817,41 @@
           "shares": 28.0,
           "pricePerShare": 118.97,
           "transactionDate": "2026-08-27"
+        }
+      ]
+    },
+    "NNOX": {
+      "issuerName": "Nano-X Imaging Ltd.",
+      "trades": [
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Suesskind Dan S",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 30000.0,
+          "pricePerShare": 0.76,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Suesskind Dan S",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 30000.0,
+          "pricePerShare": 0.75,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Meltzer Erez",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 0.78,
+          "transactionDate": "2026-09-10"
         }
       ]
     },
@@ -34947,6 +34982,31 @@
           "shares": 672910.0,
           "pricePerShare": 0.0846,
           "transactionDate": "2026-09-09"
+        }
+      ]
+    },
+    "UAVS": {
+      "issuerName": "AgEagle Aerial Systems Inc.",
+      "trades": [
+        {
+          "ticker": "UAVS",
+          "issuerName": "AgEagle Aerial Systems Inc.",
+          "insiderName": "Begley Grant A",
+          "title": "Director, Chairman of the Board",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 0.98,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "UAVS",
+          "issuerName": "AgEagle Aerial Systems Inc.",
+          "insiderName": "Klavon Brent",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 5050.0,
+          "pricePerShare": 0.99,
+          "transactionDate": "2026-09-11"
         }
       ]
     },
@@ -38996,21 +39056,6 @@
           "type": "Sale",
           "shares": 2407.0,
           "pricePerShare": 37.21,
-          "transactionDate": "2026-09-10"
-        }
-      ]
-    },
-    "NNOX": {
-      "issuerName": "Nano-X Imaging Ltd.",
-      "trades": [
-        {
-          "ticker": "NNOX",
-          "issuerName": "Nano-X Imaging Ltd.",
-          "insiderName": "Meltzer Erez",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 0.78,
           "transactionDate": "2026-09-10"
         }
       ]
@@ -57132,16 +57177,6 @@
           "shares": 2000.0,
           "pricePerShare": 42.465,
           "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "AMRZ",
-          "issuerName": "Amrize Ltd",
-          "insiderName": "Sanche Jacques Wolf",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 4150.0,
-          "pricePerShare": 45.02,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -63274,51 +63309,6 @@
           "transactionDate": "2026-08-26"
         }
       ]
-    },
-    "ICFI": {
-      "issuerName": "ICF International, Inc.",
-      "trades": [
-        {
-          "ticker": "ICFI",
-          "issuerName": "ICF International, Inc.",
-          "insiderName": "Ostria Sergio J",
-          "title": "Executive Vice President",
-          "type": "Sale",
-          "shares": 2000.0,
-          "pricePerShare": 88.5915,
-          "transactionDate": "2026-08-26"
-        }
-      ]
-    },
-    "NPB": {
-      "issuerName": "NORTHPOINTE BANCSHARES INC",
-      "trades": [
-        {
-          "ticker": "NPB",
-          "issuerName": "NORTHPOINTE BANCSHARES INC",
-          "insiderName": "Williams Charles Alan",
-          "title": "Director, CHAIRMAN & CEO, 10% Owner",
-          "type": "Purchase",
-          "shares": 48312.0,
-          "pricePerShare": 16.9457,
-          "transactionDate": "2026-08-26"
-        }
-      ]
-    },
-    "GSAT": {
-      "issuerName": "Globalstar, Inc.",
-      "trades": [
-        {
-          "ticker": "GSAT",
-          "issuerName": "Globalstar, Inc.",
-          "insiderName": "Lynch James F",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 110000.0,
-          "pricePerShare": 81.7763,
-          "transactionDate": "2026-08-26"
-        }
-      ]
     }
   },
   "_meta": {
@@ -67941,6 +67931,8 @@
       "0001104659-26-107669",
       "0001104659-26-107672",
       "0001104659-26-107696",
+      "0001104659-26-107716",
+      "0001104659-26-107717",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -72878,6 +72870,7 @@
       "0001193125-26-391225",
       "0001193125-26-391231",
       "0001193125-26-391234",
+      "0001193125-26-391323",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74457,6 +74450,7 @@
       "0001213900-26-099858",
       "0001213900-26-099861",
       "0001213900-26-099868",
+      "0001213900-26-099887",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -75148,6 +75142,7 @@
       "0001234048-26-000001",
       "0001234048-26-000002",
       "0001234561-26-000005",
+      "0001234658-26-000008",
       "0001234673-26-000002",
       "0001235321-26-000002",
       "0001235499-26-000008",
@@ -76347,6 +76342,8 @@
       "0001437749-26-030377",
       "0001437749-26-030378",
       "0001437749-26-030379",
+      "0001437749-26-030387",
+      "0001437749-26-030389",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -77349,6 +77346,7 @@
       "0001493152-26-042642",
       "0001493152-26-042644",
       "0001493152-26-042650",
+      "0001493152-26-042669",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -88407,6 +88405,8 @@
       "0001999371-26-020450",
       "0001999371-26-020457",
       "0001999371-26-020481",
+      "0001999371-26-020507",
+      "0001999371-26-020514",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
