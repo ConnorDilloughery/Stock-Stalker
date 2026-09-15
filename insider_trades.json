@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T00:02:10.883687+00:00",
+  "generatedAt": "2026-09-15T01:01:57.432588+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -261,6 +261,66 @@
       "type": "Sale",
       "shares": 680.0,
       "pricePerShare": 110.18,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "ANIP",
+      "issuerName": "ANI PHARMACEUTICALS INC",
+      "insiderName": "Cook Meredith",
+      "title": "SR. VP, GENERAL COUNSEL & SEC.",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 70.79,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "CLOV",
+      "issuerName": "CLOVER HEALTH INVESTMENTS, CORP. /DE",
+      "insiderName": "OLDAKOWSKI JOSEPH FRANK",
+      "title": "VP OF FINANCE AND CONTROLLER",
+      "type": "Sale",
+      "shares": 20000.0,
+      "pricePerShare": 5.16,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "VHC",
+      "issuerName": "VirnetX Holding Corp",
+      "insiderName": "Larsen Kendall",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 4425.0,
+      "pricePerShare": 11.174,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "SI",
+      "issuerName": "SHOULDER INNOVATIONS, INC.",
+      "insiderName": "Ball Robert Joseph",
+      "title": "Director, CEO & Executive Chairman",
+      "type": "Sale",
+      "shares": 10175.0,
+      "pricePerShare": 18.4478,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "GLOO",
+      "issuerName": "Gloo Holdings, Inc.",
+      "insiderName": "GELSINGER PATRICK P",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 25000.0,
+      "pricePerShare": 3.4493,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "CME",
+      "issuerName": "CME GROUP INC.",
+      "insiderName": "Cook Elizabeth A",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 280.11,
       "transactionDate": "2026-09-14"
     },
     {
@@ -1371,6 +1431,46 @@
       "type": "Sale",
       "shares": 1795.0,
       "pricePerShare": 108.87,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "ANIP",
+      "issuerName": "ANI PHARMACEUTICALS INC",
+      "insiderName": "Thoma Jeanne",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1000.0,
+      "pricePerShare": 71.53,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "VHC",
+      "issuerName": "VirnetX Holding Corp",
+      "insiderName": "Larsen Kendall",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 8000.0,
+      "pricePerShare": 11.373,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "NTSK",
+      "issuerName": "Netskope Inc",
+      "insiderName": "Lightspeed Venture Partners Select, L.P.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 10621.0,
+      "pricePerShare": 14.9,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "NTSK",
+      "issuerName": "Netskope Inc",
+      "insiderName": "Lightspeed Venture Partners IX, L.P.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 10621.0,
+      "pricePerShare": 14.9,
       "transactionDate": "2026-09-11"
     },
     {
@@ -3231,6 +3331,46 @@
       "type": "Purchase",
       "shares": 22800.0,
       "pricePerShare": 0.1857,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "ONMD",
+      "issuerName": "OneMedNet Corp",
+      "insiderName": "Yu Jeffrey",
+      "title": "Director, Chief Medical Officer, 10% Owner",
+      "type": "Purchase",
+      "shares": 142857.0,
+      "pricePerShare": 0.63,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "PCOR",
+      "issuerName": "PROCORE TECHNOLOGIES, INC.",
+      "insiderName": "Courtemanche Craig F. Jr.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 46419.0,
+      "pricePerShare": 53.41,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "PCOR",
+      "issuerName": "PROCORE TECHNOLOGIES, INC.",
+      "insiderName": "Courtemanche Craig F. Jr.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 9703.0,
+      "pricePerShare": 53.81,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "VHC",
+      "issuerName": "VirnetX Holding Corp",
+      "insiderName": "Larsen Kendall",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 8000.0,
+      "pricePerShare": 11.483,
       "transactionDate": "2026-09-10"
     },
     {
@@ -29862,146 +30002,6 @@
       "shares": 756.0,
       "pricePerShare": 2.95,
       "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "EXOD",
-      "issuerName": "Exodus Movement, Inc.",
-      "insiderName": "Olivera Matias",
-      "title": "Chief Technology Officer",
-      "type": "Sale",
-      "shares": 2835.0,
-      "pricePerShare": 8.35,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "DGICA",
-      "issuerName": "DONEGAL GROUP INC",
-      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 9508.0,
-      "pricePerShare": 19.1069,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "NDSN",
-      "issuerName": "NORDSON CORP",
-      "insiderName": "Hopgood Daniel Roy",
-      "title": "EVP, CFO",
-      "type": "Sale",
-      "shares": 1329.0,
-      "pricePerShare": 334.29,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "FRAF",
-      "issuerName": "FRANKLIN FINANCIAL SERVICES CORP /PA/",
-      "insiderName": "Duffey Gregory A",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 16.0,
-      "pricePerShare": 62.08,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "IMTX",
-      "issuerName": "Immatics N.V.",
-      "insiderName": "PERCEPTIVE ADVISORS LLC",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 863060.0,
-      "pricePerShare": 8.69,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "XELB",
-      "issuerName": "XCel Brands, Inc.",
-      "insiderName": "D LOREN ROBERT W",
-      "title": "Director, CEO and Chairman, 10% Owner",
-      "type": "Purchase",
-      "shares": 10000.0,
-      "pricePerShare": 0.955,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "HD",
-      "issuerName": "HOME DEPOT, INC.",
-      "insiderName": "Rowe Michael F.",
-      "title": "EVP, Pro",
-      "type": "Sale",
-      "shares": 710.0,
-      "pricePerShare": 336.76,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "SCHW",
-      "issuerName": "SCHWAB CHARLES CORP",
-      "insiderName": "Schwab-Pomerantz Carolyn",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 9175.0,
-      "pricePerShare": 109.2531,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "NPWR",
-      "issuerName": "Net Power Inc.",
-      "insiderName": "8 Rivers Capital, LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 41350.0,
-      "pricePerShare": 1.9124,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "RVI",
-      "issuerName": "Robinhood Ventures Fund I",
-      "insiderName": "Robinhood Markets, Inc.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 4523.0,
-      "pricePerShare": 26.38,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "LIEN",
-      "issuerName": "Chicago Atlantic BDC, Inc.",
-      "insiderName": "Colonna Bernardino",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 600.0,
-      "pricePerShare": 10.156,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "BMRA",
-      "issuerName": "BIOMERICA INC",
-      "insiderName": "MOATAZEDI DAVID",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 10000.0,
-      "pricePerShare": 1.6,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "BMRA",
-      "issuerName": "BIOMERICA INC",
-      "insiderName": "Chin Eric",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 6250.0,
-      "pricePerShare": 1.6,
-      "transactionDate": "2026-08-26"
-    },
-    {
-      "ticker": "BMRA",
-      "issuerName": "BIOMERICA INC",
-      "insiderName": "BARBIERI ALLEN",
-      "title": "Director, Executive Vice Chairman",
-      "type": "Purchase",
-      "shares": 20000.0,
-      "pricePerShare": 1.6,
-      "transactionDate": "2026-08-26"
     }
   ],
   "byTicker": {
@@ -30547,6 +30547,246 @@
           "shares": 1795.0,
           "pricePerShare": 108.87,
           "transactionDate": "2026-09-11"
+        }
+      ]
+    },
+    "ANIP": {
+      "issuerName": "ANI PHARMACEUTICALS INC",
+      "trades": [
+        {
+          "ticker": "ANIP",
+          "issuerName": "ANI PHARMACEUTICALS INC",
+          "insiderName": "Cook Meredith",
+          "title": "SR. VP, GENERAL COUNSEL & SEC.",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 70.79,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "ANIP",
+          "issuerName": "ANI PHARMACEUTICALS INC",
+          "insiderName": "Thoma Jeanne",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 71.53,
+          "transactionDate": "2026-09-11"
+        }
+      ]
+    },
+    "CLOV": {
+      "issuerName": "CLOVER HEALTH INVESTMENTS, CORP. /DE",
+      "trades": [
+        {
+          "ticker": "CLOV",
+          "issuerName": "CLOVER HEALTH INVESTMENTS, CORP. /DE",
+          "insiderName": "OLDAKOWSKI JOSEPH FRANK",
+          "title": "VP OF FINANCE AND CONTROLLER",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 5.16,
+          "transactionDate": "2026-09-14"
+        }
+      ]
+    },
+    "VHC": {
+      "issuerName": "VirnetX Holding Corp",
+      "trades": [
+        {
+          "ticker": "VHC",
+          "issuerName": "VirnetX Holding Corp",
+          "insiderName": "Larsen Kendall",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4425.0,
+          "pricePerShare": 11.174,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "VHC",
+          "issuerName": "VirnetX Holding Corp",
+          "insiderName": "Larsen Kendall",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8000.0,
+          "pricePerShare": 11.373,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "VHC",
+          "issuerName": "VirnetX Holding Corp",
+          "insiderName": "Larsen Kendall",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8000.0,
+          "pricePerShare": 11.483,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "VHC",
+          "issuerName": "VirnetX Holding Corp",
+          "insiderName": "Larsen Kendall",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4057.0,
+          "pricePerShare": 11.426,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "VHC",
+          "issuerName": "VirnetX Holding Corp",
+          "insiderName": "Larsen Kendall",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 518.0,
+          "pricePerShare": 12.132,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "VHC",
+          "issuerName": "VirnetX Holding Corp",
+          "insiderName": "Larsen Kendall",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 11.001,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "VHC",
+          "issuerName": "VirnetX Holding Corp",
+          "insiderName": "Larsen Kendall",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 11.168,
+          "transactionDate": "2026-08-31"
+        }
+      ]
+    },
+    "SI": {
+      "issuerName": "SHOULDER INNOVATIONS, INC.",
+      "trades": [
+        {
+          "ticker": "SI",
+          "issuerName": "SHOULDER INNOVATIONS, INC.",
+          "insiderName": "Ball Robert Joseph",
+          "title": "Director, CEO & Executive Chairman",
+          "type": "Sale",
+          "shares": 10175.0,
+          "pricePerShare": 18.4478,
+          "transactionDate": "2026-09-14"
+        }
+      ]
+    },
+    "GLOO": {
+      "issuerName": "Gloo Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "GELSINGER PATRICK P",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 25000.0,
+          "pricePerShare": 3.4493,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 3.0311,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 9000.0,
+          "pricePerShare": 3.2486,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 3.197,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5500.0,
+          "pricePerShare": 3.0864,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 3.0646,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 3.1213,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 3.41,
+          "transactionDate": "2026-08-28"
+        },
+        {
+          "ticker": "GLOO",
+          "issuerName": "Gloo Holdings, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4000.0,
+          "pricePerShare": 3.3724,
+          "transactionDate": "2026-08-27"
+        }
+      ]
+    },
+    "CME": {
+      "issuerName": "CME GROUP INC.",
+      "trades": [
+        {
+          "ticker": "CME",
+          "issuerName": "CME GROUP INC.",
+          "insiderName": "Cook Elizabeth A",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 280.11,
+          "transactionDate": "2026-09-14"
         }
       ]
     },
@@ -32887,16 +33127,6 @@
           "shares": 10000.0,
           "pricePerShare": 18.9504,
           "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 9508.0,
-          "pricePerShare": 19.1069,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -33670,6 +33900,31 @@
         }
       ]
     },
+    "NTSK": {
+      "issuerName": "Netskope Inc",
+      "trades": [
+        {
+          "ticker": "NTSK",
+          "issuerName": "Netskope Inc",
+          "insiderName": "Lightspeed Venture Partners Select, L.P.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10621.0,
+          "pricePerShare": 14.9,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "NTSK",
+          "issuerName": "Netskope Inc",
+          "insiderName": "Lightspeed Venture Partners IX, L.P.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10621.0,
+          "pricePerShare": 14.9,
+          "transactionDate": "2026-09-11"
+        }
+      ]
+    },
     "UBER": {
       "issuerName": "Uber Technologies, Inc",
       "trades": [
@@ -33897,91 +34152,6 @@
           "shares": 1600.0,
           "pricePerShare": 18.0,
           "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "GLOO": {
-      "issuerName": "Gloo Holdings, Inc.",
-      "trades": [
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 10000.0,
-          "pricePerShare": 3.0311,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 9000.0,
-          "pricePerShare": 3.2486,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 10000.0,
-          "pricePerShare": 3.197,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5500.0,
-          "pricePerShare": 3.0864,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 3.0646,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 3.1213,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 3.41,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4000.0,
-          "pricePerShare": 3.3724,
-          "transactionDate": "2026-08-27"
         }
       ]
     },
@@ -39500,6 +39670,86 @@
         }
       ]
     },
+    "ONMD": {
+      "issuerName": "OneMedNet Corp",
+      "trades": [
+        {
+          "ticker": "ONMD",
+          "issuerName": "OneMedNet Corp",
+          "insiderName": "Yu Jeffrey",
+          "title": "Director, Chief Medical Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 142857.0,
+          "pricePerShare": 0.63,
+          "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "PCOR": {
+      "issuerName": "PROCORE TECHNOLOGIES, INC.",
+      "trades": [
+        {
+          "ticker": "PCOR",
+          "issuerName": "PROCORE TECHNOLOGIES, INC.",
+          "insiderName": "Courtemanche Craig F. Jr.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 46419.0,
+          "pricePerShare": 53.41,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "PCOR",
+          "issuerName": "PROCORE TECHNOLOGIES, INC.",
+          "insiderName": "Courtemanche Craig F. Jr.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 9703.0,
+          "pricePerShare": 53.81,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "PCOR",
+          "issuerName": "PROCORE TECHNOLOGIES, INC.",
+          "insiderName": "O CONNOR KEVIN J",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 7452.0,
+          "pricePerShare": 59.94,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "PCOR",
+          "issuerName": "PROCORE TECHNOLOGIES, INC.",
+          "insiderName": "O CONNOR KEVIN J",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 240.0,
+          "pricePerShare": 60.61,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "PCOR",
+          "issuerName": "PROCORE TECHNOLOGIES, INC.",
+          "insiderName": "O CONNOR KEVIN J",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 5294.0,
+          "pricePerShare": 61.87,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "PCOR",
+          "issuerName": "PROCORE TECHNOLOGIES, INC.",
+          "insiderName": "O CONNOR KEVIN J",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 2398.0,
+          "pricePerShare": 62.38,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
     "AVBH": {
       "issuerName": "Avidbank Holdings, Inc.",
       "trades": [
@@ -40807,16 +41057,6 @@
           "shares": 100000.0,
           "pricePerShare": 1.9352,
           "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "NPWR",
-          "issuerName": "Net Power Inc.",
-          "insiderName": "8 Rivers Capital, LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 41350.0,
-          "pricePerShare": 1.9124,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -56495,51 +56735,6 @@
         }
       ]
     },
-    "VHC": {
-      "issuerName": "VirnetX Holding Corp",
-      "trades": [
-        {
-          "ticker": "VHC",
-          "issuerName": "VirnetX Holding Corp",
-          "insiderName": "Larsen Kendall",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4057.0,
-          "pricePerShare": 11.426,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "VHC",
-          "issuerName": "VirnetX Holding Corp",
-          "insiderName": "Larsen Kendall",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 518.0,
-          "pricePerShare": 12.132,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "VHC",
-          "issuerName": "VirnetX Holding Corp",
-          "insiderName": "Larsen Kendall",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 11.001,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "VHC",
-          "issuerName": "VirnetX Holding Corp",
-          "insiderName": "Larsen Kendall",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 11.168,
-          "transactionDate": "2026-08-31"
-        }
-      ]
-    },
     "AS": {
       "issuerName": "Amer Sports, Inc.",
       "trades": [
@@ -56692,16 +56887,6 @@
           "shares": 260.0,
           "pricePerShare": 336.0,
           "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "NDSN",
-          "issuerName": "NORDSON CORP",
-          "insiderName": "Hopgood Daniel Roy",
-          "title": "EVP, CFO",
-          "type": "Sale",
-          "shares": 1329.0,
-          "pricePerShare": 334.29,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -57737,51 +57922,6 @@
           "shares": 717.0,
           "pricePerShare": 11.451,
           "transactionDate": "2026-09-02"
-        }
-      ]
-    },
-    "PCOR": {
-      "issuerName": "PROCORE TECHNOLOGIES, INC.",
-      "trades": [
-        {
-          "ticker": "PCOR",
-          "issuerName": "PROCORE TECHNOLOGIES, INC.",
-          "insiderName": "O CONNOR KEVIN J",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 7452.0,
-          "pricePerShare": 59.94,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "PCOR",
-          "issuerName": "PROCORE TECHNOLOGIES, INC.",
-          "insiderName": "O CONNOR KEVIN J",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 240.0,
-          "pricePerShare": 60.61,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "PCOR",
-          "issuerName": "PROCORE TECHNOLOGIES, INC.",
-          "insiderName": "O CONNOR KEVIN J",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 5294.0,
-          "pricePerShare": 61.87,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "PCOR",
-          "issuerName": "PROCORE TECHNOLOGIES, INC.",
-          "insiderName": "O CONNOR KEVIN J",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 2398.0,
-          "pricePerShare": 62.38,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -59527,16 +59667,6 @@
           "shares": 74388.0,
           "pricePerShare": 110.9137,
           "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "SCHW",
-          "issuerName": "SCHWAB CHARLES CORP",
-          "insiderName": "Schwab-Pomerantz Carolyn",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 9175.0,
-          "pricePerShare": 109.2531,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -60832,16 +60962,6 @@
           "shares": 600.0,
           "pricePerShare": 10.1767,
           "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "LIEN",
-          "issuerName": "Chicago Atlantic BDC, Inc.",
-          "insiderName": "Colonna Bernardino",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 600.0,
-          "pricePerShare": 10.156,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -62262,16 +62382,6 @@
           "shares": 2835.0,
           "pricePerShare": 8.52,
           "transactionDate": "2026-08-27"
-        },
-        {
-          "ticker": "EXOD",
-          "issuerName": "Exodus Movement, Inc.",
-          "insiderName": "Olivera Matias",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 2835.0,
-          "pricePerShare": 8.35,
-          "transactionDate": "2026-08-26"
         }
       ]
     },
@@ -63211,116 +63321,6 @@
           "type": "Sale",
           "shares": 400.0,
           "pricePerShare": 143.9601,
-          "transactionDate": "2026-08-26"
-        }
-      ]
-    },
-    "FRAF": {
-      "issuerName": "FRANKLIN FINANCIAL SERVICES CORP /PA/",
-      "trades": [
-        {
-          "ticker": "FRAF",
-          "issuerName": "FRANKLIN FINANCIAL SERVICES CORP /PA/",
-          "insiderName": "Duffey Gregory A",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 16.0,
-          "pricePerShare": 62.08,
-          "transactionDate": "2026-08-26"
-        }
-      ]
-    },
-    "IMTX": {
-      "issuerName": "Immatics N.V.",
-      "trades": [
-        {
-          "ticker": "IMTX",
-          "issuerName": "Immatics N.V.",
-          "insiderName": "PERCEPTIVE ADVISORS LLC",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 863060.0,
-          "pricePerShare": 8.69,
-          "transactionDate": "2026-08-26"
-        }
-      ]
-    },
-    "XELB": {
-      "issuerName": "XCel Brands, Inc.",
-      "trades": [
-        {
-          "ticker": "XELB",
-          "issuerName": "XCel Brands, Inc.",
-          "insiderName": "D LOREN ROBERT W",
-          "title": "Director, CEO and Chairman, 10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 0.955,
-          "transactionDate": "2026-08-26"
-        }
-      ]
-    },
-    "HD": {
-      "issuerName": "HOME DEPOT, INC.",
-      "trades": [
-        {
-          "ticker": "HD",
-          "issuerName": "HOME DEPOT, INC.",
-          "insiderName": "Rowe Michael F.",
-          "title": "EVP, Pro",
-          "type": "Sale",
-          "shares": 710.0,
-          "pricePerShare": 336.76,
-          "transactionDate": "2026-08-26"
-        }
-      ]
-    },
-    "RVI": {
-      "issuerName": "Robinhood Ventures Fund I",
-      "trades": [
-        {
-          "ticker": "RVI",
-          "issuerName": "Robinhood Ventures Fund I",
-          "insiderName": "Robinhood Markets, Inc.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4523.0,
-          "pricePerShare": 26.38,
-          "transactionDate": "2026-08-26"
-        }
-      ]
-    },
-    "BMRA": {
-      "issuerName": "BIOMERICA INC",
-      "trades": [
-        {
-          "ticker": "BMRA",
-          "issuerName": "BIOMERICA INC",
-          "insiderName": "MOATAZEDI DAVID",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 1.6,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "BMRA",
-          "issuerName": "BIOMERICA INC",
-          "insiderName": "Chin Eric",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 6250.0,
-          "pricePerShare": 1.6,
-          "transactionDate": "2026-08-26"
-        },
-        {
-          "ticker": "BMRA",
-          "issuerName": "BIOMERICA INC",
-          "insiderName": "BARBIERI ALLEN",
-          "title": "Director, Executive Vice Chairman",
-          "type": "Purchase",
-          "shares": 20000.0,
-          "pricePerShare": 1.6,
           "transactionDate": "2026-08-26"
         }
       ]
@@ -67935,6 +67935,7 @@
       "0001104659-26-107581",
       "0001104659-26-107592",
       "0001104659-26-107610",
+      "0001104659-26-107626",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68860,10 +68861,12 @@
       "0001140361-26-036460",
       "0001140361-26-036463",
       "0001140361-26-036486",
+      "0001140361-26-036535",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
       "0001145197-26-000172",
+      "0001156375-26-000054",
       "0001158390-26-000007",
       "0001158390-26-000009",
       "0001159036-26-000108",
@@ -72864,6 +72867,8 @@
       "0001193125-26-390944",
       "0001193125-26-391003",
       "0001193125-26-391004",
+      "0001193125-26-391012",
+      "0001193125-26-391030",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75119,6 +75124,8 @@
       "0001231919-26-001156",
       "0001231919-26-001158",
       "0001231919-26-001173",
+      "0001231919-26-001175",
+      "0001231919-26-001177",
       "0001232142-26-000008",
       "0001232602-26-000007",
       "0001232819-26-000003",
@@ -75406,6 +75413,7 @@
       "0001315758-26-000015",
       "0001315758-26-000017",
       "0001316254-26-000005",
+      "0001316331-26-000013",
       "0001317406-26-000004",
       "0001317406-26-000006",
       "0001317498-26-000011",
@@ -75804,6 +75812,7 @@
       "0001403620-26-000001",
       "0001403967-26-000004",
       "0001404771-26-000002",
+      "0001404771-26-000004",
       "0001405444-26-000006",
       "0001405635-26-000010",
       "0001405693-26-000011",
@@ -77319,6 +77328,7 @@
       "0001493152-26-042630",
       "0001493152-26-042631",
       "0001493152-26-042633",
+      "0001493152-26-042642",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -79153,6 +79163,7 @@
       "0001628280-26-061865",
       "0001628280-26-061940",
       "0001628280-26-061944",
+      "0001628280-26-061947",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -79208,6 +79219,8 @@
       "0001641823-26-000009",
       "0001642080-26-000015",
       "0001642080-26-000017",
+      "0001642080-26-000019",
+      "0001642080-26-000021",
       "0001642415-26-000010",
       "0001643653-26-000016",
       "0001644087-26-000005",
@@ -80295,6 +80308,7 @@
       "0001799461-26-000005",
       "0001800547-26-000008",
       "0001801170-26-000207",
+      "0001801170-26-000218",
       "0001801365-26-000005",
       "0001801661-26-000086",
       "0001801661-26-000088",
@@ -80419,6 +80433,7 @@
       "0001819718-26-000015",
       "0001819846-26-000005",
       "0001819848-26-000444",
+      "0001819879-26-000006",
       "0001820263-26-000010",
       "0001820447-26-000004",
       "0001820725-26-000006",
@@ -83926,6 +83941,8 @@
       "0001905960-26-000003",
       "0001907705-26-000015",
       "0001908422-26-000017",
+      "0001908422-26-000019",
+      "0001908422-26-000021",
       "0001908561-26-000012",
       "0001909068-26-000018",
       "0001909327-26-000010",
@@ -87561,6 +87578,7 @@
       "0001937263-26-000012",
       "0001938722-26-000012",
       "0001938722-26-000016",
+      "0001938861-26-000026",
       "0001938943-26-000010",
       "0001939343-26-000010",
       "0001939403-26-000002",
@@ -88615,6 +88633,8 @@
       "0002044207-26-000015",
       "0002044248-26-000015",
       "0002044248-26-000017",
+      "0002044248-26-000019",
+      "0002044248-26-000021",
       "0002044350-26-000015",
       "0002044398-26-000007",
       "0002044416-26-000008",
@@ -88746,6 +88766,7 @@
       "0002070264-26-000008",
       "0002070402-26-000005",
       "0002070403-26-000013",
+      "0002070664-26-000006",
       "0002070849-26-000044",
       "0002070849-26-000052",
       "0002070849-26-000058",
@@ -88919,6 +88940,7 @@
       "0002084956-26-000060",
       "0002084956-26-000062",
       "0002084956-26-000064",
+      "0002085143-26-000006",
       "0002086163-26-000008",
       "0002086746-26-000003",
       "0002087126-26-000009",
@@ -89124,6 +89146,7 @@
       "0002130035-26-000002",
       "0002130035-26-000003",
       "0002130205-26-000002",
+      "0002130310-26-000005",
       "0002130384-26-000004",
       "0002130394-26-000019",
       "0002130454-26-000004",
