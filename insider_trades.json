@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-09-16T18:05:51.859639+00:00",
+  "generatedAt": "2026-09-16T19:06:09.260667+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "RWT",
+      "issuerName": "REDWOOD TRUST INC",
+      "insiderName": "Robinson Dashiell I",
+      "title": "Director, President",
+      "type": "Purchase",
+      "shares": 63211.13,
+      "pricePerShare": 3.98,
+      "transactionDate": "2026-09-16"
+    },
     {
       "ticker": "PMA",
       "issuerName": "PMA Graphene Technology Group Inc.",
@@ -601,6 +611,46 @@
       "type": "Sale",
       "shares": 543.0,
       "pricePerShare": 374.44,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "UMH",
+      "issuerName": "UMH PROPERTIES, INC.",
+      "insiderName": "Mitchell William Edward",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 67.23,
+      "pricePerShare": 14.875,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "UMH",
+      "issuerName": "UMH PROPERTIES, INC.",
+      "insiderName": "Miller Kevin S.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 67.23,
+      "pricePerShare": 14.875,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "RGCO",
+      "issuerName": "RGC RESOURCES INC",
+      "insiderName": "WILLIAMSON JOHN B III",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 112.0,
+      "pricePerShare": 21.2,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "PHVS",
+      "issuerName": "Pharvaris N.V.",
+      "insiderName": "Souverijns Wim",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 6090.0,
+      "pricePerShare": 38.99,
       "transactionDate": "2026-09-15"
     },
     {
@@ -2531,6 +2581,36 @@
       "type": "Purchase",
       "shares": 15.89,
       "pricePerShare": 108.14,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "NWPX",
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "insiderName": "Wilkins Aaron",
+      "title": "CFO",
+      "type": "Sale",
+      "shares": 1950.0,
+      "pricePerShare": 100.6813,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "NWPX",
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "insiderName": "LARSON KEITH R",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1000.0,
+      "pricePerShare": 101.1194,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "PHVS",
+      "issuerName": "Pharvaris N.V.",
+      "insiderName": "Souverijns Wim",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 20000.0,
+      "pricePerShare": 39.3063,
       "transactionDate": "2026-09-14"
     },
     {
@@ -29922,89 +30002,34 @@
       "shares": 35000.0,
       "pricePerShare": 3.248,
       "transactionDate": "2026-08-31"
-    },
-    {
-      "ticker": "ATHE",
-      "issuerName": "ALTERITY THERAPEUTICS LTD",
-      "insiderName": "Marks Peter Ashley",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 47620.0,
-      "pricePerShare": 0.5,
-      "transactionDate": "2026-08-31"
-    },
-    {
-      "ticker": "DXYZ",
-      "issuerName": "Destiny Tech100 Inc.",
-      "insiderName": "Silver Ethan",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 753.24,
-      "pricePerShare": 33.19,
-      "transactionDate": "2026-08-31"
-    },
-    {
-      "ticker": "SHMD",
-      "issuerName": "SCHMID Group N.V.",
-      "insiderName": "Schmid Anette",
-      "title": "Director, 10% Owner",
-      "type": "Purchase",
-      "shares": 69000.0,
-      "pricePerShare": 3.1623,
-      "transactionDate": "2026-08-30"
-    },
-    {
-      "ticker": "ETON",
-      "issuerName": "Eton Pharmaceuticals, Inc.",
-      "insiderName": "MAIER PAUL V",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 36387.0,
-      "pricePerShare": 58.64,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "ETON",
-      "issuerName": "Eton Pharmaceuticals, Inc.",
-      "insiderName": "MAIER PAUL V",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 13485.0,
-      "pricePerShare": 60.21,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "ETON",
-      "issuerName": "Eton Pharmaceuticals, Inc.",
-      "insiderName": "MAIER PAUL V",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 128.0,
-      "pricePerShare": 61.77,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "DOCU",
-      "issuerName": "DOCUSIGN, INC.",
-      "insiderName": "BEER JAMES A",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 450.0,
-      "pricePerShare": 64.02,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "NBR",
-      "issuerName": "NABORS INDUSTRIES LTD",
-      "insiderName": "Tudor David J",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 3200.0,
-      "pricePerShare": 92.3,
-      "transactionDate": "2026-08-28"
     }
   ],
   "byTicker": {
+    "RWT": {
+      "issuerName": "REDWOOD TRUST INC",
+      "trades": [
+        {
+          "ticker": "RWT",
+          "issuerName": "REDWOOD TRUST INC",
+          "insiderName": "Robinson Dashiell I",
+          "title": "Director, President",
+          "type": "Purchase",
+          "shares": 63211.13,
+          "pricePerShare": 3.98,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "RWT",
+          "issuerName": "REDWOOD TRUST INC",
+          "insiderName": "Abate Christopher J",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 100000.0,
+          "pricePerShare": 3.839,
+          "transactionDate": "2026-09-15"
+        }
+      ]
+    },
     "PMA": {
       "issuerName": "PMA Graphene Technology Group Inc.",
       "trades": [
@@ -30031,21 +30056,6 @@
           "type": "Sale",
           "shares": 855.0,
           "pricePerShare": 135.09,
-          "transactionDate": "2026-09-15"
-        }
-      ]
-    },
-    "RWT": {
-      "issuerName": "REDWOOD TRUST INC",
-      "trades": [
-        {
-          "ticker": "RWT",
-          "issuerName": "REDWOOD TRUST INC",
-          "insiderName": "Abate Christopher J",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 100000.0,
-          "pricePerShare": 3.839,
           "transactionDate": "2026-09-15"
         }
       ]
@@ -32071,6 +32081,111 @@
           "type": "Sale",
           "shares": 46.0,
           "pricePerShare": 361.23,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "UMH": {
+      "issuerName": "UMH PROPERTIES, INC.",
+      "trades": [
+        {
+          "ticker": "UMH",
+          "issuerName": "UMH PROPERTIES, INC.",
+          "insiderName": "Mitchell William Edward",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 67.23,
+          "pricePerShare": 14.875,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "UMH",
+          "issuerName": "UMH PROPERTIES, INC.",
+          "insiderName": "Miller Kevin S.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 67.23,
+          "pricePerShare": 14.875,
+          "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "RGCO": {
+      "issuerName": "RGC RESOURCES INC",
+      "trades": [
+        {
+          "ticker": "RGCO",
+          "issuerName": "RGC RESOURCES INC",
+          "insiderName": "WILLIAMSON JOHN B III",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 112.0,
+          "pricePerShare": 21.2,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "RGCO",
+          "issuerName": "RGC RESOURCES INC",
+          "insiderName": "Nester Paul W",
+          "title": "Director, President & CEO",
+          "type": "Purchase",
+          "shares": 500.0,
+          "pricePerShare": 21.3,
+          "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "PHVS": {
+      "issuerName": "Pharvaris N.V.",
+      "trades": [
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Souverijns Wim",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6090.0,
+          "pricePerShare": 38.99,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Souverijns Wim",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 39.3063,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Lu Peng",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15000.0,
+          "pricePerShare": 40.1298,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Glassman Robert",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8000.0,
+          "pricePerShare": 37.5495,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Lu Peng",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15000.0,
+          "pricePerShare": 40.6756,
           "transactionDate": "2026-09-08"
         }
       ]
@@ -34277,16 +34392,6 @@
           "shares": 30000.0,
           "pricePerShare": 70.0,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "DOCU",
-          "issuerName": "DOCUSIGN, INC.",
-          "insiderName": "BEER JAMES A",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 450.0,
-          "pricePerShare": 64.02,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -37255,6 +37360,91 @@
         }
       ]
     },
+    "NWPX": {
+      "issuerName": "NWPX Infrastructure, Inc.",
+      "trades": [
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "Wilkins Aaron",
+          "title": "CFO",
+          "type": "Sale",
+          "shares": 1950.0,
+          "pricePerShare": 100.6813,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "LARSON KEITH R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 101.1194,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "Wilkins Aaron",
+          "title": "CFO",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 106.52,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "LARSON KEITH R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 105.8688,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "ROMAN RICHARD A",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 4000.0,
+          "pricePerShare": 105.7192,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "LARSON KEITH R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 74.0,
+          "pricePerShare": 110.2597,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "LARSON KEITH R",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1172.0,
+          "pricePerShare": 110.0398,
+          "transactionDate": "2026-08-31"
+        },
+        {
+          "ticker": "NWPX",
+          "issuerName": "NWPX Infrastructure, Inc.",
+          "insiderName": "MONTROSS SCOTT J",
+          "title": "President & CEO",
+          "type": "Sale",
+          "shares": 1227.0,
+          "pricePerShare": 110.581,
+          "transactionDate": "2026-08-31"
+        }
+      ]
+    },
     "PGY": {
       "issuerName": "Pagaya Technologies Ltd.",
       "trades": [
@@ -39917,41 +40107,6 @@
           "shares": 5861.0,
           "pricePerShare": 17.53,
           "transactionDate": "2026-09-03"
-        }
-      ]
-    },
-    "PHVS": {
-      "issuerName": "Pharvaris N.V.",
-      "trades": [
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Lu Peng",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15000.0,
-          "pricePerShare": 40.1298,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Glassman Robert",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 8000.0,
-          "pricePerShare": 37.5495,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Lu Peng",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15000.0,
-          "pricePerShare": 40.6756,
-          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -46567,21 +46722,6 @@
           "shares": 100000.0,
           "pricePerShare": 4.18,
           "transactionDate": "2026-09-09"
-        }
-      ]
-    },
-    "RGCO": {
-      "issuerName": "RGC RESOURCES INC",
-      "trades": [
-        {
-          "ticker": "RGCO",
-          "issuerName": "RGC RESOURCES INC",
-          "insiderName": "Nester Paul W",
-          "title": "Director, President & CEO",
-          "type": "Purchase",
-          "shares": 500.0,
-          "pricePerShare": 21.3,
-          "transactionDate": "2026-09-10"
         }
       ]
     },
@@ -53485,71 +53625,6 @@
         }
       ]
     },
-    "NWPX": {
-      "issuerName": "NWPX Infrastructure, Inc.",
-      "trades": [
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "Wilkins Aaron",
-          "title": "CFO",
-          "type": "Sale",
-          "shares": 1500.0,
-          "pricePerShare": 106.52,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "LARSON KEITH R",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 105.8688,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "ROMAN RICHARD A",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 4000.0,
-          "pricePerShare": 105.7192,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "LARSON KEITH R",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 74.0,
-          "pricePerShare": 110.2597,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "LARSON KEITH R",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1172.0,
-          "pricePerShare": 110.0398,
-          "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "NWPX",
-          "issuerName": "NWPX Infrastructure, Inc.",
-          "insiderName": "MONTROSS SCOTT J",
-          "title": "President & CEO",
-          "type": "Sale",
-          "shares": 1227.0,
-          "pricePerShare": 110.581,
-          "transactionDate": "2026-08-31"
-        }
-      ]
-    },
     "TWST": {
       "issuerName": "Twist Bioscience Corp",
       "trades": [
@@ -58317,16 +58392,6 @@
           "shares": 33000.0,
           "pricePerShare": 31.4,
           "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "DXYZ",
-          "issuerName": "Destiny Tech100 Inc.",
-          "insiderName": "Silver Ethan",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 753.24,
-          "pricePerShare": 33.19,
-          "transactionDate": "2026-08-31"
         }
       ]
     },
@@ -60667,16 +60732,6 @@
           "shares": 35000.0,
           "pricePerShare": 3.248,
           "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "SHMD",
-          "issuerName": "SCHMID Group N.V.",
-          "insiderName": "Schmid Anette",
-          "title": "Director, 10% Owner",
-          "type": "Purchase",
-          "shares": 69000.0,
-          "pricePerShare": 3.1623,
-          "transactionDate": "2026-08-30"
         }
       ]
     },
@@ -63099,71 +63154,6 @@
           "transactionDate": "2026-08-31"
         }
       ]
-    },
-    "ATHE": {
-      "issuerName": "ALTERITY THERAPEUTICS LTD",
-      "trades": [
-        {
-          "ticker": "ATHE",
-          "issuerName": "ALTERITY THERAPEUTICS LTD",
-          "insiderName": "Marks Peter Ashley",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 47620.0,
-          "pricePerShare": 0.5,
-          "transactionDate": "2026-08-31"
-        }
-      ]
-    },
-    "ETON": {
-      "issuerName": "Eton Pharmaceuticals, Inc.",
-      "trades": [
-        {
-          "ticker": "ETON",
-          "issuerName": "Eton Pharmaceuticals, Inc.",
-          "insiderName": "MAIER PAUL V",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 36387.0,
-          "pricePerShare": 58.64,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "ETON",
-          "issuerName": "Eton Pharmaceuticals, Inc.",
-          "insiderName": "MAIER PAUL V",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 13485.0,
-          "pricePerShare": 60.21,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "ETON",
-          "issuerName": "Eton Pharmaceuticals, Inc.",
-          "insiderName": "MAIER PAUL V",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 128.0,
-          "pricePerShare": 61.77,
-          "transactionDate": "2026-08-28"
-        }
-      ]
-    },
-    "NBR": {
-      "issuerName": "NABORS INDUSTRIES LTD",
-      "trades": [
-        {
-          "ticker": "NBR",
-          "issuerName": "NABORS INDUSTRIES LTD",
-          "insiderName": "Tudor David J",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3200.0,
-          "pricePerShare": 92.3,
-          "transactionDate": "2026-08-28"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63822,6 +63812,9 @@
       "0000313927-26-000309",
       "0000313927-26-000311",
       "0000313927-26-000313",
+      "0000313927-26-000315",
+      "0000313927-26-000317",
+      "0000313927-26-000319",
       "0000314984-26-000032",
       "0000314984-26-000042",
       "0000318154-26-000129",
@@ -63903,6 +63896,7 @@
       "0000708955-26-000167",
       "0000708955-26-000169",
       "0000708955-26-000171",
+      "0000708955-26-000172",
       "0000711377-26-000013",
       "0000711377-26-000014",
       "0000711377-26-000015",
@@ -64082,6 +64076,8 @@
       "0000752642-26-000093",
       "0000752642-26-000094",
       "0000752642-26-000095",
+      "0000752642-26-000097",
+      "0000752642-26-000098",
       "0000753308-26-000066",
       "0000760498-26-000047",
       "0000760498-26-000048",
@@ -64486,6 +64482,7 @@
       "0000894189-26-025209",
       "0000894189-26-025222",
       "0000894189-26-025236",
+      "0000894189-26-025242",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -66272,6 +66269,9 @@
       "0000950103-26-014017",
       "0000950103-26-014019",
       "0000950103-26-014020",
+      "0000950103-26-014022",
+      "0000950103-26-014023",
+      "0000950103-26-014024",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -67939,6 +67939,9 @@
       "0001104659-26-108174",
       "0001104659-26-108175",
       "0001104659-26-108193",
+      "0001104659-26-108196",
+      "0001104659-26-108199",
+      "0001104659-26-108208",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68917,6 +68920,7 @@
       "0001140361-26-036750",
       "0001140361-26-036755",
       "0001140361-26-036759",
+      "0001140361-26-036763",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -73039,6 +73043,13 @@
       "0001193125-26-392860",
       "0001193125-26-392875",
       "0001193125-26-392877",
+      "0001193125-26-392895",
+      "0001193125-26-392909",
+      "0001193125-26-392921",
+      "0001193125-26-392926",
+      "0001193125-26-392933",
+      "0001193125-26-392937",
+      "0001193125-26-392950",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74643,6 +74654,7 @@
       "0001213900-26-100168",
       "0001213900-26-100169",
       "0001213900-26-100178",
+      "0001213900-26-100215",
       "0001213900-26-100219",
       "0001213900-26-100220",
       "0001213900-26-100221",
@@ -74682,6 +74694,8 @@
       "0001213900-26-100426",
       "0001213900-26-100428",
       "0001213900-26-100433",
+      "0001213900-26-100447",
+      "0001213900-26-100452",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -76635,6 +76649,10 @@
       "0001437749-26-030481",
       "0001437749-26-030484",
       "0001437749-26-030507",
+      "0001437749-26-030524",
+      "0001437749-26-030528",
+      "0001437749-26-030530",
+      "0001437749-26-030532",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -77666,6 +77684,7 @@
       "0001493152-26-042796",
       "0001493152-26-042804",
       "0001493152-26-042809",
+      "0001493152-26-042872",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -78097,6 +78116,9 @@
       "0001542574-26-000486",
       "0001542574-26-000487",
       "0001542574-26-000488",
+      "0001542574-26-000489",
+      "0001542574-26-000490",
+      "0001542574-26-000491",
       "0001543080-26-000004",
       "0001543262-26-000006",
       "0001543262-26-000008",
@@ -80144,6 +80166,7 @@
       "0001716837-26-000026",
       "0001716951-26-000043",
       "0001716951-26-000045",
+      "0001716998-26-000004",
       "0001717324-26-000012",
       "0001717677-26-000009",
       "0001717716-26-000017",
@@ -84201,6 +84224,7 @@
       "0001839882-26-045818",
       "0001839882-26-045819",
       "0001839882-26-045820",
+      "0001839882-26-045826",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -88318,6 +88342,29 @@
       "0001918704-26-027797",
       "0001918704-26-027798",
       "0001918704-26-027799",
+      "0001918704-26-027800",
+      "0001918704-26-027801",
+      "0001918704-26-027802",
+      "0001918704-26-027803",
+      "0001918704-26-027804",
+      "0001918704-26-027805",
+      "0001918704-26-027806",
+      "0001918704-26-027807",
+      "0001918704-26-027808",
+      "0001918704-26-027809",
+      "0001918704-26-027810",
+      "0001918704-26-027811",
+      "0001918704-26-027812",
+      "0001918704-26-027813",
+      "0001918704-26-027814",
+      "0001918704-26-027815",
+      "0001918704-26-027816",
+      "0001918704-26-027817",
+      "0001918704-26-027818",
+      "0001918704-26-027819",
+      "0001918704-26-027820",
+      "0001918704-26-027821",
+      "0001918704-26-027822",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
