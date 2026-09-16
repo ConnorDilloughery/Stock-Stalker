@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T14:05:38.959075+00:00",
+  "generatedAt": "2026-09-16T15:01:24.172716+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -501,6 +501,16 @@
       "type": "Sale",
       "shares": 684.0,
       "pricePerShare": 309.38,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "NMAX",
+      "issuerName": "Newsmax Inc.",
+      "insiderName": "CONYERS INVESTMENTS LLC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 49588.0,
+      "pricePerShare": 11.15,
       "transactionDate": "2026-09-15"
     },
     {
@@ -2371,6 +2381,26 @@
       "type": "Purchase",
       "shares": 100.0,
       "pricePerShare": 1.245,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "BDN",
+      "issuerName": "BRANDYWINE REALTY TRUST",
+      "insiderName": "SWEENEY GERARD H",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 33900.0,
+      "pricePerShare": 2.96,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "NMAX",
+      "issuerName": "Newsmax Inc.",
+      "insiderName": "CONYERS INVESTMENTS LLC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 282063.0,
+      "pricePerShare": 11.55,
       "transactionDate": "2026-09-14"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 577.0,
       "pricePerShare": 118.13,
       "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 13848.0,
-      "pricePerShare": 119.35,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 15575.0,
-      "pricePerShare": 120.3,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Feng Zhimin",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 4116.0,
-      "pricePerShare": 120.45,
-      "transactionDate": "2026-08-28"
     }
   ],
   "byTicker": {
@@ -31855,6 +31855,71 @@
         }
       ]
     },
+    "NMAX": {
+      "issuerName": "Newsmax Inc.",
+      "trades": [
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 49588.0,
+          "pricePerShare": 11.15,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 282063.0,
+          "pricePerShare": 11.55,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 288.5,
+          "pricePerShare": 11.7,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 24448.0,
+          "pricePerShare": 11.03,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 49600.0,
+          "pricePerShare": 11.074,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 53500.0,
+          "pricePerShare": 11.0308,
+          "transactionDate": "2026-09-02"
+        }
+      ]
+    },
     "FINS": {
       "issuerName": "Angel Oak Financial Strategies Income Term Trust",
       "trades": [
@@ -33251,36 +33316,6 @@
           "type": "Sale",
           "shares": 577.0,
           "pricePerShare": 118.13,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 13848.0,
-          "pricePerShare": 119.35,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15575.0,
-          "pricePerShare": 120.3,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Feng Zhimin",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 4116.0,
-          "pricePerShare": 120.45,
           "transactionDate": "2026-08-28"
         }
       ]
@@ -36980,6 +37015,21 @@
         }
       ]
     },
+    "BDN": {
+      "issuerName": "BRANDYWINE REALTY TRUST",
+      "trades": [
+        {
+          "ticker": "BDN",
+          "issuerName": "BRANDYWINE REALTY TRUST",
+          "insiderName": "SWEENEY GERARD H",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 33900.0,
+          "pricePerShare": 2.96,
+          "transactionDate": "2026-09-14"
+        }
+      ]
+    },
     "PGY": {
       "issuerName": "Pagaya Technologies Ltd.",
       "trades": [
@@ -38742,51 +38792,6 @@
           "shares": 10000.0,
           "pricePerShare": 19.1765,
           "transactionDate": "2026-08-31"
-        }
-      ]
-    },
-    "NMAX": {
-      "issuerName": "Newsmax Inc.",
-      "trades": [
-        {
-          "ticker": "NMAX",
-          "issuerName": "Newsmax Inc.",
-          "insiderName": "CONYERS INVESTMENTS LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 288.5,
-          "pricePerShare": 11.7,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "NMAX",
-          "issuerName": "Newsmax Inc.",
-          "insiderName": "CONYERS INVESTMENTS LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 24448.0,
-          "pricePerShare": 11.03,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "NMAX",
-          "issuerName": "Newsmax Inc.",
-          "insiderName": "CONYERS INVESTMENTS LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 49600.0,
-          "pricePerShare": 11.074,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "NMAX",
-          "issuerName": "Newsmax Inc.",
-          "insiderName": "CONYERS INVESTMENTS LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 53500.0,
-          "pricePerShare": 11.0308,
-          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -63354,6 +63359,7 @@
       "0000048287-26-000129",
       "0000048287-26-000131",
       "0000048287-26-000133",
+      "0000048287-26-000140",
       "0000051931-26-000740",
       "0000051931-26-000741",
       "0000051931-26-000742",
@@ -63866,6 +63872,7 @@
       "0000708955-26-000165",
       "0000708955-26-000167",
       "0000708955-26-000169",
+      "0000708955-26-000171",
       "0000711377-26-000013",
       "0000711377-26-000014",
       "0000711377-26-000015",
@@ -66369,6 +66376,7 @@
       "0001026081-26-000026",
       "0001028284-26-000011",
       "0001030471-26-000009",
+      "0001031203-26-000135",
       "0001031318-26-000004",
       "0001032553-26-000037",
       "0001032834-26-000006",
@@ -68849,6 +68857,9 @@
       "0001140361-26-036631",
       "0001140361-26-036688",
       "0001140361-26-036728",
+      "0001140361-26-036731",
+      "0001140361-26-036733",
+      "0001140361-26-036737",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -72950,6 +72961,11 @@
       "0001193125-26-392610",
       "0001193125-26-392611",
       "0001193125-26-392612",
+      "0001193125-26-392646",
+      "0001193125-26-392656",
+      "0001193125-26-392679",
+      "0001193125-26-392686",
+      "0001193125-26-392698",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74588,6 +74604,7 @@
       "0001213900-26-100370",
       "0001213900-26-100382",
       "0001213900-26-100391",
+      "0001213900-26-100408",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -76835,6 +76852,11 @@
       "0001445546-26-006805",
       "0001445546-26-006806",
       "0001445546-26-006807",
+      "0001445546-26-006811",
+      "0001445546-26-006812",
+      "0001445546-26-006813",
+      "0001445546-26-006814",
+      "0001445546-26-006815",
       "0001446066-26-000008",
       "0001448765-26-000011",
       "0001448765-26-000013",
@@ -77692,6 +77714,7 @@
       "0001513030-26-000005",
       "0001513030-26-000006",
       "0001513030-26-000007",
+      "0001513030-26-000008",
       "0001513723-26-000008",
       "0001513845-26-000088",
       "0001513845-26-000090",
@@ -84021,6 +84044,16 @@
       "0001839882-26-045714",
       "0001839882-26-045718",
       "0001839882-26-045729",
+      "0001839882-26-045730",
+      "0001839882-26-045735",
+      "0001839882-26-045737",
+      "0001839882-26-045739",
+      "0001839882-26-045740",
+      "0001839882-26-045741",
+      "0001839882-26-045743",
+      "0001839882-26-045745",
+      "0001839882-26-045746",
+      "0001839882-26-045749",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -88082,6 +88115,23 @@
       "0001918704-26-027731",
       "0001918704-26-027732",
       "0001918704-26-027733",
+      "0001918704-26-027734",
+      "0001918704-26-027735",
+      "0001918704-26-027736",
+      "0001918704-26-027737",
+      "0001918704-26-027738",
+      "0001918704-26-027739",
+      "0001918704-26-027740",
+      "0001918704-26-027741",
+      "0001918704-26-027742",
+      "0001918704-26-027745",
+      "0001918704-26-027746",
+      "0001918704-26-027747",
+      "0001918704-26-027748",
+      "0001918704-26-027749",
+      "0001918704-26-027750",
+      "0001918704-26-027751",
+      "0001918704-26-027752",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -88970,6 +89020,7 @@
       "0001999371-26-020533",
       "0001999371-26-020565",
       "0001999371-26-020592",
+      "0001999371-26-020607",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
