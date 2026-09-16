@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T11:01:31.690477+00:00",
+  "generatedAt": "2026-09-16T12:01:44.407295+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -441,6 +441,36 @@
       "type": "Purchase",
       "shares": 10000.0,
       "pricePerShare": 0.69,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "ZIM",
+      "issuerName": "ZIM Integrated Shipping Services Ltd.",
+      "insiderName": "Tiran Assaf",
+      "title": "EVP Cross Suez & Atlantic BU",
+      "type": "Sale",
+      "shares": 3156.0,
+      "pricePerShare": 29.5128,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "ZIM",
+      "issuerName": "ZIM Integrated Shipping Services Ltd.",
+      "insiderName": "Tiran Assaf",
+      "title": "EVP Cross Suez & Atlantic BU",
+      "type": "Sale",
+      "shares": 1571.0,
+      "pricePerShare": 29.5079,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "SMWB",
+      "issuerName": "SIMILARWEB LTD.",
+      "insiderName": "Offer Or",
+      "title": "Chief Executive Officer",
+      "type": "Sale",
+      "shares": 26691.0,
+      "pricePerShare": 8.5267,
       "transactionDate": "2026-09-15"
     },
     {
@@ -2231,6 +2261,26 @@
       "type": "Sale",
       "shares": 55000.0,
       "pricePerShare": 8.9772,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "ROC",
+      "issuerName": "Rank One Computing Corp",
+      "insiderName": "Kiernan Kathleen Louise",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 4000.0,
+      "pricePerShare": 4.3587,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "SMWB",
+      "issuerName": "SIMILARWEB LTD.",
+      "insiderName": "Offer Or",
+      "title": "Chief Executive Officer",
+      "type": "Sale",
+      "shares": 52900.0,
+      "pricePerShare": 8.5378,
       "transactionDate": "2026-09-14"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 50000.0,
       "pricePerShare": 0.8077,
       "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "DGICA",
-      "issuerName": "DONEGAL GROUP INC",
-      "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 10000.0,
-      "pricePerShare": 19.1946,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "GLRE",
-      "issuerName": "GREENLIGHT CAPITAL RE, LTD.",
-      "insiderName": "Isaacs Ian",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 4054.0,
-      "pricePerShare": 15.4224,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "TPL",
-      "issuerName": "Texas Pacific Land Corp",
-      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 1.0,
-      "pricePerShare": 364.42,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "SRTS",
-      "issuerName": "Sensus Healthcare, Inc.",
-      "insiderName": "Sachetta Eric",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 37537.0,
-      "pricePerShare": 3.437,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "RCG",
-      "issuerName": "RENN Fund, Inc.",
-      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 756.0,
-      "pricePerShare": 2.95,
-      "transactionDate": "2026-08-28"
     }
   ],
   "byTicker": {
@@ -31489,6 +31489,26 @@
           "insiderName": "Offer Or",
           "title": "Chief Executive Officer",
           "type": "Sale",
+          "shares": 26691.0,
+          "pricePerShare": 8.5267,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 52900.0,
+          "pricePerShare": 8.5378,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
           "shares": 52900.0,
           "pricePerShare": 8.5378,
           "transactionDate": "2026-09-14"
@@ -31612,6 +31632,81 @@
           "shares": 10000.0,
           "pricePerShare": 0.78,
           "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "ZIM": {
+      "issuerName": "ZIM Integrated Shipping Services Ltd.",
+      "trades": [
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Tiran Assaf",
+          "title": "EVP Cross Suez & Atlantic BU",
+          "type": "Sale",
+          "shares": 3156.0,
+          "pricePerShare": 29.5128,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Tiran Assaf",
+          "title": "EVP Cross Suez & Atlantic BU",
+          "type": "Sale",
+          "shares": 1571.0,
+          "pricePerShare": 29.5079,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Elimelech Arik",
+          "title": "EVP HR & Organization",
+          "type": "Sale",
+          "shares": 458.0,
+          "pricePerShare": 29.9863,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Tiran Assaf",
+          "title": "EVP Cross Suez & Atlantic BU",
+          "type": "Sale",
+          "shares": 2312.0,
+          "pricePerShare": 30.2063,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Dotan Saar",
+          "title": "EVP Countries & BD",
+          "type": "Sale",
+          "shares": 2890.0,
+          "pricePerShare": 30.3,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Dotan Saar",
+          "title": "EVP Countries & BD",
+          "type": "Sale",
+          "shares": 800.0,
+          "pricePerShare": 30.4,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "ZIM",
+          "issuerName": "ZIM Integrated Shipping Services Ltd.",
+          "insiderName": "Meyer-Gloeckner Birger Johannes",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1531.0,
+          "pricePerShare": 28.5,
+          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -33397,16 +33492,6 @@
           "shares": 1.0,
           "pricePerShare": 363.2,
           "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 364.42,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -33517,16 +33602,6 @@
           "shares": 756.0,
           "pricePerShare": 2.95,
           "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -36570,6 +36645,21 @@
         }
       ]
     },
+    "ROC": {
+      "issuerName": "Rank One Computing Corp",
+      "trades": [
+        {
+          "ticker": "ROC",
+          "issuerName": "Rank One Computing Corp",
+          "insiderName": "Kiernan Kathleen Louise",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 4000.0,
+          "pricePerShare": 4.3587,
+          "transactionDate": "2026-09-14"
+        }
+      ]
+    },
     "PGY": {
       "issuerName": "Pagaya Technologies Ltd.",
       "trades": [
@@ -38417,16 +38507,6 @@
           "shares": 10000.0,
           "pricePerShare": 19.1765,
           "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "DONEGAL MUTUAL INSURANCE CO",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 19.1946,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -51900,61 +51980,6 @@
         }
       ]
     },
-    "ZIM": {
-      "issuerName": "ZIM Integrated Shipping Services Ltd.",
-      "trades": [
-        {
-          "ticker": "ZIM",
-          "issuerName": "ZIM Integrated Shipping Services Ltd.",
-          "insiderName": "Elimelech Arik",
-          "title": "EVP HR & Organization",
-          "type": "Sale",
-          "shares": 458.0,
-          "pricePerShare": 29.9863,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "ZIM",
-          "issuerName": "ZIM Integrated Shipping Services Ltd.",
-          "insiderName": "Tiran Assaf",
-          "title": "EVP Cross Suez & Atlantic BU",
-          "type": "Sale",
-          "shares": 2312.0,
-          "pricePerShare": 30.2063,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "ZIM",
-          "issuerName": "ZIM Integrated Shipping Services Ltd.",
-          "insiderName": "Dotan Saar",
-          "title": "EVP Countries & BD",
-          "type": "Sale",
-          "shares": 2890.0,
-          "pricePerShare": 30.3,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "ZIM",
-          "issuerName": "ZIM Integrated Shipping Services Ltd.",
-          "insiderName": "Dotan Saar",
-          "title": "EVP Countries & BD",
-          "type": "Sale",
-          "shares": 800.0,
-          "pricePerShare": 30.4,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "ZIM",
-          "issuerName": "ZIM Integrated Shipping Services Ltd.",
-          "insiderName": "Meyer-Gloeckner Birger Johannes",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1531.0,
-          "pricePerShare": 28.5,
-          "transactionDate": "2026-09-04"
-        }
-      ]
-    },
     "TTC": {
       "issuerName": "TORO CO",
       "trades": [
@@ -62177,16 +62202,6 @@
           "shares": 27304.0,
           "pricePerShare": 3.538,
           "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "SRTS",
-          "issuerName": "Sensus Healthcare, Inc.",
-          "insiderName": "Sachetta Eric",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 37537.0,
-          "pricePerShare": 3.437,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -63126,21 +63141,6 @@
           "type": "Purchase",
           "shares": 50000.0,
           "pricePerShare": 0.8077,
-          "transactionDate": "2026-08-28"
-        }
-      ]
-    },
-    "GLRE": {
-      "issuerName": "GREENLIGHT CAPITAL RE, LTD.",
-      "trades": [
-        {
-          "ticker": "GLRE",
-          "issuerName": "GREENLIGHT CAPITAL RE, LTD.",
-          "insiderName": "Isaacs Ian",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 4054.0,
-          "pricePerShare": 15.4224,
           "transactionDate": "2026-08-28"
         }
       ]
@@ -67872,6 +67872,8 @@
       "0001104659-26-108023",
       "0001104659-26-108024",
       "0001104659-26-108060",
+      "0001104659-26-108068",
+      "0001104659-26-108084",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -74547,6 +74549,14 @@
       "0001213900-26-100297",
       "0001213900-26-100301",
       "0001213900-26-100307",
+      "0001213900-26-100338",
+      "0001213900-26-100339",
+      "0001213900-26-100341",
+      "0001213900-26-100342",
+      "0001213900-26-100343",
+      "0001213900-26-100344",
+      "0001213900-26-100345",
+      "0001213900-26-100346",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -88001,6 +88011,9 @@
       "0001918704-26-027698",
       "0001918704-26-027699",
       "0001918704-26-027717",
+      "0001918704-26-027718",
+      "0001918704-26-027719",
+      "0001918704-26-027720",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -88282,6 +88295,8 @@
       "0001976408-26-000839",
       "0001976408-26-000843",
       "0001976408-26-000849",
+      "0001976408-26-000850",
+      "0001976408-26-000851",
       "0001976672-26-000057",
       "0001976672-26-000059",
       "0001976672-26-000062",
