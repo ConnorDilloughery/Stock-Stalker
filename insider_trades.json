@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T15:01:24.172716+00:00",
+  "generatedAt": "2026-09-16T16:02:42.402512+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -511,6 +511,46 @@
       "type": "Sale",
       "shares": 49588.0,
       "pricePerShare": 11.15,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "SBLK",
+      "issuerName": "Star Bulk Carriers Corp.",
+      "insiderName": "Spyrou Symeon",
+      "title": "co CFO",
+      "type": "Purchase",
+      "shares": 15000.0,
+      "pricePerShare": 28.27,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "SBLK",
+      "issuerName": "Star Bulk Carriers Corp.",
+      "insiderName": "Karellis Nikolaos",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 2000.0,
+      "pricePerShare": 28.27,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "RICK",
+      "issuerName": "RCI HOSPITALITY HOLDINGS, INC.",
+      "insiderName": "Elaine Johnson Martin",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 601.0,
+      "pricePerShare": 28.9454,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "SBLK",
+      "issuerName": "Star Bulk Carriers Corp.",
+      "insiderName": "Erhardt Koert",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 6000.0,
+      "pricePerShare": 28.27,
       "transactionDate": "2026-09-15"
     },
     {
@@ -2401,6 +2441,16 @@
       "type": "Sale",
       "shares": 282063.0,
       "pricePerShare": 11.55,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "ARDC",
+      "issuerName": "Ares Dynamic Credit Allocation Fund, Inc.",
+      "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 240000.0,
+      "pricePerShare": 25.0,
       "transactionDate": "2026-09-14"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 3443.0,
       "pricePerShare": 223.91,
       "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "MATX",
-      "issuerName": "Matson, Inc.",
-      "insiderName": "COX MATTHEW J",
-      "title": "Director, Chairman & CEO",
-      "type": "Sale",
-      "shares": 6115.0,
-      "pricePerShare": 223.22,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "VTSI",
-      "issuerName": "VirTra, Inc",
-      "insiderName": "BARBER GRANT",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 1350.0,
-      "pricePerShare": 2.99,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "BIVI",
-      "issuerName": "BIOVIE INC.",
-      "insiderName": "Palumbo Joseph M",
-      "title": "Chief Medical Officer",
-      "type": "Purchase",
-      "shares": 4843.0,
-      "pricePerShare": 2.16,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "ADC",
-      "issuerName": "AGREE REALTY CORP",
-      "insiderName": "RAKOLTA JOHN JR",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 136.0,
-      "pricePerShare": 73.52,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 577.0,
-      "pricePerShare": 118.13,
-      "transactionDate": "2026-08-28"
     }
   ],
   "byTicker": {
@@ -31920,6 +31920,56 @@
         }
       ]
     },
+    "SBLK": {
+      "issuerName": "Star Bulk Carriers Corp.",
+      "trades": [
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Spyrou Symeon",
+          "title": "co CFO",
+          "type": "Purchase",
+          "shares": 15000.0,
+          "pricePerShare": 28.27,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Karellis Nikolaos",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 28.27,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Erhardt Koert",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 6000.0,
+          "pricePerShare": 28.27,
+          "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "RICK": {
+      "issuerName": "RCI HOSPITALITY HOLDINGS, INC.",
+      "trades": [
+        {
+          "ticker": "RICK",
+          "issuerName": "RCI HOSPITALITY HOLDINGS, INC.",
+          "insiderName": "Elaine Johnson Martin",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 601.0,
+          "pricePerShare": 28.9454,
+          "transactionDate": "2026-09-15"
+        }
+      ]
+    },
     "FINS": {
       "issuerName": "Angel Oak Financial Strategies Income Term Trust",
       "trades": [
@@ -33307,16 +33357,6 @@
           "shares": 18.0,
           "pricePerShare": 117.58,
           "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 577.0,
-          "pricePerShare": 118.13,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -33997,16 +34037,6 @@
           "shares": 1500.0,
           "pricePerShare": 2.95,
           "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "VTSI",
-          "issuerName": "VirTra, Inc",
-          "insiderName": "BARBER GRANT",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1350.0,
-          "pricePerShare": 2.99,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -37026,6 +37056,21 @@
           "type": "Purchase",
           "shares": 33900.0,
           "pricePerShare": 2.96,
+          "transactionDate": "2026-09-14"
+        }
+      ]
+    },
+    "ARDC": {
+      "issuerName": "Ares Dynamic Credit Allocation Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "ARDC",
+          "issuerName": "Ares Dynamic Credit Allocation Fund, Inc.",
+          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 240000.0,
+          "pricePerShare": 25.0,
           "transactionDate": "2026-09-14"
         }
       ]
@@ -63082,16 +63127,6 @@
           "shares": 2500.0,
           "pricePerShare": 2.18,
           "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "BIVI",
-          "issuerName": "BIOVIE INC.",
-          "insiderName": "Palumbo Joseph M",
-          "title": "Chief Medical Officer",
-          "type": "Purchase",
-          "shares": 4843.0,
-          "pricePerShare": 2.16,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -63116,31 +63151,6 @@
           "type": "Sale",
           "shares": 3443.0,
           "pricePerShare": 223.91,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "MATX",
-          "issuerName": "Matson, Inc.",
-          "insiderName": "COX MATTHEW J",
-          "title": "Director, Chairman & CEO",
-          "type": "Sale",
-          "shares": 6115.0,
-          "pricePerShare": 223.22,
-          "transactionDate": "2026-08-28"
-        }
-      ]
-    },
-    "ADC": {
-      "issuerName": "AGREE REALTY CORP",
-      "trades": [
-        {
-          "ticker": "ADC",
-          "issuerName": "AGREE REALTY CORP",
-          "insiderName": "RAKOLTA JOHN JR",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 136.0,
-          "pricePerShare": 73.52,
           "transactionDate": "2026-08-28"
         }
       ]
@@ -63244,6 +63254,9 @@
       "0000025475-26-000080",
       "0000026058-26-000030",
       "0000027996-26-000119",
+      "0000027996-26-000123",
+      "0000027996-26-000124",
+      "0000027996-26-000125",
       "0000029644-26-000073",
       "0000029644-26-000077",
       "0000029915-26-000066",
@@ -63794,6 +63807,7 @@
       "0000313927-26-000311",
       "0000313927-26-000313",
       "0000314984-26-000032",
+      "0000314984-26-000042",
       "0000318154-26-000129",
       "0000318154-26-000130",
       "0000318154-26-000131",
@@ -64571,6 +64585,7 @@
       "0000902664-26-003756",
       "0000902664-26-003757",
       "0000903939-26-000028",
+      "0000903939-26-000030",
       "0000904454-26-000415",
       "0000904454-26-000425",
       "0000904454-26-000464",
@@ -66233,6 +66248,8 @@
       "0000950103-26-014011",
       "0000950103-26-014012",
       "0000950103-26-014013",
+      "0000950103-26-014014",
+      "0000950103-26-014015",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -67888,6 +67905,12 @@
       "0001104659-26-108068",
       "0001104659-26-108084",
       "0001104659-26-108107",
+      "0001104659-26-108148",
+      "0001104659-26-108154",
+      "0001104659-26-108155",
+      "0001104659-26-108156",
+      "0001104659-26-108157",
+      "0001104659-26-108158",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68860,6 +68883,8 @@
       "0001140361-26-036731",
       "0001140361-26-036733",
       "0001140361-26-036737",
+      "0001140361-26-036743",
+      "0001140361-26-036745",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -72966,6 +72991,15 @@
       "0001193125-26-392679",
       "0001193125-26-392686",
       "0001193125-26-392698",
+      "0001193125-26-392722",
+      "0001193125-26-392730",
+      "0001193125-26-392734",
+      "0001193125-26-392735",
+      "0001193125-26-392740",
+      "0001193125-26-392743",
+      "0001193125-26-392744",
+      "0001193125-26-392756",
+      "0001193125-26-392765",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74605,6 +74639,7 @@
       "0001213900-26-100382",
       "0001213900-26-100391",
       "0001213900-26-100408",
+      "0001213900-26-100417",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -75649,6 +75684,7 @@
       "0001332349-26-000059",
       "0001333280-26-000016",
       "0001333280-26-000017",
+      "0001333848-26-000003",
       "0001334330-26-000002",
       "0001334944-26-000034",
       "0001336063-26-000006",
@@ -79455,6 +79491,7 @@
       "0001628280-26-062129",
       "0001628280-26-062133",
       "0001628280-26-062134",
+      "0001628280-26-062157",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -84054,6 +84091,26 @@
       "0001839882-26-045745",
       "0001839882-26-045746",
       "0001839882-26-045749",
+      "0001839882-26-045751",
+      "0001839882-26-045753",
+      "0001839882-26-045754",
+      "0001839882-26-045755",
+      "0001839882-26-045756",
+      "0001839882-26-045758",
+      "0001839882-26-045759",
+      "0001839882-26-045760",
+      "0001839882-26-045761",
+      "0001839882-26-045762",
+      "0001839882-26-045763",
+      "0001839882-26-045764",
+      "0001839882-26-045765",
+      "0001839882-26-045766",
+      "0001839882-26-045767",
+      "0001839882-26-045770",
+      "0001839882-26-045771",
+      "0001839882-26-045772",
+      "0001839882-26-045774",
+      "0001839882-26-045776",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -88132,6 +88189,18 @@
       "0001918704-26-027750",
       "0001918704-26-027751",
       "0001918704-26-027752",
+      "0001918704-26-027753",
+      "0001918704-26-027754",
+      "0001918704-26-027755",
+      "0001918704-26-027758",
+      "0001918704-26-027759",
+      "0001918704-26-027760",
+      "0001918704-26-027761",
+      "0001918704-26-027762",
+      "0001918704-26-027763",
+      "0001918704-26-027764",
+      "0001918704-26-027765",
+      "0001918704-26-027766",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -88325,6 +88394,7 @@
       "0001969106-26-000004",
       "0001969292-26-000007",
       "0001969292-26-000009",
+      "0001969701-26-000006",
       "0001970613-26-000004",
       "0001971511-26-000004",
       "0001971617-26-000010",
@@ -89093,6 +89163,7 @@
       "0002010445-26-000009",
       "0002011118-26-000008",
       "0002011525-26-000002",
+      "0002011929-26-000010",
       "0002012024-26-000008",
       "0002012135-26-000021",
       "0002012383-26-001978",
@@ -89826,6 +89897,7 @@
       "0002130460-26-000004",
       "0002130557-26-000004",
       "0002131351-26-000010",
+      "0002131351-26-000014",
       "0002131383-26-000006",
       "0002131529-26-000004",
       "0002133000-26-000008",
