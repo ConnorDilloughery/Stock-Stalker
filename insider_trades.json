@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T13:01:50.866964+00:00",
+  "generatedAt": "2026-09-16T14:05:38.959075+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -2351,6 +2351,26 @@
       "type": "Purchase",
       "shares": 5000.0,
       "pricePerShare": 22.12,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "GAIA",
+      "issuerName": "GAIA, INC",
+      "insiderName": "Sutherland Paul Howard",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 11000.0,
+      "pricePerShare": 1.2294,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "GAIA",
+      "issuerName": "GAIA, INC",
+      "insiderName": "Sutherland Paul Howard",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 100.0,
+      "pricePerShare": 1.245,
       "transactionDate": "2026-09-14"
     },
     {
@@ -29982,26 +30002,6 @@
       "shares": 4116.0,
       "pricePerShare": 120.45,
       "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 58.0,
-      "pricePerShare": 118.24,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1019.0,
-      "pricePerShare": 119.34,
-      "transactionDate": "2026-08-28"
     }
   ],
   "byTicker": {
@@ -33281,26 +33281,6 @@
           "type": "Sale",
           "shares": 4116.0,
           "pricePerShare": 120.45,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 58.0,
-          "pricePerShare": 118.24,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1019.0,
-          "pricePerShare": 119.34,
           "transactionDate": "2026-08-28"
         }
       ]
@@ -36945,6 +36925,61 @@
         }
       ]
     },
+    "GAIA": {
+      "issuerName": "GAIA, INC",
+      "trades": [
+        {
+          "ticker": "GAIA",
+          "issuerName": "GAIA, INC",
+          "insiderName": "Sutherland Paul Howard",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 11000.0,
+          "pricePerShare": 1.2294,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "GAIA",
+          "issuerName": "GAIA, INC",
+          "insiderName": "Sutherland Paul Howard",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 100.0,
+          "pricePerShare": 1.245,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "GAIA",
+          "issuerName": "GAIA, INC",
+          "insiderName": "Sutherland Paul Howard",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 3500.0,
+          "pricePerShare": 1.3707,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "GAIA",
+          "issuerName": "GAIA, INC",
+          "insiderName": "Sutherland Paul Howard",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 500.0,
+          "pricePerShare": 1.55,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "GAIA",
+          "issuerName": "GAIA, INC",
+          "insiderName": "Sutherland Paul Howard",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 1.67,
+          "transactionDate": "2026-09-02"
+        }
+      ]
+    },
     "PGY": {
       "issuerName": "Pagaya Technologies Ltd.",
       "trades": [
@@ -39652,41 +39687,6 @@
           "shares": 75581.0,
           "pricePerShare": 1.29,
           "transactionDate": "2026-09-11"
-        }
-      ]
-    },
-    "GAIA": {
-      "issuerName": "GAIA, INC",
-      "trades": [
-        {
-          "ticker": "GAIA",
-          "issuerName": "GAIA, INC",
-          "insiderName": "Sutherland Paul Howard",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 3500.0,
-          "pricePerShare": 1.3707,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "GAIA",
-          "issuerName": "GAIA, INC",
-          "insiderName": "Sutherland Paul Howard",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 500.0,
-          "pricePerShare": 1.55,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "GAIA",
-          "issuerName": "GAIA, INC",
-          "insiderName": "Sutherland Paul Howard",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 1.67,
-          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -63861,6 +63861,11 @@
       "0000708955-26-000147",
       "0000708955-26-000149",
       "0000708955-26-000157",
+      "0000708955-26-000161",
+      "0000708955-26-000163",
+      "0000708955-26-000165",
+      "0000708955-26-000167",
+      "0000708955-26-000169",
       "0000711377-26-000013",
       "0000711377-26-000014",
       "0000711377-26-000015",
@@ -66218,6 +66223,9 @@
       "0000950103-26-013997",
       "0000950103-26-014002",
       "0000950103-26-014009",
+      "0000950103-26-014011",
+      "0000950103-26-014012",
+      "0000950103-26-014013",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -68840,6 +68848,7 @@
       "0001140361-26-036627",
       "0001140361-26-036631",
       "0001140361-26-036688",
+      "0001140361-26-036728",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -72927,6 +72936,20 @@
       "0001193125-26-392334",
       "0001193125-26-392335",
       "0001193125-26-392520",
+      "0001193125-26-392557",
+      "0001193125-26-392561",
+      "0001193125-26-392601",
+      "0001193125-26-392602",
+      "0001193125-26-392603",
+      "0001193125-26-392604",
+      "0001193125-26-392605",
+      "0001193125-26-392606",
+      "0001193125-26-392607",
+      "0001193125-26-392608",
+      "0001193125-26-392609",
+      "0001193125-26-392610",
+      "0001193125-26-392611",
+      "0001193125-26-392612",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74563,6 +74586,8 @@
       "0001213900-26-100357",
       "0001213900-26-100358",
       "0001213900-26-100370",
+      "0001213900-26-100382",
+      "0001213900-26-100391",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -79624,6 +79649,23 @@
       "0001655589-26-001199",
       "0001655589-26-001251",
       "0001655589-26-001254",
+      "0001655589-26-001284",
+      "0001655589-26-001285",
+      "0001655589-26-001286",
+      "0001655589-26-001287",
+      "0001655589-26-001288",
+      "0001655589-26-001289",
+      "0001655589-26-001290",
+      "0001655589-26-001291",
+      "0001655589-26-001292",
+      "0001655589-26-001293",
+      "0001655589-26-001294",
+      "0001655589-26-001295",
+      "0001655589-26-001296",
+      "0001655589-26-001297",
+      "0001655589-26-001298",
+      "0001655589-26-001299",
+      "0001655589-26-001300",
       "0001656109-26-000006",
       "0001656846-26-000007",
       "0001657787-26-000002",
@@ -83976,6 +84018,9 @@
       "0001839882-26-045660",
       "0001839882-26-045661",
       "0001839882-26-045662",
+      "0001839882-26-045714",
+      "0001839882-26-045718",
+      "0001839882-26-045729",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -88025,6 +88070,18 @@
       "0001918704-26-027718",
       "0001918704-26-027719",
       "0001918704-26-027720",
+      "0001918704-26-027722",
+      "0001918704-26-027723",
+      "0001918704-26-027724",
+      "0001918704-26-027725",
+      "0001918704-26-027726",
+      "0001918704-26-027727",
+      "0001918704-26-027728",
+      "0001918704-26-027729",
+      "0001918704-26-027730",
+      "0001918704-26-027731",
+      "0001918704-26-027732",
+      "0001918704-26-027733",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -89379,6 +89436,9 @@
       "0002071844-26-001218",
       "0002071844-26-001221",
       "0002071844-26-001224",
+      "0002071844-26-001233",
+      "0002071844-26-001235",
+      "0002071844-26-001237",
       "0002071948-26-000005",
       "0002071953-26-000007",
       "0002072270-26-000013",
