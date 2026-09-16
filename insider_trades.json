@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T12:01:44.407295+00:00",
+  "generatedAt": "2026-09-16T13:01:50.866964+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -471,6 +471,36 @@
       "type": "Sale",
       "shares": 26691.0,
       "pricePerShare": 8.5267,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "CELH",
+      "issuerName": "Celsius Holdings, Inc.",
+      "insiderName": "Kravitz Hal",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 12000.0,
+      "pricePerShare": 28.0,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "KLTR",
+      "issuerName": "KALTURA INC",
+      "insiderName": "Azaria Eynav",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 6113.0,
+      "pricePerShare": 1.4085,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "NDSN",
+      "issuerName": "NORDSON CORP",
+      "insiderName": "Rutledge Joseph M",
+      "title": "VP, CAO",
+      "type": "Sale",
+      "shares": 684.0,
+      "pricePerShare": 309.38,
       "transactionDate": "2026-09-15"
     },
     {
@@ -2281,6 +2311,46 @@
       "type": "Sale",
       "shares": 52900.0,
       "pricePerShare": 8.5378,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 9545.0,
+      "pricePerShare": 116.62,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 4055.0,
+      "pricePerShare": 117.02,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "KLTR",
+      "issuerName": "KALTURA INC",
+      "insiderName": "Azaria Eynav",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 5149.0,
+      "pricePerShare": 1.4282,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "AVBC",
+      "issuerName": "Avidia Bancorp, Inc.",
+      "insiderName": "Murphy Michael Dennis",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 5000.0,
+      "pricePerShare": 22.12,
       "transactionDate": "2026-09-14"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 1019.0,
       "pricePerShare": 119.34,
       "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 418.0,
-      "pricePerShare": 120.32,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 5.0,
-      "pricePerShare": 120.82,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Zhao Feng",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2000.0,
-      "pricePerShare": 120.07,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "SCOR",
-      "issuerName": "COMSCORE, INC.",
-      "insiderName": "LIVEK WILLIAM PAUL",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 20000.0,
-      "pricePerShare": 5.23,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "CTEV",
-      "issuerName": "Claritev Corp",
-      "insiderName": "Dalton Travis",
-      "title": "Director, Pres., CEO & Executive Chair",
-      "type": "Purchase",
-      "shares": 1950.0,
-      "pricePerShare": 38.4823,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "MDRR",
-      "issuerName": "Medalist Diversified, Inc.",
-      "insiderName": "Winn Charles Brent Jr.",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 3.0,
-      "pricePerShare": 12.0,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "ORBS",
-      "issuerName": "Eightco Holdings Inc.",
-      "insiderName": "O'Donnell Kevin J",
-      "title": "Director, CEO",
-      "type": "Purchase",
-      "shares": 50000.0,
-      "pricePerShare": 0.8077,
-      "transactionDate": "2026-08-28"
     }
   ],
   "byTicker": {
@@ -31710,6 +31710,151 @@
         }
       ]
     },
+    "CELH": {
+      "issuerName": "Celsius Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "CELH",
+          "issuerName": "Celsius Holdings, Inc.",
+          "insiderName": "Kravitz Hal",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 12000.0,
+          "pricePerShare": 28.0,
+          "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "KLTR": {
+      "issuerName": "KALTURA INC",
+      "trades": [
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 6113.0,
+          "pricePerShare": 1.4085,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 5149.0,
+          "pricePerShare": 1.4282,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 5656.0,
+          "pricePerShare": 1.4229,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 3763.0,
+          "pricePerShare": 1.4462,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 10078.0,
+          "pricePerShare": 1.4801,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 12341.0,
+          "pricePerShare": 1.4875,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 8176.0,
+          "pricePerShare": 1.5087,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 9866.0,
+          "pricePerShare": 1.5318,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 7816.0,
+          "pricePerShare": 1.5136,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 4328.0,
+          "pricePerShare": 1.5427,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "NDSN": {
+      "issuerName": "NORDSON CORP",
+      "trades": [
+        {
+          "ticker": "NDSN",
+          "issuerName": "NORDSON CORP",
+          "insiderName": "Rutledge Joseph M",
+          "title": "VP, CAO",
+          "type": "Sale",
+          "shares": 684.0,
+          "pricePerShare": 309.38,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "NDSN",
+          "issuerName": "NORDSON CORP",
+          "insiderName": "Morris Milton Mayo",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 156.0,
+          "pricePerShare": 316.63,
+          "transactionDate": "2026-09-02"
+        }
+      ]
+    },
     "FINS": {
       "issuerName": "Angel Oak Financial Strategies Income Term Trust",
       "trades": [
@@ -33156,36 +33301,6 @@
           "type": "Sale",
           "shares": 1019.0,
           "pricePerShare": 119.34,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 418.0,
-          "pricePerShare": 120.32,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5.0,
-          "pricePerShare": 120.82,
-          "transactionDate": "2026-08-28"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Zhao Feng",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2000.0,
-          "pricePerShare": 120.07,
           "transactionDate": "2026-08-28"
         }
       ]
@@ -36660,6 +36775,176 @@
         }
       ]
     },
+    "AFL": {
+      "issuerName": "AFLAC INC",
+      "trades": [
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 9545.0,
+          "pricePerShare": 116.62,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4055.0,
+          "pricePerShare": 117.02,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13173.0,
+          "pricePerShare": 115.12,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 827.0,
+          "pricePerShare": 115.41,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 11765.0,
+          "pricePerShare": 114.21,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1535.0,
+          "pricePerShare": 115.16,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 11500.0,
+          "pricePerShare": 115.32,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2100.0,
+          "pricePerShare": 116.11,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 14850.0,
+          "pricePerShare": 117.46,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 150.0,
+          "pricePerShare": 118.17,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 118.49,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13500.0,
+          "pricePerShare": 117.19,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 8670.0,
+          "pricePerShare": 115.65,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4130.0,
+          "pricePerShare": 116.01,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12700.0,
+          "pricePerShare": 116.0,
+          "transactionDate": "2026-08-31"
+        }
+      ]
+    },
+    "AVBC": {
+      "issuerName": "Avidia Bancorp, Inc.",
+      "trades": [
+        {
+          "ticker": "AVBC",
+          "issuerName": "Avidia Bancorp, Inc.",
+          "insiderName": "Murphy Michael Dennis",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 22.12,
+          "transactionDate": "2026-09-14"
+        }
+      ]
+    },
     "PGY": {
       "issuerName": "Pagaya Technologies Ltd.",
       "trades": [
@@ -38195,91 +38480,6 @@
         }
       ]
     },
-    "KLTR": {
-      "issuerName": "KALTURA INC",
-      "trades": [
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 5656.0,
-          "pricePerShare": 1.4229,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 3763.0,
-          "pricePerShare": 1.4462,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 10078.0,
-          "pricePerShare": 1.4801,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 12341.0,
-          "pricePerShare": 1.4875,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 8176.0,
-          "pricePerShare": 1.5087,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 9866.0,
-          "pricePerShare": 1.5318,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 7816.0,
-          "pricePerShare": 1.5136,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 4328.0,
-          "pricePerShare": 1.5427,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
     "GRNT": {
       "issuerName": "Granite Ridge Resources, Inc.",
       "trades": [
@@ -39437,141 +39637,6 @@
           "shares": 5050.0,
           "pricePerShare": 0.99,
           "transactionDate": "2026-09-11"
-        }
-      ]
-    },
-    "AFL": {
-      "issuerName": "AFLAC INC",
-      "trades": [
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13173.0,
-          "pricePerShare": 115.12,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 827.0,
-          "pricePerShare": 115.41,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 11765.0,
-          "pricePerShare": 114.21,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1535.0,
-          "pricePerShare": 115.16,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 11500.0,
-          "pricePerShare": 115.32,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2100.0,
-          "pricePerShare": 116.11,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 14850.0,
-          "pricePerShare": 117.46,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 150.0,
-          "pricePerShare": 118.17,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 20000.0,
-          "pricePerShare": 118.49,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13500.0,
-          "pricePerShare": 117.19,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 8670.0,
-          "pricePerShare": 115.65,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4130.0,
-          "pricePerShare": 116.01,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 12700.0,
-          "pricePerShare": 116.0,
-          "transactionDate": "2026-08-31"
         }
       ]
     },
@@ -51742,16 +51807,6 @@
           "shares": 10.0,
           "pricePerShare": 12.0,
           "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "MDRR",
-          "issuerName": "Medalist Diversified, Inc.",
-          "insiderName": "Winn Charles Brent Jr.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 3.0,
-          "pricePerShare": 12.0,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -59000,21 +59055,6 @@
         }
       ]
     },
-    "NDSN": {
-      "issuerName": "NORDSON CORP",
-      "trades": [
-        {
-          "ticker": "NDSN",
-          "issuerName": "NORDSON CORP",
-          "insiderName": "Morris Milton Mayo",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 156.0,
-          "pricePerShare": 316.63,
-          "transactionDate": "2026-09-02"
-        }
-      ]
-    },
     "OWLS": {
       "issuerName": "OBOOK HOLDINGS INC.",
       "trades": [
@@ -63099,51 +63139,6 @@
           "transactionDate": "2026-08-28"
         }
       ]
-    },
-    "SCOR": {
-      "issuerName": "COMSCORE, INC.",
-      "trades": [
-        {
-          "ticker": "SCOR",
-          "issuerName": "COMSCORE, INC.",
-          "insiderName": "LIVEK WILLIAM PAUL",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 20000.0,
-          "pricePerShare": 5.23,
-          "transactionDate": "2026-08-28"
-        }
-      ]
-    },
-    "CTEV": {
-      "issuerName": "Claritev Corp",
-      "trades": [
-        {
-          "ticker": "CTEV",
-          "issuerName": "Claritev Corp",
-          "insiderName": "Dalton Travis",
-          "title": "Director, Pres., CEO & Executive Chair",
-          "type": "Purchase",
-          "shares": 1950.0,
-          "pricePerShare": 38.4823,
-          "transactionDate": "2026-08-28"
-        }
-      ]
-    },
-    "ORBS": {
-      "issuerName": "Eightco Holdings Inc.",
-      "trades": [
-        {
-          "ticker": "ORBS",
-          "issuerName": "Eightco Holdings Inc.",
-          "insiderName": "O'Donnell Kevin J",
-          "title": "Director, CEO",
-          "type": "Purchase",
-          "shares": 50000.0,
-          "pricePerShare": 0.8077,
-          "transactionDate": "2026-08-28"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63865,6 +63860,7 @@
       "0000708955-26-000146",
       "0000708955-26-000147",
       "0000708955-26-000149",
+      "0000708955-26-000157",
       "0000711377-26-000013",
       "0000711377-26-000014",
       "0000711377-26-000015",
@@ -64447,6 +64443,7 @@
       "0000894189-26-025199",
       "0000894189-26-025209",
       "0000894189-26-025222",
+      "0000894189-26-025236",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -67874,6 +67871,7 @@
       "0001104659-26-108060",
       "0001104659-26-108068",
       "0001104659-26-108084",
+      "0001104659-26-108107",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68221,6 +68219,8 @@
       "0001133228-26-012579",
       "0001133228-26-012581",
       "0001133228-26-012583",
+      "0001133228-26-012590",
+      "0001133228-26-012592",
       "0001133416-26-000065",
       "0001134261-26-000005",
       "0001134261-26-000007",
@@ -68864,6 +68864,7 @@
       "0001162044-26-000707",
       "0001162044-26-000708",
       "0001162044-26-000807",
+      "0001162044-26-000808",
       "0001163739-26-000056",
       "0001166003-26-000076",
       "0001166152-26-000010",
@@ -72925,6 +72926,7 @@
       "0001193125-26-392333",
       "0001193125-26-392334",
       "0001193125-26-392335",
+      "0001193125-26-392520",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74557,6 +74559,10 @@
       "0001213900-26-100344",
       "0001213900-26-100345",
       "0001213900-26-100346",
+      "0001213900-26-100356",
+      "0001213900-26-100357",
+      "0001213900-26-100358",
+      "0001213900-26-100370",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -76506,6 +76512,7 @@
       "0001437749-26-030462",
       "0001437749-26-030481",
       "0001437749-26-030484",
+      "0001437749-26-030507",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -79397,6 +79404,9 @@
       "0001628280-26-062111",
       "0001628280-26-062115",
       "0001628280-26-062124",
+      "0001628280-26-062129",
+      "0001628280-26-062133",
+      "0001628280-26-062134",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -84249,6 +84259,7 @@
       "0001891707-26-000001",
       "0001891792-26-000002",
       "0001892579-26-000006",
+      "0001894030-26-000014",
       "0001894117-26-000006",
       "0001894425-26-000018",
       "0001895101-26-000016",
@@ -88901,6 +88912,7 @@
       "0001999371-26-020526",
       "0001999371-26-020533",
       "0001999371-26-020565",
+      "0001999371-26-020592",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -89434,6 +89446,7 @@
       "0002078374-26-000003",
       "0002078454-26-000014",
       "0002078512-26-000002",
+      "0002078512-26-000004",
       "0002078559-26-000010",
       "0002078651-26-000012",
       "0002078707-26-000004",
