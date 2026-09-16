@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T17:03:41.442666+00:00",
+  "generatedAt": "2026-09-16T18:05:51.859639+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -571,6 +571,36 @@
       "type": "Sale",
       "shares": 800.0,
       "pricePerShare": 337.83,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "AQST",
+      "issuerName": "Aquestive Therapeutics, Inc.",
+      "insiderName": "Barber Daniel",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 25000.0,
+      "pricePerShare": 4.8195,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "ISRG",
+      "issuerName": "INTUITIVE SURGICAL INC",
+      "insiderName": "Widman Fredrik",
+      "title": "VP Corporate Controller",
+      "type": "Sale",
+      "shares": 546.0,
+      "pricePerShare": 374.44,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "ISRG",
+      "issuerName": "INTUITIVE SURGICAL INC",
+      "insiderName": "Widman Fredrik",
+      "title": "VP Corporate Controller",
+      "type": "Sale",
+      "shares": 543.0,
+      "pricePerShare": 374.44,
       "transactionDate": "2026-09-15"
     },
     {
@@ -2481,6 +2511,26 @@
       "type": "Purchase",
       "shares": 2000.0,
       "pricePerShare": 14.135,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "GLBE",
+      "issuerName": "Global-E Online Ltd.",
+      "insiderName": "Koren Ofer",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 300.0,
+      "pricePerShare": 38.0,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "BFH",
+      "issuerName": "BREAD FINANCIAL HOLDINGS, INC.",
+      "insiderName": "McCarthy Dennis James",
+      "title": "EVP, Chief Revenue Officer",
+      "type": "Purchase",
+      "shares": 15.89,
+      "pricePerShare": 108.14,
       "transactionDate": "2026-09-14"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 3200.0,
       "pricePerShare": 92.3,
       "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "UAMY",
-      "issuerName": "UNITED STATES ANTIMONY CORP",
-      "insiderName": "EVANS GARY C",
-      "title": "Director, Chairman & CEO",
-      "type": "Purchase",
-      "shares": 20000.0,
-      "pricePerShare": 4.92,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "MGNI",
-      "issuerName": "MAGNITE, INC.",
-      "insiderName": "Harden Sarah Patricia",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 18436.0,
-      "pricePerShare": 24.0,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "SUJA",
-      "issuerName": "SUJA LIFE, INC.",
-      "insiderName": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 185000.0,
-      "pricePerShare": 9.33,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "PLSE",
-      "issuerName": "PULSE BIOSCIENCES, INC.",
-      "insiderName": "Teplitsky Liane Rae",
-      "title": "Chief Operating Officer",
-      "type": "Purchase",
-      "shares": 1034.0,
-      "pricePerShare": 48.35,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "BIVI",
-      "issuerName": "BIOVIE INC.",
-      "insiderName": "Chappell Amy Suzon",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 727.0,
-      "pricePerShare": 2.16,
-      "transactionDate": "2026-08-28"
     }
   ],
   "byTicker": {
@@ -31992,6 +31992,86 @@
           "shares": 800.0,
           "pricePerShare": 337.83,
           "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "AQST": {
+      "issuerName": "Aquestive Therapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "AQST",
+          "issuerName": "Aquestive Therapeutics, Inc.",
+          "insiderName": "Barber Daniel",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 4.8195,
+          "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "ISRG": {
+      "issuerName": "INTUITIVE SURGICAL INC",
+      "trades": [
+        {
+          "ticker": "ISRG",
+          "issuerName": "INTUITIVE SURGICAL INC",
+          "insiderName": "Widman Fredrik",
+          "title": "VP Corporate Controller",
+          "type": "Sale",
+          "shares": 546.0,
+          "pricePerShare": 374.44,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "ISRG",
+          "issuerName": "INTUITIVE SURGICAL INC",
+          "insiderName": "Widman Fredrik",
+          "title": "VP Corporate Controller",
+          "type": "Sale",
+          "shares": 543.0,
+          "pricePerShare": 374.44,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "ISRG",
+          "issuerName": "INTUITIVE SURGICAL INC",
+          "insiderName": "Brosius Mark",
+          "title": "EVP & Chief Mfg and Supply Cha",
+          "type": "Sale",
+          "shares": 25.0,
+          "pricePerShare": 365.79,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "ISRG",
+          "issuerName": "INTUITIVE SURGICAL INC",
+          "insiderName": "Brosius Mark",
+          "title": "EVP & Chief Mfg and Supply Cha",
+          "type": "Sale",
+          "shares": 23.0,
+          "pricePerShare": 347.66,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "ISRG",
+          "issuerName": "INTUITIVE SURGICAL INC",
+          "insiderName": "Brosius Mark",
+          "title": "EVP & Chief Mfg and Supply Cha",
+          "type": "Sale",
+          "shares": 23.0,
+          "pricePerShare": 350.2,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "ISRG",
+          "issuerName": "INTUITIVE SURGICAL INC",
+          "insiderName": "Brosius Mark",
+          "title": "EVP & Chief Mfg and Supply Cha",
+          "type": "Sale",
+          "shares": 46.0,
+          "pricePerShare": 361.23,
+          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -37115,6 +37195,66 @@
         }
       ]
     },
+    "GLBE": {
+      "issuerName": "Global-E Online Ltd.",
+      "trades": [
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Koren Ofer",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 300.0,
+          "pricePerShare": 38.0,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Debbi Nir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 228.0,
+          "pricePerShare": 39.211,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Tamari Shahar",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 24999.0,
+          "pricePerShare": 38.4135,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Debbi Nir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8332.0,
+          "pricePerShare": 37.2251,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "BFH": {
+      "issuerName": "BREAD FINANCIAL HOLDINGS, INC.",
+      "trades": [
+        {
+          "ticker": "BFH",
+          "issuerName": "BREAD FINANCIAL HOLDINGS, INC.",
+          "insiderName": "McCarthy Dennis James",
+          "title": "EVP, Chief Revenue Officer",
+          "type": "Purchase",
+          "shares": 15.89,
+          "pricePerShare": 108.14,
+          "transactionDate": "2026-09-14"
+        }
+      ]
+    },
     "PGY": {
       "issuerName": "Pagaya Technologies Ltd.",
       "trades": [
@@ -37627,51 +37767,6 @@
           "shares": 20000.0,
           "pricePerShare": 34.85,
           "transactionDate": "2026-09-11"
-        }
-      ]
-    },
-    "ISRG": {
-      "issuerName": "INTUITIVE SURGICAL INC",
-      "trades": [
-        {
-          "ticker": "ISRG",
-          "issuerName": "INTUITIVE SURGICAL INC",
-          "insiderName": "Brosius Mark",
-          "title": "EVP & Chief Mfg and Supply Cha",
-          "type": "Sale",
-          "shares": 25.0,
-          "pricePerShare": 365.79,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "ISRG",
-          "issuerName": "INTUITIVE SURGICAL INC",
-          "insiderName": "Brosius Mark",
-          "title": "EVP & Chief Mfg and Supply Cha",
-          "type": "Sale",
-          "shares": 23.0,
-          "pricePerShare": 347.66,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "ISRG",
-          "issuerName": "INTUITIVE SURGICAL INC",
-          "insiderName": "Brosius Mark",
-          "title": "EVP & Chief Mfg and Supply Cha",
-          "type": "Sale",
-          "shares": 23.0,
-          "pricePerShare": 350.2,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "ISRG",
-          "issuerName": "INTUITIVE SURGICAL INC",
-          "insiderName": "Brosius Mark",
-          "title": "EVP & Chief Mfg and Supply Cha",
-          "type": "Sale",
-          "shares": 46.0,
-          "pricePerShare": 361.23,
-          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -51412,16 +51507,6 @@
           "shares": 125000.0,
           "pricePerShare": 10.57,
           "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SUJA",
-          "issuerName": "SUJA LIFE, INC.",
-          "insiderName": "PAINE SCHWARTZ FOOD CHAIN FUND V GP, LTD.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 185000.0,
-          "pricePerShare": 9.33,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -55830,41 +55915,6 @@
         }
       ]
     },
-    "GLBE": {
-      "issuerName": "Global-E Online Ltd.",
-      "trades": [
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Debbi Nir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 228.0,
-          "pricePerShare": 39.211,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Tamari Shahar",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 24999.0,
-          "pricePerShare": 38.4135,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Debbi Nir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 8332.0,
-          "pricePerShare": 37.2251,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
     "DHT": {
       "issuerName": "DHT Holdings, Inc.",
       "trades": [
@@ -59592,16 +59642,6 @@
           "shares": 5371.0,
           "pricePerShare": 23.42,
           "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "MGNI",
-          "issuerName": "MAGNITE, INC.",
-          "insiderName": "Harden Sarah Patricia",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 18436.0,
-          "pricePerShare": 24.0,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -60692,16 +60732,6 @@
           "shares": 1400.0,
           "pricePerShare": 5.035,
           "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "UAMY",
-          "issuerName": "UNITED STATES ANTIMONY CORP",
-          "insiderName": "EVANS GARY C",
-          "title": "Director, Chairman & CEO",
-          "type": "Purchase",
-          "shares": 20000.0,
-          "pricePerShare": 4.92,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -61382,16 +61412,6 @@
           "shares": 1024.0,
           "pricePerShare": 48.8,
           "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "PLSE",
-          "issuerName": "PULSE BIOSCIENCES, INC.",
-          "insiderName": "Teplitsky Liane Rae",
-          "title": "Chief Operating Officer",
-          "type": "Purchase",
-          "shares": 1034.0,
-          "pricePerShare": 48.35,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -63141,21 +63161,6 @@
           "type": "Sale",
           "shares": 3200.0,
           "pricePerShare": 92.3,
-          "transactionDate": "2026-08-28"
-        }
-      ]
-    },
-    "BIVI": {
-      "issuerName": "BIOVIE INC.",
-      "trades": [
-        {
-          "ticker": "BIVI",
-          "issuerName": "BIOVIE INC.",
-          "insiderName": "Chappell Amy Suzon",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 727.0,
-          "pricePerShare": 2.16,
           "transactionDate": "2026-08-28"
         }
       ]
@@ -66265,6 +66270,8 @@
       "0000950103-26-014015",
       "0000950103-26-014016",
       "0000950103-26-014017",
+      "0000950103-26-014019",
+      "0000950103-26-014020",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -67931,6 +67938,7 @@
       "0001104659-26-108161",
       "0001104659-26-108174",
       "0001104659-26-108175",
+      "0001104659-26-108193",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68907,6 +68915,8 @@
       "0001140361-26-036745",
       "0001140361-26-036748",
       "0001140361-26-036750",
+      "0001140361-26-036755",
+      "0001140361-26-036759",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -73024,6 +73034,11 @@
       "0001193125-26-392765",
       "0001193125-26-392779",
       "0001193125-26-392787",
+      "0001193125-26-392854",
+      "0001193125-26-392858",
+      "0001193125-26-392860",
+      "0001193125-26-392875",
+      "0001193125-26-392877",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74666,6 +74681,7 @@
       "0001213900-26-100417",
       "0001213900-26-100426",
       "0001213900-26-100428",
+      "0001213900-26-100433",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -75044,6 +75060,7 @@
       "0001214659-26-011715",
       "0001214659-26-011716",
       "0001214659-26-011717",
+      "0001214659-26-011731",
       "0001214736-26-000002",
       "0001214993-26-000004",
       "0001215135-26-000012",
@@ -75311,6 +75328,7 @@
       "0001225208-26-007796",
       "0001225208-26-007809",
       "0001225208-26-007810",
+      "0001225208-26-007838",
       "0001225481-26-000006",
       "0001225817-26-000008",
       "0001227384-26-000017",
@@ -78071,6 +78089,14 @@
       "0001542574-26-000471",
       "0001542574-26-000472",
       "0001542574-26-000478",
+      "0001542574-26-000479",
+      "0001542574-26-000480",
+      "0001542574-26-000481",
+      "0001542574-26-000483",
+      "0001542574-26-000485",
+      "0001542574-26-000486",
+      "0001542574-26-000487",
+      "0001542574-26-000488",
       "0001543080-26-000004",
       "0001543262-26-000006",
       "0001543262-26-000008",
@@ -81144,6 +81170,7 @@
       "0001829126-26-010107",
       "0001829126-26-010108",
       "0001829126-26-010144",
+      "0001829126-26-010147",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -84163,6 +84190,17 @@
       "0001839882-26-045802",
       "0001839882-26-045804",
       "0001839882-26-045805",
+      "0001839882-26-045810",
+      "0001839882-26-045811",
+      "0001839882-26-045812",
+      "0001839882-26-045813",
+      "0001839882-26-045814",
+      "0001839882-26-045815",
+      "0001839882-26-045816",
+      "0001839882-26-045817",
+      "0001839882-26-045818",
+      "0001839882-26-045819",
+      "0001839882-26-045820",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -84466,6 +84504,7 @@
       "0001897305-26-000006",
       "0001897580-26-000014",
       "0001897745-26-000014",
+      "0001897970-26-000008",
       "0001898490-26-000012",
       "0001898844-26-000002",
       "0001899338-26-000002",
@@ -88262,6 +88301,23 @@
       "0001918704-26-027777",
       "0001918704-26-027778",
       "0001918704-26-027779",
+      "0001918704-26-027783",
+      "0001918704-26-027784",
+      "0001918704-26-027785",
+      "0001918704-26-027786",
+      "0001918704-26-027787",
+      "0001918704-26-027788",
+      "0001918704-26-027789",
+      "0001918704-26-027790",
+      "0001918704-26-027791",
+      "0001918704-26-027792",
+      "0001918704-26-027793",
+      "0001918704-26-027794",
+      "0001918704-26-027795",
+      "0001918704-26-027796",
+      "0001918704-26-027797",
+      "0001918704-26-027798",
+      "0001918704-26-027799",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -89153,6 +89209,7 @@
       "0001999371-26-020592",
       "0001999371-26-020607",
       "0001999371-26-020615",
+      "0001999371-26-020621",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -90045,6 +90102,7 @@
       "0002151661-26-000004",
       "0002152432-26-000004",
       "0002152870-26-000010",
+      "0002153122-26-000005",
       "0002153832-26-000007",
       "0002153871-26-000002",
       "0002153881-26-000005",
