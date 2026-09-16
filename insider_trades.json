@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T10:03:49.269434+00:00",
+  "generatedAt": "2026-09-16T11:01:31.690477+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -411,6 +411,36 @@
       "type": "Sale",
       "shares": 560.0,
       "pricePerShare": 151.3263,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "SMWB",
+      "issuerName": "SIMILARWEB LTD.",
+      "insiderName": "Offer Or",
+      "title": "Chief Executive Officer",
+      "type": "Sale",
+      "shares": 26691.0,
+      "pricePerShare": 8.5267,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "BZUN",
+      "issuerName": "Baozun Inc.",
+      "insiderName": "Qiu Wenbin",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 7300.0,
+      "pricePerShare": 2.72,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "NNOX",
+      "issuerName": "Nano-X Imaging Ltd.",
+      "insiderName": "Meltzer Erez",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 0.69,
       "transactionDate": "2026-09-15"
     },
     {
@@ -2161,6 +2191,46 @@
       "type": "Sale",
       "shares": 34535.0,
       "pricePerShare": 18.54,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "SMWB",
+      "issuerName": "SIMILARWEB LTD.",
+      "insiderName": "Offer Or",
+      "title": "Chief Executive Officer",
+      "type": "Sale",
+      "shares": 52900.0,
+      "pricePerShare": 8.5378,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "WBD",
+      "issuerName": "Warner Bros. Discovery, Inc.",
+      "insiderName": "Locke Lori C.",
+      "title": "Chief Accounting Officer",
+      "type": "Sale",
+      "shares": 29115.0,
+      "pricePerShare": 28.13,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "BZUN",
+      "issuerName": "Baozun Inc.",
+      "insiderName": "Qiu Wenbin",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 7300.0,
+      "pricePerShare": 2.74,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "BULL",
+      "issuerName": "Webull Corp",
+      "insiderName": "Wang Haichen",
+      "title": "Director, Chief Financial Officer",
+      "type": "Sale",
+      "shares": 55000.0,
+      "pricePerShare": 8.9772,
       "transactionDate": "2026-09-14"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 756.0,
       "pricePerShare": 2.95,
       "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "KLTR",
-      "issuerName": "KALTURA INC",
-      "insiderName": "Manor Eyal",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 993.0,
-      "pricePerShare": 1.5953,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "ALLE",
-      "issuerName": "Allegion plc",
-      "insiderName": "MIZELL STEVEN",
-      "title": "Director",
-      "type": "Purchase",
-      "shares": 170.0,
-      "pricePerShare": 158.28,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "FSBW",
-      "issuerName": "FS Bancorp, Inc.",
-      "insiderName": "Degner Terri L",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 975.0,
-      "pricePerShare": 43.25,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "TFSL",
-      "issuerName": "TFS Financial CORP",
-      "insiderName": "WEIL MEREDITH S",
-      "title": "Director, Chief Financial Officer",
-      "type": "Sale",
-      "shares": 600.0,
-      "pricePerShare": 18.0,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "CW",
-      "issuerName": "CURTISS WRIGHT CORP",
-      "insiderName": "Wyche Larry D",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 596.74,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "NMAX",
-      "issuerName": "Newsmax Inc.",
-      "insiderName": "CONYERS INVESTMENTS LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 13350.0,
-      "pricePerShare": 11.0393,
-      "transactionDate": "2026-08-28"
-    },
-    {
-      "ticker": "XMTR",
-      "issuerName": "Xometry, Inc.",
-      "insiderName": "Weymouth Katharine",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 5000.0,
-      "pricePerShare": 94.3037,
-      "transactionDate": "2026-08-28"
     }
   ],
   "byTicker": {
@@ -31467,6 +31467,151 @@
           "shares": 1274.0,
           "pricePerShare": 153.0591,
           "transactionDate": "2026-09-11"
+        }
+      ]
+    },
+    "SMWB": {
+      "issuerName": "SIMILARWEB LTD.",
+      "trades": [
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 26691.0,
+          "pricePerShare": 8.5267,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 52900.0,
+          "pricePerShare": 8.5378,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 59000.0,
+          "pricePerShare": 8.0493,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 59200.0,
+          "pricePerShare": 8.0631,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 86300.0,
+          "pricePerShare": 8.0568,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 60700.0,
+          "pricePerShare": 8.3295,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "BZUN": {
+      "issuerName": "Baozun Inc.",
+      "trades": [
+        {
+          "ticker": "BZUN",
+          "issuerName": "Baozun Inc.",
+          "insiderName": "Qiu Wenbin",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 7300.0,
+          "pricePerShare": 2.72,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "BZUN",
+          "issuerName": "Baozun Inc.",
+          "insiderName": "Qiu Wenbin",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 7300.0,
+          "pricePerShare": 2.74,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "BZUN",
+          "issuerName": "Baozun Inc.",
+          "insiderName": "Wu Junhua",
+          "title": "Director, Chief Strategy Officer",
+          "type": "Purchase",
+          "shares": 13500.0,
+          "pricePerShare": 2.85,
+          "transactionDate": "2026-09-02"
+        }
+      ]
+    },
+    "NNOX": {
+      "issuerName": "Nano-X Imaging Ltd.",
+      "trades": [
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Meltzer Erez",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 0.69,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Suesskind Dan S",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 30000.0,
+          "pricePerShare": 0.76,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Suesskind Dan S",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 30000.0,
+          "pricePerShare": 0.75,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "NNOX",
+          "issuerName": "Nano-X Imaging Ltd.",
+          "insiderName": "Meltzer Erez",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 0.78,
+          "transactionDate": "2026-09-10"
         }
       ]
     },
@@ -32947,41 +33092,6 @@
           "shares": 2000.0,
           "pricePerShare": 120.07,
           "transactionDate": "2026-08-28"
-        }
-      ]
-    },
-    "NNOX": {
-      "issuerName": "Nano-X Imaging Ltd.",
-      "trades": [
-        {
-          "ticker": "NNOX",
-          "issuerName": "Nano-X Imaging Ltd.",
-          "insiderName": "Suesskind Dan S",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 30000.0,
-          "pricePerShare": 0.76,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "NNOX",
-          "issuerName": "Nano-X Imaging Ltd.",
-          "insiderName": "Suesskind Dan S",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 30000.0,
-          "pricePerShare": 0.75,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "NNOX",
-          "issuerName": "Nano-X Imaging Ltd.",
-          "insiderName": "Meltzer Erez",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 0.78,
-          "transactionDate": "2026-09-10"
         }
       ]
     },
@@ -36380,6 +36490,86 @@
         }
       ]
     },
+    "WBD": {
+      "issuerName": "Warner Bros. Discovery, Inc.",
+      "trades": [
+        {
+          "ticker": "WBD",
+          "issuerName": "Warner Bros. Discovery, Inc.",
+          "insiderName": "Locke Lori C.",
+          "title": "Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 29115.0,
+          "pricePerShare": 28.13,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "WBD",
+          "issuerName": "Warner Bros. Discovery, Inc.",
+          "insiderName": "LOWE KENNETH W",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 200000.0,
+          "pricePerShare": 28.23,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "WBD",
+          "issuerName": "Warner Bros. Discovery, Inc.",
+          "insiderName": "Girdwood Amy",
+          "title": "Chief People & Culture Officer",
+          "type": "Sale",
+          "shares": 262285.0,
+          "pricePerShare": 27.98,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "WBD",
+          "issuerName": "Warner Bros. Discovery, Inc.",
+          "insiderName": "LOWE KENNETH W",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 200000.0,
+          "pricePerShare": 28.35,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "WBD",
+          "issuerName": "Warner Bros. Discovery, Inc.",
+          "insiderName": "LEVY ANTON J",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 340000.0,
+          "pricePerShare": 28.39,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
+    "BULL": {
+      "issuerName": "Webull Corp",
+      "trades": [
+        {
+          "ticker": "BULL",
+          "issuerName": "Webull Corp",
+          "insiderName": "Wang Haichen",
+          "title": "Director, Chief Financial Officer",
+          "type": "Sale",
+          "shares": 55000.0,
+          "pricePerShare": 8.9772,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "BULL",
+          "issuerName": "Webull Corp",
+          "insiderName": "Denier Anthony Michael",
+          "title": "Director, President",
+          "type": "Sale",
+          "shares": 53846.0,
+          "pricePerShare": 9.5774,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
     "PGY": {
       "issuerName": "Pagaya Technologies Ltd.",
       "trades": [
@@ -37915,51 +38105,6 @@
         }
       ]
     },
-    "SMWB": {
-      "issuerName": "SIMILARWEB LTD.",
-      "trades": [
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 59000.0,
-          "pricePerShare": 8.0493,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 59200.0,
-          "pricePerShare": 8.0631,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 86300.0,
-          "pricePerShare": 8.0568,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 60700.0,
-          "pricePerShare": 8.3295,
-          "transactionDate": "2026-09-08"
-        }
-      ]
-    },
     "KLTR": {
       "issuerName": "KALTURA INC",
       "trades": [
@@ -38042,16 +38187,6 @@
           "shares": 4328.0,
           "pricePerShare": 1.5427,
           "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Manor Eyal",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 993.0,
-          "pricePerShare": 1.5953,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -38337,16 +38472,6 @@
           "shares": 53500.0,
           "pricePerShare": 11.0308,
           "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "NMAX",
-          "issuerName": "Newsmax Inc.",
-          "insiderName": "CONYERS INVESTMENTS LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13350.0,
-          "pricePerShare": 11.0393,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -39462,16 +39587,6 @@
           "shares": 5861.0,
           "pricePerShare": 17.53,
           "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "TFSL",
-          "issuerName": "TFS Financial CORP",
-          "insiderName": "WEIL MEREDITH S",
-          "title": "Director, Chief Financial Officer",
-          "type": "Sale",
-          "shares": 600.0,
-          "pricePerShare": 18.0,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -47055,51 +47170,6 @@
         }
       ]
     },
-    "WBD": {
-      "issuerName": "Warner Bros. Discovery, Inc.",
-      "trades": [
-        {
-          "ticker": "WBD",
-          "issuerName": "Warner Bros. Discovery, Inc.",
-          "insiderName": "LOWE KENNETH W",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 200000.0,
-          "pricePerShare": 28.23,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "WBD",
-          "issuerName": "Warner Bros. Discovery, Inc.",
-          "insiderName": "Girdwood Amy",
-          "title": "Chief People & Culture Officer",
-          "type": "Sale",
-          "shares": 262285.0,
-          "pricePerShare": 27.98,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "WBD",
-          "issuerName": "Warner Bros. Discovery, Inc.",
-          "insiderName": "LOWE KENNETH W",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 200000.0,
-          "pricePerShare": 28.35,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "WBD",
-          "issuerName": "Warner Bros. Discovery, Inc.",
-          "insiderName": "LEVY ANTON J",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 340000.0,
-          "pricePerShare": 28.39,
-          "transactionDate": "2026-09-03"
-        }
-      ]
-    },
     "IONQ": {
       "issuerName": "IonQ, Inc.",
       "trades": [
@@ -51172,21 +51242,6 @@
           "shares": 8258.0,
           "pricePerShare": 2.95,
           "transactionDate": "2026-09-02"
-        }
-      ]
-    },
-    "BULL": {
-      "issuerName": "Webull Corp",
-      "trades": [
-        {
-          "ticker": "BULL",
-          "issuerName": "Webull Corp",
-          "insiderName": "Denier Anthony Michael",
-          "title": "Director, President",
-          "type": "Sale",
-          "shares": 53846.0,
-          "pricePerShare": 9.5774,
-          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -60065,21 +60120,6 @@
         }
       ]
     },
-    "BZUN": {
-      "issuerName": "Baozun Inc.",
-      "trades": [
-        {
-          "ticker": "BZUN",
-          "issuerName": "Baozun Inc.",
-          "insiderName": "Wu Junhua",
-          "title": "Director, Chief Strategy Officer",
-          "type": "Purchase",
-          "shares": 13500.0,
-          "pricePerShare": 2.85,
-          "transactionDate": "2026-09-02"
-        }
-      ]
-    },
     "JNJ": {
       "issuerName": "JOHNSON & JOHNSON",
       "trades": [
@@ -62197,16 +62237,6 @@
           "shares": 5000.0,
           "pricePerShare": 95.23,
           "transactionDate": "2026-08-31"
-        },
-        {
-          "ticker": "XMTR",
-          "issuerName": "Xometry, Inc.",
-          "insiderName": "Weymouth Katharine",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 94.3037,
-          "transactionDate": "2026-08-28"
         }
       ]
     },
@@ -63111,51 +63141,6 @@
           "type": "Sale",
           "shares": 4054.0,
           "pricePerShare": 15.4224,
-          "transactionDate": "2026-08-28"
-        }
-      ]
-    },
-    "ALLE": {
-      "issuerName": "Allegion plc",
-      "trades": [
-        {
-          "ticker": "ALLE",
-          "issuerName": "Allegion plc",
-          "insiderName": "MIZELL STEVEN",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 170.0,
-          "pricePerShare": 158.28,
-          "transactionDate": "2026-08-28"
-        }
-      ]
-    },
-    "FSBW": {
-      "issuerName": "FS Bancorp, Inc.",
-      "trades": [
-        {
-          "ticker": "FSBW",
-          "issuerName": "FS Bancorp, Inc.",
-          "insiderName": "Degner Terri L",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 975.0,
-          "pricePerShare": 43.25,
-          "transactionDate": "2026-08-28"
-        }
-      ]
-    },
-    "CW": {
-      "issuerName": "CURTISS WRIGHT CORP",
-      "trades": [
-        {
-          "ticker": "CW",
-          "issuerName": "CURTISS WRIGHT CORP",
-          "insiderName": "Wyche Larry D",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 596.74,
           "transactionDate": "2026-08-28"
         }
       ]
@@ -67886,6 +67871,7 @@
       "0001104659-26-108022",
       "0001104659-26-108023",
       "0001104659-26-108024",
+      "0001104659-26-108060",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -74558,6 +74544,9 @@
       "0001213900-26-100290",
       "0001213900-26-100291",
       "0001213900-26-100292",
+      "0001213900-26-100297",
+      "0001213900-26-100301",
+      "0001213900-26-100307",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -79471,6 +79460,7 @@
       "0001646382-26-000017",
       "0001646382-26-000018",
       "0001646382-26-000019",
+      "0001646563-26-000007",
       "0001646649-26-000020",
       "0001646649-26-000025",
       "0001646649-26-000028",
@@ -88291,6 +88281,7 @@
       "0001976408-26-000837",
       "0001976408-26-000839",
       "0001976408-26-000843",
+      "0001976408-26-000849",
       "0001976672-26-000057",
       "0001976672-26-000059",
       "0001976672-26-000062",
@@ -89513,6 +89504,7 @@
       "0002093095-26-000007",
       "0002093121-26-000004",
       "0002093121-26-000005",
+      "0002093135-26-000004",
       "0002093167-26-000009",
       "0002093210-26-000002",
       "0002094343-26-000008",
