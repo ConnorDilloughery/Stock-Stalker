@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T20:04:45.730706+00:00",
+  "generatedAt": "2026-09-17T21:03:47.000661+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -21,6 +21,16 @@
       "type": "Sale",
       "shares": 2000.0,
       "pricePerShare": 35.29,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "PLAY",
+      "issuerName": "Dave & Buster's Entertainment, Inc.",
+      "insiderName": "Lipman Nathaniel",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 12000.0,
+      "pricePerShare": 6.775,
       "transactionDate": "2026-09-17"
     },
     {
@@ -611,6 +621,86 @@
       "type": "Purchase",
       "shares": 326.0,
       "pricePerShare": 5.9,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "ABAT",
+      "issuerName": "AMERICAN BATTERY TECHNOLOGY Co",
+      "insiderName": "Lowery Elizabeth Ann",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 19375.0,
+      "pricePerShare": 2.18,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "ABAT",
+      "issuerName": "AMERICAN BATTERY TECHNOLOGY Co",
+      "insiderName": "Lee Susan Y",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 21360.0,
+      "pricePerShare": 2.16,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "EVCM",
+      "issuerName": "EverCommerce Inc.",
+      "insiderName": "Remer Eric Richard",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 258.0,
+      "pricePerShare": 8.0,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "SKIL",
+      "issuerName": "Skillsoft Corp.",
+      "insiderName": "HOVSEPIAN RONALD W",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 1421.0,
+      "pricePerShare": 5.8958,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "BWMX",
+      "issuerName": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
+      "insiderName": "CHEVALLIER SANTIAGO CAMPOS",
+      "title": "Director, MD Betterware Mexico",
+      "type": "Purchase",
+      "shares": 15000.0,
+      "pricePerShare": 16.4616,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "BWMX",
+      "issuerName": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
+      "insiderName": "Campos Luis",
+      "title": "Director, 10% Owner",
+      "type": "Purchase",
+      "shares": 35000.0,
+      "pricePerShare": 16.4416,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "BWMX",
+      "issuerName": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
+      "insiderName": "CHEVALLIER ANDRES CAMPOS",
+      "title": "Director, CHIEF EXECUTIVE OFFICER",
+      "type": "Purchase",
+      "shares": 15000.0,
+      "pricePerShare": 16.4996,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "SMA",
+      "issuerName": "SmartStop Self Storage REIT, Inc.",
+      "insiderName": "Mueller David J",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 425.0,
+      "pricePerShare": 32.05,
       "transactionDate": "2026-09-16"
     },
     {
@@ -2291,6 +2381,96 @@
       "type": "Purchase",
       "shares": 195.0,
       "pricePerShare": 5.95,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "EVCM",
+      "issuerName": "EverCommerce Inc.",
+      "insiderName": "Remer Eric Richard",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 533.0,
+      "pricePerShare": 8.0038,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "SKIL",
+      "issuerName": "Skillsoft Corp.",
+      "insiderName": "HOVSEPIAN RONALD W",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 4508.0,
+      "pricePerShare": 5.4625,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "SKIL",
+      "issuerName": "Skillsoft Corp.",
+      "insiderName": "FRANKOLA JIM",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 25000.0,
+      "pricePerShare": 5.1438,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "TRVI",
+      "issuerName": "Trevi Therapeutics, Inc.",
+      "insiderName": "Heffernan Michael Thomas",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 18321.0,
+      "pricePerShare": 15.09,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "TRVI",
+      "issuerName": "Trevi Therapeutics, Inc.",
+      "insiderName": "Heffernan Michael Thomas",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 100.0,
+      "pricePerShare": 15.88,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "TRVI",
+      "issuerName": "Trevi Therapeutics, Inc.",
+      "insiderName": "Heffernan Michael Thomas",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 20952.0,
+      "pricePerShare": 15.09,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "TRVI",
+      "issuerName": "Trevi Therapeutics, Inc.",
+      "insiderName": "Heffernan Michael Thomas",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 100.0,
+      "pricePerShare": 15.88,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "BWMX",
+      "issuerName": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
+      "insiderName": "Campos Luis",
+      "title": "Director, 10% Owner",
+      "type": "Purchase",
+      "shares": 45000.0,
+      "pricePerShare": 16.2588,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "BWMX",
+      "issuerName": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
+      "insiderName": "CHEVALLIER ANDRES CAMPOS",
+      "title": "Director, CHIEF EXECUTIVE OFFICER",
+      "type": "Purchase",
+      "shares": 30000.0,
+      "pricePerShare": 16.4097,
       "transactionDate": "2026-09-15"
     },
     {
@@ -29822,186 +30002,6 @@
       "shares": 42.0,
       "pricePerShare": 3.69,
       "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "SSM",
-      "issuerName": "Sono Group N.V.",
-      "insiderName": "Bambino 255 V V UG haftungsbeschrankt",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 6000.0,
-      "pricePerShare": 3.75,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "UGP",
-      "issuerName": "ULTRAPAR HOLDINGS INC",
-      "insiderName": "Amaral Decio de Sampaio",
-      "title": "CEO Hidrovias",
-      "type": "Sale",
-      "shares": 8000.0,
-      "pricePerShare": 6.93,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "GLBE",
-      "issuerName": "Global-E Online Ltd.",
-      "insiderName": "Debbi Nir",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 8332.0,
-      "pricePerShare": 37.2251,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "GF",
-      "issuerName": "NEW GERMANY FUND INC",
-      "insiderName": "Saba Capital Management, L.P.",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 905.0,
-      "pricePerShare": 11.4,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "ECAT",
-      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-      "insiderName": "Saba Capital Management, L.P.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 79453.0,
-      "pricePerShare": 15.27,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "OWLS",
-      "issuerName": "OBOOK HOLDINGS INC.",
-      "insiderName": "WANG CHUN KAI",
-      "title": "Director, Chief Executive Officer",
-      "type": "Purchase",
-      "shares": 758.0,
-      "pricePerShare": 5.1806,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "KLTR",
-      "issuerName": "KALTURA INC",
-      "insiderName": "Azaria Eynav",
-      "title": "See Remarks",
-      "type": "Sale",
-      "shares": 4328.0,
-      "pricePerShare": 1.5427,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "SXI",
-      "issuerName": "STANDEX INTERNATIONAL CORP/DE/",
-      "insiderName": "CHORMAN THOMAS E",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 50.0,
-      "pricePerShare": 284.89,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "MTRN",
-      "issuerName": "MATERION Corp",
-      "insiderName": "LIGGETT EMILY M",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 1012.0,
-      "pricePerShare": 232.421,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "HMN",
-      "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
-      "insiderName": "ZURAITIS MARITA",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 7500.0,
-      "pricePerShare": 50.99,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "CPSS",
-      "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
-      "insiderName": "Jackson Noel",
-      "title": "Sr. Vice President",
-      "type": "Sale",
-      "shares": 7500.0,
-      "pricePerShare": 9.31,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "FRST",
-      "issuerName": "Primis Financial Corp.",
-      "insiderName": "Weichert Margaret M",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 100.0,
-      "pricePerShare": 15.75,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "ORI",
-      "issuerName": "OLD REPUBLIC INTERNATIONAL CORP",
-      "insiderName": "MONROE CAROLYN",
-      "title": "SVP - Title Insurance",
-      "type": "Sale",
-      "shares": 4386.0,
-      "pricePerShare": 42.01,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "FLXS",
-      "issuerName": "FLEXSTEEL INDUSTRIES INC",
-      "insiderName": "McClaflin Michael Joseph",
-      "title": "Chief Information Officer",
-      "type": "Sale",
-      "shares": 500.0,
-      "pricePerShare": 81.75,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "FLXS",
-      "issuerName": "FLEXSTEEL INDUSTRIES INC",
-      "insiderName": "McClaflin Michael Joseph",
-      "title": "Chief Information Officer",
-      "type": "Sale",
-      "shares": 500.0,
-      "pricePerShare": 81.25,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "FLXS",
-      "issuerName": "FLEXSTEEL INDUSTRIES INC",
-      "insiderName": "McClaflin Michael Joseph",
-      "title": "Chief Information Officer",
-      "type": "Sale",
-      "shares": 500.0,
-      "pricePerShare": 82.0,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "FLXS",
-      "issuerName": "FLEXSTEEL INDUSTRIES INC",
-      "insiderName": "McClaflin Michael Joseph",
-      "title": "Chief Information Officer",
-      "type": "Sale",
-      "shares": 500.0,
-      "pricePerShare": 81.0,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "FLXS",
-      "issuerName": "FLEXSTEEL INDUSTRIES INC",
-      "insiderName": "McClaflin Michael Joseph",
-      "title": "Chief Information Officer",
-      "type": "Sale",
-      "shares": 500.0,
-      "pricePerShare": 81.25,
-      "transactionDate": "2026-09-01"
     }
   ],
   "byTicker": {
@@ -30072,6 +30072,21 @@
           "shares": 1124.0,
           "pricePerShare": 36.0,
           "transactionDate": "2026-09-02"
+        }
+      ]
+    },
+    "PLAY": {
+      "issuerName": "Dave & Buster's Entertainment, Inc.",
+      "trades": [
+        {
+          "ticker": "PLAY",
+          "issuerName": "Dave & Buster's Entertainment, Inc.",
+          "insiderName": "Lipman Nathaniel",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 12000.0,
+          "pricePerShare": 6.775,
+          "transactionDate": "2026-09-17"
         }
       ]
     },
@@ -32832,16 +32847,6 @@
           "shares": 53758.0,
           "pricePerShare": 15.28,
           "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 79453.0,
-          "pricePerShare": 15.27,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -33047,16 +33052,6 @@
           "shares": 2000.0,
           "pricePerShare": 11.48,
           "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 905.0,
-          "pricePerShare": 11.4,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -33302,6 +33297,201 @@
           "shares": 466.0,
           "pricePerShare": 5.83,
           "transactionDate": "2026-09-09"
+        }
+      ]
+    },
+    "ABAT": {
+      "issuerName": "AMERICAN BATTERY TECHNOLOGY Co",
+      "trades": [
+        {
+          "ticker": "ABAT",
+          "issuerName": "AMERICAN BATTERY TECHNOLOGY Co",
+          "insiderName": "Lowery Elizabeth Ann",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 19375.0,
+          "pricePerShare": 2.18,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "ABAT",
+          "issuerName": "AMERICAN BATTERY TECHNOLOGY Co",
+          "insiderName": "Lee Susan Y",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 21360.0,
+          "pricePerShare": 2.16,
+          "transactionDate": "2026-09-16"
+        }
+      ]
+    },
+    "EVCM": {
+      "issuerName": "EverCommerce Inc.",
+      "trades": [
+        {
+          "ticker": "EVCM",
+          "issuerName": "EverCommerce Inc.",
+          "insiderName": "Remer Eric Richard",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 258.0,
+          "pricePerShare": 8.0,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "EVCM",
+          "issuerName": "EverCommerce Inc.",
+          "insiderName": "Remer Eric Richard",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 533.0,
+          "pricePerShare": 8.0038,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "EVCM",
+          "issuerName": "EverCommerce Inc.",
+          "insiderName": "Remer Eric Richard",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 2997.0,
+          "pricePerShare": 8.0168,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "EVCM",
+          "issuerName": "EverCommerce Inc.",
+          "insiderName": "Remer Eric Richard",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 6354.0,
+          "pricePerShare": 8.0684,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "EVCM",
+          "issuerName": "EverCommerce Inc.",
+          "insiderName": "Remer Eric Richard",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 5313.0,
+          "pricePerShare": 8.031,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "EVCM",
+          "issuerName": "EverCommerce Inc.",
+          "insiderName": "Remer Eric Richard",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 47353.0,
+          "pricePerShare": 8.2371,
+          "transactionDate": "2026-09-01"
+        }
+      ]
+    },
+    "SKIL": {
+      "issuerName": "Skillsoft Corp.",
+      "trades": [
+        {
+          "ticker": "SKIL",
+          "issuerName": "Skillsoft Corp.",
+          "insiderName": "HOVSEPIAN RONALD W",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1421.0,
+          "pricePerShare": 5.8958,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "SKIL",
+          "issuerName": "Skillsoft Corp.",
+          "insiderName": "HOVSEPIAN RONALD W",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 4508.0,
+          "pricePerShare": 5.4625,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SKIL",
+          "issuerName": "Skillsoft Corp.",
+          "insiderName": "FRANKOLA JIM",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 25000.0,
+          "pricePerShare": 5.1438,
+          "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "BWMX": {
+      "issuerName": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
+      "trades": [
+        {
+          "ticker": "BWMX",
+          "issuerName": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
+          "insiderName": "CHEVALLIER SANTIAGO CAMPOS",
+          "title": "Director, MD Betterware Mexico",
+          "type": "Purchase",
+          "shares": 15000.0,
+          "pricePerShare": 16.4616,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "BWMX",
+          "issuerName": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
+          "insiderName": "Campos Luis",
+          "title": "Director, 10% Owner",
+          "type": "Purchase",
+          "shares": 35000.0,
+          "pricePerShare": 16.4416,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "BWMX",
+          "issuerName": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
+          "insiderName": "CHEVALLIER ANDRES CAMPOS",
+          "title": "Director, CHIEF EXECUTIVE OFFICER",
+          "type": "Purchase",
+          "shares": 15000.0,
+          "pricePerShare": 16.4996,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "BWMX",
+          "issuerName": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
+          "insiderName": "Campos Luis",
+          "title": "Director, 10% Owner",
+          "type": "Purchase",
+          "shares": 45000.0,
+          "pricePerShare": 16.2588,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "BWMX",
+          "issuerName": "BETTERWARE DE MEXICO, S.A.P.I. DE C.V",
+          "insiderName": "CHEVALLIER ANDRES CAMPOS",
+          "title": "Director, CHIEF EXECUTIVE OFFICER",
+          "type": "Purchase",
+          "shares": 30000.0,
+          "pricePerShare": 16.4097,
+          "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "SMA": {
+      "issuerName": "SmartStop Self Storage REIT, Inc.",
+      "trades": [
+        {
+          "ticker": "SMA",
+          "issuerName": "SmartStop Self Storage REIT, Inc.",
+          "insiderName": "Mueller David J",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 425.0,
+          "pricePerShare": 32.05,
+          "transactionDate": "2026-09-16"
         }
       ]
     },
@@ -35112,16 +35302,6 @@
           "shares": 7816.0,
           "pricePerShare": 1.5136,
           "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 4328.0,
-          "pricePerShare": 1.5427,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -37786,6 +37966,51 @@
           "type": "Sale",
           "shares": 4982.0,
           "pricePerShare": 9.12,
+          "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "TRVI": {
+      "issuerName": "Trevi Therapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "TRVI",
+          "issuerName": "Trevi Therapeutics, Inc.",
+          "insiderName": "Heffernan Michael Thomas",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 18321.0,
+          "pricePerShare": 15.09,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "TRVI",
+          "issuerName": "Trevi Therapeutics, Inc.",
+          "insiderName": "Heffernan Michael Thomas",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 15.88,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "TRVI",
+          "issuerName": "Trevi Therapeutics, Inc.",
+          "insiderName": "Heffernan Michael Thomas",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 20952.0,
+          "pricePerShare": 15.09,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "TRVI",
+          "issuerName": "Trevi Therapeutics, Inc.",
+          "insiderName": "Heffernan Michael Thomas",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 15.88,
           "transactionDate": "2026-09-15"
         }
       ]
@@ -41392,16 +41617,6 @@
           "shares": 24999.0,
           "pricePerShare": 38.4135,
           "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Debbi Nir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 8332.0,
-          "pricePerShare": 37.2251,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -52162,16 +52377,6 @@
           "shares": 60000.0,
           "pricePerShare": 7.57,
           "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "UGP",
-          "issuerName": "ULTRAPAR HOLDINGS INC",
-          "insiderName": "Amaral Decio de Sampaio",
-          "title": "CEO Hidrovias",
-          "type": "Sale",
-          "shares": 8000.0,
-          "pricePerShare": 6.93,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -53392,16 +53597,6 @@
           "shares": 1565.0,
           "pricePerShare": 15.95,
           "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "FRST",
-          "issuerName": "Primis Financial Corp.",
-          "insiderName": "Weichert Margaret M",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 100.0,
-          "pricePerShare": 15.75,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -57845,51 +58040,6 @@
         }
       ]
     },
-    "EVCM": {
-      "issuerName": "EverCommerce Inc.",
-      "trades": [
-        {
-          "ticker": "EVCM",
-          "issuerName": "EverCommerce Inc.",
-          "insiderName": "Remer Eric Richard",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 2997.0,
-          "pricePerShare": 8.0168,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "EVCM",
-          "issuerName": "EverCommerce Inc.",
-          "insiderName": "Remer Eric Richard",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 6354.0,
-          "pricePerShare": 8.0684,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "EVCM",
-          "issuerName": "EverCommerce Inc.",
-          "insiderName": "Remer Eric Richard",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 5313.0,
-          "pricePerShare": 8.031,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "EVCM",
-          "issuerName": "EverCommerce Inc.",
-          "insiderName": "Remer Eric Richard",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 47353.0,
-          "pricePerShare": 8.2371,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
     "EVC": {
       "issuerName": "ENTRAVISION COMMUNICATIONS CORP",
       "trades": [
@@ -59617,16 +59767,6 @@
           "shares": 42.0,
           "pricePerShare": 273.94,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "SXI",
-          "issuerName": "STANDEX INTERNATIONAL CORP/DE/",
-          "insiderName": "CHORMAN THOMAS E",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 50.0,
-          "pricePerShare": 284.89,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -60582,16 +60722,6 @@
           "shares": 3237.0,
           "pricePerShare": 52.22,
           "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "HMN",
-          "issuerName": "HORACE MANN EDUCATORS CORP /DE/",
-          "insiderName": "ZURAITIS MARITA",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7500.0,
-          "pricePerShare": 50.99,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -61332,16 +61462,6 @@
           "shares": 11600.0,
           "pricePerShare": 5.0085,
           "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "OWLS",
-          "issuerName": "OBOOK HOLDINGS INC.",
-          "insiderName": "WANG CHUN KAI",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 758.0,
-          "pricePerShare": 5.1806,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -63076,116 +63196,6 @@
           "type": "Sale",
           "shares": 42.0,
           "pricePerShare": 3.69,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "SSM",
-          "issuerName": "Sono Group N.V.",
-          "insiderName": "Bambino 255 V V UG haftungsbeschrankt",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 6000.0,
-          "pricePerShare": 3.75,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "MTRN": {
-      "issuerName": "MATERION Corp",
-      "trades": [
-        {
-          "ticker": "MTRN",
-          "issuerName": "MATERION Corp",
-          "insiderName": "LIGGETT EMILY M",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1012.0,
-          "pricePerShare": 232.421,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "CPSS": {
-      "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
-      "trades": [
-        {
-          "ticker": "CPSS",
-          "issuerName": "CONSUMER PORTFOLIO SERVICES, INC.",
-          "insiderName": "Jackson Noel",
-          "title": "Sr. Vice President",
-          "type": "Sale",
-          "shares": 7500.0,
-          "pricePerShare": 9.31,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "ORI": {
-      "issuerName": "OLD REPUBLIC INTERNATIONAL CORP",
-      "trades": [
-        {
-          "ticker": "ORI",
-          "issuerName": "OLD REPUBLIC INTERNATIONAL CORP",
-          "insiderName": "MONROE CAROLYN",
-          "title": "SVP - Title Insurance",
-          "type": "Sale",
-          "shares": 4386.0,
-          "pricePerShare": 42.01,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "FLXS": {
-      "issuerName": "FLEXSTEEL INDUSTRIES INC",
-      "trades": [
-        {
-          "ticker": "FLXS",
-          "issuerName": "FLEXSTEEL INDUSTRIES INC",
-          "insiderName": "McClaflin Michael Joseph",
-          "title": "Chief Information Officer",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 81.75,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "FLXS",
-          "issuerName": "FLEXSTEEL INDUSTRIES INC",
-          "insiderName": "McClaflin Michael Joseph",
-          "title": "Chief Information Officer",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 81.25,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "FLXS",
-          "issuerName": "FLEXSTEEL INDUSTRIES INC",
-          "insiderName": "McClaflin Michael Joseph",
-          "title": "Chief Information Officer",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 82.0,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "FLXS",
-          "issuerName": "FLEXSTEEL INDUSTRIES INC",
-          "insiderName": "McClaflin Michael Joseph",
-          "title": "Chief Information Officer",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 81.0,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "FLXS",
-          "issuerName": "FLEXSTEEL INDUSTRIES INC",
-          "insiderName": "McClaflin Michael Joseph",
-          "title": "Chief Information Officer",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 81.25,
           "transactionDate": "2026-09-01"
         }
       ]
@@ -66393,6 +66403,11 @@
       "0000950103-26-014114",
       "0000950103-26-014115",
       "0000950103-26-014116",
+      "0000950103-26-014126",
+      "0000950103-26-014127",
+      "0000950103-26-014128",
+      "0000950103-26-014129",
+      "0000950103-26-014131",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -66904,6 +66919,7 @@
       "0001090394-26-000005",
       "0001090872-26-000067",
       "0001091482-26-000010",
+      "0001091482-26-000013",
       "0001093557-26-000137",
       "0001093557-26-000147",
       "0001093557-26-000161",
@@ -68105,6 +68121,8 @@
       "0001104659-26-108529",
       "0001104659-26-108536",
       "0001104659-26-108554",
+      "0001104659-26-108599",
+      "0001104659-26-108600",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -69115,6 +69133,7 @@
       "0001140361-26-036945",
       "0001140361-26-036948",
       "0001140361-26-036955",
+      "0001140361-26-037001",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -69279,6 +69298,7 @@
       "0001183010-26-000055",
       "0001183010-26-000056",
       "0001183010-26-000057",
+      "0001183231-26-000011",
       "0001183254-26-000005",
       "0001183429-26-000003",
       "0001184176-26-000002",
@@ -73375,6 +73395,13 @@
       "0001193125-26-394291",
       "0001193125-26-394293",
       "0001193125-26-394297",
+      "0001193125-26-394452",
+      "0001193125-26-394454",
+      "0001193125-26-394456",
+      "0001193125-26-394470",
+      "0001193125-26-394471",
+      "0001193125-26-394474",
+      "0001193125-26-394477",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75064,6 +75091,13 @@
       "0001213900-26-100902",
       "0001213900-26-100903",
       "0001213900-26-100913",
+      "0001213900-26-101006",
+      "0001213900-26-101008",
+      "0001213900-26-101010",
+      "0001213900-26-101012",
+      "0001213900-26-101013",
+      "0001213900-26-101014",
+      "0001213900-26-101015",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -75446,6 +75480,7 @@
       "0001214659-26-011753",
       "0001214659-26-011755",
       "0001214659-26-011756",
+      "0001214659-26-011764",
       "0001214736-26-000002",
       "0001214993-26-000004",
       "0001215135-26-000012",
@@ -75784,6 +75819,7 @@
       "0001235321-26-000002",
       "0001235499-26-000008",
       "0001235502-26-000006",
+      "0001235775-26-000002",
       "0001236030-26-000007",
       "0001236030-26-000008",
       "0001236215-26-000004",
@@ -75861,6 +75897,7 @@
       "0001257210-26-000003",
       "0001257774-26-000004",
       "0001258248-26-000013",
+      "0001258248-26-000014",
       "0001258394-26-000014",
       "0001258554-26-000005",
       "0001258563-26-000002",
@@ -75938,6 +75975,7 @@
       "0001283699-26-000112",
       "0001283699-26-000114",
       "0001283699-26-000116",
+      "0001284038-26-000008",
       "0001284309-26-000021",
       "0001284309-26-000023",
       "0001284309-26-000025",
@@ -78144,6 +78182,9 @@
       "0001493152-26-043073",
       "0001493152-26-043081",
       "0001493152-26-043108",
+      "0001493152-26-043155",
+      "0001493152-26-043156",
+      "0001493152-26-043158",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -78183,6 +78224,7 @@
       "0001501808-26-000010",
       "0001503584-26-000010",
       "0001504008-26-000083",
+      "0001504471-26-000002",
       "0001504699-26-000005",
       "0001504988-26-000012",
       "0001505300-26-000008",
@@ -78699,6 +78741,7 @@
       "0001565249-26-000008",
       "0001566083-26-000006",
       "0001566571-26-000005",
+      "0001567530-26-000003",
       "0001567929-26-000006",
       "0001567929-26-000008",
       "0001568982-26-000004",
@@ -80102,6 +80145,14 @@
       "0001628280-26-062412",
       "0001628280-26-062413",
       "0001628280-26-062414",
+      "0001628280-26-062566",
+      "0001628280-26-062567",
+      "0001628280-26-062568",
+      "0001628280-26-062569",
+      "0001628280-26-062570",
+      "0001628280-26-062571",
+      "0001628280-26-062572",
+      "0001628280-26-062573",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -80398,6 +80449,7 @@
       "0001672659-26-000036",
       "0001672688-26-000129",
       "0001672688-26-000138",
+      "0001672825-26-000008",
       "0001673356-26-000008",
       "0001673358-26-000129",
       "0001673358-26-000131",
@@ -80893,6 +80945,7 @@
       "0001751804-26-000002",
       "0001751947-26-000002",
       "0001751947-26-000004",
+      "0001752099-26-000003",
       "0001752466-26-000015",
       "0001752640-26-000011",
       "0001752968-26-000014",
@@ -81318,6 +81371,7 @@
       "0001796825-26-000014",
       "0001796825-26-000016",
       "0001796825-26-000018",
+      "0001796999-26-000002",
       "0001797318-26-000104",
       "0001797578-26-000014",
       "0001797578-26-000016",
@@ -84894,6 +84948,7 @@
       "0001839882-26-046089",
       "0001839882-26-046090",
       "0001839882-26-046092",
+      "0001839882-26-046112",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -85017,6 +85072,7 @@
       "0001856906-26-000088",
       "0001856906-26-000090",
       "0001856906-26-000092",
+      "0001856906-26-000094",
       "0001857843-26-000021",
       "0001857843-26-000024",
       "0001857896-26-000006",
@@ -85095,6 +85151,7 @@
       "0001866710-26-000007",
       "0001867173-26-000020",
       "0001867305-26-000014",
+      "0001867852-26-000004",
       "0001867888-26-000008",
       "0001868288-26-000004",
       "0001868844-26-000016",
@@ -85209,6 +85266,7 @@
       "0001896086-26-000016",
       "0001896463-26-000006",
       "0001896664-26-000007",
+      "0001897137-26-000009",
       "0001897305-26-000006",
       "0001897580-26-000014",
       "0001897745-26-000014",
@@ -89149,6 +89207,13 @@
       "0001918704-26-028006",
       "0001918704-26-028007",
       "0001918704-26-028008",
+      "0001918704-26-028019",
+      "0001918704-26-028020",
+      "0001918704-26-028021",
+      "0001918704-26-028022",
+      "0001918704-26-028023",
+      "0001918704-26-028024",
+      "0001918704-26-028025",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -90993,6 +91058,7 @@
       "0002153881-26-000005",
       "0002154199-26-000008",
       "0002154205-26-000006",
+      "0002154205-26-000008",
       "0002154525-26-000006"
     ]
   }
