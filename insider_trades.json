@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T17:05:03.714117+00:00",
+  "generatedAt": "2026-09-17T18:03:31.363809+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -531,6 +531,26 @@
       "type": "Sale",
       "shares": 2000.0,
       "pricePerShare": 35.05,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "CBL",
+      "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+      "insiderName": "LEBOVITZ STEPHEN D",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 43133.0,
+      "pricePerShare": 52.7265,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "CBL",
+      "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+      "insiderName": "LEBOVITZ STEPHEN D",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 6867.0,
+      "pricePerShare": 53.4692,
       "transactionDate": "2026-09-16"
     },
     {
@@ -2161,6 +2181,36 @@
       "type": "Purchase",
       "shares": 74400.0,
       "pricePerShare": 28.27,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "PHVS",
+      "issuerName": "Pharvaris N.V.",
+      "insiderName": "Abele Stefan Andreas",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 45000.0,
+      "pricePerShare": 38.1375,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "PHVS",
+      "issuerName": "Pharvaris N.V.",
+      "insiderName": "Abele Stefan Andreas",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1400.0,
+      "pricePerShare": 39.2411,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "NAKA",
+      "issuerName": "Nakamoto Inc.",
+      "insiderName": "Evans Tyler Matthew",
+      "title": "Director, Chief Investment Officer",
+      "type": "Sale",
+      "shares": 982.0,
+      "pricePerShare": 7.63,
       "transactionDate": "2026-09-15"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 100.0,
       "pricePerShare": 184.85,
       "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "ATOM",
-      "issuerName": "Atomera Inc",
-      "insiderName": "Laurencio Francis",
-      "title": "CFO",
-      "type": "Sale",
-      "shares": 2515.0,
-      "pricePerShare": 4.05,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "ATOM",
-      "issuerName": "Atomera Inc",
-      "insiderName": "Laurencio Francis",
-      "title": "CFO",
-      "type": "Sale",
-      "shares": 1020.0,
-      "pricePerShare": 4.05,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "ATOM",
-      "issuerName": "Atomera Inc",
-      "insiderName": "Laurencio Francis",
-      "title": "CFO",
-      "type": "Sale",
-      "shares": 2085.0,
-      "pricePerShare": 4.05,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "ATOM",
-      "issuerName": "Atomera Inc",
-      "insiderName": "Laurencio Francis",
-      "title": "CFO",
-      "type": "Sale",
-      "shares": 884.0,
-      "pricePerShare": 4.05,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "ATOM",
-      "issuerName": "Atomera Inc",
-      "insiderName": "Mears Robert J",
-      "title": "Chief Technology Officer",
-      "type": "Sale",
-      "shares": 1000.0,
-      "pricePerShare": 4.05,
-      "transactionDate": "2026-09-01"
     }
   ],
   "byTicker": {
@@ -33120,6 +33120,41 @@
         }
       ]
     },
+    "CBL": {
+      "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+      "trades": [
+        {
+          "ticker": "CBL",
+          "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+          "insiderName": "LEBOVITZ STEPHEN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 43133.0,
+          "pricePerShare": 52.7265,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "CBL",
+          "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+          "insiderName": "LEBOVITZ STEPHEN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6867.0,
+          "pricePerShare": 53.4692,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "CBL",
+          "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+          "insiderName": "Curry Jeffery V.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 681.0,
+          "pricePerShare": 55.1004,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
     "NEGG": {
       "issuerName": "Newegg Commerce, Inc.",
       "trades": [
@@ -35286,6 +35321,26 @@
           "type": "Sale",
           "shares": 6090.0,
           "pricePerShare": 38.99,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Abele Stefan Andreas",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 45000.0,
+          "pricePerShare": 38.1375,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Abele Stefan Andreas",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1400.0,
+          "pricePerShare": 39.2411,
           "transactionDate": "2026-09-15"
         },
         {
@@ -37587,6 +37642,21 @@
           "shares": 1800.0,
           "pricePerShare": 5.395,
           "transactionDate": "2026-09-14"
+        }
+      ]
+    },
+    "NAKA": {
+      "issuerName": "Nakamoto Inc.",
+      "trades": [
+        {
+          "ticker": "NAKA",
+          "issuerName": "Nakamoto Inc.",
+          "insiderName": "Evans Tyler Matthew",
+          "title": "Director, Chief Investment Officer",
+          "type": "Sale",
+          "shares": 982.0,
+          "pricePerShare": 7.63,
+          "transactionDate": "2026-09-15"
         }
       ]
     },
@@ -60440,21 +60510,6 @@
         }
       ]
     },
-    "CBL": {
-      "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
-      "trades": [
-        {
-          "ticker": "CBL",
-          "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
-          "insiderName": "Curry Jeffery V.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 681.0,
-          "pricePerShare": 55.1004,
-          "transactionDate": "2026-09-03"
-        }
-      ]
-    },
     "DXYZ": {
       "issuerName": "Destiny Tech100 Inc.",
       "trades": [
@@ -61332,56 +61387,6 @@
           "shares": 6312.0,
           "pricePerShare": 3.87,
           "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "ATOM",
-          "issuerName": "Atomera Inc",
-          "insiderName": "Laurencio Francis",
-          "title": "CFO",
-          "type": "Sale",
-          "shares": 2515.0,
-          "pricePerShare": 4.05,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "ATOM",
-          "issuerName": "Atomera Inc",
-          "insiderName": "Laurencio Francis",
-          "title": "CFO",
-          "type": "Sale",
-          "shares": 1020.0,
-          "pricePerShare": 4.05,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "ATOM",
-          "issuerName": "Atomera Inc",
-          "insiderName": "Laurencio Francis",
-          "title": "CFO",
-          "type": "Sale",
-          "shares": 2085.0,
-          "pricePerShare": 4.05,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "ATOM",
-          "issuerName": "Atomera Inc",
-          "insiderName": "Laurencio Francis",
-          "title": "CFO",
-          "type": "Sale",
-          "shares": 884.0,
-          "pricePerShare": 4.05,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "ATOM",
-          "issuerName": "Atomera Inc",
-          "insiderName": "Mears Robert J",
-          "title": "Chief Technology Officer",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 4.05,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -63213,6 +63218,17 @@
       "0000007789-26-000226",
       "0000007789-26-000227",
       "0000007789-26-000228",
+      "0000007789-26-000229",
+      "0000007789-26-000230",
+      "0000007789-26-000231",
+      "0000007789-26-000232",
+      "0000007789-26-000233",
+      "0000007789-26-000234",
+      "0000007789-26-000235",
+      "0000007789-26-000236",
+      "0000007789-26-000237",
+      "0000007789-26-000238",
+      "0000007789-26-000239",
       "0000008818-26-000123",
       "0000008818-26-000134",
       "0000008818-26-000137",
@@ -63662,6 +63678,11 @@
       "0000080424-26-000164",
       "0000080424-26-000165",
       "0000080424-26-000166",
+      "0000080424-26-000167",
+      "0000080424-26-000168",
+      "0000080424-26-000169",
+      "0000080424-26-000170",
+      "0000080424-26-000171",
       "0000080661-26-000266",
       "0000080661-26-000268",
       "0000080661-26-000270",
@@ -66345,6 +66366,12 @@
       "0000950103-26-014087",
       "0000950103-26-014088",
       "0000950103-26-014089",
+      "0000950103-26-014092",
+      "0000950103-26-014093",
+      "0000950103-26-014094",
+      "0000950103-26-014095",
+      "0000950103-26-014096",
+      "0000950103-26-014097",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -69054,6 +69081,9 @@
       "0001140361-26-036915",
       "0001140361-26-036917",
       "0001140361-26-036919",
+      "0001140361-26-036927",
+      "0001140361-26-036930",
+      "0001140361-26-036932",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -73287,6 +73317,13 @@
       "0001193125-26-394033",
       "0001193125-26-394063",
       "0001193125-26-394079",
+      "0001193125-26-394100",
+      "0001193125-26-394103",
+      "0001193125-26-394125",
+      "0001193125-26-394143",
+      "0001193125-26-394147",
+      "0001193125-26-394148",
+      "0001193125-26-394149",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74967,6 +75004,9 @@
       "0001213900-26-100839",
       "0001213900-26-100842",
       "0001213900-26-100845",
+      "0001213900-26-100877",
+      "0001213900-26-100879",
+      "0001213900-26-100880",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -75348,6 +75388,7 @@
       "0001214659-26-011731",
       "0001214659-26-011753",
       "0001214659-26-011755",
+      "0001214659-26-011756",
       "0001214736-26-000002",
       "0001214993-26-000004",
       "0001215135-26-000012",
@@ -78037,6 +78078,7 @@
       "0001493152-26-043020",
       "0001493152-26-043041",
       "0001493152-26-043073",
+      "0001493152-26-043081",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -78494,6 +78536,7 @@
       "0001545591-26-000008",
       "0001546251-26-000010",
       "0001546374-26-000006",
+      "0001546628-26-000002",
       "0001547351-26-000008",
       "0001547351-26-000010",
       "0001547434-26-000003",
@@ -78785,6 +78828,7 @@
       "0001580642-26-006330",
       "0001580642-26-006331",
       "0001580642-26-006333",
+      "0001580642-26-006341",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -81664,6 +81708,7 @@
       "0001829126-26-010178",
       "0001829126-26-010179",
       "0001829126-26-010180",
+      "0001829126-26-010182",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -84753,6 +84798,16 @@
       "0001839882-26-046033",
       "0001839882-26-046034",
       "0001839882-26-046037",
+      "0001839882-26-046039",
+      "0001839882-26-046040",
+      "0001839882-26-046043",
+      "0001839882-26-046045",
+      "0001839882-26-046046",
+      "0001839882-26-046047",
+      "0001839882-26-046048",
+      "0001839882-26-046049",
+      "0001839882-26-046050",
+      "0001839882-26-046051",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -88971,6 +89026,15 @@
       "0001918704-26-027951",
       "0001918704-26-027952",
       "0001918704-26-027953",
+      "0001918704-26-027954",
+      "0001918704-26-027955",
+      "0001918704-26-027956",
+      "0001918704-26-027957",
+      "0001918704-26-027958",
+      "0001918704-26-027959",
+      "0001918704-26-027960",
+      "0001918704-26-027961",
+      "0001918704-26-027962",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
