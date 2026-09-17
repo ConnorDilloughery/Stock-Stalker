@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T11:04:56.914941+00:00",
+  "generatedAt": "2026-09-17T12:02:47.619509+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -1921,6 +1921,36 @@
       "type": "Purchase",
       "shares": 13900.0,
       "pricePerShare": 2.73,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "DHT",
+      "issuerName": "DHT Holdings, Inc.",
+      "insiderName": "Lind Erik",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 30000.0,
+      "pricePerShare": 22.46,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "QXL",
+      "issuerName": "QUANTUM X LABS INC.",
+      "insiderName": "Baranes Yakov",
+      "title": "Co-CEO",
+      "type": "Purchase",
+      "shares": 5000.0,
+      "pricePerShare": 4.88,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "AS",
+      "issuerName": "Amer Sports, Inc.",
+      "insiderName": "Chen Wen-Chang (Victor)",
+      "title": "Chief Strategy Officer",
+      "type": "Sale",
+      "shares": 117461.0,
+      "pricePerShare": 26.5964,
       "transactionDate": "2026-09-15"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 20060.0,
       "pricePerShare": 2.7545,
       "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "CATX",
-      "issuerName": "Perspective Therapeutics, Inc.",
-      "insiderName": "Lantheus Holdings, Inc.",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 35769.0,
-      "pricePerShare": 3.1193,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "MSGM",
-      "issuerName": "Motorsport Games Inc.",
-      "insiderName": "Red Oak Partners, LLC",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 1406.0,
-      "pricePerShare": 3.947,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "MSGM",
-      "issuerName": "Motorsport Games Inc.",
-      "insiderName": "Red Oak Partners, LLC",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 743.0,
-      "pricePerShare": 3.947,
-      "transactionDate": "2026-09-01"
     }
   ],
   "byTicker": {
@@ -36832,6 +36832,71 @@
           "shares": 1000.0,
           "pricePerShare": 226.04,
           "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "DHT": {
+      "issuerName": "DHT Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "DHT",
+          "issuerName": "DHT Holdings, Inc.",
+          "insiderName": "Lind Erik",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 30000.0,
+          "pricePerShare": 22.46,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "DHT",
+          "issuerName": "DHT Holdings, Inc.",
+          "insiderName": "Eglin Jon Stephen",
+          "title": "Chartering & Operations",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 21.0,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "QXL": {
+      "issuerName": "QUANTUM X LABS INC.",
+      "trades": [
+        {
+          "ticker": "QXL",
+          "issuerName": "QUANTUM X LABS INC.",
+          "insiderName": "Baranes Yakov",
+          "title": "Co-CEO",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 4.88,
+          "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "AS": {
+      "issuerName": "Amer Sports, Inc.",
+      "trades": [
+        {
+          "ticker": "AS",
+          "issuerName": "Amer Sports, Inc.",
+          "insiderName": "Chen Wen-Chang (Victor)",
+          "title": "Chief Strategy Officer",
+          "type": "Sale",
+          "shares": 117461.0,
+          "pricePerShare": 26.5964,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "AS",
+          "issuerName": "Amer Sports, Inc.",
+          "insiderName": "Page Andrew E",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 2022.0,
+          "pricePerShare": 28.63,
+          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -58155,21 +58220,6 @@
         }
       ]
     },
-    "DHT": {
-      "issuerName": "DHT Holdings, Inc.",
-      "trades": [
-        {
-          "ticker": "DHT",
-          "issuerName": "DHT Holdings, Inc.",
-          "insiderName": "Eglin Jon Stephen",
-          "title": "Chartering & Operations",
-          "type": "Sale",
-          "shares": 25000.0,
-          "pricePerShare": 21.0,
-          "transactionDate": "2026-09-04"
-        }
-      ]
-    },
     "NTST": {
       "issuerName": "NETSTREIT Corp.",
       "trades": [
@@ -58572,16 +58622,6 @@
           "shares": 80783.0,
           "pricePerShare": 3.1058,
           "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "CATX",
-          "issuerName": "Perspective Therapeutics, Inc.",
-          "insiderName": "Lantheus Holdings, Inc.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 35769.0,
-          "pricePerShare": 3.1193,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -60791,21 +60831,6 @@
           "type": "Sale",
           "shares": 400.0,
           "pricePerShare": 26.6375,
-          "transactionDate": "2026-09-02"
-        }
-      ]
-    },
-    "AS": {
-      "issuerName": "Amer Sports, Inc.",
-      "trades": [
-        {
-          "ticker": "AS",
-          "issuerName": "Amer Sports, Inc.",
-          "insiderName": "Page Andrew E",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 2022.0,
-          "pricePerShare": 28.63,
           "transactionDate": "2026-09-02"
         }
       ]
@@ -63161,31 +63186,6 @@
           "type": "Sale",
           "shares": 3471.0,
           "pricePerShare": 139.95,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "MSGM": {
-      "issuerName": "Motorsport Games Inc.",
-      "trades": [
-        {
-          "ticker": "MSGM",
-          "issuerName": "Motorsport Games Inc.",
-          "insiderName": "Red Oak Partners, LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1406.0,
-          "pricePerShare": 3.947,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "MSGM",
-          "issuerName": "Motorsport Games Inc.",
-          "insiderName": "Red Oak Partners, LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 743.0,
-          "pricePerShare": 3.947,
           "transactionDate": "2026-09-01"
         }
       ]
@@ -66799,6 +66799,8 @@
       "0001081400-26-000450",
       "0001081400-26-000452",
       "0001081400-26-000454",
+      "0001081400-26-000457",
+      "0001081400-26-000458",
       "0001081402-26-000019",
       "0001081402-26-000021",
       "0001081402-26-000023",
@@ -68014,6 +68016,7 @@
       "0001104659-26-108361",
       "0001104659-26-108384",
       "0001104659-26-108386",
+      "0001104659-26-108418",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -73203,6 +73206,7 @@
       "0001193125-26-393726",
       "0001193125-26-393727",
       "0001193125-26-393728",
+      "0001193125-26-393743",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75250,6 +75254,7 @@
       "0001214659-26-011716",
       "0001214659-26-011717",
       "0001214659-26-011731",
+      "0001214659-26-011753",
       "0001214736-26-000002",
       "0001214993-26-000004",
       "0001215135-26-000012",
@@ -75926,6 +75931,7 @@
       "0001331284-26-000017",
       "0001331284-26-000018",
       "0001331284-26-000019",
+      "0001331284-26-000020",
       "0001332349-26-000059",
       "0001333280-26-000016",
       "0001333280-26-000017",
@@ -77922,6 +77928,7 @@
       "0001493152-26-043016",
       "0001493152-26-043017",
       "0001493152-26-043020",
+      "0001493152-26-043041",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -79842,6 +79849,10 @@
       "0001628280-26-062348",
       "0001628280-26-062352",
       "0001628280-26-062354",
+      "0001628280-26-062362",
+      "0001628280-26-062364",
+      "0001628280-26-062366",
+      "0001628280-26-062368",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -89057,6 +89068,7 @@
       "0001987910-26-000008",
       "0001988277-26-000003",
       "0001988855-26-000011",
+      "0001988894-26-000089",
       "0001988976-26-000006",
       "0001988976-26-000008",
       "0001989065-26-000010",
@@ -89618,6 +89630,7 @@
       "0001999371-26-020607",
       "0001999371-26-020615",
       "0001999371-26-020621",
+      "0001999371-26-020679",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
