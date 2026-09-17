@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T12:02:47.619509+00:00",
+  "generatedAt": "2026-09-17T13:02:00.154136+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -411,6 +411,26 @@
       "type": "Sale",
       "shares": 1200000.0,
       "pricePerShare": 142.333,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "BORR",
+      "issuerName": "Borr Drilling Ltd",
+      "insiderName": "Troim Tor Olav",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1000000.0,
+      "pricePerShare": 4.2995,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "NYAX",
+      "issuerName": "Nayax Ltd.",
+      "insiderName": "Omer Gal",
+      "title": "CLO",
+      "type": "Sale",
+      "shares": 1500.0,
+      "pricePerShare": 45.1698,
       "transactionDate": "2026-09-16"
     },
     {
@@ -1951,6 +1971,36 @@
       "type": "Sale",
       "shares": 117461.0,
       "pricePerShare": 26.5964,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 4019.0,
+      "pricePerShare": 116.84,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 9581.0,
+      "pricePerShare": 117.55,
+      "transactionDate": "2026-09-15"
+    },
+    {
+      "ticker": "SBLK",
+      "issuerName": "Star Bulk Carriers Corp.",
+      "insiderName": "Reskos Nikolaos",
+      "title": "Chief Operating Officer",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 28.27,
       "transactionDate": "2026-09-15"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 1790.0,
       "pricePerShare": 4.57,
       "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "DRD",
-      "issuerName": "DRDGOLD LTD",
-      "insiderName": "Schoeman Jacobus",
-      "title": "Chief Operating Officer",
-      "type": "Sale",
-      "shares": 19403.0,
-      "pricePerShare": 2.7545,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "DRD",
-      "issuerName": "DRDGOLD LTD",
-      "insiderName": "Gouws Henry",
-      "title": "Head of Prod., Dir. of Ergo",
-      "type": "Sale",
-      "shares": 16826.0,
-      "pricePerShare": 2.7545,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "MRNA",
-      "issuerName": "Moderna, Inc.",
-      "insiderName": "Klinger Shannon Thyme",
-      "title": "Chief Legal Officer",
-      "type": "Sale",
-      "shares": 3471.0,
-      "pricePerShare": 139.95,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "MGNI",
-      "issuerName": "MAGNITE, INC.",
-      "insiderName": "Buonasera David",
-      "title": "CHIEF TECHNOLOGY OFFICER",
-      "type": "Sale",
-      "shares": 5371.0,
-      "pricePerShare": 23.42,
-      "transactionDate": "2026-09-01"
-    },
-    {
-      "ticker": "DRD",
-      "issuerName": "DRDGOLD LTD",
-      "insiderName": "Lindecke Dean",
-      "title": "General Manager Ergo Ops.",
-      "type": "Sale",
-      "shares": 20060.0,
-      "pricePerShare": 2.7545,
-      "transactionDate": "2026-09-01"
     }
   ],
   "byTicker": {
@@ -32585,6 +32585,136 @@
         }
       ]
     },
+    "BORR": {
+      "issuerName": "Borr Drilling Ltd",
+      "trades": [
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Troim Tor Olav",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1000000.0,
+          "pricePerShare": 4.2995,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Mawjee Jehan",
+          "title": "Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 10903.0,
+          "pricePerShare": 4.8023,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Snowling Harvey Edward",
+          "title": "Chief Operating Officer",
+          "type": "Sale",
+          "shares": 25877.0,
+          "pricePerShare": 4.8023,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Vaaler Magnus",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 19625.0,
+          "pricePerShare": 4.8023,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Crowe Jason Philip",
+          "title": "SVP - Commercial",
+          "type": "Sale",
+          "shares": 16495.0,
+          "pricePerShare": 4.55,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Lee Charles (Chuck)",
+          "title": "SVP - General Counsel",
+          "type": "Sale",
+          "shares": 10538.0,
+          "pricePerShare": 4.8005,
+          "transactionDate": "2026-09-02"
+        }
+      ]
+    },
+    "NYAX": {
+      "issuerName": "Nayax Ltd.",
+      "trades": [
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Omer Gal",
+          "title": "CLO",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 45.1698,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Tepper Oren",
+          "title": "CRO",
+          "type": "Sale",
+          "shares": 65.0,
+          "pricePerShare": 51.81,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Greenberg Aaron Samuel",
+          "title": "CSO",
+          "type": "Sale",
+          "shares": 77.0,
+          "pricePerShare": 52.31,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Furman Carly Lisanne",
+          "title": "CEO NAYX North America",
+          "type": "Sale",
+          "shares": 96.0,
+          "pricePerShare": 52.31,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Sever Michal",
+          "title": "CMO",
+          "type": "Sale",
+          "shares": 34.0,
+          "pricePerShare": 52.31,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Manor Sagit",
+          "title": "CFO",
+          "type": "Sale",
+          "shares": 123.0,
+          "pricePerShare": 52.3864,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
     "NEGG": {
       "issuerName": "Newegg Commerce, Inc.",
       "trades": [
@@ -34525,6 +34655,16 @@
           "title": "Director",
           "type": "Purchase",
           "shares": 6000.0,
+          "pricePerShare": 28.27,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Reskos Nikolaos",
+          "title": "Chief Operating Officer",
+          "type": "Purchase",
+          "shares": 10000.0,
           "pricePerShare": 28.27,
           "transactionDate": "2026-09-15"
         }
@@ -36897,6 +37037,171 @@
           "shares": 2022.0,
           "pricePerShare": 28.63,
           "transactionDate": "2026-09-02"
+        }
+      ]
+    },
+    "AFL": {
+      "issuerName": "AFLAC INC",
+      "trades": [
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4019.0,
+          "pricePerShare": 116.84,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 9581.0,
+          "pricePerShare": 117.55,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 9545.0,
+          "pricePerShare": 116.62,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4055.0,
+          "pricePerShare": 117.02,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13173.0,
+          "pricePerShare": 115.12,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 827.0,
+          "pricePerShare": 115.41,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 11765.0,
+          "pricePerShare": 114.21,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1535.0,
+          "pricePerShare": 115.16,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 11500.0,
+          "pricePerShare": 115.32,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2100.0,
+          "pricePerShare": 116.11,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 14850.0,
+          "pricePerShare": 117.46,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 150.0,
+          "pricePerShare": 118.17,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 118.49,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13500.0,
+          "pricePerShare": 117.19,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 8670.0,
+          "pricePerShare": 115.65,
+          "transactionDate": "2026-09-01"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4130.0,
+          "pricePerShare": 116.01,
+          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -40477,151 +40782,6 @@
           "shares": 4000.0,
           "pricePerShare": 4.3587,
           "transactionDate": "2026-09-14"
-        }
-      ]
-    },
-    "AFL": {
-      "issuerName": "AFLAC INC",
-      "trades": [
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 9545.0,
-          "pricePerShare": 116.62,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4055.0,
-          "pricePerShare": 117.02,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13173.0,
-          "pricePerShare": 115.12,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 827.0,
-          "pricePerShare": 115.41,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 11765.0,
-          "pricePerShare": 114.21,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1535.0,
-          "pricePerShare": 115.16,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 11500.0,
-          "pricePerShare": 115.32,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2100.0,
-          "pricePerShare": 116.11,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 14850.0,
-          "pricePerShare": 117.46,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 150.0,
-          "pricePerShare": 118.17,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 20000.0,
-          "pricePerShare": 118.49,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13500.0,
-          "pricePerShare": 117.19,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 8670.0,
-          "pricePerShare": 115.65,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4130.0,
-          "pricePerShare": 116.01,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -54830,61 +54990,6 @@
         }
       ]
     },
-    "NYAX": {
-      "issuerName": "Nayax Ltd.",
-      "trades": [
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Tepper Oren",
-          "title": "CRO",
-          "type": "Sale",
-          "shares": 65.0,
-          "pricePerShare": 51.81,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Greenberg Aaron Samuel",
-          "title": "CSO",
-          "type": "Sale",
-          "shares": 77.0,
-          "pricePerShare": 52.31,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Furman Carly Lisanne",
-          "title": "CEO NAYX North America",
-          "type": "Sale",
-          "shares": 96.0,
-          "pricePerShare": 52.31,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Sever Michal",
-          "title": "CMO",
-          "type": "Sale",
-          "shares": 34.0,
-          "pricePerShare": 52.31,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Manor Sagit",
-          "title": "CFO",
-          "type": "Sale",
-          "shares": 123.0,
-          "pricePerShare": 52.3864,
-          "transactionDate": "2026-09-04"
-        }
-      ]
-    },
     "TTC": {
       "issuerName": "TORO CO",
       "trades": [
@@ -59800,61 +59905,6 @@
         }
       ]
     },
-    "BORR": {
-      "issuerName": "Borr Drilling Ltd",
-      "trades": [
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Mawjee Jehan",
-          "title": "Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 10903.0,
-          "pricePerShare": 4.8023,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Snowling Harvey Edward",
-          "title": "Chief Operating Officer",
-          "type": "Sale",
-          "shares": 25877.0,
-          "pricePerShare": 4.8023,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Vaaler Magnus",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 19625.0,
-          "pricePerShare": 4.8023,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Crowe Jason Philip",
-          "title": "SVP - Commercial",
-          "type": "Sale",
-          "shares": 16495.0,
-          "pricePerShare": 4.55,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Lee Charles (Chuck)",
-          "title": "SVP - General Counsel",
-          "type": "Sale",
-          "shares": 10538.0,
-          "pricePerShare": 4.8005,
-          "transactionDate": "2026-09-02"
-        }
-      ]
-    },
     "ARTNA": {
       "issuerName": "ARTESIAN RESOURCES CORP",
       "trades": [
@@ -61387,16 +61437,6 @@
           "shares": 1043.0,
           "pricePerShare": 25.0,
           "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "MGNI",
-          "issuerName": "MAGNITE, INC.",
-          "insiderName": "Buonasera David",
-          "title": "CHIEF TECHNOLOGY OFFICER",
-          "type": "Sale",
-          "shares": 5371.0,
-          "pricePerShare": 23.42,
-          "transactionDate": "2026-09-01"
         }
       ]
     },
@@ -63139,56 +63179,6 @@
           "transactionDate": "2026-09-01"
         }
       ]
-    },
-    "DRD": {
-      "issuerName": "DRDGOLD LTD",
-      "trades": [
-        {
-          "ticker": "DRD",
-          "issuerName": "DRDGOLD LTD",
-          "insiderName": "Schoeman Jacobus",
-          "title": "Chief Operating Officer",
-          "type": "Sale",
-          "shares": 19403.0,
-          "pricePerShare": 2.7545,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "DRD",
-          "issuerName": "DRDGOLD LTD",
-          "insiderName": "Gouws Henry",
-          "title": "Head of Prod., Dir. of Ergo",
-          "type": "Sale",
-          "shares": 16826.0,
-          "pricePerShare": 2.7545,
-          "transactionDate": "2026-09-01"
-        },
-        {
-          "ticker": "DRD",
-          "issuerName": "DRDGOLD LTD",
-          "insiderName": "Lindecke Dean",
-          "title": "General Manager Ergo Ops.",
-          "type": "Sale",
-          "shares": 20060.0,
-          "pricePerShare": 2.7545,
-          "transactionDate": "2026-09-01"
-        }
-      ]
-    },
-    "MRNA": {
-      "issuerName": "Moderna, Inc.",
-      "trades": [
-        {
-          "ticker": "MRNA",
-          "issuerName": "Moderna, Inc.",
-          "insiderName": "Klinger Shannon Thyme",
-          "title": "Chief Legal Officer",
-          "type": "Sale",
-          "shares": 3471.0,
-          "pricePerShare": 139.95,
-          "transactionDate": "2026-09-01"
-        }
-      ]
     }
   },
   "_meta": {
@@ -63452,6 +63442,7 @@
       "0000051931-26-000893",
       "0000052848-26-000831",
       "0000052848-26-000832",
+      "0000052848-26-000965",
       "0000053808-26-000013",
       "0000055135-26-000163",
       "0000058492-26-000420",
@@ -68017,6 +68008,9 @@
       "0001104659-26-108384",
       "0001104659-26-108386",
       "0001104659-26-108418",
+      "0001104659-26-108434",
+      "0001104659-26-108445",
+      "0001104659-26-108452",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -73207,6 +73201,12 @@
       "0001193125-26-393727",
       "0001193125-26-393728",
       "0001193125-26-393743",
+      "0001193125-26-393826",
+      "0001193125-26-393829",
+      "0001193125-26-393831",
+      "0001193125-26-393832",
+      "0001193125-26-393834",
+      "0001193125-26-393838",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -77348,6 +77348,7 @@
       "0001478669-26-000015",
       "0001478916-26-000015",
       "0001479079-26-000035",
+      "0001479599-26-000007",
       "0001480560-26-000022",
       "0001481792-26-000136",
       "0001481792-26-000138",
@@ -79853,6 +79854,15 @@
       "0001628280-26-062364",
       "0001628280-26-062366",
       "0001628280-26-062368",
+      "0001628280-26-062382",
+      "0001628280-26-062384",
+      "0001628280-26-062386",
+      "0001628280-26-062388",
+      "0001628280-26-062390",
+      "0001628280-26-062392",
+      "0001628280-26-062394",
+      "0001628280-26-062396",
+      "0001628280-26-062398",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -84555,6 +84565,8 @@
       "0001839882-26-045876",
       "0001839882-26-045877",
       "0001839882-26-045880",
+      "0001839882-26-045916",
+      "0001839882-26-045917",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -88723,6 +88735,8 @@
       "0001918704-26-027862",
       "0001918704-26-027863",
       "0001918704-26-027873",
+      "0001918704-26-027880",
+      "0001918704-26-027881",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -88924,6 +88938,7 @@
       "0001969106-26-000004",
       "0001969292-26-000007",
       "0001969292-26-000009",
+      "0001969292-26-000010",
       "0001969701-26-000006",
       "0001970613-26-000004",
       "0001971511-26-000004",
@@ -89020,6 +89035,7 @@
       "0001976408-26-000849",
       "0001976408-26-000850",
       "0001976408-26-000851",
+      "0001976408-26-000853",
       "0001976672-26-000057",
       "0001976672-26-000059",
       "0001976672-26-000062",
