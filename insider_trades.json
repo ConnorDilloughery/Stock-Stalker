@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T12:02:49.428412+00:00",
+  "generatedAt": "2026-09-18T13:03:53.928326+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -301,6 +301,26 @@
       "type": "Sale",
       "shares": 6834.0,
       "pricePerShare": 89.64,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "AIM",
+      "issuerName": "AIM ImmunoTech Inc.",
+      "insiderName": "Equels Thomas K",
+      "title": "Director, CEO & President",
+      "type": "Purchase",
+      "shares": 24000.0,
+      "pricePerShare": 0.208,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "BORR",
+      "issuerName": "Borr Drilling Ltd",
+      "insiderName": "Troim Tor Olav",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 150000.0,
+      "pricePerShare": 4.3795,
       "transactionDate": "2026-09-17"
     },
     {
@@ -1521,6 +1541,36 @@
       "type": "Sale",
       "shares": 5005.0,
       "pricePerShare": 175.0,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "KRMN",
+      "issuerName": "Karman Holdings Inc.",
+      "insiderName": "Stinnett David",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 27000.0,
+      "pricePerShare": 37.3203,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "KRMN",
+      "issuerName": "Karman Holdings Inc.",
+      "insiderName": "Petryszyn Mary D",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 500.0,
+      "pricePerShare": 37.4399,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "KRMN",
+      "issuerName": "Karman Holdings Inc.",
+      "insiderName": "Twitty Stephen",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 275.0,
+      "pricePerShare": 36.79,
       "transactionDate": "2026-09-16"
     },
     {
@@ -11191,6 +11241,16 @@
       "type": "Purchase",
       "shares": 231.0,
       "pricePerShare": 64.23,
+      "transactionDate": "2026-09-11"
+    },
+    {
+      "ticker": "ECOR",
+      "issuerName": "electroCore, Inc.",
+      "insiderName": "Fox Michael",
+      "title": "See Remarks",
+      "type": "Purchase",
+      "shares": 5000.0,
+      "pricePerShare": 9.8007,
       "transactionDate": "2026-09-11"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 7452.0,
       "pricePerShare": 59.94,
       "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "PCOR",
-      "issuerName": "PROCORE TECHNOLOGIES, INC.",
-      "insiderName": "O CONNOR KEVIN J",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 240.0,
-      "pricePerShare": 60.61,
-      "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "PACS",
-      "issuerName": "PACS Group, Inc.",
-      "insiderName": "Murray Jason Hulse",
-      "title": "Director, Co-Founder, CEO & Chairman, 10% Owner",
-      "type": "Sale",
-      "shares": 17435.0,
-      "pricePerShare": 42.7845,
-      "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "PACS",
-      "issuerName": "PACS Group, Inc.",
-      "insiderName": "Murray Jason Hulse",
-      "title": "Director, Co-Founder, CEO & Chairman, 10% Owner",
-      "type": "Sale",
-      "shares": 6348.0,
-      "pricePerShare": 43.3639,
-      "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "TAK",
-      "issuerName": "TAKEDA PHARMACEUTICAL CO LTD",
-      "insiderName": "Plump Andrew Stewart",
-      "title": "Director, President, R&D",
-      "type": "Sale",
-      "shares": 116191.0,
-      "pricePerShare": 18.49,
-      "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "NTRA",
-      "issuerName": "Natera, Inc.",
-      "insiderName": "Moshkevich Solomon",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 15160.0,
-      "pricePerShare": 326.894,
-      "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "SYRE",
-      "issuerName": "Spyre Therapeutics, Inc.",
-      "insiderName": "King-Jones Heidy",
-      "title": "See Remarks",
-      "type": "Sale",
-      "shares": 400.0,
-      "pricePerShare": 90.0,
-      "transactionDate": "2026-09-02"
     }
   ],
   "byTicker": {
@@ -31282,6 +31282,106 @@
           "shares": 6834.0,
           "pricePerShare": 89.64,
           "transactionDate": "2026-09-17"
+        }
+      ]
+    },
+    "AIM": {
+      "issuerName": "AIM ImmunoTech Inc.",
+      "trades": [
+        {
+          "ticker": "AIM",
+          "issuerName": "AIM ImmunoTech Inc.",
+          "insiderName": "Equels Thomas K",
+          "title": "Director, CEO & President",
+          "type": "Purchase",
+          "shares": 24000.0,
+          "pricePerShare": 0.208,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "AIM",
+          "issuerName": "AIM ImmunoTech Inc.",
+          "insiderName": "Equels Thomas K",
+          "title": "Director, CEO & President",
+          "type": "Purchase",
+          "shares": 11000.0,
+          "pricePerShare": 0.21,
+          "transactionDate": "2026-09-16"
+        }
+      ]
+    },
+    "BORR": {
+      "issuerName": "Borr Drilling Ltd",
+      "trades": [
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Troim Tor Olav",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 150000.0,
+          "pricePerShare": 4.3795,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Troim Tor Olav",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1000000.0,
+          "pricePerShare": 4.2995,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Mawjee Jehan",
+          "title": "Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 10903.0,
+          "pricePerShare": 4.8023,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Snowling Harvey Edward",
+          "title": "Chief Operating Officer",
+          "type": "Sale",
+          "shares": 25877.0,
+          "pricePerShare": 4.8023,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Vaaler Magnus",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 19625.0,
+          "pricePerShare": 4.8023,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Crowe Jason Philip",
+          "title": "SVP - Commercial",
+          "type": "Sale",
+          "shares": 16495.0,
+          "pricePerShare": 4.55,
+          "transactionDate": "2026-09-02"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Lee Charles (Chuck)",
+          "title": "SVP - General Counsel",
+          "type": "Sale",
+          "shares": 10538.0,
+          "pricePerShare": 4.8005,
+          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -33700,71 +33800,6 @@
         }
       ]
     },
-    "BORR": {
-      "issuerName": "Borr Drilling Ltd",
-      "trades": [
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Troim Tor Olav",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1000000.0,
-          "pricePerShare": 4.2995,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Mawjee Jehan",
-          "title": "Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 10903.0,
-          "pricePerShare": 4.8023,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Snowling Harvey Edward",
-          "title": "Chief Operating Officer",
-          "type": "Sale",
-          "shares": 25877.0,
-          "pricePerShare": 4.8023,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Vaaler Magnus",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 19625.0,
-          "pricePerShare": 4.8023,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Crowe Jason Philip",
-          "title": "SVP - Commercial",
-          "type": "Sale",
-          "shares": 16495.0,
-          "pricePerShare": 4.55,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Lee Charles (Chuck)",
-          "title": "SVP - General Counsel",
-          "type": "Sale",
-          "shares": 10538.0,
-          "pricePerShare": 4.8005,
-          "transactionDate": "2026-09-02"
-        }
-      ]
-    },
     "NYAX": {
       "issuerName": "Nayax Ltd.",
       "trades": [
@@ -34152,21 +34187,6 @@
           "shares": 19000.0,
           "pricePerShare": 21.92,
           "transactionDate": "2026-09-09"
-        }
-      ]
-    },
-    "AIM": {
-      "issuerName": "AIM ImmunoTech Inc.",
-      "trades": [
-        {
-          "ticker": "AIM",
-          "issuerName": "AIM ImmunoTech Inc.",
-          "insiderName": "Equels Thomas K",
-          "title": "Director, CEO & President",
-          "type": "Purchase",
-          "shares": 11000.0,
-          "pricePerShare": 0.21,
-          "transactionDate": "2026-09-16"
         }
       ]
     },
@@ -36282,16 +36302,6 @@
           "shares": 1300.0,
           "pricePerShare": 329.6247,
           "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "NTRA",
-          "issuerName": "Natera, Inc.",
-          "insiderName": "Moshkevich Solomon",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15160.0,
-          "pricePerShare": 326.894,
-          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -36347,6 +36357,41 @@
           "shares": 187704.0,
           "pricePerShare": 1.7985,
           "transactionDate": "2026-09-02"
+        }
+      ]
+    },
+    "KRMN": {
+      "issuerName": "Karman Holdings Inc.",
+      "trades": [
+        {
+          "ticker": "KRMN",
+          "issuerName": "Karman Holdings Inc.",
+          "insiderName": "Stinnett David",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 27000.0,
+          "pricePerShare": 37.3203,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "KRMN",
+          "issuerName": "Karman Holdings Inc.",
+          "insiderName": "Petryszyn Mary D",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 500.0,
+          "pricePerShare": 37.4399,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "KRMN",
+          "issuerName": "Karman Holdings Inc.",
+          "insiderName": "Twitty Stephen",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 275.0,
+          "pricePerShare": 36.79,
+          "transactionDate": "2026-09-16"
         }
       ]
     },
@@ -36667,26 +36712,6 @@
           "shares": 858.0,
           "pricePerShare": 43.1088,
           "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "PACS",
-          "issuerName": "PACS Group, Inc.",
-          "insiderName": "Murray Jason Hulse",
-          "title": "Director, Co-Founder, CEO & Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 17435.0,
-          "pricePerShare": 42.7845,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "PACS",
-          "issuerName": "PACS Group, Inc.",
-          "insiderName": "Murray Jason Hulse",
-          "title": "Director, Co-Founder, CEO & Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 6348.0,
-          "pricePerShare": 43.3639,
-          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -48887,16 +48912,6 @@
           "shares": 34535.0,
           "pricePerShare": 18.54,
           "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "TAK",
-          "issuerName": "TAKEDA PHARMACEUTICAL CO LTD",
-          "insiderName": "Plump Andrew Stewart",
-          "title": "Director, President, R&D",
-          "type": "Sale",
-          "shares": 116191.0,
-          "pricePerShare": 18.49,
-          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -52960,6 +52975,21 @@
         }
       ]
     },
+    "ECOR": {
+      "issuerName": "electroCore, Inc.",
+      "trades": [
+        {
+          "ticker": "ECOR",
+          "issuerName": "electroCore, Inc.",
+          "insiderName": "Fox Michael",
+          "title": "See Remarks",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 9.8007,
+          "transactionDate": "2026-09-11"
+        }
+      ]
+    },
     "HLI": {
       "issuerName": "HOULIHAN LOKEY, INC.",
       "trades": [
@@ -54646,16 +54676,6 @@
           "type": "Sale",
           "shares": 7452.0,
           "pricePerShare": 59.94,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "PCOR",
-          "issuerName": "PROCORE TECHNOLOGIES, INC.",
-          "insiderName": "O CONNOR KEVIN J",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 240.0,
-          "pricePerShare": 60.61,
           "transactionDate": "2026-09-02"
         }
       ]
@@ -63079,21 +63099,6 @@
           "transactionDate": "2026-09-02"
         }
       ]
-    },
-    "SYRE": {
-      "issuerName": "Spyre Therapeutics, Inc.",
-      "trades": [
-        {
-          "ticker": "SYRE",
-          "issuerName": "Spyre Therapeutics, Inc.",
-          "insiderName": "King-Jones Heidy",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 400.0,
-          "pricePerShare": 90.0,
-          "transactionDate": "2026-09-02"
-        }
-      ]
     }
   },
   "_meta": {
@@ -64116,6 +64121,7 @@
       "0000796343-26-000137",
       "0000796848-26-000006",
       "0000796848-26-000007",
+      "0000799127-26-000070",
       "0000802205-26-000046",
       "0000802205-26-000049",
       "0000802222-26-000042",
@@ -68061,6 +68067,7 @@
       "0001104659-26-108698",
       "0001104659-26-108703",
       "0001104659-26-108719",
+      "0001104659-26-108740",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -73398,6 +73405,9 @@
       "0001193125-26-395022",
       "0001193125-26-395023",
       "0001193125-26-395024",
+      "0001193125-26-395095",
+      "0001193125-26-395097",
+      "0001193125-26-395098",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75101,6 +75111,10 @@
       "0001213900-26-101101",
       "0001213900-26-101131",
       "0001213900-26-101142",
+      "0001213900-26-101152",
+      "0001213900-26-101158",
+      "0001213900-26-101160",
+      "0001213900-26-101163",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -78217,6 +78231,10 @@
       "0001493152-26-043216",
       "0001493152-26-043219",
       "0001493152-26-043223",
+      "0001493152-26-043246",
+      "0001493152-26-043251",
+      "0001493152-26-043257",
+      "0001493152-26-043259",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -80199,6 +80217,7 @@
       "0001628280-26-062607",
       "0001628280-26-062608",
       "0001628280-26-062609",
+      "0001628280-26-062623",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -89302,6 +89321,8 @@
       "0001918704-26-028024",
       "0001918704-26-028025",
       "0001918704-26-028033",
+      "0001918704-26-028034",
+      "0001918704-26-028035",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -90228,6 +90249,10 @@
       "0001999371-26-020714",
       "0001999371-26-020730",
       "0001999371-26-020775",
+      "0001999371-26-020780",
+      "0001999371-26-020782",
+      "0001999371-26-020784",
+      "0001999371-26-020786",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
