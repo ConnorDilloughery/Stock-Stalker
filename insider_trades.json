@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T11:04:41.772062+00:00",
+  "generatedAt": "2026-09-18T12:02:49.428412+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -281,6 +281,26 @@
       "type": "Sale",
       "shares": 5005.0,
       "pricePerShare": 175.0,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "TFC",
+      "issuerName": "TRUIST FINANCIAL CORP",
+      "insiderName": "Lyons Michael P.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 21000.0,
+      "pricePerShare": 48.3608,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "STNG",
+      "issuerName": "Scorpio Tankers Inc.",
+      "insiderName": "Adelborg Auste",
+      "title": "Secretary",
+      "type": "Sale",
+      "shares": 6834.0,
+      "pricePerShare": 89.64,
       "transactionDate": "2026-09-17"
     },
     {
@@ -29982,26 +30002,6 @@
       "shares": 400.0,
       "pricePerShare": 90.0,
       "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "SYRE",
-      "issuerName": "Spyre Therapeutics, Inc.",
-      "insiderName": "Burrows Scott L",
-      "title": "Chief Financial Officer",
-      "type": "Sale",
-      "shares": 18232.0,
-      "pricePerShare": 89.35,
-      "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "FLD",
-      "issuerName": "Fold Holdings, Inc.",
-      "insiderName": "Dickman Thomas J",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 6.0,
-      "pricePerShare": 0.457,
-      "transactionDate": "2026-09-02"
     }
   ],
   "byTicker": {
@@ -31252,6 +31252,36 @@
           "shares": 5005.0,
           "pricePerShare": 175.0,
           "transactionDate": "2026-09-16"
+        }
+      ]
+    },
+    "TFC": {
+      "issuerName": "TRUIST FINANCIAL CORP",
+      "trades": [
+        {
+          "ticker": "TFC",
+          "issuerName": "TRUIST FINANCIAL CORP",
+          "insiderName": "Lyons Michael P.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 21000.0,
+          "pricePerShare": 48.3608,
+          "transactionDate": "2026-09-17"
+        }
+      ]
+    },
+    "STNG": {
+      "issuerName": "Scorpio Tankers Inc.",
+      "trades": [
+        {
+          "ticker": "STNG",
+          "issuerName": "Scorpio Tankers Inc.",
+          "insiderName": "Adelborg Auste",
+          "title": "Secretary",
+          "type": "Sale",
+          "shares": 6834.0,
+          "pricePerShare": 89.64,
+          "transactionDate": "2026-09-17"
         }
       ]
     },
@@ -51297,16 +51327,6 @@
           "shares": 10000.0,
           "pricePerShare": 0.5616,
           "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "FLD",
-          "issuerName": "Fold Holdings, Inc.",
-          "insiderName": "Dickman Thomas J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6.0,
-          "pricePerShare": 0.457,
-          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -63071,16 +63091,6 @@
           "type": "Sale",
           "shares": 400.0,
           "pricePerShare": 90.0,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "SYRE",
-          "issuerName": "Spyre Therapeutics, Inc.",
-          "insiderName": "Burrows Scott L",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 18232.0,
-          "pricePerShare": 89.35,
           "transactionDate": "2026-09-02"
         }
       ]
@@ -75089,6 +75099,8 @@
       "0001213900-26-101081",
       "0001213900-26-101086",
       "0001213900-26-101101",
+      "0001213900-26-101131",
+      "0001213900-26-101142",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -78563,6 +78575,7 @@
       "0001533175-26-000016",
       "0001533568-26-000012",
       "0001534574-26-000014",
+      "0001534574-26-000016",
       "0001534701-26-000026",
       "0001534839-26-000003",
       "0001536307-26-000006",
@@ -89288,6 +89301,7 @@
       "0001918704-26-028023",
       "0001918704-26-028024",
       "0001918704-26-028025",
+      "0001918704-26-028033",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -90213,6 +90227,7 @@
       "0001999371-26-020694",
       "0001999371-26-020714",
       "0001999371-26-020730",
+      "0001999371-26-020775",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -90847,6 +90862,7 @@
       "0002089263-26-000012",
       "0002089263-26-000014",
       "0002089362-26-000016",
+      "0002089844-26-000003",
       "0002089872-26-000002",
       "0002089872-26-000007",
       "0002090083-26-000016",
