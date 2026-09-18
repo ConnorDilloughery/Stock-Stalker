@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T20:01:30.676154+00:00",
+  "generatedAt": "2026-09-18T21:05:46.191565+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -21,6 +21,16 @@
       "type": "Sale",
       "shares": 203.0,
       "pricePerShare": 214.25,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "LITE",
+      "issuerName": "Lumentum Holdings Inc.",
+      "insiderName": "Wupen Yuen",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 920.0,
       "transactionDate": "2026-09-18"
     },
     {
@@ -401,6 +411,56 @@
       "type": "Sale",
       "shares": 25000.0,
       "pricePerShare": 87.1513,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "BRFH",
+      "issuerName": "BARFRESH FOOD GROUP INC.",
+      "insiderName": "Roger Lisa",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 25329.0,
+      "pricePerShare": 1.1,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "LITE",
+      "issuerName": "Lumentum Holdings Inc.",
+      "insiderName": "Wupen Yuen",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 933.45,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "AMBA",
+      "issuerName": "AMBARELLA INC",
+      "insiderName": "Wang Feng-Ming",
+      "title": "Director, CEO",
+      "type": "Sale",
+      "shares": 6086.0,
+      "pricePerShare": 64.83,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "AMBA",
+      "issuerName": "AMBARELLA INC",
+      "insiderName": "Ju Chi-Hong",
+      "title": "Senior VP, Systems & GM",
+      "type": "Sale",
+      "shares": 2009.0,
+      "pricePerShare": 64.83,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "AMBA",
+      "issuerName": "AMBARELLA INC",
+      "insiderName": "Lee Chan W",
+      "title": "Chief Operations Officer",
+      "type": "Sale",
+      "shares": 2893.0,
+      "pricePerShare": 64.83,
       "transactionDate": "2026-09-17"
     },
     {
@@ -1771,6 +1831,16 @@
       "type": "Sale",
       "shares": 231799.0,
       "pricePerShare": 86.1856,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "LITE",
+      "issuerName": "Lumentum Holdings Inc.",
+      "insiderName": "Wupen Yuen",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 856.83,
       "transactionDate": "2026-09-16"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 15000.0,
       "pricePerShare": 99.08,
       "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "THC",
-      "issuerName": "TENET HEALTHCARE CORP",
-      "insiderName": "West Nadja",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1152.0,
-      "pricePerShare": 258.8,
-      "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "FLGT",
-      "issuerName": "Fulgent Genetics, Inc.",
-      "insiderName": "Gao Hanlin",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1673.0,
-      "pricePerShare": 19.6564,
-      "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "FLGT",
-      "issuerName": "Fulgent Genetics, Inc.",
-      "insiderName": "Xie Jian",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2127.0,
-      "pricePerShare": 19.6564,
-      "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "ROKU",
-      "issuerName": "ROKU, INC",
-      "insiderName": "Handman Christopher T.",
-      "title": "SVP & General Counsel",
-      "type": "Sale",
-      "shares": 2999.0,
-      "pricePerShare": 155.64,
-      "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "ROKU",
-      "issuerName": "ROKU, INC",
-      "insiderName": "Fuchsberg Gilbert",
-      "title": "President, Subscriptions",
-      "type": "Sale",
-      "shares": 4824.0,
-      "pricePerShare": 155.64,
-      "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "AMPH",
-      "issuerName": "Amphastar Pharmaceuticals, Inc.",
-      "insiderName": "Zhou Rong",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 3187.0,
-      "pricePerShare": 23.6291,
-      "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "ROKU",
-      "issuerName": "ROKU, INC",
-      "insiderName": "Collier Charles",
-      "title": "President, Roku Media",
-      "type": "Sale",
-      "shares": 521.0,
-      "pricePerShare": 155.81,
-      "transactionDate": "2026-09-02"
     }
   ],
   "byTicker": {
@@ -30032,6 +30032,101 @@
           "shares": 203.0,
           "pricePerShare": 214.25,
           "transactionDate": "2026-09-18"
+        }
+      ]
+    },
+    "LITE": {
+      "issuerName": "Lumentum Holdings Inc.",
+      "trades": [
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 920.0,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 933.45,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 856.83,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 841.51,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 862.14,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 944.41,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 961.44,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 978.54,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "LITE",
+          "issuerName": "Lumentum Holdings Inc.",
+          "insiderName": "Wupen Yuen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 895.99,
+          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -31692,6 +31787,66 @@
           "shares": 800.0,
           "pricePerShare": 337.83,
           "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "BRFH": {
+      "issuerName": "BARFRESH FOOD GROUP INC.",
+      "trades": [
+        {
+          "ticker": "BRFH",
+          "issuerName": "BARFRESH FOOD GROUP INC.",
+          "insiderName": "Roger Lisa",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 25329.0,
+          "pricePerShare": 1.1,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "BRFH",
+          "issuerName": "BARFRESH FOOD GROUP INC.",
+          "insiderName": "Roger Lisa",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6127.0,
+          "pricePerShare": 1.22,
+          "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "AMBA": {
+      "issuerName": "AMBARELLA INC",
+      "trades": [
+        {
+          "ticker": "AMBA",
+          "issuerName": "AMBARELLA INC",
+          "insiderName": "Wang Feng-Ming",
+          "title": "Director, CEO",
+          "type": "Sale",
+          "shares": 6086.0,
+          "pricePerShare": 64.83,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "AMBA",
+          "issuerName": "AMBARELLA INC",
+          "insiderName": "Ju Chi-Hong",
+          "title": "Senior VP, Systems & GM",
+          "type": "Sale",
+          "shares": 2009.0,
+          "pricePerShare": 64.83,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "AMBA",
+          "issuerName": "AMBARELLA INC",
+          "insiderName": "Lee Chan W",
+          "title": "Chief Operations Officer",
+          "type": "Sale",
+          "shares": 2893.0,
+          "pricePerShare": 64.83,
+          "transactionDate": "2026-09-17"
         }
       ]
     },
@@ -35027,16 +35182,6 @@
           "shares": 10000.0,
           "pricePerShare": 23.9404,
           "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "AMPH",
-          "issuerName": "Amphastar Pharmaceuticals, Inc.",
-          "insiderName": "Zhou Rong",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3187.0,
-          "pricePerShare": 23.6291,
-          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -37850,71 +37995,6 @@
         }
       ]
     },
-    "LITE": {
-      "issuerName": "Lumentum Holdings Inc.",
-      "trades": [
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Wupen Yuen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 841.51,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Wupen Yuen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 862.14,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Wupen Yuen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 944.41,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Wupen Yuen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 961.44,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Wupen Yuen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 978.54,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "LITE",
-          "issuerName": "Lumentum Holdings Inc.",
-          "insiderName": "Wupen Yuen",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 895.99,
-          "transactionDate": "2026-09-08"
-        }
-      ]
-    },
     "NTHI": {
       "issuerName": "NEONC TECHNOLOGIES HOLDINGS, INC.",
       "trades": [
@@ -39182,36 +39262,6 @@
           "shares": 1426.0,
           "pricePerShare": 157.73,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "ROKU",
-          "issuerName": "ROKU, INC",
-          "insiderName": "Handman Christopher T.",
-          "title": "SVP & General Counsel",
-          "type": "Sale",
-          "shares": 2999.0,
-          "pricePerShare": 155.64,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "ROKU",
-          "issuerName": "ROKU, INC",
-          "insiderName": "Fuchsberg Gilbert",
-          "title": "President, Subscriptions",
-          "type": "Sale",
-          "shares": 4824.0,
-          "pricePerShare": 155.64,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "ROKU",
-          "issuerName": "ROKU, INC",
-          "insiderName": "Collier Charles",
-          "title": "President, Roku Media",
-          "type": "Sale",
-          "shares": 521.0,
-          "pricePerShare": 155.81,
-          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -50297,16 +50347,6 @@
           "shares": 10000.0,
           "pricePerShare": 263.42,
           "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "THC",
-          "issuerName": "TENET HEALTHCARE CORP",
-          "insiderName": "West Nadja",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1152.0,
-          "pricePerShare": 258.8,
-          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -54676,21 +54716,6 @@
           "type": "Sale",
           "shares": 100.0,
           "pricePerShare": 116.26,
-          "transactionDate": "2026-09-10"
-        }
-      ]
-    },
-    "BRFH": {
-      "issuerName": "BARFRESH FOOD GROUP INC.",
-      "trades": [
-        {
-          "ticker": "BRFH",
-          "issuerName": "BARFRESH FOOD GROUP INC.",
-          "insiderName": "Roger Lisa",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6127.0,
-          "pricePerShare": 1.22,
           "transactionDate": "2026-09-10"
         }
       ]
@@ -63089,31 +63114,6 @@
           "transactionDate": "2026-09-02"
         }
       ]
-    },
-    "FLGT": {
-      "issuerName": "Fulgent Genetics, Inc.",
-      "trades": [
-        {
-          "ticker": "FLGT",
-          "issuerName": "Fulgent Genetics, Inc.",
-          "insiderName": "Gao Hanlin",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1673.0,
-          "pricePerShare": 19.6564,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "FLGT",
-          "issuerName": "Fulgent Genetics, Inc.",
-          "insiderName": "Xie Jian",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2127.0,
-          "pricePerShare": 19.6564,
-          "transactionDate": "2026-09-02"
-        }
-      ]
     }
   },
   "_meta": {
@@ -64895,6 +64895,8 @@
       "0000919574-26-006249",
       "0000919574-26-006250",
       "0000919574-26-006325",
+      "0000919574-26-006398",
+      "0000919574-26-006399",
       "0000920148-26-000172",
       "0000920148-26-000176",
       "0000920148-26-000177",
@@ -65005,6 +65007,9 @@
       "0000930413-26-002892",
       "0000930413-26-002893",
       "0000930413-26-002894",
+      "0000930413-26-002926",
+      "0000930413-26-002927",
+      "0000930413-26-002928",
       "0000931148-26-000077",
       "0000932781-26-000045",
       "0000932781-26-000047",
@@ -66418,6 +66423,11 @@
       "0000950103-26-014188",
       "0000950103-26-014189",
       "0000950103-26-014190",
+      "0000950103-26-014206",
+      "0000950103-26-014207",
+      "0000950103-26-014208",
+      "0000950103-26-014209",
+      "0000950103-26-014210",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -66950,6 +66960,7 @@
       "0001093557-26-000161",
       "0001094718-26-000009",
       "0001094891-26-000260",
+      "0001094891-26-000286",
       "0001096906-26-001276",
       "0001096906-26-001293",
       "0001096906-26-001294",
@@ -66957,6 +66968,7 @@
       "0001096906-26-001305",
       "0001096906-26-001306",
       "0001096906-26-001368",
+      "0001096906-26-001387",
       "0001099692-26-000014",
       "0001099910-26-000263",
       "0001100612-26-000009",
@@ -73543,6 +73555,24 @@
       "0001193125-26-395474",
       "0001193125-26-395496",
       "0001193125-26-395497",
+      "0001193125-26-395670",
+      "0001193125-26-395672",
+      "0001193125-26-395673",
+      "0001193125-26-395677",
+      "0001193125-26-395681",
+      "0001193125-26-395683",
+      "0001193125-26-395684",
+      "0001193125-26-395685",
+      "0001193125-26-395686",
+      "0001193125-26-395687",
+      "0001193125-26-395688",
+      "0001193125-26-395689",
+      "0001193125-26-395690",
+      "0001193125-26-395691",
+      "0001193125-26-395692",
+      "0001193125-26-395693",
+      "0001193125-26-395695",
+      "0001193125-26-395698",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75275,6 +75305,8 @@
       "0001213900-26-101390",
       "0001213900-26-101391",
       "0001213900-26-101394",
+      "0001213900-26-101476",
+      "0001213900-26-101479",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -75662,6 +75694,7 @@
       "0001214659-26-011790",
       "0001214659-26-011791",
       "0001214659-26-011792",
+      "0001214659-26-011804",
       "0001214736-26-000002",
       "0001214993-26-000004",
       "0001215135-26-000012",
@@ -76156,6 +76189,9 @@
       "0001280263-26-000061",
       "0001280263-26-000062",
       "0001280263-26-000065",
+      "0001280263-26-000071",
+      "0001280263-26-000072",
+      "0001280263-26-000073",
       "0001280628-26-000014",
       "0001281197-26-000006",
       "0001281535-26-000012",
@@ -76725,6 +76761,7 @@
       "0001398344-26-017116",
       "0001398344-26-017200",
       "0001398344-26-017207",
+      "0001398344-26-017216",
       "0001399967-26-000002",
       "0001400954-26-000009",
       "0001400956-26-000011",
@@ -77841,6 +77878,7 @@
       "0001489550-26-000008",
       "0001489550-26-000010",
       "0001489550-26-000011",
+      "0001489550-26-000012",
       "0001490754-26-000004",
       "0001490925-26-000003",
       "0001491567-26-000008",
@@ -78414,6 +78452,9 @@
       "0001493152-26-043257",
       "0001493152-26-043259",
       "0001493152-26-043276",
+      "0001493152-26-043374",
+      "0001493152-26-043376",
+      "0001493152-26-043378",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -79183,6 +79224,7 @@
       "0001580642-26-006372",
       "0001580642-26-006376",
       "0001580642-26-006381",
+      "0001580642-26-006383",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -80407,6 +80449,7 @@
       "0001628280-26-062623",
       "0001628280-26-062680",
       "0001628280-26-062689",
+      "0001628280-26-062760",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -80934,6 +80977,7 @@
       "0001697936-26-000002",
       "0001698040-26-000006",
       "0001698262-26-000005",
+      "0001698324-26-000007",
       "0001698998-26-000004",
       "0001699291-26-000006",
       "0001699291-26-000008",
@@ -80954,6 +80998,7 @@
       "0001703485-26-000008",
       "0001703841-26-000003",
       "0001704186-26-000006",
+      "0001704336-26-000005",
       "0001704635-26-000010",
       "0001704720-26-000155",
       "0001704792-26-000004",
@@ -81468,6 +81513,7 @@
       "0001772233-26-000005",
       "0001772259-26-000005",
       "0001772447-26-000020",
+      "0001772518-26-000004",
       "0001772603-26-000012",
       "0001772652-26-000006",
       "0001772661-26-000017",
@@ -85308,6 +85354,7 @@
       "0001839882-26-046300",
       "0001839882-26-046301",
       "0001839882-26-046302",
+      "0001839882-26-046328",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -85688,6 +85735,7 @@
       "0001905272-26-000014",
       "0001905272-26-000016",
       "0001905960-26-000003",
+      "0001905960-26-000004",
       "0001907705-26-000015",
       "0001908422-26-000017",
       "0001908422-26-000019",
@@ -89641,6 +89689,9 @@
       "0001918704-26-028120",
       "0001918704-26-028121",
       "0001918704-26-028122",
+      "0001918704-26-028127",
+      "0001918704-26-028128",
+      "0001918704-26-028129",
       "0001920053-26-000026",
       "0001920475-26-000014",
       "0001920481-26-000010",
@@ -89705,6 +89756,7 @@
       "0001936504-26-000008",
       "0001936727-26-000006",
       "0001936727-26-000012",
+      "0001936727-26-000014",
       "0001937010-26-000012",
       "0001937040-26-000003",
       "0001937214-26-000002",
@@ -90871,6 +90923,7 @@
       "0002045912-26-000010",
       "0002046054-26-000010",
       "0002046152-26-000006",
+      "0002046433-26-000005",
       "0002046824-26-000020",
       "0002046824-26-000022",
       "0002047319-26-000002",
@@ -90961,6 +91014,7 @@
       "0002061801-26-000011",
       "0002061801-26-000015",
       "0002061801-26-000017",
+      "0002061851-26-000009",
       "0002062044-26-000001",
       "0002062155-26-000002",
       "0002062182-26-000006",
