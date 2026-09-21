@@ -1,8 +1,22 @@
 {
-  "generatedAt": "2026-09-21T02:04:55.746595+00:00",
+  "generatedAt": "2026-09-21T13:04:22.342903+00:00",
   "source": "U.S. Senate (efdsearch.senate.gov) + U.S. House (disclosures-clerk.house.gov) + President Trump's PTRs (whitehouse.gov)",
   "count": 5000,
   "trades": [
+    {
+      "politician": "Sessions, Pete",
+      "office": "TX17",
+      "transactionDate": "09/14/2026",
+      "filedDate": null,
+      "owner": null,
+      "ticker": "GOOGL",
+      "assetName": null,
+      "type": "Sale",
+      "amountRange": "$15,001 - $50,000",
+      "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf",
+      "source": "house"
+    },
     {
       "politician": "Taylor, David J.",
       "office": "OH02",
@@ -69988,23 +70002,41 @@
       "sourceId": "10c522ae1212db42",
       "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/06/President-Donald-J.-Trump-Periodic-Transaction-Report-0.6.25.26-1.pdf",
       "source": "president"
-    },
-    {
-      "politician": "Donald J. Trump",
-      "office": "President",
-      "transactionDate": null,
-      "filedDate": null,
-      "owner": null,
-      "ticker": "MU",
-      "assetName": null,
-      "type": "Sale",
-      "amountRange": "$50,001 - $100,000",
-      "sourceId": "10c522ae1212db42",
-      "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/06/President-Donald-J.-Trump-Periodic-Transaction-Report-0.6.25.26-1.pdf",
-      "source": "president"
     }
   ],
   "politicians": {
+    "Sessions, Pete": {
+      "office": "TX17",
+      "tickers": {
+        "GOOGL": {
+          "trades": [
+            {
+              "transactionDate": "09/14/2026",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$15,001 - $50,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "09/14/2026"
+        },
+        "JNJ": {
+          "trades": [
+            {
+              "transactionDate": "06/12/2025",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$15,001 - $50,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "06/12/2025"
+        }
+      },
+      "tradeCount": 2
+    },
     "Taylor, David J.": {
       "office": "OH02",
       "tickers": {
@@ -87622,13 +87654,6 @@
               "type": "Purchase",
               "amountRange": "$15,001 - $50,000",
               "owner": null
-            },
-            {
-              "transactionDate": null,
-              "filedDate": null,
-              "type": "Sale",
-              "amountRange": "$50,001 - $100,000",
-              "owner": null
             }
           ],
           "lastAction": "Purchase",
@@ -88319,7 +88344,7 @@
           "lastDate": null
         }
       },
-      "tradeCount": 367
+      "tradeCount": 366
     },
     "Donalds, Byron": {
       "office": "FL19",
@@ -117071,25 +117096,6 @@
       },
       "tradeCount": 20
     },
-    "Sessions, Pete": {
-      "office": "TX17",
-      "tickers": {
-        "JNJ": {
-          "trades": [
-            {
-              "transactionDate": "06/12/2025",
-              "filedDate": null,
-              "type": "Sale",
-              "amountRange": "$15,001 - $50,000",
-              "owner": null
-            }
-          ],
-          "lastAction": "Sale",
-          "lastDate": "06/12/2025"
-        }
-      },
-      "tradeCount": 1
-    },
     "Bentz, Cliff": {
       "office": "OR02",
       "tickers": {
@@ -123193,6 +123199,7 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035471.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221321.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221322.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221326.pdf",
