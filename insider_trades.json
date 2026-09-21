@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T17:03:36.357004+00:00",
+  "generatedAt": "2026-09-21T18:01:41.364544+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -331,6 +331,46 @@
       "type": "Sale",
       "shares": 2000.0,
       "pricePerShare": 501.4,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 3.04,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "KR",
+      "issuerName": "KROGER CO",
+      "insiderName": "Adcock Mary Ellen",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 37960.0,
+      "pricePerShare": 60.735,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "KR",
+      "issuerName": "KROGER CO",
+      "insiderName": "Adcock Mary Ellen",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 10846.0,
+      "pricePerShare": 60.642,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "KR",
+      "issuerName": "KROGER CO",
+      "insiderName": "Adcock Mary Ellen",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 24095.0,
+      "pricePerShare": 60.681,
       "transactionDate": "2026-09-18"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 40.0,
       "pricePerShare": 1532.02,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 120.0,
-      "pricePerShare": 1533.69,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 80.0,
-      "pricePerShare": 1534.48,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 80.0,
-      "pricePerShare": 1535.655,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 160.0,
-      "pricePerShare": 1537.4875,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -31940,6 +31940,136 @@
         }
       ]
     },
+    "RCG": {
+      "issuerName": "RENN Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.04,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.04,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.05,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.98,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.94,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.9,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
+    "KR": {
+      "issuerName": "KROGER CO",
+      "trades": [
+        {
+          "ticker": "KR",
+          "issuerName": "KROGER CO",
+          "insiderName": "Adcock Mary Ellen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 37960.0,
+          "pricePerShare": 60.735,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "KR",
+          "issuerName": "KROGER CO",
+          "insiderName": "Adcock Mary Ellen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10846.0,
+          "pricePerShare": 60.642,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "KR",
+          "issuerName": "KROGER CO",
+          "insiderName": "Adcock Mary Ellen",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 24095.0,
+          "pricePerShare": 60.681,
+          "transactionDate": "2026-09-18"
+        }
+      ]
+    },
     "NEGG": {
       "issuerName": "Newegg Commerce, Inc.",
       "trades": [
@@ -33292,91 +33422,6 @@
           "shares": 11000.0,
           "pricePerShare": 0.21,
           "transactionDate": "2026-09-16"
-        }
-      ]
-    },
-    "RCG": {
-      "issuerName": "RENN Fund, Inc.",
-      "trades": [
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.04,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.05,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.98,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.94,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.9,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -41446,46 +41491,6 @@
           "type": "Sale",
           "shares": 40.0,
           "pricePerShare": 1532.02,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 120.0,
-          "pricePerShare": 1533.69,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 1534.48,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 1535.655,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 160.0,
-          "pricePerShare": 1537.4875,
           "transactionDate": "2026-09-03"
         }
       ]
@@ -63362,6 +63367,7 @@
       "0000038009-26-000061",
       "0000038009-26-000067",
       "0000038009-26-000070",
+      "0000038009-26-000077",
       "0000038723-26-000055",
       "0000038725-26-000057",
       "0000038777-26-000191",
@@ -66494,6 +66500,11 @@
       "0000950103-26-014244",
       "0000950103-26-014245",
       "0000950103-26-014246",
+      "0000950103-26-014247",
+      "0000950103-26-014248",
+      "0000950103-26-014249",
+      "0000950103-26-014250",
+      "0000950103-26-014251",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -68267,6 +68278,7 @@
       "0001104659-26-109135",
       "0001104659-26-109183",
       "0001104659-26-109197",
+      "0001104659-26-109239",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -69297,6 +69309,8 @@
       "0001140361-26-037216",
       "0001140361-26-037217",
       "0001140361-26-037220",
+      "0001140361-26-037222",
+      "0001140361-26-037224",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -73728,6 +73742,11 @@
       "0001193125-26-396348",
       "0001193125-26-396365",
       "0001193125-26-396386",
+      "0001193125-26-396399",
+      "0001193125-26-396451",
+      "0001193125-26-396457",
+      "0001193125-26-396482",
+      "0001193125-26-396484",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -77569,6 +77588,7 @@
       "0001437749-26-030774",
       "0001437749-26-030775",
       "0001437749-26-030789",
+      "0001437749-26-030794",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -77908,6 +77928,9 @@
       "0001445546-26-007038",
       "0001445546-26-007039",
       "0001445546-26-007040",
+      "0001445546-26-007046",
+      "0001445546-26-007047",
+      "0001445546-26-007049",
       "0001445832-26-000011",
       "0001446066-26-000008",
       "0001448765-26-000011",
@@ -77964,6 +77987,7 @@
       "0001464521-26-000147",
       "0001464521-26-000149",
       "0001464551-26-000006",
+      "0001464629-26-000001",
       "0001464631-26-000007",
       "0001464633-26-000004",
       "0001464919-26-000007",
@@ -79158,6 +79182,11 @@
       "0001542574-26-000491",
       "0001542574-26-000493",
       "0001542574-26-000494",
+      "0001542574-26-000495",
+      "0001542574-26-000496",
+      "0001542574-26-000497",
+      "0001542574-26-000498",
+      "0001542574-26-000499",
       "0001543080-26-000004",
       "0001543262-26-000006",
       "0001543262-26-000008",
@@ -80727,6 +80756,12 @@
       "0001628280-26-062835",
       "0001628280-26-062837",
       "0001628280-26-062839",
+      "0001628280-26-062852",
+      "0001628280-26-062853",
+      "0001628280-26-062854",
+      "0001628280-26-062856",
+      "0001628280-26-062857",
+      "0001628280-26-062858",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -81061,6 +81096,7 @@
       "0001675948-26-000006",
       "0001676220-26-000007",
       "0001676421-26-000002",
+      "0001676766-26-000006",
       "0001677703-26-000106",
       "0001677721-26-000014",
       "0001678152-26-000003",
@@ -85722,6 +85758,13 @@
       "0001839882-26-046457",
       "0001839882-26-046458",
       "0001839882-26-046459",
+      "0001839882-26-046460",
+      "0001839882-26-046461",
+      "0001839882-26-046463",
+      "0001839882-26-046464",
+      "0001839882-26-046465",
+      "0001839882-26-046466",
+      "0001839882-26-046469",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -90128,6 +90171,19 @@
       "0001918704-26-028201",
       "0001918704-26-028202",
       "0001918704-26-028203",
+      "0001918704-26-028204",
+      "0001918704-26-028207",
+      "0001918704-26-028208",
+      "0001918704-26-028209",
+      "0001918704-26-028210",
+      "0001918704-26-028213",
+      "0001918704-26-028214",
+      "0001918704-26-028215",
+      "0001918704-26-028216",
+      "0001918704-26-028217",
+      "0001918704-26-028218",
+      "0001918704-26-028219",
+      "0001918704-26-028220",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
