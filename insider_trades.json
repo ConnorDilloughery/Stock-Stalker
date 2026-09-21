@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T13:03:34.736136+00:00",
+  "generatedAt": "2026-09-21T14:04:55.976738+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -261,6 +261,46 @@
       "type": "Sale",
       "shares": 706.0,
       "pricePerShare": 101.88,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "CULP",
+      "issuerName": "CULP INC",
+      "insiderName": "CULP ROBERT GEORGE IV",
+      "title": "Director, President & CEO",
+      "type": "Purchase",
+      "shares": 4874.0,
+      "pricePerShare": 3.78,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "GF",
+      "issuerName": "NEW GERMANY FUND INC",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 14185.0,
+      "pricePerShare": 10.82,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "BRC",
+      "issuerName": "BRADY CORP",
+      "insiderName": "DeBruine Thomas F",
+      "title": "Chief Operating Officer",
+      "type": "Sale",
+      "shares": 5739.0,
+      "pricePerShare": 84.0,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "ECAT",
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 28977.0,
+      "pricePerShare": 14.38,
       "transactionDate": "2026-09-18"
     },
     {
@@ -1141,6 +1181,26 @@
       "type": "Sale",
       "shares": 310.0,
       "pricePerShare": 104.76,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "GF",
+      "issuerName": "NEW GERMANY FUND INC",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1258.0,
+      "pricePerShare": 11.1,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "ECAT",
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 21095.0,
+      "pricePerShare": 14.36,
       "transactionDate": "2026-09-17"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 2594.0,
       "pricePerShare": 1543.7634,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 80.0,
-      "pricePerShare": 1546.02,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 80.0,
-      "pricePerShare": 1547.46,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 40.0,
-      "pricePerShare": 1548.85,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 40.0,
-      "pricePerShare": 1550.48,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 120.0,
-      "pricePerShare": 1553.35,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 40.0,
-      "pricePerShare": 1554.02,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -31622,6 +31622,186 @@
           "shares": 25000.0,
           "pricePerShare": 0.81,
           "transactionDate": "2026-09-18"
+        }
+      ]
+    },
+    "CULP": {
+      "issuerName": "CULP INC",
+      "trades": [
+        {
+          "ticker": "CULP",
+          "issuerName": "CULP INC",
+          "insiderName": "CULP ROBERT GEORGE IV",
+          "title": "Director, President & CEO",
+          "type": "Purchase",
+          "shares": 4874.0,
+          "pricePerShare": 3.78,
+          "transactionDate": "2026-09-18"
+        }
+      ]
+    },
+    "GF": {
+      "issuerName": "NEW GERMANY FUND INC",
+      "trades": [
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 14185.0,
+          "pricePerShare": 10.82,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1258.0,
+          "pricePerShare": 11.1,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1534.0,
+          "pricePerShare": 10.88,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 3306.0,
+          "pricePerShare": 10.92,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 800.0,
+          "pricePerShare": 11.55,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 3721.0,
+          "pricePerShare": 11.56,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
+    "BRC": {
+      "issuerName": "BRADY CORP",
+      "trades": [
+        {
+          "ticker": "BRC",
+          "issuerName": "BRADY CORP",
+          "insiderName": "DeBruine Thomas F",
+          "title": "Chief Operating Officer",
+          "type": "Sale",
+          "shares": 5739.0,
+          "pricePerShare": 84.0,
+          "transactionDate": "2026-09-18"
+        }
+      ]
+    },
+    "ECAT": {
+      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+      "trades": [
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 28977.0,
+          "pricePerShare": 14.38,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 21095.0,
+          "pricePerShare": 14.36,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 100836.0,
+          "pricePerShare": 13.81,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 26644.0,
+          "pricePerShare": 14.59,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 41280.0,
+          "pricePerShare": 14.83,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 111062.0,
+          "pricePerShare": 15.07,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 62439.0,
+          "pricePerShare": 15.29,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "ECAT",
+          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 209500.0,
+          "pricePerShare": 15.27,
+          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -35530,71 +35710,6 @@
         }
       ]
     },
-    "ECAT": {
-      "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-      "trades": [
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 100836.0,
-          "pricePerShare": 13.81,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 26644.0,
-          "pricePerShare": 14.59,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 41280.0,
-          "pricePerShare": 14.83,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 111062.0,
-          "pricePerShare": 15.07,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 62439.0,
-          "pricePerShare": 15.29,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "ECAT",
-          "issuerName": "BlackRock ESG Capital Allocation Term Trust",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 209500.0,
-          "pricePerShare": 15.27,
-          "transactionDate": "2026-09-03"
-        }
-      ]
-    },
     "ISBA": {
       "issuerName": "ISABELLA BANK CORP",
       "trades": [
@@ -35647,51 +35762,6 @@
           "shares": 459.0,
           "pricePerShare": 20.89,
           "transactionDate": "2026-09-15"
-        }
-      ]
-    },
-    "GF": {
-      "issuerName": "NEW GERMANY FUND INC",
-      "trades": [
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1534.0,
-          "pricePerShare": 10.88,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 3306.0,
-          "pricePerShare": 10.92,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 800.0,
-          "pricePerShare": 11.55,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 3721.0,
-          "pricePerShare": 11.56,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -41396,66 +41466,6 @@
           "type": "Sale",
           "shares": 2594.0,
           "pricePerShare": 1543.7634,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 1546.02,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 1547.46,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 40.0,
-          "pricePerShare": 1548.85,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 40.0,
-          "pricePerShare": 1550.48,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 120.0,
-          "pricePerShare": 1553.35,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 40.0,
-          "pricePerShare": 1554.02,
           "transactionDate": "2026-09-03"
         }
       ]
@@ -63182,6 +63192,7 @@
       "0000011544-26-000043",
       "0000011544-26-000044",
       "0000012601-26-000527",
+      "0000012601-26-000532",
       "0000014707-26-000130",
       "0000014707-26-000131",
       "0000014707-26-000147",
@@ -63525,6 +63536,7 @@
       "0000070502-26-000655",
       "0000070502-26-000659",
       "0000070502-26-000661",
+      "0000070502-26-000663",
       "0000070858-26-000359",
       "0000070858-26-000368",
       "0000070858-26-000409",
@@ -64628,6 +64640,8 @@
       "0000898745-26-000843",
       "0000898745-26-000853",
       "0000898745-26-000854",
+      "0000898745-26-000876",
+      "0000898745-26-000877",
       "0000899051-26-000123",
       "0000899140-26-000726",
       "0000899140-26-000735",
@@ -69227,6 +69241,7 @@
       "0001140361-26-037098",
       "0001140361-26-037155",
       "0001140361-26-037158",
+      "0001140361-26-037194",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -73643,6 +73658,10 @@
       "0001193125-26-396104",
       "0001193125-26-396109",
       "0001193125-26-396117",
+      "0001193125-26-396148",
+      "0001193125-26-396158",
+      "0001193125-26-396169",
+      "0001193125-26-396173",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75398,6 +75417,8 @@
       "0001213900-26-101622",
       "0001213900-26-101661",
       "0001213900-26-101669",
+      "0001213900-26-101681",
+      "0001213900-26-101695",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -76374,6 +76395,7 @@
       "0001293171-26-000012",
       "0001294172-26-000019",
       "0001294280-26-000005",
+      "0001294280-26-000006",
       "0001294600-26-000014",
       "0001294735-26-000004",
       "0001295727-26-000002",
@@ -77784,6 +77806,30 @@
       "0001445546-26-006846",
       "0001445546-26-006974",
       "0001445546-26-006976",
+      "0001445546-26-007006",
+      "0001445546-26-007007",
+      "0001445546-26-007008",
+      "0001445546-26-007009",
+      "0001445546-26-007010",
+      "0001445546-26-007011",
+      "0001445546-26-007012",
+      "0001445546-26-007013",
+      "0001445546-26-007014",
+      "0001445546-26-007015",
+      "0001445546-26-007016",
+      "0001445546-26-007028",
+      "0001445546-26-007029",
+      "0001445546-26-007030",
+      "0001445546-26-007031",
+      "0001445546-26-007032",
+      "0001445546-26-007033",
+      "0001445546-26-007034",
+      "0001445546-26-007035",
+      "0001445546-26-007036",
+      "0001445546-26-007037",
+      "0001445546-26-007038",
+      "0001445546-26-007039",
+      "0001445546-26-007040",
       "0001445832-26-000011",
       "0001446066-26-000008",
       "0001448765-26-000011",
@@ -78574,6 +78620,8 @@
       "0001493152-26-043445",
       "0001493152-26-043454",
       "0001493152-26-043478",
+      "0001493152-26-043493",
+      "0001493152-26-043496",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -78703,6 +78751,8 @@
       "0001510281-26-000303",
       "0001510281-26-000304",
       "0001510281-26-000305",
+      "0001510281-26-000306",
+      "0001510281-26-000307",
       "0001511110-26-000008",
       "0001511110-26-000010",
       "0001511110-26-000012",
@@ -79157,6 +79207,7 @@
       "0001572661-26-000098",
       "0001572661-26-000100",
       "0001572661-26-000102",
+      "0001572661-26-000115",
       "0001573298-26-000022",
       "0001573298-26-000026",
       "0001573338-26-000013",
@@ -80836,6 +80887,7 @@
       "0001655589-26-001299",
       "0001655589-26-001300",
       "0001655589-26-001308",
+      "0001655589-26-001310",
       "0001656109-26-000006",
       "0001656846-26-000007",
       "0001657309-26-000014",
@@ -82328,6 +82380,9 @@
       "0001829126-26-010217",
       "0001829126-26-010232",
       "0001829126-26-010235",
+      "0001829126-26-010253",
+      "0001829126-26-010254",
+      "0001829126-26-010255",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -85515,6 +85570,16 @@
       "0001839882-26-046302",
       "0001839882-26-046328",
       "0001839882-26-046352",
+      "0001839882-26-046361",
+      "0001839882-26-046362",
+      "0001839882-26-046366",
+      "0001839882-26-046367",
+      "0001839882-26-046371",
+      "0001839882-26-046373",
+      "0001839882-26-046374",
+      "0001839882-26-046375",
+      "0001839882-26-046376",
+      "0001839882-26-046378",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -89861,6 +89926,12 @@
       "0001918704-26-028139",
       "0001918704-26-028140",
       "0001918704-26-028141",
+      "0001918704-26-028142",
+      "0001918704-26-028143",
+      "0001918704-26-028144",
+      "0001918704-26-028145",
+      "0001918704-26-028146",
+      "0001918704-26-028147",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
@@ -90810,6 +90881,7 @@
       "0001999371-26-020927",
       "0001999371-26-020929",
       "0001999371-26-020930",
+      "0001999371-26-020932",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -90987,6 +91059,7 @@
       "0002025289-26-000005",
       "0002025901-26-000007",
       "0002025977-26-000006",
+      "0002025977-26-000008",
       "0002026373-26-000008",
       "0002027006-26-000024",
       "0002027284-26-000013",
