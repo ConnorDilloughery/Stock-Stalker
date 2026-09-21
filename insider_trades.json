@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T16:01:25.215050+00:00",
+  "generatedAt": "2026-09-21T17:03:36.357004+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -311,6 +311,26 @@
       "type": "Purchase",
       "shares": 5200.0,
       "pricePerShare": 19.27,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "TPL",
+      "issuerName": "Texas Pacific Land Corp",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 351.34,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "CHE",
+      "issuerName": "CHEMED CORP",
+      "insiderName": "MCNAMARA KEVIN J",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2000.0,
+      "pricePerShare": 501.4,
       "transactionDate": "2026-09-18"
     },
     {
@@ -1221,6 +1241,16 @@
       "type": "Sale",
       "shares": 600.0,
       "pricePerShare": 40.0,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "RTB",
+      "issuerName": "RTB Digital, Inc.",
+      "insiderName": "Dorsett Jason Christopher",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 19000.0,
+      "pricePerShare": 10.36,
       "transactionDate": "2026-09-17"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 160.0,
       "pricePerShare": 1537.4875,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 80.0,
-      "pricePerShare": 1538.41,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 80.0,
-      "pricePerShare": 1539.61,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 80.0,
-      "pricePerShare": 1541.005,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -31820,6 +31820,126 @@
         }
       ]
     },
+    "TPL": {
+      "issuerName": "Texas Pacific Land Corp",
+      "trades": [
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 351.34,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 349.35,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 352.36,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 370.59,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 371.73,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 367.88,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 366.18,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 378.57,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 375.1,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 360.03,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "CHE": {
+      "issuerName": "CHEMED CORP",
+      "trades": [
+        {
+          "ticker": "CHE",
+          "issuerName": "CHEMED CORP",
+          "insiderName": "MCNAMARA KEVIN J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 501.4,
+          "transactionDate": "2026-09-18"
+        }
+      ]
+    },
     "NEGG": {
       "issuerName": "Newegg Commerce, Inc.",
       "trades": [
@@ -33260,101 +33380,6 @@
         }
       ]
     },
-    "TPL": {
-      "issuerName": "Texas Pacific Land Corp",
-      "trades": [
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 349.35,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 352.36,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 370.59,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 371.73,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 367.88,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 366.18,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 378.57,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 375.1,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 360.03,
-          "transactionDate": "2026-09-04"
-        }
-      ]
-    },
     "TER": {
       "issuerName": "TERADYNE, INC",
       "trades": [
@@ -34021,6 +34046,21 @@
           "type": "Sale",
           "shares": 600.0,
           "pricePerShare": 40.0,
+          "transactionDate": "2026-09-17"
+        }
+      ]
+    },
+    "RTB": {
+      "issuerName": "RTB Digital, Inc.",
+      "trades": [
+        {
+          "ticker": "RTB",
+          "issuerName": "RTB Digital, Inc.",
+          "insiderName": "Dorsett Jason Christopher",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 19000.0,
+          "pricePerShare": 10.36,
           "transactionDate": "2026-09-17"
         }
       ]
@@ -41446,36 +41486,6 @@
           "type": "Sale",
           "shares": 160.0,
           "pricePerShare": 1537.4875,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 1538.41,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 1539.61,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 1541.005,
           "transactionDate": "2026-09-03"
         }
       ]
@@ -63547,6 +63557,9 @@
       "0000070502-26-000659",
       "0000070502-26-000661",
       "0000070502-26-000663",
+      "0000070502-26-000665",
+      "0000070502-26-000667",
+      "0000070502-26-000669",
       "0000070858-26-000359",
       "0000070858-26-000368",
       "0000070858-26-000409",
@@ -66474,6 +66487,13 @@
       "0000950103-26-014237",
       "0000950103-26-014238",
       "0000950103-26-014239",
+      "0000950103-26-014240",
+      "0000950103-26-014241",
+      "0000950103-26-014242",
+      "0000950103-26-014243",
+      "0000950103-26-014244",
+      "0000950103-26-014245",
+      "0000950103-26-014246",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -69272,6 +69292,11 @@
       "0001140361-26-037202",
       "0001140361-26-037205",
       "0001140361-26-037208",
+      "0001140361-26-037211",
+      "0001140361-26-037213",
+      "0001140361-26-037216",
+      "0001140361-26-037217",
+      "0001140361-26-037220",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -69298,6 +69323,7 @@
       "0001162044-26-000708",
       "0001162044-26-000807",
       "0001162044-26-000808",
+      "0001162044-26-000810",
       "0001163739-26-000056",
       "0001166003-26-000076",
       "0001166152-26-000010",
@@ -73697,6 +73723,11 @@
       "0001193125-26-396303",
       "0001193125-26-396304",
       "0001193125-26-396327",
+      "0001193125-26-396343",
+      "0001193125-26-396345",
+      "0001193125-26-396348",
+      "0001193125-26-396365",
+      "0001193125-26-396386",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75458,6 +75489,9 @@
       "0001213900-26-101713",
       "0001213900-26-101714",
       "0001213900-26-101718",
+      "0001213900-26-101722",
+      "0001213900-26-101727",
+      "0001213900-26-101734",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -77534,6 +77568,7 @@
       "0001437749-26-030730",
       "0001437749-26-030774",
       "0001437749-26-030775",
+      "0001437749-26-030789",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -79121,6 +79156,8 @@
       "0001542574-26-000489",
       "0001542574-26-000490",
       "0001542574-26-000491",
+      "0001542574-26-000493",
+      "0001542574-26-000494",
       "0001543080-26-000004",
       "0001543262-26-000006",
       "0001543262-26-000008",
@@ -82438,6 +82475,7 @@
       "0001829126-26-010253",
       "0001829126-26-010254",
       "0001829126-26-010255",
+      "0001829126-26-010268",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -85664,6 +85702,26 @@
       "0001839882-26-046434",
       "0001839882-26-046435",
       "0001839882-26-046436",
+      "0001839882-26-046438",
+      "0001839882-26-046439",
+      "0001839882-26-046440",
+      "0001839882-26-046441",
+      "0001839882-26-046442",
+      "0001839882-26-046443",
+      "0001839882-26-046444",
+      "0001839882-26-046445",
+      "0001839882-26-046446",
+      "0001839882-26-046447",
+      "0001839882-26-046448",
+      "0001839882-26-046450",
+      "0001839882-26-046451",
+      "0001839882-26-046452",
+      "0001839882-26-046454",
+      "0001839882-26-046455",
+      "0001839882-26-046456",
+      "0001839882-26-046457",
+      "0001839882-26-046458",
+      "0001839882-26-046459",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -90060,6 +90118,16 @@
       "0001918704-26-028189",
       "0001918704-26-028190",
       "0001918704-26-028191",
+      "0001918704-26-028192",
+      "0001918704-26-028193",
+      "0001918704-26-028194",
+      "0001918704-26-028195",
+      "0001918704-26-028197",
+      "0001918704-26-028199",
+      "0001918704-26-028200",
+      "0001918704-26-028201",
+      "0001918704-26-028202",
+      "0001918704-26-028203",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
@@ -91932,6 +92000,7 @@
       "0002145730-26-000003",
       "0002145764-26-000004",
       "0002146240-26-000005",
+      "0002146263-26-000003",
       "0002146309-26-000004",
       "0002146462-26-000003",
       "0002146475-26-000002",
