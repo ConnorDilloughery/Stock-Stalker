@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T18:01:41.364544+00:00",
+  "generatedAt": "2026-09-21T19:04:06.247736+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -371,6 +371,16 @@
       "type": "Sale",
       "shares": 24095.0,
       "pricePerShare": 60.681,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "ESQ",
+      "issuerName": "Esquire Financial Holdings, Inc.",
+      "insiderName": "Sagliocca Andrew C",
+      "title": "Director, Vice Chairman, President & CEO",
+      "type": "Sale",
+      "shares": 10000.0,
+      "pricePerShare": 122.73,
       "transactionDate": "2026-09-18"
     },
     {
@@ -10364,6 +10374,26 @@
       "transactionDate": "2026-09-14"
     },
     {
+      "ticker": "ELWT",
+      "issuerName": "Elauwit Connection, Inc.",
+      "insiderName": "Di Bartolo James P. II",
+      "title": "Chief Financial Officer",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 7.15,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "ELWT",
+      "issuerName": "Elauwit Connection, Inc.",
+      "insiderName": "Di Bartolo James P. II",
+      "title": "Chief Financial Officer",
+      "type": "Purchase",
+      "shares": 94.0,
+      "pricePerShare": 7.18,
+      "transactionDate": "2026-09-14"
+    },
+    {
       "ticker": "PGY",
       "issuerName": "Pagaya Technologies Ltd.",
       "insiderName": "Rosen Tami",
@@ -15001,6 +15031,16 @@
       "type": "Sale",
       "shares": 11500.0,
       "pricePerShare": 27.1181,
+      "transactionDate": "2026-09-10"
+    },
+    {
+      "ticker": "ELWT",
+      "issuerName": "Elauwit Connection, Inc.",
+      "insiderName": "Di Bartolo James P. II",
+      "title": "Chief Financial Officer",
+      "type": "Purchase",
+      "shares": 45.0,
+      "pricePerShare": 7.05,
       "transactionDate": "2026-09-10"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 80.0,
       "pricePerShare": 1526.81,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 40.0,
-      "pricePerShare": 1527.58,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 80.0,
-      "pricePerShare": 1529.705,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 80.0,
-      "pricePerShare": 1530.52,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNDK",
-      "issuerName": "Sandisk Corp",
-      "insiderName": "Ilkbahar Alper",
-      "title": "EVP & Chief Technology Officer",
-      "type": "Sale",
-      "shares": 40.0,
-      "pricePerShare": 1532.02,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -32066,6 +32066,21 @@
           "type": "Sale",
           "shares": 24095.0,
           "pricePerShare": 60.681,
+          "transactionDate": "2026-09-18"
+        }
+      ]
+    },
+    "ESQ": {
+      "issuerName": "Esquire Financial Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "ESQ",
+          "issuerName": "Esquire Financial Holdings, Inc.",
+          "insiderName": "Sagliocca Andrew C",
+          "title": "Director, Vice Chairman, President & CEO",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 122.73,
           "transactionDate": "2026-09-18"
         }
       ]
@@ -41451,46 +41466,6 @@
           "type": "Sale",
           "shares": 80.0,
           "pricePerShare": 1526.81,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 40.0,
-          "pricePerShare": 1527.58,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 1529.705,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 1530.52,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SNDK",
-          "issuerName": "Sandisk Corp",
-          "insiderName": "Ilkbahar Alper",
-          "title": "EVP & Chief Technology Officer",
-          "type": "Sale",
-          "shares": 40.0,
-          "pricePerShare": 1532.02,
           "transactionDate": "2026-09-03"
         }
       ]
@@ -51942,6 +51917,41 @@
           "shares": 2550.0,
           "pricePerShare": 11.9,
           "transactionDate": "2026-09-14"
+        }
+      ]
+    },
+    "ELWT": {
+      "issuerName": "Elauwit Connection, Inc.",
+      "trades": [
+        {
+          "ticker": "ELWT",
+          "issuerName": "Elauwit Connection, Inc.",
+          "insiderName": "Di Bartolo James P. II",
+          "title": "Chief Financial Officer",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 7.15,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "ELWT",
+          "issuerName": "Elauwit Connection, Inc.",
+          "insiderName": "Di Bartolo James P. II",
+          "title": "Chief Financial Officer",
+          "type": "Purchase",
+          "shares": 94.0,
+          "pricePerShare": 7.18,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "ELWT",
+          "issuerName": "Elauwit Connection, Inc.",
+          "insiderName": "Di Bartolo James P. II",
+          "title": "Chief Financial Officer",
+          "type": "Purchase",
+          "shares": 45.0,
+          "pricePerShare": 7.05,
+          "transactionDate": "2026-09-10"
         }
       ]
     },
@@ -63368,6 +63378,7 @@
       "0000038009-26-000067",
       "0000038009-26-000070",
       "0000038009-26-000077",
+      "0000038009-26-000080",
       "0000038723-26-000055",
       "0000038725-26-000057",
       "0000038777-26-000191",
@@ -64214,6 +64225,7 @@
       "0000789570-26-000077",
       "0000790359-26-000059",
       "0000790359-26-000060",
+      "0000790560-26-000023",
       "0000792394-26-000046",
       "0000795890-26-000037",
       "0000796343-26-000137",
@@ -66505,6 +66517,8 @@
       "0000950103-26-014249",
       "0000950103-26-014250",
       "0000950103-26-014251",
+      "0000950103-26-014252",
+      "0000950103-26-014253",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -67032,6 +67046,7 @@
       "0001090155-26-000017",
       "0001090355-26-000007",
       "0001090394-26-000005",
+      "0001090682-26-000009",
       "0001090872-26-000067",
       "0001091482-26-000010",
       "0001091482-26-000013",
@@ -68279,6 +68294,7 @@
       "0001104659-26-109183",
       "0001104659-26-109197",
       "0001104659-26-109239",
+      "0001104659-26-109244",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68655,6 +68671,7 @@
       "0001137360-26-000853",
       "0001137360-26-000855",
       "0001137360-26-000872",
+      "0001137360-26-000903",
       "0001137774-26-000193",
       "0001137774-26-000204",
       "0001137789-26-000173",
@@ -69311,6 +69328,7 @@
       "0001140361-26-037220",
       "0001140361-26-037222",
       "0001140361-26-037224",
+      "0001140361-26-037228",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -73747,6 +73765,10 @@
       "0001193125-26-396457",
       "0001193125-26-396482",
       "0001193125-26-396484",
+      "0001193125-26-396496",
+      "0001193125-26-396506",
+      "0001193125-26-396534",
+      "0001193125-26-396551",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75511,6 +75533,8 @@
       "0001213900-26-101722",
       "0001213900-26-101727",
       "0001213900-26-101734",
+      "0001213900-26-101749",
+      "0001213900-26-101753",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -77589,6 +77613,7 @@
       "0001437749-26-030775",
       "0001437749-26-030789",
       "0001437749-26-030794",
+      "0001437749-26-030801",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -77989,6 +78014,7 @@
       "0001464551-26-000006",
       "0001464629-26-000001",
       "0001464631-26-000007",
+      "0001464631-26-000009",
       "0001464633-26-000004",
       "0001464919-26-000007",
       "0001465175-26-000025",
@@ -82512,6 +82538,8 @@
       "0001829126-26-010254",
       "0001829126-26-010255",
       "0001829126-26-010268",
+      "0001829126-26-010273",
+      "0001829126-26-010274",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -85765,6 +85793,18 @@
       "0001839882-26-046465",
       "0001839882-26-046466",
       "0001839882-26-046469",
+      "0001839882-26-046470",
+      "0001839882-26-046471",
+      "0001839882-26-046472",
+      "0001839882-26-046473",
+      "0001839882-26-046474",
+      "0001839882-26-046475",
+      "0001839882-26-046476",
+      "0001839882-26-046477",
+      "0001839882-26-046478",
+      "0001839882-26-046479",
+      "0001839882-26-046480",
+      "0001839882-26-046481",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -90184,6 +90224,13 @@
       "0001918704-26-028218",
       "0001918704-26-028219",
       "0001918704-26-028220",
+      "0001918704-26-028221",
+      "0001918704-26-028222",
+      "0001918704-26-028223",
+      "0001918704-26-028224",
+      "0001918704-26-028225",
+      "0001918704-26-028226",
+      "0001918704-26-028227",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
@@ -91136,6 +91183,9 @@
       "0001999371-26-020930",
       "0001999371-26-020932",
       "0001999371-26-020947",
+      "0001999371-26-020973",
+      "0001999371-26-020974",
+      "0001999371-26-020975",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -91922,6 +91972,7 @@
       "0002117905-26-000036",
       "0002117905-26-000037",
       "0002117905-26-000038",
+      "0002117905-26-000040",
       "0002118015-26-000004",
       "0002118769-26-000002",
       "0002119220-26-000004",
@@ -91990,6 +92041,7 @@
       "0002128637-26-000007",
       "0002128786-26-000004",
       "0002129321-26-000011",
+      "0002129745-26-000003",
       "0002129772-26-000006",
       "0002130035-26-000002",
       "0002130035-26-000003",
