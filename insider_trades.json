@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T11:02:12.645065+00:00",
+  "generatedAt": "2026-09-21T12:02:35.484866+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -181,6 +181,36 @@
       "type": "Sale",
       "shares": 20633.0,
       "pricePerShare": 101.88,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "BORR",
+      "issuerName": "Borr Drilling Ltd",
+      "insiderName": "Morand De Oliveira Bruno",
+      "title": "Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 45500.0,
+      "pricePerShare": 4.4,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "EU",
+      "issuerName": "enCore Energy Corp.",
+      "insiderName": "SHERIFF WILLIAM M",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 100000.0,
+      "pricePerShare": 0.81,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "EU",
+      "issuerName": "enCore Energy Corp.",
+      "insiderName": "SHERIFF WILLIAM M",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 25000.0,
+      "pricePerShare": 0.81,
       "transactionDate": "2026-09-18"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 1680.0,
       "pricePerShare": 178.5792,
       "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "HSY",
-      "issuerName": "HERSHEY CO",
-      "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 356.0,
-      "pricePerShare": 179.0858,
-      "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "NMAX",
-      "issuerName": "Newsmax Inc.",
-      "insiderName": "CONYERS INVESTMENTS LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 53500.0,
-      "pricePerShare": 11.0308,
-      "transactionDate": "2026-09-02"
-    },
-    {
-      "ticker": "TLS",
-      "issuerName": "TELOS CORP",
-      "insiderName": "Robbins Edward Hutchinson Jr.",
-      "title": "EVP, General Counsel",
-      "type": "Sale",
-      "shares": 62398.0,
-      "pricePerShare": 4.73,
-      "transactionDate": "2026-09-02"
     }
   ],
   "byTicker": {
@@ -31362,6 +31362,96 @@
           "shares": 7596.0,
           "pricePerShare": 113.93,
           "transactionDate": "2026-09-03"
+        }
+      ]
+    },
+    "BORR": {
+      "issuerName": "Borr Drilling Ltd",
+      "trades": [
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Morand De Oliveira Bruno",
+          "title": "Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 45500.0,
+          "pricePerShare": 4.4,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Troim Tor Olav",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 150000.0,
+          "pricePerShare": 4.3795,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Troim Tor Olav",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1000000.0,
+          "pricePerShare": 4.2995,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Mawjee Jehan",
+          "title": "Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 10903.0,
+          "pricePerShare": 4.8023,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Snowling Harvey Edward",
+          "title": "Chief Operating Officer",
+          "type": "Sale",
+          "shares": 25877.0,
+          "pricePerShare": 4.8023,
+          "transactionDate": "2026-09-03"
+        },
+        {
+          "ticker": "BORR",
+          "issuerName": "Borr Drilling Ltd",
+          "insiderName": "Vaaler Magnus",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 19625.0,
+          "pricePerShare": 4.8023,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
+    "EU": {
+      "issuerName": "enCore Energy Corp.",
+      "trades": [
+        {
+          "ticker": "EU",
+          "issuerName": "enCore Energy Corp.",
+          "insiderName": "SHERIFF WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 100000.0,
+          "pricePerShare": 0.81,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "EU",
+          "issuerName": "enCore Energy Corp.",
+          "insiderName": "SHERIFF WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 25000.0,
+          "pricePerShare": 0.81,
+          "transactionDate": "2026-09-18"
         }
       ]
     },
@@ -32727,61 +32817,6 @@
           "shares": 11000.0,
           "pricePerShare": 0.21,
           "transactionDate": "2026-09-16"
-        }
-      ]
-    },
-    "BORR": {
-      "issuerName": "Borr Drilling Ltd",
-      "trades": [
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Troim Tor Olav",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 150000.0,
-          "pricePerShare": 4.3795,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Troim Tor Olav",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 1000000.0,
-          "pricePerShare": 4.2995,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Mawjee Jehan",
-          "title": "Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 10903.0,
-          "pricePerShare": 4.8023,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Snowling Harvey Edward",
-          "title": "Chief Operating Officer",
-          "type": "Sale",
-          "shares": 25877.0,
-          "pricePerShare": 4.8023,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "BORR",
-          "issuerName": "Borr Drilling Ltd",
-          "insiderName": "Vaaler Magnus",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 19625.0,
-          "pricePerShare": 4.8023,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -39722,16 +39757,6 @@
           "shares": 49600.0,
           "pricePerShare": 11.074,
           "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "NMAX",
-          "issuerName": "Newsmax Inc.",
-          "insiderName": "CONYERS INVESTMENTS LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 53500.0,
-          "pricePerShare": 11.0308,
-          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -52597,16 +52622,6 @@
           "shares": 200000.0,
           "pricePerShare": 4.55,
           "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "TLS",
-          "issuerName": "TELOS CORP",
-          "insiderName": "Robbins Edward Hutchinson Jr.",
-          "title": "EVP, General Counsel",
-          "type": "Sale",
-          "shares": 62398.0,
-          "pricePerShare": 4.73,
-          "transactionDate": "2026-09-02"
         }
       ]
     },
@@ -55876,16 +55891,6 @@
           "type": "Sale",
           "shares": 1680.0,
           "pricePerShare": 178.5792,
-          "transactionDate": "2026-09-02"
-        },
-        {
-          "ticker": "HSY",
-          "issuerName": "HERSHEY CO",
-          "insiderName": "HERSHEY TRUST CO TRUSTEE IN TRUST FOR MILTON HERSHEY SCHOOL",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 356.0,
-          "pricePerShare": 179.0858,
           "transactionDate": "2026-09-02"
         }
       ]
@@ -73645,6 +73650,7 @@
       "0001193125-26-395998",
       "0001193125-26-396002",
       "0001193125-26-396004",
+      "0001193125-26-396060",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -78571,6 +78577,7 @@
       "0001493152-26-043443",
       "0001493152-26-043445",
       "0001493152-26-043454",
+      "0001493152-26-043478",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -80583,6 +80590,7 @@
       "0001628280-26-062793",
       "0001628280-26-062794",
       "0001628280-26-062795",
+      "0001628280-26-062804",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -81058,6 +81066,7 @@
       "0001683168-26-007192",
       "0001683168-26-007223",
       "0001683168-26-007224",
+      "0001683168-26-007242",
       "0001684532-26-000009",
       "0001684532-26-000013",
       "0001684713-26-000003",
@@ -85509,6 +85518,7 @@
       "0001839882-26-046301",
       "0001839882-26-046302",
       "0001839882-26-046328",
+      "0001839882-26-046352",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -90262,6 +90272,7 @@
       "0001994334-26-000012",
       "0001994334-26-000013",
       "0001994334-26-000014",
+      "0001994334-26-000015",
       "0001994445-26-000006",
       "0001994955-26-000007",
       "0001995218-26-000015",
@@ -90793,6 +90804,10 @@
       "0001999371-26-020876",
       "0001999371-26-020878",
       "0001999371-26-020879",
+      "0001999371-26-020909",
+      "0001999371-26-020911",
+      "0001999371-26-020914",
+      "0001999371-26-020917",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
