@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T20:04:08.057172+00:00",
+  "generatedAt": "2026-09-22T21:06:21.784680+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -31,6 +31,16 @@
       "type": "Purchase",
       "shares": 1000.0,
       "pricePerShare": 132.5,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "BNTX",
+      "issuerName": "BioNTech SE",
+      "insiderName": "Sahin Ugur",
+      "title": "Chief Executive Officer, 10% Owner",
+      "type": "Sale",
+      "shares": 46000.0,
+      "pricePerShare": 100.7182,
       "transactionDate": "2026-09-22"
     },
     {
@@ -431,6 +441,16 @@
       "type": "Sale",
       "shares": 930.0,
       "pricePerShare": 10.96,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "BNTX",
+      "issuerName": "BioNTech SE",
+      "insiderName": "Sahin Ugur",
+      "title": "Chief Executive Officer, 10% Owner",
+      "type": "Sale",
+      "shares": 33000.0,
+      "pricePerShare": 97.8097,
       "transactionDate": "2026-09-21"
     },
     {
@@ -1461,6 +1481,36 @@
       "type": "Purchase",
       "shares": 10000.0,
       "pricePerShare": 7.75,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "TEVA",
+      "issuerName": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
+      "insiderName": "Savage Brian",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 4503.0,
+      "pricePerShare": 38.69,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "TEVA",
+      "issuerName": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
+      "insiderName": "Savage Brian",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2525.0,
+      "pricePerShare": 39.145,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "TEVA",
+      "issuerName": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
+      "insiderName": "Savage Brian",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 314.0,
+      "pricePerShare": 38.7038,
       "transactionDate": "2026-09-18"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 6174.0,
       "pricePerShare": 62.6066,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "QVCG",
-      "issuerName": "QVC Group, Inc.",
-      "insiderName": "GOLDENTREE ASSET MANAGEMENT LP",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 720000.0,
-      "pricePerShare": 16.45,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SNAP",
-      "issuerName": "Snap Inc",
-      "insiderName": "Briers Zachary M",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 11257.0,
-      "pricePerShare": 6.0,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "HG",
-      "issuerName": "Hamilton Insurance Group, Ltd.",
-      "insiderName": "BROWN DAVID A",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 50000.0,
-      "pricePerShare": 36.1243,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SMCI",
-      "issuerName": "Super Micro Computer, Inc.",
-      "insiderName": "Liang Charles",
-      "title": "Director, President and CEO, 10% Owner",
-      "type": "Sale",
-      "shares": 42565.0,
-      "pricePerShare": 36.6,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SMCI",
-      "issuerName": "Super Micro Computer, Inc.",
-      "insiderName": "Liang Charles",
-      "title": "Director, President and CEO, 10% Owner",
-      "type": "Sale",
-      "shares": 57435.0,
-      "pricePerShare": 37.62,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -30067,6 +30067,51 @@
           "shares": 1000.0,
           "pricePerShare": 132.5,
           "transactionDate": "2026-09-22"
+        }
+      ]
+    },
+    "BNTX": {
+      "issuerName": "BioNTech SE",
+      "trades": [
+        {
+          "ticker": "BNTX",
+          "issuerName": "BioNTech SE",
+          "insiderName": "Sahin Ugur",
+          "title": "Chief Executive Officer, 10% Owner",
+          "type": "Sale",
+          "shares": 46000.0,
+          "pricePerShare": 100.7182,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "BNTX",
+          "issuerName": "BioNTech SE",
+          "insiderName": "Sahin Ugur",
+          "title": "Chief Executive Officer, 10% Owner",
+          "type": "Sale",
+          "shares": 33000.0,
+          "pricePerShare": 97.8097,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "BNTX",
+          "issuerName": "BioNTech SE",
+          "insiderName": "Sahin Ugur",
+          "title": "Chief Executive Officer, 10% Owner",
+          "type": "Sale",
+          "shares": 36000.0,
+          "pricePerShare": 97.7818,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "BNTX",
+          "issuerName": "BioNTech SE",
+          "insiderName": "Sahin Ugur",
+          "title": "Chief Executive Officer, 10% Owner",
+          "type": "Sale",
+          "shares": 37000.0,
+          "pricePerShare": 99.2032,
+          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -35891,6 +35936,41 @@
           "type": "Purchase",
           "shares": 10000.0,
           "pricePerShare": 7.75,
+          "transactionDate": "2026-09-18"
+        }
+      ]
+    },
+    "TEVA": {
+      "issuerName": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
+      "trades": [
+        {
+          "ticker": "TEVA",
+          "issuerName": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
+          "insiderName": "Savage Brian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4503.0,
+          "pricePerShare": 38.69,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "TEVA",
+          "issuerName": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
+          "insiderName": "Savage Brian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2525.0,
+          "pricePerShare": 39.145,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "TEVA",
+          "issuerName": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
+          "insiderName": "Savage Brian",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 314.0,
+          "pricePerShare": 38.7038,
           "transactionDate": "2026-09-18"
         }
       ]
@@ -42262,16 +42342,6 @@
           "shares": 20000.0,
           "pricePerShare": 5.3492,
           "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "SNAP",
-          "issuerName": "Snap Inc",
-          "insiderName": "Briers Zachary M",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 11257.0,
-          "pricePerShare": 6.0,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -54407,16 +54477,6 @@
           "shares": 28500.0,
           "pricePerShare": 34.5327,
           "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "HG",
-          "issuerName": "Hamilton Insurance Group, Ltd.",
-          "insiderName": "BROWN DAVID A",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 50000.0,
-          "pricePerShare": 36.1243,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -56762,31 +56822,6 @@
           "shares": 1381.0,
           "pricePerShare": 61.16,
           "transactionDate": "2026-09-04"
-        }
-      ]
-    },
-    "BNTX": {
-      "issuerName": "BioNTech SE",
-      "trades": [
-        {
-          "ticker": "BNTX",
-          "issuerName": "BioNTech SE",
-          "insiderName": "Sahin Ugur",
-          "title": "Chief Executive Officer, 10% Owner",
-          "type": "Sale",
-          "shares": 36000.0,
-          "pricePerShare": 97.7818,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "BNTX",
-          "issuerName": "BioNTech SE",
-          "insiderName": "Sahin Ugur",
-          "title": "Chief Executive Officer, 10% Owner",
-          "type": "Sale",
-          "shares": 37000.0,
-          "pricePerShare": 99.2032,
-          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -60167,16 +60202,6 @@
           "shares": 1600000.0,
           "pricePerShare": 16.25,
           "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "QVCG",
-          "issuerName": "QVC Group, Inc.",
-          "insiderName": "GOLDENTREE ASSET MANAGEMENT LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 720000.0,
-          "pricePerShare": 16.45,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -62207,26 +62232,6 @@
           "shares": 100000.0,
           "pricePerShare": 40.0,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "SMCI",
-          "issuerName": "Super Micro Computer, Inc.",
-          "insiderName": "Liang Charles",
-          "title": "Director, President and CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 42565.0,
-          "pricePerShare": 36.6,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SMCI",
-          "issuerName": "Super Micro Computer, Inc.",
-          "insiderName": "Liang Charles",
-          "title": "Director, President and CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 57435.0,
-          "pricePerShare": 37.62,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -63887,6 +63892,7 @@
       "0000093751-26-000577",
       "0000094049-26-000116",
       "0000095029-26-000080",
+      "0000095953-26-000113",
       "0000097216-26-000132",
       "0000097476-26-000161",
       "0000097745-26-000146",
@@ -66736,6 +66742,10 @@
       "0000950103-26-014329",
       "0000950103-26-014330",
       "0000950103-26-014331",
+      "0000950103-26-014349",
+      "0000950103-26-014350",
+      "0000950103-26-014351",
+      "0000950103-26-014352",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -68561,6 +68571,7 @@
       "0001104659-26-109592",
       "0001104659-26-109602",
       "0001104659-26-109623",
+      "0001104659-26-109670",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -74131,6 +74142,32 @@
       "0001193125-26-397871",
       "0001193125-26-397872",
       "0001193125-26-397873",
+      "0001193125-26-398071",
+      "0001193125-26-398074",
+      "0001193125-26-398075",
+      "0001193125-26-398077",
+      "0001193125-26-398079",
+      "0001193125-26-398080",
+      "0001193125-26-398081",
+      "0001193125-26-398082",
+      "0001193125-26-398084",
+      "0001193125-26-398085",
+      "0001193125-26-398086",
+      "0001193125-26-398087",
+      "0001193125-26-398088",
+      "0001193125-26-398089",
+      "0001193125-26-398090",
+      "0001193125-26-398091",
+      "0001193125-26-398092",
+      "0001193125-26-398093",
+      "0001193125-26-398094",
+      "0001193125-26-398096",
+      "0001193125-26-398098",
+      "0001193125-26-398101",
+      "0001193125-26-398102",
+      "0001193125-26-398104",
+      "0001193125-26-398105",
+      "0001193125-26-398106",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -80050,6 +80087,7 @@
       "0001580642-26-006407",
       "0001580642-26-006410",
       "0001580642-26-006411",
+      "0001580642-26-006419",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -80286,6 +80324,7 @@
       "0001610717-26-000407",
       "0001610717-26-000408",
       "0001610717-26-000410",
+      "0001610717-26-000420",
       "0001611597-26-000009",
       "0001612263-26-000018",
       "0001612451-26-000012",
@@ -86441,6 +86480,17 @@
       "0001839882-26-046739",
       "0001839882-26-046740",
       "0001839882-26-046743",
+      "0001839882-26-046767",
+      "0001839882-26-046768",
+      "0001839882-26-046769",
+      "0001839882-26-046770",
+      "0001839882-26-046771",
+      "0001839882-26-046772",
+      "0001839882-26-046773",
+      "0001839882-26-046774",
+      "0001839882-26-046775",
+      "0001839882-26-046776",
+      "0001839882-26-046777",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -91014,6 +91064,12 @@
       "0001918704-26-028433",
       "0001918704-26-028434",
       "0001918704-26-028435",
+      "0001918704-26-028448",
+      "0001918704-26-028449",
+      "0001918704-26-028450",
+      "0001918704-26-028451",
+      "0001918704-26-028452",
+      "0001918704-26-028453",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
@@ -92001,6 +92057,8 @@
       "0001999371-26-021011",
       "0001999371-26-021032",
       "0001999371-26-021049",
+      "0001999371-26-021063",
+      "0001999371-26-021067",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -92838,6 +92896,7 @@
       "0002123155-26-000002",
       "0002123843-26-000008",
       "0002123975-26-000011",
+      "0002123975-26-000021",
       "0002123988-26-000006",
       "0002124256-26-000005",
       "0002124319-26-000008",
