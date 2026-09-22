@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T18:04:50.363103+00:00",
+  "generatedAt": "2026-09-22T19:01:41.975132+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -22,6 +22,16 @@
       "shares": 35000.0,
       "pricePerShare": 2.8931,
       "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "NEGG",
+      "issuerName": "Newegg Commerce, Inc.",
+      "insiderName": "CHANG FRED FACHING",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3582.0,
+      "pricePerShare": 13.792,
+      "transactionDate": "2026-09-21-05:00"
     },
     {
       "ticker": "ORKA",
@@ -362,6 +372,26 @@
       "shares": 2297.0,
       "pricePerShare": 45.3241,
       "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "NSLR",
+      "issuerName": "Neostellar Capital Corp.",
+      "insiderName": "Klein Mark D",
+      "title": "Director, Chairman, CEO and President",
+      "type": "Purchase",
+      "shares": 5000.0,
+      "pricePerShare": 7.91,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "NEGG",
+      "issuerName": "Newegg Commerce, Inc.",
+      "insiderName": "CHANG FRED FACHING",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3582.0,
+      "pricePerShare": 13.544,
+      "transactionDate": "2026-09-18-05:00"
     },
     {
       "ticker": "THRY",
@@ -1361,6 +1391,26 @@
       "type": "Purchase",
       "shares": 184.0,
       "pricePerShare": 68.4452,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "BCBP",
+      "issuerName": "BCB BANCORP INC",
+      "insiderName": "OBrien Thomas M",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 160000.0,
+      "pricePerShare": 7.75,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "BCBP",
+      "issuerName": "BCB BANCORP INC",
+      "insiderName": "Chaudhry Jawad",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 7.75,
       "transactionDate": "2026-09-18"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 526474.0,
       "pricePerShare": 4.1436,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "TLYS",
-      "issuerName": "TILLY'S, INC.",
-      "insiderName": "Fund 1 Investments, LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 252725.0,
-      "pricePerShare": 4.5893,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "TLYS",
-      "issuerName": "TILLY'S, INC.",
-      "insiderName": "Fund 1 Investments, LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 1330.0,
-      "pricePerShare": 4.3591,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "LGND",
-      "issuerName": "LIGAND PHARMACEUTICALS INC",
-      "insiderName": "Reardon Andrew",
-      "title": "CLO & Secretary",
-      "type": "Sale",
-      "shares": 300.0,
-      "pricePerShare": 283.9854,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "LGND",
-      "issuerName": "LIGAND PHARMACEUTICALS INC",
-      "insiderName": "Reardon Andrew",
-      "title": "CLO & Secretary",
-      "type": "Sale",
-      "shares": 1800.0,
-      "pricePerShare": 285.1671,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "LGND",
-      "issuerName": "LIGAND PHARMACEUTICALS INC",
-      "insiderName": "Reardon Andrew",
-      "title": "CLO & Secretary",
-      "type": "Sale",
-      "shares": 2115.0,
-      "pricePerShare": 286.3589,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -30052,6 +30052,91 @@
           "shares": 35000.0,
           "pricePerShare": 2.8931,
           "transactionDate": "2026-09-22"
+        }
+      ]
+    },
+    "NEGG": {
+      "issuerName": "Newegg Commerce, Inc.",
+      "trades": [
+        {
+          "ticker": "NEGG",
+          "issuerName": "Newegg Commerce, Inc.",
+          "insiderName": "CHANG FRED FACHING",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3582.0,
+          "pricePerShare": 13.792,
+          "transactionDate": "2026-09-21-05:00"
+        },
+        {
+          "ticker": "NEGG",
+          "issuerName": "Newegg Commerce, Inc.",
+          "insiderName": "CHANG FRED FACHING",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3582.0,
+          "pricePerShare": 13.544,
+          "transactionDate": "2026-09-18-05:00"
+        },
+        {
+          "ticker": "NEGG",
+          "issuerName": "Newegg Commerce, Inc.",
+          "insiderName": "CHANG FRED FACHING",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 28500.0,
+          "pricePerShare": 13.049,
+          "transactionDate": "2026-09-17-05:00"
+        },
+        {
+          "ticker": "NEGG",
+          "issuerName": "Newegg Commerce, Inc.",
+          "insiderName": "CHANG FRED FACHING",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 23582.0,
+          "pricePerShare": 13.18,
+          "transactionDate": "2026-09-16-05:00"
+        },
+        {
+          "ticker": "NEGG",
+          "issuerName": "Newegg Commerce, Inc.",
+          "insiderName": "CHANG FRED FACHING",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 23582.0,
+          "pricePerShare": 13.38,
+          "transactionDate": "2026-09-15-05:00"
+        },
+        {
+          "ticker": "NEGG",
+          "issuerName": "Newegg Commerce, Inc.",
+          "insiderName": "CHANG FRED FACHING",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3582.0,
+          "pricePerShare": 14.486,
+          "transactionDate": "2026-09-14-05:00"
+        },
+        {
+          "ticker": "NEGG",
+          "issuerName": "Newegg Commerce, Inc.",
+          "insiderName": "CHANG FRED FACHING",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 13582.0,
+          "pricePerShare": 15.6164,
+          "transactionDate": "2026-09-04-05:00"
+        },
+        {
+          "ticker": "NEGG",
+          "issuerName": "Newegg Commerce, Inc.",
+          "insiderName": "CHANG FRED FACHING",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3582.0,
+          "pricePerShare": 16.4,
+          "transactionDate": "2026-09-03-05:00"
         }
       ]
     },
@@ -30331,26 +30416,6 @@
           "type": "Sale",
           "shares": 526474.0,
           "pricePerShare": 4.1436,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "TLYS",
-          "issuerName": "TILLY'S, INC.",
-          "insiderName": "Fund 1 Investments, LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 252725.0,
-          "pricePerShare": 4.5893,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "TLYS",
-          "issuerName": "TILLY'S, INC.",
-          "insiderName": "Fund 1 Investments, LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1330.0,
-          "pricePerShare": 4.3591,
           "transactionDate": "2026-09-03"
         }
       ]
@@ -31637,6 +31702,31 @@
           "shares": 2297.0,
           "pricePerShare": 45.3241,
           "transactionDate": "2026-09-21"
+        }
+      ]
+    },
+    "NSLR": {
+      "issuerName": "Neostellar Capital Corp.",
+      "trades": [
+        {
+          "ticker": "NSLR",
+          "issuerName": "Neostellar Capital Corp.",
+          "insiderName": "Klein Mark D",
+          "title": "Director, Chairman, CEO and President",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 7.91,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "NSLR",
+          "issuerName": "Neostellar Capital Corp.",
+          "insiderName": "LOTT RONALD M.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 5085.0,
+          "pricePerShare": 9.96,
+          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -35695,68 +35785,28 @@
         }
       ]
     },
-    "NEGG": {
-      "issuerName": "Newegg Commerce, Inc.",
+    "BCBP": {
+      "issuerName": "BCB BANCORP INC",
       "trades": [
         {
-          "ticker": "NEGG",
-          "issuerName": "Newegg Commerce, Inc.",
-          "insiderName": "CHANG FRED FACHING",
+          "ticker": "BCBP",
+          "issuerName": "BCB BANCORP INC",
+          "insiderName": "OBrien Thomas M",
           "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 28500.0,
-          "pricePerShare": 13.049,
-          "transactionDate": "2026-09-17-05:00"
+          "type": "Purchase",
+          "shares": 160000.0,
+          "pricePerShare": 7.75,
+          "transactionDate": "2026-09-18"
         },
         {
-          "ticker": "NEGG",
-          "issuerName": "Newegg Commerce, Inc.",
-          "insiderName": "CHANG FRED FACHING",
+          "ticker": "BCBP",
+          "issuerName": "BCB BANCORP INC",
+          "insiderName": "Chaudhry Jawad",
           "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 23582.0,
-          "pricePerShare": 13.18,
-          "transactionDate": "2026-09-16-05:00"
-        },
-        {
-          "ticker": "NEGG",
-          "issuerName": "Newegg Commerce, Inc.",
-          "insiderName": "CHANG FRED FACHING",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 23582.0,
-          "pricePerShare": 13.38,
-          "transactionDate": "2026-09-15-05:00"
-        },
-        {
-          "ticker": "NEGG",
-          "issuerName": "Newegg Commerce, Inc.",
-          "insiderName": "CHANG FRED FACHING",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3582.0,
-          "pricePerShare": 14.486,
-          "transactionDate": "2026-09-14-05:00"
-        },
-        {
-          "ticker": "NEGG",
-          "issuerName": "Newegg Commerce, Inc.",
-          "insiderName": "CHANG FRED FACHING",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 13582.0,
-          "pricePerShare": 15.6164,
-          "transactionDate": "2026-09-04-05:00"
-        },
-        {
-          "ticker": "NEGG",
-          "issuerName": "Newegg Commerce, Inc.",
-          "insiderName": "CHANG FRED FACHING",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3582.0,
-          "pricePerShare": 16.4,
-          "transactionDate": "2026-09-03-05:00"
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 7.75,
+          "transactionDate": "2026-09-18"
         }
       ]
     },
@@ -62845,21 +62895,6 @@
         }
       ]
     },
-    "NSLR": {
-      "issuerName": "Neostellar Capital Corp.",
-      "trades": [
-        {
-          "ticker": "NSLR",
-          "issuerName": "Neostellar Capital Corp.",
-          "insiderName": "LOTT RONALD M.",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 5085.0,
-          "pricePerShare": 9.96,
-          "transactionDate": "2026-09-03"
-        }
-      ]
-    },
     "FCCO": {
       "issuerName": "FIRST COMMUNITY CORP /SC/",
       "trades": [
@@ -63261,41 +63296,6 @@
           "type": "Sale",
           "shares": 6174.0,
           "pricePerShare": 62.6066,
-          "transactionDate": "2026-09-03"
-        }
-      ]
-    },
-    "LGND": {
-      "issuerName": "LIGAND PHARMACEUTICALS INC",
-      "trades": [
-        {
-          "ticker": "LGND",
-          "issuerName": "LIGAND PHARMACEUTICALS INC",
-          "insiderName": "Reardon Andrew",
-          "title": "CLO & Secretary",
-          "type": "Sale",
-          "shares": 300.0,
-          "pricePerShare": 283.9854,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "LGND",
-          "issuerName": "LIGAND PHARMACEUTICALS INC",
-          "insiderName": "Reardon Andrew",
-          "title": "CLO & Secretary",
-          "type": "Sale",
-          "shares": 1800.0,
-          "pricePerShare": 285.1671,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "LGND",
-          "issuerName": "LIGAND PHARMACEUTICALS INC",
-          "insiderName": "Reardon Andrew",
-          "title": "CLO & Secretary",
-          "type": "Sale",
-          "shares": 2115.0,
-          "pricePerShare": 286.3589,
           "transactionDate": "2026-09-03"
         }
       ]
@@ -66719,6 +66719,13 @@
       "0000950103-26-014315",
       "0000950103-26-014316",
       "0000950103-26-014317",
+      "0000950103-26-014318",
+      "0000950103-26-014319",
+      "0000950103-26-014320",
+      "0000950103-26-014321",
+      "0000950103-26-014322",
+      "0000950103-26-014323",
+      "0000950103-26-014324",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -66931,6 +66938,7 @@
       "0001040674-26-000105",
       "0001040674-26-000120",
       "0001040674-26-000125",
+      "0001040674-26-000132",
       "0001041061-26-000153",
       "0001041061-26-000155",
       "0001041061-26-000167",
@@ -68538,6 +68546,10 @@
       "0001104659-26-109574",
       "0001104659-26-109576",
       "0001104659-26-109577",
+      "0001104659-26-109585",
+      "0001104659-26-109591",
+      "0001104659-26-109592",
+      "0001104659-26-109602",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -69583,6 +69595,7 @@
       "0001140361-26-037303",
       "0001140361-26-037304",
       "0001140361-26-037307",
+      "0001140361-26-037317",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -74094,6 +74107,16 @@
       "0001193125-26-397607",
       "0001193125-26-397621",
       "0001193125-26-397655",
+      "0001193125-26-397665",
+      "0001193125-26-397672",
+      "0001193125-26-397673",
+      "0001193125-26-397674",
+      "0001193125-26-397677",
+      "0001193125-26-397702",
+      "0001193125-26-397707",
+      "0001193125-26-397709",
+      "0001193125-26-397713",
+      "0001193125-26-397717",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75896,6 +75919,7 @@
       "0001213900-26-102127",
       "0001213900-26-102130",
       "0001213900-26-102137",
+      "0001213900-26-102144",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -78563,6 +78587,7 @@
       "0001477932-26-005524",
       "0001477932-26-005647",
       "0001477932-26-005712",
+      "0001477932-26-005738",
       "0001478669-26-000015",
       "0001478916-26-000015",
       "0001479079-26-000035",
@@ -79193,6 +79218,7 @@
       "0001493152-26-043617",
       "0001493152-26-043640",
       "0001493152-26-043648",
+      "0001493152-26-043697",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -79542,6 +79568,7 @@
       "0001528621-26-000939",
       "0001528621-26-000940",
       "0001528621-26-000956",
+      "0001528621-26-000960",
       "0001529306-26-000005",
       "0001530038-26-000002",
       "0001530038-26-000004",
@@ -83027,6 +83054,8 @@
       "0001829126-26-010290",
       "0001829126-26-010292",
       "0001829126-26-010298",
+      "0001829126-26-010306",
+      "0001829126-26-010308",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -86341,6 +86370,25 @@
       "0001839882-26-046668",
       "0001839882-26-046669",
       "0001839882-26-046672",
+      "0001839882-26-046673",
+      "0001839882-26-046674",
+      "0001839882-26-046676",
+      "0001839882-26-046677",
+      "0001839882-26-046678",
+      "0001839882-26-046679",
+      "0001839882-26-046680",
+      "0001839882-26-046681",
+      "0001839882-26-046682",
+      "0001839882-26-046683",
+      "0001839882-26-046684",
+      "0001839882-26-046685",
+      "0001839882-26-046686",
+      "0001839882-26-046687",
+      "0001839882-26-046688",
+      "0001839882-26-046689",
+      "0001839882-26-046690",
+      "0001839882-26-046691",
+      "0001839882-26-046692",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -90895,6 +90943,16 @@
       "0001918704-26-028388",
       "0001918704-26-028389",
       "0001918704-26-028390",
+      "0001918704-26-028393",
+      "0001918704-26-028394",
+      "0001918704-26-028395",
+      "0001918704-26-028396",
+      "0001918704-26-028397",
+      "0001918704-26-028400",
+      "0001918704-26-028401",
+      "0001918704-26-028402",
+      "0001918704-26-028403",
+      "0001918704-26-028404",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
@@ -92485,6 +92543,7 @@
       "0002080126-26-000024",
       "0002080126-26-000026",
       "0002080126-26-000028",
+      "0002080157-26-000013",
       "0002080452-26-000011",
       "0002080456-26-000007",
       "0002080505-26-000002",
