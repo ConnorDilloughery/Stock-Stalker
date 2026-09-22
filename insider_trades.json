@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T22:03:11.065493+00:00",
+  "generatedAt": "2026-09-22T23:03:56.397425+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -61,6 +61,26 @@
       "type": "Sale",
       "shares": 9787.0,
       "pricePerShare": 44.9154,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "JACK",
+      "issuerName": "JACK IN THE BOX INC",
+      "insiderName": "King Mark James",
+      "title": "Director, Exec Chairman & Interim CEO",
+      "type": "Sale",
+      "shares": 5627.0,
+      "pricePerShare": 13.61,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "CYTK",
+      "issuerName": "CYTOKINETICS INC",
+      "insiderName": "Malik Fady Ibraham",
+      "title": "EVP Research & Development",
+      "type": "Sale",
+      "shares": 3500.0,
+      "pricePerShare": 68.29,
       "transactionDate": "2026-09-22"
     },
     {
@@ -561,6 +581,16 @@
       "type": "Sale",
       "shares": 1692.0,
       "pricePerShare": 82.957,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "MLYS",
+      "issuerName": "Mineralys Therapeutics, Inc.",
+      "insiderName": "Warren Eric",
+      "title": "Chief Commercial Officer",
+      "type": "Sale",
+      "shares": 7438.0,
+      "pricePerShare": 28.1172,
       "transactionDate": "2026-09-21"
     },
     {
@@ -1641,6 +1671,26 @@
       "type": "Sale",
       "shares": 7067.0,
       "pricePerShare": 45.2378,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "BRID",
+      "issuerName": "BRIDGFORD FOODS CORP",
+      "insiderName": "Bridgford Richard Eugene",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 350.0,
+      "pricePerShare": 5.87,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "AFCG",
+      "issuerName": "Advanced Flower Capital Inc.",
+      "insiderName": "TANNENBAUM LEONARD M",
+      "title": "Director, 10% Owner",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 3.49,
       "transactionDate": "2026-09-18"
     },
     {
@@ -5381,6 +5431,16 @@
       "type": "Sale",
       "shares": 8332.0,
       "pricePerShare": 36.8891,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "FDMT",
+      "issuerName": "4D Molecular Therapeutics, Inc.",
+      "insiderName": "Bizily Scott",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 1635.0,
+      "pricePerShare": 13.65,
       "transactionDate": "2026-09-16"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 3203.0,
       "pricePerShare": 5.95,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "PYPL",
-      "issuerName": "PayPal Holdings, Inc.",
-      "insiderName": "Keller Frank",
-      "title": "Pres., Checkout Sol. & PayPal",
-      "type": "Sale",
-      "shares": 2427.0,
-      "pricePerShare": 54.683,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "PYPL",
-      "issuerName": "PayPal Holdings, Inc.",
-      "insiderName": "Keller Frank",
-      "title": "Pres., Checkout Sol. & PayPal",
-      "type": "Sale",
-      "shares": 1000.0,
-      "pricePerShare": 55.741,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "PYPL",
-      "issuerName": "PayPal Holdings, Inc.",
-      "insiderName": "Keller Frank",
-      "title": "Pres., Checkout Sol. & PayPal",
-      "type": "Sale",
-      "shares": 1185.0,
-      "pricePerShare": 56.7083,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "LMND",
-      "issuerName": "Lemonade, Inc.",
-      "insiderName": "Prosor Maya",
-      "title": "Chief Business Officer",
-      "type": "Sale",
-      "shares": 1040.0,
-      "pricePerShare": 54.63,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "LMND",
-      "issuerName": "Lemonade, Inc.",
-      "insiderName": "BIXBY TIMOTHY E",
-      "title": "Chief Financial Officer",
-      "type": "Sale",
-      "shares": 1893.0,
-      "pricePerShare": 54.63,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "LMND",
-      "issuerName": "Lemonade, Inc.",
-      "insiderName": "Peters John Sheldon",
-      "title": "Chief Insurance Officer",
-      "type": "Sale",
-      "shares": 859.0,
-      "pricePerShare": 54.63,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -30257,6 +30257,46 @@
           "shares": 15000.0,
           "pricePerShare": 46.864,
           "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "JACK": {
+      "issuerName": "JACK IN THE BOX INC",
+      "trades": [
+        {
+          "ticker": "JACK",
+          "issuerName": "JACK IN THE BOX INC",
+          "insiderName": "King Mark James",
+          "title": "Director, Exec Chairman & Interim CEO",
+          "type": "Sale",
+          "shares": 5627.0,
+          "pricePerShare": 13.61,
+          "transactionDate": "2026-09-22"
+        }
+      ]
+    },
+    "CYTK": {
+      "issuerName": "CYTOKINETICS INC",
+      "trades": [
+        {
+          "ticker": "CYTK",
+          "issuerName": "CYTOKINETICS INC",
+          "insiderName": "Malik Fady Ibraham",
+          "title": "EVP Research & Development",
+          "type": "Sale",
+          "shares": 3500.0,
+          "pricePerShare": 68.29,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "CYTK",
+          "issuerName": "CYTOKINETICS INC",
+          "insiderName": "Landry Robert E",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1000.0,
+          "pricePerShare": 74.66,
+          "transactionDate": "2026-09-11"
         }
       ]
     },
@@ -32247,6 +32287,31 @@
           "shares": 361600.0,
           "pricePerShare": 82.52,
           "transactionDate": "2026-09-18"
+        }
+      ]
+    },
+    "MLYS": {
+      "issuerName": "Mineralys Therapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "MLYS",
+          "issuerName": "Mineralys Therapeutics, Inc.",
+          "insiderName": "Warren Eric",
+          "title": "Chief Commercial Officer",
+          "type": "Sale",
+          "shares": 7438.0,
+          "pricePerShare": 28.1172,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "MLYS",
+          "issuerName": "Mineralys Therapeutics, Inc.",
+          "insiderName": "Karydas Daphne",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 28.58,
+          "transactionDate": "2026-09-15"
         }
       ]
     },
@@ -36530,6 +36595,86 @@
         }
       ]
     },
+    "BRID": {
+      "issuerName": "BRIDGFORD FOODS CORP",
+      "trades": [
+        {
+          "ticker": "BRID",
+          "issuerName": "BRIDGFORD FOODS CORP",
+          "insiderName": "Bridgford Richard Eugene",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 350.0,
+          "pricePerShare": 5.87,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "BRID",
+          "issuerName": "BRIDGFORD FOODS CORP",
+          "insiderName": "Bridgford Allan Jr.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 5.8,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "BRID",
+          "issuerName": "BRIDGFORD FOODS CORP",
+          "insiderName": "Bridgford Allan Jr.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 326.0,
+          "pricePerShare": 5.9,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "BRID",
+          "issuerName": "BRIDGFORD FOODS CORP",
+          "insiderName": "Bridgford Allan Jr.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 195.0,
+          "pricePerShare": 5.95,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "BRID",
+          "issuerName": "BRIDGFORD FOODS CORP",
+          "insiderName": "Bridgford Allan Jr.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 13.0,
+          "pricePerShare": 5.95,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "BRID",
+          "issuerName": "BRIDGFORD FOODS CORP",
+          "insiderName": "Bridgford Allan Jr.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 466.0,
+          "pricePerShare": 5.83,
+          "transactionDate": "2026-09-09"
+        }
+      ]
+    },
+    "AFCG": {
+      "issuerName": "Advanced Flower Capital Inc.",
+      "trades": [
+        {
+          "ticker": "AFCG",
+          "issuerName": "Advanced Flower Capital Inc.",
+          "insiderName": "TANNENBAUM LEONARD M",
+          "title": "Director, 10% Owner",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 3.49,
+          "transactionDate": "2026-09-18"
+        }
+      ]
+    },
     "ARTNA": {
       "issuerName": "ARTESIAN RESOURCES CORP",
       "trades": [
@@ -37852,61 +37997,6 @@
           "shares": 16000.0,
           "pricePerShare": 22593.6,
           "transactionDate": "2026-09-17"
-        }
-      ]
-    },
-    "BRID": {
-      "issuerName": "BRIDGFORD FOODS CORP",
-      "trades": [
-        {
-          "ticker": "BRID",
-          "issuerName": "BRIDGFORD FOODS CORP",
-          "insiderName": "Bridgford Allan Jr.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 5.8,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "BRID",
-          "issuerName": "BRIDGFORD FOODS CORP",
-          "insiderName": "Bridgford Allan Jr.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 326.0,
-          "pricePerShare": 5.9,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "BRID",
-          "issuerName": "BRIDGFORD FOODS CORP",
-          "insiderName": "Bridgford Allan Jr.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 195.0,
-          "pricePerShare": 5.95,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "BRID",
-          "issuerName": "BRIDGFORD FOODS CORP",
-          "insiderName": "Bridgford Allan Jr.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 13.0,
-          "pricePerShare": 5.95,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "BRID",
-          "issuerName": "BRIDGFORD FOODS CORP",
-          "insiderName": "Bridgford Allan Jr.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 466.0,
-          "pricePerShare": 5.83,
-          "transactionDate": "2026-09-09"
         }
       ]
     },
@@ -42976,6 +43066,21 @@
           "type": "Sale",
           "shares": 27731.0,
           "pricePerShare": 14.4026,
+          "transactionDate": "2026-09-16"
+        }
+      ]
+    },
+    "FDMT": {
+      "issuerName": "4D Molecular Therapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "FDMT",
+          "issuerName": "4D Molecular Therapeutics, Inc.",
+          "insiderName": "Bizily Scott",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1635.0,
+          "pricePerShare": 13.65,
           "transactionDate": "2026-09-16"
         }
       ]
@@ -49130,21 +49235,6 @@
         }
       ]
     },
-    "MLYS": {
-      "issuerName": "Mineralys Therapeutics, Inc.",
-      "trades": [
-        {
-          "ticker": "MLYS",
-          "issuerName": "Mineralys Therapeutics, Inc.",
-          "insiderName": "Karydas Daphne",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 28.58,
-          "transactionDate": "2026-09-15"
-        }
-      ]
-    },
     "EVER": {
       "issuerName": "EverQuote, Inc.",
       "trades": [
@@ -53881,21 +53971,6 @@
           "type": "Sale",
           "shares": 619.0,
           "pricePerShare": 87.51,
-          "transactionDate": "2026-09-11"
-        }
-      ]
-    },
-    "CYTK": {
-      "issuerName": "CYTOKINETICS INC",
-      "trades": [
-        {
-          "ticker": "CYTK",
-          "issuerName": "CYTOKINETICS INC",
-          "insiderName": "Landry Robert E",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 74.66,
           "transactionDate": "2026-09-11"
         }
       ]
@@ -62047,36 +62122,6 @@
           "shares": 2249.0,
           "pricePerShare": 54.45,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "LMND",
-          "issuerName": "Lemonade, Inc.",
-          "insiderName": "Prosor Maya",
-          "title": "Chief Business Officer",
-          "type": "Sale",
-          "shares": 1040.0,
-          "pricePerShare": 54.63,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "LMND",
-          "issuerName": "Lemonade, Inc.",
-          "insiderName": "BIXBY TIMOTHY E",
-          "title": "Chief Financial Officer",
-          "type": "Sale",
-          "shares": 1893.0,
-          "pricePerShare": 54.63,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "LMND",
-          "issuerName": "Lemonade, Inc.",
-          "insiderName": "Peters John Sheldon",
-          "title": "Chief Insurance Officer",
-          "type": "Sale",
-          "shares": 859.0,
-          "pricePerShare": 54.63,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -63256,36 +63301,6 @@
           "type": "Sale",
           "shares": 1284.0,
           "pricePerShare": 56.6898,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "PYPL",
-          "issuerName": "PayPal Holdings, Inc.",
-          "insiderName": "Keller Frank",
-          "title": "Pres., Checkout Sol. & PayPal",
-          "type": "Sale",
-          "shares": 2427.0,
-          "pricePerShare": 54.683,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "PYPL",
-          "issuerName": "PayPal Holdings, Inc.",
-          "insiderName": "Keller Frank",
-          "title": "Pres., Checkout Sol. & PayPal",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 55.741,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "PYPL",
-          "issuerName": "PayPal Holdings, Inc.",
-          "insiderName": "Keller Frank",
-          "title": "Pres., Checkout Sol. & PayPal",
-          "type": "Sale",
-          "shares": 1185.0,
-          "pricePerShare": 56.7083,
           "transactionDate": "2026-09-03"
         }
       ]
@@ -67099,6 +67114,7 @@
       "0001061983-26-000090",
       "0001061983-26-000091",
       "0001061983-26-000093",
+      "0001061983-26-000096",
       "0001062993-26-004233",
       "0001062993-26-004525",
       "0001062993-26-004538",
@@ -74174,6 +74190,7 @@
       "0001193125-26-398158",
       "0001193125-26-398159",
       "0001193125-26-398168",
+      "0001193125-26-398204",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -78151,6 +78168,7 @@
       "0001437749-26-030958",
       "0001437749-26-030961",
       "0001437749-26-030963",
+      "0001437749-26-030969",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -79307,6 +79325,13 @@
       "0001493152-26-043640",
       "0001493152-26-043648",
       "0001493152-26-043697",
+      "0001493152-26-043759",
+      "0001493152-26-043761",
+      "0001493152-26-043763",
+      "0001493152-26-043766",
+      "0001493152-26-043768",
+      "0001493152-26-043771",
+      "0001493152-26-043773",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -81376,6 +81401,11 @@
       "0001628280-26-062977",
       "0001628280-26-063087",
       "0001628280-26-063088",
+      "0001628280-26-063092",
+      "0001628280-26-063093",
+      "0001628280-26-063094",
+      "0001628280-26-063095",
+      "0001628280-26-063099",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -81390,6 +81420,7 @@
       "0001635088-26-000092",
       "0001635088-26-000099",
       "0001635088-26-000102",
+      "0001635088-26-000104",
       "0001635669-26-000005",
       "0001635831-26-000008",
       "0001636282-26-000099",
@@ -82577,6 +82608,7 @@
       "0001783531-26-000003",
       "0001783820-26-000010",
       "0001783820-26-000012",
+      "0001783820-26-000014",
       "0001783821-26-000007",
       "0001783879-26-000097",
       "0001783879-26-000099",
@@ -86939,6 +86971,7 @@
       "0001915414-26-000020",
       "0001915814-26-000008",
       "0001916048-26-000009",
+      "0001916048-26-000014",
       "0001916473-26-000034",
       "0001917010-26-000005",
       "0001917389-26-000012",
@@ -92771,6 +92804,7 @@
       "0002090083-26-000018",
       "0002090083-26-000020",
       "0002090083-26-000021",
+      "0002090710-26-000006",
       "0002090733-26-000009",
       "0002090751-26-000006",
       "0002091022-26-000010",
