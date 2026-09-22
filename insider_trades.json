@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T11:01:10.753403+00:00",
+  "generatedAt": "2026-09-22T12:03:18.476516+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -11,6 +11,16 @@
       "type": "Sale",
       "shares": 10000.0,
       "pricePerShare": 163.0,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "VFF",
+      "issuerName": "Village Farms International, Inc.",
+      "insiderName": "DEGIGLIO MICHAEL A",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 35000.0,
+      "pricePerShare": 2.8931,
       "transactionDate": "2026-09-22"
     },
     {
@@ -231,6 +241,26 @@
       "type": "Purchase",
       "shares": 6900.0,
       "pricePerShare": 2.85,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "SMWB",
+      "issuerName": "SIMILARWEB LTD.",
+      "insiderName": "Offer Or",
+      "title": "Chief Executive Officer",
+      "type": "Sale",
+      "shares": 32200.0,
+      "pricePerShare": 8.404,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "EU",
+      "issuerName": "enCore Energy Corp.",
+      "insiderName": "Little Richard H",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 10000.0,
+      "pricePerShare": 1.06,
       "transactionDate": "2026-09-21"
     },
     {
@@ -1031,6 +1061,36 @@
       "type": "Purchase",
       "shares": 7000.0,
       "pricePerShare": 2.88,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "DUOT",
+      "issuerName": "DUOS TECHNOLOGIES GROUP, INC.",
+      "insiderName": "Nixon James Craig",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 2857.0,
+      "pricePerShare": 8.5,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "DUOT",
+      "issuerName": "DUOS TECHNOLOGIES GROUP, INC.",
+      "insiderName": "Nixon James Craig",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 2907.2907,
+      "pricePerShare": 8.6,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "SMWB",
+      "issuerName": "SIMILARWEB LTD.",
+      "insiderName": "Offer Or",
+      "title": "Chief Executive Officer",
+      "type": "Sale",
+      "shares": 37500.0,
+      "pricePerShare": 8.2476,
       "transactionDate": "2026-09-18"
     },
     {
@@ -29942,66 +30002,6 @@
       "shares": 22.0,
       "pricePerShare": 498.62,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 12.0,
-      "pricePerShare": 499.83,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 17.0,
-      "pricePerShare": 501.07,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 45.0,
-      "pricePerShare": 501.84,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 35.0,
-      "pricePerShare": 503.04,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 33.0,
-      "pricePerShare": 503.95,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 54.0,
-      "pricePerShare": 504.91,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -30037,6 +30037,21 @@
           "shares": 1200000.0,
           "pricePerShare": 142.333,
           "transactionDate": "2026-09-16"
+        }
+      ]
+    },
+    "VFF": {
+      "issuerName": "Village Farms International, Inc.",
+      "trades": [
+        {
+          "ticker": "VFF",
+          "issuerName": "Village Farms International, Inc.",
+          "insiderName": "DEGIGLIO MICHAEL A",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 35000.0,
+          "pricePerShare": 2.8931,
+          "transactionDate": "2026-09-22"
         }
       ]
     },
@@ -30972,6 +30987,166 @@
           "shares": 7300.0,
           "pricePerShare": 2.74,
           "transactionDate": "2026-09-14"
+        }
+      ]
+    },
+    "SMWB": {
+      "issuerName": "SIMILARWEB LTD.",
+      "trades": [
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 32200.0,
+          "pricePerShare": 8.404,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 37500.0,
+          "pricePerShare": 8.2476,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 30400.0,
+          "pricePerShare": 8.346,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 45719.0,
+          "pricePerShare": 8.3976,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 26691.0,
+          "pricePerShare": 8.5267,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 26691.0,
+          "pricePerShare": 8.5267,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 52900.0,
+          "pricePerShare": 8.5378,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 52900.0,
+          "pricePerShare": 8.5378,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 59000.0,
+          "pricePerShare": 8.0493,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 59200.0,
+          "pricePerShare": 8.0631,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 86300.0,
+          "pricePerShare": 8.0568,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 60700.0,
+          "pricePerShare": 8.3295,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "EU": {
+      "issuerName": "enCore Energy Corp.",
+      "trades": [
+        {
+          "ticker": "EU",
+          "issuerName": "enCore Energy Corp.",
+          "insiderName": "Little Richard H",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 1.06,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "EU",
+          "issuerName": "enCore Energy Corp.",
+          "insiderName": "SHERIFF WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 100000.0,
+          "pricePerShare": 0.81,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "EU",
+          "issuerName": "enCore Energy Corp.",
+          "insiderName": "SHERIFF WILLIAM M",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 25000.0,
+          "pricePerShare": 0.81,
+          "transactionDate": "2026-09-18"
         }
       ]
     },
@@ -32552,31 +32727,6 @@
           "shares": 19625.0,
           "pricePerShare": 4.8023,
           "transactionDate": "2026-09-03"
-        }
-      ]
-    },
-    "EU": {
-      "issuerName": "enCore Energy Corp.",
-      "trades": [
-        {
-          "ticker": "EU",
-          "issuerName": "enCore Energy Corp.",
-          "insiderName": "SHERIFF WILLIAM M",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 100000.0,
-          "pricePerShare": 0.81,
-          "transactionDate": "2026-09-18"
-        },
-        {
-          "ticker": "EU",
-          "issuerName": "enCore Energy Corp.",
-          "insiderName": "SHERIFF WILLIAM M",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 25000.0,
-          "pricePerShare": 0.81,
-          "transactionDate": "2026-09-18"
         }
       ]
     },
@@ -34960,6 +35110,31 @@
         }
       ]
     },
+    "DUOT": {
+      "issuerName": "DUOS TECHNOLOGIES GROUP, INC.",
+      "trades": [
+        {
+          "ticker": "DUOT",
+          "issuerName": "DUOS TECHNOLOGIES GROUP, INC.",
+          "insiderName": "Nixon James Craig",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2857.0,
+          "pricePerShare": 8.5,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "DUOT",
+          "issuerName": "DUOS TECHNOLOGIES GROUP, INC.",
+          "insiderName": "Nixon James Craig",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2907.2907,
+          "pricePerShare": 8.6,
+          "transactionDate": "2026-09-18"
+        }
+      ]
+    },
     "NEGG": {
       "issuerName": "Newegg Commerce, Inc.",
       "trades": [
@@ -35932,111 +36107,6 @@
           "shares": 15000.0,
           "pricePerShare": 30.71,
           "transactionDate": "2026-09-17"
-        }
-      ]
-    },
-    "SMWB": {
-      "issuerName": "SIMILARWEB LTD.",
-      "trades": [
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 30400.0,
-          "pricePerShare": 8.346,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 45719.0,
-          "pricePerShare": 8.3976,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 26691.0,
-          "pricePerShare": 8.5267,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 26691.0,
-          "pricePerShare": 8.5267,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 52900.0,
-          "pricePerShare": 8.5378,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 52900.0,
-          "pricePerShare": 8.5378,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 59000.0,
-          "pricePerShare": 8.0493,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 59200.0,
-          "pricePerShare": 8.0631,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 86300.0,
-          "pricePerShare": 8.0568,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 60700.0,
-          "pricePerShare": 8.3295,
-          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -48341,66 +48411,6 @@
           "type": "Sale",
           "shares": 22.0,
           "pricePerShare": 498.62,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 12.0,
-          "pricePerShare": 499.83,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 17.0,
-          "pricePerShare": 501.07,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 45.0,
-          "pricePerShare": 501.84,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 35.0,
-          "pricePerShare": 503.04,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 33.0,
-          "pricePerShare": 503.95,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 54.0,
-          "pricePerShare": 504.91,
           "transactionDate": "2026-09-03"
         }
       ]
@@ -67011,6 +67021,7 @@
       "0001062993-26-004871",
       "0001062993-26-004910",
       "0001062993-26-004972",
+      "0001062993-26-005040",
       "0001063463-26-000004",
       "0001063946-26-000042",
       "0001065088-26-000188",
@@ -67097,6 +67108,7 @@
       "0001079973-26-001255",
       "0001079973-26-001257",
       "0001079973-26-001259",
+      "0001079973-26-001266",
       "0001081400-26-000304",
       "0001081400-26-000307",
       "0001081400-26-000309",
@@ -73973,6 +73985,8 @@
       "0001193125-26-397059",
       "0001193125-26-397195",
       "0001193125-26-397196",
+      "0001193125-26-397218",
+      "0001193125-26-397230",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75756,6 +75770,9 @@
       "0001213900-26-101896",
       "0001213900-26-101898",
       "0001213900-26-101909",
+      "0001213900-26-101966",
+      "0001213900-26-101971",
+      "0001213900-26-101972",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -76152,6 +76169,7 @@
       "0001214659-26-011824",
       "0001214659-26-011825",
       "0001214659-26-011831",
+      "0001214659-26-011845",
       "0001214736-26-000002",
       "0001214993-26-000004",
       "0001215135-26-000012",
@@ -81792,10 +81810,12 @@
       "0001729859-26-000044",
       "0001729859-26-000046",
       "0001729859-26-000050",
+      "0001729859-26-000052",
       "0001729897-26-000038",
       "0001729897-26-000042",
       "0001729897-26-000044",
       "0001729897-26-000048",
+      "0001729897-26-000050",
       "0001730131-26-000003",
       "0001730168-26-000084",
       "0001730226-26-000006",
@@ -90892,6 +90912,7 @@
       "0001976408-26-000853",
       "0001976408-26-000856",
       "0001976408-26-000857",
+      "0001976408-26-000859",
       "0001976672-26-000057",
       "0001976672-26-000059",
       "0001976672-26-000062",
@@ -91539,6 +91560,7 @@
       "0001999371-26-020974",
       "0001999371-26-020975",
       "0001999371-26-020977",
+      "0001999371-26-020993",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
