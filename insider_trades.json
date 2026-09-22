@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-09-22T10:01:50.417291+00:00",
+  "generatedAt": "2026-09-22T11:01:10.753403+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "UMC",
+      "issuerName": "UNITED MICROELECTRONICS CORP",
+      "insiderName": "LIN JEN-TSUNG",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 10000.0,
+      "pricePerShare": 163.0,
+      "transactionDate": "2026-09-22"
+    },
     {
       "ticker": "ORKA",
       "issuerName": "Oruka Therapeutics, Inc.",
@@ -211,6 +221,16 @@
       "type": "Purchase",
       "shares": 10350000.0,
       "pricePerShare": 2.8866,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "BZUN",
+      "issuerName": "Baozun Inc.",
+      "insiderName": "Qiu Wenbin",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 6900.0,
+      "pricePerShare": 2.85,
       "transactionDate": "2026-09-21"
     },
     {
@@ -1001,6 +1021,16 @@
       "type": "Sale",
       "shares": 1800.0,
       "pricePerShare": 52.88,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "BZUN",
+      "issuerName": "Baozun Inc.",
+      "insiderName": "Qiu Wenbin",
+      "title": "Director, Chief Executive Officer",
+      "type": "Purchase",
+      "shares": 7000.0,
+      "pricePerShare": 2.88,
       "transactionDate": "2026-09-18"
     },
     {
@@ -2741,6 +2771,16 @@
       "type": "Purchase",
       "shares": 6080047.0,
       "pricePerShare": 1.15,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "ELTK",
+      "issuerName": "ELTEK LTD",
+      "insiderName": "Dovev Gad",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 4260.0,
+      "pricePerShare": 8.52,
       "transactionDate": "2026-09-17"
     },
     {
@@ -11851,6 +11891,16 @@
       "type": "Purchase",
       "shares": 94.0,
       "pricePerShare": 7.18,
+      "transactionDate": "2026-09-14"
+    },
+    {
+      "ticker": "ECOR",
+      "issuerName": "electroCore, Inc.",
+      "insiderName": "Errico Thomas J.",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 5000.0,
+      "pricePerShare": 9.8163,
       "transactionDate": "2026-09-14"
     },
     {
@@ -29952,59 +30002,44 @@
       "shares": 54.0,
       "pricePerShare": 504.91,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 38.0,
-      "pricePerShare": 505.94,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 32.0,
-      "pricePerShare": 507.15,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 56.0,
-      "pricePerShare": 508.06,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 33.0,
-      "pricePerShare": 509.02,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 47.0,
-      "pricePerShare": 510.05,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
+    "UMC": {
+      "issuerName": "UNITED MICROELECTRONICS CORP",
+      "trades": [
+        {
+          "ticker": "UMC",
+          "issuerName": "UNITED MICROELECTRONICS CORP",
+          "insiderName": "LIN JEN-TSUNG",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 163.0,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "UMC",
+          "issuerName": "UNITED MICROELECTRONICS CORP",
+          "insiderName": "Liu Chitung",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 400000.0,
+          "pricePerShare": 145.0,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "UMC",
+          "issuerName": "UNITED MICROELECTRONICS CORP",
+          "insiderName": "Liu Chitung",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1200000.0,
+          "pricePerShare": 142.333,
+          "transactionDate": "2026-09-16"
+        }
+      ]
+    },
     "ORKA": {
       "issuerName": "Oruka Therapeutics, Inc.",
       "trades": [
@@ -30862,6 +30897,81 @@
           "shares": 50000.0,
           "pricePerShare": 2.9038,
           "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "BZUN": {
+      "issuerName": "Baozun Inc.",
+      "trades": [
+        {
+          "ticker": "BZUN",
+          "issuerName": "Baozun Inc.",
+          "insiderName": "Qiu Wenbin",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 6900.0,
+          "pricePerShare": 2.85,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "BZUN",
+          "issuerName": "Baozun Inc.",
+          "insiderName": "Qiu Wenbin",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 7000.0,
+          "pricePerShare": 2.88,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "BZUN",
+          "issuerName": "Baozun Inc.",
+          "insiderName": "Qiu Wenbin",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 7100.0,
+          "pricePerShare": 2.84,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "BZUN",
+          "issuerName": "Baozun Inc.",
+          "insiderName": "Qiu Wenbin",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 7300.0,
+          "pricePerShare": 2.74,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "BZUN",
+          "issuerName": "Baozun Inc.",
+          "insiderName": "Qiu Wenbin",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 7300.0,
+          "pricePerShare": 2.72,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "BZUN",
+          "issuerName": "Baozun Inc.",
+          "insiderName": "Wu Junhua",
+          "title": "Director, Chief Strategy Officer",
+          "type": "Purchase",
+          "shares": 13900.0,
+          "pricePerShare": 2.73,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "BZUN",
+          "issuerName": "Baozun Inc.",
+          "insiderName": "Qiu Wenbin",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 7300.0,
+          "pricePerShare": 2.74,
+          "transactionDate": "2026-09-14"
         }
       ]
     },
@@ -34915,31 +35025,6 @@
         }
       ]
     },
-    "UMC": {
-      "issuerName": "UNITED MICROELECTRONICS CORP",
-      "trades": [
-        {
-          "ticker": "UMC",
-          "issuerName": "UNITED MICROELECTRONICS CORP",
-          "insiderName": "Liu Chitung",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 400000.0,
-          "pricePerShare": 145.0,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "UMC",
-          "issuerName": "UNITED MICROELECTRONICS CORP",
-          "insiderName": "Liu Chitung",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1200000.0,
-          "pricePerShare": 142.333,
-          "transactionDate": "2026-09-16"
-        }
-      ]
-    },
     "ARTNA": {
       "issuerName": "ARTESIAN RESOURCES CORP",
       "trades": [
@@ -35832,61 +35917,6 @@
           "shares": 721.0,
           "pricePerShare": 89.52,
           "transactionDate": "2026-09-03"
-        }
-      ]
-    },
-    "BZUN": {
-      "issuerName": "Baozun Inc.",
-      "trades": [
-        {
-          "ticker": "BZUN",
-          "issuerName": "Baozun Inc.",
-          "insiderName": "Qiu Wenbin",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 7100.0,
-          "pricePerShare": 2.84,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "BZUN",
-          "issuerName": "Baozun Inc.",
-          "insiderName": "Qiu Wenbin",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 7300.0,
-          "pricePerShare": 2.74,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "BZUN",
-          "issuerName": "Baozun Inc.",
-          "insiderName": "Qiu Wenbin",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 7300.0,
-          "pricePerShare": 2.72,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "BZUN",
-          "issuerName": "Baozun Inc.",
-          "insiderName": "Wu Junhua",
-          "title": "Director, Chief Strategy Officer",
-          "type": "Purchase",
-          "shares": 13900.0,
-          "pricePerShare": 2.73,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "BZUN",
-          "issuerName": "Baozun Inc.",
-          "insiderName": "Qiu Wenbin",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 7300.0,
-          "pricePerShare": 2.74,
-          "transactionDate": "2026-09-14"
         }
       ]
     },
@@ -38262,6 +38292,21 @@
           "shares": 21034.0,
           "pricePerShare": 1.6116,
           "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "ELTK": {
+      "issuerName": "ELTEK LTD",
+      "trades": [
+        {
+          "ticker": "ELTK",
+          "issuerName": "ELTEK LTD",
+          "insiderName": "Dovev Gad",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 4260.0,
+          "pricePerShare": 8.52,
+          "transactionDate": "2026-09-17"
         }
       ]
     },
@@ -48357,56 +48402,6 @@
           "shares": 54.0,
           "pricePerShare": 504.91,
           "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 38.0,
-          "pricePerShare": 505.94,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 32.0,
-          "pricePerShare": 507.15,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 56.0,
-          "pricePerShare": 508.06,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 33.0,
-          "pricePerShare": 509.02,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 47.0,
-          "pricePerShare": 510.05,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -52640,6 +52635,31 @@
         }
       ]
     },
+    "ECOR": {
+      "issuerName": "electroCore, Inc.",
+      "trades": [
+        {
+          "ticker": "ECOR",
+          "issuerName": "electroCore, Inc.",
+          "insiderName": "Errico Thomas J.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 9.8163,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "ECOR",
+          "issuerName": "electroCore, Inc.",
+          "insiderName": "Fox Michael",
+          "title": "See Remarks",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 9.8007,
+          "transactionDate": "2026-09-11"
+        }
+      ]
+    },
     "BFC": {
       "issuerName": "Bank First Corp",
       "trades": [
@@ -55051,21 +55071,6 @@
           "type": "Purchase",
           "shares": 231.0,
           "pricePerShare": 64.23,
-          "transactionDate": "2026-09-11"
-        }
-      ]
-    },
-    "ECOR": {
-      "issuerName": "electroCore, Inc.",
-      "trades": [
-        {
-          "ticker": "ECOR",
-          "issuerName": "electroCore, Inc.",
-          "insiderName": "Fox Michael",
-          "title": "See Remarks",
-          "type": "Purchase",
-          "shares": 5000.0,
-          "pricePerShare": 9.8007,
           "transactionDate": "2026-09-11"
         }
       ]
@@ -67145,6 +67150,11 @@
       "0001081400-26-000454",
       "0001081400-26-000457",
       "0001081400-26-000458",
+      "0001081400-26-000461",
+      "0001081400-26-000462",
+      "0001081400-26-000464",
+      "0001081400-26-000465",
+      "0001081400-26-000467",
       "0001081402-26-000019",
       "0001081402-26-000021",
       "0001081402-26-000023",
@@ -68442,6 +68452,7 @@
       "0001104659-26-109376",
       "0001104659-26-109377",
       "0001104659-26-109383",
+      "0001104659-26-109444",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -69622,6 +69633,7 @@
       "0001178913-26-004485",
       "0001178913-26-004507",
       "0001178913-26-004542",
+      "0001178913-26-004550",
       "0001179684-26-000013",
       "0001180008-26-000012",
       "0001180017-26-000016",
@@ -69680,6 +69692,7 @@
       "0001185185-26-004076",
       "0001185185-26-004082",
       "0001185185-26-004084",
+      "0001185185-26-004185",
       "0001185609-26-000007",
       "0001185611-26-000005",
       "0001185829-26-000001",
@@ -73955,8 +73968,11 @@
       "0001193125-26-396935",
       "0001193125-26-396944",
       "0001193125-26-396945",
+      "0001193125-26-397032",
       "0001193125-26-397056",
       "0001193125-26-397059",
+      "0001193125-26-397195",
+      "0001193125-26-397196",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75737,6 +75753,8 @@
       "0001213900-26-101880",
       "0001213900-26-101883",
       "0001213900-26-101885",
+      "0001213900-26-101896",
+      "0001213900-26-101898",
       "0001213900-26-101909",
       "0001214659-26-008709",
       "0001214659-26-008711",
@@ -79005,6 +79023,7 @@
       "0001493152-26-043612",
       "0001493152-26-043613",
       "0001493152-26-043617",
+      "0001493152-26-043640",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -82825,6 +82844,7 @@
       "0001829126-26-010273",
       "0001829126-26-010274",
       "0001829126-26-010290",
+      "0001829126-26-010292",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -90541,6 +90561,7 @@
       "0001918704-26-028253",
       "0001918704-26-028261",
       "0001918704-26-028262",
+      "0001918704-26-028263",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
