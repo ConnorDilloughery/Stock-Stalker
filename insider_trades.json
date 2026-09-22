@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T13:03:49.073975+00:00",
+  "generatedAt": "2026-09-22T14:00:49.350655+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -281,6 +281,46 @@
       "type": "Sale",
       "shares": 3500.0,
       "pricePerShare": 32.12,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "TPL",
+      "issuerName": "Texas Pacific Land Corp",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 1.0,
+      "pricePerShare": 348.98,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "GLBE",
+      "issuerName": "Global-E Online Ltd.",
+      "insiderName": "Debbi Nir",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 12272.0,
+      "pricePerShare": 39.5565,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "YORW",
+      "issuerName": "YORK WATER CO",
+      "insiderName": "Brossman Douglas S",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 30.315,
+      "pricePerShare": 32.987,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "NVMI",
+      "issuerName": "NOVA LTD.",
+      "insiderName": "Wolfing Shay",
+      "title": "CTO",
+      "type": "Sale",
+      "shares": 3864.0,
+      "pricePerShare": 363.28,
       "transactionDate": "2026-09-21"
     },
     {
@@ -1171,6 +1211,26 @@
       "type": "Purchase",
       "shares": 1265.0,
       "pricePerShare": 19.73,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "BBD",
+      "issuerName": "BANK BRADESCO",
+      "insiderName": "Nunes Regina Helena Jorge",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 31266.0,
+      "pricePerShare": 17.98,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "BBD",
+      "issuerName": "BANK BRADESCO",
+      "insiderName": "Marcilio Juliano Ribeiro",
+      "title": "Executive Officer",
+      "type": "Purchase",
+      "shares": 60779.0,
+      "pricePerShare": 17.98,
       "transactionDate": "2026-09-18"
     },
     {
@@ -4881,6 +4941,16 @@
       "type": "Sale",
       "shares": 1417.0,
       "pricePerShare": 3.774,
+      "transactionDate": "2026-09-16"
+    },
+    {
+      "ticker": "GLBE",
+      "issuerName": "Global-E Online Ltd.",
+      "insiderName": "Debbi Nir",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 8332.0,
+      "pricePerShare": 36.8891,
       "transactionDate": "2026-09-16"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 197.0,
       "pricePerShare": 515.1,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 150.0,
-      "pricePerShare": 516.03,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 107.0,
-      "pricePerShare": 517.04,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 58.0,
-      "pricePerShare": 518.02,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 77.0,
-      "pricePerShare": 519.16,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 95.0,
-      "pricePerShare": 519.98,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 24.0,
-      "pricePerShare": 521.11,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 6.0,
-      "pricePerShare": 522.06,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -31257,6 +31257,206 @@
           "shares": 74400.0,
           "pricePerShare": 28.27,
           "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "TPL": {
+      "issuerName": "Texas Pacific Land Corp",
+      "trades": [
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 348.98,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 351.34,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 349.35,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 352.36,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 370.59,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 371.73,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 367.88,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 366.18,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 378.57,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 375.1,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "TPL",
+          "issuerName": "Texas Pacific Land Corp",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1.0,
+          "pricePerShare": 360.03,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "GLBE": {
+      "issuerName": "Global-E Online Ltd.",
+      "trades": [
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Debbi Nir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 12272.0,
+          "pricePerShare": 39.5565,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Debbi Nir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8332.0,
+          "pricePerShare": 36.8891,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Koren Ofer",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 300.0,
+          "pricePerShare": 38.0,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Debbi Nir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 228.0,
+          "pricePerShare": 39.211,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Tamari Shahar",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 24999.0,
+          "pricePerShare": 38.4135,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
+    "YORW": {
+      "issuerName": "YORK WATER CO",
+      "trades": [
+        {
+          "ticker": "YORW",
+          "issuerName": "YORK WATER CO",
+          "insiderName": "Brossman Douglas S",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 30.315,
+          "pricePerShare": 32.987,
+          "transactionDate": "2026-09-21"
+        }
+      ]
+    },
+    "NVMI": {
+      "issuerName": "NOVA LTD.",
+      "trades": [
+        {
+          "ticker": "NVMI",
+          "issuerName": "NOVA LTD.",
+          "insiderName": "Wolfing Shay",
+          "title": "CTO",
+          "type": "Sale",
+          "shares": 3864.0,
+          "pricePerShare": 363.28,
+          "transactionDate": "2026-09-21"
         }
       ]
     },
@@ -33035,111 +33235,6 @@
         }
       ]
     },
-    "TPL": {
-      "issuerName": "Texas Pacific Land Corp",
-      "trades": [
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 351.34,
-          "transactionDate": "2026-09-18"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 349.35,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 352.36,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 370.59,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 371.73,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 367.88,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 366.18,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 378.57,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 375.1,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "TPL",
-          "issuerName": "Texas Pacific Land Corp",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1.0,
-          "pricePerShare": 360.03,
-          "transactionDate": "2026-09-04"
-        }
-      ]
-    },
     "CHE": {
       "issuerName": "CHEMED CORP",
       "trades": [
@@ -33780,6 +33875,26 @@
           "title": "Director",
           "type": "Purchase",
           "shares": 46874.0,
+          "pricePerShare": 17.98,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "BBD",
+          "issuerName": "BANK BRADESCO",
+          "insiderName": "Nunes Regina Helena Jorge",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 31266.0,
+          "pricePerShare": 17.98,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "BBD",
+          "issuerName": "BANK BRADESCO",
+          "insiderName": "Marcilio Juliano Ribeiro",
+          "title": "Executive Officer",
+          "type": "Purchase",
+          "shares": 60779.0,
           "pricePerShare": 17.98,
           "transactionDate": "2026-09-18"
         },
@@ -48352,76 +48467,6 @@
           "shares": 197.0,
           "pricePerShare": 515.1,
           "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 150.0,
-          "pricePerShare": 516.03,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 107.0,
-          "pricePerShare": 517.04,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 58.0,
-          "pricePerShare": 518.02,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 77.0,
-          "pricePerShare": 519.16,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 95.0,
-          "pricePerShare": 519.98,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 24.0,
-          "pricePerShare": 521.11,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6.0,
-          "pricePerShare": 522.06,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -51557,41 +51602,6 @@
           "shares": 2000.0,
           "pricePerShare": 14.135,
           "transactionDate": "2026-09-14"
-        }
-      ]
-    },
-    "GLBE": {
-      "issuerName": "Global-E Online Ltd.",
-      "trades": [
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Koren Ofer",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 300.0,
-          "pricePerShare": 38.0,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Debbi Nir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 228.0,
-          "pricePerShare": 39.211,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Tamari Shahar",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 24999.0,
-          "pricePerShare": 38.4135,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -63908,6 +63918,7 @@
       "0000108985-26-000076",
       "0000108985-26-000079",
       "0000108985-26-000080",
+      "0000108985-26-000083",
       "0000109380-26-000104",
       "0000109380-26-000105",
       "0000200406-26-000148",
@@ -64423,6 +64434,7 @@
       "0000825063-26-000010",
       "0000825063-26-000011",
       "0000826675-26-000084",
+      "0000826675-26-000092",
       "0000826734-26-000076",
       "0000826734-26-000097",
       "0000826734-26-000098",
@@ -68477,6 +68489,8 @@
       "0001104659-26-109377",
       "0001104659-26-109383",
       "0001104659-26-109444",
+      "0001104659-26-109497",
+      "0001104659-26-109502",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -68857,6 +68871,7 @@
       "0001137360-26-000855",
       "0001137360-26-000872",
       "0001137360-26-000903",
+      "0001137360-26-000907",
       "0001137774-26-000193",
       "0001137774-26-000204",
       "0001137789-26-000173",
@@ -68877,6 +68892,7 @@
       "0001140019-26-000139",
       "0001140019-26-000145",
       "0001140019-26-000146",
+      "0001140019-26-000149",
       "0001140361-26-028844",
       "0001140361-26-028846",
       "0001140361-26-028877",
@@ -69515,6 +69531,8 @@
       "0001140361-26-037224",
       "0001140361-26-037228",
       "0001140361-26-037299",
+      "0001140361-26-037303",
+      "0001140361-26-037304",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -69659,6 +69677,7 @@
       "0001178913-26-004507",
       "0001178913-26-004542",
       "0001178913-26-004550",
+      "0001178913-26-004552",
       "0001179684-26-000013",
       "0001180008-26-000012",
       "0001180017-26-000016",
@@ -74005,6 +74024,8 @@
       "0001193125-26-397291",
       "0001193125-26-397302",
       "0001193125-26-397310",
+      "0001193125-26-397325",
+      "0001193125-26-397352",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -76805,6 +76826,8 @@
       "0001292814-26-004633",
       "0001292814-26-004635",
       "0001292814-26-004638",
+      "0001292814-26-004642",
+      "0001292814-26-004644",
       "0001293167-26-000004",
       "0001293171-26-000012",
       "0001294172-26-000019",
@@ -77920,6 +77943,8 @@
       "0001437749-26-030837",
       "0001437749-26-030838",
       "0001437749-26-030851",
+      "0001437749-26-030860",
+      "0001437749-26-030861",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -78262,6 +78287,8 @@
       "0001445546-26-007046",
       "0001445546-26-007047",
       "0001445546-26-007049",
+      "0001445546-26-007064",
+      "0001445546-26-007065",
       "0001445832-26-000011",
       "0001445832-26-000013",
       "0001446066-26-000008",
@@ -79863,6 +79890,8 @@
       "0001580642-26-006381",
       "0001580642-26-006383",
       "0001580642-26-006407",
+      "0001580642-26-006410",
+      "0001580642-26-006411",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -86165,6 +86194,14 @@
       "0001839882-26-046493",
       "0001839882-26-046502",
       "0001839882-26-046512",
+      "0001839882-26-046535",
+      "0001839882-26-046536",
+      "0001839882-26-046540",
+      "0001839882-26-046541",
+      "0001839882-26-046543",
+      "0001839882-26-046544",
+      "0001839882-26-046545",
+      "0001839882-26-046548",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -90612,6 +90649,23 @@
       "0001918704-26-028263",
       "0001918704-26-028264",
       "0001918704-26-028265",
+      "0001918704-26-028266",
+      "0001918704-26-028267",
+      "0001918704-26-028268",
+      "0001918704-26-028269",
+      "0001918704-26-028270",
+      "0001918704-26-028271",
+      "0001918704-26-028272",
+      "0001918704-26-028273",
+      "0001918704-26-028274",
+      "0001918704-26-028275",
+      "0001918704-26-028276",
+      "0001918704-26-028277",
+      "0001918704-26-028278",
+      "0001918704-26-028279",
+      "0001918704-26-028280",
+      "0001918704-26-028281",
+      "0001918704-26-028282",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
@@ -91592,6 +91646,7 @@
       "0001999371-26-020977",
       "0001999371-26-020993",
       "0001999371-26-020998",
+      "0001999371-26-021001",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
