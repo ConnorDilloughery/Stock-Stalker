@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T19:01:41.975132+00:00",
+  "generatedAt": "2026-09-22T20:04:08.057172+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -21,6 +21,16 @@
       "type": "Purchase",
       "shares": 35000.0,
       "pricePerShare": 2.8931,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "SAIC",
+      "issuerName": "Science Applications International Corp",
+      "insiderName": "Cush C. David",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 132.5,
       "transactionDate": "2026-09-22"
     },
     {
@@ -381,6 +391,46 @@
       "type": "Purchase",
       "shares": 5000.0,
       "pricePerShare": 7.91,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "SOPH",
+      "issuerName": "SOPHiA GENETICS SA",
+      "insiderName": "CARDOZA GEORGE",
+      "title": "Chief Financial Officer",
+      "type": "Sale",
+      "shares": 774.0,
+      "pricePerShare": 8.33,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "SOPH",
+      "issuerName": "SOPHiA GENETICS SA",
+      "insiderName": "Muken Ross",
+      "title": "Director, Chief Executive Officer",
+      "type": "Sale",
+      "shares": 422.0,
+      "pricePerShare": 8.33,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "MXF",
+      "issuerName": "MEXICO FUND INC",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 2034.0,
+      "pricePerShare": 21.03,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "GF",
+      "issuerName": "NEW GERMANY FUND INC",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 930.0,
+      "pricePerShare": 10.96,
       "transactionDate": "2026-09-21"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 57435.0,
       "pricePerShare": 37.62,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SMCI",
-      "issuerName": "Super Micro Computer, Inc.",
-      "insiderName": "Liu Liang Chiu-Chu Sara",
-      "title": "Director, 10% Owner",
-      "type": "Sale",
-      "shares": 42565.0,
-      "pricePerShare": 36.6,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SMCI",
-      "issuerName": "Super Micro Computer, Inc.",
-      "insiderName": "Liu Liang Chiu-Chu Sara",
-      "title": "Director, 10% Owner",
-      "type": "Sale",
-      "shares": 57435.0,
-      "pricePerShare": 37.62,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "UUU",
-      "issuerName": "UNIVERSAL SAFETY PRODUCTS, INC.",
-      "insiderName": "AULT MILTON C III",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 100.0,
-      "pricePerShare": 5.49,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "TLYS",
-      "issuerName": "TILLY'S, INC.",
-      "insiderName": "Fund 1 Investments, LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 863726.0,
-      "pricePerShare": 4.6686,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "TLYS",
-      "issuerName": "TILLY'S, INC.",
-      "insiderName": "Fund 1 Investments, LLC",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 526474.0,
-      "pricePerShare": 4.1436,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -30051,6 +30051,21 @@
           "type": "Purchase",
           "shares": 35000.0,
           "pricePerShare": 2.8931,
+          "transactionDate": "2026-09-22"
+        }
+      ]
+    },
+    "SAIC": {
+      "issuerName": "Science Applications International Corp",
+      "trades": [
+        {
+          "ticker": "SAIC",
+          "issuerName": "Science Applications International Corp",
+          "insiderName": "Cush C. David",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 132.5,
           "transactionDate": "2026-09-22"
         }
       ]
@@ -30397,26 +30412,6 @@
           "shares": 1102.0,
           "pricePerShare": 4.5036,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "TLYS",
-          "issuerName": "TILLY'S, INC.",
-          "insiderName": "Fund 1 Investments, LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 863726.0,
-          "pricePerShare": 4.6686,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "TLYS",
-          "issuerName": "TILLY'S, INC.",
-          "insiderName": "Fund 1 Investments, LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 526474.0,
-          "pricePerShare": 4.1436,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -31726,6 +31721,161 @@
           "type": "Sale",
           "shares": 5085.0,
           "pricePerShare": 9.96,
+          "transactionDate": "2026-09-03"
+        }
+      ]
+    },
+    "SOPH": {
+      "issuerName": "SOPHiA GENETICS SA",
+      "trades": [
+        {
+          "ticker": "SOPH",
+          "issuerName": "SOPHiA GENETICS SA",
+          "insiderName": "CARDOZA GEORGE",
+          "title": "Chief Financial Officer",
+          "type": "Sale",
+          "shares": 774.0,
+          "pricePerShare": 8.33,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "SOPH",
+          "issuerName": "SOPHiA GENETICS SA",
+          "insiderName": "Muken Ross",
+          "title": "Director, Chief Executive Officer",
+          "type": "Sale",
+          "shares": 422.0,
+          "pricePerShare": 8.33,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "SOPH",
+          "issuerName": "SOPHiA GENETICS SA",
+          "insiderName": "Menu Philippe",
+          "title": "Chief Medical Officer",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 7.8833,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "SOPH",
+          "issuerName": "SOPHiA GENETICS SA",
+          "insiderName": "Xu Zhenyu",
+          "title": "Chief Scientific Officer",
+          "type": "Sale",
+          "shares": 4000.0,
+          "pricePerShare": 7.8844,
+          "transactionDate": "2026-09-14"
+        }
+      ]
+    },
+    "MXF": {
+      "issuerName": "MEXICO FUND INC",
+      "trades": [
+        {
+          "ticker": "MXF",
+          "issuerName": "MEXICO FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 2034.0,
+          "pricePerShare": 21.03,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "MXF",
+          "issuerName": "MEXICO FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 6403.0,
+          "pricePerShare": 20.63,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "MXF",
+          "issuerName": "MEXICO FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 459.0,
+          "pricePerShare": 20.89,
+          "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "GF": {
+      "issuerName": "NEW GERMANY FUND INC",
+      "trades": [
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 930.0,
+          "pricePerShare": 10.96,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 14185.0,
+          "pricePerShare": 10.82,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1258.0,
+          "pricePerShare": 11.1,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1534.0,
+          "pricePerShare": 10.88,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 3306.0,
+          "pricePerShare": 10.92,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 800.0,
+          "pricePerShare": 11.55,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 3721.0,
+          "pricePerShare": 11.56,
           "transactionDate": "2026-09-03"
         }
       ]
@@ -33322,71 +33472,6 @@
           "shares": 4874.0,
           "pricePerShare": 3.78,
           "transactionDate": "2026-09-18"
-        }
-      ]
-    },
-    "GF": {
-      "issuerName": "NEW GERMANY FUND INC",
-      "trades": [
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 14185.0,
-          "pricePerShare": 10.82,
-          "transactionDate": "2026-09-18"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1258.0,
-          "pricePerShare": 11.1,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1534.0,
-          "pricePerShare": 10.88,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 3306.0,
-          "pricePerShare": 10.92,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 800.0,
-          "pricePerShare": 11.55,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 3721.0,
-          "pricePerShare": 11.56,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -40437,31 +40522,6 @@
           "shares": 5160.0,
           "pricePerShare": 83.4975,
           "transactionDate": "2026-09-16"
-        }
-      ]
-    },
-    "MXF": {
-      "issuerName": "MEXICO FUND INC",
-      "trades": [
-        {
-          "ticker": "MXF",
-          "issuerName": "MEXICO FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 6403.0,
-          "pricePerShare": 20.63,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "MXF",
-          "issuerName": "MEXICO FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 459.0,
-          "pricePerShare": 20.89,
-          "transactionDate": "2026-09-15"
         }
       ]
     },
@@ -51910,31 +51970,6 @@
         }
       ]
     },
-    "SOPH": {
-      "issuerName": "SOPHiA GENETICS SA",
-      "trades": [
-        {
-          "ticker": "SOPH",
-          "issuerName": "SOPHiA GENETICS SA",
-          "insiderName": "Menu Philippe",
-          "title": "Chief Medical Officer",
-          "type": "Sale",
-          "shares": 5000.0,
-          "pricePerShare": 7.8833,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "SOPH",
-          "issuerName": "SOPHiA GENETICS SA",
-          "insiderName": "Xu Zhenyu",
-          "title": "Chief Scientific Officer",
-          "type": "Sale",
-          "shares": 4000.0,
-          "pricePerShare": 7.8844,
-          "transactionDate": "2026-09-14"
-        }
-      ]
-    },
     "YDES": {
       "issuerName": "YD Bio Ltd",
       "trades": [
@@ -62192,26 +62227,6 @@
           "shares": 57435.0,
           "pricePerShare": 37.62,
           "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SMCI",
-          "issuerName": "Super Micro Computer, Inc.",
-          "insiderName": "Liu Liang Chiu-Chu Sara",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 42565.0,
-          "pricePerShare": 36.6,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SMCI",
-          "issuerName": "Super Micro Computer, Inc.",
-          "insiderName": "Liu Liang Chiu-Chu Sara",
-          "title": "Director, 10% Owner",
-          "type": "Sale",
-          "shares": 57435.0,
-          "pricePerShare": 37.62,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -62227,16 +62242,6 @@
           "shares": 700.0,
           "pricePerShare": 5.4214,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "UUU",
-          "issuerName": "UNIVERSAL SAFETY PRODUCTS, INC.",
-          "insiderName": "AULT MILTON C III",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 100.0,
-          "pricePerShare": 5.49,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -66726,6 +66731,11 @@
       "0000950103-26-014322",
       "0000950103-26-014323",
       "0000950103-26-014324",
+      "0000950103-26-014327",
+      "0000950103-26-014328",
+      "0000950103-26-014329",
+      "0000950103-26-014330",
+      "0000950103-26-014331",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -68550,6 +68560,7 @@
       "0001104659-26-109591",
       "0001104659-26-109592",
       "0001104659-26-109602",
+      "0001104659-26-109623",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -74117,6 +74128,9 @@
       "0001193125-26-397709",
       "0001193125-26-397713",
       "0001193125-26-397717",
+      "0001193125-26-397871",
+      "0001193125-26-397872",
+      "0001193125-26-397873",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75920,6 +75934,15 @@
       "0001213900-26-102130",
       "0001213900-26-102137",
       "0001213900-26-102144",
+      "0001213900-26-102174",
+      "0001213900-26-102175",
+      "0001213900-26-102177",
+      "0001213900-26-102178",
+      "0001213900-26-102180",
+      "0001213900-26-102181",
+      "0001213900-26-102185",
+      "0001213900-26-102186",
+      "0001213900-26-102188",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -76318,6 +76341,13 @@
       "0001214659-26-011831",
       "0001214659-26-011845",
       "0001214659-26-011848",
+      "0001214659-26-011857",
+      "0001214659-26-011858",
+      "0001214659-26-011864",
+      "0001214659-26-011865",
+      "0001214659-26-011866",
+      "0001214659-26-011867",
+      "0001214659-26-011868",
       "0001214736-26-000002",
       "0001214993-26-000004",
       "0001215135-26-000012",
@@ -79350,6 +79380,8 @@
       "0001510281-26-000305",
       "0001510281-26-000306",
       "0001510281-26-000307",
+      "0001510281-26-000308",
+      "0001510281-26-000309",
       "0001511110-26-000008",
       "0001511110-26-000010",
       "0001511110-26-000012",
@@ -79815,6 +79847,7 @@
       "0001570465-26-000006",
       "0001570465-26-000007",
       "0001570660-26-000003",
+      "0001571123-26-000145",
       "0001571610-26-000013",
       "0001572661-26-000098",
       "0001572661-26-000100",
@@ -80109,6 +80142,7 @@
       "0001592900-26-004249",
       "0001592900-26-004258",
       "0001592900-26-004276",
+      "0001592900-26-004284",
       "0001592970-26-000012",
       "0001593040-26-000002",
       "0001593516-26-000004",
@@ -86389,6 +86423,24 @@
       "0001839882-26-046690",
       "0001839882-26-046691",
       "0001839882-26-046692",
+      "0001839882-26-046721",
+      "0001839882-26-046722",
+      "0001839882-26-046723",
+      "0001839882-26-046724",
+      "0001839882-26-046725",
+      "0001839882-26-046726",
+      "0001839882-26-046727",
+      "0001839882-26-046728",
+      "0001839882-26-046729",
+      "0001839882-26-046730",
+      "0001839882-26-046732",
+      "0001839882-26-046735",
+      "0001839882-26-046736",
+      "0001839882-26-046737",
+      "0001839882-26-046738",
+      "0001839882-26-046739",
+      "0001839882-26-046740",
+      "0001839882-26-046743",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -86401,6 +86453,8 @@
       "0001840706-26-000293",
       "0001840706-26-000313",
       "0001840706-26-000314",
+      "0001840706-26-000317",
+      "0001840706-26-000318",
       "0001841761-26-000092",
       "0001841761-26-000094",
       "0001841761-26-000096",
@@ -90953,6 +91007,13 @@
       "0001918704-26-028402",
       "0001918704-26-028403",
       "0001918704-26-028404",
+      "0001918704-26-028429",
+      "0001918704-26-028430",
+      "0001918704-26-028431",
+      "0001918704-26-028432",
+      "0001918704-26-028433",
+      "0001918704-26-028434",
+      "0001918704-26-028435",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
@@ -91939,6 +92000,7 @@
       "0001999371-26-021005",
       "0001999371-26-021011",
       "0001999371-26-021032",
+      "0001999371-26-021049",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -92525,6 +92587,8 @@
       "0002078265-26-000379",
       "0002078265-26-000380",
       "0002078265-26-000386",
+      "0002078265-26-000390",
+      "0002078265-26-000391",
       "0002078339-26-000012",
       "0002078374-26-000003",
       "0002078454-26-000014",
@@ -92588,6 +92652,7 @@
       "0002087127-26-000006",
       "0002087127-26-000009",
       "0002087127-26-000011",
+      "0002087376-26-000012",
       "0002087850-26-000008",
       "0002088410-26-000008",
       "0002088547-26-000010",
@@ -92903,6 +92968,7 @@
       "0002148580-26-000003",
       "0002148900-26-000005",
       "0002149159-26-000004",
+      "0002149579-26-000004",
       "0002149618-26-000006",
       "0002149626-26-000005",
       "0002149694-26-000006",
