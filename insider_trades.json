@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T12:03:18.476516+00:00",
+  "generatedAt": "2026-09-22T13:03:49.073975+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -261,6 +261,26 @@
       "type": "Purchase",
       "shares": 10000.0,
       "pricePerShare": 1.06,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "TILE",
+      "issuerName": "INTERFACE INC",
+      "insiderName": "HENDRIX DANIEL T",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 4000.0,
+      "pricePerShare": 34.05,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "SBLK",
+      "issuerName": "Star Bulk Carriers Corp.",
+      "insiderName": "Vrettou Eleni",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 3500.0,
+      "pricePerShare": 32.12,
       "transactionDate": "2026-09-21"
     },
     {
@@ -1091,6 +1111,66 @@
       "type": "Sale",
       "shares": 37500.0,
       "pricePerShare": 8.2476,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "SFST",
+      "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+      "insiderName": "ORDERS JAMES B III",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 8044.66,
+      "pricePerShare": 62.05,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "BBD",
+      "issuerName": "BANK BRADESCO",
+      "insiderName": "Alvarez Rubens Aguiar",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 46874.0,
+      "pricePerShare": 17.98,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "SBLK",
+      "issuerName": "Star Bulk Carriers Corp.",
+      "insiderName": "Balakrishnan Mahesh",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 10000.0,
+      "pricePerShare": 32.34,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "BBD",
+      "issuerName": "BANK BRADESCO",
+      "insiderName": "Alvarez Denise Aguiar",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 130596.0,
+      "pricePerShare": 17.98,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "BBD",
+      "issuerName": "BANK BRADESCO",
+      "insiderName": "Pavarina Denise Pauli",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 46874.0,
+      "pricePerShare": 17.98,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "MCFT",
+      "issuerName": "MasterCraft Boat Holdings, Inc.",
+      "insiderName": "LEEMPUTTE PETER G",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 1265.0,
+      "pricePerShare": 19.73,
       "transactionDate": "2026-09-18"
     },
     {
@@ -29922,86 +30002,6 @@
       "shares": 6.0,
       "pricePerShare": 522.06,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 19.0,
-      "pricePerShare": 523.13,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 5.0,
-      "pricePerShare": 523.7,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 7.0,
-      "pricePerShare": 525.07,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 15.0,
-      "pricePerShare": 526.87,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 3.0,
-      "pricePerShare": 527.7,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 7.0,
-      "pricePerShare": 496.59,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 12.0,
-      "pricePerShare": 497.62,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 22.0,
-      "pricePerShare": 498.62,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -31147,6 +31147,116 @@
           "shares": 25000.0,
           "pricePerShare": 0.81,
           "transactionDate": "2026-09-18"
+        }
+      ]
+    },
+    "TILE": {
+      "issuerName": "INTERFACE INC",
+      "trades": [
+        {
+          "ticker": "TILE",
+          "issuerName": "INTERFACE INC",
+          "insiderName": "HENDRIX DANIEL T",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 4000.0,
+          "pricePerShare": 34.05,
+          "transactionDate": "2026-09-21"
+        }
+      ]
+    },
+    "SBLK": {
+      "issuerName": "Star Bulk Carriers Corp.",
+      "trades": [
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Vrettou Eleni",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3500.0,
+          "pricePerShare": 32.12,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Balakrishnan Mahesh",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 32.34,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Spyrou Symeon",
+          "title": "co CFO",
+          "type": "Purchase",
+          "shares": 15000.0,
+          "pricePerShare": 28.27,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Karellis Nikolaos",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 28.27,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Erhardt Koert",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 6000.0,
+          "pricePerShare": 28.27,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Reskos Nikolaos",
+          "title": "Chief Operating Officer",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 28.27,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Plakantonaki Charis",
+          "title": "Chief Strategy Officer",
+          "type": "Purchase",
+          "shares": 3000.0,
+          "pricePerShare": 28.27,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Pappa Milena Maria",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 74400.0,
+          "pricePerShare": 28.27,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SBLK",
+          "issuerName": "Star Bulk Carriers Corp.",
+          "insiderName": "Pappas Alexandros",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 74400.0,
+          "pricePerShare": 28.27,
+          "transactionDate": "2026-09-15"
         }
       ]
     },
@@ -33646,6 +33756,36 @@
         {
           "ticker": "BBD",
           "issuerName": "BANK BRADESCO",
+          "insiderName": "Alvarez Rubens Aguiar",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 46874.0,
+          "pricePerShare": 17.98,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "BBD",
+          "issuerName": "BANK BRADESCO",
+          "insiderName": "Alvarez Denise Aguiar",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 130596.0,
+          "pricePerShare": 17.98,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "BBD",
+          "issuerName": "BANK BRADESCO",
+          "insiderName": "Pavarina Denise Pauli",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 46874.0,
+          "pricePerShare": 17.98,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "BBD",
+          "issuerName": "BANK BRADESCO",
           "insiderName": "Scarpelli Cassiano Ricardo",
           "title": "Executive Officer",
           "type": "Sale",
@@ -35132,6 +35272,46 @@
           "shares": 2907.2907,
           "pricePerShare": 8.6,
           "transactionDate": "2026-09-18"
+        }
+      ]
+    },
+    "SFST": {
+      "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+      "trades": [
+        {
+          "ticker": "SFST",
+          "issuerName": "SOUTHERN FIRST BANCSHARES INC",
+          "insiderName": "ORDERS JAMES B III",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 8044.66,
+          "pricePerShare": 62.05,
+          "transactionDate": "2026-09-18"
+        }
+      ]
+    },
+    "MCFT": {
+      "issuerName": "MasterCraft Boat Holdings, Inc.",
+      "trades": [
+        {
+          "ticker": "MCFT",
+          "issuerName": "MasterCraft Boat Holdings, Inc.",
+          "insiderName": "LEEMPUTTE PETER G",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1265.0,
+          "pricePerShare": 19.73,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "MCFT",
+          "issuerName": "MasterCraft Boat Holdings, Inc.",
+          "insiderName": "Lambert Roch",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 3845.0,
+          "pricePerShare": 19.51,
+          "transactionDate": "2026-09-15"
         }
       ]
     },
@@ -43005,81 +43185,6 @@
         }
       ]
     },
-    "SBLK": {
-      "issuerName": "Star Bulk Carriers Corp.",
-      "trades": [
-        {
-          "ticker": "SBLK",
-          "issuerName": "Star Bulk Carriers Corp.",
-          "insiderName": "Spyrou Symeon",
-          "title": "co CFO",
-          "type": "Purchase",
-          "shares": 15000.0,
-          "pricePerShare": 28.27,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "SBLK",
-          "issuerName": "Star Bulk Carriers Corp.",
-          "insiderName": "Karellis Nikolaos",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 2000.0,
-          "pricePerShare": 28.27,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "SBLK",
-          "issuerName": "Star Bulk Carriers Corp.",
-          "insiderName": "Erhardt Koert",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 6000.0,
-          "pricePerShare": 28.27,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "SBLK",
-          "issuerName": "Star Bulk Carriers Corp.",
-          "insiderName": "Reskos Nikolaos",
-          "title": "Chief Operating Officer",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 28.27,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "SBLK",
-          "issuerName": "Star Bulk Carriers Corp.",
-          "insiderName": "Plakantonaki Charis",
-          "title": "Chief Strategy Officer",
-          "type": "Purchase",
-          "shares": 3000.0,
-          "pricePerShare": 28.27,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "SBLK",
-          "issuerName": "Star Bulk Carriers Corp.",
-          "insiderName": "Pappa Milena Maria",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 74400.0,
-          "pricePerShare": 28.27,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "SBLK",
-          "issuerName": "Star Bulk Carriers Corp.",
-          "insiderName": "Pappas Alexandros",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 74400.0,
-          "pricePerShare": 28.27,
-          "transactionDate": "2026-09-15"
-        }
-      ]
-    },
     "RICK": {
       "issuerName": "RCI HOSPITALITY HOLDINGS, INC.",
       "trades": [
@@ -43222,21 +43327,6 @@
           "shares": 500.0,
           "pricePerShare": 21.3,
           "transactionDate": "2026-09-10"
-        }
-      ]
-    },
-    "MCFT": {
-      "issuerName": "MasterCraft Boat Holdings, Inc.",
-      "trades": [
-        {
-          "ticker": "MCFT",
-          "issuerName": "MasterCraft Boat Holdings, Inc.",
-          "insiderName": "Lambert Roch",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 3845.0,
-          "pricePerShare": 19.51,
-          "transactionDate": "2026-09-15"
         }
       ]
     },
@@ -48331,86 +48421,6 @@
           "type": "Sale",
           "shares": 6.0,
           "pricePerShare": 522.06,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 19.0,
-          "pricePerShare": 523.13,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5.0,
-          "pricePerShare": 523.7,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7.0,
-          "pricePerShare": 525.07,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15.0,
-          "pricePerShare": 526.87,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 3.0,
-          "pricePerShare": 527.7,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7.0,
-          "pricePerShare": 496.59,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 12.0,
-          "pricePerShare": 497.62,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 22.0,
-          "pricePerShare": 498.62,
           "transactionDate": "2026-09-03"
         }
       ]
@@ -67192,6 +67202,7 @@
       "0001090009-26-000096",
       "0001090009-26-000098",
       "0001090009-26-000100",
+      "0001090009-26-000106",
       "0001090012-26-000108",
       "0001090012-26-000123",
       "0001090012-26-000124",
@@ -67206,6 +67217,7 @@
       "0001093557-26-000137",
       "0001093557-26-000147",
       "0001093557-26-000161",
+      "0001094629-26-000003",
       "0001094718-26-000009",
       "0001094891-26-000260",
       "0001094891-26-000286",
@@ -69502,6 +69514,7 @@
       "0001140361-26-037222",
       "0001140361-26-037224",
       "0001140361-26-037228",
+      "0001140361-26-037299",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -73987,6 +74000,11 @@
       "0001193125-26-397196",
       "0001193125-26-397218",
       "0001193125-26-397230",
+      "0001193125-26-397254",
+      "0001193125-26-397288",
+      "0001193125-26-397291",
+      "0001193125-26-397302",
+      "0001193125-26-397310",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75773,6 +75791,11 @@
       "0001213900-26-101966",
       "0001213900-26-101971",
       "0001213900-26-101972",
+      "0001213900-26-101974",
+      "0001213900-26-101975",
+      "0001213900-26-101992",
+      "0001213900-26-101995",
+      "0001213900-26-101996",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -76779,6 +76802,9 @@
       "0001292814-26-004605",
       "0001292814-26-004625",
       "0001292814-26-004631",
+      "0001292814-26-004633",
+      "0001292814-26-004635",
+      "0001292814-26-004638",
       "0001293167-26-000004",
       "0001293171-26-000012",
       "0001294172-26-000019",
@@ -79042,6 +79068,7 @@
       "0001493152-26-043613",
       "0001493152-26-043617",
       "0001493152-26-043640",
+      "0001493152-26-043648",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -80124,6 +80151,7 @@
       "0001624067-26-000006",
       "0001624067-26-000008",
       "0001624651-26-000041",
+      "0001624829-26-000005",
       "0001625057-26-000006",
       "0001625641-26-000156",
       "0001626201-26-000018",
@@ -90582,6 +90610,8 @@
       "0001918704-26-028261",
       "0001918704-26-028262",
       "0001918704-26-028263",
+      "0001918704-26-028264",
+      "0001918704-26-028265",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
@@ -91561,6 +91591,7 @@
       "0001999371-26-020975",
       "0001999371-26-020977",
       "0001999371-26-020993",
+      "0001999371-26-020998",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -92341,6 +92372,7 @@
       "0002116333-26-000001",
       "0002116673-26-000002",
       "0002117102-26-000004",
+      "0002117770-26-000005",
       "0002117905-26-000018",
       "0002117905-26-000020",
       "0002117905-26-000021",
@@ -92364,6 +92396,8 @@
       "0002119238-26-000008",
       "0002119288-26-000005",
       "0002119291-26-000004",
+      "0002119764-26-000024",
+      "0002119764-26-000026",
       "0002120008-26-000006",
       "0002120298-26-000002",
       "0002120458-26-000002",
