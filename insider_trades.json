@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T01:03:59.605740+00:00",
+  "generatedAt": "2026-09-22T02:02:25.051108+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -981,6 +981,26 @@
       "type": "Sale",
       "shares": 591.0,
       "pricePerShare": 247.45,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "GCT",
+      "issuerName": "GigaCloud Technology Inc",
+      "insiderName": "Chen Zhiwu",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1200.0,
+      "pricePerShare": 53.48,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "GCT",
+      "issuerName": "GigaCloud Technology Inc",
+      "insiderName": "Chen Zhiwu",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 1800.0,
+      "pricePerShare": 52.88,
       "transactionDate": "2026-09-18"
     },
     {
@@ -2701,6 +2721,26 @@
       "type": "Sale",
       "shares": 120.0,
       "pricePerShare": 249.86,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "VENU",
+      "issuerName": "Venu Holding Corp",
+      "insiderName": "Cominsky Stephen Joseph",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 3234.0,
+      "pricePerShare": 1.7,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "ENHA",
+      "issuerName": "Enhanced Group Inc.",
+      "insiderName": "Apeiron Investment Group Ltd.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 6080047.0,
+      "pricePerShare": 1.15,
       "transactionDate": "2026-09-17"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 47.0,
       "pricePerShare": 510.05,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 56.0,
-      "pricePerShare": 511.02,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 90.0,
-      "pricePerShare": 512.1,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors V, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 104.0,
-      "pricePerShare": 513.12,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DELL",
-      "issuerName": "Dell Technologies Inc.",
-      "insiderName": "Silver Lake Technology Investors IV, L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 170.0,
-      "pricePerShare": 514.07,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -34805,6 +34805,51 @@
         }
       ]
     },
+    "GCT": {
+      "issuerName": "GigaCloud Technology Inc",
+      "trades": [
+        {
+          "ticker": "GCT",
+          "issuerName": "GigaCloud Technology Inc",
+          "insiderName": "Chen Zhiwu",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1200.0,
+          "pricePerShare": 53.48,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "GCT",
+          "issuerName": "GigaCloud Technology Inc",
+          "insiderName": "Chen Zhiwu",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1800.0,
+          "pricePerShare": 52.88,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "GCT",
+          "issuerName": "GigaCloud Technology Inc",
+          "insiderName": "Chen Zhiwu",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 52.96,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "GCT",
+          "issuerName": "GigaCloud Technology Inc",
+          "insiderName": "Chen Zhiwu",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 52.38,
+          "transactionDate": "2026-09-14"
+        }
+      ]
+    },
     "NEGG": {
       "issuerName": "Newegg Commerce, Inc.",
       "trades": [
@@ -38160,6 +38205,66 @@
         }
       ]
     },
+    "VENU": {
+      "issuerName": "Venu Holding Corp",
+      "trades": [
+        {
+          "ticker": "VENU",
+          "issuerName": "Venu Holding Corp",
+          "insiderName": "Cominsky Stephen Joseph",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 3234.0,
+          "pricePerShare": 1.7,
+          "transactionDate": "2026-09-17"
+        }
+      ]
+    },
+    "ENHA": {
+      "issuerName": "Enhanced Group Inc.",
+      "trades": [
+        {
+          "ticker": "ENHA",
+          "issuerName": "Enhanced Group Inc.",
+          "insiderName": "Apeiron Investment Group Ltd.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 6080047.0,
+          "pricePerShare": 1.15,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "ENHA",
+          "issuerName": "Enhanced Group Inc.",
+          "insiderName": "Apeiron Investment Group Ltd.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 99342.0,
+          "pricePerShare": 1.6043,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "ENHA",
+          "issuerName": "Enhanced Group Inc.",
+          "insiderName": "Apeiron Investment Group Ltd.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 59337.0,
+          "pricePerShare": 1.5686,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "ENHA",
+          "issuerName": "Enhanced Group Inc.",
+          "insiderName": "Apeiron Investment Group Ltd.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 21034.0,
+          "pricePerShare": 1.6116,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
     "RWT": {
       "issuerName": "REDWOOD TRUST INC",
       "trades": [
@@ -39447,31 +39552,6 @@
           "shares": 34005.0,
           "pricePerShare": 353.871,
           "transactionDate": "2026-09-04"
-        }
-      ]
-    },
-    "GCT": {
-      "issuerName": "GigaCloud Technology Inc",
-      "trades": [
-        {
-          "ticker": "GCT",
-          "issuerName": "GigaCloud Technology Inc",
-          "insiderName": "Chen Zhiwu",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1500.0,
-          "pricePerShare": 52.96,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "GCT",
-          "issuerName": "GigaCloud Technology Inc",
-          "insiderName": "Chen Zhiwu",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1500.0,
-          "pricePerShare": 52.38,
-          "transactionDate": "2026-09-14"
         }
       ]
     },
@@ -48327,46 +48407,6 @@
           "shares": 47.0,
           "pricePerShare": 510.05,
           "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 56.0,
-          "pricePerShare": 511.02,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 90.0,
-          "pricePerShare": 512.1,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors V, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 104.0,
-          "pricePerShare": 513.12,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DELL",
-          "issuerName": "Dell Technologies Inc.",
-          "insiderName": "Silver Lake Technology Investors IV, L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 170.0,
-          "pricePerShare": 514.07,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -56691,41 +56731,6 @@
           "type": "Purchase",
           "shares": 2100.0,
           "pricePerShare": 68.98,
-          "transactionDate": "2026-09-04"
-        }
-      ]
-    },
-    "ENHA": {
-      "issuerName": "Enhanced Group Inc.",
-      "trades": [
-        {
-          "ticker": "ENHA",
-          "issuerName": "Enhanced Group Inc.",
-          "insiderName": "Apeiron Investment Group Ltd.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 99342.0,
-          "pricePerShare": 1.6043,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "ENHA",
-          "issuerName": "Enhanced Group Inc.",
-          "insiderName": "Apeiron Investment Group Ltd.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 59337.0,
-          "pricePerShare": 1.5686,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "ENHA",
-          "issuerName": "Enhanced Group Inc.",
-          "insiderName": "Apeiron Investment Group Ltd.",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 21034.0,
-          "pricePerShare": 1.6116,
           "transactionDate": "2026-09-04"
         }
       ]
@@ -73949,6 +73954,8 @@
       "0001193125-26-396935",
       "0001193125-26-396944",
       "0001193125-26-396945",
+      "0001193125-26-397056",
+      "0001193125-26-397059",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75728,6 +75735,7 @@
       "0001213900-26-101864",
       "0001213900-26-101880",
       "0001213900-26-101883",
+      "0001213900-26-101909",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -78993,6 +79001,7 @@
       "0001493152-26-043607",
       "0001493152-26-043612",
       "0001493152-26-043613",
+      "0001493152-26-043617",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -81366,6 +81375,7 @@
       "0001673358-26-000145",
       "0001673358-26-000147",
       "0001673358-26-000149",
+      "0001673358-26-000152",
       "0001673421-26-000014",
       "0001673528-26-000014",
       "0001674244-26-000010",
@@ -91530,6 +91540,7 @@
       "0002002763-26-000012",
       "0002004135-26-000004",
       "0002004135-26-000008",
+      "0002004135-26-000010",
       "0002004222-26-000006",
       "0002004239-26-000011",
       "0002004299-26-000008",
