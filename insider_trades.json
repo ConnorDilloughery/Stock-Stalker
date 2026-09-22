@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T15:01:45.290530+00:00",
+  "generatedAt": "2026-09-22T16:04:48.037407+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -341,6 +341,16 @@
       "type": "Purchase",
       "shares": 1430.0,
       "pricePerShare": 15.35,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 3.05,
       "transactionDate": "2026-09-21"
     },
     {
@@ -1310,6 +1320,26 @@
       "title": "Executive Officer",
       "type": "Purchase",
       "shares": 63719.0,
+      "pricePerShare": 17.98,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "KLTR",
+      "issuerName": "KALTURA INC",
+      "insiderName": "Azaria Eynav",
+      "title": "See Remarks",
+      "type": "Sale",
+      "shares": 4100.0,
+      "pricePerShare": 1.4078,
+      "transactionDate": "2026-09-18"
+    },
+    {
+      "ticker": "BBD",
+      "issuerName": "BANK BRADESCO",
+      "insiderName": "Caffarelli Paulo Rogerio",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 31266.0,
       "pricePerShare": 17.98,
       "transactionDate": "2026-09-18"
     },
@@ -29972,36 +30002,6 @@
       "shares": 400.0,
       "pricePerShare": 288.9792,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "QVCG",
-      "issuerName": "QVC Group, Inc.",
-      "insiderName": "Silver Point Capital L.P.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 720000.0,
-      "pricePerShare": 16.45,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "AMAL",
-      "issuerName": "Amalgamated Financial Corp.",
-      "insiderName": "Western States Regional Joint Board, Workers United",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 44658.0,
-      "pricePerShare": 49.4306,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "AMAL",
-      "issuerName": "Amalgamated Financial Corp.",
-      "insiderName": "Workers United",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 44658.0,
-      "pricePerShare": 49.4306,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -31517,6 +31517,111 @@
           "shares": 1430.0,
           "pricePerShare": 15.35,
           "transactionDate": "2026-09-21"
+        }
+      ]
+    },
+    "RCG": {
+      "issuerName": "RENN Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.05,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.04,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.04,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.05,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.98,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.94,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.9,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -33310,101 +33415,6 @@
         }
       ]
     },
-    "RCG": {
-      "issuerName": "RENN Fund, Inc.",
-      "trades": [
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.04,
-          "transactionDate": "2026-09-18"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.04,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.05,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.98,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.94,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.9,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-03"
-        }
-      ]
-    },
     "KR": {
       "issuerName": "KROGER CO",
       "trades": [
@@ -34015,6 +34025,16 @@
           "title": "Executive Officer",
           "type": "Purchase",
           "shares": 63719.0,
+          "pricePerShare": 17.98,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "BBD",
+          "issuerName": "BANK BRADESCO",
+          "insiderName": "Caffarelli Paulo Rogerio",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 31266.0,
           "pricePerShare": 17.98,
           "transactionDate": "2026-09-18"
         },
@@ -35547,6 +35567,101 @@
           "shares": 3845.0,
           "pricePerShare": 19.51,
           "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "KLTR": {
+      "issuerName": "KALTURA INC",
+      "trades": [
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 4100.0,
+          "pricePerShare": 1.4078,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 6113.0,
+          "pricePerShare": 1.4085,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 5149.0,
+          "pricePerShare": 1.4282,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 5656.0,
+          "pricePerShare": 1.4229,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 3763.0,
+          "pricePerShare": 1.4462,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 10078.0,
+          "pricePerShare": 1.4801,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 12341.0,
+          "pricePerShare": 1.4875,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 8176.0,
+          "pricePerShare": 1.5087,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "KLTR",
+          "issuerName": "KALTURA INC",
+          "insiderName": "Azaria Eynav",
+          "title": "See Remarks",
+          "type": "Sale",
+          "shares": 9866.0,
+          "pricePerShare": 1.5318,
+          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -43265,91 +43380,6 @@
         }
       ]
     },
-    "KLTR": {
-      "issuerName": "KALTURA INC",
-      "trades": [
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 6113.0,
-          "pricePerShare": 1.4085,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 5149.0,
-          "pricePerShare": 1.4282,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 5656.0,
-          "pricePerShare": 1.4229,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 3763.0,
-          "pricePerShare": 1.4462,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 10078.0,
-          "pricePerShare": 1.4801,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 12341.0,
-          "pricePerShare": 1.4875,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 8176.0,
-          "pricePerShare": 1.5087,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "KLTR",
-          "issuerName": "KALTURA INC",
-          "insiderName": "Azaria Eynav",
-          "title": "See Remarks",
-          "type": "Sale",
-          "shares": 9866.0,
-          "pricePerShare": 1.5318,
-          "transactionDate": "2026-09-03"
-        }
-      ]
-    },
     "NDSN": {
       "issuerName": "NORDSON CORP",
       "trades": [
@@ -48987,26 +49017,6 @@
           "shares": 22982.0,
           "pricePerShare": 49.1392,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "AMAL",
-          "issuerName": "Amalgamated Financial Corp.",
-          "insiderName": "Western States Regional Joint Board, Workers United",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 44658.0,
-          "pricePerShare": 49.4306,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "AMAL",
-          "issuerName": "Amalgamated Financial Corp.",
-          "insiderName": "Workers United",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 44658.0,
-          "pricePerShare": 49.4306,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -60052,16 +60062,6 @@
           "shares": 720000.0,
           "pricePerShare": 16.45,
           "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "QVCG",
-          "issuerName": "QVC Group, Inc.",
-          "insiderName": "Silver Point Capital L.P.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 720000.0,
-          "pricePerShare": 16.45,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -65114,6 +65114,7 @@
       "0000919574-26-006325",
       "0000919574-26-006398",
       "0000919574-26-006399",
+      "0000919574-26-006417",
       "0000920148-26-000172",
       "0000920148-26-000176",
       "0000920148-26-000177",
@@ -66693,6 +66694,11 @@
       "0000950103-26-014297",
       "0000950103-26-014298",
       "0000950103-26-014299",
+      "0000950103-26-014306",
+      "0000950103-26-014307",
+      "0000950103-26-014308",
+      "0000950103-26-014309",
+      "0000950103-26-014310",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -69589,6 +69595,7 @@
       "0001168404-26-000039",
       "0001168404-26-000041",
       "0001170817-26-000007",
+      "0001170817-26-000009",
       "0001171843-26-004845",
       "0001171843-26-005125",
       "0001171843-26-005126",
@@ -74046,6 +74053,7 @@
       "0001193125-26-397381",
       "0001193125-26-397387",
       "0001193125-26-397400",
+      "0001193125-26-397497",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75840,6 +75848,7 @@
       "0001213900-26-102022",
       "0001213900-26-102030",
       "0001213900-26-102034",
+      "0001213900-26-102054",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -76857,6 +76866,7 @@
       "0001292814-26-004652",
       "0001292814-26-004654",
       "0001292814-26-004656",
+      "0001292814-26-004666",
       "0001293167-26-000004",
       "0001293171-26-000012",
       "0001294172-26-000019",
@@ -77976,6 +77986,8 @@
       "0001437749-26-030860",
       "0001437749-26-030861",
       "0001437749-26-030864",
+      "0001437749-26-030869",
+      "0001437749-26-030870",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -80120,6 +80132,7 @@
       "0001608311-26-000005",
       "0001608347-26-000013",
       "0001608347-26-000018",
+      "0001608347-26-000020",
       "0001608511-26-000015",
       "0001608511-26-000017",
       "0001608511-26-000019",
@@ -81182,6 +81195,7 @@
       "0001628280-26-062858",
       "0001628280-26-062926",
       "0001628280-26-062934",
+      "0001628280-26-062977",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -82956,6 +82970,7 @@
       "0001829126-26-010274",
       "0001829126-26-010290",
       "0001829126-26-010292",
+      "0001829126-26-010298",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -86239,6 +86254,21 @@
       "0001839882-26-046559",
       "0001839882-26-046564",
       "0001839882-26-046586",
+      "0001839882-26-046624",
+      "0001839882-26-046625",
+      "0001839882-26-046626",
+      "0001839882-26-046627",
+      "0001839882-26-046628",
+      "0001839882-26-046629",
+      "0001839882-26-046631",
+      "0001839882-26-046633",
+      "0001839882-26-046634",
+      "0001839882-26-046635",
+      "0001839882-26-046638",
+      "0001839882-26-046639",
+      "0001839882-26-046640",
+      "0001839882-26-046641",
+      "0001839882-26-046643",
       "0001840244-26-000015",
       "0001840244-26-000016",
       "0001840480-26-000002",
@@ -90717,6 +90747,31 @@
       "0001918704-26-028295",
       "0001918704-26-028296",
       "0001918704-26-028297",
+      "0001918704-26-028307",
+      "0001918704-26-028308",
+      "0001918704-26-028309",
+      "0001918704-26-028310",
+      "0001918704-26-028311",
+      "0001918704-26-028312",
+      "0001918704-26-028313",
+      "0001918704-26-028314",
+      "0001918704-26-028315",
+      "0001918704-26-028316",
+      "0001918704-26-028317",
+      "0001918704-26-028318",
+      "0001918704-26-028319",
+      "0001918704-26-028320",
+      "0001918704-26-028321",
+      "0001918704-26-028322",
+      "0001918704-26-028323",
+      "0001918704-26-028324",
+      "0001918704-26-028325",
+      "0001918704-26-028326",
+      "0001918704-26-028327",
+      "0001918704-26-028328",
+      "0001918704-26-028329",
+      "0001918704-26-028330",
+      "0001918704-26-028331",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
