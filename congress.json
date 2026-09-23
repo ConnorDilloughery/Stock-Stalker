@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T07:04:03.454343+00:00",
+  "generatedAt": "2026-09-23T13:07:06.630461+00:00",
   "source": "U.S. Senate (efdsearch.senate.gov) + U.S. House (disclosures-clerk.house.gov) + President Trump's PTRs (whitehouse.gov)",
   "count": 5000,
   "trades": [
@@ -2829,6 +2829,20 @@
       "amountRange": "$1,001 - $15,000",
       "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035420.pdf",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035420.pdf",
+      "source": "house"
+    },
+    {
+      "politician": "Allen, Richard W.",
+      "office": "GA12",
+      "transactionDate": "08/12/2026",
+      "filedDate": null,
+      "owner": null,
+      "ticker": "ROL",
+      "assetName": null,
+      "type": "Sale",
+      "amountRange": "$15,001 - $50,000",
+      "sourceId": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf",
       "source": "house"
     },
     {
@@ -69988,20 +70002,6 @@
       "sourceId": "10c522ae1212db42",
       "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/06/President-Donald-J.-Trump-Periodic-Transaction-Report-0.6.25.26-1.pdf",
       "source": "president"
-    },
-    {
-      "politician": "Donald J. Trump",
-      "office": "President",
-      "transactionDate": null,
-      "filedDate": null,
-      "owner": null,
-      "ticker": "MU",
-      "assetName": null,
-      "type": "Purchase",
-      "amountRange": "$15,001 - $50,000",
-      "sourceId": "10c522ae1212db42",
-      "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/06/President-Donald-J.-Trump-Periodic-Transaction-Report-0.6.25.26-1.pdf",
-      "source": "president"
     }
   ],
   "politicians": {
@@ -87647,13 +87647,6 @@
               "type": null,
               "amountRange": "$1,001 - $15,000",
               "owner": null
-            },
-            {
-              "transactionDate": null,
-              "filedDate": null,
-              "type": "Purchase",
-              "amountRange": "$15,001 - $50,000",
-              "owner": null
             }
           ],
           "lastAction": "Purchase",
@@ -88344,7 +88337,7 @@
           "lastDate": null
         }
       },
-      "tradeCount": 366
+      "tradeCount": 365
     },
     "Donalds, Byron": {
       "office": "FL19",
@@ -89184,6 +89177,155 @@
         }
       },
       "tradeCount": 77
+    },
+    "Allen, Richard W.": {
+      "office": "GA12",
+      "tickers": {
+        "ROL": {
+          "trades": [
+            {
+              "transactionDate": "08/12/2026",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$15,001 - $50,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "08/12/2026"
+        },
+        "AMD": {
+          "trades": [
+            {
+              "transactionDate": "07/14/2026",
+              "filedDate": null,
+              "type": "Purchase",
+              "amountRange": "$1,001 - $15,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Purchase",
+          "lastDate": "07/14/2026"
+        },
+        "AXP": {
+          "trades": [
+            {
+              "transactionDate": "05/08/2026",
+              "filedDate": null,
+              "type": "Purchase",
+              "amountRange": "$1,001 - $15,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Purchase",
+          "lastDate": "05/08/2026"
+        },
+        "PG": {
+          "trades": [
+            {
+              "transactionDate": "04/16/2026",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$15,001 - $50,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "04/16/2026"
+        },
+        "AMP": {
+          "trades": [
+            {
+              "transactionDate": "04/15/2026",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$50,001 - $100,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "04/15/2026"
+        },
+        "TSM": {
+          "trades": [
+            {
+              "transactionDate": "02/19/2026",
+              "filedDate": null,
+              "type": "Purchase",
+              "amountRange": "$1,001 - $15,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Purchase",
+          "lastDate": "02/19/2026"
+        },
+        "INTU": {
+          "trades": [
+            {
+              "transactionDate": "02/18/2026",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$15,001 - $50,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "02/18/2026"
+        },
+        "PAYX": {
+          "trades": [
+            {
+              "transactionDate": "01/14/2026",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$15,001 - $50,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "01/14/2026"
+        },
+        "NFLX": {
+          "trades": [
+            {
+              "transactionDate": "12/12/2025",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$1,001 - $15,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "12/12/2025"
+        },
+        "ATO": {
+          "trades": [
+            {
+              "transactionDate": "08/19/2025",
+              "filedDate": null,
+              "type": "Purchase",
+              "amountRange": "$15,001 - $50,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Purchase",
+          "lastDate": "08/19/2025"
+        },
+        "TMO": {
+          "trades": [
+            {
+              "transactionDate": "05/16/2025",
+              "filedDate": null,
+              "type": "Sale",
+              "amountRange": "$15,001 - $50,000",
+              "owner": null
+            }
+          ],
+          "lastAction": "Sale",
+          "lastDate": "05/16/2025"
+        }
+      },
+      "tradeCount": 11
     },
     "Morrison, Kelly Louise": {
       "office": "MN03",
@@ -90601,142 +90743,6 @@
         }
       },
       "tradeCount": 4
-    },
-    "Allen, Richard W.": {
-      "office": "GA12",
-      "tickers": {
-        "AMD": {
-          "trades": [
-            {
-              "transactionDate": "07/14/2026",
-              "filedDate": null,
-              "type": "Purchase",
-              "amountRange": "$1,001 - $15,000",
-              "owner": null
-            }
-          ],
-          "lastAction": "Purchase",
-          "lastDate": "07/14/2026"
-        },
-        "AXP": {
-          "trades": [
-            {
-              "transactionDate": "05/08/2026",
-              "filedDate": null,
-              "type": "Purchase",
-              "amountRange": "$1,001 - $15,000",
-              "owner": null
-            }
-          ],
-          "lastAction": "Purchase",
-          "lastDate": "05/08/2026"
-        },
-        "PG": {
-          "trades": [
-            {
-              "transactionDate": "04/16/2026",
-              "filedDate": null,
-              "type": "Sale",
-              "amountRange": "$15,001 - $50,000",
-              "owner": null
-            }
-          ],
-          "lastAction": "Sale",
-          "lastDate": "04/16/2026"
-        },
-        "AMP": {
-          "trades": [
-            {
-              "transactionDate": "04/15/2026",
-              "filedDate": null,
-              "type": "Sale",
-              "amountRange": "$50,001 - $100,000",
-              "owner": null
-            }
-          ],
-          "lastAction": "Sale",
-          "lastDate": "04/15/2026"
-        },
-        "TSM": {
-          "trades": [
-            {
-              "transactionDate": "02/19/2026",
-              "filedDate": null,
-              "type": "Purchase",
-              "amountRange": "$1,001 - $15,000",
-              "owner": null
-            }
-          ],
-          "lastAction": "Purchase",
-          "lastDate": "02/19/2026"
-        },
-        "INTU": {
-          "trades": [
-            {
-              "transactionDate": "02/18/2026",
-              "filedDate": null,
-              "type": "Sale",
-              "amountRange": "$15,001 - $50,000",
-              "owner": null
-            }
-          ],
-          "lastAction": "Sale",
-          "lastDate": "02/18/2026"
-        },
-        "PAYX": {
-          "trades": [
-            {
-              "transactionDate": "01/14/2026",
-              "filedDate": null,
-              "type": "Sale",
-              "amountRange": "$15,001 - $50,000",
-              "owner": null
-            }
-          ],
-          "lastAction": "Sale",
-          "lastDate": "01/14/2026"
-        },
-        "NFLX": {
-          "trades": [
-            {
-              "transactionDate": "12/12/2025",
-              "filedDate": null,
-              "type": "Sale",
-              "amountRange": "$1,001 - $15,000",
-              "owner": null
-            }
-          ],
-          "lastAction": "Sale",
-          "lastDate": "12/12/2025"
-        },
-        "ATO": {
-          "trades": [
-            {
-              "transactionDate": "08/19/2025",
-              "filedDate": null,
-              "type": "Purchase",
-              "amountRange": "$15,001 - $50,000",
-              "owner": null
-            }
-          ],
-          "lastAction": "Purchase",
-          "lastDate": "08/19/2025"
-        },
-        "TMO": {
-          "trades": [
-            {
-              "transactionDate": "05/16/2025",
-              "filedDate": null,
-              "type": "Sale",
-              "amountRange": "$15,001 - $50,000",
-              "owner": null
-            }
-          ],
-          "lastAction": "Sale",
-          "lastDate": "05/16/2025"
-        }
-      },
-      "tradeCount": 10
     },
     "Moskowitz, Jared": {
       "office": "FL23",
@@ -123201,6 +123207,9 @@
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035471.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035489.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf",
+      "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035499.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221321.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221322.pdf",
       "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221326.pdf",
