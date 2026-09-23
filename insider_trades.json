@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T14:01:22.716954+00:00",
+  "generatedAt": "2026-09-23T15:03:45.587273+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -251,6 +251,46 @@
       "type": "Purchase",
       "shares": 74000.0,
       "pricePerShare": 2.5,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 3.05,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "GAM",
+      "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
+      "insiderName": "Grassi Craig Anthony",
+      "title": "Vice-President",
+      "type": "Purchase",
+      "shares": 2000.0,
+      "pricePerShare": 23.08,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "GOAI",
+      "issuerName": "Eva Live Inc",
+      "insiderName": "Boulette David",
+      "title": "Director, Chief Executive Officer, 10% Owner",
+      "type": "Purchase",
+      "shares": 18478.0,
+      "pricePerShare": 2.03,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "NMAX",
+      "issuerName": "Newsmax Inc.",
+      "insiderName": "CONYERS INVESTMENTS LLC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 22000.0,
+      "pricePerShare": 11.072,
       "transactionDate": "2026-09-22"
     },
     {
@@ -1571,6 +1611,36 @@
       "type": "Sale",
       "shares": 11030.0,
       "pricePerShare": 126.1489,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "ATI",
+      "issuerName": "ATI INC",
+      "insiderName": "Harris Timothy J",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 9000.0,
+      "pricePerShare": 191.82,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "PHVS",
+      "issuerName": "Pharvaris N.V.",
+      "insiderName": "Nassif David W.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 6000.0,
+      "pricePerShare": 36.4668,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "NMAX",
+      "issuerName": "Newsmax Inc.",
+      "insiderName": "CONYERS INVESTMENTS LLC",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 14251.0,
+      "pricePerShare": 11.019,
       "transactionDate": "2026-09-21"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 132.0,
       "pricePerShare": 112.07,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 828.0,
-      "pricePerShare": 113.08,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Wang Yanjun",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 540.0,
-      "pricePerShare": 113.86,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 2300.0,
-      "pricePerShare": 112.14,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 10104.0,
-      "pricePerShare": 113.15,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SE",
-      "issuerName": "Sea Ltd",
-      "insiderName": "Ye Gang",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 7596.0,
-      "pricePerShare": 113.93,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DGICA",
-      "issuerName": "DONEGAL GROUP INC",
-      "insiderName": "HUBER BARRY CRAIG",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 4500.0,
-      "pricePerShare": 19.4304,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DGICA",
-      "issuerName": "DONEGAL GROUP INC",
-      "insiderName": "VIOZZI VINCENT ANTHONY",
-      "title": "Sr. VP & Chief Inv Officer",
-      "type": "Sale",
-      "shares": 2282.0,
-      "pricePerShare": 19.5,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -31867,56 +31867,6 @@
           "shares": 132.0,
           "pricePerShare": 112.07,
           "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 828.0,
-          "pricePerShare": 113.08,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Wang Yanjun",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 540.0,
-          "pricePerShare": 113.86,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 2300.0,
-          "pricePerShare": 112.14,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 10104.0,
-          "pricePerShare": 113.15,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "SE",
-          "issuerName": "Sea Ltd",
-          "insiderName": "Ye Gang",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 7596.0,
-          "pricePerShare": 113.93,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -31992,6 +31942,246 @@
           "shares": 74000.0,
           "pricePerShare": 2.5,
           "transactionDate": "2026-09-22"
+        }
+      ]
+    },
+    "RCG": {
+      "issuerName": "RENN Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.05,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.05,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.04,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.04,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.05,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.98,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.94,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.9,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "GAM": {
+      "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
+      "trades": [
+        {
+          "ticker": "GAM",
+          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
+          "insiderName": "Grassi Craig Anthony",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 23.08,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "GAM",
+          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
+          "insiderName": "Priest Jeffrey W",
+          "title": "President & CEO",
+          "type": "Purchase",
+          "shares": 4000.0,
+          "pricePerShare": 23.46,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "GAM",
+          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
+          "insiderName": "Jin Samantha X.",
+          "title": "Treasurer/PAO/PFO",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 23.66,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "GAM",
+          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
+          "insiderName": "Jin Samantha X.",
+          "title": "Treasurer/PAO/PFO",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 23.69,
+          "transactionDate": "2026-09-17"
+        }
+      ]
+    },
+    "GOAI": {
+      "issuerName": "Eva Live Inc",
+      "trades": [
+        {
+          "ticker": "GOAI",
+          "issuerName": "Eva Live Inc",
+          "insiderName": "Boulette David",
+          "title": "Director, Chief Executive Officer, 10% Owner",
+          "type": "Purchase",
+          "shares": 18478.0,
+          "pricePerShare": 2.03,
+          "transactionDate": "2026-09-22"
+        }
+      ]
+    },
+    "NMAX": {
+      "issuerName": "Newsmax Inc.",
+      "trades": [
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 22000.0,
+          "pricePerShare": 11.072,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 14251.0,
+          "pricePerShare": 11.019,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 49588.0,
+          "pricePerShare": 11.15,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 282063.0,
+          "pricePerShare": 11.55,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 288.5,
+          "pricePerShare": 11.7,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 24448.0,
+          "pricePerShare": 11.03,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "NMAX",
+          "issuerName": "Newsmax Inc.",
+          "insiderName": "CONYERS INVESTMENTS LLC",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 49600.0,
+          "pricePerShare": 11.074,
+          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -33492,101 +33682,6 @@
           "shares": 1430.0,
           "pricePerShare": 15.35,
           "transactionDate": "2026-09-21"
-        }
-      ]
-    },
-    "RCG": {
-      "issuerName": "RENN Fund, Inc.",
-      "trades": [
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.05,
-          "transactionDate": "2026-09-21"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.04,
-          "transactionDate": "2026-09-18"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.04,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.05,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.98,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.94,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.9,
-          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -36020,6 +36115,146 @@
         }
       ]
     },
+    "ATI": {
+      "issuerName": "ATI INC",
+      "trades": [
+        {
+          "ticker": "ATI",
+          "issuerName": "ATI INC",
+          "insiderName": "Harris Timothy J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 9000.0,
+          "pricePerShare": 191.82,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "ATI",
+          "issuerName": "ATI INC",
+          "insiderName": "Harris Timothy J",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 16500.0,
+          "pricePerShare": 193.06,
+          "transactionDate": "2026-09-14"
+        }
+      ]
+    },
+    "PHVS": {
+      "issuerName": "Pharvaris N.V.",
+      "trades": [
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Nassif David W.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6000.0,
+          "pricePerShare": 36.4668,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Bjork Elisabeth",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 52500.0,
+          "pricePerShare": 37.8935,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Glassman Robert",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 14493.0,
+          "pricePerShare": 38.5574,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Lesage Anne",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 38.2733,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Souverijns Wim",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6090.0,
+          "pricePerShare": 38.99,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Abele Stefan Andreas",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 45000.0,
+          "pricePerShare": 38.1375,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Abele Stefan Andreas",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1400.0,
+          "pricePerShare": 39.2411,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Souverijns Wim",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 39.3063,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Lu Peng",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15000.0,
+          "pricePerShare": 40.1298,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Glassman Robert",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8000.0,
+          "pricePerShare": 37.5495,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Lu Peng",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15000.0,
+          "pricePerShare": 40.6756,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
     "THRY": {
       "issuerName": "Thryv Holdings, Inc.",
       "trades": [
@@ -36142,41 +36377,6 @@
           "shares": 500.0,
           "pricePerShare": 895.99,
           "transactionDate": "2026-09-08"
-        }
-      ]
-    },
-    "GAM": {
-      "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
-      "trades": [
-        {
-          "ticker": "GAM",
-          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
-          "insiderName": "Priest Jeffrey W",
-          "title": "President & CEO",
-          "type": "Purchase",
-          "shares": 4000.0,
-          "pricePerShare": 23.46,
-          "transactionDate": "2026-09-18"
-        },
-        {
-          "ticker": "GAM",
-          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
-          "insiderName": "Jin Samantha X.",
-          "title": "Treasurer/PAO/PFO",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 23.66,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "GAM",
-          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
-          "insiderName": "Jin Samantha X.",
-          "title": "Treasurer/PAO/PFO",
-          "type": "Purchase",
-          "shares": 2000.0,
-          "pricePerShare": 23.69,
-          "transactionDate": "2026-09-17"
         }
       ]
     },
@@ -39587,111 +39787,6 @@
           "shares": 120.0,
           "pricePerShare": 200.46,
           "transactionDate": "2026-09-17"
-        }
-      ]
-    },
-    "PHVS": {
-      "issuerName": "Pharvaris N.V.",
-      "trades": [
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Bjork Elisabeth",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 52500.0,
-          "pricePerShare": 37.8935,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Glassman Robert",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 14493.0,
-          "pricePerShare": 38.5574,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Lesage Anne",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 20000.0,
-          "pricePerShare": 38.2733,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Souverijns Wim",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6090.0,
-          "pricePerShare": 38.99,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Abele Stefan Andreas",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 45000.0,
-          "pricePerShare": 38.1375,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Abele Stefan Andreas",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1400.0,
-          "pricePerShare": 39.2411,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Souverijns Wim",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 20000.0,
-          "pricePerShare": 39.3063,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Lu Peng",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15000.0,
-          "pricePerShare": 40.1298,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Glassman Robert",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 8000.0,
-          "pricePerShare": 37.5495,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Lu Peng",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15000.0,
-          "pricePerShare": 40.6756,
-          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -45052,61 +45147,6 @@
           "shares": 684.0,
           "pricePerShare": 309.38,
           "transactionDate": "2026-09-15"
-        }
-      ]
-    },
-    "NMAX": {
-      "issuerName": "Newsmax Inc.",
-      "trades": [
-        {
-          "ticker": "NMAX",
-          "issuerName": "Newsmax Inc.",
-          "insiderName": "CONYERS INVESTMENTS LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 49588.0,
-          "pricePerShare": 11.15,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "NMAX",
-          "issuerName": "Newsmax Inc.",
-          "insiderName": "CONYERS INVESTMENTS LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 282063.0,
-          "pricePerShare": 11.55,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "NMAX",
-          "issuerName": "Newsmax Inc.",
-          "insiderName": "CONYERS INVESTMENTS LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 288.5,
-          "pricePerShare": 11.7,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "NMAX",
-          "issuerName": "Newsmax Inc.",
-          "insiderName": "CONYERS INVESTMENTS LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 24448.0,
-          "pricePerShare": 11.03,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "NMAX",
-          "issuerName": "Newsmax Inc.",
-          "insiderName": "CONYERS INVESTMENTS LLC",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 49600.0,
-          "pricePerShare": 11.074,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -53770,21 +53810,6 @@
         }
       ]
     },
-    "ATI": {
-      "issuerName": "ATI INC",
-      "trades": [
-        {
-          "ticker": "ATI",
-          "issuerName": "ATI INC",
-          "insiderName": "Harris Timothy J",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 16500.0,
-          "pricePerShare": 193.06,
-          "transactionDate": "2026-09-14"
-        }
-      ]
-    },
     "WEX": {
       "issuerName": "WEX Inc.",
       "trades": [
@@ -55362,26 +55387,6 @@
           "shares": 6368.0,
           "pricePerShare": 19.3916,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "HUBER BARRY CRAIG",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 4500.0,
-          "pricePerShare": 19.4304,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DGICA",
-          "issuerName": "DONEGAL GROUP INC",
-          "insiderName": "VIOZZI VINCENT ANTHONY",
-          "title": "Sr. VP & Chief Inv Officer",
-          "type": "Sale",
-          "shares": 2282.0,
-          "pricePerShare": 19.5,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -63487,6 +63492,7 @@
       "0000038777-26-000191",
       "0000040417-26-000048",
       "0000040417-26-000049",
+      "0000040417-26-000050",
       "0000043920-26-000105",
       "0000043920-26-000107",
       "0000043920-26-000109",
@@ -64025,6 +64031,7 @@
       "0000354963-26-000258",
       "0000355437-26-000228",
       "0000355437-26-000238",
+      "0000355437-26-000245",
       "0000356171-26-000106",
       "0000356171-26-000112",
       "0000701347-26-000070",
@@ -65213,6 +65220,7 @@
       "0000930413-26-002927",
       "0000930413-26-002928",
       "0000930413-26-002973",
+      "0000930413-26-002974",
       "0000931148-26-000077",
       "0000932781-26-000045",
       "0000932781-26-000047",
@@ -66704,6 +66712,8 @@
       "0000950103-26-014351",
       "0000950103-26-014352",
       "0000950103-26-014359",
+      "0000950103-26-014364",
+      "0000950103-26-014365",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -68536,6 +68546,7 @@
       "0001104659-26-109750",
       "0001104659-26-109827",
       "0001104659-26-109835",
+      "0001104659-26-109863",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -74172,6 +74183,9 @@
       "0001193125-26-398604",
       "0001193125-26-398650",
       "0001193125-26-398668",
+      "0001193125-26-398678",
+      "0001193125-26-398695",
+      "0001193125-26-398733",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -76009,6 +76023,9 @@
       "0001213900-26-102436",
       "0001213900-26-102440",
       "0001213900-26-102441",
+      "0001213900-26-102451",
+      "0001213900-26-102456",
+      "0001213900-26-102459",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -78173,6 +78190,7 @@
       "0001437749-26-030983",
       "0001437749-26-030984",
       "0001437749-26-030985",
+      "0001437749-26-031017",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -78520,6 +78538,8 @@
       "0001445546-26-007069",
       "0001445546-26-007070",
       "0001445546-26-007072",
+      "0001445546-26-007097",
+      "0001445546-26-007098",
       "0001445832-26-000011",
       "0001445832-26-000013",
       "0001446066-26-000008",
@@ -79347,6 +79367,7 @@
       "0001493152-26-043811",
       "0001493152-26-043845",
       "0001493152-26-043846",
+      "0001493152-26-043852",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -79494,6 +79515,7 @@
       "0001513030-26-000006",
       "0001513030-26-000007",
       "0001513030-26-000008",
+      "0001513030-26-000009",
       "0001513723-26-000008",
       "0001513723-26-000010",
       "0001513845-26-000088",
@@ -81444,6 +81466,7 @@
       "0001628280-26-063150",
       "0001628280-26-063152",
       "0001628280-26-063153",
+      "0001628280-26-063164",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -86605,6 +86628,19 @@
       "0001839882-26-046824",
       "0001839882-26-046832",
       "0001839882-26-046834",
+      "0001839882-26-046836",
+      "0001839882-26-046839",
+      "0001839882-26-046840",
+      "0001839882-26-046841",
+      "0001839882-26-046842",
+      "0001839882-26-046843",
+      "0001839882-26-046845",
+      "0001839882-26-046846",
+      "0001839882-26-046847",
+      "0001839882-26-046850",
+      "0001839882-26-046854",
+      "0001839882-26-046856",
+      "0001839882-26-046863",
       "0001839931-26-000002",
       "0001840244-26-000015",
       "0001840244-26-000016",
@@ -91209,6 +91245,19 @@
       "0001918704-26-028485",
       "0001918704-26-028486",
       "0001918704-26-028487",
+      "0001918704-26-028488",
+      "0001918704-26-028489",
+      "0001918704-26-028490",
+      "0001918704-26-028491",
+      "0001918704-26-028492",
+      "0001918704-26-028493",
+      "0001918704-26-028494",
+      "0001918704-26-028495",
+      "0001918704-26-028496",
+      "0001918704-26-028497",
+      "0001918704-26-028498",
+      "0001918704-26-028499",
+      "0001918704-26-028500",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
@@ -92726,6 +92775,14 @@
       "0002071844-26-001233",
       "0002071844-26-001235",
       "0002071844-26-001237",
+      "0002071844-26-001266",
+      "0002071844-26-001267",
+      "0002071844-26-001268",
+      "0002071844-26-001269",
+      "0002071844-26-001270",
+      "0002071844-26-001271",
+      "0002071844-26-001272",
+      "0002071844-26-001273",
       "0002071948-26-000005",
       "0002071953-26-000007",
       "0002071959-26-000008",
