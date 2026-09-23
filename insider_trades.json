@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T10:03:34.419979+00:00",
+  "generatedAt": "2026-09-23T12:00:36.543826+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -1451,6 +1451,46 @@
       "type": "Sale",
       "shares": 484.0,
       "pricePerShare": 102.66,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "ATEX",
+      "issuerName": "Anterix Inc.",
+      "insiderName": "Lang Scott A.",
+      "title": "Director, President and CEO",
+      "type": "Sale",
+      "shares": 15000.0,
+      "pricePerShare": 80.0,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "ADC",
+      "issuerName": "AGREE REALTY CORP",
+      "insiderName": "Erlich Craig",
+      "title": "CHIEF GROWTH OFFICER",
+      "type": "Purchase",
+      "shares": 1000.0,
+      "pricePerShare": 67.55,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "KEYS",
+      "issuerName": "Keysight Technologies, Inc.",
+      "insiderName": "Dougherty Neil",
+      "title": "EVP and CFO",
+      "type": "Sale",
+      "shares": 2000.0,
+      "pricePerShare": 340.785,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "BEKE",
+      "issuerName": "KE Holdings Inc.",
+      "insiderName": "Shan Yigang",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 3326670.0,
+      "pricePerShare": 5.4393,
       "transactionDate": "2026-09-21"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 4266.0,
       "pricePerShare": 88.59,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "ITRI",
-      "issuerName": "ITRON, INC.",
-      "insiderName": "Patrick Justin K",
-      "title": "SVP, Device Solutions",
-      "type": "Sale",
-      "shares": 7883.0,
-      "pricePerShare": 97.36,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "ITRI",
-      "issuerName": "ITRON, INC.",
-      "insiderName": "Patrick Justin K",
-      "title": "SVP, Device Solutions",
-      "type": "Sale",
-      "shares": 593.0,
-      "pricePerShare": 97.36,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "ITRI",
-      "issuerName": "ITRON, INC.",
-      "insiderName": "Patrick Justin K",
-      "title": "SVP, Device Solutions",
-      "type": "Sale",
-      "shares": 581.0,
-      "pricePerShare": 97.36,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "ITRI",
-      "issuerName": "ITRON, INC.",
-      "insiderName": "Patrick Justin K",
-      "title": "SVP, Device Solutions",
-      "type": "Sale",
-      "shares": 1153.0,
-      "pricePerShare": 97.36,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -35602,6 +35602,86 @@
           "shares": 100.0,
           "pricePerShare": 174.71,
           "transactionDate": "2026-09-14"
+        }
+      ]
+    },
+    "ATEX": {
+      "issuerName": "Anterix Inc.",
+      "trades": [
+        {
+          "ticker": "ATEX",
+          "issuerName": "Anterix Inc.",
+          "insiderName": "Lang Scott A.",
+          "title": "Director, President and CEO",
+          "type": "Sale",
+          "shares": 15000.0,
+          "pricePerShare": 80.0,
+          "transactionDate": "2026-09-21"
+        }
+      ]
+    },
+    "ADC": {
+      "issuerName": "AGREE REALTY CORP",
+      "trades": [
+        {
+          "ticker": "ADC",
+          "issuerName": "AGREE REALTY CORP",
+          "insiderName": "Erlich Craig",
+          "title": "CHIEF GROWTH OFFICER",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 67.55,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "ADC",
+          "issuerName": "AGREE REALTY CORP",
+          "insiderName": "RAKOLTA JOHN JR",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 20000.0,
+          "pricePerShare": 68.78,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "ADC",
+          "issuerName": "AGREE REALTY CORP",
+          "insiderName": "Agree Joey",
+          "title": "Director, PRESIDENT & CEO",
+          "type": "Purchase",
+          "shares": 7360.0,
+          "pricePerShare": 68.06,
+          "transactionDate": "2026-09-16"
+        }
+      ]
+    },
+    "KEYS": {
+      "issuerName": "Keysight Technologies, Inc.",
+      "trades": [
+        {
+          "ticker": "KEYS",
+          "issuerName": "Keysight Technologies, Inc.",
+          "insiderName": "Dougherty Neil",
+          "title": "EVP and CFO",
+          "type": "Sale",
+          "shares": 2000.0,
+          "pricePerShare": 340.785,
+          "transactionDate": "2026-09-21"
+        }
+      ]
+    },
+    "BEKE": {
+      "issuerName": "KE Holdings Inc.",
+      "trades": [
+        {
+          "ticker": "BEKE",
+          "issuerName": "KE Holdings Inc.",
+          "insiderName": "Shan Yigang",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 3326670.0,
+          "pricePerShare": 5.4393,
+          "transactionDate": "2026-09-21"
         }
       ]
     },
@@ -42017,31 +42097,6 @@
           "shares": 40000.0,
           "pricePerShare": 12.5627,
           "transactionDate": "2026-09-15"
-        }
-      ]
-    },
-    "ADC": {
-      "issuerName": "AGREE REALTY CORP",
-      "trades": [
-        {
-          "ticker": "ADC",
-          "issuerName": "AGREE REALTY CORP",
-          "insiderName": "RAKOLTA JOHN JR",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 20000.0,
-          "pricePerShare": 68.78,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "ADC",
-          "issuerName": "AGREE REALTY CORP",
-          "insiderName": "Agree Joey",
-          "title": "Director, PRESIDENT & CEO",
-          "type": "Purchase",
-          "shares": 7360.0,
-          "pricePerShare": 68.06,
-          "transactionDate": "2026-09-16"
         }
       ]
     },
@@ -63199,51 +63254,6 @@
           "transactionDate": "2026-09-03"
         }
       ]
-    },
-    "ITRI": {
-      "issuerName": "ITRON, INC.",
-      "trades": [
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Patrick Justin K",
-          "title": "SVP, Device Solutions",
-          "type": "Sale",
-          "shares": 7883.0,
-          "pricePerShare": 97.36,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Patrick Justin K",
-          "title": "SVP, Device Solutions",
-          "type": "Sale",
-          "shares": 593.0,
-          "pricePerShare": 97.36,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Patrick Justin K",
-          "title": "SVP, Device Solutions",
-          "type": "Sale",
-          "shares": 581.0,
-          "pricePerShare": 97.36,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "ITRI",
-          "issuerName": "ITRON, INC.",
-          "insiderName": "Patrick Justin K",
-          "title": "SVP, Device Solutions",
-          "type": "Sale",
-          "shares": 1153.0,
-          "pricePerShare": 97.36,
-          "transactionDate": "2026-09-03"
-        }
-      ]
     }
   },
   "_meta": {
@@ -74143,6 +74153,8 @@
       "0001193125-26-398434",
       "0001193125-26-398435",
       "0001193125-26-398436",
+      "0001193125-26-398439",
+      "0001193125-26-398495",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -75964,6 +75976,10 @@
       "0001213900-26-102273",
       "0001213900-26-102326",
       "0001213900-26-102338",
+      "0001213900-26-102342",
+      "0001213900-26-102361",
+      "0001213900-26-102367",
+      "0001213900-26-102368",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -79901,6 +79917,7 @@
       "0001570465-26-000007",
       "0001570660-26-000003",
       "0001571123-26-000145",
+      "0001571601-26-000014",
       "0001571610-26-000013",
       "0001572661-26-000098",
       "0001572661-26-000100",
@@ -80364,6 +80381,7 @@
       "0001620586-26-000009",
       "0001620715-26-000010",
       "0001621346-26-000006",
+      "0001621383-26-000006",
       "0001622769-26-000006",
       "0001623534-26-000006",
       "0001623632-26-001024",
@@ -82218,6 +82236,7 @@
       "0001746129-26-000032",
       "0001746129-26-000034",
       "0001746738-26-000003",
+      "0001747962-26-000007",
       "0001747989-26-000003",
       "0001748182-26-000024",
       "0001748182-26-000026",
@@ -92124,6 +92143,9 @@
       "0001999371-26-021049",
       "0001999371-26-021063",
       "0001999371-26-021067",
+      "0001999371-26-021082",
+      "0001999371-26-021088",
+      "0001999371-26-021090",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
