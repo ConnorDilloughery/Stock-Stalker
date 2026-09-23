@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-09-23T17:04:11.375296+00:00",
+  "generatedAt": "2026-09-23T18:01:23.841960+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "PMA",
+      "issuerName": "PMA Graphene Technology Group Inc.",
+      "insiderName": "Lam Chi Ming",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 6000.0,
+      "pricePerShare": 1.3008,
+      "transactionDate": "2026-09-23"
+    },
     {
       "ticker": "UMC",
       "issuerName": "UNITED MICROELECTRONICS CORP",
@@ -331,6 +341,26 @@
       "type": "Sale",
       "shares": 6656.0,
       "pricePerShare": 170.3409,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "VZ",
+      "issuerName": "VERIZON COMMUNICATIONS INC",
+      "insiderName": "Malady Kyle",
+      "title": "EVP and Group CEO-VZ Business",
+      "type": "Sale",
+      "shares": 1100.0,
+      "pricePerShare": 47.65,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "PMA",
+      "issuerName": "PMA Graphene Technology Group Inc.",
+      "insiderName": "Lam Chi Ming",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 120000.0,
+      "pricePerShare": 1.3002,
       "transactionDate": "2026-09-22"
     },
     {
@@ -1701,6 +1731,16 @@
       "type": "Sale",
       "shares": 1000.0,
       "pricePerShare": 102.31,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "RTB",
+      "issuerName": "RTB Digital, Inc.",
+      "insiderName": "Dorsett Jason Christopher",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 11000.0,
+      "pricePerShare": 8.32,
       "transactionDate": "2026-09-21"
     },
     {
@@ -29962,49 +30002,44 @@
       "shares": 10000.0,
       "pricePerShare": 105.73,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "DOCN",
-      "issuerName": "DigitalOcean Holdings, Inc.",
-      "insiderName": "Srinivasan Padmanabhan T",
-      "title": "Director, Chief Executive Officer",
-      "type": "Sale",
-      "shares": 5697.0,
-      "pricePerShare": 105.73,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "YOU",
-      "issuerName": "Clear Secure, Inc.",
-      "insiderName": "Barkin Michael Z",
-      "title": "Director, President",
-      "type": "Sale",
-      "shares": 11444.0,
-      "pricePerShare": 45.0,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "YOU",
-      "issuerName": "Clear Secure, Inc.",
-      "insiderName": "McLaughlin Kyle",
-      "title": "EVP, Aviation",
-      "type": "Sale",
-      "shares": 4499.0,
-      "pricePerShare": 44.47,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "YOU",
-      "issuerName": "Clear Secure, Inc.",
-      "insiderName": "Liu Dennis W.",
-      "title": "Chief Accounting Officer",
-      "type": "Sale",
-      "shares": 2104.0,
-      "pricePerShare": 44.47,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
+    "PMA": {
+      "issuerName": "PMA Graphene Technology Group Inc.",
+      "trades": [
+        {
+          "ticker": "PMA",
+          "issuerName": "PMA Graphene Technology Group Inc.",
+          "insiderName": "Lam Chi Ming",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 6000.0,
+          "pricePerShare": 1.3008,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "PMA",
+          "issuerName": "PMA Graphene Technology Group Inc.",
+          "insiderName": "Lam Chi Ming",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 120000.0,
+          "pricePerShare": 1.3002,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "PMA",
+          "issuerName": "PMA Graphene Technology Group Inc.",
+          "insiderName": "Lam Chi Ming",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 99114.0,
+          "pricePerShare": 1.3002,
+          "transactionDate": "2026-09-15"
+        }
+      ]
+    },
     "UMC": {
       "issuerName": "UNITED MICROELECTRONICS CORP",
       "trades": [
@@ -32360,6 +32395,41 @@
         }
       ]
     },
+    "VZ": {
+      "issuerName": "VERIZON COMMUNICATIONS INC",
+      "trades": [
+        {
+          "ticker": "VZ",
+          "issuerName": "VERIZON COMMUNICATIONS INC",
+          "insiderName": "Malady Kyle",
+          "title": "EVP and Group CEO-VZ Business",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 47.65,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "VZ",
+          "issuerName": "VERIZON COMMUNICATIONS INC",
+          "insiderName": "Malady Kyle",
+          "title": "EVP and Group CEO-VZ Business",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 51.19,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "VZ",
+          "issuerName": "VERIZON COMMUNICATIONS INC",
+          "insiderName": "Malady Kyle",
+          "title": "EVP and Group CEO-VZ Business",
+          "type": "Sale",
+          "shares": 1100.0,
+          "pricePerShare": 49.98,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
     "NEGG": {
       "issuerName": "Newegg Commerce, Inc.",
       "trades": [
@@ -33995,16 +34065,6 @@
           "title": "Chief Financial Officer",
           "type": "Sale",
           "shares": 10000.0,
-          "pricePerShare": 105.73,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "DOCN",
-          "issuerName": "DigitalOcean Holdings, Inc.",
-          "insiderName": "Srinivasan Padmanabhan T",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 5697.0,
           "pricePerShare": 105.73,
           "transactionDate": "2026-09-03"
         }
@@ -36387,6 +36447,31 @@
           "shares": 4000.0,
           "pricePerShare": 105.7192,
           "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "RTB": {
+      "issuerName": "RTB Digital, Inc.",
+      "trades": [
+        {
+          "ticker": "RTB",
+          "issuerName": "RTB Digital, Inc.",
+          "insiderName": "Dorsett Jason Christopher",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 11000.0,
+          "pricePerShare": 8.32,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "RTB",
+          "issuerName": "RTB Digital, Inc.",
+          "insiderName": "Dorsett Jason Christopher",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 19000.0,
+          "pricePerShare": 10.36,
+          "transactionDate": "2026-09-17"
         }
       ]
     },
@@ -39881,21 +39966,6 @@
           "type": "Sale",
           "shares": 600.0,
           "pricePerShare": 40.0,
-          "transactionDate": "2026-09-17"
-        }
-      ]
-    },
-    "RTB": {
-      "issuerName": "RTB Digital, Inc.",
-      "trades": [
-        {
-          "ticker": "RTB",
-          "issuerName": "RTB Digital, Inc.",
-          "insiderName": "Dorsett Jason Christopher",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 19000.0,
-          "pricePerShare": 10.36,
           "transactionDate": "2026-09-17"
         }
       ]
@@ -44350,21 +44420,6 @@
         }
       ]
     },
-    "PMA": {
-      "issuerName": "PMA Graphene Technology Group Inc.",
-      "trades": [
-        {
-          "ticker": "PMA",
-          "issuerName": "PMA Graphene Technology Group Inc.",
-          "insiderName": "Lam Chi Ming",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 99114.0,
-          "pricePerShare": 1.3002,
-          "transactionDate": "2026-09-15"
-        }
-      ]
-    },
     "ARCB": {
       "issuerName": "ARCBEST CORP /TX/",
       "trades": [
@@ -45517,31 +45572,6 @@
           "shares": 25185.0,
           "pricePerShare": 0.394,
           "transactionDate": "2026-09-14"
-        }
-      ]
-    },
-    "VZ": {
-      "issuerName": "VERIZON COMMUNICATIONS INC",
-      "trades": [
-        {
-          "ticker": "VZ",
-          "issuerName": "VERIZON COMMUNICATIONS INC",
-          "insiderName": "Malady Kyle",
-          "title": "EVP and Group CEO-VZ Business",
-          "type": "Sale",
-          "shares": 1100.0,
-          "pricePerShare": 51.19,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "VZ",
-          "issuerName": "VERIZON COMMUNICATIONS INC",
-          "insiderName": "Malady Kyle",
-          "title": "EVP and Group CEO-VZ Business",
-          "type": "Sale",
-          "shares": 1100.0,
-          "pricePerShare": 49.98,
-          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -63219,41 +63249,6 @@
           "transactionDate": "2026-09-03"
         }
       ]
-    },
-    "YOU": {
-      "issuerName": "Clear Secure, Inc.",
-      "trades": [
-        {
-          "ticker": "YOU",
-          "issuerName": "Clear Secure, Inc.",
-          "insiderName": "Barkin Michael Z",
-          "title": "Director, President",
-          "type": "Sale",
-          "shares": 11444.0,
-          "pricePerShare": 45.0,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "YOU",
-          "issuerName": "Clear Secure, Inc.",
-          "insiderName": "McLaughlin Kyle",
-          "title": "EVP, Aviation",
-          "type": "Sale",
-          "shares": 4499.0,
-          "pricePerShare": 44.47,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "YOU",
-          "issuerName": "Clear Secure, Inc.",
-          "insiderName": "Liu Dennis W.",
-          "title": "Chief Accounting Officer",
-          "type": "Sale",
-          "shares": 2104.0,
-          "pricePerShare": 44.47,
-          "transactionDate": "2026-09-03"
-        }
-      ]
     }
   },
   "_meta": {
@@ -66725,6 +66720,11 @@
       "0000950103-26-014370",
       "0000950103-26-014371",
       "0000950103-26-014372",
+      "0000950103-26-014373",
+      "0000950103-26-014374",
+      "0000950103-26-014375",
+      "0000950103-26-014376",
+      "0000950103-26-014377",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -68562,6 +68562,7 @@
       "0001104659-26-109870",
       "0001104659-26-109871",
       "0001104659-26-109874",
+      "0001104659-26-109927",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -69614,6 +69615,7 @@
       "0001140361-26-037363",
       "0001140361-26-037401",
       "0001140361-26-037403",
+      "0001140361-26-037406",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -74209,6 +74211,10 @@
       "0001193125-26-398884",
       "0001193125-26-398887",
       "0001193125-26-399000",
+      "0001193125-26-399064",
+      "0001193125-26-399065",
+      "0001193125-26-399123",
+      "0001193125-26-399143",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -76065,6 +76071,11 @@
       "0001213900-26-102511",
       "0001213900-26-102513",
       "0001213900-26-102515",
+      "0001213900-26-102516",
+      "0001213900-26-102517",
+      "0001213900-26-102519",
+      "0001213900-26-102523",
+      "0001213900-26-102529",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -76472,6 +76483,7 @@
       "0001214659-26-011868",
       "0001214659-26-011897",
       "0001214659-26-011898",
+      "0001214659-26-011899",
       "0001214736-26-000002",
       "0001214993-26-000004",
       "0001215135-26-000012",
@@ -80229,6 +80241,7 @@
       "0001580642-26-006410",
       "0001580642-26-006411",
       "0001580642-26-006419",
+      "0001580642-26-006431",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -82437,6 +82450,7 @@
       "0001760581-26-000052",
       "0001760581-26-000054",
       "0001760581-26-000056",
+      "0001760581-26-000058",
       "0001760864-26-000003",
       "0001760943-26-000008",
       "0001761862-26-000013",
@@ -86715,6 +86729,20 @@
       "0001839882-26-046899",
       "0001839882-26-046900",
       "0001839882-26-046901",
+      "0001839882-26-046902",
+      "0001839882-26-046903",
+      "0001839882-26-046904",
+      "0001839882-26-046905",
+      "0001839882-26-046906",
+      "0001839882-26-046907",
+      "0001839882-26-046908",
+      "0001839882-26-046909",
+      "0001839882-26-046910",
+      "0001839882-26-046911",
+      "0001839882-26-046912",
+      "0001839882-26-046913",
+      "0001839882-26-046914",
+      "0001839882-26-046915",
       "0001839931-26-000002",
       "0001840244-26-000015",
       "0001840244-26-000016",
@@ -91363,6 +91391,20 @@
       "0001918704-26-028529",
       "0001918704-26-028530",
       "0001918704-26-028531",
+      "0001918704-26-028532",
+      "0001918704-26-028533",
+      "0001918704-26-028534",
+      "0001918704-26-028535",
+      "0001918704-26-028536",
+      "0001918704-26-028537",
+      "0001918704-26-028538",
+      "0001918704-26-028539",
+      "0001918704-26-028540",
+      "0001918704-26-028541",
+      "0001918704-26-028542",
+      "0001918704-26-028543",
+      "0001918704-26-028544",
+      "0001918704-26-028545",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
@@ -91476,6 +91518,7 @@
       "0001946411-26-000007",
       "0001946684-26-000013",
       "0001947439-26-000008",
+      "0001947527-26-000002",
       "0001949911-26-000014",
       "0001950027-26-000040",
       "0001950027-26-000047",
@@ -92558,6 +92601,7 @@
       "0002028403-26-000013",
       "0002028403-26-000014",
       "0002028403-26-000017",
+      "0002028403-26-000018",
       "0002028977-26-000015",
       "0002028977-26-000017",
       "0002029059-26-000010",
@@ -93329,6 +93373,7 @@
       "0002145764-26-000004",
       "0002146240-26-000005",
       "0002146263-26-000003",
+      "0002146263-26-000005",
       "0002146309-26-000004",
       "0002146462-26-000003",
       "0002146475-26-000002",
