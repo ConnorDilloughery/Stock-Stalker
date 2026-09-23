@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T16:03:53.183232+00:00",
+  "generatedAt": "2026-09-23T17:04:11.375296+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -301,6 +301,36 @@
       "type": "Purchase",
       "shares": 1.0,
       "pricePerShare": 361.36,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "UGP",
+      "issuerName": "ULTRAPAR HOLDINGS INC",
+      "insiderName": "Hachem Andre Saleme",
+      "title": "CFO and IRO Hidrovias",
+      "type": "Sale",
+      "shares": 39200.0,
+      "pricePerShare": 7.67,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "GL",
+      "issuerName": "GLOBE LIFE INC.",
+      "insiderName": "Hensley Robert Edward",
+      "title": "EVP & Chief Investment Officer",
+      "type": "Sale",
+      "shares": 3344.0,
+      "pricePerShare": 169.5311,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "GL",
+      "issuerName": "GLOBE LIFE INC.",
+      "insiderName": "Hensley Robert Edward",
+      "title": "EVP & Chief Investment Officer",
+      "type": "Sale",
+      "shares": 6656.0,
+      "pricePerShare": 170.3409,
       "transactionDate": "2026-09-22"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 2104.0,
       "pricePerShare": 44.47,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "PACS",
-      "issuerName": "PACS Group, Inc.",
-      "insiderName": "Murray Jason Hulse",
-      "title": "Director, Co-Founder, CEO & Chairman, 10% Owner",
-      "type": "Sale",
-      "shares": 19315.0,
-      "pricePerShare": 42.5315,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "PACS",
-      "issuerName": "PACS Group, Inc.",
-      "insiderName": "Murray Jason Hulse",
-      "title": "Director, Co-Founder, CEO & Chairman, 10% Owner",
-      "type": "Sale",
-      "shares": 858.0,
-      "pricePerShare": 43.1088,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "PLBY",
-      "issuerName": "Playboy, Inc.",
-      "insiderName": "Edmonds Tracey E",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 4275.0,
-      "pricePerShare": 1.175,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -32297,6 +32297,66 @@
           "shares": 1.0,
           "pricePerShare": 360.03,
           "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "UGP": {
+      "issuerName": "ULTRAPAR HOLDINGS INC",
+      "trades": [
+        {
+          "ticker": "UGP",
+          "issuerName": "ULTRAPAR HOLDINGS INC",
+          "insiderName": "Hachem Andre Saleme",
+          "title": "CFO and IRO Hidrovias",
+          "type": "Sale",
+          "shares": 39200.0,
+          "pricePerShare": 7.67,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "UGP",
+          "issuerName": "ULTRAPAR HOLDINGS INC",
+          "insiderName": "Rabelo Pedro Guedes",
+          "title": "Financial Officer Ipiranga",
+          "type": "Sale",
+          "shares": 30000.0,
+          "pricePerShare": 7.58,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "UGP",
+          "issuerName": "ULTRAPAR HOLDINGS INC",
+          "insiderName": "Linden Leonardo Remiao",
+          "title": "CEO Ipiranga",
+          "type": "Sale",
+          "shares": 60000.0,
+          "pricePerShare": 7.57,
+          "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "GL": {
+      "issuerName": "GLOBE LIFE INC.",
+      "trades": [
+        {
+          "ticker": "GL",
+          "issuerName": "GLOBE LIFE INC.",
+          "insiderName": "Hensley Robert Edward",
+          "title": "EVP & Chief Investment Officer",
+          "type": "Sale",
+          "shares": 3344.0,
+          "pricePerShare": 169.5311,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "GL",
+          "issuerName": "GLOBE LIFE INC.",
+          "insiderName": "Hensley Robert Edward",
+          "title": "EVP & Chief Investment Officer",
+          "type": "Sale",
+          "shares": 6656.0,
+          "pricePerShare": 170.3409,
+          "transactionDate": "2026-09-22"
         }
       ]
     },
@@ -44532,26 +44592,6 @@
           "shares": 243.0,
           "pricePerShare": 43.1445,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "PACS",
-          "issuerName": "PACS Group, Inc.",
-          "insiderName": "Murray Jason Hulse",
-          "title": "Director, Co-Founder, CEO & Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 19315.0,
-          "pricePerShare": 42.5315,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "PACS",
-          "issuerName": "PACS Group, Inc.",
-          "insiderName": "Murray Jason Hulse",
-          "title": "Director, Co-Founder, CEO & Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 858.0,
-          "pricePerShare": 43.1088,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -57365,31 +57405,6 @@
         }
       ]
     },
-    "UGP": {
-      "issuerName": "ULTRAPAR HOLDINGS INC",
-      "trades": [
-        {
-          "ticker": "UGP",
-          "issuerName": "ULTRAPAR HOLDINGS INC",
-          "insiderName": "Rabelo Pedro Guedes",
-          "title": "Financial Officer Ipiranga",
-          "type": "Sale",
-          "shares": 30000.0,
-          "pricePerShare": 7.58,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "UGP",
-          "issuerName": "ULTRAPAR HOLDINGS INC",
-          "insiderName": "Linden Leonardo Remiao",
-          "title": "CEO Ipiranga",
-          "type": "Sale",
-          "shares": 60000.0,
-          "pricePerShare": 7.57,
-          "transactionDate": "2026-09-10"
-        }
-      ]
-    },
     "ECVT": {
       "issuerName": "Ecovyst Inc.",
       "trades": [
@@ -62942,16 +62957,6 @@
           "shares": 25900.0,
           "pricePerShare": 1.16,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "PLBY",
-          "issuerName": "Playboy, Inc.",
-          "insiderName": "Edmonds Tracey E",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 4275.0,
-          "pricePerShare": 1.175,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -64001,6 +64006,7 @@
       "0000320187-26-000167",
       "0000320335-26-000206",
       "0000320335-26-000210",
+      "0000320335-26-000222",
       "0000320351-26-000369",
       "0000320351-26-000370",
       "0000350852-26-000068",
@@ -64733,6 +64739,7 @@
       "0000894189-26-025376",
       "0000894189-26-025377",
       "0000894189-26-025392",
+      "0000894189-26-025403",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -66716,6 +66723,8 @@
       "0000950103-26-014368",
       "0000950103-26-014369",
       "0000950103-26-014370",
+      "0000950103-26-014371",
+      "0000950103-26-014372",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -74196,6 +74205,10 @@
       "0001193125-26-398733",
       "0001193125-26-398778",
       "0001193125-26-398791",
+      "0001193125-26-398849",
+      "0001193125-26-398884",
+      "0001193125-26-398887",
+      "0001193125-26-399000",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -76042,6 +76055,16 @@
       "0001213900-26-102468",
       "0001213900-26-102471",
       "0001213900-26-102478",
+      "0001213900-26-102486",
+      "0001213900-26-102489",
+      "0001213900-26-102491",
+      "0001213900-26-102498",
+      "0001213900-26-102502",
+      "0001213900-26-102504",
+      "0001213900-26-102506",
+      "0001213900-26-102511",
+      "0001213900-26-102513",
+      "0001213900-26-102515",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -76447,6 +76470,8 @@
       "0001214659-26-011866",
       "0001214659-26-011867",
       "0001214659-26-011868",
+      "0001214659-26-011897",
+      "0001214659-26-011898",
       "0001214736-26-000002",
       "0001214993-26-000004",
       "0001215135-26-000012",
@@ -77070,6 +77095,7 @@
       "0001292814-26-004654",
       "0001292814-26-004656",
       "0001292814-26-004666",
+      "0001292814-26-004678",
       "0001293167-26-000004",
       "0001293171-26-000012",
       "0001294172-26-000019",
@@ -78560,6 +78586,9 @@
       "0001445546-26-007097",
       "0001445546-26-007098",
       "0001445546-26-007099",
+      "0001445546-26-007100",
+      "0001445546-26-007101",
+      "0001445546-26-007102",
       "0001445832-26-000011",
       "0001445832-26-000013",
       "0001446066-26-000008",
@@ -79925,6 +79954,7 @@
       "0001559495-26-000060",
       "0001559495-26-000065",
       "0001559495-26-000067",
+      "0001559495-26-000069",
       "0001560254-26-000007",
       "0001560409-26-000008",
       "0001561068-26-000005",
@@ -86670,6 +86700,21 @@
       "0001839882-26-046871",
       "0001839882-26-046874",
       "0001839882-26-046876",
+      "0001839882-26-046882",
+      "0001839882-26-046883",
+      "0001839882-26-046886",
+      "0001839882-26-046887",
+      "0001839882-26-046888",
+      "0001839882-26-046890",
+      "0001839882-26-046891",
+      "0001839882-26-046892",
+      "0001839882-26-046895",
+      "0001839882-26-046896",
+      "0001839882-26-046897",
+      "0001839882-26-046898",
+      "0001839882-26-046899",
+      "0001839882-26-046900",
+      "0001839882-26-046901",
       "0001839931-26-000002",
       "0001840244-26-000015",
       "0001840244-26-000016",
@@ -91314,6 +91359,10 @@
       "0001918704-26-028525",
       "0001918704-26-028526",
       "0001918704-26-028527",
+      "0001918704-26-028528",
+      "0001918704-26-028529",
+      "0001918704-26-028530",
+      "0001918704-26-028531",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
@@ -92310,6 +92359,7 @@
       "0001999371-26-021088",
       "0001999371-26-021090",
       "0001999371-26-021093",
+      "0001999371-26-021131",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -92336,6 +92386,7 @@
       "0002002093-26-000012",
       "0002002763-26-000012",
       "0002003131-26-000013",
+      "0002003131-26-000014",
       "0002004135-26-000004",
       "0002004135-26-000008",
       "0002004135-26-000010",
