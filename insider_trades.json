@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T01:02:08.347952+00:00",
+  "generatedAt": "2026-09-23T02:04:09.586101+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -1281,6 +1281,66 @@
       "type": "Purchase",
       "shares": 3749.0,
       "pricePerShare": 6.72,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "BULL",
+      "issuerName": "Webull Corp",
+      "insiderName": "Denier Anthony Michael",
+      "title": "Director, President",
+      "type": "Sale",
+      "shares": 53846.0,
+      "pricePerShare": 8.3151,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "QLYS",
+      "issuerName": "QUALYS, INC.",
+      "insiderName": "POSEY BRUCE K",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 72.0,
+      "pricePerShare": 175.54,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "QLYS",
+      "issuerName": "QUALYS, INC.",
+      "insiderName": "POSEY BRUCE K",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 27.0,
+      "pricePerShare": 177.9833,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "QLYS",
+      "issuerName": "QUALYS, INC.",
+      "insiderName": "POSEY BRUCE K",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 241.0,
+      "pricePerShare": 178.9571,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "QLYS",
+      "issuerName": "QUALYS, INC.",
+      "insiderName": "POSEY BRUCE K",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 327.0,
+      "pricePerShare": 179.9499,
+      "transactionDate": "2026-09-21"
+    },
+    {
+      "ticker": "QLYS",
+      "issuerName": "QUALYS, INC.",
+      "insiderName": "POSEY BRUCE K",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 199.0,
+      "pricePerShare": 181.0318,
       "transactionDate": "2026-09-21"
     },
     {
@@ -4291,6 +4351,16 @@
       "type": "Sale",
       "shares": 12856.0,
       "pricePerShare": 37.3848,
+      "transactionDate": "2026-09-17"
+    },
+    {
+      "ticker": "NTRP",
+      "issuerName": "NextTrip, Inc.",
+      "insiderName": "Kaplan Andrew Jay",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 52910.0,
+      "pricePerShare": 1.89,
       "transactionDate": "2026-09-17"
     },
     {
@@ -29932,76 +30002,6 @@
       "shares": 41366.0,
       "pricePerShare": 5.1619,
       "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "FORM",
-      "issuerName": "FORMFACTOR INC",
-      "insiderName": "STEVEN-WAISS KELLEY",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 2100.0,
-      "pricePerShare": 96.1001,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "SLNH",
-      "issuerName": "Soluna Holdings, Inc",
-      "insiderName": "Phelan William P",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 12037.0,
-      "pricePerShare": 1.12,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "GLOO",
-      "issuerName": "Gloo Holdings, Inc.",
-      "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 1000.0,
-      "pricePerShare": 3.0646,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "XYZ",
-      "issuerName": "Block, Inc.",
-      "insiderName": "Eisen Anthony Mathew",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 6000.0,
-      "pricePerShare": 83.57,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "ALEC",
-      "issuerName": "Alector, Inc.",
-      "insiderName": "Wong-Sarad Grace",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 5165.0,
-      "pricePerShare": 2.6655,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "ALEC",
-      "issuerName": "Alector, Inc.",
-      "insiderName": "Berkley Neil Lindsay",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 29251.0,
-      "pricePerShare": 2.6648,
-      "transactionDate": "2026-09-03"
-    },
-    {
-      "ticker": "ALEC",
-      "issuerName": "Alector, Inc.",
-      "insiderName": "Rosenthal Arnon",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 72606.0,
-      "pricePerShare": 2.6647,
-      "transactionDate": "2026-09-03"
     }
   ],
   "byTicker": {
@@ -34360,6 +34360,196 @@
         }
       ]
     },
+    "BULL": {
+      "issuerName": "Webull Corp",
+      "trades": [
+        {
+          "ticker": "BULL",
+          "issuerName": "Webull Corp",
+          "insiderName": "Denier Anthony Michael",
+          "title": "Director, President",
+          "type": "Sale",
+          "shares": 53846.0,
+          "pricePerShare": 8.3151,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "BULL",
+          "issuerName": "Webull Corp",
+          "insiderName": "Wang Haichen",
+          "title": "Director, Chief Financial Officer",
+          "type": "Sale",
+          "shares": 55000.0,
+          "pricePerShare": 8.9772,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "BULL",
+          "issuerName": "Webull Corp",
+          "insiderName": "Denier Anthony Michael",
+          "title": "Director, President",
+          "type": "Sale",
+          "shares": 53846.0,
+          "pricePerShare": 9.5774,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "QLYS": {
+      "issuerName": "QUALYS, INC.",
+      "trades": [
+        {
+          "ticker": "QLYS",
+          "issuerName": "QUALYS, INC.",
+          "insiderName": "POSEY BRUCE K",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 72.0,
+          "pricePerShare": 175.54,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "QLYS",
+          "issuerName": "QUALYS, INC.",
+          "insiderName": "POSEY BRUCE K",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 27.0,
+          "pricePerShare": 177.9833,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "QLYS",
+          "issuerName": "QUALYS, INC.",
+          "insiderName": "POSEY BRUCE K",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 241.0,
+          "pricePerShare": 178.9571,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "QLYS",
+          "issuerName": "QUALYS, INC.",
+          "insiderName": "POSEY BRUCE K",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 327.0,
+          "pricePerShare": 179.9499,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "QLYS",
+          "issuerName": "QUALYS, INC.",
+          "insiderName": "POSEY BRUCE K",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 199.0,
+          "pricePerShare": 181.0318,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "QLYS",
+          "issuerName": "QUALYS, INC.",
+          "insiderName": "Thakar Sumedh S",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 154.39,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "QLYS",
+          "issuerName": "QUALYS, INC.",
+          "insiderName": "Thakar Sumedh S",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 159.275,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "QLYS",
+          "issuerName": "QUALYS, INC.",
+          "insiderName": "Thakar Sumedh S",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 300.0,
+          "pricePerShare": 162.43,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "QLYS",
+          "issuerName": "QUALYS, INC.",
+          "insiderName": "Thakar Sumedh S",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 165.94,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "QLYS",
+          "issuerName": "QUALYS, INC.",
+          "insiderName": "Thakar Sumedh S",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 167.58,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "QLYS",
+          "issuerName": "QUALYS, INC.",
+          "insiderName": "Thakar Sumedh S",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 200.0,
+          "pricePerShare": 169.345,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "QLYS",
+          "issuerName": "QUALYS, INC.",
+          "insiderName": "Thakar Sumedh S",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 170.9,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "QLYS",
+          "issuerName": "QUALYS, INC.",
+          "insiderName": "Thakar Sumedh S",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 172.9247,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "QLYS",
+          "issuerName": "QUALYS, INC.",
+          "insiderName": "Thakar Sumedh S",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 173.92,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "QLYS",
+          "issuerName": "QUALYS, INC.",
+          "insiderName": "Thakar Sumedh S",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 174.71,
+          "transactionDate": "2026-09-14"
+        }
+      ]
+    },
     "THRY": {
       "issuerName": "Thryv Holdings, Inc.",
       "trades": [
@@ -34647,16 +34837,6 @@
           "shares": 6000.0,
           "pricePerShare": 82.51,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "XYZ",
-          "issuerName": "Block, Inc.",
-          "insiderName": "Eisen Anthony Mathew",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 6000.0,
-          "pricePerShare": 83.57,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -40575,6 +40755,21 @@
         }
       ]
     },
+    "NTRP": {
+      "issuerName": "NextTrip, Inc.",
+      "trades": [
+        {
+          "ticker": "NTRP",
+          "issuerName": "NextTrip, Inc.",
+          "insiderName": "Kaplan Andrew Jay",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 52910.0,
+          "pricePerShare": 1.89,
+          "transactionDate": "2026-09-17"
+        }
+      ]
+    },
     "RWT": {
       "issuerName": "REDWOOD TRUST INC",
       "trades": [
@@ -42517,16 +42712,6 @@
           "shares": 1000.0,
           "pricePerShare": 105.8,
           "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "FORM",
-          "issuerName": "FORMFACTOR INC",
-          "insiderName": "STEVEN-WAISS KELLEY",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 2100.0,
-          "pricePerShare": 96.1001,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -44282,16 +44467,6 @@
           "shares": 5500.0,
           "pricePerShare": 3.0864,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "GLOO",
-          "issuerName": "Gloo Holdings, Inc.",
-          "insiderName": "THRIVENT FINANCIAL FOR LUTHERANS",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1000.0,
-          "pricePerShare": 3.0646,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -52455,111 +52630,6 @@
         }
       ]
     },
-    "QLYS": {
-      "issuerName": "QUALYS, INC.",
-      "trades": [
-        {
-          "ticker": "QLYS",
-          "issuerName": "QUALYS, INC.",
-          "insiderName": "Thakar Sumedh S",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 154.39,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "QLYS",
-          "issuerName": "QUALYS, INC.",
-          "insiderName": "Thakar Sumedh S",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 159.275,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "QLYS",
-          "issuerName": "QUALYS, INC.",
-          "insiderName": "Thakar Sumedh S",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 300.0,
-          "pricePerShare": 162.43,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "QLYS",
-          "issuerName": "QUALYS, INC.",
-          "insiderName": "Thakar Sumedh S",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 165.94,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "QLYS",
-          "issuerName": "QUALYS, INC.",
-          "insiderName": "Thakar Sumedh S",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 167.58,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "QLYS",
-          "issuerName": "QUALYS, INC.",
-          "insiderName": "Thakar Sumedh S",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 200.0,
-          "pricePerShare": 169.345,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "QLYS",
-          "issuerName": "QUALYS, INC.",
-          "insiderName": "Thakar Sumedh S",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 170.9,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "QLYS",
-          "issuerName": "QUALYS, INC.",
-          "insiderName": "Thakar Sumedh S",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1500.0,
-          "pricePerShare": 172.9247,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "QLYS",
-          "issuerName": "QUALYS, INC.",
-          "insiderName": "Thakar Sumedh S",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 500.0,
-          "pricePerShare": 173.92,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "QLYS",
-          "issuerName": "QUALYS, INC.",
-          "insiderName": "Thakar Sumedh S",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 174.71,
-          "transactionDate": "2026-09-14"
-        }
-      ]
-    },
     "TAK": {
       "issuerName": "TAKEDA PHARMACEUTICAL CO LTD",
       "trades": [
@@ -52607,31 +52677,6 @@
           "shares": 262285.0,
           "pricePerShare": 27.98,
           "transactionDate": "2026-09-09"
-        }
-      ]
-    },
-    "BULL": {
-      "issuerName": "Webull Corp",
-      "trades": [
-        {
-          "ticker": "BULL",
-          "issuerName": "Webull Corp",
-          "insiderName": "Wang Haichen",
-          "title": "Director, Chief Financial Officer",
-          "type": "Sale",
-          "shares": 55000.0,
-          "pricePerShare": 8.9772,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "BULL",
-          "issuerName": "Webull Corp",
-          "insiderName": "Denier Anthony Michael",
-          "title": "Director, President",
-          "type": "Sale",
-          "shares": 53846.0,
-          "pricePerShare": 9.5774,
-          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -61442,36 +61487,6 @@
           "shares": 3625.0,
           "pricePerShare": 2.5088,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "ALEC",
-          "issuerName": "Alector, Inc.",
-          "insiderName": "Wong-Sarad Grace",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 5165.0,
-          "pricePerShare": 2.6655,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "ALEC",
-          "issuerName": "Alector, Inc.",
-          "insiderName": "Berkley Neil Lindsay",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 29251.0,
-          "pricePerShare": 2.6648,
-          "transactionDate": "2026-09-03"
-        },
-        {
-          "ticker": "ALEC",
-          "issuerName": "Alector, Inc.",
-          "insiderName": "Rosenthal Arnon",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 72606.0,
-          "pricePerShare": 2.6647,
-          "transactionDate": "2026-09-03"
         }
       ]
     },
@@ -63241,21 +63256,6 @@
           "type": "Sale",
           "shares": 12466.0,
           "pricePerShare": 4.57,
-          "transactionDate": "2026-09-03"
-        }
-      ]
-    },
-    "SLNH": {
-      "issuerName": "Soluna Holdings, Inc",
-      "trades": [
-        {
-          "ticker": "SLNH",
-          "issuerName": "Soluna Holdings, Inc",
-          "insiderName": "Phelan William P",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 12037.0,
-          "pricePerShare": 1.12,
           "transactionDate": "2026-09-03"
         }
       ]
@@ -76810,6 +76810,7 @@
       "0001254639-26-000006",
       "0001254781-26-000021",
       "0001254781-26-000022",
+      "0001254781-26-000026",
       "0001256520-26-000002",
       "0001257210-26-000003",
       "0001257774-26-000004",
@@ -78131,6 +78132,9 @@
       "0001437749-26-030961",
       "0001437749-26-030963",
       "0001437749-26-030969",
+      "0001437749-26-030983",
+      "0001437749-26-030984",
+      "0001437749-26-030985",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -79294,6 +79298,14 @@
       "0001493152-26-043768",
       "0001493152-26-043771",
       "0001493152-26-043773",
+      "0001493152-26-043784",
+      "0001493152-26-043785",
+      "0001493152-26-043786",
+      "0001493152-26-043787",
+      "0001493152-26-043788",
+      "0001493152-26-043789",
+      "0001493152-26-043790",
+      "0001493152-26-043791",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -79442,6 +79454,7 @@
       "0001513030-26-000007",
       "0001513030-26-000008",
       "0001513723-26-000008",
+      "0001513723-26-000010",
       "0001513845-26-000088",
       "0001513845-26-000090",
       "0001513845-26-000092",
@@ -92809,6 +92822,7 @@
       "0002093095-26-000007",
       "0002093121-26-000004",
       "0002093121-26-000005",
+      "0002093121-26-000006",
       "0002093135-26-000004",
       "0002093167-26-000009",
       "0002093210-26-000002",
