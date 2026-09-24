@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T17:03:19.424254+00:00",
+  "generatedAt": "2026-09-24T18:04:36.449164+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -1231,6 +1231,36 @@
       "type": "Purchase",
       "shares": 1554.0,
       "pricePerShare": 43.182,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "GLBE",
+      "issuerName": "Global-E Online Ltd.",
+      "insiderName": "Koren Ofer",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 25000.0,
+      "pricePerShare": 40.4186,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "GLBE",
+      "issuerName": "Global-E Online Ltd.",
+      "insiderName": "Koren Ofer",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 25000.0,
+      "pricePerShare": 42.0366,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "RMBS",
+      "issuerName": "RAMBUS INC",
+      "insiderName": "KISSNER CHARLES",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 5000.0,
+      "pricePerShare": 105.0,
       "transactionDate": "2026-09-22"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 1381.0,
       "pricePerShare": 61.16,
       "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "ROKU",
-      "issuerName": "ROKU, INC",
-      "insiderName": "Collier Charles",
-      "title": "President, Roku Media",
-      "type": "Sale",
-      "shares": 8843.0,
-      "pricePerShare": 156.87,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "ROKU",
-      "issuerName": "ROKU, INC",
-      "insiderName": "Collier Charles",
-      "title": "President, Roku Media",
-      "type": "Sale",
-      "shares": 1426.0,
-      "pricePerShare": 157.73,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "ROKU",
-      "issuerName": "ROKU, INC",
-      "insiderName": "Collier Charles",
-      "title": "President, Roku Media",
-      "type": "Sale",
-      "shares": 8843.0,
-      "pricePerShare": 156.87,
-      "transactionDate": "2026-09-04"
     }
   ],
   "byTicker": {
@@ -35375,6 +35375,106 @@
         }
       ]
     },
+    "GLBE": {
+      "issuerName": "Global-E Online Ltd.",
+      "trades": [
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Koren Ofer",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 40.4186,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Koren Ofer",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 25000.0,
+          "pricePerShare": 42.0366,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Debbi Nir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 12272.0,
+          "pricePerShare": 39.5565,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Schlachet Amir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 12143.0,
+          "pricePerShare": 38.282,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Schlachet Amir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 12856.0,
+          "pricePerShare": 37.3848,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Debbi Nir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8332.0,
+          "pricePerShare": 36.8891,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Koren Ofer",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 300.0,
+          "pricePerShare": 38.0,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "GLBE",
+          "issuerName": "Global-E Online Ltd.",
+          "insiderName": "Debbi Nir",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 228.0,
+          "pricePerShare": 39.211,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "RMBS": {
+      "issuerName": "RAMBUS INC",
+      "trades": [
+        {
+          "ticker": "RMBS",
+          "issuerName": "RAMBUS INC",
+          "insiderName": "KISSNER CHARLES",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 5000.0,
+          "pricePerShare": 105.0,
+          "transactionDate": "2026-09-22"
+        }
+      ]
+    },
     "NEGG": {
       "issuerName": "Newegg Commerce, Inc.",
       "trades": [
@@ -36487,71 +36587,6 @@
           "shares": 74400.0,
           "pricePerShare": 28.27,
           "transactionDate": "2026-09-15"
-        }
-      ]
-    },
-    "GLBE": {
-      "issuerName": "Global-E Online Ltd.",
-      "trades": [
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Debbi Nir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 12272.0,
-          "pricePerShare": 39.5565,
-          "transactionDate": "2026-09-21"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Schlachet Amir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 12143.0,
-          "pricePerShare": 38.282,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Schlachet Amir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 12856.0,
-          "pricePerShare": 37.3848,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Debbi Nir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 8332.0,
-          "pricePerShare": 36.8891,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Koren Ofer",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 300.0,
-          "pricePerShare": 38.0,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "GLBE",
-          "issuerName": "Global-E Online Ltd.",
-          "insiderName": "Debbi Nir",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 228.0,
-          "pricePerShare": 39.211,
-          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -48117,36 +48152,6 @@
           "shares": 7000.0,
           "pricePerShare": 156.81,
           "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "ROKU",
-          "issuerName": "ROKU, INC",
-          "insiderName": "Collier Charles",
-          "title": "President, Roku Media",
-          "type": "Sale",
-          "shares": 8843.0,
-          "pricePerShare": 156.87,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "ROKU",
-          "issuerName": "ROKU, INC",
-          "insiderName": "Collier Charles",
-          "title": "President, Roku Media",
-          "type": "Sale",
-          "shares": 1426.0,
-          "pricePerShare": 157.73,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "ROKU",
-          "issuerName": "ROKU, INC",
-          "insiderName": "Collier Charles",
-          "title": "President, Roku Media",
-          "type": "Sale",
-          "shares": 8843.0,
-          "pricePerShare": 156.87,
-          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -64847,6 +64852,9 @@
       "0000894189-26-025460",
       "0000894189-26-025461",
       "0000894189-26-025471",
+      "0000894189-26-025473",
+      "0000894189-26-025475",
+      "0000894189-26-025477",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -66886,6 +66894,8 @@
       "0000950103-26-014433",
       "0000950103-26-014434",
       "0000950103-26-014435",
+      "0000950103-26-014436",
+      "0000950103-26-014437",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -69131,6 +69141,11 @@
       "0001133228-26-012592",
       "0001133228-26-012696",
       "0001133228-26-012781",
+      "0001133228-26-012783",
+      "0001133228-26-012785",
+      "0001133228-26-012787",
+      "0001133228-26-012789",
+      "0001133228-26-012791",
       "0001133416-26-000065",
       "0001134261-26-000005",
       "0001134261-26-000007",
@@ -69835,6 +69850,8 @@
       "0001140361-26-037478",
       "0001140361-26-037481",
       "0001140361-26-037526",
+      "0001140361-26-037533",
+      "0001140361-26-037537",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -74502,6 +74519,17 @@
       "0001193125-26-400733",
       "0001193125-26-400734",
       "0001193125-26-400738",
+      "0001193125-26-400762",
+      "0001193125-26-400763",
+      "0001193125-26-400769",
+      "0001193125-26-400770",
+      "0001193125-26-400801",
+      "0001193125-26-400807",
+      "0001193125-26-400815",
+      "0001193125-26-400820",
+      "0001193125-26-400830",
+      "0001193125-26-400835",
+      "0001193125-26-400838",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -82481,6 +82509,7 @@
       "0001683168-26-007270",
       "0001683168-26-007355",
       "0001683168-26-007369",
+      "0001683168-26-007377",
       "0001684532-26-000009",
       "0001684532-26-000013",
       "0001684713-26-000003",
@@ -83805,6 +83834,7 @@
       "0001829126-26-010322",
       "0001829126-26-010347",
       "0001829126-26-010348",
+      "0001829126-26-010378",
       "0001829962-26-000006",
       "0001830043-26-000094",
       "0001830165-26-000026",
@@ -87275,6 +87305,12 @@
       "0001839882-26-047106",
       "0001839882-26-047108",
       "0001839882-26-047112",
+      "0001839882-26-047115",
+      "0001839882-26-047116",
+      "0001839882-26-047117",
+      "0001839882-26-047119",
+      "0001839882-26-047121",
+      "0001839882-26-047122",
       "0001839931-26-000002",
       "0001840244-26-000015",
       "0001840244-26-000016",
@@ -92019,6 +92055,19 @@
       "0001918704-26-028672",
       "0001918704-26-028673",
       "0001918704-26-028676",
+      "0001918704-26-028677",
+      "0001918704-26-028678",
+      "0001918704-26-028679",
+      "0001918704-26-028680",
+      "0001918704-26-028683",
+      "0001918704-26-028684",
+      "0001918704-26-028685",
+      "0001918704-26-028686",
+      "0001918704-26-028687",
+      "0001918704-26-028688",
+      "0001918704-26-028689",
+      "0001918704-26-028690",
+      "0001918704-26-028691",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
@@ -92367,6 +92416,7 @@
       "0001976672-26-000065",
       "0001976672-26-000067",
       "0001976672-26-000069",
+      "0001976672-26-000077",
       "0001976684-26-000011",
       "0001976685-26-000017",
       "0001977249-26-000111",
@@ -93064,6 +93114,7 @@
       "0002004239-26-000011",
       "0002004299-26-000008",
       "0002004306-26-000004",
+      "0002004328-26-000014",
       "0002004397-26-000006",
       "0002004397-26-000007",
       "0002005037-26-000012",
