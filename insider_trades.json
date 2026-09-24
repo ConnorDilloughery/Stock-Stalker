@@ -1,8 +1,28 @@
 {
-  "generatedAt": "2026-09-24T16:03:52.908520+00:00",
+  "generatedAt": "2026-09-24T17:03:19.424254+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
+    {
+      "ticker": "NYAX",
+      "issuerName": "Nayax Ltd.",
+      "insiderName": "Nechmad Yair",
+      "title": "CEO, Co Founder & Chairman",
+      "type": "Purchase",
+      "shares": 104511.0,
+      "pricePerShare": 44.0884,
+      "transactionDate": "2026-09-24"
+    },
+    {
+      "ticker": "NYAX",
+      "issuerName": "Nayax Ltd.",
+      "insiderName": "Ben-Avi David",
+      "title": "Director, CTO and Co Founder",
+      "type": "Purchase",
+      "shares": 100.0,
+      "pricePerShare": 42.0906,
+      "transactionDate": "2026-09-24"
+    },
     {
       "ticker": "PMA",
       "issuerName": "PMA Graphene Technology Group Inc.",
@@ -401,6 +421,36 @@
       "type": "Purchase",
       "shares": 756.0,
       "pricePerShare": 3.05,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "NYAX",
+      "issuerName": "Nayax Ltd.",
+      "insiderName": "Ben-Avi David",
+      "title": "Director, CTO and Co Founder",
+      "type": "Purchase",
+      "shares": 700.0,
+      "pricePerShare": 43.0726,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "FTHY",
+      "issuerName": "FIRST TRUST HIGH YIELD OPPORTUNITIES 2027 TERM FUND",
+      "insiderName": "HOUSEY WILLIAM A JR",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 241.0,
+      "pricePerShare": 12.92,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "FTHY",
+      "issuerName": "FIRST TRUST HIGH YIELD OPPORTUNITIES 2027 TERM FUND",
+      "insiderName": "HOUSEY WILLIAM A JR",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 5000.0,
+      "pricePerShare": 12.95,
       "transactionDate": "2026-09-23"
     },
     {
@@ -1171,6 +1221,16 @@
       "type": "Sale",
       "shares": 800.0,
       "pricePerShare": 36.19,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "NYAX",
+      "issuerName": "Nayax Ltd.",
+      "insiderName": "Ben-Avi David",
+      "title": "Director, CTO and Co Founder",
+      "type": "Purchase",
+      "shares": 1554.0,
+      "pricePerShare": 43.182,
       "transactionDate": "2026-09-22"
     },
     {
@@ -29942,69 +30002,114 @@
       "shares": 8843.0,
       "pricePerShare": 156.87,
       "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "ROKU",
-      "issuerName": "ROKU, INC",
-      "insiderName": "Collier Charles",
-      "title": "President, Roku Media",
-      "type": "Sale",
-      "shares": 1426.0,
-      "pricePerShare": 157.73,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "PACS",
-      "issuerName": "PACS Group, Inc.",
-      "insiderName": "Murray Jason Hulse",
-      "title": "Director, Co-Founder, CEO & Chairman, 10% Owner",
-      "type": "Sale",
-      "shares": 22829.0,
-      "pricePerShare": 42.6832,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "PACS",
-      "issuerName": "PACS Group, Inc.",
-      "insiderName": "Murray Jason Hulse",
-      "title": "Director, Co-Founder, CEO & Chairman, 10% Owner",
-      "type": "Sale",
-      "shares": 243.0,
-      "pricePerShare": 43.1445,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "ARQ",
-      "issuerName": "Arq, Inc.",
-      "insiderName": "Steinmetz Shimon",
-      "title": "Chief Financial Officer",
-      "type": "Purchase",
-      "shares": 1402.0,
-      "pricePerShare": 2.2889,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "ARQ",
-      "issuerName": "Arq, Inc.",
-      "insiderName": "Steinmetz Shimon",
-      "title": "Chief Financial Officer",
-      "type": "Purchase",
-      "shares": 4356.0,
-      "pricePerShare": 2.2737,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "SBUX",
-      "issuerName": "STARBUCKS CORP",
-      "insiderName": "BREWER BRADY",
-      "title": "ceo, International",
-      "type": "Sale",
-      "shares": 2229.0,
-      "pricePerShare": 105.6,
-      "transactionDate": "2026-09-04"
     }
   ],
   "byTicker": {
+    "NYAX": {
+      "issuerName": "Nayax Ltd.",
+      "trades": [
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Nechmad Yair",
+          "title": "CEO, Co Founder & Chairman",
+          "type": "Purchase",
+          "shares": 104511.0,
+          "pricePerShare": 44.0884,
+          "transactionDate": "2026-09-24"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Ben-Avi David",
+          "title": "Director, CTO and Co Founder",
+          "type": "Purchase",
+          "shares": 100.0,
+          "pricePerShare": 42.0906,
+          "transactionDate": "2026-09-24"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Ben-Avi David",
+          "title": "Director, CTO and Co Founder",
+          "type": "Purchase",
+          "shares": 700.0,
+          "pricePerShare": 43.0726,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Ben-Avi David",
+          "title": "Director, CTO and Co Founder",
+          "type": "Purchase",
+          "shares": 1554.0,
+          "pricePerShare": 43.182,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Omer Gal",
+          "title": "CLO",
+          "type": "Sale",
+          "shares": 1500.0,
+          "pricePerShare": 45.1698,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Tepper Oren",
+          "title": "CRO",
+          "type": "Sale",
+          "shares": 65.0,
+          "pricePerShare": 51.81,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Greenberg Aaron Samuel",
+          "title": "CSO",
+          "type": "Sale",
+          "shares": 77.0,
+          "pricePerShare": 52.31,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Furman Carly Lisanne",
+          "title": "CEO NAYX North America",
+          "type": "Sale",
+          "shares": 96.0,
+          "pricePerShare": 52.31,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Sever Michal",
+          "title": "CMO",
+          "type": "Sale",
+          "shares": 34.0,
+          "pricePerShare": 52.31,
+          "transactionDate": "2026-09-04"
+        },
+        {
+          "ticker": "NYAX",
+          "issuerName": "Nayax Ltd.",
+          "insiderName": "Manor Sagit",
+          "title": "CFO",
+          "type": "Sale",
+          "shares": 123.0,
+          "pricePerShare": 52.3864,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
     "PMA": {
       "issuerName": "PMA Graphene Technology Group Inc.",
       "trades": [
@@ -32097,6 +32202,31 @@
           "shares": 756.0,
           "pricePerShare": 2.9,
           "transactionDate": "2026-09-04"
+        }
+      ]
+    },
+    "FTHY": {
+      "issuerName": "FIRST TRUST HIGH YIELD OPPORTUNITIES 2027 TERM FUND",
+      "trades": [
+        {
+          "ticker": "FTHY",
+          "issuerName": "FIRST TRUST HIGH YIELD OPPORTUNITIES 2027 TERM FUND",
+          "insiderName": "HOUSEY WILLIAM A JR",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 241.0,
+          "pricePerShare": 12.92,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "FTHY",
+          "issuerName": "FIRST TRUST HIGH YIELD OPPORTUNITIES 2027 TERM FUND",
+          "insiderName": "HOUSEY WILLIAM A JR",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 12.95,
+          "transactionDate": "2026-09-23"
         }
       ]
     },
@@ -45185,71 +45315,6 @@
         }
       ]
     },
-    "NYAX": {
-      "issuerName": "Nayax Ltd.",
-      "trades": [
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Omer Gal",
-          "title": "CLO",
-          "type": "Sale",
-          "shares": 1500.0,
-          "pricePerShare": 45.1698,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Tepper Oren",
-          "title": "CRO",
-          "type": "Sale",
-          "shares": 65.0,
-          "pricePerShare": 51.81,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Greenberg Aaron Samuel",
-          "title": "CSO",
-          "type": "Sale",
-          "shares": 77.0,
-          "pricePerShare": 52.31,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Furman Carly Lisanne",
-          "title": "CEO NAYX North America",
-          "type": "Sale",
-          "shares": 96.0,
-          "pricePerShare": 52.31,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Sever Michal",
-          "title": "CMO",
-          "type": "Sale",
-          "shares": 34.0,
-          "pricePerShare": 52.31,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "NYAX",
-          "issuerName": "Nayax Ltd.",
-          "insiderName": "Manor Sagit",
-          "title": "CFO",
-          "type": "Sale",
-          "shares": 123.0,
-          "pricePerShare": 52.3864,
-          "transactionDate": "2026-09-04"
-        }
-      ]
-    },
     "ISBA": {
       "issuerName": "ISABELLA BANK CORP",
       "trades": [
@@ -47057,26 +47122,6 @@
           "shares": 21001.0,
           "pricePerShare": 43.5946,
           "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "PACS",
-          "issuerName": "PACS Group, Inc.",
-          "insiderName": "Murray Jason Hulse",
-          "title": "Director, Co-Founder, CEO & Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 22829.0,
-          "pricePerShare": 42.6832,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "PACS",
-          "issuerName": "PACS Group, Inc.",
-          "insiderName": "Murray Jason Hulse",
-          "title": "Director, Co-Founder, CEO & Chairman, 10% Owner",
-          "type": "Sale",
-          "shares": 243.0,
-          "pricePerShare": 43.1445,
-          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -48101,16 +48146,6 @@
           "type": "Sale",
           "shares": 8843.0,
           "pricePerShare": 156.87,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "ROKU",
-          "issuerName": "ROKU, INC",
-          "insiderName": "Collier Charles",
-          "title": "President, Roku Media",
-          "type": "Sale",
-          "shares": 1426.0,
-          "pricePerShare": 157.73,
           "transactionDate": "2026-09-04"
         }
       ]
@@ -61472,26 +61507,6 @@
           "shares": 1874.0,
           "pricePerShare": 2.3393,
           "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "ARQ",
-          "issuerName": "Arq, Inc.",
-          "insiderName": "Steinmetz Shimon",
-          "title": "Chief Financial Officer",
-          "type": "Purchase",
-          "shares": 1402.0,
-          "pricePerShare": 2.2889,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "ARQ",
-          "issuerName": "Arq, Inc.",
-          "insiderName": "Steinmetz Shimon",
-          "title": "Chief Financial Officer",
-          "type": "Purchase",
-          "shares": 4356.0,
-          "pricePerShare": 2.2737,
-          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -63329,21 +63344,6 @@
           "transactionDate": "2026-09-04"
         }
       ]
-    },
-    "SBUX": {
-      "issuerName": "STARBUCKS CORP",
-      "trades": [
-        {
-          "ticker": "SBUX",
-          "issuerName": "STARBUCKS CORP",
-          "insiderName": "BREWER BRADY",
-          "title": "ceo, International",
-          "type": "Sale",
-          "shares": 2229.0,
-          "pricePerShare": 105.6,
-          "transactionDate": "2026-09-04"
-        }
-      ]
     }
   },
   "_meta": {
@@ -64846,6 +64846,7 @@
       "0000894189-26-025459",
       "0000894189-26-025460",
       "0000894189-26-025461",
+      "0000894189-26-025471",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -65361,6 +65362,7 @@
       "0000933094-26-000034",
       "0000933094-26-000035",
       "0000933094-26-000036",
+      "0000933094-26-000038",
       "0000935596-26-000016",
       "0000935596-26-000017",
       "0000935596-26-000018",
@@ -66882,6 +66884,8 @@
       "0000950103-26-014428",
       "0000950103-26-014429",
       "0000950103-26-014433",
+      "0000950103-26-014434",
+      "0000950103-26-014435",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -68745,6 +68749,8 @@
       "0001104659-26-110231",
       "0001104659-26-110246",
       "0001104659-26-110265",
+      "0001104659-26-110300",
+      "0001104659-26-110304",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -69124,6 +69130,7 @@
       "0001133228-26-012590",
       "0001133228-26-012592",
       "0001133228-26-012696",
+      "0001133228-26-012781",
       "0001133416-26-000065",
       "0001134261-26-000005",
       "0001134261-26-000007",
@@ -69171,6 +69178,7 @@
       "0001140019-26-000149",
       "0001140019-26-000152",
       "0001140019-26-000153",
+      "0001140019-26-000155",
       "0001140361-26-028844",
       "0001140361-26-028846",
       "0001140361-26-028877",
@@ -69915,6 +69923,9 @@
       "0001174610-26-000573",
       "0001174610-26-000579",
       "0001174610-26-000581",
+      "0001174610-26-000741",
+      "0001174610-26-000742",
+      "0001174610-26-000743",
       "0001174850-26-000159",
       "0001174850-26-000162",
       "0001174947-26-000721",
@@ -74487,6 +74498,10 @@
       "0001193125-26-400641",
       "0001193125-26-400665",
       "0001193125-26-400675",
+      "0001193125-26-400692",
+      "0001193125-26-400733",
+      "0001193125-26-400734",
+      "0001193125-26-400738",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -78956,6 +78971,10 @@
       "0001445546-26-007100",
       "0001445546-26-007101",
       "0001445546-26-007102",
+      "0001445546-26-007116",
+      "0001445546-26-007117",
+      "0001445546-26-007118",
+      "0001445546-26-007119",
       "0001445832-26-000011",
       "0001445832-26-000013",
       "0001446066-26-000008",
@@ -87238,6 +87257,24 @@
       "0001839882-26-047082",
       "0001839882-26-047083",
       "0001839882-26-047084",
+      "0001839882-26-047088",
+      "0001839882-26-047089",
+      "0001839882-26-047090",
+      "0001839882-26-047091",
+      "0001839882-26-047092",
+      "0001839882-26-047093",
+      "0001839882-26-047095",
+      "0001839882-26-047096",
+      "0001839882-26-047098",
+      "0001839882-26-047099",
+      "0001839882-26-047100",
+      "0001839882-26-047101",
+      "0001839882-26-047102",
+      "0001839882-26-047103",
+      "0001839882-26-047104",
+      "0001839882-26-047106",
+      "0001839882-26-047108",
+      "0001839882-26-047112",
       "0001839931-26-000002",
       "0001840244-26-000015",
       "0001840244-26-000016",
@@ -91965,6 +92002,23 @@
       "0001918704-26-028648",
       "0001918704-26-028649",
       "0001918704-26-028650",
+      "0001918704-26-028653",
+      "0001918704-26-028654",
+      "0001918704-26-028655",
+      "0001918704-26-028656",
+      "0001918704-26-028657",
+      "0001918704-26-028658",
+      "0001918704-26-028659",
+      "0001918704-26-028660",
+      "0001918704-26-028661",
+      "0001918704-26-028662",
+      "0001918704-26-028663",
+      "0001918704-26-028664",
+      "0001918704-26-028665",
+      "0001918704-26-028669",
+      "0001918704-26-028672",
+      "0001918704-26-028673",
+      "0001918704-26-028676",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
@@ -92305,6 +92359,8 @@
       "0001976408-26-000857",
       "0001976408-26-000859",
       "0001976408-26-000863",
+      "0001976408-26-000864",
+      "0001976408-26-000865",
       "0001976672-26-000057",
       "0001976672-26-000059",
       "0001976672-26-000062",
@@ -92411,6 +92467,7 @@
       "0001994334-26-000014",
       "0001994334-26-000015",
       "0001994445-26-000006",
+      "0001994445-26-000008",
       "0001994955-26-000007",
       "0001995218-26-000015",
       "0001995275-26-000016",
