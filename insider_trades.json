@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T15:02:40.220132+00:00",
+  "generatedAt": "2026-09-24T16:03:52.908520+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -371,6 +371,36 @@
       "type": "Purchase",
       "shares": 1.0,
       "pricePerShare": 352.95,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "CIVB",
+      "issuerName": "CIVISTA BANCSHARES, INC.",
+      "insiderName": "Parcher Charles A.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 315.0,
+      "pricePerShare": 26.75,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "CIVB",
+      "issuerName": "CIVISTA BANCSHARES, INC.",
+      "insiderName": "Parcher Charles A.",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 85.0,
+      "pricePerShare": 26.75,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "RCG",
+      "issuerName": "RENN Fund, Inc.",
+      "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 756.0,
+      "pricePerShare": 3.05,
       "transactionDate": "2026-09-23"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 2229.0,
       "pricePerShare": 105.6,
       "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "PRTS",
-      "issuerName": "CarParts.com, Inc.",
-      "insiderName": "Huffaker Michael",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 21160.0,
-      "pricePerShare": 9.11,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "PRTS",
-      "issuerName": "CarParts.com, Inc.",
-      "insiderName": "Meniane David",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 21154.0,
-      "pricePerShare": 9.11,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FIVE",
-      "issuerName": "FIVE BELOW, INC",
-      "insiderName": "BULL KENNETH R",
-      "title": "COO",
-      "type": "Sale",
-      "shares": 1500.0,
-      "pricePerShare": 240.73,
-      "transactionDate": "2026-09-04"
     }
   ],
   "byTicker": {
@@ -31960,6 +31960,146 @@
         }
       ]
     },
+    "CIVB": {
+      "issuerName": "CIVISTA BANCSHARES, INC.",
+      "trades": [
+        {
+          "ticker": "CIVB",
+          "issuerName": "CIVISTA BANCSHARES, INC.",
+          "insiderName": "Parcher Charles A.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 315.0,
+          "pricePerShare": 26.75,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "CIVB",
+          "issuerName": "CIVISTA BANCSHARES, INC.",
+          "insiderName": "Parcher Charles A.",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 85.0,
+          "pricePerShare": 26.75,
+          "transactionDate": "2026-09-23"
+        }
+      ]
+    },
+    "RCG": {
+      "issuerName": "RENN Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.05,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.05,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.05,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.04,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.04,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 3.05,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.98,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.94,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.95,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "RCG",
+          "issuerName": "RENN Fund, Inc.",
+          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 756.0,
+          "pricePerShare": 2.9,
+          "transactionDate": "2026-09-04"
+        }
+      ]
+    },
     "UMC": {
       "issuerName": "UNITED MICROELECTRONICS CORP",
       "trades": [
@@ -33792,111 +33932,6 @@
           "shares": 74000.0,
           "pricePerShare": 2.5,
           "transactionDate": "2026-09-22"
-        }
-      ]
-    },
-    "RCG": {
-      "issuerName": "RENN Fund, Inc.",
-      "trades": [
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.05,
-          "transactionDate": "2026-09-22"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.05,
-          "transactionDate": "2026-09-21"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.04,
-          "transactionDate": "2026-09-18"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.04,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 3.05,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.98,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.94,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.95,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "RCG",
-          "issuerName": "RENN Fund, Inc.",
-          "insiderName": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 756.0,
-          "pricePerShare": 2.9,
-          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -57697,26 +57732,6 @@
           "shares": 21742.0,
           "pricePerShare": 9.35,
           "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "PRTS",
-          "issuerName": "CarParts.com, Inc.",
-          "insiderName": "Huffaker Michael",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 21160.0,
-          "pricePerShare": 9.11,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "PRTS",
-          "issuerName": "CarParts.com, Inc.",
-          "insiderName": "Meniane David",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 21154.0,
-          "pricePerShare": 9.11,
-          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -59867,16 +59882,6 @@
           "shares": 1610.0,
           "pricePerShare": 248.94,
           "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "FIVE",
-          "issuerName": "FIVE BELOW, INC",
-          "insiderName": "BULL KENNETH R",
-          "title": "COO",
-          "type": "Sale",
-          "shares": 1500.0,
-          "pricePerShare": 240.73,
-          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -64836,6 +64841,11 @@
       "0000894189-26-025432",
       "0000894189-26-025444",
       "0000894189-26-025445",
+      "0000894189-26-025457",
+      "0000894189-26-025458",
+      "0000894189-26-025459",
+      "0000894189-26-025460",
+      "0000894189-26-025461",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -66871,6 +66881,7 @@
       "0000950103-26-014424",
       "0000950103-26-014428",
       "0000950103-26-014429",
+      "0000950103-26-014433",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -69815,6 +69826,7 @@
       "0001140361-26-037476",
       "0001140361-26-037478",
       "0001140361-26-037481",
+      "0001140361-26-037526",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -74471,6 +74483,10 @@
       "0001193125-26-400439",
       "0001193125-26-400443",
       "0001193125-26-400587",
+      "0001193125-26-400622",
+      "0001193125-26-400641",
+      "0001193125-26-400665",
+      "0001193125-26-400675",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -74492,6 +74508,7 @@
       "0001196198-26-000003",
       "0001196460-26-000004",
       "0001196484-26-000014",
+      "0001196618-26-000001",
       "0001196914-26-000003",
       "0001196963-26-000002",
       "0001197233-26-000004",
@@ -76382,6 +76399,7 @@
       "0001213900-26-102909",
       "0001213900-26-102917",
       "0001213900-26-102919",
+      "0001213900-26-102928",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -77941,6 +77959,8 @@
       "0001398344-26-017341",
       "0001398344-26-017349",
       "0001398344-26-017352",
+      "0001398344-26-017365",
+      "0001398344-26-017368",
       "0001399967-26-000002",
       "0001400954-26-000009",
       "0001400954-26-000011",
@@ -78582,6 +78602,7 @@
       "0001437749-26-031093",
       "0001437749-26-031099",
       "0001437749-26-031121",
+      "0001437749-26-031126",
       "0001438566-26-000007",
       "0001438584-26-000002",
       "0001439288-26-000129",
@@ -79002,6 +79023,7 @@
       "0001464631-26-000007",
       "0001464631-26-000009",
       "0001464633-26-000004",
+      "0001464637-26-000002",
       "0001464919-26-000007",
       "0001465175-26-000025",
       "0001465391-26-000030",
@@ -80631,6 +80653,8 @@
       "0001580642-26-006419",
       "0001580642-26-006431",
       "0001580642-26-006447",
+      "0001580642-26-006459",
+      "0001580642-26-006461",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -82437,6 +82461,7 @@
       "0001683168-26-007269",
       "0001683168-26-007270",
       "0001683168-26-007355",
+      "0001683168-26-007369",
       "0001684532-26-000009",
       "0001684532-26-000013",
       "0001684713-26-000003",
@@ -87202,6 +87227,17 @@
       "0001839882-26-047056",
       "0001839882-26-047057",
       "0001839882-26-047058",
+      "0001839882-26-047068",
+      "0001839882-26-047072",
+      "0001839882-26-047073",
+      "0001839882-26-047075",
+      "0001839882-26-047076",
+      "0001839882-26-047077",
+      "0001839882-26-047079",
+      "0001839882-26-047080",
+      "0001839882-26-047082",
+      "0001839882-26-047083",
+      "0001839882-26-047084",
       "0001839931-26-000002",
       "0001840244-26-000015",
       "0001840244-26-000016",
@@ -91907,6 +91943,28 @@
       "0001918704-26-028621",
       "0001918704-26-028622",
       "0001918704-26-028623",
+      "0001918704-26-028629",
+      "0001918704-26-028630",
+      "0001918704-26-028631",
+      "0001918704-26-028632",
+      "0001918704-26-028633",
+      "0001918704-26-028634",
+      "0001918704-26-028635",
+      "0001918704-26-028636",
+      "0001918704-26-028637",
+      "0001918704-26-028638",
+      "0001918704-26-028639",
+      "0001918704-26-028640",
+      "0001918704-26-028641",
+      "0001918704-26-028642",
+      "0001918704-26-028643",
+      "0001918704-26-028644",
+      "0001918704-26-028645",
+      "0001918704-26-028646",
+      "0001918704-26-028647",
+      "0001918704-26-028648",
+      "0001918704-26-028649",
+      "0001918704-26-028650",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
@@ -92914,6 +92972,7 @@
       "0001999371-26-021131",
       "0001999371-26-021185",
       "0001999371-26-021187",
+      "0001999371-26-021224",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
