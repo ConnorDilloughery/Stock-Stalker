@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T22:03:10.074683+00:00",
+  "generatedAt": "2026-09-24T23:02:49.986387+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -1701,6 +1701,26 @@
       "type": "Sale",
       "shares": 10400.0,
       "pricePerShare": 60.2365,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "PDI",
+      "issuerName": "PIMCO Dynamic Income Fund",
+      "insiderName": "Morris Sonya",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 5700.0,
+      "pricePerShare": 14.015,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "AAPL",
+      "issuerName": "Apple Inc.",
+      "insiderName": "Newstead Jennifer",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 2399.0,
+      "pricePerShare": 340.06,
       "transactionDate": "2026-09-22"
     },
     {
@@ -29982,26 +30002,6 @@
       "shares": 22982.0,
       "pricePerShare": 49.1392,
       "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "AMAL",
-      "issuerName": "Amalgamated Financial Corp.",
-      "insiderName": "Workers United",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 45801.0,
-      "pricePerShare": 49.2266,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "AMAL",
-      "issuerName": "Amalgamated Financial Corp.",
-      "insiderName": "Workers United",
-      "title": "10% Owner",
-      "type": "Sale",
-      "shares": 22982.0,
-      "pricePerShare": 49.1392,
-      "transactionDate": "2026-09-04"
     }
   ],
   "byTicker": {
@@ -36142,6 +36142,56 @@
           "shares": 13679.0,
           "pricePerShare": 57.0901,
           "transactionDate": "2026-09-17"
+        }
+      ]
+    },
+    "PDI": {
+      "issuerName": "PIMCO Dynamic Income Fund",
+      "trades": [
+        {
+          "ticker": "PDI",
+          "issuerName": "PIMCO Dynamic Income Fund",
+          "insiderName": "Morris Sonya",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 5700.0,
+          "pricePerShare": 14.015,
+          "transactionDate": "2026-09-22"
+        }
+      ]
+    },
+    "AAPL": {
+      "issuerName": "Apple Inc.",
+      "trades": [
+        {
+          "ticker": "AAPL",
+          "issuerName": "Apple Inc.",
+          "insiderName": "Newstead Jennifer",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 2399.0,
+          "pricePerShare": 340.06,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "AAPL",
+          "issuerName": "Apple Inc.",
+          "insiderName": "Newstead Jennifer",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1438.0,
+          "pricePerShare": 330.19,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "AAPL",
+          "issuerName": "Apple Inc.",
+          "insiderName": "Newstead Jennifer",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1438.0,
+          "pricePerShare": 317.23,
+          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -52617,51 +52667,6 @@
           "shares": 22982.0,
           "pricePerShare": 49.1392,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "AMAL",
-          "issuerName": "Amalgamated Financial Corp.",
-          "insiderName": "Workers United",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 45801.0,
-          "pricePerShare": 49.2266,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "AMAL",
-          "issuerName": "Amalgamated Financial Corp.",
-          "insiderName": "Workers United",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 22982.0,
-          "pricePerShare": 49.1392,
-          "transactionDate": "2026-09-04"
-        }
-      ]
-    },
-    "AAPL": {
-      "issuerName": "Apple Inc.",
-      "trades": [
-        {
-          "ticker": "AAPL",
-          "issuerName": "Apple Inc.",
-          "insiderName": "Newstead Jennifer",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1438.0,
-          "pricePerShare": 330.19,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "AAPL",
-          "issuerName": "Apple Inc.",
-          "insiderName": "Newstead Jennifer",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1438.0,
-          "pricePerShare": 317.23,
-          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -67128,6 +67133,7 @@
       "0001037976-26-000154",
       "0001037976-26-000162",
       "0001037976-26-000164",
+      "0001039684-26-000033",
       "0001040130-26-000051",
       "0001040470-26-000217",
       "0001040470-26-000219",
@@ -69909,6 +69915,7 @@
       "0001140361-26-037540",
       "0001140361-26-037542",
       "0001140361-26-037558",
+      "0001140361-26-037584",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -76555,6 +76562,8 @@
       "0001213900-26-103041",
       "0001213900-26-103081",
       "0001213900-26-103115",
+      "0001213900-26-103145",
+      "0001213900-26-103146",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -77863,6 +77872,7 @@
       "0001371285-26-000199",
       "0001371285-26-000201",
       "0001372514-26-000085",
+      "0001373161-26-000008",
       "0001373794-26-000002",
       "0001373817-26-000004",
       "0001375323-26-000010",
@@ -77903,6 +77913,7 @@
       "0001385849-26-000033",
       "0001385849-26-000034",
       "0001386067-26-000001",
+      "0001387587-26-000008",
       "0001388161-26-000008",
       "0001388191-26-000002",
       "0001388191-26-000004",
@@ -82209,6 +82220,7 @@
       "0001631325-26-000002",
       "0001632531-26-000002",
       "0001633877-26-000008",
+      "0001634099-26-000008",
       "0001634117-26-000081",
       "0001634368-26-000003",
       "0001635088-26-000092",
@@ -82551,6 +82563,7 @@
       "0001676766-26-000006",
       "0001677703-26-000106",
       "0001677721-26-000014",
+      "0001677721-26-000018",
       "0001678152-26-000003",
       "0001678604-26-000020",
       "0001678725-26-000003",
@@ -82806,6 +82819,7 @@
       "0001705189-26-000015",
       "0001705407-26-000008",
       "0001705407-26-000010",
+      "0001705407-26-000012",
       "0001705419-26-000004",
       "0001705477-26-000001",
       "0001705477-26-000002",
@@ -83035,6 +83049,7 @@
       "0001741576-26-000008",
       "0001741750-26-000016",
       "0001741927-26-000006",
+      "0001741955-26-000008",
       "0001742046-26-000004",
       "0001742727-26-000002",
       "0001742734-26-000018",
@@ -83182,6 +83197,7 @@
       "0001767799-26-000003",
       "0001768217-26-000011",
       "0001768773-26-000010",
+      "0001768860-26-000010",
       "0001769052-26-000009",
       "0001769190-26-000001",
       "0001769208-26-000004",
@@ -93724,6 +93740,8 @@
       "0002058897-26-000267",
       "0002058897-26-000290",
       "0002058897-26-000294",
+      "0002058897-26-000314",
+      "0002058897-26-000316",
       "0002059222-26-000003",
       "0002059696-26-000006",
       "0002059795-26-000011",
@@ -93990,6 +94008,7 @@
       "0002084455-26-000005",
       "0002084455-26-000007",
       "0002084606-26-000012",
+      "0002084606-26-000014",
       "0002084812-26-000013",
       "0002084812-26-000015",
       "0002084812-26-000017",
