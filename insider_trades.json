@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T13:01:03.793039+00:00",
+  "generatedAt": "2026-09-24T14:01:42.304320+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -341,6 +341,26 @@
       "type": "Sale",
       "shares": 28400.0,
       "pricePerShare": 8.5353,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "GF",
+      "issuerName": "NEW GERMANY FUND INC",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 4657.0,
+      "pricePerShare": 10.85,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "GAM",
+      "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
+      "insiderName": "Stark Eugene S",
+      "title": "VP Administration",
+      "type": "Purchase",
+      "shares": 5000.0,
+      "pricePerShare": 22.75,
       "transactionDate": "2026-09-23"
     },
     {
@@ -1091,6 +1111,16 @@
       "type": "Sale",
       "shares": 34500.0,
       "pricePerShare": 8.3778,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "GF",
+      "issuerName": "NEW GERMANY FUND INC",
+      "insiderName": "Saba Capital Management, L.P.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 12336.0,
+      "pricePerShare": 10.95,
       "transactionDate": "2026-09-22"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 1564.0,
       "pricePerShare": 242.91,
       "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FIVE",
-      "issuerName": "FIVE BELOW, INC",
-      "insiderName": "BULL KENNETH R",
-      "title": "COO",
-      "type": "Sale",
-      "shares": 183.0,
-      "pricePerShare": 243.93,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FIVE",
-      "issuerName": "FIVE BELOW, INC",
-      "insiderName": "BULL KENNETH R",
-      "title": "COO",
-      "type": "Sale",
-      "shares": 168.0,
-      "pricePerShare": 244.82,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FIVE",
-      "issuerName": "FIVE BELOW, INC",
-      "insiderName": "BULL KENNETH R",
-      "title": "COO",
-      "type": "Sale",
-      "shares": 163.0,
-      "pricePerShare": 246.07,
-      "transactionDate": "2026-09-04"
     }
   ],
   "byTicker": {
@@ -31682,6 +31682,146 @@
           "shares": 60700.0,
           "pricePerShare": 8.3295,
           "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "GF": {
+      "issuerName": "NEW GERMANY FUND INC",
+      "trades": [
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 4657.0,
+          "pricePerShare": 10.85,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 12336.0,
+          "pricePerShare": 10.95,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 930.0,
+          "pricePerShare": 10.96,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 14185.0,
+          "pricePerShare": 10.82,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1258.0,
+          "pricePerShare": 11.1,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 1534.0,
+          "pricePerShare": 10.88,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 3306.0,
+          "pricePerShare": 10.92,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "GF",
+          "issuerName": "NEW GERMANY FUND INC",
+          "insiderName": "Saba Capital Management, L.P.",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 800.0,
+          "pricePerShare": 11.55,
+          "transactionDate": "2026-09-09"
+        }
+      ]
+    },
+    "GAM": {
+      "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
+      "trades": [
+        {
+          "ticker": "GAM",
+          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
+          "insiderName": "Stark Eugene S",
+          "title": "VP Administration",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 22.75,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "GAM",
+          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
+          "insiderName": "Grassi Craig Anthony",
+          "title": "Vice-President",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 23.08,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "GAM",
+          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
+          "insiderName": "Priest Jeffrey W",
+          "title": "President & CEO",
+          "type": "Purchase",
+          "shares": 4000.0,
+          "pricePerShare": 23.46,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "GAM",
+          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
+          "insiderName": "Jin Samantha X.",
+          "title": "Treasurer/PAO/PFO",
+          "type": "Purchase",
+          "shares": 1000.0,
+          "pricePerShare": 23.66,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "GAM",
+          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
+          "insiderName": "Jin Samantha X.",
+          "title": "Treasurer/PAO/PFO",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 23.69,
+          "transactionDate": "2026-09-17"
         }
       ]
     },
@@ -33622,51 +33762,6 @@
           "shares": 756.0,
           "pricePerShare": 2.9,
           "transactionDate": "2026-09-04"
-        }
-      ]
-    },
-    "GAM": {
-      "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
-      "trades": [
-        {
-          "ticker": "GAM",
-          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
-          "insiderName": "Grassi Craig Anthony",
-          "title": "Vice-President",
-          "type": "Purchase",
-          "shares": 2000.0,
-          "pricePerShare": 23.08,
-          "transactionDate": "2026-09-22"
-        },
-        {
-          "ticker": "GAM",
-          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
-          "insiderName": "Priest Jeffrey W",
-          "title": "President & CEO",
-          "type": "Purchase",
-          "shares": 4000.0,
-          "pricePerShare": 23.46,
-          "transactionDate": "2026-09-18"
-        },
-        {
-          "ticker": "GAM",
-          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
-          "insiderName": "Jin Samantha X.",
-          "title": "Treasurer/PAO/PFO",
-          "type": "Purchase",
-          "shares": 1000.0,
-          "pricePerShare": 23.66,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "GAM",
-          "issuerName": "GENERAL AMERICAN INVESTORS CO INC",
-          "insiderName": "Jin Samantha X.",
-          "title": "Treasurer/PAO/PFO",
-          "type": "Purchase",
-          "shares": 2000.0,
-          "pricePerShare": 23.69,
-          "transactionDate": "2026-09-17"
         }
       ]
     },
@@ -36277,71 +36372,6 @@
           "shares": 4000.0,
           "pricePerShare": 7.8844,
           "transactionDate": "2026-09-14"
-        }
-      ]
-    },
-    "GF": {
-      "issuerName": "NEW GERMANY FUND INC",
-      "trades": [
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 930.0,
-          "pricePerShare": 10.96,
-          "transactionDate": "2026-09-21"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 14185.0,
-          "pricePerShare": 10.82,
-          "transactionDate": "2026-09-18"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1258.0,
-          "pricePerShare": 11.1,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 1534.0,
-          "pricePerShare": 10.88,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 3306.0,
-          "pricePerShare": 10.92,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "GF",
-          "issuerName": "NEW GERMANY FUND INC",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 800.0,
-          "pricePerShare": 11.55,
-          "transactionDate": "2026-09-09"
         }
       ]
     },
@@ -59847,36 +59877,6 @@
           "shares": 1564.0,
           "pricePerShare": 242.91,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FIVE",
-          "issuerName": "FIVE BELOW, INC",
-          "insiderName": "BULL KENNETH R",
-          "title": "COO",
-          "type": "Sale",
-          "shares": 183.0,
-          "pricePerShare": 243.93,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FIVE",
-          "issuerName": "FIVE BELOW, INC",
-          "insiderName": "BULL KENNETH R",
-          "title": "COO",
-          "type": "Sale",
-          "shares": 168.0,
-          "pricePerShare": 244.82,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FIVE",
-          "issuerName": "FIVE BELOW, INC",
-          "insiderName": "BULL KENNETH R",
-          "title": "COO",
-          "type": "Sale",
-          "shares": 163.0,
-          "pricePerShare": 246.07,
-          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -63578,6 +63578,7 @@
       "0000040417-26-000048",
       "0000040417-26-000049",
       "0000040417-26-000050",
+      "0000040417-26-000051",
       "0000043920-26-000105",
       "0000043920-26-000107",
       "0000043920-26-000109",
@@ -64825,6 +64826,7 @@
       "0000894189-26-025377",
       "0000894189-26-025392",
       "0000894189-26-025403",
+      "0000894189-26-025432",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -68718,6 +68720,7 @@
       "0001104659-26-110221",
       "0001104659-26-110226",
       "0001104659-26-110231",
+      "0001104659-26-110246",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -74436,6 +74439,19 @@
       "0001193125-26-400286",
       "0001193125-26-400307",
       "0001193125-26-400313",
+      "0001193125-26-400320",
+      "0001193125-26-400323",
+      "0001193125-26-400327",
+      "0001193125-26-400331",
+      "0001193125-26-400340",
+      "0001193125-26-400348",
+      "0001193125-26-400352",
+      "0001193125-26-400356",
+      "0001193125-26-400365",
+      "0001193125-26-400369",
+      "0001193125-26-400376",
+      "0001193125-26-400381",
+      "0001193125-26-400383",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -76343,6 +76359,7 @@
       "0001213900-26-102833",
       "0001213900-26-102836",
       "0001213900-26-102851",
+      "0001213900-26-102865",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -77613,6 +77630,7 @@
       "0001364924-26-000198",
       "0001364924-26-000204",
       "0001364924-26-000207",
+      "0001364924-26-000226",
       "0001364954-26-000090",
       "0001365837-26-000014",
       "0001366268-26-000006",
@@ -79756,6 +79774,7 @@
       "0001493152-26-044040",
       "0001493152-26-044042",
       "0001493152-26-044047",
+      "0001493152-26-044088",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -79891,6 +79910,7 @@
       "0001510281-26-000308",
       "0001510281-26-000309",
       "0001510281-26-000310",
+      "0001510281-26-000311",
       "0001511110-26-000008",
       "0001511110-26-000010",
       "0001511110-26-000012",
@@ -82792,6 +82812,7 @@
       "0001756253-26-000006",
       "0001756274-26-000010",
       "0001756404-26-000039",
+      "0001756404-26-000042",
       "0001756761-26-000113",
       "0001756761-26-000118",
       "0001756770-26-000103",
@@ -87121,6 +87142,14 @@
       "0001839882-26-046927",
       "0001839882-26-046956",
       "0001839882-26-046961",
+      "0001839882-26-047002",
+      "0001839882-26-047008",
+      "0001839882-26-047010",
+      "0001839882-26-047011",
+      "0001839882-26-047012",
+      "0001839882-26-047013",
+      "0001839882-26-047015",
+      "0001839882-26-047017",
       "0001839931-26-000002",
       "0001840244-26-000015",
       "0001840244-26-000016",
@@ -91806,6 +91835,15 @@
       "0001918704-26-028586",
       "0001918704-26-028598",
       "0001918704-26-028599",
+      "0001918704-26-028600",
+      "0001918704-26-028601",
+      "0001918704-26-028602",
+      "0001918704-26-028603",
+      "0001918704-26-028604",
+      "0001918704-26-028605",
+      "0001918704-26-028606",
+      "0001918704-26-028607",
+      "0001918704-26-028608",
       "0001920053-26-000026",
       "0001920053-26-000028",
       "0001920475-26-000014",
@@ -92933,6 +92971,7 @@
       "0002016416-26-000020",
       "0002016416-26-000022",
       "0002016900-26-000039",
+      "0002016900-26-000042",
       "0002017181-26-000005",
       "0002017190-26-000003",
       "0002017287-26-000005",
@@ -93368,6 +93407,7 @@
       "0002073970-26-000001",
       "0002074132-26-000008",
       "0002074176-26-000057",
+      "0002074225-26-000014",
       "0002074298-26-000017",
       "0002074521-26-000002",
       "0002074666-26-000006",
