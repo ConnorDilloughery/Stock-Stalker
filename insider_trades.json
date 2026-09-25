@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T13:02:20.274628+00:00",
+  "generatedAt": "2026-09-25T14:05:16.275023+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -11,6 +11,16 @@
       "type": "Purchase",
       "shares": 1625000.0,
       "pricePerShare": 0.4,
+      "transactionDate": "2026-09-25"
+    },
+    {
+      "ticker": "PMA",
+      "issuerName": "PMA Graphene Technology Group Inc.",
+      "insiderName": "Lam Chi Ming",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 47865.0,
+      "pricePerShare": 1.3023,
       "transactionDate": "2026-09-25"
     },
     {
@@ -131,6 +141,36 @@
       "type": "Sale",
       "shares": 400.0,
       "pricePerShare": 8.369,
+      "transactionDate": "2026-09-24"
+    },
+    {
+      "ticker": "CBL",
+      "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+      "insiderName": "Cope Jennifer",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 6763.0,
+      "pricePerShare": 52.0012,
+      "transactionDate": "2026-09-24"
+    },
+    {
+      "ticker": "PMA",
+      "issuerName": "PMA Graphene Technology Group Inc.",
+      "insiderName": "Lam Chi Ming",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 120000.0,
+      "pricePerShare": 1.3005,
+      "transactionDate": "2026-09-24"
+    },
+    {
+      "ticker": "AEF",
+      "issuerName": "abrdn Emerging Markets ex-China Fund, Inc.",
+      "insiderName": "Clark Anthony S.",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 4500.0,
+      "pricePerShare": 9.63,
       "transactionDate": "2026-09-24"
     },
     {
@@ -29962,46 +30002,6 @@
       "shares": 3143.0,
       "pricePerShare": 358.4182,
       "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "KRYS",
-      "issuerName": "Krystal Biotech, Inc.",
-      "insiderName": "Krishnan Krish S",
-      "title": "Director, President and CEO, 10% Owner",
-      "type": "Sale",
-      "shares": 3357.0,
-      "pricePerShare": 359.3861,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "KRYS",
-      "issuerName": "Krystal Biotech, Inc.",
-      "insiderName": "Krishnan Krish S",
-      "title": "Director, President and CEO, 10% Owner",
-      "type": "Sale",
-      "shares": 2266.0,
-      "pricePerShare": 360.463,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "KRYS",
-      "issuerName": "Krystal Biotech, Inc.",
-      "insiderName": "Krishnan Krish S",
-      "title": "Director, President and CEO, 10% Owner",
-      "type": "Sale",
-      "shares": 1214.0,
-      "pricePerShare": 361.6091,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "KRYS",
-      "issuerName": "Krystal Biotech, Inc.",
-      "insiderName": "Krishnan Krish S",
-      "title": "Director, President and CEO, 10% Owner",
-      "type": "Sale",
-      "shares": 2010.0,
-      "pricePerShare": 362.6504,
-      "transactionDate": "2026-09-04"
     }
   ],
   "byTicker": {
@@ -30017,6 +30017,61 @@
           "shares": 1625000.0,
           "pricePerShare": 0.4,
           "transactionDate": "2026-09-25"
+        }
+      ]
+    },
+    "PMA": {
+      "issuerName": "PMA Graphene Technology Group Inc.",
+      "trades": [
+        {
+          "ticker": "PMA",
+          "issuerName": "PMA Graphene Technology Group Inc.",
+          "insiderName": "Lam Chi Ming",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 47865.0,
+          "pricePerShare": 1.3023,
+          "transactionDate": "2026-09-25"
+        },
+        {
+          "ticker": "PMA",
+          "issuerName": "PMA Graphene Technology Group Inc.",
+          "insiderName": "Lam Chi Ming",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 120000.0,
+          "pricePerShare": 1.3005,
+          "transactionDate": "2026-09-24"
+        },
+        {
+          "ticker": "PMA",
+          "issuerName": "PMA Graphene Technology Group Inc.",
+          "insiderName": "Lam Chi Ming",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 6000.0,
+          "pricePerShare": 1.3008,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "PMA",
+          "issuerName": "PMA Graphene Technology Group Inc.",
+          "insiderName": "Lam Chi Ming",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 120000.0,
+          "pricePerShare": 1.3002,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "PMA",
+          "issuerName": "PMA Graphene Technology Group Inc.",
+          "insiderName": "Lam Chi Ming",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 99114.0,
+          "pricePerShare": 1.3002,
+          "transactionDate": "2026-09-15"
         }
       ]
     },
@@ -31420,6 +31475,56 @@
         }
       ]
     },
+    "CBL": {
+      "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+      "trades": [
+        {
+          "ticker": "CBL",
+          "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+          "insiderName": "Cope Jennifer",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6763.0,
+          "pricePerShare": 52.0012,
+          "transactionDate": "2026-09-24"
+        },
+        {
+          "ticker": "CBL",
+          "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+          "insiderName": "LEBOVITZ STEPHEN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 43133.0,
+          "pricePerShare": 52.7265,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "CBL",
+          "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
+          "insiderName": "LEBOVITZ STEPHEN D",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6867.0,
+          "pricePerShare": 53.4692,
+          "transactionDate": "2026-09-16"
+        }
+      ]
+    },
+    "AEF": {
+      "issuerName": "abrdn Emerging Markets ex-China Fund, Inc.",
+      "trades": [
+        {
+          "ticker": "AEF",
+          "issuerName": "abrdn Emerging Markets ex-China Fund, Inc.",
+          "insiderName": "Clark Anthony S.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 4500.0,
+          "pricePerShare": 9.63,
+          "transactionDate": "2026-09-24"
+        }
+      ]
+    },
     "NEGG": {
       "issuerName": "Newegg Commerce, Inc.",
       "trades": [
@@ -31512,41 +31617,6 @@
           "shares": 13582.0,
           "pricePerShare": 15.6164,
           "transactionDate": "2026-09-04-05:00"
-        }
-      ]
-    },
-    "PMA": {
-      "issuerName": "PMA Graphene Technology Group Inc.",
-      "trades": [
-        {
-          "ticker": "PMA",
-          "issuerName": "PMA Graphene Technology Group Inc.",
-          "insiderName": "Lam Chi Ming",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 6000.0,
-          "pricePerShare": 1.3008,
-          "transactionDate": "2026-09-23"
-        },
-        {
-          "ticker": "PMA",
-          "issuerName": "PMA Graphene Technology Group Inc.",
-          "insiderName": "Lam Chi Ming",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 120000.0,
-          "pricePerShare": 1.3002,
-          "transactionDate": "2026-09-22"
-        },
-        {
-          "ticker": "PMA",
-          "issuerName": "PMA Graphene Technology Group Inc.",
-          "insiderName": "Lam Chi Ming",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 99114.0,
-          "pricePerShare": 1.3002,
-          "transactionDate": "2026-09-15"
         }
       ]
     },
@@ -46902,31 +46972,6 @@
           "shares": 19000.0,
           "pricePerShare": 21.92,
           "transactionDate": "2026-09-09"
-        }
-      ]
-    },
-    "CBL": {
-      "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
-      "trades": [
-        {
-          "ticker": "CBL",
-          "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
-          "insiderName": "LEBOVITZ STEPHEN D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 43133.0,
-          "pricePerShare": 52.7265,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "CBL",
-          "issuerName": "CBL & ASSOCIATES PROPERTIES INC",
-          "insiderName": "LEBOVITZ STEPHEN D",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6867.0,
-          "pricePerShare": 53.4692,
-          "transactionDate": "2026-09-16"
         }
       ]
     },
@@ -63307,46 +63352,6 @@
           "shares": 3143.0,
           "pricePerShare": 358.4182,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "KRYS",
-          "issuerName": "Krystal Biotech, Inc.",
-          "insiderName": "Krishnan Krish S",
-          "title": "Director, President and CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 3357.0,
-          "pricePerShare": 359.3861,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "KRYS",
-          "issuerName": "Krystal Biotech, Inc.",
-          "insiderName": "Krishnan Krish S",
-          "title": "Director, President and CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 2266.0,
-          "pricePerShare": 360.463,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "KRYS",
-          "issuerName": "Krystal Biotech, Inc.",
-          "insiderName": "Krishnan Krish S",
-          "title": "Director, President and CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 1214.0,
-          "pricePerShare": 361.6091,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "KRYS",
-          "issuerName": "Krystal Biotech, Inc.",
-          "insiderName": "Krishnan Krish S",
-          "title": "Director, President and CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 2010.0,
-          "pricePerShare": 362.6504,
-          "transactionDate": "2026-09-04"
         }
       ]
     }
@@ -63528,6 +63533,7 @@
       "0000030146-26-000409",
       "0000030146-26-000411",
       "0000030146-26-000412",
+      "0000030146-26-000416",
       "0000030697-26-000117",
       "0000030697-26-000118",
       "0000030697-26-000119",
@@ -63789,6 +63795,7 @@
       "0000070502-26-000665",
       "0000070502-26-000667",
       "0000070502-26-000669",
+      "0000070502-26-000671",
       "0000070858-26-000359",
       "0000070858-26-000368",
       "0000070858-26-000409",
@@ -64122,6 +64129,9 @@
       "0000352736-26-000030",
       "0000352736-26-000031",
       "0000352736-26-000032",
+      "0000352736-26-000042",
+      "0000352736-26-000043",
+      "0000352736-26-000044",
       "0000354190-26-000187",
       "0000354190-26-000195",
       "0000354190-26-000199",
@@ -65212,6 +65222,7 @@
       "0000912938-26-000897",
       "0000912938-26-000898",
       "0000912938-26-000899",
+      "0000912938-26-000905",
       "0000914190-26-000108",
       "0000914190-26-000139",
       "0000916789-26-000116",
@@ -67481,6 +67492,9 @@
       "0001085612-26-000090",
       "0001085612-26-000091",
       "0001085612-26-000092",
+      "0001085612-26-000104",
+      "0001085612-26-000105",
+      "0001085612-26-000106",
       "0001086618-26-000007",
       "0001087961-26-000006",
       "0001088226-26-000007",
@@ -68831,6 +68845,7 @@
       "0001104659-26-110654",
       "0001104659-26-110657",
       "0001104659-26-110660",
+      "0001104659-26-110663",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -69090,6 +69105,14 @@
       "0001114446-26-006766",
       "0001114446-26-006767",
       "0001114446-26-006768",
+      "0001114446-26-006769",
+      "0001114446-26-006770",
+      "0001114446-26-006771",
+      "0001114446-26-006772",
+      "0001114446-26-006773",
+      "0001114446-26-006774",
+      "0001114446-26-006775",
+      "0001114446-26-006776",
       "0001116233-26-000003",
       "0001120545-26-000004",
       "0001123292-26-001022",
@@ -74715,6 +74738,27 @@
       "0001193125-26-401626",
       "0001193125-26-401627",
       "0001193125-26-401628",
+      "0001193125-26-401713",
+      "0001193125-26-401716",
+      "0001193125-26-401774",
+      "0001193125-26-401776",
+      "0001193125-26-401778",
+      "0001193125-26-401780",
+      "0001193125-26-401784",
+      "0001193125-26-401785",
+      "0001193125-26-401786",
+      "0001193125-26-401787",
+      "0001193125-26-401788",
+      "0001193125-26-401789",
+      "0001193125-26-401790",
+      "0001193125-26-401791",
+      "0001193125-26-401792",
+      "0001193125-26-401794",
+      "0001193125-26-401795",
+      "0001193125-26-401796",
+      "0001193125-26-401797",
+      "0001193125-26-401798",
+      "0001193125-26-401799",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -76648,6 +76692,10 @@
       "0001213900-26-103188",
       "0001213900-26-103193",
       "0001213900-26-103207",
+      "0001213900-26-103264",
+      "0001213900-26-103274",
+      "0001213900-26-103286",
+      "0001213900-26-103287",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -78296,6 +78344,7 @@
       "0001419425-26-000007",
       "0001419536-26-000119",
       "0001419536-26-000120",
+      "0001419536-26-000122",
       "0001419945-26-000057",
       "0001419945-26-000059",
       "0001419945-26-000061",
@@ -80953,6 +81002,7 @@
       "0001580642-26-006459",
       "0001580642-26-006461",
       "0001580642-26-006469",
+      "0001580642-26-006492",
       "0001581754-26-000006",
       "0001581760-26-000148",
       "0001581760-26-000150",
@@ -87651,6 +87701,7 @@
       "0001839882-26-047167",
       "0001839882-26-047168",
       "0001839882-26-047175",
+      "0001839882-26-047220",
       "0001839931-26-000002",
       "0001840244-26-000015",
       "0001840244-26-000016",
@@ -88004,6 +88055,7 @@
       "0001897745-26-000014",
       "0001897970-26-000008",
       "0001898391-26-000148",
+      "0001898391-26-000149",
       "0001898490-26-000012",
       "0001898490-26-000014",
       "0001898490-26-000017",
@@ -92436,6 +92488,20 @@
       "0001918704-26-028757",
       "0001918704-26-028758",
       "0001918704-26-028759",
+      "0001918704-26-028765",
+      "0001918704-26-028766",
+      "0001918704-26-028767",
+      "0001918704-26-028768",
+      "0001918704-26-028769",
+      "0001918704-26-028770",
+      "0001918704-26-028771",
+      "0001918704-26-028772",
+      "0001918704-26-028773",
+      "0001918704-26-028774",
+      "0001918704-26-028775",
+      "0001918704-26-028776",
+      "0001918704-26-028777",
+      "0001918704-26-028778",
       "0001919348-26-000002",
       "0001920053-26-000026",
       "0001920053-26-000028",
@@ -93468,6 +93534,13 @@
       "0001999371-26-021300",
       "0001999371-26-021304",
       "0001999371-26-021306",
+      "0001999371-26-021314",
+      "0001999371-26-021315",
+      "0001999371-26-021318",
+      "0001999371-26-021322",
+      "0001999371-26-021329",
+      "0001999371-26-021330",
+      "0001999371-26-021333",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
@@ -93672,6 +93745,7 @@
       "0002028403-26-000014",
       "0002028403-26-000017",
       "0002028403-26-000018",
+      "0002028403-26-000019",
       "0002028977-26-000015",
       "0002028977-26-000017",
       "0002029059-26-000010",
