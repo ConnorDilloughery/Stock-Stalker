@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T17:02:07.591321+00:00",
+  "generatedAt": "2026-09-25T18:01:34.210605+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -1191,6 +1191,16 @@
       "type": "Purchase",
       "shares": 49036.0,
       "pricePerShare": 2.69,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "PHVS",
+      "issuerName": "Pharvaris N.V.",
+      "insiderName": "Monges Viviane",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 11969.0,
+      "pricePerShare": 33.0457,
       "transactionDate": "2026-09-23"
     },
     {
@@ -29992,16 +30002,6 @@
       "shares": 2029.0,
       "pricePerShare": 355.5719,
       "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "KRYS",
-      "issuerName": "Krystal Biotech, Inc.",
-      "insiderName": "Krishnan Krish S",
-      "title": "Director, President and CEO, 10% Owner",
-      "type": "Sale",
-      "shares": 3297.0,
-      "pricePerShare": 356.3687,
-      "transactionDate": "2026-09-04"
     }
   ],
   "byTicker": {
@@ -36180,6 +36180,141 @@
         }
       ]
     },
+    "PHVS": {
+      "issuerName": "Pharvaris N.V.",
+      "trades": [
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Monges Viviane",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 11969.0,
+          "pricePerShare": 33.0457,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Schikan Johannes Gerardus Christiaan Petrus",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 800.0,
+          "pricePerShare": 36.19,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Nassif David W.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6000.0,
+          "pricePerShare": 36.4668,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Bjork Elisabeth",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 52500.0,
+          "pricePerShare": 37.8935,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Glassman Robert",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 14493.0,
+          "pricePerShare": 38.5574,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Lesage Anne",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 38.2733,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Souverijns Wim",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 6090.0,
+          "pricePerShare": 38.99,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Abele Stefan Andreas",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 45000.0,
+          "pricePerShare": 38.1375,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Abele Stefan Andreas",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 1400.0,
+          "pricePerShare": 39.2411,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Souverijns Wim",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 20000.0,
+          "pricePerShare": 39.3063,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Lu Peng",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15000.0,
+          "pricePerShare": 40.1298,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Glassman Robert",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 8000.0,
+          "pricePerShare": 37.5495,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "PHVS",
+          "issuerName": "Pharvaris N.V.",
+          "insiderName": "Lu Peng",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 15000.0,
+          "pricePerShare": 40.6756,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
     "UMC": {
       "issuerName": "UNITED MICROELECTRONICS CORP",
       "trades": [
@@ -37817,131 +37952,6 @@
           "shares": 20000.0,
           "pricePerShare": 39.16,
           "transactionDate": "2026-09-18"
-        }
-      ]
-    },
-    "PHVS": {
-      "issuerName": "Pharvaris N.V.",
-      "trades": [
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Schikan Johannes Gerardus Christiaan Petrus",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 800.0,
-          "pricePerShare": 36.19,
-          "transactionDate": "2026-09-22"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Nassif David W.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6000.0,
-          "pricePerShare": 36.4668,
-          "transactionDate": "2026-09-21"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Bjork Elisabeth",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 52500.0,
-          "pricePerShare": 37.8935,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Glassman Robert",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 14493.0,
-          "pricePerShare": 38.5574,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Lesage Anne",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 20000.0,
-          "pricePerShare": 38.2733,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Souverijns Wim",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 6090.0,
-          "pricePerShare": 38.99,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Abele Stefan Andreas",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 45000.0,
-          "pricePerShare": 38.1375,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Abele Stefan Andreas",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 1400.0,
-          "pricePerShare": 39.2411,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Souverijns Wim",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 20000.0,
-          "pricePerShare": 39.3063,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Lu Peng",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15000.0,
-          "pricePerShare": 40.1298,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Glassman Robert",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 8000.0,
-          "pricePerShare": 37.5495,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "PHVS",
-          "issuerName": "Pharvaris N.V.",
-          "insiderName": "Lu Peng",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 15000.0,
-          "pricePerShare": 40.6756,
-          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -63347,16 +63357,6 @@
           "shares": 2029.0,
           "pricePerShare": 355.5719,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "KRYS",
-          "issuerName": "Krystal Biotech, Inc.",
-          "insiderName": "Krishnan Krish S",
-          "title": "Director, President and CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 3297.0,
-          "pricePerShare": 356.3687,
-          "transactionDate": "2026-09-04"
         }
       ]
     }
@@ -64158,6 +64158,7 @@
       "0000355437-26-000228",
       "0000355437-26-000238",
       "0000355437-26-000245",
+      "0000355437-26-000248",
       "0000356171-26-000106",
       "0000356171-26-000112",
       "0000701347-26-000070",
@@ -64893,6 +64894,7 @@
       "0000894189-26-025501",
       "0000894189-26-025511",
       "0000894189-26-025512",
+      "0000894189-26-025709",
       "0000895345-26-000353",
       "0000895345-26-000377",
       "0000895345-26-000382",
@@ -65487,6 +65489,9 @@
       "0000939057-26-000208",
       "0000939057-26-000213",
       "0000939057-26-000234",
+      "0000939057-26-000235",
+      "0000939057-26-000236",
+      "0000939057-26-000237",
       "0000939767-26-000101",
       "0000940420-26-000019",
       "0000940420-26-000021",
@@ -68870,6 +68875,8 @@
       "0001104659-26-110817",
       "0001104659-26-110819",
       "0001104659-26-110821",
+      "0001104659-26-110831",
+      "0001104659-26-110841",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -69269,6 +69276,14 @@
       "0001133228-26-012818",
       "0001133228-26-012820",
       "0001133228-26-012824",
+      "0001133228-26-012826",
+      "0001133228-26-012828",
+      "0001133228-26-012830",
+      "0001133228-26-012832",
+      "0001133228-26-012834",
+      "0001133228-26-012836",
+      "0001133228-26-012838",
+      "0001133228-26-012840",
       "0001133416-26-000065",
       "0001134261-26-000005",
       "0001134261-26-000007",
@@ -69986,6 +70001,7 @@
       "0001140361-26-037638",
       "0001140361-26-037640",
       "0001140361-26-037646",
+      "0001140361-26-037661",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -74886,6 +74902,31 @@
       "0001193125-26-402404",
       "0001193125-26-402464",
       "0001193125-26-402469",
+      "0001193125-26-402523",
+      "0001193125-26-402524",
+      "0001193125-26-402525",
+      "0001193125-26-402526",
+      "0001193125-26-402527",
+      "0001193125-26-402528",
+      "0001193125-26-402529",
+      "0001193125-26-402530",
+      "0001193125-26-402531",
+      "0001193125-26-402555",
+      "0001193125-26-402556",
+      "0001193125-26-402557",
+      "0001193125-26-402558",
+      "0001193125-26-402559",
+      "0001193125-26-402560",
+      "0001193125-26-402561",
+      "0001193125-26-402562",
+      "0001193125-26-402563",
+      "0001193125-26-402564",
+      "0001193125-26-402565",
+      "0001193125-26-402566",
+      "0001193125-26-402567",
+      "0001193125-26-402578",
+      "0001193125-26-402579",
+      "0001193125-26-402586",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -76830,6 +76871,9 @@
       "0001213900-26-103406",
       "0001213900-26-103407",
       "0001213900-26-103409",
+      "0001213900-26-103425",
+      "0001213900-26-103430",
+      "0001213900-26-103431",
       "0001214607-26-000017",
       "0001214659-26-008709",
       "0001214659-26-008711",
@@ -77248,6 +77292,7 @@
       "0001214659-26-011959",
       "0001214659-26-011960",
       "0001214659-26-011967",
+      "0001214659-26-011971",
       "0001214736-26-000002",
       "0001214993-26-000004",
       "0001215135-26-000012",
@@ -78415,6 +78460,8 @@
       "0001398344-26-017381",
       "0001398344-26-017383",
       "0001398344-26-017419",
+      "0001398344-26-017425",
+      "0001398344-26-017428",
       "0001399967-26-000002",
       "0001400954-26-000009",
       "0001400954-26-000011",
@@ -79424,6 +79471,7 @@
       "0001445546-26-007132",
       "0001445546-26-007134",
       "0001445546-26-007136",
+      "0001445546-26-007140",
       "0001445832-26-000011",
       "0001445832-26-000013",
       "0001446066-26-000008",
@@ -82518,6 +82566,7 @@
       "0001628280-26-063470",
       "0001628280-26-063476",
       "0001628280-26-063478",
+      "0001628280-26-063531",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -87880,6 +87929,9 @@
       "0001839882-26-047321",
       "0001839882-26-047322",
       "0001839882-26-047323",
+      "0001839882-26-047327",
+      "0001839882-26-047328",
+      "0001839882-26-047329",
       "0001839931-26-000002",
       "0001840244-26-000015",
       "0001840244-26-000016",
@@ -92709,6 +92761,16 @@
       "0001918704-26-028837",
       "0001918704-26-028838",
       "0001918704-26-028839",
+      "0001918704-26-028842",
+      "0001918704-26-028843",
+      "0001918704-26-028844",
+      "0001918704-26-028845",
+      "0001918704-26-028846",
+      "0001918704-26-028848",
+      "0001918704-26-028849",
+      "0001918704-26-028850",
+      "0001918704-26-028851",
+      "0001918704-26-028852",
       "0001919348-26-000002",
       "0001920053-26-000026",
       "0001920053-26-000028",
@@ -94301,6 +94363,14 @@
       "0002071844-26-001272",
       "0002071844-26-001273",
       "0002071844-26-001275",
+      "0002071844-26-001288",
+      "0002071844-26-001289",
+      "0002071844-26-001290",
+      "0002071844-26-001291",
+      "0002071844-26-001292",
+      "0002071844-26-001293",
+      "0002071844-26-001294",
+      "0002071844-26-001295",
       "0002071948-26-000005",
       "0002071953-26-000007",
       "0002071959-26-000008",
