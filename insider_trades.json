@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T11:01:15.095270+00:00",
+  "generatedAt": "2026-09-25T12:04:12.671426+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -101,6 +101,36 @@
       "type": "Sale",
       "shares": 42.0,
       "pricePerShare": 102.31,
+      "transactionDate": "2026-09-24"
+    },
+    {
+      "ticker": "CMPX",
+      "issuerName": "Compass Therapeutics, Inc.",
+      "insiderName": "Lerner Neil",
+      "title": "Chief Accounting Officer",
+      "type": "Purchase",
+      "shares": 2500.0,
+      "pricePerShare": 1.14,
+      "transactionDate": "2026-09-24"
+    },
+    {
+      "ticker": "SMWB",
+      "issuerName": "SIMILARWEB LTD.",
+      "insiderName": "Offer Or",
+      "title": "Chief Executive Officer",
+      "type": "Sale",
+      "shares": 113900.0,
+      "pricePerShare": 7.6888,
+      "transactionDate": "2026-09-24"
+    },
+    {
+      "ticker": "SMWB",
+      "issuerName": "SIMILARWEB LTD.",
+      "insiderName": "Offer Or",
+      "title": "Chief Executive Officer",
+      "type": "Sale",
+      "shares": 400.0,
+      "pricePerShare": 8.369,
       "transactionDate": "2026-09-24"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 847.0,
       "pricePerShare": 365.4163,
       "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "KRYS",
-      "issuerName": "Krystal Biotech, Inc.",
-      "insiderName": "Krishnan Krish S",
-      "title": "Director, President and CEO, 10% Owner",
-      "type": "Sale",
-      "shares": 405.0,
-      "pricePerShare": 366.5567,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "RXT",
-      "issuerName": "Rackspace Technology, Inc.",
-      "insiderName": "Kandiah Gajakarnan Vibushanan",
-      "title": "Director, Chief Executive Officer",
-      "type": "Sale",
-      "shares": 498728.0,
-      "pricePerShare": 3.21,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "ENOV",
-      "issuerName": "Enovis CORP",
-      "insiderName": "McDonald Damien",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 13035.0,
-      "pricePerShare": 19.15,
-      "transactionDate": "2026-09-04"
     }
   ],
   "byTicker": {
@@ -31237,6 +31237,186 @@
           "shares": 36.0,
           "pricePerShare": 111.36,
           "transactionDate": "2026-09-09"
+        }
+      ]
+    },
+    "CMPX": {
+      "issuerName": "Compass Therapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "CMPX",
+          "issuerName": "Compass Therapeutics, Inc.",
+          "insiderName": "Lerner Neil",
+          "title": "Chief Accounting Officer",
+          "type": "Purchase",
+          "shares": 2500.0,
+          "pricePerShare": 1.14,
+          "transactionDate": "2026-09-24"
+        }
+      ]
+    },
+    "SMWB": {
+      "issuerName": "SIMILARWEB LTD.",
+      "trades": [
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 113900.0,
+          "pricePerShare": 7.6888,
+          "transactionDate": "2026-09-24"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 400.0,
+          "pricePerShare": 8.369,
+          "transactionDate": "2026-09-24"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 28400.0,
+          "pricePerShare": 8.5353,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 34500.0,
+          "pricePerShare": 8.3778,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 32200.0,
+          "pricePerShare": 8.404,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 37500.0,
+          "pricePerShare": 8.2476,
+          "transactionDate": "2026-09-18"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 30400.0,
+          "pricePerShare": 8.346,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 45719.0,
+          "pricePerShare": 8.3976,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 26691.0,
+          "pricePerShare": 8.5267,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 26691.0,
+          "pricePerShare": 8.5267,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 52900.0,
+          "pricePerShare": 8.5378,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 52900.0,
+          "pricePerShare": 8.5378,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 59000.0,
+          "pricePerShare": 8.0493,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 59200.0,
+          "pricePerShare": 8.0631,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 86300.0,
+          "pricePerShare": 8.0568,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "SMWB",
+          "issuerName": "SIMILARWEB LTD.",
+          "insiderName": "Offer Or",
+          "title": "Chief Executive Officer",
+          "type": "Sale",
+          "shares": 60700.0,
+          "pricePerShare": 8.3295,
+          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -32857,151 +33037,6 @@
           "shares": 104931794.0,
           "pricePerShare": 0.0095,
           "transactionDate": "2026-09-23"
-        }
-      ]
-    },
-    "SMWB": {
-      "issuerName": "SIMILARWEB LTD.",
-      "trades": [
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 28400.0,
-          "pricePerShare": 8.5353,
-          "transactionDate": "2026-09-23"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 34500.0,
-          "pricePerShare": 8.3778,
-          "transactionDate": "2026-09-22"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 32200.0,
-          "pricePerShare": 8.404,
-          "transactionDate": "2026-09-21"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 37500.0,
-          "pricePerShare": 8.2476,
-          "transactionDate": "2026-09-18"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 30400.0,
-          "pricePerShare": 8.346,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 45719.0,
-          "pricePerShare": 8.3976,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 26691.0,
-          "pricePerShare": 8.5267,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 26691.0,
-          "pricePerShare": 8.5267,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 52900.0,
-          "pricePerShare": 8.5378,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 52900.0,
-          "pricePerShare": 8.5378,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 59000.0,
-          "pricePerShare": 8.0493,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 59200.0,
-          "pricePerShare": 8.0631,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 86300.0,
-          "pricePerShare": 8.0568,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "SMWB",
-          "issuerName": "SIMILARWEB LTD.",
-          "insiderName": "Offer Or",
-          "title": "Chief Executive Officer",
-          "type": "Sale",
-          "shares": 60700.0,
-          "pricePerShare": 8.3295,
-          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -60937,16 +60972,6 @@
           "shares": 33558.0,
           "pricePerShare": 3.13,
           "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "RXT",
-          "issuerName": "Rackspace Technology, Inc.",
-          "insiderName": "Kandiah Gajakarnan Vibushanan",
-          "title": "Director, Chief Executive Officer",
-          "type": "Sale",
-          "shares": 498728.0,
-          "pricePerShare": 3.21,
-          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -63321,31 +63346,6 @@
           "type": "Sale",
           "shares": 847.0,
           "pricePerShare": 365.4163,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "KRYS",
-          "issuerName": "Krystal Biotech, Inc.",
-          "insiderName": "Krishnan Krish S",
-          "title": "Director, President and CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 405.0,
-          "pricePerShare": 366.5567,
-          "transactionDate": "2026-09-04"
-        }
-      ]
-    },
-    "ENOV": {
-      "issuerName": "Enovis CORP",
-      "trades": [
-        {
-          "ticker": "ENOV",
-          "issuerName": "Enovis CORP",
-          "insiderName": "McDonald Damien",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 13035.0,
-          "pricePerShare": 19.15,
           "transactionDate": "2026-09-04"
         }
       ]
@@ -69973,6 +69973,7 @@
       "0001171843-26-006099",
       "0001171843-26-006227",
       "0001171843-26-006228",
+      "0001171843-26-006235",
       "0001173731-26-000006",
       "0001174610-26-000437",
       "0001174610-26-000473",
@@ -70123,6 +70124,7 @@
       "0001185185-26-004253",
       "0001185185-26-004277",
       "0001185185-26-004286",
+      "0001185185-26-004322",
       "0001185609-26-000007",
       "0001185611-26-000005",
       "0001185829-26-000001",
@@ -74685,6 +74687,14 @@
       "0001193125-26-401577",
       "0001193125-26-401583",
       "0001193125-26-401584",
+      "0001193125-26-401587",
+      "0001193125-26-401588",
+      "0001193125-26-401604",
+      "0001193125-26-401623",
+      "0001193125-26-401624",
+      "0001193125-26-401626",
+      "0001193125-26-401627",
+      "0001193125-26-401628",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -81128,6 +81138,7 @@
       "0001608511-26-000019",
       "0001609077-26-000008",
       "0001609284-26-000005",
+      "0001609333-26-000013",
       "0001609711-26-000094",
       "0001609711-26-000096",
       "0001609711-26-000098",
@@ -83318,6 +83329,7 @@
       "0001769628-26-000435",
       "0001769749-26-000003",
       "0001769793-26-000011",
+      "0001769793-26-000013",
       "0001769844-26-000013",
       "0001769976-26-000003",
       "0001770071-26-000010",
@@ -92746,6 +92758,7 @@
       "0001976408-26-000863",
       "0001976408-26-000864",
       "0001976408-26-000865",
+      "0001976408-26-000866",
       "0001976572-26-000005",
       "0001976672-26-000057",
       "0001976672-26-000059",
@@ -93425,6 +93438,7 @@
       "0001999371-26-021274",
       "0001999371-26-021276",
       "0001999371-26-021292",
+      "0001999371-26-021296",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
