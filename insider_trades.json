@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T01:02:29.328714+00:00",
+  "generatedAt": "2026-09-25T02:01:43.904377+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -2301,6 +2301,26 @@
       "type": "Sale",
       "shares": 800.0,
       "pricePerShare": 89.015,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "MLYS",
+      "issuerName": "Mineralys Therapeutics, Inc.",
+      "insiderName": "Slingsby Brian Taylor",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 104320.0,
+      "pricePerShare": 28.8085,
+      "transactionDate": "2026-09-22"
+    },
+    {
+      "ticker": "PLAB",
+      "issuerName": "PHOTRONICS INC",
+      "insiderName": "Lee Kang Jyh",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 10000.0,
+      "pricePerShare": 29.7,
       "transactionDate": "2026-09-22"
     },
     {
@@ -29982,26 +30002,6 @@
       "shares": 100.0,
       "pricePerShare": 200.0,
       "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "ECF",
-      "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
-      "insiderName": "Saba Capital Management, L.P.",
-      "title": "10% Owner",
-      "type": "Purchase",
-      "shares": 6800.0,
-      "pricePerShare": 12.36,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "WTS",
-      "issuerName": "WATTS WATER TECHNOLOGIES INC",
-      "insiderName": "Melhem Elie",
-      "title": "President- APAC, M. East, Afr.",
-      "type": "Sale",
-      "shares": 1096.0,
-      "pricePerShare": 359.55,
-      "transactionDate": "2026-09-04"
     }
   ],
   "byTicker": {
@@ -38750,6 +38750,56 @@
         }
       ]
     },
+    "MLYS": {
+      "issuerName": "Mineralys Therapeutics, Inc.",
+      "trades": [
+        {
+          "ticker": "MLYS",
+          "issuerName": "Mineralys Therapeutics, Inc.",
+          "insiderName": "Slingsby Brian Taylor",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 104320.0,
+          "pricePerShare": 28.8085,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "MLYS",
+          "issuerName": "Mineralys Therapeutics, Inc.",
+          "insiderName": "Warren Eric",
+          "title": "Chief Commercial Officer",
+          "type": "Sale",
+          "shares": 7438.0,
+          "pricePerShare": 28.1172,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "MLYS",
+          "issuerName": "Mineralys Therapeutics, Inc.",
+          "insiderName": "Karydas Daphne",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 28.58,
+          "transactionDate": "2026-09-15"
+        }
+      ]
+    },
+    "PLAB": {
+      "issuerName": "PHOTRONICS INC",
+      "trades": [
+        {
+          "ticker": "PLAB",
+          "issuerName": "PHOTRONICS INC",
+          "insiderName": "Lee Kang Jyh",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 29.7,
+          "transactionDate": "2026-09-22"
+        }
+      ]
+    },
     "ORKA": {
       "issuerName": "Oruka Therapeutics, Inc.",
       "trades": [
@@ -40007,31 +40057,6 @@
           "shares": 361600.0,
           "pricePerShare": 82.52,
           "transactionDate": "2026-09-18"
-        }
-      ]
-    },
-    "MLYS": {
-      "issuerName": "Mineralys Therapeutics, Inc.",
-      "trades": [
-        {
-          "ticker": "MLYS",
-          "issuerName": "Mineralys Therapeutics, Inc.",
-          "insiderName": "Warren Eric",
-          "title": "Chief Commercial Officer",
-          "type": "Sale",
-          "shares": 7438.0,
-          "pricePerShare": 28.1172,
-          "transactionDate": "2026-09-21"
-        },
-        {
-          "ticker": "MLYS",
-          "issuerName": "Mineralys Therapeutics, Inc.",
-          "insiderName": "Karydas Daphne",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 3000.0,
-          "pricePerShare": 28.58,
-          "transactionDate": "2026-09-15"
         }
       ]
     },
@@ -63314,36 +63339,6 @@
           "transactionDate": "2026-09-04"
         }
       ]
-    },
-    "ECF": {
-      "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
-      "trades": [
-        {
-          "ticker": "ECF",
-          "issuerName": "ELLSWORTH GROWTH & INCOME FUND LTD",
-          "insiderName": "Saba Capital Management, L.P.",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 6800.0,
-          "pricePerShare": 12.36,
-          "transactionDate": "2026-09-04"
-        }
-      ]
-    },
-    "WTS": {
-      "issuerName": "WATTS WATER TECHNOLOGIES INC",
-      "trades": [
-        {
-          "ticker": "WTS",
-          "issuerName": "WATTS WATER TECHNOLOGIES INC",
-          "insiderName": "Melhem Elie",
-          "title": "President- APAC, M. East, Afr.",
-          "type": "Sale",
-          "shares": 1096.0,
-          "pricePerShare": 359.55,
-          "transactionDate": "2026-09-04"
-        }
-      ]
     }
   },
   "_meta": {
@@ -67483,6 +67478,7 @@
       "0001090872-26-000067",
       "0001091482-26-000010",
       "0001091482-26-000013",
+      "0001092348-26-000006",
       "0001093557-26-000137",
       "0001093557-26-000147",
       "0001093557-26-000161",
@@ -69896,6 +69892,7 @@
       "0001140361-26-037542",
       "0001140361-26-037558",
       "0001140361-26-037584",
+      "0001140361-26-037594",
       "0001140842-26-000004",
       "0001142102-26-000003",
       "0001142618-26-000005",
@@ -92507,6 +92504,7 @@
       "0001962926-26-000007",
       "0001962926-26-000008",
       "0001962926-26-000009",
+      "0001963901-26-000003",
       "0001964281-26-000002",
       "0001964281-26-000004",
       "0001964323-26-000008",
