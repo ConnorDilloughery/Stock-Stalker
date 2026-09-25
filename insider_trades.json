@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T09:02:49.884344+00:00",
+  "generatedAt": "2026-09-25T10:05:03.320283+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -961,6 +961,16 @@
       "type": "Purchase",
       "shares": 1000.0,
       "pricePerShare": 64.49,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "MSC",
+      "issuerName": "STUDIO CITY INTERNATIONAL HOLDINGS Ltd",
+      "insiderName": "HO LAWRENCE YAU LUNG",
+      "title": "Reporting Person",
+      "type": "Purchase",
+      "shares": 1043600.0,
+      "pricePerShare": 0.1977,
       "transactionDate": "2026-09-23"
     },
     {
@@ -29992,16 +30002,6 @@
       "shares": 1200.0,
       "pricePerShare": 20.12,
       "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "SCCO",
-      "issuerName": "SOUTHERN COPPER CORP/",
-      "insiderName": "PALOMINO BONILLA LUIS MIGUEL",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 200.0,
-      "transactionDate": "2026-09-04"
     }
   ],
   "byTicker": {
@@ -34711,6 +34711,21 @@
           "type": "Purchase",
           "shares": 1000.0,
           "pricePerShare": 64.49,
+          "transactionDate": "2026-09-23"
+        }
+      ]
+    },
+    "MSC": {
+      "issuerName": "STUDIO CITY INTERNATIONAL HOLDINGS Ltd",
+      "trades": [
+        {
+          "ticker": "MSC",
+          "issuerName": "STUDIO CITY INTERNATIONAL HOLDINGS Ltd",
+          "insiderName": "HO LAWRENCE YAU LUNG",
+          "title": "Reporting Person",
+          "type": "Purchase",
+          "shares": 1043600.0,
+          "pricePerShare": 0.1977,
           "transactionDate": "2026-09-23"
         }
       ]
@@ -61707,16 +61722,6 @@
           "shares": 100.0,
           "pricePerShare": 210.0,
           "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "SCCO",
-          "issuerName": "SOUTHERN COPPER CORP/",
-          "insiderName": "PALOMINO BONILLA LUIS MIGUEL",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 200.0,
-          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -66919,6 +66924,9 @@
       "0000950103-26-014465",
       "0000950103-26-014466",
       "0000950103-26-014467",
+      "0000950103-26-014471",
+      "0000950103-26-014472",
+      "0000950103-26-014476",
       "0000950130-26-000195",
       "0000950130-26-000223",
       "0000950142-26-002131",
@@ -74636,6 +74644,16 @@
       "0001193125-26-401374",
       "0001193125-26-401375",
       "0001193125-26-401380",
+      "0001193125-26-401384",
+      "0001193125-26-401385",
+      "0001193125-26-401390",
+      "0001193125-26-401391",
+      "0001193125-26-401404",
+      "0001193125-26-401495",
+      "0001193125-26-401496",
+      "0001193125-26-401498",
+      "0001193125-26-401499",
+      "0001193125-26-401501",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -76560,7 +76578,14 @@
       "0001213900-26-103145",
       "0001213900-26-103146",
       "0001213900-26-103173",
+      "0001213900-26-103176",
       "0001213900-26-103178",
+      "0001213900-26-103181",
+      "0001213900-26-103182",
+      "0001213900-26-103186",
+      "0001213900-26-103187",
+      "0001213900-26-103188",
+      "0001213900-26-103193",
       "0001214659-26-008709",
       "0001214659-26-008711",
       "0001214659-26-008718",
@@ -92332,6 +92357,11 @@
       "0001918704-26-028741",
       "0001918704-26-028742",
       "0001918704-26-028743",
+      "0001918704-26-028755",
+      "0001918704-26-028756",
+      "0001918704-26-028757",
+      "0001918704-26-028758",
+      "0001918704-26-028759",
       "0001919348-26-000002",
       "0001920053-26-000026",
       "0001920053-26-000028",
