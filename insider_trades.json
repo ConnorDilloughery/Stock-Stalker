@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T12:04:12.671426+00:00",
+  "generatedAt": "2026-09-25T13:02:20.274628+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -1101,6 +1101,36 @@
       "type": "Sale",
       "shares": 200.0,
       "pricePerShare": 348.01,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 3542.0,
+      "pricePerShare": 114.93,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "AFL",
+      "issuerName": "AFLAC INC",
+      "insiderName": "Japan Post Holdings Co., Ltd.",
+      "title": "10% Owner",
+      "type": "Sale",
+      "shares": 9958.0,
+      "pricePerShare": 115.3,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "ANIX",
+      "issuerName": "Anixa Biosciences Inc",
+      "insiderName": "Titterton Lewis H jr",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 49036.0,
+      "pricePerShare": 2.69,
       "transactionDate": "2026-09-23"
     },
     {
@@ -29972,36 +30002,6 @@
       "shares": 2010.0,
       "pricePerShare": 362.6504,
       "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "KRYS",
-      "issuerName": "Krystal Biotech, Inc.",
-      "insiderName": "Krishnan Krish S",
-      "title": "Director, President and CEO, 10% Owner",
-      "type": "Sale",
-      "shares": 573.0,
-      "pricePerShare": 363.3424,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "KRYS",
-      "issuerName": "Krystal Biotech, Inc.",
-      "insiderName": "Krishnan Krish S",
-      "title": "Director, President and CEO, 10% Owner",
-      "type": "Sale",
-      "shares": 1358.0,
-      "pricePerShare": 364.4794,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "KRYS",
-      "issuerName": "Krystal Biotech, Inc.",
-      "insiderName": "Krishnan Krish S",
-      "title": "Director, President and CEO, 10% Owner",
-      "type": "Sale",
-      "shares": 847.0,
-      "pricePerShare": 365.4163,
-      "transactionDate": "2026-09-04"
     }
   ],
   "byTicker": {
@@ -35855,6 +35855,236 @@
         }
       ]
     },
+    "AFL": {
+      "issuerName": "AFLAC INC",
+      "trades": [
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 3542.0,
+          "pricePerShare": 114.93,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 9958.0,
+          "pricePerShare": 115.3,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 10373.0,
+          "pricePerShare": 115.36,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1827.0,
+          "pricePerShare": 116.22,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 11745.0,
+          "pricePerShare": 116.54,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1155.0,
+          "pricePerShare": 116.97,
+          "transactionDate": "2026-09-17"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2986.0,
+          "pricePerShare": 116.89,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 10814.0,
+          "pricePerShare": 117.66,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4019.0,
+          "pricePerShare": 116.84,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 9581.0,
+          "pricePerShare": 117.55,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 9545.0,
+          "pricePerShare": 116.62,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 4055.0,
+          "pricePerShare": 117.02,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 13173.0,
+          "pricePerShare": 115.12,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 827.0,
+          "pricePerShare": 115.41,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 11765.0,
+          "pricePerShare": 114.21,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 1535.0,
+          "pricePerShare": 115.16,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 11500.0,
+          "pricePerShare": 115.32,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "AFL",
+          "issuerName": "AFLAC INC",
+          "insiderName": "Japan Post Holdings Co., Ltd.",
+          "title": "10% Owner",
+          "type": "Sale",
+          "shares": 2100.0,
+          "pricePerShare": 116.11,
+          "transactionDate": "2026-09-08"
+        }
+      ]
+    },
+    "ANIX": {
+      "issuerName": "Anixa Biosciences Inc",
+      "trades": [
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "Titterton Lewis H jr",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 49036.0,
+          "pricePerShare": 2.69,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "KUMAR AMIT",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 2.76,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "KUMAR AMIT",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 3000.0,
+          "pricePerShare": 2.75,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "ANIX",
+          "issuerName": "Anixa Biosciences Inc",
+          "insiderName": "Titterton Lewis H jr",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 10000.0,
+          "pricePerShare": 2.73,
+          "transactionDate": "2026-09-10"
+        }
+      ]
+    },
     "UMC": {
       "issuerName": "UNITED MICROELECTRONICS CORP",
       "trades": [
@@ -40462,171 +40692,6 @@
           "shares": 3326670.0,
           "pricePerShare": 5.4393,
           "transactionDate": "2026-09-21"
-        }
-      ]
-    },
-    "AFL": {
-      "issuerName": "AFLAC INC",
-      "trades": [
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 10373.0,
-          "pricePerShare": 115.36,
-          "transactionDate": "2026-09-21"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1827.0,
-          "pricePerShare": 116.22,
-          "transactionDate": "2026-09-21"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 11745.0,
-          "pricePerShare": 116.54,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1155.0,
-          "pricePerShare": 116.97,
-          "transactionDate": "2026-09-17"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2986.0,
-          "pricePerShare": 116.89,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 10814.0,
-          "pricePerShare": 117.66,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4019.0,
-          "pricePerShare": 116.84,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 9581.0,
-          "pricePerShare": 117.55,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 9545.0,
-          "pricePerShare": 116.62,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 4055.0,
-          "pricePerShare": 117.02,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 13173.0,
-          "pricePerShare": 115.12,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 827.0,
-          "pricePerShare": 115.41,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 11765.0,
-          "pricePerShare": 114.21,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 1535.0,
-          "pricePerShare": 115.16,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 11500.0,
-          "pricePerShare": 115.32,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "AFL",
-          "issuerName": "AFLAC INC",
-          "insiderName": "Japan Post Holdings Co., Ltd.",
-          "title": "10% Owner",
-          "type": "Sale",
-          "shares": 2100.0,
-          "pricePerShare": 116.11,
-          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -58700,41 +58765,6 @@
         }
       ]
     },
-    "ANIX": {
-      "issuerName": "Anixa Biosciences Inc",
-      "trades": [
-        {
-          "ticker": "ANIX",
-          "issuerName": "Anixa Biosciences Inc",
-          "insiderName": "KUMAR AMIT",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 5000.0,
-          "pricePerShare": 2.76,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "ANIX",
-          "issuerName": "Anixa Biosciences Inc",
-          "insiderName": "KUMAR AMIT",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 3000.0,
-          "pricePerShare": 2.75,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "ANIX",
-          "issuerName": "Anixa Biosciences Inc",
-          "insiderName": "Titterton Lewis H jr",
-          "title": "Director",
-          "type": "Purchase",
-          "shares": 10000.0,
-          "pricePerShare": 2.73,
-          "transactionDate": "2026-09-10"
-        }
-      ]
-    },
     "PHI": {
       "issuerName": "PLDT Inc.",
       "trades": [
@@ -63317,36 +63347,6 @@
           "shares": 2010.0,
           "pricePerShare": 362.6504,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "KRYS",
-          "issuerName": "Krystal Biotech, Inc.",
-          "insiderName": "Krishnan Krish S",
-          "title": "Director, President and CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 573.0,
-          "pricePerShare": 363.3424,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "KRYS",
-          "issuerName": "Krystal Biotech, Inc.",
-          "insiderName": "Krishnan Krish S",
-          "title": "Director, President and CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 1358.0,
-          "pricePerShare": 364.4794,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "KRYS",
-          "issuerName": "Krystal Biotech, Inc.",
-          "insiderName": "Krishnan Krish S",
-          "title": "Director, President and CEO, 10% Owner",
-          "type": "Sale",
-          "shares": 847.0,
-          "pricePerShare": 365.4163,
-          "transactionDate": "2026-09-04"
         }
       ]
     }
@@ -64426,6 +64426,11 @@
       "0000785161-26-000191",
       "0000785161-26-000192",
       "0000787441-26-000039",
+      "0000787441-26-000072",
+      "0000787441-26-000073",
+      "0000787441-26-000074",
+      "0000787441-26-000075",
+      "0000787441-26-000076",
       "0000788599-26-000084",
       "0000789019-26-000176",
       "0000789019-26-000177",
@@ -64664,6 +64669,10 @@
       "0000886982-26-000522",
       "0000887340-26-000097",
       "0000887340-26-000099",
+      "0000887340-26-000108",
+      "0000887340-26-000109",
+      "0000887340-26-000110",
+      "0000887340-26-000111",
       "0000887343-26-000178",
       "0000890339-26-000010",
       "0000890926-26-000138",
@@ -64874,6 +64883,7 @@
       "0000895430-26-000024",
       "0000895430-26-000028",
       "0000895430-26-000030",
+      "0000895430-26-000034",
       "0000896622-26-000170",
       "0000896622-26-000172",
       "0000896622-26-000174",
@@ -65244,6 +65254,7 @@
       "0000919574-26-006417",
       "0000919574-26-006451",
       "0000919574-26-006472",
+      "0000919574-26-006476",
       "0000920148-26-000172",
       "0000920148-26-000176",
       "0000920148-26-000177",
@@ -65373,6 +65384,7 @@
       "0000930413-26-002974",
       "0000930413-26-002976",
       "0000930413-26-002977",
+      "0000930413-26-002987",
       "0000931148-26-000077",
       "0000932781-26-000045",
       "0000932781-26-000047",
@@ -68811,6 +68823,14 @@
       "0001104659-26-110504",
       "0001104659-26-110505",
       "0001104659-26-110593",
+      "0001104659-26-110635",
+      "0001104659-26-110643",
+      "0001104659-26-110644",
+      "0001104659-26-110645",
+      "0001104659-26-110653",
+      "0001104659-26-110654",
+      "0001104659-26-110657",
+      "0001104659-26-110660",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -79295,6 +79315,9 @@
       "0001468327-26-000055",
       "0001468327-26-000065",
       "0001469192-26-000107",
+      "0001469192-26-000202",
+      "0001469192-26-000203",
+      "0001469192-26-000204",
       "0001469367-26-000055",
       "0001469527-26-000006",
       "0001469998-26-000010",
@@ -80085,6 +80108,8 @@
       "0001493152-26-044229",
       "0001493152-26-044233",
       "0001493152-26-044234",
+      "0001493152-26-044250",
+      "0001493152-26-044253",
       "0001493225-26-000076",
       "0001493225-26-000077",
       "0001493225-26-000078",
@@ -81247,6 +81272,7 @@
       "0001623632-26-001508",
       "0001623632-26-001509",
       "0001623632-26-001510",
+      "0001623632-26-001511",
       "0001624067-26-000002",
       "0001624067-26-000004",
       "0001624067-26-000006",
@@ -93439,6 +93465,9 @@
       "0001999371-26-021276",
       "0001999371-26-021292",
       "0001999371-26-021296",
+      "0001999371-26-021300",
+      "0001999371-26-021304",
+      "0001999371-26-021306",
       "0001999488-26-000013",
       "0001999525-26-000002",
       "0001999598-26-000010",
