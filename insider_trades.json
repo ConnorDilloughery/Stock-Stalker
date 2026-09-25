@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T22:03:56.360682+00:00",
+  "generatedAt": "2026-09-25T23:01:51.379576+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -31,6 +31,76 @@
       "type": "Purchase",
       "shares": 538.0,
       "pricePerShare": 8.9,
+      "transactionDate": "2026-09-25"
+    },
+    {
+      "ticker": "JCTC",
+      "issuerName": "JEWETT CAMERON TRADING CO LTD",
+      "insiderName": "AJB Investment Fund II, LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 7.0,
+      "pricePerShare": 2.939,
+      "transactionDate": "2026-09-25"
+    },
+    {
+      "ticker": "JCTC",
+      "issuerName": "JEWETT CAMERON TRADING CO LTD",
+      "insiderName": "AJB Investment Fund II, LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 441.0,
+      "pricePerShare": 2.914,
+      "transactionDate": "2026-09-25"
+    },
+    {
+      "ticker": "JCTC",
+      "issuerName": "JEWETT CAMERON TRADING CO LTD",
+      "insiderName": "AJB Investment Fund II, LP",
+      "title": "10% Owner",
+      "type": "Purchase",
+      "shares": 97.0,
+      "pricePerShare": 2.915,
+      "transactionDate": "2026-09-25"
+    },
+    {
+      "ticker": "CX",
+      "issuerName": "CEMEX SAB DE CV",
+      "insiderName": "Zambrano Lozano Rogelio",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 400800.0,
+      "pricePerShare": 17.2812,
+      "transactionDate": "2026-09-25"
+    },
+    {
+      "ticker": "CYPH",
+      "issuerName": "CYPHERPUNK TECHNOLOGIES INC.",
+      "insiderName": "Oei Khing Djien",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 168750.0,
+      "pricePerShare": 3.92,
+      "transactionDate": "2026-09-25"
+    },
+    {
+      "ticker": "RSI",
+      "issuerName": "Rush Street Interactive, Inc.",
+      "insiderName": "Markell Jack A.",
+      "title": "Director",
+      "type": "Purchase",
+      "shares": 1500.0,
+      "pricePerShare": 19.35,
+      "transactionDate": "2026-09-25"
+    },
+    {
+      "ticker": "QCOM",
+      "issuerName": "QUALCOMM INC/DE",
+      "insiderName": "AMON CRISTIANO R",
+      "title": "Director, President & CEO",
+      "type": "Sale",
+      "shares": 10000.0,
+      "pricePerShare": 200.0,
       "transactionDate": "2026-09-25"
     },
     {
@@ -271,6 +341,36 @@
       "type": "Purchase",
       "shares": 10000.0,
       "pricePerShare": 13.03,
+      "transactionDate": "2026-09-24"
+    },
+    {
+      "ticker": "NTNX",
+      "issuerName": "Nutanix, Inc.",
+      "insiderName": "Maner Tarkan",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 69778.0,
+      "pricePerShare": 68.2332,
+      "transactionDate": "2026-09-24"
+    },
+    {
+      "ticker": "KVYO",
+      "issuerName": "Klaviyo, Inc.",
+      "insiderName": "Hallen Ed",
+      "title": "Director, 10% Owner",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 17.02,
+      "transactionDate": "2026-09-24"
+    },
+    {
+      "ticker": "KVYO",
+      "issuerName": "Klaviyo, Inc.",
+      "insiderName": "Hallen Ed",
+      "title": "Director, 10% Owner",
+      "type": "Sale",
+      "shares": 800.0,
+      "pricePerShare": 17.02,
       "transactionDate": "2026-09-24"
     },
     {
@@ -1411,6 +1511,56 @@
       "type": "Sale",
       "shares": 620.0,
       "pricePerShare": 256.1465,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "ADAG",
+      "issuerName": "Adagene Inc.",
+      "insiderName": "Tam Man Kin",
+      "title": "Director, Chief Financial Officer",
+      "type": "Purchase",
+      "shares": 2000.0,
+      "pricePerShare": 3.0,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "CYPH",
+      "issuerName": "CYPHERPUNK TECHNOLOGIES INC.",
+      "insiderName": "Martin Patricia A.",
+      "title": "Director",
+      "type": "Sale",
+      "shares": 50000.0,
+      "pricePerShare": 3.86,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "BKKT",
+      "issuerName": "Bakkt, Inc.",
+      "insiderName": "Henderson Joseph Sean-Walsh",
+      "title": "Chief Accounting Officer",
+      "type": "Sale",
+      "shares": 282.0,
+      "pricePerShare": 8.61,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "BKKT",
+      "issuerName": "Bakkt, Inc.",
+      "insiderName": "D'Annunzio Marc",
+      "title": "General Counsel & Secretary",
+      "type": "Sale",
+      "shares": 1272.0,
+      "pricePerShare": 8.61,
+      "transactionDate": "2026-09-23"
+    },
+    {
+      "ticker": "BKKT",
+      "issuerName": "Bakkt, Inc.",
+      "insiderName": "Baes Nicholas",
+      "title": "Chief Operating Officer",
+      "type": "Sale",
+      "shares": 1272.0,
+      "pricePerShare": 8.61,
       "transactionDate": "2026-09-23"
     },
     {
@@ -29852,156 +30002,6 @@
       "shares": 100.0,
       "pricePerShare": 21.17,
       "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 21.19,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 80.0,
-      "pricePerShare": 21.2,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 21.225,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 21.235,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 21.24,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 112.0,
-      "pricePerShare": 21.245,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 21.25,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 340.0,
-      "pricePerShare": 21.255,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 170.0,
-      "pricePerShare": 21.26,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 21.265,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 120.0,
-      "pricePerShare": 21.275,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 70.0,
-      "pricePerShare": 21.285,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 160.0,
-      "pricePerShare": 21.295,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 160.0,
-      "pricePerShare": 21.3,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 90.0,
-      "pricePerShare": 21.305,
-      "transactionDate": "2026-09-04"
     }
   ],
   "byTicker": {
@@ -30117,6 +30117,241 @@
           "shares": 3540.0,
           "pricePerShare": 8.81,
           "transactionDate": "2026-09-22"
+        }
+      ]
+    },
+    "JCTC": {
+      "issuerName": "JEWETT CAMERON TRADING CO LTD",
+      "trades": [
+        {
+          "ticker": "JCTC",
+          "issuerName": "JEWETT CAMERON TRADING CO LTD",
+          "insiderName": "AJB Investment Fund II, LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 7.0,
+          "pricePerShare": 2.939,
+          "transactionDate": "2026-09-25"
+        },
+        {
+          "ticker": "JCTC",
+          "issuerName": "JEWETT CAMERON TRADING CO LTD",
+          "insiderName": "AJB Investment Fund II, LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 441.0,
+          "pricePerShare": 2.914,
+          "transactionDate": "2026-09-25"
+        },
+        {
+          "ticker": "JCTC",
+          "issuerName": "JEWETT CAMERON TRADING CO LTD",
+          "insiderName": "AJB Investment Fund II, LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 97.0,
+          "pricePerShare": 2.915,
+          "transactionDate": "2026-09-25"
+        },
+        {
+          "ticker": "JCTC",
+          "issuerName": "JEWETT CAMERON TRADING CO LTD",
+          "insiderName": "AJB Investment Fund II, LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 5000.0,
+          "pricePerShare": 2.8999,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "JCTC",
+          "issuerName": "JEWETT CAMERON TRADING CO LTD",
+          "insiderName": "AJB Investment Fund II, LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 900.0,
+          "pricePerShare": 2.9,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "JCTC",
+          "issuerName": "JEWETT CAMERON TRADING CO LTD",
+          "insiderName": "AJB Investment Fund II, LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 6.0,
+          "pricePerShare": 2.885,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "JCTC",
+          "issuerName": "JEWETT CAMERON TRADING CO LTD",
+          "insiderName": "AJB Investment Fund II, LP",
+          "title": "10% Owner",
+          "type": "Purchase",
+          "shares": 8.0,
+          "pricePerShare": 2.91,
+          "transactionDate": "2026-09-10"
+        }
+      ]
+    },
+    "CX": {
+      "issuerName": "CEMEX SAB DE CV",
+      "trades": [
+        {
+          "ticker": "CX",
+          "issuerName": "CEMEX SAB DE CV",
+          "insiderName": "Zambrano Lozano Rogelio",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 400800.0,
+          "pricePerShare": 17.2812,
+          "transactionDate": "2026-09-25"
+        }
+      ]
+    },
+    "CYPH": {
+      "issuerName": "CYPHERPUNK TECHNOLOGIES INC.",
+      "trades": [
+        {
+          "ticker": "CYPH",
+          "issuerName": "CYPHERPUNK TECHNOLOGIES INC.",
+          "insiderName": "Oei Khing Djien",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 168750.0,
+          "pricePerShare": 3.92,
+          "transactionDate": "2026-09-25"
+        },
+        {
+          "ticker": "CYPH",
+          "issuerName": "CYPHERPUNK TECHNOLOGIES INC.",
+          "insiderName": "Martin Patricia A.",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 50000.0,
+          "pricePerShare": 3.86,
+          "transactionDate": "2026-09-23"
+        }
+      ]
+    },
+    "RSI": {
+      "issuerName": "Rush Street Interactive, Inc.",
+      "trades": [
+        {
+          "ticker": "RSI",
+          "issuerName": "Rush Street Interactive, Inc.",
+          "insiderName": "Markell Jack A.",
+          "title": "Director",
+          "type": "Purchase",
+          "shares": 1500.0,
+          "pricePerShare": 19.35,
+          "transactionDate": "2026-09-25"
+        }
+      ]
+    },
+    "QCOM": {
+      "issuerName": "QUALCOMM INC/DE",
+      "trades": [
+        {
+          "ticker": "QCOM",
+          "issuerName": "QUALCOMM INC/DE",
+          "insiderName": "AMON CRISTIANO R",
+          "title": "Director, President & CEO",
+          "type": "Sale",
+          "shares": 10000.0,
+          "pricePerShare": 200.0,
+          "transactionDate": "2026-09-25"
+        },
+        {
+          "ticker": "QCOM",
+          "issuerName": "QUALCOMM INC/DE",
+          "insiderName": "Palkhiwala Akash J.",
+          "title": "EVP, CFO & COO",
+          "type": "Sale",
+          "shares": 32.0,
+          "pricePerShare": 177.6169,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "QCOM",
+          "issuerName": "QUALCOMM INC/DE",
+          "insiderName": "Palkhiwala Akash J.",
+          "title": "EVP, CFO & COO",
+          "type": "Sale",
+          "shares": 36.0,
+          "pricePerShare": 178.6308,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "QCOM",
+          "issuerName": "QUALCOMM INC/DE",
+          "insiderName": "Palkhiwala Akash J.",
+          "title": "EVP, CFO & COO",
+          "type": "Sale",
+          "shares": 48.0,
+          "pricePerShare": 179.7613,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "QCOM",
+          "issuerName": "QUALCOMM INC/DE",
+          "insiderName": "Palkhiwala Akash J.",
+          "title": "EVP, CFO & COO",
+          "type": "Sale",
+          "shares": 82.0,
+          "pricePerShare": 180.8706,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "QCOM",
+          "issuerName": "QUALCOMM INC/DE",
+          "insiderName": "Palkhiwala Akash J.",
+          "title": "EVP, CFO & COO",
+          "type": "Sale",
+          "shares": 696.0,
+          "pricePerShare": 181.8905,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "QCOM",
+          "issuerName": "QUALCOMM INC/DE",
+          "insiderName": "Palkhiwala Akash J.",
+          "title": "EVP, CFO & COO",
+          "type": "Sale",
+          "shares": 508.0,
+          "pricePerShare": 182.6937,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "QCOM",
+          "issuerName": "QUALCOMM INC/DE",
+          "insiderName": "Palkhiwala Akash J.",
+          "title": "EVP, CFO & COO",
+          "type": "Sale",
+          "shares": 739.0,
+          "pricePerShare": 183.8443,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "QCOM",
+          "issuerName": "QUALCOMM INC/DE",
+          "insiderName": "Palkhiwala Akash J.",
+          "title": "EVP, CFO & COO",
+          "type": "Sale",
+          "shares": 347.0,
+          "pricePerShare": 184.6275,
+          "transactionDate": "2026-09-11"
+        },
+        {
+          "ticker": "QCOM",
+          "issuerName": "QUALCOMM INC/DE",
+          "insiderName": "Palkhiwala Akash J.",
+          "title": "EVP, CFO & COO",
+          "type": "Sale",
+          "shares": 12.0,
+          "pricePerShare": 185.315,
+          "transactionDate": "2026-09-11"
         }
       ]
     },
@@ -31691,6 +31926,56 @@
           "type": "Purchase",
           "shares": 10000.0,
           "pricePerShare": 13.03,
+          "transactionDate": "2026-09-24"
+        }
+      ]
+    },
+    "NTNX": {
+      "issuerName": "Nutanix, Inc.",
+      "trades": [
+        {
+          "ticker": "NTNX",
+          "issuerName": "Nutanix, Inc.",
+          "insiderName": "Maner Tarkan",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 69778.0,
+          "pricePerShare": 68.2332,
+          "transactionDate": "2026-09-24"
+        },
+        {
+          "ticker": "NTNX",
+          "issuerName": "Nutanix, Inc.",
+          "insiderName": "Sivaraman Rukmini",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 38139.0,
+          "pricePerShare": 70.002,
+          "transactionDate": "2026-09-17"
+        }
+      ]
+    },
+    "KVYO": {
+      "issuerName": "Klaviyo, Inc.",
+      "trades": [
+        {
+          "ticker": "KVYO",
+          "issuerName": "Klaviyo, Inc.",
+          "insiderName": "Hallen Ed",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 17.02,
+          "transactionDate": "2026-09-24"
+        },
+        {
+          "ticker": "KVYO",
+          "issuerName": "Klaviyo, Inc.",
+          "insiderName": "Hallen Ed",
+          "title": "Director, 10% Owner",
+          "type": "Sale",
+          "shares": 800.0,
+          "pricePerShare": 17.02,
           "transactionDate": "2026-09-24"
         }
       ]
@@ -36772,6 +37057,66 @@
           "shares": 3000.0,
           "pricePerShare": 241.25,
           "transactionDate": "2026-09-21"
+        }
+      ]
+    },
+    "ADAG": {
+      "issuerName": "Adagene Inc.",
+      "trades": [
+        {
+          "ticker": "ADAG",
+          "issuerName": "Adagene Inc.",
+          "insiderName": "Tam Man Kin",
+          "title": "Director, Chief Financial Officer",
+          "type": "Purchase",
+          "shares": 2000.0,
+          "pricePerShare": 3.0,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "ADAG",
+          "issuerName": "Adagene Inc.",
+          "insiderName": "Luo Peter",
+          "title": "Director, Chief Executive Officer",
+          "type": "Purchase",
+          "shares": 20290.0,
+          "pricePerShare": 3.1533,
+          "transactionDate": "2026-09-16"
+        }
+      ]
+    },
+    "BKKT": {
+      "issuerName": "Bakkt, Inc.",
+      "trades": [
+        {
+          "ticker": "BKKT",
+          "issuerName": "Bakkt, Inc.",
+          "insiderName": "Henderson Joseph Sean-Walsh",
+          "title": "Chief Accounting Officer",
+          "type": "Sale",
+          "shares": 282.0,
+          "pricePerShare": 8.61,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "BKKT",
+          "issuerName": "Bakkt, Inc.",
+          "insiderName": "D'Annunzio Marc",
+          "title": "General Counsel & Secretary",
+          "type": "Sale",
+          "shares": 1272.0,
+          "pricePerShare": 8.61,
+          "transactionDate": "2026-09-23"
+        },
+        {
+          "ticker": "BKKT",
+          "issuerName": "Bakkt, Inc.",
+          "insiderName": "Baes Nicholas",
+          "title": "Chief Operating Officer",
+          "type": "Sale",
+          "shares": 1272.0,
+          "pricePerShare": 8.61,
+          "transactionDate": "2026-09-23"
         }
       ]
     },
@@ -44675,21 +45020,6 @@
         }
       ]
     },
-    "NTNX": {
-      "issuerName": "Nutanix, Inc.",
-      "trades": [
-        {
-          "ticker": "NTNX",
-          "issuerName": "Nutanix, Inc.",
-          "insiderName": "Sivaraman Rukmini",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 38139.0,
-          "pricePerShare": 70.002,
-          "transactionDate": "2026-09-17"
-        }
-      ]
-    },
     "TVTX": {
       "issuerName": "Travere Therapeutics, Inc.",
       "trades": [
@@ -47172,21 +47502,6 @@
           "shares": 40000.0,
           "pricePerShare": 12.5627,
           "transactionDate": "2026-09-15"
-        }
-      ]
-    },
-    "ADAG": {
-      "issuerName": "Adagene Inc.",
-      "trades": [
-        {
-          "ticker": "ADAG",
-          "issuerName": "Adagene Inc.",
-          "insiderName": "Luo Peter",
-          "title": "Director, Chief Executive Officer",
-          "type": "Purchase",
-          "shares": 20290.0,
-          "pricePerShare": 3.1533,
-          "transactionDate": "2026-09-16"
         }
       ]
     },
@@ -54465,51 +54780,6 @@
         }
       ]
     },
-    "JCTC": {
-      "issuerName": "JEWETT CAMERON TRADING CO LTD",
-      "trades": [
-        {
-          "ticker": "JCTC",
-          "issuerName": "JEWETT CAMERON TRADING CO LTD",
-          "insiderName": "AJB Investment Fund II, LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 5000.0,
-          "pricePerShare": 2.8999,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "JCTC",
-          "issuerName": "JEWETT CAMERON TRADING CO LTD",
-          "insiderName": "AJB Investment Fund II, LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 900.0,
-          "pricePerShare": 2.9,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "JCTC",
-          "issuerName": "JEWETT CAMERON TRADING CO LTD",
-          "insiderName": "AJB Investment Fund II, LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 6.0,
-          "pricePerShare": 2.885,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "JCTC",
-          "issuerName": "JEWETT CAMERON TRADING CO LTD",
-          "insiderName": "AJB Investment Fund II, LP",
-          "title": "10% Owner",
-          "type": "Purchase",
-          "shares": 8.0,
-          "pricePerShare": 2.91,
-          "transactionDate": "2026-09-10"
-        }
-      ]
-    },
     "PMTS": {
       "issuerName": "CPI Card Group Inc.",
       "trades": [
@@ -57181,101 +57451,6 @@
           "type": "Sale",
           "shares": 20000.0,
           "pricePerShare": 34.85,
-          "transactionDate": "2026-09-11"
-        }
-      ]
-    },
-    "QCOM": {
-      "issuerName": "QUALCOMM INC/DE",
-      "trades": [
-        {
-          "ticker": "QCOM",
-          "issuerName": "QUALCOMM INC/DE",
-          "insiderName": "Palkhiwala Akash J.",
-          "title": "EVP, CFO & COO",
-          "type": "Sale",
-          "shares": 32.0,
-          "pricePerShare": 177.6169,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "QCOM",
-          "issuerName": "QUALCOMM INC/DE",
-          "insiderName": "Palkhiwala Akash J.",
-          "title": "EVP, CFO & COO",
-          "type": "Sale",
-          "shares": 36.0,
-          "pricePerShare": 178.6308,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "QCOM",
-          "issuerName": "QUALCOMM INC/DE",
-          "insiderName": "Palkhiwala Akash J.",
-          "title": "EVP, CFO & COO",
-          "type": "Sale",
-          "shares": 48.0,
-          "pricePerShare": 179.7613,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "QCOM",
-          "issuerName": "QUALCOMM INC/DE",
-          "insiderName": "Palkhiwala Akash J.",
-          "title": "EVP, CFO & COO",
-          "type": "Sale",
-          "shares": 82.0,
-          "pricePerShare": 180.8706,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "QCOM",
-          "issuerName": "QUALCOMM INC/DE",
-          "insiderName": "Palkhiwala Akash J.",
-          "title": "EVP, CFO & COO",
-          "type": "Sale",
-          "shares": 696.0,
-          "pricePerShare": 181.8905,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "QCOM",
-          "issuerName": "QUALCOMM INC/DE",
-          "insiderName": "Palkhiwala Akash J.",
-          "title": "EVP, CFO & COO",
-          "type": "Sale",
-          "shares": 508.0,
-          "pricePerShare": 182.6937,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "QCOM",
-          "issuerName": "QUALCOMM INC/DE",
-          "insiderName": "Palkhiwala Akash J.",
-          "title": "EVP, CFO & COO",
-          "type": "Sale",
-          "shares": 739.0,
-          "pricePerShare": 183.8443,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "QCOM",
-          "issuerName": "QUALCOMM INC/DE",
-          "insiderName": "Palkhiwala Akash J.",
-          "title": "EVP, CFO & COO",
-          "type": "Sale",
-          "shares": 347.0,
-          "pricePerShare": 184.6275,
-          "transactionDate": "2026-09-11"
-        },
-        {
-          "ticker": "QCOM",
-          "issuerName": "QUALCOMM INC/DE",
-          "insiderName": "Palkhiwala Akash J.",
-          "title": "EVP, CFO & COO",
-          "type": "Sale",
-          "shares": 12.0,
-          "pricePerShare": 185.315,
           "transactionDate": "2026-09-11"
         }
       ]
@@ -63222,156 +63397,6 @@
           "shares": 100.0,
           "pricePerShare": 21.17,
           "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 21.19,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 80.0,
-          "pricePerShare": 21.2,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 21.225,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 21.235,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 21.24,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 112.0,
-          "pricePerShare": 21.245,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 21.25,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 340.0,
-          "pricePerShare": 21.255,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 170.0,
-          "pricePerShare": 21.26,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 21.265,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 120.0,
-          "pricePerShare": 21.275,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 70.0,
-          "pricePerShare": 21.285,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 160.0,
-          "pricePerShare": 21.295,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 160.0,
-          "pricePerShare": 21.3,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 90.0,
-          "pricePerShare": 21.305,
-          "transactionDate": "2026-09-04"
         }
       ]
     }
@@ -64518,6 +64543,7 @@
       "0000802222-26-000044",
       "0000804328-26-000093",
       "0000804328-26-000094",
+      "0000804328-26-000096",
       "0000806180-26-000069",
       "0000806180-26-000079",
       "0000806968-26-000054",
@@ -65541,6 +65567,7 @@
       "0000939057-26-000237",
       "0000939057-26-000238",
       "0000939057-26-000239",
+      "0000939057-26-000241",
       "0000939767-26-000101",
       "0000940420-26-000019",
       "0000940420-26-000021",
@@ -68957,6 +68984,14 @@
       "0001104659-26-111040",
       "0001104659-26-111048",
       "0001104659-26-111049",
+      "0001104659-26-111059",
+      "0001104659-26-111060",
+      "0001104659-26-111061",
+      "0001104659-26-111062",
+      "0001104659-26-111063",
+      "0001104659-26-111064",
+      "0001104659-26-111066",
+      "0001104659-26-111069",
       "0001106578-26-000106",
       "0001106578-26-000107",
       "0001106578-26-000108",
@@ -70199,6 +70234,11 @@
       "0001177609-26-000035",
       "0001177609-26-000036",
       "0001177609-26-000038",
+      "0001177609-26-000058",
+      "0001177609-26-000059",
+      "0001177609-26-000060",
+      "0001177609-26-000061",
+      "0001177609-26-000062",
       "0001178032-26-000008",
       "0001178579-26-000016",
       "0001178579-26-000017",
@@ -75043,6 +75083,9 @@
       "0001193125-26-403001",
       "0001193125-26-403002",
       "0001193125-26-403004",
+      "0001193125-26-403031",
+      "0001193125-26-403038",
+      "0001193125-26-403066",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -77001,6 +77044,7 @@
       "0001213900-26-103593",
       "0001213900-26-103601",
       "0001213900-26-103620",
+      "0001213900-26-103642",
       "0001214607-26-000017",
       "0001214659-26-008709",
       "0001214659-26-008711",
@@ -79728,6 +79772,7 @@
       "0001470831-26-000870",
       "0001470831-26-000890",
       "0001470831-26-000897",
+      "0001470831-26-000904",
       "0001471436-26-000002",
       "0001471619-26-000002",
       "0001473289-26-000021",
@@ -79815,6 +79860,7 @@
       "0001477932-26-005712",
       "0001477932-26-005738",
       "0001477932-26-005782",
+      "0001477932-26-005811",
       "0001478669-26-000015",
       "0001478916-26-000015",
       "0001479079-26-000035",
@@ -80917,6 +80963,7 @@
       "0001536588-26-000026",
       "0001536588-26-000029",
       "0001536588-26-000031",
+      "0001536588-26-000036",
       "0001536639-26-000004",
       "0001538263-26-000108",
       "0001538429-26-000008",
@@ -82747,6 +82794,12 @@
       "0001628280-26-063616",
       "0001628280-26-063624",
       "0001628280-26-063626",
+      "0001628280-26-063628",
+      "0001628280-26-063630",
+      "0001628280-26-063632",
+      "0001628280-26-063634",
+      "0001628280-26-063636",
+      "0001628280-26-063638",
       "0001628873-26-000086",
       "0001629079-26-000002",
       "0001629111-26-000010",
@@ -83100,6 +83153,7 @@
       "0001675948-26-000007",
       "0001676220-26-000007",
       "0001676421-26-000002",
+      "0001676522-26-000004",
       "0001676766-26-000006",
       "0001677703-26-000106",
       "0001677721-26-000014",
@@ -83371,6 +83425,7 @@
       "0001705477-26-000002",
       "0001705850-26-000022",
       "0001705850-26-000025",
+      "0001705859-26-000006",
       "0001705952-26-000011",
       "0001706001-26-000006",
       "0001706001-26-000009",
@@ -94306,6 +94361,7 @@
       "0002034870-26-000003",
       "0002034870-26-000004",
       "0002034984-26-000006",
+      "0002035244-26-000009",
       "0002035295-26-000006",
       "0002035446-26-000024",
       "0002035613-26-000003",
@@ -94710,6 +94766,7 @@
       "0002080126-26-000028",
       "0002080157-26-000013",
       "0002080452-26-000011",
+      "0002080452-26-000013",
       "0002080456-26-000007",
       "0002080505-26-000002",
       "0002080505-26-000004",
