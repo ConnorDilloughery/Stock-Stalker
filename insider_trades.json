@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T23:01:51.379576+00:00",
+  "generatedAt": "2026-09-26T00:01:54.135475+00:00",
   "source": "SEC EDGAR Form 4 filings (sec.gov) \u2014 scoped to tickers currently passing Undercurrent's Full Market screen",
   "count": 3000,
   "trades": [
@@ -101,6 +101,16 @@
       "type": "Sale",
       "shares": 10000.0,
       "pricePerShare": 200.0,
+      "transactionDate": "2026-09-25"
+    },
+    {
+      "ticker": "MAX",
+      "issuerName": "MediaAlpha, Inc.",
+      "insiderName": "Yeh Kuanling Amy",
+      "title": "Chief Technology Officer",
+      "type": "Sale",
+      "shares": 3000.0,
+      "pricePerShare": 9.4,
       "transactionDate": "2026-09-25"
     },
     {
@@ -371,6 +381,46 @@
       "type": "Sale",
       "shares": 800.0,
       "pricePerShare": 17.02,
+      "transactionDate": "2026-09-24"
+    },
+    {
+      "ticker": "ORIC",
+      "issuerName": "Oric Pharmaceuticals, Inc.",
+      "insiderName": "Piscitelli Dominic",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 100.0,
+      "pricePerShare": 13.5,
+      "transactionDate": "2026-09-24"
+    },
+    {
+      "ticker": "ORIC",
+      "issuerName": "Oric Pharmaceuticals, Inc.",
+      "insiderName": "Piscitelli Dominic",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 500.0,
+      "pricePerShare": 13.505,
+      "transactionDate": "2026-09-24"
+    },
+    {
+      "ticker": "PUBM",
+      "issuerName": "PubMatic, Inc.",
+      "insiderName": "Goel Rajeev K.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 10080.0,
+      "pricePerShare": 18.0516,
+      "transactionDate": "2026-09-24"
+    },
+    {
+      "ticker": "PUBM",
+      "issuerName": "PubMatic, Inc.",
+      "insiderName": "Goel Rajeev K.",
+      "title": "Reporting Person",
+      "type": "Sale",
+      "shares": 40373.0,
+      "pricePerShare": 18.5439,
       "transactionDate": "2026-09-24"
     },
     {
@@ -29952,56 +30002,6 @@
       "shares": 100650.0,
       "pricePerShare": 218.39,
       "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "ILMN",
-      "issuerName": "ILLUMINA, INC.",
-      "insiderName": "Meister Keith A.",
-      "title": "Reporting Person",
-      "type": "Sale",
-      "shares": 11351.0,
-      "pricePerShare": 219.18,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "HAPN",
-      "issuerName": "Happen, Inc.",
-      "insiderName": "Selleck Erin",
-      "title": "Director",
-      "type": "Sale",
-      "shares": 2057.0,
-      "pricePerShare": 17.41,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "ATRA",
-      "issuerName": "Atara Biotherapeutics, Inc.",
-      "insiderName": "Cherry Brian N",
-      "title": "Reporting Person",
-      "type": "Purchase",
-      "shares": 104166.0,
-      "pricePerShare": 9.6,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 70.0,
-      "pricePerShare": 21.16,
-      "transactionDate": "2026-09-04"
-    },
-    {
-      "ticker": "FCF",
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "insiderName": "Reske James R",
-      "title": "EVP/Chief Financial Officer",
-      "type": "Sale",
-      "shares": 100.0,
-      "pricePerShare": 21.17,
-      "transactionDate": "2026-09-04"
     }
   ],
   "byTicker": {
@@ -30352,6 +30352,191 @@
           "shares": 12.0,
           "pricePerShare": 185.315,
           "transactionDate": "2026-09-11"
+        }
+      ]
+    },
+    "MAX": {
+      "issuerName": "MediaAlpha, Inc.",
+      "trades": [
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Yeh Kuanling Amy",
+          "title": "Chief Technology Officer",
+          "type": "Sale",
+          "shares": 3000.0,
+          "pricePerShare": 9.4,
+          "transactionDate": "2026-09-25"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1067.0,
+          "pricePerShare": 10.7874,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 6667.0,
+          "pricePerShare": 10.7776,
+          "transactionDate": "2026-09-22"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1067.0,
+          "pricePerShare": 10.536,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 6667.0,
+          "pricePerShare": 10.5319,
+          "transactionDate": "2026-09-21"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1940.0,
+          "pricePerShare": 11.2511,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 7273.0,
+          "pricePerShare": 11.2379,
+          "transactionDate": "2026-09-16"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Cramer Keith",
+          "title": "Chief Revenue Officer",
+          "type": "Sale",
+          "shares": 13000.0,
+          "pricePerShare": 11.494,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1940.0,
+          "pricePerShare": 11.4802,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 7273.0,
+          "pricePerShare": 11.4861,
+          "transactionDate": "2026-09-15"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 2667.0,
+          "pricePerShare": 12.034,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 7778.0,
+          "pricePerShare": 11.9575,
+          "transactionDate": "2026-09-14"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1940.0,
+          "pricePerShare": 11.5182,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 7273.0,
+          "pricePerShare": 11.6191,
+          "transactionDate": "2026-09-10"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1940.0,
+          "pricePerShare": 11.6505,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 7273.0,
+          "pricePerShare": 11.4058,
+          "transactionDate": "2026-09-09"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 1940.0,
+          "pricePerShare": 11.6997,
+          "transactionDate": "2026-09-08"
+        },
+        {
+          "ticker": "MAX",
+          "issuerName": "MediaAlpha, Inc.",
+          "insiderName": "Nonko Eugene",
+          "title": "Director",
+          "type": "Sale",
+          "shares": 7273.0,
+          "pricePerShare": 11.7017,
+          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -31976,6 +32161,56 @@
           "type": "Sale",
           "shares": 800.0,
           "pricePerShare": 17.02,
+          "transactionDate": "2026-09-24"
+        }
+      ]
+    },
+    "ORIC": {
+      "issuerName": "Oric Pharmaceuticals, Inc.",
+      "trades": [
+        {
+          "ticker": "ORIC",
+          "issuerName": "Oric Pharmaceuticals, Inc.",
+          "insiderName": "Piscitelli Dominic",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 100.0,
+          "pricePerShare": 13.5,
+          "transactionDate": "2026-09-24"
+        },
+        {
+          "ticker": "ORIC",
+          "issuerName": "Oric Pharmaceuticals, Inc.",
+          "insiderName": "Piscitelli Dominic",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 500.0,
+          "pricePerShare": 13.505,
+          "transactionDate": "2026-09-24"
+        }
+      ]
+    },
+    "PUBM": {
+      "issuerName": "PubMatic, Inc.",
+      "trades": [
+        {
+          "ticker": "PUBM",
+          "issuerName": "PubMatic, Inc.",
+          "insiderName": "Goel Rajeev K.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 10080.0,
+          "pricePerShare": 18.0516,
+          "transactionDate": "2026-09-24"
+        },
+        {
+          "ticker": "PUBM",
+          "issuerName": "PubMatic, Inc.",
+          "insiderName": "Goel Rajeev K.",
+          "title": "Reporting Person",
+          "type": "Sale",
+          "shares": 40373.0,
+          "pricePerShare": 18.5439,
           "transactionDate": "2026-09-24"
         }
       ]
@@ -38422,181 +38657,6 @@
           "shares": 9795.0,
           "pricePerShare": 0.7558,
           "transactionDate": "2026-09-21"
-        }
-      ]
-    },
-    "MAX": {
-      "issuerName": "MediaAlpha, Inc.",
-      "trades": [
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1067.0,
-          "pricePerShare": 10.7874,
-          "transactionDate": "2026-09-22"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 6667.0,
-          "pricePerShare": 10.7776,
-          "transactionDate": "2026-09-22"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1067.0,
-          "pricePerShare": 10.536,
-          "transactionDate": "2026-09-21"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 6667.0,
-          "pricePerShare": 10.5319,
-          "transactionDate": "2026-09-21"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1940.0,
-          "pricePerShare": 11.2511,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 7273.0,
-          "pricePerShare": 11.2379,
-          "transactionDate": "2026-09-16"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Cramer Keith",
-          "title": "Chief Revenue Officer",
-          "type": "Sale",
-          "shares": 13000.0,
-          "pricePerShare": 11.494,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1940.0,
-          "pricePerShare": 11.4802,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 7273.0,
-          "pricePerShare": 11.4861,
-          "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 2667.0,
-          "pricePerShare": 12.034,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 7778.0,
-          "pricePerShare": 11.9575,
-          "transactionDate": "2026-09-14"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1940.0,
-          "pricePerShare": 11.5182,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 7273.0,
-          "pricePerShare": 11.6191,
-          "transactionDate": "2026-09-10"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1940.0,
-          "pricePerShare": 11.6505,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 7273.0,
-          "pricePerShare": 11.4058,
-          "transactionDate": "2026-09-09"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 1940.0,
-          "pricePerShare": 11.6997,
-          "transactionDate": "2026-09-08"
-        },
-        {
-          "ticker": "MAX",
-          "issuerName": "MediaAlpha, Inc.",
-          "insiderName": "Nonko Eugene",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 7273.0,
-          "pricePerShare": 11.7017,
-          "transactionDate": "2026-09-08"
         }
       ]
     },
@@ -54292,16 +54352,6 @@
           "shares": 7148.0,
           "pricePerShare": 16.68,
           "transactionDate": "2026-09-15"
-        },
-        {
-          "ticker": "HAPN",
-          "issuerName": "Happen, Inc.",
-          "insiderName": "Selleck Erin",
-          "title": "Director",
-          "type": "Sale",
-          "shares": 2057.0,
-          "pricePerShare": 17.41,
-          "transactionDate": "2026-09-04"
         }
       ]
     },
@@ -63346,56 +63396,6 @@
           "type": "Sale",
           "shares": 100650.0,
           "pricePerShare": 218.39,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "ILMN",
-          "issuerName": "ILLUMINA, INC.",
-          "insiderName": "Meister Keith A.",
-          "title": "Reporting Person",
-          "type": "Sale",
-          "shares": 11351.0,
-          "pricePerShare": 219.18,
-          "transactionDate": "2026-09-04"
-        }
-      ]
-    },
-    "ATRA": {
-      "issuerName": "Atara Biotherapeutics, Inc.",
-      "trades": [
-        {
-          "ticker": "ATRA",
-          "issuerName": "Atara Biotherapeutics, Inc.",
-          "insiderName": "Cherry Brian N",
-          "title": "Reporting Person",
-          "type": "Purchase",
-          "shares": 104166.0,
-          "pricePerShare": 9.6,
-          "transactionDate": "2026-09-04"
-        }
-      ]
-    },
-    "FCF": {
-      "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-      "trades": [
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 70.0,
-          "pricePerShare": 21.16,
-          "transactionDate": "2026-09-04"
-        },
-        {
-          "ticker": "FCF",
-          "issuerName": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
-          "insiderName": "Reske James R",
-          "title": "EVP/Chief Financial Officer",
-          "type": "Sale",
-          "shares": 100.0,
-          "pricePerShare": 21.17,
           "transactionDate": "2026-09-04"
         }
       ]
@@ -75086,6 +75086,7 @@
       "0001193125-26-403031",
       "0001193125-26-403038",
       "0001193125-26-403066",
+      "0001193125-26-403070",
       "0001193210-26-000020",
       "0001193532-26-000008",
       "0001193532-26-000010",
@@ -77910,6 +77911,7 @@
       "0001253820-26-000009",
       "0001253820-26-000011",
       "0001253886-26-000008",
+      "0001254011-26-000004",
       "0001254012-26-000002",
       "0001254037-26-000004",
       "0001254550-26-000023",
@@ -79306,6 +79308,7 @@
       "0001437749-26-031245",
       "0001437749-26-031249",
       "0001437749-26-031251",
+      "0001437749-26-031259",
       "0001437906-26-000003",
       "0001438566-26-000007",
       "0001438584-26-000002",
@@ -83371,6 +83374,7 @@
       "0001694002-26-000011",
       "0001694396-26-000002",
       "0001694645-26-000006",
+      "0001695028-26-000008",
       "0001695434-26-000010",
       "0001695434-26-000011",
       "0001696555-26-000010",
@@ -84310,6 +84314,7 @@
       "0001818383-26-000238",
       "0001818383-26-000239",
       "0001818383-26-000241",
+      "0001818383-26-000243",
       "0001819438-26-000075",
       "0001819718-26-000011",
       "0001819718-26-000015",
@@ -84699,6 +84704,7 @@
       "0001833511-26-000032",
       "0001833511-26-000034",
       "0001833511-26-000036",
+      "0001833511-26-000038",
       "0001833605-26-000005",
       "0001833851-26-000018",
       "0001833851-26-000020",
